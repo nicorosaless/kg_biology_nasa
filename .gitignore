@@ -1,26 +1,107 @@
-# Python
+###############################################
+# Global ignore for kg_biology_nasa
+# Categories:
+#  1) Python build/cache
+#  2) Virtual environments
+#  3) Editor / OS junk
+#  4) Large generated datasets & pipeline outputs
+#  5) Model / HF / NER caches
+#  6) GROBID build + models (reproducible via build)
+#  7) Local scripts / temp / experimental artifacts
+#  8) Secrets & logs
+###############################################
+
+############# 1. Python build/cache #############
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+*.so
 .Python
 build/
 dist/
 *.egg-info/
 .eggs/
+pip-wheel-metadata/
 
-# Virtual env
+############# 2. Virtual environments #############
 .venv/
-.env/
-env/
+.venv_*/
 venv/
+env/
+.env/
 
-# OS
+############# 3. Editor / OS / tooling ###########
 .DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+.history
+*.code-workspace
 
-# Project specific
+############# 4. Generated pipeline outputs ######
+# Summary & KG processing outputs (recreables)
 processed_grobid_pdfs/
 neo4j_export/
-# Secrets / local config
+output/
+graph.json
+graph_*.json
+big_graph_example.json
+graph_PMC*.json
+
+############# 5. Model / cache dirs ##############
+# HuggingFace / transformers / tokenizers
+/.cache/
+cache/
+.hf_cache*/
+hf_cache*/
+transformers_cache/
+tokenizers_cache/
+~/.cache/huggingface/
+# SpaCy models local downloads (if any placed here)
+spacy_models/
+
+############# 6. GROBID related build artifacts ###
+grobid/grobid-core/build/
+grobid/grobid-service/build/
+grobid/grobid-trainer/build/
+grobid/grobid-home/tmp/
+grobid/**/target/
+grobid/**/logs/
+grobid/**/log/
+grobid/**/dependency-reduced-pom.xml
+grobid/**/maven-build.properties
+grobid/**/maven-build.xml
+
+############# 7. Temp / experimental #############
+*.tmp
+*.bak
+*.old
+tmp/
+temp/
+scratch/
+playground/
+demo_kg.sh
+runpaper.md
+
+############# 8. Secrets & credentials ###########
 .env
-.history
+*.key
+*.pem
+*.crt
+*.csr
+*.der
+
+############# 9. Logs ############################
+*.log
+logs/
+log/
+
+############# 10. Jupyter / notebooks ############
+.ipynb_checkpoints/
+
+############# 11. Misc ###########################
+# If you later want to version a specific file inside these dirs
+# use !pattern to unignore explicitly.
