@@ -24,17 +24,35 @@ export interface VoiceSessionHandle {
 async function fetchClientToken(agentId: string): Promise<string> {
   // This endpoint should be implemented on your server.
   // It should mint a short-lived client token using your server-side ELEVENLABS_API_KEY.
-  const res = await fetch("/api/elevenlabs/token", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ agentId }),
-  });
-  if (!res.ok) {
-    throw new Error(`Failed to get ElevenLabs token: ${res.status}`);
+  // Use same-origin /api path; Vite dev proxy forwards to FastAPI backend
+  try {
+    const res = await fetch("/api/elevenlabs/token", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ agentId }),
+    });
+    if (!res.ok) {
+      throw new Error(`Failed to get ElevenLabs token: ${res.status}`);
+    }
+    const data = await res.json();
+    if (!data?.token) throw new Error("Token missing in response");
+    return data.token as string;
+  } catch (err) {
+    // Fallback: direct backend origin if provided
+    const backend = (import.meta as any).env?.VITE_BACKEND_ORIGIN as string | undefined;
+    if (!backend) throw err;
+    const res = await fetch(`${backend}/api/elevenlabs/token`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ agentId }),
+    });
+    if (!res.ok) {
+      throw new Error(`Failed to get ElevenLabs token: ${res.status}`);
+    }
+    const data = await res.json();
+    if (!data?.token) throw new Error("Token missing in response");
+    return data.token as string;
   }
-  const data = await res.json();
-  if (!data?.token) throw new Error("Token missing in response");
-  return data.token as string;
 }
 
 export async function startVoiceSession(opts: VoiceSessionOptions): Promise<VoiceSessionHandle> {

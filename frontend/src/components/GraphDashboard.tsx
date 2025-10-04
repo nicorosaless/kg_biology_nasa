@@ -8,7 +8,6 @@ import { GraphView } from "./GraphView";
 import { TopicGraph } from "./TopicGraph";
 import { PaperDetail } from "./PaperDetail";
 import { ScientistSidebar } from "./ScientistSidebar";
-import { startVoiceSession, ToolEvent } from "../lib/elevenlabsClient";
 
 export const GraphDashboard = () => {
   const [graphData, setGraphData] = useState<GraphData | null>(null);
@@ -20,8 +19,7 @@ export const GraphDashboard = () => {
     showGaps: false,
   });
   const [scientistOpen, setScientistOpen] = useState(true);
-  const [voiceHandle, setVoiceHandle] = useState<{ stop: () => void } | null>(null);
-  // ElevenLabs widget removed; future voice control will be triggered from the button.
+  // Voice is driven by SSE from backend; no direct client session here.
 
   useEffect(() => {
     // Load mock data
@@ -125,76 +123,58 @@ export const GraphDashboard = () => {
       <ScientistSidebar
         open={scientistOpen}
         onOpenChange={setScientistOpen}
-        onToggleVoice={async (active) => {
-          if (active) {
-            try {
-              const handle = await startVoiceSession({
-                agentId: "agent_5501k6r63xjmf938t6gvsgqby1hh",
-                onMessage: (role, text) => {
-                  // Optionally pipe messages to sidebar UI via custom event or state (kept internal for now)
-                  console.debug("[Voice]", role, text);
-                },
-                onTool: (evt: ToolEvent) => {
-                  const name = evt.name;
-                  const p = evt.parameters || {};
-                  if (!graphData) return;
-                  switch (name) {
-                    case "open_cluster": {
-                      const topic = String(p.topic || "").toLowerCase();
-                      const c = graphData.clusters.find((c) => c.label.toLowerCase().includes(topic));
-                      if (c) handleClusterClick(c.id);
-                      break;
-                    }
-                    case "open_paper": {
-                      const title = String(p.title || "").toLowerCase();
-                      const match = graphData.papers.find((pp) => pp.label.toLowerCase().includes(title) || pp.id.toLowerCase() === title);
-                      if (match) handlePaperClick(match.id);
-                      break;
-                    }
-                    case "filter_mission": {
-                      const mission = String(p.mission || "").toLowerCase();
-                      const m: any = ["iss", "mars", "moon"].find((x) => x === mission);
-                      if (m) setFilters((f) => ({ ...f, missions: [m.toUpperCase()] as any }));
-                      break;
-                    }
-                    case "search": {
-                      const query = String(p.query || "");
-                      setSearchQuery(query);
-                      break;
-                    }
-                    case "show_summary": {
-                      // Could trigger a UI hint or ensure PaperDetail tab is Summary
-                      break;
-                    }
-                    case "highlight_gaps": {
-                      setFilters((f) => ({ ...f, showGaps: true }));
-                      break;
-                    }
-                    case "compare_clusters": {
-                      // Future: open a compare view
-                      break;
-                    }
-                    case "idea_link": {
-                      // Future: suggest related papers/topics
-                      break;
-                    }
-                    case "back": {
-                      if (viewState.level === "topic") handleBackToCluster();
-                      else setViewState({ level: "universe" });
-                      break;
-                    }
-                    default:
-                      break;
-                  }
-                },
-              });
-              setVoiceHandle(handle);
-            } catch (e) {
-              console.error(e);
+        onToggleVoice={() => { /* handled internally by sidebar SSE */ }}
+        onToolEvent={(evt) => {
+          if (!graphData) return;
+          const name = evt.name;
+          const p = evt.parameters || {};
+          switch (name) {
+            case "open_cluster": {
+              const topic = String(p.topic || "").toLowerCase();
+              const c = graphData.clusters.find((c) => c.label.toLowerCase().includes(topic));
+              if (c) handleClusterClick(c.id);
+              break;
             }
-          } else {
-            voiceHandle?.stop();
-            setVoiceHandle(null);
+            case "open_paper": {
+              const title = String(p.title || "").toLowerCase();
+              const match = graphData.papers.find((pp) => pp.label.toLowerCase().includes(title) || pp.id.toLowerCase() === title);
+              if (match) handlePaperClick(match.id);
+              break;
+            }
+            case "filter_mission": {
+              const mission = String(p.mission || "").toLowerCase();
+              const m: any = ["iss", "mars", "moon"].find((x) => x === mission);
+              if (m) setFilters((f) => ({ ...f, missions: [m.toUpperCase()] as any }));
+              break;
+            }
+            case "search": {
+              const query = String(p.query || "");
+              setSearchQuery(query);
+              break;
+            }
+            case "show_summary": {
+              // Could trigger a UI hint or ensure PaperDetail tab is Summary
+              break;
+            }
+            case "highlight_gaps": {
+              setFilters((f) => ({ ...f, showGaps: true }));
+              break;
+            }
+            case "compare_clusters": {
+              // Future: open a compare view
+              break;
+            }
+            case "idea_link": {
+              // Future: suggest related papers/topics
+              break;
+            }
+            case "back": {
+              if (viewState.level === "topic") handleBackToCluster();
+              else setViewState({ level: "universe" });
+              break;
+            }
+            default:
+              break;
           }
         }}
       />
