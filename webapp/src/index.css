@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Deep Space Theme - NASA Talkable Scientist */
+    --background: 229 47% 8%;
+    --foreground: 210 100% 96%;
+
+    --card: 229 40% 12%;
+    --card-foreground: 210 100% 96%;
+
+    --popover: 229 45% 10%;
+    --popover-foreground: 210 100% 96%;
+
+    /* Cosmic Purple Primary */
+    --primary: 258 90% 66%;
+    --primary-foreground: 210 100% 98%;
+    --primary-glow: 258 90% 76%;
+
+    /* Deep Space Secondary */
+    --secondary: 229 35% 18%;
+    --secondary-foreground: 210 100% 96%;
+
+    --muted: 229 30% 20%;
+    --muted-foreground: 215 20% 65%;
+
+    /* Cyan Accent */
+    --accent: 188 94% 43%;
+    --accent-foreground: 229 47% 8%;
+    --accent-glow: 188 94% 63%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 100% 98%;
+
+    --border: 229 30% 25%;
+    --input: 229 35% 20%;
+    --ring: 258 90% 66%;
+
+    --radius: 0.75rem;
+
+    /* Mission Colors */
+    --mission-iss: 188 94% 43%;
+    --mission-mars: 14 91% 51%;
+    --mission-moon: 215 50% 70%;
+
+    /* Gradients */
+    --gradient-cosmic: linear-gradient(135deg, hsl(258 90% 66%), hsl(188 94% 43%));
+    --gradient-nebula: linear-gradient(180deg, hsl(258 90% 20% / 0.3), hsl(229 47% 8%));
+    
+    /* Glow Effects */
+    --glow-purple: 0 0 30px hsl(258 90% 66% / 0.4);
+    --glow-cyan: 0 0 30px hsl(188 94% 43% / 0.4);
+    --glow-soft: 0 0 20px hsl(258 90% 66% / 0.2);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

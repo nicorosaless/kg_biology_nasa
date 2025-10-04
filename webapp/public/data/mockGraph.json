@@ -1,0 +1,70 @@
+{
+  "clusters": [
+    {
+      "id": "C101",
+      "label": "Macrocluster: Space Plant Systems",
+      "count": 3,
+      "mission": "ISS",
+      "description": "Plant growth, gene expression, and bioproduction in space habitats"
+    },
+    {
+      "id": "C102",
+      "label": "Macrocluster: Human Health & Performance",
+      "count": 3,
+      "mission": "ISS",
+      "description": "Physiology, countermeasures, and health monitoring for astronauts"
+    },
+    {
+      "id": "C103",
+      "label": "Macrocluster: Radiation & Shielding",
+      "count": 3,
+      "mission": "Mars",
+      "description": "Biological effects of space radiation and protection strategies"
+    },
+    {
+      "id": "C104",
+      "label": "Macrocluster: Bio-regenerative Life Support",
+      "count": 3,
+      "mission": "Moon",
+      "description": "Microbial-plant systems and resource cycling for long-duration missions"
+    }
+  ],
+  "papers": [
+    {"id":"P101","clusterId":"C101","label":"Microgravity Effects on Arabidopsis", "topics":["Microgravity","Phototropism","Root Architecture","Gene Expression"],"year":2019,"mission":"ISS","gapScore":0.22,"summary":"Arabidopsis thaliana exhibits altered root architecture and gene expression in microgravity, revealing key gravitropic pathways."},
+    {"id":"P102","clusterId":"C101","label":"LED Spectra for Space Crops", "topics":["LED Spectra","Photosynthesis","Yield Optimization","Controlled Environments"],"year":2021,"mission":"ISS","gapScore":0.18,"summary":"Narrow-band LED spectra balance photosynthetic efficiency and morphology for compact growth chambers in orbit."},
+    {"id":"P103","clusterId":"C101","label":"Plant-Microbe Symbiosis in Orbit", "topics":["Rhizosphere","Nitrogen Fixation","Stress Resilience","Microbiome"],"year":2020,"mission":"ISS","gapScore":0.34,"summary":"Beneficial microbial consortia improve plant nutrient use and stress resilience during spaceflight."},
+
+    {"id":"P201","clusterId":"C102","label":"Cardiovascular Adaptation to Microgravity", "topics":["Cardiac Output","Orthostatic Intolerance","Exercise Countermeasures","Telemetry"],"year":2020,"mission":"ISS","gapScore":0.4,"summary":"Long-duration missions alter cardiovascular regulation; in-flight exercise protocols mitigate deconditioning."},
+    {"id":"P202","clusterId":"C102","label":"Immune Modulation in Spaceflight", "topics":["Cytokines","T-cell Function","Latent Viruses","Inflammation"],"year":2018,"mission":"ISS","gapScore":0.47,"summary":"Spaceflight skews immune responses and may reactivate latent viruses, requiring tailored countermeasures."},
+    {"id":"P203","clusterId":"C102","label":"Musculoskeletal Loss and Recovery", "topics":["Bone Resorption","Muscle Atrophy","Nutritional Support","Reconditioning"],"year":2017,"mission":"ISS","gapScore":0.52,"summary":"Bone and muscle losses are accelerated in microgravity; combined nutrition and resistive exercise aid recovery."},
+
+    {"id":"P301","clusterId":"C103","label":"DNA Damage by Galactic Cosmic Rays", "topics":["HZE Particles","Double-Strand Breaks","DNA Repair","Shielding"],"year":2022,"mission":"Mars","gapScore":0.66,"summary":"High-energy heavy ions induce complex DNA damage; layered materials improve shielding effectiveness."},
+    {"id":"P302","clusterId":"C103","label":"Radioprotective Pharmacology", "topics":["Antioxidants","Radiomimetics","Dose Modulation","Biomarkers"],"year":2021,"mission":"Mars","gapScore":0.58,"summary":"Candidate radioprotectants reduce cellular damage markers in simulated deep-space radiation fields."},
+    {"id":"P303","clusterId":"C103","label":"Dosimetry Across Mission Phases", "topics":["Dosimeters","Solar Events","Mission Planning","Risk Models"],"year":2019,"mission":"Mars","gapScore":0.49,"summary":"Integrated dosimetry informs risk models through transit, surface ops, and solar particle event contingencies."},
+
+    {"id":"P401","clusterId":"C104","label":"Bioregenerative Air-Water Cycling", "topics":["Bioreactors","Gas Exchange","Water Reclamation","System Integration"],"year":2021,"mission":"Moon","gapScore":0.41,"summary":"Microbial and plant subsystems close air and water loops in prototype life-support modules."},
+    {"id":"P402","clusterId":"C104","label":"Edible Microalgae Production", "topics":["Microalgae","Nutrient Recycling","LED Bioreactors","Food Systems"],"year":2020,"mission":"Moon","gapScore":0.37,"summary":"Compact LED-driven photobioreactors produce edible microalgae with high protein yield from recycled nutrients."},
+    {"id":"P403","clusterId":"C104","label":"Waste-to-Resource BioUpcycling", "topics":["Waste Processing","Composting","Nutrient Mineralization","Closed-Loop"],"year":2018,"mission":"Moon","gapScore":0.54,"summary":"Bioprocessing converts mixed crew wastes into mineralized nutrients for plant production systems."}
+  ],
+  "edges": [
+    { "source": "P101", "target": "P102", "weight": 0.8 },
+    { "source": "P101", "target": "P103", "weight": 0.6 },
+    { "source": "P102", "target": "P103", "weight": 0.55 },
+
+    { "source": "P201", "target": "P202", "weight": 0.65 },
+    { "source": "P201", "target": "P203", "weight": 0.5 },
+    { "source": "P202", "target": "P203", "weight": 0.58 },
+
+    { "source": "P301", "target": "P302", "weight": 0.7 },
+    { "source": "P301", "target": "P303", "weight": 0.52 },
+    { "source": "P302", "target": "P303", "weight": 0.49 },
+
+    { "source": "P401", "target": "P402", "weight": 0.62 },
+    { "source": "P401", "target": "P403", "weight": 0.57 },
+    { "source": "P402", "target": "P403", "weight": 0.6 },
+
+    { "source": "P101", "target": "P201", "weight": 0.3 },
+    { "source": "P103", "target": "P401", "weight": 0.35 },
+    { "source": "P302", "target": "P202", "weight": 0.28 }
+  ]
+}
