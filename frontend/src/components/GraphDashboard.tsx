@@ -14,11 +14,33 @@ export const GraphDashboard = () => {
   const [viewState, setViewState] = useState<ViewState>({ level: "universe" });
   const [searchQuery, setSearchQuery] = useState("");
   const [filters, setFilters] = useState({
-    yearRange: [2015, 2023] as [number, number],
+    yearRange: [2000, 2025] as [number, number],
     missions: ["ISS", "Mars", "Moon"] as Mission[],
     showGaps: false,
   });
   const [scientistOpen, setScientistOpen] = useState(true);
+  const [pendingFocusClusterId, setPendingFocusClusterId] = useState<string | null>(null);
+  const [pendingPaperId, setPendingPaperId] = useState<string | null>(null); // drives GraphView animation
+  const [queuedPaperId, setQueuedPaperId] = useState<string | null>(null); // waiting for cluster animation
+  const [lastClusterRequestedId, setLastClusterRequestedId] = useState<string | null>(null);
+  const [delayedOpenTimer, setDelayedOpenTimer] = useState<number | null>(null);
+
+  // Helper to clear any outstanding delay timers
+  const clearDelayTimer = () => {
+    if (delayedOpenTimer) {
+      window.clearTimeout(delayedOpenTimer);
+      setDelayedOpenTimer(null);
+    }
+  };
+
+  // When we enter topic view, clear queued/pending paper IDs to avoid replays
+  useEffect(() => {
+    if (viewState.level === "topic") {
+      clearDelayTimer();
+      setQueuedPaperId(null);
+      setPendingPaperId(null);
+    }
+  }, [viewState.level]);
   // Voice is driven by SSE from backend; no direct client session here.
 
   useEffect(() => {
@@ -60,6 +82,107 @@ export const GraphDashboard = () => {
     );
   }
 
+  // --- Deterministic resolvers for clusters and papers ---
+  const normalize = (s: string) =>
+    s
+      .toLowerCase()
+      .replace(/^\s*macrocluster\s*:\s*/, "")
+      .replace(/[^a-z0-9\s]/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+
+  const jaccard = (a: string, b: string) => {
+    const A = new Set(normalize(a).split(" ").filter(Boolean));
+    const B = new Set(normalize(b).split(" ").filter(Boolean));
+    if (A.size === 0 && B.size === 0) return 1;
+    let inter = 0;
+    A.forEach((t) => {
+      if (B.has(t)) inter += 1;
+    });
+    const union = A.size + B.size - inter;
+    return union === 0 ? 0 : inter / union;
+  };
+
+  const resolveClusterId = (params: Record<string, any>): string | null => {
+    if (!graphData) return null;
+    const candidates: string[] = [
+      params.clusterId,
+      params.id,
+      params.cluster,
+      params.cluster_name,
+      params.name,
+      params.label,
+      params.topic,
+    ].filter(Boolean) as string[];
+    if (candidates.length === 0) return null;
+    const query = candidates[0];
+    const nq = normalize(String(query));
+
+    // 1) Exact id match
+    const byId = graphData.clusters.find((c) => c.id.toLowerCase() === String(query).toLowerCase());
+    if (byId) return byId.id;
+
+    // 2) Exact normalized label match
+    const exact = graphData.clusters.find((c) => normalize(c.label) === nq);
+    if (exact) return exact.id;
+
+    // 3) StartsWith match on normalized label
+    const starts = graphData.clusters.find((c) => normalize(c.label).startsWith(nq));
+    if (starts) return starts.id;
+
+    // 4) Best Jaccard similarity above threshold
+    let bestId: string | null = null;
+    let best = 0;
+    for (const c of graphData.clusters) {
+      const score = jaccard(c.label, nq);
+      if (score > best) {
+        best = score;
+        bestId = c.id;
+      }
+    }
+    return best >= 0.5 ? bestId : null;
+  };
+
+  const resolvePaperId = (params: Record<string, any>): string | null => {
+    if (!graphData) return null;
+    const candidates: string[] = [
+      params.paperId,
+      params.paper_id,
+      params.id,
+      params.pmid,
+      params.doi,
+      params.title,
+      params.label,
+    ].filter(Boolean) as string[];
+    if (candidates.length === 0) return null;
+    const query = candidates[0];
+    const nq = normalize(String(query));
+
+    // 1) Exact id match (paper.id)
+    const byId = graphData.papers.find((p) => p.id.toLowerCase() === String(query).toLowerCase());
+    if (byId) return byId.id;
+
+    // 2) Exact normalized label (title)
+    const exact = graphData.papers.find((p) => normalize(p.label) === nq);
+    if (exact) return exact.id;
+
+    // 3) StartsWith on normalized title
+    const starts = graphData.papers.find((p) => normalize(p.label).startsWith(nq));
+    if (starts) return starts.id;
+
+    // 4) Best Jaccard similarity above threshold
+    let bestId: string | null = null;
+    let best = 0;
+    for (const p of graphData.papers) {
+      const score = jaccard(p.label, nq);
+      if (score > best) {
+        best = score;
+        bestId = p.id;
+      }
+    }
+    return best >= 0.6 ? bestId : null; // a bit stricter for papers
+  };
+
   const selectedCluster: Cluster | undefined = viewState.selectedClusterId
     ? graphData.clusters.find((c: Cluster) => c.id === viewState.selectedClusterId)
     : undefined;
@@ -99,6 +222,7 @@ export const GraphDashboard = () => {
               clusters={graphData.clusters}
               onClusterClick={handleClusterClick}
               filters={filters}
+              requestFocusClusterId={pendingFocusClusterId}
             />
           )}
 
@@ -110,6 +234,7 @@ export const GraphDashboard = () => {
               onPaperClick={handlePaperClick}
               filters={filters}
               searchQuery={searchQuery}
+              requestOpenPaperId={pendingPaperId}
             />
           )}
 
@@ -130,15 +255,70 @@ export const GraphDashboard = () => {
           const p = evt.parameters || {};
           switch (name) {
             case "open_cluster": {
-              const topic = String(p.topic || "").toLowerCase();
-              const c = graphData.clusters.find((c) => c.label.toLowerCase().includes(topic));
-              if (c) handleClusterClick(c.id);
+              const cid = resolveClusterId(p);
+              if (cid) {
+                // If we're in universe view, animate focus; otherwise, just navigate
+                if (viewState.level === "universe") {
+                  setPendingFocusClusterId(cid);
+                  // Clear the request after a short delay to avoid re-triggering
+                  setTimeout(() => setPendingFocusClusterId(null), 1600);
+                } else {
+                  handleClusterClick(cid);
+                }
+                // Remember cluster; open a queued paper (if any) after a deliberate delay (6s)
+                setLastClusterRequestedId(cid);
+                clearDelayTimer();
+                const timer = window.setTimeout(() => {
+                  // Only open if we have a queued paper and we're in the target cluster view
+                  if (queuedPaperId) {
+                    const targetPaper = graphData.papers.find((pp: Paper) => pp.id === queuedPaperId);
+                    if (targetPaper && targetPaper.clusterId === cid) {
+                      setPendingPaperId(queuedPaperId);
+                    }
+                  }
+                }, 6000);
+                setDelayedOpenTimer(timer);
+              }
               break;
             }
             case "open_paper": {
-              const title = String(p.title || "").toLowerCase();
-              const match = graphData.papers.find((pp) => pp.label.toLowerCase().includes(title) || pp.id.toLowerCase() === title);
-              if (match) handlePaperClick(match.id);
+              const pid = resolvePaperId(p);
+              if (pid) {
+                // Decide whether to queue for delayed open depending on current/last cluster selection
+                const paper = graphData.papers.find((pp: Paper) => pp.id === pid);
+                const paperClusterId = paper?.clusterId;
+
+                // If a cluster open was just requested to this paper's cluster, queue and let the timer open it
+                if (paperClusterId && lastClusterRequestedId === paperClusterId) {
+                  setQueuedPaperId(pid);
+                  // Timer created in open_cluster will handle opening in ~6s
+                  break;
+                }
+
+                // If we're already in the paper's cluster view, open after a short cinematic delay (~1s)
+                if (viewState.level === "cluster" && paperClusterId === viewState.selectedClusterId) {
+                  clearDelayTimer();
+                  const timer = window.setTimeout(() => setPendingPaperId(pid), 1000);
+                  setDelayedOpenTimer(timer);
+                  break;
+                }
+
+                // Otherwise, navigate to the paper's cluster first with animation, then open after delay
+                if (paperClusterId) {
+                  // Trigger universe -> cluster animation if needed
+                  if (viewState.level === "universe") {
+                    setPendingFocusClusterId(paperClusterId);
+                    setTimeout(() => setPendingFocusClusterId(null), 1600);
+                  } else {
+                    handleClusterClick(paperClusterId);
+                  }
+                  setLastClusterRequestedId(paperClusterId);
+                  setQueuedPaperId(pid);
+                  clearDelayTimer();
+                  const timer = window.setTimeout(() => setPendingPaperId(pid), 6000);
+                  setDelayedOpenTimer(timer);
+                }
+              }
               break;
             }
             case "filter_mission": {

@@ -128,7 +128,7 @@ export const Sidebar = ({
                 </div>
                 <div className="flex items-center gap-2">
                   <Calendar className="h-4 w-4 text-accent" />
-                  <span className="text-muted-foreground">2015-2023</span>
+                  <span className="text-muted-foreground">2000-2025</span>
                 </div>
               </div>
             </Card>

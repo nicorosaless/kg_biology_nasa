@@ -10,6 +10,7 @@ import subprocess
 import sys
 import threading
 from pathlib import Path
+import tempfile
 
 app = FastAPI(title="KG Biology NASA API", version="0.1.0")
 
@@ -52,6 +53,7 @@ def elevenlabs_token(req: TokenRequest):
 # --- Agent process management (start/stop) ---
 _proc_lock = threading.Lock()
 _agent_proc: subprocess.Popen | None = None
+_agent_fifo_path: str | None = None
 
 class StartConversationRequest(BaseModel):
 	agentId: str
@@ -63,6 +65,7 @@ class StartConversationRequest(BaseModel):
 @app.post("/api/conversation/start")
 def conversation_start(req: StartConversationRequest):
 	global _agent_proc
+	global _agent_fifo_path
 	with _proc_lock:
 		if _agent_proc and _agent_proc.poll() is None:
 			return {"status": "already_running", "pid": _agent_proc.pid}
@@ -77,6 +80,18 @@ def conversation_start(req: StartConversationRequest):
 		env = os.environ.copy()
 		env["LOG_CONVERSATION"] = "1"
 		env["AGENT_ID"] = req.agentId
+		# Play agent audio back while capturing user in browser via STT
+		env["OUTPUT_ONLY"] = "1"
+		# Create a fifo for text ingress
+		tmpdir = tempfile.gettempdir()
+		_agent_fifo_path = str(Path(tmpdir) / f"agent_inbox_{os.getpid()}.fifo")
+		try:
+			if os.path.exists(_agent_fifo_path):
+				os.remove(_agent_fifo_path)
+			os.mkfifo(_agent_fifo_path)
+			env["INBOX_FIFO"] = _agent_fifo_path
+		except Exception:
+			_agent_fifo_path = None
 		# Optional: pass ELEVENLABS_API_KEY from environment if present
 		# If your agent is private, set ELEVENLABS_API_KEY in the backend environment before starting the server
 		args: list[str] = [sys.executable, str(script)]
@@ -109,9 +124,16 @@ def conversation_start(req: StartConversationRequest):
 @app.post("/api/conversation/stop")
 def conversation_stop():
 	global _agent_proc
+	global _agent_fifo_path
 	with _proc_lock:
 		if not _agent_proc or _agent_proc.poll() is not None:
 			_agent_proc = None
+			if _agent_fifo_path and os.path.exists(_agent_fifo_path):
+				try:
+					os.remove(_agent_fifo_path)
+				except Exception:
+					pass
+			_agent_fifo_path = None
 			return {"status": "not_running"}
 		try:
 			_agent_proc.terminate()
@@ -119,6 +141,12 @@ def conversation_stop():
 			pass
 		finally:
 			_agent_proc = None
+			if _agent_fifo_path and os.path.exists(_agent_fifo_path):
+				try:
+					os.remove(_agent_fifo_path)
+				except Exception:
+					pass
+			_agent_fifo_path = None
 		return {"status": "stopped"}
 
 
@@ -128,6 +156,25 @@ def conversation_status():
 		if _agent_proc and _agent_proc.poll() is None:
 			return {"running": True, "pid": _agent_proc.pid}
 		return {"running": False}
+
+
+class SendMessageRequest(BaseModel):
+	text: str
+
+@app.post("/api/conversation/send")
+def conversation_send(req: SendMessageRequest):
+	# Write a single line to the FIFO; the agent thread will forward to Conversation
+	with _proc_lock:
+		if not _agent_proc or _agent_proc.poll() is not None:
+			raise HTTPException(status_code=400, detail="Agent not running")
+		if not _agent_fifo_path or not os.path.exists(_agent_fifo_path):
+			raise HTTPException(status_code=500, detail="FIFO unavailable")
+	try:
+		with open(_agent_fifo_path, "w", encoding="utf-8") as f:
+			f.write(req.text.strip() + "\n")
+		return {"status": "ok"}
+	except Exception as e:
+		raise HTTPException(status_code=500, detail=f"Failed to send message: {e}")
 
 
 # SSE stream of conversation logs written by backend/VoiceAgent/start_agent.py when LOG_CONVERSATION=1

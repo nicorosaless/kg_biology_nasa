@@ -14,6 +14,8 @@ interface GraphViewProps {
     yearRange: [number, number];
   };
   searchQuery: string;
+  // Optional: request programmatic open of a paper node with animation
+  requestOpenPaperId?: string | null;
 }
 
 export const GraphView = ({
@@ -22,6 +24,7 @@ export const GraphView = ({
   onPaperClick,
   filters,
   searchQuery,
+  requestOpenPaperId,
 }: GraphViewProps) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const cyRef = useRef<cytoscape.Core | null>(null);
@@ -204,6 +207,26 @@ export const GraphView = ({
       cy.destroy();
     };
   }, [papers, edges, onPaperClick, filters, searchQuery]);
+
+  // Programmatic open of a paper node with the same animation as tap
+  useEffect(() => {
+    const cy = cyRef.current;
+    if (!cy || !requestOpenPaperId) return;
+    const node = cy.getElementById(requestOpenPaperId);
+    if (!node || node.empty()) return;
+    const pos = node.position();
+    const paperTitle = node.data('label');
+    setOverlayLabel(`Opening Paper: ${paperTitle}`);
+    setVignette(true);
+    cy.animate({
+      center: { eles: node },
+      zoom: { level: 1.1, position: pos },
+      duration: 900,
+      easing: 'ease-in-out-cubic',
+    });
+    const t = setTimeout(() => onPaperClick(requestOpenPaperId), 1050);
+    return () => clearTimeout(t);
+  }, [requestOpenPaperId, onPaperClick]);
 
   return (
     <motion.div

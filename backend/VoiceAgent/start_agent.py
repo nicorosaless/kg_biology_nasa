@@ -4,6 +4,8 @@ import time
 from typing import Optional
 import json
 from datetime import datetime
+import threading
+import errno
 
 # Lightweight JSONL logger so the frontend can stream conversation logs if desired.
 LOG_CONV = os.getenv("LOG_CONVERSATION") == "1"
@@ -116,6 +118,111 @@ class SDIAudioInterface:
       self.out_stream.stop(); self.out_stream.close()
     except Exception:
       pass
+
+  def output(self, audio: bytes):
+    if not self.should_stop.is_set():
+      self.output_queue.put(audio)
+
+  def interrupt(self):
+    try:
+      while True:
+        _ = self.output_queue.get(block=False)
+    except Exception:
+      pass
+
+# Output-only audio interface: play agent audio to speakers, don't capture mic
+class OutputOnlyAudioInterface:
+  OUTPUT_FRAMES_PER_BUFFER = 1000  # 62.5ms @ 16kHz
+
+  def __init__(self):
+    import sounddevice as sd  # type: ignore
+    import queue, threading
+    self.sd = sd
+    self.queue = queue
+    self.threading = threading
+    self.output_queue: queue.Queue[object] = queue.Queue()
+    self.should_stop = threading.Event()
+    # Optional output device selection by name or index via env var
+    self.device = os.getenv("SOUNDDEVICE_OUTPUT_DEVICE")
+    # Optional: use macOS 'afplay' fallback instead of a stream
+    self.use_afplay = os.getenv("AFPLAY_FALLBACK") == "1"
+
+  def start(self, input_callback=None):
+    # Ignore input; only handle output audio
+    if not self.use_afplay:
+      try:
+        kwargs = dict(channels=1, samplerate=16000, dtype='int16', blocksize=self.OUTPUT_FRAMES_PER_BUFFER)
+        if self.device:
+          # Try parsing as int index, else pass string name
+          try:
+            kwargs["device"] = int(self.device)
+          except Exception:
+            kwargs["device"] = self.device
+        self.out_stream = self.sd.OutputStream(**kwargs)
+        self.out_stream.start()
+      except Exception as e:
+        print(f"[audio] Failed to open output stream ({e}). Falling back to 'afplay' if available. Devices:")
+        try:
+          print(self.sd.query_devices())
+        except Exception:
+          pass
+        self.use_afplay = True
+
+    def output_thread():
+      import numpy as np
+      import queue
+      import subprocess, tempfile, wave, os as _os
+      while not self.should_stop.is_set():
+        try:
+          audio = self.output_queue.get(timeout=0.25)
+        except queue.Empty:
+          continue
+        if audio is None:
+          break
+        try:
+          if self.use_afplay:
+            # Write audio chunk to temp wav and play with afplay (macOS)
+            raw = audio if isinstance(audio, (bytes, bytearray)) else bytes(audio)
+            with tempfile.NamedTemporaryFile(delete=False, suffix=".wav") as tmp:
+              name = tmp.name
+            try:
+              with wave.open(name, 'wb') as wf:
+                wf.setnchannels(1)
+                wf.setsampwidth(2)  # int16
+                wf.setframerate(16000)
+                wf.writeframes(raw)
+              subprocess.run(["afplay", "-q", "1", name], check=False)
+            finally:
+              try:
+                _os.remove(name)
+              except Exception:
+                pass
+          else:
+            if isinstance(audio, (bytes, bytearray)):
+              np_audio = np.frombuffer(audio, dtype=np.int16)
+            else:
+              np_audio = audio
+            self.out_stream.write(np_audio)
+        except Exception:
+          break
+    self.thread = self.threading.Thread(target=output_thread, daemon=True)
+    self.thread.start()
+
+  def stop(self):
+    self.should_stop.set()
+    try:
+      try:
+        self.output_queue.put_nowait(None)
+      except Exception:
+        pass
+      self.thread.join(timeout=1.0)
+    except Exception:
+      pass
+    if not self.use_afplay:
+      try:
+        self.out_stream.stop(); self.out_stream.close()
+      except Exception:
+        pass
 
   def output(self, audio: bytes):
     if not self.should_stop.is_set():
@@ -254,18 +361,29 @@ def start_agent(agent_id: str, api_key: Optional[str] = None, user_id: Optional[
   if text_only:
     audio_interface = NullAudioInterface()
   else:
-    # Try to use PyAudio first, then fall back to sounddevice, then text-only
-    try:
-      audio_interface = DefaultAudioInterface()  # type: ignore
-      print("[voice] Voice mode enabled (PyAudio). Mic is live. Press Ctrl+C to end.")
-    except Exception as e1:
+    # Prefer output-only mode if requested, then PyAudio, then sounddevice, then text-only
+    if os.getenv("OUTPUT_ONLY") == "1":
       try:
-        audio_interface = SDIAudioInterface()
-        print("[voice] Voice mode enabled (sounddevice). Mic is live. Press Ctrl+C to end.")
-      except Exception as e2:
-        print(f"[info] Could not initialize audio (PyAudio error: {e1}; sounddevice error: {e2}). Falling back to TEXT-ONLY mode.")
-        text_only = True
-        audio_interface = NullAudioInterface()
+        audio_interface = OutputOnlyAudioInterface()
+        print("[voice] Output-only mode enabled. Speak in the browser; agent audio plays locally.")
+      except Exception as e:
+        print(f"[info] OutputOnlyAudioInterface failed: {e}. Falling back to default audio.")
+        audio_interface = None
+    else:
+      audio_interface = None
+
+    if audio_interface is None:
+      try:
+        audio_interface = DefaultAudioInterface()  # type: ignore
+        print("[voice] Voice mode enabled (PyAudio). Mic is live. Press Ctrl+C to end.")
+      except Exception as e1:
+        try:
+          audio_interface = SDIAudioInterface()
+          print("[voice] Voice mode enabled (sounddevice). Mic is live. Press Ctrl+C to end.")
+        except Exception as e2:
+          print(f"[info] Could not initialize audio (PyAudio error: {e1}; sounddevice error: {e2}). Falling back to TEXT-ONLY mode.")
+          text_only = True
+          audio_interface = NullAudioInterface()
 
   # Prepare client tools: register a passthrough for provided tool id (optional)
   client_tools = PrintingClientTools()
@@ -329,6 +447,43 @@ def start_agent(agent_id: str, api_key: Optional[str] = None, user_id: Optional[
     log_event({"ts": iso_now(), "type": "meta", "event": "session_started"})
   except Exception:
     pass
+
+  # Optional: listen for user text messages from a named pipe (FIFO) and forward to the agent
+  fifo_path = os.getenv("INBOX_FIFO")
+  if fifo_path:
+    try:
+      # Create FIFO if it doesn't exist
+      if not os.path.exists(fifo_path):
+        os.mkfifo(fifo_path)
+
+      def _fifo_reader():
+        while True:
+          try:
+            with open(fifo_path, "r", encoding="utf-8") as fifo:
+              for line in fifo:
+                msg = line.strip()
+                if not msg:
+                  continue
+                try:
+                  log_event_safe({"ts": iso_now(), "type": "user", "text": msg})
+                  conversation.send_user_message(msg)
+                except Exception:
+                  pass
+          except FileNotFoundError:
+            break
+          except Exception as e:
+            # Recreate FIFO if it was removed
+            try:
+              if not os.path.exists(fifo_path):
+                os.mkfifo(fifo_path)
+            except Exception:
+              pass
+            # brief backoff
+            time.sleep(0.2)
+
+      threading.Thread(target=_fifo_reader, daemon=True).start()
+    except Exception:
+      pass
 
   # Graceful shutdown on Ctrl+C
   signal.signal(signal.SIGINT, lambda sig, frame: conversation.end_session())

@@ -8,9 +8,11 @@ interface ClusterViewProps {
   filters: {
     missions: Mission[];
   };
+  // Optional: programmatic request to focus a cluster with the same cinematic animation as click
+  requestFocusClusterId?: string | null;
 }
 
-export const ClusterView = ({ clusters, onClusterClick, filters }: ClusterViewProps) => {
+export const ClusterView = ({ clusters, onClusterClick, filters, requestFocusClusterId }: ClusterViewProps) => {
   const [activeId, setActiveId] = useState<string | null>(null);
   const [overlayLabel, setOverlayLabel] = useState<string | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -99,6 +101,25 @@ export const ClusterView = ({ clusters, onClusterClick, filters }: ClusterViewPr
   const onMouseUp = () => {
     draggingRef.current.dragging = false;
   };
+
+  // Programmatic focus animation when a tool event requests opening a cluster from the universe view
+  useMemo(() => {
+    if (!requestFocusClusterId) return;
+    const target = filteredClusters.find((c) => c.id === requestFocusClusterId);
+    if (!target) return;
+    // Trigger the same cinematic focus as a user click
+    setActiveId(target.id);
+    setOverlayLabel(`Entering Cluster: ${target.label}`);
+    const t = setTimeout(() => {
+      onClusterClick(target.id);
+      setTimeout(() => {
+        setActiveId(null);
+        setOverlayLabel(null);
+      }, 200);
+    }, 1200);
+    return () => clearTimeout(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [requestFocusClusterId]);
 
   return (
     <div className="relative h-full w-full" ref={containerRef} onWheel={onWheel} onMouseDown={onMouseDown} onMouseMove={onMouseMove} onMouseUp={onMouseUp} onMouseLeave={onMouseUp}>
