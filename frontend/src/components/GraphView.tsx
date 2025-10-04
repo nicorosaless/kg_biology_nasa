@@ -28,9 +28,16 @@ export const GraphView = ({
 }: GraphViewProps) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const cyRef = useRef<cytoscape.Core | null>(null);
+  const onPaperClickRef = useRef(onPaperClick);
   const [overlayLabel, setOverlayLabel] = useState<string | null>(null);
   const [vignette, setVignette] = useState(false);
   const [hoverTip, setHoverTip] = useState<{ x: number; y: number; text: string } | null>(null);
+  const [isLayingOut, setIsLayingOut] = useState(true);
+
+  // keep latest handler without forcing effect re-runs
+  useEffect(() => {
+    onPaperClickRef.current = onPaperClick;
+  }, [onPaperClick]);
   
   const STOPWORDS = new Set([
     "the","a","an","and","or","of","in","on","for","to","with","by","from","at","as","is","are","be","that","this","these","those","into","via","using","during","after","before","over","under","about","without","within","between"
@@ -83,7 +90,7 @@ export const GraphView = ({
       }
     };
 
-    // Create cytoscape instance
+    // Create cytoscape instance (without running layout yet)
     const cy = cytoscape({
       container: containerRef.current,
       elements: [
@@ -155,20 +162,48 @@ export const GraphView = ({
           },
         },
       ],
-      layout: {
-        name: "cose",
-        animate: true,
-        animationDuration: 1000,
-        nodeRepulsion: 1200,
-        idealEdgeLength: 50,
-        edgeElasticity: 200,
-        fit: true,
-        padding: 20,
-      },
       userZoomingEnabled: true,
       userPanningEnabled: true,
       boxSelectionEnabled: false,
     });
+
+    // Run layout without animation, then reveal the graph when done
+    // Short-circuit if trivial graph to avoid getting stuck
+    const trivial = cy.nodes().length <= 1;
+    setIsLayingOut(!trivial);
+    if (!trivial) {
+      const layout = cy.layout({
+      name: "cose",
+      animate: false,
+      randomize: false,
+      nodeRepulsion: 1200,
+      idealEdgeLength: 50,
+      edgeElasticity: 200,
+      fit: true,
+      padding: 20,
+      });
+
+      let cleared = false;
+      const clearLoading = () => {
+        if (cleared) return;
+        cleared = true;
+        setIsLayingOut(false);
+      };
+
+      // Attach listeners BEFORE running to avoid missing fast events
+      cy.one("layoutstop", clearLoading);
+      cy.one("ready", () => {
+        // In some cases layoutstop might not fire; ready implies render done
+        setTimeout(clearLoading, 0);
+      });
+
+      // Fallback timeout in case events are missed (dev strict mode, etc.)
+      const fallback = window.setTimeout(clearLoading, 2000);
+      layout.run();
+
+      // Ensure fallback cleared on destroy
+      (cy as any).__layoutFallbackTimer = fallback;
+    }
 
     // Hover tooltip for full label
     cy.on("mouseover", "node", (evt) => {
@@ -198,15 +233,18 @@ export const GraphView = ({
         duration: 900,
         easing: 'ease-in-out-cubic',
       });
-      setTimeout(() => onPaperClick(node.id()), 1050);
+      setTimeout(() => onPaperClickRef.current(node.id()), 1050);
     });
 
     cyRef.current = cy;
 
     return () => {
+      // clear any fallback timer
+      const t: any = (cy as any).__layoutFallbackTimer;
+      if (t) window.clearTimeout(t);
       cy.destroy();
     };
-  }, [papers, edges, onPaperClick, filters, searchQuery]);
+  }, [papers, edges, filters, searchQuery]);
 
   // Programmatic open of a paper node with the same animation as tap
   useEffect(() => {
@@ -224,7 +262,7 @@ export const GraphView = ({
       duration: 900,
       easing: 'ease-in-out-cubic',
     });
-    const t = setTimeout(() => onPaperClick(requestOpenPaperId), 1050);
+    const t = setTimeout(() => onPaperClickRef.current(requestOpenPaperId), 1050);
     return () => clearTimeout(t);
   }, [requestOpenPaperId, onPaperClick]);
 
@@ -241,7 +279,8 @@ export const GraphView = ({
         <div className="pointer-events-none absolute inset-0 z-10" style={{ background: "radial-gradient(ellipse at center, rgba(0,0,0,0) 40%, rgba(0,0,0,0.6) 90%)" }} />
       )}
 
-      <div ref={containerRef} className="h-full w-full" />
+  {/* Graph container; hidden until layout is complete for rock-solid first paint */}
+  <div ref={containerRef} className={`h-full w-full transition-opacity ${isLayingOut ? "opacity-0" : "opacity-100"}`} />
 
       {/* Hover tooltip showing full title */}
       {hoverTip && (
@@ -250,6 +289,16 @@ export const GraphView = ({
           style={{ left: hoverTip.x, top: hoverTip.y }}
         >
           {hoverTip.text}
+        </div>
+      )}
+
+      {/* Loading overlay while computing layout */}
+      {isLayingOut && (
+        <div className="absolute inset-0 z-20 flex items-center justify-center">
+          <div className="flex flex-col items-center gap-3 px-6 py-4 rounded-xl bg-black/60 backdrop-blur border border-white/10 shadow-xl">
+            <div className="h-10 w-10 rounded-full border-2 border-white/30 border-t-white animate-spin" />
+            <span className="text-white text-sm">Preparing cluster…</span>
+          </div>
         </div>
       )}
 
