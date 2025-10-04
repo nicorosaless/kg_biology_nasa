@@ -90,6 +90,32 @@ export const GraphView = ({
       }
     };
 
+    // Adjust color brightness based on gap score (higher gap = lighter, lower gap = darker)
+    const getNodeColor = (mission: Mission, gapScore: number) => {
+      if (!filters.showGaps) {
+        return getMissionColor(mission);
+      }
+      
+      const baseColor = getMissionColor(mission);
+      
+      // Parse hex color to RGB
+      const r = parseInt(baseColor.slice(1, 3), 16);
+      const g = parseInt(baseColor.slice(3, 5), 16);
+      const b = parseInt(baseColor.slice(5, 7), 16);
+      
+      // Map gap score (0-1) to brightness adjustment with more dramatic range
+      // Higher gap score (0.7-1.0) → much lighter (1.0-1.8x)
+      // Lower gap score (0-0.3) → much darker (0.4-1.0x)
+      const factor = 0.4 + (gapScore * 1.4);
+      
+      // Apply brightness adjustment
+      const newR = Math.min(255, Math.round(r * factor));
+      const newG = Math.min(255, Math.round(g * factor));
+      const newB = Math.min(255, Math.round(b * factor));
+      
+      return `rgb(${newR}, ${newG}, ${newB})`;
+    };
+
     // Create cytoscape instance (without running layout yet)
     const cy = cytoscape({
       container: containerRef.current,
@@ -132,7 +158,7 @@ export const GraphView = ({
             color: "#ffffff",
             "text-wrap": "wrap",
             "text-max-width": "140px",
-            "background-color": (ele: any) => getMissionColor(ele.data("mission")),
+            "background-color": (ele: any) => getNodeColor(ele.data("mission"), ele.data("gapScore")),
             width: (ele: any) =>
               filters.showGaps ? 80 + ele.data("gapScore") * 100 : 96,
             height: (ele: any) =>
@@ -312,26 +338,19 @@ export const GraphView = ({
       )}
       
       {/* Legend */}
-      <div className="absolute bottom-4 left-4 bg-card/80 backdrop-blur-sm border border-border rounded-lg p-3 space-y-2">
-        <h4 className="text-xs font-semibold mb-2">Mission Colors</h4>
-        <div className="flex items-center gap-2 text-xs">
-          <div className="w-3 h-3 rounded-full bg-mission-iss" />
-          <span>ISS</span>
-        </div>
-        <div className="flex items-center gap-2 text-xs">
-          <div className="w-3 h-3 rounded-full bg-mission-mars" />
-          <span>Mars</span>
-        </div>
-        <div className="flex items-center gap-2 text-xs">
-          <div className="w-3 h-3 rounded-full bg-mission-moon" />
-          <span>Moon</span>
-        </div>
-        {filters.showGaps && (
-          <p className="text-xs text-muted-foreground pt-2 border-t border-border">
-            Node size = Research gap
+      {filters.showGaps && (
+        <div className="absolute bottom-4 left-4 bg-card/80 backdrop-blur-sm border border-border rounded-lg p-3 space-y-1">
+          <p className="text-xs text-muted-foreground">
+            Size = Research gap
           </p>
-        )}
-      </div>
+          <p className="text-xs text-muted-foreground">
+            Brightness = Gap magnitude
+          </p>
+          <p className="text-[10px] text-muted-foreground/70">
+            (Lighter = higher gap)
+          </p>
+        </div>
+      )}
     </motion.div>
   );
 };
