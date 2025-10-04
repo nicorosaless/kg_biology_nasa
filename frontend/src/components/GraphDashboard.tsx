@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { motion } from "framer-motion";
 import { GraphData, ViewState, Mission, Cluster, Paper } from "../types/graph";
 import { Toolbar } from "./Toolbar";
@@ -51,21 +51,21 @@ export const GraphDashboard = () => {
       .catch((err) => console.error("Failed to load graph data:", err));
   }, []);
 
-  const handleClusterClick = (clusterId: string) => {
+  const handleClusterClick = useCallback((clusterId: string) => {
     setViewState({ level: "cluster", selectedClusterId: clusterId });
-  };
+  }, []);
 
-  const handlePaperClick = (paperId: string) => {
-    setViewState({ ...viewState, level: "topic", selectedPaperId: paperId });
-  };
+  const handlePaperClick = useCallback((paperId: string) => {
+    setViewState((prev) => ({ ...prev, level: "topic", selectedPaperId: paperId }));
+  }, []);
 
-  const handleBackToUniverse = () => {
+  const handleBackToUniverse = useCallback(() => {
     setViewState({ level: "universe" });
-  };
+  }, []);
 
-  const handleBackToCluster = () => {
-    setViewState({ level: "cluster", selectedClusterId: viewState.selectedClusterId });
-  };
+  const handleBackToCluster = useCallback(() => {
+    setViewState((prev) => ({ level: "cluster", selectedClusterId: prev.selectedClusterId }));
+  }, []);
 
   if (!graphData) {
     return (
