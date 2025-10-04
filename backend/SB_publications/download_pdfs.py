@@ -3,17 +3,28 @@ import requests
 import os
 import time
 import re
+import json
 from urllib.parse import urlparse, urljoin
 from bs4 import BeautifulSoup
-from typing import Optional
+from typing import Optional, Set
 
 # Nota: El módulo FTP estaba importado pero no se usaba; lo eliminamos para evitar confusión.
 
-# Path to the CSV file
-csv_file = '/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/SB_publications/SB_publication_PMC.csv'
+BASE_DIR = os.path.dirname(__file__)
 
-# Directory to save PDFs
-pdf_dir = '/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/SB_publications/pdfs'
+# Path to the per-paper CSV (lista completa original)
+csv_file = os.path.join(BASE_DIR, 'SB_publication_PMC.csv')
+
+# Path al grafo enriquecido (clusters) para filtrar por macrocluster Radiation & Shielding (C103)
+csv_graph_path = os.path.abspath(os.path.join(BASE_DIR, '..', '..', 'frontend', 'public', 'data', 'csvGraph.json'))
+
+# ID del cluster objetivo (Macrocluster: Radiation & Shielding)
+CLUSTER_TARGET_ID = 'C103'
+
+# Directorio destino de PDFs: ahora forzado a esta carpeta local dentro de backend.
+# Permite override con la variable de entorno PDF_OUTPUT_DIR.
+DEFAULT_PDF_DIR = os.path.join(BASE_DIR, 'pdfs')
+pdf_dir = os.environ.get('PDF_OUTPUT_DIR', DEFAULT_PDF_DIR)
 os.makedirs(pdf_dir, exist_ok=True)
 
 DEFAULT_HEADERS = {
@@ -28,6 +39,50 @@ PMC_HOST_PRIMARY = 'https://pmc.ncbi.nlm.nih.gov'
 PMC_HOST_ALT = 'https://www.ncbi.nlm.nih.gov/pmc'
 
 PMC_ID_REGEX = re.compile(r"PMC\d+", re.IGNORECASE)
+
+
+def load_allowed_pmcs(cluster_id: str = CLUSTER_TARGET_ID) -> Set[str]:
+    """Carga el archivo json de clusters y devuelve el set de PMCID que pertenecen al cluster deseado.
+
+    Si el archivo no existe, devuelve set vacío (se reportará en main).
+    """
+    allowed: Set[str] = set()
+    if not os.path.exists(csv_graph_path):
+        print(f"[WARN] No se encontró csvGraph.json en {csv_graph_path}; no se aplicará filtrado por cluster")
+        return allowed
+    try:
+        with open(csv_graph_path, 'r', encoding='utf-8') as jf:
+            data = json.load(jf)
+        papers = data.get('papers', [])
+        for p in papers:
+            if p.get('clusterId') == cluster_id and 'id' in p:
+                # IDs ya vienen como 'PMCxxxx'
+                pid = str(p['id']).strip()
+                if PMC_ID_REGEX.match(pid):
+                    allowed.add(pid.upper())
+    except Exception as e:
+        print(f"[ERROR] Falló lectura de csvGraph.json: {e}")
+    return allowed
+
+
+def delete_non_cluster_pdfs(allowed: Set[str]):
+    """Elimina cualquier PDF existente cuyo nombre (sin .pdf) no esté en el set permitido.
+    """
+    try:
+        for fname in os.listdir(pdf_dir):
+            if not fname.lower().endswith('.pdf'):
+                continue
+            pmc = fname.rsplit('.', 1)[0]
+            if pmc.upper() not in allowed:
+                fpath = os.path.join(pdf_dir, fname)
+                try:
+                    os.remove(fpath)
+                    print(f"[DEL] {fname} (fuera de cluster {CLUSTER_TARGET_ID})")
+                except Exception as e:
+                    print(f"[WARN] No se pudo borrar {fname}: {e}")
+    except FileNotFoundError:
+        # Directorio aún no existe (será creado antes de descargar)
+        pass
 
 
 def extract_pmc_id(link: str) -> Optional[str]:
@@ -275,28 +330,41 @@ def download_pdf(pmc_id: str, title: str) -> None:
 
     print(f"[ERROR] Respuesta no es PDF para {pmc_id}: Content-Type={resp.headers.get('Content-Type')} url={pdf_url}")
 
-def main(limit: Optional[int] = 5):
+def main(limit: Optional[int] = 5, enforce_cluster: bool = True):
+    allowed = load_allowed_pmcs() if enforce_cluster else set()
+    if enforce_cluster and not allowed:
+        print(f"[WARN] Set de PMCs permitido vacío (cluster {CLUSTER_TARGET_ID}); no se descargarán PDFs nuevos.")
+    else:
+        print(f"[INFO] PMCs permitidos en cluster {CLUSTER_TARGET_ID}: {len(allowed)}")
+
+    # Limpieza de PDFs fuera del cluster antes de comenzar
+    if enforce_cluster:
+        delete_non_cluster_pdfs(allowed)
+
+    processed = 0
     with open(csv_file, 'r', encoding='utf-8-sig') as f:
         reader = csv.DictReader(f)
         print("Columnas:", reader.fieldnames)
-        count = 0
         for row in reader:
             link = row.get('Link')
             title = row.get('Title', '')
             link_str = link if isinstance(link, str) else (str(link) if link is not None else '')
             pmc_id = extract_pmc_id(link_str) if link_str else None
-            if pmc_id:
-                download_pdf(pmc_id, title)
-            else:
+            if not pmc_id:
                 print(f"[WARN] No se pudo extraer PMCID de {link}")
-            count += 1
-            # Espera ligera para ser cortés con el servidor
-            time.sleep(0.6)
-            if limit is not None and count >= limit:
+            else:
+                if (not enforce_cluster) or (pmc_id in allowed):
+                    download_pdf(pmc_id, title)
+                else:
+                    # Si existe el archivo y no está permitido ya habrá sido borrado al inicio; solo informar skip lógico.
+                    print(f"[SKIP] {pmc_id} fuera de cluster {CLUSTER_TARGET_ID}")
+            processed += 1
+            time.sleep(0.4)  # un poco más ágil pero aún respetuoso
+            if limit is not None and processed >= limit:
                 break
     print("Proceso de descarga finalizado.")
 
 
 if __name__ == '__main__':
-    # Ajusta 'limit=None' para procesar todos los artículos (600 aprox.)
-    main(limit=5)
+    # Ajusta 'limit=None' para procesar todos los artículos. Filtrado de cluster activado por defecto.
+    main(limit=None, enforce_cluster=True)
