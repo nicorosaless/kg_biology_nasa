@@ -16,7 +16,7 @@ export const GraphDashboard = () => {
   const [filters, setFilters] = useState({
     yearRange: [2000, 2025] as [number, number],
     missions: ["ISS", "Mars", "Moon"] as Mission[],
-    showGaps: false,
+    showGaps: true,
   });
   const [scientistOpen, setScientistOpen] = useState(true);
   const [pendingFocusClusterId, setPendingFocusClusterId] = useState<string | null>(null);
