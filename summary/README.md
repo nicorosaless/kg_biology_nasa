@@ -91,3 +91,52 @@ Procesando PDF...
 ## Próximos pasos
 
 Una vez que funcione, este código se puede integrar en el pipeline de resumen de DeepRead.
+
+## Generar carpeta `summary_and_content` para un paper
+
+Se agregó el script `paper_summary.py` que unifica el contenido GROBID y el resumen LLM
+en una carpeta por paper con esta estructura:
+
+```
+processed_grobid_pdfs/PMC11988870/
+  graph/                    # (pipeline KG existente)
+  summary_and_content/
+    PMC11988870.content.json
+    summary.json
+    figures/
+      fig_1.png
+      fig_2.png
+```
+
+### Uso
+
+```bash
+python -m summary.paper_summary \
+  --pdf SB_publications/pdfs/PMC11988870.pdf \
+  --paper-id PMC11988870 \
+  --base-dir processed_grobid_pdfs
+```
+
+Parámetros:
+- `--pdf`: ruta al PDF original.
+- `--paper-id`: (opcional) nombre de carpeta. Si se omite usa el stem del PDF.
+- `--base-dir`: raíz donde viven las carpetas de cada paper (default `processed_grobid_pdfs`).
+- `--overwrite`: recalcula summary e imágenes aunque existan.
+- `--model`: modelo Gemini a usar (default gemini-2.0-flash).
+
+Requiere llaves Gemini (`GEMINI_API_KEY` / `GOOGLE_API_KEY`).
+
+La salida por stdout es un JSON con paths generados y conteos.
+
+### Alternativa usando `runsummary.py`
+
+También puedes generar la estructura directamente:
+
+```bash
+python -m summary.runsummary SB_publications/pdfs/PMC11988870.pdf \
+  --paper-id PMC11988870 \
+  --base-dir processed_grobid_pdfs
+```
+
+Esto crea `processed_grobid_pdfs/PMC11988870/summary_and_content/`.
+Si deseas además la estructura legacy de sesión añade `--legacy-session`.

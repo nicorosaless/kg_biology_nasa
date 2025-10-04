@@ -8,20 +8,19 @@ import os
 from typing import Optional, Dict, Any, List
 
 """Proceso mínimo: PDF -> TEI (GROBID) -> JSON + imágenes.
-Silencio salvo errores (JSON a stdout). Código reducido para legibilidad."""
+Silencio salvo errores (JSON a stdout). Código reducido para legibilidad.
 
-try:
-    from parse_grobid import (
-        save_content_json,
-    )  # when executed from package context
-    from extract_images import extract_pdf_images
-    from crop_figures import crop_missing_figures
-except ImportError:
-    from backend.summary.parse_grobid import (
-        save_content_json,
-    )  # fallback when run from project root
-    from backend.summary.extract_images import extract_pdf_images
-    from backend.summary.crop_figures import crop_missing_figures
+Refactor: imports relativos; ya no se asume layout backend/summary/.
+"""
+
+try:  # imports relativos dentro del paquete summary
+    from .parse_grobid import save_content_json  # type: ignore
+    from .extract_images import extract_pdf_images  # type: ignore
+    from .crop_figures import crop_missing_figures  # type: ignore
+except Exception:  # fallback a rutas absolutas si se invoca como script aislado
+    from parse_grobid import save_content_json  # type: ignore
+    from extract_images import extract_pdf_images  # type: ignore
+    from crop_figures import crop_missing_figures  # type: ignore
 
 NS = { 'tei': 'http://www.tei-c.org/ns/1.0' }
 
@@ -69,7 +68,8 @@ def _validate_content(content: Dict[str, Any]) -> Dict[str, Any]:
 
 def test_grobid_output(pdf_path: Optional[str] = None, server_url: Optional[str] = None):
     logging.getLogger('grobid_client.grobid_client').setLevel(logging.ERROR)
-    base_dir = Path(__file__).parent.parent.parent
+    # Repo root asumido: summary/ está en raíz del proyecto
+    base_dir = Path(__file__).resolve().parents[1]
     if pdf_path is None:
         pdf_path = str(base_dir / 'aiayn.pdf')
     pdf_path_p = Path(pdf_path)
@@ -160,7 +160,7 @@ def test_grobid_output(pdf_path: Optional[str] = None, server_url: Optional[str]
         output_path.write_text(serialized, encoding='utf-8')
         # Also write canonical presummary.json (requested: presummary == original grobid.content.json)
         try:
-            presummary_path = Path(__file__).parent.parent.parent / 'output' / 'presummary.json'
+            presummary_path = base_dir / 'output' / 'presummary.json'
             presummary_path.parent.mkdir(parents=True, exist_ok=True)
             presummary_path.write_text(serialized, encoding='utf-8')
         except Exception:

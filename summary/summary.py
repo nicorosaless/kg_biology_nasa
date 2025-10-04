@@ -51,8 +51,11 @@ SYSTEM_PROMPT = (
     "You are an expert scientific & technical paper summarizer. Produce a faithful, compact "
     "synthesis of the paper in STRICT JSON. First character MUST be '{' and last '}'. "
     "No text before or after the JSON. No markdown fences. One JSON object only.\n\n"
-    "OUTPUT KEYS JSON SCHEMA (conceptual): intro, sections, conclusion, _meta.\n"
+    "OUTPUT KEYS JSON SCHEMA (conceptual): intro, sections, conclusion, keywords, topics, _meta.\n"
     "Each section object: {heading:str, summary:str, figures:[fig_id...], equations:[latex...]}\n\n"
+    "ADDITIONAL FIELDS:\n"
+    "- keywords: array of up to 10 distinctive, domain-relevant single or short multi-word terms (no sentences). Lowercase, unique.\n"
+    "- topics: array of up to 3 high-level thematic labels (e.g. 'computational biology', 'graph neural networks'). Lowercase.\n\n"
     "RULES:\n"
     "1. Coverage first: problem, motivation, contributions, method (mechanistic detail), data, metrics, main quantitative results, qualitative insights, limitations, future work.\n"
     "2. Target 1000-1500 words after full coverage; compress redundancy instead of dropping core content.\n"
@@ -63,7 +66,8 @@ SYSTEM_PROMPT = (
     "7. Integrate table insights into prose (no table field).\n"
     "8. No citation dumps or reference list reproduction.\n"
     "9. No hallucinated numbers; use qualitative phrasing if exact values absent.\n"
-    "10. Always include intro, sections, conclusion, _meta even if lists empty.\n\n"
+    "10. Always include intro, sections, conclusion, keywords, topics, _meta even if lists empty.\n"
+    "11. keywords must be <=10 unique lowercase items; topics <=3 unique lowercase items.\n\n"
     "OUTPUT REQUIREMENTS: Return ONLY the JSON object."
 )
 
@@ -710,6 +714,73 @@ def summarize_content(content: Dict[str, Any], model_name: str = DEFAULT_GEMINI_
         except Exception:
             pass
 
+    # --- Keywords / Topics extraction (model may or may not supply) ---
+    def _normalize_list(str_list, max_len):
+        if not isinstance(str_list, list):
+            return []
+        cleaned = []
+        seen = set()
+        for item in str_list:
+            if not isinstance(item, str):
+                continue
+            it = item.strip().lower()
+            if not it:
+                continue
+            # basic pruning: remove trailing punctuation
+            it = it.strip(' ,;:.')
+            if not it or it in seen:
+                continue
+            seen.add(it)
+            cleaned.append(it[:60])  # cap length per token
+            if len(cleaned) >= max_len:
+                break
+        return cleaned
+
+    # Prefer model-provided, else fallback heuristic from metadata + frequent nouns
+    model_keywords = _normalize_list(out.get('keywords'), 10)
+    model_topics = _normalize_list(out.get('topics'), 3)
+
+    def _heuristic_keywords() -> List[str]:
+        bag = []
+        # Collect from title + section headings
+        title_src = paper_title or ''
+        if title_src:
+            bag.extend(re.findall(r"[A-Za-z][A-Za-z0-9_-]{3,}", title_src.lower()))
+        for sec in (out.get('sections') or []):
+            if isinstance(sec, dict) and isinstance(sec.get('heading'), str):
+                bag.extend(re.findall(r"[A-Za-z][A-Za-z0-9_-]{3,}", sec['heading'].lower()))
+        # Frequency count
+        freq = {}
+        for tok in bag:
+            freq[tok] = freq.get(tok, 0) + 1
+        ranked = sorted(freq.items(), key=lambda x: (-x[1], x[0]))
+        return [w for w,_ in ranked[:10]]
+
+    def _heuristic_topics(keywords: List[str]) -> List[str]:
+        # Very light mapping: group tokens into up to 3 buckets by presence of domain stems
+        domain_map = {
+            'biology': ['cell', 'gene', 'protein', 'bio', 'genom', 'molec'],
+            'machine learning': ['model', 'neural', 'network', 'learning', 'transformer', 'graph'],
+            'medicine': ['clinical', 'patient', 'disease', 'medical', 'therapy'],
+            'physics': ['quantum', 'energy', 'particle', 'physics'],
+            'chemistry': ['chemical', 'compound', 'reaction', 'chem'],
+        }
+        matched = []
+        for topic, stems in domain_map.items():
+            if any(any(k.startswith(st) for st in stems) for k in keywords):
+                matched.append(topic)
+        if not matched:
+            return ['general science']
+        return matched[:3]
+
+    if not model_keywords:
+        model_keywords = _heuristic_keywords()
+    if not model_topics:
+        model_topics = _heuristic_topics(model_keywords)
+
+    out['keywords'] = model_keywords
+    out['topics'] = model_topics
+
     out['_meta'] = {
         'paper_id': content.get('paper_id'),
         'paper_title': paper_title,
@@ -717,6 +788,8 @@ def summarize_content(content: Dict[str, Any], model_name: str = DEFAULT_GEMINI_
         'word_count': total_words,
         'figures': fig_ids,
         'equations': eq_ids,
+        'keywords': model_keywords,
+        'topics': model_topics,
         'missing_figures': missing_figs or [],
         'missing_equations': missing_eqs or [],
         'equation_metrics': equation_metrics,

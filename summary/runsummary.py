@@ -1,32 +1,37 @@
 #!/usr/bin/env python3
-"""Convenience CLI: PDF -> GROBID (presummary) -> LLM summary following session layout.
+"""CLI unificado: PDF -> (GROBID) -> summary_and_content/
 
-Usage:
-    python backend/summary/runsummary.py path/to/paper.pdf [--model gemini-2.0-flash]
+NUEVA ESTRUCTURA por paper (objetivo solicitado):
+    <base_dir>/<paper_id>/
+        graph/                     (pipeline KG previo, no se toca aquí)
+        summary_and_content/
+            <paper_id>.content.json  (antes *.grobid.content.json, renombrado)
+            summary.json             (salida LLM enriquecida)
+            figures/                 (imágenes normalizadas fig_1.* ...)
 
-Session-oriented outputs (new structure):
-    chatsession_<slug>_/meta.json
-    chatsession_<slug>_/source/original.pdf
-    chatsession_<slug>_/presummary/presummary.json
-    chatsession_<slug>_/summary/summary.json
-    chatsession_<slug>_/summary/prompt.txt
-    chatsession_<slug>_/summary/llm_raw_response.txt (if debug enabled later)
-    (Legacy optional) output/presummary.json & output/summary.json if LEGACY_OUTPUT=1
+Uso básico:
+    python -m summary.runsummary paper.pdf --paper-id PMC123 --base-dir processed_grobid_pdfs
+
+Compatibilidad legacy (opcional): añadir --legacy-session para producir también
+la antigua sesión chatsession_<slug>_/ con meta.json. Esto permite no romper
+integraciones previas mientras se migra totalmente.
 
 Exit codes:
-    0 success
-    1 argument / file errors
-    2 grobid stage failed
-    3 summary stage failed
+    0 OK
+    1 argumentos / archivo no encontrado
+    2 fallo GROBID
+    3 fallo summary
 
-Environment:
- - GROBID server: $GROBID_SERVER_URL (default http://localhost:8070)
- - Gemini key: GEMINI_API_KEY / GOOGLE_API_KEY / GOOGLE_GENERATIVE_AI_API_KEY
- - LEGACY_OUTPUT=1  -> también escribe artefactos en output/
- - SESSION_ROOT_DIR  -> raíz (por defecto repo root)
+Env vars clave:
+    GROBID_SERVER_URL (default http://localhost:8070)
+    GEMINI_API_KEY / GOOGLE_API_KEY / GOOGLE_GENERATIVE_AI_API_KEY
+    LEGACY_OUTPUT=1   (si se desea escribir también en output/ presummary.json, summary.json)
 """
 from __future__ import annotations
-import argparse, sys, json, os, pathlib, subprocess, shlex, hashlib, time, re
+import argparse, sys, json, os, pathlib, subprocess, hashlib, time, re
+
+# Importamos la nueva función de creación de carpeta summary_and_content
+from .paper_summary import build_summary_and_content  # type: ignore
 
 REPO_ROOT = pathlib.Path(__file__).resolve().parents[2]  # deepread/
 BACKEND_DIR = REPO_ROOT / 'backend' / 'summary'
@@ -97,14 +102,18 @@ def _run(cmd: list[str]) -> tuple[int, str]:
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('pdf', help='Path to PDF file to process')
-    ap.add_argument('--model', default='gemini-2.0-flash', help='LLM model name for summary')
-    ap.add_argument('--keep-existing-presummary', action='store_true', help='Si existe presummary previo dentro de la sesión, lo reutiliza')
-    ap.add_argument('--no-summary', action='store_true', help='Only run grobid stage')
-    ap.add_argument('--verbose', action='store_true', help='Print underlying tool logs')
-    ap.add_argument('--session-slug', help='Forzar slug de sesión (opcional)')
-    ap.add_argument('--session-root', help='Raíz donde crear sesiones (por defecto repo root)')
-    ap.add_argument('--include-paths', action='store_true', help='Incluir rutas detalladas en la salida JSON (summary_dir, logs, etc.)')
+    ap.add_argument('pdf', help='Ruta al PDF a procesar')
+    ap.add_argument('--model', default='gemini-2.0-flash', help='Modelo LLM para summary')
+    ap.add_argument('--paper-id', help='Identificador/carpeta del paper (si no se pasa usa stem del PDF)')
+    ap.add_argument('--base-dir', default='processed_grobid_pdfs', help='Directorio base donde viven las carpetas de cada paper')
+    ap.add_argument('--overwrite', action='store_true', help='Regenerar summary e imágenes aunque existan')
+    ap.add_argument('--legacy-session', action='store_true', help='Además generar estructura legacy chatsession_ para compatibilidad')
+    ap.add_argument('--keep-existing-presummary', action='store_true', help='(legacy) Reutilizar presummary existente en sesión')
+    ap.add_argument('--no-summary', action='store_true', help='Solo ejecutar etapa GROBID (legacy)')
+    ap.add_argument('--verbose', action='store_true')
+    ap.add_argument('--include-paths', action='store_true', help='(legacy) Incluir rutas detalladas en JSON de salida')
+    ap.add_argument('--session-slug', help='(legacy) Forzar slug de sesión')
+    ap.add_argument('--session-root', help='(legacy) Raíz de sesiones')
     args = ap.parse_args()
 
     pdf_path = pathlib.Path(args.pdf)
@@ -112,101 +121,66 @@ def main():
         print(json.dumps({'error': 'pdf_not_found', 'path': str(pdf_path)}))
         return 1
 
-    # Prepare session root
+    pdf_hash = _calc_pdf_hash(pdf_path)
+
+    # NUEVO FLUJO PRINCIPAL: generar summary_and_content primero
+    try:
+        sac_result = build_summary_and_content(
+            pdf_path=pdf_path,
+            base_dir=pathlib.Path(args.base_dir),
+            paper_id=args.paper_id,
+            overwrite=args.overwrite,
+            model=args.model
+        )
+    except Exception as e:
+        print(json.dumps({'error': 'summary_and_content_failed', 'message': str(e)}))
+        return 3
+
+    # Si no se pidió legacy-session, devolvemos resultado directo y salimos
+    if not args.legacy_session:
+        print(json.dumps({
+            'status': 'ok',
+            'mode': 'summary_and_content',
+            **sac_result
+        }, ensure_ascii=False, indent=2))
+        return 0
+
+    # ---------------- LEGACY SESSION MODE (opcional) ----------------
     session_root_base = pathlib.Path(args.session_root or os.environ.get('SESSION_ROOT_DIR') or REPO_ROOT)
     session_root_base.mkdir(parents=True, exist_ok=True)
-
-    # For slug we may inspect title after grobid, but we need a path early. Use filename + hash stub first.
     preliminary_slug = args.session_slug or _slugify(pdf_path.stem)
-    pdf_hash = _calc_pdf_hash(pdf_path)
     if not args.session_slug:
-        # Add short hash to avoid collisions
         preliminary_slug = f"{preliminary_slug}-{pdf_hash[:6]}"
     session_dir = session_root_base / f"chatsession_{preliminary_slug}_"
     session_dir.mkdir(parents=True, exist_ok=True)
-
-    # Subdirs
-    source_dir = session_dir / 'source'
-    pres_dir = session_dir / 'presummary'
-    summ_dir = session_dir / 'summary'
-    logs_dir = session_dir / 'logs'
-    for d in (source_dir, pres_dir, summ_dir, logs_dir):
-        d.mkdir(parents=True, exist_ok=True)
-
-    # Copy PDF (avoid duplicating if same inode - simple check by name existence)
+    source_dir = session_dir / 'source'; pres_dir = session_dir / 'presummary'; summ_dir = session_dir / 'summary'; logs_dir = session_dir / 'logs'
+    for d in (source_dir, pres_dir, summ_dir, logs_dir): d.mkdir(parents=True, exist_ok=True)
     target_pdf_path = source_dir / 'original.pdf'
     if not target_pdf_path.exists():
-        try:
-            target_pdf_path.write_bytes(pdf_path.read_bytes())
+        try: target_pdf_path.write_bytes(pdf_path.read_bytes())
         except Exception as e:
-            print(json.dumps({'error': 'copy_pdf_failed', 'message': str(e)}))
-            return 1
+            print(json.dumps({'error': 'copy_pdf_failed', 'message': str(e)})); return 1
 
-    # Legacy output directory (optional)
-    if LEGACY_OUTPUT:
-        OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    # LEGACY: reconstruimos presummary y summary desde artefactos recién creados en summary_and_content
+    sac_dir = pathlib.Path(sac_result['summary_json']).parent
+    # presummary (legacy presummary.json) = content_json renombrado
     presummary_session_path = pres_dir / 'presummary.json'
-    legacy_pres_path = OUTPUT_DIR / 'presummary.json'
-
-    # Stage 1: GROBID extraction (only if not keeping existing)
-    if presummary_session_path.exists() and args.keep_existing_presummary:
-        if args.verbose:
-            print('[runsummary] Reutilizando presummary existente en sesión')
-    else:
-        # Run grobid script (writes legacy output/presummary.json). We'll then copy into session.
-        if legacy_pres_path.exists():
-            try: legacy_pres_path.unlink()
-            except OSError: pass
-        grobid_cmd = [sys.executable, str(BACKEND_DIR / 'grobid.py'), str(pdf_path)]
-        code, out = _run(grobid_cmd)
-        (logs_dir / 'runsummary.log').write_text(out[-20_000:], encoding='utf-8')
-        if args.verbose:
-            print(out)
-        if code != 0 or not legacy_pres_path.exists():
-            print(json.dumps({'error': 'grobid_failed', 'exit_code': code, 'stdout': out[-4000:]}))
-            return 2
-        # Copy into session
-        try:
-            presummary_session_path.write_text(legacy_pres_path.read_text(encoding='utf-8'), encoding='utf-8')
-        except Exception as e:
-            print(json.dumps({'error': 'presummary_copy_failed', 'message': str(e)}))
-            return 2
-
-    if args.no_summary:
-        print(json.dumps({'status': 'grobid_done', 'presummary': str(presummary_session_path), 'session': str(session_dir)}))
-        return 0
-
-    # Stage 2: LLM summary
-    legacy_sum_path = OUTPUT_DIR / 'summary.json'
-    if legacy_sum_path.exists():
-        try: legacy_sum_path.unlink()
-        except OSError: pass
-    # Prepare prompt/raw file paths inside session structure
-    prompt_file = summ_dir / 'prompt.txt'
-    raw_file = summ_dir / 'llm_raw_response.txt'
-    summary_cmd = [
-        sys.executable, str(BACKEND_DIR / 'summary.py'),
-        '--model', args.model,
-        '--emit-prompt-file', str(prompt_file),
-        '--emit-raw-file', str(raw_file)
-    ]
-    code, out = _run(summary_cmd)
-    # Append summary stage logs
-    with (logs_dir / 'runsummary.log').open('a', encoding='utf-8') as lf:
-        lf.write('\n--- SUMMARY STAGE ---\n')
-        lf.write(out[-20_000:])
-    if args.verbose:
-        print(out)
-    if code != 0 or not legacy_sum_path.exists():
-        print(json.dumps({'error': 'summary_failed', 'exit_code': code, 'stdout': out[-4000:]}))
-        return 3
-    # Copy summary into session
+    try:
+        presummary_session_path.write_text(
+            pathlib.Path(sac_result['content_json']).read_text(encoding='utf-8'),
+            encoding='utf-8')
+    except Exception as e:
+        print(json.dumps({'error': 'legacy_presummary_copy_failed', 'message': str(e)})); return 2
+    # summary copy
     session_summary_path = summ_dir / 'summary.json'
     try:
-        session_summary_path.write_text(legacy_sum_path.read_text(encoding='utf-8'), encoding='utf-8')
+        session_summary_path.write_text(
+            pathlib.Path(sac_result['summary_json']).read_text(encoding='utf-8'),
+            encoding='utf-8')
     except Exception as e:
-        print(json.dumps({'error': 'summary_copy_failed', 'message': str(e)}))
-        return 3
+        print(json.dumps({'error': 'legacy_summary_copy_failed', 'message': str(e)})); return 3
+    # Simple logs stub
+    (logs_dir / 'runsummary.log').write_text('legacy session generated from summary_and_content pipeline', encoding='utf-8')
 
     # Load summary meta & compute session meta.json
     summary_obj = _load_json(session_summary_path)
@@ -272,10 +246,10 @@ def main():
             'session_dir': str(session_dir),
             'summary_file': str(session_summary_path),
             'presummary_file': str(presummary_session_path),
-            'prompt_file': str(prompt_file),
-            'raw_response_file': str(raw_file),
             'logs_file': str((logs_dir / 'runsummary.log'))
         })
+    # Devolvemos unión de ambas salidas
+    result.update({'summary_and_content': sac_result, 'mode': 'legacy+summary_and_content'})
     print(json.dumps(result, ensure_ascii=False, indent=2))
     return 0
 

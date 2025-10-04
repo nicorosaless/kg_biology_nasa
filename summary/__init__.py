@@ -1,8 +1,12 @@
-"""Summary package placeholder.
-Future modules:
-- ingestion.py (PDF/LaTeX parsing, block segmentation)
-- salience.py (MMR + hybrid scoring)
-- abstractive.py (section-wise generation prompts)
-- citation.py (binding claims to references)
-- pipeline.py (orchestrates L0→L6)
+"""Summary package utilities.
+
+Exporta función de conveniencia `build_summary_and_content` para generar la
+carpeta `summary_and_content` de un paper con:
+ - <paper_id>.content.json
+ - summary.json
+ - figures/
+
+CLI relacionado: `python -m summary.paper_summary --pdf <ruta.pdf>`
 """
+
+from .paper_summary import build_summary_and_content  # noqa: F401
