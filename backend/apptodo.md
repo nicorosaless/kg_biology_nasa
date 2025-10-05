@@ -140,10 +140,15 @@ Documento generado para alinear estado actual y próximos pasos del backend.
 Las partes base de `api.py` y endpoints de paper/summary/graph/figures ya existen. El foco actual pasa a:
 
 ### 9.1 Procesamiento masivo cluster C103 (Radiation & Shielding)
-- [ ] Ejecutar full pipeline (summary + KG) para todos los PMC del cluster C103 aún no procesados.
-  - Reutilizar caching; usar flags `--overwrite` sólo si falta heurística de figuras nueva.
-  - Registrar tiempos agregados y conteo de figuras retenidas (`_meta.figure_selection`).
-- [ ] Generar un índice JSON (`backend/output/cluster_C103_status.json`) con: PMCID, title, processed(bool), figures_kept, word_count, graph_nodes, graph_edges.
+- [x] Ejecutar full pipeline (summary + KG) para todos los PMC del cluster C103 aún no procesados.
+  - Ejecutado vía endpoint POST `/api/paper/{pmcid}/process` para 57 IDs identificados.
+  - Resultado: 53 procesados correctamente, 4 con PDF ausente (404) y por tanto no procesables actualmente.
+  - IDs faltantes (PDF not found): `PMC5047659`, `PMC5866446`, `PMC8886715`, `PMC9832585`.
+- [x] Generar un índice JSON (`backend/output/cluster_C103_status.json`) con: PMCID, title, processed(bool), figures_kept (pendiente si se requiere), word_count, graph_nodes, graph_edges.
+  - Archivo escrito: `backend/output/cluster_C103_status.json`.
+  - Contenido: 53 entradas con `word_count`, `nodes`, `edges`, `sections`; campo `figures_kept` podrá añadirse cuando se exponga en `_meta.figure_selection`.
+  - Todos los overview graphs respetan ≤40 nodos.
+  - Próximo micro‑paso opcional: añadir figures_kept y tiempos si se necesitan métricas de rendimiento.
 
 ### 9.2 Mejora UI Summary + Figures
 Problema: La vista actual de `PaperDetail.tsx` muestra secciones y figuras pero el layout no mantiene una jerarquía visual clara (figuras a veces descontextualizadas verticalmente y sin zoom dedicado).

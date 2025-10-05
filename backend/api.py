@@ -359,8 +359,23 @@ def get_graph(pmcid: str, core: bool = True, run: bool = False):
 		_ensure_pipeline(pmcid, force_kg=True)
 	target = dirs['graph_core'] if core else dirs['graph_full']
 	if not target.exists():
+		# Fallback: in minimal output mode, graph_full.json is intentionally omitted
+		if not core and dirs['graph_core'].exists():
+			return _read_json(dirs['graph_core'])
 		raise HTTPException(status_code=404, detail='Graph not found')
 	return _read_json(target)
+
+@app.get('/api/paper/{pmcid}/graph/overview')
+def get_graph_overview(pmcid: str):
+    pmcid = _norm_pmcid(pmcid)
+    dirs = _paper_dirs(pmcid)
+    overview_path = dirs['graph_phase5'] / 'graph_overview.json'
+    if not overview_path.exists():
+        raise HTTPException(status_code=404, detail='Overview graph not found')
+    data = _read_json(overview_path)
+    if not isinstance(data, dict) or not data.get('nodes'):
+        raise HTTPException(status_code=404, detail='Overview graph empty')
+    return data
 
 @app.get('/api/paper/{pmcid}/sections')
 def get_sections(pmcid: str):

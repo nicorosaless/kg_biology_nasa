@@ -72,7 +72,7 @@ VISUALIZATION = {
 SECTION_SUBGRAPH = {
     'enabled': True,
     # Maximum nodes per section subgraph (after filtering/prioritizing)
-    'max_nodes': 50,
+    'max_nodes': 40,
     # Node ranking strategy: 'degree_frequency' or 'frequency'
     'ranking': 'degree_frequency',
     # Minimum frequency to include; 1 keeps everything
@@ -124,3 +124,11 @@ __all__ = [
 
 # Connectivity enforcement (used in phase5)
 FORCE_PUBLICATION_CONNECTIVITY = True  # if True, will connect all nodes to publication when multiple components remain
+
+# When True, phase5 will only persist the graph artifacts required by the UI:
+# - graph_core.json
+# - section_overview.json
+# - section_*.json (per-section subgraphs)
+# It will SKIP: graph.json (full), stats.json (stats already embedded in core), graph_vis.json, neo4j CSV exports.
+# Set to False to keep all diagnostic / integration exports.
+PHASE5_MINIMAL_OUTPUT = True

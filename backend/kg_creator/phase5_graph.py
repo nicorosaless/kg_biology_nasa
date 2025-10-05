@@ -8,6 +8,8 @@ import csv
 from .utils import get_phase_dir, save_json
 from . import config as KG_CONFIG
 from math import sin, cos, pi
+from lxml import etree
+import re
 
 # Simplification configuration
 PUBLISH_PUBLICATION_NODE = True
@@ -115,6 +117,54 @@ def _simplify_entities(raw_entities: List[Dict[str, Any]], pmcid: str) -> List[D
         base['nav'] = nav
         simplified.append(base)
     return simplified
+
+def _extract_page_points(tei_path: Path) -> List[Dict[str,int]]:
+    """Return list of {'page': n, 'offset': cumulative_char_offset} from TEI pb markers.
+    If parsing fails or file absent returns at least page 1 offset 0.
+    """
+    if not tei_path.exists():
+        return [{'page':1,'offset':0}]
+    try:
+        xml = etree.parse(str(tei_path))
+    except Exception:
+        return [{'page':1,'offset':0}]
+    root = xml.getroot()
+    accum = 0
+    points: List[Dict[str,int]] = []
+    for el in root.iter():
+        tag = el.tag.split('}')[-1]
+        if tag == 'pb':
+            n_val = el.get('n') or str(len(points)+1)
+            try:
+                page_num = int(re.sub(r'[^0-9]','', n_val)) if re.search(r'\d', n_val) else len(points)+1
+            except Exception:
+                page_num = len(points)+1
+            points.append({'page': page_num, 'offset': accum})
+        txt = el.text or ''
+        if txt:
+            accum += len(txt)
+        tail = el.tail or ''
+        if tail:
+            accum += len(tail)
+    if not points:
+        points.append({'page':1,'offset':0})
+    return points
+
+def _assign_page(nav: Dict[str,Any], points: List[Dict[str,int]]):
+    if not nav or 'char_start' not in nav or nav.get('char_start') is None or not points:
+        return
+    cs = nav['char_start']
+    # binary search last page with offset <= cs
+    lo, hi = 0, len(points)-1
+    best = points[0]
+    while lo <= hi:
+        mid = (lo+hi)//2
+        if points[mid]['offset'] <= cs:
+            best = points[mid]
+            lo = mid+1
+        else:
+            hi = mid-1
+    nav['page'] = best['page']
 
 
 def _add_publication_node(entities: List[Dict[str, Any]], pmcid: str) -> Dict[str, Any]:
@@ -297,12 +347,84 @@ def run(base_dir: Path, pmcid: str):
     ents = load_entities(base_dir, pmcid)
     rels = load_relations(base_dir, pmcid)
     graph = aggregate(ents, rels, pmcid)
+    # Page enrichment using TEI (first .tei.xml in summary_and_content)
+    tei_dir = base_dir / pmcid / 'summary_and_content'
+    tei_files = list(tei_dir.glob('*.tei.xml'))
+    page_points: List[Dict[str,int]] = []
+    if tei_files:
+        page_points = _extract_page_points(tei_files[0])
+        for ent in graph['entities']:
+            _assign_page(ent.get('nav'), page_points)
+    else:
+        # Heuristic fallback: derive approximate page numbers from content JSON (figures metadata)
+        try:
+            content_json = next((tei_dir.glob(f"{pmcid}.content.json")))
+        except StopIteration:
+            content_json = None
+        if content_json and content_json.exists():
+            try:
+                data = json.loads(content_json.read_text(encoding='utf-8'))
+                # Collect figure pages if available
+                figure_pages: Set[int] = set()
+                figs = data.get('figures') or {}
+                for fid, fmeta in figs.items():
+                    # coords_groups is a list of dicts each possibly with 'page'
+                    for cg in fmeta.get('coords_groups', []):
+                        p = cg.get('page')
+                        if isinstance(p, int):
+                            figure_pages.add(p)
+                if not figure_pages and 'sections' in data:
+                    # try to infer a small number of pages based on length (~3500 chars per page)
+                    total_text = 0
+                    for sec in data['sections']:
+                        # prefer 'text' field else concatenate paragraphs
+                        if isinstance(sec, dict):
+                            if 'text' in sec and isinstance(sec['text'], str):
+                                total_text += len(sec['text'])
+                            else:
+                                for para in sec.get('paragraphs', []):
+                                    if isinstance(para, str):
+                                        total_text += len(para)
+                    approx_pages = max(1, min(12, total_text // 3500 + 1))  # cap at 12 to avoid wild guesses
+                    figure_pages = set(range(1, approx_pages + 1))
+                if figure_pages:
+                    total_pages = max(figure_pages)
+                    # Build a crude char_start distribution to map to pages proportional to char_start
+                    # Determine maximum char_end among entities to establish total span
+                    max_char = 0
+                    for ent in graph['entities']:
+                        nav = ent.get('nav') or {}
+                        cs = nav.get('char_end') or nav.get('char_start')
+                        if isinstance(cs, int) and cs > max_char:
+                            max_char = cs
+                    if max_char > 0:
+                        for ent in graph['entities']:
+                            nav = ent.get('nav')
+                            if not nav:
+                                continue
+                            cs = nav.get('char_start')
+                            if isinstance(cs, int) and cs >= 0:
+                                # page index 1..total_pages
+                                est_page = int((cs / max_char) * (total_pages - 1)) + 1
+                                nav['page'] = est_page
+                                nav['page_heuristic'] = True
+                # If still no pages assigned, fall back to page 1 for all with a flag
+                else:
+                    for ent in graph['entities']:
+                        nav = ent.get('nav')
+                        if nav and nav.get('char_start') is not None:
+                            nav['page'] = 1
+                            nav['page_heuristic'] = True
+            except Exception:
+                # Silent fallback if anything goes wrong
+                pass
     out_dir = get_phase_dir(base_dir, pmcid, 5)
-    save_json(graph, out_dir / 'graph.json')
-    save_json(graph['stats'], out_dir / 'stats.json')
-    # Core lightweight export (enough to rebuild graph_vis):
-    # Keep only: entities[eid, mention, node_type, frequency, sections], relations[rid, source_eid, target_eid, type]
-    # Minimal core export (UI contract): nodes & edges only with essential fields + navigation
+    minimal = getattr(KG_CONFIG, 'PHASE5_MINIMAL_OUTPUT', False)
+    if not minimal:
+        # Full diagnostic exports only when not in minimal mode
+        save_json(graph, out_dir / 'graph.json')
+        save_json(graph['stats'], out_dir / 'stats.json')
+    # Core export (UI contract). In minimal mode omit stats.
     core = {
         'paper_id': pmcid,
         'nodes': [
@@ -312,7 +434,7 @@ def run(base_dir: Path, pmcid: str):
                 'type': e.get('node_type'),
                 'role': e.get('role'),
                 'freq': e.get('frequency'),
-                'nav': e.get('nav')  # {section, sentence_id, char_start, char_end, anchor}
+                'nav': e.get('nav')
             } for e in graph['entities']
         ],
         'edges': [
@@ -322,16 +444,25 @@ def run(base_dir: Path, pmcid: str):
                 'target': r['target_eid'],
                 'type': r.get('type')
             } for r in graph['relations']
-        ],
-        'stats': graph['stats']
+        ]
     }
+    if not minimal:
+        core['stats'] = graph['stats']
     save_json(core, out_dir / 'graph_core.json')
-    # Visualization export
+    # Global reduced overview (≤40 nodos) siempre generado
+    overview_ok = False
     try:
-        vis = build_visualization_graph(graph, pmcid)
-        save_json(vis, out_dir / 'graph_vis.json')
-    except Exception as e:  # non-fatal
-        save_json({'error': 'vis_generation_failed', 'message': str(e)}, out_dir / 'graph_vis.error.json')
+        reduced = _build_reduced_overview(graph, pmcid, limit=40)
+        save_json(reduced, out_dir / 'graph_overview.json')
+        overview_ok = True
+    except Exception as e:
+        save_json({'error':'overview_failed','message':str(e)}, out_dir / 'graph_overview.error.json')
+    if not minimal:
+        try:
+            vis = build_visualization_graph(graph, pmcid)
+            save_json(vis, out_dir / 'graph_vis.json')
+        except Exception as e:
+            save_json({'error': 'vis_generation_failed', 'message': str(e)}, out_dir / 'graph_vis.error.json')
     # Section subgraphs
     try:
         if getattr(KG_CONFIG, 'SECTION_SUBGRAPH', {}).get('enabled', False):
@@ -341,35 +472,77 @@ def run(base_dir: Path, pmcid: str):
                 save_json(sec_obj, out_dir / sec_file)
     except Exception as e:
         save_json({'error': 'section_subgraphs_failed', 'message': str(e)}, out_dir / 'section_subgraphs.error.json')
-    # --- Neo4j export ---
-    neo_dir = out_dir / 'neo4j'
-    neo_dir.mkdir(exist_ok=True)
-    nodes_path = neo_dir / 'nodes.csv'
-    rels_path = neo_dir / 'relationships.csv'
 
-    # Nodes CSV schema: id:ID,mention,frequency:int,node_type:LABEL,sections (pipe-delimited)
-    with nodes_path.open('w', newline='', encoding='utf-8') as f:
-        w = csv.writer(f)
-        w.writerow(['id:ID','mention','frequency:int','node_type:LABEL','sections'])
-        for n in graph['entities']:
-            sections_join = '|'.join(n.get('sections', []))
-            w.writerow([n['eid'], n.get('mention',''), n.get('frequency',0), n.get('node_type','ENTITY'), sections_join])
-
-    # Relationships CSV schema: :START_ID,:END_ID,type:TYPE,method,trigger,evidence_span,section_heading,sentence_id:int
-    with rels_path.open('w', newline='', encoding='utf-8') as f:
-        w = csv.writer(f)
-        w.writerow([':START_ID',':END_ID','type:TYPE','method','trigger','evidence_span','section_heading','sentence_id:int'])
-        for r in graph['relations']:
-            w.writerow([
-                r['source_eid'],
-                r['target_eid'],
-                r.get('type','RELATED_TO'),
-                r.get('method',''),
-                r.get('trigger','') or '',
-                (r.get('evidence_span','') or '').replace('\n',' '),
-                r.get('section_heading','') or '',
-                r.get('sentence_id') if isinstance(r.get('sentence_id'), int) else ''
-            ])
+    # Neo4j export solo si no es minimal
+    if not minimal:
+        neo_dir = out_dir / 'neo4j'
+        neo_dir.mkdir(exist_ok=True)
+        nodes_path = neo_dir / 'nodes.csv'
+        rels_path = neo_dir / 'relationships.csv'
+        with nodes_path.open('w', newline='', encoding='utf-8') as f:
+            w = csv.writer(f)
+            w.writerow(['id:ID','mention','frequency:int','node_type:LABEL','sections'])
+            for n in graph['entities']:
+                sections_join = '|'.join(n.get('sections', []))
+                w.writerow([n['eid'], n.get('mention',''), n.get('frequency',0), n.get('node_type','ENTITY'), sections_join])
+        with rels_path.open('w', newline='', encoding='utf-8') as f:
+            w = csv.writer(f)
+            w.writerow([':START_ID',':END_ID','type:TYPE','method','trigger','evidence_span','section_heading','sentence_id:int'])
+            for r in graph['relations']:
+                w.writerow([
+                    r['source_eid'],
+                    r['target_eid'],
+                    r.get('type','RELATED_TO'),
+                    r.get('method',''),
+                    r.get('trigger','') or '',
+                    (r.get('evidence_span','') or '').replace('\n',' '),
+                    r.get('section_heading','') or '',
+                    r.get('sentence_id') if isinstance(r.get('sentence_id'), int) else ''
+                ])
+    # Limpieza extra en modo minimal: eliminar archivos que la UI no consume
+    if minimal:
+        import shutil
+        whitelist = {'graph_core.json','graph_overview.json','section_overview.json'}
+        whitelist.update({p.name for p in out_dir.glob('section_*.json')})
+        # generar overview fallback si fallo y core existe
+        if not overview_ok:
+            core_path = out_dir / 'graph_core.json'
+            if core_path.exists():
+                try:
+                    core_data = json.loads(core_path.read_text())
+                    deg = {}
+                    for ed in core_data.get('edges', []):
+                        a = str(ed['source']); b = str(ed['target'])
+                        deg[a] = deg.get(a,0)+1; deg[b] = deg.get(b,0)+1
+                    scored = []
+                    for n in core_data.get('nodes', []):
+                        d = deg.get(str(n['id']),0)
+                        f = n.get('freq') or 1
+                        scored.append((d,f,n))
+                    scored.sort(key=lambda t: (t[0], t[1]), reverse=True)
+                    top_nodes = [s[2] for s in scored[:40]]
+                    top_ids = {str(n['id']) for n in top_nodes}
+                    red_edges = [e for e in core_data.get('edges', []) if str(e['source']) in top_ids and str(e['target']) in top_ids]
+                    save_json({
+                        'paper_id': pmcid,
+                        'n_nodes': len(top_nodes),
+                        'n_edges': len(red_edges),
+                        'nodes': top_nodes,
+                        'edges': red_edges,
+                        'meta': {'strategy':'fallback_core_derivation','limit':40}
+                    }, out_dir / 'graph_overview.json')
+                except Exception:
+                    pass
+        for f in out_dir.iterdir():
+            if f.is_dir():
+                if f.name == 'neo4j':
+                    try: shutil.rmtree(f)
+                    except Exception: pass
+                continue
+            if f.name in whitelist: continue
+            if f.suffix == '.error.json': continue
+            try: f.unlink()
+            except Exception: pass
     return graph['stats']
 
 if __name__ == '__main__':
@@ -524,6 +697,69 @@ def build_visualization_graph(graph: Dict[str, Any], pmcid: str) -> Dict[str, An
     return {'nodes': vis_nodes, 'edges': vis_edges, 'meta': meta}
 
 
+def _build_reduced_overview(graph: Dict[str, Any], pmcid: str, limit: int = 40) -> Dict[str, Any]:
+    """Select top-N entities by (degree, frequency) to produce a tiny global overview graph.
+    Keeps only edges whose both endpoints are in selection. Adds simple stats for UI.
+    """
+    entities = graph['entities']
+    relations = graph['relations']
+    deg = defaultdict(int)
+    for r in relations:
+        deg[r['source_eid']] += 1
+        deg[r['target_eid']] += 1
+    scored = []
+    for e in entities:
+        scored.append((deg.get(e['eid'],0), e.get('frequency',1), e))
+    scored.sort(key=lambda t: (t[0], t[1]), reverse=True)
+    top = [t[2] for t in scored[:limit]]
+    top_ids = {e['eid'] for e in top}
+    edges = [r for r in relations if r['source_eid'] in top_ids and r['target_eid'] in top_ids]
+    # Build enriched labeling: prefer canonical mention + first example variant for disambiguation.
+    # Also append a compact type hint if label length < 4 characters.
+    def make_label(ent: Dict[str, Any]) -> str:
+        raw = ent.get('mention') or ''
+        node_type = ent.get('node_type') or ''
+        examples = ent.get('examples') or []  # may not exist if not propagated
+        # If mention is very short / acronym, try to append one example (if different and available)
+        label = raw
+        if len(raw) < 4 and examples:
+            ex = next((e for e in examples if e.lower() != raw.lower()), None)
+            if ex:
+                label = f"{raw} · {ex}"  # short + example variant
+        # If still too cryptic and node_type meaningful, append abbreviated type
+        if len(label) < 4 and node_type:
+            abbrev = node_type.replace('_',' ').title().split(' ')
+            abbrev = ''.join(w[0] for w in abbrev if w)
+            label = f"{label} ({abbrev})"
+        # Ensure not empty
+        return label or node_type or 'Entity'
+    return {
+        'paper_id': pmcid,
+        'n_nodes': len(top),
+        'n_edges': len(edges),
+        'nodes': [
+            {
+                'id': e['eid'],
+                'label': make_label(e),
+                'raw_label': e.get('mention'),
+                'type': e.get('node_type'),
+                'freq': e.get('frequency'),
+                'sections': e.get('sections', []),
+                'nav': e.get('nav')
+            } for e in top
+        ],
+        'edges': [
+            {
+                'id': r.get('rid'),
+                'source': r['source_eid'],
+                'target': r['target_eid'],
+                'type': r.get('type')
+            } for r in edges
+        ],
+        'meta': {'strategy': 'top_degree_freq', 'limit': limit}
+    }
+
+
 def build_section_subgraphs(graph: Dict[str, Any], pmcid: str) -> Dict[str, Any]:
     cfg = getattr(KG_CONFIG, 'SECTION_SUBGRAPH', {})
     max_nodes = cfg.get('max_nodes', 50)
@@ -572,6 +808,7 @@ def build_section_subgraphs(graph: Dict[str, Any], pmcid: str) -> Dict[str, Any]
             return (freq, deg[eid])
         return (deg[eid], freq)
     section_outputs = {}
+    section_page_map = {}
     def slugify(name: str) -> str:
         import re
         slug = re.sub(r'[^a-zA-Z0-9]+','-', name.strip()).strip('-')
@@ -624,14 +861,84 @@ def build_section_subgraphs(graph: Dict[str, Any], pmcid: str) -> Dict[str, Any]
                 'target': r['target_eid']
             } for r in rels_filtered
         ]
+        # --- Ensure connectivity: remove orphan (degree 0) nodes then keep largest connected component ---
+        def _enforce_connectivity(nodes_list, edges_list):
+            if not nodes_list:
+                return nodes_list, edges_list, {}
+            # Build adjacency
+            adj = defaultdict(set)
+            for e in edges_list:
+                s = e['source']; t = e['target']
+                adj[s].add(t); adj[t].add(s)
+            # Identify orphan nodes (degree 0)
+            orphans = [n['id'] for n in nodes_list if n['id'] not in adj]
+            filtered_nodes = [n for n in nodes_list if n['id'] not in orphans]
+            removed_orphans = len(orphans)
+            if not filtered_nodes:
+                # All were orphans: keep a single node (cannot create edges) to avoid empty graph
+                keep = nodes_list[:1]
+                return keep, [], {'components': 1, 'removed_orphans': removed_orphans, 'largest_component': len(keep)}
+            # Build components via DFS
+            id_to_node = {n['id']: n for n in filtered_nodes}
+            visited = set()
+            comps = []
+            for nid in id_to_node:
+                if nid in visited:
+                    continue
+                stack = [nid]
+                comp = []
+                while stack:
+                    cur = stack.pop()
+                    if cur in visited:
+                        continue
+                    visited.add(cur)
+                    comp.append(cur)
+                    for nb in adj.get(cur, []):
+                        if nb in id_to_node and nb not in visited:
+                            stack.append(nb)
+                comps.append(comp)
+            if len(comps) <= 1:
+                allowed = set(id_to_node)
+                new_edges = [e for e in edges_list if e['source'] in allowed and e['target'] in allowed]
+                return [id_to_node[i] for i in allowed], new_edges, {
+                    'components': 1,
+                    'removed_orphans': removed_orphans,
+                    'largest_component': len(filtered_nodes)
+                }
+            # Multiple components: keep largest, drop the rest
+            comps.sort(key=len, reverse=True)
+            largest = set(comps[0])
+            removed_components = [len(c) for c in comps[1:]]
+            new_nodes = [id_to_node[i] for i in largest]
+            new_edges = [e for e in edges_list if e['source'] in largest and e['target'] in largest]
+            return new_nodes, new_edges, {
+                'components': len(comps),
+                'removed_orphans': removed_orphans,
+                'largest_component': len(comps[0]),
+                'removed_components': removed_components
+            }
+
+        nodes_out, edges_out, connectivity_meta = _enforce_connectivity(nodes_out, edges_out)
+        # Derive section page: choose smallest page among nodes (heuristic earliest occurrence)
+        sec_page = None
+        for n in nodes_out:
+            p = (n.get('nav') or {}).get('page') if isinstance(n.get('nav'), dict) else None
+            if p is not None:
+                if sec_page is None or p < sec_page:
+                    sec_page = p
         section_outputs[f"section_{sections.index(s):02d}_{slugify(s)}.json"] = {
             'paper_id': pmcid,
             'section': s,
             'n_nodes': len(nodes_out),
             'n_edges': len(edges_out),
             'nodes': nodes_out,
-            'edges': edges_out
+            'edges': edges_out,
+            'meta': {
+                'connectivity': connectivity_meta,
+                'page': sec_page
+            }
         }
+        section_page_map[s] = sec_page
     overview = {
         'paper_id': pmcid,
         'sections': overview_nodes,
@@ -640,4 +947,58 @@ def build_section_subgraphs(graph: Dict[str, Any], pmcid: str) -> Dict[str, Any]
             'total_sections': len(sections)
         }
     }
+    # Inject page into overview nodes (real sections only, before synthetic additions)
+    for on in overview['sections']:
+        if 'page' not in on:
+            on['page'] = section_page_map.get(on['section'])
+    # --- Guarantee drill-down coverage for overview nodes ---
+    # Collect all entity ids that already have a section file where they appear
+    covered_eids = set()
+    for sec_file, sec_obj in section_outputs.items():
+        for n in sec_obj.get('nodes', []):
+            covered_eids.add(n['id'])
+    # Entities present in core graph
+    all_entities = {e['eid']: e for e in graph['entities']}
+    missing = [eid for eid in all_entities if eid not in covered_eids]
+    if missing:
+        # Create a synthetic section grouping leftover entities by node_type to keep it interpretable
+        buckets: Dict[str, List[int]] = defaultdict(list)
+        for eid in missing:
+            buckets[all_entities[eid].get('node_type','OTHER')].append(eid)
+        synth_index_start = len(sections)
+        import re
+        def slug(s: str) -> str:
+            v = re.sub(r'[^a-zA-Z0-9]+','-', s).strip('-')
+            return v.lower() or 'x'
+        idx_offset = 0
+        for node_type, eids_list in buckets.items():
+            if not eids_list:
+                continue
+            # Build tiny star subgraph connecting all nodes to a central pseudo hub (first entity) if >1
+            central = eids_list[0]
+            edges_out = []
+            for other in eids_list[1:]:
+                edges_out.append({'id': f'synth-{central}-{other}', 'type': 'ASSOCIATED', 'source': central, 'target': other})
+            nodes_out = []
+            for eid in eids_list:
+                ent = all_entities[eid]
+                nodes_out.append({
+                    'id': eid,
+                    'label': ent.get('mention'),
+                    'type': ent.get('node_type'),
+                    'freq': ent.get('frequency'),
+                    'nav': ent.get('nav')
+                })
+            fname = f"section_{synth_index_start+idx_offset:02d}_Synthetic-{slug(node_type)}.json"
+            idx_offset += 1
+            section_outputs[fname] = {
+                'paper_id': pmcid,
+                'section': f"Synthetic {node_type}",
+                'n_nodes': len(nodes_out),
+                'n_edges': len(edges_out),
+                'nodes': nodes_out,
+                'edges': edges_out,
+                'meta': {'synthetic': True, 'source': 'ensure_overview_drilldown', 'node_type': node_type, 'page': None}
+            }
+            overview['sections'].append({'id': len(overview['sections']), 'section': f"Synthetic {node_type}", 'relations': len(edges_out), 'page': None})
     return {'overview': overview, 'sections': section_outputs}
