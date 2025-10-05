@@ -1,18 +1,21 @@
 import { motion } from "framer-motion";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Cluster, Mission } from "../types/graph";
+import { Cluster, Mission, Paper } from "../types/graph";
 
 interface ClusterViewProps {
   clusters: Cluster[];
   onClusterClick: (clusterId: string) => void;
+  papers: Paper[];
+  searchQuery: string;
   filters: {
-    missions: Mission[];
+    missions: Mission[]; // kept for compatibility; not used for filtering anymore
+    yearRange?: [number, number];
   };
   // Optional: programmatic request to focus a cluster with the same cinematic animation as click
   requestFocusClusterId?: string | null;
 }
 
-export const ClusterView = ({ clusters, onClusterClick, filters, requestFocusClusterId }: ClusterViewProps) => {
+export const ClusterView = ({ clusters, papers, searchQuery, onClusterClick, filters, requestFocusClusterId }: ClusterViewProps) => {
   const [activeId, setActiveId] = useState<string | null>(null);
   const [overlayLabel, setOverlayLabel] = useState<string | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -60,6 +63,28 @@ export const ClusterView = ({ clusters, onClusterClick, filters, requestFocusClu
   // Mission filtering removed; show all clusters regardless of mission.
   const filteredClusters = clusters;
 
+  // Compute per-cluster filtered paper counts based on search and year filters
+  const effectiveCountsById = useMemo(() => {
+    const [minYear, maxYear] = filters.yearRange ?? [Number.NEGATIVE_INFINITY, Number.POSITIVE_INFINITY];
+    const q = (searchQuery || "").toLowerCase().trim();
+
+    const map = new Map<string, number>();
+    for (const c of clusters) map.set(c.id, 0);
+
+    for (const p of papers) {
+      // year filter
+      if (!(p.year >= minYear && p.year <= maxYear)) continue;
+      // search filter: matches title or any topic
+      const matchesSearch = q
+        ? p.label.toLowerCase().includes(q) || p.topics.some((t) => t.toLowerCase().includes(q))
+        : true;
+      if (!matchesSearch) continue;
+      // increment for its cluster
+      map.set(p.clusterId, (map.get(p.clusterId) || 0) + 1);
+    }
+    return map;
+  }, [clusters, papers, filters.yearRange, searchQuery]);
+
   // Stable pseudo-random offset based on id to avoid twitching on re-render
   const hashCode = (str: string) => {
     let h = 0;
@@ -91,9 +116,10 @@ export const ClusterView = ({ clusters, onClusterClick, filters, requestFocusClu
 
     const minSize = 80;
     const maxSize = 180;
-    const counts = filteredClusters.map((c) => c.count);
-    const maxCount = counts.length ? Math.max(...counts) : 1;
-    const sizePx = (count: number) => minSize + ((count / maxCount) * (maxSize - minSize));
+  const counts = filteredClusters.map((c) => effectiveCountsById.get(c.id) ?? 0);
+  const rawMax = counts.length ? Math.max(...counts) : 0;
+  const maxCount = rawMax > 0 ? rawMax : 1; // avoid divide-by-zero
+  const sizePx = (count: number) => minSize + (((count || 0) / maxCount) * (maxSize - minSize));
 
     // Padding from edges so big bubbles don't clip
   const maxRadius = maxSize / 2;
@@ -119,7 +145,7 @@ export const ClusterView = ({ clusters, onClusterClick, filters, requestFocusClu
     const results: Array<{ left: string; top: string }> = [];
 
     for (const cluster of order) {
-      const r = sizePx(cluster.count) / 2;
+  const r = sizePx(effectiveCountsById.get(cluster.id) ?? 0) / 2;
       // base deterministic position
       const bx = MIN_X + (MAX_X - MIN_X) * hashTo01(cluster.id + "-x");
       const by = MIN_Y + (MAX_Y - MIN_Y) * hashTo01(cluster.id + "-y");
@@ -188,10 +214,12 @@ export const ClusterView = ({ clusters, onClusterClick, filters, requestFocusClu
 
   // Size based on count
   const getSize = (count: number) => {
-    const maxCount = Math.max(...filteredClusters.map((c) => c.count));
+    const counts = filteredClusters.map((c) => effectiveCountsById.get(c.id) ?? 0);
+    const rawMax = counts.length ? Math.max(...counts) : 0;
+    const maxCount = rawMax > 0 ? rawMax : 1; // avoid NaN when all are zero
     const minSize = 80;
     const maxSize = 180;
-    return minSize + ((count / maxCount) * (maxSize - minSize));
+    return minSize + (((count || 0) / maxCount) * (maxSize - minSize));
   };
 
   // Pan & Zoom handlers
@@ -289,7 +317,8 @@ export const ClusterView = ({ clusters, onClusterClick, filters, requestFocusClu
       >
         {filteredClusters.map((cluster, index) => {
           const position = positions[index] ?? { left: "50%", top: "50%" };
-          const size = getSize(cluster.count);
+          const effCount = effectiveCountsById.get(cluster.id) ?? 0;
+          const size = getSize(effCount);
 
           const isActive = activeId === cluster.id;
           const isDimmed = activeId !== null && !isActive;
@@ -346,7 +375,7 @@ export const ClusterView = ({ clusters, onClusterClick, filters, requestFocusClu
                     {cluster.label}
                   </h3>
                   <p className="text-xs text-white/90 font-medium">
-                    {cluster.count} papers
+                    {effCount} {effCount === 1 ? "paper" : "papers"}
                   </p>
                 </div>
 

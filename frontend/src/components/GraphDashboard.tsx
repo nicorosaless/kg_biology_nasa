@@ -220,7 +220,9 @@ export const GraphDashboard = () => {
           {viewState.level === "universe" && (
             <ClusterView
               clusters={graphData.clusters}
+              papers={graphData.papers}
               onClusterClick={handleClusterClick}
+              searchQuery={searchQuery}
               filters={filters}
               requestFocusClusterId={pendingFocusClusterId}
             />
