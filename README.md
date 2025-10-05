@@ -274,17 +274,6 @@ If you re-run the graph pipeline and cluster IDs change, ensure `csvGraph.json` 
 Safety tip:
 If you are about to delete local PDFs after pushing to GitHub, you can always re-create them with these commands later.
 
-
----
-
-## 🗺️ Roadmap
-- [ ] Enhanced semantic search (embedding-based)
-- [ ] Advanced relation extraction (dependency / transformer models)
-- [ ] Temporal evolution visualization
-- [ ] Fine-grained voice intents (compare papers, cluster summaries)
-- [ ] Export to Neo4j live instance
-- [ ] Progressive graph streaming for very large corpora
-
 ---
 
 ## 🤝 Contributing
