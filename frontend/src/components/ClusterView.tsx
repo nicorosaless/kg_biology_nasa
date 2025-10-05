@@ -57,9 +57,8 @@ export const ClusterView = ({ clusters, onClusterClick, filters, requestFocusClu
     }
   };
 
-  const filteredClusters = clusters.filter((cluster) =>
-    filters.missions.includes(cluster.mission)
-  );
+  // Mission filtering removed; show all clusters regardless of mission.
+  const filteredClusters = clusters;
 
   // Stable pseudo-random offset based on id to avoid twitching on re-render
   const hashCode = (str: string) => {

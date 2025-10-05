@@ -87,16 +87,15 @@ export const GraphView = ({
   useEffect(() => {
     if (!containerRef.current) return;
 
-    // Filter papers
-  const filteredPapers = papers.filter((paper: Paper) => {
-      const matchesMission = filters.missions.includes(paper.mission);
+    // Filter papers (mission filter removed)
+    const filteredPapers = papers.filter((paper: Paper) => {
       const [minYear, maxYear] = filters.yearRange ?? [Number.NEGATIVE_INFINITY, Number.POSITIVE_INFINITY];
       const matchesYear = paper.year >= minYear && paper.year <= maxYear;
       const matchesSearch = searchQuery
         ? paper.label.toLowerCase().includes(searchQuery.toLowerCase()) ||
           paper.topics.some((t) => t.toLowerCase().includes(searchQuery.toLowerCase()))
         : true;
-      return matchesMission && matchesYear && matchesSearch;
+      return matchesYear && matchesSearch;
     });
 
     const getMissionColor = (mission: Mission) => {
