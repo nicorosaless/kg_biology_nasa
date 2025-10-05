@@ -105,9 +105,9 @@ export const ClusterView = ({ clusters, papers, searchQuery, onClusterClick, fil
 
     // Constellation-like scrambled layout with deterministic randomness and hard non-overlap
     // Bias area to the left and up to avoid sidebar overlap and bottom touch
-    const EXTRA_RIGHT_PAD = Math.round(containerSize.w * 0.12); // keep away from right
+    const EXTRA_RIGHT_PAD = Math.round(containerSize.w * 0.10); // keep away from right
     const EXTRA_BOTTOM_PAD = Math.round(containerSize.h * 0.15); // keep away from bottom
-    const EXTRA_TOP_PAD = Math.round(containerSize.h * 0.04); // slight raise toward top
+    const EXTRA_TOP_PAD = Math.round(containerSize.h * 0.03); // slight raise toward top
 
     const clamp = (v: number, min: number, max: number) => Math.max(min, Math.min(max, v));
     const hashTo01 = (s: string) => {
