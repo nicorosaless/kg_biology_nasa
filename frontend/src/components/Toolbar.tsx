@@ -39,12 +39,7 @@ export const Toolbar = ({
   selectedClusterLabel,
   selectedPaperLabel,
 }: ToolbarProps) => {
-  const toggleMission = (mission: Mission) => {
-    const newMissions = filters.missions.includes(mission)
-      ? filters.missions.filter((m) => m !== mission)
-      : [...filters.missions, mission];
-    onFiltersChange({ ...filters, missions: newMissions });
-  };
+  // Mission filters removed from UI; keep types/state for compatibility.
 
   return (
     <motion.div
@@ -71,7 +66,7 @@ export const Toolbar = ({
             <Telescope className="h-4 w-4 text-primary" />
             <div className="font-medium">
               {viewState.level === "universe" && (
-                <span>Knowledge Universe</span>
+                <span>Cooper: Your AI Research Assistant</span>
               )}
               {viewState.level === "cluster" && (
                 <span>Cluster: <span className="text-foreground font-semibold">{selectedClusterLabel}</span></span>
@@ -110,27 +105,6 @@ export const Toolbar = ({
                 <h4 className="font-medium text-sm">Filter Options</h4>
                 
                 <div className="space-y-2">
-                  <Label className="text-sm font-medium">Missions</Label>
-                  <div className="space-y-2">
-                    {(["ISS", "Mars", "Moon"] as Mission[]).map((mission) => (
-                      <div key={mission} className="flex items-center gap-2">
-                        <Checkbox
-                          id={mission}
-                          checked={filters.missions.includes(mission)}
-                          onCheckedChange={() => toggleMission(mission)}
-                        />
-                        <label
-                          htmlFor={mission}
-                          className="text-sm cursor-pointer"
-                        >
-                          {mission}
-                        </label>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                <div className="space-y-2 pt-2 border-t border-border">
                   <Label className="text-sm font-medium">Year range</Label>
                   <div className="px-1">
                     <Slider

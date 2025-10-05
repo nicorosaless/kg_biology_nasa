@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { motion } from "framer-motion";
 import { GraphData, ViewState, Mission, Cluster, Paper } from "../types/graph";
 import { Toolbar } from "./Toolbar";
@@ -16,7 +16,7 @@ export const GraphDashboard = () => {
   const [filters, setFilters] = useState({
     yearRange: [2000, 2025] as [number, number],
     missions: ["ISS", "Mars", "Moon"] as Mission[],
-    showGaps: false,
+    showGaps: true,
   });
   const [scientistOpen, setScientistOpen] = useState(true);
   const [pendingFocusClusterId, setPendingFocusClusterId] = useState<string | null>(null);
@@ -51,21 +51,21 @@ export const GraphDashboard = () => {
       .catch((err) => console.error("Failed to load graph data:", err));
   }, []);
 
-  const handleClusterClick = (clusterId: string) => {
+  const handleClusterClick = useCallback((clusterId: string) => {
     setViewState({ level: "cluster", selectedClusterId: clusterId });
-  };
+  }, []);
 
-  const handlePaperClick = (paperId: string) => {
-    setViewState({ ...viewState, level: "topic", selectedPaperId: paperId });
-  };
+  const handlePaperClick = useCallback((paperId: string) => {
+    setViewState((prev) => ({ ...prev, level: "topic", selectedPaperId: paperId }));
+  }, []);
 
-  const handleBackToUniverse = () => {
+  const handleBackToUniverse = useCallback(() => {
     setViewState({ level: "universe" });
-  };
+  }, []);
 
-  const handleBackToCluster = () => {
-    setViewState({ level: "cluster", selectedClusterId: viewState.selectedClusterId });
-  };
+  const handleBackToCluster = useCallback(() => {
+    setViewState((prev) => ({ level: "cluster", selectedClusterId: prev.selectedClusterId }));
+  }, []);
 
   if (!graphData) {
     return (
@@ -90,6 +90,10 @@ export const GraphDashboard = () => {
       .replace(/[^a-z0-9\s]/g, " ")
       .replace(/\s+/g, " ")
       .trim();
+
+  // Helper to clean cluster label for display
+  const cleanClusterLabel = (label: string) =>
+    label.replace(/^\s*macrocluster\s*:\s*/i, "").trim();
 
   const jaccard = (a: string, b: string) => {
     const A = new Set(normalize(a).split(" ").filter(Boolean));
@@ -203,7 +207,7 @@ export const GraphDashboard = () => {
           viewState={viewState}
           onBackToUniverse={handleBackToUniverse}
           onBackToCluster={handleBackToCluster}
-          selectedClusterLabel={selectedCluster?.label}
+          selectedClusterLabel={selectedCluster ? cleanClusterLabel(selectedCluster.label) : undefined}
           selectedPaperLabel={selectedPaper?.label}
         />
 
@@ -220,7 +224,9 @@ export const GraphDashboard = () => {
           {viewState.level === "universe" && (
             <ClusterView
               clusters={graphData.clusters}
+              papers={graphData.papers}
               onClusterClick={handleClusterClick}
+              searchQuery={searchQuery}
               filters={filters}
               requestFocusClusterId={pendingFocusClusterId}
             />

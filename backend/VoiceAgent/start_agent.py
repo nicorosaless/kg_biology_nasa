@@ -268,6 +268,8 @@ class NullAudioInterface:
 class PrintingClientTools(ClientTools):
   def __init__(self, *args, **kwargs):
     super().__init__(*args, **kwargs)
+    self.pending_tool_events = []
+    self.agent_has_spoken = threading.Event()
 
   def execute_tool(self, tool_name: str, parameters: dict, callback):  # type: ignore[override]
     # Wrap the callback so we can also print the tool result locally
@@ -281,17 +283,34 @@ class PrintingClientTools(ClientTools):
       elif len(text) > 800:
         text = text[:800] + "..."
       print(f"Tool [{tool_name}] -> {text}")
-      try:
-        log_event({
-          "ts": iso_now(),
-          "type": "tool",
-          "tool": tool_name,
-          # Log the original parameters provided to the tool call (excluding tool_call_id)
-          "parameters": {k: v for k, v in (parameters or {}).items() if k != "tool_call_id"},
-          "result": text,
-        })
-      except Exception:
-        pass
+      
+      # Create the tool event
+      tool_event = {
+        "ts": iso_now(),
+        "type": "tool",
+        "tool": tool_name,
+        # Log the original parameters provided to the tool call (excluding tool_call_id)
+        "parameters": {k: v for k, v in (parameters or {}).items() if k != "tool_call_id"},
+        "result": text,
+      }
+      
+      # Queue the tool event instead of logging immediately
+      self.pending_tool_events.append(tool_event)
+      
+      # Start a thread to wait for agent speech and then log
+      def delayed_log():
+        # Wait for agent to start speaking (with timeout)
+        self.agent_has_spoken.wait(timeout=10)
+        # Add a small delay after agent starts speaking for better UX
+        time.sleep(0.5)
+        # Log the tool event after agent starts speaking
+        try:
+          log_event(tool_event)
+        except Exception:
+          pass
+      
+      threading.Thread(target=delayed_log, daemon=True).start()
+      
       return callback(response)
 
     # If the tool is registered, use the normal flow
@@ -420,13 +439,20 @@ def start_agent(agent_id: str, api_key: Optional[str] = None, user_id: Optional[
   except Exception:
     pass
 
+  # Create callback that signals when agent starts speaking
+  def agent_response_callback(response):
+    # Signal that agent has started speaking
+    client_tools.agent_has_spoken.set()
+    print(f"Agent: {response}")
+    log_event_safe({"ts": iso_now(), "type": "agent", "text": str(response)})
+
   conversation = Conversation(
     elevenlabs,
     agent_id,
     requires_auth=bool(api_key),
     audio_interface=audio_interface,
     client_tools=client_tools,
-    callback_agent_response=lambda response: (print(f"Agent: {response}") or log_event_safe({"ts": iso_now(), "type": "agent", "text": str(response)})),
+    callback_agent_response=agent_response_callback,
     callback_agent_response_correction=lambda original, corrected: print(f"Agent: {original} -> {corrected}"),
     callback_user_transcript=lambda transcript: (print(f"User: {transcript}") or log_event_safe({"ts": iso_now(), "type": "user", "text": str(transcript)})),
     # Uncomment to see latency measurements

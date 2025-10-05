@@ -1,24 +1,57 @@
 import { motion } from "framer-motion";
-import { useMemo, useRef, useState } from "react";
-import { Cluster, Mission } from "../types/graph";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { Cluster, Mission, Paper } from "../types/graph";
 
 interface ClusterViewProps {
   clusters: Cluster[];
   onClusterClick: (clusterId: string) => void;
+  papers: Paper[];
+  searchQuery: string;
   filters: {
-    missions: Mission[];
+    missions: Mission[]; // kept for compatibility; not used for filtering anymore
+    yearRange?: [number, number];
   };
   // Optional: programmatic request to focus a cluster with the same cinematic animation as click
   requestFocusClusterId?: string | null;
 }
 
-export const ClusterView = ({ clusters, onClusterClick, filters, requestFocusClusterId }: ClusterViewProps) => {
+export const ClusterView = ({ clusters, papers, searchQuery, onClusterClick, filters, requestFocusClusterId }: ClusterViewProps) => {
   const [activeId, setActiveId] = useState<string | null>(null);
   const [overlayLabel, setOverlayLabel] = useState<string | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [pan, setPan] = useState({ x: 0, y: 0 });
   const [scale, setScale] = useState(1);
+  const [containerSize, setContainerSize] = useState<{ w: number; h: number }>({ w: 0, h: 0 });
+  // Deterministic starfield for background
+  const stars = useMemo(() => {
+    // Small, performant number of stars with subtle variance
+    const count = 140;
+    // Mulberry32 PRNG for deterministic but well-distributed randoms
+    const mulberry32 = (seed: number) => {
+      return function () {
+        let t = (seed += 0x6d2b79f5);
+        t = Math.imul(t ^ (t >>> 15), t | 1);
+        t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+        return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+      };
+    };
+    const rand = mulberry32(1337);
+    return Array.from({ length: count }, (_, i) => {
+      const l = rand() * 100; // left %
+      const t = rand() * 100; // top %
+      const size = 1 + Math.floor(rand() * 2); // 1-2 px
+      const opacity = 0.35 + rand() * 0.55; // 0.35 - 0.9
+      const dur = 2 + rand() * 3; // 2s - 5s
+      const delay = rand() * 5; // 0 - 5s
+      return { id: `s${i}`, l, t, size, opacity, dur, delay };
+    });
+  }, []);
   const draggingRef = useRef<{ dragging: boolean; lastX: number; lastY: number }>({ dragging: false, lastX: 0, lastY: 0 });
+  
+  // Helper to clean cluster label for display (remove "Macrocluster:" prefix)
+  const cleanClusterLabel = (label: string) =>
+    label.replace(/^\s*macrocluster\s*:\s*/i, "").trim();
+  
   const getMissionColor = (mission: Mission) => {
     switch (mission) {
       case "ISS":
@@ -32,9 +65,30 @@ export const ClusterView = ({ clusters, onClusterClick, filters, requestFocusClu
     }
   };
 
-  const filteredClusters = clusters.filter((cluster) =>
-    filters.missions.includes(cluster.mission)
-  );
+  // Mission filtering removed; show all clusters regardless of mission.
+  const filteredClusters = clusters;
+
+  // Compute per-cluster filtered paper counts based on search and year filters
+  const effectiveCountsById = useMemo(() => {
+    const [minYear, maxYear] = filters.yearRange ?? [Number.NEGATIVE_INFINITY, Number.POSITIVE_INFINITY];
+    const q = (searchQuery || "").toLowerCase().trim();
+
+    const map = new Map<string, number>();
+    for (const c of clusters) map.set(c.id, 0);
+
+    for (const p of papers) {
+      // year filter
+      if (!(p.year >= minYear && p.year <= maxYear)) continue;
+      // search filter: matches title or any topic
+      const matchesSearch = q
+        ? p.label.toLowerCase().includes(q) || p.topics.some((t) => t.toLowerCase().includes(q))
+        : true;
+      if (!matchesSearch) continue;
+      // increment for its cluster
+      map.set(p.clusterId, (map.get(p.clusterId) || 0) + 1);
+    }
+    return map;
+  }, [clusters, papers, filters.yearRange, searchQuery]);
 
   // Stable pseudo-random offset based on id to avoid twitching on re-render
   const hashCode = (str: string) => {
@@ -44,26 +98,133 @@ export const ClusterView = ({ clusters, onClusterClick, filters, requestFocusClu
   };
 
   const positions = useMemo(() => {
-    const cols = 4;
-    const rows = Math.ceil(filteredClusters.length / cols) || 1;
-    return filteredClusters.map((c, index) => {
-      const row = Math.floor(index / cols);
-      const col = index % cols;
-      const baseX = (col + 0.5) * (100 / cols);
-      const baseY = (row + 0.5) * (100 / rows);
-      const h = hashCode(c.id);
-      const offsetX = ((h % 1000) / 1000) * 5 - 2.5; // [-2.5, 2.5]
-      const offsetY = (((h >> 8) % 1000) / 1000) * 5 - 2.5;
-      return { left: `${baseX + offsetX}%`, top: `${baseY + offsetY}%` };
+    // If container not measured yet, fallback to centered percents
+    if (!containerSize.w || !containerSize.h) {
+      return filteredClusters.map(() => ({ left: "50%", top: "50%" }));
+    }
+
+    // Constellation-like scrambled layout with deterministic randomness and hard non-overlap
+    // Bias area to the left and up to avoid sidebar overlap and bottom touch
+    const EXTRA_RIGHT_PAD = Math.round(containerSize.w * 0.10); // keep away from right
+    const EXTRA_BOTTOM_PAD = Math.round(containerSize.h * 0.15); // keep away from bottom
+    const EXTRA_TOP_PAD = Math.round(containerSize.h * 0.03); // slight raise toward top
+
+    const clamp = (v: number, min: number, max: number) => Math.max(min, Math.min(max, v));
+    const hashTo01 = (s: string) => {
+      let h = 0x811c9dc5;
+      for (let i = 0; i < s.length; i++) {
+        h ^= s.charCodeAt(i);
+        h = Math.imul(h, 0x01000193);
+      }
+      return ((h >>> 0) % 0x3fffffff) / 0x3fffffff;
+    };
+
+    const minSize = 80;
+    const maxSize = 180;
+  const counts = filteredClusters.map((c) => effectiveCountsById.get(c.id) ?? 0);
+  const rawMax = counts.length ? Math.max(...counts) : 0;
+  const maxCount = rawMax > 0 ? rawMax : 1; // avoid divide-by-zero
+  const sizePx = (count: number) => minSize + (((count || 0) / maxCount) * (maxSize - minSize));
+
+    // Padding from edges so big bubbles don't clip
+  const maxRadius = maxSize / 2;
+  const EDGE_PAD = 20; // px
+    const MARGIN = maxRadius + EDGE_PAD;
+
+    // Build placement order: larger first for easier packing, then id for determinism
+    const order = [...filteredClusters].sort((a, b) => {
+      const ds = sizePx(b.count) - sizePx(a.count);
+      return Math.abs(ds) > 0.1 ? (ds > 0 ? 1 : -1) : a.id.localeCompare(b.id);
     });
-  }, [filteredClusters]);
+    const indexById = new Map(order.map((c, i) => [c.id, i] as const));
+
+  // Generate within a biased coordinate space: reduce right/bottom to push left/up
+  const W = containerSize.w;
+  const H = containerSize.h;
+  const MIN_X = MARGIN;                                  // left bound
+  const MAX_X = W - MARGIN - EXTRA_RIGHT_PAD;            // reduced right bound
+  const MIN_Y = MARGIN + EXTRA_TOP_PAD;                  // slightly lower top bound (higher on screen)
+  const MAX_Y = H - MARGIN - EXTRA_BOTTOM_PAD;           // reduced bottom bound
+
+    const placed: Array<{ x: number; y: number; r: number }> = [];
+    const results: Array<{ left: string; top: string }> = [];
+
+    for (const cluster of order) {
+  const r = sizePx(effectiveCountsById.get(cluster.id) ?? 0) / 2;
+      // base deterministic position
+      const bx = MIN_X + (MAX_X - MIN_X) * hashTo01(cluster.id + "-x");
+      const by = MIN_Y + (MAX_Y - MIN_Y) * hashTo01(cluster.id + "-y");
+
+      let cx = bx;
+      let cy = by;
+      let placedOk = false;
+
+      const PAD = 12; // px between bubbles
+      const maxAttempts = 18;
+      for (let attempt = 0; attempt < maxAttempts; attempt++) {
+        const ang = 2 * Math.PI * hashTo01(cluster.id + "-a-" + attempt);
+        // spiral radius grows per attempt
+        const rad = attempt * (maxRadius * 0.35);
+        const tx = clamp(bx + Math.cos(ang) * rad, MIN_X, MAX_X);
+        const ty = clamp(by + Math.sin(ang) * rad, MIN_Y, MAX_Y);
+
+        const hits = placed.some((p) => {
+          const dx = p.x - tx;
+          const dy = p.y - ty;
+          const dist = Math.hypot(dx, dy);
+          return dist < (p.r + r + PAD);
+        });
+        if (!hits) {
+          cx = tx;
+          cy = ty;
+          placedOk = true;
+          break;
+        }
+      }
+
+      // As a last resort, do a deterministic sweep to find any free slot
+      if (!placedOk) {
+        const grid = 10;
+        outer: for (let gy = 0; gy <= grid; gy++) {
+          for (let gx = 0; gx <= grid; gx++) {
+            const tx = MIN_X + (gx / grid) * (MAX_X - MIN_X);
+            const ty = MIN_Y + (gy / grid) * (MAX_Y - MIN_Y);
+            const hits = placed.some((p) => Math.hypot(p.x - tx, p.y - ty) < (p.r + r + 8));
+            if (!hits) { cx = tx; cy = ty; placedOk = true; break outer; }
+          }
+        }
+      }
+
+      placed.push({ x: cx, y: cy, r });
+      results[indexById.get(cluster.id) ?? 0] = { left: `${Math.round(cx)}px`, top: `${Math.round(cy)}px` };
+    }
+
+    // Map back to original filtered order
+    return filteredClusters.map((c) => results[indexById.get(c.id) ?? 0] || { left: "50%", top: "50%" });
+  }, [filteredClusters, containerSize.w, containerSize.h]);
+
+  // Track container size for accurate pixel-based layout
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!el) return;
+    const update = () => {
+      const rect = el.getBoundingClientRect();
+      setContainerSize({ w: Math.max(0, Math.floor(rect.width)), h: Math.max(0, Math.floor(rect.height)) });
+    };
+    update();
+    const ro = new ResizeObserver(() => update());
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
 
   // Size based on count
   const getSize = (count: number) => {
-    const maxCount = Math.max(...filteredClusters.map((c) => c.count));
+    const counts = filteredClusters.map((c) => effectiveCountsById.get(c.id) ?? 0);
+    const rawMax = counts.length ? Math.max(...counts) : 0;
+    const maxCount = rawMax > 0 ? rawMax : 1; // avoid NaN when all are zero
     const minSize = 80;
     const maxSize = 180;
-    return minSize + ((count / maxCount) * (maxSize - minSize));
+    return minSize + (((count || 0) / maxCount) * (maxSize - minSize));
   };
 
   // Pan & Zoom handlers
@@ -109,7 +270,7 @@ export const ClusterView = ({ clusters, onClusterClick, filters, requestFocusClu
     if (!target) return;
     // Trigger the same cinematic focus as a user click
     setActiveId(target.id);
-    setOverlayLabel(`Entering Cluster: ${target.label}`);
+    setOverlayLabel(`Entering Cluster: ${cleanClusterLabel(target.label)}`);
     const t = setTimeout(() => {
       onClusterClick(target.id);
       setTimeout(() => {
@@ -123,8 +284,33 @@ export const ClusterView = ({ clusters, onClusterClick, filters, requestFocusClu
 
   return (
     <div className="relative h-full w-full" ref={containerRef} onWheel={onWheel} onMouseDown={onMouseDown} onMouseMove={onMouseMove} onMouseUp={onMouseUp} onMouseLeave={onMouseUp}>
+      {/* Local keyframes for star twinkle */}
+      <style>
+        {`
+        @keyframes twinkle { 0% { opacity: 0.25; transform: scale(1) } 50% { opacity: 0.85 } 100% { opacity: 0.25; transform: scale(1.05) } }
+        `}
+      </style>
       {/* Cosmic Background Effect */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        {/* Starfield */}
+        <div className="absolute inset-0">
+          {stars.map((s) => (
+            <div
+              key={s.id}
+              className="absolute rounded-full"
+              style={{
+                left: `${s.l}%`,
+                top: `${s.t}%`,
+                width: `${s.size}px`,
+                height: `${s.size}px`,
+                background: "rgba(255,255,255,0.95)",
+                boxShadow: "0 0 4px rgba(255,255,255,0.6)",
+                opacity: s.opacity,
+                animation: `twinkle ${s.dur}s ease-in-out ${s.delay}s infinite alternate`,
+              }}
+            />
+          ))}
+        </div>
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-pulse-glow" />
         <div className="absolute bottom-1/3 right-1/4 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-pulse-glow delay-1000" />
       </div>
@@ -136,7 +322,8 @@ export const ClusterView = ({ clusters, onClusterClick, filters, requestFocusClu
       >
         {filteredClusters.map((cluster, index) => {
           const position = positions[index] ?? { left: "50%", top: "50%" };
-          const size = getSize(cluster.count);
+          const effCount = effectiveCountsById.get(cluster.id) ?? 0;
+          const size = getSize(effCount);
 
           const isActive = activeId === cluster.id;
           const isDimmed = activeId !== null && !isActive;
@@ -157,7 +344,7 @@ export const ClusterView = ({ clusters, onClusterClick, filters, requestFocusClu
               onClick={() => {
                 // Cinematic focus: dim others, enlarge selected, show overlay caption
                 setActiveId(cluster.id);
-                setOverlayLabel(`Entering Cluster: ${cluster.label}`);
+                setOverlayLabel(`Entering Cluster: ${cleanClusterLabel(cluster.label)}`);
                 setTimeout(() => {
                   onClusterClick(cluster.id);
                   // Allow overlay to fade naturally on unmount
@@ -190,17 +377,17 @@ export const ClusterView = ({ clusters, onClusterClick, filters, requestFocusClu
               >
                 <div className="text-center">
                   <h3 className="font-bold text-white text-sm mb-1 drop-shadow-lg">
-                    {cluster.label}
+                    {cleanClusterLabel(cluster.label)}
                   </h3>
                   <p className="text-xs text-white/90 font-medium">
-                    {cluster.count} papers
+                    {effCount} {effCount === 1 ? "paper" : "papers"}
                   </p>
                 </div>
 
                 {/* Hover Details */}
                 <div className="absolute inset-0 rounded-full bg-background/95 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center p-4">
                   <h4 className="font-semibold text-sm text-center mb-2">
-                    {cluster.label}
+                    {cleanClusterLabel(cluster.label)}
                   </h4>
                   <p className="text-xs text-muted-foreground text-center">
                     {cluster.description}

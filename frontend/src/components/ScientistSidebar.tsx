@@ -213,14 +213,18 @@ export const ScientistSidebar = ({ open, onOpenChange, onToggleVoice, onToolEven
               <div className="relative p-4 flex items-center justify-between">
                 <div className="flex items-center gap-3">
                   <img
-                    src="/placeholder.svg"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Neil_deGrasse_Tyson_in_June_2017_%28cropped%29.jpg/440px-Neil_deGrasse_Tyson_in_June_2017_%28cropped%29.jpg"
                     alt="Scientist"
                     className="w-12 h-12 rounded-full ring-2 ring-white/40 shadow object-cover"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.src = "https://ui-avatars.com/api/?name=Neil+DeGrasse+Tyson&background=4f46e5&color=fff&size=128";
+                    }}
                   />
                   <div>
-                    <div className="font-semibold leading-tight">Albert Einstein</div>
+                    <div className="font-semibold leading-tight">Neil deGrasse Tyson</div>
                     <div className="text-xs text-muted-foreground">
-                      Your designed scientist at your disposal 24/7
+                      Your biologist at your disposal 24/7
                     </div>
                   </div>
                 </div>
