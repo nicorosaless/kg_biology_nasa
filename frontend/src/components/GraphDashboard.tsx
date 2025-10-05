@@ -91,6 +91,10 @@ export const GraphDashboard = () => {
       .replace(/\s+/g, " ")
       .trim();
 
+  // Helper to clean cluster label for display
+  const cleanClusterLabel = (label: string) =>
+    label.replace(/^\s*macrocluster\s*:\s*/i, "").trim();
+
   const jaccard = (a: string, b: string) => {
     const A = new Set(normalize(a).split(" ").filter(Boolean));
     const B = new Set(normalize(b).split(" ").filter(Boolean));
@@ -203,7 +207,7 @@ export const GraphDashboard = () => {
           viewState={viewState}
           onBackToUniverse={handleBackToUniverse}
           onBackToCluster={handleBackToCluster}
-          selectedClusterLabel={selectedCluster?.label}
+          selectedClusterLabel={selectedCluster ? cleanClusterLabel(selectedCluster.label) : undefined}
           selectedPaperLabel={selectedPaper?.label}
         />
 

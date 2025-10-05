@@ -47,6 +47,11 @@ export const ClusterView = ({ clusters, papers, searchQuery, onClusterClick, fil
     });
   }, []);
   const draggingRef = useRef<{ dragging: boolean; lastX: number; lastY: number }>({ dragging: false, lastX: 0, lastY: 0 });
+  
+  // Helper to clean cluster label for display (remove "Macrocluster:" prefix)
+  const cleanClusterLabel = (label: string) =>
+    label.replace(/^\s*macrocluster\s*:\s*/i, "").trim();
+  
   const getMissionColor = (mission: Mission) => {
     switch (mission) {
       case "ISS":
@@ -265,7 +270,7 @@ export const ClusterView = ({ clusters, papers, searchQuery, onClusterClick, fil
     if (!target) return;
     // Trigger the same cinematic focus as a user click
     setActiveId(target.id);
-    setOverlayLabel(`Entering Cluster: ${target.label}`);
+    setOverlayLabel(`Entering Cluster: ${cleanClusterLabel(target.label)}`);
     const t = setTimeout(() => {
       onClusterClick(target.id);
       setTimeout(() => {
@@ -339,7 +344,7 @@ export const ClusterView = ({ clusters, papers, searchQuery, onClusterClick, fil
               onClick={() => {
                 // Cinematic focus: dim others, enlarge selected, show overlay caption
                 setActiveId(cluster.id);
-                setOverlayLabel(`Entering Cluster: ${cluster.label}`);
+                setOverlayLabel(`Entering Cluster: ${cleanClusterLabel(cluster.label)}`);
                 setTimeout(() => {
                   onClusterClick(cluster.id);
                   // Allow overlay to fade naturally on unmount
@@ -372,7 +377,7 @@ export const ClusterView = ({ clusters, papers, searchQuery, onClusterClick, fil
               >
                 <div className="text-center">
                   <h3 className="font-bold text-white text-sm mb-1 drop-shadow-lg">
-                    {cluster.label}
+                    {cleanClusterLabel(cluster.label)}
                   </h3>
                   <p className="text-xs text-white/90 font-medium">
                     {effCount} {effCount === 1 ? "paper" : "papers"}
@@ -382,7 +387,7 @@ export const ClusterView = ({ clusters, papers, searchQuery, onClusterClick, fil
                 {/* Hover Details */}
                 <div className="absolute inset-0 rounded-full bg-background/95 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center p-4">
                   <h4 className="font-semibold text-sm text-center mb-2">
-                    {cluster.label}
+                    {cleanClusterLabel(cluster.label)}
                   </h4>
                   <p className="text-xs text-muted-foreground text-center">
                     {cluster.description}

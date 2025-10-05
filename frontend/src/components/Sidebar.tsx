@@ -19,6 +19,10 @@ export const Sidebar = ({
   selectedPaper,
   graphData,
 }: SidebarProps) => {
+  // Helper to clean cluster label for display (remove "Macrocluster:" prefix)
+  const cleanClusterLabel = (label: string) =>
+    label.replace(/^\s*macrocluster\s*:\s*/i, "").trim();
+  
   const getMissionColor = (mission: string) => {
     switch (mission) {
       case "ISS":
@@ -110,7 +114,7 @@ export const Sidebar = ({
           >
             <div>
               <div className="flex items-center gap-2 mb-2">
-                <h3 className="text-lg font-semibold">{selectedCluster.label}</h3>
+                <h3 className="text-lg font-semibold">{cleanClusterLabel(selectedCluster.label)}</h3>
                 <Badge variant="outline" className={getMissionColor(selectedCluster.mission)}>
                   {selectedCluster.mission}
                 </Badge>
