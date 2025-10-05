@@ -71,7 +71,7 @@ export const Toolbar = ({
             <Telescope className="h-4 w-4 text-primary" />
             <div className="font-medium">
               {viewState.level === "universe" && (
-                <span>Knowledge Universe</span>
+                <span>Cooper: Your AI Research Assistant</span>
               )}
               {viewState.level === "cluster" && (
                 <span>Cluster: <span className="text-foreground font-semibold">{selectedClusterLabel}</span></span>
