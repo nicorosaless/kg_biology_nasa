@@ -171,6 +171,15 @@ export const GraphView = ({
       ],
       style: [
         {
+          selector: 'core',
+          style: {
+            'background-color': 'transparent',
+            'selection-box-color': '#8b5cf6',
+            'selection-box-opacity': 0.15,
+            'active-bg-opacity': 0,
+          },
+        },
+        {
           selector: "node",
           style: {
             label: "data(shortLabel)",
@@ -344,7 +353,7 @@ export const GraphView = ({
         `}
       </style>
       {/* Starfield background */}
-      <div className="pointer-events-none absolute inset-0" style={{ zIndex: -5 }}>
+  <div className="pointer-events-none absolute inset-0" style={{ zIndex: 0 }}>
         {stars.map((s) => (
           <div
             key={s.id}
@@ -370,7 +379,7 @@ export const GraphView = ({
       )}
 
   {/* Graph container; hidden until layout is complete for rock-solid first paint */}
-  <div ref={containerRef} data-canvas-transparent className={`h-full w-full transition-opacity ${isLayingOut ? "opacity-0" : "opacity-100"}`} style={{ background: "transparent" }} />
+  <div ref={containerRef} data-canvas-transparent className={`h-full w-full transition-opacity ${isLayingOut ? "opacity-0" : "opacity-100"}`} style={{ background: "transparent", zIndex: 1, position: 'relative' }} />
 
       {/* Hover tooltip showing full title */}
       {hoverTip && (

@@ -70,6 +70,15 @@ export const TopicGraph = ({ paper }: TopicGraphProps) => {
       elements: [...topicNodes, paperNode, ...edges],
       style: [
         {
+          selector: 'core',
+          style: {
+            'background-color': 'transparent',
+            'selection-box-color': '#8b5cf6',
+            'selection-box-opacity': 0.15,
+            'active-bg-opacity': 0,
+          },
+        },
+        {
           selector: 'node[type="paper"]',
           style: {
             label: "data(label)",
@@ -164,7 +173,7 @@ export const TopicGraph = ({ paper }: TopicGraphProps) => {
         `}
       </style>
       {/* Starfield background */}
-      <div className="pointer-events-none absolute inset-0" style={{ zIndex: -5 }}>
+  <div className="pointer-events-none absolute inset-0" style={{ zIndex: 0 }}>
         {stars.map((s) => (
           <div
             key={s.id}
@@ -182,7 +191,7 @@ export const TopicGraph = ({ paper }: TopicGraphProps) => {
           />
         ))}
       </div>
-  <div ref={containerRef} data-canvas-transparent className="h-full w-full" style={{ background: "transparent" }} />
+  <div ref={containerRef} data-canvas-transparent className="h-full w-full" style={{ background: "transparent", zIndex: 1, position: 'relative' }} />
       
       {/* Info overlay */}
       <div className="absolute top-4 left-4 bg-card/80 backdrop-blur-sm border border-border rounded-lg p-3 max-w-xs">
