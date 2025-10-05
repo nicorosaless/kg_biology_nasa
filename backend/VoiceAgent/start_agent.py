@@ -6,10 +6,41 @@ import json
 from datetime import datetime
 import threading
 import errno
+import re
 
 # Lightweight JSONL logger so the frontend can stream conversation logs if desired.
 LOG_CONV = os.getenv("LOG_CONVERSATION") == "1"
 LOG_PATH = os.getenv("LOG_PATH") or os.path.join(os.path.dirname(__file__), "logs", "active.jsonl")
+
+# Timing constants (seconds)
+CLUSTER_DELAY_S = float(os.getenv("CLUSTER_DELAY_S", "5.0"))
+PAPER_AFTER_PART2_DELAY_S = float(os.getenv("PAPER_AFTER_PART2_DELAY_S", "8.0"))
+
+def _is_closing_prompt(text: str) -> bool:
+  try:
+    t = (text or "").strip().lower()
+    if not t:
+      return False
+    closers = [
+      "is there anything else i can help",
+      "anything else i can help",
+      "how else can i help",
+      "what would you like to do next",
+      "would you like to explore",
+      "do you want to explore",
+      "what else can i do",
+      "let me know if you want",
+      "are you still there",
+      "are you still here",
+      "do you have any other questions",
+      "anything else you'd like",
+      "anything else you want",
+      "any other topic",
+      "what else can i help",
+    ]
+    return any(phrase in t for phrase in closers)
+  except Exception:
+    return False
 
 def iso_now() -> str:
   return datetime.utcnow().isoformat() + "Z"
@@ -29,6 +60,71 @@ def log_event_safe(obj: dict):
     log_event(obj)
   except Exception:
     pass
+
+def _log_agent_text_with_deferral(client_tools: "PrintingClientTools", text: str):
+  # If this looks like a closing prompt and UI is still busy, delay logging until after busy window
+  try:
+    if _is_closing_prompt(text):
+      nowm = time.monotonic()
+      with client_tools.queue_lock:
+        release_at = max(client_tools.busy_until_ts, nowm)
+      if release_at > nowm + 0.01:
+        def worker(msg: str, at_ts: float):
+          dt = max(0.0, at_ts - time.monotonic())
+          if dt > 0:
+            time.sleep(dt)
+          try:
+            print(f"Agent: {msg}")
+            log_event_safe({"ts": iso_now(), "type": "agent", "text": msg})
+          except Exception:
+            pass
+        threading.Thread(target=worker, args=(text, release_at), daemon=True).start()
+        return
+  except Exception:
+    pass
+  print(f"Agent: {text}")
+  log_event_safe({"ts": iso_now(), "type": "agent", "text": text})
+
+# Heuristic splitter: divide a long agent response into two coherent parts so we can
+# interleave UI actions (open_cluster, then open_paper) with narration.
+def _split_text_for_tools(text: str):
+  try:
+    t = str(text or "")
+    # Prefer splitting at common cue phrases if present
+    cues = [
+      "Here’s a paper",
+      "Here's a paper",
+      "Here is a paper",
+      "Here’s another",
+      "Here's another",
+      "Here is another",
+      "Here’s one",
+      "Here's one",
+      "Here is one",
+      "Next,",
+      "Now,",
+    ]
+    for cue in cues:
+      idx = t.find(cue)
+      if idx > 40:  # ensure we keep a meaningful intro before the cue
+        return t[:idx].strip(), t[idx:].strip()
+
+    # Otherwise, split on sentence boundaries
+    sentences = re.split(r'(?<=[.!?])\s+', t)
+    if len(sentences) >= 2:
+      part1 = sentences[0]
+      rest = sentences[1:]
+      # If first sentence is too short, take two sentences for a smoother first part
+      if len(part1) < 60 and len(rest) >= 1:
+        part1 = (sentences[0] + " " + sentences[1]).strip()
+        part2 = " ".join(sentences[2:]).strip() if len(sentences) > 2 else ""
+      else:
+        part2 = " ".join(rest).strip()
+      if part1 and part2:
+        return part1, part2
+  except Exception:
+    pass
+  return None
 
 from elevenlabs.client import ElevenLabs
 from elevenlabs.conversational_ai.conversation import Conversation
@@ -270,6 +366,69 @@ class PrintingClientTools(ClientTools):
     super().__init__(*args, **kwargs)
     self.pending_tool_events = []
     self.agent_has_spoken = threading.Event()
+    self.queue_lock = threading.Lock()
+    # If agent speaks before tools arrive, store desired release delays to apply on next tool arrivals
+    self.deferred_delays: list[float] = []
+    # Absolute scheduling tied to speech start
+    self.speech_start_at: Optional[float] = None
+    self.desired_release_times: list[float] = []  # absolute times (monotonic) when next arriving tool should release
+    self.busy_until_ts: float = 0.0  # guard for closing prompts
+
+  def _enqueue_tool_event(self, ev: dict):
+    with self.queue_lock:
+      # Prioritize cluster openings before paper openings to match desired flow
+      tool = str(ev.get("tool") or "").lower()
+      if tool == "open_cluster":
+        self.pending_tool_events.insert(0, ev)
+      else:
+        self.pending_tool_events.append(ev)
+      # If agent already spoke and we have an absolute desired release time, schedule this event accordingly
+      if self.agent_has_spoken.is_set() and self.desired_release_times:
+        desired_ts = self.desired_release_times.pop(0)
+        now = time.monotonic()
+        delay_s = max(0.0, desired_ts - now)
+        try:
+          self._try_release_specific_event(ev, delay_s=delay_s)
+          return
+        except Exception:
+          pass
+
+  def _try_release_specific_event(self, ev: dict, delay_s: float = 0.0):
+    def worker():
+      if delay_s > 0:
+        time.sleep(delay_s)
+      removed = None
+      with self.queue_lock:
+        # If still pending, remove and log
+        try:
+          idx = self.pending_tool_events.index(ev)
+        except ValueError:
+          idx = -1
+        if idx >= 0:
+          removed = self.pending_tool_events.pop(idx)
+      if removed is not None:
+        try:
+          log_event(removed)
+        except Exception:
+          pass
+    threading.Thread(target=worker, daemon=True).start()
+
+  def release_one_pending_tool(self, delay_s: float = 0.5):
+    """Release (log) exactly one pending tool event after a small delay.
+    This is called after each agent utterance so UI actions line up with speech.
+    """
+    ev = None
+    with self.queue_lock:
+      if self.pending_tool_events:
+        ev = self.pending_tool_events.pop(0)
+    if ev is not None:
+      # Small UX delay so the UI action follows the spoken cue naturally
+      self._try_release_specific_event(ev, delay_s=delay_s)
+
+  def note_desired_release(self, delay_s: float):
+    """Queue a desired release timing to apply to the next arriving tool event."""
+    with self.queue_lock:
+      self.deferred_delays.append(delay_s)
 
   def execute_tool(self, tool_name: str, parameters: dict, callback):  # type: ignore[override]
     # Wrap the callback so we can also print the tool result locally
@@ -294,22 +453,17 @@ class PrintingClientTools(ClientTools):
         "result": text,
       }
       
-      # Queue the tool event instead of logging immediately
-      self.pending_tool_events.append(tool_event)
+      # Queue the tool event; do not log immediately.
+      # It will be released right after the next agent utterance so the UI matches speech.
+      self._enqueue_tool_event(tool_event)
       
-      # Start a thread to wait for agent speech and then log
-      def delayed_log():
-        # Wait for agent to start speaking (with timeout)
-        self.agent_has_spoken.wait(timeout=10)
-        # Add a small delay after agent starts speaking for better UX
-        time.sleep(0.5)
-        # Log the tool event after agent starts speaking
-        try:
-          log_event(tool_event)
-        except Exception:
-          pass
-      
-      threading.Thread(target=delayed_log, daemon=True).start()
+      # Fallback: if no agent utterance arrives soon, release this tool automatically
+      def fallback_release():
+        # Wait up to ~15 seconds; if still pending, release to avoid a stuck UI.
+        self.agent_has_spoken.wait(timeout=15)
+        # Regardless of speech, ensure this tool isn't stuck forever.
+        self._try_release_specific_event(tool_event, delay_s=0.0)
+      threading.Thread(target=fallback_release, daemon=True).start()
       
       return callback(response)
 
@@ -443,8 +597,122 @@ def start_agent(agent_id: str, api_key: Optional[str] = None, user_id: Optional[
   def agent_response_callback(response):
     # Signal that agent has started speaking
     client_tools.agent_has_spoken.set()
-    print(f"Agent: {response}")
-    log_event_safe({"ts": iso_now(), "type": "agent", "text": str(response)})
+    if client_tools.speech_start_at is None:
+      try:
+        client_tools.speech_start_at = time.monotonic()
+      except Exception:
+        client_tools.speech_start_at = 0.0
+    text = str(response)
+    # If we have pending tool events, try to split response in two parts
+    has_pending = False
+    try:
+      with client_tools.queue_lock:
+        has_pending = len(client_tools.pending_tool_events) > 0
+    except Exception:
+      pass
+
+    if has_pending:
+      split = _split_text_for_tools(text)
+      if split:
+        part1, part2 = split
+        if part1:
+          _log_agent_text_with_deferral(client_tools, part1)
+        # Schedule first tool ~5s after this first narration part
+        with client_tools.queue_lock:
+          first_at = time.monotonic() + CLUSTER_DELAY_S
+          if client_tools.pending_tool_events:
+            ev = client_tools.pending_tool_events.pop(0)
+            now = time.monotonic()
+            client_tools._try_release_specific_event(ev, delay_s=max(0.0, first_at - now))
+            try:
+              log_event_safe({"ts": iso_now(), "type": "meta", "event": "schedule_tool", "which": "first", "at_s": first_at})
+            except Exception:
+              pass
+          # mark UI busy until after first action lands
+          try:
+            client_tools.busy_until_ts = max(client_tools.busy_until_ts, first_at + 0.5)
+          except Exception:
+            pass
+          else:
+            client_tools.desired_release_times.append(first_at)
+            try:
+              log_event_safe({"ts": iso_now(), "type": "meta", "event": "schedule_tool_future", "which": "first", "at_s": first_at})
+            except Exception:
+              pass
+        if part2:
+          # Brief pause before the second narration part
+          time.sleep(1.5)
+          _log_agent_text_with_deferral(client_tools, part2)
+          # Schedule second tool ~8s after part2
+          with client_tools.queue_lock:
+            second_at = time.monotonic() + PAPER_AFTER_PART2_DELAY_S
+            if client_tools.pending_tool_events:
+              ev2 = client_tools.pending_tool_events.pop(0)
+              now = time.monotonic()
+              client_tools._try_release_specific_event(ev2, delay_s=max(0.0, second_at - now))
+              try:
+                log_event_safe({"ts": iso_now(), "type": "meta", "event": "schedule_tool", "which": "second", "at_s": second_at})
+              except Exception:
+                pass
+            # mark UI busy until after second action lands
+            try:
+              client_tools.busy_until_ts = max(client_tools.busy_until_ts, second_at + 0.5)
+            except Exception:
+              pass
+            else:
+              client_tools.desired_release_times.append(second_at)
+              try:
+                log_event_safe({"ts": iso_now(), "type": "meta", "event": "schedule_tool_future", "which": "second", "at_s": second_at})
+              except Exception:
+                pass
+        return
+
+    # Fallback: no split or no pending tools — behave as before, but delay closing prompts if UI still busy
+    try:
+      if _is_closing_prompt(text):
+        nowm = time.monotonic()
+        with client_tools.queue_lock:
+          release_at = max(client_tools.busy_until_ts, nowm)
+        if release_at > nowm + 0.01:
+          def _delay_log_closer(msg: str, at_ts: float):
+            def worker():
+              dt = max(0.0, at_ts - time.monotonic())
+              if dt > 0:
+                time.sleep(dt)
+              try:
+                print(f"Agent: {msg}")
+                log_event_safe({"ts": iso_now(), "type": "agent", "text": msg})
+              except Exception:
+                pass
+            threading.Thread(target=worker, daemon=True).start()
+          _delay_log_closer(text, release_at)
+          return
+    except Exception:
+      pass
+    _log_agent_text_with_deferral(client_tools, text)
+    # Single-part fallback: schedule using fixed delays from now
+    with client_tools.queue_lock:
+      base = time.monotonic()
+      targets = [base + CLUSTER_DELAY_S, base + CLUSTER_DELAY_S + PAPER_AFTER_PART2_DELAY_S]
+      # First, schedule for any currently pending events
+      qlen = len(client_tools.pending_tool_events)
+      for t in targets[:qlen]:
+        if client_tools.pending_tool_events:
+          ev = client_tools.pending_tool_events.pop(0)
+          now = time.monotonic()
+          client_tools._try_release_specific_event(ev, delay_s=max(0.0, t - now))
+          try:
+            log_event_safe({"ts": iso_now(), "type": "meta", "event": "schedule_tool", "which": "auto", "at_s": t})
+          except Exception:
+            pass
+      # For any remaining targets with no pending events, store desired times for future arrivals
+      if qlen < len(targets):
+        for t in targets[qlen:]:
+          client_tools.desired_release_times.append(t)
+          try:
+            log_event_safe({"ts": iso_now(), "type": "meta", "event": "schedule_tool_future", "which": "auto", "at_s": t})
+          except Exception:
+            pass
 
   conversation = Conversation(
     elevenlabs,

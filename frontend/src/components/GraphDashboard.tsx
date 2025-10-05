@@ -24,6 +24,7 @@ export const GraphDashboard = () => {
   const [queuedPaperId, setQueuedPaperId] = useState<string | null>(null); // waiting for cluster animation
   const [lastClusterRequestedId, setLastClusterRequestedId] = useState<string | null>(null);
   const [delayedOpenTimer, setDelayedOpenTimer] = useState<number | null>(null);
+  const [lastClusterActionAt, setLastClusterActionAt] = useState<number>(0); // ts when a cluster nav/focus started
 
   // Helper to clear any outstanding delay timers
   const clearDelayTimer = () => {
@@ -263,41 +264,49 @@ export const GraphDashboard = () => {
             case "open_cluster": {
               const cid = resolveClusterId(p);
               if (cid) {
-                // If we're in universe view, animate focus; otherwise, just navigate
+                const now = Date.now();
+                setLastClusterActionAt(now);
+                // Backend paces the cluster to 5s after narration; once event arrives, trigger immediately.
                 if (viewState.level === "universe") {
                   setPendingFocusClusterId(cid);
-                  // Clear the request after a short delay to avoid re-triggering
+                  // Clear the request after the focus animation runs
                   setTimeout(() => setPendingFocusClusterId(null), 1600);
                 } else {
                   handleClusterClick(cid);
                 }
-                // Remember cluster; open a queued paper (if any) after a deliberate delay (6s)
+                // Remember cluster; if a paper was queued earlier, let a short local delay open it after the focus
                 setLastClusterRequestedId(cid);
                 clearDelayTimer();
-                const timer = window.setTimeout(() => {
-                  // Only open if we have a queued paper and we're in the target cluster view
-                  if (queuedPaperId) {
+                if (queuedPaperId) {
+                  const timer = window.setTimeout(() => {
                     const targetPaper = graphData.papers.find((pp: Paper) => pp.id === queuedPaperId);
                     if (targetPaper && targetPaper.clusterId === cid) {
                       setPendingPaperId(queuedPaperId);
                     }
-                  }
-                }, 6000);
-                setDelayedOpenTimer(timer);
+                  }, 1200);
+                  setDelayedOpenTimer(timer);
+                }
               }
               break;
             }
             case "open_paper": {
               const pid = resolvePaperId(p);
               if (pid) {
+                const now = Date.now();
+                const MIN_GAP_MS = 1400; // local safeguard; backend spaces to ~13s post-speech
                 // Decide whether to queue for delayed open depending on current/last cluster selection
                 const paper = graphData.papers.find((pp: Paper) => pp.id === pid);
                 const paperClusterId = paper?.clusterId;
 
                 // If a cluster open was just requested to this paper's cluster, queue and let the timer open it
                 if (paperClusterId && lastClusterRequestedId === paperClusterId) {
+                  // Replace the long 6s fallback with a short paced delay that matches the cluster animation
                   setQueuedPaperId(pid);
-                  // Timer created in open_cluster will handle opening in ~6s
+                  clearDelayTimer();
+                  const timer = window.setTimeout(() => {
+                    setPendingPaperId(pid);
+                  }, 1200);
+                  setDelayedOpenTimer(timer);
                   break;
                 }
 
@@ -321,7 +330,7 @@ export const GraphDashboard = () => {
                   setLastClusterRequestedId(paperClusterId);
                   setQueuedPaperId(pid);
                   clearDelayTimer();
-                  const timer = window.setTimeout(() => setPendingPaperId(pid), 6000);
+                  const timer = window.setTimeout(() => setPendingPaperId(pid), 1500);
                   setDelayedOpenTimer(timer);
                 }
               }
