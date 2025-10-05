@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import cytoscape from "cytoscape";
 import { Cluster, Paper, Edge, Mission } from "../types/graph";
@@ -33,6 +33,28 @@ export const GraphView = ({
   const [vignette, setVignette] = useState(false);
   const [hoverTip, setHoverTip] = useState<{ x: number; y: number; text: string } | null>(null);
   const [isLayingOut, setIsLayingOut] = useState(true);
+  // Deterministic starfield for background
+  const stars = useMemo(() => {
+    const count = 140;
+    const mulberry32 = (seed: number) => {
+      return function () {
+        let t = (seed += 0x6d2b79f5);
+        t = Math.imul(t ^ (t >>> 15), t | 1);
+        t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+        return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+      };
+    };
+    const rand = mulberry32(20241005);
+    return Array.from({ length: count }, (_, i) => {
+      const l = rand() * 100;
+      const t = rand() * 100;
+      const size = 1 + Math.floor(rand() * 2);
+      const opacity = 0.35 + rand() * 0.55;
+      const dur = 2 + rand() * 3;
+      const delay = rand() * 5;
+      return { id: `gv_s${i}`, l, t, size, opacity, dur, delay };
+    });
+  }, []);
 
   // keep latest handler without forcing effect re-runs
   useEffect(() => {
@@ -65,16 +87,15 @@ export const GraphView = ({
   useEffect(() => {
     if (!containerRef.current) return;
 
-    // Filter papers
-  const filteredPapers = papers.filter((paper: Paper) => {
-      const matchesMission = filters.missions.includes(paper.mission);
+    // Filter papers (mission filter removed)
+    const filteredPapers = papers.filter((paper: Paper) => {
       const [minYear, maxYear] = filters.yearRange ?? [Number.NEGATIVE_INFINITY, Number.POSITIVE_INFINITY];
       const matchesYear = paper.year >= minYear && paper.year <= maxYear;
       const matchesSearch = searchQuery
         ? paper.label.toLowerCase().includes(searchQuery.toLowerCase()) ||
           paper.topics.some((t) => t.toLowerCase().includes(searchQuery.toLowerCase()))
         : true;
-      return matchesMission && matchesYear && matchesSearch;
+      return matchesYear && matchesSearch;
     });
 
     const getMissionColor = (mission: Mission) => {
@@ -149,6 +170,15 @@ export const GraphView = ({
       ],
       style: [
         {
+          selector: 'core',
+          style: {
+            'background-color': 'transparent',
+            'selection-box-color': '#8b5cf6',
+            'selection-box-opacity': 0.15,
+            'active-bg-opacity': 0,
+          },
+        },
+        {
           selector: "node",
           style: {
             label: "data(shortLabel)",
@@ -192,6 +222,16 @@ export const GraphView = ({
       userPanningEnabled: true,
       boxSelectionEnabled: false,
     });
+
+    // Ensure all canvases are transparent (some themes may set a background)
+    try {
+      const host = containerRef.current as HTMLElement;
+      const canvases = host?.querySelectorAll?.('canvas');
+      canvases?.forEach((c: any) => {
+        (c as HTMLCanvasElement).style.background = 'transparent';
+      });
+      (host as HTMLElement).style.background = 'transparent';
+    } catch {}
 
     // Run layout without animation, then reveal the graph when done
     // Short-circuit if trivial graph to avoid getting stuck
@@ -298,6 +338,38 @@ export const GraphView = ({
       animate={{ opacity: 1 }}
       className="h-full w-full relative"
     >
+      {/* Force cytoscape canvas layers to be transparent so stars remain visible */}
+      <style>
+        {`
+          [data-canvas-transparent] { background: transparent !important; }
+          [data-canvas-transparent] canvas { background: transparent !important; }
+        `}
+      </style>
+      {/* Starfield keyframes */}
+      <style>
+        {`
+        @keyframes twinkle { 0% { opacity: 0.25; transform: scale(1) } 50% { opacity: 0.85 } 100% { opacity: 0.25; transform: scale(1.05) } }
+        `}
+      </style>
+      {/* Starfield background */}
+  <div className="pointer-events-none absolute inset-0" style={{ zIndex: 0 }}>
+        {stars.map((s) => (
+          <div
+            key={s.id}
+            className="absolute rounded-full"
+            style={{
+              left: `${s.l}%`,
+              top: `${s.t}%`,
+              width: `${s.size}px`,
+              height: `${s.size}px`,
+              background: "rgba(255,255,255,0.95)",
+              boxShadow: "0 0 4px rgba(255,255,255,0.6)",
+              opacity: s.opacity,
+              animation: `twinkle ${s.dur}s ease-in-out ${s.delay}s infinite alternate`,
+            }}
+          />
+        ))}
+      </div>
       {/* Space dust layer for extra depth */}
       <div className="pointer-events-none absolute inset-0 -z-10 opacity-50" style={{ backgroundImage: "radial-gradient(2px 2px at 15% 20%, rgba(255,255,255,0.5), rgba(255,255,255,0) 40%), radial-gradient(1px 1px at 70% 75%, rgba(255,255,255,0.4), rgba(255,255,255,0) 40%), radial-gradient(1.5px 1.5px at 50% 50%, rgba(255,255,255,0.45), rgba(255,255,255,0) 40%)" }} />
       {/* Vignette dimming */}
@@ -306,7 +378,7 @@ export const GraphView = ({
       )}
 
   {/* Graph container; hidden until layout is complete for rock-solid first paint */}
-  <div ref={containerRef} className={`h-full w-full transition-opacity ${isLayingOut ? "opacity-0" : "opacity-100"}`} />
+  <div ref={containerRef} data-canvas-transparent className={`h-full w-full transition-opacity ${isLayingOut ? "opacity-0" : "opacity-100"}`} style={{ background: "transparent", zIndex: 1, position: 'relative' }} />
 
       {/* Hover tooltip showing full title */}
       {hoverTip && (
