@@ -575,7 +575,7 @@ def start_agent(agent_id: str, api_key: Optional[str] = None, user_id: Optional[
 
   # Register the additional tool
   try:
-    client_tools.register("tool_7701k6rg9ygreykr1apjnkxzm6eg", lambda p: _string_tool_handler(p, "tool:tool_7701k6rg9ygreykr1apjnkxzm6eg"), is_async=False)
+    client_tools.register("tool_5301k6sz71gpetda5xqrxah3mpqe", lambda p: _string_tool_handler(p, "tool:tool_2301k6sz6bfbf6ztzn2fkbxds45z"), is_async=False)
   except Exception:
     pass
 
