@@ -16,6 +16,10 @@ export const ScientistSidebar = ({ open, onOpenChange, onToggleVoice, onToolEven
   const [messages, setMessages] = useState<Array<{ role: "bot" | "user"; text: string }>>([]);
   const sseRef = useRef<EventSource | null>(null);
   const recogRef = useRef<any | null>(null);
+  // When the agent speaks, temporarily block mic recognition to avoid echo/self-hearing
+  const blockMicUntilRef = useRef<number>(0);
+  // Track whether SR is usable (permission granted); avoid restart loops on fatal errors
+  const srEnabledRef = useRef<boolean>(true);
   // Use this to ignore any SSE events that occurred before we started this session
   const dropBeforeTsRef = useRef<number | null>(null);
   // Track last messages to prevent duplicates in rapid succession
@@ -89,6 +93,12 @@ export const ScientistSidebar = ({ open, onOpenChange, onToggleVoice, onToolEven
                 setMessages((prev) => [...prev, { role: "bot", text }]);
                 lastBotRef.current = { text, t: now };
               }
+              // Echo suppression: ignore STT results while the agent is talking
+              try {
+                const wc = text.split(/\s+/).filter(Boolean).length;
+                const ms = Math.min(15000, Math.max(1200, Math.round(wc * 330)));
+                blockMicUntilRef.current = Date.now() + ms + 400; // small buffer
+              } catch {}
             } else if (data?.type === "tool") {
               // Do not show tool events in the chat; only propagate for app reactions
               const label = data?.tool || "tool";
@@ -117,6 +127,20 @@ export const ScientistSidebar = ({ open, onOpenChange, onToggleVoice, onToolEven
               if (res.isFinal) {
                 const transcript = res[0]?.transcript?.trim();
                 if (transcript) {
+                  // If we're in the echo-suppression window, drop this transcript
+                  if (Date.now() < blockMicUntilRef.current) {
+                    continue;
+                  }
+                  // Lightweight anti-echo: if transcript is nearly contained in last bot message, drop it
+                  try {
+                    const bot = lastBotRef.current?.text || "";
+                    const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9\s]/g, " ").replace(/\s+/g, " ").trim();
+                    const nb = norm(bot);
+                    const nt = norm(transcript);
+                    if (nt.length > 20 && (nb.includes(nt) || nt.includes(nb))) {
+                      continue;
+                    }
+                  } catch {}
                   try {
                     const sendUrl = backend ? `${backend}/api/conversation/send` : "/api/conversation/send";
                     await fetch(sendUrl, {
@@ -131,9 +155,28 @@ export const ScientistSidebar = ({ open, onOpenChange, onToggleVoice, onToolEven
               }
             }
           };
+          // Auto-restart if recognition ends naturally and voice is active (avoid loops on fatal errors)
+          rec.onend = () => {
+            if (!voiceActive || !srEnabledRef.current) return;
+            try { rec.start(); } catch {}
+          };
+          rec.onstart = () => {
+            srEnabledRef.current = true;
+          };
           rec.onerror = (err: any) => {
-            // Optional: surface a hint if mic permission denied
-            setMessages((prev) => [...prev, { role: "bot", text: "Mic/recognition error. Check permissions and try again." }]);
+            const name = String(err?.error || err?.name || "").toLowerCase();
+            // Benign errors we can ignore silently
+            if (name.includes("aborted") || name.includes("no-speech") || name.includes("network")) {
+              return;
+            }
+            // Permission denied or not allowed: disable SR and inform once
+            if (name.includes("not-allowed") || name.includes("denied") || name.includes("service-not-allowed")) {
+              srEnabledRef.current = false;
+              setMessages((prev) => prev.some(m => m.text.includes("Mic permissions")) ? prev : [...prev, { role: "bot", text: "Mic permissions are blocked. Enable mic access in your browser settings to use voice." }]);
+              return;
+            }
+            // Generic error once
+            setMessages((prev) => prev.some(m => m.text.includes("recognition error")) ? prev : [...prev, { role: "bot", text: "Speech recognition error. You can keep chatting with text or re-enable the mic." }]);
           };
           try { rec.start(); } catch {}
           recogRef.current = rec;
@@ -171,6 +214,7 @@ export const ScientistSidebar = ({ open, onOpenChange, onToggleVoice, onToolEven
       try {
         recogRef.current?.stop?.();
       } catch {}
+      blockMicUntilRef.current = 0;
       try {
         const backend = (import.meta as any).env?.VITE_BACKEND_ORIGIN as string | undefined;
         const stopUrl = backend ? `${backend}/api/conversation/stop` : "/api/conversation/stop";
