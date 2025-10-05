@@ -1,0 +1,252 @@
+{
+  "paper_id": "PMC9784906",
+  "section": "Glucose and Insulin Tolerance Tests",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 129,
+      "label": "ITT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Glucose and Insulin Tolerance Tests",
+        "sentence_id": 39,
+        "char_start": 6433,
+        "char_end": 6436,
+        "anchor": "PMC9784906_6433_6436",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 117,
+      "label": "fasting",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Glucose and Insulin Tolerance Tests",
+        "sentence_id": 39,
+        "char_start": 6165,
+        "char_end": 6172,
+        "anchor": "PMC9784906_6165_6172",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 121,
+      "label": "fasting",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Glucose and Insulin Tolerance Tests",
+        "sentence_id": 39,
+        "char_start": 6514,
+        "char_end": 6521,
+        "anchor": "PMC9784906_6514_6521",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 122,
+      "label": "insulin",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Glucose and Insulin Tolerance Tests",
+        "sentence_id": 39,
+        "char_start": 6596,
+        "char_end": 6603,
+        "anchor": "PMC9784906_6596_6603",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 123,
+      "label": "GTT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Glucose and Insulin Tolerance Tests",
+        "sentence_id": 39,
+        "char_start": 6062,
+        "char_end": 6065,
+        "anchor": "PMC9784906_6062_6065",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 126,
+      "label": "Lifescan",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Glucose and Insulin Tolerance Tests",
+        "sentence_id": 39,
+        "char_start": 6396,
+        "char_end": 6404,
+        "anchor": "PMC9784906_6396_6404",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 127,
+      "label": "Milpitas",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Glucose and Insulin Tolerance Tests",
+        "sentence_id": 39,
+        "char_start": 6406,
+        "char_end": 6414,
+        "anchor": "PMC9784906_6406_6414",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 110,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 117,
+      "target": 121
+    },
+    {
+      "id": 111,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 117,
+      "target": 122
+    },
+    {
+      "id": 112,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 117,
+      "target": 123
+    },
+    {
+      "id": 115,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 117,
+      "target": 126
+    },
+    {
+      "id": 116,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 117,
+      "target": 127
+    },
+    {
+      "id": 118,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 117,
+      "target": 129
+    },
+    {
+      "id": 122,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 122
+    },
+    {
+      "id": 123,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 123
+    },
+    {
+      "id": 126,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 126
+    },
+    {
+      "id": 127,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 127
+    },
+    {
+      "id": 129,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 129
+    },
+    {
+      "id": 133,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 122,
+      "target": 123
+    },
+    {
+      "id": 136,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 122,
+      "target": 126
+    },
+    {
+      "id": 137,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 122,
+      "target": 127
+    },
+    {
+      "id": 139,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 122,
+      "target": 129
+    },
+    {
+      "id": 145,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 123,
+      "target": 126
+    },
+    {
+      "id": 146,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 123,
+      "target": 127
+    },
+    {
+      "id": 148,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 123,
+      "target": 129
+    },
+    {
+      "id": 167,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 126,
+      "target": 127
+    },
+    {
+      "id": 169,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 126,
+      "target": 129
+    },
+    {
+      "id": 174,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 127,
+      "target": 129
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 6,
+      "largest_component": 7,
+      "removed_components": [
+        4
+      ]
+    },
+    "page": 3
+  }
+}

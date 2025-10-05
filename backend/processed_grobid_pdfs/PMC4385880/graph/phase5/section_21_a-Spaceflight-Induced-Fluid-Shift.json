@@ -1,0 +1,122 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "a) Spaceflight-Induced Fluid Shift",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 2104,
+      "label": "ICP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Spaceflight-Induced Fluid Shift",
+        "sentence_id": 648,
+        "char_start": 107385,
+        "char_end": 107388,
+        "anchor": "PMC4385880_107385_107388",
+        "page": 50,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2105,
+      "label": "IOP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Spaceflight-Induced Fluid Shift",
+        "sentence_id": 648,
+        "char_start": 107393,
+        "char_end": 107396,
+        "anchor": "PMC4385880_107393_107396",
+        "page": 50,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2107,
+      "label": "ICP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Spaceflight-Induced Fluid Shift",
+        "sentence_id": 648,
+        "char_start": 107385,
+        "char_end": 107388,
+        "anchor": "PMC4385880_107385_107388",
+        "page": 50,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2108,
+      "label": "IOP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Spaceflight-Induced Fluid Shift",
+        "sentence_id": 648,
+        "char_start": 107393,
+        "char_end": 107396,
+        "anchor": "PMC4385880_107393_107396",
+        "page": 50,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 2313,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2104,
+      "target": 2105
+    },
+    {
+      "id": 2315,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2104,
+      "target": 2107
+    },
+    {
+      "id": 2316,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2104,
+      "target": 2108
+    },
+    {
+      "id": 2318,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2105,
+      "target": 2107
+    },
+    {
+      "id": 2319,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2105,
+      "target": 2108
+    },
+    {
+      "id": 2322,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2107,
+      "target": 2108
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 7,
+      "removed_orphans": 23,
+      "largest_component": 4,
+      "removed_components": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 50
+  }
+}

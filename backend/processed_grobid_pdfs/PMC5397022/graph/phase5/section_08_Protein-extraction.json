@@ -1,0 +1,58 @@
+{
+  "paper_id": "PMC5397022",
+  "section": "Protein extraction",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 355,
+      "label": "Proteins",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein extraction",
+        "sentence_id": 87,
+        "char_start": 15445,
+        "char_end": 15453,
+        "anchor": "PMC5397022_15445_15453",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 357,
+      "label": "Basu",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein extraction",
+        "sentence_id": 87,
+        "char_start": 15482,
+        "char_end": 15486,
+        "anchor": "PMC5397022_15482_15486",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 445,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 355,
+      "target": 357
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 4,
+      "largest_component": 2,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 2
+  }
+}

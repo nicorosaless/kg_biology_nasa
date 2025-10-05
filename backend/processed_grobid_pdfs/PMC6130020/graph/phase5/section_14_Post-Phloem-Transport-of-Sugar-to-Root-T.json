@@ -1,0 +1,376 @@
+{
+  "paper_id": "PMC6130020",
+  "section": "Post-Phloem Transport of Sugar to Root Tips",
+  "n_nodes": 9,
+  "n_edges": 36,
+  "nodes": [
+    {
+      "id": 429,
+      "label": "knockout",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-Phloem Transport of Sugar to Root Tips",
+        "sentence_id": 90,
+        "char_start": 22962,
+        "char_end": 22970,
+        "anchor": "PMC6130020_22962_22970",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 430,
+      "label": "ANN1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-Phloem Transport of Sugar to Root Tips",
+        "sentence_id": 90,
+        "char_start": 22974,
+        "char_end": 22978,
+        "anchor": "PMC6130020_22974_22978",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 433,
+      "label": "ROS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-Phloem Transport of Sugar to Root Tips",
+        "sentence_id": 90,
+        "char_start": 23027,
+        "char_end": 23030,
+        "anchor": "PMC6130020_23027_23030",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 434,
+      "label": "ANN",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-Phloem Transport of Sugar to Root Tips",
+        "sentence_id": 90,
+        "char_start": 23152,
+        "char_end": 23155,
+        "anchor": "PMC6130020_23152_23155",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 435,
+      "label": "ANN",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-Phloem Transport of Sugar to Root Tips",
+        "sentence_id": 90,
+        "char_start": 23161,
+        "char_end": 23164,
+        "anchor": "PMC6130020_23161_23164",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 436,
+      "label": "ulation",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-Phloem Transport of Sugar to Root Tips",
+        "sentence_id": 90,
+        "char_start": 23185,
+        "char_end": 23192,
+        "anchor": "PMC6130020_23185_23192",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 437,
+      "label": "ANN1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-Phloem Transport of Sugar to Root Tips",
+        "sentence_id": 90,
+        "char_start": 22974,
+        "char_end": 22978,
+        "anchor": "PMC6130020_22974_22978",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 438,
+      "label": "ROS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-Phloem Transport of Sugar to Root Tips",
+        "sentence_id": 90,
+        "char_start": 23027,
+        "char_end": 23030,
+        "anchor": "PMC6130020_23027_23030",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 439,
+      "label": "ROS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-Phloem Transport of Sugar to Root Tips",
+        "sentence_id": 90,
+        "char_start": 23196,
+        "char_end": 23199,
+        "anchor": "PMC6130020_23196_23199",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 560,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 429,
+      "target": 430
+    },
+    {
+      "id": 561,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 429,
+      "target": 433
+    },
+    {
+      "id": 562,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 429,
+      "target": 434
+    },
+    {
+      "id": 563,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 429,
+      "target": 435
+    },
+    {
+      "id": 564,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 429,
+      "target": 436
+    },
+    {
+      "id": 565,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 429,
+      "target": 437
+    },
+    {
+      "id": 566,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 429,
+      "target": 438
+    },
+    {
+      "id": 567,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 429,
+      "target": 439
+    },
+    {
+      "id": 568,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 430,
+      "target": 433
+    },
+    {
+      "id": 569,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 430,
+      "target": 434
+    },
+    {
+      "id": 570,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 430,
+      "target": 435
+    },
+    {
+      "id": 571,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 430,
+      "target": 436
+    },
+    {
+      "id": 572,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 430,
+      "target": 437
+    },
+    {
+      "id": 573,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 430,
+      "target": 438
+    },
+    {
+      "id": 574,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 430,
+      "target": 439
+    },
+    {
+      "id": 575,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 433,
+      "target": 434
+    },
+    {
+      "id": 576,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 433,
+      "target": 435
+    },
+    {
+      "id": 577,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 433,
+      "target": 436
+    },
+    {
+      "id": 578,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 433,
+      "target": 437
+    },
+    {
+      "id": 579,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 433,
+      "target": 438
+    },
+    {
+      "id": 580,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 433,
+      "target": 439
+    },
+    {
+      "id": 581,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 434,
+      "target": 435
+    },
+    {
+      "id": 582,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 434,
+      "target": 436
+    },
+    {
+      "id": 583,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 434,
+      "target": 437
+    },
+    {
+      "id": 584,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 434,
+      "target": 438
+    },
+    {
+      "id": 585,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 434,
+      "target": 439
+    },
+    {
+      "id": 586,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 435,
+      "target": 436
+    },
+    {
+      "id": 587,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 435,
+      "target": 437
+    },
+    {
+      "id": 588,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 435,
+      "target": 438
+    },
+    {
+      "id": 589,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 435,
+      "target": 439
+    },
+    {
+      "id": 590,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 436,
+      "target": 437
+    },
+    {
+      "id": 591,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 436,
+      "target": 438
+    },
+    {
+      "id": 592,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 436,
+      "target": 439
+    },
+    {
+      "id": 593,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 437,
+      "target": 438
+    },
+    {
+      "id": 594,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 437,
+      "target": 439
+    },
+    {
+      "id": 595,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 438,
+      "target": 439
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 6,
+      "removed_orphans": 12,
+      "largest_component": 9,
+      "removed_components": [
+        6,
+        5,
+        4,
+        2,
+        2
+      ]
+    },
+    "page": 7
+  }
+}

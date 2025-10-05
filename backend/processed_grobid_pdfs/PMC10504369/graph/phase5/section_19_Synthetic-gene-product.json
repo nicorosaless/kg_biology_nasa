@@ -1,0 +1,5596 @@
+{
+  "paper_id": "PMC10504369",
+  "section": "Synthetic GENE_PRODUCT",
+  "n_nodes": 266,
+  "n_edges": 265,
+  "nodes": [
+    {
+      "id": 8,
+      "label": "grounded",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 4,
+        "char_start": 453,
+        "char_end": 461,
+        "anchor": "PMC10504369_453_461",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 9,
+      "label": "hindlimb",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 4,
+        "char_start": 525,
+        "char_end": 533,
+        "anchor": "PMC10504369_525_533",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 16,
+      "label": "effects",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 10,
+        "char_start": 1612,
+        "char_end": 1619,
+        "anchor": "PMC10504369_1612_1619",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 17,
+      "label": "weakness",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 10,
+        "char_start": 1657,
+        "char_end": 1665,
+        "anchor": "PMC10504369_1657_1665",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 25,
+      "label": "MuSCs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 12,
+        "char_start": 2312,
+        "char_end": 2317,
+        "anchor": "PMC10504369_2312_2317",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 26,
+      "label": "MuSC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 14,
+        "char_start": 2471,
+        "char_end": 2475,
+        "anchor": "PMC10504369_2471_2475",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 27,
+      "label": "Atrophy",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 15,
+        "char_start": 2502,
+        "char_end": 2509,
+        "anchor": "PMC10504369_2502_2509",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 30,
+      "label": "MuSC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 16,
+        "char_start": 2731,
+        "char_end": 2735,
+        "anchor": "PMC10504369_2731_2735",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 31,
+      "label": "MuSCs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 17,
+        "char_start": 2843,
+        "char_end": 2848,
+        "anchor": "PMC10504369_2843_2848",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 33,
+      "label": "negative",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 18,
+        "char_start": 2954,
+        "char_end": 2962,
+        "anchor": "PMC10504369_2954_2962",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 35,
+      "label": "capacity",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 18,
+        "char_start": 3237,
+        "char_end": 3245,
+        "anchor": "PMC10504369_3237_3245",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 36,
+      "label": "Higher",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 18,
+        "char_start": 3250,
+        "char_end": 3256,
+        "anchor": "PMC10504369_3250_3256",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 38,
+      "label": "MuSC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 18,
+        "char_start": 3121,
+        "char_end": 3125,
+        "anchor": "PMC10504369_3121_3125",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 40,
+      "label": "specific",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 19,
+        "char_start": 3266,
+        "char_end": 3274,
+        "anchor": "PMC10504369_3266_3274",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 41,
+      "label": "juvenile",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 19,
+        "char_start": 3368,
+        "char_end": 3376,
+        "anchor": "PMC10504369_3368_3376",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 43,
+      "label": "MuSC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 19,
+        "char_start": 3411,
+        "char_end": 3415,
+        "anchor": "PMC10504369_3411_3415",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 44,
+      "label": "MuSC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 19,
+        "char_start": 3411,
+        "char_end": 3415,
+        "anchor": "PMC10504369_3411_3415",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 46,
+      "label": "MuSCs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 19,
+        "char_start": 3545,
+        "char_end": 3550,
+        "anchor": "PMC10504369_3545_3550",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 49,
+      "label": "culture",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 20,
+        "char_start": 4168,
+        "char_end": 4175,
+        "anchor": "PMC10504369_4168_4175",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 56,
+      "label": "Duchenne",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 20,
+        "char_start": 3911,
+        "char_end": 3919,
+        "anchor": "PMC10504369_3911_3919",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 69,
+      "label": "HLS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 23,
+        "char_start": 5463,
+        "char_end": 5466,
+        "anchor": "PMC10504369_5463_5466",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 72,
+      "label": "control",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 25,
+        "char_start": 5933,
+        "char_end": 5940,
+        "anchor": "PMC10504369_5933_5940",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 73,
+      "label": "wildtype",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 25,
+        "char_start": 6088,
+        "char_end": 6096,
+        "anchor": "PMC10504369_6088_6096",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 80,
+      "label": "similar",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 27,
+        "char_start": 6393,
+        "char_end": 6400,
+        "anchor": "PMC10504369_6393_6400",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 83,
+      "label": "HLS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 27,
+        "char_start": 6446,
+        "char_end": 6449,
+        "anchor": "PMC10504369_6446_6449",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 84,
+      "label": "appetite",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 28,
+        "char_start": 6629,
+        "char_end": 6637,
+        "anchor": "PMC10504369_6629_6637",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 95,
+      "label": "slightly",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 33,
+        "char_start": 7290,
+        "char_end": 7298,
+        "anchor": "PMC10504369_7290_7298",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 96,
+      "label": "controls",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 33,
+        "char_start": 7323,
+        "char_end": 7331,
+        "anchor": "PMC10504369_7323_7331",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 99,
+      "label": "HLS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 33,
+        "char_start": 7261,
+        "char_end": 7264,
+        "anchor": "PMC10504369_7261_7264",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 105,
+      "label": "HLS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 34,
+        "char_start": 7751,
+        "char_end": 7754,
+        "anchor": "PMC10504369_7751_7754",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 107,
+      "label": "muscles",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 35,
+        "char_start": 7866,
+        "char_end": 7873,
+        "anchor": "PMC10504369_7866_7873",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 108,
+      "label": "atrophy",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 35,
+        "char_start": 7917,
+        "char_end": 7924,
+        "anchor": "PMC10504369_7917_7924",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 111,
+      "label": "tibialis",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 36,
+        "char_start": 7977,
+        "char_end": 7985,
+        "anchor": "PMC10504369_7977_7985",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 113,
+      "label": "weights",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 36,
+        "char_start": 8048,
+        "char_end": 8055,
+        "anchor": "PMC10504369_8048_8055",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 115,
+      "label": "muscles",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 36,
+        "char_start": 8138,
+        "char_end": 8145,
+        "anchor": "PMC10504369_8138_8145",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 118,
+      "label": "HLS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 36,
+        "char_start": 8190,
+        "char_end": 8193,
+        "anchor": "PMC10504369_8190_8193",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 124,
+      "label": "muscles",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 37,
+        "char_start": 8404,
+        "char_end": 8411,
+        "anchor": "PMC10504369_8404_8411",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 127,
+      "label": "smaller",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 37,
+        "char_start": 8574,
+        "char_end": 8581,
+        "anchor": "PMC10504369_8574_8581",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 129,
+      "label": "WGA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 37,
+        "char_start": 8496,
+        "char_end": 8499,
+        "anchor": "PMC10504369_8496_8499",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 131,
+      "label": "HLS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 37,
+        "char_start": 8602,
+        "char_end": 8605,
+        "anchor": "PMC10504369_8602_8605",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 135,
+      "label": "positive",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 39,
+        "char_start": 8811,
+        "char_end": 8819,
+        "anchor": "PMC10504369_8811_8819",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 136,
+      "label": "wasting",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 39,
+        "char_start": 8905,
+        "char_end": 8912,
+        "anchor": "PMC10504369_8905_8912",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 137,
+      "label": "HLS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 39,
+        "char_start": 8840,
+        "char_end": 8843,
+        "anchor": "PMC10504369_8840_8843",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 138,
+      "label": "HLS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 39,
+        "char_start": 8930,
+        "char_end": 8933,
+        "anchor": "PMC10504369_8930_8933",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 152,
+      "label": "relative",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 42,
+        "char_start": 9558,
+        "char_end": 9566,
+        "anchor": "PMC10504369_9558_9566",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 155,
+      "label": "labeled",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 42,
+        "char_start": 9643,
+        "char_end": 9650,
+        "anchor": "PMC10504369_9643_9650",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 157,
+      "label": "nucleus",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 42,
+        "char_start": 9753,
+        "char_end": 9760,
+        "anchor": "PMC10504369_9753_9760",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 158,
+      "label": "First",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 42,
+        "char_start": 9450,
+        "char_end": 9455,
+        "anchor": "PMC10504369_9450_9455",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 160,
+      "label": "DAPI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 42,
+        "char_start": 9764,
+        "char_end": 9768,
+        "anchor": "PMC10504369_9764_9768",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 163,
+      "label": "MuSCs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 44,
+        "char_start": 9947,
+        "char_end": 9952,
+        "anchor": "PMC10504369_9947_9952",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 165,
+      "label": "HLS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 44,
+        "char_start": 10101,
+        "char_end": 10104,
+        "anchor": "PMC10504369_10101_10104",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 169,
+      "label": "MuSC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 44,
+        "char_start": 10351,
+        "char_end": 10355,
+        "anchor": "PMC10504369_10351_10355",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 170,
+      "label": "changes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 45,
+        "char_start": 10420,
+        "char_end": 10427,
+        "anchor": "PMC10504369_10420_10427",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 172,
+      "label": "Gas",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 45,
+        "char_start": 10503,
+        "char_end": 10506,
+        "anchor": "PMC10504369_10503_10506",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 173,
+      "label": "cnemius",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 45,
+        "char_start": 10509,
+        "char_end": 10516,
+        "anchor": "PMC10504369_10509_10516",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 175,
+      "label": "MuSC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 45,
+        "char_start": 10431,
+        "char_end": 10435,
+        "anchor": "PMC10504369_10431_10435",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 177,
+      "label": "MuSC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 45,
+        "char_start": 10552,
+        "char_end": 10556,
+        "anchor": "PMC10504369_10552_10556",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 178,
+      "label": "Pax7",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 45,
+        "char_start": 10565,
+        "char_end": 10569,
+        "anchor": "PMC10504369_10565_10569",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 179,
+      "label": "changes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 46,
+        "char_start": 10657,
+        "char_end": 10664,
+        "anchor": "PMC10504369_10657_10664",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 183,
+      "label": "control",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 46,
+        "char_start": 10809,
+        "char_end": 10816,
+        "anchor": "PMC10504369_10809_10816",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 184,
+      "label": "MuSC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 46,
+        "char_start": 10668,
+        "char_end": 10672,
+        "anchor": "PMC10504369_10668_10672",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 186,
+      "label": "MuSC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 46,
+        "char_start": 10776,
+        "char_end": 10780,
+        "anchor": "PMC10504369_10776_10780",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 189,
+      "label": "HLS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 49,
+        "char_start": 11002,
+        "char_end": 11005,
+        "anchor": "PMC10504369_11002_11005",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 190,
+      "label": "defects",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 50,
+        "char_start": 11043,
+        "char_end": 11050,
+        "anchor": "PMC10504369_11043_11050",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 191,
+      "label": "MuSC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 50,
+        "char_start": 11120,
+        "char_end": 11124,
+        "anchor": "PMC10504369_11120_11124",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 192,
+      "label": "escence",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 50,
+        "char_start": 11145,
+        "char_end": 11152,
+        "anchor": "PMC10504369_11145_11152",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 193,
+      "label": "MuSCs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 50,
+        "char_start": 11120,
+        "char_end": 11125,
+        "anchor": "PMC10504369_11120_11125",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 194,
+      "label": "skeletal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 51,
+        "char_start": 11241,
+        "char_end": 11249,
+        "anchor": "PMC10504369_11241_11249",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 197,
+      "label": "stained",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 52,
+        "char_start": 11406,
+        "char_end": 11413,
+        "anchor": "PMC10504369_11406_11413",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 202,
+      "label": "loading",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 54,
+        "char_start": 11658,
+        "char_end": 11665,
+        "anchor": "PMC10504369_11658_11665",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 203,
+      "label": "altered",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 54,
+        "char_start": 11685,
+        "char_end": 11692,
+        "anchor": "PMC10504369_11685_11692",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 205,
+      "label": "muscles",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 54,
+        "char_start": 11791,
+        "char_end": 11798,
+        "anchor": "PMC10504369_11791_11798",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 207,
+      "label": "MuSCs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 54,
+        "char_start": 11820,
+        "char_end": 11825,
+        "anchor": "PMC10504369_11820_11825",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 208,
+      "label": "negative",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 55,
+        "char_start": 11986,
+        "char_end": 11994,
+        "anchor": "PMC10504369_11986_11994",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 211,
+      "label": "rodents",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 56,
+        "char_start": 12344,
+        "char_end": 12351,
+        "anchor": "PMC10504369_12344_12351",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 212,
+      "label": "MuSCs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 56,
+        "char_start": 12103,
+        "char_end": 12108,
+        "anchor": "PMC10504369_12103_12108",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 213,
+      "label": "HLS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 56,
+        "char_start": 12224,
+        "char_end": 12227,
+        "anchor": "PMC10504369_12224_12227",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 220,
+      "label": "hindlimb",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 57,
+        "char_start": 12678,
+        "char_end": 12686,
+        "anchor": "PMC10504369_12678_12686",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 231,
+      "label": "MuSCs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 60,
+        "char_start": 13269,
+        "char_end": 13274,
+        "anchor": "PMC10504369_13269_13274",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 232,
+      "label": "telomere",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 61,
+        "char_start": 13411,
+        "char_end": 13419,
+        "anchor": "PMC10504369_13411_13419",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 236,
+      "label": "recover",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 63,
+        "char_start": 13883,
+        "char_end": 13890,
+        "anchor": "PMC10504369_13883_13890",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 246,
+      "label": "smaller",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 65,
+        "char_start": 14343,
+        "char_end": 14350,
+        "anchor": "PMC10504369_14343_14350",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 248,
+      "label": "recovery",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 66,
+        "char_start": 14458,
+        "char_end": 14466,
+        "anchor": "PMC10504369_14458_14466",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 251,
+      "label": "recovery",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 67,
+        "char_start": 14537,
+        "char_end": 14545,
+        "anchor": "PMC10504369_14537_14545",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 256,
+      "label": "controls",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 67,
+        "char_start": 14683,
+        "char_end": 14691,
+        "anchor": "PMC10504369_14683_14691",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 257,
+      "label": "loading",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 67,
+        "char_start": 14749,
+        "char_end": 14756,
+        "anchor": "PMC10504369_14749_14756",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 263,
+      "label": "MuSC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 68,
+        "char_start": 14931,
+        "char_end": 14935,
+        "anchor": "PMC10504369_14931_14935",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 266,
+      "label": "onuclei",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 69,
+        "char_start": 15247,
+        "char_end": 15254,
+        "anchor": "PMC10504369_15247_15254",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 268,
+      "label": "recovery",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 69,
+        "char_start": 15289,
+        "char_end": 15297,
+        "anchor": "PMC10504369_15289_15297",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 271,
+      "label": "HLS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 69,
+        "char_start": 15178,
+        "char_end": 15181,
+        "anchor": "PMC10504369_15178_15181",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 276,
+      "label": "HLS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 69,
+        "char_start": 15389,
+        "char_end": 15392,
+        "anchor": "PMC10504369_15389_15392",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 280,
+      "label": "MuSCs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 70,
+        "char_start": 15880,
+        "char_end": 15885,
+        "anchor": "PMC10504369_15880_15885",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 281,
+      "label": "MuSCs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 70,
+        "char_start": 15926,
+        "char_end": 15931,
+        "anchor": "PMC10504369_15926_15931",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 287,
+      "label": "Tel",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 73,
+        "char_start": 16453,
+        "char_end": 16456,
+        "anchor": "PMC10504369_16453_16456",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 288,
+      "label": "unloaded",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 73,
+        "char_start": 16506,
+        "char_end": 16514,
+        "anchor": "PMC10504369_16506_16514",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 289,
+      "label": "muscles",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 73,
+        "char_start": 16515,
+        "char_end": 16522,
+        "anchor": "PMC10504369_16515_16522",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 290,
+      "label": "omerase",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 73,
+        "char_start": 16611,
+        "char_end": 16618,
+        "anchor": "PMC10504369_16611_16618",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 292,
+      "label": "skeletal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 76,
+        "char_start": 16832,
+        "char_end": 16840,
+        "anchor": "PMC10504369_16832_16840",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 293,
+      "label": "recovery",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 76,
+        "char_start": 16876,
+        "char_end": 16884,
+        "anchor": "PMC10504369_16876_16884",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 295,
+      "label": "TERT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 77,
+        "char_start": 16952,
+        "char_end": 16956,
+        "anchor": "PMC10504369_16952_16956",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 296,
+      "label": "protein",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 77,
+        "char_start": 16975,
+        "char_end": 16982,
+        "anchor": "PMC10504369_16975_16982",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 298,
+      "label": "TERT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 77,
+        "char_start": 16952,
+        "char_end": 16956,
+        "anchor": "PMC10504369_16952_16956",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 300,
+      "label": "muscles",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 78,
+        "char_start": 17087,
+        "char_end": 17094,
+        "anchor": "PMC10504369_17087_17094",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 303,
+      "label": "TRAP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 78,
+        "char_start": 17251,
+        "char_end": 17255,
+        "anchor": "PMC10504369_17251_17255",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 316,
+      "label": "skeletal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 80,
+        "char_start": 17628,
+        "char_end": 17636,
+        "anchor": "PMC10504369_17628_17636",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 317,
+      "label": "telomere",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 80,
+        "char_start": 17728,
+        "char_end": 17736,
+        "anchor": "PMC10504369_17728_17736",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 319,
+      "label": "muscles",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 81,
+        "char_start": 17806,
+        "char_end": 17813,
+        "anchor": "PMC10504369_17806_17813",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 320,
+      "label": "ALT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 82,
+        "char_start": 17988,
+        "char_end": 17991,
+        "anchor": "PMC10504369_17988_17991",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 321,
+      "label": "ALT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 82,
+        "char_start": 18202,
+        "char_end": 18205,
+        "anchor": "PMC10504369_18202_18205",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 323,
+      "label": "DAXX",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 82,
+        "char_start": 18170,
+        "char_end": 18174,
+        "anchor": "PMC10504369_18170_18174",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 332,
+      "label": "recovery",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 86,
+        "char_start": 18579,
+        "char_end": 18587,
+        "anchor": "PMC10504369_18579_18587",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 333,
+      "label": "Atrx",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 86,
+        "char_start": 18615,
+        "char_end": 18619,
+        "anchor": "PMC10504369_18615_18619",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 334,
+      "label": "Daxx",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 86,
+        "char_start": 18624,
+        "char_end": 18628,
+        "anchor": "PMC10504369_18624_18628",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 336,
+      "label": "Atrx",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 86,
+        "char_start": 18615,
+        "char_end": 18619,
+        "anchor": "PMC10504369_18615_18619",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 337,
+      "label": "Daxx",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of muscle reloading on muscle telomere length",
+        "sentence_id": 86,
+        "char_start": 18624,
+        "char_end": 18628,
+        "anchor": "PMC10504369_18624_18628",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 340,
+      "label": "adverse",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 88,
+        "char_start": 18990,
+        "char_end": 18997,
+        "anchor": "PMC10504369_18990_18997",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 341,
+      "label": "effects",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 88,
+        "char_start": 19005,
+        "char_end": 19012,
+        "anchor": "PMC10504369_19005_19012",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 342,
+      "label": "headache",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 88,
+        "char_start": 19050,
+        "char_end": 19058,
+        "anchor": "PMC10504369_19050_19058",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 343,
+      "label": "zziness",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 88,
+        "char_start": 19063,
+        "char_end": 19070,
+        "anchor": "PMC10504369_19063_19070",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 345,
+      "label": "counter",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 88,
+        "char_start": 19327,
+        "char_end": 19334,
+        "anchor": "PMC10504369_19327_19334",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 348,
+      "label": "skeletal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 89,
+        "char_start": 19976,
+        "char_end": 19984,
+        "anchor": "PMC10504369_19976_19984",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 349,
+      "label": "skeletal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 89,
+        "char_start": 20045,
+        "char_end": 20053,
+        "anchor": "PMC10504369_20045_20053",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 350,
+      "label": "gravity",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 89,
+        "char_start": 20301,
+        "char_end": 20308,
+        "anchor": "PMC10504369_20301_20308",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 362,
+      "label": "skeletal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 93,
+        "char_start": 21398,
+        "char_end": 21406,
+        "anchor": "PMC10504369_21398_21406",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 365,
+      "label": "HLS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 93,
+        "char_start": 21436,
+        "char_end": 21439,
+        "anchor": "PMC10504369_21436_21439",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 367,
+      "label": "changes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 94,
+        "char_start": 21597,
+        "char_end": 21604,
+        "anchor": "PMC10504369_21597_21604",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 370,
+      "label": "HLS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 94,
+        "char_start": 21631,
+        "char_end": 21634,
+        "anchor": "PMC10504369_21631_21634",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 371,
+      "label": "HLS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 95,
+        "char_start": 21905,
+        "char_end": 21908,
+        "anchor": "PMC10504369_21905_21908",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 374,
+      "label": "muscles",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 97,
+        "char_start": 22139,
+        "char_end": 22146,
+        "anchor": "PMC10504369_22139_22146",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 376,
+      "label": "skeletal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 97,
+        "char_start": 22248,
+        "char_end": 22256,
+        "anchor": "PMC10504369_22248_22256",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 378,
+      "label": "combined",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 98,
+        "char_start": 22371,
+        "char_end": 22379,
+        "anchor": "PMC10504369_22371_22379",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 379,
+      "label": "gravity",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 98,
+        "char_start": 22418,
+        "char_end": 22425,
+        "anchor": "PMC10504369_22418_22425",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 383,
+      "label": "extended",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 100,
+        "char_start": 23157,
+        "char_end": 23165,
+        "anchor": "PMC10504369_23157_23165",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 384,
+      "label": "shorter",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 100,
+        "char_start": 23185,
+        "char_end": 23192,
+        "anchor": "PMC10504369_23185_23192",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 387,
+      "label": "loading",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 101,
+        "char_start": 23474,
+        "char_end": 23481,
+        "anchor": "PMC10504369_23474_23481",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 388,
+      "label": "hindlimb",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 101,
+        "char_start": 23485,
+        "char_end": 23493,
+        "anchor": "PMC10504369_23485_23493",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 389,
+      "label": "muscles",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 101,
+        "char_start": 23494,
+        "char_end": 23501,
+        "anchor": "PMC10504369_23494_23501",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 390,
+      "label": "Twins",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 102,
+        "char_start": 23588,
+        "char_end": 23593,
+        "anchor": "PMC10504369_23588_23593",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 391,
+      "label": "Study",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 102,
+        "char_start": 23594,
+        "char_end": 23599,
+        "anchor": "PMC10504369_23594_23599",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 392,
+      "label": "skeletal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 102,
+        "char_start": 23637,
+        "char_end": 23645,
+        "anchor": "PMC10504369_23637_23645",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 393,
+      "label": "recover",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 102,
+        "char_start": 23675,
+        "char_end": 23682,
+        "anchor": "PMC10504369_23675_23682",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 394,
+      "label": "atrophy",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 102,
+        "char_start": 23688,
+        "char_end": 23695,
+        "anchor": "PMC10504369_23688_23695",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 398,
+      "label": "studies",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 103,
+        "char_start": 23819,
+        "char_end": 23826,
+        "anchor": "PMC10504369_23819_23826",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 402,
+      "label": "studies",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 104,
+        "char_start": 24231,
+        "char_end": 24238,
+        "anchor": "PMC10504369_24231_24238",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 403,
+      "label": "TERT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 104,
+        "char_start": 24291,
+        "char_end": 24295,
+        "anchor": "PMC10504369_24291_24295",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 407,
+      "label": "TERT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 104,
+        "char_start": 24291,
+        "char_end": 24295,
+        "anchor": "PMC10504369_24291_24295",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 416,
+      "label": "ALT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 109,
+        "char_start": 25134,
+        "char_end": 25137,
+        "anchor": "PMC10504369_25134_25137",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 417,
+      "label": "ALT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 109,
+        "char_start": 25134,
+        "char_end": 25137,
+        "anchor": "PMC10504369_25134_25137",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 418,
+      "label": "ALT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 110,
+        "char_start": 25282,
+        "char_end": 25285,
+        "anchor": "PMC10504369_25282_25285",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 419,
+      "label": "ALT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 110,
+        "char_start": 25282,
+        "char_end": 25285,
+        "anchor": "PMC10504369_25282_25285",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 423,
+      "label": "histone",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 111,
+        "char_start": 25653,
+        "char_end": 25660,
+        "anchor": "PMC10504369_25653_25660",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 424,
+      "label": "Daxx",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 111,
+        "char_start": 25671,
+        "char_end": 25675,
+        "anchor": "PMC10504369_25671_25675",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 427,
+      "label": "Daxx",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 111,
+        "char_start": 25671,
+        "char_end": 25675,
+        "anchor": "PMC10504369_25671_25675",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 428,
+      "label": "muscles",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 112,
+        "char_start": 25797,
+        "char_end": 25804,
+        "anchor": "PMC10504369_25797_25804",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 429,
+      "label": "Dax",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 113,
+        "char_start": 25922,
+        "char_end": 25925,
+        "anchor": "PMC10504369_25922_25925",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 430,
+      "label": "Atrx",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 113,
+        "char_start": 25913,
+        "char_end": 25917,
+        "anchor": "PMC10504369_25913_25917",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 432,
+      "label": "Mount",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 114,
+        "char_start": 26089,
+        "char_end": 26094,
+        "anchor": "PMC10504369_26089_26094",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 443,
+      "label": "ALT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 117,
+        "char_start": 26705,
+        "char_end": 26708,
+        "anchor": "PMC10504369_26705_26708",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 444,
+      "label": "ALT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 117,
+        "char_start": 26705,
+        "char_end": 26708,
+        "anchor": "PMC10504369_26705_26708",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 451,
+      "label": "ALT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 119,
+        "char_start": 27116,
+        "char_end": 27119,
+        "anchor": "PMC10504369_27116_27119",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 452,
+      "label": "ALT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 119,
+        "char_start": 27235,
+        "char_end": 27238,
+        "anchor": "PMC10504369_27235_27238",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 453,
+      "label": "ALT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 119,
+        "char_start": 27135,
+        "char_end": 27138,
+        "anchor": "PMC10504369_27135_27138",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 455,
+      "label": "ALT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 119,
+        "char_start": 27235,
+        "char_end": 27238,
+        "anchor": "PMC10504369_27235_27238",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 457,
+      "label": "Atrx",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 120,
+        "char_start": 27395,
+        "char_end": 27399,
+        "anchor": "PMC10504369_27395_27399",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 458,
+      "label": "Daxx",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 120,
+        "char_start": 27404,
+        "char_end": 27408,
+        "anchor": "PMC10504369_27404_27408",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 459,
+      "label": "ALT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 120,
+        "char_start": 27467,
+        "char_end": 27470,
+        "anchor": "PMC10504369_27467_27470",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 460,
+      "label": "ALT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 120,
+        "char_start": 27467,
+        "char_end": 27470,
+        "anchor": "PMC10504369_27467_27470",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 461,
+      "label": "ALT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 121,
+        "char_start": 27574,
+        "char_end": 27577,
+        "anchor": "PMC10504369_27574_27577",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 462,
+      "label": "ALT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 121,
+        "char_start": 27574,
+        "char_end": 27577,
+        "anchor": "PMC10504369_27574_27577",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 467,
+      "label": "studies",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 126,
+        "char_start": 28447,
+        "char_end": 28454,
+        "anchor": "PMC10504369_28447_28454",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 483,
+      "label": "biopsies",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 136,
+        "char_start": 30583,
+        "char_end": 30591,
+        "anchor": "PMC10504369_30583_30591",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 488,
+      "label": "skeletal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 140,
+        "char_start": 31444,
+        "char_end": 31452,
+        "anchor": "PMC10504369_31444_31452",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 489,
+      "label": "ALT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 140,
+        "char_start": 31515,
+        "char_end": 31518,
+        "anchor": "PMC10504369_31515_31518",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 490,
+      "label": "ALT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 140,
+        "char_start": 31515,
+        "char_end": 31518,
+        "anchor": "PMC10504369_31515_31518",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 492,
+      "label": "Male",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS Mice",
+        "sentence_id": 142,
+        "char_start": 31992,
+        "char_end": 31996,
+        "anchor": "PMC10504369_31992_31996",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 499,
+      "label": "hanging",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Hindlimb suspension",
+        "sentence_id": 150,
+        "char_start": 33401,
+        "char_end": 33408,
+        "anchor": "PMC10504369_33401_33408",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 500,
+      "label": "hanging",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Hindlimb suspension",
+        "sentence_id": 151,
+        "char_start": 33472,
+        "char_end": 33479,
+        "anchor": "PMC10504369_33472_33479",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 502,
+      "label": "HLS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Hindlimb suspension",
+        "sentence_id": 152,
+        "char_start": 33573,
+        "char_end": 33576,
+        "anchor": "PMC10504369_33573_33576",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 505,
+      "label": "cervical",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 154,
+        "char_start": 33901,
+        "char_end": 33909,
+        "anchor": "PMC10504369_33901_33909",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 506,
+      "label": "Organs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 155,
+        "char_start": 33922,
+        "char_end": 33928,
+        "anchor": "PMC10504369_33922_33928",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 507,
+      "label": "ssection",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 155,
+        "char_start": 33961,
+        "char_end": 33969,
+        "anchor": "PMC10504369_33961_33969",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 519,
+      "label": "Slides",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 158,
+        "char_start": 34396,
+        "char_end": 34402,
+        "anchor": "PMC10504369_34396_34402",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 521,
+      "label": "Muscle",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 159,
+        "char_start": 34491,
+        "char_end": 34497,
+        "anchor": "PMC10504369_34491_34497",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 523,
+      "label": "blocked",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 159,
+        "char_start": 34586,
+        "char_end": 34593,
+        "anchor": "PMC10504369_34586_34593",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 524,
+      "label": "albumin",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 159,
+        "char_start": 34615,
+        "char_end": 34622,
+        "anchor": "PMC10504369_34615_34622",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 525,
+      "label": "Gemini",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 159,
+        "char_start": 34629,
+        "char_end": 34635,
+        "anchor": "PMC10504369_34629_34635",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 527,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 159,
+        "char_start": 34577,
+        "char_end": 34580,
+        "anchor": "PMC10504369_34577_34580",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 528,
+      "label": "BSA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 159,
+        "char_start": 34624,
+        "char_end": 34627,
+        "anchor": "PMC10504369_34624_34627",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 529,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 159,
+        "char_start": 34643,
+        "char_end": 34646,
+        "anchor": "PMC10504369_34643_34646",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 530,
+      "label": "Slides",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 160,
+        "char_start": 34678,
+        "char_end": 34684,
+        "anchor": "PMC10504369_34678_34684",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 531,
+      "label": "Alexa",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 160,
+        "char_start": 34710,
+        "char_end": 34715,
+        "anchor": "PMC10504369_34710_34715",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 533,
+      "label": "WGA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 160,
+        "char_start": 34760,
+        "char_end": 34763,
+        "anchor": "PMC10504369_34760_34763",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 534,
+      "label": "Thermo",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 160,
+        "char_start": 34774,
+        "char_end": 34780,
+        "anchor": "PMC10504369_34774_34780",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 535,
+      "label": "Slides",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 161,
+        "char_start": 34853,
+        "char_end": 34859,
+        "anchor": "PMC10504369_34853_34859",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 537,
+      "label": "Slides",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 161,
+        "char_start": 34944,
+        "char_end": 34950,
+        "anchor": "PMC10504369_34944_34950",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 539,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 161,
+        "char_start": 34875,
+        "char_end": 34878,
+        "anchor": "PMC10504369_34875_34878",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 540,
+      "label": "DAPI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 161,
+        "char_start": 34930,
+        "char_end": 34934,
+        "anchor": "PMC10504369_34930_34934",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 541,
+      "label": "Nikon",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 161,
+        "char_start": 35047,
+        "char_end": 35052,
+        "anchor": "PMC10504369_35047_35052",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 543,
+      "label": "Fiji",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 161,
+        "char_start": 35145,
+        "char_end": 35149,
+        "anchor": "PMC10504369_35145_35149",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 563,
+      "label": "Slides",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Muscle stem cell number quantification",
+        "sentence_id": 163,
+        "char_start": 35674,
+        "char_end": 35680,
+        "anchor": "PMC10504369_35674_35680",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 564,
+      "label": "Scan",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Muscle stem cell number quantification",
+        "sentence_id": 163,
+        "char_start": 35812,
+        "char_end": 35816,
+        "anchor": "PMC10504369_35812_35816",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 566,
+      "label": "Zen",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Muscle stem cell number quantification",
+        "sentence_id": 163,
+        "char_start": 35861,
+        "char_end": 35864,
+        "anchor": "PMC10504369_35861_35864",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 567,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Muscle stem cell number quantification",
+        "sentence_id": 163,
+        "char_start": 35698,
+        "char_end": 35701,
+        "anchor": "PMC10504369_35698_35701",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 568,
+      "label": "DAPI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Muscle stem cell number quantification",
+        "sentence_id": 163,
+        "char_start": 35753,
+        "char_end": 35757,
+        "anchor": "PMC10504369_35753_35757",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 571,
+      "label": "pax7",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Muscle stem cell number quantification",
+        "sentence_id": 164,
+        "char_start": 35947,
+        "char_end": 35951,
+        "anchor": "PMC10504369_35947_35951",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 572,
+      "label": "Fiji",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Muscle stem cell number quantification",
+        "sentence_id": 164,
+        "char_start": 35989,
+        "char_end": 35993,
+        "anchor": "PMC10504369_35989_35993",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 588,
+      "label": "Slides",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Senescence-associated β-galactosidase activity assay",
+        "sentence_id": 166,
+        "char_start": 36465,
+        "char_end": 36471,
+        "anchor": "PMC10504369_36465_36471",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 589,
+      "label": "Slides",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Senescence-associated β-galactosidase activity assay",
+        "sentence_id": 166,
+        "char_start": 36558,
+        "char_end": 36564,
+        "anchor": "PMC10504369_36558_36564",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 590,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Senescence-associated β-galactosidase activity assay",
+        "sentence_id": 166,
+        "char_start": 36489,
+        "char_end": 36492,
+        "anchor": "PMC10504369_36489_36492",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 591,
+      "label": "Nikon",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Senescence-associated β-galactosidase activity assay",
+        "sentence_id": 166,
+        "char_start": 36582,
+        "char_end": 36587,
+        "anchor": "PMC10504369_36582_36587",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 595,
+      "label": "mediated",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 167,
+        "char_start": 36836,
+        "char_end": 36844,
+        "anchor": "PMC10504369_36836_36844",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 598,
+      "label": "Tri",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 167,
+        "char_start": 36886,
+        "char_end": 36889,
+        "anchor": "PMC10504369_36886_36889",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 600,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 167,
+        "char_start": 36784,
+        "char_end": 36787,
+        "anchor": "PMC10504369_36784_36787",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 602,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 167,
+        "char_start": 36812,
+        "char_end": 36815,
+        "anchor": "PMC10504369_36812_36815",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 604,
+      "label": "Slides",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 168,
+        "char_start": 36950,
+        "char_end": 36956,
+        "anchor": "PMC10504369_36950_36956",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 606,
+      "label": "minutes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 168,
+        "char_start": 37022,
+        "char_end": 37029,
+        "anchor": "PMC10504369_37022_37029",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 607,
+      "label": "Slides",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 168,
+        "char_start": 37039,
+        "char_end": 37045,
+        "anchor": "PMC10504369_37039_37045",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 612,
+      "label": "Hybrid",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 168,
+        "char_start": 37304,
+        "char_end": 37310,
+        "anchor": "PMC10504369_37304_37310",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 613,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 168,
+        "char_start": 36972,
+        "char_end": 36975,
+        "anchor": "PMC10504369_36972_36975",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 615,
+      "label": "Alexa",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 168,
+        "char_start": 37071,
+        "char_end": 37076,
+        "anchor": "PMC10504369_37071_37076",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 623,
+      "label": "Slides",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 170,
+        "char_start": 37465,
+        "char_end": 37471,
+        "anchor": "PMC10504369_37465_37471",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 625,
+      "label": "solution",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 170,
+        "char_start": 37639,
+        "char_end": 37647,
+        "anchor": "PMC10504369_37639_37647",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 626,
+      "label": "Slides",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 170,
+        "char_start": 37691,
+        "char_end": 37697,
+        "anchor": "PMC10504369_37691_37697",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 627,
+      "label": "blocked",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 170,
+        "char_start": 37708,
+        "char_end": 37715,
+        "anchor": "PMC10504369_37708_37715",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 628,
+      "label": "SSC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 170,
+        "char_start": 37534,
+        "char_end": 37537,
+        "anchor": "PMC10504369_37534_37537",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 629,
+      "label": "SSC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 170,
+        "char_start": 37557,
+        "char_end": 37560,
+        "anchor": "PMC10504369_37557_37560",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 630,
+      "label": "SSC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 170,
+        "char_start": 37582,
+        "char_end": 37585,
+        "anchor": "PMC10504369_37582_37585",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 631,
+      "label": "SSC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 170,
+        "char_start": 37608,
+        "char_end": 37611,
+        "anchor": "PMC10504369_37608_37611",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 632,
+      "label": "MuSCs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 170,
+        "char_start": 37761,
+        "char_end": 37766,
+        "anchor": "PMC10504369_37761_37766",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 633,
+      "label": "VCAM1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 171,
+        "char_start": 37783,
+        "char_end": 37788,
+        "anchor": "PMC10504369_37783_37788",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 638,
+      "label": "VCAM1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 171,
+        "char_start": 37783,
+        "char_end": 37788,
+        "anchor": "PMC10504369_37783_37788",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 640,
+      "label": "Thermo",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 171,
+        "char_start": 38060,
+        "char_end": 38066,
+        "anchor": "PMC10504369_38060_38066",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 641,
+      "label": "MuSCs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 172,
+        "char_start": 38220,
+        "char_end": 38225,
+        "anchor": "PMC10504369_38220_38225",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 643,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 172,
+        "char_start": 38128,
+        "char_end": 38131,
+        "anchor": "PMC10504369_38128_38131",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 644,
+      "label": "DAPI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 172,
+        "char_start": 38186,
+        "char_end": 38190,
+        "anchor": "PMC10504369_38186_38190",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 645,
+      "label": "MuSCs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 172,
+        "char_start": 38220,
+        "char_end": 38225,
+        "anchor": "PMC10504369_38220_38225",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 646,
+      "label": "DAPI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 173,
+        "char_start": 38557,
+        "char_end": 38561,
+        "anchor": "PMC10504369_38557_38561",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 647,
+      "label": "Nikon",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 174,
+        "char_start": 38720,
+        "char_end": 38725,
+        "anchor": "PMC10504369_38720_38725",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 648,
+      "label": "exported",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 175,
+        "char_start": 38767,
+        "char_end": 38775,
+        "anchor": "PMC10504369_38767_38775",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 650,
+      "label": "position",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 177,
+        "char_start": 39109,
+        "char_end": 39117,
+        "anchor": "PMC10504369_39109_39117",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 651,
+      "label": "Total",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 178,
+        "char_start": 39198,
+        "char_end": 39203,
+        "anchor": "PMC10504369_39198_39203",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 652,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 178,
+        "char_start": 39204,
+        "char_end": 39207,
+        "anchor": "PMC10504369_39204_39207",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 654,
+      "label": "muscles",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 178,
+        "char_start": 39247,
+        "char_end": 39254,
+        "anchor": "PMC10504369_39247_39254",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 655,
+      "label": "Tri",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 178,
+        "char_start": 39260,
+        "char_end": 39263,
+        "anchor": "PMC10504369_39260_39263",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 672,
+      "label": "Gapdh",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 180,
+        "char_start": 39778,
+        "char_end": 39783,
+        "anchor": "PMC10504369_39778_39783",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 673,
+      "label": "Gapdh",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomere length assessments",
+        "sentence_id": 180,
+        "char_start": 39778,
+        "char_end": 39783,
+        "anchor": "PMC10504369_39778_39783",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 674,
+      "label": "Gas",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immunohistochemistry",
+        "sentence_id": 181,
+        "char_start": 39809,
+        "char_end": 39812,
+        "anchor": "PMC10504369_39809_39812",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 675,
+      "label": "permeabi",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immunohistochemistry",
+        "sentence_id": 181,
+        "char_start": 39841,
+        "char_end": 39849,
+        "anchor": "PMC10504369_39841_39849",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 676,
+      "label": "blocked",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immunohistochemistry",
+        "sentence_id": 181,
+        "char_start": 39911,
+        "char_end": 39918,
+        "anchor": "PMC10504369_39911_39918",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 679,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immunohistochemistry",
+        "sentence_id": 181,
+        "char_start": 39902,
+        "char_end": 39905,
+        "anchor": "PMC10504369_39902_39905",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 680,
+      "label": "BSA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immunohistochemistry",
+        "sentence_id": 181,
+        "char_start": 39949,
+        "char_end": 39952,
+        "anchor": "PMC10504369_39949_39952",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 681,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immunohistochemistry",
+        "sentence_id": 181,
+        "char_start": 39968,
+        "char_end": 39971,
+        "anchor": "PMC10504369_39968_39971",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 694,
+      "label": "Slides",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immunohistochemistry",
+        "sentence_id": 183,
+        "char_start": 40292,
+        "char_end": 40298,
+        "anchor": "PMC10504369_40292_40298",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 695,
+      "label": "DAPI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immunohistochemistry",
+        "sentence_id": 183,
+        "char_start": 40371,
+        "char_end": 40375,
+        "anchor": "PMC10504369_40371_40375",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 696,
+      "label": "Slides",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immunohistochemistry",
+        "sentence_id": 183,
+        "char_start": 40385,
+        "char_end": 40391,
+        "anchor": "PMC10504369_40385_40391",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 697,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immunohistochemistry",
+        "sentence_id": 183,
+        "char_start": 40316,
+        "char_end": 40319,
+        "anchor": "PMC10504369_40316_40319",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 698,
+      "label": "DAPI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immunohistochemistry",
+        "sentence_id": 183,
+        "char_start": 40371,
+        "char_end": 40375,
+        "anchor": "PMC10504369_40371_40375",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 699,
+      "label": "Nikon",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immunohistochemistry",
+        "sentence_id": 183,
+        "char_start": 40409,
+        "char_end": 40414,
+        "anchor": "PMC10504369_40409_40414",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 709,
+      "label": "PCR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomerase activity measurement by TRAP assay",
+        "sentence_id": 189,
+        "char_start": 41033,
+        "char_end": 41036,
+        "anchor": "PMC10504369_41033_41036",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 710,
+      "label": "TBE",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomerase activity measurement by TRAP assay",
+        "sentence_id": 189,
+        "char_start": 41068,
+        "char_end": 41071,
+        "anchor": "PMC10504369_41068_41071",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 713,
+      "label": "Image",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomerase activity measurement by TRAP assay",
+        "sentence_id": 190,
+        "char_start": 41231,
+        "char_end": 41236,
+        "anchor": "PMC10504369_41231_41236",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 720,
+      "label": "25th",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analysis",
+        "sentence_id": 192,
+        "char_start": 41485,
+        "char_end": 41489,
+        "anchor": "PMC10504369_41485_41489",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 721,
+      "label": "75th",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analysis",
+        "sentence_id": 192,
+        "char_start": 41494,
+        "char_end": 41498,
+        "anchor": "PMC10504369_41494_41498",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 722,
+      "label": "multiple",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analysis",
+        "sentence_id": 193,
+        "char_start": 41606,
+        "char_end": 41614,
+        "anchor": "PMC10504369_41606_41614",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 723,
+      "label": "ANOVA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analysis",
+        "sentence_id": 193,
+        "char_start": 41560,
+        "char_end": 41565,
+        "anchor": "PMC10504369_41560_41565",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 724,
+      "label": "Tukey",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analysis",
+        "sentence_id": 193,
+        "char_start": 41598,
+        "char_end": 41603,
+        "anchor": "PMC10504369_41598_41603",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-8-9",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "id": "synth-8-16",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 16
+    },
+    {
+      "id": "synth-8-17",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 17
+    },
+    {
+      "id": "synth-8-25",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 25
+    },
+    {
+      "id": "synth-8-26",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 26
+    },
+    {
+      "id": "synth-8-27",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 27
+    },
+    {
+      "id": "synth-8-30",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 30
+    },
+    {
+      "id": "synth-8-31",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 31
+    },
+    {
+      "id": "synth-8-33",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 33
+    },
+    {
+      "id": "synth-8-35",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 35
+    },
+    {
+      "id": "synth-8-36",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 36
+    },
+    {
+      "id": "synth-8-38",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 38
+    },
+    {
+      "id": "synth-8-40",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 40
+    },
+    {
+      "id": "synth-8-41",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 41
+    },
+    {
+      "id": "synth-8-43",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 43
+    },
+    {
+      "id": "synth-8-44",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 44
+    },
+    {
+      "id": "synth-8-46",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 46
+    },
+    {
+      "id": "synth-8-49",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 49
+    },
+    {
+      "id": "synth-8-56",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 56
+    },
+    {
+      "id": "synth-8-69",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 69
+    },
+    {
+      "id": "synth-8-72",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 72
+    },
+    {
+      "id": "synth-8-73",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 73
+    },
+    {
+      "id": "synth-8-80",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 80
+    },
+    {
+      "id": "synth-8-83",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 83
+    },
+    {
+      "id": "synth-8-84",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 84
+    },
+    {
+      "id": "synth-8-95",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 95
+    },
+    {
+      "id": "synth-8-96",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 96
+    },
+    {
+      "id": "synth-8-99",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 99
+    },
+    {
+      "id": "synth-8-105",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 105
+    },
+    {
+      "id": "synth-8-107",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 107
+    },
+    {
+      "id": "synth-8-108",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 108
+    },
+    {
+      "id": "synth-8-111",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 111
+    },
+    {
+      "id": "synth-8-113",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 113
+    },
+    {
+      "id": "synth-8-115",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 115
+    },
+    {
+      "id": "synth-8-118",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 118
+    },
+    {
+      "id": "synth-8-124",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 124
+    },
+    {
+      "id": "synth-8-127",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 127
+    },
+    {
+      "id": "synth-8-129",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 129
+    },
+    {
+      "id": "synth-8-131",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 131
+    },
+    {
+      "id": "synth-8-135",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 135
+    },
+    {
+      "id": "synth-8-136",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 136
+    },
+    {
+      "id": "synth-8-137",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 137
+    },
+    {
+      "id": "synth-8-138",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 138
+    },
+    {
+      "id": "synth-8-152",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 152
+    },
+    {
+      "id": "synth-8-155",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 155
+    },
+    {
+      "id": "synth-8-157",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 157
+    },
+    {
+      "id": "synth-8-158",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 158
+    },
+    {
+      "id": "synth-8-160",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 160
+    },
+    {
+      "id": "synth-8-163",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 163
+    },
+    {
+      "id": "synth-8-165",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 165
+    },
+    {
+      "id": "synth-8-169",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 169
+    },
+    {
+      "id": "synth-8-170",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 170
+    },
+    {
+      "id": "synth-8-172",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 172
+    },
+    {
+      "id": "synth-8-173",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 173
+    },
+    {
+      "id": "synth-8-175",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 175
+    },
+    {
+      "id": "synth-8-177",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 177
+    },
+    {
+      "id": "synth-8-178",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 178
+    },
+    {
+      "id": "synth-8-179",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 179
+    },
+    {
+      "id": "synth-8-183",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 183
+    },
+    {
+      "id": "synth-8-184",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 184
+    },
+    {
+      "id": "synth-8-186",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 186
+    },
+    {
+      "id": "synth-8-189",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 189
+    },
+    {
+      "id": "synth-8-190",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 190
+    },
+    {
+      "id": "synth-8-191",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 191
+    },
+    {
+      "id": "synth-8-192",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 192
+    },
+    {
+      "id": "synth-8-193",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 193
+    },
+    {
+      "id": "synth-8-194",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 194
+    },
+    {
+      "id": "synth-8-197",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 197
+    },
+    {
+      "id": "synth-8-202",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 202
+    },
+    {
+      "id": "synth-8-203",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 203
+    },
+    {
+      "id": "synth-8-205",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 205
+    },
+    {
+      "id": "synth-8-207",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 207
+    },
+    {
+      "id": "synth-8-208",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 208
+    },
+    {
+      "id": "synth-8-211",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 211
+    },
+    {
+      "id": "synth-8-212",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 212
+    },
+    {
+      "id": "synth-8-213",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 213
+    },
+    {
+      "id": "synth-8-220",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 220
+    },
+    {
+      "id": "synth-8-231",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 231
+    },
+    {
+      "id": "synth-8-232",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 232
+    },
+    {
+      "id": "synth-8-236",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 236
+    },
+    {
+      "id": "synth-8-246",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 246
+    },
+    {
+      "id": "synth-8-248",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 248
+    },
+    {
+      "id": "synth-8-251",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 251
+    },
+    {
+      "id": "synth-8-256",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 256
+    },
+    {
+      "id": "synth-8-257",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 257
+    },
+    {
+      "id": "synth-8-263",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 263
+    },
+    {
+      "id": "synth-8-266",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 266
+    },
+    {
+      "id": "synth-8-268",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 268
+    },
+    {
+      "id": "synth-8-271",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 271
+    },
+    {
+      "id": "synth-8-276",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 276
+    },
+    {
+      "id": "synth-8-280",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 280
+    },
+    {
+      "id": "synth-8-281",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 281
+    },
+    {
+      "id": "synth-8-287",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 287
+    },
+    {
+      "id": "synth-8-288",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 288
+    },
+    {
+      "id": "synth-8-289",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 289
+    },
+    {
+      "id": "synth-8-290",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 290
+    },
+    {
+      "id": "synth-8-292",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 292
+    },
+    {
+      "id": "synth-8-293",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 293
+    },
+    {
+      "id": "synth-8-295",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 295
+    },
+    {
+      "id": "synth-8-296",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 296
+    },
+    {
+      "id": "synth-8-298",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 298
+    },
+    {
+      "id": "synth-8-300",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 300
+    },
+    {
+      "id": "synth-8-303",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 303
+    },
+    {
+      "id": "synth-8-316",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 316
+    },
+    {
+      "id": "synth-8-317",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 317
+    },
+    {
+      "id": "synth-8-319",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 319
+    },
+    {
+      "id": "synth-8-320",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 320
+    },
+    {
+      "id": "synth-8-321",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 321
+    },
+    {
+      "id": "synth-8-323",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 323
+    },
+    {
+      "id": "synth-8-332",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 332
+    },
+    {
+      "id": "synth-8-333",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 333
+    },
+    {
+      "id": "synth-8-334",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 334
+    },
+    {
+      "id": "synth-8-336",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 336
+    },
+    {
+      "id": "synth-8-337",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 337
+    },
+    {
+      "id": "synth-8-340",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 340
+    },
+    {
+      "id": "synth-8-341",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 341
+    },
+    {
+      "id": "synth-8-342",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 342
+    },
+    {
+      "id": "synth-8-343",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 343
+    },
+    {
+      "id": "synth-8-345",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 345
+    },
+    {
+      "id": "synth-8-348",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 348
+    },
+    {
+      "id": "synth-8-349",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 349
+    },
+    {
+      "id": "synth-8-350",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 350
+    },
+    {
+      "id": "synth-8-362",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 362
+    },
+    {
+      "id": "synth-8-365",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 365
+    },
+    {
+      "id": "synth-8-367",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 367
+    },
+    {
+      "id": "synth-8-370",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 370
+    },
+    {
+      "id": "synth-8-371",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 371
+    },
+    {
+      "id": "synth-8-374",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 374
+    },
+    {
+      "id": "synth-8-376",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 376
+    },
+    {
+      "id": "synth-8-378",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 378
+    },
+    {
+      "id": "synth-8-379",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 379
+    },
+    {
+      "id": "synth-8-383",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 383
+    },
+    {
+      "id": "synth-8-384",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 384
+    },
+    {
+      "id": "synth-8-387",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 387
+    },
+    {
+      "id": "synth-8-388",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 388
+    },
+    {
+      "id": "synth-8-389",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 389
+    },
+    {
+      "id": "synth-8-390",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 390
+    },
+    {
+      "id": "synth-8-391",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 391
+    },
+    {
+      "id": "synth-8-392",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 392
+    },
+    {
+      "id": "synth-8-393",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 393
+    },
+    {
+      "id": "synth-8-394",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 394
+    },
+    {
+      "id": "synth-8-398",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 398
+    },
+    {
+      "id": "synth-8-402",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 402
+    },
+    {
+      "id": "synth-8-403",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 403
+    },
+    {
+      "id": "synth-8-407",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 407
+    },
+    {
+      "id": "synth-8-416",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 416
+    },
+    {
+      "id": "synth-8-417",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 417
+    },
+    {
+      "id": "synth-8-418",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 418
+    },
+    {
+      "id": "synth-8-419",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 419
+    },
+    {
+      "id": "synth-8-423",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 423
+    },
+    {
+      "id": "synth-8-424",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 424
+    },
+    {
+      "id": "synth-8-427",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 427
+    },
+    {
+      "id": "synth-8-428",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 428
+    },
+    {
+      "id": "synth-8-429",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 429
+    },
+    {
+      "id": "synth-8-430",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 430
+    },
+    {
+      "id": "synth-8-432",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 432
+    },
+    {
+      "id": "synth-8-443",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 443
+    },
+    {
+      "id": "synth-8-444",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 444
+    },
+    {
+      "id": "synth-8-451",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 451
+    },
+    {
+      "id": "synth-8-452",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 452
+    },
+    {
+      "id": "synth-8-453",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 453
+    },
+    {
+      "id": "synth-8-455",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 455
+    },
+    {
+      "id": "synth-8-457",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 457
+    },
+    {
+      "id": "synth-8-458",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 458
+    },
+    {
+      "id": "synth-8-459",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 459
+    },
+    {
+      "id": "synth-8-460",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 460
+    },
+    {
+      "id": "synth-8-461",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 461
+    },
+    {
+      "id": "synth-8-462",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 462
+    },
+    {
+      "id": "synth-8-467",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 467
+    },
+    {
+      "id": "synth-8-483",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 483
+    },
+    {
+      "id": "synth-8-488",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 488
+    },
+    {
+      "id": "synth-8-489",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 489
+    },
+    {
+      "id": "synth-8-490",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 490
+    },
+    {
+      "id": "synth-8-492",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 492
+    },
+    {
+      "id": "synth-8-499",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 499
+    },
+    {
+      "id": "synth-8-500",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 500
+    },
+    {
+      "id": "synth-8-502",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 502
+    },
+    {
+      "id": "synth-8-505",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 505
+    },
+    {
+      "id": "synth-8-506",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 506
+    },
+    {
+      "id": "synth-8-507",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 507
+    },
+    {
+      "id": "synth-8-519",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 519
+    },
+    {
+      "id": "synth-8-521",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 521
+    },
+    {
+      "id": "synth-8-523",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 523
+    },
+    {
+      "id": "synth-8-524",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 524
+    },
+    {
+      "id": "synth-8-525",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 525
+    },
+    {
+      "id": "synth-8-527",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 527
+    },
+    {
+      "id": "synth-8-528",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 528
+    },
+    {
+      "id": "synth-8-529",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 529
+    },
+    {
+      "id": "synth-8-530",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 530
+    },
+    {
+      "id": "synth-8-531",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 531
+    },
+    {
+      "id": "synth-8-533",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 533
+    },
+    {
+      "id": "synth-8-534",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 534
+    },
+    {
+      "id": "synth-8-535",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 535
+    },
+    {
+      "id": "synth-8-537",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 537
+    },
+    {
+      "id": "synth-8-539",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 539
+    },
+    {
+      "id": "synth-8-540",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 540
+    },
+    {
+      "id": "synth-8-541",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 541
+    },
+    {
+      "id": "synth-8-543",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 543
+    },
+    {
+      "id": "synth-8-563",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 563
+    },
+    {
+      "id": "synth-8-564",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 564
+    },
+    {
+      "id": "synth-8-566",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 566
+    },
+    {
+      "id": "synth-8-567",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 567
+    },
+    {
+      "id": "synth-8-568",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 568
+    },
+    {
+      "id": "synth-8-571",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 571
+    },
+    {
+      "id": "synth-8-572",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 572
+    },
+    {
+      "id": "synth-8-588",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 588
+    },
+    {
+      "id": "synth-8-589",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 589
+    },
+    {
+      "id": "synth-8-590",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 590
+    },
+    {
+      "id": "synth-8-591",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 591
+    },
+    {
+      "id": "synth-8-595",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 595
+    },
+    {
+      "id": "synth-8-598",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 598
+    },
+    {
+      "id": "synth-8-600",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 600
+    },
+    {
+      "id": "synth-8-602",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 602
+    },
+    {
+      "id": "synth-8-604",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 604
+    },
+    {
+      "id": "synth-8-606",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 606
+    },
+    {
+      "id": "synth-8-607",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 607
+    },
+    {
+      "id": "synth-8-612",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 612
+    },
+    {
+      "id": "synth-8-613",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 613
+    },
+    {
+      "id": "synth-8-615",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 615
+    },
+    {
+      "id": "synth-8-623",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 623
+    },
+    {
+      "id": "synth-8-625",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 625
+    },
+    {
+      "id": "synth-8-626",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 626
+    },
+    {
+      "id": "synth-8-627",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 627
+    },
+    {
+      "id": "synth-8-628",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 628
+    },
+    {
+      "id": "synth-8-629",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 629
+    },
+    {
+      "id": "synth-8-630",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 630
+    },
+    {
+      "id": "synth-8-631",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 631
+    },
+    {
+      "id": "synth-8-632",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 632
+    },
+    {
+      "id": "synth-8-633",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 633
+    },
+    {
+      "id": "synth-8-638",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 638
+    },
+    {
+      "id": "synth-8-640",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 640
+    },
+    {
+      "id": "synth-8-641",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 641
+    },
+    {
+      "id": "synth-8-643",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 643
+    },
+    {
+      "id": "synth-8-644",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 644
+    },
+    {
+      "id": "synth-8-645",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 645
+    },
+    {
+      "id": "synth-8-646",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 646
+    },
+    {
+      "id": "synth-8-647",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 647
+    },
+    {
+      "id": "synth-8-648",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 648
+    },
+    {
+      "id": "synth-8-650",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 650
+    },
+    {
+      "id": "synth-8-651",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 651
+    },
+    {
+      "id": "synth-8-652",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 652
+    },
+    {
+      "id": "synth-8-654",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 654
+    },
+    {
+      "id": "synth-8-655",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 655
+    },
+    {
+      "id": "synth-8-672",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 672
+    },
+    {
+      "id": "synth-8-673",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 673
+    },
+    {
+      "id": "synth-8-674",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 674
+    },
+    {
+      "id": "synth-8-675",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 675
+    },
+    {
+      "id": "synth-8-676",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 676
+    },
+    {
+      "id": "synth-8-679",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 679
+    },
+    {
+      "id": "synth-8-680",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 680
+    },
+    {
+      "id": "synth-8-681",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 681
+    },
+    {
+      "id": "synth-8-694",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 694
+    },
+    {
+      "id": "synth-8-695",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 695
+    },
+    {
+      "id": "synth-8-696",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 696
+    },
+    {
+      "id": "synth-8-697",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 697
+    },
+    {
+      "id": "synth-8-698",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 698
+    },
+    {
+      "id": "synth-8-699",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 699
+    },
+    {
+      "id": "synth-8-709",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 709
+    },
+    {
+      "id": "synth-8-710",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 710
+    },
+    {
+      "id": "synth-8-713",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 713
+    },
+    {
+      "id": "synth-8-720",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 720
+    },
+    {
+      "id": "synth-8-721",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 721
+    },
+    {
+      "id": "synth-8-722",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 722
+    },
+    {
+      "id": "synth-8-723",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 723
+    },
+    {
+      "id": "synth-8-724",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 724
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "GENE_PRODUCT",
+    "page": null
+  }
+}

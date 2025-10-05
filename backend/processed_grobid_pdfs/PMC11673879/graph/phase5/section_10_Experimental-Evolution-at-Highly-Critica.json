@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC11673879",
+  "section": "Experimental Evolution at Highly Critical Temperatures and Evolutionary Rescue",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 276,
+      "label": "strains",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental Evolution at Highly Critical Temperatures and Evolutionary Rescue",
+        "sentence_id": 110,
+        "char_start": 18853,
+        "char_end": 18860,
+        "anchor": "PMC11673879_18853_18860",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 277,
+      "label": "thermal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental Evolution at Highly Critical Temperatures and Evolutionary Rescue",
+        "sentence_id": 110,
+        "char_start": 19004,
+        "char_end": 19011,
+        "anchor": "PMC11673879_19004_19011",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 198,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 276,
+      "target": 277
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 7,
+      "largest_component": 2
+    },
+    "page": 6
+  }
+}

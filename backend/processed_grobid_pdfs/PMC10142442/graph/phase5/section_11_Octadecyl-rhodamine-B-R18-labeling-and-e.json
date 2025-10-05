@@ -1,0 +1,306 @@
+{
+  "paper_id": "PMC10142442",
+  "section": "Octadecyl rhodamine B (R18) labeling and entry assay:",
+  "n_nodes": 8,
+  "n_edges": 28,
+  "nodes": [
+    {
+      "id": 234,
+      "label": "rifuged",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Octadecyl rhodamine B (R18) labeling and entry assay:",
+        "sentence_id": 69,
+        "char_start": 14889,
+        "char_end": 14896,
+        "anchor": "PMC10142442_14889_14896",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 235,
+      "label": "FucC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Octadecyl rhodamine B (R18) labeling and entry assay:",
+        "sentence_id": 69,
+        "char_start": 15010,
+        "char_end": 15014,
+        "anchor": "PMC10142442_15010_15014",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 236,
+      "label": "R18",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Octadecyl rhodamine B (R18) labeling and entry assay:",
+        "sentence_id": 69,
+        "char_start": 14717,
+        "char_end": 14720,
+        "anchor": "PMC10142442_14717_14720",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 238,
+      "label": "Waltham",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Octadecyl rhodamine B (R18) labeling and entry assay:",
+        "sentence_id": 69,
+        "char_start": 14770,
+        "char_end": 14777,
+        "anchor": "PMC10142442_14770_14777",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 239,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Octadecyl rhodamine B (R18) labeling and entry assay:",
+        "sentence_id": 69,
+        "char_start": 14794,
+        "char_end": 14797,
+        "anchor": "PMC10142442_14794_14797",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 240,
+      "label": "DMEM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Octadecyl rhodamine B (R18) labeling and entry assay:",
+        "sentence_id": 69,
+        "char_start": 14853,
+        "char_end": 14857,
+        "anchor": "PMC10142442_14853_14857",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 243,
+      "label": "HFF",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Octadecyl rhodamine B (R18) labeling and entry assay:",
+        "sentence_id": 69,
+        "char_start": 15055,
+        "char_end": 15058,
+        "anchor": "PMC10142442_15055_15058",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 245,
+      "label": "R18",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Octadecyl rhodamine B (R18) labeling and entry assay:",
+        "sentence_id": 69,
+        "char_start": 15165,
+        "char_end": 15168,
+        "anchor": "PMC10142442_15165_15168",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 390,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 234,
+      "target": 235
+    },
+    {
+      "id": 391,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 234,
+      "target": 236
+    },
+    {
+      "id": 393,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 234,
+      "target": 238
+    },
+    {
+      "id": 394,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 234,
+      "target": 239
+    },
+    {
+      "id": 395,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 234,
+      "target": 240
+    },
+    {
+      "id": 398,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 234,
+      "target": 243
+    },
+    {
+      "id": 400,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 234,
+      "target": 245
+    },
+    {
+      "id": 401,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 235,
+      "target": 236
+    },
+    {
+      "id": 403,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 235,
+      "target": 238
+    },
+    {
+      "id": 404,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 235,
+      "target": 239
+    },
+    {
+      "id": 405,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 235,
+      "target": 240
+    },
+    {
+      "id": 408,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 235,
+      "target": 243
+    },
+    {
+      "id": 410,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 235,
+      "target": 245
+    },
+    {
+      "id": 412,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 236,
+      "target": 238
+    },
+    {
+      "id": 413,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 236,
+      "target": 239
+    },
+    {
+      "id": 414,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 236,
+      "target": 240
+    },
+    {
+      "id": 417,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 236,
+      "target": 243
+    },
+    {
+      "id": 419,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 236,
+      "target": 245
+    },
+    {
+      "id": 428,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 238,
+      "target": 239
+    },
+    {
+      "id": 429,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 238,
+      "target": 240
+    },
+    {
+      "id": 432,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 238,
+      "target": 243
+    },
+    {
+      "id": 434,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 238,
+      "target": 245
+    },
+    {
+      "id": 435,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 239,
+      "target": 240
+    },
+    {
+      "id": 438,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 239,
+      "target": 243
+    },
+    {
+      "id": 440,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 239,
+      "target": 245
+    },
+    {
+      "id": 443,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 240,
+      "target": 243
+    },
+    {
+      "id": 445,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 240,
+      "target": 245
+    },
+    {
+      "id": 454,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 243,
+      "target": 245
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 3,
+      "largest_component": 8
+    },
+    "page": 5
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "paper_id": "PMC6091969",
+  "section": "Macrophages inhibit A. fumigatus germination",
+  "n_nodes": 7,
+  "n_edges": 19,
+  "nodes": [
+    {
+      "id": 241,
+      "label": "macrophage",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages inhibit A. fumigatus germination",
+        "sentence_id": 75,
+        "char_start": 21824,
+        "char_end": 21834,
+        "anchor": "PMC6091969_21824_21834",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 242,
+      "label": "fungal germination",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages inhibit A. fumigatus germination",
+        "sentence_id": 75,
+        "char_start": 21877,
+        "char_end": 21895,
+        "anchor": "PMC6091969_21877_21895",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 243,
+      "label": "hyphal growth",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages inhibit A. fumigatus germination",
+        "sentence_id": 75,
+        "char_start": 21900,
+        "char_end": 21913,
+        "anchor": "PMC6091969_21900_21913",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 244,
+      "label": "macrophage",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages inhibit A. fumigatus germination",
+        "sentence_id": 75,
+        "char_start": 21999,
+        "char_end": 22009,
+        "anchor": "PMC6091969_21999_22009",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 245,
+      "label": "macrophages",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages inhibit A. fumigatus germination",
+        "sentence_id": 75,
+        "char_start": 22166,
+        "char_end": 22177,
+        "anchor": "PMC6091969_22166_22177",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 238,
+      "label": "massive",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages inhibit A. fumigatus germination",
+        "sentence_id": 75,
+        "char_start": 21770,
+        "char_end": 21777,
+        "anchor": "PMC6091969_21770_21777",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 239,
+      "label": "utrophil",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages inhibit A. fumigatus germination",
+        "sentence_id": 75,
+        "char_start": 21780,
+        "char_end": 21788,
+        "anchor": "PMC6091969_21780_21788",
+        "page": 11,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 314,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 238,
+      "target": 239
+    },
+    {
+      "id": 315,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 238,
+      "target": 241
+    },
+    {
+      "id": 316,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 238,
+      "target": 244
+    },
+    {
+      "id": 317,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 238,
+      "target": 245
+    },
+    {
+      "id": 319,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 239,
+      "target": 241
+    },
+    {
+      "id": 320,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 239,
+      "target": 244
+    },
+    {
+      "id": 321,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 239,
+      "target": 245
+    },
+    {
+      "id": 323,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 241,
+      "target": 242
+    },
+    {
+      "id": 324,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 241,
+      "target": 243
+    },
+    {
+      "id": 326,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 244,
+      "target": 242
+    },
+    {
+      "id": 327,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 245,
+      "target": 242
+    },
+    {
+      "id": 328,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 244,
+      "target": 243
+    },
+    {
+      "id": 329,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 245,
+      "target": 243
+    },
+    {
+      "id": 956,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 241,
+      "target": 242
+    },
+    {
+      "id": 957,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 241,
+      "target": 243
+    },
+    {
+      "id": 958,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 244,
+      "target": 242
+    },
+    {
+      "id": 959,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 244,
+      "target": 243
+    },
+    {
+      "id": 960,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 245,
+      "target": 242
+    },
+    {
+      "id": 961,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 245,
+      "target": 243
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 3,
+      "largest_component": 7
+    },
+    "page": 11
+  }
+}

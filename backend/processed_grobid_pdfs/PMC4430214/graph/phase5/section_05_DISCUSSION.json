@@ -1,0 +1,124 @@
+{
+  "paper_id": "PMC4430214",
+  "section": "DISCUSSION",
+  "n_nodes": 4,
+  "n_edges": 5,
+  "nodes": [
+    {
+      "id": 432,
+      "label": "Pecaut",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 129,
+        "char_start": 23519,
+        "char_end": 23525,
+        "anchor": "PMC4430214_23519_23525",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 427,
+      "label": "thymus cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 129,
+        "char_start": 23853,
+        "char_end": 23865,
+        "anchor": "PMC4430214_23853_23865",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 429,
+      "label": "CD8 T cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 129,
+        "char_start": 23901,
+        "char_end": 23912,
+        "anchor": "PMC4430214_23901_23912",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 431,
+      "label": "controls",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 129,
+        "char_start": 24000,
+        "char_end": 24008,
+        "anchor": "PMC4430214_24000_24008",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 429,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 431,
+      "target": 427
+    },
+    {
+      "id": 430,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 432,
+      "target": 427
+    },
+    {
+      "id": 431,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 431,
+      "target": 429
+    },
+    {
+      "id": 432,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 432,
+      "target": 429
+    },
+    {
+      "id": 433,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 431,
+      "target": 432
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 15,
+      "removed_orphans": 2,
+      "largest_component": 4,
+      "removed_components": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 7
+  }
+}

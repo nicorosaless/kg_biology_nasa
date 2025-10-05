@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC10780891",
+  "section": "Comparison of Averaged Spectral Profiles Obtained Using Hyperspectral Imaging",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 480,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of Averaged Spectral Profiles Obtained Using Hyperspectral Imaging",
+        "sentence_id": 110,
+        "char_start": 23901,
+        "char_end": 23904,
+        "anchor": "PMC10780891_23901_23904",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 479,
+      "label": "RGB",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of Averaged Spectral Profiles Obtained Using Hyperspectral Imaging",
+        "sentence_id": 110,
+        "char_start": 23716,
+        "char_end": 23719,
+        "anchor": "PMC10780891_23716_23719",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 861,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 479,
+      "target": 480
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 9,
+      "largest_component": 2
+    },
+    "page": 7
+  }
+}

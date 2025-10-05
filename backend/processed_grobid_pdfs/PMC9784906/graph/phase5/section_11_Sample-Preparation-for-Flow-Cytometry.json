@@ -1,0 +1,156 @@
+{
+  "paper_id": "PMC9784906",
+  "section": "Sample Preparation for Flow Cytometry",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 144,
+      "label": "Wash",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sample Preparation for Flow Cytometry",
+        "sentence_id": 43,
+        "char_start": 7209,
+        "char_end": 7213,
+        "anchor": "PMC9784906_7209_7213",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 145,
+      "label": "Samples",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sample Preparation for Flow Cytometry",
+        "sentence_id": 43,
+        "char_start": 7310,
+        "char_end": 7317,
+        "anchor": "PMC9784906_7310_7317",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 146,
+      "label": "Fortess",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sample Preparation for Flow Cytometry",
+        "sentence_id": 43,
+        "char_start": 7340,
+        "char_end": 7347,
+        "anchor": "PMC9784906_7340_7347",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 148,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sample Preparation for Flow Cytometry",
+        "sentence_id": 43,
+        "char_start": 7280,
+        "char_end": 7283,
+        "anchor": "PMC9784906_7280_7283",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 149,
+      "label": "FBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sample Preparation for Flow Cytometry",
+        "sentence_id": 43,
+        "char_start": 7289,
+        "char_end": 7292,
+        "anchor": "PMC9784906_7289_7292",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 197,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 144,
+      "target": 145
+    },
+    {
+      "id": 198,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 144,
+      "target": 146
+    },
+    {
+      "id": 200,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 144,
+      "target": 148
+    },
+    {
+      "id": 201,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 144,
+      "target": 149
+    },
+    {
+      "id": 203,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 145,
+      "target": 146
+    },
+    {
+      "id": 205,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 145,
+      "target": 148
+    },
+    {
+      "id": 206,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 145,
+      "target": 149
+    },
+    {
+      "id": 209,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 146,
+      "target": 148
+    },
+    {
+      "id": 210,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 146,
+      "target": 149
+    },
+    {
+      "id": 215,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 148,
+      "target": 149
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 5,
+      "largest_component": 5,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 3
+  }
+}

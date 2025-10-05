@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC10504369",
+  "section": "Hindlimb suspension",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 504,
+      "label": "recovery",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Hindlimb suspension",
+        "sentence_id": 153,
+        "char_start": 33743,
+        "char_end": 33751,
+        "anchor": "PMC10504369_33743_33751",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 503,
+      "label": "Mice",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Hindlimb suspension",
+        "sentence_id": 153,
+        "char_start": 33678,
+        "char_end": 33682,
+        "anchor": "PMC10504369_33678_33682",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 594,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 503,
+      "target": 504
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 4,
+      "largest_component": 2
+    },
+    "page": 5
+  }
+}

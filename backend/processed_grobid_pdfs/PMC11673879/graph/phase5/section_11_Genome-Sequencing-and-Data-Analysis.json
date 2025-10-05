@@ -1,0 +1,121 @@
+{
+  "paper_id": "PMC11673879",
+  "section": "Genome Sequencing and Data Analysis",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 241,
+      "label": "Variant",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome Sequencing and Data Analysis",
+        "sentence_id": 94,
+        "char_start": 16332,
+        "char_end": 16339,
+        "anchor": "PMC11673879_16332_16339",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 242,
+      "label": "GAT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome Sequencing and Data Analysis",
+        "sentence_id": 94,
+        "char_start": 16368,
+        "char_end": 16371,
+        "anchor": "PMC11673879_16368_16371",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 244,
+      "label": "Prokka",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome Sequencing and Data Analysis",
+        "sentence_id": 94,
+        "char_start": 16425,
+        "char_end": 16431,
+        "anchor": "PMC11673879_16425_16431",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 245,
+      "label": "Patric",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome Sequencing and Data Analysis",
+        "sentence_id": 94,
+        "char_start": 16436,
+        "char_end": 16442,
+        "anchor": "PMC11673879_16436_16442",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 175,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 241,
+      "target": 242
+    },
+    {
+      "id": 176,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 241,
+      "target": 244
+    },
+    {
+      "id": 177,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 241,
+      "target": 245
+    },
+    {
+      "id": 178,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 242,
+      "target": 244
+    },
+    {
+      "id": 179,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 242,
+      "target": 245
+    },
+    {
+      "id": 180,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 244,
+      "target": 245
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 6,
+      "removed_orphans": 15,
+      "largest_component": 4,
+      "removed_components": [
+        4,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 6
+  }
+}

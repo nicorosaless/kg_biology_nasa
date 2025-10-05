@@ -1,0 +1,23 @@
+{
+  "entity_types": {
+    "GENE_PRODUCT": 131,
+    "EXPERIMENTAL_CONDITION": 14,
+    "REAGENT": 11,
+    "PUBLICATION": 1
+  },
+  "relation_types": {
+    "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT": 99,
+    "PUBLICATION_EVIDENCES_ENTITY": 156
+  },
+  "n_entities": 157,
+  "n_relations": 255,
+  "relations_with_trigger_pct": 0.0,
+  "n_components": 1,
+  "largest_component_size": 157,
+  "component_size_distribution": [
+    157
+  ],
+  "avg_degree": 3.248407643312102,
+  "median_degree": 2,
+  "isolated_nodes": 0
+}

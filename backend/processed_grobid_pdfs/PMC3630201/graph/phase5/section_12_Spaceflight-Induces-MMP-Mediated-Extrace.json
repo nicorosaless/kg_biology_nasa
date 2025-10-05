@@ -1,0 +1,111 @@
+{
+  "paper_id": "PMC3630201",
+  "section": "Spaceflight Induces MMP-Mediated Extracellular Matrix Remodeling in Bone",
+  "n_nodes": 5,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 41,
+      "label": "Cdh4",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight Induces MMP-Mediated Extracellular Matrix Remodeling in Bone",
+        "sentence_id": 65,
+        "char_start": 15017,
+        "char_end": 15021,
+        "anchor": "PMC3630201_15017_15021"
+      }
+    },
+    {
+      "id": 42,
+      "label": "Vcam1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight Induces MMP-Mediated Extracellular Matrix Remodeling in Bone",
+        "sentence_id": 65,
+        "char_start": 15034,
+        "char_end": 15039,
+        "anchor": "PMC3630201_15034_15039"
+      }
+    },
+    {
+      "id": 43,
+      "label": "Itgal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight Induces MMP-Mediated Extracellular Matrix Remodeling in Bone",
+        "sentence_id": 65,
+        "char_start": 15125,
+        "char_end": 15130,
+        "anchor": "PMC3630201_15125_15130"
+      }
+    },
+    {
+      "id": 44,
+      "label": "Icam1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight Induces MMP-Mediated Extracellular Matrix Remodeling in Bone",
+        "sentence_id": 65,
+        "char_start": 15135,
+        "char_end": 15140,
+        "anchor": "PMC3630201_15135_15140"
+      }
+    },
+    {
+      "id": 47,
+      "label": "Sparc",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight Induces MMP-Mediated Extracellular Matrix Remodeling in Bone",
+        "sentence_id": 66,
+        "char_start": 15379,
+        "char_end": 15384,
+        "anchor": "PMC3630201_15379_15384"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 37,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 41,
+      "target": 42
+    },
+    {
+      "id": 38,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 41,
+      "target": 43
+    },
+    {
+      "id": 39,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 41,
+      "target": 44
+    },
+    {
+      "id": 41,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 42,
+      "target": 43
+    },
+    {
+      "id": 42,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 42,
+      "target": 44
+    },
+    {
+      "id": 44,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 43,
+      "target": 44
+    }
+  ]
+}

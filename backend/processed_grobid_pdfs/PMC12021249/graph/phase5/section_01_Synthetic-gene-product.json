@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMC12021249",
+  "section": "Synthetic GENE_PRODUCT",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 3,
+      "label": "greater",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 4,
+        "char_start": 451,
+        "char_end": 458,
+        "anchor": "PMC12021249_451_458",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 5,
+      "label": "seventh",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 5,
+        "char_start": 593,
+        "char_end": 600,
+        "anchor": "PMC12021249_593_600",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-3-5",
+      "type": "ASSOCIATED",
+      "source": 3,
+      "target": 5
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "GENE_PRODUCT",
+    "page": null
+  }
+}

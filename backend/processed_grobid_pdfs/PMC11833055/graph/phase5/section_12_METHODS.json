@@ -1,0 +1,57 @@
+{
+  "paper_id": "PMC11833055",
+  "section": "METHODS",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 33,
+      "label": "ARRIVE",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS",
+        "sentence_id": 14,
+        "char_start": 2988,
+        "char_end": 2994,
+        "anchor": "PMC11833055_2988_2994",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 29,
+      "label": "thanized",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS",
+        "sentence_id": 14,
+        "char_start": 2787,
+        "char_end": 2795,
+        "anchor": "PMC11833055_2787_2795",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 29,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 29,
+      "target": 33
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 7,
+      "largest_component": 2,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 1
+  }
+}

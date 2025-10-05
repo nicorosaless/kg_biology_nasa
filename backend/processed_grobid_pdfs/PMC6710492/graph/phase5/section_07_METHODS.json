@@ -1,0 +1,85 @@
+{
+  "paper_id": "PMC6710492",
+  "section": "METHODS",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 138,
+      "label": "Pampa",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS",
+        "sentence_id": 33,
+        "char_start": 9625,
+        "char_end": 9630,
+        "anchor": "PMC6710492_9625_9630",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 140,
+      "label": "AsiMax",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS",
+        "sentence_id": 33,
+        "char_start": 9796,
+        "char_end": 9802,
+        "anchor": "PMC6710492_9796_9802",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 134,
+      "label": "shallow",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS",
+        "sentence_id": 33,
+        "char_start": 9596,
+        "char_end": 9603,
+        "anchor": "PMC6710492_9596_9603",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 126,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 134,
+      "target": 138
+    },
+    {
+      "id": 128,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 134,
+      "target": 140
+    },
+    {
+      "id": 130,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 138,
+      "target": 140
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 10,
+      "largest_component": 3,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 2
+  }
+}

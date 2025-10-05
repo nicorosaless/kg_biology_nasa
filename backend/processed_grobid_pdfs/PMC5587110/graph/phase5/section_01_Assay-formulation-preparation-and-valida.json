@@ -1,0 +1,261 @@
+{
+  "paper_id": "PMC5587110",
+  "section": "Assay formulation, preparation, and validation",
+  "n_nodes": 11,
+  "n_edges": 18,
+  "nodes": [
+    {
+      "id": 40,
+      "label": "qPCR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Assay formulation, preparation, and validation",
+        "sentence_id": 38,
+        "char_start": 11028,
+        "char_end": 11032,
+        "anchor": "PMC5587110_11028_11032"
+      }
+    },
+    {
+      "id": 43,
+      "label": "Iowa",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Assay formulation, preparation, and validation",
+        "sentence_id": 38,
+        "char_start": 11338,
+        "char_end": 11342,
+        "anchor": "PMC5587110_11338_11342"
+      }
+    },
+    {
+      "id": 44,
+      "label": "Mix",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Assay formulation, preparation, and validation",
+        "sentence_id": 38,
+        "char_start": 11364,
+        "char_end": 11367,
+        "anchor": "PMC5587110_11364_11367"
+      }
+    },
+    {
+      "id": 45,
+      "label": "Promega",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Assay formulation, preparation, and validation",
+        "sentence_id": 38,
+        "char_start": 11369,
+        "char_end": 11376,
+        "anchor": "PMC5587110_11369_11376"
+      }
+    },
+    {
+      "id": 46,
+      "label": "Madison",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Assay formulation, preparation, and validation",
+        "sentence_id": 38,
+        "char_start": 11378,
+        "char_end": 11385,
+        "anchor": "PMC5587110_11378_11385"
+      }
+    },
+    {
+      "id": 48,
+      "label": "TekNova",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Assay formulation, preparation, and validation",
+        "sentence_id": 38,
+        "char_start": 11427,
+        "char_end": 11434,
+        "anchor": "PMC5587110_11427_11434"
+      }
+    },
+    {
+      "id": 52,
+      "label": "rpl19",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Assay formulation, preparation, and validation",
+        "sentence_id": 40,
+        "char_start": 12030,
+        "char_end": 12035,
+        "anchor": "PMC5587110_12030_12035"
+      }
+    },
+    {
+      "id": 53,
+      "label": "Ipswich",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Assay formulation, preparation, and validation",
+        "sentence_id": 40,
+        "char_start": 12142,
+        "char_end": 12149,
+        "anchor": "PMC5587110_12142_12149"
+      }
+    },
+    {
+      "id": 56,
+      "label": "Valencia",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Assay formulation, preparation, and validation",
+        "sentence_id": 40,
+        "char_start": 12491,
+        "char_end": 12499,
+        "anchor": "PMC5587110_12491_12499"
+      }
+    },
+    {
+      "id": 55,
+      "label": "Qiagen",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Assay formulation, preparation, and validation",
+        "sentence_id": 40,
+        "char_start": 12483,
+        "char_end": 12489,
+        "anchor": "PMC5587110_12483_12489"
+      }
+    },
+    {
+      "id": 59,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Assay formulation, preparation, and validation",
+        "sentence_id": 41,
+        "char_start": 12665,
+        "char_end": 12668,
+        "anchor": "PMC5587110_12665_12668"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 33,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 40,
+      "target": 43
+    },
+    {
+      "id": 34,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 40,
+      "target": 44
+    },
+    {
+      "id": 35,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 40,
+      "target": 45
+    },
+    {
+      "id": 36,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 40,
+      "target": 46
+    },
+    {
+      "id": 38,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 40,
+      "target": 48
+    },
+    {
+      "id": 61,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 43,
+      "target": 44
+    },
+    {
+      "id": 62,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 43,
+      "target": 45
+    },
+    {
+      "id": 63,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 43,
+      "target": 46
+    },
+    {
+      "id": 65,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 43,
+      "target": 48
+    },
+    {
+      "id": 69,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 44,
+      "target": 45
+    },
+    {
+      "id": 70,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 44,
+      "target": 46
+    },
+    {
+      "id": 72,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 44,
+      "target": 48
+    },
+    {
+      "id": 76,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 45,
+      "target": 46
+    },
+    {
+      "id": 78,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 45,
+      "target": 48
+    },
+    {
+      "id": 83,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 46,
+      "target": 48
+    },
+    {
+      "id": 97,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 52,
+      "target": 53
+    },
+    {
+      "id": 99,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 52,
+      "target": 56
+    },
+    {
+      "id": 103,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 53,
+      "target": 56
+    }
+  ]
+}

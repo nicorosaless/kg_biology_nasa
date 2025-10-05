@@ -1,0 +1,254 @@
+{
+  "paper_id": "PMC3422896",
+  "section": "Model And Theory For Specificity",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 548,
+      "label": "reverse",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Model And Theory For Specificity",
+        "sentence_id": 193,
+        "char_start": 46339,
+        "char_end": 46346,
+        "anchor": "PMC3422896_46339_46346",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 549,
+      "label": "genetics",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Model And Theory For Specificity",
+        "sentence_id": 193,
+        "char_start": 46347,
+        "char_end": 46355,
+        "anchor": "PMC3422896_46347_46355",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 552,
+      "label": "Leo",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Model And Theory For Specificity",
+        "sentence_id": 193,
+        "char_start": 46835,
+        "char_end": 46838,
+        "anchor": "PMC3422896_46835_46838",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 553,
+      "label": "Akt",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Model And Theory For Specificity",
+        "sentence_id": 193,
+        "char_start": 46404,
+        "char_end": 46407,
+        "anchor": "PMC3422896_46404_46407",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 554,
+      "label": "Akt",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Model And Theory For Specificity",
+        "sentence_id": 193,
+        "char_start": 46520,
+        "char_end": 46523,
+        "anchor": "PMC3422896_46520_46523",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 555,
+      "label": "Gonzalez",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Model And Theory For Specificity",
+        "sentence_id": 193,
+        "char_start": 46544,
+        "char_end": 46552,
+        "anchor": "PMC3422896_46544_46552",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 556,
+      "label": "McGraw",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Model And Theory For Specificity",
+        "sentence_id": 193,
+        "char_start": 46557,
+        "char_end": 46563,
+        "anchor": "PMC3422896_46557_46563",
+        "page": 9,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 621,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 548,
+      "target": 549
+    },
+    {
+      "id": 622,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 548,
+      "target": 552
+    },
+    {
+      "id": 623,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 548,
+      "target": 553
+    },
+    {
+      "id": 624,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 548,
+      "target": 554
+    },
+    {
+      "id": 625,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 548,
+      "target": 555
+    },
+    {
+      "id": 626,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 548,
+      "target": 556
+    },
+    {
+      "id": 627,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 549,
+      "target": 552
+    },
+    {
+      "id": 628,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 549,
+      "target": 553
+    },
+    {
+      "id": 629,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 549,
+      "target": 554
+    },
+    {
+      "id": 630,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 549,
+      "target": 555
+    },
+    {
+      "id": 631,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 549,
+      "target": 556
+    },
+    {
+      "id": 632,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 552,
+      "target": 553
+    },
+    {
+      "id": 633,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 552,
+      "target": 554
+    },
+    {
+      "id": 634,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 552,
+      "target": 555
+    },
+    {
+      "id": 635,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 552,
+      "target": 556
+    },
+    {
+      "id": 636,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 553,
+      "target": 554
+    },
+    {
+      "id": 637,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 553,
+      "target": 555
+    },
+    {
+      "id": 638,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 553,
+      "target": 556
+    },
+    {
+      "id": 639,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 554,
+      "target": 555
+    },
+    {
+      "id": 640,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 554,
+      "target": 556
+    },
+    {
+      "id": 641,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 555,
+      "target": 556
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 26,
+      "largest_component": 7,
+      "removed_components": [
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 9
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "paper_id": "PMC5415411",
+  "section": "Figure 2. UPR-regulated Transcription Factors may Tailor UPR Activation to Specific Stress Combinations",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 941,
+      "label": "ANAC089",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Figure 2. UPR-regulated Transcription Factors may Tailor UPR Activation to Specific Stress Combinations",
+        "sentence_id": 138,
+        "char_start": 42054,
+        "char_end": 42061,
+        "anchor": "PMC5415411_42054_42061",
+        "page": 21,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 942,
+      "label": "PAS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Figure 2. UPR-regulated Transcription Factors may Tailor UPR Activation to Specific Stress Combinations",
+        "sentence_id": 138,
+        "char_start": 42084,
+        "char_end": 42087,
+        "anchor": "PMC5415411_42084_42087",
+        "page": 21,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 943,
+      "label": "nucleus",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Figure 2. UPR-regulated Transcription Factors may Tailor UPR Activation to Specific Stress Combinations",
+        "sentence_id": 138,
+        "char_start": 42138,
+        "char_end": 42145,
+        "anchor": "PMC5415411_42138_42145",
+        "page": 21,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 3639,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 941,
+      "target": 942
+    },
+    {
+      "id": 3640,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 941,
+      "target": 943
+    },
+    {
+      "id": 3641,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 942,
+      "target": 943
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 4,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 21
+  }
+}

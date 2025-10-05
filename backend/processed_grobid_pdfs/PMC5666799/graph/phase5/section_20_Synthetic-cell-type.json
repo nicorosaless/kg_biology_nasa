@@ -1,0 +1,136 @@
+{
+  "paper_id": "PMC5666799",
+  "section": "Synthetic CELL_TYPE",
+  "n_nodes": 6,
+  "n_edges": 5,
+  "nodes": [
+    {
+      "id": 97,
+      "label": "proliferation of mesenchymal stem cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 21,
+        "char_start": 4467,
+        "char_end": 4506,
+        "anchor": "PMC5666799_4467_4506",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 99,
+      "label": "differentiation in osteoblast-like cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 22,
+        "char_start": 4654,
+        "char_end": 4694,
+        "anchor": "PMC5666799_4654_4694",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 277,
+      "label": "marrow progenitor cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Ex Vivo Osteoblastogenesis",
+        "sentence_id": 93,
+        "char_start": 16105,
+        "char_end": 16128,
+        "anchor": "PMC5666799_16105_16128",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 312,
+      "label": "marrow progenitor cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Ex Vivo Osteoblastogenesis",
+        "sentence_id": 100,
+        "char_start": 18264,
+        "char_end": 18287,
+        "anchor": "PMC5666799_18264_18287",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 447,
+      "label": "marrow cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "In Vitro Radiation Effects on Osteoblastogenesis",
+        "sentence_id": 144,
+        "char_start": 26395,
+        "char_end": 26407,
+        "anchor": "PMC5666799_26395_26407",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 497,
+      "label": "marrow cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "In Vitro Radiation Effects on Osteoblastogenesis",
+        "sentence_id": 152,
+        "char_start": 28445,
+        "char_end": 28457,
+        "anchor": "PMC5666799_28445_28457",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-97-99",
+      "type": "ASSOCIATED",
+      "source": 97,
+      "target": 99
+    },
+    {
+      "id": "synth-97-277",
+      "type": "ASSOCIATED",
+      "source": 97,
+      "target": 277
+    },
+    {
+      "id": "synth-97-312",
+      "type": "ASSOCIATED",
+      "source": 97,
+      "target": 312
+    },
+    {
+      "id": "synth-97-447",
+      "type": "ASSOCIATED",
+      "source": 97,
+      "target": 447
+    },
+    {
+      "id": "synth-97-497",
+      "type": "ASSOCIATED",
+      "source": 97,
+      "target": 497
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "CELL_TYPE",
+    "page": null
+  }
+}

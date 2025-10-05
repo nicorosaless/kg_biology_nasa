@@ -1,0 +1,57 @@
+{
+  "paper_id": "PMC5666744",
+  "section": "Compound Identification",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 681,
+      "label": "Missing",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Compound Identification",
+        "sentence_id": 170,
+        "char_start": 43104,
+        "char_end": 43111,
+        "anchor": "PMC5666744_43104_43111",
+        "page": 16,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 682,
+      "label": "minimum",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Compound Identification",
+        "sentence_id": 170,
+        "char_start": 43213,
+        "char_end": 43220,
+        "anchor": "PMC5666744_43213_43220",
+        "page": 16,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 713,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 681,
+      "target": 682
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 3,
+      "largest_component": 2,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 16
+  }
+}

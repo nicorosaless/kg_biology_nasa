@@ -1,0 +1,94 @@
+{
+  "paper_id": "PMC3851762",
+  "section": "Synthetic EXPERIMENTAL_CONDITION",
+  "n_nodes": 4,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 178,
+      "label": "4uC",
+      "type": "EXPERIMENTAL_CONDITION",
+      "freq": 1,
+      "nav": {
+        "section": "Microscopy",
+        "sentence_id": 44,
+        "char_start": 11640,
+        "char_end": 11643,
+        "anchor": "PMC3851762_11640_11643",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 179,
+      "label": "4uC",
+      "type": "EXPERIMENTAL_CONDITION",
+      "freq": 1,
+      "nav": {
+        "section": "Microscopy",
+        "sentence_id": 44,
+        "char_start": 11640,
+        "char_end": 11643,
+        "anchor": "PMC3851762_11640_11643",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 202,
+      "label": "280uC",
+      "type": "EXPERIMENTAL_CONDITION",
+      "freq": 1,
+      "nav": {
+        "section": "Flow cytometry",
+        "sentence_id": 53,
+        "char_start": 13093,
+        "char_end": 13098,
+        "anchor": "PMC3851762_13093_13098",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 206,
+      "label": "30uC",
+      "type": "EXPERIMENTAL_CONDITION",
+      "freq": 1,
+      "nav": {
+        "section": "Flow cytometry",
+        "sentence_id": 55,
+        "char_start": 13315,
+        "char_end": 13319,
+        "anchor": "PMC3851762_13315_13319",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-178-179",
+      "type": "ASSOCIATED",
+      "source": 178,
+      "target": 179
+    },
+    {
+      "id": "synth-178-202",
+      "type": "ASSOCIATED",
+      "source": 178,
+      "target": 202
+    },
+    {
+      "id": "synth-178-206",
+      "type": "ASSOCIATED",
+      "source": 178,
+      "target": 206
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "EXPERIMENTAL_CONDITION",
+    "page": null
+  }
+}

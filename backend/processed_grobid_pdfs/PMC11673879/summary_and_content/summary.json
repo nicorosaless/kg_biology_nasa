@@ -1,0 +1,174 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "The study investigates the adaptive capacity of Bacillus bacteria to rising temperatures, a critical issue given their role in nutrient cycling and ecosystem stability. Rising temperatures have significant consequences for ecosystems, including altering nitrogen-fixing microbial populations and decreasing bacterial diversity. The research explores the limitations of bacterial adaptation to heat stress, particularly in the context of global climate change, focusing on phenotypic plasticity and reaction norms as tools for assessing thermal limits and adaptive strategies. The experiment aims to understand whether gradual increases in temperature can serve as a selective force, expanding the thermal tolerance limits of Bacillus strains, which are essential for ecosystem functions.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "1088.https://doi.org/10.3390/biology13121088https://www.mdpi.com/journal/biologyBiology 2024, 13, 1088 2 of 22",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.png"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Figure 1.Experimental setup and lineage descent.(A) Inoculation and transfers were performed every 12 h until reaching approximately 1000 generations (eight generations per transfer).The plot illustrates the measured temperature profiles of the incubator over 1000 generations",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.png"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Figure 1.Experimental setup and lineage descent.(A) Inoculation and transfers were performed every 12 h until reaching approximately 1000 generations (eight generations per transfer).The plot illustrates the measured temperature profiles of the incubator over 1000 generations",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.png"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Figures 2 and 3 illustrate the reaction norms for B.",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.png"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Experimental Evolution and Temperature Regimes",
+      "summary": "Seven Bacillus strains, including B. cereus and B. subtilis lineages, were subjected to experimental evolution. Three populations of each strain were evolved at a constant temperature of 37°C, while another three were exposed to incrementally increasing temperatures from 43°C to 47°C over 90 days, with temperature increases contingent on observable growth. Cultures were diluted every 12 hours to achieve approximately 1000 generations. Temperature adjustments were recorded, and weekly samples were stored. At the end of the experiment, colonies from each evolved population were isolated for further analysis. Figure 1A shows the temperature adjustments over time, represented as a parabolic curve.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Reaction Norms and Thermal Tolerance",
+      "summary": "Reaction norms for parental and evolved strains were determined by measuring growth kinetics across a temperature range from 17°C to 55°C. Doubling times were calculated from the exponential growth phase to plot growth rate against temperature. Growth measurements were performed using a Bioscreen C plate reader, with optical density recorded every 30 minutes for 20 hours. Statistical analyses, including t-tests and multiple ANOVA tests, were used to compare reaction norms. Bs_90 showed limited improvement in thermal tolerance, while Bs_PY79 showed consistent growth up to 37°C with some high-temperature-evolved lines demonstrating improved tolerance at 49°C but reduced growth at lower temperatures.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Phenotypic Changes and Adaptation Strategies",
+      "summary": "Principal Component Analysis (PCA) was used to assess changes in carrying capacity (K) and specific growth rate (G) at 37°C and 43°C to understand the adaptive strategies of evolved Bacillus strains. In Bs_21, significant changes were observed in both K37 and K43, particularly for lines under high-temperature treatment, indicating substantial adaptation. Bc_370a showed a strong effect on G37, implying adaptation to the growth medium rather than temperature, while a significant impact on K43 was observed only in high-temperature-evolved lines. Figure 4 illustrates the normalized results for B. subtilis strains, showing changes in growth and carrying capacity.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Colony Morphology and Sporulation",
+      "summary": "Colonial phenotypes were evaluated by growing parental and evolved Bacillus strains on marine medium agar plates. B. cereus-evolved lines exhibited a substantial reduction in growth compared to their parental strains, particularly under high-temperature treatment. B. subtilis-evolved strains demonstrated more resilience, retaining a higher growth capacity. Pigmentation changes were evident in colony pigmentation among B. subtilis-evolved lines. A loss of sporulation ability was also noted in several evolved strains, especially in B. cereus high-temperature-evolved lines, suggesting a trade-off where survival is prioritized over growth efficiency.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Genomic Analysis and Mutations",
+      "summary": "Genome sequencing was performed on parental and evolved lines to identify mutations using GATK tools.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Role of Di-Adenylate Cyclases (DACs)",
+      "summary": "",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": "The study concludes that Bacillus strains exhibit limited and lineage-specific thermal adaptation, with trade-offs even under prolonged selective pressure. This constrained evolvability has implications for microbial responses to global warming, potentially affecting biogeochemical cycles and ecosystem stability. The research emphasizes the need for further investigation into the evolutionary and ecological limits of microbial adaptability to predict and mitigate the consequences of climate change on biogeochemical processes.",
+  "keywords": [
+    "thermal adaptation",
+    "bacillus",
+    "climate change",
+    "experimental evolution",
+    "phenotypic plasticity",
+    "c-di-amp",
+    "temperature tolerance",
+    "microbial response",
+    "evo lutionary rescue",
+    "reaction norms"
+  ],
+  "topics": [
+    "microbial ecology",
+    "evolutionary biology",
+    "climate change adaptation"
+  ],
+  "_meta": {
+    "paper_id": "sha256:31e0c704f1d77cd958a84308d7737a556c599d5d8db873cf60945d608961da89",
+    "paper_title": "Thermal Plasticity and Evolutionary Constraints in Bacillus: Implications for Climate Change Adaptation",
+    "generated_at": "2025-10-05T10:39:12Z",
+    "word_count": 500,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "thermal adaptation",
+      "bacillus",
+      "climate change",
+      "experimental evolution",
+      "phenotypic plasticity",
+      "c-di-amp",
+      "temperature tolerance",
+      "microbial response",
+      "evo lutionary rescue",
+      "reaction norms"
+    ],
+    "topics": [
+      "microbial ecology",
+      "evolutionary biology",
+      "climate change adaptation"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 2,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 11623,
+      "completion_tokens": 1269,
+      "total_tokens": 12892,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.001162,
+      "output_usd": 0.000508,
+      "total_usd": 0.00167
+    },
+    "cost": {
+      "input_usd": 0.001162,
+      "output_usd": 0.000508,
+      "total_usd": 0.00167
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [],
+      "corrupted_detected": [
+        "fig_1",
+        "fig_4",
+        "fig_6",
+        "fig_9"
+      ],
+      "original_total": 4,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

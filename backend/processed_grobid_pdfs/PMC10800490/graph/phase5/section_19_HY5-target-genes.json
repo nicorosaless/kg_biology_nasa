@@ -1,0 +1,84 @@
+{
+  "paper_id": "PMC10800490",
+  "section": "HY5 target genes",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 772,
+      "label": "Genes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "HY5 target genes",
+        "sentence_id": 211,
+        "char_start": 45528,
+        "char_end": 45533,
+        "anchor": "PMC10800490_45528_45533",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 773,
+      "label": "enriched",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "HY5 target genes",
+        "sentence_id": 211,
+        "char_start": 45604,
+        "char_end": 45612,
+        "anchor": "PMC10800490_45604_45612",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 775,
+      "label": "PRR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "HY5 target genes",
+        "sentence_id": 211,
+        "char_start": 45581,
+        "char_end": 45584,
+        "anchor": "PMC10800490_45581_45584",
+        "page": 13,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1480,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 772,
+      "target": 773
+    },
+    {
+      "id": 1482,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 772,
+      "target": 775
+    },
+    {
+      "id": 1484,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 773,
+      "target": 775
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 9,
+      "largest_component": 3,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 13
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "paper_id": "PMC6710492",
+  "section": "Micro þ nano phytoplankton (>2 μm)",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 425,
+      "label": "ANOVA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro þ nano phytoplankton (>2 μm)",
+        "sentence_id": 102,
+        "char_start": 23688,
+        "char_end": 23693,
+        "anchor": "PMC6710492_23688_23693",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 418,
+      "label": "ANOVA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro þ nano phytoplankton (>2 μm)",
+        "sentence_id": 102,
+        "char_start": 23315,
+        "char_end": 23320,
+        "anchor": "PMC6710492_23315_23320",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 421,
+      "label": "ANOVA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro þ nano phytoplankton (>2 μm)",
+        "sentence_id": 102,
+        "char_start": 23534,
+        "char_end": 23539,
+        "anchor": "PMC6710492_23534_23539",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 472,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 418,
+      "target": 421
+    },
+    {
+      "id": 476,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 418,
+      "target": 425
+    },
+    {
+      "id": 491,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 421,
+      "target": 425
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 8,
+      "removed_orphans": 22,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 4
+  }
+}

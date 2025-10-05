@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC10504369",
+  "section": "METHODS Mice",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 493,
+      "label": "Clear",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS Mice",
+        "sentence_id": 144,
+        "char_start": 32419,
+        "char_end": 32424,
+        "anchor": "PMC10504369_32419_32424",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 494,
+      "label": "Dietgel",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS Mice",
+        "sentence_id": 144,
+        "char_start": 32399,
+        "char_end": 32406,
+        "anchor": "PMC10504369_32399_32406",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 591,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 493,
+      "target": 494
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 1,
+      "largest_component": 2
+    },
+    "page": 4
+  }
+}

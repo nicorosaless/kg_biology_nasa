@@ -1,0 +1,446 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "a) Effects of Resistive Exercise on ICP and IOP",
+  "n_nodes": 10,
+  "n_edges": 45,
+  "nodes": [
+    {
+      "id": 3371,
+      "label": "dramatic",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Effects of Resistive Exercise on ICP and IOP",
+        "sentence_id": 1104,
+        "char_start": 181442,
+        "char_end": 181450,
+        "anchor": "PMC4385880_181442_181450",
+        "page": 85,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3372,
+      "label": "IOP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Effects of Resistive Exercise on ICP and IOP",
+        "sentence_id": 1104,
+        "char_start": 181463,
+        "char_end": 181466,
+        "anchor": "PMC4385880_181463_181466",
+        "page": 85,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3373,
+      "label": "strength",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Effects of Resistive Exercise on ICP and IOP",
+        "sentence_id": 1104,
+        "char_start": 181502,
+        "char_end": 181510,
+        "anchor": "PMC4385880_181502_181510",
+        "page": 85,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3374,
+      "label": "maximal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Effects of Resistive Exercise on ICP and IOP",
+        "sentence_id": 1104,
+        "char_start": 181537,
+        "char_end": 181544,
+        "anchor": "PMC4385880_181537_181544",
+        "page": 85,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3376,
+      "label": "IOP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Effects of Resistive Exercise on ICP and IOP",
+        "sentence_id": 1104,
+        "char_start": 181618,
+        "char_end": 181621,
+        "anchor": "PMC4385880_181618_181621",
+        "page": 85,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3377,
+      "label": "IOP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Effects of Resistive Exercise on ICP and IOP",
+        "sentence_id": 1104,
+        "char_start": 181717,
+        "char_end": 181720,
+        "anchor": "PMC4385880_181717_181720",
+        "page": 85,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3378,
+      "label": "IOP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Effects of Resistive Exercise on ICP and IOP",
+        "sentence_id": 1104,
+        "char_start": 181463,
+        "char_end": 181466,
+        "anchor": "PMC4385880_181463_181466",
+        "page": 85,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3379,
+      "label": "Valsalva",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Effects of Resistive Exercise on ICP and IOP",
+        "sentence_id": 1104,
+        "char_start": 181585,
+        "char_end": 181593,
+        "anchor": "PMC4385880_181585_181593",
+        "page": 85,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3380,
+      "label": "IOP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Effects of Resistive Exercise on ICP and IOP",
+        "sentence_id": 1104,
+        "char_start": 181618,
+        "char_end": 181621,
+        "anchor": "PMC4385880_181618_181621",
+        "page": 85,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3381,
+      "label": "IOP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Effects of Resistive Exercise on ICP and IOP",
+        "sentence_id": 1104,
+        "char_start": 181717,
+        "char_end": 181720,
+        "anchor": "PMC4385880_181717_181720",
+        "page": 85,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 3257,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3371,
+      "target": 3372
+    },
+    {
+      "id": 3258,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3371,
+      "target": 3373
+    },
+    {
+      "id": 3259,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3371,
+      "target": 3374
+    },
+    {
+      "id": 3260,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3371,
+      "target": 3376
+    },
+    {
+      "id": 3261,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3371,
+      "target": 3377
+    },
+    {
+      "id": 3262,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3371,
+      "target": 3378
+    },
+    {
+      "id": 3263,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3371,
+      "target": 3379
+    },
+    {
+      "id": 3264,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3371,
+      "target": 3380
+    },
+    {
+      "id": 3265,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3371,
+      "target": 3381
+    },
+    {
+      "id": 3266,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3372,
+      "target": 3373
+    },
+    {
+      "id": 3267,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3372,
+      "target": 3374
+    },
+    {
+      "id": 3268,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3372,
+      "target": 3376
+    },
+    {
+      "id": 3269,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3372,
+      "target": 3377
+    },
+    {
+      "id": 3270,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3372,
+      "target": 3378
+    },
+    {
+      "id": 3271,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3372,
+      "target": 3379
+    },
+    {
+      "id": 3272,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3372,
+      "target": 3380
+    },
+    {
+      "id": 3273,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3372,
+      "target": 3381
+    },
+    {
+      "id": 3274,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3373,
+      "target": 3374
+    },
+    {
+      "id": 3275,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3373,
+      "target": 3376
+    },
+    {
+      "id": 3276,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3373,
+      "target": 3377
+    },
+    {
+      "id": 3277,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3373,
+      "target": 3378
+    },
+    {
+      "id": 3278,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3373,
+      "target": 3379
+    },
+    {
+      "id": 3279,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3373,
+      "target": 3380
+    },
+    {
+      "id": 3280,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3373,
+      "target": 3381
+    },
+    {
+      "id": 3281,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3374,
+      "target": 3376
+    },
+    {
+      "id": 3282,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3374,
+      "target": 3377
+    },
+    {
+      "id": 3283,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3374,
+      "target": 3378
+    },
+    {
+      "id": 3284,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3374,
+      "target": 3379
+    },
+    {
+      "id": 3285,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3374,
+      "target": 3380
+    },
+    {
+      "id": 3286,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3374,
+      "target": 3381
+    },
+    {
+      "id": 3287,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3376,
+      "target": 3377
+    },
+    {
+      "id": 3288,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3376,
+      "target": 3378
+    },
+    {
+      "id": 3289,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3376,
+      "target": 3379
+    },
+    {
+      "id": 3290,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3376,
+      "target": 3380
+    },
+    {
+      "id": 3291,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3376,
+      "target": 3381
+    },
+    {
+      "id": 3292,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3377,
+      "target": 3378
+    },
+    {
+      "id": 3293,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3377,
+      "target": 3379
+    },
+    {
+      "id": 3294,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3377,
+      "target": 3380
+    },
+    {
+      "id": 3295,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3377,
+      "target": 3381
+    },
+    {
+      "id": 3296,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3378,
+      "target": 3379
+    },
+    {
+      "id": 3297,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3378,
+      "target": 3380
+    },
+    {
+      "id": 3298,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3378,
+      "target": 3381
+    },
+    {
+      "id": 3299,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3379,
+      "target": 3380
+    },
+    {
+      "id": 3300,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3379,
+      "target": 3381
+    },
+    {
+      "id": 3301,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3380,
+      "target": 3381
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 7,
+      "removed_orphans": 0,
+      "largest_component": 10,
+      "removed_components": [
+        9,
+        5,
+        5,
+        4,
+        4,
+        3
+      ]
+    },
+    "page": 85
+  }
+}

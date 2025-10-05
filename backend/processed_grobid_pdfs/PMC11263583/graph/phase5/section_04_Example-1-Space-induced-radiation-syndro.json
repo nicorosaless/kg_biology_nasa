@@ -1,0 +1,159 @@
+{
+  "paper_id": "PMC11263583",
+  "section": "Example 1: Space-induced radiation syndrome and cancer threat",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 64,
+      "label": "Mars",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Example 1: Space-induced radiation syndrome and cancer threat",
+        "sentence_id": 34,
+        "char_start": 7995,
+        "char_end": 7999,
+        "anchor": "PMC11263583_7995_7999",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 66,
+      "label": "Europa",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Example 1: Space-induced radiation syndrome and cancer threat",
+        "sentence_id": 34,
+        "char_start": 8201,
+        "char_end": 8207,
+        "anchor": "PMC11263583_8201_8207",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 69,
+      "label": "Mars",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Example 1: Space-induced radiation syndrome and cancer threat",
+        "sentence_id": 34,
+        "char_start": 7709,
+        "char_end": 7713,
+        "anchor": "PMC11263583_7709_7713",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 72,
+      "label": "Mars",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Example 1: Space-induced radiation syndrome and cancer threat",
+        "sentence_id": 34,
+        "char_start": 7995,
+        "char_end": 7999,
+        "anchor": "PMC11263583_7995_7999",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 74,
+      "label": "Europa",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Example 1: Space-induced radiation syndrome and cancer threat",
+        "sentence_id": 34,
+        "char_start": 8201,
+        "char_end": 8207,
+        "anchor": "PMC11263583_8201_8207",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 71,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 64,
+      "target": 66
+    },
+    {
+      "id": 72,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 64,
+      "target": 69
+    },
+    {
+      "id": 75,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 64,
+      "target": 72
+    },
+    {
+      "id": 77,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 64,
+      "target": 74
+    },
+    {
+      "id": 79,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 66,
+      "target": 69
+    },
+    {
+      "id": 82,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 66,
+      "target": 72
+    },
+    {
+      "id": 84,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 66,
+      "target": 74
+    },
+    {
+      "id": 88,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 69,
+      "target": 72
+    },
+    {
+      "id": 90,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 69,
+      "target": 74
+    },
+    {
+      "id": 102,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 72,
+      "target": 74
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 14,
+      "largest_component": 5,
+      "removed_components": [
+        5,
+        4,
+        2,
+        2
+      ]
+    },
+    "page": 1
+  }
+}

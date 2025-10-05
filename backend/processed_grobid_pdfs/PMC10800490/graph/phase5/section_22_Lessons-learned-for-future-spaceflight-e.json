@@ -1,0 +1,57 @@
+{
+  "paper_id": "PMC10800490",
+  "section": "Lessons learned for future spaceflight experiments 4.3.1 Long term plant experiments",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 833,
+      "label": "cassette",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lessons learned for future spaceflight experiments 4.3.1 Long term plant experiments",
+        "sentence_id": 227,
+        "char_start": 50293,
+        "char_end": 50301,
+        "anchor": "PMC10800490_50293_50301",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 835,
+      "label": "delivery",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lessons learned for future spaceflight experiments 4.3.1 Long term plant experiments",
+        "sentence_id": 227,
+        "char_start": 50473,
+        "char_end": 50481,
+        "anchor": "PMC10800490_50473_50481",
+        "page": 14,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1555,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 833,
+      "target": 835
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 3,
+      "largest_component": 2,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 14
+  }
+}

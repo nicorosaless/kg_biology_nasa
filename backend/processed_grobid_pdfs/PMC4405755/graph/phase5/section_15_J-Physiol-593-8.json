@@ -1,0 +1,84 @@
+{
+  "paper_id": "PMC4405755",
+  "section": "J Physiol 593.8",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 378,
+      "label": "IIB",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "J Physiol 593.8",
+        "sentence_id": 92,
+        "char_start": 17990,
+        "char_end": 17993,
+        "anchor": "PMC4405755_17990_17993",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 379,
+      "label": "IIX",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "J Physiol 593.8",
+        "sentence_id": 92,
+        "char_start": 18009,
+        "char_end": 18012,
+        "anchor": "PMC4405755_18009_18012",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 381,
+      "label": "IIB",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "J Physiol 593.8",
+        "sentence_id": 92,
+        "char_start": 18086,
+        "char_end": 18089,
+        "anchor": "PMC4405755_18086_18089",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 543,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 378,
+      "target": 379
+    },
+    {
+      "id": 545,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 378,
+      "target": 381
+    },
+    {
+      "id": 547,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 379,
+      "target": 381
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 6,
+      "largest_component": 3,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 6
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "paper_id": "PMC4405755",
+  "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 448,
+      "label": "ACC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 106,
+        "char_start": 20482,
+        "char_end": 20485,
+        "anchor": "PMC4405755_20482_20485",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 439,
+      "label": "FoxO3",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 106,
+        "char_start": 20244,
+        "char_end": 20249,
+        "anchor": "PMC4405755_20244_20249",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 440,
+      "label": "AMPK",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 106,
+        "char_start": 20267,
+        "char_end": 20271,
+        "anchor": "PMC4405755_20267_20271",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 442,
+      "label": "AMPK",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 106,
+        "char_start": 20434,
+        "char_end": 20438,
+        "anchor": "PMC4405755_20434_20438",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 444,
+      "label": "ACC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 106,
+        "char_start": 20482,
+        "char_end": 20485,
+        "anchor": "PMC4405755_20482_20485",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 445,
+      "label": "Western",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 106,
+        "char_start": 20490,
+        "char_end": 20497,
+        "anchor": "PMC4405755_20490_20497",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 447,
+      "label": "AMPK",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 106,
+        "char_start": 20434,
+        "char_end": 20438,
+        "anchor": "PMC4405755_20434_20438",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 593,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 439,
+      "target": 440
+    },
+    {
+      "id": 594,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 439,
+      "target": 442
+    },
+    {
+      "id": 595,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 439,
+      "target": 444
+    },
+    {
+      "id": 596,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 439,
+      "target": 445
+    },
+    {
+      "id": 598,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 439,
+      "target": 447
+    },
+    {
+      "id": 599,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 439,
+      "target": 448
+    },
+    {
+      "id": 600,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 440,
+      "target": 442
+    },
+    {
+      "id": 601,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 440,
+      "target": 444
+    },
+    {
+      "id": 602,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 440,
+      "target": 445
+    },
+    {
+      "id": 604,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 440,
+      "target": 447
+    },
+    {
+      "id": 605,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 440,
+      "target": 448
+    },
+    {
+      "id": 606,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 442,
+      "target": 444
+    },
+    {
+      "id": 607,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 442,
+      "target": 445
+    },
+    {
+      "id": 609,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 442,
+      "target": 447
+    },
+    {
+      "id": 610,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 442,
+      "target": 448
+    },
+    {
+      "id": 611,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 444,
+      "target": 445
+    },
+    {
+      "id": 613,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 444,
+      "target": 447
+    },
+    {
+      "id": 614,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 444,
+      "target": 448
+    },
+    {
+      "id": 616,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 445,
+      "target": 447
+    },
+    {
+      "id": 617,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 445,
+      "target": 448
+    },
+    {
+      "id": 620,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 447,
+      "target": 448
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 7,
+      "removed_orphans": 17,
+      "largest_component": 7,
+      "removed_components": [
+        5,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 6
+  }
+}

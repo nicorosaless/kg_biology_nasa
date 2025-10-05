@@ -1,0 +1,260 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "Summary of Existing Long-Duration Flight Data",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 192,
+      "label": "headache",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Summary of Existing Long-Duration Flight Data",
+        "sentence_id": 82,
+        "char_start": 13364,
+        "char_end": 13372,
+        "anchor": "PMC4385880_13364_13372",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 194,
+      "label": "movement",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Summary of Existing Long-Duration Flight Data",
+        "sentence_id": 82,
+        "char_start": 13434,
+        "char_end": 13442,
+        "anchor": "PMC4385880_13434_13442",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 198,
+      "label": "topical",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Summary of Existing Long-Duration Flight Data",
+        "sentence_id": 82,
+        "char_start": 13692,
+        "char_end": 13699,
+        "anchor": "PMC4385880_13692_13699",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 199,
+      "label": "conazole",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Summary of Existing Long-Duration Flight Data",
+        "sentence_id": 82,
+        "char_start": 13728,
+        "char_end": 13736,
+        "anchor": "PMC4385880_13728_13736",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 200,
+      "label": "prometh",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Summary of Existing Long-Duration Flight Data",
+        "sentence_id": 82,
+        "char_start": 13794,
+        "char_end": 13801,
+        "anchor": "PMC4385880_13794_13801",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 201,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Summary of Existing Long-Duration Flight Data",
+        "sentence_id": 82,
+        "char_start": 13552,
+        "char_end": 13555,
+        "anchor": "PMC4385880_13552_13555",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 202,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Summary of Existing Long-Duration Flight Data",
+        "sentence_id": 82,
+        "char_start": 13608,
+        "char_end": 13611,
+        "anchor": "PMC4385880_13608_13611",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 78,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 192,
+      "target": 194
+    },
+    {
+      "id": 79,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 192,
+      "target": 198
+    },
+    {
+      "id": 80,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 192,
+      "target": 199
+    },
+    {
+      "id": 81,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 192,
+      "target": 200
+    },
+    {
+      "id": 82,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 192,
+      "target": 201
+    },
+    {
+      "id": 83,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 192,
+      "target": 202
+    },
+    {
+      "id": 84,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 194,
+      "target": 198
+    },
+    {
+      "id": 85,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 194,
+      "target": 199
+    },
+    {
+      "id": 86,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 194,
+      "target": 200
+    },
+    {
+      "id": 87,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 194,
+      "target": 201
+    },
+    {
+      "id": 88,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 194,
+      "target": 202
+    },
+    {
+      "id": 89,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 198,
+      "target": 199
+    },
+    {
+      "id": 90,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 198,
+      "target": 200
+    },
+    {
+      "id": 91,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 198,
+      "target": 201
+    },
+    {
+      "id": 92,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 198,
+      "target": 202
+    },
+    {
+      "id": 93,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 199,
+      "target": 200
+    },
+    {
+      "id": 94,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 199,
+      "target": 201
+    },
+    {
+      "id": 95,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 199,
+      "target": 202
+    },
+    {
+      "id": 96,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 200,
+      "target": 201
+    },
+    {
+      "id": 97,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 200,
+      "target": 202
+    },
+    {
+      "id": 98,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 201,
+      "target": 202
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 10,
+      "removed_orphans": 1,
+      "largest_component": 7,
+      "removed_components": [
+        6,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    "page": 7
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "paper_id": "PMC4624184",
+  "section": "Synthetic ANATOMICAL_SITE",
+  "n_nodes": 4,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 480,
+      "label": "spacecraft",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 140,
+        "char_start": 27171,
+        "char_end": 27181,
+        "anchor": "PMC4624184_27171_27181",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 587,
+      "label": "pulmonary",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 170,
+        "char_start": 32982,
+        "char_end": 32991,
+        "anchor": "PMC4624184_32982_32991",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 672,
+      "label": "Node 3",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "ISS debris",
+        "sentence_id": 204,
+        "char_start": 39647,
+        "char_end": 39653,
+        "anchor": "PMC4624184_39647_39653",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 698,
+      "label": "cleanroom floor",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Earth analogs",
+        "sentence_id": 213,
+        "char_start": 41566,
+        "char_end": 41581,
+        "anchor": "PMC4624184_41566_41581",
+        "page": 11,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-480-587",
+      "type": "ASSOCIATED",
+      "source": 480,
+      "target": 587
+    },
+    {
+      "id": "synth-480-672",
+      "type": "ASSOCIATED",
+      "source": 480,
+      "target": 672
+    },
+    {
+      "id": "synth-480-698",
+      "type": "ASSOCIATED",
+      "source": 480,
+      "target": 698
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "ANATOMICAL_SITE",
+    "page": null
+  }
+}

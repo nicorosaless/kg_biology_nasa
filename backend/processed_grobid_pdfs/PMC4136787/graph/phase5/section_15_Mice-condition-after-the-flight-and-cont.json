@@ -1,0 +1,74 @@
+{
+  "paper_id": "PMC4136787",
+  "section": "Mice condition after the flight and control experiments",
+  "n_nodes": 4,
+  "n_edges": 2,
+  "nodes": [
+    {
+      "id": 128,
+      "label": "Fisher",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mice condition after the flight and control experiments",
+        "sentence_id": 218,
+        "char_start": 36513,
+        "char_end": 36519,
+        "anchor": "PMC4136787_36513_36519"
+      }
+    },
+    {
+      "id": 129,
+      "label": "MDS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mice condition after the flight and control experiments",
+        "sentence_id": 219,
+        "char_start": 36642,
+        "char_end": 36645,
+        "anchor": "PMC4136787_36642_36645"
+      }
+    },
+    {
+      "id": 130,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mice condition after the flight and control experiments",
+        "sentence_id": 219,
+        "char_start": 36668,
+        "char_end": 36671,
+        "anchor": "PMC4136787_36668_36671"
+      }
+    },
+    {
+      "id": 126,
+      "label": "Fisher",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mice condition after the flight and control experiments",
+        "sentence_id": 218,
+        "char_start": 36277,
+        "char_end": 36283,
+        "anchor": "PMC4136787_36277_36283"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 140,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 126,
+      "target": 128
+    },
+    {
+      "id": 142,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 129,
+      "target": 130
+    }
+  ]
+}

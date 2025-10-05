@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC11833055",
+  "section": "Morris water maze",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 115,
+      "label": "guidance",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Morris water maze",
+        "sentence_id": 70,
+        "char_start": 11155,
+        "char_end": 11163,
+        "anchor": "PMC11833055_11155_11163",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 116,
+      "label": "platform",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Morris water maze",
+        "sentence_id": 70,
+        "char_start": 11211,
+        "char_end": 11219,
+        "anchor": "PMC11833055_11211_11219",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 77,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 115,
+      "target": 116
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 2,
+      "largest_component": 2
+    },
+    "page": 3
+  }
+}

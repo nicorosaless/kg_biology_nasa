@@ -1,0 +1,85 @@
+{
+  "paper_id": "PMC6710492",
+  "section": "Analysis of the contribution of autotrophic fractions to total autotrophic biomass",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 226,
+      "label": "PPP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Analysis of the contribution of autotrophic fractions to total autotrophic biomass",
+        "sentence_id": 52,
+        "char_start": 13907,
+        "char_end": 13910,
+        "anchor": "PMC6710492_13907_13910",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 227,
+      "label": "PEuk",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Analysis of the contribution of autotrophic fractions to total autotrophic biomass",
+        "sentence_id": 52,
+        "char_start": 13993,
+        "char_end": 13997,
+        "anchor": "PMC6710492_13993_13997",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 228,
+      "label": "Pcy",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Analysis of the contribution of autotrophic fractions to total autotrophic biomass",
+        "sentence_id": 52,
+        "char_start": 14072,
+        "char_end": 14075,
+        "anchor": "PMC6710492_14072_14075",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 342,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 226,
+      "target": 227
+    },
+    {
+      "id": 343,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 226,
+      "target": 228
+    },
+    {
+      "id": 345,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 227,
+      "target": 228
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 5,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        2
+      ]
+    },
+    "page": 2
+  }
+}

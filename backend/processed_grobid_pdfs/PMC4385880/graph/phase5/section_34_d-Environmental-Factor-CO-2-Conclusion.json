@@ -1,0 +1,153 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "d) Environmental Factor: CO 2 Conclusion",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 3297,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "d) Environmental Factor: CO 2 Conclusion",
+        "sentence_id": 1081,
+        "char_start": 177337,
+        "char_end": 177340,
+        "anchor": "PMC4385880_177337_177340",
+        "page": 83,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3289,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "d) Environmental Factor: CO 2 Conclusion",
+        "sentence_id": 1081,
+        "char_start": 177337,
+        "char_end": 177340,
+        "anchor": "PMC4385880_177337_177340",
+        "page": 83,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3291,
+      "label": "headache",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "d) Environmental Factor: CO 2 Conclusion",
+        "sentence_id": 1081,
+        "char_start": 177418,
+        "char_end": 177426,
+        "anchor": "PMC4385880_177418_177426",
+        "page": 83,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3294,
+      "label": "symptoms",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "d) Environmental Factor: CO 2 Conclusion",
+        "sentence_id": 1081,
+        "char_start": 177484,
+        "char_end": 177492,
+        "anchor": "PMC4385880_177484_177492",
+        "page": 83,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3295,
+      "label": "resolve",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "d) Environmental Factor: CO 2 Conclusion",
+        "sentence_id": 1081,
+        "char_start": 177501,
+        "char_end": 177508,
+        "anchor": "PMC4385880_177501_177508",
+        "page": 83,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 3150,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3289,
+      "target": 3291
+    },
+    {
+      "id": 3151,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3289,
+      "target": 3294
+    },
+    {
+      "id": 3152,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3289,
+      "target": 3295
+    },
+    {
+      "id": 3153,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3289,
+      "target": 3297
+    },
+    {
+      "id": 3154,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3291,
+      "target": 3294
+    },
+    {
+      "id": 3155,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3291,
+      "target": 3295
+    },
+    {
+      "id": 3156,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3291,
+      "target": 3297
+    },
+    {
+      "id": 3157,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3294,
+      "target": 3295
+    },
+    {
+      "id": 3158,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3294,
+      "target": 3297
+    },
+    {
+      "id": 3159,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3295,
+      "target": 3297
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 9,
+      "largest_component": 5
+    },
+    "page": 83
+  }
+}

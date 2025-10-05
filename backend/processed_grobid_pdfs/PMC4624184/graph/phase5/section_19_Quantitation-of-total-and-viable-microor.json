@@ -1,0 +1,85 @@
+{
+  "paper_id": "PMC4624184",
+  "section": "Quantitation of total and viable microorganisms using molecular methods ATP assay",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 776,
+      "label": "ATP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitation of total and viable microorganisms using molecular methods ATP assay",
+        "sentence_id": 231,
+        "char_start": 45933,
+        "char_end": 45936,
+        "anchor": "PMC4624184_45933_45936",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 777,
+      "label": "Noda",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitation of total and viable microorganisms using molecular methods ATP assay",
+        "sentence_id": 231,
+        "char_start": 45998,
+        "char_end": 46002,
+        "anchor": "PMC4624184_45998_46002",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 778,
+      "label": "Japan",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitation of total and viable microorganisms using molecular methods ATP assay",
+        "sentence_id": 231,
+        "char_start": 46004,
+        "char_end": 46009,
+        "anchor": "PMC4624184_46004_46009",
+        "page": 13,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 901,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 776,
+      "target": 777
+    },
+    {
+      "id": 902,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 776,
+      "target": 778
+    },
+    {
+      "id": 903,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 777,
+      "target": 778
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 2,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        3
+      ]
+    },
+    "page": 12
+  }
+}

@@ -1,0 +1,1039 @@
+{
+  "paper_id": "PMC5415411",
+  "section": "Synthetic PHENOTYPE",
+  "n_nodes": 49,
+  "n_edges": 48,
+  "nodes": [
+    {
+      "id": 28,
+      "label": "environmental",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 7,
+        "char_start": 1815,
+        "char_end": 1828,
+        "anchor": "PMC5415411_1815_1828",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 29,
+      "label": "heat stress",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 7,
+        "char_start": 1841,
+        "char_end": 1852,
+        "anchor": "PMC5415411_1841_1852",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 32,
+      "label": "misfolded proteins",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 7,
+        "char_start": 1937,
+        "char_end": 1955,
+        "anchor": "PMC5415411_1937_1955",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 33,
+      "label": "aggregation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 7,
+        "char_start": 2178,
+        "char_end": 2189,
+        "anchor": "PMC5415411_2178_2189",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 35,
+      "label": "cytotoxic",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 7,
+        "char_start": 2222,
+        "char_end": 2231,
+        "anchor": "PMC5415411_2222_2231",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 36,
+      "label": "folded proteins",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 7,
+        "char_start": 2305,
+        "char_end": 2320,
+        "anchor": "PMC5415411_2305_2320",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 93,
+      "label": "genetic defects",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 9,
+        "char_start": 3848,
+        "char_end": 3863,
+        "anchor": "PMC5415411_3848_3863",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 94,
+      "label": "aggregates",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 9,
+        "char_start": 3964,
+        "char_end": 3974,
+        "anchor": "PMC5415411_3964_3974",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 128,
+      "label": "premature folding",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ER Quality Control and Important ER Client Proteins Mediate both Programmed Cell Death and Cell Cycle Control",
+        "sentence_id": 21,
+        "char_start": 6828,
+        "char_end": 6845,
+        "anchor": "PMC5415411_6828_6845",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 148,
+      "label": "reformation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ER Quality Control and Important ER Client Proteins Mediate both Programmed Cell Death and Cell Cycle Control",
+        "sentence_id": 23,
+        "char_start": 7766,
+        "char_end": 7777,
+        "anchor": "PMC5415411_7766_7777",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 183,
+      "label": "sensitive response",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ER Quality Control and Important ER Client Proteins Mediate both Programmed Cell Death and Cell Cycle Control",
+        "sentence_id": 27,
+        "char_start": 9217,
+        "char_end": 9235,
+        "anchor": "PMC5415411_9217_9235",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 184,
+      "label": "cell death",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ER Quality Control and Important ER Client Proteins Mediate both Programmed Cell Death and Cell Cycle Control",
+        "sentence_id": 27,
+        "char_start": 9252,
+        "char_end": 9262,
+        "anchor": "PMC5415411_9252_9262",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 189,
+      "label": "cell death",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ER Quality Control and Important ER Client Proteins Mediate both Programmed Cell Death and Cell Cycle Control",
+        "sentence_id": 27,
+        "char_start": 9555,
+        "char_end": 9565,
+        "anchor": "PMC5415411_9555_9565",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 220,
+      "label": "adverse environmental conditions",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "The Causes of ER Stress: Unavoidable Exogenous Threats",
+        "sentence_id": 30,
+        "char_start": 10801,
+        "char_end": 10833,
+        "anchor": "PMC5415411_10801_10833",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 223,
+      "label": "heat stress",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "The Causes of ER Stress: Unavoidable Exogenous Threats",
+        "sentence_id": 32,
+        "char_start": 10979,
+        "char_end": 10990,
+        "anchor": "PMC5415411_10979_10990",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 230,
+      "label": "-linked glycosylation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "The Causes of ER Stress: Unavoidable Exogenous Threats",
+        "sentence_id": 33,
+        "char_start": 11209,
+        "char_end": 11230,
+        "anchor": "PMC5415411_11209_11230",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 235,
+      "label": "ic stress",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "The Causes of ER Stress: Unavoidable Exogenous Threats",
+        "sentence_id": 34,
+        "char_start": 11445,
+        "char_end": 11454,
+        "anchor": "PMC5415411_11445_11454",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 239,
+      "label": "pathogens",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "The Causes of ER Stress: Unavoidable Exogenous Threats",
+        "sentence_id": 34,
+        "char_start": 11599,
+        "char_end": 11608,
+        "anchor": "PMC5415411_11599_11608",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 240,
+      "label": "tic stresses",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "The Causes of ER Stress: Unavoidable Exogenous Threats",
+        "sentence_id": 34,
+        "char_start": 11622,
+        "char_end": 11634,
+        "anchor": "PMC5415411_11622_11634",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 317,
+      "label": "loss-of-function mutations",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "The Canonical Response to Unfolded Proteins: New Look at the Master Regulators IRE1, bZIP60, and bZIP28",
+        "sentence_id": 39,
+        "char_start": 14740,
+        "char_end": 14766,
+        "anchor": "PMC5415411_14740_14766",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 350,
+      "label": "cell death",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "The Canonical Response to Unfolded Proteins: New Look at the Master Regulators IRE1, bZIP60, and bZIP28",
+        "sentence_id": 47,
+        "char_start": 16226,
+        "char_end": 16236,
+        "anchor": "PMC5415411_16226_16236",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 377,
+      "label": "partial loss of function mutants",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "The Canonical Response to Unfolded Proteins: New Look at the Master Regulators IRE1, bZIP60, and bZIP28",
+        "sentence_id": 50,
+        "char_start": 17529,
+        "char_end": 17561,
+        "anchor": "PMC5415411_17529_17561",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 380,
+      "label": "mutations",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "The Canonical Response to Unfolded Proteins: New Look at the Master Regulators IRE1, bZIP60, and bZIP28",
+        "sentence_id": 50,
+        "char_start": 17644,
+        "char_end": 17653,
+        "anchor": "PMC5415411_17644_17653",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 381,
+      "label": "stressed and",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "The Canonical Response to Unfolded Proteins: New Look at the Master Regulators IRE1, bZIP60, and bZIP28",
+        "sentence_id": 50,
+        "char_start": 17800,
+        "char_end": 17812,
+        "anchor": "PMC5415411_17800_17812",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 382,
+      "label": "unstressed conditions",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "The Canonical Response to Unfolded Proteins: New Look at the Master Regulators IRE1, bZIP60, and bZIP28",
+        "sentence_id": 50,
+        "char_start": 17813,
+        "char_end": 17834,
+        "anchor": "PMC5415411_17813_17834",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 406,
+      "label": "cellular recycling",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "The Canonical Response to Unfolded Proteins: New Look at the Master Regulators IRE1, bZIP60, and bZIP28",
+        "sentence_id": 55,
+        "char_start": 19099,
+        "char_end": 19117,
+        "anchor": "PMC5415411_19099_19117",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 407,
+      "label": "macroautophagy",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "The Canonical Response to Unfolded Proteins: New Look at the Master Regulators IRE1, bZIP60, and bZIP28",
+        "sentence_id": 55,
+        "char_start": 19135,
+        "char_end": 19149,
+        "anchor": "PMC5415411_19135_19149",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 426,
+      "label": "heat stress",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "The Canonical Response to Unfolded Proteins: New Look at the Master Regulators IRE1, bZIP60, and bZIP28",
+        "sentence_id": 57,
+        "char_start": 20065,
+        "char_end": 20076,
+        "anchor": "PMC5415411_20065_20076",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 427,
+      "label": "stress signaling mechanisms",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "The Canonical Response to Unfolded Proteins: New Look at the Master Regulators IRE1, bZIP60, and bZIP28",
+        "sentence_id": 57,
+        "char_start": 20154,
+        "char_end": 20181,
+        "anchor": "PMC5415411_20154_20181",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 464,
+      "label": "upregulation of",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "The Canonical Response to Unfolded Proteins: New Look at the Master Regulators IRE1, bZIP60, and bZIP28",
+        "sentence_id": 62,
+        "char_start": 21920,
+        "char_end": 21935,
+        "anchor": "PMC5415411_21920_21935",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 536,
+      "label": "stress responses",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "The Canonical Response to Unfolded Proteins: New Look at the Master Regulators IRE1, bZIP60, and bZIP28",
+        "sentence_id": 72,
+        "char_start": 24749,
+        "char_end": 24765,
+        "anchor": "PMC5415411_24749_24765",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 560,
+      "label": "ER stress conditions",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Future Exploration: bZIP60 and bZIP28 mediate Epigenetic Modifications with the COMPASS like",
+        "sentence_id": 75,
+        "char_start": 25381,
+        "char_end": 25401,
+        "anchor": "PMC5415411_25381_25401",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 591,
+      "label": "heat stress",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Future Exploration: bZIP60 and bZIP28 mediate Epigenetic Modifications with the COMPASS like",
+        "sentence_id": 80,
+        "char_start": 26807,
+        "char_end": 26818,
+        "anchor": "PMC5415411_26807_26818",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 597,
+      "label": "temperature sensitive transitions",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Future Exploration: bZIP60 and bZIP28 mediate Epigenetic Modifications with the COMPASS like",
+        "sentence_id": 81,
+        "char_start": 27050,
+        "char_end": 27083,
+        "anchor": "PMC5415411_27050_27083",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 600,
+      "label": "functions",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Future Exploration: bZIP60 and bZIP28 mediate Epigenetic Modifications with the COMPASS like",
+        "sentence_id": 81,
+        "char_start": 27226,
+        "char_end": 27235,
+        "anchor": "PMC5415411_27226_27235",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 604,
+      "label": "developmental phenotypes",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Future Exploration: bZIP60 and bZIP28 mediate Epigenetic Modifications with the COMPASS like",
+        "sentence_id": 81,
+        "char_start": 27394,
+        "char_end": 27418,
+        "anchor": "PMC5415411_27394_27418",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 624,
+      "label": "misfolded",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Send in the Cavalry: Downstream Effectors during ER Stress",
+        "sentence_id": 82,
+        "char_start": 27905,
+        "char_end": 27914,
+        "anchor": "PMC5415411_27905_27914",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 704,
+      "label": "functional all",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Send in the Cavalry: Downstream Effectors during ER Stress",
+        "sentence_id": 91,
+        "char_start": 31586,
+        "char_end": 31600,
+        "anchor": "PMC5415411_31586_31600",
+        "page": 16,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 708,
+      "label": "tube growth",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Send in the Cavalry: Downstream Effectors during ER Stress",
+        "sentence_id": 91,
+        "char_start": 31671,
+        "char_end": 31682,
+        "anchor": "PMC5415411_31671_31682",
+        "page": 16,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 746,
+      "label": "developmental defects",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Send in the Cavalry: Downstream Effectors during ER Stress",
+        "sentence_id": 97,
+        "char_start": 32759,
+        "char_end": 32780,
+        "anchor": "PMC5415411_32759_32780",
+        "page": 17,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 750,
+      "label": "pollen development",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Send in the Cavalry: Downstream Effectors during ER Stress",
+        "sentence_id": 97,
+        "char_start": 32914,
+        "char_end": 32932,
+        "anchor": "PMC5415411_32914_32932",
+        "page": 17,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 752,
+      "label": "heat stress",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Send in the Cavalry: Downstream Effectors during ER Stress",
+        "sentence_id": 97,
+        "char_start": 32989,
+        "char_end": 33000,
+        "anchor": "PMC5415411_32989_33000",
+        "page": 17,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 773,
+      "label": "stress responsive",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Send in the Cavalry: Downstream Effectors during ER Stress",
+        "sentence_id": 100,
+        "char_start": 33910,
+        "char_end": 33927,
+        "anchor": "PMC5415411_33910_33927",
+        "page": 17,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 811,
+      "label": "programmed cell death",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "NAC Membrane Transcription Factors: A Second Set of UPR activators?-In",
+        "sentence_id": 103,
+        "char_start": 35565,
+        "char_end": 35586,
+        "anchor": "PMC5415411_35565_35586",
+        "page": 18,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 816,
+      "label": "apoptotic-like symptoms",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "NAC Membrane Transcription Factors: A Second Set of UPR activators?-In",
+        "sentence_id": 104,
+        "char_start": 35666,
+        "char_end": 35689,
+        "anchor": "PMC5415411_35666_35689",
+        "page": 18,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 860,
+      "label": "growth ph",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "NAC Membrane Transcription Factors: A Second Set of UPR activators?-In",
+        "sentence_id": 112,
+        "char_start": 37239,
+        "char_end": 37248,
+        "anchor": "PMC5415411_37239_37248",
+        "page": 19,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 863,
+      "label": "divisions",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "NAC Membrane Transcription Factors: A Second Set of UPR activators?-In",
+        "sentence_id": 113,
+        "char_start": 37505,
+        "char_end": 37514,
+        "anchor": "PMC5415411_37505_37514",
+        "page": 19,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 872,
+      "label": "signaling mechanisms",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "NAC Membrane Transcription Factors: A Second Set of UPR activators?-In",
+        "sentence_id": 115,
+        "char_start": 38065,
+        "char_end": 38085,
+        "anchor": "PMC5415411_38065_38085",
+        "page": 19,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 898,
+      "label": "transduction",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Concluding Remarks: The Case for an Expanding UPR",
+        "sentence_id": 122,
+        "char_start": 39610,
+        "char_end": 39622,
+        "anchor": "PMC5415411_39610_39622",
+        "page": 20,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-28-29",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 29
+    },
+    {
+      "id": "synth-28-32",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 32
+    },
+    {
+      "id": "synth-28-33",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 33
+    },
+    {
+      "id": "synth-28-35",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 35
+    },
+    {
+      "id": "synth-28-36",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 36
+    },
+    {
+      "id": "synth-28-93",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 93
+    },
+    {
+      "id": "synth-28-94",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 94
+    },
+    {
+      "id": "synth-28-128",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 128
+    },
+    {
+      "id": "synth-28-148",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 148
+    },
+    {
+      "id": "synth-28-183",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 183
+    },
+    {
+      "id": "synth-28-184",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 184
+    },
+    {
+      "id": "synth-28-189",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 189
+    },
+    {
+      "id": "synth-28-220",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 220
+    },
+    {
+      "id": "synth-28-223",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 223
+    },
+    {
+      "id": "synth-28-230",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 230
+    },
+    {
+      "id": "synth-28-235",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 235
+    },
+    {
+      "id": "synth-28-239",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 239
+    },
+    {
+      "id": "synth-28-240",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 240
+    },
+    {
+      "id": "synth-28-317",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 317
+    },
+    {
+      "id": "synth-28-350",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 350
+    },
+    {
+      "id": "synth-28-377",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 377
+    },
+    {
+      "id": "synth-28-380",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 380
+    },
+    {
+      "id": "synth-28-381",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 381
+    },
+    {
+      "id": "synth-28-382",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 382
+    },
+    {
+      "id": "synth-28-406",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 406
+    },
+    {
+      "id": "synth-28-407",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 407
+    },
+    {
+      "id": "synth-28-426",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 426
+    },
+    {
+      "id": "synth-28-427",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 427
+    },
+    {
+      "id": "synth-28-464",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 464
+    },
+    {
+      "id": "synth-28-536",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 536
+    },
+    {
+      "id": "synth-28-560",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 560
+    },
+    {
+      "id": "synth-28-591",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 591
+    },
+    {
+      "id": "synth-28-597",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 597
+    },
+    {
+      "id": "synth-28-600",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 600
+    },
+    {
+      "id": "synth-28-604",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 604
+    },
+    {
+      "id": "synth-28-624",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 624
+    },
+    {
+      "id": "synth-28-704",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 704
+    },
+    {
+      "id": "synth-28-708",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 708
+    },
+    {
+      "id": "synth-28-746",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 746
+    },
+    {
+      "id": "synth-28-750",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 750
+    },
+    {
+      "id": "synth-28-752",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 752
+    },
+    {
+      "id": "synth-28-773",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 773
+    },
+    {
+      "id": "synth-28-811",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 811
+    },
+    {
+      "id": "synth-28-816",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 816
+    },
+    {
+      "id": "synth-28-860",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 860
+    },
+    {
+      "id": "synth-28-863",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 863
+    },
+    {
+      "id": "synth-28-872",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 872
+    },
+    {
+      "id": "synth-28-898",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 898
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "PHENOTYPE",
+    "page": null
+  }
+}

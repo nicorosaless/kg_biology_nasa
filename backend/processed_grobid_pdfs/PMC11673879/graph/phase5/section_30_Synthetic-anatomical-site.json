@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMC11673879",
+  "section": "Synthetic ANATOMICAL_SITE",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 12,
+      "label": "coral reefs",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 13,
+        "char_start": 2092,
+        "char_end": 2103,
+        "anchor": "PMC11673879_2092_2103",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 14,
+      "label": "freshwater ecosystems",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 14,
+        "char_start": 2127,
+        "char_end": 2148,
+        "anchor": "PMC11673879_2127_2148",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-12-14",
+      "type": "ASSOCIATED",
+      "source": 12,
+      "target": 14
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "ANATOMICAL_SITE",
+    "page": null
+  }
+}

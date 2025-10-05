@@ -1,0 +1,206 @@
+{
+  "paper_id": "PMC4405755",
+  "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 770,
+      "label": "4EBP1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 192,
+        "char_start": 35320,
+        "char_end": 35325,
+        "anchor": "PMC4405755_35320_35325",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 771,
+      "label": "eIF4E",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 192,
+        "char_start": 35423,
+        "char_end": 35428,
+        "anchor": "PMC4405755_35423_35428",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 772,
+      "label": "4EBP1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 192,
+        "char_start": 35660,
+        "char_end": 35665,
+        "anchor": "PMC4405755_35660_35665",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 758,
+      "label": "4EBP1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 192,
+        "char_start": 35320,
+        "char_end": 35325,
+        "anchor": "PMC4405755_35320_35325",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 759,
+      "label": "Akt",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 192,
+        "char_start": 35455,
+        "char_end": 35458,
+        "anchor": "PMC4405755_35455_35458",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 765,
+      "label": "4EB",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 192,
+        "char_start": 35660,
+        "char_end": 35663,
+        "anchor": "PMC4405755_35660_35663",
+        "page": 11,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 899,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 758,
+      "target": 759
+    },
+    {
+      "id": 900,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 758,
+      "target": 765
+    },
+    {
+      "id": 902,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 758,
+      "target": 770
+    },
+    {
+      "id": 903,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 758,
+      "target": 771
+    },
+    {
+      "id": 904,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 758,
+      "target": 772
+    },
+    {
+      "id": 906,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 759,
+      "target": 765
+    },
+    {
+      "id": 908,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 759,
+      "target": 770
+    },
+    {
+      "id": 909,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 759,
+      "target": 771
+    },
+    {
+      "id": 910,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 759,
+      "target": 772
+    },
+    {
+      "id": 913,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 765,
+      "target": 770
+    },
+    {
+      "id": 914,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 765,
+      "target": 771
+    },
+    {
+      "id": 915,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 765,
+      "target": 772
+    },
+    {
+      "id": 921,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 770,
+      "target": 771
+    },
+    {
+      "id": 922,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 770,
+      "target": 772
+    },
+    {
+      "id": 924,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 771,
+      "target": 772
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 7,
+      "removed_orphans": 11,
+      "largest_component": 6,
+      "removed_components": [
+        6,
+        4,
+        4,
+        4,
+        3,
+        2
+      ]
+    },
+    "page": 11
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "paper_id": "PMC10142442",
+  "section": "PpFucCS Specifically Inhibits HCMV Entry into Cells",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 385,
+      "label": "another",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS Specifically Inhibits HCMV Entry into Cells",
+        "sentence_id": 102,
+        "char_start": 22994,
+        "char_end": 23001,
+        "anchor": "PMC10142442_22994_23001",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 386,
+      "label": "HCMV",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS Specifically Inhibits HCMV Entry into Cells",
+        "sentence_id": 102,
+        "char_start": 22650,
+        "char_end": 22654,
+        "anchor": "PMC10142442_22650_22654",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 387,
+      "label": "HCMV",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS Specifically Inhibits HCMV Entry into Cells",
+        "sentence_id": 102,
+        "char_start": 22713,
+        "char_end": 22717,
+        "anchor": "PMC10142442_22713_22717",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 388,
+      "label": "R18",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS Specifically Inhibits HCMV Entry into Cells",
+        "sentence_id": 102,
+        "char_start": 22767,
+        "char_end": 22770,
+        "anchor": "PMC10142442_22767_22770",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 390,
+      "label": "R18",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS Specifically Inhibits HCMV Entry into Cells",
+        "sentence_id": 102,
+        "char_start": 22905,
+        "char_end": 22908,
+        "anchor": "PMC10142442_22905_22908",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 383,
+      "label": "TowneBAC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS Specifically Inhibits HCMV Entry into Cells",
+        "sentence_id": 102,
+        "char_start": 22690,
+        "char_end": 22698,
+        "anchor": "PMC10142442_22690_22698",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 851,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 383,
+      "target": 385
+    },
+    {
+      "id": 852,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 383,
+      "target": 386
+    },
+    {
+      "id": 853,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 383,
+      "target": 387
+    },
+    {
+      "id": 854,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 383,
+      "target": 388
+    },
+    {
+      "id": 856,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 383,
+      "target": 390
+    },
+    {
+      "id": 857,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 385,
+      "target": 386
+    },
+    {
+      "id": 858,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 385,
+      "target": 387
+    },
+    {
+      "id": 859,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 385,
+      "target": 388
+    },
+    {
+      "id": 861,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 385,
+      "target": 390
+    },
+    {
+      "id": 862,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 386,
+      "target": 387
+    },
+    {
+      "id": 863,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 386,
+      "target": 388
+    },
+    {
+      "id": 865,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 386,
+      "target": 390
+    },
+    {
+      "id": 866,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 387,
+      "target": 388
+    },
+    {
+      "id": 868,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 387,
+      "target": 390
+    },
+    {
+      "id": 870,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 388,
+      "target": 390
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 6,
+      "removed_orphans": 9,
+      "largest_component": 6,
+      "removed_components": [
+        6,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 8
+  }
+}

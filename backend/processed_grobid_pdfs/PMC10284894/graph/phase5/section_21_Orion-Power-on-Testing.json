@@ -1,0 +1,57 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "Orion Power-on Testing",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 648,
+      "label": "another",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Power-on Testing",
+        "sentence_id": 363,
+        "char_start": 66654,
+        "char_end": 66661,
+        "anchor": "PMC10284894_66654_66661",
+        "page": 68,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 649,
+      "label": "Orion",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Power-on Testing",
+        "sentence_id": 363,
+        "char_start": 66553,
+        "char_end": 66558,
+        "anchor": "PMC10284894_66553_66558",
+        "page": 67,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 597,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 648,
+      "target": 649
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 1,
+      "largest_component": 2,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 67
+  }
+}

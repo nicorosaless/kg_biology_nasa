@@ -1,0 +1,120 @@
+{
+  "paper_id": "PMC11673879",
+  "section": "Norms of Reaction to Temperature",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 176,
+      "label": "Finland",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Norms of Reaction to Temperature",
+        "sentence_id": 78,
+        "char_start": 13632,
+        "char_end": 13639,
+        "anchor": "PMC11673879_13632_13639",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 172,
+      "label": "Cultures",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Norms of Reaction to Temperature",
+        "sentence_id": 78,
+        "char_start": 13438,
+        "char_end": 13446,
+        "anchor": "PMC11673879_13438_13446",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 173,
+      "label": "Growth",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Norms of Reaction to Temperature",
+        "sentence_id": 78,
+        "char_start": 13541,
+        "char_end": 13547,
+        "anchor": "PMC11673879_13541_13547",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 175,
+      "label": "Helsinki",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Norms of Reaction to Temperature",
+        "sentence_id": 78,
+        "char_start": 13622,
+        "char_end": 13630,
+        "anchor": "PMC11673879_13622_13630",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 86,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 172,
+      "target": 173
+    },
+    {
+      "id": 88,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 172,
+      "target": 175
+    },
+    {
+      "id": 89,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 172,
+      "target": 176
+    },
+    {
+      "id": 92,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 173,
+      "target": 175
+    },
+    {
+      "id": 93,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 173,
+      "target": 176
+    },
+    {
+      "id": 98,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 175,
+      "target": 176
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 25,
+      "largest_component": 4,
+      "removed_components": [
+        4,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 5
+  }
+}

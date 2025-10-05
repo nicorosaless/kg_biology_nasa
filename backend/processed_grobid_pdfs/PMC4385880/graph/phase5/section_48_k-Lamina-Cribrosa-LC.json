@@ -1,0 +1,121 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "k) Lamina Cribrosa (LC)",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 1705,
+      "label": "inferior",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "k) Lamina Cribrosa (LC)",
+        "sentence_id": 541,
+        "char_start": 89221,
+        "char_end": 89229,
+        "anchor": "PMC4385880_89221_89229",
+        "page": 42,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1698,
+      "label": "distance",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "k) Lamina Cribrosa (LC)",
+        "sentence_id": 541,
+        "char_start": 88962,
+        "char_end": 88970,
+        "anchor": "PMC4385880_88962_88970",
+        "page": 42,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1701,
+      "label": "connect",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "k) Lamina Cribrosa (LC)",
+        "sentence_id": 541,
+        "char_start": 89105,
+        "char_end": 89112,
+        "anchor": "PMC4385880_89105_89112",
+        "page": 42,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1703,
+      "label": "retinal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "k) Lamina Cribrosa (LC)",
+        "sentence_id": 541,
+        "char_start": 89188,
+        "char_end": 89195,
+        "anchor": "PMC4385880_89188_89195",
+        "page": 42,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1618,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1698,
+      "target": 1701
+    },
+    {
+      "id": 1619,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1698,
+      "target": 1703
+    },
+    {
+      "id": 1620,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1698,
+      "target": 1705
+    },
+    {
+      "id": 1622,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1701,
+      "target": 1703
+    },
+    {
+      "id": 1623,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1701,
+      "target": 1705
+    },
+    {
+      "id": 1625,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1703,
+      "target": 1705
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 6,
+      "removed_orphans": 23,
+      "largest_component": 4,
+      "removed_components": [
+        3,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 42
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "paper_id": "PMC10800490",
+  "section": "Transcription factors",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 480,
+      "label": "MYB",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcription factors",
+        "sentence_id": 133,
+        "char_start": 27737,
+        "char_end": 27740,
+        "anchor": "PMC10800490_27737_27740",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 481,
+      "label": "NAC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcription factors",
+        "sentence_id": 133,
+        "char_start": 27745,
+        "char_end": 27748,
+        "anchor": "PMC10800490_27745_27748",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 473,
+      "label": "AP2",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcription factors",
+        "sentence_id": 133,
+        "char_start": 27622,
+        "char_end": 27625,
+        "anchor": "PMC10800490_27622_27625",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 474,
+      "label": "NAC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcription factors",
+        "sentence_id": 133,
+        "char_start": 27745,
+        "char_end": 27748,
+        "anchor": "PMC10800490_27745_27748",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 476,
+      "label": "CAM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcription factors",
+        "sentence_id": 133,
+        "char_start": 27812,
+        "char_end": 27815,
+        "anchor": "PMC10800490_27812_27815",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 478,
+      "label": "Kumar",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcription factors",
+        "sentence_id": 133,
+        "char_start": 27657,
+        "char_end": 27662,
+        "anchor": "PMC10800490_27657_27662",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1121,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 473,
+      "target": 474
+    },
+    {
+      "id": 1122,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 473,
+      "target": 476
+    },
+    {
+      "id": 1124,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 473,
+      "target": 478
+    },
+    {
+      "id": 1126,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 473,
+      "target": 480
+    },
+    {
+      "id": 1127,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 473,
+      "target": 481
+    },
+    {
+      "id": 1128,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 474,
+      "target": 476
+    },
+    {
+      "id": 1130,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 474,
+      "target": 478
+    },
+    {
+      "id": 1132,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 474,
+      "target": 480
+    },
+    {
+      "id": 1133,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 474,
+      "target": 481
+    },
+    {
+      "id": 1135,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 476,
+      "target": 478
+    },
+    {
+      "id": 1137,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 476,
+      "target": 480
+    },
+    {
+      "id": 1138,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 476,
+      "target": 481
+    },
+    {
+      "id": 1144,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 478,
+      "target": 480
+    },
+    {
+      "id": 1145,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 478,
+      "target": 481
+    },
+    {
+      "id": 1148,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 480,
+      "target": 481
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 12,
+      "largest_component": 6,
+      "removed_components": [
+        5,
+        4,
+        2,
+        2
+      ]
+    },
+    "page": 8
+  }
+}

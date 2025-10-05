@@ -1,0 +1,523 @@
+{
+  "paper_id": "PMC9695138",
+  "section": "Lipid Rafts in Plants",
+  "n_nodes": 11,
+  "n_edges": 55,
+  "nodes": [
+    {
+      "id": 129,
+      "label": "Microdom",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lipid Rafts in Plants",
+        "sentence_id": 44,
+        "char_start": 9667,
+        "char_end": 9675,
+        "anchor": "PMC9695138_9667_9675",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 130,
+      "label": "enriched",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lipid Rafts in Plants",
+        "sentence_id": 44,
+        "char_start": 9713,
+        "char_end": 9721,
+        "anchor": "PMC9695138_9713_9721",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 135,
+      "label": "ABA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lipid Rafts in Plants",
+        "sentence_id": 44,
+        "char_start": 10012,
+        "char_end": 10015,
+        "anchor": "PMC9695138_10012_10015",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 137,
+      "label": "ABA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lipid Rafts in Plants",
+        "sentence_id": 44,
+        "char_start": 10113,
+        "char_end": 10116,
+        "anchor": "PMC9695138_10113_10116",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 141,
+      "label": "ABA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lipid Rafts in Plants",
+        "sentence_id": 44,
+        "char_start": 10012,
+        "char_end": 10015,
+        "anchor": "PMC9695138_10012_10015",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 142,
+      "label": "ABI1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lipid Rafts in Plants",
+        "sentence_id": 44,
+        "char_start": 10083,
+        "char_end": 10087,
+        "anchor": "PMC9695138_10083_10087",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 143,
+      "label": "ABA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lipid Rafts in Plants",
+        "sentence_id": 44,
+        "char_start": 10113,
+        "char_end": 10116,
+        "anchor": "PMC9695138_10113_10116",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 121,
+      "label": "enriched",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lipid Rafts in Plants",
+        "sentence_id": 44,
+        "char_start": 9496,
+        "char_end": 9504,
+        "anchor": "PMC9695138_9496_9504",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 122,
+      "label": "sterols",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lipid Rafts in Plants",
+        "sentence_id": 44,
+        "char_start": 9508,
+        "char_end": 9515,
+        "anchor": "PMC9695138_9508_9515",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 125,
+      "label": "sterylgl",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lipid Rafts in Plants",
+        "sentence_id": 44,
+        "char_start": 9577,
+        "char_end": 9585,
+        "anchor": "PMC9695138_9577_9585",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 127,
+      "label": "depleted",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lipid Rafts in Plants",
+        "sentence_id": 44,
+        "char_start": 9626,
+        "char_end": 9634,
+        "anchor": "PMC9695138_9626_9634",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 75,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 122
+    },
+    {
+      "id": 76,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 125
+    },
+    {
+      "id": 77,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 127
+    },
+    {
+      "id": 78,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 129
+    },
+    {
+      "id": 79,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 130
+    },
+    {
+      "id": 80,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 135
+    },
+    {
+      "id": 81,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 137
+    },
+    {
+      "id": 84,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 141
+    },
+    {
+      "id": 85,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 142
+    },
+    {
+      "id": 86,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 143
+    },
+    {
+      "id": 88,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 122,
+      "target": 125
+    },
+    {
+      "id": 89,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 122,
+      "target": 127
+    },
+    {
+      "id": 90,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 122,
+      "target": 129
+    },
+    {
+      "id": 91,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 122,
+      "target": 130
+    },
+    {
+      "id": 92,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 122,
+      "target": 135
+    },
+    {
+      "id": 93,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 122,
+      "target": 137
+    },
+    {
+      "id": 96,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 122,
+      "target": 141
+    },
+    {
+      "id": 97,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 122,
+      "target": 142
+    },
+    {
+      "id": 98,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 122,
+      "target": 143
+    },
+    {
+      "id": 100,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 125,
+      "target": 127
+    },
+    {
+      "id": 101,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 125,
+      "target": 129
+    },
+    {
+      "id": 102,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 125,
+      "target": 130
+    },
+    {
+      "id": 103,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 125,
+      "target": 135
+    },
+    {
+      "id": 104,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 125,
+      "target": 137
+    },
+    {
+      "id": 107,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 125,
+      "target": 141
+    },
+    {
+      "id": 108,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 125,
+      "target": 142
+    },
+    {
+      "id": 109,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 125,
+      "target": 143
+    },
+    {
+      "id": 111,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 127,
+      "target": 129
+    },
+    {
+      "id": 112,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 127,
+      "target": 130
+    },
+    {
+      "id": 113,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 127,
+      "target": 135
+    },
+    {
+      "id": 114,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 127,
+      "target": 137
+    },
+    {
+      "id": 117,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 127,
+      "target": 141
+    },
+    {
+      "id": 118,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 127,
+      "target": 142
+    },
+    {
+      "id": 119,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 127,
+      "target": 143
+    },
+    {
+      "id": 121,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 129,
+      "target": 130
+    },
+    {
+      "id": 122,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 129,
+      "target": 135
+    },
+    {
+      "id": 123,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 129,
+      "target": 137
+    },
+    {
+      "id": 126,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 129,
+      "target": 141
+    },
+    {
+      "id": 127,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 129,
+      "target": 142
+    },
+    {
+      "id": 128,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 129,
+      "target": 143
+    },
+    {
+      "id": 130,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 130,
+      "target": 135
+    },
+    {
+      "id": 131,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 130,
+      "target": 137
+    },
+    {
+      "id": 134,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 130,
+      "target": 141
+    },
+    {
+      "id": 135,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 130,
+      "target": 142
+    },
+    {
+      "id": 136,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 130,
+      "target": 143
+    },
+    {
+      "id": 138,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 135,
+      "target": 137
+    },
+    {
+      "id": 141,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 135,
+      "target": 141
+    },
+    {
+      "id": 142,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 135,
+      "target": 142
+    },
+    {
+      "id": 143,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 135,
+      "target": 143
+    },
+    {
+      "id": 147,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 137,
+      "target": 141
+    },
+    {
+      "id": 148,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 137,
+      "target": 142
+    },
+    {
+      "id": 149,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 137,
+      "target": 143
+    },
+    {
+      "id": 160,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 141,
+      "target": 142
+    },
+    {
+      "id": 161,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 141,
+      "target": 143
+    },
+    {
+      "id": 163,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 142,
+      "target": 143
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 9,
+      "removed_orphans": 0,
+      "largest_component": 11,
+      "removed_components": [
+        6,
+        5,
+        4,
+        3,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    "page": 2
+  }
+}

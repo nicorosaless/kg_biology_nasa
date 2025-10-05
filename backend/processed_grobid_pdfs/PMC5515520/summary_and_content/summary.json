@@ -1,0 +1,168 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "The paper investigates the role of gravity in establishing the auxin-mediated gravity-sensing system in plant roots, focusing on auxin distribution within the root tip. Prior research suggests gravity influences root growth direction through changes in auxin distribution. This study examines auxin distribution in Arabidopsis thaliana roots grown on the International Space Station (ISS) to determine if gravity is essential for establishing fundamental root auxin distributions. Green fluorescent protein (GFP) reporter lines were used to monitor auxin and cytokinin distribution.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Figure 1.Reverse Fountain model and DR5 distribution.(a) Reverse fountain model (after refs.13,14) shows the movement of auxin toward the tip of the root through the stele (red arrow), to be redirected in a symmetrical manner",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.jpeg"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Figure 2.",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.jpeg"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Figure 3.Light Microscopy Module operations.The LMM is located in the Destiny Module of the ISS (a, red arrow).The Petri plate was photographed and mounted on the LMM Petri base (b, red arrow) before being inserted",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.jpeg"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Figure 4.",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.jpeg"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Plant Development and Root Morphology Differences",
+      "summary": "Two ISS experiments, CARA and APEX03-2, employed different approaches to plant cultivation, leading to distinct plant morphologies. CARA plants, grown under reduced lighting, exhibited slower development and roots that grew in tight loops, while APEX03-2 plants, grown under higher light levels, displayed more advanced development and linear root growth with some skewing. Despite these morphological differences, the environmental conditions within each experiment were comparable between spaceflight and ground control habitats. Figure 2 illustrates these differences in plant and root morphology between the two experiments and their respective ground controls.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Auxin Distribution Independent of Gravity",
+      "summary": "The distribution of the auxin reporter DR5r::GFP in spaceflight plants was indistinguishable from that of vertically grown roots on Earth across two ISS experiments, various plant ages, and different root morphologies. Live imaging on the ISS and confocal imaging of preserved samples confirmed this observation. The expression of DR5r::GFP in the roots of plants grown on the ISS was identical to that of ground controls. Figure 4 shows pDR5r::GFP expression in spaceflight and ground control samples from the APEX03-2 and CARA experiments, imaged live and after preservation.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Cytokinin Distribution Altered in Spaceflight",
+      "summary": "While auxin distribution remained consistent, the distribution of the cytokinin reporter pARR5::GFP differed between spaceflight and ground controls, suggesting that spaceflight influences cytokinin-associated processes. The study used GFP reporter gene systems that enable the visualization of gene expression within distinct cell types of the primary root tip providing cell-specific data that would otherwise be masked in a molecular study pooling all the cells of the root. Figure 5 presents the distribution of other auxin and cytokinin-sensitive GFP reporters, highlighting the differences observed in cytokinin distribution.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Live Imaging on the ISS",
+      "summary": "Live imaging was conducted using the Light Microscopy Module (LMM) on the ISS, operated telemetrically from the ground. Astronauts photographed the seedling-containing Petri plate before loading it into the LMM. These photographs were used to create root maps, guiding telemetric maneuvers to locate regions of interest on the Petri plates. Figure 3 illustrates the LMM operations, including plate mounting and coordinate mapping for telemetric control. Operations were mirrored for ground control plates, ensuring comparable imaging conditions.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Imaging of Returned Samples",
+      "summary": "In the APEX03-2 experiment, samples were preserved in RNAlater and stored at -80°C before being returned to Earth for confocal microscopy. The preserved plants were imaged using identical parameters between spaceflight and ground control samples within each genotype. Roots were rinsed, counterstained with Calcofluor White, and mounted in Vectashield for imaging. This process ensured consistent imaging conditions and facilitated comparative analysis of cellular structures and GFP reporter expression patterns.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": "The study concludes that the establishment of the auxin-gradient system in plant roots is gravity-independent, as auxin distribution in spaceflight plants was indistinguishable from ground controls. However, spaceflight may influence cytokinin-associated processes, as evidenced by differences in cytokinin reporter distribution. These findings suggest that while gravity is not essential for auxin-mediated gravity sensing, other factors associated with spaceflight can impact plant hormone signaling.",
+  "keywords": [
+    "auxin",
+    "cytokinin",
+    "spaceflight",
+    "gravity",
+    "arabidopsis thaliana",
+    "root development",
+    "gfp reporter",
+    "microgravity",
+    "plant signaling",
+    "root morphology"
+  ],
+  "topics": [
+    "plant biology",
+    "space biology",
+    "molecular biology"
+  ],
+  "_meta": {
+    "paper_id": "sha256:103b6d9eceda23b31c6a8ca40c74d96ab1d7d84b39a0635dfe490c3058997164",
+    "paper_title": "The effect of spaceflight on the gravity-sensing auxin gradient of roots: GFP reporter gene microscopy on",
+    "generated_at": "2025-10-05T10:47:01Z",
+    "word_count": 485,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "auxin",
+      "cytokinin",
+      "spaceflight",
+      "gravity",
+      "arabidopsis thaliana",
+      "root development",
+      "gfp reporter",
+      "microgravity",
+      "plant signaling",
+      "root morphology"
+    ],
+    "topics": [
+      "plant biology",
+      "space biology",
+      "molecular biology"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 5418,
+      "completion_tokens": 1372,
+      "total_tokens": 6790,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000542,
+      "output_usd": 0.000549,
+      "total_usd": 0.001091
+    },
+    "cost": {
+      "input_usd": 0.000542,
+      "output_usd": 0.000549,
+      "total_usd": 0.001091
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [],
+      "corrupted_detected": [
+        "fig_2",
+        "fig_4",
+        "fig_5",
+        "fig_3"
+      ],
+      "original_total": 4,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

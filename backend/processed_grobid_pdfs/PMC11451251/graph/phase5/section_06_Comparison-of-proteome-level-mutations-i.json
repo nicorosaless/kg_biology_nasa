@@ -1,0 +1,85 @@
+{
+  "paper_id": "PMC11451251",
+  "section": "Comparison of proteome-level mutations in the ISS species and within pangenome context",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 224,
+      "label": "relative",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of proteome-level mutations in the ISS species and within pangenome context",
+        "sentence_id": 78,
+        "char_start": 16234,
+        "char_end": 16242,
+        "anchor": "PMC11451251_16234_16242",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 222,
+      "label": "selected",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of proteome-level mutations in the ISS species and within pangenome context",
+        "sentence_id": 78,
+        "char_start": 16175,
+        "char_end": 16183,
+        "anchor": "PMC11451251_16175_16183",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 223,
+      "label": "meiriae",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of proteome-level mutations in the ISS species and within pangenome context",
+        "sentence_id": 78,
+        "char_start": 16210,
+        "char_end": 16217,
+        "anchor": "PMC11451251_16210_16217",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 165,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 222,
+      "target": 223
+    },
+    {
+      "id": 166,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 222,
+      "target": 224
+    },
+    {
+      "id": 167,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 223,
+      "target": 224
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 18,
+      "largest_component": 3,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 6
+  }
+}

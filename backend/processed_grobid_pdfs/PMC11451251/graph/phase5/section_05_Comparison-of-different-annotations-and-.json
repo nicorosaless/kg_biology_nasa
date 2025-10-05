@@ -1,0 +1,85 @@
+{
+  "paper_id": "PMC11451251",
+  "section": "Comparison of different annotations and between the isolates and within pangenome context",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 85,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of different annotations and between the isolates and within pangenome context",
+        "sentence_id": 42,
+        "char_start": 8548,
+        "char_end": 8551,
+        "anchor": "PMC11451251_8548_8551",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 86,
+      "label": "Gram",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of different annotations and between the isolates and within pangenome context",
+        "sentence_id": 42,
+        "char_start": 8497,
+        "char_end": 8501,
+        "anchor": "PMC11451251_8497_8501",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 87,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of different annotations and between the isolates and within pangenome context",
+        "sentence_id": 42,
+        "char_start": 8548,
+        "char_end": 8551,
+        "anchor": "PMC11451251_8548_8551",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 36,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 85,
+      "target": 86
+    },
+    {
+      "id": 37,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 85,
+      "target": 87
+    },
+    {
+      "id": 38,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 86,
+      "target": 87
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 2,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        2
+      ]
+    },
+    "page": 3
+  }
+}

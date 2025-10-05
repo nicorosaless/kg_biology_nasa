@@ -1,0 +1,598 @@
+{
+  "paper_id": "PMC10504369",
+  "section": "Muscle stem cell number quantification",
+  "n_nodes": 12,
+  "n_edges": 66,
+  "nodes": [
+    {
+      "id": 547,
+      "label": "Slides",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Muscle stem cell number quantification",
+        "sentence_id": 162,
+        "char_start": 35340,
+        "char_end": 35346,
+        "anchor": "PMC10504369_35340_35346",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 548,
+      "label": "blocked",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Muscle stem cell number quantification",
+        "sentence_id": 162,
+        "char_start": 35372,
+        "char_end": 35379,
+        "anchor": "PMC10504369_35372_35379",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 549,
+      "label": "Tri",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Muscle stem cell number quantification",
+        "sentence_id": 162,
+        "char_start": 35429,
+        "char_end": 35432,
+        "anchor": "PMC10504369_35429_35432",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 550,
+      "label": "Sections",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Muscle stem cell number quantification",
+        "sentence_id": 162,
+        "char_start": 35442,
+        "char_end": 35450,
+        "anchor": "PMC10504369_35442_35450",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 555,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Muscle stem cell number quantification",
+        "sentence_id": 162,
+        "char_start": 35236,
+        "char_end": 35239,
+        "anchor": "PMC10504369_35236_35239",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 556,
+      "label": "EDTA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Muscle stem cell number quantification",
+        "sentence_id": 162,
+        "char_start": 35292,
+        "char_end": 35296,
+        "anchor": "PMC10504369_35292_35296",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 557,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Muscle stem cell number quantification",
+        "sentence_id": 162,
+        "char_start": 35364,
+        "char_end": 35367,
+        "anchor": "PMC10504369_35364_35367",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 558,
+      "label": "Pax7",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Muscle stem cell number quantification",
+        "sentence_id": 162,
+        "char_start": 35469,
+        "char_end": 35473,
+        "anchor": "PMC10504369_35469_35473",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 559,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Muscle stem cell number quantification",
+        "sentence_id": 162,
+        "char_start": 35557,
+        "char_end": 35560,
+        "anchor": "PMC10504369_35557_35560",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 560,
+      "label": "Alexa",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Muscle stem cell number quantification",
+        "sentence_id": 162,
+        "char_start": 35579,
+        "char_end": 35584,
+        "anchor": "PMC10504369_35579_35584",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 561,
+      "label": "IgG",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Muscle stem cell number quantification",
+        "sentence_id": 162,
+        "char_start": 35623,
+        "char_end": 35626,
+        "anchor": "PMC10504369_35623_35626",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 562,
+      "label": "Thermo",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Muscle stem cell number quantification",
+        "sentence_id": 162,
+        "char_start": 35635,
+        "char_end": 35641,
+        "anchor": "PMC10504369_35635_35641",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 683,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 547,
+      "target": 548
+    },
+    {
+      "id": 684,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 547,
+      "target": 549
+    },
+    {
+      "id": 685,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 547,
+      "target": 550
+    },
+    {
+      "id": 687,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 547,
+      "target": 555
+    },
+    {
+      "id": 688,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 547,
+      "target": 556
+    },
+    {
+      "id": 689,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 547,
+      "target": 557
+    },
+    {
+      "id": 690,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 547,
+      "target": 558
+    },
+    {
+      "id": 691,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 547,
+      "target": 559
+    },
+    {
+      "id": 692,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 547,
+      "target": 560
+    },
+    {
+      "id": 693,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 547,
+      "target": 561
+    },
+    {
+      "id": 694,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 547,
+      "target": 562
+    },
+    {
+      "id": 695,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 548,
+      "target": 549
+    },
+    {
+      "id": 696,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 548,
+      "target": 550
+    },
+    {
+      "id": 698,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 548,
+      "target": 555
+    },
+    {
+      "id": 699,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 548,
+      "target": 556
+    },
+    {
+      "id": 700,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 548,
+      "target": 557
+    },
+    {
+      "id": 701,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 548,
+      "target": 558
+    },
+    {
+      "id": 702,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 548,
+      "target": 559
+    },
+    {
+      "id": 703,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 548,
+      "target": 560
+    },
+    {
+      "id": 704,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 548,
+      "target": 561
+    },
+    {
+      "id": 705,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 548,
+      "target": 562
+    },
+    {
+      "id": 706,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 549,
+      "target": 550
+    },
+    {
+      "id": 708,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 549,
+      "target": 555
+    },
+    {
+      "id": 709,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 549,
+      "target": 556
+    },
+    {
+      "id": 710,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 549,
+      "target": 557
+    },
+    {
+      "id": 711,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 549,
+      "target": 558
+    },
+    {
+      "id": 712,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 549,
+      "target": 559
+    },
+    {
+      "id": 713,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 549,
+      "target": 560
+    },
+    {
+      "id": 714,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 549,
+      "target": 561
+    },
+    {
+      "id": 715,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 549,
+      "target": 562
+    },
+    {
+      "id": 717,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 550,
+      "target": 555
+    },
+    {
+      "id": 718,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 550,
+      "target": 556
+    },
+    {
+      "id": 719,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 550,
+      "target": 557
+    },
+    {
+      "id": 720,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 550,
+      "target": 558
+    },
+    {
+      "id": 721,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 550,
+      "target": 559
+    },
+    {
+      "id": 722,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 550,
+      "target": 560
+    },
+    {
+      "id": 723,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 550,
+      "target": 561
+    },
+    {
+      "id": 724,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 550,
+      "target": 562
+    },
+    {
+      "id": 733,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 555,
+      "target": 556
+    },
+    {
+      "id": 734,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 555,
+      "target": 557
+    },
+    {
+      "id": 735,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 555,
+      "target": 558
+    },
+    {
+      "id": 736,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 555,
+      "target": 559
+    },
+    {
+      "id": 737,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 555,
+      "target": 560
+    },
+    {
+      "id": 738,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 555,
+      "target": 561
+    },
+    {
+      "id": 739,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 555,
+      "target": 562
+    },
+    {
+      "id": 740,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 556,
+      "target": 557
+    },
+    {
+      "id": 741,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 556,
+      "target": 558
+    },
+    {
+      "id": 742,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 556,
+      "target": 559
+    },
+    {
+      "id": 743,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 556,
+      "target": 560
+    },
+    {
+      "id": 744,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 556,
+      "target": 561
+    },
+    {
+      "id": 745,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 556,
+      "target": 562
+    },
+    {
+      "id": 746,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 557,
+      "target": 558
+    },
+    {
+      "id": 747,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 557,
+      "target": 559
+    },
+    {
+      "id": 748,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 557,
+      "target": 560
+    },
+    {
+      "id": 749,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 557,
+      "target": 561
+    },
+    {
+      "id": 750,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 557,
+      "target": 562
+    },
+    {
+      "id": 751,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 558,
+      "target": 559
+    },
+    {
+      "id": 752,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 558,
+      "target": 560
+    },
+    {
+      "id": 753,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 558,
+      "target": 561
+    },
+    {
+      "id": 754,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 558,
+      "target": 562
+    },
+    {
+      "id": 755,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 559,
+      "target": 560
+    },
+    {
+      "id": 756,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 559,
+      "target": 561
+    },
+    {
+      "id": 757,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 559,
+      "target": 562
+    },
+    {
+      "id": 758,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 560,
+      "target": 561
+    },
+    {
+      "id": 759,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 560,
+      "target": 562
+    },
+    {
+      "id": 760,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 561,
+      "target": 562
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 8,
+      "largest_component": 12,
+      "removed_components": [
+        5,
+        3
+      ]
+    },
+    "page": 5
+  }
+}

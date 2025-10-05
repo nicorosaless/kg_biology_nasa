@@ -1,0 +1,258 @@
+{
+  "paper_id": "PMC11833055",
+  "section": "Brain transcriptomics",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 179,
+      "label": "hindlim",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Brain transcriptomics",
+        "sentence_id": 110,
+        "char_start": 15913,
+        "char_end": 15920,
+        "anchor": "PMC11833055_15913_15920",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 180,
+      "label": "hindlim",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Brain transcriptomics",
+        "sentence_id": 110,
+        "char_start": 15954,
+        "char_end": 15961,
+        "anchor": "PMC11833055_15954_15961",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 181,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Brain transcriptomics",
+        "sentence_id": 110,
+        "char_start": 16005,
+        "char_end": 16008,
+        "anchor": "PMC11833055_16005_16008",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 183,
+      "label": "Tri",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Brain transcriptomics",
+        "sentence_id": 110,
+        "char_start": 16041,
+        "char_end": 16044,
+        "anchor": "PMC11833055_16041_16044",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 185,
+      "label": "xylazine",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Brain transcriptomics",
+        "sentence_id": 110,
+        "char_start": 16281,
+        "char_end": 16289,
+        "anchor": "PMC11833055_16281_16289",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 186,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Brain transcriptomics",
+        "sentence_id": 110,
+        "char_start": 16005,
+        "char_end": 16008,
+        "anchor": "PMC11833055_16005_16008",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 188,
+      "label": "GeneLab",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Brain transcriptomics",
+        "sentence_id": 110,
+        "char_start": 16076,
+        "char_end": 16083,
+        "anchor": "PMC11833055_16076_16083",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 125,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 179,
+      "target": 180
+    },
+    {
+      "id": 126,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 179,
+      "target": 181
+    },
+    {
+      "id": 127,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 179,
+      "target": 183
+    },
+    {
+      "id": 128,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 179,
+      "target": 185
+    },
+    {
+      "id": 129,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 179,
+      "target": 186
+    },
+    {
+      "id": 130,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 179,
+      "target": 188
+    },
+    {
+      "id": 131,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 180,
+      "target": 181
+    },
+    {
+      "id": 132,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 180,
+      "target": 183
+    },
+    {
+      "id": 133,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 180,
+      "target": 185
+    },
+    {
+      "id": 134,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 180,
+      "target": 186
+    },
+    {
+      "id": 135,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 180,
+      "target": 188
+    },
+    {
+      "id": 136,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 181,
+      "target": 183
+    },
+    {
+      "id": 137,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 181,
+      "target": 185
+    },
+    {
+      "id": 138,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 181,
+      "target": 186
+    },
+    {
+      "id": 139,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 181,
+      "target": 188
+    },
+    {
+      "id": 140,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 183,
+      "target": 185
+    },
+    {
+      "id": 141,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 183,
+      "target": 186
+    },
+    {
+      "id": 142,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 183,
+      "target": 188
+    },
+    {
+      "id": 143,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 185,
+      "target": 186
+    },
+    {
+      "id": 144,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 185,
+      "target": 188
+    },
+    {
+      "id": 145,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 186,
+      "target": 188
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 8,
+      "removed_orphans": 13,
+      "largest_component": 7,
+      "removed_components": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 3
+  }
+}

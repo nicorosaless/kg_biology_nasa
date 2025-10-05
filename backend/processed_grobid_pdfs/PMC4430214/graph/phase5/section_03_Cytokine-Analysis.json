@@ -1,0 +1,114 @@
+{
+  "paper_id": "PMC4430214",
+  "section": "Cytokine Analysis",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 176,
+      "label": "protocol",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytokine Analysis",
+        "sentence_id": 55,
+        "char_start": 11119,
+        "char_end": 11127,
+        "anchor": "PMC4430214_11119_11127",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 180,
+      "label": "DuoSet",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytokine Analysis",
+        "sentence_id": 55,
+        "char_start": 11070,
+        "char_end": 11076,
+        "anchor": "PMC4430214_11070_11076",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 181,
+      "label": "IFN",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytokine Analysis",
+        "sentence_id": 55,
+        "char_start": 11265,
+        "char_end": 11268,
+        "anchor": "PMC4430214_11265_11268",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 175,
+      "label": "DuoSet",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytokine Analysis",
+        "sentence_id": 55,
+        "char_start": 11070,
+        "char_end": 11076,
+        "anchor": "PMC4430214_11070_11076",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 181,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 175,
+      "target": 176
+    },
+    {
+      "id": 182,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 175,
+      "target": 180
+    },
+    {
+      "id": 183,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 175,
+      "target": 181
+    },
+    {
+      "id": 184,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 176,
+      "target": 180
+    },
+    {
+      "id": 185,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 176,
+      "target": 181
+    },
+    {
+      "id": 186,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 180,
+      "target": 181
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 4,
+      "largest_component": 4
+    },
+    "page": 4
+  }
+}

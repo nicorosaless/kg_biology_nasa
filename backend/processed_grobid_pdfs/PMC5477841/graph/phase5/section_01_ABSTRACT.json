@@ -1,0 +1,84 @@
+{
+  "paper_id": "PMC5477841",
+  "section": "ABSTRACT",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 20,
+      "label": "Her",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 9,
+        "char_start": 1731,
+        "char_end": 1734,
+        "anchor": "PMC5477841_1731_1734",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 21,
+      "label": "annulus",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 9,
+        "char_start": 1758,
+        "char_end": 1765,
+        "anchor": "PMC5477841_1758_1765",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 23,
+      "label": "damaged",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 9,
+        "char_start": 1809,
+        "char_end": 1816,
+        "anchor": "PMC5477841_1809_1816",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 20,
+      "target": 21
+    },
+    {
+      "id": 2,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 20,
+      "target": 23
+    },
+    {
+      "id": 3,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 21,
+      "target": 23
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 20,
+      "largest_component": 3,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 2
+  }
+}

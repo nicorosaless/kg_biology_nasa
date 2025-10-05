@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC11673879",
+  "section": "Growth at 43",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 289,
+      "label": "strains",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Growth at 43",
+        "sentence_id": 119,
+        "char_start": 20033,
+        "char_end": 20040,
+        "anchor": "PMC11673879_20033_20040",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 290,
+      "label": "plateau",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Growth at 43",
+        "sentence_id": 119,
+        "char_start": 20051,
+        "char_end": 20058,
+        "anchor": "PMC11673879_20051_20058",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 201,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 289,
+      "target": 290
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 5,
+      "largest_component": 2
+    },
+    "page": 7
+  }
+}

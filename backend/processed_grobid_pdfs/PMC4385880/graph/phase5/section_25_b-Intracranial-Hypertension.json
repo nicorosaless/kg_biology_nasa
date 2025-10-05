@@ -1,0 +1,256 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "b) Intracranial Hypertension",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 2946,
+      "label": "ICP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "b) Intracranial Hypertension",
+        "sentence_id": 978,
+        "char_start": 160686,
+        "char_end": 160689,
+        "anchor": "PMC4385880_160686_160689",
+        "page": 75,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2948,
+      "label": "swelling",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "b) Intracranial Hypertension",
+        "sentence_id": 978,
+        "char_start": 160713,
+        "char_end": 160721,
+        "anchor": "PMC4385880_160713_160721",
+        "page": 75,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2950,
+      "label": "pressure",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "b) Intracranial Hypertension",
+        "sentence_id": 978,
+        "char_start": 160815,
+        "char_end": 160823,
+        "anchor": "PMC4385880_160815_160823",
+        "page": 75,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2952,
+      "label": "impaired",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "b) Intracranial Hypertension",
+        "sentence_id": 978,
+        "char_start": 160857,
+        "char_end": 160865,
+        "anchor": "PMC4385880_160857_160865",
+        "page": 75,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2954,
+      "label": "neurons",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "b) Intracranial Hypertension",
+        "sentence_id": 978,
+        "char_start": 160883,
+        "char_end": 160890,
+        "anchor": "PMC4385880_160883_160890",
+        "page": 75,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2955,
+      "label": "ICP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "b) Intracranial Hypertension",
+        "sentence_id": 978,
+        "char_start": 160686,
+        "char_end": 160689,
+        "anchor": "PMC4385880_160686_160689",
+        "page": 75,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2956,
+      "label": "CSF",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "b) Intracranial Hypertension",
+        "sentence_id": 978,
+        "char_start": 160751,
+        "char_end": 160754,
+        "anchor": "PMC4385880_160751_160754",
+        "page": 75,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 2726,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2946,
+      "target": 2948
+    },
+    {
+      "id": 2727,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2946,
+      "target": 2950
+    },
+    {
+      "id": 2728,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2946,
+      "target": 2952
+    },
+    {
+      "id": 2729,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2946,
+      "target": 2954
+    },
+    {
+      "id": 2730,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2946,
+      "target": 2955
+    },
+    {
+      "id": 2731,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2946,
+      "target": 2956
+    },
+    {
+      "id": 2733,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2948,
+      "target": 2950
+    },
+    {
+      "id": 2734,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2948,
+      "target": 2952
+    },
+    {
+      "id": 2735,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2948,
+      "target": 2954
+    },
+    {
+      "id": 2736,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2948,
+      "target": 2955
+    },
+    {
+      "id": 2737,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2948,
+      "target": 2956
+    },
+    {
+      "id": 2739,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2950,
+      "target": 2952
+    },
+    {
+      "id": 2740,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2950,
+      "target": 2954
+    },
+    {
+      "id": 2741,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2950,
+      "target": 2955
+    },
+    {
+      "id": 2742,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2950,
+      "target": 2956
+    },
+    {
+      "id": 2744,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2952,
+      "target": 2954
+    },
+    {
+      "id": 2745,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2952,
+      "target": 2955
+    },
+    {
+      "id": 2746,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2952,
+      "target": 2956
+    },
+    {
+      "id": 2748,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2954,
+      "target": 2955
+    },
+    {
+      "id": 2749,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2954,
+      "target": 2956
+    },
+    {
+      "id": 2751,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2955,
+      "target": 2956
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 6,
+      "removed_orphans": 10,
+      "largest_component": 7,
+      "removed_components": [
+        5,
+        5,
+        3,
+        3,
+        2
+      ]
+    },
+    "page": 75
+  }
+}

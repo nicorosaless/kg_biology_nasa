@@ -1,0 +1,85 @@
+{
+  "paper_id": "PMC5477841",
+  "section": "Histology",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 137,
+      "label": "Safra",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Histology",
+        "sentence_id": 50,
+        "char_start": 9140,
+        "char_end": 9145,
+        "anchor": "PMC5477841_9140_9145",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 138,
+      "label": "oglycan",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Histology",
+        "sentence_id": 50,
+        "char_start": 9225,
+        "char_end": 9232,
+        "anchor": "PMC5477841_9225_9232",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 139,
+      "label": "Safranin",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Histology",
+        "sentence_id": 50,
+        "char_start": 9168,
+        "char_end": 9176,
+        "anchor": "PMC5477841_9168_9176",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 65,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 137,
+      "target": 138
+    },
+    {
+      "id": 66,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 137,
+      "target": 139
+    },
+    {
+      "id": 67,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 138,
+      "target": 139
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 18,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        2
+      ]
+    },
+    "page": 7
+  }
+}

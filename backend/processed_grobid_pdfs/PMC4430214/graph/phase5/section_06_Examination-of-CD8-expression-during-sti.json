@@ -1,0 +1,81 @@
+{
+  "paper_id": "PMC4430214",
+  "section": "Examination of CD8 expression during stimulation is divided between CD8lo and CD8hi populations.",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 344,
+      "label": "culture",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Examination of CD8 expression during stimulation is divided between CD8lo and CD8hi populations.",
+        "sentence_id": 96,
+        "char_start": 18364,
+        "char_end": 18371,
+        "anchor": "PMC4430214_18364_18371",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 340,
+      "label": "CD8hi",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Examination of CD8 expression during stimulation is divided between CD8lo and CD8hi populations.",
+        "sentence_id": 96,
+        "char_start": 18208,
+        "char_end": 18213,
+        "anchor": "PMC4430214_18208_18213",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 343,
+      "label": "controls",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Examination of CD8 expression during stimulation is divided between CD8lo and CD8hi populations.",
+        "sentence_id": 96,
+        "char_start": 18348,
+        "char_end": 18356,
+        "anchor": "PMC4430214_18348_18356",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 340,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 340,
+      "target": 343
+    },
+    {
+      "id": 341,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 340,
+      "target": 344
+    },
+    {
+      "id": 342,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 343,
+      "target": 344
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 7,
+      "largest_component": 3
+    },
+    "page": 6
+  }
+}

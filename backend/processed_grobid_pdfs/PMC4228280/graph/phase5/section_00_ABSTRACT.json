@@ -1,0 +1,84 @@
+{
+  "paper_id": "PMC4228280",
+  "section": "ABSTRACT",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 0,
+      "label": "bacteria",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 0,
+        "char_start": 36,
+        "char_end": 44,
+        "anchor": "PMC4228280_36_44",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1,
+      "label": "Mir",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 0,
+        "char_start": 67,
+        "char_end": 70,
+        "anchor": "PMC4228280_67_70",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2,
+      "label": "Mir",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 0,
+        "char_start": 67,
+        "char_end": 70,
+        "anchor": "PMC4228280_67_70",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "id": 1,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "id": 2,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1,
+      "target": 2
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 14,
+      "largest_component": 3,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 1
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMC10889206",
+  "section": "Synthetic REAGENT",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 499,
+      "label": "ethanol",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental Protocol",
+        "sentence_id": 119,
+        "char_start": 23274,
+        "char_end": 23281,
+        "anchor": "PMC10889206_23274_23281",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 562,
+      "label": "ethanol",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Histomorphometry",
+        "sentence_id": 128,
+        "char_start": 25864,
+        "char_end": 25871,
+        "anchor": "PMC10889206_25864_25871",
+        "page": 11,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-499-562",
+      "type": "ASSOCIATED",
+      "source": 499,
+      "target": 562
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "REAGENT",
+    "page": null
+  }
+}

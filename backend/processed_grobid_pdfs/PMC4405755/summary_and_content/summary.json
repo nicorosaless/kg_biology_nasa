@@ -1,0 +1,296 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "Skeletal muscle atrophy during disuse is driven by imbalances in protein synthesis and degradation, but the underlying triggers remain unclear. While oxidative stress has been challenged as a primary trigger, mitochondrial dysfunction is emerging as a potential causative factor. Mitochondrial fusion and fission, regulated by PGC-1α, are critical for mitochondrial function. This study investigates whether mitochondrial dysfunction triggers disuse-induced muscle atrophy in the fast gastrocnemius muscle, focusing on the role of mitochondrial fusion proteins and AMPK activation.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Figure 1.CSA is reduced in gastrocnemius in the early phases of HU A, quantification of average fibre area from haematoxylin and eosin-stained gastrocnemius muscle from control mice (C) and mice unloaded for 3 days (HU-3)",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.jpeg"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Figure 2.",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.jpeg"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Figure 4.The AMPK pathway is activated early during HU in gastrocnemius muscle Determination of the activation level of AMP-kinase (A) and of ACC (B) by Western blot measuring the ratio between the phosphorylated (p) and",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.jpeg"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Figure 5.In transgenic mice, PGC-1α levels are maintained during HU A, quantification of mRNA levels of PGC-1α in WT and transgenic mice.B, quantification of protein levels of PGC-1α by Western blot in WT and transgenic",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.jpeg"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "CSA Reduced in Early HU Phases",
+      "summary": "Gastrocnemius muscle fiber cross-sectional area (CSA) decreased by 14% and 12% after 3 and 7 days of hindlimb unloading (HU), respectively. The analyzed muscle portion predominantly contained MHC isoform IIB.",
+      "figures": []
+    },
+    {
+      "heading": "Antioxidant Defense System Response",
+      "summary": "The antioxidant defense system reacted efficiently to the initial ROS increase. Early upregulation of SOD1 and catalase was observed at 3 and 7 days of HU, with no significant changes in H2O2 concentration or protein carbonylation levels compared to controls.",
+      "figures": []
+    },
+    {
+      "heading": "Mitochondrial Fusion Impairment",
+      "summary": "PGC-1α mRNA and protein expression remained unchanged during HU. DRP1 protein levels also did not change. However, a mismatch between CS protein level and activity was observed at day 3 of HU. OXPHOS capacity was impaired at both 3 and 7 days, suggesting mitochondrial dysfunction. Pro-fusion proteins Mfn1, Mfn2, and OPA1 levels were significantly lower in HU animals, indicating altered mitochondrial network dynamics.",
+      "figures": [],
+      "equations": [
+        {
+          "id": "eq_1",
+          "text": "0.9 1.8 * † CS activity CS protein E F G 0.0 0.7 1.4 * * * * * Mfn-1 Mfn-2 OPA-1 mRNA H C H U -3 H U -7 C H U -3 H U -7 C H U -3 H U -7 C H U -3 H U -7 C H U -3 H U -7 C H U -3 H U -7 C H U -3 H U -7 C H U -3 H U -7 C H U -3 H U -7 C H U -3 H U -7 C H U -3 H U -7 C H U -3 H U -7 C H U -3 H U -7 C H U -3 H U -7 * Figure 3. Mitochondrial",
+          "latex_inline": "0.9 1.8 * † CS activity CS protein E_{F} G 0.0 0.7 1.4 * * * * * Mfn^{ - 1} Mfn^{ - 2} OPA^{ - 1} mRNA H_{C} H_{U}^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7} * Figure 3. Mitochondrial",
+          "latex_display": "0.9 1.8 * † CS activity CS protein E_{F} G 0.0 0.7 1.4 * * * * * Mfn^{ - 1} Mfn^{ - 2} OPA^{ - 1} mRNA H_{C} H_{U}^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7} * Figure 3. Mitochondrial",
+          "type": "general",
+          "order": 43
+        }
+      ]
+    },
+    {
+      "heading": "AMPK Pathway Activation",
+      "summary": "The AMPK pathway was activated early during HU. The activation levels of AMPK and ACC, measured by the ratio between phosphorylated and total forms, were significantly increased at 3 and 7 days of HU, indicating energy stress and potential catabolic activation. The AMPK pathway activation is shown in Fig. 4",
+      "figures": [],
+      "equations": [
+        {
+          "id": "eq_2",
+          "text": "p-Protein/protein p-Protein/protein 0.0 0.5 1.0 * pACC/ACC 0.0 0.7 1.4 * pAMPK/AMPK A B C H U -3 H U -7 C H U -3 H U -7",
+          "latex_inline": "p - Protein/protein p - Protein/protein 0.0 0.5 1.0 * pACC/ACC 0.0 0.7 1.4 * pAMPK/AMPK A_{B} C_{H} U^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7}",
+          "latex_display": "p - \\\\dfrac{Protein}{protein} p - \\\\dfrac{Protein}{protein} 0.0 0.5 1.0 * \\\\dfrac{pACC}{ACC} 0.0 0.7 1.4 * \\\\dfrac{pAMPK}{AMPK} A_{B} C_{H} U^{ - 3} H_{U}^{ - 7} C_{H} U^{ - 3} H_{U}^{ - 7}",
+          "type": "general",
+          "order": 47
+        }
+      ]
+    },
+    {
+      "heading": "PGC-1α Maintained in Transgenic Mice",
+      "summary": "Muscle-specific transgenic mice overexpressing PGC-1α were used to elucidate the role of Mfn2 expression. PGC-1α mRNA and protein levels were higher in Tg-PGC-1α gastrocnemius compared to wild-type (WT) mice, and this overexpression was maintained during 14 days of HU.",
+      "figures": [],
+      "equations": [
+        {
+          "id": "eq_3",
+          "text": "C 0.0 1.5 3.0 * # # 0.0 C H U 1 4 C -T g P G C 1 α H U 1 4 -T g P G C 1 α C H U 1 4 C -T g P G C 1 α H U 1 4 -T g P G C 1 α 0.1 1.2 # * # mRNA Protein level B A HU14-TgPGC1α HU14 C PGC1-α α-tub HU14-TgPGC1α C-TgPGC1α",
+          "latex_inline": "C 0.0 1.5 3.0 * # # 0.0 C_{H} U 1 4 C - T_{g} P_{G} C 1 \\\\alpha H_{U} 1 4 - T_{g} P_{G} C 1 \\\\alpha C_{H} U 1 4 C - T_{g} P_{G} C 1 \\\\alpha H_{U} 1 4 - T_{g} P_{G} C 1 \\\\alpha 0.1 1.2 # * # mRNA Protein level B_{A} HU14 - TgPGC1\\\\alpha HU14 C PGC1 - \\\\alpha \\\\alpha - tub HU14 - TgPGC1\\\\alpha C - TgPGC1\\\\alpha",
+          "latex_display": "C 0.0 1.5 3.0 * # # 0.0 C_{H} U 1 4 C - T_{g} P_{G} C 1 \\\\alpha H_{U} 1 4 - T_{g} P_{G} C 1 \\\\alpha C_{H} U 1 4 C - T_{g} P_{G} C 1 \\\\alpha H_{U} 1 4 - T_{g} P_{G} C 1 \\\\alpha 0.1 1.2 # * # mRNA Protein level B_{A} HU14 - TgPGC1\\\\alpha HU14 C PGC1 - \\\\alpha \\\\alpha - tub HU14 - TgPGC1\\\\alpha C - TgPGC1\\\\alpha",
+          "type": "general",
+          "order": 10000
+        }
+      ]
+    },
+    {
+      "heading": "PGC-1α Preserves Muscle Mass",
+      "summary": "Elevated muscle PGC-1α completely prevented muscle atrophy induced by HU, with no significant difference in gastrocnemius fiber CSA between Tg-PGC-1α mice and controls. Catabolic systems were induced at 3 days of HU in WT mice, but PGC-1α overexpression completely blunted the upregulation of MuRF-1, atrogin-1, beclin1, and p62 genes. No significant changes in LC3-II/LC3-I ratio were found in unloaded TgPGC-1α samples, and the anabolic pathway remained unaffected.",
+      "figures": [],
+      "equations": [
+        {
+          "id": "eq_4",
+          "text": "0 C H U -3 C -T g P G C 1 α H U 1 4 -T g P G C 1 α H U 3 -T g P G C 1 α1250",
+          "latex_inline": "0 C_{H} U^{ - 3} C - T_{g} P_{G} C 1 \\\\alpha H_{U} 1 4 - T_{g} P_{G} C 1 \\\\alpha H_{U} 3 - T_{g} P_{G} C 1 \\\\alpha1250",
+          "latex_display": "0 C_{H} U^{ - 3} C - T_{g} P_{G} C 1 \\\\alpha H_{U} 1 4 - T_{g} P_{G} C 1 \\\\alpha H_{U} 3 - T_{g} P_{G} C 1 \\\\alpha1250",
+          "type": "general",
+          "order": 55,
+          "label": "1250"
+        },
+        {
+          "id": "eq_5",
+          "text": "0 5 10 * * * * # MuRF-1 atrogin-1 Beclin1 p62 0.0 0.7 1.4 A mRNA LC3II/LC3I B 0.0 0.7 1.4 pAKT/AKT pS6R/S6R p4EBP1/4EBP1 p-Protein / protein C C-TgPGC1α HU-3-TgPGC1α AKT p-AKT 4EBP1 p-4EBP1 S6 p-S6 C HU-3 D C H U -3 C -T g P G C 1 α H U 3 -T g P G C 1 α C H U -3 C -T g P G C 1 α H U 3 -T g P G C 1 α C H U -3 C -T g P G C 1 α H U 3 -T g P G C 1 α C H U -3 C -T g P G C 1 α H U 3 -T g P G C 1 α C H U -3 C -T g P G C 1 α H U 3 -T g P G C 1 α C H U -3 C -T g P G C 1 α H U 3 -T g P G C 1 α C H U -3 C -T g P G C 1 α C -T g P G C 1 α H U 3 -T g P G C 1 α H U 3 -T g P G C 1 α",
+          "latex_inline": "0 5 10 * * * * # MuRF^{ - 1} atrogin^{ - 1} Beclin1 p62 0.0 0.7 1.4 A_{mRNA} LC3II/LC3I B 0.0 0.7 1.4 pAKT/AKT pS6R/S6R p4EBP1/4EBP1 p - Protein / protein C_{C} - TgPGC1\\\\alpha HU^{ - 3} - TgPGC1\\\\alpha AKT p - AKT 4EBP1 p^{ - 4}EBP1 S6 p - S6 C_{HU}^{ - 3} D_{C} H_{U}^{ - 3} C - T_{g} P_{G} C 1 \\\\alpha H_{U} 3 - T_{g} P_{G} C 1 \\\\alpha C_{H} U^{ - 3} C - T_{g} P_{G} C 1 \\\\alpha H_{U} 3 - T_{g} P_{G} C 1 \\\\alpha C_{H} U^{ - 3} C - T_{g} P_{G} C 1 \\\\alpha H_{U} 3 - T_{g} P_{G} C 1 \\\\alpha C_{H} U^{ - 3} C - T_{g} P_{G} C 1 \\\\alpha H_{U} 3 - T_{g} P_{G} C 1 \\\\alpha C_{H} U^{ - 3} C - T_{g} P_{G} C 1 \\\\alpha H_{U} 3 - T_{g} P_{G} C 1 \\\\alpha C_{H} U^{ - 3} C - T_{g} P_{G} C 1 \\\\alpha H_{U} 3 - T_{g} P_{G} C 1 \\\\alpha C_{H} U^{ - 3} C - T_{g} P_{G} C 1 \\\\alpha C - T_{g} P_{G} C 1 \\\\alpha H_{U} 3 - T_{g} P_{G} C 1 \\\\alpha H_{U} 3 - T_{g} P_{G} C 1 \\\\alpha",
+          "latex_display": "0 5 10 * * * * # MuRF^{ - 1} atrogin^{ - 1} Beclin1 p62 0.0 0.7 1.4 A_{mRNA} \\\\dfrac{LC3II}{LC3I} B 0.0 0.7 1.4 \\\\dfrac{pAKT}{AKT} \\\\dfrac{pS6R}{S6R} \\\\dfrac{p4EBP1}{4EBP1} p - \\\\dfrac{Protein}{protein} C_{C} - TgPGC1\\\\alpha HU^{ - 3} - TgPGC1\\\\alpha AKT p - AKT 4EBP1 p^{ - 4}EBP1 S6 p - S6 C_{HU}^{ - 3} D_{C} H_{U}^{ - 3} C - T_{g} P_{G} C 1 \\\\alpha H_{U} 3 - T_{g} P_{G} C 1 \\\\alpha C_{H} U^{ - 3} C - T_{g} P_{G} C 1 \\\\alpha H_{U} 3 - T_{g} P_{G} C 1 \\\\alpha C_{H} U^{ - 3} C - T_{g} P_{G} C 1 \\\\alpha H_{U} 3 - T_{g} P_{G} C 1 \\\\alpha C_{H} U^{ - 3} C - T_{g} P_{G} C 1 \\\\alpha H_{U} 3 - T_{g} P_{G} C 1 \\\\alpha C_{H} U^{ - 3} C - T_{g} P_{G} C 1 \\\\alpha H_{U} 3 - T_{g} P_{G} C 1 \\\\alpha C_{H} U^{ - 3} C - T_{g} P_{G} C 1 \\\\alpha H_{U} 3 - T_{g} P_{G} C 1 \\\\alpha C_{H} U^{ - 3} C - T_{g} P_{G} C 1 \\\\alpha C - T_{g} P_{G} C 1 \\\\alpha H_{U} 3 - T_{g} P_{G} C 1 \\\\alpha H_{U} 3 - T_{g} P_{G} C 1 \\\\alpha",
+          "type": "general",
+          "order": 10000
+        }
+      ]
+    },
+    {
+      "heading": "PGC-1α Prevents Pro-Fusion Downregulation",
+      "summary": "PGC-1α overexpression completely prevented the decrease of Mfn1, Mfn2, and OPA1, and the increase of ACC in HU muscles, thus preserving mitochondrial fusion proteins, blocking the energy-stress pathway, and preventing muscle atrophy.",
+      "equations": [
+        {
+          "id": "eq_6",
+          "text": "0 1 2 * * * Mfn-1 Mfn-2 OPA-1 0.0 0.7 1.4 * pACC/ACC mRNA p-Protein/protein A B C H U -3 C -T g P G C 1 α H U 3 -T g P G C 1 α C H U -3 C -T g P G C 1 α H U 3 -T g P G C 1 α C H U -3 C -T g P G C 1 α H U 3 -T g P G C 1 α C H U -3 C -T g P G C 1 α H U 3 -T g P G C 1 α",
+          "latex_inline": "0 1 2 * * * Mfn^{ - 1} Mfn^{ - 2} OPA^{ - 1} 0.0 0.7 1.4 * pACC/ACC mRNA p - Protein/protein A_{B} C_{H} U^{ - 3} C - T_{g} P_{G} C 1 \\\\alpha H_{U} 3 - T_{g} P_{G} C 1 \\\\alpha C_{H} U^{ - 3} C - T_{g} P_{G} C 1 \\\\alpha H_{U} 3 - T_{g} P_{G} C 1 \\\\alpha C_{H} U^{ - 3} C - T_{g} P_{G} C 1 \\\\alpha H_{U} 3 - T_{g} P_{G} C 1 \\\\alpha C_{H} U^{ - 3} C - T_{g} P_{G} C 1 \\\\alpha H_{U} 3 - T_{g} P_{G} C 1 \\\\alpha",
+          "latex_display": "0 1 2 * * * Mfn^{ - 1} Mfn^{ - 2} OPA^{ - 1} 0.0 0.7 1.4 * \\\\dfrac{pACC}{ACC} mRNA p - \\\\dfrac{Protein}{protein} A_{B} C_{H} U^{ - 3} C - T_{g} P_{G} C 1 \\\\alpha H_{U} 3 - T_{g} P_{G} C 1 \\\\alpha C_{H} U^{ - 3} C - T_{g} P_{G} C 1 \\\\alpha H_{U} 3 - T_{g} P_{G} C 1 \\\\alpha C_{H} U^{ - 3} C - T_{g} P_{G} C 1 \\\\alpha H_{U} 3 - T_{g} P_{G} C 1 \\\\alpha C_{H} U^{ - 3} C - T_{g} P_{G} C 1 \\\\alpha H_{U} 3 - T_{g} P_{G} C 1 \\\\alpha",
+          "type": "general",
+          "order": 10000
+        }
+      ]
+    },
+    {
+      "heading": "Discussion",
+      "summary": "Disuse-induced muscle atrophy is a complex process with debated mechanisms. This study supports the idea that a metabolic program plays a major role, but through different pathways in slow (soleus) and fast (gastrocnemius) muscles. In soleus, atrophy is driven by a fall in PGC-1α expression, leading to atrogene induction via FoxO3 disinhibition. In gastrocnemius, the primary event is the downregulation of pro-fusion proteins, causing energy stress and atrogene induction through AMPK activation. The higher efficacy of resistance training could be due to the maintenance of PGC-1alpha levels."
+    },
+    {
+      "heading": "Oxidative Stress and Disuse Atrophy",
+      "summary": "",
+      "figures": []
+    },
+    {
+      "heading": "Mitochondrial Fission/Fusion Imbalance",
+      "summary": "",
+      "figures": []
+    },
+    {
+      "heading": "PGC-1α Overexpression Role",
+      "summary": "",
+      "figures": []
+    }
+  ],
+  "conclusion": "A metabolic program plays a significant role in triggering disuse muscle atrophy in both slow and fast muscles, but through different pathways. In soleus, the primary event is a fall in PGC-1α expression, whereas in gastrocnemius, it is a downregulation of pro-fusion proteins, leading to energy stress and AMPK activation. PGC-1α levels higher than basal are necessary to increase pro-fusion proteins, thus preventing gastrocnemius muscle atrophy during disuse.",
+  "keywords": [
+    "muscle atrophy",
+    "mitochondrial dysfunction",
+    "hindlimb unloading",
+    "pgc-1α",
+    "ampk",
+    "mfn2",
+    "gastrocnemius",
+    "fusion proteins",
+    "oxidative stress",
+    "atrogenes"
+  ],
+  "topics": [
+    "muscle physiology",
+    "mitochondrial dynamics",
+    "metabolic regulation"
+  ],
+  "_meta": {
+    "paper_id": "sha256:ba634e9d6af7febb21b85f09ff2c9d33c40d60635eb79dfc39775cfb65ae45a2",
+    "paper_title": "The Journal of Physiology The role of alterations in mitochondrial dynamics and PGC-1α over-expression in fast",
+    "generated_at": "2025-10-05T10:43:16Z",
+    "word_count": 485,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [
+      "eq_1",
+      "eq_2",
+      "eq_3",
+      "eq_4",
+      "eq_5",
+      "eq_6"
+    ],
+    "keywords": [
+      "muscle atrophy",
+      "mitochondrial dysfunction",
+      "hindlimb unloading",
+      "pgc-1α",
+      "ampk",
+      "mfn2",
+      "gastrocnemius",
+      "fusion proteins",
+      "oxidative stress",
+      "atrogenes"
+    ],
+    "topics": [
+      "muscle physiology",
+      "mitochondrial dynamics",
+      "metabolic regulation"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 6,
+      "final_count": 6,
+      "discarded_count": 0,
+      "coverage_ratio": 1.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {
+        "general": 6
+      },
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 9330,
+      "completion_tokens": 1382,
+      "total_tokens": 10712,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000933,
+      "output_usd": 0.000553,
+      "total_usd": 0.001486
+    },
+    "cost": {
+      "input_usd": 0.000933,
+      "output_usd": 0.000553,
+      "total_usd": 0.001486
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [
+        {
+          "id": "fig_4",
+          "score": -9999,
+          "caption_wc": 67
+        },
+        {
+          "id": "fig_5",
+          "score": -9999,
+          "caption_wc": 57
+        },
+        {
+          "id": "fig_6",
+          "score": -9999,
+          "caption_wc": 109
+        },
+        {
+          "id": "fig_2",
+          "score": -9999,
+          "caption_wc": 77
+        },
+        {
+          "id": "fig_8",
+          "score": -9999,
+          "caption_wc": 99
+        },
+        {
+          "id": "fig_7",
+          "score": -9999,
+          "caption_wc": 60
+        }
+      ],
+      "corrupted_detected": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_3",
+        "fig_4",
+        "fig_5",
+        "fig_6",
+        "fig_2",
+        "fig_8",
+        "fig_7"
+      ],
+      "original_total": 10,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

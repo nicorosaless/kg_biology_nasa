@@ -1,0 +1,114 @@
+{
+  "paper_id": "PMC5955502",
+  "section": "DNA total methylation level",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 328,
+      "label": "control",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA total methylation level",
+        "sentence_id": 82,
+        "char_start": 17884,
+        "char_end": 17891,
+        "anchor": "PMC5955502_17884_17891",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 329,
+      "label": "cardiac",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA total methylation level",
+        "sentence_id": 82,
+        "char_start": 17925,
+        "char_end": 17932,
+        "anchor": "PMC5955502_17925_17932",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 332,
+      "label": "changes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA total methylation level",
+        "sentence_id": 82,
+        "char_start": 18153,
+        "char_end": 18160,
+        "anchor": "PMC5955502_18153_18160",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 333,
+      "label": "MspI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA total methylation level",
+        "sentence_id": 82,
+        "char_start": 18182,
+        "char_end": 18186,
+        "anchor": "PMC5955502_18182_18186",
+        "page": 9,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 414,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 328,
+      "target": 329
+    },
+    {
+      "id": 415,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 328,
+      "target": 332
+    },
+    {
+      "id": 416,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 328,
+      "target": 333
+    },
+    {
+      "id": 418,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 329,
+      "target": 332
+    },
+    {
+      "id": 419,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 329,
+      "target": 333
+    },
+    {
+      "id": 421,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 332,
+      "target": 333
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 5,
+      "largest_component": 4
+    },
+    "page": 9
+  }
+}

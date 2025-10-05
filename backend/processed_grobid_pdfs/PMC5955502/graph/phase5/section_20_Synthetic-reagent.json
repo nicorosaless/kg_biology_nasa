@@ -1,0 +1,94 @@
+{
+  "paper_id": "PMC5955502",
+  "section": "Synthetic REAGENT",
+  "n_nodes": 4,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 128,
+      "label": "Qiagen",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental design",
+        "sentence_id": 44,
+        "char_start": 9034,
+        "char_end": 9040,
+        "anchor": "PMC5955502_9034_9040",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 164,
+      "label": "Qiagen",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 48,
+        "char_start": 11104,
+        "char_end": 11110,
+        "anchor": "PMC5955502_11104_11110",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 166,
+      "label": "Qiagen",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 48,
+        "char_start": 11163,
+        "char_end": 11169,
+        "anchor": "PMC5955502_11163_11169",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 222,
+      "label": "Qiagen",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of DNA total methylation level using restriction analysis (MspI/HpaII)",
+        "sentence_id": 66,
+        "char_start": 13804,
+        "char_end": 13810,
+        "anchor": "PMC5955502_13804_13810",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-128-164",
+      "type": "ASSOCIATED",
+      "source": 128,
+      "target": 164
+    },
+    {
+      "id": "synth-128-166",
+      "type": "ASSOCIATED",
+      "source": 128,
+      "target": 166
+    },
+    {
+      "id": "synth-128-222",
+      "type": "ASSOCIATED",
+      "source": 128,
+      "target": 222
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "REAGENT",
+    "page": null
+  }
+}

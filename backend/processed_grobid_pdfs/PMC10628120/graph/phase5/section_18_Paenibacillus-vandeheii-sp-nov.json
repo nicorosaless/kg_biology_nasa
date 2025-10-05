@@ -1,0 +1,159 @@
+{
+  "paper_id": "PMC10628120",
+  "section": "Paenibacillus vandeheii sp. nov.",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 768,
+      "label": "Positive",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Paenibacillus vandeheii sp. nov.",
+        "sentence_id": 187,
+        "char_start": 37386,
+        "char_end": 37394,
+        "anchor": "PMC10628120_37386_37394",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 773,
+      "label": "Negative",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Paenibacillus vandeheii sp. nov.",
+        "sentence_id": 187,
+        "char_start": 37477,
+        "char_end": 37485,
+        "anchor": "PMC10628120_37477_37485",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 785,
+      "label": "alanine",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Paenibacillus vandeheii sp. nov.",
+        "sentence_id": 187,
+        "char_start": 37750,
+        "char_end": 37757,
+        "anchor": "PMC10628120_37750_37757",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 786,
+      "label": "arylami",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Paenibacillus vandeheii sp. nov.",
+        "sentence_id": 187,
+        "char_start": 37758,
+        "char_end": 37765,
+        "anchor": "PMC10628120_37758_37765",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 788,
+      "label": "Negative",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Paenibacillus vandeheii sp. nov.",
+        "sentence_id": 187,
+        "char_start": 37477,
+        "char_end": 37485,
+        "anchor": "PMC10628120_37477_37485",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1002,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 768,
+      "target": 773
+    },
+    {
+      "id": 1003,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 768,
+      "target": 785
+    },
+    {
+      "id": 1004,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 768,
+      "target": 786
+    },
+    {
+      "id": 1005,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 768,
+      "target": 788
+    },
+    {
+      "id": 1006,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 773,
+      "target": 785
+    },
+    {
+      "id": 1007,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 773,
+      "target": 786
+    },
+    {
+      "id": 1008,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 773,
+      "target": 788
+    },
+    {
+      "id": 1009,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 785,
+      "target": 786
+    },
+    {
+      "id": 1010,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 785,
+      "target": 788
+    },
+    {
+      "id": 1011,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 786,
+      "target": 788
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 24,
+      "largest_component": 5,
+      "removed_components": [
+        4,
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 8
+  }
+}

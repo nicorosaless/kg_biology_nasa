@@ -1,0 +1,145 @@
+{
+  "paper_id": "PMC7998608",
+  "section": "Primary Culture of hASCs",
+  "n_nodes": 9,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 34,
+      "label": "Carlsbad",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Primary Culture of hASCs",
+        "sentence_id": 34,
+        "char_start": 6240,
+        "char_end": 6248,
+        "anchor": "PMC7998608_6240_6248"
+      }
+    },
+    {
+      "id": 36,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Primary Culture of hASCs",
+        "sentence_id": 34,
+        "char_start": 6254,
+        "char_end": 6257,
+        "anchor": "PMC7998608_6254_6257"
+      }
+    },
+    {
+      "id": 37,
+      "label": "Germany",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Primary Culture of hASCs",
+        "sentence_id": 36,
+        "char_start": 6550,
+        "char_end": 6557,
+        "anchor": "PMC7998608_6550_6557"
+      }
+    },
+    {
+      "id": 38,
+      "label": "CD105",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Primary Culture of hASCs",
+        "sentence_id": 36,
+        "char_start": 6636,
+        "char_end": 6641,
+        "anchor": "PMC7998608_6636_6641"
+      }
+    },
+    {
+      "id": 22,
+      "label": "Osaka",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Primary Culture of hASCs",
+        "sentence_id": 29,
+        "char_start": 5588,
+        "char_end": 5593,
+        "anchor": "PMC7998608_5588_5593"
+      }
+    },
+    {
+      "id": 23,
+      "label": "Japan",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Primary Culture of hASCs",
+        "sentence_id": 29,
+        "char_start": 5595,
+        "char_end": 5600,
+        "anchor": "PMC7998608_5595_5600"
+      }
+    },
+    {
+      "id": 27,
+      "label": "SVF",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Primary Culture of hASCs",
+        "sentence_id": 30,
+        "char_start": 5677,
+        "char_end": 5680,
+        "anchor": "PMC7998608_5677_5680"
+      }
+    },
+    {
+      "id": 31,
+      "label": "SVF",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Primary Culture of hASCs",
+        "sentence_id": 31,
+        "char_start": 5784,
+        "char_end": 5787,
+        "anchor": "PMC7998608_5784_5787"
+      }
+    },
+    {
+      "id": 33,
+      "label": "Dulbecco",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Primary Culture of hASCs",
+        "sentence_id": 32,
+        "char_start": 5953,
+        "char_end": 5961,
+        "anchor": "PMC7998608_5953_5961"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 29,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 22,
+      "target": 23
+    },
+    {
+      "id": 47,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 34,
+      "target": 36
+    },
+    {
+      "id": 49,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 37,
+      "target": 38
+    }
+  ]
+}

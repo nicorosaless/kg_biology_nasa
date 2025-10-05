@@ -1,0 +1,203 @@
+{
+  "paper_id": "PMC5421618",
+  "section": "Experiment 1: Effect of Thermoneutral Housing on Bone in Female B6 Mice-",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 89,
+      "label": "The",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experiment 1: Effect of Thermoneutral Housing on Bone in Female B6 Mice-",
+        "sentence_id": 37,
+        "char_start": 6805,
+        "char_end": 6808,
+        "anchor": "PMC5421618_6805_6808",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 90,
+      "label": "oneutral",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experiment 1: Effect of Thermoneutral Housing on Bone in Female B6 Mice-",
+        "sentence_id": 37,
+        "char_start": 6810,
+        "char_end": 6818,
+        "anchor": "PMC5421618_6810_6818",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 91,
+      "label": "Housing",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experiment 1: Effect of Thermoneutral Housing on Bone in Female B6 Mice-",
+        "sentence_id": 37,
+        "char_start": 6819,
+        "char_end": 6826,
+        "anchor": "PMC5421618_6819_6826",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 92,
+      "label": "Bone",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experiment 1: Effect of Thermoneutral Housing on Bone in Female B6 Mice-",
+        "sentence_id": 37,
+        "char_start": 6830,
+        "char_end": 6834,
+        "anchor": "PMC5421618_6830_6834",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 93,
+      "label": "Female",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experiment 1: Effect of Thermoneutral Housing on Bone in Female B6 Mice-",
+        "sentence_id": 37,
+        "char_start": 6838,
+        "char_end": 6844,
+        "anchor": "PMC5421618_6838_6844",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 94,
+      "label": "Female",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experiment 1: Effect of Thermoneutral Housing on Bone in Female B6 Mice-",
+        "sentence_id": 37,
+        "char_start": 6838,
+        "char_end": 6844,
+        "anchor": "PMC5421618_6838_6844",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 26,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 89,
+      "target": 90
+    },
+    {
+      "id": 27,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 89,
+      "target": 91
+    },
+    {
+      "id": 28,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 89,
+      "target": 92
+    },
+    {
+      "id": 29,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 89,
+      "target": 93
+    },
+    {
+      "id": 30,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 89,
+      "target": 94
+    },
+    {
+      "id": 31,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 90,
+      "target": 91
+    },
+    {
+      "id": 32,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 90,
+      "target": 92
+    },
+    {
+      "id": 33,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 90,
+      "target": 93
+    },
+    {
+      "id": 34,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 90,
+      "target": 94
+    },
+    {
+      "id": 35,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 91,
+      "target": 92
+    },
+    {
+      "id": 36,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 91,
+      "target": 93
+    },
+    {
+      "id": 37,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 91,
+      "target": 94
+    },
+    {
+      "id": 38,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 92,
+      "target": 93
+    },
+    {
+      "id": 39,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 92,
+      "target": 94
+    },
+    {
+      "id": 40,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 93,
+      "target": 94
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 12,
+      "largest_component": 6,
+      "removed_components": [
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 4
+  }
+}

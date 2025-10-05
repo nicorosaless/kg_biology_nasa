@@ -1,0 +1,94 @@
+{
+  "paper_id": "PMC3554398",
+  "section": "Synthetic ANATOMICAL_SITE",
+  "n_nodes": 4,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 109,
+      "label": "cleanroom",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Sample collection",
+        "sentence_id": 24,
+        "char_start": 7878,
+        "char_end": 7887,
+        "anchor": "PMC3554398_7878_7887",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 113,
+      "label": "cleanroom",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Sample collection",
+        "sentence_id": 24,
+        "char_start": 7958,
+        "char_end": 7967,
+        "anchor": "PMC3554398_7958_7967",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 590,
+      "label": "SAF floor",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "RESULTS",
+        "sentence_id": 102,
+        "char_start": 26918,
+        "char_end": 26927,
+        "anchor": "PMC3554398_26918_26927",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 809,
+      "label": "outer membranes",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 137,
+        "char_start": 36816,
+        "char_end": 36831,
+        "anchor": "PMC3554398_36816_36831",
+        "page": 9,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-109-113",
+      "type": "ASSOCIATED",
+      "source": 109,
+      "target": 113
+    },
+    {
+      "id": "synth-109-590",
+      "type": "ASSOCIATED",
+      "source": 109,
+      "target": 590
+    },
+    {
+      "id": "synth-109-809",
+      "type": "ASSOCIATED",
+      "source": 109,
+      "target": 809
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "ANATOMICAL_SITE",
+    "page": null
+  }
+}

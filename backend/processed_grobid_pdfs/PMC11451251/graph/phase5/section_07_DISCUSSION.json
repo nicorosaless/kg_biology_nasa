@@ -1,0 +1,93 @@
+{
+  "paper_id": "PMC11451251",
+  "section": "DISCUSSION",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 387,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 132,
+        "char_start": 26780,
+        "char_end": 26783,
+        "anchor": "PMC11451251_26780_26783",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 388,
+      "label": "Mann",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 132,
+        "char_start": 26823,
+        "char_end": 26827,
+        "anchor": "PMC11451251_26823_26827",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 390,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 132,
+        "char_start": 26780,
+        "char_end": 26783,
+        "anchor": "PMC11451251_26780_26783",
+        "page": 9,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 339,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 387,
+      "target": 388
+    },
+    {
+      "id": 340,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 387,
+      "target": 390
+    },
+    {
+      "id": 341,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 388,
+      "target": 390
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 11,
+      "removed_orphans": 16,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 9
+  }
+}

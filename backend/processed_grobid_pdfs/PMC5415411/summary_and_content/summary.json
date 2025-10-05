@@ -1,0 +1,154 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "The endoplasmic reticulum (ER) is crucial for protein synthesis, phospholipid production, and stress signaling. Environmental stresses can disrupt protein folding in the ER, leading to ER stress and the accumulation of misfolded proteins. The unfolded protein response (UPR) is a signaling mechanism that prevents this accumulation. Plants rely heavily on the UPR due to their sessile nature, using it for growth, development, and stress responses. This review examines recent advances highlighting the UPR's significance in plant life.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Figure 1.Mechanisms of the plant UPR activation",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.jpeg"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Figure 2",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.jpeg"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "ER Quality Control and Important ER Client Proteins",
+      "summary": "The ER functions as a central factory, assembling proteins from amino acids and carbohydrates. ER quality control (ERQC) machinery monitors protein folding status and ensures protein quality. Nascent polypeptides are targeted to the ER via the Sec translocon, where chaperones like BiPs prevent premature folding. The OST complex adds N-linked glycans, contributing to protein stability. Properly folded proteins are then shipped for cellular functions.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "The Causes of ER Stress: Unavoidable Exogenous Threats",
+      "summary": "Enhancing the UPR is critical for maintaining crop productivity under adverse environmental conditions. Heat stress, chemical UPR inducers like tunicamycin, osmotic stress, and heavy metals can induce the UPR. The UPR also responds to pathogens and biotic stresses, such as salicylic acid (SA). SA activates both IRE1 and bZIP28-controlled arms of the UPR. Organelle-sourced reactive oxygen species (ROS) also influence the UPR.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "The Canonical Response to Unfolded Proteins: Master Regulators",
+      "summary": "Under stress, unfolded proteins activate the UPR via IRE1 and bZIP28. In yeast, BiP binds to IRE1 under normal conditions, but upon stress, BiP preferentially binds unfolded proteins, freeing IRE1. Unfolded proteins then bind to IRE1, causing oligomerization and autophosphorylation of its kinase domain, activating its ribonuclease domain. Activation of IRE1 results in the unconventional cytosolic splicing of bZIP60 mRNA. The tRNA ligase RLG1 completes the splicing of bZIP60 in vitro.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Future Exploration: bZIP60 and bZIP28 Mediate Epigenetic Modifications",
+      "summary": "The bzip60 bzip28 double mutant shows enhanced susceptibility to prolonged ER stress, suggesting functional redundancy and cooperativity. Both bZIP60 and bZIP28 localize to the nucleus and modulate the expression of UPR genes. They interact with Ash2 and WDR5a, core elements of the COMPASS complex, influencing histone methylation activities. Disruption of wdr5a and ash2 compromises the inducible expression of UPR responsive genes. H3K4 trimethylation marks accumulate on genes involved in heat stress memory.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Downstream Effectors during ER Stress",
+      "summary": "Nuclear translocation of spliced bZIP60 and cleaved bZIP28 increases transcription of genes coding for ER luminal proteins (BiP/Hsp70, ERdj/HSP40, HSP90). These proteins prevent aggregation, limit uncontrolled folding, and translocate misfolded proteins to the 26S proteasome via ER-associated degradation (ERAD). Plant-specific properties of ER luminal chaperone HSP90.7 (SHEPHERD/SHD) have been studied, showing it has specific functions in proliferating tissues and is upregulated under ER stress. The shd knockout mutant is phenotypically similar to clv mutants, which affects CLAVATA signaling.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "NAC Membrane Transcription Factors: Second Set of UPR Activators?",
+      "summary": "Plant-specific transcription factors, including ANAC062, ANAC103, and ANAC089, are involved in the response to ER stress. ANAC062 is proteolytically cleaved and nuclear localized in response to cold stress and is linked to pathogenesis-related gene expression. Overexpression of a truncated ANAC062 induces UPR chaperones. ANAC103 is transcriptionally induced under ER stress, and its overexpression induces UPR genes. ANAC089 promotes programmed cell death; RNAi lines targeting ANAC089 display resistance to tunicamycin-induced ER stress.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": "The UPR and ERQC are essential for maintaining ER homeostasis and enabling processes from heat stress adaptation to pathogen defense. Downstream effectors of the UPR regulate ER homeostatic genes and developmental processes. Future research should explore the UPR's role in signal transduction cascades involving reactive oxygen species and investigate canonical UPR functions in tissue-specific contexts to better understand its role in plant life.",
+  "keywords": [
+    "unfolded protein response",
+    "er stress",
+    "plant physiology",
+    "bzip60",
+    "ire1",
+    "er quality control",
+    "hsp90",
+    "nac transcription factors",
+    "protein folding",
+    "environmental stress"
+  ],
+  "topics": [
+    "plant stress response",
+    "cellular homeostasis",
+    "signal transduction"
+  ],
+  "_meta": {
+    "paper_id": "sha256:a746f4037a85e1b1da21cf721b6af8c47c68adddaf142e152f7c989bcedb2d32",
+    "paper_title": "Maintaining the Factory: The Roles of the Unfolded Protein Response in Cellular Homeostasis in Plants",
+    "generated_at": "2025-10-05T10:45:18Z",
+    "word_count": 495,
+    "figures": [
+      "fig_1",
+      "fig_2"
+    ],
+    "equations": [],
+    "keywords": [
+      "unfolded protein response",
+      "er stress",
+      "plant physiology",
+      "bzip60",
+      "ire1",
+      "er quality control",
+      "hsp90",
+      "nac transcription factors",
+      "protein folding",
+      "environmental stress"
+    ],
+    "topics": [
+      "plant stress response",
+      "cellular homeostasis",
+      "signal transduction"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 4345,
+      "completion_tokens": 1031,
+      "total_tokens": 5376,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000434,
+      "output_usd": 0.000412,
+      "total_usd": 0.000847
+    },
+    "cost": {
+      "input_usd": 0.000434,
+      "output_usd": 0.000412,
+      "total_usd": 0.000847
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [],
+      "corrupted_detected": [
+        "fig_1",
+        "fig_2"
+      ],
+      "original_total": 2,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2"
+      ]
+    }
+  }
+}

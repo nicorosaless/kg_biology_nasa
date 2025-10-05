@@ -1,0 +1,375 @@
+{
+  "paper_id": "PMC6130020",
+  "section": "Inhibition of Primary Root Growth in ANN1 and ANN2 Knockout Mutants Is Rescued by Exogenous Suc Independent of Its Osmotic Effects",
+  "n_nodes": 9,
+  "n_edges": 36,
+  "nodes": [
+    {
+      "id": 148,
+      "label": "ANN",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of Primary Root Growth in ANN1 and ANN2 Knockout Mutants Is Rescued by Exogenous Suc Independent of Its Osmotic Effects",
+        "sentence_id": 39,
+        "char_start": 9318,
+        "char_end": 9321,
+        "anchor": "PMC6130020_9318_9321",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 149,
+      "label": "ANN",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of Primary Root Growth in ANN1 and ANN2 Knockout Mutants Is Rescued by Exogenous Suc Independent of Its Osmotic Effects",
+        "sentence_id": 39,
+        "char_start": 9327,
+        "char_end": 9330,
+        "anchor": "PMC6130020_9327_9330",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 151,
+      "label": "mannitol",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of Primary Root Growth in ANN1 and ANN2 Knockout Mutants Is Rescued by Exogenous Suc Independent of Its Osmotic Effects",
+        "sentence_id": 39,
+        "char_start": 9492,
+        "char_end": 9500,
+        "anchor": "PMC6130020_9492_9500",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 153,
+      "label": "ANN",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of Primary Root Growth in ANN1 and ANN2 Knockout Mutants Is Rescued by Exogenous Suc Independent of Its Osmotic Effects",
+        "sentence_id": 39,
+        "char_start": 9554,
+        "char_end": 9557,
+        "anchor": "PMC6130020_9554_9557",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 154,
+      "label": "ANN",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of Primary Root Growth in ANN1 and ANN2 Knockout Mutants Is Rescued by Exogenous Suc Independent of Its Osmotic Effects",
+        "sentence_id": 39,
+        "char_start": 9563,
+        "char_end": 9566,
+        "anchor": "PMC6130020_9563_9566",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 155,
+      "label": "ANN1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of Primary Root Growth in ANN1 and ANN2 Knockout Mutants Is Rescued by Exogenous Suc Independent of Its Osmotic Effects",
+        "sentence_id": 39,
+        "char_start": 9318,
+        "char_end": 9322,
+        "anchor": "PMC6130020_9318_9322",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 156,
+      "label": "Suc",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of Primary Root Growth in ANN1 and ANN2 Knockout Mutants Is Rescued by Exogenous Suc Independent of Its Osmotic Effects",
+        "sentence_id": 39,
+        "char_start": 9438,
+        "char_end": 9441,
+        "anchor": "PMC6130020_9438_9441",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 157,
+      "label": "mannitol",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of Primary Root Growth in ANN1 and ANN2 Knockout Mutants Is Rescued by Exogenous Suc Independent of Its Osmotic Effects",
+        "sentence_id": 39,
+        "char_start": 9492,
+        "char_end": 9500,
+        "anchor": "PMC6130020_9492_9500",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 158,
+      "label": "ANN1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of Primary Root Growth in ANN1 and ANN2 Knockout Mutants Is Rescued by Exogenous Suc Independent of Its Osmotic Effects",
+        "sentence_id": 39,
+        "char_start": 9554,
+        "char_end": 9558,
+        "anchor": "PMC6130020_9554_9558",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 212,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 148,
+      "target": 149
+    },
+    {
+      "id": 213,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 148,
+      "target": 151
+    },
+    {
+      "id": 214,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 148,
+      "target": 153
+    },
+    {
+      "id": 215,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 148,
+      "target": 154
+    },
+    {
+      "id": 216,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 148,
+      "target": 155
+    },
+    {
+      "id": 217,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 148,
+      "target": 156
+    },
+    {
+      "id": 218,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 148,
+      "target": 157
+    },
+    {
+      "id": 219,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 148,
+      "target": 158
+    },
+    {
+      "id": 221,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 149,
+      "target": 151
+    },
+    {
+      "id": 222,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 149,
+      "target": 153
+    },
+    {
+      "id": 223,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 149,
+      "target": 154
+    },
+    {
+      "id": 224,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 149,
+      "target": 155
+    },
+    {
+      "id": 225,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 149,
+      "target": 156
+    },
+    {
+      "id": 226,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 149,
+      "target": 157
+    },
+    {
+      "id": 227,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 149,
+      "target": 158
+    },
+    {
+      "id": 229,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 151,
+      "target": 153
+    },
+    {
+      "id": 230,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 151,
+      "target": 154
+    },
+    {
+      "id": 231,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 151,
+      "target": 155
+    },
+    {
+      "id": 232,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 151,
+      "target": 156
+    },
+    {
+      "id": 233,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 151,
+      "target": 157
+    },
+    {
+      "id": 234,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 151,
+      "target": 158
+    },
+    {
+      "id": 236,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 153,
+      "target": 154
+    },
+    {
+      "id": 237,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 153,
+      "target": 155
+    },
+    {
+      "id": 238,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 153,
+      "target": 156
+    },
+    {
+      "id": 239,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 153,
+      "target": 157
+    },
+    {
+      "id": 240,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 153,
+      "target": 158
+    },
+    {
+      "id": 242,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 154,
+      "target": 155
+    },
+    {
+      "id": 243,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 154,
+      "target": 156
+    },
+    {
+      "id": 244,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 154,
+      "target": 157
+    },
+    {
+      "id": 245,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 154,
+      "target": 158
+    },
+    {
+      "id": 247,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 155,
+      "target": 156
+    },
+    {
+      "id": 248,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 155,
+      "target": 157
+    },
+    {
+      "id": 249,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 155,
+      "target": 158
+    },
+    {
+      "id": 251,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 156,
+      "target": 157
+    },
+    {
+      "id": 252,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 156,
+      "target": 158
+    },
+    {
+      "id": 254,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 157,
+      "target": 158
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 15,
+      "largest_component": 9,
+      "removed_components": [
+        4,
+        4,
+        3,
+        2
+      ]
+    },
+    "page": 3
+  }
+}

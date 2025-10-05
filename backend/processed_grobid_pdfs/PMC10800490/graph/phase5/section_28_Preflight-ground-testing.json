@@ -1,0 +1,201 @@
+{
+  "paper_id": "PMC10800490",
+  "section": "Preflight ground testing",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 78,
+      "label": "OVT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Preflight ground testing",
+        "sentence_id": 43,
+        "char_start": 8349,
+        "char_end": 8352,
+        "anchor": "PMC10800490_8349_8352",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 79,
+      "label": "Norway",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Preflight ground testing",
+        "sentence_id": 43,
+        "char_start": 8426,
+        "char_end": 8432,
+        "anchor": "PMC10800490_8426_8432",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 80,
+      "label": "PRR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Preflight ground testing",
+        "sentence_id": 43,
+        "char_start": 8524,
+        "char_end": 8527,
+        "anchor": "PMC10800490_8524_8527",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 81,
+      "label": "EVT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Preflight ground testing",
+        "sentence_id": 43,
+        "char_start": 8575,
+        "char_end": 8578,
+        "anchor": "PMC10800490_8575_8578",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 82,
+      "label": "ARC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Preflight ground testing",
+        "sentence_id": 43,
+        "char_start": 8610,
+        "char_end": 8613,
+        "anchor": "PMC10800490_8610_8613",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 83,
+      "label": "OVT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Preflight ground testing",
+        "sentence_id": 43,
+        "char_start": 8688,
+        "char_end": 8691,
+        "anchor": "PMC10800490_8688_8691",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 40,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 78,
+      "target": 79
+    },
+    {
+      "id": 41,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 78,
+      "target": 80
+    },
+    {
+      "id": 42,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 78,
+      "target": 81
+    },
+    {
+      "id": 43,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 78,
+      "target": 82
+    },
+    {
+      "id": 44,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 78,
+      "target": 83
+    },
+    {
+      "id": 45,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 79,
+      "target": 80
+    },
+    {
+      "id": 46,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 79,
+      "target": 81
+    },
+    {
+      "id": 47,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 79,
+      "target": 82
+    },
+    {
+      "id": 48,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 79,
+      "target": 83
+    },
+    {
+      "id": 49,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 80,
+      "target": 81
+    },
+    {
+      "id": 50,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 80,
+      "target": 82
+    },
+    {
+      "id": 51,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 80,
+      "target": 83
+    },
+    {
+      "id": 52,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 81,
+      "target": 82
+    },
+    {
+      "id": 53,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 81,
+      "target": 83
+    },
+    {
+      "id": 54,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 82,
+      "target": 83
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 6,
+      "largest_component": 6,
+      "removed_components": [
+        3
+      ]
+    },
+    "page": 3
+  }
+}

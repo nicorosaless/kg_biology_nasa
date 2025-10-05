@@ -1,0 +1,261 @@
+{
+  "paper_id": "PMC4228280",
+  "section": "DISCUSSION",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 341,
+      "label": "polymer",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 102,
+        "char_start": 24612,
+        "char_end": 24619,
+        "anchor": "PMC4228280_24612_24619",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 343,
+      "label": "EPS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 102,
+        "char_start": 24634,
+        "char_end": 24637,
+        "anchor": "PMC4228280_24634_24637",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 344,
+      "label": "EPS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 102,
+        "char_start": 24704,
+        "char_end": 24707,
+        "anchor": "PMC4228280_24704_24707",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 345,
+      "label": "EPS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 102,
+        "char_start": 24634,
+        "char_end": 24637,
+        "anchor": "PMC4228280_24634_24637",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 346,
+      "label": "EPS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 102,
+        "char_start": 24704,
+        "char_end": 24707,
+        "anchor": "PMC4228280_24704_24707",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 347,
+      "label": "LSMMG",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 102,
+        "char_start": 24839,
+        "char_end": 24844,
+        "anchor": "PMC4228280_24839_24844",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 348,
+      "label": "LSMMG",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 102,
+        "char_start": 24962,
+        "char_end": 24967,
+        "anchor": "PMC4228280_24962_24967",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 272,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 341,
+      "target": 343
+    },
+    {
+      "id": 273,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 341,
+      "target": 344
+    },
+    {
+      "id": 274,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 341,
+      "target": 345
+    },
+    {
+      "id": 275,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 341,
+      "target": 346
+    },
+    {
+      "id": 276,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 341,
+      "target": 347
+    },
+    {
+      "id": 277,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 341,
+      "target": 348
+    },
+    {
+      "id": 278,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 343,
+      "target": 344
+    },
+    {
+      "id": 279,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 343,
+      "target": 345
+    },
+    {
+      "id": 280,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 343,
+      "target": 346
+    },
+    {
+      "id": 281,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 343,
+      "target": 347
+    },
+    {
+      "id": 282,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 343,
+      "target": 348
+    },
+    {
+      "id": 283,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 344,
+      "target": 345
+    },
+    {
+      "id": 284,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 344,
+      "target": 346
+    },
+    {
+      "id": 285,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 344,
+      "target": 347
+    },
+    {
+      "id": 286,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 344,
+      "target": 348
+    },
+    {
+      "id": 287,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 345,
+      "target": 346
+    },
+    {
+      "id": 288,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 345,
+      "target": 347
+    },
+    {
+      "id": 289,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 345,
+      "target": 348
+    },
+    {
+      "id": 290,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 346,
+      "target": 347
+    },
+    {
+      "id": 291,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 346,
+      "target": 348
+    },
+    {
+      "id": 292,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 347,
+      "target": 348
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 11,
+      "removed_orphans": 1,
+      "largest_component": 7,
+      "removed_components": [
+        7,
+        4,
+        4,
+        4,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 4
+  }
+}

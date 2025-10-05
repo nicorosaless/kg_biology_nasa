@@ -1,0 +1,374 @@
+{
+  "paper_id": "PMC10503492",
+  "section": "Spaceflight alters the expression of stress-inducible proteins affecting CNS",
+  "n_nodes": 9,
+  "n_edges": 36,
+  "nodes": [
+    {
+      "id": 288,
+      "label": "ROS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight alters the expression of stress-inducible proteins affecting CNS",
+        "sentence_id": 60,
+        "char_start": 19199,
+        "char_end": 19202,
+        "anchor": "PMC10503492_19199_19202",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 290,
+      "label": "ROS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight alters the expression of stress-inducible proteins affecting CNS",
+        "sentence_id": 60,
+        "char_start": 18593,
+        "char_end": 18596,
+        "anchor": "PMC10503492_18593_18596",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 291,
+      "label": "ROS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight alters the expression of stress-inducible proteins affecting CNS",
+        "sentence_id": 60,
+        "char_start": 18598,
+        "char_end": 18601,
+        "anchor": "PMC10503492_18598_18601",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 292,
+      "label": "ROS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight alters the expression of stress-inducible proteins affecting CNS",
+        "sentence_id": 60,
+        "char_start": 19094,
+        "char_end": 19097,
+        "anchor": "PMC10503492_19094_19097",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 293,
+      "label": "ROS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight alters the expression of stress-inducible proteins affecting CNS",
+        "sentence_id": 60,
+        "char_start": 19199,
+        "char_end": 19202,
+        "anchor": "PMC10503492_19199_19202",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 294,
+      "label": "ROS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight alters the expression of stress-inducible proteins affecting CNS",
+        "sentence_id": 60,
+        "char_start": 19284,
+        "char_end": 19287,
+        "anchor": "PMC10503492_19284_19287",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 285,
+      "label": "altered",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight alters the expression of stress-inducible proteins affecting CNS",
+        "sentence_id": 60,
+        "char_start": 18476,
+        "char_end": 18483,
+        "anchor": "PMC10503492_18476_18483",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 286,
+      "label": "proteins",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight alters the expression of stress-inducible proteins affecting CNS",
+        "sentence_id": 60,
+        "char_start": 18747,
+        "char_end": 18755,
+        "anchor": "PMC10503492_18747_18755",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 287,
+      "label": "Low",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight alters the expression of stress-inducible proteins affecting CNS",
+        "sentence_id": 60,
+        "char_start": 19184,
+        "char_end": 19187,
+        "anchor": "PMC10503492_19184_19187",
+        "page": 10,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 337,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 285,
+      "target": 286
+    },
+    {
+      "id": 338,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 285,
+      "target": 287
+    },
+    {
+      "id": 339,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 285,
+      "target": 288
+    },
+    {
+      "id": 340,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 285,
+      "target": 290
+    },
+    {
+      "id": 341,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 285,
+      "target": 291
+    },
+    {
+      "id": 342,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 285,
+      "target": 292
+    },
+    {
+      "id": 343,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 285,
+      "target": 293
+    },
+    {
+      "id": 344,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 285,
+      "target": 294
+    },
+    {
+      "id": 346,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 286,
+      "target": 287
+    },
+    {
+      "id": 347,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 286,
+      "target": 288
+    },
+    {
+      "id": 348,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 286,
+      "target": 290
+    },
+    {
+      "id": 349,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 286,
+      "target": 291
+    },
+    {
+      "id": 350,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 286,
+      "target": 292
+    },
+    {
+      "id": 351,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 286,
+      "target": 293
+    },
+    {
+      "id": 352,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 286,
+      "target": 294
+    },
+    {
+      "id": 354,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 287,
+      "target": 288
+    },
+    {
+      "id": 355,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 287,
+      "target": 290
+    },
+    {
+      "id": 356,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 287,
+      "target": 291
+    },
+    {
+      "id": 357,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 287,
+      "target": 292
+    },
+    {
+      "id": 358,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 287,
+      "target": 293
+    },
+    {
+      "id": 359,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 287,
+      "target": 294
+    },
+    {
+      "id": 361,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 288,
+      "target": 290
+    },
+    {
+      "id": 362,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 288,
+      "target": 291
+    },
+    {
+      "id": 363,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 288,
+      "target": 292
+    },
+    {
+      "id": 364,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 288,
+      "target": 293
+    },
+    {
+      "id": 365,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 288,
+      "target": 294
+    },
+    {
+      "id": 367,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 290,
+      "target": 291
+    },
+    {
+      "id": 368,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 290,
+      "target": 292
+    },
+    {
+      "id": 369,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 290,
+      "target": 293
+    },
+    {
+      "id": 370,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 290,
+      "target": 294
+    },
+    {
+      "id": 372,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 291,
+      "target": 292
+    },
+    {
+      "id": 373,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 291,
+      "target": 293
+    },
+    {
+      "id": 374,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 291,
+      "target": 294
+    },
+    {
+      "id": 376,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 292,
+      "target": 293
+    },
+    {
+      "id": 377,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 292,
+      "target": 294
+    },
+    {
+      "id": 379,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 293,
+      "target": 294
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 14,
+      "largest_component": 9,
+      "removed_components": [
+        8,
+        7,
+        2
+      ]
+    },
+    "page": 10
+  }
+}

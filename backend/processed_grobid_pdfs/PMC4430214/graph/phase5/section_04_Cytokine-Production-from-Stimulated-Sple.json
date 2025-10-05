@@ -1,0 +1,202 @@
+{
+  "paper_id": "PMC4430214",
+  "section": "Cytokine Production from Stimulated Splenocytes Post-Spaceflight",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 399,
+      "label": "ConA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytokine Production from Stimulated Splenocytes Post-Spaceflight",
+        "sentence_id": 114,
+        "char_start": 21473,
+        "char_end": 21477,
+        "anchor": "PMC4430214_21473_21477",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 402,
+      "label": "controls",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytokine Production from Stimulated Splenocytes Post-Spaceflight",
+        "sentence_id": 114,
+        "char_start": 21638,
+        "char_end": 21646,
+        "anchor": "PMC4430214_21638_21646",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 403,
+      "label": "agonist",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytokine Production from Stimulated Splenocytes Post-Spaceflight",
+        "sentence_id": 114,
+        "char_start": 21673,
+        "char_end": 21680,
+        "anchor": "PMC4430214_21673_21680",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 405,
+      "label": "ConA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytokine Production from Stimulated Splenocytes Post-Spaceflight",
+        "sentence_id": 114,
+        "char_start": 21473,
+        "char_end": 21477,
+        "anchor": "PMC4430214_21473_21477",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 406,
+      "label": "IFN",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytokine Production from Stimulated Splenocytes Post-Spaceflight",
+        "sentence_id": 114,
+        "char_start": 21528,
+        "char_end": 21531,
+        "anchor": "PMC4430214_21528_21531",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 407,
+      "label": "TNF",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytokine Production from Stimulated Splenocytes Post-Spaceflight",
+        "sentence_id": 114,
+        "char_start": 21727,
+        "char_end": 21730,
+        "anchor": "PMC4430214_21727_21730",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 411,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 399,
+      "target": 402
+    },
+    {
+      "id": 412,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 399,
+      "target": 403
+    },
+    {
+      "id": 413,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 399,
+      "target": 405
+    },
+    {
+      "id": 414,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 399,
+      "target": 406
+    },
+    {
+      "id": 415,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 399,
+      "target": 407
+    },
+    {
+      "id": 416,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 402,
+      "target": 403
+    },
+    {
+      "id": 417,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 402,
+      "target": 405
+    },
+    {
+      "id": 418,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 402,
+      "target": 406
+    },
+    {
+      "id": 419,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 402,
+      "target": 407
+    },
+    {
+      "id": 420,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 403,
+      "target": 405
+    },
+    {
+      "id": 421,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 403,
+      "target": 406
+    },
+    {
+      "id": 422,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 403,
+      "target": 407
+    },
+    {
+      "id": 423,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 405,
+      "target": 406
+    },
+    {
+      "id": 424,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 405,
+      "target": 407
+    },
+    {
+      "id": 425,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 406,
+      "target": 407
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 10,
+      "largest_component": 6,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 7
+  }
+}

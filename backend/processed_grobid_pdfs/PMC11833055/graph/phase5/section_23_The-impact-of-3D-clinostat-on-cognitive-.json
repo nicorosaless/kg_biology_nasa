@@ -1,0 +1,85 @@
+{
+  "paper_id": "PMC11833055",
+  "section": "The impact of 3D clinostat on cognitive and motor related behavior",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 296,
+      "label": "inostat",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The impact of 3D clinostat on cognitive and motor related behavior",
+        "sentence_id": 157,
+        "char_start": 21817,
+        "char_end": 21824,
+        "anchor": "PMC11833055_21817_21824",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 313,
+      "label": "Morris",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The impact of 3D clinostat on cognitive and motor related behavior",
+        "sentence_id": 157,
+        "char_start": 22404,
+        "char_end": 22410,
+        "anchor": "PMC11833055_22404_22410",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 300,
+      "label": "elevated",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The impact of 3D clinostat on cognitive and motor related behavior",
+        "sentence_id": 157,
+        "char_start": 22081,
+        "char_end": 22089,
+        "anchor": "PMC11833055_22081_22089",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 241,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 296,
+      "target": 300
+    },
+    {
+      "id": 247,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 296,
+      "target": 313
+    },
+    {
+      "id": 256,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 300,
+      "target": 313
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 33,
+      "largest_component": 3,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 5
+  }
+}

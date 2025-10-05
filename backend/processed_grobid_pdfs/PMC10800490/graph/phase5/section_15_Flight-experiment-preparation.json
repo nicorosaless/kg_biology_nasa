@@ -1,0 +1,254 @@
+{
+  "paper_id": "PMC10800490",
+  "section": "Flight experiment preparation",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 84,
+      "label": "EMCS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Flight experiment preparation",
+        "sentence_id": 45,
+        "char_start": 8910,
+        "char_end": 8914,
+        "anchor": "PMC10800490_8910_8914",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 85,
+      "label": "What",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Flight experiment preparation",
+        "sentence_id": 45,
+        "char_start": 9070,
+        "char_end": 9074,
+        "anchor": "PMC10800490_9070_9074",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 87,
+      "label": "PAL",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Flight experiment preparation",
+        "sentence_id": 45,
+        "char_start": 9127,
+        "char_end": 9130,
+        "anchor": "PMC10800490_9127_9130",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 89,
+      "label": "PRR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Flight experiment preparation",
+        "sentence_id": 45,
+        "char_start": 8882,
+        "char_end": 8885,
+        "anchor": "PMC10800490_8882_8885",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 90,
+      "label": "EMCS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Flight experiment preparation",
+        "sentence_id": 45,
+        "char_start": 8910,
+        "char_end": 8914,
+        "anchor": "PMC10800490_8910_8914",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 91,
+      "label": "Kiss",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Flight experiment preparation",
+        "sentence_id": 45,
+        "char_start": 9058,
+        "char_end": 9062,
+        "anchor": "PMC10800490_9058_9062",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 92,
+      "label": "PES",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Flight experiment preparation",
+        "sentence_id": 45,
+        "char_start": 9113,
+        "char_end": 9116,
+        "anchor": "PMC10800490_9113_9116",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 55,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 84,
+      "target": 85
+    },
+    {
+      "id": 56,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 84,
+      "target": 87
+    },
+    {
+      "id": 58,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 84,
+      "target": 89
+    },
+    {
+      "id": 59,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 84,
+      "target": 90
+    },
+    {
+      "id": 60,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 84,
+      "target": 91
+    },
+    {
+      "id": 61,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 84,
+      "target": 92
+    },
+    {
+      "id": 62,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 85,
+      "target": 87
+    },
+    {
+      "id": 64,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 85,
+      "target": 89
+    },
+    {
+      "id": 65,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 85,
+      "target": 90
+    },
+    {
+      "id": 66,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 85,
+      "target": 91
+    },
+    {
+      "id": 67,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 85,
+      "target": 92
+    },
+    {
+      "id": 69,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 87,
+      "target": 89
+    },
+    {
+      "id": 70,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 87,
+      "target": 90
+    },
+    {
+      "id": 71,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 87,
+      "target": 91
+    },
+    {
+      "id": 72,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 87,
+      "target": 92
+    },
+    {
+      "id": 77,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 89,
+      "target": 90
+    },
+    {
+      "id": 78,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 89,
+      "target": 91
+    },
+    {
+      "id": 79,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 89,
+      "target": 92
+    },
+    {
+      "id": 80,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 90,
+      "target": 91
+    },
+    {
+      "id": 81,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 90,
+      "target": 92
+    },
+    {
+      "id": 82,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 91,
+      "target": 92
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 5,
+      "largest_component": 7,
+      "removed_components": [
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 3
+  }
+}

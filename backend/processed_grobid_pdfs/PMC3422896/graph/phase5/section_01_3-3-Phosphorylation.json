@@ -1,0 +1,259 @@
+{
+  "paper_id": "PMC3422896",
+  "section": "3-3 Phosphorylation",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 160,
+      "label": "Olivari",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 46,
+        "char_start": 12470,
+        "char_end": 12477,
+        "anchor": "PMC3422896_12470_12477",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 161,
+      "label": "Y179",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 46,
+        "char_start": 12529,
+        "char_end": 12533,
+        "anchor": "PMC3422896_12529_12533",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 162,
+      "label": "Y137",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 46,
+        "char_start": 12538,
+        "char_end": 12542,
+        "anchor": "PMC3422896_12538_12542",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 163,
+      "label": "S185",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 46,
+        "char_start": 12584,
+        "char_end": 12588,
+        "anchor": "PMC3422896_12584_12588",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 157,
+      "label": "Y179",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 46,
+        "char_start": 12162,
+        "char_end": 12166,
+        "anchor": "PMC3422896_12162_12166",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 158,
+      "label": "S185",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 46,
+        "char_start": 12171,
+        "char_end": 12175,
+        "anchor": "PMC3422896_12171_12175",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 159,
+      "label": "Y137",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 46,
+        "char_start": 12429,
+        "char_end": 12433,
+        "anchor": "PMC3422896_12429_12433",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 136,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 157,
+      "target": 158
+    },
+    {
+      "id": 137,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 157,
+      "target": 159
+    },
+    {
+      "id": 138,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 157,
+      "target": 160
+    },
+    {
+      "id": 139,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 157,
+      "target": 161
+    },
+    {
+      "id": 140,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 157,
+      "target": 162
+    },
+    {
+      "id": 141,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 157,
+      "target": 163
+    },
+    {
+      "id": 142,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 158,
+      "target": 159
+    },
+    {
+      "id": 143,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 158,
+      "target": 160
+    },
+    {
+      "id": 144,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 158,
+      "target": 161
+    },
+    {
+      "id": 145,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 158,
+      "target": 162
+    },
+    {
+      "id": 146,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 158,
+      "target": 163
+    },
+    {
+      "id": 147,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 159,
+      "target": 160
+    },
+    {
+      "id": 148,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 159,
+      "target": 161
+    },
+    {
+      "id": 149,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 159,
+      "target": 162
+    },
+    {
+      "id": 150,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 159,
+      "target": 163
+    },
+    {
+      "id": 151,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 160,
+      "target": 161
+    },
+    {
+      "id": 152,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 160,
+      "target": 162
+    },
+    {
+      "id": 153,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 160,
+      "target": 163
+    },
+    {
+      "id": 154,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 161,
+      "target": 162
+    },
+    {
+      "id": 155,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 161,
+      "target": 163
+    },
+    {
+      "id": 156,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 162,
+      "target": 163
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 9,
+      "removed_orphans": 5,
+      "largest_component": 7,
+      "removed_components": [
+        5,
+        5,
+        4,
+        4,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 3
+  }
+}

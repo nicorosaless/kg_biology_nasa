@@ -1,0 +1,160 @@
+{
+  "paper_id": "PMC9695138",
+  "section": "Laurdan Staining",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 480,
+      "label": "Raft",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Laurdan Staining",
+        "sentence_id": 132,
+        "char_start": 26200,
+        "char_end": 26204,
+        "anchor": "PMC9695138_26200_26204",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 481,
+      "label": "membrane",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Laurdan Staining",
+        "sentence_id": 132,
+        "char_start": 26246,
+        "char_end": 26254,
+        "anchor": "PMC9695138_26246_26254",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 482,
+      "label": "disorder",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Laurdan Staining",
+        "sentence_id": 132,
+        "char_start": 26304,
+        "char_end": 26312,
+        "anchor": "PMC9695138_26304_26312",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 483,
+      "label": "packing",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Laurdan Staining",
+        "sentence_id": 132,
+        "char_start": 26399,
+        "char_end": 26406,
+        "anchor": "PMC9695138_26399_26406",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 484,
+      "label": "hydrated",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Laurdan Staining",
+        "sentence_id": 132,
+        "char_start": 26449,
+        "char_end": 26457,
+        "anchor": "PMC9695138_26449_26457",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 380,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 480,
+      "target": 481
+    },
+    {
+      "id": 381,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 480,
+      "target": 482
+    },
+    {
+      "id": 382,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 480,
+      "target": 483
+    },
+    {
+      "id": 383,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 480,
+      "target": 484
+    },
+    {
+      "id": 388,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 481,
+      "target": 482
+    },
+    {
+      "id": 389,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 481,
+      "target": 483
+    },
+    {
+      "id": 390,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 481,
+      "target": 484
+    },
+    {
+      "id": 395,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 482,
+      "target": 483
+    },
+    {
+      "id": 396,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 482,
+      "target": 484
+    },
+    {
+      "id": 401,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 483,
+      "target": 484
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 6,
+      "removed_orphans": 22,
+      "largest_component": 5,
+      "removed_components": [
+        5,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 6
+  }
+}

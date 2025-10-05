@@ -1,0 +1,260 @@
+{
+  "paper_id": "PMC8213760",
+  "section": "(untitled) Mice are facultative daily heterotherms",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 39,
+      "label": "housing",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Mice are facultative daily heterotherms",
+        "sentence_id": 6,
+        "char_start": 2000,
+        "char_end": 2007,
+        "anchor": "PMC8213760_2000_2007",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 40,
+      "label": "consumed",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Mice are facultative daily heterotherms",
+        "sentence_id": 6,
+        "char_start": 2094,
+        "char_end": 2102,
+        "anchor": "PMC8213760_2094_2102",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 44,
+      "label": "BAT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Mice are facultative daily heterotherms",
+        "sentence_id": 6,
+        "char_start": 2203,
+        "char_end": 2206,
+        "anchor": "PMC8213760_2203_2206",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 46,
+      "label": "idative",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Mice are facultative daily heterotherms",
+        "sentence_id": 6,
+        "char_start": 2312,
+        "char_end": 2319,
+        "anchor": "PMC8213760_2312_2319",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 48,
+      "label": "UCP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Mice are facultative daily heterotherms",
+        "sentence_id": 6,
+        "char_start": 2429,
+        "char_end": 2432,
+        "anchor": "PMC8213760_2429_2432",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 51,
+      "label": "induced",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Mice are facultative daily heterotherms",
+        "sentence_id": 6,
+        "char_start": 2540,
+        "char_end": 2547,
+        "anchor": "PMC8213760_2540_2547",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 53,
+      "label": "BAT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Mice are facultative daily heterotherms",
+        "sentence_id": 6,
+        "char_start": 2203,
+        "char_end": 2206,
+        "anchor": "PMC8213760_2203_2206",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 24,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 39,
+      "target": 40
+    },
+    {
+      "id": 25,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 39,
+      "target": 44
+    },
+    {
+      "id": 26,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 39,
+      "target": 46
+    },
+    {
+      "id": 27,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 39,
+      "target": 48
+    },
+    {
+      "id": 28,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 39,
+      "target": 51
+    },
+    {
+      "id": 30,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 39,
+      "target": 53
+    },
+    {
+      "id": 33,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 40,
+      "target": 44
+    },
+    {
+      "id": 34,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 40,
+      "target": 46
+    },
+    {
+      "id": 35,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 40,
+      "target": 48
+    },
+    {
+      "id": 36,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 40,
+      "target": 51
+    },
+    {
+      "id": 38,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 40,
+      "target": 53
+    },
+    {
+      "id": 41,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 44,
+      "target": 46
+    },
+    {
+      "id": 42,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 44,
+      "target": 48
+    },
+    {
+      "id": 43,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 44,
+      "target": 51
+    },
+    {
+      "id": 45,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 44,
+      "target": 53
+    },
+    {
+      "id": 48,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 46,
+      "target": 48
+    },
+    {
+      "id": 49,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 46,
+      "target": 51
+    },
+    {
+      "id": 51,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 46,
+      "target": 53
+    },
+    {
+      "id": 54,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 48,
+      "target": 51
+    },
+    {
+      "id": 56,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 48,
+      "target": 53
+    },
+    {
+      "id": 60,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 51,
+      "target": 53
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 10,
+      "removed_orphans": 2,
+      "largest_component": 7,
+      "removed_components": [
+        7,
+        5,
+        4,
+        4,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 1
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "paper_id": "PMC4228280",
+  "section": "Light microscopy",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 464,
+      "label": "DIC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Light microscopy",
+        "sentence_id": 143,
+        "char_start": 31712,
+        "char_end": 31715,
+        "anchor": "PMC4228280_31712_31715",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 465,
+      "label": "Zeiss",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Light microscopy",
+        "sentence_id": 143,
+        "char_start": 31736,
+        "char_end": 31741,
+        "anchor": "PMC4228280_31736_31741",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 462,
+      "label": "Olympus",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Light microscopy",
+        "sentence_id": 143,
+        "char_start": 31664,
+        "char_end": 31671,
+        "anchor": "PMC4228280_31664_31671",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 463,
+      "label": "inverted",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Light microscopy",
+        "sentence_id": 143,
+        "char_start": 31678,
+        "char_end": 31686,
+        "anchor": "PMC4228280_31678_31686",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 516,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 462,
+      "target": 463
+    },
+    {
+      "id": 517,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 462,
+      "target": 464
+    },
+    {
+      "id": 518,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 462,
+      "target": 465
+    },
+    {
+      "id": 519,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 463,
+      "target": 464
+    },
+    {
+      "id": 520,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 463,
+      "target": 465
+    },
+    {
+      "id": 521,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 464,
+      "target": 465
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 3,
+      "largest_component": 4
+    },
+    "page": 5
+  }
+}

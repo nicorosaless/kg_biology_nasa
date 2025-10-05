@@ -1,0 +1,136 @@
+{
+  "paper_id": "PMC11673879",
+  "section": "Synthetic REAGENT",
+  "n_nodes": 6,
+  "n_edges": 5,
+  "nodes": [
+    {
+      "id": 479,
+      "label": "RNase",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Mutational Analysis in HCT-Evolved Lines",
+        "sentence_id": 209,
+        "char_start": 35035,
+        "char_end": 35040,
+        "anchor": "PMC11673879_35035_35040",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 480,
+      "label": "RNase",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Mutational Analysis in HCT-Evolved Lines",
+        "sentence_id": 209,
+        "char_start": 35035,
+        "char_end": 35040,
+        "anchor": "PMC11673879_35035_35040",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 488,
+      "label": "RNase",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Mutational Analysis in HCT-Evolved Lines",
+        "sentence_id": 211,
+        "char_start": 35249,
+        "char_end": 35254,
+        "anchor": "PMC11673879_35249_35254",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 491,
+      "label": "RNase",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Mutational Analysis in HCT-Evolved Lines",
+        "sentence_id": 211,
+        "char_start": 35390,
+        "char_end": 35395,
+        "anchor": "PMC11673879_35390_35395",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 528,
+      "label": "RNase",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Uncovering of di-Adenylate Cyclases (DACs) in Temperature Adaptation",
+        "sentence_id": 217,
+        "char_start": 36951,
+        "char_end": 36956,
+        "anchor": "PMC11673879_36951_36956",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 531,
+      "label": "RNase",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Uncovering of di-Adenylate Cyclases (DACs) in Temperature Adaptation",
+        "sentence_id": 217,
+        "char_start": 37092,
+        "char_end": 37097,
+        "anchor": "PMC11673879_37092_37097",
+        "page": 12,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-479-480",
+      "type": "ASSOCIATED",
+      "source": 479,
+      "target": 480
+    },
+    {
+      "id": "synth-479-488",
+      "type": "ASSOCIATED",
+      "source": 479,
+      "target": 488
+    },
+    {
+      "id": "synth-479-491",
+      "type": "ASSOCIATED",
+      "source": 479,
+      "target": 491
+    },
+    {
+      "id": "synth-479-528",
+      "type": "ASSOCIATED",
+      "source": 479,
+      "target": 528
+    },
+    {
+      "id": "synth-479-531",
+      "type": "ASSOCIATED",
+      "source": 479,
+      "target": 531
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "REAGENT",
+    "page": null
+  }
+}

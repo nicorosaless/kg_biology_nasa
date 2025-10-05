@@ -1,0 +1,313 @@
+{
+  "paper_id": "PMC4624184",
+  "section": "Pyrosequencing-derived bacterial diversity",
+  "n_nodes": 8,
+  "n_edges": 28,
+  "nodes": [
+    {
+      "id": 206,
+      "label": "PMA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Pyrosequencing-derived bacterial diversity",
+        "sentence_id": 69,
+        "char_start": 12575,
+        "char_end": 12578,
+        "anchor": "PMC4624184_12575_12578",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 207,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Pyrosequencing-derived bacterial diversity",
+        "sentence_id": 69,
+        "char_start": 12779,
+        "char_end": 12782,
+        "anchor": "PMC4624184_12779_12782",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 208,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Pyrosequencing-derived bacterial diversity",
+        "sentence_id": 69,
+        "char_start": 12792,
+        "char_end": 12795,
+        "anchor": "PMC4624184_12792_12795",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 209,
+      "label": "Debris",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Pyrosequencing-derived bacterial diversity",
+        "sentence_id": 69,
+        "char_start": 12796,
+        "char_end": 12802,
+        "anchor": "PMC4624184_12796_12802",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 210,
+      "label": "samples",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Pyrosequencing-derived bacterial diversity",
+        "sentence_id": 69,
+        "char_start": 12803,
+        "char_end": 12810,
+        "anchor": "PMC4624184_12803_12810",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 211,
+      "label": "PMA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Pyrosequencing-derived bacterial diversity",
+        "sentence_id": 69,
+        "char_start": 12575,
+        "char_end": 12578,
+        "anchor": "PMC4624184_12575_12578",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 212,
+      "label": "PMA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Pyrosequencing-derived bacterial diversity",
+        "sentence_id": 69,
+        "char_start": 12699,
+        "char_end": 12702,
+        "anchor": "PMC4624184_12699_12702",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 213,
+      "label": "PMA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Pyrosequencing-derived bacterial diversity",
+        "sentence_id": 69,
+        "char_start": 12748,
+        "char_end": 12751,
+        "anchor": "PMC4624184_12748_12751",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 231,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 206,
+      "target": 207
+    },
+    {
+      "id": 232,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 206,
+      "target": 208
+    },
+    {
+      "id": 233,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 206,
+      "target": 209
+    },
+    {
+      "id": 234,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 206,
+      "target": 210
+    },
+    {
+      "id": 235,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 206,
+      "target": 211
+    },
+    {
+      "id": 236,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 206,
+      "target": 212
+    },
+    {
+      "id": 237,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 206,
+      "target": 213
+    },
+    {
+      "id": 238,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 207,
+      "target": 208
+    },
+    {
+      "id": 239,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 207,
+      "target": 209
+    },
+    {
+      "id": 240,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 207,
+      "target": 210
+    },
+    {
+      "id": 241,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 207,
+      "target": 211
+    },
+    {
+      "id": 242,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 207,
+      "target": 212
+    },
+    {
+      "id": 243,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 207,
+      "target": 213
+    },
+    {
+      "id": 244,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 208,
+      "target": 209
+    },
+    {
+      "id": 245,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 208,
+      "target": 210
+    },
+    {
+      "id": 246,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 208,
+      "target": 211
+    },
+    {
+      "id": 247,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 208,
+      "target": 212
+    },
+    {
+      "id": 248,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 208,
+      "target": 213
+    },
+    {
+      "id": 249,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 209,
+      "target": 210
+    },
+    {
+      "id": 250,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 209,
+      "target": 211
+    },
+    {
+      "id": 251,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 209,
+      "target": 212
+    },
+    {
+      "id": 252,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 209,
+      "target": 213
+    },
+    {
+      "id": 253,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 210,
+      "target": 211
+    },
+    {
+      "id": 254,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 210,
+      "target": 212
+    },
+    {
+      "id": 255,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 210,
+      "target": 213
+    },
+    {
+      "id": 256,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 211,
+      "target": 212
+    },
+    {
+      "id": 257,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 211,
+      "target": 213
+    },
+    {
+      "id": 258,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 212,
+      "target": 213
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 6,
+      "removed_orphans": 15,
+      "largest_component": 8,
+      "removed_components": [
+        6,
+        4,
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 4
+  }
+}

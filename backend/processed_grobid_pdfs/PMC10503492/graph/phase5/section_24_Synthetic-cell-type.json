@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMC10503492",
+  "section": "Synthetic CELL_TYPE",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 114,
+      "label": "positive cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Flies exposed to microgravity conditions show behavioral and neuronal deficits, glial alterations, oxidative damage, and apoptosis",
+        "sentence_id": 29,
+        "char_start": 8762,
+        "char_end": 8776,
+        "anchor": "PMC10503492_8762_8776",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 438,
+      "label": "human kidney cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 94,
+        "char_start": 30607,
+        "char_end": 30625,
+        "anchor": "PMC10503492_30607_30625",
+        "page": 16,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-114-438",
+      "type": "ASSOCIATED",
+      "source": 114,
+      "target": 438
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "CELL_TYPE",
+    "page": null
+  }
+}

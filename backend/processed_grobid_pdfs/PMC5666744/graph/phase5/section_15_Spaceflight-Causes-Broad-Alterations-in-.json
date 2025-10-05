@@ -1,0 +1,183 @@
+{
+  "paper_id": "PMC5666744",
+  "section": "Spaceflight Causes Broad Alterations in Transcriptome Profiles in the Liver",
+  "n_nodes": 6,
+  "n_edges": 11,
+  "nodes": [
+    {
+      "id": 342,
+      "label": "bone marrow-derived T cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight Causes Broad Alterations in Transcriptome Profiles in the Liver",
+        "sentence_id": 80,
+        "char_start": 20301,
+        "char_end": 20328,
+        "anchor": "PMC5666744_20301_20328",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 343,
+      "label": "ived B",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight Causes Broad Alterations in Transcriptome Profiles in the Liver",
+        "sentence_id": 80,
+        "char_start": 20357,
+        "char_end": 20363,
+        "anchor": "PMC5666744_20357_20363",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 344,
+      "label": "studies",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight Causes Broad Alterations in Transcriptome Profiles in the Liver",
+        "sentence_id": 80,
+        "char_start": 20399,
+        "char_end": 20406,
+        "anchor": "PMC5666744_20399_20406",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 345,
+      "label": "cluster",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight Causes Broad Alterations in Transcriptome Profiles in the Liver",
+        "sentence_id": 80,
+        "char_start": 20413,
+        "char_end": 20420,
+        "anchor": "PMC5666744_20413_20420",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 346,
+      "label": "marrow progenitor cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight Causes Broad Alterations in Transcriptome Profiles in the Liver",
+        "sentence_id": 80,
+        "char_start": 20455,
+        "char_end": 20478,
+        "anchor": "PMC5666744_20455_20478",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 349,
+      "label": "macropha",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight Causes Broad Alterations in Transcriptome Profiles in the Liver",
+        "sentence_id": 80,
+        "char_start": 20613,
+        "char_end": 20621,
+        "anchor": "PMC5666744_20613_20621",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 452,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 342,
+      "target": 343
+    },
+    {
+      "id": 453,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 344,
+      "target": 342
+    },
+    {
+      "id": 454,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 345,
+      "target": 342
+    },
+    {
+      "id": 455,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 349,
+      "target": 342
+    },
+    {
+      "id": 457,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 346,
+      "target": 343
+    },
+    {
+      "id": 458,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 344,
+      "target": 345
+    },
+    {
+      "id": 459,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 344,
+      "target": 346
+    },
+    {
+      "id": 460,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 344,
+      "target": 349
+    },
+    {
+      "id": 462,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 345,
+      "target": 346
+    },
+    {
+      "id": 463,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 345,
+      "target": 349
+    },
+    {
+      "id": 465,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 349,
+      "target": 346
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 8,
+      "removed_orphans": 12,
+      "largest_component": 6,
+      "removed_components": [
+        5,
+        5,
+        3,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 8
+  }
+}

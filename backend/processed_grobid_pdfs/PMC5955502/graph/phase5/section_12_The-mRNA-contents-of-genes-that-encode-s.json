@@ -1,0 +1,374 @@
+{
+  "paper_id": "PMC5955502",
+  "section": "The mRNA contents of genes that encode some cytoskeletal and metabolic proteins",
+  "n_nodes": 9,
+  "n_edges": 36,
+  "nodes": [
+    {
+      "id": 299,
+      "label": "Actb",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode some cytoskeletal and metabolic proteins",
+        "sentence_id": 78,
+        "char_start": 17228,
+        "char_end": 17232,
+        "anchor": "PMC5955502_17228_17232",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 300,
+      "label": "Des",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode some cytoskeletal and metabolic proteins",
+        "sentence_id": 78,
+        "char_start": 17253,
+        "char_end": 17256,
+        "anchor": "PMC5955502_17253_17256",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 301,
+      "label": "Svil",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode some cytoskeletal and metabolic proteins",
+        "sentence_id": 78,
+        "char_start": 17286,
+        "char_end": 17290,
+        "anchor": "PMC5955502_17286_17290",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 302,
+      "label": "Actn4",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode some cytoskeletal and metabolic proteins",
+        "sentence_id": 78,
+        "char_start": 17311,
+        "char_end": 17316,
+        "anchor": "PMC5955502_17311_17316",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 303,
+      "label": "Gapdh",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode some cytoskeletal and metabolic proteins",
+        "sentence_id": 78,
+        "char_start": 17409,
+        "char_end": 17414,
+        "anchor": "PMC5955502_17409_17414",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 304,
+      "label": "Svil",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode some cytoskeletal and metabolic proteins",
+        "sentence_id": 78,
+        "char_start": 17286,
+        "char_end": 17290,
+        "anchor": "PMC5955502_17286_17290",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 305,
+      "label": "Actn4",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode some cytoskeletal and metabolic proteins",
+        "sentence_id": 78,
+        "char_start": 17311,
+        "char_end": 17316,
+        "anchor": "PMC5955502_17311_17316",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 308,
+      "label": "Cycs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode some cytoskeletal and metabolic proteins",
+        "sentence_id": 78,
+        "char_start": 17380,
+        "char_end": 17384,
+        "anchor": "PMC5955502_17380_17384",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 309,
+      "label": "Gapdh",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode some cytoskeletal and metabolic proteins",
+        "sentence_id": 78,
+        "char_start": 17409,
+        "char_end": 17414,
+        "anchor": "PMC5955502_17409_17414",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 337,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 299,
+      "target": 300
+    },
+    {
+      "id": 338,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 299,
+      "target": 301
+    },
+    {
+      "id": 339,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 299,
+      "target": 302
+    },
+    {
+      "id": 340,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 299,
+      "target": 303
+    },
+    {
+      "id": 341,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 299,
+      "target": 304
+    },
+    {
+      "id": 342,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 299,
+      "target": 305
+    },
+    {
+      "id": 345,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 299,
+      "target": 308
+    },
+    {
+      "id": 346,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 299,
+      "target": 309
+    },
+    {
+      "id": 347,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 300,
+      "target": 301
+    },
+    {
+      "id": 348,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 300,
+      "target": 302
+    },
+    {
+      "id": 349,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 300,
+      "target": 303
+    },
+    {
+      "id": 350,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 300,
+      "target": 304
+    },
+    {
+      "id": 351,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 300,
+      "target": 305
+    },
+    {
+      "id": 354,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 300,
+      "target": 308
+    },
+    {
+      "id": 355,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 300,
+      "target": 309
+    },
+    {
+      "id": 356,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 301,
+      "target": 302
+    },
+    {
+      "id": 357,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 301,
+      "target": 303
+    },
+    {
+      "id": 358,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 301,
+      "target": 304
+    },
+    {
+      "id": 359,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 301,
+      "target": 305
+    },
+    {
+      "id": 362,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 301,
+      "target": 308
+    },
+    {
+      "id": 363,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 301,
+      "target": 309
+    },
+    {
+      "id": 364,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 302,
+      "target": 303
+    },
+    {
+      "id": 365,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 302,
+      "target": 304
+    },
+    {
+      "id": 366,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 302,
+      "target": 305
+    },
+    {
+      "id": 369,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 302,
+      "target": 308
+    },
+    {
+      "id": 370,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 302,
+      "target": 309
+    },
+    {
+      "id": 371,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 303,
+      "target": 304
+    },
+    {
+      "id": 372,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 303,
+      "target": 305
+    },
+    {
+      "id": 375,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 303,
+      "target": 308
+    },
+    {
+      "id": 376,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 303,
+      "target": 309
+    },
+    {
+      "id": 377,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 304,
+      "target": 305
+    },
+    {
+      "id": 380,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 304,
+      "target": 308
+    },
+    {
+      "id": 381,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 304,
+      "target": 309
+    },
+    {
+      "id": 384,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 305,
+      "target": 308
+    },
+    {
+      "id": 385,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 305,
+      "target": 309
+    },
+    {
+      "id": 391,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 308,
+      "target": 309
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 18,
+      "largest_component": 9,
+      "removed_components": [
+        6,
+        5,
+        2
+      ]
+    },
+    "page": 8
+  }
+}

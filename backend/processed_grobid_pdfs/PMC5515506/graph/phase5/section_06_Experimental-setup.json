@@ -1,0 +1,118 @@
+{
+  "paper_id": "PMC5515506",
+  "section": "Experimental setup",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 112,
+      "label": "chamber",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental setup",
+        "sentence_id": 48,
+        "char_start": 8755,
+        "char_end": 8762,
+        "anchor": "PMC5515506_8755_8762",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 113,
+      "label": "Olympus",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental setup",
+        "sentence_id": 48,
+        "char_start": 8825,
+        "char_end": 8832,
+        "anchor": "PMC5515506_8825_8832",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 116,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental setup",
+        "sentence_id": 48,
+        "char_start": 8800,
+        "char_end": 8803,
+        "anchor": "PMC5515506_8800_8803",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 118,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental setup",
+        "sentence_id": 48,
+        "char_start": 8887,
+        "char_end": 8890,
+        "anchor": "PMC5515506_8887_8890",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 172,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 112,
+      "target": 113
+    },
+    {
+      "id": 174,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 112,
+      "target": 116
+    },
+    {
+      "id": 176,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 112,
+      "target": 118
+    },
+    {
+      "id": 178,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 113,
+      "target": 116
+    },
+    {
+      "id": 180,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 113,
+      "target": 118
+    },
+    {
+      "id": 185,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 116,
+      "target": 118
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 2,
+      "largest_component": 4,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 2
+  }
+}

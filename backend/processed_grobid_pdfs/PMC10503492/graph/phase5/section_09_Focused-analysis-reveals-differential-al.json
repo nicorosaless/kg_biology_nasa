@@ -1,0 +1,254 @@
+{
+  "paper_id": "PMC10503492",
+  "section": "Focused analysis reveals differential alteration in metabolic pathways and oxidative phosphorylation in space reared flies",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 257,
+      "label": "OPA1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Focused analysis reveals differential alteration in metabolic pathways and oxidative phosphorylation in space reared flies",
+        "sentence_id": 54,
+        "char_start": 17025,
+        "char_end": 17029,
+        "anchor": "PMC10503492_17025_17029",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 260,
+      "label": "HEX",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Focused analysis reveals differential alteration in metabolic pathways and oxidative phosphorylation in space reared flies",
+        "sentence_id": 54,
+        "char_start": 17192,
+        "char_end": 17195,
+        "anchor": "PMC10503492_17192_17195",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 265,
+      "label": "lactate",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Focused analysis reveals differential alteration in metabolic pathways and oxidative phosphorylation in space reared flies",
+        "sentence_id": 54,
+        "char_start": 17427,
+        "char_end": 17434,
+        "anchor": "PMC10503492_17427_17434",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 266,
+      "label": "PGAM5",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Focused analysis reveals differential alteration in metabolic pathways and oxidative phosphorylation in space reared flies",
+        "sentence_id": 54,
+        "char_start": 16932,
+        "char_end": 16937,
+        "anchor": "PMC10503492_16932_16937",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 267,
+      "label": "Fructose",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Focused analysis reveals differential alteration in metabolic pathways and oxidative phosphorylation in space reared flies",
+        "sentence_id": 54,
+        "char_start": 17202,
+        "char_end": 17210,
+        "anchor": "PMC10503492_17202_17210",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 268,
+      "label": "FBP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Focused analysis reveals differential alteration in metabolic pathways and oxidative phosphorylation in space reared flies",
+        "sentence_id": 54,
+        "char_start": 17231,
+        "char_end": 17234,
+        "anchor": "PMC10503492_17231_17234",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 254,
+      "label": "PGAM5",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Focused analysis reveals differential alteration in metabolic pathways and oxidative phosphorylation in space reared flies",
+        "sentence_id": 54,
+        "char_start": 16932,
+        "char_end": 16937,
+        "anchor": "PMC10503492_16932_16937",
+        "page": 9,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 312,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 254,
+      "target": 257
+    },
+    {
+      "id": 313,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 254,
+      "target": 260
+    },
+    {
+      "id": 314,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 254,
+      "target": 265
+    },
+    {
+      "id": 315,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 254,
+      "target": 266
+    },
+    {
+      "id": 316,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 254,
+      "target": 267
+    },
+    {
+      "id": 317,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 254,
+      "target": 268
+    },
+    {
+      "id": 318,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 257,
+      "target": 260
+    },
+    {
+      "id": 319,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 257,
+      "target": 265
+    },
+    {
+      "id": 320,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 257,
+      "target": 266
+    },
+    {
+      "id": 321,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 257,
+      "target": 267
+    },
+    {
+      "id": 322,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 257,
+      "target": 268
+    },
+    {
+      "id": 323,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 260,
+      "target": 265
+    },
+    {
+      "id": 324,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 260,
+      "target": 266
+    },
+    {
+      "id": 325,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 260,
+      "target": 267
+    },
+    {
+      "id": 326,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 260,
+      "target": 268
+    },
+    {
+      "id": 327,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 265,
+      "target": 266
+    },
+    {
+      "id": 328,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 265,
+      "target": 267
+    },
+    {
+      "id": 329,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 265,
+      "target": 268
+    },
+    {
+      "id": 330,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 266,
+      "target": 267
+    },
+    {
+      "id": 331,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 266,
+      "target": 268
+    },
+    {
+      "id": 332,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 267,
+      "target": 268
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 26,
+      "largest_component": 7,
+      "removed_components": [
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 9
+  }
+}

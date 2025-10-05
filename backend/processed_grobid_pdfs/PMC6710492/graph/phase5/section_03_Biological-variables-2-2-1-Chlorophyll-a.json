@@ -1,0 +1,57 @@
+{
+  "paper_id": "PMC6710492",
+  "section": "Biological variables 2.2.1. Chlorophyll a concentration",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 168,
+      "label": "Wellburn",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Biological variables 2.2.1. Chlorophyll a concentration",
+        "sentence_id": 41,
+        "char_start": 11622,
+        "char_end": 11630,
+        "anchor": "PMC6710492_11622_11630",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 167,
+      "label": "Lil",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Biological variables 2.2.1. Chlorophyll a concentration",
+        "sentence_id": 41,
+        "char_start": 11603,
+        "char_end": 11606,
+        "anchor": "PMC6710492_11603_11606",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 182,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 167,
+      "target": 168
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 2,
+      "largest_component": 2,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 2
+  }
+}

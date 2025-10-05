@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC11673879",
+  "section": "ABSTRACT",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 0,
+      "label": "bacteria",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 5,
+        "char_start": 588,
+        "char_end": 596,
+        "anchor": "PMC11673879_588_596",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1,
+      "label": "neither",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 5,
+        "char_start": 642,
+        "char_end": 649,
+        "anchor": "PMC11673879_642_649",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 0,
+      "target": 1
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 1,
+      "largest_component": 2
+    },
+    "page": 1
+  }
+}

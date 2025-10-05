@@ -1,0 +1,68 @@
+{
+  "paper_id": "PMC3630201",
+  "section": "Nano-Computed Tomography (NanoCT)",
+  "n_nodes": 4,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 219,
+      "label": "Ischia",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Nano-Computed Tomography (NanoCT)",
+        "sentence_id": 207,
+        "char_start": 46645,
+        "char_end": 46651,
+        "anchor": "PMC3630201_46645_46651"
+      }
+    },
+    {
+      "id": 220,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Nano-Computed Tomography (NanoCT)",
+        "sentence_id": 207,
+        "char_start": 46753,
+        "char_end": 46756,
+        "anchor": "PMC3630201_46753_46756"
+      }
+    },
+    {
+      "id": 218,
+      "label": "TXM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Nano-Computed Tomography (NanoCT)",
+        "sentence_id": 205,
+        "char_start": 46394,
+        "char_end": 46397,
+        "anchor": "PMC3630201_46394_46397"
+      }
+    },
+    {
+      "id": 225,
+      "label": "Lacunar",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Nano-Computed Tomography (NanoCT)",
+        "sentence_id": 215,
+        "char_start": 47794,
+        "char_end": 47801,
+        "anchor": "PMC3630201_47794_47801"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 199,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 219,
+      "target": 220
+    }
+  ]
+}

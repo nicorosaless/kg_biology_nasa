@@ -1,0 +1,58 @@
+{
+  "paper_id": "PMC11451251",
+  "section": "Mechanosensitive ion channels (Msc) and osmoprotectants",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 261,
+      "label": "Msc",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mechanosensitive ion channels (Msc) and osmoprotectants",
+        "sentence_id": 90,
+        "char_start": 18420,
+        "char_end": 18423,
+        "anchor": "PMC11451251_18420_18423",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 262,
+      "label": "Msc",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mechanosensitive ion channels (Msc) and osmoprotectants",
+        "sentence_id": 90,
+        "char_start": 18538,
+        "char_end": 18541,
+        "anchor": "PMC11451251_18538_18541",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 214,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 261,
+      "target": 262
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 5,
+      "largest_component": 2,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 6
+  }
+}

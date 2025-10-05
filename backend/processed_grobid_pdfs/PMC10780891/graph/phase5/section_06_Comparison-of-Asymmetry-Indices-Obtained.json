@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC10780891",
+  "section": "Comparison of Asymmetry Indices Obtained from a Section of a Kernel and a Non-Traumatic Method",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 242,
+      "label": "lengths",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of Asymmetry Indices Obtained from a Section of a Kernel and a Non-Traumatic Method",
+        "sentence_id": 57,
+        "char_start": 11887,
+        "char_end": 11894,
+        "anchor": "PMC10780891_11887_11894",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 243,
+      "label": "Mann",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of Asymmetry Indices Obtained from a Section of a Kernel and a Non-Traumatic Method",
+        "sentence_id": 57,
+        "char_start": 12179,
+        "char_end": 12183,
+        "anchor": "PMC10780891_12179_12183",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 306,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 242,
+      "target": 243
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 12,
+      "largest_component": 2
+    },
+    "page": 4
+  }
+}

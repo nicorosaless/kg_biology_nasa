@@ -1,0 +1,187 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "Space radiation poses risks to astronauts' skeletal health. This study investigates the impact of low-LET protons and high-LET 56Fe ions on bone remodeling, osteoblastogenesis, and redox-related gene expression in mice, simulating space radiation exposure. The study hypothesized that ionizing radiation impairs osteoblastogenesis in an ion-type specific manner, with low doses capable of modulating expression of redox-related genes.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Figure 1.Total Body Irradiation (TBI) experiment designs.(A) Experiments to determine whether TBI alters antioxidant gene expression in osteoblasts, osteoblastogenesis, and the structure of cancellous bone in an ion-dependent fashion at five weeks after proton or56",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.png"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Figure 1.Total Body Irradiation (TBI) experiment designs.(A) Experiments to determine whether TBI alters antioxidant gene expression in osteoblasts, osteoblastogenesis, and the structure of cancellous bone in an ion-dependent fashion at five weeks after proton or56",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.png"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Figure 2.",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.png"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Figure 2.",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.png"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "TBI Experiment Design",
+      "summary": "The study examined the effects of high-LET 56Fe or low-LET protons at various doses and time points (one day, seven days, five weeks, and one year post-exposure). Tibiae and femora were collected to analyze cancellous microarchitecture. Bone-marrow cells were cultured ex vivo for colony counts and mineralization assays. Gene expression was assessed during the proliferation and mineralization phases of osteoblastogenesis. Figure 1 shows the experimental timelines.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Body Mass Temporal Responses and Coat Color",
+      "summary": "Body mass was monitored weekly as an index of general health. A high dose of 56Fe (200 cGy) reduced body mass by 4% within six days. Shipment of mice caused a 5% decline in body weights across all groups. By euthanasia, body mass did not significantly differ between irradiated and control groups. Coat color, another health index, was assessed at one year. Sham controls showed minimal coat color change, while 56Fe (200 cGy) caused a gray coat in all mice, suggesting a dose-dependent effect on general health.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Bone Structure",
+      "summary": "Microcomputed tomography assessed cancellous tissue in the proximal tibial metaphysis and cortical geometry of the femoral midshaft. Aging caused a 54% reduction in bone volume/total volume (BV/TV) in sham-treated animals between 5 weeks and 1 year. At 5 weeks, 56Fe (50 and 200 cGy) caused decrements in BV/TV and strut number (Tb.N). Protons (200 cGy) also decreased BV/TV and Tb.N, with trends at 50 cGy. At 1 year, 56Fe (200 cGy) showed a trend of decreased BV/TV and Tb.N. Lower radiation doses did not show detectable bone loss.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Ex Vivo Osteoblastogenesis",
+      "summary": "Marrow progenitor cells were cultured to assess cellular responses to irradiation. At 5 weeks post-irradiation, gene expression, alkaline phosphatase activity, colony counts, and DNA content were analyzed during proliferation and mineralization. 56Fe (200 cGy) caused a -91% decrement in mineralization area, while protons (200 cGy) showed a trend towards lower mineralization. Lower doses did not affect mineralized area. Radiation exposure did not modify expression levels for most genes analyzed during the mineralization phase. Figure 4A shows nodule area of cultures from irradiated animals compared to controls.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Total Antioxidant Capacity of the Marrow Extracellular Fluid",
+      "summary": "The antioxidant capacity of the marrow extracellular fluid was measured. Protons (200 cGy) or 56Fe (200 cGy) decreased antioxidant capacity by over 35% within one day. Seven days after exposure, protons increased antioxidant capacity by 62%, while 56Fe did not differ from controls. Lower radiation doses did not modify antioxidant capacity.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "In Vitro Radiation Effects on Osteoblastogenesis",
+      "summary": "In vitro experiments examined the impact of radiation on osteoprogenitors, comparing low-LET (137Cs) and high-LET (56Fe) species. Significant growth decrements were observed after exposure to 137Cs (200 cGy and 500 cGy) or 56Fe (100 cGy, 200 cGy). Osteoprogenitors appeared more sensitive to high-LET 56Fe than low-LET 137Cs. Exogenous superoxide dismutase (SOD) protected cell growth from 137Cs irradiation, indicating the role of oxidative stress.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": "Low doses of protons or 56Fe had no significant adverse effects on bone structure or osteoblastogenesis. A high dose of 56Fe radiation (200 cGy) induced detrimental effects on antioxidant capacity, bone structure, and osteoprogenitor populations. High-LET irradiation at 200 cGy impaired osteoblastogenesis and regulated redox-related gene expression, potentially contributing to bone loss. Further research is needed to fully elucidate the long-term effects of space radiation on skeletal health and the potential benefits of antioxidant interventions.",
+  "keywords": [
+    "space radiation",
+    "osteoblastogenesis",
+    "bone remodeling",
+    "oxidative stress",
+    "high-let radiation",
+    "low-let radiation",
+    "56fe ions",
+    "protons",
+    "bone structure",
+    "antioxidant capacity"
+  ],
+  "topics": [
+    "radiation biology",
+    "skeletal health",
+    "oxidative stress"
+  ],
+  "_meta": {
+    "paper_id": "sha256:6e30dbaf3675d41f1f64455392f7af3a29d8e6d732dc8e26b8970f2b01fd7365",
+    "paper_title": "Dose-and Ion-Dependent Effects in the Oxidative Stress Response to Space-Like Radiation Exposure in the Skeletal System",
+    "generated_at": "2025-10-05T01:03:45Z",
+    "word_count": 498,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "space radiation",
+      "osteoblastogenesis",
+      "bone remodeling",
+      "oxidative stress",
+      "high-let radiation",
+      "low-let radiation",
+      "56fe ions",
+      "protons",
+      "bone structure",
+      "antioxidant capacity"
+    ],
+    "topics": [
+      "radiation biology",
+      "skeletal health",
+      "oxidative stress"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 10014,
+      "completion_tokens": 1083,
+      "total_tokens": 11097,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.001001,
+      "output_usd": 0.000433,
+      "total_usd": 0.001435
+    },
+    "cost": {
+      "input_usd": 0.001001,
+      "output_usd": 0.000433,
+      "total_usd": 0.001435
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [
+        {
+          "id": "fig_6",
+          "score": -9999,
+          "caption_wc": 63
+        },
+        {
+          "id": "fig_7",
+          "score": -9999,
+          "caption_wc": 166
+        }
+      ],
+      "corrupted_detected": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4",
+        "fig_6",
+        "fig_7"
+      ],
+      "original_total": 6,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "paper_id": "PMC10504369",
+  "section": "Tissue sample collection",
+  "n_nodes": 8,
+  "n_edges": 28,
+  "nodes": [
+    {
+      "id": 512,
+      "label": "Muscles",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 157,
+        "char_start": 34180,
+        "char_end": 34187,
+        "anchor": "PMC10504369_34180_34187",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 513,
+      "label": "OCT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 157,
+        "char_start": 34273,
+        "char_end": 34276,
+        "anchor": "PMC10504369_34273_34276",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 514,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 157,
+        "char_start": 34129,
+        "char_end": 34132,
+        "anchor": "PMC10504369_34129_34132",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 515,
+      "label": "Thermo",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 157,
+        "char_start": 34134,
+        "char_end": 34140,
+        "anchor": "PMC10504369_34134_34140",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 516,
+      "label": "OCT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 157,
+        "char_start": 34273,
+        "char_end": 34276,
+        "anchor": "PMC10504369_34273_34276",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 517,
+      "label": "Epredia",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 157,
+        "char_start": 34286,
+        "char_end": 34293,
+        "anchor": "PMC10504369_34286_34293",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 510,
+      "label": "muscles",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 157,
+        "char_start": 34058,
+        "char_end": 34065,
+        "anchor": "PMC10504369_34058_34065",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 511,
+      "label": "formald",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tissue sample collection",
+        "sentence_id": 157,
+        "char_start": 34087,
+        "char_end": 34094,
+        "anchor": "PMC10504369_34087_34094",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 596,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 510,
+      "target": 511
+    },
+    {
+      "id": 597,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 510,
+      "target": 512
+    },
+    {
+      "id": 598,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 510,
+      "target": 513
+    },
+    {
+      "id": 599,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 510,
+      "target": 514
+    },
+    {
+      "id": 600,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 510,
+      "target": 515
+    },
+    {
+      "id": 601,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 510,
+      "target": 516
+    },
+    {
+      "id": 602,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 510,
+      "target": 517
+    },
+    {
+      "id": 603,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 511,
+      "target": 512
+    },
+    {
+      "id": 604,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 511,
+      "target": 513
+    },
+    {
+      "id": 605,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 511,
+      "target": 514
+    },
+    {
+      "id": 606,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 511,
+      "target": 515
+    },
+    {
+      "id": 607,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 511,
+      "target": 516
+    },
+    {
+      "id": 608,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 511,
+      "target": 517
+    },
+    {
+      "id": 609,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 512,
+      "target": 513
+    },
+    {
+      "id": 610,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 512,
+      "target": 514
+    },
+    {
+      "id": 611,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 512,
+      "target": 515
+    },
+    {
+      "id": 612,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 512,
+      "target": 516
+    },
+    {
+      "id": 613,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 512,
+      "target": 517
+    },
+    {
+      "id": 614,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 513,
+      "target": 514
+    },
+    {
+      "id": 615,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 513,
+      "target": 515
+    },
+    {
+      "id": 616,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 513,
+      "target": 516
+    },
+    {
+      "id": 617,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 513,
+      "target": 517
+    },
+    {
+      "id": 618,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 514,
+      "target": 515
+    },
+    {
+      "id": 619,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 514,
+      "target": 516
+    },
+    {
+      "id": 620,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 514,
+      "target": 517
+    },
+    {
+      "id": 621,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 515,
+      "target": 516
+    },
+    {
+      "id": 622,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 515,
+      "target": 517
+    },
+    {
+      "id": 623,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 516,
+      "target": 517
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 9,
+      "largest_component": 8,
+      "removed_components": [
+        7,
+        6,
+        4,
+        2
+      ]
+    },
+    "page": 5
+  }
+}

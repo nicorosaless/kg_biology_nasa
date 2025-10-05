@@ -1,0 +1,57 @@
+{
+  "paper_id": "PMC3554398",
+  "section": "ABSTRACT",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 2,
+      "label": "DNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 2,
+        "char_start": 553,
+        "char_end": 556,
+        "anchor": "PMC3554398_553_556",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 4,
+      "label": "PMA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 2,
+        "char_start": 481,
+        "char_end": 484,
+        "anchor": "PMC3554398_481_484",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2,
+      "target": 4
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 12,
+      "largest_component": 2,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 1
+  }
+}

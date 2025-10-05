@@ -1,0 +1,114 @@
+{
+  "paper_id": "PMC4405755",
+  "section": "Analysis of myosin heavy chain (MHC) isoform content",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 161,
+      "label": "Tri",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Analysis of myosin heavy chain (MHC) isoform content",
+        "sentence_id": 54,
+        "char_start": 9898,
+        "char_end": 9901,
+        "anchor": "PMC4405755_9898_9901",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 162,
+      "label": "Tri",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Analysis of myosin heavy chain (MHC) isoform content",
+        "sentence_id": 54,
+        "char_start": 9911,
+        "char_end": 9914,
+        "anchor": "PMC4405755_9911_9914",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 169,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Analysis of myosin heavy chain (MHC) isoform content",
+        "sentence_id": 54,
+        "char_start": 10097,
+        "char_end": 10100,
+        "anchor": "PMC4405755_10097_10100",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 164,
+      "label": "NaP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Analysis of myosin heavy chain (MHC) isoform content",
+        "sentence_id": 54,
+        "char_start": 9995,
+        "char_end": 9998,
+        "anchor": "PMC4405755_9995_9998",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 84,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 161,
+      "target": 162
+    },
+    {
+      "id": 85,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 161,
+      "target": 164
+    },
+    {
+      "id": 89,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 161,
+      "target": 169
+    },
+    {
+      "id": 90,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 162,
+      "target": 164
+    },
+    {
+      "id": 94,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 162,
+      "target": 169
+    },
+    {
+      "id": 98,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 164,
+      "target": 169
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 8,
+      "largest_component": 4
+    },
+    "page": 3
+  }
+}

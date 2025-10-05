@@ -1,0 +1,68 @@
+{
+  "paper_id": "PMC3630201",
+  "section": "Spaceflight Suppresses Pro-Osteogenic Growth and Proliferation Gene Expression in Bone",
+  "n_nodes": 4,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 56,
+      "label": "Myod1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight Suppresses Pro-Osteogenic Growth and Proliferation Gene Expression in Bone",
+        "sentence_id": 73,
+        "char_start": 16423,
+        "char_end": 16428,
+        "anchor": "PMC3630201_16423_16428"
+      }
+    },
+    {
+      "id": 55,
+      "label": "Egr1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight Suppresses Pro-Osteogenic Growth and Proliferation Gene Expression in Bone",
+        "sentence_id": 73,
+        "char_start": 16417,
+        "char_end": 16421,
+        "anchor": "PMC3630201_16417_16421"
+      }
+    },
+    {
+      "id": 52,
+      "label": "qPCR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight Suppresses Pro-Osteogenic Growth and Proliferation Gene Expression in Bone",
+        "sentence_id": 71,
+        "char_start": 16197,
+        "char_end": 16201,
+        "anchor": "PMC3630201_16197_16201"
+      }
+    },
+    {
+      "id": 59,
+      "label": "Sox9",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight Suppresses Pro-Osteogenic Growth and Proliferation Gene Expression in Bone",
+        "sentence_id": 74,
+        "char_start": 16733,
+        "char_end": 16737,
+        "anchor": "PMC3630201_16733_16737"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 52,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 55,
+      "target": 56
+    }
+  ]
+}

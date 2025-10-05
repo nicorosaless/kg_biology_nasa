@@ -1,0 +1,120 @@
+{
+  "paper_id": "PMC10503492",
+  "section": "Quantification And Statistical Analysis",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 1080,
+      "label": "overlap",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantification And Statistical Analysis",
+        "sentence_id": 248,
+        "char_start": 68707,
+        "char_end": 68714,
+        "anchor": "PMC10503492_68707_68714",
+        "page": 35,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1082,
+      "label": "overlap",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantification And Statistical Analysis",
+        "sentence_id": 248,
+        "char_start": 68772,
+        "char_end": 68779,
+        "anchor": "PMC10503492_68772_68779",
+        "page": 35,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1083,
+      "label": "ANOVA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantification And Statistical Analysis",
+        "sentence_id": 248,
+        "char_start": 68540,
+        "char_end": 68545,
+        "anchor": "PMC10503492_68540_68545",
+        "page": 35,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1084,
+      "label": "Tukey",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantification And Statistical Analysis",
+        "sentence_id": 248,
+        "char_start": 68559,
+        "char_end": 68564,
+        "anchor": "PMC10503492_68559_68564",
+        "page": 35,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1695,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1080,
+      "target": 1082
+    },
+    {
+      "id": 1696,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1080,
+      "target": 1083
+    },
+    {
+      "id": 1697,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1080,
+      "target": 1084
+    },
+    {
+      "id": 1698,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1082,
+      "target": 1083
+    },
+    {
+      "id": 1699,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1082,
+      "target": 1084
+    },
+    {
+      "id": 1700,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1083,
+      "target": 1084
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 16,
+      "largest_component": 4,
+      "removed_components": [
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 35
+  }
+}

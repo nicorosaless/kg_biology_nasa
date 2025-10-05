@@ -1,0 +1,85 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "Artemis III Surface Operations",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 392,
+      "label": "grading",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis III Surface Operations",
+        "sentence_id": 196,
+        "char_start": 38038,
+        "char_end": 38045,
+        "anchor": "PMC10284894_38038_38045",
+        "page": 39,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 393,
+      "label": "surface",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis III Surface Operations",
+        "sentence_id": 196,
+        "char_start": 38050,
+        "char_end": 38057,
+        "anchor": "PMC10284894_38050_38057",
+        "page": 39,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 390,
+      "label": "minimal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis III Surface Operations",
+        "sentence_id": 196,
+        "char_start": 37893,
+        "char_end": 37900,
+        "anchor": "PMC10284894_37893_37900",
+        "page": 39,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 415,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 390,
+      "target": 392
+    },
+    {
+      "id": 416,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 390,
+      "target": 393
+    },
+    {
+      "id": 417,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 392,
+      "target": 393
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 20,
+      "largest_component": 3,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 39
+  }
+}

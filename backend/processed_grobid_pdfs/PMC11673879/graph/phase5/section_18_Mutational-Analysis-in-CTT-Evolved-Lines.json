@@ -1,0 +1,84 @@
+{
+  "paper_id": "PMC11673879",
+  "section": "Mutational Analysis in CTT-Evolved Lines",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 456,
+      "label": "DNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mutational Analysis in CTT-Evolved Lines",
+        "sentence_id": 202,
+        "char_start": 33459,
+        "char_end": 33462,
+        "anchor": "PMC11673879_33459_33462",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 459,
+      "label": "SigB",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mutational Analysis in CTT-Evolved Lines",
+        "sentence_id": 202,
+        "char_start": 33341,
+        "char_end": 33345,
+        "anchor": "PMC11673879_33341_33345",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 453,
+      "label": "mutation",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mutational Analysis in CTT-Evolved Lines",
+        "sentence_id": 202,
+        "char_start": 33293,
+        "char_end": 33301,
+        "anchor": "PMC11673879_33293_33301",
+        "page": 11,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 289,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 453,
+      "target": 456
+    },
+    {
+      "id": 290,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 453,
+      "target": 459
+    },
+    {
+      "id": 291,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 456,
+      "target": 459
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 18,
+      "largest_component": 3,
+      "removed_components": [
+        3
+      ]
+    },
+    "page": 11
+  }
+}

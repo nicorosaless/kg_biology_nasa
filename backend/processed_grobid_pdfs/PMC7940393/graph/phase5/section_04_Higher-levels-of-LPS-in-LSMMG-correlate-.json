@@ -1,0 +1,315 @@
+{
+  "paper_id": "PMC7940393",
+  "section": "Higher levels of LPS in LSMMG correlate with increased OMV production",
+  "n_nodes": 8,
+  "n_edges": 28,
+  "nodes": [
+    {
+      "id": 231,
+      "label": "OMV",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Higher levels of LPS in LSMMG correlate with increased OMV production",
+        "sentence_id": 54,
+        "char_start": 12894,
+        "char_end": 12897,
+        "anchor": "PMC7940393_12894_12897",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 232,
+      "label": "OMV",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Higher levels of LPS in LSMMG correlate with increased OMV production",
+        "sentence_id": 54,
+        "char_start": 12974,
+        "char_end": 12977,
+        "anchor": "PMC7940393_12974_12977",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 233,
+      "label": "flhA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Higher levels of LPS in LSMMG correlate with increased OMV production",
+        "sentence_id": 54,
+        "char_start": 13048,
+        "char_end": 13052,
+        "anchor": "PMC7940393_13048_13052",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 235,
+      "label": "wild-type cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Higher levels of LPS in LSMMG correlate with increased OMV production",
+        "sentence_id": 54,
+        "char_start": 13104,
+        "char_end": 13119,
+        "anchor": "PMC7940393_13104_13119",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 236,
+      "label": "LSMMG",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Higher levels of LPS in LSMMG correlate with increased OMV production",
+        "sentence_id": 54,
+        "char_start": 12807,
+        "char_end": 12812,
+        "anchor": "PMC7940393_12807_12812",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 237,
+      "label": "flhA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Higher levels of LPS in LSMMG correlate with increased OMV production",
+        "sentence_id": 54,
+        "char_start": 12837,
+        "char_end": 12841,
+        "anchor": "PMC7940393_12837_12841",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 238,
+      "label": "OMV",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Higher levels of LPS in LSMMG correlate with increased OMV production",
+        "sentence_id": 54,
+        "char_start": 12894,
+        "char_end": 12897,
+        "anchor": "PMC7940393_12894_12897",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 240,
+      "label": "flhA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Higher levels of LPS in LSMMG correlate with increased OMV production",
+        "sentence_id": 54,
+        "char_start": 13048,
+        "char_end": 13052,
+        "anchor": "PMC7940393_13048_13052",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 553,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 231,
+      "target": 232
+    },
+    {
+      "id": 554,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 231,
+      "target": 233
+    },
+    {
+      "id": 555,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 231,
+      "target": 235
+    },
+    {
+      "id": 556,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 231,
+      "target": 236
+    },
+    {
+      "id": 557,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 231,
+      "target": 237
+    },
+    {
+      "id": 558,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 231,
+      "target": 238
+    },
+    {
+      "id": 560,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 231,
+      "target": 240
+    },
+    {
+      "id": 562,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 232,
+      "target": 233
+    },
+    {
+      "id": 563,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 232,
+      "target": 235
+    },
+    {
+      "id": 564,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 232,
+      "target": 236
+    },
+    {
+      "id": 565,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 232,
+      "target": 237
+    },
+    {
+      "id": 566,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 232,
+      "target": 238
+    },
+    {
+      "id": 568,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 232,
+      "target": 240
+    },
+    {
+      "id": 570,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 233,
+      "target": 235
+    },
+    {
+      "id": 571,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 233,
+      "target": 236
+    },
+    {
+      "id": 572,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 233,
+      "target": 237
+    },
+    {
+      "id": 573,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 233,
+      "target": 238
+    },
+    {
+      "id": 575,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 233,
+      "target": 240
+    },
+    {
+      "id": 577,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 236,
+      "target": 235
+    },
+    {
+      "id": 578,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 237,
+      "target": 235
+    },
+    {
+      "id": 579,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 238,
+      "target": 235
+    },
+    {
+      "id": 581,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 240,
+      "target": 235
+    },
+    {
+      "id": 583,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 236,
+      "target": 237
+    },
+    {
+      "id": 584,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 236,
+      "target": 238
+    },
+    {
+      "id": 586,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 236,
+      "target": 240
+    },
+    {
+      "id": 588,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 237,
+      "target": 238
+    },
+    {
+      "id": 590,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 237,
+      "target": 240
+    },
+    {
+      "id": 593,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 238,
+      "target": 240
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 8,
+      "removed_orphans": 0,
+      "largest_component": 8,
+      "removed_components": [
+        6,
+        5,
+        5,
+        5,
+        4,
+        4,
+        3
+      ]
+    },
+    "page": 2
+  }
+}

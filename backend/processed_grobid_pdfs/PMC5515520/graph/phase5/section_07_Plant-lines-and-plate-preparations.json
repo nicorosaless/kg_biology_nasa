@@ -1,0 +1,314 @@
+{
+  "paper_id": "PMC5515520",
+  "section": "Plant lines and plate preparations",
+  "n_nodes": 8,
+  "n_edges": 28,
+  "nodes": [
+    {
+      "id": 311,
+      "label": "23Both",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Plant lines and plate preparations",
+        "sentence_id": 103,
+        "char_start": 23146,
+        "char_end": 23152,
+        "anchor": "PMC5515520_23146_23152",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 312,
+      "label": "pAR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Plant lines and plate preparations",
+        "sentence_id": 103,
+        "char_start": 23207,
+        "char_end": 23210,
+        "anchor": "PMC5515520_23207_23210",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 313,
+      "label": "pTAA1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Plant lines and plate preparations",
+        "sentence_id": 103,
+        "char_start": 23243,
+        "char_end": 23248,
+        "anchor": "PMC5515520_23243_23248",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 314,
+      "label": "Pet",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Plant lines and plate preparations",
+        "sentence_id": 103,
+        "char_start": 23365,
+        "char_end": 23368,
+        "anchor": "PMC5515520_23365_23368",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 316,
+      "label": "imaging",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Plant lines and plate preparations",
+        "sentence_id": 103,
+        "char_start": 23392,
+        "char_end": 23399,
+        "anchor": "PMC5515520_23392_23399",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 317,
+      "label": "23Both",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Plant lines and plate preparations",
+        "sentence_id": 103,
+        "char_start": 23146,
+        "char_end": 23152,
+        "anchor": "PMC5515520_23146_23152",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 318,
+      "label": "CARA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Plant lines and plate preparations",
+        "sentence_id": 103,
+        "char_start": 23233,
+        "char_end": 23237,
+        "anchor": "PMC5515520_23233_23237",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 319,
+      "label": "Petri",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Plant lines and plate preparations",
+        "sentence_id": 103,
+        "char_start": 23365,
+        "char_end": 23370,
+        "anchor": "PMC5515520_23365_23370",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 457,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 311,
+      "target": 312
+    },
+    {
+      "id": 458,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 311,
+      "target": 313
+    },
+    {
+      "id": 459,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 311,
+      "target": 314
+    },
+    {
+      "id": 460,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 311,
+      "target": 316
+    },
+    {
+      "id": 461,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 311,
+      "target": 317
+    },
+    {
+      "id": 462,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 311,
+      "target": 318
+    },
+    {
+      "id": 463,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 311,
+      "target": 319
+    },
+    {
+      "id": 465,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 312,
+      "target": 313
+    },
+    {
+      "id": 466,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 312,
+      "target": 314
+    },
+    {
+      "id": 467,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 312,
+      "target": 316
+    },
+    {
+      "id": 468,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 312,
+      "target": 317
+    },
+    {
+      "id": 469,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 312,
+      "target": 318
+    },
+    {
+      "id": 470,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 312,
+      "target": 319
+    },
+    {
+      "id": 472,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 313,
+      "target": 314
+    },
+    {
+      "id": 473,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 313,
+      "target": 316
+    },
+    {
+      "id": 474,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 313,
+      "target": 317
+    },
+    {
+      "id": 475,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 313,
+      "target": 318
+    },
+    {
+      "id": 476,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 313,
+      "target": 319
+    },
+    {
+      "id": 478,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 314,
+      "target": 316
+    },
+    {
+      "id": 479,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 314,
+      "target": 317
+    },
+    {
+      "id": 480,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 314,
+      "target": 318
+    },
+    {
+      "id": 481,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 314,
+      "target": 319
+    },
+    {
+      "id": 483,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 316,
+      "target": 317
+    },
+    {
+      "id": 484,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 316,
+      "target": 318
+    },
+    {
+      "id": 485,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 316,
+      "target": 319
+    },
+    {
+      "id": 487,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 317,
+      "target": 318
+    },
+    {
+      "id": 488,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 317,
+      "target": 319
+    },
+    {
+      "id": 490,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 318,
+      "target": 319
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 7,
+      "removed_orphans": 1,
+      "largest_component": 8,
+      "removed_components": [
+        7,
+        6,
+        5,
+        5,
+        5,
+        3
+      ]
+    },
+    "page": 5
+  }
+}

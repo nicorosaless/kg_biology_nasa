@@ -1,0 +1,205 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "The study addresses the growing need to understand the microbiome of space habitats due to long-term human habitation in space. It focuses on characterizing novel microbes isolated from the International Space Station (ISS) to expand genomic databases of space-relevant microbes, track microbial dispersion, and anticipate potential health threats. Six Gram-stain-positive bacterial strains were isolated from ISS surfaces, and whole genome sequencing (WGS) was performed to explore their phylogenetic affiliation, identifying them as novel species based on gyrB gene similarities, average nucleotide identity (ANI), and digital DNA-DNA hybridization (dDDH) values.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "III polyketide synthase (T3PKS) clusters.Based on these multi-faceted taxonomic methods, it was concluded that these six ISS strains represent five novel species, which we propose to name as follows: Arthrobacter burdickii IIF3SC-B10 T (= NRRL",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.jpeg"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Figure 1.Phylogenetic tree of Arthrobacter species including strain IIF3SC-B10 T based on (a) 16S rRNA genes and (b) 138 single-copy core genes of phylum Actinobacteria, keeping Kocuria rhizophila as an outgroup.",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.jpeg"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Figure 2.",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.jpeg"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Figure 3.",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.jpeg"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Sample Collection and Isolation",
+      "summary": "Samples were collected from eight ISS surfaces during the MT-1 and MT-2 mission series. Six strains, suspected to be novel, were isolated from the Advanced Resistive Exercise Device (ARED) platform and crew quarters. Preliminary 16S rRNA gene sequence analysis indicated that these strains belonged to Arthrobacter, Leifsonia, Paenibacillus, and Sporosarcina genera.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Microscopy and Phenotype Characterization",
+      "summary": "Spore-forming strains were heat-shocked and grown to induce endospore formation, visualized via light microscopy. All strains were grown on TSA media and prepared for SEM using glutaraldehyde fixation, dehydration, and critical point drying. Growth temperature, salt tolerance, oxidase/catalase activity, and pH tolerance were assessed. Biochemical tests were performed using a Gram-positive identification card.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Chemotaxonomy and DNA Extraction",
+      "summary": "Fatty acid methyl esters (FAME) were analyzed using the Microbial Identification System (MIDI). Quinones, polar lipids, and peptidoglycans were extracted and analyzed using thin-layer chromatography. Genomic DNA was extracted using the ZymoBIOMICS kit, and libraries were prepared using the Illumina Nextera DNA Flex kit. Sequencing was performed on a NovaSeq 6000 platform. Oxford Nanopore sequencing was also used for select strains, and hybrid genome assembly was conducted using Unicycler.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "ANI, dDDH, and Phylogenetic Analyses",
+      "summary": "Species affiliation was determined using Average Nucleotide Identity (ANI) and digital DNA-DNA hybridization (dDDH). FastANI was used for ANI calculations, and the Genome-to-Genome Distance Calculator (GGDC) was used for dDDH. Phylogenetic trees were constructed using 16S rRNA gene sequences and whole-genome-based phylogenies using GToTree. IQTREE was used to construct phylogenetic trees from protein alignments with bootstrap replicates.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Metagenome Mapping and Functional Annotation",
+      "summary": "Metagenomic reads from MT-1 and MT-2 missions were retrieved and quality-filtered using Trimmomatic. MetaCompass was used to align metagenome reads against the novel species' genomes. Gene prediction and annotation were performed using the RAST online server. Antibiotic resistance genes were identified using the Resistance Gene Identifier (RGI), and secondary metabolite biosynthetic gene clusters (BGCs) were identified using antiSMASH.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Results: Novel Species Identification",
+      "summary": "Six strains were identified as five novel species: Arthrobacter burdickii, Leifsonia virtsii, Leifsonia williamsii, Paenibacillus vandeheii, and Sporosarcina highlanderae, based on 16S rRNA gene similarities and ANI/dDDH analyses. WGS of S. thermotolerans was generated and compared with S. highlanderae to identify genomic traits.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Functional and Resistance Properties",
+      "summary": "Genome annotation using RAST-tk revealed genes related to amino acid metabolism, carbohydrate metabolism, cofactors, vitamins, and protein metabolism. The genomes showed potential resistance to seven drug classes, including rifamycin and tetracycline. AntiSMASH analysis revealed 16 cluster types, including β-lactone and type III polyketide synthase (T3PKS) clusters.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Abundance of Novel Species in ISS Metagenomes",
+      "summary": "Analysis of metagenomic reads from ISS samples showed that the novel species were rare, with most metagenomes having less than 0.1% of reads mapping to them. Paenibacillus vandeheii exhibited the highest mapping at 1.05%.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": "The study successfully isolated and characterized five novel bacterial species from the ISS, enhancing the understanding of the ISS microbiome. These species exhibit unique genomic and phenotypic traits, including resistance to antibiotics and the potential for producing secondary metabolites. The rarity of these species in ISS metagenomes suggests they are not dominant members of the habitat. The research contributes to managing and potentially repurposing space habitat microbiomes for various applications, crucial for long-term space habitation.",
+  "keywords": [
+    "international space station",
+    "microbiome",
+    "novel species",
+    "whole genome sequencing",
+    "phylogenomics",
+    "antibiotic resistance",
+    "metagenomics",
+    "bacterial identification",
+    "space habitat",
+    "iss"
+  ],
+  "topics": [
+    "microbial ecology",
+    "space biology",
+    "genomics"
+  ],
+  "_meta": {
+    "paper_id": "sha256:45dc4ef6b190fdfc2d22798c13f2ef44ef9e610ef576257dd3bc403d6f7fe1d0",
+    "paper_title": "Phylogenomics, phenotypic, and functional traits of five novel (Earth-derived) bacterial species isolated from the International Space",
+    "generated_at": "2025-10-05T10:34:47Z",
+    "word_count": 500,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "international space station",
+      "microbiome",
+      "novel species",
+      "whole genome sequencing",
+      "phylogenomics",
+      "antibiotic resistance",
+      "metagenomics",
+      "bacterial identification",
+      "space habitat",
+      "iss"
+    ],
+    "topics": [
+      "microbial ecology",
+      "space biology",
+      "genomics"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 10377,
+      "completion_tokens": 1153,
+      "total_tokens": 11530,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.001038,
+      "output_usd": 0.000461,
+      "total_usd": 0.001499
+    },
+    "cost": {
+      "input_usd": 0.001038,
+      "output_usd": 0.000461,
+      "total_usd": 0.001499
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [
+        {
+          "id": "fig_5",
+          "score": -9999,
+          "caption_wc": 38
+        },
+        {
+          "id": "fig_6",
+          "score": -9999,
+          "caption_wc": 8
+        },
+        {
+          "id": "fig_7",
+          "score": -9999,
+          "caption_wc": 66
+        }
+      ],
+      "corrupted_detected": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4",
+        "fig_5",
+        "fig_6",
+        "fig_7"
+      ],
+      "original_total": 7,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

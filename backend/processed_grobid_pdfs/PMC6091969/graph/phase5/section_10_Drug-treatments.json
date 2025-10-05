@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC6091969",
+  "section": "Drug treatments",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 698,
+      "label": "DMSO",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Drug treatments",
+        "sentence_id": 219,
+        "char_start": 46842,
+        "char_end": 46846,
+        "anchor": "PMC6091969_46842_46846",
+        "page": 22,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 703,
+      "label": "DMSO",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Drug treatments",
+        "sentence_id": 219,
+        "char_start": 46965,
+        "char_end": 46969,
+        "anchor": "PMC6091969_46965_46969",
+        "page": 22,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 912,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 698,
+      "target": 703
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 0,
+      "largest_component": 2
+    },
+    "page": 22
+  }
+}

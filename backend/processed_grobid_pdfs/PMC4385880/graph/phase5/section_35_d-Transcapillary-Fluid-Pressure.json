@@ -1,0 +1,163 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "d) Transcapillary Fluid Pressure",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 2337,
+      "label": "forehead",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "d) Transcapillary Fluid Pressure",
+        "sentence_id": 735,
+        "char_start": 122796,
+        "char_end": 122804,
+        "anchor": "PMC4385880_122796_122804",
+        "page": 57,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2338,
+      "label": "swelling",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "d) Transcapillary Fluid Pressure",
+        "sentence_id": 735,
+        "char_start": 122818,
+        "char_end": 122826,
+        "anchor": "PMC4385880_122818_122826",
+        "page": 57,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2339,
+      "label": "Lin",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "d) Transcapillary Fluid Pressure",
+        "sentence_id": 735,
+        "char_start": 122855,
+        "char_end": 122858,
+        "anchor": "PMC4385880_122855_122858",
+        "page": 57,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2340,
+      "label": "HDT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "d) Transcapillary Fluid Pressure",
+        "sentence_id": 735,
+        "char_start": 122697,
+        "char_end": 122700,
+        "anchor": "PMC4385880_122697_122700",
+        "page": 57,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2342,
+      "label": "Kirsch",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "d) Transcapillary Fluid Pressure",
+        "sentence_id": 735,
+        "char_start": 122843,
+        "char_end": 122849,
+        "anchor": "PMC4385880_122843_122849",
+        "page": 57,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 2407,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2337,
+      "target": 2338
+    },
+    {
+      "id": 2408,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2337,
+      "target": 2339
+    },
+    {
+      "id": 2409,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2337,
+      "target": 2340
+    },
+    {
+      "id": 2411,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2337,
+      "target": 2342
+    },
+    {
+      "id": 2412,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2338,
+      "target": 2339
+    },
+    {
+      "id": 2413,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2338,
+      "target": 2340
+    },
+    {
+      "id": 2415,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2338,
+      "target": 2342
+    },
+    {
+      "id": 2416,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2339,
+      "target": 2340
+    },
+    {
+      "id": 2418,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2339,
+      "target": 2342
+    },
+    {
+      "id": 2420,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2340,
+      "target": 2342
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 9,
+      "removed_orphans": 14,
+      "largest_component": 5,
+      "removed_components": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 57
+  }
+}

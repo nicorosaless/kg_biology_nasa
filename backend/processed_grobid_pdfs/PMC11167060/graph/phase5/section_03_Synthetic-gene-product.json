@@ -1,0 +1,94 @@
+{
+  "paper_id": "PMC11167060",
+  "section": "Synthetic GENE_PRODUCT",
+  "n_nodes": 4,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 3,
+      "label": "Rank",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplementary Data 2: Multi-mission multi-omic DisGeNET over-representation analysis results",
+        "sentence_id": 1,
+        "char_start": 521,
+        "char_end": 525,
+        "anchor": "PMC11167060_521_525",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 5,
+      "label": "Log",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplementary Data 2: Multi-mission multi-omic DisGeNET over-representation analysis results",
+        "sentence_id": 2,
+        "char_start": 919,
+        "char_end": 922,
+        "anchor": "PMC11167060_919_922",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 16,
+      "label": "highest",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplementary Data 3: Up and down regulated kidney gene products and their functional annotations",
+        "sentence_id": 5,
+        "char_start": 2692,
+        "char_end": 2699,
+        "anchor": "PMC11167060_2692_2699",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 17,
+      "label": "scoring",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplementary Data 3: Up and down regulated kidney gene products and their functional annotations",
+        "sentence_id": 5,
+        "char_start": 2700,
+        "char_end": 2707,
+        "anchor": "PMC11167060_2700_2707",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-3-5",
+      "type": "ASSOCIATED",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "id": "synth-3-16",
+      "type": "ASSOCIATED",
+      "source": 3,
+      "target": 16
+    },
+    {
+      "id": "synth-3-17",
+      "type": "ASSOCIATED",
+      "source": 3,
+      "target": 17
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "GENE_PRODUCT",
+    "page": null
+  }
+}

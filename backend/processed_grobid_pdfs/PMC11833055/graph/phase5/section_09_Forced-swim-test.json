@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC11833055",
+  "section": "Forced swim test",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 121,
+      "label": "Immo",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Forced swim test",
+        "sentence_id": 74,
+        "char_start": 12078,
+        "char_end": 12082,
+        "anchor": "PMC11833055_12078_12082",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 122,
+      "label": "floating",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Forced swim test",
+        "sentence_id": 74,
+        "char_start": 12155,
+        "char_end": 12163,
+        "anchor": "PMC11833055_12155_12163",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 83,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 122
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 1,
+      "largest_component": 2
+    },
+    "page": 3
+  }
+}

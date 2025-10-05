@@ -1,0 +1,262 @@
+{
+  "paper_id": "PMC6710492",
+  "section": "Synthetic ANATOMICAL_SITE",
+  "n_nodes": 12,
+  "n_edges": 11,
+  "nodes": [
+    {
+      "id": 11,
+      "label": "freshwater bodies",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 1,
+        "char_start": 618,
+        "char_end": 635,
+        "anchor": "PMC6710492_618_635",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 33,
+      "label": "freshwater",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 8,
+        "char_start": 1991,
+        "char_end": 2001,
+        "anchor": "PMC6710492_1991_2001",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 53,
+      "label": "vascular cambium",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 15,
+        "char_start": 4055,
+        "char_end": 4071,
+        "anchor": "PMC6710492_4055_4071",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 83,
+      "label": "phic lake",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 22,
+        "char_start": 5944,
+        "char_end": 5953,
+        "anchor": "PMC6710492_5944_5953",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 90,
+      "label": "freshwater",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 23,
+        "char_start": 6176,
+        "char_end": 6186,
+        "anchor": "PMC6710492_6176_6186",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 97,
+      "label": "Pampa plain",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 24,
+        "char_start": 7237,
+        "char_end": 7248,
+        "anchor": "PMC6710492_7237_7248",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 135,
+      "label": "Pampa plain",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS",
+        "sentence_id": 33,
+        "char_start": 9625,
+        "char_end": 9636,
+        "anchor": "PMC6710492_9625_9636",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 600,
+      "label": "freshwater",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 131,
+        "char_start": 29758,
+        "char_end": 29768,
+        "anchor": "PMC6710492_29758_29768",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 630,
+      "label": "rbid system",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 144,
+        "char_start": 32219,
+        "char_end": 32230,
+        "anchor": "PMC6710492_32219_32230",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 728,
+      "label": "Pampa Plain",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 190,
+        "char_start": 40575,
+        "char_end": 40586,
+        "anchor": "PMC6710492_40575_40586",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 729,
+      "label": "Argentina",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 190,
+        "char_start": 40590,
+        "char_end": 40599,
+        "anchor": "PMC6710492_40590_40599",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 739,
+      "label": "freshwater",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 196,
+        "char_start": 41773,
+        "char_end": 41783,
+        "anchor": "PMC6710492_41773_41783",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-11-33",
+      "type": "ASSOCIATED",
+      "source": 11,
+      "target": 33
+    },
+    {
+      "id": "synth-11-53",
+      "type": "ASSOCIATED",
+      "source": 11,
+      "target": 53
+    },
+    {
+      "id": "synth-11-83",
+      "type": "ASSOCIATED",
+      "source": 11,
+      "target": 83
+    },
+    {
+      "id": "synth-11-90",
+      "type": "ASSOCIATED",
+      "source": 11,
+      "target": 90
+    },
+    {
+      "id": "synth-11-97",
+      "type": "ASSOCIATED",
+      "source": 11,
+      "target": 97
+    },
+    {
+      "id": "synth-11-135",
+      "type": "ASSOCIATED",
+      "source": 11,
+      "target": 135
+    },
+    {
+      "id": "synth-11-600",
+      "type": "ASSOCIATED",
+      "source": 11,
+      "target": 600
+    },
+    {
+      "id": "synth-11-630",
+      "type": "ASSOCIATED",
+      "source": 11,
+      "target": 630
+    },
+    {
+      "id": "synth-11-728",
+      "type": "ASSOCIATED",
+      "source": 11,
+      "target": 728
+    },
+    {
+      "id": "synth-11-729",
+      "type": "ASSOCIATED",
+      "source": 11,
+      "target": 729
+    },
+    {
+      "id": "synth-11-739",
+      "type": "ASSOCIATED",
+      "source": 11,
+      "target": 739
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "ANATOMICAL_SITE",
+    "page": null
+  }
+}

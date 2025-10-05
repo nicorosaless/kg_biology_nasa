@@ -1,0 +1,115 @@
+{
+  "paper_id": "PMC5421618",
+  "section": "Synthetic REAGENT",
+  "n_nodes": 5,
+  "n_edges": 4,
+  "nodes": [
+    {
+      "id": 85,
+      "label": "ethanol",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Experiment 1: Effect of Thermoneutral Housing on Bone in Female B6 Mice-",
+        "sentence_id": 35,
+        "char_start": 6589,
+        "char_end": 6596,
+        "anchor": "PMC5421618_6589_6596",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 126,
+      "label": "ethanol",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Dual Energy X-ray Absorptiometry",
+        "sentence_id": 45,
+        "char_start": 8130,
+        "char_end": 8137,
+        "anchor": "PMC5421618_8130_8137",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 162,
+      "label": "ethanol",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Histomorphometry",
+        "sentence_id": 54,
+        "char_start": 9670,
+        "char_end": 9677,
+        "anchor": "PMC5421618_9670_9677",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 214,
+      "label": "Trizol",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression",
+        "sentence_id": 63,
+        "char_start": 12399,
+        "char_end": 12405,
+        "anchor": "PMC5421618_12399_12405",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 218,
+      "label": "Qiagen",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression",
+        "sentence_id": 63,
+        "char_start": 13000,
+        "char_end": 13006,
+        "anchor": "PMC5421618_13000_13006",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-85-126",
+      "type": "ASSOCIATED",
+      "source": 85,
+      "target": 126
+    },
+    {
+      "id": "synth-85-162",
+      "type": "ASSOCIATED",
+      "source": 85,
+      "target": 162
+    },
+    {
+      "id": "synth-85-214",
+      "type": "ASSOCIATED",
+      "source": 85,
+      "target": 214
+    },
+    {
+      "id": "synth-85-218",
+      "type": "ASSOCIATED",
+      "source": 85,
+      "target": 218
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "REAGENT",
+    "page": null
+  }
+}

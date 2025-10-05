@@ -1,0 +1,249 @@
+{
+  "paper_id": "PMC3554398",
+  "section": "bTEFAP-derived bacterial diversity and data analysis",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 416,
+      "label": "analyzed",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "bTEFAP-derived bacterial diversity and data analysis",
+        "sentence_id": 67,
+        "char_start": 19961,
+        "char_end": 19969,
+        "anchor": "PMC3554398_19961_19969",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 417,
+      "label": "PMA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "bTEFAP-derived bacterial diversity and data analysis",
+        "sentence_id": 67,
+        "char_start": 19980,
+        "char_end": 19983,
+        "anchor": "PMC3554398_19980_19983",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 422,
+      "label": "PMA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "bTEFAP-derived bacterial diversity and data analysis",
+        "sentence_id": 67,
+        "char_start": 19885,
+        "char_end": 19888,
+        "anchor": "PMC3554398_19885_19888",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 423,
+      "label": "PMA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "bTEFAP-derived bacterial diversity and data analysis",
+        "sentence_id": 67,
+        "char_start": 19980,
+        "char_end": 19983,
+        "anchor": "PMC3554398_19980_19983",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 424,
+      "label": "o200",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "bTEFAP-derived bacterial diversity and data analysis",
+        "sentence_id": 67,
+        "char_start": 20298,
+        "char_end": 20302,
+        "anchor": "PMC3554398_20298_20302",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 414,
+      "label": "PMA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "bTEFAP-derived bacterial diversity and data analysis",
+        "sentence_id": 67,
+        "char_start": 19885,
+        "char_end": 19888,
+        "anchor": "PMC3554398_19885_19888",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 415,
+      "label": "samples",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "bTEFAP-derived bacterial diversity and data analysis",
+        "sentence_id": 67,
+        "char_start": 19899,
+        "char_end": 19906,
+        "anchor": "PMC3554398_19899_19906",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1329,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 414,
+      "target": 415
+    },
+    {
+      "id": 1330,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 414,
+      "target": 416
+    },
+    {
+      "id": 1331,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 414,
+      "target": 417
+    },
+    {
+      "id": 1332,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 414,
+      "target": 422
+    },
+    {
+      "id": 1333,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 414,
+      "target": 423
+    },
+    {
+      "id": 1334,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 414,
+      "target": 424
+    },
+    {
+      "id": 1335,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 415,
+      "target": 416
+    },
+    {
+      "id": 1336,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 415,
+      "target": 417
+    },
+    {
+      "id": 1337,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 415,
+      "target": 422
+    },
+    {
+      "id": 1338,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 415,
+      "target": 423
+    },
+    {
+      "id": 1339,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 415,
+      "target": 424
+    },
+    {
+      "id": 1340,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 416,
+      "target": 417
+    },
+    {
+      "id": 1341,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 416,
+      "target": 422
+    },
+    {
+      "id": 1342,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 416,
+      "target": 423
+    },
+    {
+      "id": 1343,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 416,
+      "target": 424
+    },
+    {
+      "id": 1344,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 417,
+      "target": 422
+    },
+    {
+      "id": 1345,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 417,
+      "target": 423
+    },
+    {
+      "id": 1346,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 417,
+      "target": 424
+    },
+    {
+      "id": 1347,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 422,
+      "target": 423
+    },
+    {
+      "id": 1348,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 422,
+      "target": 424
+    },
+    {
+      "id": 1349,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 423,
+      "target": 424
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 13,
+      "largest_component": 7
+    },
+    "page": 5
+  }
+}

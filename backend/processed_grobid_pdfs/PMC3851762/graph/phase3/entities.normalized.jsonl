@@ -1,0 +1,524 @@
+{"nid": 0, "canonical": "transcriptional profiling", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["ABSTRACT"], "examples": ["transcriptional profiling"]}
+{"nid": 1, "canonical": "typic characterization", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["ABSTRACT"], "examples": ["typic characterization"]}
+{"nid": 2, "canonical": "microarray analysi", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["ABSTRACT"], "examples": ["Microarray analysis"]}
+{"nid": 3, "canonical": "CULTURE", "node_type": "GENE_PRODUCT", "frequency": 26, "sections": ["ABSTRACT", "Biofilm and filamentation-specific gene expression.", "DISCUSSION", "Gene expression", "INTRODUCTION", "RNA-binding proteins.", "Virulence"], "examples": ["culture", "culture", "culture"]}
+{"nid": 4, "canonical": "differential", "node_type": "EXPERIMENT", "frequency": 4, "sections": ["ABSTRACT", "Biofilm and filamentation-specific gene expression.", "DISCUSSION"], "examples": ["differential", "differential", "differential"]}
+{"nid": 5, "canonical": "regulated", "node_type": "EXPERIMENT", "frequency": 5, "sections": ["ABSTRACT", "Biofilm and filamentation-specific gene expression.", "DISCUSSION", "Gene expression"], "examples": ["regulated", "regulated", "regulated"]}
+{"nid": 6, "canonical": "452 gene", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["ABSTRACT"], "examples": ["452 genes"]}
+{"nid": 7, "canonical": "452", "node_type": "GENE_PRODUCT", "frequency": 3, "sections": ["ABSTRACT", "Gene expression", "RNA extraction, quantification and microarray analysis"], "examples": ["452", "452", "452"]}
+{"nid": 8, "canonical": "aggregation", "node_type": "PHENOTYPE", "frequency": 2, "sections": ["ABSTRACT", "Biofilm and filamentation-specific gene expression."], "examples": ["aggregation", "aggregation"]}
+{"nid": 9, "canonical": "cytometry", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["ABSTRACT"], "examples": ["cytometry"]}
+{"nid": 10, "canonical": "enhanced random", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["ABSTRACT"], "examples": ["enhanced random"]}
+{"nid": 11, "canonical": "BUDDING", "node_type": "GENE_PRODUCT", "frequency": 4, "sections": ["ABSTRACT", "Biofilm and filamentation-specific gene expression.", "DISCUSSION", "Morphological analyses"], "examples": ["budding", "budding", "budding"]}
+{"nid": 12, "canonical": "bipolar bud", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["ABSTRACT"], "examples": ["bipolar bud"]}
+{"nid": 13, "canonical": "resistance", "node_type": "PHENOTYPE", "frequency": 3, "sections": ["ABSTRACT", "DISCUSSION"], "examples": ["resistance", "resistance", "resistance"]}
+{"nid": 14, "canonical": "abc transporter", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["ABSTRACT", "DISCUSSION"], "examples": ["ABC transporters", "ABC transporters"]}
+{"nid": 15, "canonical": "ABC", "node_type": "GENE_PRODUCT", "frequency": 7, "sections": ["ABSTRACT", "Biofilm and filamentation-specific gene expression.", "DISCUSSION"], "examples": ["ABC", "ABC", "ABC"]}
+{"nid": 16, "canonical": "actin cytoskeleton", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["ABSTRACT", "Biofilm and filamentation-specific gene expression."], "examples": ["actin cytoskeleton", "actin cytoskeleton"]}
+{"nid": 17, "canonical": "transcriptional regulator", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["ABSTRACT"], "examples": ["transcriptional regulator"]}
+{"nid": 18, "canonical": "CAP1", "node_type": "GENE_PRODUCT", "frequency": 13, "sections": ["ABSTRACT", "Biofilm and filamentation-specific gene expression.", "DISCUSSION"], "examples": ["Cap1", "Cap1", "Cap1"]}
+{"nid": 19, "canonical": "expressed", "node_type": "EXPERIMENT", "frequency": 8, "sections": ["ABSTRACT", "Biofilm and filamentation-specific gene expression.", "Gene expression", "Quantitative real time PCR (qRT-PCR) analysis", "RNA extraction, quantification and microarray analysis", "RNA-binding proteins."], "examples": ["expressed", "expressed", "expressed"]}
+{"nid": 20, "canonical": "CAP", "node_type": "GENE_PRODUCT", "frequency": 6, "sections": ["ABSTRACT", "Biofilm and filamentation-specific gene expression.", "DISCUSSION"], "examples": ["Cap", "Cap", "Cap"]}
+{"nid": 21, "canonical": "microgravity", "node_type": "PHENOTYPE", "frequency": 3, "sections": ["ABSTRACT", "DISCUSSION", "RNA-binding proteins."], "examples": ["microgravity", "microgravity", "microgravity"]}
+{"nid": 22, "canonical": "gene expression", "node_type": "EXPERIMENT", "frequency": 8, "sections": ["ABSTRACT", "DISCUSSION", "Gene expression", "INTRODUCTION", "Quantitative real time PCR (qRT-PCR) analysis"], "examples": ["gene expression", "gene expression", "gene expression"]}
+{"nid": 23, "canonical": "RULENCE", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["ABSTRACT", "DISCUSSION"], "examples": ["rulence", "rulence"]}
+{"nid": 24, "canonical": "intraperitoneal", "node_type": "ANATOMICAL_SITE", "frequency": 1, "sections": ["ABSTRACT"], "examples": ["intraperitoneal"]}
+{"nid": 25, "canonical": "PATHOGEN", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["ABSTRACT"], "examples": ["pathogen"]}
+{"nid": 26, "canonical": "unistic pathogen", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["unistic pathogens"]}
+{"nid": 27, "canonical": "urogenital", "node_type": "ANATOMICAL_SITE", "frequency": 2, "sections": ["DISCUSSION", "INTRODUCTION"], "examples": ["urogenital", "urogenital"]}
+{"nid": 28, "canonical": "VAGINAL", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["vaginal"]}
+{"nid": 29, "canonical": "ISOLATED", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["isolated"]}
+{"nid": 30, "canonical": "SEVERITY", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["severity"]}
+{"nid": 31, "canonical": "cous membrane", "node_type": "ANATOMICAL_SITE", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["cous membrane"]}
+{"nid": 32, "canonical": "MINATED", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["minated"]}
+{"nid": 33, "canonical": "OCOMPROM", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["ocomprom"]}
+{"nid": 34, "canonical": "CANDIDA", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["Candida"]}
+{"nid": 35, "canonical": "astronaut", "node_type": "ANATOMICAL_SITE", "frequency": 2, "sections": ["DISCUSSION", "INTRODUCTION"], "examples": ["astronauts", "astronauts"]}
+{"nid": 36, "canonical": "spaceflight culture condition", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["spaceflight culture conditions"]}
+{"nid": 37, "canonical": "expression", "node_type": "PHENOTYPE", "frequency": 3, "sections": ["DISCUSSION", "Gene expression", "INTRODUCTION"], "examples": ["expression", "Expression", "expression"]}
+{"nid": 38, "canonical": "experiment", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["experiments"]}
+{"nid": 39, "canonical": "TYPHI", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["Typhi"]}
+{"nid": 40, "canonical": "time to death", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["time to death"]}
+{"nid": 41, "canonical": "50 value", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["50 values"]}
+{"nid": 42, "canonical": "ground control", "node_type": "EXPERIMENT", "frequency": 4, "sections": ["INTRODUCTION", "Morphological analyses"], "examples": ["ground control", "ground controls", "Ground control"]}
+{"nid": 43, "canonical": "transcript", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["transcript"]}
+{"nid": 44, "canonical": "proteomic expression", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["proteomic expression"]}
+{"nid": 45, "canonical": "167 transcript", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["167 transcripts"]}
+{"nid": 46, "canonical": "73 protein", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["73 proteins"]}
+{"nid": 47, "canonical": "ALTERED", "node_type": "GENE_PRODUCT", "frequency": 4, "sections": ["DISCUSSION", "INTRODUCTION", "RNA-binding proteins."], "examples": ["altered", "altered", "altered"]}
+{"nid": 48, "canonical": "50", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["INTRODUCTION", "RNA-binding proteins."], "examples": ["50", "50"]}
+{"nid": 49, "canonical": "167", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["167"]}
+{"nid": 50, "canonical": "73", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["73"]}
+{"nid": 51, "canonical": "11", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["11"]}
+{"nid": 52, "canonical": "HFQ", "node_type": "GENE_PRODUCT", "frequency": 5, "sections": ["DISCUSSION", "INTRODUCTION", "RNA-binding proteins."], "examples": ["Hfq", "Hfq", "Hfq"]}
+{"nid": 53, "canonical": "RNA", "node_type": "GENE_PRODUCT", "frequency": 23, "sections": ["DISCUSSION", "Ethics statement", "Flow cytometry", "Gene expression", "INTRODUCTION", "Quantitative real time PCR (qRT-PCR) analysis", "RNA extraction, quantification and microarray analysis", "RNA-binding proteins."], "examples": ["RNA", "RNA", "RNA"]}
+{"nid": 54, "canonical": "mrna transcript", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["mRNA transcripts"]}
+{"nid": 55, "canonical": "pseudomonas aeruginosa", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["Pseudomonas aeruginosa"]}
+{"nid": 56, "canonical": "spaceflight", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["Biofilm and filamentation-specific gene expression.", "INTRODUCTION"], "examples": ["spaceflight", "spaceflight"]}
+{"nid": 57, "canonical": "ANALOGUE", "node_type": "GENE_PRODUCT", "frequency": 3, "sections": ["INTRODUCTION", "RNA-binding proteins."], "examples": ["analogue", "analogue", "analogue"]}
+{"nid": 58, "canonical": "p. aeruginosa", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["P. aeruginosa"]}
+{"nid": 59, "canonical": "STAP", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["Stap"]}
+{"nid": 60, "canonical": "10", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["10"]}
+{"nid": 61, "canonical": "SPACE", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["Space"]}
+{"nid": 62, "canonical": "microorganism", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["microorganisms"]}
+{"nid": 63, "canonical": "ROTATING", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["rotating"]}
+{"nid": 64, "canonical": "REACTORS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["reactors"]}
+{"nid": 65, "canonical": "-shear force", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["-shear forces"]}
+{"nid": 66, "canonical": "RWV", "node_type": "GENE_PRODUCT", "frequency": 7, "sections": ["DISCUSSION", "INTRODUCTION"], "examples": ["RWV", "RWV", "RWV"]}
+{"nid": 67, "canonical": "LSMMG", "node_type": "GENE_PRODUCT", "frequency": 9, "sections": ["DISCUSSION", "INTRODUCTION"], "examples": ["LSMMG", "LSMMG", "LSMMG"]}
+{"nid": 68, "canonical": "22", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["22"]}
+{"nid": 69, "canonical": "ORGANISM", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["INTRODUCTION"], "examples": ["organism", "organism"]}
+{"nid": 70, "canonical": "phosphate", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["phosphate"]}
+{"nid": 71, "canonical": "CHANGES", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["changes"]}
+{"nid": 72, "canonical": "enhanced production", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["enhanced production"]}
+{"nid": 73, "canonical": "biochemical molecule", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["biochemical molecule"]}
+{"nid": 74, "canonical": "s-adenosyl-l-met", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["S-adenosyl-L-met"]}
+{"nid": 75, "canonical": "SAM", "node_type": "GENE_PRODUCT", "frequency": 4, "sections": ["INTRODUCTION"], "examples": ["SAM", "SAM", "SAM"]}
+{"nid": 76, "canonical": "1962", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["1962"]}
+{"nid": 77, "canonical": "27", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["27"]}
+{"nid": 78, "canonical": "phenotypic alteration", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["phenotypic alterations"]}
+{"nid": 79, "canonical": "s. cerevisiae", "node_type": "EXPERIMENT", "frequency": 3, "sections": ["Biofilm and filamentation-specific gene expression.", "DISCUSSION", "INTRODUCTION"], "examples": ["S. cerevisiae", "S. cerevisiae", "S. cerevisiae"]}
+{"nid": 80, "canonical": "cell clumping", "node_type": "PHENOTYPE", "frequency": 3, "sections": ["DISCUSSION", "INTRODUCTION", "Morphological analyses"], "examples": ["cell clumping", "cell clumping", "cell clumping"]}
+{"nid": 81, "canonical": "random budding", "node_type": "EXPERIMENT", "frequency": 4, "sections": ["Biofilm and filamentation-specific gene expression.", "DISCUSSION", "Gene expression", "INTRODUCTION"], "examples": ["random budding", "random budding", "random budding"]}
+{"nid": 82, "canonical": "phenotype", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["phenotype"]}
+{"nid": 83, "canonical": "bipolar budding pattern", "node_type": "PHENOTYPE", "frequency": 2, "sections": ["INTRODUCTION", "Morphological analyses"], "examples": ["bipolar budding pattern", "bipolar budding pattern"]}
+{"nid": 84, "canonical": "increased random", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["increased random"]}
+{"nid": 85, "canonical": "CONTROL", "node_type": "GENE_PRODUCT", "frequency": 3, "sections": ["INTRODUCTION", "Morphological analyses"], "examples": ["control", "control", "control"]}
+{"nid": 86, "canonical": "ENTATION", "node_type": "GENE_PRODUCT", "frequency": 4, "sections": ["Biofilm and filamentation-specific gene expression.", "DISCUSSION", "INTRODUCTION"], "examples": ["entation", "entation", "entation"]}
+{"nid": 87, "canonical": "biofilm formation", "node_type": "PHENOTYPE", "frequency": 6, "sections": ["DISCUSSION", "INTRODUCTION"], "examples": ["biofilm formation", "biofilm formation", "biofilm formation"]}
+{"nid": 88, "canonical": "microscopy", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["microscopy"]}
+{"nid": 89, "canonical": "albicans cell", "node_type": "CELL_TYPE", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["albicans cells"]}
+{"nid": 90, "canonical": "filamentous-specific gene", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["filamentous-specific genes"]}
+{"nid": 91, "canonical": "shear force", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["shear forces"]}
+{"nid": 92, "canonical": "CULTURES", "node_type": "GENE_PRODUCT", "frequency": 5, "sections": ["Biofilm and filamentation-specific gene expression.", "Ethics statement", "Flow cytometry", "INTRODUCTION", "Morphological analyses"], "examples": ["cultures", "Cultures", "cultures"]}
+{"nid": 93, "canonical": "ESTINAL", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["estinal"]}
+{"nid": 94, "canonical": "respiratory", "node_type": "ANATOMICAL_SITE", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["respiratory"]}
+{"nid": 95, "canonical": "urogenital tract", "node_type": "ANATOMICAL_SITE", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["urogenital tracts"]}
+{"nid": 96, "canonical": "transcriptional profile", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["transcriptional profile"]}
+{"nid": 97, "canonical": "phenotypic analysi", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["INTRODUCTION"], "examples": ["phenotypic analysis"]}
+{"nid": 98, "canonical": "animal care", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Ethics statement"], "examples": ["animal care"]}
+{"nid": 99, "canonical": "condition", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Ethics statement"], "examples": ["conditions"]}
+{"nid": 100, "canonical": "KSC", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Ethics statement"], "examples": ["KSC"]}
+{"nid": 101, "canonical": "STERILE", "node_type": "GENE_PRODUCT", "frequency": 3, "sections": ["Ethics statement", "Virulence"], "examples": ["sterile", "sterile", "sterile"]}
+{"nid": 102, "canonical": "PROTEINS", "node_type": "GENE_PRODUCT", "frequency": 3, "sections": ["Biofilm and filamentation-specific gene expression.", "DISCUSSION", "Ethics statement"], "examples": ["proteins", "proteins", "proteins"]}
+{"nid": 103, "canonical": "morphological imaging", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Ethics statement"], "examples": ["morphological imaging"]}
+{"nid": 104, "canonical": "LATER", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Ethics statement"], "examples": ["Later"]}
+{"nid": 105, "canonical": "SCANNING", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Ethics statement"], "examples": ["scanning"]}
+{"nid": 106, "canonical": "YPD", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Ethics statement"], "examples": ["YPD"]}
+{"nid": 107, "canonical": "FPA", "node_type": "GENE_PRODUCT", "frequency": 3, "sections": ["DISCUSSION", "Ethics statement"], "examples": ["FPA", "FPA", "FPA"]}
+{"nid": 108, "canonical": "AUSTIN", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Ethics statement"], "examples": ["Austin"]}
+{"nid": 109, "canonical": "TX", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Ethics statement"], "examples": ["TX"]}
+{"nid": 110, "canonical": "AMBIENT", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Ethics statement"], "examples": ["ambient"]}
+{"nid": 111, "canonical": "SHUTTLE", "node_type": "GENE_PRODUCT", "frequency": 3, "sections": ["Ethics statement", "Virulence"], "examples": ["Shuttle", "Shuttle", "Shuttle"]}
+{"nid": 112, "canonical": "LANDING", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Ethics statement"], "examples": ["landing"]}
+{"nid": 113, "canonical": "culture sample", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Ethics statement"], "examples": ["culture samples"]}
+{"nid": 114, "canonical": "SAMPLES", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Ethics statement", "Morphological analyses"], "examples": ["samples", "samples"]}
+{"nid": 115, "canonical": "virulence study", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Ethics statement"], "examples": ["virulence studies"]}
+{"nid": 116, "canonical": "SIGMA", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Ethics statement"], "examples": ["Sigma"]}
+{"nid": 117, "canonical": "MO", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Ethics statement", "RNA extraction, quantification and microarray analysis"], "examples": ["MO", "MO"]}
+{"nid": 118, "canonical": "flight culture", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Ethics statement"], "examples": ["flight cultures"]}
+{"nid": 119, "canonical": "control culture", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Ethics statement"], "examples": ["control cultures"]}
+{"nid": 120, "canonical": "identical", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["Ethics statement"], "examples": ["identical", "identical"]}
+{"nid": 121, "canonical": "temperature", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Ethics statement"], "examples": ["temperature"]}
+{"nid": 122, "canonical": "HUMIDITY", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Ethics statement"], "examples": ["humidity"]}
+{"nid": 123, "canonical": "FPAS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Virulence"], "examples": ["FPAs"]}
+{"nid": 124, "canonical": "balb/ c mice", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Virulence"], "examples": ["Balb/ c mice"]}
+{"nid": 125, "canonical": "INJECTED", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Virulence"], "examples": ["injected"]}
+{"nid": 126, "canonical": "1500", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Virulence"], "examples": ["1500"]}
+{"nid": 127, "canonical": "c. albicans cell", "node_type": "CELL_TYPE", "frequency": 1, "sections": ["Virulence"], "examples": ["C. albicans cells"]}
+{"nid": 128, "canonical": "ground culture", "node_type": "EXPERIMENT", "frequency": 3, "sections": ["Microscopy", "Morphological analyses", "Virulence"], "examples": ["ground cultures", "ground cultures", "ground cultures"]}
+{"nid": 129, "canonical": "test condition", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Virulence"], "examples": ["test condition"]}
+{"nid": 130, "canonical": "INFECTED", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Virulence"], "examples": ["infected"]}
+{"nid": 131, "canonical": "1999", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Virulence"], "examples": ["1999"]}
+{"nid": 132, "canonical": "PBS", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Flow cytometry", "Virulence"], "examples": ["PBS", "PBS"]}
+{"nid": 133, "canonical": "electron microscopy", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Microscopy"], "examples": ["electron microscopy"]}
+{"nid": 134, "canonical": "PHILIPS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Microscopy"], "examples": ["Philips"]}
+{"nid": 135, "canonical": "scanning electron microscope", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Microscopy"], "examples": ["scanning electron microscope"]}
+{"nid": 136, "canonical": "ground sample", "node_type": "EXPERIMENT", "frequency": 5, "sections": ["Microscopy", "Morphological analyses", "RNA extraction, quantification and microarray analysis"], "examples": ["ground samples", "ground samples", "ground samples"]}
+{"nid": 137, "canonical": "4uc", "node_type": "EXPERIMENTAL_CONDITION", "frequency": 2, "sections": ["Microscopy"], "examples": ["4uC", "4uC"]}
+{"nid": 138, "canonical": "MEMBRANE", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["DISCUSSION", "Microscopy"], "examples": ["membrane", "membrane"]}
+{"nid": 139, "canonical": "polycarbon", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Microscopy"], "examples": ["polycarbon"]}
+{"nid": 140, "canonical": "IMAGE", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Microscopy"], "examples": ["Image"]}
+{"nid": 141, "canonical": "197 cell", "node_type": "CELL_TYPE", "frequency": 1, "sections": ["Microscopy"], "examples": ["197 cells"]}
+{"nid": 142, "canonical": "SEM", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Biofilm and filamentation-specific gene expression.", "Microscopy"], "examples": ["SEM", "SEM"]}
+{"nid": 143, "canonical": "143", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Microscopy"], "examples": ["143"]}
+{"nid": 144, "canonical": "197", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Microscopy"], "examples": ["197"]}
+{"nid": 145, "canonical": "cell measurement", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Microscopy"], "examples": ["cell measurements"]}
+{"nid": 146, "canonical": "light microscopic analysi", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["Microscopy", "Morphological analyses"], "examples": ["Light microscopic analysis", "Light microscopic analysis"]}
+{"nid": 147, "canonical": "100", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Microscopy"], "examples": ["100"]}
+{"nid": 148, "canonical": "4006", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Microscopy"], "examples": ["4006"]}
+{"nid": 149, "canonical": "random image", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Microscopy"], "examples": ["random images"]}
+{"nid": 150, "canonical": "nification", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Microscopy"], "examples": ["nification"]}
+{"nid": 151, "canonical": "1006WERE", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Microscopy"], "examples": ["1006were"]}
+{"nid": 152, "canonical": "CELLS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Microscopy"], "examples": ["Cells"]}
+{"nid": 153, "canonical": "AVERAGE", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Microscopy"], "examples": ["average"]}
+{"nid": 154, "canonical": "flow cytometry", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["Biofilm and filamentation-specific gene expression.", "Flow cytometry"], "examples": ["Flow cytometry", "flow cytometry"]}
+{"nid": 155, "canonical": "facs calibur", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Flow cytometry"], "examples": ["FACS Calibur"]}
+{"nid": 156, "canonical": "BECTON", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Flow cytometry"], "examples": ["Becton"]}
+{"nid": 157, "canonical": "280uc", "node_type": "EXPERIMENTAL_CONDITION", "frequency": 1, "sections": ["Flow cytometry"], "examples": ["280uC"]}
+{"nid": 158, "canonical": "forward scatter threshold", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Flow cytometry"], "examples": ["forward scatter threshold"]}
+{"nid": 159, "canonical": "700", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Flow cytometry"], "examples": ["700"]}
+{"nid": 160, "canonical": "30uc", "node_type": "EXPERIMENTAL_CONDITION", "frequency": 1, "sections": ["Flow cytometry"], "examples": ["30uC"]}
+{"nid": 161, "canonical": "FORWARD", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Flow cytometry"], "examples": ["forward"]}
+{"nid": 162, "canonical": "forward scatter", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Flow cytometry"], "examples": ["forward scatter"]}
+{"nid": 163, "canonical": "greater than the established threshold", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Flow cytometry"], "examples": ["greater than the established threshold"]}
+{"nid": 164, "canonical": "10,000 event", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Flow cytometry"], "examples": ["10,000 events"]}
+{"nid": 165, "canonical": "500", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Flow cytometry"], "examples": ["500"]}
+{"nid": 166, "canonical": "YEAST", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["Yeast"]}
+{"nid": 167, "canonical": "glass bead", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["glass beads"]}
+{"nid": 168, "canonical": "BIO", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["DISCUSSION", "RNA extraction, quantification and microarray analysis"], "examples": ["Bio", "Bio"]}
+{"nid": 169, "canonical": "AGILE", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["Agile"]}
+{"nid": 170, "canonical": "processed", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["processed"]}
+{"nid": 171, "canonical": "nanodrop", "node_type": "REAGENT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["Nanodrop"]}
+{"nid": 172, "canonical": "CDNA", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Quantitative real time PCR (qRT-PCR) analysis", "RNA extraction, quantification and microarray analysis"], "examples": ["cDNA", "cDNA"]}
+{"nid": 173, "canonical": "rna expression", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["RNA expression"]}
+{"nid": 174, "canonical": "MICROCON", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["Microcon"]}
+{"nid": 175, "canonical": "rnase", "node_type": "REAGENT", "frequency": 2, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["RNase", "RNase"]}
+{"nid": 176, "canonical": "dnase", "node_type": "REAGENT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["DNase"]}
+{"nid": 177, "canonical": "PRIMARY", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["Primary"]}
+{"nid": 178, "canonical": "hybridization", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["hybridizations"]}
+{"nid": 179, "canonical": "dye-swap analysi", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["dye-swap analysis"]}
+{"nid": 180, "canonical": "DYESAVER", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["Dyesaver"]}
+{"nid": 181, "canonical": "SLIDES", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["Slides"]}
+{"nid": 182, "canonical": "laser power", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["Laser power"]}
+{"nid": 183, "canonical": "CONSTANT", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["constant"]}
+{"nid": 184, "canonical": "cy5 scan", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["Cy5 scans"]}
+{"nid": 185, "canonical": "intensity", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["Gene expression", "RNA extraction, quantification and microarray analysis"], "examples": ["intensity", "intensity"]}
+{"nid": 186, "canonical": "GRIDDING", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["Gridding"]}
+{"nid": 187, "canonical": "scanarray", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["ScanArray"]}
+{"nid": 188, "canonical": "LOG2", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["log2"]}
+{"nid": 189, "canonical": "transformed", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["transformed"]}
+{"nid": 190, "canonical": "anova analysi", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["ANOVA analysis"]}
+{"nid": 191, "canonical": "linear contrast", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["linear contrast"]}
+{"nid": 192, "canonical": "ANALYSIS", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["Analysis", "analysis"]}
+{"nid": 193, "canonical": "high intensity", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["high intensity"]}
+{"nid": 194, "canonical": "at least 2-fold", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["at least 2-fold"]}
+{"nid": 195, "canonical": "less than a 2.0 fold increase", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["less than a 2.0 fold increase"]}
+{"nid": 196, "canonical": "less than a 95% confidence", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["less than a 95% confidence"]}
+{"nid": 197, "canonical": "gene expression list", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["gene expression list"]}
+{"nid": 198, "canonical": "ORFS", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Gene expression", "RNA extraction, quantification and microarray analysis"], "examples": ["ORFs", "ORFs"]}
+{"nid": 199, "canonical": "gene model", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["gene model"]}
+{"nid": 200, "canonical": "19", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Gene expression", "RNA extraction, quantification and microarray analysis"], "examples": ["19", "19"]}
+{"nid": 201, "canonical": "21", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["DISCUSSION", "RNA extraction, quantification and microarray analysis"], "examples": ["21", "21"]}
+{"nid": 202, "canonical": "CGD", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["CGD"]}
+{"nid": 203, "canonical": "GEO", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["GEO"]}
+{"nid": 204, "canonical": "slim mapper", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["Slim Mapper"]}
+{"nid": 205, "canonical": "273", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["RNA extraction, quantification and microarray analysis"], "examples": ["273"]}
+{"nid": 206, "canonical": "microgram", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Quantitative real time PCR (qRT-PCR) analysis"], "examples": ["microgram"]}
+{"nid": 207, "canonical": "MONSTERS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Quantitative real time PCR (qRT-PCR) analysis"], "examples": ["Monsters"]}
+{"nid": 208, "canonical": "1ST", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Quantitative real time PCR (qRT-PCR) analysis"], "examples": ["1st"]}
+{"nid": 209, "canonical": "master mix", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Quantitative real time PCR (qRT-PCR) analysis"], "examples": ["Master mix"]}
+{"nid": 210, "canonical": "qiagen", "node_type": "REAGENT", "frequency": 1, "sections": ["Quantitative real time PCR (qRT-PCR) analysis"], "examples": ["Qiagen"]}
+{"nid": 211, "canonical": "PCR", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Quantitative real time PCR (qRT-PCR) analysis"], "examples": ["PCR", "PCR"]}
+{"nid": 212, "canonical": "melting curve", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Quantitative real time PCR (qRT-PCR) analysis"], "examples": ["melting curve"]}
+{"nid": 213, "canonical": "BIOLABS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Quantitative real time PCR (qRT-PCR) analysis"], "examples": ["BioLabs"]}
+{"nid": 214, "canonical": "EXPORTED", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Quantitative real time PCR (qRT-PCR) analysis"], "examples": ["exported"]}
+{"nid": 215, "canonical": "51", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Quantitative real time PCR (qRT-PCR) analysis"], "examples": ["51"]}
+{"nid": 216, "canonical": "average of four", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Quantitative real time PCR (qRT-PCR) analysis"], "examples": ["average of four"]}
+{"nid": 217, "canonical": "RIP", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Gene expression", "Quantitative real time PCR (qRT-PCR) analysis"], "examples": ["RIP", "RIP"]}
+{"nid": 218, "canonical": "biological replicate", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Quantitative real time PCR (qRT-PCR) analysis"], "examples": ["biological replicate"]}
+{"nid": 219, "canonical": "whole genome expression profiling", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Gene expression"], "examples": ["Whole genome expression profiling"]}
+{"nid": 220, "canonical": "gene expression alteration", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Gene expression"], "examples": ["gene expression alterations"]}
+{"nid": 221, "canonical": "c. albican", "node_type": "ANATOMICAL_SITE", "frequency": 8, "sections": ["Biofilm and filamentation-specific gene expression.", "DISCUSSION", "Gene expression", "Morphological analyses"], "examples": ["C. albicans", "C. albicans", "C. albicans"]}
+{"nid": 222, "canonical": "ALBICANS", "node_type": "GENE_PRODUCT", "frequency": 7, "sections": ["Biofilm and filamentation-specific gene expression.", "DISCUSSION", "Gene expression"], "examples": ["albicans", "albicans", "albicans"]}
+{"nid": 223, "canonical": "microarray", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Gene expression"], "examples": ["microarray"]}
+{"nid": 224, "canonical": "RESPONSE", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Gene expression"], "examples": ["response"]}
+{"nid": 225, "canonical": "data analysi", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Gene expression"], "examples": ["Data analysis"]}
+{"nid": 226, "canonical": "upregulated", "node_type": "EXPERIMENT", "frequency": 3, "sections": ["Biofilm and filamentation-specific gene expression.", "DISCUSSION", "Gene expression"], "examples": ["upregulated", "upregulated", "upregulated"]}
+{"nid": 227, "canonical": "downregulated", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Gene expression"], "examples": ["downregulated"]}
+{"nid": 228, "canonical": "flight sample", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["Gene expression", "Morphological analyses"], "examples": ["flight samples", "flight samples"]}
+{"nid": 229, "canonical": "279", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Gene expression"], "examples": ["279"]}
+{"nid": 230, "canonical": "173", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Gene expression"], "examples": ["173"]}
+{"nid": 231, "canonical": "go slim map", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Gene expression"], "examples": ["GO Slim Map"]}
+{"nid": 232, "canonical": "2013", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Gene expression"], "examples": ["2013"]}
+{"nid": 233, "canonical": "SEVERAL", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Gene expression"], "examples": ["several"]}
+{"nid": 234, "canonical": "CATEGORY", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Gene expression"], "examples": ["category"]}
+{"nid": 235, "canonical": "functional category", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Gene expression"], "examples": ["functional categories"]}
+{"nid": 236, "canonical": "GREATEST", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Gene expression"], "examples": ["greatest"]}
+{"nid": 237, "canonical": "ly expressed gene", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Gene expression"], "examples": ["ly expressed genes"]}
+{"nid": 238, "canonical": "a percent of assigned gene", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Gene expression"], "examples": ["a percent of assigned genes"]}
+{"nid": 239, "canonical": "entous growth", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Gene expression"], "examples": ["entous growth"]}
+{"nid": 240, "canonical": "1B", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Gene expression"], "examples": ["1B"]}
+{"nid": 241, "canonical": "spaceflight culture", "node_type": "EXPERIMENT", "frequency": 6, "sections": ["Biofilm and filamentation-specific gene expression.", "DISCUSSION", "Gene expression", "Morphological analyses"], "examples": ["spaceflight culture", "Spaceflight cultures", "spaceflight cultures"]}
+{"nid": 242, "canonical": "rna binding", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Gene expression"], "examples": ["RNA binding"]}
+{"nid": 243, "canonical": "ogue culture system", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Gene expression"], "examples": ["ogue culture systems"]}
+{"nid": 244, "canonical": "ENLARGED", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Gene expression"], "examples": ["enlarged"]}
+{"nid": 245, "canonical": "ALS", "node_type": "GENE_PRODUCT", "frequency": 5, "sections": ["Biofilm and filamentation-specific gene expression.", "DISCUSSION", "Gene expression"], "examples": ["ALS", "ALS", "Als"]}
+{"nid": 246, "canonical": "averaged expression of four housekeeping gene", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Gene expression"], "examples": ["averaged expression of four housekeeping genes"]}
+{"nid": 247, "canonical": "ACT", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Gene expression"], "examples": ["ACT"]}
+{"nid": 248, "canonical": "ALS1", "node_type": "GENE_PRODUCT", "frequency": 5, "sections": ["Biofilm and filamentation-specific gene expression.", "DISCUSSION", "Gene expression"], "examples": ["ALS1", "ALS1", "Als1"]}
+{"nid": 249, "canonical": "ERG6", "node_type": "GENE_PRODUCT", "frequency": 6, "sections": ["Biofilm and filamentation-specific gene expression.", "DISCUSSION", "Gene expression"], "examples": ["ERG6", "ERG6", "ERG6"]}
+{"nid": 250, "canonical": "ANALYZED", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Gene expression"], "examples": ["analyzed"]}
+{"nid": 251, "canonical": "differentially      regulated", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Gene expression"], "examples": ["differentially      regulated"]}
+{"nid": 252, "canonical": "direction", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["Biofilm and filamentation-specific gene expression.", "Gene expression"], "examples": ["direction", "direction"]}
+{"nid": 253, "canonical": "regulation", "node_type": "EXPERIMENT", "frequency": 3, "sections": ["DISCUSSION", "Gene expression"], "examples": ["regulation", "regulation", "regulation"]}
+{"nid": 254, "canonical": "significant", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["DISCUSSION", "Gene expression"], "examples": ["significant", "significant"]}
+{"nid": 255, "canonical": "formation", "node_type": "EXPERIMENT", "frequency": 3, "sections": ["Biofilm and filamentation-specific gene expression.", "DISCUSSION"], "examples": ["formation", "formation", "formation"]}
+{"nid": 256, "canonical": "AOX2", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["AOX2", "AOX2"]}
+{"nid": 257, "canonical": "TUP1", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["TUP1", "TUP1"]}
+{"nid": 258, "canonical": "CPH1", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["CPH1", "CPH1"]}
+{"nid": 259, "canonical": "yeast-specific gene", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["yeast-specific gene"]}
+{"nid": 260, "canonical": "yeast wall protein 1", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["Yeast Wall Protein 1"]}
+{"nid": 261, "canonical": "non-filamentou", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["non-filamentous"]}
+{"nid": 262, "canonical": "conventional culture", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["conventional culture"]}
+{"nid": 263, "canonical": "hyphal growth", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["hyphal growth"]}
+{"nid": 264, "canonical": "ARC", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["ARC"]}
+{"nid": 265, "canonical": "SHA", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["SHA"]}
+{"nid": 266, "canonical": "STE", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["STE", "Ste"]}
+{"nid": 267, "canonical": "BRG1", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["BRG1"]}
+{"nid": 268, "canonical": "FGR16", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["FGR16"]}
+{"nid": 269, "canonical": "RFX2", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["RFX2"]}
+{"nid": 270, "canonical": "can modification", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["can modification"]}
+{"nid": 271, "canonical": "60", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Biofilm and filamentation-specific gene expression.", "DISCUSSION"], "examples": ["60", "60"]}
+{"nid": 272, "canonical": "light microscopy", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["light microscopy"]}
+{"nid": 273, "canonical": "self-aggregation", "node_type": "PHENOTYPE", "frequency": 2, "sections": ["Biofilm and filamentation-specific gene expression.", "DISCUSSION"], "examples": ["self-aggregation", "self-aggregation"]}
+{"nid": 274, "canonical": "cell aggregation", "node_type": "PHENOTYPE", "frequency": 2, "sections": ["Biofilm and filamentation-specific gene expression.", "Morphological analyses"], "examples": ["cell aggregation", "cell aggregation"]}
+{"nid": 275, "canonical": "flocculation", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["flocculation"]}
+{"nid": 276, "canonical": "occulation", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["occulation"]}
+{"nid": 277, "canonical": "glycoprotein", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["glycoprotein"]}
+{"nid": 278, "canonical": "FLO11", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["Flo11"]}
+{"nid": 279, "canonical": "cell surface flocculin", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["cell surface flocculin"]}
+{"nid": 280, "canonical": "GENES", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["Genes"]}
+{"nid": 281, "canonical": "MAP", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["MAP"]}
+{"nid": 282, "canonical": "ammonium per", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["ammonium per"]}
+{"nid": 283, "canonical": "regulator", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["regulator"]}
+{"nid": 284, "canonical": "glucose repression", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["glucose repression"]}
+{"nid": 285, "canonical": "HXT5", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["HXT5"]}
+{"nid": 286, "canonical": "HGT2", "node_type": "GENE_PRODUCT", "frequency": 3, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["HGT2", "HGT2", "HGT2"]}
+{"nid": 287, "canonical": "more than 30%", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["more than 30%"]}
+{"nid": 288, "canonical": "AFFECTED", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["affected"]}
+{"nid": 289, "canonical": "63", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Biofilm and filamentation-specific gene expression.", "DISCUSSION"], "examples": ["63", "63"]}
+{"nid": 290, "canonical": "positive cap", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["positive Cap"]}
+{"nid": 291, "canonical": "SOD", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["SOD"]}
+{"nid": 292, "canonical": "IFR", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["IFR"]}
+{"nid": 293, "canonical": "ARR", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["ARR"]}
+{"nid": 294, "canonical": "orf19.70", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["orf19.70"]}
+{"nid": 295, "canonical": "ARO9", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["ARO9"]}
+{"nid": 296, "canonical": "YIM", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["YIM"]}
+{"nid": 297, "canonical": "RIB1", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["RIB1"]}
+{"nid": 298, "canonical": "ORF19", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["orf19", "orf19"]}
+{"nid": 299, "canonical": "ESB", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["ESB"]}
+{"nid": 300, "canonical": "NEGATIVE", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["negative"]}
+{"nid": 301, "canonical": "VMA", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["VMA"]}
+{"nid": 302, "canonical": "SOD1", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["SOD1"]}
+{"nid": 303, "canonical": "IFR1", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["IFR1", "IFR1"]}
+{"nid": 304, "canonical": "ESBP6", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["ESBP6"]}
+{"nid": 305, "canonical": "MNN13", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["MNN13", "MNN13"]}
+{"nid": 306, "canonical": "CHA2", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["CHA2"]}
+{"nid": 307, "canonical": "EXPECTED", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["expected"]}
+{"nid": 308, "canonical": "RIB", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["RIB"]}
+{"nid": 309, "canonical": "oxidative stress response", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["oxidative stress response"]}
+{"nid": 310, "canonical": "idative stress resistance", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["idative stress resistance"]}
+{"nid": 311, "canonical": "superoxide", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["superoxide"]}
+{"nid": 312, "canonical": "17", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["17"]}
+{"nid": 313, "canonical": "13", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["13"]}
+{"nid": 314, "canonical": "GZF3", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["GZF3"]}
+{"nid": 315, "canonical": "GPX2", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["GPX2"]}
+{"nid": 316, "canonical": "SOD3", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["SOD3"]}
+{"nid": 317, "canonical": "orf19.9899", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["orf19.9899"]}
+{"nid": 318, "canonical": "STI1", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["Sti1"]}
+{"nid": 319, "canonical": "GULATED", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Biofilm and filamentation-specific gene expression.", "DISCUSSION"], "examples": ["gulated", "gulated"]}
+{"nid": 320, "canonical": "HSP10", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["Hsp10"]}
+{"nid": 321, "canonical": "HSP30", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["Hsp30"]}
+{"nid": 322, "canonical": "HSP31", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["Hsp31"]}
+{"nid": 323, "canonical": "HSP60", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["Hsp60"]}
+{"nid": 324, "canonical": "MDJ1", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["Mdj1"]}
+{"nid": 325, "canonical": "SSC1", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["Ssc1"]}
+{"nid": 326, "canonical": "HOL", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["HOL"]}
+{"nid": 327, "canonical": "HOL2", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["HOL2"]}
+{"nid": 328, "canonical": "GULATION", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["gulation", "gulation"]}
+{"nid": 329, "canonical": "terol-encoding gene", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["terol-encoding genes"]}
+{"nid": 330, "canonical": "ERG25", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["ERG25"]}
+{"nid": 331, "canonical": "c. glabatra", "node_type": "ANATOMICAL_SITE", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["C. glabatra"]}
+{"nid": 332, "canonical": "CDR1", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Biofilm and filamentation-specific gene expression.", "DISCUSSION"], "examples": ["CDR1", "CDR1"]}
+{"nid": 333, "canonical": "64", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["64"]}
+{"nid": 334, "canonical": "higher abundance", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["higher abundance"]}
+{"nid": 335, "canonical": "ALG", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["ALG"]}
+{"nid": 336, "canonical": "BUD", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["BUD"]}
+{"nid": 337, "canonical": "differentially expressed", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["differentially expressed"]}
+{"nid": 338, "canonical": "ALG5", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["ALG5"]}
+{"nid": 339, "canonical": "BUD7", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["BUD7"]}
+{"nid": 340, "canonical": "ular transport", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["ular transport"]}
+{"nid": 341, "canonical": "VMA5", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["VMA5"]}
+{"nid": 342, "canonical": "VAC7", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["VAC7"]}
+{"nid": 343, "canonical": "END3", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["END3"]}
+{"nid": 344, "canonical": "LUV1", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["LUV1", "LUV1"]}
+{"nid": 345, "canonical": "SLA1", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["SLA1", "SLA1"]}
+{"nid": 346, "canonical": "cell wall protein", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["cell wall proteins"]}
+{"nid": 347, "canonical": "lipid metabolism", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["lipid metabolism"]}
+{"nid": 348, "canonical": "FEN", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["FEN"]}
+{"nid": 349, "canonical": "protein modification", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["protein modification"]}
+{"nid": 350, "canonical": "transcriptional protein", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["transcriptional proteins"]}
+{"nid": 351, "canonical": "nuclear protein", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["nuclear proteins"]}
+{"nid": 352, "canonical": "other protein", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["other proteins"]}
+{"nid": 353, "canonical": "ATP14", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["ATP14"]}
+{"nid": 354, "canonical": "ILM1", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["ILM1"]}
+{"nid": 355, "canonical": "VPS34", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["VPS34"]}
+{"nid": 356, "canonical": "GAS1", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["GAS1"]}
+{"nid": 357, "canonical": "PMT2", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["PMT2"]}
+{"nid": 358, "canonical": "OST3", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["OST3"]}
+{"nid": 359, "canonical": "CTK1", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["CTK1"]}
+{"nid": 360, "canonical": "TRF4", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["TRF4"]}
+{"nid": 361, "canonical": "NPL3", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["NPL3"]}
+{"nid": 362, "canonical": "transcription", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["Biofilm and filamentation-specific gene expression.", "DISCUSSION"], "examples": ["transcription", "transcription"]}
+{"nid": 363, "canonical": "68", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["68"]}
+{"nid": 364, "canonical": "OBSERVED", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["observed"]}
+{"nid": 365, "canonical": "G1", "node_type": "GENE_PRODUCT", "frequency": 4, "sections": ["Biofilm and filamentation-specific gene expression.", "DISCUSSION"], "examples": ["G1", "G1", "G1"]}
+{"nid": 366, "canonical": "CLN3", "node_type": "GENE_PRODUCT", "frequency": 3, "sections": ["Biofilm and filamentation-specific gene expression.", "DISCUSSION"], "examples": ["Cln3", "Cln3", "CLN3"]}
+{"nid": 367, "canonical": "ACE2", "node_type": "GENE_PRODUCT", "frequency": 3, "sections": ["Biofilm and filamentation-specific gene expression.", "DISCUSSION"], "examples": ["Ace2", "ACE2", "Ace2"]}
+{"nid": 368, "canonical": "mammalian cy", "node_type": "ANATOMICAL_SITE", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["mammalian cy"]}
+{"nid": 369, "canonical": "toskeleton", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["toskeleton"]}
+{"nid": 370, "canonical": "microarray data", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["microarray data"]}
+{"nid": 371, "canonical": "FAC1", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["FAC1"]}
+{"nid": 372, "canonical": "AIP1", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["AIP1"]}
+{"nid": 373, "canonical": "SDA1", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["SDA1"]}
+{"nid": 374, "canonical": "difference", "node_type": "EXPERIMENT", "frequency": 3, "sections": ["Biofilm and filamentation-specific gene expression.", "DISCUSSION"], "examples": ["differences", "differences", "differences"]}
+{"nid": 375, "canonical": "and shape", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["and shape"]}
+{"nid": 376, "canonical": "70", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["70"]}
+{"nid": 377, "canonical": "PFY1", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["PFY1"]}
+{"nid": 378, "canonical": "ACF2", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biofilm and filamentation-specific gene expression."], "examples": ["ACF2"]}
+{"nid": 379, "canonical": "high percentage", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA-binding proteins."], "examples": ["high percentage"]}
+{"nid": 380, "canonical": "ly expressed", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA-binding proteins."], "examples": ["ly expressed"]}
+{"nid": 381, "canonical": "go slim mapper analysi", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA-binding proteins."], "examples": ["GO Slim Mapper analysis"]}
+{"nid": 382, "canonical": "metabolism", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA-binding proteins."], "examples": ["metabolism"]}
+{"nid": 383, "canonical": "rna metabolic processe", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA-binding proteins."], "examples": ["RNA metabolic processes"]}
+{"nid": 384, "canonical": "rna binding protein", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA-binding proteins."], "examples": ["RNA binding protein"]}
+{"nid": 385, "canonical": "response", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["RNA-binding proteins."], "examples": ["responses"]}
+{"nid": 386, "canonical": "BINDING", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["RNA-binding proteins."], "examples": ["binding"]}
+{"nid": 387, "canonical": "binding protein", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA-binding proteins."], "examples": ["binding proteins"]}
+{"nid": 388, "canonical": "12", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["RNA-binding proteins."], "examples": ["12"]}
+{"nid": 389, "canonical": "YTH1", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["RNA-binding proteins."], "examples": ["Yth1"]}
+{"nid": 390, "canonical": "TCA5", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["RNA-binding proteins."], "examples": ["Tca5"]}
+{"nid": 391, "canonical": "cellular aggregation", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["cellular aggregation"]}
+{"nid": 392, "canonical": "cell cluster formation", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["cell cluster formation"]}
+{"nid": 393, "canonical": "spaceflight sample", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["spaceflight samples"]}
+{"nid": 394, "canonical": "more cell cluster", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["more cell clusters"]}
+{"nid": 395, "canonical": "average size", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["average size"]}
+{"nid": 396, "canonical": ", 1063 cells per cluster", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Morphological analyses"], "examples": [", 1063 cells per cluster"]}
+{"nid": 397, "canonical": "1 cell", "node_type": "CELL_TYPE", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["1 cells"]}
+{"nid": 398, "canonical": "CLUSTER", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["cluster"]}
+{"nid": 399, "canonical": "cell cluster", "node_type": "ANATOMICAL_SITE", "frequency": 2, "sections": ["Morphological analyses"], "examples": ["cell clusters", "cell clusters"]}
+{"nid": 400, "canonical": "80006 sem", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["80006 SEM"]}
+{"nid": 401, "canonical": "1063", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["1063"]}
+{"nid": 402, "canonical": "661", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["661"]}
+{"nid": 403, "canonical": "4A", "node_type": "GENE_PRODUCT", "frequency": 3, "sections": ["Morphological analyses"], "examples": ["4A", "4A", "4A"]}
+{"nid": 404, "canonical": "25006", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["25006"]}
+{"nid": 405, "canonical": "50006", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["50006"]}
+{"nid": 406, "canonical": "higher number", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["higher number"]}
+{"nid": 407, "canonical": "surface area", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["Morphological analyses"], "examples": ["surface area", "surface area"]}
+{"nid": 408, "canonical": "significantly higher", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["significantly higher"]}
+{"nid": 409, "canonical": "29", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["29"]}
+{"nid": 410, "canonical": "higher percentage", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["higher percentage"]}
+{"nid": 411, "canonical": "5A", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["5A"]}
+{"nid": 412, "canonical": "smaller than 5 mm 2", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["smaller than 5 mm 2"]}
+{"nid": 413, "canonical": "higher percentage of", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["higher percentage of"]}
+{"nid": 414, "canonical": "above 0.8", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["above 0.8"]}
+{"nid": 415, "canonical": "4c", "node_type": "EXPERIMENTAL_CONDITION", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["4C"]}
+{"nid": 416, "canonical": "aberrant yeast form", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["aberrant yeast forms"]}
+{"nid": 417, "canonical": "rrant yeast form", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["rrant yeast forms"]}
+{"nid": 418, "canonical": "viable cell count", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["viable cell counts"]}
+{"nid": 419, "canonical": "no differences between", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["no differences between"]}
+{"nid": 420, "canonical": "4.78610 7 cfu/ml", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["4.78610 7 CFU/mL"]}
+{"nid": 421, "canonical": "5.94610 7 cfu/ml", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["5.94610 7 CFU/mL"]}
+{"nid": 422, "canonical": "CFU", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Morphological analyses"], "examples": ["CFU", "CFU"]}
+{"nid": 423, "canonical": "flow cytometry analysi", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["Flow cytometry analysis"]}
+{"nid": 424, "canonical": "2.8-fold increase", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["2.8-fold increase"]}
+{"nid": 425, "canonical": "atter signal", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Morphological analyses"], "examples": ["atter signal"]}
+{"nid": 426, "canonical": "S2", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Virulence"], "examples": ["S2"]}
+{"nid": 427, "canonical": "virulence-related phenotype", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["virulence-related phenotypes"]}
+{"nid": 428, "canonical": "low fluid", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["low fluid"]}
+{"nid": 429, "canonical": "MUCOSAL", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["mucosal"]}
+{"nid": 430, "canonical": "immune response", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["immune response"]}
+{"nid": 431, "canonical": "microbiology study", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["microbiology studies"]}
+{"nid": 432, "canonical": "DISEASE", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["disease"]}
+{"nid": 433, "canonical": "fluid-shear force", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["fluid-shear forces"]}
+{"nid": 434, "canonical": "liquid culture", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["liquid culture"]}
+{"nid": 435, "canonical": "bial cell", "node_type": "CELL_TYPE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["bial cells"]}
+{"nid": 436, "canonical": "disease mechanism", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["disease mechanisms"]}
+{"nid": 437, "canonical": "conventional", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["conventional"]}
+{"nid": 438, "canonical": "aggregative ph", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["aggregative ph"]}
+{"nid": 439, "canonical": "lamentation", "node_type": "PHENOTYPE", "frequency": 2, "sections": ["DISCUSSION"], "examples": ["lamentation", "lamentation"]}
+{"nid": 440, "canonical": "pseudohyphae", "node_type": "PHENOTYPE", "frequency": 2, "sections": ["DISCUSSION"], "examples": ["pseudohyphae", "pseudohyphae"]}
+{"nid": 441, "canonical": "yeast-form cell", "node_type": "CELL_TYPE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["yeast-form cells"]}
+{"nid": 442, "canonical": "microcolony formation", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["Microcolony formation"]}
+{"nid": 443, "canonical": "abiotic surface", "node_type": "ANATOMICAL_SITE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["abiotic surfaces"]}
+{"nid": 444, "canonical": "film formation", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["film formation"]}
+{"nid": 445, "canonical": "BIOFILM", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["DISCUSSION"], "examples": ["biofilm", "biofilm"]}
+{"nid": 446, "canonical": "filamentation", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["filamentation"]}
+{"nid": 447, "canonical": "aggregation of microbial cell", "node_type": "CELL_TYPE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["aggregation of microbial cells"]}
+{"nid": 448, "canonical": "s. aureu", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["S. aureus"]}
+{"nid": 449, "canonical": "biofilm phenotype", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["biofilm phenotypes"]}
+{"nid": 450, "canonical": "SHORTER", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["shorter"]}
+{"nid": 451, "canonical": "YWP1", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["YWP1"]}
+{"nid": 452, "canonical": "HWP1", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["HWP1"]}
+{"nid": 453, "canonical": "BCR1", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["BCR1"]}
+{"nid": 454, "canonical": "GLUCOSE", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["glucose"]}
+{"nid": 455, "canonical": "repression", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["repression"]}
+{"nid": 456, "canonical": "nucleic acid component", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["nucleic acid components"]}
+{"nid": 457, "canonical": "increased number", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["increased number"]}
+{"nid": 458, "canonical": "bipolar budding", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["bipolar budding"]}
+{"nid": 459, "canonical": "PATTERN", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["pattern"]}
+{"nid": 460, "canonical": "POLAR", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["Polar"]}
+{"nid": 461, "canonical": "BIPOLAR", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["bipolar"]}
+{"nid": 462, "canonical": "180U", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["180u"]}
+{"nid": 463, "canonical": "86", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["86"]}
+{"nid": 464, "canonical": "mutation", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["mutations"]}
+{"nid": 465, "canonical": "production of cell clump", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["production of cell clump"]}
+{"nid": 466, "canonical": "MULTIPLE", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["DISCUSSION"], "examples": ["multiple", "multiple"]}
+{"nid": 467, "canonical": "DAUGHTER", "node_type": "GENE_PRODUCT", "frequency": 3, "sections": ["DISCUSSION"], "examples": ["daughter", "daughter", "daughter"]}
+{"nid": 468, "canonical": "ACE", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["ACE"]}
+{"nid": 469, "canonical": "g1 cyclin cln3", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["G1 cyclin CLN3"]}
+{"nid": 470, "canonical": "ymmetric cell", "node_type": "CELL_TYPE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["ymmetric cell"]}
+{"nid": 471, "canonical": "DIVISION", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["division"]}
+{"nid": 472, "canonical": "SMALLER", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["smaller"]}
+{"nid": 473, "canonical": "compared to the mother cell", "node_type": "CELL_TYPE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["compared to the mother cell"]}
+{"nid": 474, "canonical": "1 phase", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["1 phase"]}
+{"nid": 475, "canonical": "daughter cell", "node_type": "CELL_TYPE", "frequency": 2, "sections": ["DISCUSSION"], "examples": ["daughter cells", "daughter cells"]}
+{"nid": 476, "canonical": "START", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["Start"]}
+{"nid": 477, "canonical": "growth profile", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["growth profiles"]}
+{"nid": 478, "canonical": "WALT", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["Walt"]}
+{"nid": 479, "canonical": "random budding pattern", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["random budding pattern"]}
+{"nid": 480, "canonical": "MUTANTS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["mutants"]}
+{"nid": 481, "canonical": "actin organization", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["actin organization"]}
+{"nid": 482, "canonical": "random budding phenotype", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["random budding phenotype"]}
+{"nid": 483, "canonical": "WALTHER", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["Walther"]}
+{"nid": 484, "canonical": "PERSIST", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["persist"]}
+{"nid": 485, "canonical": "multidrug efflux protein", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["multidrug efflux proteins"]}
+{"nid": 486, "canonical": "ergosterol", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["DISCUSSION"], "examples": ["ergosterol", "ergosterol"]}
+{"nid": 487, "canonical": "ERGOS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["Ergos"]}
+{"nid": 488, "canonical": "cell death", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["cell death"]}
+{"nid": 489, "canonical": "DOWN", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["Down"]}
+{"nid": 490, "canonical": "SESSILE", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["sessile"]}
+{"nid": 491, "canonical": "stress resistance", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["stress resistance"]}
+{"nid": 492, "canonical": "idative stress-associated gene expression", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["idative stress-associated gene expression"]}
+{"nid": 493, "canonical": "than 30", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["than 30"]}
+{"nid": 494, "canonical": "tive stress resistance", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["tive stress resistance"]}
+{"nid": 495, "canonical": "oxygen level", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["oxygen levels"]}
+{"nid": 496, "canonical": "gene expression profile", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["gene expression profiles"]}
+{"nid": 497, "canonical": "bacterial", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["bacterial"]}
+{"nid": 498, "canonical": "fpa culture", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["FPA cultures"]}
+{"nid": 499, "canonical": "fluid-shear level", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["fluid-shear levels"]}
+{"nid": 500, "canonical": "PROTEOME", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["proteome"]}
+{"nid": 501, "canonical": "cerevisiae", "node_type": "ANATOMICAL_SITE", "frequency": 2, "sections": ["DISCUSSION"], "examples": ["cerevisiae", "cerevisiae"]}
+{"nid": 502, "canonical": "RELEASE", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["release"]}
+{"nid": 503, "canonical": "TATHIONE", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["tathione"]}
+{"nid": 504, "canonical": "tathione release", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["tathione release"]}
+{"nid": 505, "canonical": "ion channel", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["ion channels"]}
+{"nid": 506, "canonical": "cytoskeletal rearrangement", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["cytoskeletal rearrangements"]}
+{"nid": 507, "canonical": "MODULATE", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["modulate"]}
+{"nid": 508, "canonical": "tive function", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["tive functions"]}
+{"nid": 509, "canonical": "other eukaryotic cell", "node_type": "CELL_TYPE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["other eukaryotic cell"]}
+{"nid": 510, "canonical": "microbial agent", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["microbial agents"]}
+{"nid": 511, "canonical": "stressor", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["stressors"]}
+{"nid": 512, "canonical": "virulence-related ph", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["virulence-related ph"]}
+{"nid": 513, "canonical": "microgravityanalogue", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["microgravityanalogue"]}
+{"nid": 514, "canonical": "aeruginosa", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["aeruginosa"]}
+{"nid": 515, "canonical": "mrna decapp", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["mRNA decapp"]}
+{"nid": 516, "canonical": "RRNA", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["rRNA"]}
+{"nid": 517, "canonical": "NUCLEUS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["nucleus"]}
+{"nid": 518, "canonical": "cytoplasm", "node_type": "ANATOMICAL_SITE", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["cytoplasm"]}
+{"nid": 519, "canonical": "7 complex", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["7 complex"]}
+{"nid": 520, "canonical": "LSM1", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["LSm1"]}
+{"nid": 521, "canonical": "LSM2", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["LSm2"]}
+{"nid": 522, "canonical": "GLOBALLY", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["globally"]}
+{"nid": 523, "canonical": "al regulator", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["DISCUSSION"], "examples": ["al regulator"]}

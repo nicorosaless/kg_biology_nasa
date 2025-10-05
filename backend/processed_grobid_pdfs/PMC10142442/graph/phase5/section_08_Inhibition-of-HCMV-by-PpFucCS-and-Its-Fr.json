@@ -1,0 +1,376 @@
+{
+  "paper_id": "PMC10142442",
+  "section": "Inhibition of HCMV by PpFucCS and Its Fractions",
+  "n_nodes": 9,
+  "n_edges": 36,
+  "nodes": [
+    {
+      "id": 321,
+      "label": "FucC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of HCMV by PpFucCS and Its Fractions",
+        "sentence_id": 90,
+        "char_start": 18786,
+        "char_end": 18790,
+        "anchor": "PMC10142442_18786_18790",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 322,
+      "label": "FucC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of HCMV by PpFucCS and Its Fractions",
+        "sentence_id": 90,
+        "char_start": 18870,
+        "char_end": 18874,
+        "anchor": "PMC10142442_18870_18874",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 323,
+      "label": "FucC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of HCMV by PpFucCS and Its Fractions",
+        "sentence_id": 90,
+        "char_start": 19120,
+        "char_end": 19124,
+        "anchor": "PMC10142442_19120_19124",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 325,
+      "label": "FucC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of HCMV by PpFucCS and Its Fractions",
+        "sentence_id": 90,
+        "char_start": 19296,
+        "char_end": 19300,
+        "anchor": "PMC10142442_19296_19300",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 327,
+      "label": "FucC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of HCMV by PpFucCS and Its Fractions",
+        "sentence_id": 90,
+        "char_start": 19516,
+        "char_end": 19520,
+        "anchor": "PMC10142442_19516_19520",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 328,
+      "label": "presence",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of HCMV by PpFucCS and Its Fractions",
+        "sentence_id": 90,
+        "char_start": 19704,
+        "char_end": 19712,
+        "anchor": "PMC10142442_19704_19712",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 333,
+      "label": "HCMV",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of HCMV by PpFucCS and Its Fractions",
+        "sentence_id": 90,
+        "char_start": 18853,
+        "char_end": 18857,
+        "anchor": "PMC10142442_18853_18857",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 335,
+      "label": "UFH",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of HCMV by PpFucCS and Its Fractions",
+        "sentence_id": 90,
+        "char_start": 19188,
+        "char_end": 19191,
+        "anchor": "PMC10142442_19188_19191",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 337,
+      "label": "UFH",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of HCMV by PpFucCS and Its Fractions",
+        "sentence_id": 90,
+        "char_start": 19421,
+        "char_end": 19424,
+        "anchor": "PMC10142442_19421_19424",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 742,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 321,
+      "target": 322
+    },
+    {
+      "id": 743,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 321,
+      "target": 323
+    },
+    {
+      "id": 744,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 321,
+      "target": 325
+    },
+    {
+      "id": 745,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 321,
+      "target": 327
+    },
+    {
+      "id": 746,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 321,
+      "target": 328
+    },
+    {
+      "id": 747,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 321,
+      "target": 333
+    },
+    {
+      "id": 749,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 321,
+      "target": 335
+    },
+    {
+      "id": 751,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 321,
+      "target": 337
+    },
+    {
+      "id": 753,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 322,
+      "target": 323
+    },
+    {
+      "id": 754,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 322,
+      "target": 325
+    },
+    {
+      "id": 755,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 322,
+      "target": 327
+    },
+    {
+      "id": 756,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 322,
+      "target": 328
+    },
+    {
+      "id": 757,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 322,
+      "target": 333
+    },
+    {
+      "id": 759,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 322,
+      "target": 335
+    },
+    {
+      "id": 761,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 322,
+      "target": 337
+    },
+    {
+      "id": 763,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 323,
+      "target": 325
+    },
+    {
+      "id": 764,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 323,
+      "target": 327
+    },
+    {
+      "id": 765,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 323,
+      "target": 328
+    },
+    {
+      "id": 766,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 323,
+      "target": 333
+    },
+    {
+      "id": 768,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 323,
+      "target": 335
+    },
+    {
+      "id": 770,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 323,
+      "target": 337
+    },
+    {
+      "id": 772,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 325,
+      "target": 327
+    },
+    {
+      "id": 773,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 325,
+      "target": 328
+    },
+    {
+      "id": 774,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 325,
+      "target": 333
+    },
+    {
+      "id": 776,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 325,
+      "target": 335
+    },
+    {
+      "id": 778,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 325,
+      "target": 337
+    },
+    {
+      "id": 780,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 327,
+      "target": 328
+    },
+    {
+      "id": 781,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 327,
+      "target": 333
+    },
+    {
+      "id": 783,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 327,
+      "target": 335
+    },
+    {
+      "id": 785,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 327,
+      "target": 337
+    },
+    {
+      "id": 787,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 328,
+      "target": 333
+    },
+    {
+      "id": 789,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 328,
+      "target": 335
+    },
+    {
+      "id": 791,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 328,
+      "target": 337
+    },
+    {
+      "id": 794,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 333,
+      "target": 335
+    },
+    {
+      "id": 796,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 333,
+      "target": 337
+    },
+    {
+      "id": 803,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 335,
+      "target": 337
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 6,
+      "removed_orphans": 18,
+      "largest_component": 9,
+      "removed_components": [
+        4,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 7
+  }
+}

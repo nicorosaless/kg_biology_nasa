@@ -1,0 +1,219 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "This study investigates the impact of spaceflight microgravity on gene expression related to root growth in Arabidopsis thaliana using transcriptomic datasets from the International Space Station. The goal is to identify genes showing transcriptional abundance under spaceflight microgravity, particularly those influencing root growth and cell wall biosynthesis. Graph-theoretic approaches, including LASSO, Pearson correlation, and HITS algorithm, are employed to infer gene regulatory networks (GRNs) from GeneLab datasets GLDS-7 and GLDS-120.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Figure 1.Flow chart of the procedure for gene regulatory network inferencing using the graph-based Pearson correlation method.",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.png"
+      },
+      {
+        "id": "fig_2",
+        "caption": "|λ 1 | ≥ |λ 2 | ≥ • • • ≥ |λn| (X may be directed or undirected, weighted or unweighted, simple or not).The spectral gap is defined as: δ λ = |λ 1",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.png"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Figure 2.",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.png"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Figure 3.",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.png"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "GeneLab Arabidopsis Datasets",
+      "summary": "GeneLab GLDS-7 and GLDS-120 datasets were mined to identify hub genes affected by spaceflight. GLDS-7 contains microarray data for WS and Col-0 ecotypes across different tissues in ground control and spaceflight under white light. GLDS-120 includes transcriptomics data for WS, Col-0, and phyD mutant under total light and dark conditions in spaceflight and on the ground to study light effects on root growth when gravity stimuli are removed. RNAseq was used for transcription profiling.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Graph-Based GRN Inferencing",
+      "summary": "Gene expressions are represented using a graph-based approach. Principal Component Analysis (PCA) is applied to de-correlate gene expression values, reducing dimensions to three components. PCA projects data onto an orthogonal space, maximizing variance with minimal projection cost, before LASSO regression and Pearson correlation are used for GRN construction.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "LASSO Regression",
+      "summary": "LASSO regression, a linear regression algorithm, shrinks data towards a central point, favoring sparse models using l1 regularization. This eliminates relationships between less important genes, constructing GRNs in Cytoscape for Arabidopsis spaceflight and ground datasets using the SILGGM package in R. Every gene is considered a transcription factor and target gene, with correlations calculated using the scaled LASSO algorithm.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Pearson Correlation",
+      "summary": "Pearson's correlation coefficient measures the statistical relationship between two random variables, used to construct co-expressed gene networks and identify genes with correlated expression patterns. The t-test is used to establish if the correlation coefficient is significantly different from zero. Genes are treated as nodes, and their relations as edges, where nodes with the highest degree are considered hub genes.",
+      "figures": [],
+      "equations": [
+        {
+          "id": "eq_1",
+          "text": "ρ X,Y = cov(X, Y) σ X σ Y(1)",
+          "latex_inline": "ρ X,Y = cov(X, Y) \\\\sigma X \\\\sigma Y",
+          "latex_display": "ρ X,Y = cov(X, Y) \\\\sigma X \\\\sigma Y",
+          "type": "general",
+          "order": 10000,
+          "label": "(1)"
+        }
+      ]
+    },
+    {
+      "heading": "Results and Discussion",
+      "summary": "The Pearson correlation method generates weighted directed graphs. High correlation between gene expression values is observed in plots of Arabidopsis ecotypes WS and Col-0 root growth in spaceflight. PCA reduces dimensionality before Pearson correlation is applied. Sub-graphs from GLDS-7 data are shown with a correlation threshold of 0.05, selecting a fraction of genes from the datasets. Figure 3 depicts gene regulatory sub-graph for Arabidopsis thaliana root growth in spaceflight microgravity, highlighting hub genes (red circles) with strong interactions and differentially expressed genes. Figure 4 depicts the gene regulatory sub-graph for Arabidopsis thaliana root growth in the ground control.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Gene Set Enrichment Analysis (GSEA)",
+      "summary": "GSEA is performed on hub genes using the ShinyGO tool. Hub genes for spaceflight and ground environments overlap considerably and are involved in molecular functions, biological processes, and oxidation-reduction processes. GRNs for WS, Col-0, and phyD mutant show significantly different regulations in spaceflight, with unique genes related to DNA integration and RNA-dependent DNA biosynthesis. WS ecotype hub genes are associated with catabolic processes, response to abiotic stimulus, and developmental processes, while Col-0 ecotype hub genes perform similar functions.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "GSEA for Common Hub Genes",
+      "summary": "Eight common hub genes between spaceflight and ground environments are identified, including ATMG00600.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Gene Ontology of Transcription Factors (Genes) in Spaceflight",
+      "summary": "",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Topological and Spectral Analyses of Gene Regulatory Networks",
+      "summary": "",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Arabidopsis Root Growth and Cell Wall Biosynthesis in Spaceflight Microgravity",
+      "summary": "",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": "The study presents graph-based network analysis methods for GeneLab Arabidopsis datasets, building GRNs for different ecotypes and conducting topological and algebraic network studies. A novel graph-theoretic approach identified hub genes significantly different in spaceflight microgravity. The WS ecotype GRN in spaceflight has the highest spectral gap. Thirty-eight genes with higher transcriptions in spaceflight microgravity are involved in vital functions. Hub genes with higher transcriptional activity are identified, involved in the cell wall response process only in spaceflight, including xyloglucan endotransglycosylase/hydrolases (XTHs).",
+  "keywords": [
+    "arabidopsis thaliana",
+    "spaceflight microgravity",
+    "gene regulatory networks",
+    "hub genes",
+    "transcriptomics",
+    "lasso regression",
+    "pearson correlation",
+    "hits algorithm",
+    "cell wall biosynthesis",
+    "spectral analysis"
+  ],
+  "topics": [
+    "systems biology",
+    "gene expression",
+    "plant physiology"
+  ],
+  "_meta": {
+    "paper_id": "sha256:f288c4f95b9f74eadf38661347e92392d5245e88f7f54f22c80fc9466f7d5cb4",
+    "paper_title": "Network Analysis of Gene Transcriptions of Arabidopsis thaliana in Spaceflight Microgravity",
+    "generated_at": "2025-10-05T10:50:37Z",
+    "word_count": 499,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [
+      "eq_1"
+    ],
+    "keywords": [
+      "arabidopsis thaliana",
+      "spaceflight microgravity",
+      "gene regulatory networks",
+      "hub genes",
+      "transcriptomics",
+      "lasso regression",
+      "pearson correlation",
+      "hits algorithm",
+      "cell wall biosynthesis",
+      "spectral analysis"
+    ],
+    "topics": [
+      "systems biology",
+      "gene expression",
+      "plant physiology"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 9,
+      "final_count": 1,
+      "discarded_count": 0,
+      "coverage_ratio": 0.1111111111111111,
+      "dedupe_rate": 0.0,
+      "types_distribution": {
+        "general": 1
+      },
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 6596,
+      "completion_tokens": 1529,
+      "total_tokens": 8125,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.00066,
+      "output_usd": 0.000612,
+      "total_usd": 0.001271
+    },
+    "cost": {
+      "input_usd": 0.00066,
+      "output_usd": 0.000612,
+      "total_usd": 0.001271
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [
+        {
+          "id": "fig_7",
+          "score": -9999,
+          "caption_wc": 39
+        }
+      ],
+      "corrupted_detected": [
+        "fig_1",
+        "fig_3",
+        "fig_4",
+        "fig_5",
+        "fig_7"
+      ],
+      "original_total": 5,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

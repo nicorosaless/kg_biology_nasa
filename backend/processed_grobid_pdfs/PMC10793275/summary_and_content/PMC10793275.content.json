@@ -1,0 +1,769 @@
+{
+  "paper_id": "sha256:c6cb5720c3ed7fe5cda76854c330862820f69c04fd725b6386822b879e63ca0e",
+  "metadata": {
+    "title": "Draft genome sequence of Sphingomonas paucimobilis strain Sph5, isolated from tap water filtration membrane",
+    "abstract": "Sphingomonadaceae are common membrane colonizers and biofilm formers.As part of our studies on long-term genetic changes in drinking water biofilm species, we report the draft genome sequence of Sphingomonas strain Sph5, isolated from a tap water filtration membrane.The isolate was determined as Sphingomonas paucimobilis through whole genome sequencing and de novo assembly.KEYWORDS draft genome, WGS, water, Sphingomonas W idely used for drinking water, membrane filtration systems face biofouling due to microbe accumulation and biofilm formation.Studies reveal Sphingomonadaceae as common initial colonizers, persisting dominantly during biofilm growth (1-4).Here, we report the genome sequence of a prevalent isolate.Sphingomonas spp.Sph5 was isolated from a biofilm on a Nadir MP005 microfiltra tion membrane used for drinking water biofouling studies (1, 5).Sph5 was previously reported to be phylogenetically closest to Sphingomonas sanguinis strains BAB-7166 (99%) and NBRC 13937 (99%) based on 16S rRNA sequencing and cultivation methods (1).However, the whole genome sequence (WGS) was not reported.WGS analysis is critical to uncover strainspecific traits associated with membrane biofouling.Here, we report the WGS of Sphingomonas spp.Sph5 using Illumina short-read sequencing and de novo assembly methods.We received the Sphingomonas spp.Sph5 water isolate from Wetsus, Netherlands.Single isolated colonies were obtained on Reasoner's 2A agar (R2A, Teknova R0005; Difco 214530) and cultured in R2A broth at room temperature.Genomic DNA was extracted using DNeasy UltraClean microbial kit (Qiagen 12224) following the company-provided protocol.Sequencing libraries were generated using Kapa's Hyperplus kit (KK8514) and IDT adapters (#00989130v2).Quality was verified using an Agilent Tapestation and qPCR (NEBNext Library Quant Kit, E7630L) on Thermo Fisher's Quantstudio5.Nineteen million 2 × 150 bp reads were obtained on a NovaSeq (Illumina) at Anschutz Medical Campus Genomics and Microarray Core, with an average Phred score of 33-36 calculated by FastQC [v0.11.9 (6)].Assembly was performed with SPADES, default isolate settings [v3.15.2 (7)].Con tigs were aligned to NCBI databases with DIAMOND [v2.0.13 (8)].Completeness was estimated using BUSCO [v5.2.2 (9)] proteobacteria marker genes.Of the 219 genes, there were 214 (97.7%) complete and single copy, 2 (0.9%) duplicated, 1 (0.5%) fragmented, and 2 (0.9%) missing.For species identification, average nucleotide identity (ANI) was calculated between all complete Sphingomonas genomes and Sph5 with PYANI [v0.2.11 (10)] and MUMMER [v4.0.0 (11)].ANI scores between Sph5 and S. paucimobilis ranged from 99.77%-99.95%,while ANI between Sph5 and S. sanguinis was 87.74%.",
+    "authors": [
+      "Sara Koroli",
+      "Kristina Buss",
+      "Joy MBlain",
+      "Gautam Sai Nakka",
+      "Mina Hong",
+      "Robert Jc Mclean",
+      "Caroline MPlugge",
+      "Jiseon Yang"
+    ],
+    "affiliations": [
+      "1 Biodesign Center for Fundamental and Applied Microbiomics , Biodesign Institute , Arizona State University , Tempe , Arizona , USA",
+      "2 College of Medicine , University of Arizona , Phoenix , Arizona , USA",
+      "3 Bioinformatics Core Facility , Biosciences , Knowledge Enterprise , Arizona State University , Tempe , Arizona , USA",
+      "4 Genomics Core Facility , Biosciences , Knowledge Enterprise , Arizona State University , Tempe , Arizona , USA",
+      "5 Department of Biology , Texas State University , San Marcos , Texas , USA",
+      "6 Wetsus, European Centre of Excellence for Sustainable Water Technology , Leeuwarden , the Netherlands",
+      "University of Delaware College of Engineering , Newark , Delaware , USA"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Abstract",
+      "paragraphs": [
+        "Sphingomonadaceae are common membrane colonizers and biofilm formers.As part of our studies on long-term genetic changes in drinking water biofilm species, we report the draft genome sequence of Sphingomonas strain Sph5, isolated from a tap water filtration membrane.The isolate was determined as Sphingomonas paucimobilis through whole genome sequencing and de novo assembly.KEYWORDS draft genome, WGS, water, Sphingomonas W idely used for drinking water, membrane filtration systems face biofouling due to microbe accumulation and biofilm formation.Studies reveal Sphingomonadaceae as common initial colonizers, persisting dominantly during biofilm growth (1-4).Here, we report the genome sequence of a prevalent isolate.Sphingomonas spp.Sph5 was isolated from a biofilm on a Nadir MP005 microfiltra tion membrane used for drinking water biofouling studies (1, 5).Sph5 was previously reported to be phylogenetically closest to Sphingomonas sanguinis strains BAB-7166 (99%) and NBRC 13937 (99%) based on 16S rRNA sequencing and cultivation methods (1).However, the whole genome sequence (WGS) was not reported.WGS analysis is critical to uncover strainspecific traits associated with membrane biofouling.Here, we report the WGS of Sphingomonas spp.Sph5 using Illumina short-read sequencing and de novo assembly methods.We received the Sphingomonas spp.Sph5 water isolate from Wetsus, Netherlands.Single isolated colonies were obtained on Reasoner's 2A agar (R2A, Teknova R0005; Difco 214530) and cultured in R2A broth at room temperature.Genomic DNA was extracted using DNeasy UltraClean microbial kit (Qiagen 12224) following the company-provided protocol.Sequencing libraries were generated using Kapa's Hyperplus kit (KK8514) and IDT adapters (#00989130v2).Quality was verified using an Agilent Tapestation and qPCR (NEBNext Library Quant Kit, E7630L) on Thermo Fisher's Quantstudio5.Nineteen million 2 × 150 bp reads were obtained on a NovaSeq (Illumina) at Anschutz Medical Campus Genomics and Microarray Core, with an average Phred score of 33-36 calculated by FastQC [v0.11.9 (6)].Assembly was performed with SPADES, default isolate settings [v3.15.2 (7)].Con tigs were aligned to NCBI databases with DIAMOND [v2.0.13 (8)].Completeness was estimated using BUSCO [v5.2.2 (9)] proteobacteria marker genes.Of the 219 genes, there were 214 (97.7%) complete and single copy, 2 (0.9%) duplicated, 1 (0.5%) fragmented, and 2 (0.9%) missing.For species identification, average nucleotide identity (ANI) was calculated between all complete Sphingomonas genomes and Sph5 with PYANI [v0.2.11 (10)] and MUMMER [v4.0.0 (11)].ANI scores between Sph5 and S. paucimobilis ranged from 99.77%-99.95%,while ANI between Sph5 and S. sanguinis was 87.74%."
+      ],
+      "text": "Sphingomonadaceae are common membrane colonizers and biofilm formers.As part of our studies on long-term genetic changes in drinking water biofilm species, we report the draft genome sequence of Sphingomonas strain Sph5, isolated from a tap water filtration membrane.The isolate was determined as Sphingomonas paucimobilis through whole genome sequencing and de novo assembly.KEYWORDS draft genome, WGS, water, Sphingomonas W idely used for drinking water, membrane filtration systems face biofouling due to microbe accumulation and biofilm formation.Studies reveal Sphingomonadaceae as common initial colonizers, persisting dominantly during biofilm growth (1-4).Here, we report the genome sequence of a prevalent isolate.Sphingomonas spp.Sph5 was isolated from a biofilm on a Nadir MP005 microfiltra tion membrane used for drinking water biofouling studies (1, 5).Sph5 was previously reported to be phylogenetically closest to Sphingomonas sanguinis strains BAB-7166 (99%) and NBRC 13937 (99%) based on 16S rRNA sequencing and cultivation methods (1).However, the whole genome sequence (WGS) was not reported.WGS analysis is critical to uncover strainspecific traits associated with membrane biofouling.Here, we report the WGS of Sphingomonas spp.Sph5 using Illumina short-read sequencing and de novo assembly methods.We received the Sphingomonas spp.Sph5 water isolate from Wetsus, Netherlands.Single isolated colonies were obtained on Reasoner's 2A agar (R2A, Teknova R0005; Difco 214530) and cultured in R2A broth at room temperature.Genomic DNA was extracted using DNeasy UltraClean microbial kit (Qiagen 12224) following the company-provided protocol.Sequencing libraries were generated using Kapa's Hyperplus kit (KK8514) and IDT adapters (#00989130v2).Quality was verified using an Agilent Tapestation and qPCR (NEBNext Library Quant Kit, E7630L) on Thermo Fisher's Quantstudio5.Nineteen million 2 × 150 bp reads were obtained on a NovaSeq (Illumina) at Anschutz Medical Campus Genomics and Microarray Core, with an average Phred score of 33-36 calculated by FastQC [v0.11.9 (6)].Assembly was performed with SPADES, default isolate settings [v3.15.2 (7)].Con tigs were aligned to NCBI databases with DIAMOND [v2.0.13 (8)].Completeness was estimated using BUSCO [v5.2.2 (9)] proteobacteria marker genes.Of the 219 genes, there were 214 (97.7%) complete and single copy, 2 (0.9%) duplicated, 1 (0.5%) fragmented, and 2 (0.9%) missing.For species identification, average nucleotide identity (ANI) was calculated between all complete Sphingomonas genomes and Sph5 with PYANI [v0.2.11 (10)] and MUMMER [v4.0.0 (11)].ANI scores between Sph5 and S. paucimobilis ranged from 99.77%-99.95%,while ANI between Sph5 and S. sanguinis was 87.74%.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Sphingomonadaceae are common membrane colonizers and biofilm formers.As part of our studies on long-term genetic changes in drinking water biofilm species, we report the draft genome sequence of Sphingomonas strain Sph5, isolated from a tap water filtration membrane.The isolate was determined as Sphingomonas paucimobilis through whole genome sequencing and de novo assembly.KEYWORDS draft genome, WGS, water, Sphingomonas W idely used for drinking water, membrane filtration systems face biofouling due to microbe accumulation and biofilm formation.Studies reveal Sphingomonadaceae as common initial colonizers, persisting dominantly during biofilm growth (1-4).Here, we report the genome sequence of a prevalent isolate.Sphingomonas spp.Sph5 was isolated from a biofilm on a Nadir MP005 microfiltra tion membrane used for drinking water biofouling studies (1, 5).Sph5 was previously reported to be phylogenetically closest to Sphingomonas sanguinis strains BAB-7166 (99%) and NBRC 13937 (99%) based on 16S rRNA sequencing and cultivation methods (1).However, the whole genome sequence (WGS) was not reported.WGS analysis is critical to uncover strainspecific traits associated with membrane biofouling.Here, we report the WGS of Sphingomonas spp.Sph5 using Illumina short-read sequencing and de novo assembly methods.We received the Sphingomonas spp.Sph5 water isolate from Wetsus, Netherlands.Single isolated colonies were obtained on Reasoner's 2A agar (R2A, Teknova R0005; Difco 214530) and cultured in R2A broth at room temperature.Genomic DNA was extracted using DNeasy UltraClean microbial kit (Qiagen 12224) following the company-provided protocol.Sequencing libraries were generated using Kapa's Hyperplus kit (KK8514) and IDT adapters (#00989130v2).Quality was verified using an Agilent Tapestation and qPCR (NEBNext Library Quant Kit, E7630L) on Thermo Fisher's Quantstudio5.Nineteen million 2 × 150 bp reads were obtained on a NovaSeq (Illumina) at Anschutz Medical Campus Genomics and Microarray Core, with an average Phred score of 33-36 calculated by FastQC [v0.11.9 (6)].Assembly was performed with SPADES, default isolate settings [v3.15.2 (7)].Con tigs were aligned to NCBI databases with DIAMOND [v2.0.13 (8)].Completeness was estimated using BUSCO [v5.2.2 (9)] proteobacteria marker genes.Of the 219 genes, there were 214 (97.7%) complete and single copy, 2 (0.9%) duplicated, 1 (0.5%) fragmented, and 2 (0.9%) missing.For species identification, average nucleotide identity (ANI) was calculated between all complete Sphingomonas genomes and Sph5 with PYANI [v0.2.11 (10)] and MUMMER [v4.0.0 (11)].ANI scores between Sph5 and S. paucimobilis ranged from 99.77%-99.95%,while ANI between Sph5 and S. sanguinis was 87.74%.",
+          "block_index": 0,
+          "section_index": 0,
+          "global_order": 0,
+          "id": "p_1_1"
+        },
+        {
+          "type": "figure",
+          "id": "fig_1",
+          "block_index": 1,
+          "section_index": 0,
+          "global_order": 1
+        },
+        {
+          "type": "figure",
+          "id": "fig_2",
+          "block_index": 2,
+          "section_index": 0,
+          "global_order": 2
+        },
+        {
+          "type": "figure",
+          "id": "fig_3",
+          "block_index": 3,
+          "section_index": 0,
+          "global_order": 3
+        },
+        {
+          "type": "figure",
+          "id": "fig_5",
+          "block_index": 4,
+          "section_index": 0,
+          "global_order": 4
+        },
+        {
+          "type": "figure",
+          "id": "fig_4",
+          "block_index": 5,
+          "section_index": 0,
+          "global_order": 5
+        }
+      ]
+    },
+    {
+      "heading": "(untitled) Annotations were predicted with Prokka",
+      "paragraphs": [
+        "Annotations were predicted with Prokka [v1.14.6 (12)], given S. sanguinis and S. paucimobilis references (Table 1), and used for orthogroup-based phylogeny construc tion with Orthofinder  The WGS phylogeny (Fig. 1) confirms that Sph5 is closest to S. paucimobilis while related to S. sanguinis.As a result, S. paucimobilis reference genomes were used for RagTag [v2.1.0(16)] scaffolding of Sph5 contigs.ASM1602843v1 was the best scaffold (93.6% total length in three longest contigs of resulting assembly).Realignment of raw reads to ASM1602843v1scaffolded Sph5 assembly with BWA [v0.7.17 (17)], SamTools [v1.12 (18)], and Picard [v2.25.0 (19)], evaluated by Mosdepth [v0.3.3 (20)], supports this (99.48%reads aligned, 1,089× coverage).",
+        "Re-annotation with Prokka predicts 4,321 CDS, 3 rRNAs, 54 tRNAs, 1 tmRNA, and 1 repeat region.Of the CDS, 3,342 could be functionally annotated."
+      ],
+      "text": "Annotations were predicted with Prokka [v1.14.6 (12)], given S. sanguinis and S. paucimobilis references (Table 1), and used for orthogroup-based phylogeny construc tion with Orthofinder  The WGS phylogeny (Fig. 1) confirms that Sph5 is closest to S. paucimobilis while related to S. sanguinis.As a result, S. paucimobilis reference genomes were used for RagTag [v2.1.0(16)] scaffolding of Sph5 contigs.ASM1602843v1 was the best scaffold (93.6% total length in three longest contigs of resulting assembly).Realignment of raw reads to ASM1602843v1scaffolded Sph5 assembly with BWA [v0.7.17 (17)], SamTools [v1.12 (18)], and Picard [v2.25.0 (19)], evaluated by Mosdepth [v0.3.3 (20)], supports this (99.48%reads aligned, 1,089× coverage).\nRe-annotation with Prokka predicts 4,321 CDS, 3 rRNAs, 54 tRNAs, 1 tmRNA, and 1 repeat region.Of the CDS, 3,342 could be functionally annotated.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Annotations were predicted with Prokka [v1.14.6 (12)], given S. sanguinis and S. paucimobilis references (Table 1), and used for orthogroup-based phylogeny construc tion with Orthofinder  The WGS phylogeny (Fig. 1) confirms that Sph5 is closest to S. paucimobilis while related to S. sanguinis.As a result, S. paucimobilis reference genomes were used for RagTag [v2.1.0(16)] scaffolding of Sph5 contigs.ASM1602843v1 was the best scaffold (93.6% total length in three longest contigs of resulting assembly).Realignment of raw reads to ASM1602843v1scaffolded Sph5 assembly with BWA [v0.7.17 (17)], SamTools [v1.12 (18)], and Picard [v2.25.0 (19)], evaluated by Mosdepth [v0.3.3 (20)], supports this (99.48%reads aligned, 1,089× coverage).",
+          "block_index": 0,
+          "section_index": 1,
+          "global_order": 6,
+          "id": "p_2_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "Re-annotation with Prokka predicts 4,321 CDS, 3 rRNAs, 54 tRNAs, 1 tmRNA, and 1 repeat region.Of the CDS, 3,342 could be functionally annotated.",
+          "block_index": 1,
+          "section_index": 1,
+          "global_order": 7,
+          "id": "p_2_2"
+        }
+      ]
+    }
+  ],
+  "figures": {
+    "fig_1": {
+      "label": "",
+      "caption": "[v2.5.4 (13)], MAFFT [v7.490 (14)], and FastTree [v.2.1.10(15)]",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "2,123.95,596.93,221.80,10.82",
+      "coords_groups": [
+        {
+          "page": 2,
+          "x": 123.95,
+          "y": 596.93,
+          "w": 221.8,
+          "h": 10.82,
+          "x2": 345.75,
+          "y2": 607.75
+        }
+      ],
+      "bbox": {
+        "page": 2,
+        "x1": 123.95,
+        "y1": 596.93,
+        "x2": 345.75,
+        "y2": 607.75,
+        "width": 221.8,
+        "height": 10.82000000000005
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 1,
+      "block_global_order": 1,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC10793275/fig_1.jpeg"
+    },
+    "fig_2": {
+      "label": "",
+      "caption": ".",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "2,345.75,596.93,3.13,10.82",
+      "coords_groups": [
+        {
+          "page": 2,
+          "x": 345.75,
+          "y": 596.93,
+          "w": 3.13,
+          "h": 10.82,
+          "x2": 348.88,
+          "y2": 607.75
+        }
+      ],
+      "bbox": {
+        "page": 2,
+        "x1": 345.75,
+        "y1": 596.93,
+        "x2": 348.88,
+        "y2": 607.75,
+        "width": 3.1299999999999955,
+        "height": 10.82000000000005
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 2,
+      "block_global_order": 2,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC10793275/fig_2.jpeg"
+    },
+    "fig_3": {
+      "label": "FIG 1",
+      "caption": "FIG 1 Orthofindergenerated rooted tree of 50 complete Sphingomonas genomes with the Sph5 strain.Branch lengths represent evolutionary distance.We used the multiple-sequence alignment option with MAFFT and used FastTree to infer the trees.The mathematical parameters used are built in to the OrthoFinder tool, and we did not alter them from the default.",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "2,42.00,519.83,500.89,9.17;2,42.00,531.98,501.00,9.01;2,42.00,543.98,134.65,9.01;2,67.05,72.00,450.90,435.25",
+      "coords_groups": [
+        {
+          "page": 2,
+          "x": 42.0,
+          "y": 519.83,
+          "w": 500.89,
+          "h": 9.17,
+          "x2": 542.89,
+          "y2": 529.0
+        },
+        {
+          "page": 2,
+          "x": 42.0,
+          "y": 531.98,
+          "w": 501.0,
+          "h": 9.01,
+          "x2": 543.0,
+          "y2": 540.99
+        },
+        {
+          "page": 2,
+          "x": 42.0,
+          "y": 543.98,
+          "w": 134.65,
+          "h": 9.01,
+          "x2": 176.65,
+          "y2": 552.99
+        },
+        {
+          "page": 2,
+          "x": 67.05,
+          "y": 72.0,
+          "w": 450.9,
+          "h": 435.25,
+          "x2": 517.9499999999999,
+          "y2": 507.25
+        }
+      ],
+      "bbox": {
+        "page": 2,
+        "x1": 42.0,
+        "y1": 72.0,
+        "x2": 543.0,
+        "y2": 552.99,
+        "width": 501.0,
+        "height": 480.99
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 3,
+      "block_global_order": 3,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC10793275/fig_3.jpeg"
+    },
+    "fig_5": {
+      "label": "",
+      "caption": "Data curation, Formal analysis, Investigation, Writing -original draft, Writing -review and editing | Kristina Buss, Data curation, Formal analysis, Software, Writing -original draft, Writing -review and editing | Joy M. Blain, Methodology, Resources, Writing -original draft, Writing -review and editing | Gautam Sai Nakka, Data curation, Writing -original draft | Mina Hong, Data curation, Writing -review and editing | Robert JC McLean, Funding acquisition, Investigation, Resources, Writing -original draft, Writing -review and editing | Caroline M. Plugge, Resources, Writing -review and editing | Jiseon Yang, Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Project administration, Resources, Supervision, Writingoriginal draft, Writing -review and editing",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "4,42.00,71.49,100.59,11.01;4,42.00,89.68,333.00,10.82;4,42.00,101.68,333.00,10.82;4,42.00,113.68,333.00,10.82;4,42.00,125.68,333.00,10.82;4,42.00,137.68,333.00,10.82;4,42.00,149.68,333.00,10.82;4,42.00,161.68,333.00,10.82;4,42.00,173.68,333.00,10.82;4,42.00,185.68,333.00,10.82;4,42.00,197.68,158.17,10.82",
+      "coords_groups": [
+        {
+          "page": 4,
+          "x": 42.0,
+          "y": 71.49,
+          "w": 100.59,
+          "h": 11.01,
+          "x2": 142.59,
+          "y2": 82.5
+        },
+        {
+          "page": 4,
+          "x": 42.0,
+          "y": 89.68,
+          "w": 333.0,
+          "h": 10.82,
+          "x2": 375.0,
+          "y2": 100.5
+        },
+        {
+          "page": 4,
+          "x": 42.0,
+          "y": 101.68,
+          "w": 333.0,
+          "h": 10.82,
+          "x2": 375.0,
+          "y2": 112.5
+        },
+        {
+          "page": 4,
+          "x": 42.0,
+          "y": 113.68,
+          "w": 333.0,
+          "h": 10.82,
+          "x2": 375.0,
+          "y2": 124.5
+        },
+        {
+          "page": 4,
+          "x": 42.0,
+          "y": 125.68,
+          "w": 333.0,
+          "h": 10.82,
+          "x2": 375.0,
+          "y2": 136.5
+        },
+        {
+          "page": 4,
+          "x": 42.0,
+          "y": 137.68,
+          "w": 333.0,
+          "h": 10.82,
+          "x2": 375.0,
+          "y2": 148.5
+        },
+        {
+          "page": 4,
+          "x": 42.0,
+          "y": 149.68,
+          "w": 333.0,
+          "h": 10.82,
+          "x2": 375.0,
+          "y2": 160.5
+        },
+        {
+          "page": 4,
+          "x": 42.0,
+          "y": 161.68,
+          "w": 333.0,
+          "h": 10.82,
+          "x2": 375.0,
+          "y2": 172.5
+        },
+        {
+          "page": 4,
+          "x": 42.0,
+          "y": 173.68,
+          "w": 333.0,
+          "h": 10.82,
+          "x2": 375.0,
+          "y2": 184.5
+        },
+        {
+          "page": 4,
+          "x": 42.0,
+          "y": 185.68,
+          "w": 333.0,
+          "h": 10.82,
+          "x2": 375.0,
+          "y2": 196.5
+        },
+        {
+          "page": 4,
+          "x": 42.0,
+          "y": 197.68,
+          "w": 158.17,
+          "h": 10.82,
+          "x2": 200.17,
+          "y2": 208.5
+        }
+      ],
+      "bbox": {
+        "page": 4,
+        "x1": 42.0,
+        "y1": 71.49,
+        "x2": 375.0,
+        "y2": 208.5,
+        "width": 333.0,
+        "height": 137.01
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 4,
+      "block_global_order": 4,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC10793275/fig_5.crop.png",
+      "image_cropped": true,
+      "image_zoom": 2.0
+    }
+  },
+  "tables": {
+    "fig_4": {
+      "label": "TABLE 1",
+      "caption": "Summary of the draft whole genome sequences of Sphingomonas paucimobilis Sph5 from the tap water filtration membrane",
+      "type": "table",
+      "table": {
+        "rows": [
+          [
+            "Variable",
+            "Data"
+          ],
+          [
+            "Genus and species",
+            "Sphingomonas paucimobilis"
+          ],
+          [
+            "Strain",
+            "Sph5"
+          ],
+          [
+            "NCBI accession no.",
+            "JAMRJL000000000"
+          ],
+          [
+            "Country",
+            "The Netherlands"
+          ],
+          [
+            "Source",
+            "Biofilm on Nadir MP005 microfiltration membrane"
+          ],
+          [
+            "Feed water source",
+            "Tap water from the city of Leeuwarden"
+          ],
+          [
+            "Genome size (bp)",
+            "4680620"
+          ],
+          [
+            "N 50 (bp)",
+            "4016723"
+          ],
+          [
+            "Scaffold reference",
+            "ASM1602843v1"
+          ],
+          [
+            "Scaffolds ≥50,000 bp",
+            "29, 4"
+          ],
+          [
+            "Mean coverage",
+            "1,089×"
+          ],
+          [
+            "G + C content (%)",
+            "65.30"
+          ],
+          [
+            "No. of annotated CDS",
+            "3,342"
+          ],
+          [
+            "No. of raw reads",
+            "19,032,602"
+          ],
+          [
+            "No. of reads used for assembly",
+            "19,032,602"
+          ],
+          [
+            "No. of coding sequences",
+            "4,321"
+          ]
+        ],
+        "row_count": 17,
+        "col_count": 2
+      },
+      "coords_raw": "3,42.00,71.08,333.00,228.32",
+      "coords_groups": [
+        {
+          "page": 3,
+          "x": 42.0,
+          "y": 71.08,
+          "w": 333.0,
+          "h": 228.32,
+          "x2": 375.0,
+          "y2": 299.4
+        }
+      ],
+      "bbox": {
+        "page": 3,
+        "x1": 42.0,
+        "y1": 71.08,
+        "x2": 375.0,
+        "y2": 299.4,
+        "width": 333.0,
+        "height": 228.32
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 5,
+      "block_global_order": 5,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC10793275/fig_4.crop.png",
+      "image_cropped": true,
+      "image_zoom": 2.0
+    }
+  },
+  "equations": {},
+  "references": [
+    {
+      "title": "Isolation and characterization of Sphingomonadaceae from fouled membranes",
+      "authors": [
+        "HJDe Vries",
+        "FBeyer",
+        "MJarzembowska",
+        "JLipińska",
+        "PVan Den Brink",
+        "AZwijnenburg",
+        "Pha Timmers",
+        "Ajm Stams",
+        "CMPlugge"
+      ],
+      "date": "2019",
+      "raw": "Isolation and characterization of Sphingomonadaceae from fouled membranes\n\t\t\n\t\t\tHJDe Vries\n\t\t\n\t\t\n\t\t\tFBeyer\n\t\t\n\t\t\n\t\t\tMJarzembowska\n\t\t\n\t\t\n\t\t\tJLipińska\n\t\t\n\t\t\n\t\t\tPVan Den Brink\n\t\t\n\t\t\n\t\t\tAZwijnenburg\n\t\t\n\t\t\n\t\t\tPhaTimmers\n\t\t\n\t\t\n\t\t\tAjmStams\n\t\t\n\t\t\n\t\t\tCMPlugge\n\t\t\n\t\t10.1039/C5AY02550H\n\t\t\n\t\n\t\n\t\tNPJ Biofilms Microbiomes\n\t\t\n\t\t\t5\n\t\t\t6\n\t\t\t2019\n\t\t\n\t\n\tde Vries HJ, Beyer F, Jarzembowska M, Lipińska J, van den Brink P, Zwijnenburg A, Timmers PHA, Stams AJM, Plugge CM. 2019. Isolation and characterization of Sphingomonadaceae from fouled membranes. NPJ Biofilms Microbiomes 5:6. https://doi.org/10.1038/s41522-018-0074- 1"
+    },
+    {
+      "title": "Characterization of Sphingomonas isolates from Finnish and Swedish drinking water distribution systems",
+      "authors": [
+        "RKoskinen",
+        "Ali-Vehmas",
+        "TKämpfer",
+        "PLaurikkala",
+        "MTsitko",
+        "IKostyal",
+        "EAtroshi",
+        "FSalkinoja-Salonen",
+        "M"
+      ],
+      "date": "2000",
+      "raw": "Characterization of Sphingomonas isolates from Finnish and Swedish drinking water distribution systems\n\t\t\n\t\t\tRKoskinen\n\t\t\n\t\t\n\t\t\tAli-Vehmas\n\t\t\n\t\t\n\t\t\tTKämpfer\n\t\t\n\t\t\n\t\t\tPLaurikkala\n\t\t\n\t\t\n\t\t\tMTsitko\n\t\t\n\t\t\n\t\t\tIKostyal\n\t\t\n\t\t\n\t\t\tEAtroshi\n\t\t\n\t\t\n\t\t\tFSalkinoja-Salonen\n\t\t\n\t\t\n\t\t\tM\n\t\t\n\t\t10.1039/C5AY02550H\n\t\t\n\t\n\t\n\t\tJ Appl Microbiol\n\t\t\n\t\t\t89\n\t\t\t\n\t\t\t2000\n\t\t\n\t\n\tKoskinen R, Ali-Vehmas T, Kämpfer P, Laurikkala M, Tsitko I, Kostyal E, Atroshi F, Salkinoja-Salonen M. 2000. Characterization of Sphingomonas isolates from Finnish and Swedish drinking water distribution systems. J Appl Microbiol 89:687-696. https://doi.org/10.1046/j.1365-2672.2000. 01167.x"
+    },
+    {
+      "title": "Biofilm formation on reverse osmosis membranes is initiated and dominated by Sphingomonas spp",
+      "authors": [
+        "LABereschenko",
+        "Ajm Stams",
+        "Gjw Euverink",
+        "Mcm Van Loosdrecht"
+      ],
+      "date": "2010",
+      "raw": "Biofilm formation on reverse osmosis membranes is initiated and dominated by Sphingomonas spp\n\t\t\n\t\t\tLABereschenko\n\t\t\n\t\t\n\t\t\tAjmStams\n\t\t\n\t\t\n\t\t\tGjwEuverink\n\t\t\n\t\t\n\t\t\tMcmVan Loosdrecht\n\t\t\n\t\t10.1039/C5AY02550H\n\t\t\n\t\n\t\n\t\tAppl Environ Microbiol\n\t\t\n\t\t\t76\n\t\t\t\n\t\t\t2010\n\t\t\n\t\n\tBereschenko LA, Stams AJM, Euverink GJW, van Loosdrecht MCM. 2010. Biofilm formation on reverse osmosis membranes is initiated and dominated by Sphingomonas spp. Appl Environ Microbiol 76:2623-2632. https://doi.org/10.1128/AEM.01998-09"
+    },
+    {
+      "title": "Chlorine inactivation of Sphingomonas cells attached to goethite particles in drinking water",
+      "authors": [
+        "VGauthier",
+        "SRedercher",
+        "JCBlock"
+      ],
+      "date": "1999. 1999",
+      "raw": "Chlorine inactivation of Sphingomonas cells attached to goethite particles in drinking water\n\t\t\n\t\t\tVGauthier\n\t\t\n\t\t\n\t\t\tSRedercher\n\t\t\n\t\t\n\t\t\tJCBlock\n\t\t\n\t\t10.1039/C5AY02550H\n\t\t\n\t\n\t\n\t\tAppl Environ Microbiol\n\t\t\n\t\t\t65\n\t\t\t\n\t\t\t1999. 1999\n\t\t\n\t\n\tGauthier V, Redercher S, Block JC. 1999. Chlorine inactivation of Sphingomonas cells attached to goethite particles in drinking water. Appl Environ Microbiol 65:355-357. https://doi.org/10.1128/AEM.65.1. 355-357.1999"
+    },
+    {
+      "title": "In-situ Biofilm characterization in membrane systems using optical coherence tomography: formation, structure, detachment and impact of flux change",
+      "authors": [
+        "CDreszer",
+        "ADWexler",
+        "SDrusová",
+        "TOverdijk",
+        "AZwijnenburg",
+        "H-CFlemming",
+        "JCKruithof",
+        "JSVrouwenvelder"
+      ],
+      "date": "2014",
+      "raw": "In-situ Biofilm characterization in membrane systems using optical coherence tomography: formation, structure, detachment and impact of flux change\n\t\t\n\t\t\tCDreszer\n\t\t\n\t\t\n\t\t\tADWexler\n\t\t\n\t\t\n\t\t\tSDrusová\n\t\t\n\t\t\n\t\t\tTOverdijk\n\t\t\n\t\t\n\t\t\tAZwijnenburg\n\t\t\n\t\t\n\t\t\tH-CFlemming\n\t\t\n\t\t\n\t\t\tJCKruithof\n\t\t\n\t\t\n\t\t\tJSVrouwenvelder\n\t\t\n\t\t10.1039/C5AY02550H\n\t\t\n\t\n\t\n\t\tWater Res\n\t\t\n\t\t\t67\n\t\t\t\n\t\t\t2014\n\t\t\n\t\n\tDreszer C, Wexler AD, Drusová S, Overdijk T, Zwijnenburg A, Flemming H-C, Kruithof JC, Vrouwenvelder JS. 2014. In-situ Biofilm characterization in membrane systems using optical coherence tomography: formation, structure, detachment and impact of flux change. Water Res 67:243-254. https://doi.org/10.1016/j.watres.2014.09.006"
+    },
+    {
+      "title": "FastQC: a quality control tool for high throughput sequence data",
+      "authors": [
+        "SAndrews"
+      ],
+      "date": "2010",
+      "raw": "FastQC: a quality control tool for high throughput sequence data\n\t\t\n\t\t\tSAndrews\n\t\t\n\t\t10.1039/C5AY02550H\n\t\t\n\t\t\t2010\n\t\t\n\t\n\tAndrews S. 2010. FastQC: a quality control tool for high throughput sequence data"
+    },
+    {
+      "title": "SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing",
+      "authors": [
+        "ABankevich",
+        "SNurk",
+        "DAntipov",
+        "AAGurevich",
+        "MDvorkin",
+        "ASKulikov",
+        "VMLesin",
+        "SINikolenko",
+        "SPham",
+        "ADPrjibelski",
+        "AVPyshkin",
+        "AVSirotkin",
+        "NVyahhi",
+        "GTesler",
+        "MAAlekseyev",
+        "PAPevzner"
+      ],
+      "date": "2012",
+      "raw": "SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing\n\t\t\n\t\t\tABankevich\n\t\t\n\t\t\n\t\t\tSNurk\n\t\t\n\t\t\n\t\t\tDAntipov\n\t\t\n\t\t\n\t\t\tAAGurevich\n\t\t\n\t\t\n\t\t\tMDvorkin\n\t\t\n\t\t\n\t\t\tASKulikov\n\t\t\n\t\t\n\t\t\tVMLesin\n\t\t\n\t\t\n\t\t\tSINikolenko\n\t\t\n\t\t\n\t\t\tSPham\n\t\t\n\t\t\n\t\t\tADPrjibelski\n\t\t\n\t\t\n\t\t\tAVPyshkin\n\t\t\n\t\t\n\t\t\tAVSirotkin\n\t\t\n\t\t\n\t\t\tNVyahhi\n\t\t\n\t\t\n\t\t\tGTesler\n\t\t\n\t\t\n\t\t\tMAAlekseyev\n\t\t\n\t\t\n\t\t\tPAPevzner\n\t\t\n\t\t10.1039/C5AY02550H\n\t\t\n\t\n\t\n\t\tJ Comput Biol\n\t\t\n\t\t\t19\n\t\t\t\n\t\t\t2012\n\t\t\n\t\n\tBankevich A, Nurk S, Antipov D, Gurevich AA, Dvorkin M, Kulikov AS, Lesin VM, Nikolenko SI, Pham S, Prjibelski AD, Pyshkin AV, Sirotkin AV, Vyahhi N, Tesler G, Alekseyev MA, Pevzner PA. 2012. SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing. J Comput Biol 19:455-477. https://doi.org/10.1089/cmb. 2012.0021"
+    },
+    {
+      "title": "Fast and sensitive protein alignment using DIAMOND",
+      "authors": [
+        "BBuchfink",
+        "CXie",
+        "DHHuson"
+      ],
+      "date": "2015",
+      "raw": "Fast and sensitive protein alignment using DIAMOND\n\t\t\n\t\t\tBBuchfink\n\t\t\n\t\t\n\t\t\tCXie\n\t\t\n\t\t\n\t\t\tDHHuson\n\t\t\n\t\t10.1039/C5AY02550H\n\t\t\n\t\n\t\n\t\tNat Methods\n\t\t\n\t\t\t12\n\t\t\t\n\t\t\t2015\n\t\t\n\t\n\tBuchfink B, Xie C, Huson DH. 2015. Fast and sensitive protein alignment using DIAMOND. Nat Methods 12:59-60. https://doi.org/10.1038/nmeth. 3176"
+    },
+    {
+      "title": "BUSCO: assessing genome assembly and annotation complete ness with single-copy orthologs",
+      "authors": [
+        "FASimão",
+        "RMWaterhouse",
+        "PIoannidis",
+        "EVKriventseva",
+        "EMZdobnov"
+      ],
+      "date": "2015",
+      "raw": "BUSCO: assessing genome assembly and annotation complete ness with single-copy orthologs\n\t\t\n\t\t\tFASimão\n\t\t\n\t\t\n\t\t\tRMWaterhouse\n\t\t\n\t\t\n\t\t\tPIoannidis\n\t\t\n\t\t\n\t\t\tEVKriventseva\n\t\t\n\t\t\n\t\t\tEMZdobnov\n\t\t\n\t\t10.1039/C5AY02550H\n\t\t\n\t\n\t\n\t\tBioinformatics\n\t\t\n\t\t\t31\n\t\t\t\n\t\t\t2015\n\t\t\n\t\n\tSimão FA, Waterhouse RM, Ioannidis P, Kriventseva EV, Zdobnov EM. 2015. BUSCO: assessing genome assembly and annotation complete ness with single-copy orthologs. Bioinformatics 31:3210-3212. https:// doi.org/10.1093/bioinformatics/btv351"
+    },
+    {
+      "title": "Genomics and taxonomy in diagnostics for food security: soft-rotting enterobacterial plant pathogens",
+      "authors": [
+        "LPritchard",
+        "RHGlover",
+        "SHumphris",
+        "JGElphinstone",
+        "IKToth"
+      ],
+      "date": "2016",
+      "raw": "Genomics and taxonomy in diagnostics for food security: soft-rotting enterobacterial plant pathogens\n\t\t\n\t\t\tLPritchard\n\t\t\n\t\t\n\t\t\tRHGlover\n\t\t\n\t\t\n\t\t\tSHumphris\n\t\t\n\t\t\n\t\t\tJGElphinstone\n\t\t\n\t\t\n\t\t\tIKToth\n\t\t\n\t\t10.1039/C5AY02550H\n\t\t\n\t\n\t\n\t\tAnal Methods\n\t\t\n\t\t\t8\n\t\t\t\n\t\t\t2016\n\t\t\n\t\n\tPritchard L, Glover RH, Humphris S, Elphinstone JG, Toth IK. 2016. Genomics and taxonomy in diagnostics for food security: soft-rotting enterobacterial plant pathogens. Anal Methods 8:12-24. https://doi.org/ 10.1039/C5AY02550H"
+    },
+    {
+      "title": "MUMmer4: a fast and versatile genome alignment system",
+      "authors": [
+        "GMarçais",
+        "ALDelcher",
+        "AMPhillippy",
+        "RCoston",
+        "SLSalzberg",
+        "AZimin"
+      ],
+      "date": "2018",
+      "raw": "MUMmer4: a fast and versatile genome alignment system\n\t\t\n\t\t\tGMarçais\n\t\t\n\t\t\n\t\t\tALDelcher\n\t\t\n\t\t\n\t\t\tAMPhillippy\n\t\t\n\t\t\n\t\t\tRCoston\n\t\t\n\t\t\n\t\t\tSLSalzberg\n\t\t\n\t\t\n\t\t\tAZimin\n\t\t\n\t\t10.1093/bioinformatics/btu153\n\t\t\n\t\n\t\n\t\tPLoS Comput Biol\n\t\t\n\t\t\t14\n\t\t\t1005944\n\t\t\t2018\n\t\t\n\t\n\tMarçais G, Delcher AL, Phillippy AM, Coston R, Salzberg SL, Zimin A. 2018. MUMmer4: a fast and versatile genome alignment system. PLoS Comput Biol 14:e1005944. https://doi.org/10.1371/journal.pcbi.1005944"
+    },
+    {
+      "title": "Prokka: rapid prokaryotic genome annotation",
+      "authors": [
+        "TSeemann"
+      ],
+      "date": "2014",
+      "raw": "Prokka: rapid prokaryotic genome annotation\n\t\t\n\t\t\tTSeemann\n\t\t\n\t\t10.1093/bioinformatics/btu153\n\t\t\n\t\n\t\n\t\tBioinformatics\n\t\t\n\t\t\t30\n\t\t\t\n\t\t\t2014\n\t\t\n\t\n\tSeemann T. 2014. Prokka: rapid prokaryotic genome annotation. Bioinformatics 30:2068-2069. https://doi.org/10.1093/bioinformatics/ btu153"
+    },
+    {
+      "title": "Orthofinder: phylogenetic orthology inference for comparative genomics",
+      "authors": [
+        "DMEmms",
+        "SKelly"
+      ],
+      "date": "2019",
+      "raw": "Orthofinder: phylogenetic orthology inference for comparative genomics\n\t\t\n\t\t\tDMEmms\n\t\t\n\t\t\n\t\t\tSKelly\n\t\t\n\t\t10.1186/s13059-019-1832-y\n\t\t\n\t\n\t\n\t\tGenome Biol\n\t\t\n\t\t\t20\n\t\t\t238\n\t\t\t2019\n\t\t\n\t\n\tEmms DM, Kelly S. 2019. Orthofinder: phylogenetic orthology inference for comparative genomics. Genome Biol 20:238. https://doi.org/10.1186/ s13059-019-1832-y"
+    },
+    {
+      "title": "MAFFT multiple sequence alignment software version 7: improvements in performance and usability",
+      "authors": [
+        "KKatoh",
+        "DMStandley"
+      ],
+      "date": "2013",
+      "raw": "MAFFT multiple sequence alignment software version 7: improvements in performance and usability\n\t\t\n\t\t\tKKatoh\n\t\t\n\t\t\n\t\t\tDMStandley\n\t\t\n\t\t10.1186/s13059-019-1829-6\n\t\t\n\t\n\t\n\t\tMol Biol Evol\n\t\t\n\t\t\t30\n\t\t\t\n\t\t\t2013\n\t\t\n\t\n\tKatoh K, Standley DM. 2013. MAFFT multiple sequence alignment software version 7: improvements in performance and usability. Mol Biol Evol 30:772-780. https://doi.org/10.1093/molbev/mst010"
+    },
+    {
+      "title": "FastTree: computing large minimum evolution trees with profiles instead of a distance matrix",
+      "authors": [
+        "MNPrice",
+        "PSDehal",
+        "APArkin"
+      ],
+      "date": "2009",
+      "raw": "FastTree: computing large minimum evolution trees with profiles instead of a distance matrix\n\t\t\n\t\t\tMNPrice\n\t\t\n\t\t\n\t\t\tPSDehal\n\t\t\n\t\t\n\t\t\tAPArkin\n\t\t\n\t\t10.1186/s13059-019-1829-6\n\t\t\n\t\n\t\n\t\tMol Biol Evol\n\t\t\n\t\t\t26\n\t\t\t\n\t\t\t2009\n\t\t\n\t\n\tPrice MN, Dehal PS, Arkin AP. 2009. FastTree: computing large minimum evolution trees with profiles instead of a distance matrix. Mol Biol Evol 26:1641-1650. https://doi.org/10.1093/molbev/msp077"
+    },
+    {
+      "title": "RaGOO: fast and accurate referenceguided scaffolding of draft genomes",
+      "authors": [
+        "MAlonge",
+        "SSoyk",
+        "SRamakrishnan",
+        "XWang",
+        "SGoodwin",
+        "FJSedlazeck",
+        "ZBLippman",
+        "MCSchatz"
+      ],
+      "date": "2019",
+      "raw": "RaGOO: fast and accurate referenceguided scaffolding of draft genomes\n\t\t\n\t\t\tMAlonge\n\t\t\n\t\t\n\t\t\tSSoyk\n\t\t\n\t\t\n\t\t\tSRamakrishnan\n\t\t\n\t\t\n\t\t\tXWang\n\t\t\n\t\t\n\t\t\tSGoodwin\n\t\t\n\t\t\n\t\t\tFJSedlazeck\n\t\t\n\t\t\n\t\t\tZBLippman\n\t\t\n\t\t\n\t\t\tMCSchatz\n\t\t\n\t\t10.1186/s13059-019-1829-6\n\t\t\n\t\n\t\n\t\tGenome Biol\n\t\t\n\t\t\t20\n\t\t\t224\n\t\t\t2019\n\t\t\n\t\n\tAlonge M, Soyk S, Ramakrishnan S, Wang X, Goodwin S, Sedlazeck FJ, Lippman ZB, Schatz MC. 2019. RaGOO: fast and accurate reference- guided scaffolding of draft genomes. Genome Biol 20:224. https://doi. org/10.1186/s13059-019-1829-6"
+    },
+    {
+      "title": "Fast and accurate short read alignment with Burrows-Wheeler transform",
+      "authors": [
+        "HLi",
+        "RDurbin"
+      ],
+      "date": "2009",
+      "raw": "Fast and accurate short read alignment with Burrows-Wheeler transform\n\t\t\n\t\t\tHLi\n\t\t\n\t\t\n\t\t\tRDurbin\n\t\t\n\t\t10.1093/bioinformatics/btp324\n\t\t\n\t\n\t\n\t\tBioinformatics\n\t\t\n\t\t\t25\n\t\t\t\n\t\t\t2009\n\t\t\n\t\n\tLi H, Durbin R. 2009. Fast and accurate short read alignment with Burrows-Wheeler transform. Bioinformatics 25:1754-1760. https://doi. org/10.1093/bioinformatics/btp324"
+    },
+    {
+      "title": "Twelve years of SAMtools and BCFtools. Gigascience 10:giab008",
+      "authors": [
+        "PDanecek",
+        "JKBonfield",
+        "JLiddle",
+        "JMarshall",
+        "VOhan",
+        "MOPollard",
+        "AWhitwham",
+        "TKeane",
+        "SAMccarthy",
+        "RMDavies",
+        "HLi"
+      ],
+      "date": "2021",
+      "raw": "PDanecek\n\t\t\n\t\t\n\t\t\tJKBonfield\n\t\t\n\t\t\n\t\t\tJLiddle\n\t\t\n\t\t\n\t\t\tJMarshall\n\t\t\n\t\t\n\t\t\tVOhan\n\t\t\n\t\t\n\t\t\tMOPollard\n\t\t\n\t\t\n\t\t\tAWhitwham\n\t\t\n\t\t\n\t\t\tTKeane\n\t\t\n\t\t\n\t\t\tSAMccarthy\n\t\t\n\t\t\n\t\t\tRMDavies\n\t\t\n\t\t\n\t\t\tHLi\n\t\t\n\t\t10.1093/gigascience/giab008\n\t\t\n\t\tTwelve years of SAMtools and BCFtools. Gigascience 10:giab008\n\t\t\n\t\t\t2021\n\t\t\n\t\n\tDanecek P, Bonfield JK, Liddle J, Marshall J, Ohan V, Pollard MO, Whitwham A, Keane T, McCarthy SA, Davies RM, Li H. 2021. Twelve years of SAMtools and BCFtools. Gigascience 10:giab008. https://doi.org/10. 1093/gigascience/giab008"
+    },
+    {
+      "title": "Picard Toolkit",
+      "authors": [],
+      "date": "2019",
+      "raw": "10.1039/C5AY02550H\n\t\t\n\t\tPicard Toolkit\n\t\t\n\t\t\t2019\n\t\t\n\t\n\tInternet\n\t\"Picard Toolkit\" [Internet]. 2019. Broad Institute, Github repository. Available from: http://broadinstitute.github.io/picard"
+    },
+    {
+      "title": "Mosdepth: quick coverage calculation for genomes and exomes",
+      "authors": [
+        "BSPedersen",
+        "ARQuinlan"
+      ],
+      "date": "2018",
+      "raw": "Mosdepth: quick coverage calculation for genomes and exomes\n\t\t\n\t\t\tBSPedersen\n\t\t\n\t\t\n\t\t\tARQuinlan\n\t\t\n\t\t10.1093/bioinformatics/btx699\n\t\t\n\t\n\t\n\t\tBioinformatics\n\t\t\n\t\t\t34\n\t\t\t\n\t\t\t2018\n\t\t\n\t\n\tPedersen BS, Quinlan AR. 2018. Mosdepth: quick coverage calculation for genomes and exomes. Bioinformatics 34:867-868. https://doi.org/10. 1093/bioinformatics/btx699"
+    }
+  ],
+  "footnotes": [
+    {
+      "id": "foot_0",
+      "n": null,
+      "text": "January 2024 Volume 13 Issue 1 10.1128/MRA.00345-23 2"
+    },
+    {
+      "id": "foot_1",
+      "n": null,
+      "text": "January 2024 Volume 13 Issue 1"
+    },
+    {
+      "id": "foot_2",
+      "n": null,
+      "text": "January 2024 Volume 13 Issue 1 10.1128/MRA.00345-234"
+    }
+  ],
+  "full_text": "Sphingomonadaceae are common membrane colonizers and biofilm formers.As part of our studies on long-term genetic changes in drinking water biofilm species, we report the draft genome sequence of Sphingomonas strain Sph5, isolated from a tap water filtration membrane.The isolate was determined as Sphingomonas paucimobilis through whole genome sequencing and de novo assembly.KEYWORDS draft genome, WGS, water, Sphingomonas W idely used for drinking water, membrane filtration systems face biofouling due to microbe accumulation and biofilm formation.Studies reveal Sphingomonadaceae as common initial colonizers, persisting dominantly during biofilm growth (1-4).Here, we report the genome sequence of a prevalent isolate.Sphingomonas spp.Sph5 was isolated from a biofilm on a Nadir MP005 microfiltra tion membrane used for drinking water biofouling studies (1, 5).Sph5 was previously reported to be phylogenetically closest to Sphingomonas sanguinis strains BAB-7166 (99%) and NBRC 13937 (99%) based on 16S rRNA sequencing and cultivation methods (1).However, the whole genome sequence (WGS) was not reported.WGS analysis is critical to uncover strainspecific traits associated with membrane biofouling.Here, we report the WGS of Sphingomonas spp.Sph5 using Illumina short-read sequencing and de novo assembly methods.We received the Sphingomonas spp.Sph5 water isolate from Wetsus, Netherlands.Single isolated colonies were obtained on Reasoner's 2A agar (R2A, Teknova R0005; Difco 214530) and cultured in R2A broth at room temperature.Genomic DNA was extracted using DNeasy UltraClean microbial kit (Qiagen 12224) following the company-provided protocol.Sequencing libraries were generated using Kapa's Hyperplus kit (KK8514) and IDT adapters (#00989130v2).Quality was verified using an Agilent Tapestation and qPCR (NEBNext Library Quant Kit, E7630L) on Thermo Fisher's Quantstudio5.Nineteen million 2 × 150 bp reads were obtained on a NovaSeq (Illumina) at Anschutz Medical Campus Genomics and Microarray Core, with an average Phred score of 33-36 calculated by FastQC [v0.11.9 (6)].Assembly was performed with SPADES, default isolate settings [v3.15.2 (7)].Con tigs were aligned to NCBI databases with DIAMOND [v2.0.13 (8)].Completeness was estimated using BUSCO [v5.2.2 (9)] proteobacteria marker genes.Of the 219 genes, there were 214 (97.7%) complete and single copy, 2 (0.9%) duplicated, 1 (0.5%) fragmented, and 2 (0.9%) missing.For species identification, average nucleotide identity (ANI) was calculated between all complete Sphingomonas genomes and Sph5 with PYANI [v0.2.11 (10)] and MUMMER [v4.0.0 (11)].ANI scores between Sph5 and S. paucimobilis ranged from 99.77%-99.95%,while ANI between Sph5 and S. sanguinis was 87.74%.\n\nAnnotations were predicted with Prokka [v1.14.6 (12)], given S. sanguinis and S. paucimobilis references (Table 1), and used for orthogroup-based phylogeny construc tion with Orthofinder  The WGS phylogeny (Fig. 1) confirms that Sph5 is closest to S. paucimobilis while related to S. sanguinis.As a result, S. paucimobilis reference genomes were used for RagTag [v2.1.0(16)] scaffolding of Sph5 contigs.ASM1602843v1 was the best scaffold (93.6% total length in three longest contigs of resulting assembly).Realignment of raw reads to ASM1602843v1scaffolded Sph5 assembly with BWA [v0.7.17 (17)], SamTools [v1.12 (18)], and Picard [v2.25.0 (19)], evaluated by Mosdepth [v0.3.3 (20)], supports this (99.48%reads aligned, 1,089× coverage).\nRe-annotation with Prokka predicts 4,321 CDS, 3 rRNAs, 54 tRNAs, 1 tmRNA, and 1 repeat region.Of the CDS, 3,342 could be functionally annotated.",
+  "stats": {
+    "section_count": 2,
+    "figure_count": 4,
+    "figure_count_original": 4,
+    "figure_count_synthetic": 0,
+    "table_count": 1,
+    "equation_count": 0,
+    "reference_count": 20,
+    "footnote_count": 3,
+    "extracted_at": "2025-10-05T10:35:49.051493Z",
+    "image_extraction": {
+      "extracted_images": 3,
+      "figure_images_mapped": 4,
+      "table_images_mapped": 1,
+      "cropped_images": 2,
+      "figures_total_all": 5,
+      "figures_total_pure": 4,
+      "figures_total_original": 4,
+      "figures_total_synthetic": 0,
+      "tables_total": 1,
+      "figures_with_image_pure": 4,
+      "tables_with_image": 1,
+      "figures_missing_image_pure": 0,
+      "tables_missing_image": 0
+    },
+    "figures_total_all": 5,
+    "figures_total_pure": 4,
+    "figures_total_original": 4,
+    "figures_total_synthetic": 0,
+    "tables_total": 1,
+    "figures_with_image_pure": 4,
+    "tables_with_image": 1,
+    "validation": {
+      "figure_ids_total": 4,
+      "equation_ids_total": 0,
+      "figure_block_ids": 5,
+      "equation_block_ids": 0,
+      "missing_figure_block_refs": [],
+      "missing_equation_block_refs": [],
+      "global_order_contiguous": true,
+      "block_count": 8,
+      "equations_missing_loc": [],
+      "equations_missing_bbox_expected": []
+    }
+  }
+}

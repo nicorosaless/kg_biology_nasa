@@ -1,0 +1,208 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "a) Intracranial Pressure",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 2802,
+      "label": "standing",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Intracranial Pressure",
+        "sentence_id": 930,
+        "char_start": 152837,
+        "char_end": 152845,
+        "anchor": "PMC4385880_152837_152845",
+        "page": 71,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2803,
+      "label": "standing",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Intracranial Pressure",
+        "sentence_id": 930,
+        "char_start": 152948,
+        "char_end": 152956,
+        "anchor": "PMC4385880_152948_152956",
+        "page": 71,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2804,
+      "label": "Hirvonen",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Intracranial Pressure",
+        "sentence_id": 930,
+        "char_start": 152875,
+        "char_end": 152883,
+        "anchor": "PMC4385880_152875_152883",
+        "page": 71,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2805,
+      "label": "Kauko",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Intracranial Pressure",
+        "sentence_id": 930,
+        "char_start": 152888,
+        "char_end": 152893,
+        "anchor": "PMC4385880_152888_152893",
+        "page": 71,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2807,
+      "label": "CVP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Intracranial Pressure",
+        "sentence_id": 930,
+        "char_start": 152922,
+        "char_end": 152925,
+        "anchor": "PMC4385880_152922_152925",
+        "page": 71,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2808,
+      "label": "Gisolf",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Intracranial Pressure",
+        "sentence_id": 930,
+        "char_start": 152996,
+        "char_end": 153002,
+        "anchor": "PMC4385880_152996_153002",
+        "page": 71,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 2647,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2802,
+      "target": 2803
+    },
+    {
+      "id": 2648,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2802,
+      "target": 2804
+    },
+    {
+      "id": 2649,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2802,
+      "target": 2805
+    },
+    {
+      "id": 2651,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2802,
+      "target": 2807
+    },
+    {
+      "id": 2652,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2802,
+      "target": 2808
+    },
+    {
+      "id": 2653,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2803,
+      "target": 2804
+    },
+    {
+      "id": 2654,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2803,
+      "target": 2805
+    },
+    {
+      "id": 2656,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2803,
+      "target": 2807
+    },
+    {
+      "id": 2657,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2803,
+      "target": 2808
+    },
+    {
+      "id": 2658,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2804,
+      "target": 2805
+    },
+    {
+      "id": 2660,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2804,
+      "target": 2807
+    },
+    {
+      "id": 2661,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2804,
+      "target": 2808
+    },
+    {
+      "id": 2663,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2805,
+      "target": 2807
+    },
+    {
+      "id": 2664,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2805,
+      "target": 2808
+    },
+    {
+      "id": 2667,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2807,
+      "target": 2808
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 9,
+      "removed_orphans": 0,
+      "largest_component": 6,
+      "removed_components": [
+        5,
+        5,
+        5,
+        4,
+        4,
+        4,
+        4,
+        3
+      ]
+    },
+    "page": 71
+  }
+}

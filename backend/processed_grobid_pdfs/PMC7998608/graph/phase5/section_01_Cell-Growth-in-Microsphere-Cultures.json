@@ -1,0 +1,178 @@
+{
+  "paper_id": "PMC7998608",
+  "section": "Cell Growth in Microsphere Cultures",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 79,
+      "label": "Wetzlar",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell Growth in Microsphere Cultures",
+        "sentence_id": 59,
+        "char_start": 12253,
+        "char_end": 12260,
+        "anchor": "PMC7998608_12253_12260"
+      }
+    },
+    {
+      "id": 80,
+      "label": "Germany",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell Growth in Microsphere Cultures",
+        "sentence_id": 59,
+        "char_start": 12262,
+        "char_end": 12269,
+        "anchor": "PMC7998608_12262_12269"
+      }
+    },
+    {
+      "id": 81,
+      "label": "SEM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell Growth in Microsphere Cultures",
+        "sentence_id": 59,
+        "char_start": 12307,
+        "char_end": 12310,
+        "anchor": "PMC7998608_12307_12310"
+      }
+    },
+    {
+      "id": 82,
+      "label": "Hitachi",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell Growth in Microsphere Cultures",
+        "sentence_id": 59,
+        "char_start": 12321,
+        "char_end": 12328,
+        "anchor": "PMC7998608_12321_12328"
+      }
+    },
+    {
+      "id": 83,
+      "label": "Tokyo",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell Growth in Microsphere Cultures",
+        "sentence_id": 59,
+        "char_start": 12330,
+        "char_end": 12335,
+        "anchor": "PMC7998608_12330_12335"
+      }
+    },
+    {
+      "id": 84,
+      "label": "Japan",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell Growth in Microsphere Cultures",
+        "sentence_id": 59,
+        "char_start": 12337,
+        "char_end": 12342,
+        "anchor": "PMC7998608_12337_12342"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 112,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 79,
+      "target": 80
+    },
+    {
+      "id": 113,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 79,
+      "target": 81
+    },
+    {
+      "id": 114,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 79,
+      "target": 82
+    },
+    {
+      "id": 115,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 79,
+      "target": 83
+    },
+    {
+      "id": 116,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 79,
+      "target": 84
+    },
+    {
+      "id": 117,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 80,
+      "target": 81
+    },
+    {
+      "id": 118,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 80,
+      "target": 82
+    },
+    {
+      "id": 119,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 80,
+      "target": 83
+    },
+    {
+      "id": 120,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 80,
+      "target": 84
+    },
+    {
+      "id": 121,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 81,
+      "target": 82
+    },
+    {
+      "id": 122,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 81,
+      "target": 83
+    },
+    {
+      "id": 123,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 81,
+      "target": 84
+    },
+    {
+      "id": 124,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 82,
+      "target": 83
+    },
+    {
+      "id": 125,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 82,
+      "target": 84
+    },
+    {
+      "id": 126,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 83,
+      "target": 84
+    }
+  ]
+}

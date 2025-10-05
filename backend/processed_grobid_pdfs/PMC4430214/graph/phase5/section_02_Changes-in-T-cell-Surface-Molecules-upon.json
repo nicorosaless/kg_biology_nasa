@@ -1,0 +1,151 @@
+{
+  "paper_id": "PMC4430214",
+  "section": "Changes in T-cell Surface Molecules upon Stimulation",
+  "n_nodes": 5,
+  "n_edges": 9,
+  "nodes": [
+    {
+      "id": 320,
+      "label": "cultured cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Changes in T-cell Surface Molecules upon Stimulation",
+        "sentence_id": 87,
+        "char_start": 16792,
+        "char_end": 16806,
+        "anchor": "PMC4430214_16792_16806",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 323,
+      "label": "ConA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Changes in T-cell Surface Molecules upon Stimulation",
+        "sentence_id": 87,
+        "char_start": 17018,
+        "char_end": 17022,
+        "anchor": "PMC4430214_17018_17022",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 325,
+      "label": "CD4 cell",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Changes in T-cell Surface Molecules upon Stimulation",
+        "sentence_id": 87,
+        "char_start": 17203,
+        "char_end": 17211,
+        "anchor": "PMC4430214_17203_17211",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 326,
+      "label": "ConA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Changes in T-cell Surface Molecules upon Stimulation",
+        "sentence_id": 87,
+        "char_start": 17271,
+        "char_end": 17275,
+        "anchor": "PMC4430214_17271_17275",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 327,
+      "label": "ConA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Changes in T-cell Surface Molecules upon Stimulation",
+        "sentence_id": 87,
+        "char_start": 17018,
+        "char_end": 17022,
+        "anchor": "PMC4430214_17018_17022",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 325,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 323,
+      "target": 320
+    },
+    {
+      "id": 326,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 326,
+      "target": 320
+    },
+    {
+      "id": 327,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 327,
+      "target": 320
+    },
+    {
+      "id": 329,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 323,
+      "target": 325
+    },
+    {
+      "id": 330,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 323,
+      "target": 326
+    },
+    {
+      "id": 331,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 323,
+      "target": 327
+    },
+    {
+      "id": 333,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 326,
+      "target": 325
+    },
+    {
+      "id": 334,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 327,
+      "target": 325
+    },
+    {
+      "id": 336,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 326,
+      "target": 327
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 21,
+      "largest_component": 5,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 5
+  }
+}

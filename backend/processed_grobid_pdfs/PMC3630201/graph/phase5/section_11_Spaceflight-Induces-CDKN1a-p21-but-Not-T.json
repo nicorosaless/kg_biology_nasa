@@ -1,0 +1,100 @@
+{
+  "paper_id": "PMC3630201",
+  "section": "Spaceflight Induces CDKN1a/p21 but Not Trp53/p53 Expression in Bone",
+  "n_nodes": 6,
+  "n_edges": 2,
+  "nodes": [
+    {
+      "id": 66,
+      "label": "Cdkn2b",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight Induces CDKN1a/p21 but Not Trp53/p53 Expression in Bone",
+        "sentence_id": 79,
+        "char_start": 17694,
+        "char_end": 17700,
+        "anchor": "PMC3630201_17694_17700"
+      }
+    },
+    {
+      "id": 67,
+      "label": "Mul1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight Induces CDKN1a/p21 but Not Trp53/p53 Expression in Bone",
+        "sentence_id": 79,
+        "char_start": 17806,
+        "char_end": 17810,
+        "anchor": "PMC3630201_17806_17810"
+      }
+    },
+    {
+      "id": 69,
+      "label": "Cradd",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight Induces CDKN1a/p21 but Not Trp53/p53 Expression in Bone",
+        "sentence_id": 80,
+        "char_start": 17989,
+        "char_end": 17994,
+        "anchor": "PMC3630201_17989_17994"
+      }
+    },
+    {
+      "id": 70,
+      "label": "Fbxo3",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight Induces CDKN1a/p21 but Not Trp53/p53 Expression in Bone",
+        "sentence_id": 80,
+        "char_start": 18003,
+        "char_end": 18008,
+        "anchor": "PMC3630201_18003_18008"
+      }
+    },
+    {
+      "id": 62,
+      "label": "qPCR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight Induces CDKN1a/p21 but Not Trp53/p53 Expression in Bone",
+        "sentence_id": 77,
+        "char_start": 17175,
+        "char_end": 17179,
+        "anchor": "PMC3630201_17175_17179"
+      }
+    },
+    {
+      "id": 64,
+      "label": "Mdm2",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight Induces CDKN1a/p21 but Not Trp53/p53 Expression in Bone",
+        "sentence_id": 78,
+        "char_start": 17413,
+        "char_end": 17417,
+        "anchor": "PMC3630201_17413_17417"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 60,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 66,
+      "target": 67
+    },
+    {
+      "id": 63,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 69,
+      "target": 70
+    }
+  ]
+}

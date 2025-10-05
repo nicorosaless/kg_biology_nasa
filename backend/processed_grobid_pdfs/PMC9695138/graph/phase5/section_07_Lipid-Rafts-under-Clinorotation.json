@@ -1,0 +1,206 @@
+{
+  "paper_id": "PMC9695138",
+  "section": "Lipid Rafts under Clinorotation",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 262,
+      "label": "ABC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lipid Rafts under Clinorotation",
+        "sentence_id": 78,
+        "char_start": 15257,
+        "char_end": 15260,
+        "anchor": "PMC9695138_15257_15260",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 263,
+      "label": "aquapor",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lipid Rafts under Clinorotation",
+        "sentence_id": 78,
+        "char_start": 15275,
+        "char_end": 15282,
+        "anchor": "PMC9695138_15275_15282",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 264,
+      "label": "organic",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lipid Rafts under Clinorotation",
+        "sentence_id": 78,
+        "char_start": 15301,
+        "char_end": 15308,
+        "anchor": "PMC9695138_15301_15308",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 265,
+      "label": "ATP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lipid Rafts under Clinorotation",
+        "sentence_id": 78,
+        "char_start": 15334,
+        "char_end": 15337,
+        "anchor": "PMC9695138_15334_15337",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 267,
+      "label": "ABC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lipid Rafts under Clinorotation",
+        "sentence_id": 78,
+        "char_start": 15257,
+        "char_end": 15260,
+        "anchor": "PMC9695138_15257_15260",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 268,
+      "label": "ATPases",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lipid Rafts under Clinorotation",
+        "sentence_id": 78,
+        "char_start": 15334,
+        "char_end": 15341,
+        "anchor": "PMC9695138_15334_15341",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 240,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 262,
+      "target": 263
+    },
+    {
+      "id": 241,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 262,
+      "target": 264
+    },
+    {
+      "id": 242,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 262,
+      "target": 265
+    },
+    {
+      "id": 243,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 262,
+      "target": 267
+    },
+    {
+      "id": 244,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 262,
+      "target": 268
+    },
+    {
+      "id": 245,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 263,
+      "target": 264
+    },
+    {
+      "id": 246,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 263,
+      "target": 265
+    },
+    {
+      "id": 247,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 263,
+      "target": 267
+    },
+    {
+      "id": 248,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 263,
+      "target": 268
+    },
+    {
+      "id": 249,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 264,
+      "target": 265
+    },
+    {
+      "id": 250,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 264,
+      "target": 267
+    },
+    {
+      "id": 251,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 264,
+      "target": 268
+    },
+    {
+      "id": 252,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 265,
+      "target": 267
+    },
+    {
+      "id": 253,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 265,
+      "target": 268
+    },
+    {
+      "id": 254,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 267,
+      "target": 268
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 7,
+      "removed_orphans": 14,
+      "largest_component": 6,
+      "removed_components": [
+        5,
+        4,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    "page": 3
+  }
+}

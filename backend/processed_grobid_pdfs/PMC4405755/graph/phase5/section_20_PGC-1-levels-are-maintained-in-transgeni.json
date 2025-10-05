@@ -1,0 +1,84 @@
+{
+  "paper_id": "PMC4405755",
+  "section": "PGC-1α levels are maintained in transgenic mice during HU",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 501,
+      "label": "pression",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α levels are maintained in transgenic mice during HU",
+        "sentence_id": 125,
+        "char_start": 22602,
+        "char_end": 22610,
+        "anchor": "PMC4405755_22602_22610",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 502,
+      "label": "mRNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α levels are maintained in transgenic mice during HU",
+        "sentence_id": 125,
+        "char_start": 22651,
+        "char_end": 22655,
+        "anchor": "PMC4405755_22651_22655",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 503,
+      "label": "protein",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α levels are maintained in transgenic mice during HU",
+        "sentence_id": 125,
+        "char_start": 22660,
+        "char_end": 22667,
+        "anchor": "PMC4405755_22660_22667",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 638,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 501,
+      "target": 502
+    },
+    {
+      "id": 639,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 501,
+      "target": 503
+    },
+    {
+      "id": 642,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 502,
+      "target": 503
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 9,
+      "largest_component": 3,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 7
+  }
+}

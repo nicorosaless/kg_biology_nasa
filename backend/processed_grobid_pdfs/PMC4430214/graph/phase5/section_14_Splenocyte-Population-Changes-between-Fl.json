@@ -1,0 +1,203 @@
+{
+  "paper_id": "PMC4430214",
+  "section": "Splenocyte Population Changes between Flight Mice and Ground Controls",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 201,
+      "label": "Native",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Splenocyte Population Changes between Flight Mice and Ground Controls",
+        "sentence_id": 65,
+        "char_start": 12046,
+        "char_end": 12052,
+        "anchor": "PMC4430214_12046_12052",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 203,
+      "label": "spleens",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Splenocyte Population Changes between Flight Mice and Ground Controls",
+        "sentence_id": 65,
+        "char_start": 12080,
+        "char_end": 12087,
+        "anchor": "PMC4430214_12080_12087",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 204,
+      "label": "presence",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Splenocyte Population Changes between Flight Mice and Ground Controls",
+        "sentence_id": 65,
+        "char_start": 12222,
+        "char_end": 12230,
+        "anchor": "PMC4430214_12222_12230",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 207,
+      "label": "controls",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Splenocyte Population Changes between Flight Mice and Ground Controls",
+        "sentence_id": 65,
+        "char_start": 12306,
+        "char_end": 12314,
+        "anchor": "PMC4430214_12306_12314",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 209,
+      "label": "Native",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Splenocyte Population Changes between Flight Mice and Ground Controls",
+        "sentence_id": 65,
+        "char_start": 12046,
+        "char_end": 12052,
+        "anchor": "PMC4430214_12046_12052",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 210,
+      "label": "spleens",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Splenocyte Population Changes between Flight Mice and Ground Controls",
+        "sentence_id": 65,
+        "char_start": 12080,
+        "char_end": 12087,
+        "anchor": "PMC4430214_12080_12087",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 192,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 201,
+      "target": 203
+    },
+    {
+      "id": 193,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 201,
+      "target": 204
+    },
+    {
+      "id": 194,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 201,
+      "target": 207
+    },
+    {
+      "id": 195,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 201,
+      "target": 209
+    },
+    {
+      "id": 196,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 201,
+      "target": 210
+    },
+    {
+      "id": 203,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 203,
+      "target": 204
+    },
+    {
+      "id": 204,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 203,
+      "target": 207
+    },
+    {
+      "id": 205,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 203,
+      "target": 209
+    },
+    {
+      "id": 206,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 203,
+      "target": 210
+    },
+    {
+      "id": 213,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 204,
+      "target": 207
+    },
+    {
+      "id": 214,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 204,
+      "target": 209
+    },
+    {
+      "id": 215,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 204,
+      "target": 210
+    },
+    {
+      "id": 222,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 207,
+      "target": 209
+    },
+    {
+      "id": 223,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 207,
+      "target": 210
+    },
+    {
+      "id": 230,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 209,
+      "target": 210
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 28,
+      "largest_component": 6,
+      "removed_components": [
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 4
+  }
+}

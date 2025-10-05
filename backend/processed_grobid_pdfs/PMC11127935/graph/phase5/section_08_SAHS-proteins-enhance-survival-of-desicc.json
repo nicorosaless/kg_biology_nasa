@@ -1,0 +1,204 @@
+{
+  "paper_id": "PMC11127935",
+  "section": "SAHS proteins enhance survival of desiccated bacterial cells",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 211,
+      "label": "SAHS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "SAHS proteins enhance survival of desiccated bacterial cells",
+        "sentence_id": 43,
+        "char_start": 10454,
+        "char_end": 10458,
+        "anchor": "PMC11127935_10454_10458",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 213,
+      "label": "Coli cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "SAHS proteins enhance survival of desiccated bacterial cells",
+        "sentence_id": 43,
+        "char_start": 10545,
+        "char_end": 10555,
+        "anchor": "PMC11127935_10545_10555",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 215,
+      "label": "SAHS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "SAHS proteins enhance survival of desiccated bacterial cells",
+        "sentence_id": 43,
+        "char_start": 10611,
+        "char_end": 10615,
+        "anchor": "PMC11127935_10611_10615",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 216,
+      "label": "SAHS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "SAHS proteins enhance survival of desiccated bacterial cells",
+        "sentence_id": 43,
+        "char_start": 10454,
+        "char_end": 10458,
+        "anchor": "PMC11127935_10454_10458",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 217,
+      "label": "Coli",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "SAHS proteins enhance survival of desiccated bacterial cells",
+        "sentence_id": 43,
+        "char_start": 10545,
+        "char_end": 10549,
+        "anchor": "PMC11127935_10545_10549",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 219,
+      "label": "SAHS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "SAHS proteins enhance survival of desiccated bacterial cells",
+        "sentence_id": 43,
+        "char_start": 10611,
+        "char_end": 10615,
+        "anchor": "PMC11127935_10611_10615",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 372,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 211,
+      "target": 213
+    },
+    {
+      "id": 373,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 211,
+      "target": 215
+    },
+    {
+      "id": 374,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 211,
+      "target": 216
+    },
+    {
+      "id": 375,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 211,
+      "target": 217
+    },
+    {
+      "id": 377,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 211,
+      "target": 219
+    },
+    {
+      "id": 378,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 215,
+      "target": 213
+    },
+    {
+      "id": 379,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 216,
+      "target": 213
+    },
+    {
+      "id": 380,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 217,
+      "target": 213
+    },
+    {
+      "id": 382,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 219,
+      "target": 213
+    },
+    {
+      "id": 383,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 215,
+      "target": 216
+    },
+    {
+      "id": 384,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 215,
+      "target": 217
+    },
+    {
+      "id": 386,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 215,
+      "target": 219
+    },
+    {
+      "id": 387,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 216,
+      "target": 217
+    },
+    {
+      "id": 389,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 216,
+      "target": 219
+    },
+    {
+      "id": 391,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 217,
+      "target": 219
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 11,
+      "largest_component": 6,
+      "removed_components": [
+        5,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 3
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "paper_id": "PMC10780891",
+  "section": "Calculation of Asymmetry Indicators",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 779,
+      "label": "relative",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Calculation of Asymmetry Indicators",
+        "sentence_id": 222,
+        "char_start": 47188,
+        "char_end": 47196,
+        "anchor": "PMC10780891_47188_47196",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 781,
+      "label": "ymmetry",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Calculation of Asymmetry Indicators",
+        "sentence_id": 222,
+        "char_start": 47225,
+        "char_end": 47232,
+        "anchor": "PMC10780891_47225_47232",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 783,
+      "label": "Spearman",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Calculation of Asymmetry Indicators",
+        "sentence_id": 222,
+        "char_start": 47396,
+        "char_end": 47404,
+        "anchor": "PMC10780891_47396_47404",
+        "page": 14,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1148,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 779,
+      "target": 781
+    },
+    {
+      "id": 1149,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 779,
+      "target": 783
+    },
+    {
+      "id": 1150,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 781,
+      "target": 783
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 13,
+      "largest_component": 3,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 14
+  }
+}

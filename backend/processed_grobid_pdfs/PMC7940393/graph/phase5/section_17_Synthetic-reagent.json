@@ -1,0 +1,30 @@
+{
+  "paper_id": "PMC7940393",
+  "section": "Synthetic REAGENT",
+  "n_nodes": 1,
+  "n_edges": 0,
+  "nodes": [
+    {
+      "id": 514,
+      "label": "ethanol",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Electron microscopy",
+        "sentence_id": 110,
+        "char_start": 31274,
+        "char_end": 31281,
+        "anchor": "PMC7940393_31274_31281",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "REAGENT",
+    "page": null
+  }
+}

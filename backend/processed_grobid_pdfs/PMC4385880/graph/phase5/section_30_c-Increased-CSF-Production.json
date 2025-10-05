@@ -1,0 +1,314 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "c) Increased CSF Production",
+  "n_nodes": 8,
+  "n_edges": 28,
+  "nodes": [
+    {
+      "id": 3009,
+      "label": "ICP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "c) Increased CSF Production",
+        "sentence_id": 991,
+        "char_start": 163512,
+        "char_end": 163515,
+        "anchor": "PMC4385880_163512_163515",
+        "page": 76,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3011,
+      "label": "CSF",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "c) Increased CSF Production",
+        "sentence_id": 991,
+        "char_start": 163226,
+        "char_end": 163229,
+        "anchor": "PMC4385880_163226_163229",
+        "page": 76,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3012,
+      "label": "CSF",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "c) Increased CSF Production",
+        "sentence_id": 991,
+        "char_start": 163295,
+        "char_end": 163298,
+        "anchor": "PMC4385880_163295_163298",
+        "page": 76,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3013,
+      "label": "CSF",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "c) Increased CSF Production",
+        "sentence_id": 991,
+        "char_start": 163459,
+        "char_end": 163462,
+        "anchor": "PMC4385880_163459_163462",
+        "page": 76,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3014,
+      "label": "CSF",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "c) Increased CSF Production",
+        "sentence_id": 991,
+        "char_start": 163621,
+        "char_end": 163624,
+        "anchor": "PMC4385880_163621_163624",
+        "page": 76,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3015,
+      "label": "CSF",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "c) Increased CSF Production",
+        "sentence_id": 991,
+        "char_start": 163756,
+        "char_end": 163759,
+        "anchor": "PMC4385880_163756_163759",
+        "page": 76,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3016,
+      "label": "ICP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "c) Increased CSF Production",
+        "sentence_id": 991,
+        "char_start": 163781,
+        "char_end": 163784,
+        "anchor": "PMC4385880_163781_163784",
+        "page": 76,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3005,
+      "label": "pressure",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "c) Increased CSF Production",
+        "sentence_id": 991,
+        "char_start": 163261,
+        "char_end": 163269,
+        "anchor": "PMC4385880_163261_163269",
+        "page": 76,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 2812,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3005,
+      "target": 3009
+    },
+    {
+      "id": 2813,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3005,
+      "target": 3011
+    },
+    {
+      "id": 2814,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3005,
+      "target": 3012
+    },
+    {
+      "id": 2815,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3005,
+      "target": 3013
+    },
+    {
+      "id": 2816,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3005,
+      "target": 3014
+    },
+    {
+      "id": 2817,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3005,
+      "target": 3015
+    },
+    {
+      "id": 2818,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3005,
+      "target": 3016
+    },
+    {
+      "id": 2819,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3009,
+      "target": 3011
+    },
+    {
+      "id": 2820,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3009,
+      "target": 3012
+    },
+    {
+      "id": 2821,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3009,
+      "target": 3013
+    },
+    {
+      "id": 2822,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3009,
+      "target": 3014
+    },
+    {
+      "id": 2823,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3009,
+      "target": 3015
+    },
+    {
+      "id": 2824,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3009,
+      "target": 3016
+    },
+    {
+      "id": 2825,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3011,
+      "target": 3012
+    },
+    {
+      "id": 2826,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3011,
+      "target": 3013
+    },
+    {
+      "id": 2827,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3011,
+      "target": 3014
+    },
+    {
+      "id": 2828,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3011,
+      "target": 3015
+    },
+    {
+      "id": 2829,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3011,
+      "target": 3016
+    },
+    {
+      "id": 2830,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3012,
+      "target": 3013
+    },
+    {
+      "id": 2831,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3012,
+      "target": 3014
+    },
+    {
+      "id": 2832,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3012,
+      "target": 3015
+    },
+    {
+      "id": 2833,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3012,
+      "target": 3016
+    },
+    {
+      "id": 2834,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3013,
+      "target": 3014
+    },
+    {
+      "id": 2835,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3013,
+      "target": 3015
+    },
+    {
+      "id": 2836,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3013,
+      "target": 3016
+    },
+    {
+      "id": 2837,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3014,
+      "target": 3015
+    },
+    {
+      "id": 2838,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3014,
+      "target": 3016
+    },
+    {
+      "id": 2839,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3015,
+      "target": 3016
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 7,
+      "removed_orphans": 14,
+      "largest_component": 8,
+      "removed_components": [
+        6,
+        4,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 76
+  }
+}

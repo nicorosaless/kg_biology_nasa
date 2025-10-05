@@ -1,0 +1,112 @@
+{
+  "paper_id": "PMC7998608",
+  "section": "Quantitative Real-Time Polymerase Chain Reaction (RT-PCR)",
+  "n_nodes": 6,
+  "n_edges": 4,
+  "nodes": [
+    {
+      "id": 108,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitative Real-Time Polymerase Chain Reaction (RT-PCR)",
+        "sentence_id": 65,
+        "char_start": 14272,
+        "char_end": 14275,
+        "anchor": "PMC7998608_14272_14275"
+      }
+    },
+    {
+      "id": 110,
+      "label": "Carlsbad",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitative Real-Time Polymerase Chain Reaction (RT-PCR)",
+        "sentence_id": 65,
+        "char_start": 14558,
+        "char_end": 14566,
+        "anchor": "PMC7998608_14558_14566"
+      }
+    },
+    {
+      "id": 112,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitative Real-Time Polymerase Chain Reaction (RT-PCR)",
+        "sentence_id": 65,
+        "char_start": 14572,
+        "char_end": 14575,
+        "anchor": "PMC7998608_14572_14575"
+      }
+    },
+    {
+      "id": 113,
+      "label": "Waltham",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitative Real-Time Polymerase Chain Reaction (RT-PCR)",
+        "sentence_id": 66,
+        "char_start": 14694,
+        "char_end": 14701,
+        "anchor": "PMC7998608_14694_14701"
+      }
+    },
+    {
+      "id": 115,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitative Real-Time Polymerase Chain Reaction (RT-PCR)",
+        "sentence_id": 66,
+        "char_start": 14707,
+        "char_end": 14710,
+        "anchor": "PMC7998608_14707_14710"
+      }
+    },
+    {
+      "id": 109,
+      "label": "Qiagen",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitative Real-Time Polymerase Chain Reaction (RT-PCR)",
+        "sentence_id": 65,
+        "char_start": 14550,
+        "char_end": 14556,
+        "anchor": "PMC7998608_14550_14556"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 206,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 108,
+      "target": 110
+    },
+    {
+      "id": 208,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 108,
+      "target": 112
+    },
+    {
+      "id": 210,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 110,
+      "target": 112
+    },
+    {
+      "id": 213,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 113,
+      "target": 115
+    }
+  ]
+}

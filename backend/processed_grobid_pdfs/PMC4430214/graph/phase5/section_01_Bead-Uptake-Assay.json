@@ -1,0 +1,81 @@
+{
+  "paper_id": "PMC4430214",
+  "section": "Bead Uptake Assay",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 136,
+      "label": "BSA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bead Uptake Assay",
+        "sentence_id": 48,
+        "char_start": 9752,
+        "char_end": 9755,
+        "anchor": "PMC4430214_9752_9755",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 138,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bead Uptake Assay",
+        "sentence_id": 48,
+        "char_start": 9762,
+        "char_end": 9765,
+        "anchor": "PMC4430214_9762_9765",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 135,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bead Uptake Assay",
+        "sentence_id": 48,
+        "char_start": 9663,
+        "char_end": 9666,
+        "anchor": "PMC4430214_9663_9666",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 123,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 135,
+      "target": 136
+    },
+    {
+      "id": 125,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 135,
+      "target": 138
+    },
+    {
+      "id": 127,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 136,
+      "target": 138
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 1,
+      "largest_component": 3
+    },
+    "page": 3
+  }
+}

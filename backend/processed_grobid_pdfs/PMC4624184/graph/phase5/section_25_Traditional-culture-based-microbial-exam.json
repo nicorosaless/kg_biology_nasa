@@ -1,0 +1,57 @@
+{
+  "paper_id": "PMC4624184",
+  "section": "Traditional culture-based microbial examination",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 733,
+      "label": "CFUs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Traditional culture-based microbial examination",
+        "sentence_id": 223,
+        "char_start": 43612,
+        "char_end": 43616,
+        "anchor": "PMC4624184_43612_43616",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 735,
+      "label": "CFU",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Traditional culture-based microbial examination",
+        "sentence_id": 223,
+        "char_start": 43647,
+        "char_end": 43650,
+        "anchor": "PMC4624184_43647_43650",
+        "page": 12,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 817,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 733,
+      "target": 735
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 9,
+      "largest_component": 2,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 12
+  }
+}

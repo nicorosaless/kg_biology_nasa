@@ -1,0 +1,201 @@
+{
+  "paper_id": "PMC10889206",
+  "section": "Micro-Computed Tomography",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 512,
+      "label": "Scan",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography",
+        "sentence_id": 122,
+        "char_start": 23768,
+        "char_end": 23772,
+        "anchor": "PMC10889206_23768_23772",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 514,
+      "label": "support",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography",
+        "sentence_id": 122,
+        "char_start": 23958,
+        "char_end": 23965,
+        "anchor": "PMC10889206_23958_23965",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 515,
+      "label": "Humeri",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography",
+        "sentence_id": 122,
+        "char_start": 23684,
+        "char_end": 23690,
+        "anchor": "PMC10889206_23684_23690",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 516,
+      "label": "5th",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography",
+        "sentence_id": 122,
+        "char_start": 23692,
+        "char_end": 23695,
+        "anchor": "PMC10889206_23692_23695",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 517,
+      "label": "Scanco",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography",
+        "sentence_id": 122,
+        "char_start": 23746,
+        "char_end": 23752,
+        "anchor": "PMC10889206_23746_23752",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 510,
+      "label": "Humeri",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography",
+        "sentence_id": 122,
+        "char_start": 23684,
+        "char_end": 23690,
+        "anchor": "PMC10889206_23684_23690",
+        "page": 10,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 813,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 510,
+      "target": 512
+    },
+    {
+      "id": 814,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 510,
+      "target": 514
+    },
+    {
+      "id": 815,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 510,
+      "target": 515
+    },
+    {
+      "id": 816,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 510,
+      "target": 516
+    },
+    {
+      "id": 817,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 510,
+      "target": 517
+    },
+    {
+      "id": 821,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 512,
+      "target": 514
+    },
+    {
+      "id": 822,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 512,
+      "target": 515
+    },
+    {
+      "id": 823,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 512,
+      "target": 516
+    },
+    {
+      "id": 824,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 512,
+      "target": 517
+    },
+    {
+      "id": 828,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 514,
+      "target": 515
+    },
+    {
+      "id": 829,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 514,
+      "target": 516
+    },
+    {
+      "id": 830,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 514,
+      "target": 517
+    },
+    {
+      "id": 834,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 515,
+      "target": 516
+    },
+    {
+      "id": 835,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 515,
+      "target": 517
+    },
+    {
+      "id": 839,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 516,
+      "target": 517
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 26,
+      "largest_component": 6,
+      "removed_components": [
+        3
+      ]
+    },
+    "page": 10
+  }
+}

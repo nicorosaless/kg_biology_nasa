@@ -1,0 +1,217 @@
+{
+  "paper_id": "PMC11988870",
+  "section": "Impacts on Stem Cells and Cell Regeneration",
+  "n_nodes": 9,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 79,
+      "label": "Hippo",
+      "type": "PATHWAY",
+      "freq": 1,
+      "nav": {
+        "section": "Impacts on Stem Cells and Cell Regeneration",
+        "sentence_id": 262,
+        "char_start": 44648,
+        "char_end": 44653,
+        "anchor": "PMC11988870_44648_44653"
+      }
+    },
+    {
+      "id": 80,
+      "label": "SAV1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Impacts on Stem Cells and Cell Regeneration",
+        "sentence_id": 262,
+        "char_start": 44709,
+        "char_end": 44713,
+        "anchor": "PMC11988870_44709_44713"
+      }
+    },
+    {
+      "id": 81,
+      "label": "WWC1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Impacts on Stem Cells and Cell Regeneration",
+        "sentence_id": 262,
+        "char_start": 44715,
+        "char_end": 44719,
+        "anchor": "PMC11988870_44715_44719"
+      }
+    },
+    {
+      "id": 82,
+      "label": "MOB1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Impacts on Stem Cells and Cell Regeneration",
+        "sentence_id": 262,
+        "char_start": 44736,
+        "char_end": 44740,
+        "anchor": "PMC11988870_44736_44740"
+      }
+    },
+    {
+      "id": 83,
+      "label": "RUNX1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Impacts on Stem Cells and Cell Regeneration",
+        "sentence_id": 262,
+        "char_start": 44932,
+        "char_end": 44937,
+        "anchor": "PMC11988870_44932_44937"
+      }
+    },
+    {
+      "id": 84,
+      "label": "GATA3",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Impacts on Stem Cells and Cell Regeneration",
+        "sentence_id": 262,
+        "char_start": 45044,
+        "char_end": 45049,
+        "anchor": "PMC11988870_45044_45049"
+      }
+    },
+    {
+      "id": 76,
+      "label": "Hippo",
+      "type": "PATHWAY",
+      "freq": 1,
+      "nav": {
+        "section": "Impacts on Stem Cells and Cell Regeneration",
+        "sentence_id": 256,
+        "char_start": 43506,
+        "char_end": 43511,
+        "anchor": "PMC11988870_43506_43511"
+      }
+    },
+    {
+      "id": 77,
+      "label": "Hippo",
+      "type": "PATHWAY",
+      "freq": 1,
+      "nav": {
+        "section": "Impacts on Stem Cells and Cell Regeneration",
+        "sentence_id": 260,
+        "char_start": 44395,
+        "char_end": 44400,
+        "anchor": "PMC11988870_44395_44400"
+      }
+    },
+    {
+      "id": 85,
+      "label": "STRIPAK",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Impacts on Stem Cells and Cell Regeneration",
+        "sentence_id": 263,
+        "char_start": 45186,
+        "char_end": 45193,
+        "anchor": "PMC11988870_45186_45193"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 26,
+      "type": "GENE_PRODUCT_INVOLVED_IN_PATHWAY",
+      "source": 80,
+      "target": 79
+    },
+    {
+      "id": 27,
+      "type": "GENE_PRODUCT_INVOLVED_IN_PATHWAY",
+      "source": 81,
+      "target": 79
+    },
+    {
+      "id": 28,
+      "type": "GENE_PRODUCT_INVOLVED_IN_PATHWAY",
+      "source": 82,
+      "target": 79
+    },
+    {
+      "id": 29,
+      "type": "GENE_PRODUCT_INVOLVED_IN_PATHWAY",
+      "source": 83,
+      "target": 79
+    },
+    {
+      "id": 30,
+      "type": "GENE_PRODUCT_INVOLVED_IN_PATHWAY",
+      "source": 84,
+      "target": 79
+    },
+    {
+      "id": 31,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 80,
+      "target": 81
+    },
+    {
+      "id": 32,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 80,
+      "target": 82
+    },
+    {
+      "id": 33,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 80,
+      "target": 83
+    },
+    {
+      "id": 34,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 80,
+      "target": 84
+    },
+    {
+      "id": 35,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 81,
+      "target": 82
+    },
+    {
+      "id": 36,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 81,
+      "target": 83
+    },
+    {
+      "id": 37,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 81,
+      "target": 84
+    },
+    {
+      "id": 38,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 82,
+      "target": 83
+    },
+    {
+      "id": 39,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 82,
+      "target": 84
+    },
+    {
+      "id": 40,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 83,
+      "target": 84
+    }
+  ]
+}

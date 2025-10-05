@@ -1,0 +1,114 @@
+{
+  "paper_id": "PMC10800490",
+  "section": "Cell wall related genes",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 728,
+      "label": "Johnson",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell wall related genes",
+        "sentence_id": 202,
+        "char_start": 43040,
+        "char_end": 43047,
+        "anchor": "PMC10800490_43040_43047",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 729,
+      "label": "XTH",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell wall related genes",
+        "sentence_id": 202,
+        "char_start": 43433,
+        "char_end": 43436,
+        "anchor": "PMC10800490_43433_43436",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 722,
+      "label": "Genes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell wall related genes",
+        "sentence_id": 202,
+        "char_start": 42653,
+        "char_end": 42658,
+        "anchor": "PMC10800490_42653_42658",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 724,
+      "label": "changes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell wall related genes",
+        "sentence_id": 202,
+        "char_start": 42946,
+        "char_end": 42953,
+        "anchor": "PMC10800490_42946_42953",
+        "page": 12,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1423,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 722,
+      "target": 724
+    },
+    {
+      "id": 1424,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 722,
+      "target": 728
+    },
+    {
+      "id": 1425,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 722,
+      "target": 729
+    },
+    {
+      "id": 1426,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 724,
+      "target": 728
+    },
+    {
+      "id": 1427,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 724,
+      "target": 729
+    },
+    {
+      "id": 1428,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 728,
+      "target": 729
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 8,
+      "largest_component": 4
+    },
+    "page": 12
+  }
+}

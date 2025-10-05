@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMC6130020",
+  "section": "Synthetic CELL_TYPE",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 41,
+      "label": "plant cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Annexins are multifunctional proteins that",
+        "sentence_id": 13,
+        "char_start": 2565,
+        "char_end": 2576,
+        "anchor": "PMC6130020_2565_2576",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 180,
+      "label": "columella cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of Root Cap Development in ANN1 and ANN2 Knockout Mutants Is Rescued by Exogenous Suc",
+        "sentence_id": 45,
+        "char_start": 10339,
+        "char_end": 10354,
+        "anchor": "PMC6130020_10339_10354",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-41-180",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 180
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "CELL_TYPE",
+    "page": null
+  }
+}

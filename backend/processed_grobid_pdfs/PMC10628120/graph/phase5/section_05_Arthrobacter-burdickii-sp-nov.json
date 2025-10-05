@@ -1,0 +1,312 @@
+{
+  "paper_id": "PMC10628120",
+  "section": "Arthrobacter burdickii sp. nov.",
+  "n_nodes": 8,
+  "n_edges": 28,
+  "nodes": [
+    {
+      "id": 597,
+      "label": "Colonies",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Arthrobacter burdickii sp. nov.",
+        "sentence_id": 148,
+        "char_start": 31869,
+        "char_end": 31877,
+        "anchor": "PMC10628120_31869_31877",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 598,
+      "label": "pigment",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Arthrobacter burdickii sp. nov.",
+        "sentence_id": 148,
+        "char_start": 31891,
+        "char_end": 31898,
+        "anchor": "PMC10628120_31891_31898",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 599,
+      "label": "Cells",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Arthrobacter burdickii sp. nov.",
+        "sentence_id": 148,
+        "char_start": 31988,
+        "char_end": 31993,
+        "anchor": "PMC10628120_31988_31993",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 600,
+      "label": "coccoid",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Arthrobacter burdickii sp. nov.",
+        "sentence_id": 148,
+        "char_start": 31998,
+        "char_end": 32005,
+        "anchor": "PMC10628120_31998_32005",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 602,
+      "label": "Growth",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Arthrobacter burdickii sp. nov.",
+        "sentence_id": 148,
+        "char_start": 32107,
+        "char_end": 32113,
+        "anchor": "PMC10628120_32107_32113",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 603,
+      "label": "Colonies",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Arthrobacter burdickii sp. nov.",
+        "sentence_id": 148,
+        "char_start": 31869,
+        "char_end": 31877,
+        "anchor": "PMC10628120_31869_31877",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 604,
+      "label": "TSA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Arthrobacter burdickii sp. nov.",
+        "sentence_id": 148,
+        "char_start": 31969,
+        "char_end": 31972,
+        "anchor": "PMC10628120_31969_31972",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 606,
+      "label": "NaCl",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Arthrobacter burdickii sp. nov.",
+        "sentence_id": 148,
+        "char_start": 32181,
+        "char_end": 32185,
+        "anchor": "PMC10628120_32181_32185",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 850,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 597,
+      "target": 598
+    },
+    {
+      "id": 851,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 597,
+      "target": 599
+    },
+    {
+      "id": 852,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 597,
+      "target": 600
+    },
+    {
+      "id": 853,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 597,
+      "target": 602
+    },
+    {
+      "id": 854,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 597,
+      "target": 603
+    },
+    {
+      "id": 855,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 597,
+      "target": 604
+    },
+    {
+      "id": 857,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 597,
+      "target": 606
+    },
+    {
+      "id": 858,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 598,
+      "target": 599
+    },
+    {
+      "id": 859,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 598,
+      "target": 600
+    },
+    {
+      "id": 860,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 598,
+      "target": 602
+    },
+    {
+      "id": 861,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 598,
+      "target": 603
+    },
+    {
+      "id": 862,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 598,
+      "target": 604
+    },
+    {
+      "id": 864,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 598,
+      "target": 606
+    },
+    {
+      "id": 865,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 599,
+      "target": 600
+    },
+    {
+      "id": 866,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 599,
+      "target": 602
+    },
+    {
+      "id": 867,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 599,
+      "target": 603
+    },
+    {
+      "id": 868,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 599,
+      "target": 604
+    },
+    {
+      "id": 870,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 599,
+      "target": 606
+    },
+    {
+      "id": 871,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 600,
+      "target": 602
+    },
+    {
+      "id": 872,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 600,
+      "target": 603
+    },
+    {
+      "id": 873,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 600,
+      "target": 604
+    },
+    {
+      "id": 875,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 600,
+      "target": 606
+    },
+    {
+      "id": 876,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 602,
+      "target": 603
+    },
+    {
+      "id": 877,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 602,
+      "target": 604
+    },
+    {
+      "id": 879,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 602,
+      "target": 606
+    },
+    {
+      "id": 880,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 603,
+      "target": 604
+    },
+    {
+      "id": 882,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 603,
+      "target": 606
+    },
+    {
+      "id": 884,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 604,
+      "target": 606
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 19,
+      "largest_component": 8,
+      "removed_components": [
+        5,
+        3,
+        3,
+        2
+      ]
+    },
+    "page": 7
+  }
+}

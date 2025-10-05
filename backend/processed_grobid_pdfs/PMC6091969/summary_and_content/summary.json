@@ -1,0 +1,211 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "Aspergillus fumigatus poses a threat to immunocompromised individuals, leading to invasive aspergillosis with high mortality rates. Understanding the immune mechanisms controlling Aspergillus in immunocompetent individuals is crucial for developing effective immunotherapies. While macrophages and neutrophils both contribute to fungal clearance, their specific roles in vivo remain unclear. This study investigates the interplay between macrophages and neutrophils in response to different A. fumigatus strains using a transparent zebrafish larvae model, focusing on fungal clearance and immune cell behavior.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Fig 1.A CEA10-derived strain is killed more than an Af293-derived strain in vivo.",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.png"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Fig 2.",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.png"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Fig 3.",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.png"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Fig 4.",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.png"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Differential Killing of Aspergillus Strains In Vivo",
+      "summary": "The study utilized zebrafish larvae to visually quantify the killing of Aspergillus spores, revealing that a CEA10-derived strain is killed more effectively than an Af293-derived strain. This was observed through live-dead staining using fluorescently labeled spores. Confocal imaging showed a higher percentage of killed CEA10 spores compared to Af293 at 2 days post-infection (dpi). The differential killing was also confirmed by CFU counts, with CEA10 showing a significant reduction in fungal burden compared to Af293.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Role of Myd88-Mediated Inflammatory Activation",
+      "summary": "CEA10 infection induces greater NF-κB activation than Af293. Using an NF-κB reporter line, it was found that CEA10-infected larvae exhibited significantly more GFP signal, indicating higher NF-κB activation. Immunosuppression with dexamethasone resulted in rapid mortality for both Af293- and CEA10-infected larvae, suggesting that immune activation is essential for controlling both strains. Myd88, an adaptor molecule downstream of TLR/IL-1R signaling, is required for full clearance of CEA10 but not Af293.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Immune Activation Insufficiency for Af293 Killing",
+      "summary": "Co-infection experiments with red fluorescent Af293 and green fluorescent CEA10 strains revealed that the presence of the immune-activating CEA10 strain did not enhance the clearance of Af293. Imaging showed that these spores could be found in the same or neighboring cells, suggesting that the killing differences are due to fungal-intrinsic phenotypes rather than local variations in immune activation. This indicates that the increased immune activation induced by CEA10 is not sufficient to overcome the persistence of Af293.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Macrophage Cluster Formation Around Aspergillus",
+      "summary": "Time-lapse imaging of zebrafish larvae revealed that macrophages form tight clusters around A. fumigatus spores, persisting throughout the infection. These clusters, observed as early as 1 dpi, are primarily composed of macrophages, with neutrophils infiltrating later. Quantification showed that CEA10 infection recruited more macrophages and neutrophils than Af293 infection. The immune cell recruitment peaked at 2 dpi, coinciding with fungal clearance.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Protective Niche Provided by Macrophages",
+      "summary": "Experiments using macrophage-deficient larvae (irf8 -/-) demonstrated that these larvae cleared CEA10 significantly more than control larvae, nearly 100% at 2 dpi. This suggests macrophages provide a protective niche for the fungus. However, Af293 was not significantly cleared in macrophage-deficient larvae, and Af293 infection resulted in more death compared to controls. Clodronate liposome injection, which specifically depletes macrophages, also resulted in better clearance of CEA10. The macrophage clusters inhibit spore germination, which is required for neutrophil mediated fungal killing.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Neutrophil Recruitment and Fungal Germination",
+      "summary": "In macrophage-deficient larvae, CEA10 infection resulted in extensive neutrophil recruitment. Sudan black staining revealed a significantly higher number of neutrophils recruited to the infection site in irf8 -/-larvae infected with CEA10 compared to Af293. The massive neutrophil recruitment was often accompanied by fungal germination and hyphal growth. Macrophages inhibit spore germination; in their absence, fungal germination induces signals that recruit neutrophils.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Germination Rate Differences",
+      "summary": "",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Germination-Driven Neutrophil-Mediated Killing",
+      "summary": "",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": "The study demonstrates that faster-growing CEA10-derived strains of A. fumigatus are cleared more efficiently than slower-growing Af293-derived strains, primarily due to neutrophil function driven by fungal germination. Macrophages form protective clusters around spores, inhibiting germination and consequently reducing neutrophil recruitment and killing. This reveals a novel role for macrophages in A. fumigatus persistence and highlights the diverse virulence strategies employed by different fungal strains. The phagocyte clusters observed in zebrafish larvae are reminiscent of aspergillomas found in human patients.",
+  "keywords": [
+    "aspergillus fumigatus",
+    "macrophages",
+    "neutrophils",
+    "zebrafish larvae",
+    "germination",
+    "inflammation",
+    "myd88",
+    "fungal killing",
+    "virulence",
+    "cea10 af293"
+  ],
+  "topics": [
+    "immunology",
+    "infectious disease",
+    "microbiology"
+  ],
+  "_meta": {
+    "paper_id": "sha256:1fd53210503ee063ee1109e06a396a3d180020550bce5d1ced5336f3fcdadb3b",
+    "paper_title": "Macrophages inhibit Aspergillus fumigatus germination and neutrophil-mediated fungal killing",
+    "generated_at": "2025-10-05T10:48:24Z",
+    "word_count": 499,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "aspergillus fumigatus",
+      "macrophages",
+      "neutrophils",
+      "zebrafish larvae",
+      "germination",
+      "inflammation",
+      "myd88",
+      "fungal killing",
+      "virulence",
+      "cea10 af293"
+    ],
+    "topics": [
+      "immunology",
+      "infectious disease",
+      "microbiology"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 12165,
+      "completion_tokens": 1266,
+      "total_tokens": 13431,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.001217,
+      "output_usd": 0.000506,
+      "total_usd": 0.001723
+    },
+    "cost": {
+      "input_usd": 0.001217,
+      "output_usd": 0.000506,
+      "total_usd": 0.001723
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [
+        {
+          "id": "fig_6",
+          "score": -9999,
+          "caption_wc": 149
+        },
+        {
+          "id": "fig_7",
+          "score": -9999,
+          "caption_wc": 225
+        },
+        {
+          "id": "fig_8",
+          "score": -9999,
+          "caption_wc": 173
+        },
+        {
+          "id": "fig_9",
+          "score": -9999,
+          "caption_wc": 203
+        }
+      ],
+      "corrupted_detected": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4",
+        "fig_6",
+        "fig_7",
+        "fig_8",
+        "fig_9"
+      ],
+      "original_total": 8,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

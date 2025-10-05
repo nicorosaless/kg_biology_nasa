@@ -1,0 +1,160 @@
+{
+  "paper_id": "PMC6091969",
+  "section": "A CEA10-derived strain of Aspergillus fumigatus is killed better than an Af293-derived strain in vivo",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 86,
+      "label": "Alexa",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "A CEA10-derived strain of Aspergillus fumigatus is killed better than an Af293-derived strain in vivo",
+        "sentence_id": 36,
+        "char_start": 7787,
+        "char_end": 7792,
+        "anchor": "PMC6091969_7787_7792",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 87,
+      "label": "YFP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "A CEA10-derived strain of Aspergillus fumigatus is killed better than an Af293-derived strain in vivo",
+        "sentence_id": 36,
+        "char_start": 7587,
+        "char_end": 7590,
+        "anchor": "PMC6091969_7587_7590",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 88,
+      "label": "GFP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "A CEA10-derived strain of Aspergillus fumigatus is killed better than an Af293-derived strain in vivo",
+        "sentence_id": 36,
+        "char_start": 7594,
+        "char_end": 7597,
+        "anchor": "PMC6091969_7594_7597",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 89,
+      "label": "YFP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "A CEA10-derived strain of Aspergillus fumigatus is killed better than an Af293-derived strain in vivo",
+        "sentence_id": 36,
+        "char_start": 7709,
+        "char_end": 7712,
+        "anchor": "PMC6091969_7709_7712",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 90,
+      "label": "GFP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "A CEA10-derived strain of Aspergillus fumigatus is killed better than an Af293-derived strain in vivo",
+        "sentence_id": 36,
+        "char_start": 7713,
+        "char_end": 7716,
+        "anchor": "PMC6091969_7713_7716",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 43,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 86,
+      "target": 87
+    },
+    {
+      "id": 44,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 86,
+      "target": 88
+    },
+    {
+      "id": 45,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 86,
+      "target": 89
+    },
+    {
+      "id": 46,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 86,
+      "target": 90
+    },
+    {
+      "id": 47,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 87,
+      "target": 88
+    },
+    {
+      "id": 48,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 87,
+      "target": 89
+    },
+    {
+      "id": 49,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 87,
+      "target": 90
+    },
+    {
+      "id": 50,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 88,
+      "target": 89
+    },
+    {
+      "id": 51,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 88,
+      "target": 90
+    },
+    {
+      "id": 52,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 89,
+      "target": 90
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 6,
+      "removed_orphans": 12,
+      "largest_component": 5,
+      "removed_components": [
+        5,
+        4,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 4
+  }
+}

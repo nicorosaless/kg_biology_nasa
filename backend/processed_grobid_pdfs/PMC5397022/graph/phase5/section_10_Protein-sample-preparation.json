@@ -1,0 +1,204 @@
+{
+  "paper_id": "PMC5397022",
+  "section": "Protein sample preparation",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 396,
+      "label": "digested",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein sample preparation",
+        "sentence_id": 97,
+        "char_start": 17106,
+        "char_end": 17114,
+        "anchor": "PMC5397022_17106_17114",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 397,
+      "label": "RapiGest",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein sample preparation",
+        "sentence_id": 97,
+        "char_start": 17192,
+        "char_end": 17200,
+        "anchor": "PMC5397022_17192_17200",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 398,
+      "label": "TEA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein sample preparation",
+        "sentence_id": 97,
+        "char_start": 17245,
+        "char_end": 17248,
+        "anchor": "PMC5397022_17245_17248",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 399,
+      "label": "RapiGest",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein sample preparation",
+        "sentence_id": 97,
+        "char_start": 17192,
+        "char_end": 17200,
+        "anchor": "PMC5397022_17192_17200",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 400,
+      "label": "TEAB",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein sample preparation",
+        "sentence_id": 97,
+        "char_start": 17245,
+        "char_end": 17249,
+        "anchor": "PMC5397022_17245_17249",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 401,
+      "label": "RapiGest",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein sample preparation",
+        "sentence_id": 97,
+        "char_start": 17352,
+        "char_end": 17360,
+        "anchor": "PMC5397022_17352_17360",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 534,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 396,
+      "target": 397
+    },
+    {
+      "id": 535,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 396,
+      "target": 398
+    },
+    {
+      "id": 536,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 396,
+      "target": 399
+    },
+    {
+      "id": 537,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 396,
+      "target": 400
+    },
+    {
+      "id": 538,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 396,
+      "target": 401
+    },
+    {
+      "id": 539,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 397,
+      "target": 398
+    },
+    {
+      "id": 540,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 397,
+      "target": 399
+    },
+    {
+      "id": 541,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 397,
+      "target": 400
+    },
+    {
+      "id": 542,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 397,
+      "target": 401
+    },
+    {
+      "id": 543,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 398,
+      "target": 399
+    },
+    {
+      "id": 544,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 398,
+      "target": 400
+    },
+    {
+      "id": 545,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 398,
+      "target": 401
+    },
+    {
+      "id": 546,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 399,
+      "target": 400
+    },
+    {
+      "id": 547,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 399,
+      "target": 401
+    },
+    {
+      "id": 548,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 400,
+      "target": 401
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 5,
+      "largest_component": 6,
+      "removed_components": [
+        4,
+        4,
+        2,
+        2
+      ]
+    },
+    "page": 2
+  }
+}

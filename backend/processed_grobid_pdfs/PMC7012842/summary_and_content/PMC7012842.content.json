@@ -1,0 +1,1136 @@
+{
+  "paper_id": "sha256:b13055becedb52061c1185e9ba54acc126b81fd45f20522ba9e8323bafa204d6",
+  "metadata": {
+    "title": "Development of Mouse Habitat Unit for Use in \"KIBO\" Japanese Experiment Module on International Space Station",
+    "abstract": "In-space experiments using mammals are one of the life science fields where researchers are in high demand.Mitsubishi Heavy Industries, Ltd. (MHI) has developed Japan's first in-space mouse habitat unit in accordance with a contract concluded with the Japan Aerospace Exploration Agency (JAXA), based on the outcomes of existing internal research and development.This unit was used for the mouse-rearing experiment conducted on board the \"KIBO\" Japanese Experiment Module (JEM) for the International Space Station (ISS) from July to August 2016, in which all the mice were successfully returned to the ground alive.The alive return of all the experimental mice to the ground after a long-term stay in space was the first such successful mission ever recorded.This report provides an overview and the outcomes of our newly-developed mouse habitat unit and its mission in space.",
+    "authors": [
+      "Yusuke Hagiwara",
+      "Makoto Ohira",
+      "Hiroaki Kodama",
+      "Hirochika Murase",
+      "Toshimasa Ochiai",
+      "Hiroyasu Mizuno"
+    ],
+    "affiliations": [
+      "36 *1 Space Systems Department , Space Systems Division , Integrated Defense & Space Systems *2 Chief Staff Manager ,",
+      "Space Systems Department , Space Systems Division , Integrated Defense & Space Systems *3 Associate Senior Engineer , Human Spaceflight Technology Directorate , Japan",
+      "Aerospace Exploration Agency"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Abstract",
+      "paragraphs": [
+        "In-space experiments using mammals are one of the life science fields where researchers are in high demand.Mitsubishi Heavy Industries, Ltd. (MHI) has developed Japan's first in-space mouse habitat unit in accordance with a contract concluded with the Japan Aerospace Exploration Agency (JAXA), based on the outcomes of existing internal research and development.This unit was used for the mouse-rearing experiment conducted on board the \"KIBO\" Japanese Experiment Module (JEM) for the International Space Station (ISS) from July to August 2016, in which all the mice were successfully returned to the ground alive.The alive return of all the experimental mice to the ground after a long-term stay in space was the first such successful mission ever recorded.This report provides an overview and the outcomes of our newly-developed mouse habitat unit and its mission in space."
+      ],
+      "text": "In-space experiments using mammals are one of the life science fields where researchers are in high demand.Mitsubishi Heavy Industries, Ltd. (MHI) has developed Japan's first in-space mouse habitat unit in accordance with a contract concluded with the Japan Aerospace Exploration Agency (JAXA), based on the outcomes of existing internal research and development.This unit was used for the mouse-rearing experiment conducted on board the \"KIBO\" Japanese Experiment Module (JEM) for the International Space Station (ISS) from July to August 2016, in which all the mice were successfully returned to the ground alive.The alive return of all the experimental mice to the ground after a long-term stay in space was the first such successful mission ever recorded.This report provides an overview and the outcomes of our newly-developed mouse habitat unit and its mission in space.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In-space experiments using mammals are one of the life science fields where researchers are in high demand.Mitsubishi Heavy Industries, Ltd. (MHI) has developed Japan's first in-space mouse habitat unit in accordance with a contract concluded with the Japan Aerospace Exploration Agency (JAXA), based on the outcomes of existing internal research and development.This unit was used for the mouse-rearing experiment conducted on board the \"KIBO\" Japanese Experiment Module (JEM) for the International Space Station (ISS) from July to August 2016, in which all the mice were successfully returned to the ground alive.The alive return of all the experimental mice to the ground after a long-term stay in space was the first such successful mission ever recorded.This report provides an overview and the outcomes of our newly-developed mouse habitat unit and its mission in space.",
+          "block_index": 0,
+          "section_index": 0,
+          "global_order": 0,
+          "id": "p_1_1"
+        },
+        {
+          "type": "figure",
+          "id": "fig_1",
+          "block_index": 1,
+          "section_index": 0,
+          "global_order": 1
+        },
+        {
+          "type": "figure",
+          "id": "fig_2",
+          "block_index": 2,
+          "section_index": 0,
+          "global_order": 2
+        },
+        {
+          "type": "figure",
+          "id": "fig_3",
+          "block_index": 3,
+          "section_index": 0,
+          "global_order": 3
+        },
+        {
+          "type": "figure",
+          "id": "fig_4",
+          "block_index": 4,
+          "section_index": 0,
+          "global_order": 4
+        },
+        {
+          "type": "figure",
+          "id": "fig_5",
+          "block_index": 5,
+          "section_index": 0,
+          "global_order": 5
+        },
+        {
+          "type": "figure",
+          "id": "fig_6",
+          "block_index": 6,
+          "section_index": 0,
+          "global_order": 6
+        }
+      ]
+    },
+    {
+      "heading": "| 1. Introduction",
+      "paragraphs": [
+        "It has been known that in space, the human body suffers rapid changes like the age-related ailments that the elderly experience on Earth.It has been discovered that these changes could occur in small animals including mice just like they do in humans.Therefore, research using mice is expected to define the mechanism of the phenomena in further detail such as at the genetic level.Mice are an extremely effective experimental model since they are mammals just like humans, their study outcomes are reasonably applicable to humans and are likely to yield benefits thereto, and there has already been a significant amount of research conducted on Earth.However, so far, no original Japanese in-orbit experiment unit has been developed and in-orbit experiment opportunities have been extremely scarce.",
+        "On the other hand, there have been a couple of long-term in-space mouse-rearing experiments conducted overseas including those in the U.S. and Italy, which, however, had the following issues in the rearing conditions or monitoring functions: ・ Since the existing habitat units were designed to keep mice only in groups, no male mice with volatile temperaments could be used in the experiment.・ Increasing contamination in the experimental habitat causes stress on the mice, and the contamination of the camera lens hinders the monitoring of the mice as time passes.Particularly, though it is extremely important to secure multiple mice alive in terms of scientific outcomes, the safe return of all the mice alive after a long-term stay in space had always been a great challenge with high technical difficulty, and is something which had never been accomplished until now.",
+        "The new Mouse Habitat Unit (MHU) we have developed is Japan's first in-space mouse-rearing unit.The unique features of the space experiments utilizing the MHU are as follows: ・ Conducting mouse-rearing experiment in the \"KIBO\" JEM of ISS ・ Allowing comparative experiments in orbit between the microgravity environment and artificial gravity environment ・ Keeping mice individually which facilitates rearing and individual monitoring regardless of the gender of the subject MHI has been working on the internal research and development of in-space life science experiment units.Our research outcomes are reflected throughout the MHU.",
+        "The following will provide an overview of the mouse-rearing experiment, the specifications of the MHU and the outcomes of the first mouse-rearing experiment in-orbit."
+      ],
+      "text": "It has been known that in space, the human body suffers rapid changes like the age-related ailments that the elderly experience on Earth.It has been discovered that these changes could occur in small animals including mice just like they do in humans.Therefore, research using mice is expected to define the mechanism of the phenomena in further detail such as at the genetic level.Mice are an extremely effective experimental model since they are mammals just like humans, their study outcomes are reasonably applicable to humans and are likely to yield benefits thereto, and there has already been a significant amount of research conducted on Earth.However, so far, no original Japanese in-orbit experiment unit has been developed and in-orbit experiment opportunities have been extremely scarce.\nOn the other hand, there have been a couple of long-term in-space mouse-rearing experiments conducted overseas including those in the U.S. and Italy, which, however, had the following issues in the rearing conditions or monitoring functions: ・ Since the existing habitat units were designed to keep mice only in groups, no male mice with volatile temperaments could be used in the experiment.・ Increasing contamination in the experimental habitat causes stress on the mice, and the contamination of the camera lens hinders the monitoring of the mice as time passes.Particularly, though it is extremely important to secure multiple mice alive in terms of scientific outcomes, the safe return of all the mice alive after a long-term stay in space had always been a great challenge with high technical difficulty, and is something which had never been accomplished until now.\nThe new Mouse Habitat Unit (MHU) we have developed is Japan's first in-space mouse-rearing unit.The unique features of the space experiments utilizing the MHU are as follows: ・ Conducting mouse-rearing experiment in the \"KIBO\" JEM of ISS ・ Allowing comparative experiments in orbit between the microgravity environment and artificial gravity environment ・ Keeping mice individually which facilitates rearing and individual monitoring regardless of the gender of the subject MHI has been working on the internal research and development of in-space life science experiment units.Our research outcomes are reflected throughout the MHU.\nThe following will provide an overview of the mouse-rearing experiment, the specifications of the MHU and the outcomes of the first mouse-rearing experiment in-orbit.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "It has been known that in space, the human body suffers rapid changes like the age-related ailments that the elderly experience on Earth.It has been discovered that these changes could occur in small animals including mice just like they do in humans.Therefore, research using mice is expected to define the mechanism of the phenomena in further detail such as at the genetic level.Mice are an extremely effective experimental model since they are mammals just like humans, their study outcomes are reasonably applicable to humans and are likely to yield benefits thereto, and there has already been a significant amount of research conducted on Earth.However, so far, no original Japanese in-orbit experiment unit has been developed and in-orbit experiment opportunities have been extremely scarce.",
+          "block_index": 0,
+          "section_index": 1,
+          "global_order": 7,
+          "id": "p_2_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "On the other hand, there have been a couple of long-term in-space mouse-rearing experiments conducted overseas including those in the U.S. and Italy, which, however, had the following issues in the rearing conditions or monitoring functions: ・ Since the existing habitat units were designed to keep mice only in groups, no male mice with volatile temperaments could be used in the experiment.・ Increasing contamination in the experimental habitat causes stress on the mice, and the contamination of the camera lens hinders the monitoring of the mice as time passes.Particularly, though it is extremely important to secure multiple mice alive in terms of scientific outcomes, the safe return of all the mice alive after a long-term stay in space had always been a great challenge with high technical difficulty, and is something which had never been accomplished until now.",
+          "block_index": 1,
+          "section_index": 1,
+          "global_order": 8,
+          "id": "p_2_2"
+        },
+        {
+          "type": "paragraph",
+          "text": "The new Mouse Habitat Unit (MHU) we have developed is Japan's first in-space mouse-rearing unit.The unique features of the space experiments utilizing the MHU are as follows: ・ Conducting mouse-rearing experiment in the \"KIBO\" JEM of ISS ・ Allowing comparative experiments in orbit between the microgravity environment and artificial gravity environment ・ Keeping mice individually which facilitates rearing and individual monitoring regardless of the gender of the subject MHI has been working on the internal research and development of in-space life science experiment units.Our research outcomes are reflected throughout the MHU.",
+          "block_index": 2,
+          "section_index": 1,
+          "global_order": 9,
+          "id": "p_2_3"
+        },
+        {
+          "type": "paragraph",
+          "text": "The following will provide an overview of the mouse-rearing experiment, the specifications of the MHU and the outcomes of the first mouse-rearing experiment in-orbit.",
+          "block_index": 3,
+          "section_index": 1,
+          "global_order": 10,
+          "id": "p_2_4"
+        }
+      ]
+    },
+    {
+      "heading": "| 2. Operational overview of mouse-rearing experiment",
+      "paragraphs": [
+        "Figure 1 shows an overview of the mouse-rearing mission utilizing the MHU. Figure 2 shows the individual components of the unit.Figure 2 Unit structure of the MHU",
+        "The major components of the MHU unit include a habitat unit in which mice are reared in-orbit, a transportation cage unit onto which mice are loaded at the time of launch and return, and a glove box which is used for maintenance purposes throughout the term of rearing, such as the transfer of the mice and the cleaning of the cage units.The habitat unit consists of the mouse habitat cage units, which are where the mice are kept, and an interface unit that is equivalent to a control system.There are also separate accessories used for the maintenance of the individual units.",
+        "The apparatuses used inside ISS, including the habitat unit and glove box, are launched prior to the commencement of the in-orbit animal rearing experiment to prepare for accepting the mice in space shortly before their launch.The mice are loaded onto a transportation cage unit which is subsequently loaded into the pressurized compartment of a transfer vehicle used to resupply ISS, prior to being launched.",
+        "After arriving at ISS, the mice are transferred from the transportation cage unit to the mouse habitat cage units.To prevent the mice from running away, the transfer operation is carried out inside the glove box.The mouse habitat cage units into which the mice are transferred are then installed inside an existing experiment unit (CBEF: Cell Biology Experiment Facility) which is placed inside the \"KIBO\" JEM prior to the commencement of the in-orbit animal rearing.",
+        "CBEF has two compartments, a microgravity compartment and an artificial gravity compartment, of which the latter generates artificial gravity through centrifugal force.The mouse habitat cage units are placed in each compartment, which allows a comparative experiment between the microgravity environment and artificial gravity environment.Six mouse habitat cage units are installed in each of the compartments, for a total of 12. Figure 3 shows a habitat unit installed inside CBEF.CBEF is an experiment unit developed by MHI, which has been renovated for the mouse rearing experiment, including the addition of a ventilation function between the interior of CBEF and KIBO's cabin.While the mice are kept in orbit, regular maintenance of the mouse habitat cage units is conducted by the ISS crew members.Part of the maintenance operation is carried out while the mouse habitat cage units are detached from CBEF and placed inside the glove box.",
+        "Upon the completion of the in-orbit rearing operation, the mice are again transferred from the mouse habitat cage units to the transportation cage unit and returned to ground alive by a transfer vehicle."
+      ],
+      "text": "Figure 1 shows an overview of the mouse-rearing mission utilizing the MHU. Figure 2 shows the individual components of the unit.Figure 2 Unit structure of the MHU\nThe major components of the MHU unit include a habitat unit in which mice are reared in-orbit, a transportation cage unit onto which mice are loaded at the time of launch and return, and a glove box which is used for maintenance purposes throughout the term of rearing, such as the transfer of the mice and the cleaning of the cage units.The habitat unit consists of the mouse habitat cage units, which are where the mice are kept, and an interface unit that is equivalent to a control system.There are also separate accessories used for the maintenance of the individual units.\nThe apparatuses used inside ISS, including the habitat unit and glove box, are launched prior to the commencement of the in-orbit animal rearing experiment to prepare for accepting the mice in space shortly before their launch.The mice are loaded onto a transportation cage unit which is subsequently loaded into the pressurized compartment of a transfer vehicle used to resupply ISS, prior to being launched.\nAfter arriving at ISS, the mice are transferred from the transportation cage unit to the mouse habitat cage units.To prevent the mice from running away, the transfer operation is carried out inside the glove box.The mouse habitat cage units into which the mice are transferred are then installed inside an existing experiment unit (CBEF: Cell Biology Experiment Facility) which is placed inside the \"KIBO\" JEM prior to the commencement of the in-orbit animal rearing.\nCBEF has two compartments, a microgravity compartment and an artificial gravity compartment, of which the latter generates artificial gravity through centrifugal force.The mouse habitat cage units are placed in each compartment, which allows a comparative experiment between the microgravity environment and artificial gravity environment.Six mouse habitat cage units are installed in each of the compartments, for a total of 12. Figure 3 shows a habitat unit installed inside CBEF.CBEF is an experiment unit developed by MHI, which has been renovated for the mouse rearing experiment, including the addition of a ventilation function between the interior of CBEF and KIBO's cabin.While the mice are kept in orbit, regular maintenance of the mouse habitat cage units is conducted by the ISS crew members.Part of the maintenance operation is carried out while the mouse habitat cage units are detached from CBEF and placed inside the glove box.\nUpon the completion of the in-orbit rearing operation, the mice are again transferred from the mouse habitat cage units to the transportation cage unit and returned to ground alive by a transfer vehicle.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Figure 1 shows an overview of the mouse-rearing mission utilizing the MHU. Figure 2 shows the individual components of the unit.Figure 2 Unit structure of the MHU",
+          "block_index": 0,
+          "section_index": 2,
+          "global_order": 11,
+          "id": "p_3_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "The major components of the MHU unit include a habitat unit in which mice are reared in-orbit, a transportation cage unit onto which mice are loaded at the time of launch and return, and a glove box which is used for maintenance purposes throughout the term of rearing, such as the transfer of the mice and the cleaning of the cage units.The habitat unit consists of the mouse habitat cage units, which are where the mice are kept, and an interface unit that is equivalent to a control system.There are also separate accessories used for the maintenance of the individual units.",
+          "block_index": 1,
+          "section_index": 2,
+          "global_order": 12,
+          "id": "p_3_2"
+        },
+        {
+          "type": "paragraph",
+          "text": "The apparatuses used inside ISS, including the habitat unit and glove box, are launched prior to the commencement of the in-orbit animal rearing experiment to prepare for accepting the mice in space shortly before their launch.The mice are loaded onto a transportation cage unit which is subsequently loaded into the pressurized compartment of a transfer vehicle used to resupply ISS, prior to being launched.",
+          "block_index": 2,
+          "section_index": 2,
+          "global_order": 13,
+          "id": "p_3_3"
+        },
+        {
+          "type": "paragraph",
+          "text": "After arriving at ISS, the mice are transferred from the transportation cage unit to the mouse habitat cage units.To prevent the mice from running away, the transfer operation is carried out inside the glove box.The mouse habitat cage units into which the mice are transferred are then installed inside an existing experiment unit (CBEF: Cell Biology Experiment Facility) which is placed inside the \"KIBO\" JEM prior to the commencement of the in-orbit animal rearing.",
+          "block_index": 3,
+          "section_index": 2,
+          "global_order": 14,
+          "id": "p_3_4"
+        },
+        {
+          "type": "paragraph",
+          "text": "CBEF has two compartments, a microgravity compartment and an artificial gravity compartment, of which the latter generates artificial gravity through centrifugal force.The mouse habitat cage units are placed in each compartment, which allows a comparative experiment between the microgravity environment and artificial gravity environment.Six mouse habitat cage units are installed in each of the compartments, for a total of 12. Figure 3 shows a habitat unit installed inside CBEF.CBEF is an experiment unit developed by MHI, which has been renovated for the mouse rearing experiment, including the addition of a ventilation function between the interior of CBEF and KIBO's cabin.While the mice are kept in orbit, regular maintenance of the mouse habitat cage units is conducted by the ISS crew members.Part of the maintenance operation is carried out while the mouse habitat cage units are detached from CBEF and placed inside the glove box.",
+          "block_index": 4,
+          "section_index": 2,
+          "global_order": 15,
+          "id": "p_3_5"
+        },
+        {
+          "type": "paragraph",
+          "text": "Upon the completion of the in-orbit rearing operation, the mice are again transferred from the mouse habitat cage units to the transportation cage unit and returned to ground alive by a transfer vehicle.",
+          "block_index": 5,
+          "section_index": 2,
+          "global_order": 16,
+          "id": "p_3_6"
+        }
+      ]
+    },
+    {
+      "heading": "| 3. Mouse Habitat Unit (MHU)",
+      "paragraphs": [
+        "The major components of the MHU are described below.In the development/validation phase of individual components, a verification test utilizing mice which was approved by JAXA animal care and use committee was conducted under the supervision of a certified veterinarian in order to verify the design validity."
+      ],
+      "text": "The major components of the MHU are described below.In the development/validation phase of individual components, a verification test utilizing mice which was approved by JAXA animal care and use committee was conducted under the supervision of a certified veterinarian in order to verify the design validity.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The major components of the MHU are described below.In the development/validation phase of individual components, a verification test utilizing mice which was approved by JAXA animal care and use committee was conducted under the supervision of a certified veterinarian in order to verify the design validity.",
+          "block_index": 0,
+          "section_index": 3,
+          "global_order": 17,
+          "id": "p_4_1"
+        }
+      ]
+    },
+    {
+      "heading": "Mouse habitat cage units",
+      "paragraphs": [
+        "A mouse habitat cage unit is an apparatus in which the mice are loaded and kept during their stay in orbit.Figure 4 illustrates the exterior and structure of a cage unit.One mouse is loaded into every cage unit.To overcome extremely severe resource constraints (unit dimensions/weight) imposed due to installation inside CBEF, the cage units are made compact, lightweight and mostly from resin materials, with all the necessary functions optimally arranged.The individual functions and specifications of a cage unit are described in the following paragraphs.",
+        "(1) Ventilation",
+        "In the microgravity space, unlike on the ground, there is no natural convection current.Therefore, involuntary ventilation in the habitat is critical to sustaining the mice's lives.",
+        "Accordingly, each cage unit is equipped with 2 ventilation fans for redundancy.The ventilation fans secure the required amount of air volume and adopt a slim-type blower fan with excellent static pressure characteristics to reduce the overall size of the units.",
+        "The air inside the habitat flows smoothly from the ceiling down to the floor in one direction, by which, even in the microgravity space, food particles or mouse waste would settle and accumulate in an underfloor waste collection equipment without floating around the habitat.",
+        "In the downstream side of the waste collection equipment, a deodorizing filter is installed to remove gases and odorous components mainly due to ammonia.The ingredients content of the deodorizing filter and the combination ratio thereof are determined based on the outcomes of our internal research and development.(2) Habitat specifications",
+        "The dimensions of the mouse habitat were determined based on the standards for mouse rearing on the ground where sufficient floor area and space were defined in design and the design validity in terms of the occupant comfort was confirmed through an actual mouse-rearing experiment.Liquid-absorbing paper is used for the walls of the habitat, which absorbs mouse urine and spreads it across the walls.Furthermore, a photocatalytic thermal spray is applied to the liquid-absorbing wall paper to add deodorizing and antibacterial effects.",
+        "Specifications concerning noise and wind speed inside the habitat are defined in accordance with the mouse-rearing standards.The air volume for ventilation is adjusted to satisfy the requirements in the specifications.",
+        "(3) Food/water supply",
+        "The cage units are equipped with a water server and food feeder, which are capable of automatic food/water supply even in the microgravity environment.Crew members are only required to top up water and food regularly, which is intended to reduce their workload.",
+        "The water server is based on medical infusion balloons in which the elasticity of the balloon pressurizes the water inside and supplies it as drinking water.The water level in the balloon can be detected with a sensor when it is full or when a certain amount has been consumed.Every cage unit is equipped with 2 water supplying nozzles through which mice obtain water to ensure redundancy.",
+        "Food is supplied by a spring that pushes out a piece of molded food towards the feeding location, and needs to be refilled once a week.However, the MHU adopts a cartridge system for the food, which significantly facilitates replacement of the food cartridge by the crew members.(4) Monitoring A camera is installed in every cage unit, from which images are downlinked to allow monitoring of the mouse habitat conditions inside the individual cages from ground.The camera has a switching function between day and night so that infrared filming is possible even at night.Furthermore, to film the mice in artificial daylight/night or at night, white LED and infrared LED lighting is installed.The camera also has a function that switches the individual LED lights on/off according to the timer installed in the interface unit.",
+        "It has been confirmed in previous overseas mouse-rearing experiments that monitoring the inside of a cage unit through a camera becomes quite difficult when the camera observation window becomes dirty due to contact with the mouse or suspended solids in the habitat.The MHU is equipped with a wiper and a water supplying mechanism through a pump over the observation window which facilitates the mopping thereof."
+      ],
+      "text": "A mouse habitat cage unit is an apparatus in which the mice are loaded and kept during their stay in orbit.Figure 4 illustrates the exterior and structure of a cage unit.One mouse is loaded into every cage unit.To overcome extremely severe resource constraints (unit dimensions/weight) imposed due to installation inside CBEF, the cage units are made compact, lightweight and mostly from resin materials, with all the necessary functions optimally arranged.The individual functions and specifications of a cage unit are described in the following paragraphs.\n(1) Ventilation\nIn the microgravity space, unlike on the ground, there is no natural convection current.Therefore, involuntary ventilation in the habitat is critical to sustaining the mice's lives.\nAccordingly, each cage unit is equipped with 2 ventilation fans for redundancy.The ventilation fans secure the required amount of air volume and adopt a slim-type blower fan with excellent static pressure characteristics to reduce the overall size of the units.\nThe air inside the habitat flows smoothly from the ceiling down to the floor in one direction, by which, even in the microgravity space, food particles or mouse waste would settle and accumulate in an underfloor waste collection equipment without floating around the habitat.\nIn the downstream side of the waste collection equipment, a deodorizing filter is installed to remove gases and odorous components mainly due to ammonia.The ingredients content of the deodorizing filter and the combination ratio thereof are determined based on the outcomes of our internal research and development.(2) Habitat specifications\nThe dimensions of the mouse habitat were determined based on the standards for mouse rearing on the ground where sufficient floor area and space were defined in design and the design validity in terms of the occupant comfort was confirmed through an actual mouse-rearing experiment.Liquid-absorbing paper is used for the walls of the habitat, which absorbs mouse urine and spreads it across the walls.Furthermore, a photocatalytic thermal spray is applied to the liquid-absorbing wall paper to add deodorizing and antibacterial effects.\nSpecifications concerning noise and wind speed inside the habitat are defined in accordance with the mouse-rearing standards.The air volume for ventilation is adjusted to satisfy the requirements in the specifications.\n(3) Food/water supply\nThe cage units are equipped with a water server and food feeder, which are capable of automatic food/water supply even in the microgravity environment.Crew members are only required to top up water and food regularly, which is intended to reduce their workload.\nThe water server is based on medical infusion balloons in which the elasticity of the balloon pressurizes the water inside and supplies it as drinking water.The water level in the balloon can be detected with a sensor when it is full or when a certain amount has been consumed.Every cage unit is equipped with 2 water supplying nozzles through which mice obtain water to ensure redundancy.\nFood is supplied by a spring that pushes out a piece of molded food towards the feeding location, and needs to be refilled once a week.However, the MHU adopts a cartridge system for the food, which significantly facilitates replacement of the food cartridge by the crew members.(4) Monitoring A camera is installed in every cage unit, from which images are downlinked to allow monitoring of the mouse habitat conditions inside the individual cages from ground.The camera has a switching function between day and night so that infrared filming is possible even at night.Furthermore, to film the mice in artificial daylight/night or at night, white LED and infrared LED lighting is installed.The camera also has a function that switches the individual LED lights on/off according to the timer installed in the interface unit.\nIt has been confirmed in previous overseas mouse-rearing experiments that monitoring the inside of a cage unit through a camera becomes quite difficult when the camera observation window becomes dirty due to contact with the mouse or suspended solids in the habitat.The MHU is equipped with a wiper and a water supplying mechanism through a pump over the observation window which facilitates the mopping thereof.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A mouse habitat cage unit is an apparatus in which the mice are loaded and kept during their stay in orbit.Figure 4 illustrates the exterior and structure of a cage unit.One mouse is loaded into every cage unit.To overcome extremely severe resource constraints (unit dimensions/weight) imposed due to installation inside CBEF, the cage units are made compact, lightweight and mostly from resin materials, with all the necessary functions optimally arranged.The individual functions and specifications of a cage unit are described in the following paragraphs.",
+          "block_index": 0,
+          "section_index": 4,
+          "global_order": 18,
+          "id": "p_5_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "(1) Ventilation",
+          "block_index": 1,
+          "section_index": 4,
+          "global_order": 19,
+          "id": "p_5_2"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the microgravity space, unlike on the ground, there is no natural convection current.Therefore, involuntary ventilation in the habitat is critical to sustaining the mice's lives.",
+          "block_index": 2,
+          "section_index": 4,
+          "global_order": 20,
+          "id": "p_5_3"
+        },
+        {
+          "type": "paragraph",
+          "text": "Accordingly, each cage unit is equipped with 2 ventilation fans for redundancy.The ventilation fans secure the required amount of air volume and adopt a slim-type blower fan with excellent static pressure characteristics to reduce the overall size of the units.",
+          "block_index": 3,
+          "section_index": 4,
+          "global_order": 21,
+          "id": "p_5_4"
+        },
+        {
+          "type": "paragraph",
+          "text": "The air inside the habitat flows smoothly from the ceiling down to the floor in one direction, by which, even in the microgravity space, food particles or mouse waste would settle and accumulate in an underfloor waste collection equipment without floating around the habitat.",
+          "block_index": 4,
+          "section_index": 4,
+          "global_order": 22,
+          "id": "p_5_5"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the downstream side of the waste collection equipment, a deodorizing filter is installed to remove gases and odorous components mainly due to ammonia.The ingredients content of the deodorizing filter and the combination ratio thereof are determined based on the outcomes of our internal research and development.(2) Habitat specifications",
+          "block_index": 5,
+          "section_index": 4,
+          "global_order": 23,
+          "id": "p_5_6"
+        },
+        {
+          "type": "paragraph",
+          "text": "The dimensions of the mouse habitat were determined based on the standards for mouse rearing on the ground where sufficient floor area and space were defined in design and the design validity in terms of the occupant comfort was confirmed through an actual mouse-rearing experiment.Liquid-absorbing paper is used for the walls of the habitat, which absorbs mouse urine and spreads it across the walls.Furthermore, a photocatalytic thermal spray is applied to the liquid-absorbing wall paper to add deodorizing and antibacterial effects.",
+          "block_index": 6,
+          "section_index": 4,
+          "global_order": 24,
+          "id": "p_5_7"
+        },
+        {
+          "type": "paragraph",
+          "text": "Specifications concerning noise and wind speed inside the habitat are defined in accordance with the mouse-rearing standards.The air volume for ventilation is adjusted to satisfy the requirements in the specifications.",
+          "block_index": 7,
+          "section_index": 4,
+          "global_order": 25,
+          "id": "p_5_8"
+        },
+        {
+          "type": "paragraph",
+          "text": "(3) Food/water supply",
+          "block_index": 8,
+          "section_index": 4,
+          "global_order": 26,
+          "id": "p_5_9"
+        },
+        {
+          "type": "paragraph",
+          "text": "The cage units are equipped with a water server and food feeder, which are capable of automatic food/water supply even in the microgravity environment.Crew members are only required to top up water and food regularly, which is intended to reduce their workload.",
+          "block_index": 9,
+          "section_index": 4,
+          "global_order": 27,
+          "id": "p_5_10"
+        },
+        {
+          "type": "paragraph",
+          "text": "The water server is based on medical infusion balloons in which the elasticity of the balloon pressurizes the water inside and supplies it as drinking water.The water level in the balloon can be detected with a sensor when it is full or when a certain amount has been consumed.Every cage unit is equipped with 2 water supplying nozzles through which mice obtain water to ensure redundancy.",
+          "block_index": 10,
+          "section_index": 4,
+          "global_order": 28,
+          "id": "p_5_11"
+        },
+        {
+          "type": "paragraph",
+          "text": "Food is supplied by a spring that pushes out a piece of molded food towards the feeding location, and needs to be refilled once a week.However, the MHU adopts a cartridge system for the food, which significantly facilitates replacement of the food cartridge by the crew members.(4) Monitoring A camera is installed in every cage unit, from which images are downlinked to allow monitoring of the mouse habitat conditions inside the individual cages from ground.The camera has a switching function between day and night so that infrared filming is possible even at night.Furthermore, to film the mice in artificial daylight/night or at night, white LED and infrared LED lighting is installed.The camera also has a function that switches the individual LED lights on/off according to the timer installed in the interface unit.",
+          "block_index": 11,
+          "section_index": 4,
+          "global_order": 29,
+          "id": "p_5_12"
+        },
+        {
+          "type": "paragraph",
+          "text": "It has been confirmed in previous overseas mouse-rearing experiments that monitoring the inside of a cage unit through a camera becomes quite difficult when the camera observation window becomes dirty due to contact with the mouse or suspended solids in the habitat.The MHU is equipped with a wiper and a water supplying mechanism through a pump over the observation window which facilitates the mopping thereof.",
+          "block_index": 12,
+          "section_index": 4,
+          "global_order": 30,
+          "id": "p_5_13"
+        }
+      ]
+    },
+    {
+      "heading": "Interface unit",
+      "paragraphs": [
+        "The interface unit is equivalent to the control system of the MHU. Figure 5 illustrates the exterior of the interface unit.The chassis form of the interface unit varies between the microgravity (μG) and artificial gravity (1G) compartments.However, the inner substrate functions are identical in both cases.",
+        "The interface unit houses functions including the power supply to the individual electric components installed in the mouse habitat cage units, sensor signal processing, camera, switching of LED lighting between day and night, command processing and telemetry processing.",
+        "Furthermore, inside the chassis are a CO 2 sensor and NH 3 sensor, with which the levels of CO 2 and ammonia can be measured in the microgravity compartment and artificial gravity compartment of CBEF."
+      ],
+      "text": "The interface unit is equivalent to the control system of the MHU. Figure 5 illustrates the exterior of the interface unit.The chassis form of the interface unit varies between the microgravity (μG) and artificial gravity (1G) compartments.However, the inner substrate functions are identical in both cases.\nThe interface unit houses functions including the power supply to the individual electric components installed in the mouse habitat cage units, sensor signal processing, camera, switching of LED lighting between day and night, command processing and telemetry processing.\nFurthermore, inside the chassis are a CO 2 sensor and NH 3 sensor, with which the levels of CO 2 and ammonia can be measured in the microgravity compartment and artificial gravity compartment of CBEF.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The interface unit is equivalent to the control system of the MHU. Figure 5 illustrates the exterior of the interface unit.The chassis form of the interface unit varies between the microgravity (μG) and artificial gravity (1G) compartments.However, the inner substrate functions are identical in both cases.",
+          "block_index": 0,
+          "section_index": 5,
+          "global_order": 31,
+          "id": "p_6_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "The interface unit houses functions including the power supply to the individual electric components installed in the mouse habitat cage units, sensor signal processing, camera, switching of LED lighting between day and night, command processing and telemetry processing.",
+          "block_index": 1,
+          "section_index": 5,
+          "global_order": 32,
+          "id": "p_6_2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Furthermore, inside the chassis are a CO 2 sensor and NH 3 sensor, with which the levels of CO 2 and ammonia can be measured in the microgravity compartment and artificial gravity compartment of CBEF.",
+          "block_index": 2,
+          "section_index": 5,
+          "global_order": 33,
+          "id": "p_6_3"
+        }
+      ]
+    },
+    {
+      "heading": "Transportation cage unit",
+      "paragraphs": [
+        "The transportation cage unit serves as a life-support system for the mice at the time of launch from the ground to orbit and return from orbit back to ground.Figure 6 shows the transportation cage unit and its structure.There are 12 cages installed inside the unit.Each cage accommodates 1 mouse.The use of this unit is based on the premise that it is loaded on to a special container for in-orbit transfer and storage, called the ISS Locker or Cargo Transfer Bag (CTB).The transportation cage unit also has particularly severe restrictions on the outside dimensions, just like the mouse habitat cage units.Accordingly, the resource constraints are satisfied by designing the air flow channels inside the unit to be as compact as possible.The individual functions and specifications of the transportation cage unit are described below.",
+        "(1) Ventilation Like the mouse habitat cage units, the transportation cage unit is equipped with 2 ventilation fans to secure redundancy.Furthermore, to satisfy the requirements of the mouse-rearing standards concerning noise and wind speed inside the cages, the control system adjusts the rotation speed of the ventilation fans.In the downstream side of the cages, a deodorizing filter is installed, which has the same ingredient contents as the mouse habitat cage units.",
+        "(2) Habitat specifications",
+        "The cages in the transportation cage unit are cylindrical, unlike the mouse habitat cage units.This is to put the unit in a space of limited dimensions/capacity and to maintain the form of the floor surface in the direction of gravity even when the posture of the transfer vehicle changes when the unit is launched.Regarding the occupant comfort, a ground-based verification was conducted utilizing actual mice.",
+        "Mouse waste is discharged to the waste collection area outside the habitat from a hole made in the cylindrical wall of the habitat.To minimize the generation of ammonia, liquid-absorbing paper is applied to the outside of the cylindrical habitat wall and the wall around the waste collection area.",
+        "(3) Food/water supply",
+        "The water server adopts the same method as the mouse habitat cage units where water is pressurized in a balloon and supplied.The molded food is used just like in the mouse habitat cage units.The food used in the transportation cage unit is molded into a cylindrical shape which forms part of the cage walls.(4) Other Since there is no lighting window in the transportation cage unit, the day and night cycle is achieved by LED lighting.A control system manages the turning on/off of the LED lighting.The transportation cage unit obtains its power from the transfer vehicle while on-board.However, as the power is cut while the unit is transferred in orbit, the ventilation fans can obtain electricity from a portable battery box known as the transfer battery.",
+        "There is a thermo-hygro logger and a cosmic radiation meter installed on the outer surface of the unit, which allows the measurement of the environment the unit is installed in."
+      ],
+      "text": "The transportation cage unit serves as a life-support system for the mice at the time of launch from the ground to orbit and return from orbit back to ground.Figure 6 shows the transportation cage unit and its structure.There are 12 cages installed inside the unit.Each cage accommodates 1 mouse.The use of this unit is based on the premise that it is loaded on to a special container for in-orbit transfer and storage, called the ISS Locker or Cargo Transfer Bag (CTB).The transportation cage unit also has particularly severe restrictions on the outside dimensions, just like the mouse habitat cage units.Accordingly, the resource constraints are satisfied by designing the air flow channels inside the unit to be as compact as possible.The individual functions and specifications of the transportation cage unit are described below.\n(1) Ventilation Like the mouse habitat cage units, the transportation cage unit is equipped with 2 ventilation fans to secure redundancy.Furthermore, to satisfy the requirements of the mouse-rearing standards concerning noise and wind speed inside the cages, the control system adjusts the rotation speed of the ventilation fans.In the downstream side of the cages, a deodorizing filter is installed, which has the same ingredient contents as the mouse habitat cage units.\n(2) Habitat specifications\nThe cages in the transportation cage unit are cylindrical, unlike the mouse habitat cage units.This is to put the unit in a space of limited dimensions/capacity and to maintain the form of the floor surface in the direction of gravity even when the posture of the transfer vehicle changes when the unit is launched.Regarding the occupant comfort, a ground-based verification was conducted utilizing actual mice.\nMouse waste is discharged to the waste collection area outside the habitat from a hole made in the cylindrical wall of the habitat.To minimize the generation of ammonia, liquid-absorbing paper is applied to the outside of the cylindrical habitat wall and the wall around the waste collection area.\n(3) Food/water supply\nThe water server adopts the same method as the mouse habitat cage units where water is pressurized in a balloon and supplied.The molded food is used just like in the mouse habitat cage units.The food used in the transportation cage unit is molded into a cylindrical shape which forms part of the cage walls.(4) Other Since there is no lighting window in the transportation cage unit, the day and night cycle is achieved by LED lighting.A control system manages the turning on/off of the LED lighting.The transportation cage unit obtains its power from the transfer vehicle while on-board.However, as the power is cut while the unit is transferred in orbit, the ventilation fans can obtain electricity from a portable battery box known as the transfer battery.\nThere is a thermo-hygro logger and a cosmic radiation meter installed on the outer surface of the unit, which allows the measurement of the environment the unit is installed in.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The transportation cage unit serves as a life-support system for the mice at the time of launch from the ground to orbit and return from orbit back to ground.Figure 6 shows the transportation cage unit and its structure.There are 12 cages installed inside the unit.Each cage accommodates 1 mouse.The use of this unit is based on the premise that it is loaded on to a special container for in-orbit transfer and storage, called the ISS Locker or Cargo Transfer Bag (CTB).The transportation cage unit also has particularly severe restrictions on the outside dimensions, just like the mouse habitat cage units.Accordingly, the resource constraints are satisfied by designing the air flow channels inside the unit to be as compact as possible.The individual functions and specifications of the transportation cage unit are described below.",
+          "block_index": 0,
+          "section_index": 6,
+          "global_order": 34,
+          "id": "p_7_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "(1) Ventilation Like the mouse habitat cage units, the transportation cage unit is equipped with 2 ventilation fans to secure redundancy.Furthermore, to satisfy the requirements of the mouse-rearing standards concerning noise and wind speed inside the cages, the control system adjusts the rotation speed of the ventilation fans.In the downstream side of the cages, a deodorizing filter is installed, which has the same ingredient contents as the mouse habitat cage units.",
+          "block_index": 1,
+          "section_index": 6,
+          "global_order": 35,
+          "id": "p_7_2"
+        },
+        {
+          "type": "paragraph",
+          "text": "(2) Habitat specifications",
+          "block_index": 2,
+          "section_index": 6,
+          "global_order": 36,
+          "id": "p_7_3"
+        },
+        {
+          "type": "paragraph",
+          "text": "The cages in the transportation cage unit are cylindrical, unlike the mouse habitat cage units.This is to put the unit in a space of limited dimensions/capacity and to maintain the form of the floor surface in the direction of gravity even when the posture of the transfer vehicle changes when the unit is launched.Regarding the occupant comfort, a ground-based verification was conducted utilizing actual mice.",
+          "block_index": 3,
+          "section_index": 6,
+          "global_order": 37,
+          "id": "p_7_4"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mouse waste is discharged to the waste collection area outside the habitat from a hole made in the cylindrical wall of the habitat.To minimize the generation of ammonia, liquid-absorbing paper is applied to the outside of the cylindrical habitat wall and the wall around the waste collection area.",
+          "block_index": 4,
+          "section_index": 6,
+          "global_order": 38,
+          "id": "p_7_5"
+        },
+        {
+          "type": "paragraph",
+          "text": "(3) Food/water supply",
+          "block_index": 5,
+          "section_index": 6,
+          "global_order": 39,
+          "id": "p_7_6"
+        },
+        {
+          "type": "paragraph",
+          "text": "The water server adopts the same method as the mouse habitat cage units where water is pressurized in a balloon and supplied.The molded food is used just like in the mouse habitat cage units.The food used in the transportation cage unit is molded into a cylindrical shape which forms part of the cage walls.(4) Other Since there is no lighting window in the transportation cage unit, the day and night cycle is achieved by LED lighting.A control system manages the turning on/off of the LED lighting.The transportation cage unit obtains its power from the transfer vehicle while on-board.However, as the power is cut while the unit is transferred in orbit, the ventilation fans can obtain electricity from a portable battery box known as the transfer battery.",
+          "block_index": 6,
+          "section_index": 6,
+          "global_order": 40,
+          "id": "p_7_7"
+        },
+        {
+          "type": "paragraph",
+          "text": "There is a thermo-hygro logger and a cosmic radiation meter installed on the outer surface of the unit, which allows the measurement of the environment the unit is installed in.",
+          "block_index": 7,
+          "section_index": 6,
+          "global_order": 41,
+          "id": "p_7_8"
+        }
+      ]
+    },
+    {
+      "heading": "Glove box",
+      "paragraphs": [
+        "A glove box is used for the transfer of mice and waste collection, especially when there is a risk of mouse runaway or the scattering of mouse wastes.Figure 7 illustrates the exterior of the glove box and its structure.",
+        "The glove box consists mainly of a back panel, which is the foundation where the box is installed inside KIBO's cabin, and a soft bag which is the work area, and ventilation fans providing air circulation inside the soft bag.To reduce the amount of time required for assembly by the astronauts, the soft bag is designed to be set up without tools.The material for the gloves was carefully selected, which wouldn't break even when being chewed by mice and has good user-friendliness.The gloves come in multiple sizes that can be selected depending on the size of the hands of the ISS crew in charge of conducting the experiment.",
+        "The special features of the glove box include soft vinyl materials used in the work area, unlike the existing ISS glove box.Flexible materials facilitate the folding of the box when it is not in use, maximizing the space inside the cabin.Furthermore, whenever anything becomes dirty or broken, only the soft bag unit needs to be changed, rather than replacing the entire glove box.The major components including the habitat unit and glove box were loaded onto \"KOUNOTORI 5\" (HTV-5), which was launched from Tanegashima Space Center on August 19, 2015.After KOUNOTORI 5 arrived at ISS, checkouts were carried out on the individual components prior to confirming the soundness of the unit after launch.",
+        "Meanwhile, the transportation cage unit accommodating 12 mice intended for the experiment was loaded on to the SpaceX Dragon (CRS-9) in the U.S., and was launched from Cape Canaveral Air Force Station in the U.S. on July 18, 2016.The mice were transferred from the transportation cage unit to the mouse habitat cage units on July 22, and the in-orbit mouse-rearing experiment began.",
+        "The in-orbit mouse-rearing experiment lasted for 35 days, during which various operations including the refilling of potable water/food and waste collection were conducted multiple times.Adequate in-orbit preparation was made in terms of securing backup supplies, procedures in case of emergency and establishing an operational scheme.While in orbit, the health of the mice was successfully maintained.On August 25, all the mice were transferred to the transportation cage unit (pre-launched for re-entry).",
+        "The transportation cage unit was loaded back on CRS-9, disengaged from ISS on August 26, and landed in the Pacific Ocean.The 12 mice were all safely returned alive, recording the world's first successful long-term stay in space.",
+        "This in-orbit experiment (including the related ground-based tests and preparation) was approved by JAXA and NASA Animal Care and Use Committee.The astronauts engaged in this experiment conducted the operation with an approval of Ethics Committee from the safety aspect.",
+        "*1: DNA base sequence information is called genome.The information which chemically modifies the base sequence and its skeletal protein is called epigenome.Even when the gene sequences are identical, the availability of a certain function is determined by epigenome which is known to be susceptible to the surrounding environment."
+      ],
+      "text": "A glove box is used for the transfer of mice and waste collection, especially when there is a risk of mouse runaway or the scattering of mouse wastes.Figure 7 illustrates the exterior of the glove box and its structure.\nThe glove box consists mainly of a back panel, which is the foundation where the box is installed inside KIBO's cabin, and a soft bag which is the work area, and ventilation fans providing air circulation inside the soft bag.To reduce the amount of time required for assembly by the astronauts, the soft bag is designed to be set up without tools.The material for the gloves was carefully selected, which wouldn't break even when being chewed by mice and has good user-friendliness.The gloves come in multiple sizes that can be selected depending on the size of the hands of the ISS crew in charge of conducting the experiment.\nThe special features of the glove box include soft vinyl materials used in the work area, unlike the existing ISS glove box.Flexible materials facilitate the folding of the box when it is not in use, maximizing the space inside the cabin.Furthermore, whenever anything becomes dirty or broken, only the soft bag unit needs to be changed, rather than replacing the entire glove box.The major components including the habitat unit and glove box were loaded onto \"KOUNOTORI 5\" (HTV-5), which was launched from Tanegashima Space Center on August 19, 2015.After KOUNOTORI 5 arrived at ISS, checkouts were carried out on the individual components prior to confirming the soundness of the unit after launch.\nMeanwhile, the transportation cage unit accommodating 12 mice intended for the experiment was loaded on to the SpaceX Dragon (CRS-9) in the U.S., and was launched from Cape Canaveral Air Force Station in the U.S. on July 18, 2016.The mice were transferred from the transportation cage unit to the mouse habitat cage units on July 22, and the in-orbit mouse-rearing experiment began.\nThe in-orbit mouse-rearing experiment lasted for 35 days, during which various operations including the refilling of potable water/food and waste collection were conducted multiple times.Adequate in-orbit preparation was made in terms of securing backup supplies, procedures in case of emergency and establishing an operational scheme.While in orbit, the health of the mice was successfully maintained.On August 25, all the mice were transferred to the transportation cage unit (pre-launched for re-entry).\nThe transportation cage unit was loaded back on CRS-9, disengaged from ISS on August 26, and landed in the Pacific Ocean.The 12 mice were all safely returned alive, recording the world's first successful long-term stay in space.\nThis in-orbit experiment (including the related ground-based tests and preparation) was approved by JAXA and NASA Animal Care and Use Committee.The astronauts engaged in this experiment conducted the operation with an approval of Ethics Committee from the safety aspect.\n*1: DNA base sequence information is called genome.The information which chemically modifies the base sequence and its skeletal protein is called epigenome.Even when the gene sequences are identical, the availability of a certain function is determined by epigenome which is known to be susceptible to the surrounding environment.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A glove box is used for the transfer of mice and waste collection, especially when there is a risk of mouse runaway or the scattering of mouse wastes.Figure 7 illustrates the exterior of the glove box and its structure.",
+          "block_index": 0,
+          "section_index": 7,
+          "global_order": 42,
+          "id": "p_8_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "The glove box consists mainly of a back panel, which is the foundation where the box is installed inside KIBO's cabin, and a soft bag which is the work area, and ventilation fans providing air circulation inside the soft bag.To reduce the amount of time required for assembly by the astronauts, the soft bag is designed to be set up without tools.The material for the gloves was carefully selected, which wouldn't break even when being chewed by mice and has good user-friendliness.The gloves come in multiple sizes that can be selected depending on the size of the hands of the ISS crew in charge of conducting the experiment.",
+          "block_index": 1,
+          "section_index": 7,
+          "global_order": 43,
+          "id": "p_8_2"
+        },
+        {
+          "type": "paragraph",
+          "text": "The special features of the glove box include soft vinyl materials used in the work area, unlike the existing ISS glove box.Flexible materials facilitate the folding of the box when it is not in use, maximizing the space inside the cabin.Furthermore, whenever anything becomes dirty or broken, only the soft bag unit needs to be changed, rather than replacing the entire glove box.The major components including the habitat unit and glove box were loaded onto \"KOUNOTORI 5\" (HTV-5), which was launched from Tanegashima Space Center on August 19, 2015.After KOUNOTORI 5 arrived at ISS, checkouts were carried out on the individual components prior to confirming the soundness of the unit after launch.",
+          "block_index": 2,
+          "section_index": 7,
+          "global_order": 44,
+          "id": "p_8_3"
+        },
+        {
+          "type": "paragraph",
+          "text": "Meanwhile, the transportation cage unit accommodating 12 mice intended for the experiment was loaded on to the SpaceX Dragon (CRS-9) in the U.S., and was launched from Cape Canaveral Air Force Station in the U.S. on July 18, 2016.The mice were transferred from the transportation cage unit to the mouse habitat cage units on July 22, and the in-orbit mouse-rearing experiment began.",
+          "block_index": 3,
+          "section_index": 7,
+          "global_order": 45,
+          "id": "p_8_4"
+        },
+        {
+          "type": "paragraph",
+          "text": "The in-orbit mouse-rearing experiment lasted for 35 days, during which various operations including the refilling of potable water/food and waste collection were conducted multiple times.Adequate in-orbit preparation was made in terms of securing backup supplies, procedures in case of emergency and establishing an operational scheme.While in orbit, the health of the mice was successfully maintained.On August 25, all the mice were transferred to the transportation cage unit (pre-launched for re-entry).",
+          "block_index": 4,
+          "section_index": 7,
+          "global_order": 46,
+          "id": "p_8_5"
+        },
+        {
+          "type": "paragraph",
+          "text": "The transportation cage unit was loaded back on CRS-9, disengaged from ISS on August 26, and landed in the Pacific Ocean.The 12 mice were all safely returned alive, recording the world's first successful long-term stay in space.",
+          "block_index": 5,
+          "section_index": 7,
+          "global_order": 47,
+          "id": "p_8_6"
+        },
+        {
+          "type": "paragraph",
+          "text": "This in-orbit experiment (including the related ground-based tests and preparation) was approved by JAXA and NASA Animal Care and Use Committee.The astronauts engaged in this experiment conducted the operation with an approval of Ethics Committee from the safety aspect.",
+          "block_index": 6,
+          "section_index": 7,
+          "global_order": 48,
+          "id": "p_8_7"
+        },
+        {
+          "type": "paragraph",
+          "text": "*1: DNA base sequence information is called genome.The information which chemically modifies the base sequence and its skeletal protein is called epigenome.Even when the gene sequences are identical, the availability of a certain function is determined by epigenome which is known to be susceptible to the surrounding environment.",
+          "block_index": 7,
+          "section_index": 7,
+          "global_order": 49,
+          "id": "p_8_8"
+        }
+      ]
+    },
+    {
+      "heading": "| 5. Conclusion",
+      "paragraphs": [
+        "MHI has developed Japan's first mouse habitat unit used in space, which keeps the mice in separate cages and allows comparative experiments between the microgravity environment and artificial gravity environment, contributing to the safe return of all the mice alive in the first in-orbit experiment.Following the successful outcome of this experiment, a series of in-orbit mouse-rearing experiments utilizing the MHU will be carried out in the future.MHI will strive to meet diverse future needs based on the lessons learned through the first experiment."
+      ],
+      "text": "MHI has developed Japan's first mouse habitat unit used in space, which keeps the mice in separate cages and allows comparative experiments between the microgravity environment and artificial gravity environment, contributing to the safe return of all the mice alive in the first in-orbit experiment.Following the successful outcome of this experiment, a series of in-orbit mouse-rearing experiments utilizing the MHU will be carried out in the future.MHI will strive to meet diverse future needs based on the lessons learned through the first experiment.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "MHI has developed Japan's first mouse habitat unit used in space, which keeps the mice in separate cages and allows comparative experiments between the microgravity environment and artificial gravity environment, contributing to the safe return of all the mice alive in the first in-orbit experiment.Following the successful outcome of this experiment, a series of in-orbit mouse-rearing experiments utilizing the MHU will be carried out in the future.MHI will strive to meet diverse future needs based on the lessons learned through the first experiment.",
+          "block_index": 0,
+          "section_index": 8,
+          "global_order": 50,
+          "id": "p_9_1"
+        }
+      ]
+    }
+  ],
+  "figures": {
+    "fig_1": {
+      "label": "FigureFigure 2",
+      "caption": "Figure 1 Mouse-rearing experiment overview",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "2,99.24,452.97,200.47,8.74;2,100.62,181.80,402.72,262.56",
+      "coords_groups": [
+        {
+          "page": 2,
+          "x": 99.24,
+          "y": 452.97,
+          "w": 200.47,
+          "h": 8.74,
+          "x2": 299.71,
+          "y2": 461.71000000000004
+        },
+        {
+          "page": 2,
+          "x": 100.62,
+          "y": 181.8,
+          "w": 402.72,
+          "h": 262.56,
+          "x2": 503.34000000000003,
+          "y2": 444.36
+        }
+      ],
+      "bbox": {
+        "page": 2,
+        "x1": 99.24,
+        "y1": 181.8,
+        "x2": 503.34000000000003,
+        "y2": 461.71000000000004,
+        "width": 404.1,
+        "height": 279.91
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 1,
+      "block_global_order": 1,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC7012842/fig_1.jpeg"
+    },
+    "fig_2": {
+      "label": "Figure 3",
+      "caption": "Figure 3 Rearing unit The habitat unit installed in the microgravity compartment (Upper right) and artificial gravity compartment (Lower right) of CBEF",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "3,99.24,452.97,99.88,8.74;3,99.24,463.84,336.55,7.85;3,99.24,473.80,133.06,7.85;3,112.68,211.74,341.76,232.80",
+      "coords_groups": [
+        {
+          "page": 3,
+          "x": 99.24,
+          "y": 452.97,
+          "w": 99.88,
+          "h": 8.74,
+          "x2": 199.12,
+          "y2": 461.71000000000004
+        },
+        {
+          "page": 3,
+          "x": 99.24,
+          "y": 463.84,
+          "w": 336.55,
+          "h": 7.85,
+          "x2": 435.79,
+          "y2": 471.69
+        },
+        {
+          "page": 3,
+          "x": 99.24,
+          "y": 473.8,
+          "w": 133.06,
+          "h": 7.85,
+          "x2": 232.3,
+          "y2": 481.65000000000003
+        },
+        {
+          "page": 3,
+          "x": 112.68,
+          "y": 211.74,
+          "w": 341.76,
+          "h": 232.8,
+          "x2": 454.44,
+          "y2": 444.54
+        }
+      ],
+      "bbox": {
+        "page": 3,
+        "x1": 99.24,
+        "y1": 211.74,
+        "x2": 454.44,
+        "y2": 481.65000000000003,
+        "width": 355.2,
+        "height": 269.91
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 2,
+      "block_global_order": 2,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC7012842/fig_2.png"
+    },
+    "fig_3": {
+      "label": "Figure 4",
+      "caption": "Figure 4 Exterior and structure of a mouse habitat cage unit",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "4,99.24,377.91,264.14,8.74;4,107.16,211.74,332.88,157.68",
+      "coords_groups": [
+        {
+          "page": 4,
+          "x": 99.24,
+          "y": 377.91,
+          "w": 264.14,
+          "h": 8.74,
+          "x2": 363.38,
+          "y2": 386.65000000000003
+        },
+        {
+          "page": 4,
+          "x": 107.16,
+          "y": 211.74,
+          "w": 332.88,
+          "h": 157.68,
+          "x2": 440.03999999999996,
+          "y2": 369.42
+        }
+      ],
+      "bbox": {
+        "page": 4,
+        "x1": 99.24,
+        "y1": 211.74,
+        "x2": 440.03999999999996,
+        "y2": 386.65000000000003,
+        "width": 340.79999999999995,
+        "height": 174.91000000000003
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 3,
+      "block_global_order": 3,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC7012842/fig_3.jpeg"
+    },
+    "fig_4": {
+      "label": "Figure 5",
+      "caption": "Figure 5 Exterior of the interface unit",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "5,99.24,490.89,168.29,8.74;5,109.74,295.74,319.20,186.72",
+      "coords_groups": [
+        {
+          "page": 5,
+          "x": 99.24,
+          "y": 490.89,
+          "w": 168.29,
+          "h": 8.74,
+          "x2": 267.53,
+          "y2": 499.63
+        },
+        {
+          "page": 5,
+          "x": 109.74,
+          "y": 295.74,
+          "w": 319.2,
+          "h": 186.72,
+          "x2": 428.94,
+          "y2": 482.46000000000004
+        }
+      ],
+      "bbox": {
+        "page": 5,
+        "x1": 99.24,
+        "y1": 295.74,
+        "x2": 428.94,
+        "y2": 499.63,
+        "width": 329.7,
+        "height": 203.89
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 4,
+      "block_global_order": 4,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC7012842/fig_4.jpeg"
+    },
+    "fig_5": {
+      "label": "Figure 6",
+      "caption": "Figure 6 Exterior and structure of the transportation cage unit",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "6,99.24,545.79,274.48,8.74;6,114.84,323.70,323.28,213.60",
+      "coords_groups": [
+        {
+          "page": 6,
+          "x": 99.24,
+          "y": 545.79,
+          "w": 274.48,
+          "h": 8.74,
+          "x2": 373.72,
+          "y2": 554.53
+        },
+        {
+          "page": 6,
+          "x": 114.84,
+          "y": 323.7,
+          "w": 323.28,
+          "h": 213.6,
+          "x2": 438.12,
+          "y2": 537.3
+        }
+      ],
+      "bbox": {
+        "page": 6,
+        "x1": 99.24,
+        "y1": 323.7,
+        "x2": 438.12,
+        "y2": 554.53,
+        "width": 338.88,
+        "height": 230.82999999999998
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 5,
+      "block_global_order": 5,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC7012842/fig_5.jpeg"
+    },
+    "fig_6": {
+      "label": "Figure 7",
+      "caption": "Figure 7 Exterior and structure of the glove box | 4. Outcomes of the first mouse-rearing experiment The first Mouse Epigenetics experiment was conducted from July to August 2016.The purposes of the experiment include long-term mouse-rearing in space utilizing the MHU and analyses of the changes of gene expression in the individual organs of each living mouse, as well as the epigenomic *1 changes caused by different gravity environments.Furthermore, investigation of the effects on the next generation is carried out to clarify the bio-response mechanism against the space environment.The technical demonstration of the MHU is also one of the purposes of this experiment.The major components including the habitat unit and glove box were loaded onto \"KOUNOTORI 5\" (HTV-5), which was launched from Tanegashima Space Center on August 19, 2015.After KOUNOTORI 5 arrived at ISS, checkouts were carried out on the individual components prior to confirming the soundness of the unit after launch.Meanwhile, the transportation cage unit accommodating 12 mice intended for the experiment was loaded on to the SpaceX Dragon (CRS-9) in the U.S., and was launched from Cape Canaveral Air Force Station in the U.S. on July 18, 2016.The mice were transferred from the transportation cage unit to the mouse habitat cage units on July 22, and the in-orbit mouse-rearing experiment began.The in-orbit mouse-rearing experiment lasted for 35 days, during which various operations including the refilling of potable water/food and waste collection were conducted multiple times.Adequate in-orbit preparation was made in terms of securing backup supplies, procedures in case of emergency and establishing an operational scheme.While in orbit, the health of the mice was successfully maintained.On August 25, all the mice were transferred to the transportation cage unit (pre-launched for re-entry).The transportation cage unit was loaded back on CRS-9, disengaged from ISS on August 26, and landed in the Pacific Ocean.The 12 mice were all safely returned alive, recording the world's first successful long-term stay in space.This in-orbit experiment (including the related ground-based tests and preparation) was approved by JAXA and NASA Animal Care and Use Committee.The astronauts engaged in this experiment conducted the operation with an approval of Ethics Committee from the safety aspect.",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "7,99.24,220.53,211.49,8.74;7,81.60,241.99,321.29,13.21;7,114.18,262.39,393.37,9.16;7,87.90,276.43,419.51,9.16;7,87.90,290.41,419.90,9.16;7,87.90,304.39,65.21,9.16;7,153.12,301.69,6.99,6.12;7,163.56,304.39,343.94,9.16;7,87.90,318.43,419.64,9.16;7,87.90,332.41,419.62,9.16;7,87.90,346.39,49.86,9.16;7,114.18,360.43,393.38,9.16;7,87.90,374.41,419.71,9.16;7,87.90,388.39,419.62,9.16;7,87.90,402.43,296.00,9.16;7,114.18,416.41,393.34,9.16;7,87.90,430.39,419.55,9.16;7,87.90,444.43,419.63,9.16;7,87.90,458.41,419.62,9.16;7,87.90,472.39,27.77,9.16;7,114.18,486.43,393.42,9.16;7,87.90,500.41,419.66,9.16;7,87.90,514.39,419.66,9.16;7,87.90,528.43,419.62,9.16;7,87.90,542.41,419.62,9.16;7,87.90,556.39,115.13,9.16;7,114.18,570.43,393.37,9.16;7,87.90,584.41,419.63,9.16;7,87.90,598.39,165.73,9.16;7,114.18,612.43,393.41,9.16;7,87.90,626.41,419.60,9.16;7,87.90,640.39,411.35,9.16;7,108.06,49.20,253.20,165.72",
+      "coords_groups": [
+        {
+          "page": 7,
+          "x": 99.24,
+          "y": 220.53,
+          "w": 211.49,
+          "h": 8.74,
+          "x2": 310.73,
+          "y2": 229.27
+        },
+        {
+          "page": 7,
+          "x": 81.6,
+          "y": 241.99,
+          "w": 321.29,
+          "h": 13.21,
+          "x2": 402.89,
+          "y2": 255.20000000000002
+        },
+        {
+          "page": 7,
+          "x": 114.18,
+          "y": 262.39,
+          "w": 393.37,
+          "h": 9.16,
+          "x2": 507.55,
+          "y2": 271.55
+        },
+        {
+          "page": 7,
+          "x": 87.9,
+          "y": 276.43,
+          "w": 419.51,
+          "h": 9.16,
+          "x2": 507.40999999999997,
+          "y2": 285.59000000000003
+        },
+        {
+          "page": 7,
+          "x": 87.9,
+          "y": 290.41,
+          "w": 419.9,
+          "h": 9.16,
+          "x2": 507.79999999999995,
+          "y2": 299.57000000000005
+        },
+        {
+          "page": 7,
+          "x": 87.9,
+          "y": 304.39,
+          "w": 65.21,
+          "h": 9.16,
+          "x2": 153.11,
+          "y2": 313.55
+        },
+        {
+          "page": 7,
+          "x": 153.12,
+          "y": 301.69,
+          "w": 6.99,
+          "h": 6.12,
+          "x2": 160.11,
+          "y2": 307.81
+        },
+        {
+          "page": 7,
+          "x": 163.56,
+          "y": 304.39,
+          "w": 343.94,
+          "h": 9.16,
+          "x2": 507.5,
+          "y2": 313.55
+        },
+        {
+          "page": 7,
+          "x": 87.9,
+          "y": 318.43,
+          "w": 419.64,
+          "h": 9.16,
+          "x2": 507.53999999999996,
+          "y2": 327.59000000000003
+        },
+        {
+          "page": 7,
+          "x": 87.9,
+          "y": 332.41,
+          "w": 419.62,
+          "h": 9.16,
+          "x2": 507.52,
+          "y2": 341.57000000000005
+        },
+        {
+          "page": 7,
+          "x": 87.9,
+          "y": 346.39,
+          "w": 49.86,
+          "h": 9.16,
+          "x2": 137.76,
+          "y2": 355.55
+        },
+        {
+          "page": 7,
+          "x": 114.18,
+          "y": 360.43,
+          "w": 393.38,
+          "h": 9.16,
+          "x2": 507.56,
+          "y2": 369.59000000000003
+        },
+        {
+          "page": 7,
+          "x": 87.9,
+          "y": 374.41,
+          "w": 419.71,
+          "h": 9.16,
+          "x2": 507.61,
+          "y2": 383.57000000000005
+        },
+        {
+          "page": 7,
+          "x": 87.9,
+          "y": 388.39,
+          "w": 419.62,
+          "h": 9.16,
+          "x2": 507.52,
+          "y2": 397.55
+        },
+        {
+          "page": 7,
+          "x": 87.9,
+          "y": 402.43,
+          "w": 296.0,
+          "h": 9.16,
+          "x2": 383.9,
+          "y2": 411.59000000000003
+        },
+        {
+          "page": 7,
+          "x": 114.18,
+          "y": 416.41,
+          "w": 393.34,
+          "h": 9.16,
+          "x2": 507.52,
+          "y2": 425.57000000000005
+        },
+        {
+          "page": 7,
+          "x": 87.9,
+          "y": 430.39,
+          "w": 419.55,
+          "h": 9.16,
+          "x2": 507.45000000000005,
+          "y2": 439.55
+        },
+        {
+          "page": 7,
+          "x": 87.9,
+          "y": 444.43,
+          "w": 419.63,
+          "h": 9.16,
+          "x2": 507.53,
+          "y2": 453.59000000000003
+        },
+        {
+          "page": 7,
+          "x": 87.9,
+          "y": 458.41,
+          "w": 419.62,
+          "h": 9.16,
+          "x2": 507.52,
+          "y2": 467.57000000000005
+        },
+        {
+          "page": 7,
+          "x": 87.9,
+          "y": 472.39,
+          "w": 27.77,
+          "h": 9.16,
+          "x2": 115.67,
+          "y2": 481.55
+        },
+        {
+          "page": 7,
+          "x": 114.18,
+          "y": 486.43,
+          "w": 393.42,
+          "h": 9.16,
+          "x2": 507.6,
+          "y2": 495.59000000000003
+        },
+        {
+          "page": 7,
+          "x": 87.9,
+          "y": 500.41,
+          "w": 419.66,
+          "h": 9.16,
+          "x2": 507.56000000000006,
+          "y2": 509.57000000000005
+        },
+        {
+          "page": 7,
+          "x": 87.9,
+          "y": 514.39,
+          "w": 419.66,
+          "h": 9.16,
+          "x2": 507.56000000000006,
+          "y2": 523.55
+        },
+        {
+          "page": 7,
+          "x": 87.9,
+          "y": 528.43,
+          "w": 419.62,
+          "h": 9.16,
+          "x2": 507.52,
+          "y2": 537.5899999999999
+        },
+        {
+          "page": 7,
+          "x": 87.9,
+          "y": 542.41,
+          "w": 419.62,
+          "h": 9.16,
+          "x2": 507.52,
+          "y2": 551.5699999999999
+        },
+        {
+          "page": 7,
+          "x": 87.9,
+          "y": 556.39,
+          "w": 115.13,
+          "h": 9.16,
+          "x2": 203.03,
+          "y2": 565.55
+        },
+        {
+          "page": 7,
+          "x": 114.18,
+          "y": 570.43,
+          "w": 393.37,
+          "h": 9.16,
+          "x2": 507.55,
+          "y2": 579.5899999999999
+        },
+        {
+          "page": 7,
+          "x": 87.9,
+          "y": 584.41,
+          "w": 419.63,
+          "h": 9.16,
+          "x2": 507.53,
+          "y2": 593.5699999999999
+        },
+        {
+          "page": 7,
+          "x": 87.9,
+          "y": 598.39,
+          "w": 165.73,
+          "h": 9.16,
+          "x2": 253.63,
+          "y2": 607.55
+        },
+        {
+          "page": 7,
+          "x": 114.18,
+          "y": 612.43,
+          "w": 393.41,
+          "h": 9.16,
+          "x2": 507.59000000000003,
+          "y2": 621.5899999999999
+        },
+        {
+          "page": 7,
+          "x": 87.9,
+          "y": 626.41,
+          "w": 419.6,
+          "h": 9.16,
+          "x2": 507.5,
+          "y2": 635.5699999999999
+        },
+        {
+          "page": 7,
+          "x": 87.9,
+          "y": 640.39,
+          "w": 411.35,
+          "h": 9.16,
+          "x2": 499.25,
+          "y2": 649.55
+        },
+        {
+          "page": 7,
+          "x": 108.06,
+          "y": 49.2,
+          "w": 253.2,
+          "h": 165.72,
+          "x2": 361.26,
+          "y2": 214.92000000000002
+        }
+      ],
+      "bbox": {
+        "page": 7,
+        "x1": 81.6,
+        "y1": 49.2,
+        "x2": 507.79999999999995,
+        "y2": 649.55,
+        "width": 426.19999999999993,
+        "height": 600.3499999999999
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 6,
+      "block_global_order": 6,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC7012842/fig_6.jpeg"
+    }
+  },
+  "tables": {},
+  "equations": {},
+  "references": [],
+  "footnotes": [],
+  "full_text": "In-space experiments using mammals are one of the life science fields where researchers are in high demand.Mitsubishi Heavy Industries, Ltd. (MHI) has developed Japan's first in-space mouse habitat unit in accordance with a contract concluded with the Japan Aerospace Exploration Agency (JAXA), based on the outcomes of existing internal research and development.This unit was used for the mouse-rearing experiment conducted on board the \"KIBO\" Japanese Experiment Module (JEM) for the International Space Station (ISS) from July to August 2016, in which all the mice were successfully returned to the ground alive.The alive return of all the experimental mice to the ground after a long-term stay in space was the first such successful mission ever recorded.This report provides an overview and the outcomes of our newly-developed mouse habitat unit and its mission in space.\n\nIt has been known that in space, the human body suffers rapid changes like the age-related ailments that the elderly experience on Earth.It has been discovered that these changes could occur in small animals including mice just like they do in humans.Therefore, research using mice is expected to define the mechanism of the phenomena in further detail such as at the genetic level.Mice are an extremely effective experimental model since they are mammals just like humans, their study outcomes are reasonably applicable to humans and are likely to yield benefits thereto, and there has already been a significant amount of research conducted on Earth.However, so far, no original Japanese in-orbit experiment unit has been developed and in-orbit experiment opportunities have been extremely scarce.\nOn the other hand, there have been a couple of long-term in-space mouse-rearing experiments conducted overseas including those in the U.S. and Italy, which, however, had the following issues in the rearing conditions or monitoring functions: ・ Since the existing habitat units were designed to keep mice only in groups, no male mice with volatile temperaments could be used in the experiment.・ Increasing contamination in the experimental habitat causes stress on the mice, and the contamination of the camera lens hinders the monitoring of the mice as time passes.Particularly, though it is extremely important to secure multiple mice alive in terms of scientific outcomes, the safe return of all the mice alive after a long-term stay in space had always been a great challenge with high technical difficulty, and is something which had never been accomplished until now.\nThe new Mouse Habitat Unit (MHU) we have developed is Japan's first in-space mouse-rearing unit.The unique features of the space experiments utilizing the MHU are as follows: ・ Conducting mouse-rearing experiment in the \"KIBO\" JEM of ISS ・ Allowing comparative experiments in orbit between the microgravity environment and artificial gravity environment ・ Keeping mice individually which facilitates rearing and individual monitoring regardless of the gender of the subject MHI has been working on the internal research and development of in-space life science experiment units.Our research outcomes are reflected throughout the MHU.\nThe following will provide an overview of the mouse-rearing experiment, the specifications of the MHU and the outcomes of the first mouse-rearing experiment in-orbit.\n\nFigure 1 shows an overview of the mouse-rearing mission utilizing the MHU. Figure 2 shows the individual components of the unit.Figure 2 Unit structure of the MHU\nThe major components of the MHU unit include a habitat unit in which mice are reared in-orbit, a transportation cage unit onto which mice are loaded at the time of launch and return, and a glove box which is used for maintenance purposes throughout the term of rearing, such as the transfer of the mice and the cleaning of the cage units.The habitat unit consists of the mouse habitat cage units, which are where the mice are kept, and an interface unit that is equivalent to a control system.There are also separate accessories used for the maintenance of the individual units.\nThe apparatuses used inside ISS, including the habitat unit and glove box, are launched prior to the commencement of the in-orbit animal rearing experiment to prepare for accepting the mice in space shortly before their launch.The mice are loaded onto a transportation cage unit which is subsequently loaded into the pressurized compartment of a transfer vehicle used to resupply ISS, prior to being launched.\nAfter arriving at ISS, the mice are transferred from the transportation cage unit to the mouse habitat cage units.To prevent the mice from running away, the transfer operation is carried out inside the glove box.The mouse habitat cage units into which the mice are transferred are then installed inside an existing experiment unit (CBEF: Cell Biology Experiment Facility) which is placed inside the \"KIBO\" JEM prior to the commencement of the in-orbit animal rearing.\nCBEF has two compartments, a microgravity compartment and an artificial gravity compartment, of which the latter generates artificial gravity through centrifugal force.The mouse habitat cage units are placed in each compartment, which allows a comparative experiment between the microgravity environment and artificial gravity environment.Six mouse habitat cage units are installed in each of the compartments, for a total of 12. Figure 3 shows a habitat unit installed inside CBEF.CBEF is an experiment unit developed by MHI, which has been renovated for the mouse rearing experiment, including the addition of a ventilation function between the interior of CBEF and KIBO's cabin.While the mice are kept in orbit, regular maintenance of the mouse habitat cage units is conducted by the ISS crew members.Part of the maintenance operation is carried out while the mouse habitat cage units are detached from CBEF and placed inside the glove box.\nUpon the completion of the in-orbit rearing operation, the mice are again transferred from the mouse habitat cage units to the transportation cage unit and returned to ground alive by a transfer vehicle.\n\nThe major components of the MHU are described below.In the development/validation phase of individual components, a verification test utilizing mice which was approved by JAXA animal care and use committee was conducted under the supervision of a certified veterinarian in order to verify the design validity.\n\nA mouse habitat cage unit is an apparatus in which the mice are loaded and kept during their stay in orbit.Figure 4 illustrates the exterior and structure of a cage unit.One mouse is loaded into every cage unit.To overcome extremely severe resource constraints (unit dimensions/weight) imposed due to installation inside CBEF, the cage units are made compact, lightweight and mostly from resin materials, with all the necessary functions optimally arranged.The individual functions and specifications of a cage unit are described in the following paragraphs.\n(1) Ventilation\nIn the microgravity space, unlike on the ground, there is no natural convection current.Therefore, involuntary ventilation in the habitat is critical to sustaining the mice's lives.\nAccordingly, each cage unit is equipped with 2 ventilation fans for redundancy.The ventilation fans secure the required amount of air volume and adopt a slim-type blower fan with excellent static pressure characteristics to reduce the overall size of the units.\nThe air inside the habitat flows smoothly from the ceiling down to the floor in one direction, by which, even in the microgravity space, food particles or mouse waste would settle and accumulate in an underfloor waste collection equipment without floating around the habitat.\nIn the downstream side of the waste collection equipment, a deodorizing filter is installed to remove gases and odorous components mainly due to ammonia.The ingredients content of the deodorizing filter and the combination ratio thereof are determined based on the outcomes of our internal research and development.(2) Habitat specifications\nThe dimensions of the mouse habitat were determined based on the standards for mouse rearing on the ground where sufficient floor area and space were defined in design and the design validity in terms of the occupant comfort was confirmed through an actual mouse-rearing experiment.Liquid-absorbing paper is used for the walls of the habitat, which absorbs mouse urine and spreads it across the walls.Furthermore, a photocatalytic thermal spray is applied to the liquid-absorbing wall paper to add deodorizing and antibacterial effects.\nSpecifications concerning noise and wind speed inside the habitat are defined in accordance with the mouse-rearing standards.The air volume for ventilation is adjusted to satisfy the requirements in the specifications.\n(3) Food/water supply\nThe cage units are equipped with a water server and food feeder, which are capable of automatic food/water supply even in the microgravity environment.Crew members are only required to top up water and food regularly, which is intended to reduce their workload.\nThe water server is based on medical infusion balloons in which the elasticity of the balloon pressurizes the water inside and supplies it as drinking water.The water level in the balloon can be detected with a sensor when it is full or when a certain amount has been consumed.Every cage unit is equipped with 2 water supplying nozzles through which mice obtain water to ensure redundancy.\nFood is supplied by a spring that pushes out a piece of molded food towards the feeding location, and needs to be refilled once a week.However, the MHU adopts a cartridge system for the food, which significantly facilitates replacement of the food cartridge by the crew members.(4) Monitoring A camera is installed in every cage unit, from which images are downlinked to allow monitoring of the mouse habitat conditions inside the individual cages from ground.The camera has a switching function between day and night so that infrared filming is possible even at night.Furthermore, to film the mice in artificial daylight/night or at night, white LED and infrared LED lighting is installed.The camera also has a function that switches the individual LED lights on/off according to the timer installed in the interface unit.\nIt has been confirmed in previous overseas mouse-rearing experiments that monitoring the inside of a cage unit through a camera becomes quite difficult when the camera observation window becomes dirty due to contact with the mouse or suspended solids in the habitat.The MHU is equipped with a wiper and a water supplying mechanism through a pump over the observation window which facilitates the mopping thereof.\n\nThe interface unit is equivalent to the control system of the MHU. Figure 5 illustrates the exterior of the interface unit.The chassis form of the interface unit varies between the microgravity (μG) and artificial gravity (1G) compartments.However, the inner substrate functions are identical in both cases.\nThe interface unit houses functions including the power supply to the individual electric components installed in the mouse habitat cage units, sensor signal processing, camera, switching of LED lighting between day and night, command processing and telemetry processing.\nFurthermore, inside the chassis are a CO 2 sensor and NH 3 sensor, with which the levels of CO 2 and ammonia can be measured in the microgravity compartment and artificial gravity compartment of CBEF.\n\nThe transportation cage unit serves as a life-support system for the mice at the time of launch from the ground to orbit and return from orbit back to ground.Figure 6 shows the transportation cage unit and its structure.There are 12 cages installed inside the unit.Each cage accommodates 1 mouse.The use of this unit is based on the premise that it is loaded on to a special container for in-orbit transfer and storage, called the ISS Locker or Cargo Transfer Bag (CTB).The transportation cage unit also has particularly severe restrictions on the outside dimensions, just like the mouse habitat cage units.Accordingly, the resource constraints are satisfied by designing the air flow channels inside the unit to be as compact as possible.The individual functions and specifications of the transportation cage unit are described below.\n(1) Ventilation Like the mouse habitat cage units, the transportation cage unit is equipped with 2 ventilation fans to secure redundancy.Furthermore, to satisfy the requirements of the mouse-rearing standards concerning noise and wind speed inside the cages, the control system adjusts the rotation speed of the ventilation fans.In the downstream side of the cages, a deodorizing filter is installed, which has the same ingredient contents as the mouse habitat cage units.\n(2) Habitat specifications\nThe cages in the transportation cage unit are cylindrical, unlike the mouse habitat cage units.This is to put the unit in a space of limited dimensions/capacity and to maintain the form of the floor surface in the direction of gravity even when the posture of the transfer vehicle changes when the unit is launched.Regarding the occupant comfort, a ground-based verification was conducted utilizing actual mice.\nMouse waste is discharged to the waste collection area outside the habitat from a hole made in the cylindrical wall of the habitat.To minimize the generation of ammonia, liquid-absorbing paper is applied to the outside of the cylindrical habitat wall and the wall around the waste collection area.\n(3) Food/water supply\nThe water server adopts the same method as the mouse habitat cage units where water is pressurized in a balloon and supplied.The molded food is used just like in the mouse habitat cage units.The food used in the transportation cage unit is molded into a cylindrical shape which forms part of the cage walls.(4) Other Since there is no lighting window in the transportation cage unit, the day and night cycle is achieved by LED lighting.A control system manages the turning on/off of the LED lighting.The transportation cage unit obtains its power from the transfer vehicle while on-board.However, as the power is cut while the unit is transferred in orbit, the ventilation fans can obtain electricity from a portable battery box known as the transfer battery.\nThere is a thermo-hygro logger and a cosmic radiation meter installed on the outer surface of the unit, which allows the measurement of the environment the unit is installed in.\n\nA glove box is used for the transfer of mice and waste collection, especially when there is a risk of mouse runaway or the scattering of mouse wastes.Figure 7 illustrates the exterior of the glove box and its structure.\nThe glove box consists mainly of a back panel, which is the foundation where the box is installed inside KIBO's cabin, and a soft bag which is the work area, and ventilation fans providing air circulation inside the soft bag.To reduce the amount of time required for assembly by the astronauts, the soft bag is designed to be set up without tools.The material for the gloves was carefully selected, which wouldn't break even when being chewed by mice and has good user-friendliness.The gloves come in multiple sizes that can be selected depending on the size of the hands of the ISS crew in charge of conducting the experiment.\nThe special features of the glove box include soft vinyl materials used in the work area, unlike the existing ISS glove box.Flexible materials facilitate the folding of the box when it is not in use, maximizing the space inside the cabin.Furthermore, whenever anything becomes dirty or broken, only the soft bag unit needs to be changed, rather than replacing the entire glove box.The major components including the habitat unit and glove box were loaded onto \"KOUNOTORI 5\" (HTV-5), which was launched from Tanegashima Space Center on August 19, 2015.After KOUNOTORI 5 arrived at ISS, checkouts were carried out on the individual components prior to confirming the soundness of the unit after launch.\nMeanwhile, the transportation cage unit accommodating 12 mice intended for the experiment was loaded on to the SpaceX Dragon (CRS-9) in the U.S., and was launched from Cape Canaveral Air Force Station in the U.S. on July 18, 2016.The mice were transferred from the transportation cage unit to the mouse habitat cage units on July 22, and the in-orbit mouse-rearing experiment began.\nThe in-orbit mouse-rearing experiment lasted for 35 days, during which various operations including the refilling of potable water/food and waste collection were conducted multiple times.Adequate in-orbit preparation was made in terms of securing backup supplies, procedures in case of emergency and establishing an operational scheme.While in orbit, the health of the mice was successfully maintained.On August 25, all the mice were transferred to the transportation cage unit (pre-launched for re-entry).\nThe transportation cage unit was loaded back on CRS-9, disengaged from ISS on August 26, and landed in the Pacific Ocean.The 12 mice were all safely returned alive, recording the world's first successful long-term stay in space.\nThis in-orbit experiment (including the related ground-based tests and preparation) was approved by JAXA and NASA Animal Care and Use Committee.The astronauts engaged in this experiment conducted the operation with an approval of Ethics Committee from the safety aspect.\n*1: DNA base sequence information is called genome.The information which chemically modifies the base sequence and its skeletal protein is called epigenome.Even when the gene sequences are identical, the availability of a certain function is determined by epigenome which is known to be susceptible to the surrounding environment.\n\nMHI has developed Japan's first mouse habitat unit used in space, which keeps the mice in separate cages and allows comparative experiments between the microgravity environment and artificial gravity environment, contributing to the safe return of all the mice alive in the first in-orbit experiment.Following the successful outcome of this experiment, a series of in-orbit mouse-rearing experiments utilizing the MHU will be carried out in the future.MHI will strive to meet diverse future needs based on the lessons learned through the first experiment.",
+  "stats": {
+    "section_count": 9,
+    "figure_count": 6,
+    "figure_count_original": 6,
+    "figure_count_synthetic": 0,
+    "table_count": 0,
+    "equation_count": 0,
+    "reference_count": 0,
+    "footnote_count": 0,
+    "extracted_at": "2025-10-05T10:49:39.625303Z",
+    "image_extraction": {
+      "extracted_images": 8,
+      "figure_images_mapped": 6,
+      "table_images_mapped": 0,
+      "cropped_images": 0,
+      "figures_total_all": 6,
+      "figures_total_pure": 6,
+      "figures_total_original": 6,
+      "figures_total_synthetic": 0,
+      "tables_total": 0,
+      "figures_with_image_pure": 6,
+      "tables_with_image": 0,
+      "figures_missing_image_pure": 0,
+      "tables_missing_image": 0
+    },
+    "figures_total_all": 6,
+    "figures_total_pure": 6,
+    "figures_total_original": 6,
+    "figures_total_synthetic": 0,
+    "tables_total": 0,
+    "figures_with_image_pure": 6,
+    "tables_with_image": 0,
+    "validation": {
+      "figure_ids_total": 6,
+      "equation_ids_total": 0,
+      "figure_block_ids": 6,
+      "equation_block_ids": 0,
+      "missing_figure_block_refs": [],
+      "missing_equation_block_refs": [],
+      "global_order_contiguous": true,
+      "block_count": 51,
+      "equations_missing_loc": [],
+      "equations_missing_bbox_expected": []
+    }
+  }
+}

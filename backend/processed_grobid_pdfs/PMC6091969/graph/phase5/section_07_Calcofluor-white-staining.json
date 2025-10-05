@@ -1,0 +1,114 @@
+{
+  "paper_id": "PMC6091969",
+  "section": "Calcofluor white staining",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 723,
+      "label": "Coolsna",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Calcofluor white staining",
+        "sentence_id": 224,
+        "char_start": 47979,
+        "char_end": 47986,
+        "anchor": "PMC6091969_47979_47986",
+        "page": 23,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 724,
+      "label": "Zeiss",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Calcofluor white staining",
+        "sentence_id": 224,
+        "char_start": 48018,
+        "char_end": 48023,
+        "anchor": "PMC6091969_48018_48023",
+        "page": 23,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 718,
+      "label": "Zeiss",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Calcofluor white staining",
+        "sentence_id": 224,
+        "char_start": 47836,
+        "char_end": 47841,
+        "anchor": "PMC6091969_47836_47841",
+        "page": 23,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 719,
+      "label": "Observer",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Calcofluor white staining",
+        "sentence_id": 224,
+        "char_start": 47842,
+        "char_end": 47850,
+        "anchor": "PMC6091969_47842_47850",
+        "page": 23,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 940,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 718,
+      "target": 719
+    },
+    {
+      "id": 941,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 718,
+      "target": 723
+    },
+    {
+      "id": 942,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 718,
+      "target": 724
+    },
+    {
+      "id": 943,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 719,
+      "target": 723
+    },
+    {
+      "id": 944,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 719,
+      "target": 724
+    },
+    {
+      "id": 945,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 723,
+      "target": 724
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 5,
+      "largest_component": 4
+    },
+    "page": 23
+  }
+}

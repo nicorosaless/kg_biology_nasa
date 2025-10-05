@@ -1,0 +1,85 @@
+{
+  "intro": "This document describes the optimization of filtration conditions to isolate G1 embryos while minimizing harm. The key step involves using bleach to kill larvae present after filtration, with embryonic lethality measured after 24 hours to assess the impact of the treatment.",
+  "sections": [
+    {
+      "heading": "Optimization of Filtration Conditions",
+      "summary": "The study optimized conditions for filtering and treating G1 embryos. Initial tests (conditions 1-5) using 25% bleach solution for 30 seconds on embryos recovered from a 20 μM filter showed either surviving larvae or high embryonic lethality (>50%). Consequently, these conditions weren't replicated. Conditions 6 and 7 were tested across five replicates to determine the optimal balance between larvae removal and embryo survival.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": {
+    "heading": "Conclusion",
+    "summary": "Because alive larvae were observed for the first four conditions and the percent embryonic lethality was greater than 50% for the fifth condition, additional replicates were not performed.Data were collected from five replicates for the sixth and seventh conditions."
+  },
+  "keywords": [
+    "filtration",
+    "embryos",
+    "lethality",
+    "bleach",
+    "optimization",
+    "g1 embryos",
+    "larvae removal",
+    "experimental conditions"
+  ],
+  "topics": [
+    "experimental biology",
+    "cell biology",
+    "embryology"
+  ],
+  "_meta": {
+    "paper_id": "sha256:e11e277cd789ef864dae14133b59446c88c73b6368d65d9ee8cd36ddfd56cfda",
+    "paper_title": "",
+    "generated_at": "2025-10-05T10:40:26Z",
+    "word_count": 102,
+    "figures": [],
+    "equations": [],
+    "keywords": [
+      "filtration",
+      "embryos",
+      "lethality",
+      "bleach",
+      "optimization",
+      "g1 embryos",
+      "larvae removal",
+      "experimental conditions"
+    ],
+    "topics": [
+      "experimental biology",
+      "cell biology",
+      "embryology"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 891,
+      "completion_tokens": 298,
+      "total_tokens": 1189,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 8.9e-05,
+      "output_usd": 0.000119,
+      "total_usd": 0.000208
+    },
+    "cost": {
+      "input_usd": 8.9e-05,
+      "output_usd": 0.000119,
+      "total_usd": 0.000208
+    },
+    "figure_selection": {}
+  }
+}

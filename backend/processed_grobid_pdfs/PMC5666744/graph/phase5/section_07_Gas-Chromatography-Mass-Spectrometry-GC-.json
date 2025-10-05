@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC5666744",
+  "section": "Gas Chromatography/Mass Spectrometry (GC/MS)",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 668,
+      "label": "Extracts",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gas Chromatography/Mass Spectrometry (GC/MS)",
+        "sentence_id": 163,
+        "char_start": 41964,
+        "char_end": 41972,
+        "anchor": "PMC5666744_41964_41972",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 669,
+      "label": "Volatile",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gas Chromatography/Mass Spectrometry (GC/MS)",
+        "sentence_id": 163,
+        "char_start": 42115,
+        "char_end": 42123,
+        "anchor": "PMC5666744_42115_42123",
+        "page": 15,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 709,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 668,
+      "target": 669
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 4,
+      "largest_component": 2
+    },
+    "page": 15
+  }
+}

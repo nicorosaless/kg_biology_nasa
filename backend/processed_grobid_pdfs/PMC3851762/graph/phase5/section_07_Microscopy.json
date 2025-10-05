@@ -1,0 +1,84 @@
+{
+  "paper_id": "PMC3851762",
+  "section": "Microscopy",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 184,
+      "label": "SEM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Microscopy",
+        "sentence_id": 48,
+        "char_start": 12327,
+        "char_end": 12330,
+        "anchor": "PMC3851762_12327_12330",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 182,
+      "label": "Image",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Microscopy",
+        "sentence_id": 48,
+        "char_start": 12163,
+        "char_end": 12168,
+        "anchor": "PMC3851762_12163_12168",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 183,
+      "label": "197 cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Microscopy",
+        "sentence_id": 48,
+        "char_start": 12305,
+        "char_end": 12314,
+        "anchor": "PMC3851762_12305_12314",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 208,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 182,
+      "target": 183
+    },
+    {
+      "id": 209,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 182,
+      "target": 184
+    },
+    {
+      "id": 212,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 184,
+      "target": 183
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 14,
+      "largest_component": 3,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 6
+  }
+}

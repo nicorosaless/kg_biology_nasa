@@ -1,0 +1,202 @@
+{
+  "paper_id": "PMC10889206",
+  "section": "Static and Dynamic Histomorphometry",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 224,
+      "label": "mineral",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Static and Dynamic Histomorphometry",
+        "sentence_id": 48,
+        "char_start": 10440,
+        "char_end": 10447,
+        "anchor": "PMC10889206_10440_10447",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 227,
+      "label": "BMAT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Static and Dynamic Histomorphometry",
+        "sentence_id": 48,
+        "char_start": 10241,
+        "char_end": 10245,
+        "anchor": "PMC10889206_10241_10245",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 218,
+      "label": "adoptive",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Static and Dynamic Histomorphometry",
+        "sentence_id": 48,
+        "char_start": 10200,
+        "char_end": 10208,
+        "anchor": "PMC10889206_10200_10208",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 219,
+      "label": "BMAT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Static and Dynamic Histomorphometry",
+        "sentence_id": 48,
+        "char_start": 10241,
+        "char_end": 10245,
+        "anchor": "PMC10889206_10241_10245",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 220,
+      "label": "Kit",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Static and Dynamic Histomorphometry",
+        "sentence_id": 48,
+        "char_start": 10256,
+        "char_end": 10259,
+        "anchor": "PMC10889206_10256_10259",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 221,
+      "label": "dynamic",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Static and Dynamic Histomorphometry",
+        "sentence_id": 48,
+        "char_start": 10285,
+        "char_end": 10292,
+        "anchor": "PMC10889206_10285_10292",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 410,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 218,
+      "target": 219
+    },
+    {
+      "id": 411,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 218,
+      "target": 220
+    },
+    {
+      "id": 412,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 218,
+      "target": 221
+    },
+    {
+      "id": 413,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 218,
+      "target": 224
+    },
+    {
+      "id": 416,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 218,
+      "target": 227
+    },
+    {
+      "id": 417,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 219,
+      "target": 220
+    },
+    {
+      "id": 418,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 219,
+      "target": 221
+    },
+    {
+      "id": 419,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 219,
+      "target": 224
+    },
+    {
+      "id": 422,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 219,
+      "target": 227
+    },
+    {
+      "id": 423,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 220,
+      "target": 221
+    },
+    {
+      "id": 424,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 220,
+      "target": 224
+    },
+    {
+      "id": 427,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 220,
+      "target": 227
+    },
+    {
+      "id": 428,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 221,
+      "target": 224
+    },
+    {
+      "id": 431,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 221,
+      "target": 227
+    },
+    {
+      "id": 434,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 224,
+      "target": 227
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 12,
+      "largest_component": 6,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 4
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "paper_id": "PMC11988870",
+  "section": "METHODS",
+  "n_nodes": 3,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 2,
+      "label": "Scopus",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS",
+        "sentence_id": 19,
+        "char_start": 3468,
+        "char_end": 3474,
+        "anchor": "PMC11988870_3468_3474"
+      }
+    },
+    {
+      "id": 3,
+      "label": "Embase",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS",
+        "sentence_id": 19,
+        "char_start": 3480,
+        "char_end": 3486,
+        "anchor": "PMC11988870_3480_3486"
+      }
+    },
+    {
+      "id": 4,
+      "label": "PICOT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS",
+        "sentence_id": 20,
+        "char_start": 3540,
+        "char_end": 3545,
+        "anchor": "PMC11988870_3540_3545"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2,
+      "target": 3
+    }
+  ]
+}

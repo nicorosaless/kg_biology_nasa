@@ -1,0 +1,892 @@
+{
+  "paper_id": "PMC11263583",
+  "section": "Synthetic PHENOTYPE",
+  "n_nodes": 42,
+  "n_edges": 41,
+  "nodes": [
+    {
+      "id": 45,
+      "label": "nervous system (",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Example 1: Space-induced radiation syndrome and cancer threat",
+        "sentence_id": 29,
+        "char_start": 6828,
+        "char_end": 6844,
+        "anchor": "PMC11263583_6828_6844",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 46,
+      "label": "disturbances",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Example 1: Space-induced radiation syndrome and cancer threat",
+        "sentence_id": 29,
+        "char_start": 6849,
+        "char_end": 6861,
+        "anchor": "PMC11263583_6849_6861",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 68,
+      "label": "radiation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Example 1: Space-induced radiation syndrome and cancer threat",
+        "sentence_id": 34,
+        "char_start": 8246,
+        "char_end": 8255,
+        "anchor": "PMC11263583_8246_8255",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 83,
+      "label": "radiosensitivity",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Example 1: Space-induced radiation syndrome and cancer threat",
+        "sentence_id": 37,
+        "char_start": 9046,
+        "char_end": 9062,
+        "anchor": "PMC11263583_9046_9062",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 93,
+      "label": "bone loss",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Example 2: Space-induced bone demineralization",
+        "sentence_id": 40,
+        "char_start": 9976,
+        "char_end": 9985,
+        "anchor": "PMC11263583_9976_9985",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 109,
+      "label": "romboembolic blood clots",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Example 2: Space-induced bone demineralization",
+        "sentence_id": 43,
+        "char_start": 11102,
+        "char_end": 11126,
+        "anchor": "PMC11263583_11102_11126",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 174,
+      "label": "staying afloat",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Families",
+        "sentence_id": 64,
+        "char_start": 16627,
+        "char_end": 16641,
+        "anchor": "PMC11263583_16627_16641",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 179,
+      "label": "439X mutation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Families",
+        "sentence_id": 65,
+        "char_start": 16813,
+        "char_end": 16826,
+        "anchor": "PMC11263583_16813_16826",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 183,
+      "label": "erythrocytosis",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Families",
+        "sentence_id": 66,
+        "char_start": 16943,
+        "char_end": 16957,
+        "anchor": "PMC11263583_16943_16957",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 192,
+      "label": "altered gas composition",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Families",
+        "sentence_id": 67,
+        "char_start": 17383,
+        "char_end": 17406,
+        "anchor": "PMC11263583_17383_17406",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 196,
+      "label": "APOA1 R173C mutation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Isolated populations",
+        "sentence_id": 69,
+        "char_start": 17661,
+        "char_end": 17681,
+        "anchor": "PMC11263583_17661_17681",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 208,
+      "label": "ApoA-1 Milano",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Isolated populations",
+        "sentence_id": 70,
+        "char_start": 17923,
+        "char_end": 17936,
+        "anchor": "PMC11263583_17923_17936",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 240,
+      "label": "herosclerosis",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Isolated populations",
+        "sentence_id": 74,
+        "char_start": 19200,
+        "char_end": 19213,
+        "anchor": "PMC11263583_19200_19213",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 254,
+      "label": "Space-Induced Change",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Isolated populations",
+        "sentence_id": 75,
+        "char_start": 19613,
+        "char_end": 19633,
+        "anchor": "PMC11263583_19613_19633",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 270,
+      "label": "polymorphism",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Isolated populations",
+        "sentence_id": 75,
+        "char_start": 20163,
+        "char_end": 20175,
+        "anchor": "PMC11263583_20163_20175",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 283,
+      "label": "mutations in the GHR gene",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Isolated populations",
+        "sentence_id": 77,
+        "char_start": 20713,
+        "char_end": 20738,
+        "anchor": "PMC11263583_20713_20738",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 284,
+      "label": "decreased stature",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Isolated populations",
+        "sentence_id": 77,
+        "char_start": 20788,
+        "char_end": 20805,
+        "anchor": "PMC11263583_20788_20805",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 307,
+      "label": "adaptation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Populations adapted to extreme environments",
+        "sentence_id": 82,
+        "char_start": 21622,
+        "char_end": 21632,
+        "anchor": "PMC11263583_21622_21632",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 324,
+      "label": "selection",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Populations adapted to extreme environments",
+        "sentence_id": 84,
+        "char_start": 22714,
+        "char_end": 22723,
+        "anchor": "PMC11263583_22714_22723",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 333,
+      "label": "peripheral vasoconstriction",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Populations adapted to extreme environments",
+        "sentence_id": 85,
+        "char_start": 22983,
+        "char_end": 23010,
+        "anchor": "PMC11263583_22983_23010",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 335,
+      "label": "oxic conditions",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Populations adapted to extreme environments",
+        "sentence_id": 86,
+        "char_start": 23313,
+        "char_end": 23328,
+        "anchor": "PMC11263583_23313_23328",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 346,
+      "label": "lifestyle",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Populations adapted to extreme environments",
+        "sentence_id": 87,
+        "char_start": 23872,
+        "char_end": 23881,
+        "anchor": "PMC11263583_23872_23881",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 347,
+      "label": "ia-inducible",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Populations adapted to extreme environments",
+        "sentence_id": 87,
+        "char_start": 23989,
+        "char_end": 24001,
+        "anchor": "PMC11263583_23989_24001",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 366,
+      "label": "headaches",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Populations adapted to extreme environments",
+        "sentence_id": 90,
+        "char_start": 25311,
+        "char_end": 25320,
+        "anchor": "PMC11263583_25311_25320",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 372,
+      "label": "modulation of",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Populations adapted to extreme environments",
+        "sentence_id": 91,
+        "char_start": 25646,
+        "char_end": 25659,
+        "anchor": "PMC11263583_25646_25659",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 381,
+      "label": "responses",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Studying omics for improved spaceflight nutrition",
+        "sentence_id": 94,
+        "char_start": 26448,
+        "char_end": 26457,
+        "anchor": "PMC11263583_26448_26457",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 419,
+      "label": "muscle atrophy",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Studying omics for improved spaceflight nutrition",
+        "sentence_id": 103,
+        "char_start": 29325,
+        "char_end": 29339,
+        "anchor": "PMC11263583_29325_29339",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 433,
+      "label": "gene variants",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Pharmacogenomics and optimized drug prescribing in space",
+        "sentence_id": 107,
+        "char_start": 30526,
+        "char_end": 30539,
+        "anchor": "PMC11263583_30526_30539",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 436,
+      "label": "Muscle loss",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Pharmacogenomics and optimized drug prescribing in space",
+        "sentence_id": 111,
+        "char_start": 31007,
+        "char_end": 31018,
+        "anchor": "PMC11263583_31007_31018",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 438,
+      "label": "altered metabolism",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Pharmacogenomics and optimized drug prescribing in space",
+        "sentence_id": 113,
+        "char_start": 31328,
+        "char_end": 31346,
+        "anchor": "PMC11263583_31328_31346",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 443,
+      "label": "pain relieve",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Pharmacogenomics and optimized drug prescribing in space",
+        "sentence_id": 115,
+        "char_start": 32007,
+        "char_end": 32019,
+        "anchor": "PMC11263583_32007_32019",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 452,
+      "label": "associated adverse events",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Pharmacogenomics and optimized drug prescribing in space",
+        "sentence_id": 120,
+        "char_start": 33026,
+        "char_end": 33051,
+        "anchor": "PMC11263583_33026_33051",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 462,
+      "label": "genetic variations",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical power, accuracy, and orthologs",
+        "sentence_id": 129,
+        "char_start": 35487,
+        "char_end": 35505,
+        "anchor": "PMC11263583_35487_35505",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 470,
+      "label": "phenotype",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Pleiotropic complications",
+        "sentence_id": 133,
+        "char_start": 36574,
+        "char_end": 36583,
+        "anchor": "PMC11263583_36574_36583",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 477,
+      "label": "gene variants",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Pleiotropic complications",
+        "sentence_id": 134,
+        "char_start": 37284,
+        "char_end": 37297,
+        "anchor": "PMC11263583_37284_37297",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 511,
+      "label": "mutations",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Space-relevant harmful alleles",
+        "sentence_id": 141,
+        "char_start": 39064,
+        "char_end": 39073,
+        "anchor": "PMC11263583_39064_39073",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 512,
+      "label": "mutations",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Space-relevant harmful alleles",
+        "sentence_id": 141,
+        "char_start": 39140,
+        "char_end": 39149,
+        "anchor": "PMC11263583_39140_39149",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 521,
+      "label": "space stress",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Space-relevant harmful alleles",
+        "sentence_id": 142,
+        "char_start": 40108,
+        "char_end": 40120,
+        "anchor": "PMC11263583_40108_40120",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 522,
+      "label": "id dysregulation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Space-relevant harmful alleles",
+        "sentence_id": 142,
+        "char_start": 40223,
+        "char_end": 40239,
+        "anchor": "PMC11263583_40223_40239",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 549,
+      "label": "cognitive",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Space-relevant harmful alleles",
+        "sentence_id": 147,
+        "char_start": 41248,
+        "char_end": 41257,
+        "anchor": "PMC11263583_41248_41257",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 557,
+      "label": "cognitive impairment",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Space-relevant harmful alleles",
+        "sentence_id": 149,
+        "char_start": 41634,
+        "char_end": 41654,
+        "anchor": "PMC11263583_41634_41654",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 563,
+      "label": "ogenous stressor",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Space-relevant harmful alleles",
+        "sentence_id": 151,
+        "char_start": 41903,
+        "char_end": 41919,
+        "anchor": "PMC11263583_41903_41919",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-45-46",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 46
+    },
+    {
+      "id": "synth-45-68",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 68
+    },
+    {
+      "id": "synth-45-83",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 83
+    },
+    {
+      "id": "synth-45-93",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 93
+    },
+    {
+      "id": "synth-45-109",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 109
+    },
+    {
+      "id": "synth-45-174",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 174
+    },
+    {
+      "id": "synth-45-179",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 179
+    },
+    {
+      "id": "synth-45-183",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 183
+    },
+    {
+      "id": "synth-45-192",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 192
+    },
+    {
+      "id": "synth-45-196",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 196
+    },
+    {
+      "id": "synth-45-208",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 208
+    },
+    {
+      "id": "synth-45-240",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 240
+    },
+    {
+      "id": "synth-45-254",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 254
+    },
+    {
+      "id": "synth-45-270",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 270
+    },
+    {
+      "id": "synth-45-283",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 283
+    },
+    {
+      "id": "synth-45-284",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 284
+    },
+    {
+      "id": "synth-45-307",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 307
+    },
+    {
+      "id": "synth-45-324",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 324
+    },
+    {
+      "id": "synth-45-333",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 333
+    },
+    {
+      "id": "synth-45-335",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 335
+    },
+    {
+      "id": "synth-45-346",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 346
+    },
+    {
+      "id": "synth-45-347",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 347
+    },
+    {
+      "id": "synth-45-366",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 366
+    },
+    {
+      "id": "synth-45-372",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 372
+    },
+    {
+      "id": "synth-45-381",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 381
+    },
+    {
+      "id": "synth-45-419",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 419
+    },
+    {
+      "id": "synth-45-433",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 433
+    },
+    {
+      "id": "synth-45-436",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 436
+    },
+    {
+      "id": "synth-45-438",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 438
+    },
+    {
+      "id": "synth-45-443",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 443
+    },
+    {
+      "id": "synth-45-452",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 452
+    },
+    {
+      "id": "synth-45-462",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 462
+    },
+    {
+      "id": "synth-45-470",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 470
+    },
+    {
+      "id": "synth-45-477",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 477
+    },
+    {
+      "id": "synth-45-511",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 511
+    },
+    {
+      "id": "synth-45-512",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 512
+    },
+    {
+      "id": "synth-45-521",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 521
+    },
+    {
+      "id": "synth-45-522",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 522
+    },
+    {
+      "id": "synth-45-549",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 549
+    },
+    {
+      "id": "synth-45-557",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 557
+    },
+    {
+      "id": "synth-45-563",
+      "type": "ASSOCIATED",
+      "source": 45,
+      "target": 563
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "PHENOTYPE",
+    "page": null
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "i) The Choroid and Choroidal Folds",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 1577,
+      "label": "choroid",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "i) The Choroid and Choroidal Folds",
+        "sentence_id": 491,
+        "char_start": 80187,
+        "char_end": 80194,
+        "anchor": "PMC4385880_80187_80194",
+        "page": 38,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1578,
+      "label": "flexible",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "i) The Choroid and Choroidal Folds",
+        "sentence_id": 491,
+        "char_start": 80259,
+        "char_end": 80267,
+        "anchor": "PMC4385880_80259_80267",
+        "page": 38,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1580,
+      "label": "swelling",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "i) The Choroid and Choroidal Folds",
+        "sentence_id": 491,
+        "char_start": 80340,
+        "char_end": 80348,
+        "anchor": "PMC4385880_80340_80348",
+        "page": 38,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1581,
+      "label": "IIH",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "i) The Choroid and Choroidal Folds",
+        "sentence_id": 491,
+        "char_start": 79909,
+        "char_end": 79912,
+        "anchor": "PMC4385880_79909_79912",
+        "page": 38,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1582,
+      "label": "ICP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "i) The Choroid and Choroidal Folds",
+        "sentence_id": 491,
+        "char_start": 80214,
+        "char_end": 80217,
+        "anchor": "PMC4385880_80214_80217",
+        "page": 38,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1559,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1577,
+      "target": 1578
+    },
+    {
+      "id": 1560,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1577,
+      "target": 1580
+    },
+    {
+      "id": 1561,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1577,
+      "target": 1581
+    },
+    {
+      "id": 1562,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1577,
+      "target": 1582
+    },
+    {
+      "id": 1563,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1578,
+      "target": 1580
+    },
+    {
+      "id": 1564,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1578,
+      "target": 1581
+    },
+    {
+      "id": 1565,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1578,
+      "target": 1582
+    },
+    {
+      "id": 1566,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1580,
+      "target": 1581
+    },
+    {
+      "id": 1567,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1580,
+      "target": 1582
+    },
+    {
+      "id": 1568,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1581,
+      "target": 1582
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 7,
+      "removed_orphans": 18,
+      "largest_component": 5,
+      "removed_components": [
+        4,
+        4,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 38
+  }
+}

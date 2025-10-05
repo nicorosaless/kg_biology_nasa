@@ -1,0 +1,205 @@
+{
+  "paper_id": "PMC6091969",
+  "section": "Germination drives neutrophil-mediated fungal killing",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 326,
+      "label": "Af293",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Germination drives neutrophil-mediated fungal killing",
+        "sentence_id": 90,
+        "char_start": 27340,
+        "char_end": 27345,
+        "anchor": "PMC6091969_27340_27345",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 327,
+      "label": "mutation",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Germination drives neutrophil-mediated fungal killing",
+        "sentence_id": 90,
+        "char_start": 27389,
+        "char_end": 27397,
+        "anchor": "PMC6091969_27389_27397",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 328,
+      "label": "CEA1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Germination drives neutrophil-mediated fungal killing",
+        "sentence_id": 90,
+        "char_start": 27489,
+        "char_end": 27493,
+        "anchor": "PMC6091969_27489_27493",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 330,
+      "label": "killing",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Germination drives neutrophil-mediated fungal killing",
+        "sentence_id": 90,
+        "char_start": 27568,
+        "char_end": 27575,
+        "anchor": "PMC6091969_27568_27575",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 332,
+      "label": "CFU",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Germination drives neutrophil-mediated fungal killing",
+        "sentence_id": 90,
+        "char_start": 27589,
+        "char_end": 27592,
+        "anchor": "PMC6091969_27589_27592",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 335,
+      "label": "CFU",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Germination drives neutrophil-mediated fungal killing",
+        "sentence_id": 90,
+        "char_start": 27589,
+        "char_end": 27592,
+        "anchor": "PMC6091969_27589_27592",
+        "page": 13,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 457,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 326,
+      "target": 327
+    },
+    {
+      "id": 458,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 326,
+      "target": 328
+    },
+    {
+      "id": 459,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 326,
+      "target": 330
+    },
+    {
+      "id": 460,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 326,
+      "target": 332
+    },
+    {
+      "id": 462,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 326,
+      "target": 335
+    },
+    {
+      "id": 464,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 327,
+      "target": 328
+    },
+    {
+      "id": 465,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 327,
+      "target": 330
+    },
+    {
+      "id": 466,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 327,
+      "target": 332
+    },
+    {
+      "id": 468,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 327,
+      "target": 335
+    },
+    {
+      "id": 470,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 328,
+      "target": 330
+    },
+    {
+      "id": 471,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 328,
+      "target": 332
+    },
+    {
+      "id": 473,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 328,
+      "target": 335
+    },
+    {
+      "id": 475,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 330,
+      "target": 332
+    },
+    {
+      "id": 477,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 330,
+      "target": 335
+    },
+    {
+      "id": 480,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 332,
+      "target": 335
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 6,
+      "removed_orphans": 19,
+      "largest_component": 6,
+      "removed_components": [
+        5,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 13
+  }
+}

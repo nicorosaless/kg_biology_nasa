@@ -1,0 +1,21 @@
+{
+  "entity_types": {
+    "GENE_PRODUCT": 80,
+    "PUBLICATION": 1
+  },
+  "relation_types": {
+    "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT": 46,
+    "PUBLICATION_EVIDENCES_ENTITY": 80
+  },
+  "n_entities": 81,
+  "n_relations": 126,
+  "relations_with_trigger_pct": 0.0,
+  "n_components": 1,
+  "largest_component_size": 81,
+  "component_size_distribution": [
+    81
+  ],
+  "avg_degree": 3.111111111111111,
+  "median_degree": 1,
+  "isolated_nodes": 0
+}

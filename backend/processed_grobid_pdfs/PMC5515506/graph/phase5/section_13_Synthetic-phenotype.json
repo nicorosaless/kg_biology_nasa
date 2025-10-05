@@ -1,0 +1,430 @@
+{
+  "paper_id": "PMC5515506",
+  "section": "Synthetic PHENOTYPE",
+  "n_nodes": 20,
+  "n_edges": 19,
+  "nodes": [
+    {
+      "id": 2,
+      "label": "weightlessness",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 1,
+        "char_start": 249,
+        "char_end": 263,
+        "anchor": "PMC5515506_249_263",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3,
+      "label": "migration behavior",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 2,
+        "char_start": 513,
+        "char_end": 531,
+        "anchor": "PMC5515506_513_531",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 29,
+      "label": "frequency",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 11,
+        "char_start": 1665,
+        "char_end": 1674,
+        "anchor": "PMC5515506_1665_1674",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 51,
+      "label": "microgravity",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 25,
+        "char_start": 4463,
+        "char_end": 4475,
+        "anchor": "PMC5515506_4463_4475",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 52,
+      "label": "disruptions in",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 25,
+        "char_start": 4502,
+        "char_end": 4516,
+        "anchor": "PMC5515506_4502_4516",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 61,
+      "label": "inconsiste",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 28,
+        "char_start": 5026,
+        "char_end": 5036,
+        "anchor": "PMC5515506_5026_5036",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 71,
+      "label": "acceleration",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 35,
+        "char_start": 6400,
+        "char_end": 6412,
+        "anchor": "PMC5515506_6400_6412",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 90,
+      "label": "focal adhesion",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Materials",
+        "sentence_id": 42,
+        "char_start": 7851,
+        "char_end": 7865,
+        "anchor": "PMC5515506_7851_7865",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 148,
+      "label": "spreading",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Cell migration platform",
+        "sentence_id": 61,
+        "char_start": 10838,
+        "char_end": 10847,
+        "anchor": "PMC5515506_10838_10847",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 234,
+      "label": "spreading",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Simulated microgravity affects cell spreading",
+        "sentence_id": 87,
+        "char_start": 15564,
+        "char_end": 15573,
+        "anchor": "PMC5515506_15564_15573",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 237,
+      "label": "cell spreading",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Simulated microgravity affects cell spreading",
+        "sentence_id": 88,
+        "char_start": 15767,
+        "char_end": 15781,
+        "anchor": "PMC5515506_15767_15781",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 263,
+      "label": "cell spreading",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Simulated microgravity affects cell spreading",
+        "sentence_id": 94,
+        "char_start": 16818,
+        "char_end": 16832,
+        "anchor": "PMC5515506_16818_16832",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 264,
+      "label": "cell spreading",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Simulated microgravity affects cell spreading",
+        "sentence_id": 94,
+        "char_start": 16891,
+        "char_end": 16905,
+        "anchor": "PMC5515506_16891_16905",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 321,
+      "label": "migration",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Cell viability and recovery after clinorotation",
+        "sentence_id": 113,
+        "char_start": 21362,
+        "char_end": 21371,
+        "anchor": "PMC5515506_21362_21371",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 395,
+      "label": "gravitational",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 137,
+        "char_start": 26660,
+        "char_end": 26673,
+        "anchor": "PMC5515506_26660_26673",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 396,
+      "label": "rotational perturbation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 137,
+        "char_start": 26727,
+        "char_end": 26750,
+        "anchor": "PMC5515506_26727_26750",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 398,
+      "label": "etal forces",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 140,
+        "char_start": 27221,
+        "char_end": 27232,
+        "anchor": "PMC5515506_27221_27232",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 399,
+      "label": "acceleration",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 140,
+        "char_start": 27305,
+        "char_end": 27317,
+        "anchor": "PMC5515506_27305_27317",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 404,
+      "label": "inhibit migration",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 145,
+        "char_start": 27900,
+        "char_end": 27917,
+        "anchor": "PMC5515506_27900_27917",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 412,
+      "label": "morphologies",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 150,
+        "char_start": 28670,
+        "char_end": 28682,
+        "anchor": "PMC5515506_28670_28682",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-2-3",
+      "type": "ASSOCIATED",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "id": "synth-2-29",
+      "type": "ASSOCIATED",
+      "source": 2,
+      "target": 29
+    },
+    {
+      "id": "synth-2-51",
+      "type": "ASSOCIATED",
+      "source": 2,
+      "target": 51
+    },
+    {
+      "id": "synth-2-52",
+      "type": "ASSOCIATED",
+      "source": 2,
+      "target": 52
+    },
+    {
+      "id": "synth-2-61",
+      "type": "ASSOCIATED",
+      "source": 2,
+      "target": 61
+    },
+    {
+      "id": "synth-2-71",
+      "type": "ASSOCIATED",
+      "source": 2,
+      "target": 71
+    },
+    {
+      "id": "synth-2-90",
+      "type": "ASSOCIATED",
+      "source": 2,
+      "target": 90
+    },
+    {
+      "id": "synth-2-148",
+      "type": "ASSOCIATED",
+      "source": 2,
+      "target": 148
+    },
+    {
+      "id": "synth-2-234",
+      "type": "ASSOCIATED",
+      "source": 2,
+      "target": 234
+    },
+    {
+      "id": "synth-2-237",
+      "type": "ASSOCIATED",
+      "source": 2,
+      "target": 237
+    },
+    {
+      "id": "synth-2-263",
+      "type": "ASSOCIATED",
+      "source": 2,
+      "target": 263
+    },
+    {
+      "id": "synth-2-264",
+      "type": "ASSOCIATED",
+      "source": 2,
+      "target": 264
+    },
+    {
+      "id": "synth-2-321",
+      "type": "ASSOCIATED",
+      "source": 2,
+      "target": 321
+    },
+    {
+      "id": "synth-2-395",
+      "type": "ASSOCIATED",
+      "source": 2,
+      "target": 395
+    },
+    {
+      "id": "synth-2-396",
+      "type": "ASSOCIATED",
+      "source": 2,
+      "target": 396
+    },
+    {
+      "id": "synth-2-398",
+      "type": "ASSOCIATED",
+      "source": 2,
+      "target": 398
+    },
+    {
+      "id": "synth-2-399",
+      "type": "ASSOCIATED",
+      "source": 2,
+      "target": 399
+    },
+    {
+      "id": "synth-2-404",
+      "type": "ASSOCIATED",
+      "source": 2,
+      "target": 404
+    },
+    {
+      "id": "synth-2-412",
+      "type": "ASSOCIATED",
+      "source": 2,
+      "target": 412
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "PHENOTYPE",
+    "page": null
+  }
+}

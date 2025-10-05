@@ -1,0 +1,208 @@
+{
+  "paper_id": "PMC5477841",
+  "section": "(untitled) spinal nerves, causing severe pain",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 32,
+      "label": "6Disc",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) spinal nerves, causing severe pain",
+        "sentence_id": 15,
+        "char_start": 2477,
+        "char_end": 2482,
+        "anchor": "PMC5477841_2477_2482",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 33,
+      "label": "swelling",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) spinal nerves, causing severe pain",
+        "sentence_id": 15,
+        "char_start": 2483,
+        "char_end": 2491,
+        "anchor": "PMC5477841_2483_2491",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 34,
+      "label": "annulus",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) spinal nerves, causing severe pain",
+        "sentence_id": 15,
+        "char_start": 2520,
+        "char_end": 2527,
+        "anchor": "PMC5477841_2520_2527",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 36,
+      "label": "greater",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) spinal nerves, causing severe pain",
+        "sentence_id": 15,
+        "char_start": 2560,
+        "char_end": 2567,
+        "anchor": "PMC5477841_2560_2567",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 37,
+      "label": "tension",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) spinal nerves, causing severe pain",
+        "sentence_id": 15,
+        "char_start": 2568,
+        "char_end": 2575,
+        "anchor": "PMC5477841_2568_2575",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 38,
+      "label": "6Disc",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) spinal nerves, causing severe pain",
+        "sentence_id": 15,
+        "char_start": 2477,
+        "char_end": 2482,
+        "anchor": "PMC5477841_2477_2482",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 10,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 32,
+      "target": 33
+    },
+    {
+      "id": 11,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 32,
+      "target": 34
+    },
+    {
+      "id": 12,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 32,
+      "target": 36
+    },
+    {
+      "id": 13,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 32,
+      "target": 37
+    },
+    {
+      "id": 14,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 32,
+      "target": 38
+    },
+    {
+      "id": 15,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 33,
+      "target": 34
+    },
+    {
+      "id": 16,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 33,
+      "target": 36
+    },
+    {
+      "id": 17,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 33,
+      "target": 37
+    },
+    {
+      "id": 18,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 33,
+      "target": 38
+    },
+    {
+      "id": 19,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 34,
+      "target": 36
+    },
+    {
+      "id": 20,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 34,
+      "target": 37
+    },
+    {
+      "id": 21,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 34,
+      "target": 38
+    },
+    {
+      "id": 22,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 36,
+      "target": 37
+    },
+    {
+      "id": 23,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 36,
+      "target": 38
+    },
+    {
+      "id": 24,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 37,
+      "target": 38
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 9,
+      "removed_orphans": 13,
+      "largest_component": 6,
+      "removed_components": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 2
+  }
+}

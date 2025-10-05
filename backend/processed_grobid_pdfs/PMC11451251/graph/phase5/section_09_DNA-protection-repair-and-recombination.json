@@ -1,0 +1,120 @@
+{
+  "paper_id": "PMC11451251",
+  "section": "DNA protection, repair and recombination",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 320,
+      "label": "damaging",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA protection, repair and recombination",
+        "sentence_id": 105,
+        "char_start": 22285,
+        "char_end": 22293,
+        "anchor": "PMC11451251_22285_22293",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 321,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA protection, repair and recombination",
+        "sentence_id": 105,
+        "char_start": 22253,
+        "char_end": 22256,
+        "anchor": "PMC11451251_22253_22256",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 318,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA protection, repair and recombination",
+        "sentence_id": 105,
+        "char_start": 22253,
+        "char_end": 22256,
+        "anchor": "PMC11451251_22253_22256",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 319,
+      "label": "elevated",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA protection, repair and recombination",
+        "sentence_id": 105,
+        "char_start": 22264,
+        "char_end": 22272,
+        "anchor": "PMC11451251_22264_22272",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 250,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 318,
+      "target": 319
+    },
+    {
+      "id": 251,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 318,
+      "target": 320
+    },
+    {
+      "id": 252,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 318,
+      "target": 321
+    },
+    {
+      "id": 253,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 319,
+      "target": 320
+    },
+    {
+      "id": 254,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 319,
+      "target": 321
+    },
+    {
+      "id": 255,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 320,
+      "target": 321
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 1,
+      "largest_component": 4,
+      "removed_components": [
+        4,
+        3,
+        3,
+        2
+      ]
+    },
+    "page": 7
+  }
+}

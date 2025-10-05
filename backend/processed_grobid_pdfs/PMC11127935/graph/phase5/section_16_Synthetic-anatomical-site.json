@@ -1,0 +1,178 @@
+{
+  "paper_id": "PMC11127935",
+  "section": "Synthetic ANATOMICAL_SITE",
+  "n_nodes": 8,
+  "n_edges": 7,
+  "nodes": [
+    {
+      "id": 93,
+      "label": "biological structures",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Tardigrades, microscopic animals that survive",
+        "sentence_id": 20,
+        "char_start": 5146,
+        "char_end": 5167,
+        "anchor": "PMC11127935_5146_5167",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 98,
+      "label": "bacterial",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Tardigrades, microscopic animals that survive",
+        "sentence_id": 21,
+        "char_start": 5301,
+        "char_end": 5310,
+        "anchor": "PMC11127935_5301_5310",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 166,
+      "label": "lipid membranes",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "SAHS proteins stabilize liposomes from dehydrationinduced damage",
+        "sentence_id": 35,
+        "char_start": 8398,
+        "char_end": 8413,
+        "anchor": "PMC11127935_8398_8413",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 171,
+      "label": "liposomes",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "SAHS proteins stabilize liposomes from dehydrationinduced damage",
+        "sentence_id": 36,
+        "char_start": 8574,
+        "char_end": 8583,
+        "anchor": "PMC11127935_8574_8583",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 212,
+      "label": "bacterial",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "SAHS proteins enhance survival of desiccated bacterial cells",
+        "sentence_id": 43,
+        "char_start": 10509,
+        "char_end": 10518,
+        "anchor": "PMC11127935_10509_10518",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 557,
+      "label": "E. coli",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 107,
+        "char_start": 25081,
+        "char_end": 25088,
+        "anchor": "PMC11127935_25081_25088",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 558,
+      "label": "cytoplasm",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 107,
+        "char_start": 25089,
+        "char_end": 25098,
+        "anchor": "PMC11127935_25089_25098",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 583,
+      "label": "liposomes",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 111,
+        "char_start": 25657,
+        "char_end": 25666,
+        "anchor": "PMC11127935_25657_25666",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-93-98",
+      "type": "ASSOCIATED",
+      "source": 93,
+      "target": 98
+    },
+    {
+      "id": "synth-93-166",
+      "type": "ASSOCIATED",
+      "source": 93,
+      "target": 166
+    },
+    {
+      "id": "synth-93-171",
+      "type": "ASSOCIATED",
+      "source": 93,
+      "target": 171
+    },
+    {
+      "id": "synth-93-212",
+      "type": "ASSOCIATED",
+      "source": 93,
+      "target": 212
+    },
+    {
+      "id": "synth-93-557",
+      "type": "ASSOCIATED",
+      "source": 93,
+      "target": 557
+    },
+    {
+      "id": "synth-93-558",
+      "type": "ASSOCIATED",
+      "source": 93,
+      "target": 558
+    },
+    {
+      "id": "synth-93-583",
+      "type": "ASSOCIATED",
+      "source": 93,
+      "target": 583
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "ANATOMICAL_SITE",
+    "page": null
+  }
+}

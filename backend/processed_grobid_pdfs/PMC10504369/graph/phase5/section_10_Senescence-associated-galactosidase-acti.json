@@ -1,0 +1,201 @@
+{
+  "paper_id": "PMC10504369",
+  "section": "Senescence-associated β-galactosidase activity assay",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 576,
+      "label": "Slides",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Senescence-associated β-galactosidase activity assay",
+        "sentence_id": 165,
+        "char_start": 36136,
+        "char_end": 36142,
+        "anchor": "PMC10504369_36136_36142",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 580,
+      "label": "Slides",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Senescence-associated β-galactosidase activity assay",
+        "sentence_id": 165,
+        "char_start": 36403,
+        "char_end": 36409,
+        "anchor": "PMC10504369_36403_36409",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 581,
+      "label": "Electron",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Senescence-associated β-galactosidase activity assay",
+        "sentence_id": 165,
+        "char_start": 36106,
+        "char_end": 36114,
+        "anchor": "PMC10504369_36106_36114",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 582,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Senescence-associated β-galactosidase activity assay",
+        "sentence_id": 165,
+        "char_start": 36163,
+        "char_end": 36166,
+        "anchor": "PMC10504369_36163_36166",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 584,
+      "label": "Sigma",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Senescence-associated β-galactosidase activity assay",
+        "sentence_id": 165,
+        "char_start": 36378,
+        "char_end": 36383,
+        "anchor": "PMC10504369_36378_36383",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 587,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Senescence-associated β-galactosidase activity assay",
+        "sentence_id": 165,
+        "char_start": 36427,
+        "char_end": 36430,
+        "anchor": "PMC10504369_36427_36430",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 774,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 576,
+      "target": 580
+    },
+    {
+      "id": 775,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 576,
+      "target": 581
+    },
+    {
+      "id": 776,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 576,
+      "target": 582
+    },
+    {
+      "id": 778,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 576,
+      "target": 584
+    },
+    {
+      "id": 781,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 576,
+      "target": 587
+    },
+    {
+      "id": 782,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 580,
+      "target": 581
+    },
+    {
+      "id": 783,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 580,
+      "target": 582
+    },
+    {
+      "id": 785,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 580,
+      "target": 584
+    },
+    {
+      "id": 788,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 580,
+      "target": 587
+    },
+    {
+      "id": 789,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 581,
+      "target": 582
+    },
+    {
+      "id": 791,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 581,
+      "target": 584
+    },
+    {
+      "id": 794,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 581,
+      "target": 587
+    },
+    {
+      "id": 796,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 582,
+      "target": 584
+    },
+    {
+      "id": 799,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 582,
+      "target": 587
+    },
+    {
+      "id": 806,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 584,
+      "target": 587
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 6,
+      "largest_component": 6,
+      "removed_components": [
+        4
+      ]
+    },
+    "page": 5
+  }
+}

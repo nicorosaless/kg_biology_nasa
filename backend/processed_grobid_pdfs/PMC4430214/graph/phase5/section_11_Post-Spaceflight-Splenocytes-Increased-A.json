@@ -1,0 +1,81 @@
+{
+  "paper_id": "PMC4430214",
+  "section": "Post-Spaceflight Splenocytes Increased Ability to Uptake Particles",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 298,
+      "label": "positive",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-Spaceflight Splenocytes Increased Ability to Uptake Particles",
+        "sentence_id": 84,
+        "char_start": 16043,
+        "char_end": 16051,
+        "anchor": "PMC4430214_16043_16051",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 300,
+      "label": "positive",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-Spaceflight Splenocytes Increased Ability to Uptake Particles",
+        "sentence_id": 84,
+        "char_start": 16316,
+        "char_end": 16324,
+        "anchor": "PMC4430214_16316_16324",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 302,
+      "label": "controls",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-Spaceflight Splenocytes Increased Ability to Uptake Particles",
+        "sentence_id": 84,
+        "char_start": 16414,
+        "char_end": 16422,
+        "anchor": "PMC4430214_16414_16422",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 303,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 298,
+      "target": 300
+    },
+    {
+      "id": 304,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 298,
+      "target": 302
+    },
+    {
+      "id": 309,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 300,
+      "target": 302
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 2,
+      "largest_component": 3
+    },
+    "page": 5
+  }
+}

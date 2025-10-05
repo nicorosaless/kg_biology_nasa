@@ -1,0 +1,130 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "Science",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 212,
+      "label": "Artemis",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Science",
+        "sentence_id": 109,
+        "char_start": 19934,
+        "char_end": 19941,
+        "anchor": "PMC10284894_19934_19941",
+        "page": 21,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 213,
+      "label": "Utah",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Science",
+        "sentence_id": 109,
+        "char_start": 19781,
+        "char_end": 19785,
+        "anchor": "PMC10284894_19781_19785",
+        "page": 20,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 214,
+      "label": "Alabama",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Science",
+        "sentence_id": 109,
+        "char_start": 19791,
+        "char_end": 19798,
+        "anchor": "PMC10284894_19791_19798",
+        "page": 20,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 215,
+      "label": "Artemis",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Science",
+        "sentence_id": 109,
+        "char_start": 19934,
+        "char_end": 19941,
+        "anchor": "PMC10284894_19934_19941",
+        "page": 21,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 205,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 212,
+      "target": 213
+    },
+    {
+      "id": 206,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 212,
+      "target": 214
+    },
+    {
+      "id": 207,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 212,
+      "target": 215
+    },
+    {
+      "id": 208,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 213,
+      "target": 214
+    },
+    {
+      "id": 209,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 213,
+      "target": 215
+    },
+    {
+      "id": 210,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 214,
+      "target": 215
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 15,
+      "removed_orphans": 3,
+      "largest_component": 4,
+      "removed_components": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 20
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "paper_id": "PMC10780891",
+  "section": "Method of Perpendiculars to the Axis of Symmetry through the Point of Attachment (Base) of the Kernel and the Zone of Crease",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 724,
+      "label": "Image",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Method of Perpendiculars to the Axis of Symmetry through the Point of Attachment (Base) of the Kernel and the Zone of Crease",
+        "sentence_id": 208,
+        "char_start": 43977,
+        "char_end": 43982,
+        "anchor": "PMC10780891_43977_43982",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 725,
+      "label": "colored",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Method of Perpendiculars to the Axis of Symmetry through the Point of Attachment (Base) of the Kernel and the Zone of Crease",
+        "sentence_id": 208,
+        "char_start": 44001,
+        "char_end": 44008,
+        "anchor": "PMC10780891_44001_44008",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 728,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Method of Perpendiculars to the Axis of Symmetry through the Point of Attachment (Base) of the Kernel and the Zone of Crease",
+        "sentence_id": 208,
+        "char_start": 44193,
+        "char_end": 44196,
+        "anchor": "PMC10780891_44193_44196",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 729,
+      "label": "control",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Method of Perpendiculars to the Axis of Symmetry through the Point of Attachment (Base) of the Kernel and the Zone of Crease",
+        "sentence_id": 208,
+        "char_start": 44204,
+        "char_end": 44211,
+        "anchor": "PMC10780891_44204_44211",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 730,
+      "label": "Invert",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Method of Perpendiculars to the Axis of Symmetry through the Point of Attachment (Base) of the Kernel and the Zone of Crease",
+        "sentence_id": 208,
+        "char_start": 43958,
+        "char_end": 43964,
+        "anchor": "PMC10780891_43958_43964",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 732,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Method of Perpendiculars to the Axis of Symmetry through the Point of Attachment (Base) of the Kernel and the Zone of Crease",
+        "sentence_id": 208,
+        "char_start": 44193,
+        "char_end": 44196,
+        "anchor": "PMC10780891_44193_44196",
+        "page": 13,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1077,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 724,
+      "target": 725
+    },
+    {
+      "id": 1078,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 724,
+      "target": 728
+    },
+    {
+      "id": 1079,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 724,
+      "target": 729
+    },
+    {
+      "id": 1080,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 724,
+      "target": 730
+    },
+    {
+      "id": 1082,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 724,
+      "target": 732
+    },
+    {
+      "id": 1084,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 725,
+      "target": 728
+    },
+    {
+      "id": 1085,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 725,
+      "target": 729
+    },
+    {
+      "id": 1086,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 725,
+      "target": 730
+    },
+    {
+      "id": 1088,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 725,
+      "target": 732
+    },
+    {
+      "id": 1090,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 728,
+      "target": 729
+    },
+    {
+      "id": 1091,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 728,
+      "target": 730
+    },
+    {
+      "id": 1093,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 728,
+      "target": 732
+    },
+    {
+      "id": 1095,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 729,
+      "target": 730
+    },
+    {
+      "id": 1097,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 729,
+      "target": 732
+    },
+    {
+      "id": 1100,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 730,
+      "target": 732
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 11,
+      "largest_component": 6,
+      "removed_components": [
+        3,
+        2
+      ]
+    },
+    "page": 13
+  }
+}

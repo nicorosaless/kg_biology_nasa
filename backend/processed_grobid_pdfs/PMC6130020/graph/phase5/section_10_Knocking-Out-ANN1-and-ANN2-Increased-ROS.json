@@ -1,0 +1,309 @@
+{
+  "paper_id": "PMC6130020",
+  "section": "Knocking Out ANN1 and ANN2 Increased ROS Levels and Callose Accumulation in Root Tips",
+  "n_nodes": 8,
+  "n_edges": 28,
+  "nodes": [
+    {
+      "id": 299,
+      "label": "ROS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Knocking Out ANN1 and ANN2 Increased ROS Levels and Callose Accumulation in Root Tips",
+        "sentence_id": 69,
+        "char_start": 16443,
+        "char_end": 16446,
+        "anchor": "PMC6130020_16443_16446",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 300,
+      "label": "asmodes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Knocking Out ANN1 and ANN2 Increased ROS Levels and Callose Accumulation in Root Tips",
+        "sentence_id": 69,
+        "char_start": 16459,
+        "char_end": 16466,
+        "anchor": "PMC6130020_16459_16466",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 303,
+      "label": "ANN",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Knocking Out ANN1 and ANN2 Increased ROS Levels and Callose Accumulation in Root Tips",
+        "sentence_id": 69,
+        "char_start": 16601,
+        "char_end": 16604,
+        "anchor": "PMC6130020_16601_16604",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 304,
+      "label": "ANN2",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Knocking Out ANN1 and ANN2 Increased ROS Levels and Callose Accumulation in Root Tips",
+        "sentence_id": 69,
+        "char_start": 16610,
+        "char_end": 16614,
+        "anchor": "PMC6130020_16610_16614",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 305,
+      "label": "dichloro",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Knocking Out ANN1 and ANN2 Increased ROS Levels and Callose Accumulation in Root Tips",
+        "sentence_id": 69,
+        "char_start": 16658,
+        "char_end": 16666,
+        "anchor": "PMC6130020_16658_16666",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 309,
+      "label": "ROS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Knocking Out ANN1 and ANN2 Increased ROS Levels and Callose Accumulation in Root Tips",
+        "sentence_id": 69,
+        "char_start": 16443,
+        "char_end": 16446,
+        "anchor": "PMC6130020_16443_16446",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 311,
+      "label": "ROS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Knocking Out ANN1 and ANN2 Increased ROS Levels and Callose Accumulation in Root Tips",
+        "sentence_id": 69,
+        "char_start": 16624,
+        "char_end": 16627,
+        "anchor": "PMC6130020_16624_16627",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 312,
+      "label": "Suc",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Knocking Out ANN1 and ANN2 Increased ROS Levels and Callose Accumulation in Root Tips",
+        "sentence_id": 69,
+        "char_start": 16803,
+        "char_end": 16806,
+        "anchor": "PMC6130020_16803_16806",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 389,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 299,
+      "target": 300
+    },
+    {
+      "id": 390,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 299,
+      "target": 303
+    },
+    {
+      "id": 391,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 299,
+      "target": 304
+    },
+    {
+      "id": 392,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 299,
+      "target": 305
+    },
+    {
+      "id": 393,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 299,
+      "target": 309
+    },
+    {
+      "id": 395,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 299,
+      "target": 311
+    },
+    {
+      "id": 396,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 299,
+      "target": 312
+    },
+    {
+      "id": 397,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 300,
+      "target": 303
+    },
+    {
+      "id": 398,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 300,
+      "target": 304
+    },
+    {
+      "id": 399,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 300,
+      "target": 305
+    },
+    {
+      "id": 400,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 300,
+      "target": 309
+    },
+    {
+      "id": 402,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 300,
+      "target": 311
+    },
+    {
+      "id": 403,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 300,
+      "target": 312
+    },
+    {
+      "id": 404,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 303,
+      "target": 304
+    },
+    {
+      "id": 405,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 303,
+      "target": 305
+    },
+    {
+      "id": 406,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 303,
+      "target": 309
+    },
+    {
+      "id": 408,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 303,
+      "target": 311
+    },
+    {
+      "id": 409,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 303,
+      "target": 312
+    },
+    {
+      "id": 410,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 304,
+      "target": 305
+    },
+    {
+      "id": 411,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 304,
+      "target": 309
+    },
+    {
+      "id": 413,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 304,
+      "target": 311
+    },
+    {
+      "id": 414,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 304,
+      "target": 312
+    },
+    {
+      "id": 415,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 305,
+      "target": 309
+    },
+    {
+      "id": 417,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 305,
+      "target": 311
+    },
+    {
+      "id": 418,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 305,
+      "target": 312
+    },
+    {
+      "id": 420,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 309,
+      "target": 311
+    },
+    {
+      "id": 421,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 309,
+      "target": 312
+    },
+    {
+      "id": 424,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 311,
+      "target": 312
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 10,
+      "largest_component": 8,
+      "removed_components": [
+        3
+      ]
+    },
+    "page": 5
+  }
+}

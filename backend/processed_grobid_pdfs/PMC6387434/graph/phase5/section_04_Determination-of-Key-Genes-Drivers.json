@@ -1,0 +1,133 @@
+{
+  "paper_id": "PMC6387434",
+  "section": "Determination of Key Genes/Drivers",
+  "n_nodes": 9,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 726,
+      "label": "Western",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of Key Genes/Drivers",
+        "sentence_id": 255,
+        "char_start": 56589,
+        "char_end": 56596,
+        "anchor": "PMC6387434_56589_56596"
+      }
+    },
+    {
+      "id": 727,
+      "label": "qPCR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of Key Genes/Drivers",
+        "sentence_id": 255,
+        "char_start": 56604,
+        "char_end": 56608,
+        "anchor": "PMC6387434_56604_56608"
+      }
+    },
+    {
+      "id": 717,
+      "label": "systems biology method",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of Key Genes/Drivers",
+        "sentence_id": 247,
+        "char_start": 55190,
+        "char_end": 55212,
+        "anchor": "PMC6387434_55190_55212"
+      }
+    },
+    {
+      "id": 718,
+      "label": "drivers",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of Key Genes/Drivers",
+        "sentence_id": 247,
+        "char_start": 55236,
+        "char_end": 55243,
+        "anchor": "PMC6387434_55236_55243"
+      }
+    },
+    {
+      "id": 719,
+      "label": "IPA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of Key Genes/Drivers",
+        "sentence_id": 249,
+        "char_start": 55446,
+        "char_end": 55449,
+        "anchor": "PMC6387434_55446_55449"
+      }
+    },
+    {
+      "id": 722,
+      "label": "IPA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of Key Genes/Drivers",
+        "sentence_id": 252,
+        "char_start": 56106,
+        "char_end": 56109,
+        "anchor": "PMC6387434_56106_56109"
+      }
+    },
+    {
+      "id": 723,
+      "label": "IPA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of Key Genes/Drivers",
+        "sentence_id": 253,
+        "char_start": 56273,
+        "char_end": 56276,
+        "anchor": "PMC6387434_56273_56276"
+      }
+    },
+    {
+      "id": 724,
+      "label": "plotted",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of Key Genes/Drivers",
+        "sentence_id": 254,
+        "char_start": 56354,
+        "char_end": 56361,
+        "anchor": "PMC6387434_56354_56361"
+      }
+    },
+    {
+      "id": 725,
+      "label": "radial plot",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of Key Genes/Drivers",
+        "sentence_id": 254,
+        "char_start": 56382,
+        "char_end": 56393,
+        "anchor": "PMC6387434_56382_56393"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 698,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 726,
+      "target": 727
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "The mannose receptor (Mrc1), a C-type lectin family member, is a transmembrane receptor found on non-vascular endothelium, macrophages, and dendritic cells, and in serum. It recognizes mannose, fucose, and N-acetylglucosamine and binds circulating hormones and adhesion molecules, enabling its involvement in immune responses and leukocyte trafficking. Mrc1, expressed in bone marrow by macrophages and sinusoidal endothelium, modulates hematopoietic stem cell proliferation/maturation and immune cell extravasation. Systemic inflammation, like metabolic disturbances and obesity, impairs bone marrow function, motivating the study of Mrc1's role in bone marrow cell reprogramming and metabolism during obesity.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Figure 1.Mrc1 deficiency impact on circulating immune cell subsets and bone marrow hematopoiesis during high-fat diet feeding.Circulating neutrophils (A), infiltrating monocytes (B), monocytes (C), myeloid cells (D), eosinophils (E), lymphocyte B cells, (F) and lymphocyte",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.png"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Figure 2.",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.png"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Figure 2.",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.png"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Figure 3.Immune cell subset distribution in visceral adipose tissue and liver from Mrc1-deficient and WT mice fed with an HFD for 20 weeks.Macrophages (A), CCR2 + monocyte-derived macrophages (B), and a representative flow cytometry plot",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.png"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Mrc1 Deficiency Affects Bone Marrow Myelopoiesis",
+      "summary": "The study investigated the impact of mannose receptor deficiency on immune cells during obesity by characterizing circulating immune cells in Mrc1 -/- and control WT mice fed a high-fat diet (HFD) for 20 weeks, focusing on myeloid populations. Mrc1 -/- mice showed significantly reduced neutrophils and inflammatory CCR2+ monocyte counts, with a trend toward reduced circulating CD11b+ myeloid cells; eosinophil and lymphocyte counts remained unchanged. Bone marrow profiling revealed similar early progenitor numbers in both groups, but Mrc1 -/- mice showed reduced mature granulocyte progenitors and pre-neutrophils, increased bone marrow adipocytes, and altered macrophage populations.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Mrc1 Deficiency Impacts Immune Infiltration of Tissues",
+      "summary": "Flow cytometry analyses of visceral adipose tissue (VAT) and liver in HFD-fed WT and Mrc1 -/- mice revealed that mannose receptor deficiency was associated with significantly reduced macrophages, especially monocyte-derived macrophages, within VAT, suggesting altered infiltration capacity. This was accompanied by a significant decrease in inflammatory CD11c+ macrophages, especially the F4/80 intermediate subpopulation, which originates from circulating monocytes. A similar trend of reduced myeloid cells was observed in the liver of Mrc1 -/- mice.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Immunomodulation Improves Obese Phenotype",
+      "summary": "Weight gain was compared between HFD-fed Mrc1 -/- and WT mice, showing a significant reduction in weight gain in Mrc1 -/- mice. The relative weight of brown adipose tissue (BAT) and the liver also showed differences. Smaller lipid droplets were observed in BAT, coupled with changes in the gene expression of BAT function genes, including Ppara, Pgc1a, Atgl, and Ucp1. Liver proteome profiling identified 344 downregulated and 363 upregulated proteins in Mrc1 -/- mice, with enriched pathways mainly related to metabolism. There was a noted improvement in glucose and insulin tolerance in Mrc1 -/- mice, indicating a better metabolic profile.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Proteomics Analysis",
+      "summary": "Proteomics analysis of plasma from Mrc1 -/- and WT mice revealed significant differences in protein expression. Principal component analysis showed distinct clustering of the proteomes, and KEGG pathway analysis identified enriched pathways. Ingenuity Pathway Analysis highlighted downregulated or upregulated pathways in Mrc1 -/- mice compared to WT. These findings suggest that Mrc1 deficiency influences systemic protein profiles associated with metabolic and inflammatory processes. Volcano plot of plasma proteome revealed the log2 fold change in protein expression levels.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": {
+    "heading": "Conclusion",
+    "summary": "Extensive details of the materials and methods used in our study are provided as an online supplement."
+  },
+  "keywords": [
+    "mannose receptor",
+    "obesity",
+    "bone marrow",
+    "immune cells",
+    "high-fat diet",
+    "inflammation",
+    "myelopoiesis",
+    "metabolic phenotype",
+    "macrophages",
+    "neutrophils"
+  ],
+  "topics": [
+    "immunology",
+    "metabolism",
+    "bone marrow biology"
+  ],
+  "_meta": {
+    "paper_id": "sha256:ca2a5ae718081d41df68c32a3c0738501b0c9cb49985220014658920ff7eb4fa",
+    "paper_title": "Mannose Receptor Deficiency Impacts Bone Marrow and Circulating Immune Cells during High Fat Diet Induced Obesity",
+    "generated_at": "2025-10-05T10:52:27Z",
+    "word_count": 454,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "mannose receptor",
+      "obesity",
+      "bone marrow",
+      "immune cells",
+      "high-fat diet",
+      "inflammation",
+      "myelopoiesis",
+      "metabolic phenotype",
+      "macrophages",
+      "neutrophils"
+    ],
+    "topics": [
+      "immunology",
+      "metabolism",
+      "bone marrow biology"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 7845,
+      "completion_tokens": 891,
+      "total_tokens": 8736,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000785,
+      "output_usd": 0.000356,
+      "total_usd": 0.001141
+    },
+    "cost": {
+      "input_usd": 0.000785,
+      "output_usd": 0.000356,
+      "total_usd": 0.001141
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [],
+      "corrupted_detected": [
+        "fig_1",
+        "fig_3",
+        "fig_4",
+        "fig_2"
+      ],
+      "original_total": 4,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

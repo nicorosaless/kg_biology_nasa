@@ -1,0 +1,106 @@
+{
+  "paper_id": "PMC3630201",
+  "section": "Tartrate Resistant Acid Phosphatase (TRAP) Staining",
+  "n_nodes": 6,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 233,
+      "label": "SPOT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tartrate Resistant Acid Phosphatase (TRAP) Staining",
+        "sentence_id": 225,
+        "char_start": 49385,
+        "char_end": 49389,
+        "anchor": "PMC3630201_49385_49389"
+      }
+    },
+    {
+      "id": 234,
+      "label": "CCD",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tartrate Resistant Acid Phosphatase (TRAP) Staining",
+        "sentence_id": 225,
+        "char_start": 49407,
+        "char_end": 49410,
+        "anchor": "PMC3630201_49407_49410"
+      }
+    },
+    {
+      "id": 235,
+      "label": "Olympus",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Tartrate Resistant Acid Phosphatase (TRAP) Staining",
+        "sentence_id": 225,
+        "char_start": 49433,
+        "char_end": 49440,
+        "anchor": "PMC3630201_49433_49440"
+      }
+    },
+    {
+      "id": 228,
+      "label": "EtOH",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Tartrate Resistant Acid Phosphatase (TRAP) Staining",
+        "sentence_id": 223,
+        "char_start": 48966,
+        "char_end": 48970,
+        "anchor": "PMC3630201_48966_48970"
+      }
+    },
+    {
+      "id": 229,
+      "label": "EtOH",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Tartrate Resistant Acid Phosphatase (TRAP) Staining",
+        "sentence_id": 223,
+        "char_start": 48976,
+        "char_end": 48980,
+        "anchor": "PMC3630201_48976_48980"
+      }
+    },
+    {
+      "id": 230,
+      "label": "EtOH",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Tartrate Resistant Acid Phosphatase (TRAP) Staining",
+        "sentence_id": 223,
+        "char_start": 48986,
+        "char_end": 48990,
+        "anchor": "PMC3630201_48986_48990"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 207,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 233,
+      "target": 234
+    },
+    {
+      "id": 208,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 233,
+      "target": 235
+    },
+    {
+      "id": 209,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 234,
+      "target": 235
+    }
+  ]
+}

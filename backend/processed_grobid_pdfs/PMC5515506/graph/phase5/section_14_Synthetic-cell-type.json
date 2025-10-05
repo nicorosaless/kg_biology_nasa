@@ -1,0 +1,178 @@
+{
+  "paper_id": "PMC5515506",
+  "section": "Synthetic CELL_TYPE",
+  "n_nodes": 8,
+  "n_edges": 7,
+  "nodes": [
+    {
+      "id": 5,
+      "label": "chymal stem cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 2,
+        "char_start": 546,
+        "char_end": 563,
+        "anchor": "PMC5515506_546_563",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 34,
+      "label": "stem cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 17,
+        "char_start": 2951,
+        "char_end": 2961,
+        "anchor": "PMC5515506_2951_2961",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 55,
+      "label": "chymal stem cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 26,
+        "char_start": 4731,
+        "char_end": 4748,
+        "anchor": "PMC5515506_4731_4748",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 153,
+      "label": "Mesenchymal stem cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Cell migration platform",
+        "sentence_id": 63,
+        "char_start": 11090,
+        "char_end": 11112,
+        "anchor": "PMC5515506_11090_11112",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 295,
+      "label": "elongated cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Simulated microgravity affects cell spreading",
+        "sentence_id": 106,
+        "char_start": 19438,
+        "char_end": 19453,
+        "anchor": "PMC5515506_19438_19453",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 296,
+      "label": "elongated cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Simulated microgravity affects cell spreading",
+        "sentence_id": 106,
+        "char_start": 19524,
+        "char_end": 19539,
+        "anchor": "PMC5515506_19524_19539",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 310,
+      "label": "loss of cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Cell viability and recovery after clinorotation",
+        "sentence_id": 110,
+        "char_start": 20797,
+        "char_end": 20810,
+        "anchor": "PMC5515506_20797_20810",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 316,
+      "label": "all cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Cell viability and recovery after clinorotation",
+        "sentence_id": 112,
+        "char_start": 21068,
+        "char_end": 21077,
+        "anchor": "PMC5515506_21068_21077",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-5-34",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 34
+    },
+    {
+      "id": "synth-5-55",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 55
+    },
+    {
+      "id": "synth-5-153",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 153
+    },
+    {
+      "id": "synth-5-295",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 295
+    },
+    {
+      "id": "synth-5-296",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 296
+    },
+    {
+      "id": "synth-5-310",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 310
+    },
+    {
+      "id": "synth-5-316",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 316
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "CELL_TYPE",
+    "page": null
+  }
+}

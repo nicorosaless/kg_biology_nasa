@@ -1,0 +1,85 @@
+{
+  "paper_id": "PMC5397022",
+  "section": "RNA erxtraction and processing",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 336,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA erxtraction and processing",
+        "sentence_id": 80,
+        "char_start": 14660,
+        "char_end": 14663,
+        "anchor": "PMC5397022_14660_14663",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 337,
+      "label": "RNea",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA erxtraction and processing",
+        "sentence_id": 80,
+        "char_start": 14687,
+        "char_end": 14691,
+        "anchor": "PMC5397022_14687_14691",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 338,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA erxtraction and processing",
+        "sentence_id": 80,
+        "char_start": 14660,
+        "char_end": 14663,
+        "anchor": "PMC5397022_14660_14663",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 441,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 336,
+      "target": 337
+    },
+    {
+      "id": 442,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 336,
+      "target": 338
+    },
+    {
+      "id": 443,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 337,
+      "target": 338
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 14,
+      "largest_component": 3,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 2
+  }
+}

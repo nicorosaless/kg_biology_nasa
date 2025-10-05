@@ -1,0 +1,121 @@
+{
+  "paper_id": "PMC10628120",
+  "section": "Abundance of novel species in ISS metagenomes",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 867,
+      "label": "williams",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Abundance of novel species in ISS metagenomes",
+        "sentence_id": 209,
+        "char_start": 41639,
+        "char_end": 41647,
+        "anchor": "PMC10628120_41639_41647",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 868,
+      "label": "location",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Abundance of novel species in ISS metagenomes",
+        "sentence_id": 209,
+        "char_start": 41680,
+        "char_end": 41688,
+        "anchor": "PMC10628120_41680_41688",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 869,
+      "label": "breadth",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Abundance of novel species in ISS metagenomes",
+        "sentence_id": 209,
+        "char_start": 41703,
+        "char_end": 41710,
+        "anchor": "PMC10628120_41703_41710",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 870,
+      "label": "coverage",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Abundance of novel species in ISS metagenomes",
+        "sentence_id": 209,
+        "char_start": 41714,
+        "char_end": 41722,
+        "anchor": "PMC10628120_41714_41722",
+        "page": 9,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1049,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 867,
+      "target": 868
+    },
+    {
+      "id": 1050,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 867,
+      "target": 869
+    },
+    {
+      "id": 1051,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 867,
+      "target": 870
+    },
+    {
+      "id": 1053,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 868,
+      "target": 869
+    },
+    {
+      "id": 1054,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 868,
+      "target": 870
+    },
+    {
+      "id": 1056,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 869,
+      "target": 870
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 6,
+      "removed_orphans": 9,
+      "largest_component": 4,
+      "removed_components": [
+        4,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 9
+  }
+}

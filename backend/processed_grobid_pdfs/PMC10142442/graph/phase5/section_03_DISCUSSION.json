@@ -1,0 +1,87 @@
+{
+  "paper_id": "PMC10142442",
+  "section": "DISCUSSION",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 448,
+      "label": "GAG",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 120,
+        "char_start": 27169,
+        "char_end": 27172,
+        "anchor": "PMC10142442_27169_27172",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 446,
+      "label": "GAG",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 120,
+        "char_start": 26822,
+        "char_end": 26825,
+        "anchor": "PMC10142442_26822_26825",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 447,
+      "label": "Viruses",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 120,
+        "char_start": 27105,
+        "char_end": 27112,
+        "anchor": "PMC10142442_27105_27112",
+        "page": 9,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 957,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 446,
+      "target": 447
+    },
+    {
+      "id": 958,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 446,
+      "target": 448
+    },
+    {
+      "id": 959,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 447,
+      "target": 448
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 21,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    "page": 9
+  }
+}

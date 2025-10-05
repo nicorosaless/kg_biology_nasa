@@ -1,0 +1,226 @@
+{
+  "paper_id": "PMC4228280",
+  "section": "INTRODUCTION",
+  "n_nodes": 7,
+  "n_edges": 16,
+  "nodes": [
+    {
+      "id": 37,
+      "label": "bacteria",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 20,
+        "char_start": 4304,
+        "char_end": 4312,
+        "anchor": "PMC4228280_4304_4312",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 38,
+      "label": "cell settling",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 20,
+        "char_start": 4377,
+        "char_end": 4390,
+        "anchor": "PMC4228280_4377_4390",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 39,
+      "label": "nutrient",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 20,
+        "char_start": 4428,
+        "char_end": 4436,
+        "anchor": "PMC4228280_4428_4436",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 40,
+      "label": "tile cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 20,
+        "char_start": 4489,
+        "char_end": 4499,
+        "anchor": "PMC4228280_4489_4499",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 42,
+      "label": "gravity",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 20,
+        "char_start": 4694,
+        "char_end": 4701,
+        "anchor": "PMC4228280_4694_4701",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 43,
+      "label": "Benoit",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 20,
+        "char_start": 4147,
+        "char_end": 4153,
+        "anchor": "PMC4228280_4147_4153",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 44,
+      "label": "Klaus",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 20,
+        "char_start": 4158,
+        "char_end": 4163,
+        "anchor": "PMC4228280_4158_4163",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 14,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 37,
+      "target": 39
+    },
+    {
+      "id": 15,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 37,
+      "target": 40
+    },
+    {
+      "id": 16,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 37,
+      "target": 42
+    },
+    {
+      "id": 17,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 37,
+      "target": 43
+    },
+    {
+      "id": 18,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 37,
+      "target": 44
+    },
+    {
+      "id": 19,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 40,
+      "target": 38
+    },
+    {
+      "id": 20,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 39,
+      "target": 40
+    },
+    {
+      "id": 21,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 39,
+      "target": 42
+    },
+    {
+      "id": 22,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 39,
+      "target": 43
+    },
+    {
+      "id": 23,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 39,
+      "target": 44
+    },
+    {
+      "id": 24,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 42,
+      "target": 40
+    },
+    {
+      "id": 25,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 43,
+      "target": 40
+    },
+    {
+      "id": 26,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 44,
+      "target": 40
+    },
+    {
+      "id": 27,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 42,
+      "target": 43
+    },
+    {
+      "id": 28,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 42,
+      "target": 44
+    },
+    {
+      "id": 29,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 43,
+      "target": 44
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 6,
+      "removed_orphans": 19,
+      "largest_component": 7,
+      "removed_components": [
+        5,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 1
+  }
+}

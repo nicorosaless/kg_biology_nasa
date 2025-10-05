@@ -1,0 +1,117 @@
+{
+  "paper_id": "PMC10800490",
+  "section": "The Influence of developmental stage on observed transcriptional responses",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 811,
+      "label": "Day",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The Influence of developmental stage on observed transcriptional responses",
+        "sentence_id": 219,
+        "char_start": 48455,
+        "char_end": 48458,
+        "anchor": "PMC10800490_48455_48458",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 812,
+      "label": "PCA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The Influence of developmental stage on observed transcriptional responses",
+        "sentence_id": 219,
+        "char_start": 48525,
+        "char_end": 48528,
+        "anchor": "PMC10800490_48525_48528",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 813,
+      "label": "Day",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The Influence of developmental stage on observed transcriptional responses",
+        "sentence_id": 219,
+        "char_start": 48650,
+        "char_end": 48653,
+        "anchor": "PMC10800490_48650_48653",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 814,
+      "label": "PCA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The Influence of developmental stage on observed transcriptional responses",
+        "sentence_id": 219,
+        "char_start": 48525,
+        "char_end": 48528,
+        "anchor": "PMC10800490_48525_48528",
+        "page": 13,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1542,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 811,
+      "target": 812
+    },
+    {
+      "id": 1543,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 811,
+      "target": 813
+    },
+    {
+      "id": 1544,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 811,
+      "target": 814
+    },
+    {
+      "id": 1545,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 812,
+      "target": 813
+    },
+    {
+      "id": 1546,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 812,
+      "target": 814
+    },
+    {
+      "id": 1547,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 813,
+      "target": 814
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 13,
+      "largest_component": 4,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 13
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "paper_id": "PMC10628120",
+  "section": "Light microscopy and SEM",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 132,
+      "label": "IPA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Light microscopy and SEM",
+        "sentence_id": 47,
+        "char_start": 10465,
+        "char_end": 10468,
+        "anchor": "PMC10628120_10465_10468",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 133,
+      "label": "Lei",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Light microscopy and SEM",
+        "sentence_id": 47,
+        "char_start": 10722,
+        "char_end": 10725,
+        "anchor": "PMC10628120_10722_10725",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 135,
+      "label": "Them",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Light microscopy and SEM",
+        "sentence_id": 47,
+        "char_start": 10846,
+        "char_end": 10850,
+        "anchor": "PMC10628120_10846_10850",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 136,
+      "label": "Tousimis",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Light microscopy and SEM",
+        "sentence_id": 47,
+        "char_start": 10515,
+        "char_end": 10523,
+        "anchor": "PMC10628120_10515_10523",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 139,
+      "label": "United",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Light microscopy and SEM",
+        "sentence_id": 47,
+        "char_start": 10581,
+        "char_end": 10587,
+        "anchor": "PMC10628120_10581_10587",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 141,
+      "label": "Waltham",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Light microscopy and SEM",
+        "sentence_id": 47,
+        "char_start": 10860,
+        "char_end": 10867,
+        "anchor": "PMC10628120_10860_10867",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 193,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 132,
+      "target": 133
+    },
+    {
+      "id": 194,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 132,
+      "target": 135
+    },
+    {
+      "id": 195,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 132,
+      "target": 136
+    },
+    {
+      "id": 198,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 132,
+      "target": 139
+    },
+    {
+      "id": 200,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 132,
+      "target": 141
+    },
+    {
+      "id": 202,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 133,
+      "target": 135
+    },
+    {
+      "id": 203,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 133,
+      "target": 136
+    },
+    {
+      "id": 206,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 133,
+      "target": 139
+    },
+    {
+      "id": 208,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 133,
+      "target": 141
+    },
+    {
+      "id": 210,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 135,
+      "target": 136
+    },
+    {
+      "id": 213,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 135,
+      "target": 139
+    },
+    {
+      "id": 215,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 135,
+      "target": 141
+    },
+    {
+      "id": 219,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 136,
+      "target": 139
+    },
+    {
+      "id": 221,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 136,
+      "target": 141
+    },
+    {
+      "id": 233,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 139,
+      "target": 141
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 6,
+      "removed_orphans": 6,
+      "largest_component": 6,
+      "removed_components": [
+        5,
+        4,
+        4,
+        3,
+        2
+      ]
+    },
+    "page": 3
+  }
+}

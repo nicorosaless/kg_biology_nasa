@@ -1,0 +1,520 @@
+{
+  "paper_id": "PMC11127935",
+  "section": "Lactate dehydrogenase inactivation assay",
+  "n_nodes": 11,
+  "n_edges": 55,
+  "nodes": [
+    {
+      "id": 752,
+      "label": "Tri",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lactate dehydrogenase inactivation assay",
+        "sentence_id": 147,
+        "char_start": 34608,
+        "char_end": 34611,
+        "anchor": "PMC11127935_34608_34611",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 753,
+      "label": "SAHS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lactate dehydrogenase inactivation assay",
+        "sentence_id": 147,
+        "char_start": 34661,
+        "char_end": 34665,
+        "anchor": "PMC11127935_34661_34665",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 754,
+      "label": "BSA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lactate dehydrogenase inactivation assay",
+        "sentence_id": 147,
+        "char_start": 34678,
+        "char_end": 34681,
+        "anchor": "PMC11127935_34678_34681",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 755,
+      "label": "BSA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lactate dehydrogenase inactivation assay",
+        "sentence_id": 147,
+        "char_start": 34698,
+        "char_end": 34701,
+        "anchor": "PMC11127935_34698_34701",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 756,
+      "label": "Savant",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lactate dehydrogenase inactivation assay",
+        "sentence_id": 147,
+        "char_start": 34833,
+        "char_end": 34839,
+        "anchor": "PMC11127935_34833_34839",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 757,
+      "label": "DDA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lactate dehydrogenase inactivation assay",
+        "sentence_id": 147,
+        "char_start": 34846,
+        "char_end": 34849,
+        "anchor": "PMC11127935_34846_34849",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 758,
+      "label": "Roche",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lactate dehydrogenase inactivation assay",
+        "sentence_id": 147,
+        "char_start": 34542,
+        "char_end": 34547,
+        "anchor": "PMC11127935_34542_34547",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 762,
+      "label": "Tris",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lactate dehydrogenase inactivation assay",
+        "sentence_id": 147,
+        "char_start": 34608,
+        "char_end": 34612,
+        "anchor": "PMC11127935_34608_34612",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 763,
+      "label": "SAHS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lactate dehydrogenase inactivation assay",
+        "sentence_id": 147,
+        "char_start": 34661,
+        "char_end": 34665,
+        "anchor": "PMC11127935_34661_34665",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 764,
+      "label": "BSA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lactate dehydrogenase inactivation assay",
+        "sentence_id": 147,
+        "char_start": 34678,
+        "char_end": 34681,
+        "anchor": "PMC11127935_34678_34681",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 766,
+      "label": "Savant",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lactate dehydrogenase inactivation assay",
+        "sentence_id": 147,
+        "char_start": 34833,
+        "char_end": 34839,
+        "anchor": "PMC11127935_34833_34839",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1927,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 752,
+      "target": 753
+    },
+    {
+      "id": 1928,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 752,
+      "target": 754
+    },
+    {
+      "id": 1929,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 752,
+      "target": 755
+    },
+    {
+      "id": 1930,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 752,
+      "target": 756
+    },
+    {
+      "id": 1931,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 752,
+      "target": 757
+    },
+    {
+      "id": 1932,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 752,
+      "target": 758
+    },
+    {
+      "id": 1936,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 752,
+      "target": 762
+    },
+    {
+      "id": 1937,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 752,
+      "target": 763
+    },
+    {
+      "id": 1938,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 752,
+      "target": 764
+    },
+    {
+      "id": 1940,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 752,
+      "target": 766
+    },
+    {
+      "id": 1941,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 753,
+      "target": 754
+    },
+    {
+      "id": 1942,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 753,
+      "target": 755
+    },
+    {
+      "id": 1943,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 753,
+      "target": 756
+    },
+    {
+      "id": 1944,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 753,
+      "target": 757
+    },
+    {
+      "id": 1945,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 753,
+      "target": 758
+    },
+    {
+      "id": 1949,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 753,
+      "target": 762
+    },
+    {
+      "id": 1950,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 753,
+      "target": 763
+    },
+    {
+      "id": 1951,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 753,
+      "target": 764
+    },
+    {
+      "id": 1953,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 753,
+      "target": 766
+    },
+    {
+      "id": 1954,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 754,
+      "target": 755
+    },
+    {
+      "id": 1955,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 754,
+      "target": 756
+    },
+    {
+      "id": 1956,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 754,
+      "target": 757
+    },
+    {
+      "id": 1957,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 754,
+      "target": 758
+    },
+    {
+      "id": 1961,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 754,
+      "target": 762
+    },
+    {
+      "id": 1962,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 754,
+      "target": 763
+    },
+    {
+      "id": 1963,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 754,
+      "target": 764
+    },
+    {
+      "id": 1965,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 754,
+      "target": 766
+    },
+    {
+      "id": 1966,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 755,
+      "target": 756
+    },
+    {
+      "id": 1967,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 755,
+      "target": 757
+    },
+    {
+      "id": 1968,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 755,
+      "target": 758
+    },
+    {
+      "id": 1972,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 755,
+      "target": 762
+    },
+    {
+      "id": 1973,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 755,
+      "target": 763
+    },
+    {
+      "id": 1974,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 755,
+      "target": 764
+    },
+    {
+      "id": 1976,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 755,
+      "target": 766
+    },
+    {
+      "id": 1977,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 756,
+      "target": 757
+    },
+    {
+      "id": 1978,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 756,
+      "target": 758
+    },
+    {
+      "id": 1982,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 756,
+      "target": 762
+    },
+    {
+      "id": 1983,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 756,
+      "target": 763
+    },
+    {
+      "id": 1984,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 756,
+      "target": 764
+    },
+    {
+      "id": 1986,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 756,
+      "target": 766
+    },
+    {
+      "id": 1987,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 757,
+      "target": 758
+    },
+    {
+      "id": 1991,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 757,
+      "target": 762
+    },
+    {
+      "id": 1992,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 757,
+      "target": 763
+    },
+    {
+      "id": 1993,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 757,
+      "target": 764
+    },
+    {
+      "id": 1995,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 757,
+      "target": 766
+    },
+    {
+      "id": 1999,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 758,
+      "target": 762
+    },
+    {
+      "id": 2000,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 758,
+      "target": 763
+    },
+    {
+      "id": 2001,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 758,
+      "target": 764
+    },
+    {
+      "id": 2003,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 758,
+      "target": 766
+    },
+    {
+      "id": 2022,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 762,
+      "target": 763
+    },
+    {
+      "id": 2023,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 762,
+      "target": 764
+    },
+    {
+      "id": 2025,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 762,
+      "target": 766
+    },
+    {
+      "id": 2026,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 763,
+      "target": 764
+    },
+    {
+      "id": 2028,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 763,
+      "target": 766
+    },
+    {
+      "id": 2030,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 764,
+      "target": 766
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 6,
+      "removed_orphans": 0,
+      "largest_component": 11,
+      "removed_components": [
+        9,
+        6,
+        5,
+        5,
+        4
+      ]
+    },
+    "page": 8
+  }
+}

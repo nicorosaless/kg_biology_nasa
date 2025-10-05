@@ -1,0 +1,345 @@
+{
+  "intro": "Microgravity, characterized by minimal gravitational forces, offers a unique environment to study cellular responses to reduced gravity. Both space-based and terrestrial simulations are employed to investigate these effects, aiming to safeguard astronaut health and address terrestrial diseases. This review explores recent advances in understanding microgravity's impact on biological processes and its implications for human health.",
+  "sections": [
+    {
+      "heading": "Alterations in Immune Cells",
+      "summary": "Microgravity compromises the immune system by impairing the development and function of immune cells. Hematopoietic stem cells show impaired differentiation into macrophages, disrupting the balance between M1 and M2 macrophages. Dendritic cells exhibit reduced expression of MHC and costimulatory proteins. Neutrophils increase in number but their functionality is reduced. B lymphocytes show decreased proliferation and increased apoptosis, while natural killer (NK) cells experience reduced cytotoxic activity. Figure 1 illustrates these effects.",
+      "figures": [
+        {
+          "id": "fig_1",
+          "order": 1,
+          "caption": "Figure 1.Effects of microgravity on the human immune system.This figure illustrates the complex impact of microgravity on various immune cell populations and key molecular signaling pathways.",
+          "label": "Figure 1 .",
+          "type": "figure",
+          "image_path": "figures/fig_1.jpeg"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "Impact on T Cells",
+      "summary": "Microgravity profoundly affects T cell-mediated immunity, disrupting activation, proliferation, and cytokine production. CD4+ and CD8+ T cells show inhibited activation and proliferation, with reduced expression of activation markers. CD4+ cells exhibit decreased secretion of IL-2 and IFN-γ. Apoptosis of T cells is accelerated, linked to increased expression of the Fas receptor in CD8+ cells. Figure 1 illustrates these effects.",
+      "figures": [
+        {
+          "id": "fig_1",
+          "order": 1,
+          "caption": "Figure 1.Effects of microgravity on the human immune system.This figure illustrates the complex impact of microgravity on various immune cell populations and key molecular signaling pathways.",
+          "label": "Figure 1 .",
+          "type": "figure",
+          "image_path": "figures/fig_1.jpeg"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "Impact on Key Molecular Pathways",
+      "summary": "Microgravity disrupts critical signaling pathways, including RAS, ERK, and NF-κB, leading to impaired cell growth, hindered activation of macrophages and lymphocytes, and inadequate immune responses. In cancer biology, microgravity induces the formation of multicellular spheroids, reorganizes the cytoskeleton, and regulates key proteins such as p53, NF-κB, and BAX, promoting apoptosis in various cancer cell types. Changes in molecules like E-cadherin, VEGF, and vimentin affect tumor proliferation and dissemination.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Cancer Stem Cells",
+      "summary": "Simulated microgravity provides insights into cancer stem cell (CSC) behavior, with implications for oncology and regenerative medicine. CSCs exhibit changes in morphology and growth patterns, forming multicellular spheroids that mimic in vivo tumor organization. Microgravity induces increased apoptosis and decreased expression of pluripotency-related markers, shifting cells towards differentiation. In gastrointestinal cancers, simulated microgravity is linked to altered regulatory mechanisms of cell growth and differentiation. Figure 2 illustrates these effects.",
+      "figures": [
+        {
+          "id": "fig_2",
+          "order": 2,
+          "caption": "Int. J. Mol.Sci.2025, 26, x FOR PEER REVIEW 6 of 26",
+          "type": "figure",
+          "image_path": "figures/fig_2.jpeg"
+        },
+        {
+          "id": "fig_4",
+          "order": 4,
+          "caption": "Figure 2. Microgravity-induced changes in cancer.This figure illustrates the diverse effects of microgravity on cancer cells, with a particular focus on cancer stem cells (CSCs) and thyroid cancer.Exposure to microgravity has been shown to increase apoptosis, or programmed cell death, in cancer cells.It also alters CSC properties, leading to a decrease in pluripotency markers and an increase in differentiation.Additionally, microgravity induces structural changes in the cytoskeleton and extracellular matrix, which may influence tumor progression.In thyroid cancer, microgravity reduces proliferation and overall growth, while also diminishing the malignant phenotype in follicular thyroid cancer cells.Interestingly, despite these inhibitory effects, microgravity appears to increase the susceptibility of cancer cells, potentially enhancing their response to treatments, as suggested by the syringe graphic.These findings highlight the complex and sometimes counterintuitive influence of microgravity on cancer biology.",
+          "label": "Figure 2 .",
+          "type": "figure",
+          "image_path": "figures/fig_4.jpeg"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "Thyroid Cancer",
+      "summary": "Studies on thyroid cancer cells under microgravity have yielded valuable insights into tumor behavior. In microgravity, thyroid cancer cells organize into multicellular spheroids, resembling tumors in vivo. Microgravity affects cellular processes, including apoptosis, cytoskeletal organization, and extracellular matrix dynamics. Follicular thyroid cancer cells exposed to microgravity adopt a less malignant phenotype.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Microvascular Endothelial Cells",
+      "summary": "Simulated microgravity affects microvascular endothelial cells, inhibiting cell proliferation, delaying blood vessel repair, and reducing interleukin-6 (IL-6) production. It stimulates nitric oxide synthesis, promoting blood vessel dilation and angiogenesis. Microgravity reduces cell stiffness (Young's modulus) and viscosity, making endothelial cells more vulnerable to hemodynamic stress. Endothelial cells exhibit morphological changes, becoming less elongated. Figure 3 illustrates these effects.",
+      "figures": [
+        {
+          "id": "fig_3",
+          "order": 3,
+          "caption": "Figure 2. Microgravity-induced changes in cancer.This figure illustrates the diverse effects of microgravity on cancer cells, with a particular focus on cancer stem cells (CSCs) and thyroid cancer.",
+          "label": "Figure 2 .",
+          "type": "figure",
+          "image_path": "figures/fig_3.jpeg"
+        },
+        {
+          "id": "fig_5",
+          "order": 5,
+          "caption": "Figure 3. Structural and functional adaptations of tissues and organ systems in microgravity environments.This figure illustrates the broad impact of microgravity on various tissues and organ systems, highlighting key structural and functional adaptations.Microvascular endothelial cells exhibit",
+          "label": "Figure 3 .",
+          "type": "figure",
+          "image_path": "figures/fig_5.png"
+        },
+        {
+          "id": "fig_6",
+          "order": 6,
+          "caption": "Figure 3.Structural and functional adaptations of tissues and organ systems in microgravity environments.This figure illustrates the broad impact of microgravity on various tissues and organ systems, highlighting key structural and functional adaptations.Microvascular endothelial cells exhibit inhibited proliferation, decreased IL-6 production, and increased nitric oxide (NO) production.In the liver, microgravity alters hepatic metabolism, leading to increased lipotoxicity, elevated angiopoietin levels, upregulation of lipid metabolism genes, and dysregulation of immune response genes.Intestinal homeostasis is also affected, with observed dysbiosis, endotoxemia, altered bile acid content, and increased levels of intestinal stress hormones.In terms of bone health and mechanotransduction, microgravity induces significant bone mass loss, accompanied by a reduction in actin filaments and decreased cell stiffness in osteoblasts.Kidney cells experience metabolic alterations, including reduced oxidative phosphorylation and fatty acid oxidation, alongside increased expression of fibronectin (FN1), MMP7, and TGFBI.Reproductive cells are also impacted, with evidence of reduced egg quality, the loss of polarization in granulosa cells, and a decrease in microvilli in eggs.Additionally, cardiomyocytes exhibit increased maturation and functionality, enhanced mitochondrial biogenesis, improved calcium storage in the sarcoplasmic reticulum, and the formation of sarcomeres and Z-disks.These findings collectively underscore the widespread and system-specific alterations induced by microgravity, significantly influencing cellular function and overall tissue homeostasis.",
+          "label": "Figure 3 .",
+          "type": "figure",
+          "image_path": "figures/fig_6.png"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "Hepatic Metabolism and Intestinal Homeostasis",
+      "summary": "Prolonged exposure to microgravity induces metabolic alterations, including lipid accumulation and infiltration of inflammatory cells in the liver. Rhesus macaques develop mild liver lesions, fat vacuole accumulation, and inflammatory cell infiltration, accompanied by increased plasma levels of angiopoietin-like 3 (ANGPTL3). Transcriptomic analyses reveal overexpression of genes associated with lipid metabolism and downregulation of genes linked to the innate immune response. Microgravity also impacts the gut microbiota, affecting hepatic metabolism. Figure 3 illustrates these effects.",
+      "figures": [
+        {
+          "id": "fig_3",
+          "order": 3,
+          "caption": "Figure 2. Microgravity-induced changes in cancer.This figure illustrates the diverse effects of microgravity on cancer cells, with a particular focus on cancer stem cells (CSCs) and thyroid cancer.",
+          "label": "Figure 2 .",
+          "type": "figure",
+          "image_path": "figures/fig_3.jpeg"
+        },
+        {
+          "id": "fig_6",
+          "order": 6,
+          "caption": "Figure 3.Structural and functional adaptations of tissues and organ systems in microgravity environments.This figure illustrates the broad impact of microgravity on various tissues and organ systems, highlighting key structural and functional adaptations.Microvascular endothelial cells exhibit inhibited proliferation, decreased IL-6 production, and increased nitric oxide (NO) production.In the liver, microgravity alters hepatic metabolism, leading to increased lipotoxicity, elevated angiopoietin levels, upregulation of lipid metabolism genes, and dysregulation of immune response genes.Intestinal homeostasis is also affected, with observed dysbiosis, endotoxemia, altered bile acid content, and increased levels of intestinal stress hormones.In terms of bone health and mechanotransduction, microgravity induces significant bone mass loss, accompanied by a reduction in actin filaments and decreased cell stiffness in osteoblasts.Kidney cells experience metabolic alterations, including reduced oxidative phosphorylation and fatty acid oxidation, alongside increased expression of fibronectin (FN1), MMP7, and TGFBI.Reproductive cells are also impacted, with evidence of reduced egg quality, the loss of polarization in granulosa cells, and a decrease in microvilli in eggs.Additionally, cardiomyocytes exhibit increased maturation and functionality, enhanced mitochondrial biogenesis, improved calcium storage in the sarcoplasmic reticulum, and the formation of sarcomeres and Z-disks.These findings collectively underscore the widespread and system-specific alterations induced by microgravity, significantly influencing cellular function and overall tissue homeostasis.",
+          "label": "Figure 3 .",
+          "type": "figure",
+          "image_path": "figures/fig_6.png"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "Bone Health and Mechanotransduction",
+      "summary": "Microgravity accelerates bone mass loss. Studies show microgravity decreases cell stiffness and reduces filamentous actin levels in osteoblasts, leading to \"cellular softening\". Osteoblasts develop elongated protrusions. These structural and cytoskeletal alterations highlight disruptions in mechanotransduction. Figure 3 illustrates these effects.",
+      "figures": [
+        {
+          "id": "fig_3",
+          "order": 3,
+          "caption": "Figure 2. Microgravity-induced changes in cancer.This figure illustrates the diverse effects of microgravity on cancer cells, with a particular focus on cancer stem cells (CSCs) and thyroid cancer.",
+          "label": "Figure 2 .",
+          "type": "figure",
+          "image_path": "figures/fig_3.jpeg"
+        },
+        {
+          "id": "fig_6",
+          "order": 6,
+          "caption": "Figure 3.Structural and functional adaptations of tissues and organ systems in microgravity environments.This figure illustrates the broad impact of microgravity on various tissues and organ systems, highlighting key structural and functional adaptations.Microvascular endothelial cells exhibit inhibited proliferation, decreased IL-6 production, and increased nitric oxide (NO) production.In the liver, microgravity alters hepatic metabolism, leading to increased lipotoxicity, elevated angiopoietin levels, upregulation of lipid metabolism genes, and dysregulation of immune response genes.Intestinal homeostasis is also affected, with observed dysbiosis, endotoxemia, altered bile acid content, and increased levels of intestinal stress hormones.In terms of bone health and mechanotransduction, microgravity induces significant bone mass loss, accompanied by a reduction in actin filaments and decreased cell stiffness in osteoblasts.Kidney cells experience metabolic alterations, including reduced oxidative phosphorylation and fatty acid oxidation, alongside increased expression of fibronectin (FN1), MMP7, and TGFBI.Reproductive cells are also impacted, with evidence of reduced egg quality, the loss of polarization in granulosa cells, and a decrease in microvilli in eggs.Additionally, cardiomyocytes exhibit increased maturation and functionality, enhanced mitochondrial biogenesis, improved calcium storage in the sarcoplasmic reticulum, and the formation of sarcomeres and Z-disks.These findings collectively underscore the widespread and system-specific alterations induced by microgravity, significantly influencing cellular function and overall tissue homeostasis.",
+          "label": "Figure 3 .",
+          "type": "figure",
+          "image_path": "figures/fig_6.png"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "Kidney Cells",
+      "summary": "Short-term exposure to microgravity does not significantly alter essential biochemical pathways in renal cells. Exposure to human serum elicits metabolic responses, characterized by metabolic reprogramming, alterations in bioenergetic processes, and a pro-inflammatory extracellular environment. Over 2000 genes are differentially regulated after exposure to human serum, affecting pathways including the cell cycle and cytokine signaling. Expression of genes associated with oxidative phosphorylation and fatty acid metabolism is reduced, indicating diminished mitochondrial respiration.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Reproductive System Ovarian Follicles and Egg Quality",
+      "summary": "Microgravity impacts egg quality and ovarian follicle development. While follicle growth and survival rates are not significantly affected, the quality of the eggs released is reduced. Electron microscopy reveals alterations in cellular structures responsible for communication between granulosa cells and the egg, disrupting the secretion of essential factors required for egg maturation. Supplementing growth factors and antioxidants improves egg quality. Deficiencies in cortical granule distribution and density are observed, linked to increased oxidative stress levels.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Cardiomyocyte Maturation and Functionality",
+      "summary": "Microgravity enhances the maturation and functionality of cardiomyocytes derived from human pluripotent stem cells. Mitochondrial biogenesis is increased, improving energy production. Mitochondrial respiration is enhanced. Calcium handling is improved. Simulated microgravity positively affects structural properties, including increased sarcomere length and nuclear eccentricity.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Impacts on Stem Cells and Cell Regeneration",
+      "summary": "Microgravity impacts protein expression and the regulation of cellular pathways critical for tissue regeneration and cell repair. The Hippo pathway is temporarily deactivated, creating a favorable state for cell proliferation and tissue repair. Combining microgravity exposure with drugs or microRNA manipulation can amplify the activity of the Hippo pathway and YAP1 protein, further promoting tissue regeneration. Figure 4 illustrates these effects.",
+      "figures": [
+        {
+          "id": "fig_4",
+          "order": 4,
+          "caption": "Figure 2. Microgravity-induced changes in cancer.This figure illustrates the diverse effects of microgravity on cancer cells, with a particular focus on cancer stem cells (CSCs) and thyroid cancer.Exposure to microgravity has been shown to increase apoptosis, or programmed cell death, in cancer cells.It also alters CSC properties, leading to a decrease in pluripotency markers and an increase in differentiation.Additionally, microgravity induces structural changes in the cytoskeleton and extracellular matrix, which may influence tumor progression.In thyroid cancer, microgravity reduces proliferation and overall growth, while also diminishing the malignant phenotype in follicular thyroid cancer cells.Interestingly, despite these inhibitory effects, microgravity appears to increase the susceptibility of cancer cells, potentially enhancing their response to treatments, as suggested by the syringe graphic.These findings highlight the complex and sometimes counterintuitive influence of microgravity on cancer biology.",
+          "label": "Figure 2 .",
+          "type": "figure",
+          "image_path": "figures/fig_4.jpeg"
+        },
+        {
+          "id": "fig_7",
+          "order": 7,
+          "caption": "Figure 4. Microgravity effects on stem cell differentiation and regenerative potential.This figure illustrates key findings related to the effects of microgravity on stem cell behavior.Microgravity has been associated with enhanced cell proliferation, potentially contributing to tissue repair processes.",
+          "label": "Figure 4 .",
+          "type": "figure",
+          "image_path": "figures/fig_7.png"
+        },
+        {
+          "id": "fig_8",
+          "order": 8,
+          "caption": "Figure 4. Microgravity effects on stem cell differentiation and regenerative potential.This figure illustrates key findings related to the of microgravity on stem cell behavior.Microgravity has been associated with enhanced cell proliferation, potentially contributing to tissue repair processes.Additionally, it leads to the temporary deactivation of the Hippo pathway, involving upstream regulators such as MST1/2, SAV1, WWC1-3, LATS1/2, and MOB1, which in turn promotes the nuclear translocation of YAP/TAZ.Furthermore, microgravity influences hematopoietic stem cell differentiation by activating specific genes and pathways, including RUNX1, which is involved in stem cell establishment, SOX17, which plays a role in maintaining pluripotency, and GATA3, which is crucial for megakaryocyte and erythrocyte maturation.The PI3K-Akt and mTOR pathways are also implicated in this process, with STRIPAK acting as a modulatory factor.",
+          "label": "Figure 4 .",
+          "type": "figure",
+          "image_path": "figures/fig_8.png"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "Hematopoietic Differentiation",
+      "summary": "Microgravity enhances the differentiation of human pluripotent stem cells into hematopoietic lineages, leading to improved formation of functional three-dimensional structures and a notable increase in active hematopoietic cells. RUNX1, SOX17, and GATA1 genes are differentially activated. Microgravity influences DNA replication and modulates the cell cycle. The PI3K-Akt pathway is activated, regulating cell growth, survival, and metabolism. Simulated microgravity also enhances three-dimensional cellular organization. Figure 4 illustrates these effects.",
+      "figures": [
+        {
+          "id": "fig_4",
+          "order": 4,
+          "caption": "Figure 2. Microgravity-induced changes in cancer.This figure illustrates the diverse effects of microgravity on cancer cells, with a particular focus on cancer stem cells (CSCs) and thyroid cancer.Exposure to microgravity has been shown to increase apoptosis, or programmed cell death, in cancer cells.It also alters CSC properties, leading to a decrease in pluripotency markers and an increase in differentiation.Additionally, microgravity induces structural changes in the cytoskeleton and extracellular matrix, which may influence tumor progression.In thyroid cancer, microgravity reduces proliferation and overall growth, while also diminishing the malignant phenotype in follicular thyroid cancer cells.Interestingly, despite these inhibitory effects, microgravity appears to increase the susceptibility of cancer cells, potentially enhancing their response to treatments, as suggested by the syringe graphic.These findings highlight the complex and sometimes counterintuitive influence of microgravity on cancer biology.",
+          "label": "Figure 2 .",
+          "type": "figure",
+          "image_path": "figures/fig_4.jpeg"
+        },
+        {
+          "id": "fig_7",
+          "order": 7,
+          "caption": "Figure 4. Microgravity effects on stem cell differentiation and regenerative potential.This figure illustrates key findings related to the effects of microgravity on stem cell behavior.Microgravity has been associated with enhanced cell proliferation, potentially contributing to tissue repair processes.",
+          "label": "Figure 4 .",
+          "type": "figure",
+          "image_path": "figures/fig_7.png"
+        },
+        {
+          "id": "fig_8",
+          "order": 8,
+          "caption": "Figure 4. Microgravity effects on stem cell differentiation and regenerative potential.This figure illustrates key findings related to the of microgravity on stem cell behavior.Microgravity has been associated with enhanced cell proliferation, potentially contributing to tissue repair processes.Additionally, it leads to the temporary deactivation of the Hippo pathway, involving upstream regulators such as MST1/2, SAV1, WWC1-3, LATS1/2, and MOB1, which in turn promotes the nuclear translocation of YAP/TAZ.Furthermore, microgravity influences hematopoietic stem cell differentiation by activating specific genes and pathways, including RUNX1, which is involved in stem cell establishment, SOX17, which plays a role in maintaining pluripotency, and GATA3, which is crucial for megakaryocyte and erythrocyte maturation.The PI3K-Akt and mTOR pathways are also implicated in this process, with STRIPAK acting as a modulatory factor.",
+          "label": "Figure 4 .",
+          "type": "figure",
+          "image_path": "figures/fig_8.png"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "Cell Proliferation and Regenerative Therapies",
+      "summary": "Microgravity enhances cell proliferation and functionality, representing a transformative advancement for biomedical research and regenerative medicine. Pancreatic islets and neural crest stem cells show enhanced cell proliferation, particularly in three-dimensional cultures. Pancreatic beta cells show a significant increase in insulin secretion. Co-culturing stem cells with pancreatic islets under microgravity improves cell viability. Microgravity modulates key signaling pathways, such as PI3K-Akt and mTOR.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Impact on Pathogen Virulence",
+      "summary": "Microgravity induces significant changes in the genetic expression and physiology of pathogens affecting both humans and plants, impacting astronaut health, space exploration, and the prevention of foodborne illnesses in space environments.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Increased Pathogen Virulence and Resistance",
+      "summary": "Under microgravity, bacterial pathogens such as Salmonella enterica and Escherichia coli exhibit increased virulence, antibiotic resistance, stress tolerance, and biofilm formation. Salmonella Typhimurium cultured under simulated microgravity demonstrated fivefold higher lethality in mice. Pathogens evade and suppress plant innate immunity, enabling colonization of intracellular spaces.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Molecular Mechanisms Driving Virulence",
+      "summary": "Microgravity alters extracellular nutrient transport and activates molecular pathways that enhance bacterial virulence. Low fluid shear favors the expression of stress tolerance and virulence-related genes. Salmonella Typhimurium exposed to microgravity shows increased tolerance to acidic conditions and upregulation of genes controlled by Fur.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Effects on Biofilm Formation and Stress Response",
+      "summary": "Microgravity influences the transport of oxygen and phosphates, impacting gene expression related to stress tolerance and virulence. Escherichia coli demonstrates enhanced biofilm formation and increased expression of genes responsible for host cell adherence and lesion formation. The impact of microgravity depends on the pathogen type, culture medium, and experimental conditions. The expression of Hfq, a key regulatory protein involved in stress response and virulence, is decreased.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Discussion",
+      "summary": "Microgravity significantly influences immune responses, cell proliferation, and tissue regeneration. It disrupts key mechanisms such as mitochondrial biogenesis, liver metabolism, intestinal homeostasis, and stem cell differentiation. Alterations in cellular biology affect diseases such as cancer, osteoporosis, kidney dysfunction, and infertility. Advances offer therapeutic innovations for regenerative therapies, immune-based treatments, and approaches to managing chronic diseases. Microgravity poses risks to health during and after space missions.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": "Microgravity presents a unique challenge for human biology, influencing cellular systems and physiological processes. It disrupts key biological functions such as immune activity, cell differentiation, tissue regeneration, and mitochondrial biogenesis. Research has highlighted its impact on the immune system, cancer cells, vital organs, and stem cells. Continued exploration of microgravity's effects is essential for safeguarding astronaut health and advancing therapeutic applications.",
+  "keywords": [
+    "microgravity",
+    "cellular biology",
+    "immune system",
+    "cancer stem cells",
+    "tissue regeneration",
+    "hematopoiesis",
+    "pathogen virulence",
+    "stem cell differentiation",
+    "cardiomyocytes",
+    "bone health"
+  ],
+  "topics": [
+    "cellular biology",
+    "space medicine",
+    "regenerative medicine"
+  ],
+  "_meta": {
+    "paper_id": "sha256:3a9836c2090814cc146422bc1dab32189d87832b00b6f0ba2d080c425164c656",
+    "paper_title": "Microgravity and Cellular Biology: Insights into Cellular Responses and Implications for Human Health",
+    "generated_at": "2025-10-04T18:42:27Z",
+    "word_count": 1119,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_4",
+      "fig_3",
+      "fig_5",
+      "fig_6",
+      "fig_7",
+      "fig_8"
+    ],
+    "equations": [],
+    "keywords": [
+      "microgravity",
+      "cellular biology",
+      "immune system",
+      "cancer stem cells",
+      "tissue regeneration",
+      "hematopoiesis",
+      "pathogen virulence",
+      "stem cell differentiation",
+      "cardiomyocytes",
+      "bone health"
+    ],
+    "topics": [
+      "cellular biology",
+      "space medicine",
+      "regenerative medicine"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 9451,
+      "completion_tokens": 2308,
+      "total_tokens": 11759,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000945,
+      "output_usd": 0.000923,
+      "total_usd": 0.001868
+    },
+    "cost": {
+      "input_usd": 0.000945,
+      "output_usd": 0.000923,
+      "total_usd": 0.001868
+    }
+  }
+}

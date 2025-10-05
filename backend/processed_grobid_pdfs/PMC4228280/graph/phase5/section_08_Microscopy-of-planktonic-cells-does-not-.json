@@ -1,0 +1,84 @@
+{
+  "paper_id": "PMC4228280",
+  "section": "Microscopy of planktonic cells does not show aggregation of P. aeruginosa PA14",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 250,
+      "label": "DIC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Microscopy of planktonic cells does not show aggregation of P. aeruginosa PA14",
+        "sentence_id": 69,
+        "char_start": 17863,
+        "char_end": 17866,
+        "anchor": "PMC4228280_17863_17866",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 252,
+      "label": "LSMMG",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Microscopy of planktonic cells does not show aggregation of P. aeruginosa PA14",
+        "sentence_id": 69,
+        "char_start": 17653,
+        "char_end": 17658,
+        "anchor": "PMC4228280_17653_17658",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 247,
+      "label": "PAO1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Microscopy of planktonic cells does not show aggregation of P. aeruginosa PA14",
+        "sentence_id": 69,
+        "char_start": 17639,
+        "char_end": 17643,
+        "anchor": "PMC4228280_17639_17643",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 209,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 247,
+      "target": 250
+    },
+    {
+      "id": 211,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 247,
+      "target": 252
+    },
+    {
+      "id": 213,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 250,
+      "target": 252
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 6,
+      "largest_component": 3,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 3
+  }
+}

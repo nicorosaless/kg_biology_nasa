@@ -1,0 +1,84 @@
+{
+  "paper_id": "PMC5666744",
+  "section": "Metabolomics",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 649,
+      "label": "TurboVap",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Metabolomics",
+        "sentence_id": 156,
+        "char_start": 40745,
+        "char_end": 40753,
+        "anchor": "PMC5666744_40745_40753",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 650,
+      "label": "Zymark",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Metabolomics",
+        "sentence_id": 156,
+        "char_start": 40757,
+        "char_end": 40763,
+        "anchor": "PMC5666744_40757_40763",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 651,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Metabolomics",
+        "sentence_id": 156,
+        "char_start": 40780,
+        "char_end": 40783,
+        "anchor": "PMC5666744_40780_40783",
+        "page": 15,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 689,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 649,
+      "target": 650
+    },
+    {
+      "id": 690,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 649,
+      "target": 651
+    },
+    {
+      "id": 691,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 650,
+      "target": 651
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 2,
+      "largest_component": 3,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 15
+  }
+}

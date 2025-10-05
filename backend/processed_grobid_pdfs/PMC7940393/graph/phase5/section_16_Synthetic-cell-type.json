@@ -1,0 +1,115 @@
+{
+  "paper_id": "PMC7940393",
+  "section": "Synthetic CELL_TYPE",
+  "n_nodes": 5,
+  "n_edges": 4,
+  "nodes": [
+    {
+      "id": 113,
+      "label": "fischeri cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Shedding of V. fischeri-derived LPS increased during exponential growth under LSMMG conditions compared to gravity controls",
+        "sentence_id": 36,
+        "char_start": 8288,
+        "char_end": 8302,
+        "anchor": "PMC7940393_8288_8302",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 214,
+      "label": "V. fischeri cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Higher levels of LPS in LSMMG correlate with increased OMV production",
+        "sentence_id": 49,
+        "char_start": 12071,
+        "char_end": 12088,
+        "anchor": "PMC7940393_12071_12088",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 301,
+      "label": "wild-type cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Higher levels of LPS in LSMMG correlate with increased OMV production",
+        "sentence_id": 65,
+        "char_start": 16446,
+        "char_end": 16461,
+        "anchor": "PMC7940393_16446_16461",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 533,
+      "label": "fischeri cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Electron microscopy",
+        "sentence_id": 112,
+        "char_start": 31595,
+        "char_end": 31609,
+        "anchor": "PMC7940393_31595_31609",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 534,
+      "label": "fischeri cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Electron microscopy",
+        "sentence_id": 112,
+        "char_start": 31696,
+        "char_end": 31710,
+        "anchor": "PMC7940393_31696_31710",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-113-214",
+      "type": "ASSOCIATED",
+      "source": 113,
+      "target": 214
+    },
+    {
+      "id": "synth-113-301",
+      "type": "ASSOCIATED",
+      "source": 113,
+      "target": 301
+    },
+    {
+      "id": "synth-113-533",
+      "type": "ASSOCIATED",
+      "source": 113,
+      "target": 533
+    },
+    {
+      "id": "synth-113-534",
+      "type": "ASSOCIATED",
+      "source": 113,
+      "target": 534
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "CELL_TYPE",
+    "page": null
+  }
+}

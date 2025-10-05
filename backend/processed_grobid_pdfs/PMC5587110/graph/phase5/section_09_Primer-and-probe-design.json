@@ -1,0 +1,164 @@
+{
+  "paper_id": "PMC5587110",
+  "section": "Primer and probe design",
+  "n_nodes": 10,
+  "n_edges": 4,
+  "nodes": [
+    {
+      "id": 32,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Primer and probe design",
+        "sentence_id": 32,
+        "char_start": 9800,
+        "char_end": 9803,
+        "anchor": "PMC5587110_9800_9803"
+      }
+    },
+    {
+      "id": 33,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Primer and probe design",
+        "sentence_id": 34,
+        "char_start": 10023,
+        "char_end": 10026,
+        "anchor": "PMC5587110_10023_10026"
+      }
+    },
+    {
+      "id": 35,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Primer and probe design",
+        "sentence_id": 34,
+        "char_start": 10241,
+        "char_end": 10244,
+        "anchor": "PMC5587110_10241_10244"
+      }
+    },
+    {
+      "id": 37,
+      "label": "L19",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Primer and probe design",
+        "sentence_id": 36,
+        "char_start": 10622,
+        "char_end": 10625,
+        "anchor": "PMC5587110_10622_10625"
+      }
+    },
+    {
+      "id": 38,
+      "label": "rpl19",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Primer and probe design",
+        "sentence_id": 36,
+        "char_start": 10627,
+        "char_end": 10632,
+        "anchor": "PMC5587110_10627_10632"
+      }
+    },
+    {
+      "id": 27,
+      "label": "First",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Primer and probe design",
+        "sentence_id": 27,
+        "char_start": 8837,
+        "char_end": 8842,
+        "anchor": "PMC5587110_8837_8842"
+      }
+    },
+    {
+      "id": 28,
+      "label": "qPCR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Primer and probe design",
+        "sentence_id": 27,
+        "char_start": 8896,
+        "char_end": 8900,
+        "anchor": "PMC5587110_8896_8900"
+      }
+    },
+    {
+      "id": 31,
+      "label": "SPM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Primer and probe design",
+        "sentence_id": 32,
+        "char_start": 9782,
+        "char_end": 9785,
+        "anchor": "PMC5587110_9782_9785"
+      }
+    },
+    {
+      "id": 30,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Primer and probe design",
+        "sentence_id": 31,
+        "char_start": 9525,
+        "char_end": 9528,
+        "anchor": "PMC5587110_9525_9528"
+      }
+    },
+    {
+      "id": 39,
+      "label": "TaqMan",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Primer and probe design",
+        "sentence_id": 37,
+        "char_start": 10837,
+        "char_end": 10843,
+        "anchor": "PMC5587110_10837_10843"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 22,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 27,
+      "target": 28
+    },
+    {
+      "id": 24,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 31,
+      "target": 32
+    },
+    {
+      "id": 26,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 33,
+      "target": 35
+    },
+    {
+      "id": 30,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 37,
+      "target": 38
+    }
+  ]
+}

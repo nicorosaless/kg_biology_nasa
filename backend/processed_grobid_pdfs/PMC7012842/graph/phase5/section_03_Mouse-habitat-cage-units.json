@@ -1,0 +1,58 @@
+{
+  "paper_id": "PMC7012842",
+  "section": "Mouse habitat cage units",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 64,
+      "label": "balloons",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mouse habitat cage units",
+        "sentence_id": 55,
+        "char_start": 9148,
+        "char_end": 9156,
+        "anchor": "PMC7012842_9148_9156",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 65,
+      "label": "balloon",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mouse habitat cage units",
+        "sentence_id": 55,
+        "char_start": 9188,
+        "char_end": 9195,
+        "anchor": "PMC7012842_9188_9195",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 40,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 64,
+      "target": 65
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 13,
+      "largest_component": 2,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 4
+  }
+}

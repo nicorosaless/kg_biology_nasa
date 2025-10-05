@@ -1,0 +1,255 @@
+{
+  "paper_id": "PMC10628120",
+  "section": "Biochemical tests and phenotype characterization",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 194,
+      "label": "FLUO",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Biochemical tests and phenotype characterization",
+        "sentence_id": 60,
+        "char_start": 13320,
+        "char_end": 13324,
+        "anchor": "PMC10628120_13320_13324",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 195,
+      "label": "Omega",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Biochemical tests and phenotype characterization",
+        "sentence_id": 60,
+        "char_start": 13330,
+        "char_end": 13335,
+        "anchor": "PMC10628120_13330_13335",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 196,
+      "label": "Germany",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Biochemical tests and phenotype characterization",
+        "sentence_id": 60,
+        "char_start": 13350,
+        "char_end": 13357,
+        "anchor": "PMC10628120_13350_13357",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 185,
+      "label": "homogen",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Biochemical tests and phenotype characterization",
+        "sentence_id": 60,
+        "char_start": 13048,
+        "char_end": 13055,
+        "anchor": "PMC10628120_13048_13055",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 186,
+      "label": "BioLog",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Biochemical tests and phenotype characterization",
+        "sentence_id": 60,
+        "char_start": 13145,
+        "char_end": 13151,
+        "anchor": "PMC10628120_13145_13151",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 187,
+      "label": "Log",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Biochemical tests and phenotype characterization",
+        "sentence_id": 60,
+        "char_start": 13223,
+        "char_end": 13226,
+        "anchor": "PMC10628120_13223_13226",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 189,
+      "label": "BioLog",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Biochemical tests and phenotype characterization",
+        "sentence_id": 60,
+        "char_start": 13029,
+        "char_end": 13035,
+        "anchor": "PMC10628120_13029_13035",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 288,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 185,
+      "target": 186
+    },
+    {
+      "id": 289,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 185,
+      "target": 187
+    },
+    {
+      "id": 291,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 185,
+      "target": 189
+    },
+    {
+      "id": 296,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 185,
+      "target": 194
+    },
+    {
+      "id": 297,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 185,
+      "target": 195
+    },
+    {
+      "id": 298,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 185,
+      "target": 196
+    },
+    {
+      "id": 299,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 186,
+      "target": 187
+    },
+    {
+      "id": 301,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 186,
+      "target": 189
+    },
+    {
+      "id": 306,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 186,
+      "target": 194
+    },
+    {
+      "id": 307,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 186,
+      "target": 195
+    },
+    {
+      "id": 308,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 186,
+      "target": 196
+    },
+    {
+      "id": 310,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 187,
+      "target": 189
+    },
+    {
+      "id": 315,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 187,
+      "target": 194
+    },
+    {
+      "id": 316,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 187,
+      "target": 195
+    },
+    {
+      "id": 317,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 187,
+      "target": 196
+    },
+    {
+      "id": 330,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 189,
+      "target": 194
+    },
+    {
+      "id": 331,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 189,
+      "target": 195
+    },
+    {
+      "id": 332,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 189,
+      "target": 196
+    },
+    {
+      "id": 351,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 194,
+      "target": 195
+    },
+    {
+      "id": 352,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 194,
+      "target": 196
+    },
+    {
+      "id": 353,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 195,
+      "target": 196
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 18,
+      "largest_component": 7,
+      "removed_components": [
+        6,
+        3,
+        3,
+        2
+      ]
+    },
+    "page": 3
+  }
+}

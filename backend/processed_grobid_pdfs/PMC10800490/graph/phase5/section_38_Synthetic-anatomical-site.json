@@ -1,0 +1,178 @@
+{
+  "paper_id": "PMC10800490",
+  "section": "Synthetic ANATOMICAL_SITE",
+  "n_nodes": 8,
+  "n_edges": 7,
+  "nodes": [
+    {
+      "id": 86,
+      "label": "PES membrane",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Flight experiment preparation",
+        "sentence_id": 45,
+        "char_start": 9113,
+        "char_end": 9125,
+        "anchor": "PMC10800490_9113_9125",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 216,
+      "label": "Arabidopsis genome",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Data processing and analysis",
+        "sentence_id": 78,
+        "char_start": 14313,
+        "char_end": 14331,
+        "anchor": "PMC10800490_14313_14331",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 295,
+      "label": "membranes",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental setup and growth parameters",
+        "sentence_id": 93,
+        "char_start": 17305,
+        "char_end": 17314,
+        "anchor": "PMC10800490_17305_17314",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 430,
+      "label": "initiation site",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Promoter analysis of genes upregulated in µ g",
+        "sentence_id": 123,
+        "char_start": 24558,
+        "char_end": 24573,
+        "anchor": "PMC10800490_24558_24573",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 583,
+      "label": "Arabidopsis leaves and seedlings",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Micro RNAs detected and their target genes",
+        "sentence_id": 158,
+        "char_start": 33947,
+        "char_end": 33979,
+        "anchor": "PMC10800490_33947_33979",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 790,
+      "label": "florescence stems",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Gravitropism related genes",
+        "sentence_id": 216,
+        "char_start": 46842,
+        "char_end": 46859,
+        "anchor": "PMC10800490_46842_46859",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 791,
+      "label": "shoot endodermis",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Gravitropism related genes",
+        "sentence_id": 216,
+        "char_start": 46937,
+        "char_end": 46953,
+        "anchor": "PMC10800490_46937_46953",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 802,
+      "label": "seedlings",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Gravitropism related genes",
+        "sentence_id": 216,
+        "char_start": 47507,
+        "char_end": 47516,
+        "anchor": "PMC10800490_47507_47516",
+        "page": 13,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-86-216",
+      "type": "ASSOCIATED",
+      "source": 86,
+      "target": 216
+    },
+    {
+      "id": "synth-86-295",
+      "type": "ASSOCIATED",
+      "source": 86,
+      "target": 295
+    },
+    {
+      "id": "synth-86-430",
+      "type": "ASSOCIATED",
+      "source": 86,
+      "target": 430
+    },
+    {
+      "id": "synth-86-583",
+      "type": "ASSOCIATED",
+      "source": 86,
+      "target": 583
+    },
+    {
+      "id": "synth-86-790",
+      "type": "ASSOCIATED",
+      "source": 86,
+      "target": 790
+    },
+    {
+      "id": "synth-86-791",
+      "type": "ASSOCIATED",
+      "source": 86,
+      "target": 791
+    },
+    {
+      "id": "synth-86-802",
+      "type": "ASSOCIATED",
+      "source": 86,
+      "target": 802
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "ANATOMICAL_SITE",
+    "page": null
+  }
+}

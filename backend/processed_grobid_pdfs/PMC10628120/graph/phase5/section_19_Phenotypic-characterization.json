@@ -1,0 +1,81 @@
+{
+  "paper_id": "PMC10628120",
+  "section": "Phenotypic characterization",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 571,
+      "label": "ngensis",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Phenotypic characterization",
+        "sentence_id": 140,
+        "char_start": 30296,
+        "char_end": 30303,
+        "anchor": "PMC10628120_30296_30303",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 572,
+      "label": "negative",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Phenotypic characterization",
+        "sentence_id": 140,
+        "char_start": 30328,
+        "char_end": 30336,
+        "anchor": "PMC10628120_30328_30336",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 573,
+      "label": "highland",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Phenotypic characterization",
+        "sentence_id": 140,
+        "char_start": 30350,
+        "char_end": 30358,
+        "anchor": "PMC10628120_30350_30358",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 842,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 571,
+      "target": 572
+    },
+    {
+      "id": 843,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 571,
+      "target": 573
+    },
+    {
+      "id": 845,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 572,
+      "target": 573
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 15,
+      "largest_component": 3
+    },
+    "page": 6
+  }
+}

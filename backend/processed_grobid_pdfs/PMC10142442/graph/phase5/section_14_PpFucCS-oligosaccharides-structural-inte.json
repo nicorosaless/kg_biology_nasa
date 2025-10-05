@@ -1,0 +1,598 @@
+{
+  "paper_id": "PMC10142442",
+  "section": "PpFucCS oligosaccharides structural integrity determination:",
+  "n_nodes": 12,
+  "n_edges": 66,
+  "nodes": [
+    {
+      "id": 160,
+      "label": "Dulbecco",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS oligosaccharides structural integrity determination:",
+        "sentence_id": 51,
+        "char_start": 10965,
+        "char_end": 10973,
+        "anchor": "PMC10142442_10965_10973",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 161,
+      "label": "Eagle",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS oligosaccharides structural integrity determination:",
+        "sentence_id": 51,
+        "char_start": 10985,
+        "char_end": 10990,
+        "anchor": "PMC10142442_10985_10990",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 162,
+      "label": "Corning",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS oligosaccharides structural integrity determination:",
+        "sentence_id": 51,
+        "char_start": 11008,
+        "char_end": 11015,
+        "anchor": "PMC10142442_11008_11015",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 163,
+      "label": "Manassas",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS oligosaccharides structural integrity determination:",
+        "sentence_id": 51,
+        "char_start": 11017,
+        "char_end": 11025,
+        "anchor": "PMC10142442_11017_11025",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 165,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS oligosaccharides structural integrity determination:",
+        "sentence_id": 51,
+        "char_start": 11031,
+        "char_end": 11034,
+        "anchor": "PMC10142442_11031_11034",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 166,
+      "label": "FBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS oligosaccharides structural integrity determination:",
+        "sentence_id": 51,
+        "char_start": 11088,
+        "char_end": 11091,
+        "anchor": "PMC10142442_11088_11091",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 168,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS oligosaccharides structural integrity determination:",
+        "sentence_id": 51,
+        "char_start": 11138,
+        "char_end": 11141,
+        "anchor": "PMC10142442_11138_11141",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 171,
+      "label": "Corning",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS oligosaccharides structural integrity determination:",
+        "sentence_id": 51,
+        "char_start": 11223,
+        "char_end": 11230,
+        "anchor": "PMC10142442_11223_11230",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 172,
+      "label": "Manassas",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS oligosaccharides structural integrity determination:",
+        "sentence_id": 51,
+        "char_start": 11232,
+        "char_end": 11240,
+        "anchor": "PMC10142442_11232_11240",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 174,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS oligosaccharides structural integrity determination:",
+        "sentence_id": 51,
+        "char_start": 11246,
+        "char_end": 11249,
+        "anchor": "PMC10142442_11246_11249",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 154,
+      "label": "foreskin",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS oligosaccharides structural integrity determination:",
+        "sentence_id": 51,
+        "char_start": 10921,
+        "char_end": 10929,
+        "anchor": "PMC10142442_10921_10929",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 156,
+      "label": "culture",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS oligosaccharides structural integrity determination:",
+        "sentence_id": 51,
+        "char_start": 10953,
+        "char_end": 10960,
+        "anchor": "PMC10142442_10953_10960",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 111,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 154,
+      "target": 156
+    },
+    {
+      "id": 112,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 154,
+      "target": 160
+    },
+    {
+      "id": 113,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 154,
+      "target": 161
+    },
+    {
+      "id": 114,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 154,
+      "target": 162
+    },
+    {
+      "id": 115,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 154,
+      "target": 163
+    },
+    {
+      "id": 117,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 154,
+      "target": 165
+    },
+    {
+      "id": 118,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 154,
+      "target": 166
+    },
+    {
+      "id": 120,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 154,
+      "target": 168
+    },
+    {
+      "id": 123,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 154,
+      "target": 171
+    },
+    {
+      "id": 124,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 154,
+      "target": 172
+    },
+    {
+      "id": 126,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 154,
+      "target": 174
+    },
+    {
+      "id": 127,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 156,
+      "target": 160
+    },
+    {
+      "id": 128,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 156,
+      "target": 161
+    },
+    {
+      "id": 129,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 156,
+      "target": 162
+    },
+    {
+      "id": 130,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 156,
+      "target": 163
+    },
+    {
+      "id": 132,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 156,
+      "target": 165
+    },
+    {
+      "id": 133,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 156,
+      "target": 166
+    },
+    {
+      "id": 135,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 156,
+      "target": 168
+    },
+    {
+      "id": 138,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 156,
+      "target": 171
+    },
+    {
+      "id": 139,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 156,
+      "target": 172
+    },
+    {
+      "id": 141,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 156,
+      "target": 174
+    },
+    {
+      "id": 142,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 160,
+      "target": 161
+    },
+    {
+      "id": 143,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 160,
+      "target": 162
+    },
+    {
+      "id": 144,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 160,
+      "target": 163
+    },
+    {
+      "id": 146,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 160,
+      "target": 165
+    },
+    {
+      "id": 147,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 160,
+      "target": 166
+    },
+    {
+      "id": 149,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 160,
+      "target": 168
+    },
+    {
+      "id": 152,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 160,
+      "target": 171
+    },
+    {
+      "id": 153,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 160,
+      "target": 172
+    },
+    {
+      "id": 155,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 160,
+      "target": 174
+    },
+    {
+      "id": 156,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 161,
+      "target": 162
+    },
+    {
+      "id": 157,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 161,
+      "target": 163
+    },
+    {
+      "id": 159,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 161,
+      "target": 165
+    },
+    {
+      "id": 160,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 161,
+      "target": 166
+    },
+    {
+      "id": 162,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 161,
+      "target": 168
+    },
+    {
+      "id": 165,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 161,
+      "target": 171
+    },
+    {
+      "id": 166,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 161,
+      "target": 172
+    },
+    {
+      "id": 168,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 161,
+      "target": 174
+    },
+    {
+      "id": 169,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 162,
+      "target": 163
+    },
+    {
+      "id": 171,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 162,
+      "target": 165
+    },
+    {
+      "id": 172,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 162,
+      "target": 166
+    },
+    {
+      "id": 174,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 162,
+      "target": 168
+    },
+    {
+      "id": 177,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 162,
+      "target": 171
+    },
+    {
+      "id": 178,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 162,
+      "target": 172
+    },
+    {
+      "id": 180,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 162,
+      "target": 174
+    },
+    {
+      "id": 182,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 163,
+      "target": 165
+    },
+    {
+      "id": 183,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 163,
+      "target": 166
+    },
+    {
+      "id": 185,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 163,
+      "target": 168
+    },
+    {
+      "id": 188,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 163,
+      "target": 171
+    },
+    {
+      "id": 189,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 163,
+      "target": 172
+    },
+    {
+      "id": 191,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 163,
+      "target": 174
+    },
+    {
+      "id": 202,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 165,
+      "target": 166
+    },
+    {
+      "id": 204,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 165,
+      "target": 168
+    },
+    {
+      "id": 207,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 165,
+      "target": 171
+    },
+    {
+      "id": 208,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 165,
+      "target": 172
+    },
+    {
+      "id": 210,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 165,
+      "target": 174
+    },
+    {
+      "id": 212,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 166,
+      "target": 168
+    },
+    {
+      "id": 215,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 166,
+      "target": 171
+    },
+    {
+      "id": 216,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 166,
+      "target": 172
+    },
+    {
+      "id": 218,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 166,
+      "target": 174
+    },
+    {
+      "id": 228,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 168,
+      "target": 171
+    },
+    {
+      "id": 229,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 168,
+      "target": 172
+    },
+    {
+      "id": 231,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 168,
+      "target": 174
+    },
+    {
+      "id": 241,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 171,
+      "target": 172
+    },
+    {
+      "id": 243,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 171,
+      "target": 174
+    },
+    {
+      "id": 245,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 172,
+      "target": 174
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 9,
+      "largest_component": 12,
+      "removed_components": [
+        3,
+        2
+      ]
+    },
+    "page": 4
+  }
+}

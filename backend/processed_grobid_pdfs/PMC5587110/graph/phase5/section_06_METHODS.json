@@ -1,0 +1,67 @@
+{
+  "paper_id": "PMC5587110",
+  "section": "METHODS",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 24,
+      "label": "SPM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS",
+        "sentence_id": 25,
+        "char_start": 8440,
+        "char_end": 8443,
+        "anchor": "PMC5587110_8440_8443"
+      }
+    },
+    {
+      "id": 25,
+      "label": "qPCR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS",
+        "sentence_id": 25,
+        "char_start": 8505,
+        "char_end": 8509,
+        "anchor": "PMC5587110_8505_8509"
+      }
+    },
+    {
+      "id": 26,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS",
+        "sentence_id": 25,
+        "char_start": 8573,
+        "char_end": 8576,
+        "anchor": "PMC5587110_8573_8576"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 19,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 24,
+      "target": 25
+    },
+    {
+      "id": 20,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 24,
+      "target": 26
+    },
+    {
+      "id": 21,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 25,
+      "target": 26
+    }
+  ]
+}

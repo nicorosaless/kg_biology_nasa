@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC11673879",
+  "section": "Parental strains of",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 374,
+      "label": "None",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Parental strains of",
+        "sentence_id": 159,
+        "char_start": 26906,
+        "char_end": 26910,
+        "anchor": "PMC11673879_26906_26910",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 375,
+      "label": "changes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Parental strains of",
+        "sentence_id": 159,
+        "char_start": 26966,
+        "char_end": 26973,
+        "anchor": "PMC11673879_26966_26973",
+        "page": 9,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 235,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 374,
+      "target": 375
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 4,
+      "largest_component": 2
+    },
+    "page": 9
+  }
+}

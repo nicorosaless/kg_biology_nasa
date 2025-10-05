@@ -1,0 +1,198 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "The paper addresses visual and anatomical changes observed in astronauts after long-duration spaceflight, including optic-disc edema, globe flattening, choroidal folds, and hyperopic shifts, along with postflight elevated intracranial pressure (ICP). NASA suspects microgravity-induced cephalad-fluid shift as a significant factor and has initiated a project to investigate this issue. Early cases involved decreased near-visual acuity and choroidal folds, prompting further research into altered visual acuity and scotoma.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Summary of VIIP Case Data Available at Time of Publication (OD=right, OS=left, OU=both eyes, sph=sphere, OCT=optical coherence tomography, MRI=magnetic resonance imaging, CSF=cerebral spinal fluid, NFL=retinal nerve fiber layer, R+=return to Earth; [presented by number of",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.png"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Figure 1: Fundus examination of first case of visual changes from long-duration spaceflight.Fundus examination revealed choroidal folds inferior to the optic disc and a single cotton-wool spot in the inferior arcade of the right eye",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.png"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Figure 2: Fundus examination of second case of visual changes from long-duration spaceflight.Fundoscopic images showing, choroidal folds (white arrows) in the papillomacular bundle area in the right eye and left eye and a cotton-wool spot",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.jpeg"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Figure 4: OCT examination of third case of visual changes from long-duration spaceflight.Postflight Zeiss Stratus OCT scans show significant NFL thickening (black line upper panel) consistent with the observed bilateral opticdisc edema (OD>OS).Retinal Nerve Fiber",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.jpeg"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Existing Long-Duration Flight Data",
+      "summary": "The first documented U.S. case reported decreased near-visual acuity during an ISS mission, with postflight examination revealing choroidal folds. A second case reported vision changes requiring reading glasses, confirmed by fluorescein angiography showing choroidal folds. Another astronaut exhibited scotoma and mild optic-disc edema diagnosed via ultrasound and confirmed postflight with fundus examination and OCT, revealing choroidal folds (Figure 8). Immediate postflight MRI implementation allowed for detailed imaging of the eye, confirming the absence of increased ONSD or posterior globe flattening preflight.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Ocular Evidence and Spaceflight",
+      "summary": "This section discusses how anatomical and physiological changes observed during extended spaceflight relate to terrestrial conditions with similar signs and symptoms, focusing on visual acuity disturbance and elevated ICP. A review of astronaut data identified disc edema, globe flattening, choroidal folds, cotton-wool spots, nerve fiber layer thickening, and decreased near vision. Lumbar punctures in some cases revealed elevated opening pressures. These findings suggest a pathological process involving the eye, optic nerve, brain, and vascular system, influenced by cephalad-fluid shifts during microgravity exposure.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "IOP and Globe Deformation",
+      "summary": "Intraocular pressure (IOP) is determined by aqueous humor dynamics, represented by the equation IOP= F/C+PV. IOP typically ranges from 10 to 20 mm Hg with diurnal variations. Microgravity-induced cephalad-fluid shift increases venous pressure and intracranial CSF volume, elevating ICP. Elevated ICP can affect the optic nerve and disc, causing papillary protrusion and potentially disc swelling (papilledema). Studies suggest IOP can serve as a surrogate measure for ICP due to anatomical relationships between the intracranial contents and the eye, though conflicting data exists.",
+      "figures": [],
+      "equations": [
+        {
+          "id": "eq_1",
+          "text": "IOP= F/C+PV",
+          "latex_inline": "IOP = F/C + PV",
+          "latex_display": "IOP = \\\\dfrac{F}{C} + PV",
+          "type": "general",
+          "order": 10000
+        }
+      ]
+    },
+    {
+      "heading": "Optic-Disc Edema and Choroidal Folds",
+      "summary": "Optic disc edema, often associated with increased ICP, involves deformation of the optic nerve head (ONH) and swelling of the optic disc. This has been observed in astronauts with visual alterations post-mission. Features include dilated optic nerve sheath and bulging of the optic sheath into the globe. Visual symptoms can accompany papilledema, potentially leading to permanent visual loss. Choroidal folds, involving Bruch's membrane and the retinal pigment epithelium, may result from congestion within the choriocapillaris. Elevated retrobulbar pressure may compress the posterior globe causing sclera flattening contributing to hyperopic shift and choroidal folds.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Cardiovascular Adaptations",
+      "summary": "Spaceflight induces a cephalad-fluid shift due to the loss of hydrostatic pressure, leading to transient increases in stroke volume and cardiac output. Plasma volume decreases with spaceflight, influenced by reduced water intake and extravasation. Central venous pressure (CVP) may decrease in microgravity. Increased venous pressure can lead to congestion in the venous system causing a concomitant rise in pressure in the episcleral vessels of the eye and will increase the resistance to aqueous-humor outflow, leading to a rise in IOP (Figure 31).",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "CNS Adaptations and ICP",
+      "summary": "",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Environmental Factors and Exercise",
+      "summary": "",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Genetic Factors and Biomarkers",
+      "summary": "",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": "Fifteen long-duration astronauts experienced visual and anatomical changes, including optic-disc edema and choroidal folds. The etiology is unknown, but cephalad-fluid shift and physiological changes are suspected. This shift may lead to increased stroke volume, cardiac output, ICP, and IOP. Further research is needed to understand the underlying mechanisms and develop effective countermeasures. The symptoms may result from obstructed vascular (venous) outflow, a rise in ICP or as a result of a constellation of localized events, occurring within the intraorbital optic nerve without a rise in CSF pressure.",
+  "keywords": [
+    "visual impairment",
+    "intracranial pressure",
+    "spaceflight",
+    "microgravity",
+    "optic-disc edema",
+    "choroidal folds",
+    "cephalad-fluid shift",
+    "intraocular pressure",
+    "cardiovascular adaptations",
+    "cerebrospinal fluid"
+  ],
+  "topics": [
+    "aerospace medicine",
+    "ophthalmology",
+    "physiology"
+  ],
+  "_meta": {
+    "paper_id": "sha256:b797ae47550ed0ac12925b4fceb1c4be9bf5c2106bc5fda1d1b55a77eb8cfc43",
+    "paper_title": "Table of Contents",
+    "generated_at": "2025-10-05T10:42:17Z",
+    "word_count": 486,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [
+      "eq_1"
+    ],
+    "keywords": [
+      "visual impairment",
+      "intracranial pressure",
+      "spaceflight",
+      "microgravity",
+      "optic-disc edema",
+      "choroidal folds",
+      "cephalad-fluid shift",
+      "intraocular pressure",
+      "cardiovascular adaptations",
+      "cerebrospinal fluid"
+    ],
+    "topics": [
+      "aerospace medicine",
+      "ophthalmology",
+      "physiology"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 2,
+      "final_count": 1,
+      "discarded_count": 0,
+      "coverage_ratio": 0.5,
+      "dedupe_rate": 0.0,
+      "types_distribution": {
+        "general": 1
+      },
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 21334,
+      "completion_tokens": 1435,
+      "total_tokens": 22769,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.002133,
+      "output_usd": 0.000574,
+      "total_usd": 0.002707
+    },
+    "cost": {
+      "input_usd": 0.002133,
+      "output_usd": 0.000574,
+      "total_usd": 0.002707
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [],
+      "corrupted_detected": [
+        "fig_8",
+        "fig_31",
+        "fig_47"
+      ],
+      "original_total": 3,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

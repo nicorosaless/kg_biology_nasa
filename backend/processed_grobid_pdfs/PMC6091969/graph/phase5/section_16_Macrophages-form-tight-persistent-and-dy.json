@@ -1,0 +1,278 @@
+{
+  "paper_id": "PMC6091969",
+  "section": "Macrophages form tight, persistent, and dynamic clusters around A. fumigatus",
+  "n_nodes": 9,
+  "n_edges": 20,
+  "nodes": [
+    {
+      "id": 192,
+      "label": "Rac2",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages form tight, persistent, and dynamic clusters around A. fumigatus",
+        "sentence_id": 62,
+        "char_start": 16493,
+        "char_end": 16497,
+        "anchor": "PMC6091969_16493_16497",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 181,
+      "label": "Macrophages",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages form tight, persistent, and dynamic clusters around A. fumigatus",
+        "sentence_id": 62,
+        "char_start": 16132,
+        "char_end": 16143,
+        "anchor": "PMC6091969_16132_16143",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 182,
+      "label": "neutrophils",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages form tight, persistent, and dynamic clusters around A. fumigatus",
+        "sentence_id": 62,
+        "char_start": 16148,
+        "char_end": 16159,
+        "anchor": "PMC6091969_16148_16159",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 185,
+      "label": "Rac",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages form tight, persistent, and dynamic clusters around A. fumigatus",
+        "sentence_id": 62,
+        "char_start": 16493,
+        "char_end": 16496,
+        "anchor": "PMC6091969_16493_16496",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 186,
+      "label": "migration",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages form tight, persistent, and dynamic clusters around A. fumigatus",
+        "sentence_id": 62,
+        "char_start": 16551,
+        "char_end": 16560,
+        "anchor": "PMC6091969_16551_16560",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 187,
+      "label": "utrophil",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages form tight, persistent, and dynamic clusters around A. fumigatus",
+        "sentence_id": 62,
+        "char_start": 16566,
+        "char_end": 16574,
+        "anchor": "PMC6091969_16566_16574",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 188,
+      "label": "293-derived strain",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages form tight, persistent, and dynamic clusters around A. fumigatus",
+        "sentence_id": 62,
+        "char_start": 16656,
+        "char_end": 16674,
+        "anchor": "PMC6091969_16656_16674",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 189,
+      "label": "defective",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages form tight, persistent, and dynamic clusters around A. fumigatus",
+        "sentence_id": 62,
+        "char_start": 16726,
+        "char_end": 16735,
+        "anchor": "PMC6091969_16726_16735",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 191,
+      "label": "CFU",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages form tight, persistent, and dynamic clusters around A. fumigatus",
+        "sentence_id": 62,
+        "char_start": 16371,
+        "char_end": 16374,
+        "anchor": "PMC6091969_16371_16374",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 213,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 185,
+      "target": 181
+    },
+    {
+      "id": 214,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 181,
+      "target": 186
+    },
+    {
+      "id": 215,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 187,
+      "target": 181
+    },
+    {
+      "id": 216,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 181,
+      "target": 188
+    },
+    {
+      "id": 217,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 181,
+      "target": 189
+    },
+    {
+      "id": 219,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 191,
+      "target": 181
+    },
+    {
+      "id": 220,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 192,
+      "target": 181
+    },
+    {
+      "id": 223,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 185,
+      "target": 182
+    },
+    {
+      "id": 224,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 182,
+      "target": 186
+    },
+    {
+      "id": 225,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 187,
+      "target": 182
+    },
+    {
+      "id": 226,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 182,
+      "target": 188
+    },
+    {
+      "id": 227,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 182,
+      "target": 189
+    },
+    {
+      "id": 229,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 191,
+      "target": 182
+    },
+    {
+      "id": 230,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 192,
+      "target": 182
+    },
+    {
+      "id": 233,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 185,
+      "target": 187
+    },
+    {
+      "id": 235,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 185,
+      "target": 191
+    },
+    {
+      "id": 236,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 185,
+      "target": 192
+    },
+    {
+      "id": 240,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 187,
+      "target": 191
+    },
+    {
+      "id": 241,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 187,
+      "target": 192
+    },
+    {
+      "id": 248,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 191,
+      "target": 192
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 12,
+      "largest_component": 9,
+      "removed_components": [
+        4,
+        2,
+        2
+      ]
+    },
+    "page": 8
+  }
+}

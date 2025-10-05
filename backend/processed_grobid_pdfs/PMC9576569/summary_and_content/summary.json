@@ -1,0 +1,135 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "This paper investigates the gene expression changes in mice liver and muscle during spaceflight, focusing on the metabolic crosstalk between these tissues in relation to muscle atrophy. The study employs transcriptomic analysis to identify differentially expressed genes (DEGs) and enriched KEGG pathways, aiming to understand the molecular mechanisms underlying muscle atrophy in space.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Related to figure 1.",
+        "order": 10000,
+        "forced": true,
+        "image_path": "figures/fig_1.png"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Gene Ontology and KEGG Pathway Enrichment Analysis",
+      "summary": "Gene Set Enrichment Analysis (GSEA) was performed on the whole transcriptome in RR1 mice liver and quadriceps. Over-representation analysis (ORA) using Webgesalt was conducted to identify enriched KEGG pathways of DEGs in mice liver during spaceflight, with a focus on lipid metabolism related pathways.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Sparse Partial Least Square-Differential Analysis (sPLS-DA)",
+      "summary": "The study used sPLS-DA to identify common genes in mice quadriceps during spaceflight. KEGG pathway enrichment was performed on the common genes reported by different sPLS-DA models. The analysis focused on hypoglycemic pathways.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Post-sPLS-DA DEG Analysis",
+      "summary": "The researchers analyzed the common DEGs between total DEGs and those identified post-sPLS-DA in mice quadriceps. They identified enriched KEGG pathways, focusing on hypoglycemic pathways. Principal Component Analysis (PCA) was performed on muscle Glucose Transport and muscle Hypoglycemic Signaling pathways, and a correlation heatmap was generated to assess the relationship between gene expression in these pathways.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Liver sPLS-DA and KEGG Pathway Analysis",
+      "summary": "sPLS-DA was also applied to the liver transcriptome, followed by KEGG pathway enrichment analysis of the common genes identified by different sPLS-DA models. The study investigated the overlap of enriched KEGG pathways among DEGs, sPLS-DA genes, and post-sPLS-DA DEGs, highlighting lipid metabolism related pathways.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": {
+    "heading": "Conclusion",
+    "summary": ""
+  },
+  "keywords": [
+    "spaceflight",
+    "muscle atrophy",
+    "gene expression",
+    "kegg pathways",
+    "spls-da",
+    "metabolic crosstalk",
+    "liver",
+    "quadriceps",
+    "transcriptomics",
+    "gsea"
+  ],
+  "topics": [
+    "genomics",
+    "metabolism",
+    "physiology"
+  ],
+  "_meta": {
+    "paper_id": "sha256:48a3150988df7dc962dcb18435455d9acff8eae1328b15469adcd2867f53c4ad",
+    "paper_title": "Muscle atrophy phenotype gene expression during spaceflight is linked to a metabolic crosstalk in both the",
+    "generated_at": "2025-10-05T10:51:48Z",
+    "word_count": 230,
+    "figures": [
+      "fig_1"
+    ],
+    "equations": [],
+    "keywords": [
+      "spaceflight",
+      "muscle atrophy",
+      "gene expression",
+      "kegg pathways",
+      "spls-da",
+      "metabolic crosstalk",
+      "liver",
+      "quadriceps",
+      "transcriptomics",
+      "gsea"
+    ],
+    "topics": [
+      "genomics",
+      "metabolism",
+      "physiology"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 1336,
+      "completion_tokens": 596,
+      "total_tokens": 1932,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000134,
+      "output_usd": 0.000238,
+      "total_usd": 0.000372
+    },
+    "cost": {
+      "input_usd": 0.000134,
+      "output_usd": 0.000238,
+      "total_usd": 0.000372
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [],
+      "corrupted_detected": [
+        "fig_1"
+      ],
+      "original_total": 1,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1"
+      ]
+    }
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "Astronauts face cosmic radiation and microgravity in space, leading to muscle atrophy and other physiological changes. Muscle atrophy, with losses up to 20% in muscle mass during spaceflights, remains a significant concern despite countermeasures. The study investigates telomere length changes in muscle cells of mice subjected to hindlimb unloading (HLS) and irradiation (IR), mimicking spaceflight conditions, to understand muscle acclimatization and its relevance to astronaut health.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Fig.",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.jpeg"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Fig.",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.png"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Fig.",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.jpeg"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Fig.",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.jpeg"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Effects of HLS and IR Exposure on Skeletal Muscle Properties",
+      "summary": "Mice were divided into four groups: control, HLS only, IR only, and HLS + IR, to assess the effects of muscle atrophy and irradiation on skeletal muscles. Whole-body weights remained similar across groups, indicating HLS did not affect appetite. IR exposure significantly reduced testes weights, consistent with prior studies. HLS also negatively impacted testes size and weight. These results are shown in fig_1.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Effects of Muscle Reloading on Muscle Telomere Length",
+      "summary": "The study investigated whether telomere length in MuSCs, which lengthened under HLS + IR conditions, would shorten following a recovery period. Mice were allowed to recover for two weeks with unrestricted movement. Gastrocnemius muscles of recovered mice were similar in size to controls, indicating muscle size recovery. Surprisingly, telomere length in recovered muscles did not return to baseline values, suggesting persistent alterations.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Discussion",
+      "summary": "The study addresses adverse health effects experienced by astronauts during extended space missions, including muscle loss. Drawing upon NASA's Twins Study, which noted telomere lengthening in peripheral blood T cells during spaceflight, this research explores telomere length alterations in skeletal muscle cells under simulated space conditions. Unlike age-related sarcopenia, telomere length changes in muscle cells under simulated space conditions have not been thoroughly investigated. Results indicate telomere lengthening in muscle stem cells and myofiber nuclei under HLS + IR conditions, suggesting a potential role for telomeres in muscle adaptation to spaceflight-like stressors.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Methods",
+      "summary": "Male C57Bl/6 mice were used in the study. Mice were irradiated with 2 Gy, followed by a week before HLS. HLS was conducted for three weeks, with or without a two-week recovery period. Tissues were collected and weighed, normalized to body weights. Gastrocnemius muscles were processed for cryosectioning. Muscle fiber cross-sectional area was measured using wheat germ agglutinin staining. Muscle stem cell numbers were quantified using Pax7 staining. Telomere length was measured using the CRYO MuQ-FISH protocol. Telomerase activity was measured by TRAP assay.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Telomere Length Assessments",
+      "summary": "Telomere length was assessed using CRYO MuQ-FISH. Muscle cryosections were permeabilized and subjected to heat-mediated antigen retrieval. Slides were incubated with RNase A and then with an Alexa Fluor 647-conjugated TelC telomere probe. MuSCs were labeled with VCAM1, and endothelial cells were marked with CD31 biotin antibody. Images were captured to measure telomere length in different cell types. Fig. 3 shows representative images of MuSCs with telomere staining.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": {
+    "heading": "Conclusion",
+    "summary": "1a-d).These findings are in agreement with previous studies in mice and humans exposed to IR 29,30 .HLS also had deleterious effects on testes gross size and normalized weight (Supplementary Fig."
+  },
+  "keywords": [
+    "telomere length",
+    "muscle atrophy",
+    "spaceflight",
+    "hindlimb unloading",
+    "irradiation",
+    "muscle stem cells",
+    "myofiber nuclei",
+    "astronaut health",
+    "trap assay",
+    "cryo muq-fish"
+  ],
+  "topics": [
+    "muscle physiology",
+    "space medicine",
+    "telomere biology"
+  ],
+  "_meta": {
+    "paper_id": "sha256:43a3766258ca1feef3f6f31a6f5137b154f1d4d9073c21c25369f2f7726a1870",
+    "paper_title": "Impacts of radiation exposure, hindlimb unloading, and recovery on murine skeletal muscle cell telomere length",
+    "generated_at": "2025-10-05T10:34:18Z",
+    "word_count": 465,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "telomere length",
+      "muscle atrophy",
+      "spaceflight",
+      "hindlimb unloading",
+      "irradiation",
+      "muscle stem cells",
+      "myofiber nuclei",
+      "astronaut health",
+      "trap assay",
+      "cryo muq-fish"
+    ],
+    "topics": [
+      "muscle physiology",
+      "space medicine",
+      "telomere biology"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 5449,
+      "completion_tokens": 880,
+      "total_tokens": 6329,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000545,
+      "output_usd": 0.000352,
+      "total_usd": 0.000897
+    },
+    "cost": {
+      "input_usd": 0.000545,
+      "output_usd": 0.000352,
+      "total_usd": 0.000897
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [],
+      "corrupted_detected": [
+        "fig_1",
+        "fig_5",
+        "fig_3",
+        "fig_4"
+      ],
+      "original_total": 4,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

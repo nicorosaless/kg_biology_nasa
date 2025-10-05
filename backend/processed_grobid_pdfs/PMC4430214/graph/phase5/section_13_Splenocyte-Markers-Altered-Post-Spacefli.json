@@ -1,0 +1,85 @@
+{
+  "paper_id": "PMC4430214",
+  "section": "Splenocyte Markers Altered Post-Spaceflight",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 283,
+      "label": "CD8 cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Splenocyte Markers Altered Post-Spaceflight",
+        "sentence_id": 79,
+        "char_start": 15004,
+        "char_end": 15013,
+        "anchor": "PMC4430214_15004_15013",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 285,
+      "label": "controls",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Splenocyte Markers Altered Post-Spaceflight",
+        "sentence_id": 79,
+        "char_start": 15094,
+        "char_end": 15102,
+        "anchor": "PMC4430214_15094_15102",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 286,
+      "label": "Little",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Splenocyte Markers Altered Post-Spaceflight",
+        "sentence_id": 79,
+        "char_start": 15113,
+        "char_end": 15119,
+        "anchor": "PMC4430214_15113_15119",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 296,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 285,
+      "target": 283
+    },
+    {
+      "id": 297,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 286,
+      "target": 283
+    },
+    {
+      "id": 298,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 285,
+      "target": 286
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 30,
+      "largest_component": 3,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 5
+  }
+}

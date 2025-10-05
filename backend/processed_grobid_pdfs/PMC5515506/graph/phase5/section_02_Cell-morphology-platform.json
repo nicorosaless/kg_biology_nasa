@@ -1,0 +1,81 @@
+{
+  "paper_id": "PMC5515506",
+  "section": "Cell morphology platform",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 120,
+      "label": "Graphtec",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell morphology platform",
+        "sentence_id": 51,
+        "char_start": 9244,
+        "char_end": 9252,
+        "anchor": "PMC5515506_9244_9252",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 121,
+      "label": "Irvine",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell morphology platform",
+        "sentence_id": 51,
+        "char_start": 9254,
+        "char_end": 9260,
+        "anchor": "PMC5515506_9254_9260",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 123,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell morphology platform",
+        "sentence_id": 51,
+        "char_start": 9266,
+        "char_end": 9269,
+        "anchor": "PMC5515506_9266_9269",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 187,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 120,
+      "target": 121
+    },
+    {
+      "id": 189,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 120,
+      "target": 123
+    },
+    {
+      "id": 191,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 123
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 5,
+      "largest_component": 3
+    },
+    "page": 2
+  }
+}

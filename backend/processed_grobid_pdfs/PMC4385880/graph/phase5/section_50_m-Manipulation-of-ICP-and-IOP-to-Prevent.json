@@ -1,0 +1,159 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "m) Manipulation of ICP and IOP to Prevent Optic-Disc Edema and Visual Loss",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 2053,
+      "label": "IOP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "m) Manipulation of ICP and IOP to Prevent Optic-Disc Edema and Visual Loss",
+        "sentence_id": 632,
+        "char_start": 104536,
+        "char_end": 104539,
+        "anchor": "PMC4385880_104536_104539",
+        "page": 49,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2055,
+      "label": "hyperop",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "m) Manipulation of ICP and IOP to Prevent Optic-Disc Edema and Visual Loss",
+        "sentence_id": 632,
+        "char_start": 104795,
+        "char_end": 104802,
+        "anchor": "PMC4385880_104795_104802",
+        "page": 49,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2056,
+      "label": "IOP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "m) Manipulation of ICP and IOP to Prevent Optic-Disc Edema and Visual Loss",
+        "sentence_id": 632,
+        "char_start": 104460,
+        "char_end": 104463,
+        "anchor": "PMC4385880_104460_104463",
+        "page": 49,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2057,
+      "label": "IOP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "m) Manipulation of ICP and IOP to Prevent Optic-Disc Edema and Visual Loss",
+        "sentence_id": 632,
+        "char_start": 104536,
+        "char_end": 104539,
+        "anchor": "PMC4385880_104536_104539",
+        "page": 49,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2059,
+      "label": "IOP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "m) Manipulation of ICP and IOP to Prevent Optic-Disc Edema and Visual Loss",
+        "sentence_id": 632,
+        "char_start": 104627,
+        "char_end": 104630,
+        "anchor": "PMC4385880_104627_104630",
+        "page": 49,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 2276,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2053,
+      "target": 2055
+    },
+    {
+      "id": 2277,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2053,
+      "target": 2056
+    },
+    {
+      "id": 2278,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2053,
+      "target": 2057
+    },
+    {
+      "id": 2280,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2053,
+      "target": 2059
+    },
+    {
+      "id": 2281,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2055,
+      "target": 2056
+    },
+    {
+      "id": 2282,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2055,
+      "target": 2057
+    },
+    {
+      "id": 2284,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2055,
+      "target": 2059
+    },
+    {
+      "id": 2285,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2056,
+      "target": 2057
+    },
+    {
+      "id": 2287,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2056,
+      "target": 2059
+    },
+    {
+      "id": 2289,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2057,
+      "target": 2059
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 7,
+      "largest_component": 5,
+      "removed_components": [
+        5,
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 49
+  }
+}

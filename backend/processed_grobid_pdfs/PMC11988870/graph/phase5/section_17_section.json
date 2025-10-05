@@ -1,0 +1,68 @@
+{
+  "paper_id": "PMC11988870",
+  "section": "•",
+  "n_nodes": 4,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 8,
+      "label": "Spanish",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "•",
+        "sentence_id": 26,
+        "char_start": 4951,
+        "char_end": 4958,
+        "anchor": "PMC11988870_4951_4958"
+      }
+    },
+    {
+      "id": 7,
+      "label": "English",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "•",
+        "sentence_id": 26,
+        "char_start": 4939,
+        "char_end": 4946,
+        "anchor": "PMC11988870_4939_4946"
+      }
+    },
+    {
+      "id": 5,
+      "label": "PICO",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "•",
+        "sentence_id": 23,
+        "char_start": 4077,
+        "char_end": 4081,
+        "anchor": "PMC11988870_4077_4081"
+      }
+    },
+    {
+      "id": 6,
+      "label": "MeSH",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "•",
+        "sentence_id": 24,
+        "char_start": 4499,
+        "char_end": 4503,
+        "anchor": "PMC11988870_4499_4503"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 7,
+      "target": 8
+    }
+  ]
+}

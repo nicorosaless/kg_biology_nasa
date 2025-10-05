@@ -1,0 +1,325 @@
+{
+  "paper_id": "PMC10889206",
+  "section": "Synthetic PHENOTYPE",
+  "n_nodes": 15,
+  "n_edges": 14,
+  "nodes": [
+    {
+      "id": 60,
+      "label": "hematopoiesis",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 13,
+        "char_start": 2761,
+        "char_end": 2774,
+        "anchor": "PMC10889206_2761_2774",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 95,
+      "label": "bone loss",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 24,
+        "char_start": 4778,
+        "char_end": 4787,
+        "anchor": "PMC10889206_4778_4787",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 99,
+      "label": "bone loss",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 25,
+        "char_start": 4874,
+        "char_end": 4883,
+        "anchor": "PMC10889206_4874_4883",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 107,
+      "label": "abnormalities",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 26,
+        "char_start": 5034,
+        "char_end": 5047,
+        "anchor": "PMC10889206_5034_5047",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 113,
+      "label": "immune reconstitution",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 30,
+        "char_start": 5515,
+        "char_end": 5536,
+        "anchor": "PMC10889206_5515_5536",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 192,
+      "label": "cancellous bone architecture",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Bone Microarchitecture",
+        "sentence_id": 44,
+        "char_start": 9488,
+        "char_end": 9516,
+        "anchor": "PMC10889206_9488_9516",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 242,
+      "label": "adiposity",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Static and Dynamic Histomorphometry",
+        "sentence_id": 51,
+        "char_start": 11004,
+        "char_end": 11013,
+        "anchor": "PMC10889206_11004_11013",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 307,
+      "label": "skeletal abnormalities",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 69,
+        "char_start": 14043,
+        "char_end": 14065,
+        "anchor": "PMC10889206_14043_14065",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 313,
+      "label": "weight loss",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 72,
+        "char_start": 14472,
+        "char_end": 14483,
+        "anchor": "PMC10889206_14472_14483",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 315,
+      "label": "energy deficit",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 72,
+        "char_start": 14501,
+        "char_end": 14515,
+        "anchor": "PMC10889206_14501_14515",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 320,
+      "label": "weight loss",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 73,
+        "char_start": 14738,
+        "char_end": 14749,
+        "anchor": "PMC10889206_14738_14749",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 346,
+      "label": "negative energy balance",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 80,
+        "char_start": 16343,
+        "char_end": 16366,
+        "anchor": "PMC10889206_16343_16366",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 357,
+      "label": "energy deficit",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 84,
+        "char_start": 17134,
+        "char_end": 17148,
+        "anchor": "PMC10889206_17134_17148",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 531,
+      "label": "cancellous",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography",
+        "sentence_id": 125,
+        "char_start": 24598,
+        "char_end": 24608,
+        "anchor": "PMC10889206_24598_24608",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 588,
+      "label": "alcohol extraction",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Histomorphometry",
+        "sentence_id": 136,
+        "char_start": 27786,
+        "char_end": 27804,
+        "anchor": "PMC10889206_27786_27804",
+        "page": 11,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-60-95",
+      "type": "ASSOCIATED",
+      "source": 60,
+      "target": 95
+    },
+    {
+      "id": "synth-60-99",
+      "type": "ASSOCIATED",
+      "source": 60,
+      "target": 99
+    },
+    {
+      "id": "synth-60-107",
+      "type": "ASSOCIATED",
+      "source": 60,
+      "target": 107
+    },
+    {
+      "id": "synth-60-113",
+      "type": "ASSOCIATED",
+      "source": 60,
+      "target": 113
+    },
+    {
+      "id": "synth-60-192",
+      "type": "ASSOCIATED",
+      "source": 60,
+      "target": 192
+    },
+    {
+      "id": "synth-60-242",
+      "type": "ASSOCIATED",
+      "source": 60,
+      "target": 242
+    },
+    {
+      "id": "synth-60-307",
+      "type": "ASSOCIATED",
+      "source": 60,
+      "target": 307
+    },
+    {
+      "id": "synth-60-313",
+      "type": "ASSOCIATED",
+      "source": 60,
+      "target": 313
+    },
+    {
+      "id": "synth-60-315",
+      "type": "ASSOCIATED",
+      "source": 60,
+      "target": 315
+    },
+    {
+      "id": "synth-60-320",
+      "type": "ASSOCIATED",
+      "source": 60,
+      "target": 320
+    },
+    {
+      "id": "synth-60-346",
+      "type": "ASSOCIATED",
+      "source": 60,
+      "target": 346
+    },
+    {
+      "id": "synth-60-357",
+      "type": "ASSOCIATED",
+      "source": 60,
+      "target": 357
+    },
+    {
+      "id": "synth-60-531",
+      "type": "ASSOCIATED",
+      "source": 60,
+      "target": 531
+    },
+    {
+      "id": "synth-60-588",
+      "type": "ASSOCIATED",
+      "source": 60,
+      "target": 588
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "PHENOTYPE",
+    "page": null
+  }
+}

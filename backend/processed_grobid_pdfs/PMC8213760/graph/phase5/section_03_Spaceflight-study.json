@@ -1,0 +1,153 @@
+{
+  "paper_id": "PMC8213760",
+  "section": "Spaceflight study",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 128,
+      "label": "Habitats",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight study",
+        "sentence_id": 28,
+        "char_start": 7295,
+        "char_end": 7303,
+        "anchor": "PMC8213760_7295_7303",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 121,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight study",
+        "sentence_id": 28,
+        "char_start": 7146,
+        "char_end": 7149,
+        "anchor": "PMC8213760_7146_7149",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 122,
+      "label": "returned",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight study",
+        "sentence_id": 28,
+        "char_start": 7200,
+        "char_end": 7208,
+        "anchor": "PMC8213760_7200_7208",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 124,
+      "label": "Sensors",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight study",
+        "sentence_id": 28,
+        "char_start": 7280,
+        "char_end": 7287,
+        "anchor": "PMC8213760_7280_7287",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 126,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight study",
+        "sentence_id": 28,
+        "char_start": 7146,
+        "char_end": 7149,
+        "anchor": "PMC8213760_7146_7149",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 131,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 122
+    },
+    {
+      "id": 132,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 124
+    },
+    {
+      "id": 134,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 126
+    },
+    {
+      "id": 136,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 128
+    },
+    {
+      "id": 137,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 122,
+      "target": 124
+    },
+    {
+      "id": 139,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 122,
+      "target": 126
+    },
+    {
+      "id": 141,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 122,
+      "target": 128
+    },
+    {
+      "id": 143,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 124,
+      "target": 126
+    },
+    {
+      "id": 145,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 124,
+      "target": 128
+    },
+    {
+      "id": 150,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 126,
+      "target": 128
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 2,
+      "largest_component": 5
+    },
+    "page": 2
+  }
+}

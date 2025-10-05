@@ -1,0 +1,201 @@
+{
+  "paper_id": "PMC10800490",
+  "section": "Non-coding RNAs",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 515,
+      "label": "NAT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Non-coding RNAs",
+        "sentence_id": 141,
+        "char_start": 29678,
+        "char_end": 29681,
+        "anchor": "PMC10800490_29678_29681",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 519,
+      "label": "Wight",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Non-coding RNAs",
+        "sentence_id": 141,
+        "char_start": 29532,
+        "char_end": 29537,
+        "anchor": "PMC10800490_29532_29537",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 520,
+      "label": "Werner",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Non-coding RNAs",
+        "sentence_id": 141,
+        "char_start": 29542,
+        "char_end": 29548,
+        "anchor": "PMC10800490_29542_29548",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 521,
+      "label": "NAT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Non-coding RNAs",
+        "sentence_id": 141,
+        "char_start": 29598,
+        "char_end": 29601,
+        "anchor": "PMC10800490_29598_29601",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 522,
+      "label": "Reis",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Non-coding RNAs",
+        "sentence_id": 141,
+        "char_start": 29777,
+        "char_end": 29781,
+        "anchor": "PMC10800490_29777_29781",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 523,
+      "label": "Poirier",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Non-coding RNAs",
+        "sentence_id": 141,
+        "char_start": 29786,
+        "char_end": 29793,
+        "anchor": "PMC10800490_29786_29793",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1193,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 515,
+      "target": 519
+    },
+    {
+      "id": 1194,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 515,
+      "target": 520
+    },
+    {
+      "id": 1195,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 515,
+      "target": 521
+    },
+    {
+      "id": 1196,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 515,
+      "target": 522
+    },
+    {
+      "id": 1197,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 515,
+      "target": 523
+    },
+    {
+      "id": 1199,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 519,
+      "target": 520
+    },
+    {
+      "id": 1200,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 519,
+      "target": 521
+    },
+    {
+      "id": 1201,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 519,
+      "target": 522
+    },
+    {
+      "id": 1202,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 519,
+      "target": 523
+    },
+    {
+      "id": 1204,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 520,
+      "target": 521
+    },
+    {
+      "id": 1205,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 520,
+      "target": 522
+    },
+    {
+      "id": 1206,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 520,
+      "target": 523
+    },
+    {
+      "id": 1208,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 521,
+      "target": 522
+    },
+    {
+      "id": 1209,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 521,
+      "target": 523
+    },
+    {
+      "id": 1211,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 522,
+      "target": 523
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 18,
+      "largest_component": 6,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 8
+  }
+}

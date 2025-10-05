@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC10780891",
+  "section": "Descriptive Statistics of Kernels",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 41,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Descriptive Statistics of Kernels",
+        "sentence_id": 21,
+        "char_start": 4335,
+        "char_end": 4338,
+        "anchor": "PMC10780891_4335_4338",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 43,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Descriptive Statistics of Kernels",
+        "sentence_id": 21,
+        "char_start": 4335,
+        "char_end": 4338,
+        "anchor": "PMC10780891_4335_4338",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 17,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 41,
+      "target": 43
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 1,
+      "largest_component": 2
+    },
+    "page": 2
+  }
+}

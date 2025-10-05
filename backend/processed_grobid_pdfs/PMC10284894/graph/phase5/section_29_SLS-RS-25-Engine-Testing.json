@@ -1,0 +1,114 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "SLS RS-25 Engine Testing",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 657,
+      "label": "Tests",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "SLS RS-25 Engine Testing",
+        "sentence_id": 371,
+        "char_start": 67747,
+        "char_end": 67752,
+        "anchor": "PMC10284894_67747_67752",
+        "page": 69,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 658,
+      "label": "Ste",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "SLS RS-25 Engine Testing",
+        "sentence_id": 371,
+        "char_start": 67756,
+        "char_end": 67759,
+        "anchor": "PMC10284894_67756_67759",
+        "page": 69,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 659,
+      "label": "Bay",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "SLS RS-25 Engine Testing",
+        "sentence_id": 371,
+        "char_start": 67782,
+        "char_end": 67785,
+        "anchor": "PMC10284894_67782_67785",
+        "page": 69,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 660,
+      "label": "Louis",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "SLS RS-25 Engine Testing",
+        "sentence_id": 371,
+        "char_start": 67790,
+        "char_end": 67795,
+        "anchor": "PMC10284894_67790_67795",
+        "page": 69,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 605,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 657,
+      "target": 658
+    },
+    {
+      "id": 606,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 657,
+      "target": 659
+    },
+    {
+      "id": 607,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 657,
+      "target": 660
+    },
+    {
+      "id": 608,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 658,
+      "target": 659
+    },
+    {
+      "id": 609,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 658,
+      "target": 660
+    },
+    {
+      "id": 610,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 659,
+      "target": 660
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 5,
+      "largest_component": 4
+    },
+    "page": 69
+  }
+}

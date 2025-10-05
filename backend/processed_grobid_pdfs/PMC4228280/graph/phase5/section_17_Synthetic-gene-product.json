@@ -1,0 +1,2887 @@
+{
+  "paper_id": "PMC4228280",
+  "section": "Synthetic GENE_PRODUCT",
+  "n_nodes": 137,
+  "n_edges": 136,
+  "nodes": [
+    {
+      "id": 4,
+      "label": "modified",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 4,
+        "char_start": 1036,
+        "char_end": 1044,
+        "anchor": "PMC4228280_1036_1044",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 10,
+      "label": "motABCD",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 7,
+        "char_start": 1625,
+        "char_end": 1632,
+        "anchor": "PMC4228280_1625_1632",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 11,
+      "label": "swimming",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 7,
+        "char_start": 1653,
+        "char_end": 1661,
+        "anchor": "PMC4228280_1653_1661",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 15,
+      "label": "gravity",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 9,
+        "char_start": 1943,
+        "char_end": 1950,
+        "anchor": "PMC4228280_1943_1950",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 17,
+      "label": "microbes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 10,
+        "char_start": 2097,
+        "char_end": 2105,
+        "anchor": "PMC4228280_2097_2105",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 19,
+      "label": "Bacteria",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 12,
+        "char_start": 2531,
+        "char_end": 2539,
+        "anchor": "PMC4228280_2531_2539",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 22,
+      "label": "bacteria",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 13,
+        "char_start": 2702,
+        "char_end": 2710,
+        "anchor": "PMC4228280_2702_2710",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 25,
+      "label": "enterica",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 17,
+        "char_start": 3187,
+        "char_end": 3195,
+        "anchor": "PMC4228280_3187_3195",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 29,
+      "label": "gravity",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 18,
+        "char_start": 3434,
+        "char_end": 3441,
+        "anchor": "PMC4228280_3434_3441",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 30,
+      "label": "studies",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 18,
+        "char_start": 3485,
+        "char_end": 3492,
+        "anchor": "PMC4228280_3485_3492",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 34,
+      "label": "gravity",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 18,
+        "char_start": 3707,
+        "char_end": 3714,
+        "anchor": "PMC4228280_3707_3714",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 35,
+      "label": "studies",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 18,
+        "char_start": 3735,
+        "char_end": 3742,
+        "anchor": "PMC4228280_3735_3742",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 47,
+      "label": "culture",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 22,
+        "char_start": 5143,
+        "char_end": 5150,
+        "anchor": "PMC4228280_5143_5150",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 48,
+      "label": "Salmon",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 22,
+        "char_start": 5280,
+        "char_end": 5286,
+        "anchor": "PMC4228280_5280_5286",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 49,
+      "label": "Lennox",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 22,
+        "char_start": 5155,
+        "char_end": 5161,
+        "anchor": "PMC4228280_5155_5161",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 60,
+      "label": "LSMMG",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 24,
+        "char_start": 5731,
+        "char_end": 5736,
+        "anchor": "PMC4228280_5731_5736",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 62,
+      "label": "pathogen",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 27,
+        "char_start": 6105,
+        "char_end": 6113,
+        "anchor": "PMC4228280_6105_6113",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 65,
+      "label": "gravity",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 28,
+        "char_start": 6385,
+        "char_end": 6392,
+        "anchor": "PMC4228280_6385_6392",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 70,
+      "label": "LSMMG",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 28,
+        "char_start": 6535,
+        "char_end": 6540,
+        "anchor": "PMC4228280_6535_6540",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 75,
+      "label": "samples",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 31,
+        "char_start": 7442,
+        "char_end": 7449,
+        "anchor": "PMC4228280_7442_7449",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 76,
+      "label": "samples",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 32,
+        "char_start": 7589,
+        "char_end": 7596,
+        "anchor": "PMC4228280_7589_7596",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 77,
+      "label": "culture",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 32,
+        "char_start": 7711,
+        "char_end": 7718,
+        "anchor": "PMC4228280_7711_7718",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 84,
+      "label": "Plate",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 34,
+        "char_start": 7995,
+        "char_end": 8000,
+        "anchor": "PMC4228280_7995_8000",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 85,
+      "label": "FCM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 35,
+        "char_start": 8079,
+        "char_end": 8082,
+        "anchor": "PMC4228280_8079_8082",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 87,
+      "label": "density",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 38,
+        "char_start": 8539,
+        "char_end": 8546,
+        "anchor": "PMC4228280_8539_8546",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 88,
+      "label": "culture",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 38,
+        "char_start": 8601,
+        "char_end": 8608,
+        "anchor": "PMC4228280_8601_8608",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 91,
+      "label": "culture",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 39,
+        "char_start": 8781,
+        "char_end": 8788,
+        "anchor": "PMC4228280_8781_8788",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 95,
+      "label": "gravity",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 41,
+        "char_start": 9007,
+        "char_end": 9014,
+        "anchor": "PMC4228280_9007_9014",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 96,
+      "label": "Atlantis",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 42,
+        "char_start": 9212,
+        "char_end": 9220,
+        "anchor": "PMC4228280_9212_9220",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 97,
+      "label": "PAs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 42,
+        "char_start": 9306,
+        "char_end": 9309,
+        "anchor": "PMC4228280_9306_9309",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 98,
+      "label": "PAs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 42,
+        "char_start": 9437,
+        "char_end": 9440,
+        "anchor": "PMC4228280_9437_9440",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 99,
+      "label": "barrels",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 42,
+        "char_start": 9451,
+        "char_end": 9458,
+        "anchor": "PMC4228280_9451_9458",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 100,
+      "label": "Atlantis",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 42,
+        "char_start": 9212,
+        "char_end": 9220,
+        "anchor": "PMC4228280_9212_9220",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 101,
+      "label": "Rubber",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 43,
+        "char_start": 9484,
+        "char_end": 9490,
+        "anchor": "PMC4228280_9484_9490",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 102,
+      "label": "modified",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 44,
+        "char_start": 9666,
+        "char_end": 9674,
+        "anchor": "PMC4228280_9666_9674",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 107,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 46,
+        "char_start": 10372,
+        "char_end": 10375,
+        "anchor": "PMC4228280_10372_10375",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 108,
+      "label": "Cultures",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 47,
+        "char_start": 10377,
+        "char_end": 10385,
+        "anchor": "PMC4228280_10377_10385",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 109,
+      "label": "PAs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 47,
+        "char_start": 10476,
+        "char_end": 10479,
+        "anchor": "PMC4228280_10476_10479",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 110,
+      "label": "cultures",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 47,
+        "char_start": 10905,
+        "char_end": 10913,
+        "anchor": "PMC4228280_10905_10913",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 115,
+      "label": "shuttle",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 48,
+        "char_start": 11021,
+        "char_end": 11028,
+        "anchor": "PMC4228280_11021_11028",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 116,
+      "label": "landing",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 48,
+        "char_start": 11029,
+        "char_end": 11036,
+        "anchor": "PMC4228280_11029_11036",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 118,
+      "label": "DAPI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 49,
+        "char_start": 11150,
+        "char_end": 11154,
+        "anchor": "PMC4228280_11150_11154",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 121,
+      "label": "DAPI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 49,
+        "char_start": 11150,
+        "char_end": 11154,
+        "anchor": "PMC4228280_11150_11154",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 122,
+      "label": "FCM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 49,
+        "char_start": 11207,
+        "char_end": 11210,
+        "anchor": "PMC4228280_11207_11210",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 125,
+      "label": "FCM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 50,
+        "char_start": 11263,
+        "char_end": 11266,
+        "anchor": "PMC4228280_11263_11266",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 126,
+      "label": "culture",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 51,
+        "char_start": 11532,
+        "char_end": 11539,
+        "anchor": "PMC4228280_11532_11539",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 127,
+      "label": "mAUM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 51,
+        "char_start": 11544,
+        "char_end": 11548,
+        "anchor": "PMC4228280_11544_11548",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 128,
+      "label": "glucose",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 51,
+        "char_start": 11565,
+        "char_end": 11572,
+        "anchor": "PMC4228280_11565_11572",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 135,
+      "label": "FCM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 51,
+        "char_start": 11591,
+        "char_end": 11594,
+        "anchor": "PMC4228280_11591_11594",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 136,
+      "label": "FCM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 51,
+        "char_start": 11911,
+        "char_end": 11914,
+        "anchor": "PMC4228280_11911_11914",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 139,
+      "label": "storing",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 52,
+        "char_start": 12140,
+        "char_end": 12147,
+        "anchor": "PMC4228280_12140_12147",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 140,
+      "label": "FCM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 52,
+        "char_start": 12046,
+        "char_end": 12049,
+        "anchor": "PMC4228280_12046_12049",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 141,
+      "label": "Post",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 53,
+        "char_start": 12183,
+        "char_end": 12187,
+        "anchor": "PMC4228280_12183_12187",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 142,
+      "label": "storage",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 53,
+        "char_start": 12233,
+        "char_end": 12240,
+        "anchor": "PMC4228280_12233_12240",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 144,
+      "label": "fixative",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 54,
+        "char_start": 12438,
+        "char_end": 12446,
+        "anchor": "PMC4228280_12438_12446",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 145,
+      "label": "FCM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 54,
+        "char_start": 12336,
+        "char_end": 12339,
+        "anchor": "PMC4228280_12336_12339",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 147,
+      "label": "storage",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 55,
+        "char_start": 12691,
+        "char_end": 12698,
+        "anchor": "PMC4228280_12691_12698",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 151,
+      "label": "mAUMg",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 56,
+        "char_start": 12914,
+        "char_end": 12919,
+        "anchor": "PMC4228280_12914_12919",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 154,
+      "label": "storage",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 56,
+        "char_start": 12979,
+        "char_end": 12986,
+        "anchor": "PMC4228280_12979_12986",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 156,
+      "label": "storage",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 56,
+        "char_start": 13094,
+        "char_end": 13101,
+        "anchor": "PMC4228280_13094_13101",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 159,
+      "label": "samples",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 56,
+        "char_start": 13280,
+        "char_end": 13287,
+        "anchor": "PMC4228280_13280_13287",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 161,
+      "label": "FCM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 56,
+        "char_start": 12872,
+        "char_end": 12875,
+        "anchor": "PMC4228280_12872_12875",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 162,
+      "label": "mAUMg",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 56,
+        "char_start": 12914,
+        "char_end": 12919,
+        "anchor": "PMC4228280_12914_12919",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 165,
+      "label": "FCM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 57,
+        "char_start": 13465,
+        "char_end": 13468,
+        "anchor": "PMC4228280_13465_13468",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 166,
+      "label": "FCM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 58,
+        "char_start": 13686,
+        "char_end": 13689,
+        "anchor": "PMC4228280_13686_13689",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 170,
+      "label": "mAUM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 59,
+        "char_start": 13848,
+        "char_end": 13852,
+        "anchor": "PMC4228280_13848_13852",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 175,
+      "label": "mAUM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 59,
+        "char_start": 14070,
+        "char_end": 14074,
+        "anchor": "PMC4228280_14070_14074",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 180,
+      "label": "gravity",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 60,
+        "char_start": 14334,
+        "char_end": 14341,
+        "anchor": "PMC4228280_14334_14341",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 184,
+      "label": "mAUMhigh",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 60,
+        "char_start": 14208,
+        "char_end": 14216,
+        "anchor": "PMC4228280_14208_14216",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 210,
+      "label": "FPAs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Oxygen availability modulates the effect of spaceflight on final cell density",
+        "sentence_id": 65,
+        "char_start": 16134,
+        "char_end": 16138,
+        "anchor": "PMC4228280_16134_16138",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 244,
+      "label": "clumping",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Microscopy of planktonic cells does not show aggregation of P. aeruginosa PA14",
+        "sentence_id": 68,
+        "char_start": 17528,
+        "char_end": 17536,
+        "anchor": "PMC4228280_17528_17536",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 258,
+      "label": "FPAs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 71,
+        "char_start": 18298,
+        "char_end": 18302,
+        "anchor": "PMC4228280_18298_18302",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 259,
+      "label": "FCM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 71,
+        "char_start": 18192,
+        "char_end": 18195,
+        "anchor": "PMC4228280_18192_18195",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 261,
+      "label": "Micro",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 73,
+        "char_start": 18774,
+        "char_end": 18779,
+        "anchor": "PMC4228280_18774_18779",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 262,
+      "label": "culture",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 73,
+        "char_start": 18796,
+        "char_end": 18803,
+        "anchor": "PMC4228280_18796_18803",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 264,
+      "label": "removed",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 74,
+        "char_start": 19012,
+        "char_end": 19019,
+        "anchor": "PMC4228280_19012_19019",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 266,
+      "label": "LSMMG",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 74,
+        "char_start": 19025,
+        "char_end": 19030,
+        "anchor": "PMC4228280_19025_19030",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 268,
+      "label": "gravity",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 77,
+        "char_start": 19386,
+        "char_end": 19393,
+        "anchor": "PMC4228280_19386_19393",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 273,
+      "label": "Salmon",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 79,
+        "char_start": 19593,
+        "char_end": 19599,
+        "anchor": "PMC4228280_19593_19599",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 275,
+      "label": "Wilson",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 79,
+        "char_start": 19623,
+        "char_end": 19629,
+        "anchor": "PMC4228280_19623_19629",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 289,
+      "label": "gravity",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 86,
+        "char_start": 21179,
+        "char_end": 21186,
+        "anchor": "PMC4228280_21179_21186",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 292,
+      "label": "Berry",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 87,
+        "char_start": 21225,
+        "char_end": 21230,
+        "anchor": "PMC4228280_21225_21230",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 295,
+      "label": "culture",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 87,
+        "char_start": 21320,
+        "char_end": 21327,
+        "anchor": "PMC4228280_21320_21327",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 299,
+      "label": "starved",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 90,
+        "char_start": 21688,
+        "char_end": 21695,
+        "anchor": "PMC4228280_21688_21695",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 304,
+      "label": "gravity",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 91,
+        "char_start": 22083,
+        "char_end": 22090,
+        "anchor": "PMC4228280_22083_22090",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 305,
+      "label": "PAs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 91,
+        "char_start": 22124,
+        "char_end": 22127,
+        "anchor": "PMC4228280_22124_22127",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 306,
+      "label": "Wilson",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 91,
+        "char_start": 21978,
+        "char_end": 21984,
+        "anchor": "PMC4228280_21978_21984",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 308,
+      "label": "FCM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 91,
+        "char_start": 22160,
+        "char_end": 22163,
+        "anchor": "PMC4228280_22160_22163",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 313,
+      "label": "aerugino",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 93,
+        "char_start": 22528,
+        "char_end": 22536,
+        "anchor": "PMC4228280_22528_22536",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 315,
+      "label": "PAs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 93,
+        "char_start": 22591,
+        "char_end": 22594,
+        "anchor": "PMC4228280_22591_22594",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 318,
+      "label": "FPAs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 93,
+        "char_start": 22711,
+        "char_end": 22715,
+        "anchor": "PMC4228280_22711_22715",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 322,
+      "label": "LSMMG",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 93,
+        "char_start": 22495,
+        "char_end": 22500,
+        "anchor": "PMC4228280_22495_22500",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 327,
+      "label": "microbes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 95,
+        "char_start": 23316,
+        "char_end": 23324,
+        "anchor": "PMC4228280_23316_23324",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 332,
+      "label": "bacteria",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 98,
+        "char_start": 23858,
+        "char_end": 23866,
+        "anchor": "PMC4228280_23858_23866",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 335,
+      "label": "swimming",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 99,
+        "char_start": 24037,
+        "char_end": 24045,
+        "anchor": "PMC4228280_24037_24045",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 336,
+      "label": "aerugino",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 101,
+        "char_start": 24404,
+        "char_end": 24412,
+        "anchor": "PMC4228280_24404_24412",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 337,
+      "label": "PAO1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 101,
+        "char_start": 24415,
+        "char_end": 24419,
+        "anchor": "PMC4228280_24415_24419",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 338,
+      "label": "PA14",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 101,
+        "char_start": 24456,
+        "char_end": 24460,
+        "anchor": "PMC4228280_24456_24460",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 340,
+      "label": "LSMMG",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 101,
+        "char_start": 24435,
+        "char_end": 24440,
+        "anchor": "PMC4228280_24435_24440",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 349,
+      "label": "EPS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 103,
+        "char_start": 25010,
+        "char_end": 25013,
+        "anchor": "PMC4228280_25010_25013",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 350,
+      "label": "PAO",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 103,
+        "char_start": 25048,
+        "char_end": 25051,
+        "anchor": "PMC4228280_25048_25051",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 351,
+      "label": "PA14",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 103,
+        "char_start": 25083,
+        "char_end": 25087,
+        "anchor": "PMC4228280_25083_25087",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 352,
+      "label": "PAO",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 103,
+        "char_start": 25139,
+        "char_end": 25142,
+        "anchor": "PMC4228280_25139_25142",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 353,
+      "label": "EPS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 103,
+        "char_start": 25010,
+        "char_end": 25013,
+        "anchor": "PMC4228280_25010_25013",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 354,
+      "label": "Pel",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 103,
+        "char_start": 25092,
+        "char_end": 25095,
+        "anchor": "PMC4228280_25092_25095",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 355,
+      "label": "Psl",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 103,
+        "char_start": 25148,
+        "char_end": 25151,
+        "anchor": "PMC4228280_25148_25151",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 359,
+      "label": "LSMMG",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 105,
+        "char_start": 25272,
+        "char_end": 25277,
+        "anchor": "PMC4228280_25272_25277",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 361,
+      "label": "genetics",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 106,
+        "char_start": 25340,
+        "char_end": 25348,
+        "anchor": "PMC4228280_25340_25348",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 366,
+      "label": "gravity",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 107,
+        "char_start": 25586,
+        "char_end": 25593,
+        "anchor": "PMC4228280_25586_25593",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 367,
+      "label": "Pseudo",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacterial strains and culture media",
+        "sentence_id": 111,
+        "char_start": 26469,
+        "char_end": 26475,
+        "anchor": "PMC4228280_26469_26475",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 369,
+      "label": "isogenic",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacterial strains and culture media",
+        "sentence_id": 112,
+        "char_start": 26510,
+        "char_end": 26518,
+        "anchor": "PMC4228280_26510_26518",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 370,
+      "label": "motility",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacterial strains and culture media",
+        "sentence_id": 112,
+        "char_start": 26519,
+        "char_end": 26527,
+        "anchor": "PMC4228280_26519_26527",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 392,
+      "label": "hydrate",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacterial strains and culture media",
+        "sentence_id": 114,
+        "char_start": 27208,
+        "char_end": 27215,
+        "anchor": "PMC4228280_27208_27215",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 393,
+      "label": "lowered",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacterial strains and culture media",
+        "sentence_id": 114,
+        "char_start": 27220,
+        "char_end": 27227,
+        "anchor": "PMC4228280_27220_27227",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 395,
+      "label": "Sodium",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacterial strains and culture media",
+        "sentence_id": 114,
+        "char_start": 27299,
+        "char_end": 27305,
+        "anchor": "PMC4228280_27299_27305",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 396,
+      "label": "Higher",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacterial strains and culture media",
+        "sentence_id": 115,
+        "char_start": 27428,
+        "char_end": 27434,
+        "anchor": "PMC4228280_27428_27434",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 397,
+      "label": "nitrate",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacterial strains and culture media",
+        "sentence_id": 115,
+        "char_start": 27460,
+        "char_end": 27467,
+        "anchor": "PMC4228280_27460_27467",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 398,
+      "label": "glucose",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacterial strains and culture media",
+        "sentence_id": 116,
+        "char_start": 27671,
+        "char_end": 27678,
+        "anchor": "PMC4228280_27671_27678",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 400,
+      "label": "mAUM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacterial strains and culture media",
+        "sentence_id": 116,
+        "char_start": 27838,
+        "char_end": 27842,
+        "anchor": "PMC4228280_27838_27842",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 404,
+      "label": "mAUM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacterial strains and culture media",
+        "sentence_id": 116,
+        "char_start": 27779,
+        "char_end": 27783,
+        "anchor": "PMC4228280_27779_27783",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 405,
+      "label": "mAUMg",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacterial strains and culture media",
+        "sentence_id": 116,
+        "char_start": 27788,
+        "char_end": 27793,
+        "anchor": "PMC4228280_27788_27793",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 412,
+      "label": "FPA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight and ground control cultures",
+        "sentence_id": 119,
+        "char_start": 28076,
+        "char_end": 28079,
+        "anchor": "PMC4228280_28076_28079",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 415,
+      "label": "FCM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight and ground control cultures",
+        "sentence_id": 121,
+        "char_start": 28545,
+        "char_end": 28548,
+        "anchor": "PMC4228280_28545_28548",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 416,
+      "label": "FPAs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight and ground control cultures",
+        "sentence_id": 122,
+        "char_start": 28700,
+        "char_end": 28704,
+        "anchor": "PMC4228280_28700_28704",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 417,
+      "label": "FPA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight and ground control cultures",
+        "sentence_id": 122,
+        "char_start": 28827,
+        "char_end": 28830,
+        "anchor": "PMC4228280_28827_28830",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 418,
+      "label": "Cultures",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight and ground control cultures",
+        "sentence_id": 123,
+        "char_start": 28935,
+        "char_end": 28943,
+        "anchor": "PMC4228280_28935_28943",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 419,
+      "label": "FPAs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight and ground control cultures",
+        "sentence_id": 123,
+        "char_start": 29034,
+        "char_end": 29038,
+        "anchor": "PMC4228280_29034_29038",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 420,
+      "label": "Samples",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight and ground control cultures",
+        "sentence_id": 124,
+        "char_start": 29130,
+        "char_end": 29137,
+        "anchor": "PMC4228280_29130_29137",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 422,
+      "label": "Samples",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight and ground control cultures",
+        "sentence_id": 125,
+        "char_start": 29445,
+        "char_end": 29452,
+        "anchor": "PMC4228280_29445_29452",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 425,
+      "label": "FCM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight and ground control cultures",
+        "sentence_id": 125,
+        "char_start": 29386,
+        "char_end": 29389,
+        "anchor": "PMC4228280_29386_29389",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 432,
+      "label": "diluted",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Plate counting",
+        "sentence_id": 131,
+        "char_start": 29971,
+        "char_end": 29978,
+        "anchor": "PMC4228280_29971_29978",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 437,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sample preparation and flow cytometric analysis",
+        "sentence_id": 132,
+        "char_start": 30134,
+        "char_end": 30137,
+        "anchor": "PMC4228280_30134_30137",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 438,
+      "label": "DAPI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sample preparation and flow cytometric analysis",
+        "sentence_id": 132,
+        "char_start": 30186,
+        "char_end": 30190,
+        "anchor": "PMC4228280_30186_30190",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 446,
+      "label": "FCM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sample preparation and flow cytometric analysis",
+        "sentence_id": 134,
+        "char_start": 30517,
+        "char_end": 30520,
+        "anchor": "PMC4228280_30517_30520",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 447,
+      "label": "FCM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sample preparation and flow cytometric analysis",
+        "sentence_id": 136,
+        "char_start": 30740,
+        "char_end": 30743,
+        "anchor": "PMC4228280_30740_30743",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 467,
+      "label": "gravity",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analysis and numerical interpretation",
+        "sentence_id": 145,
+        "char_start": 31896,
+        "char_end": 31903,
+        "anchor": "PMC4228280_31896_31903",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 468,
+      "label": "Student",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analysis and numerical interpretation",
+        "sentence_id": 145,
+        "char_start": 31982,
+        "char_end": 31989,
+        "anchor": "PMC4228280_31982_31989",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-4-10",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 10
+    },
+    {
+      "id": "synth-4-11",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 11
+    },
+    {
+      "id": "synth-4-15",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 15
+    },
+    {
+      "id": "synth-4-17",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 17
+    },
+    {
+      "id": "synth-4-19",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 19
+    },
+    {
+      "id": "synth-4-22",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 22
+    },
+    {
+      "id": "synth-4-25",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 25
+    },
+    {
+      "id": "synth-4-29",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 29
+    },
+    {
+      "id": "synth-4-30",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 30
+    },
+    {
+      "id": "synth-4-34",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 34
+    },
+    {
+      "id": "synth-4-35",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 35
+    },
+    {
+      "id": "synth-4-47",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 47
+    },
+    {
+      "id": "synth-4-48",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 48
+    },
+    {
+      "id": "synth-4-49",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 49
+    },
+    {
+      "id": "synth-4-60",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 60
+    },
+    {
+      "id": "synth-4-62",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 62
+    },
+    {
+      "id": "synth-4-65",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 65
+    },
+    {
+      "id": "synth-4-70",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 70
+    },
+    {
+      "id": "synth-4-75",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 75
+    },
+    {
+      "id": "synth-4-76",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 76
+    },
+    {
+      "id": "synth-4-77",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 77
+    },
+    {
+      "id": "synth-4-84",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 84
+    },
+    {
+      "id": "synth-4-85",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 85
+    },
+    {
+      "id": "synth-4-87",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 87
+    },
+    {
+      "id": "synth-4-88",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 88
+    },
+    {
+      "id": "synth-4-91",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 91
+    },
+    {
+      "id": "synth-4-95",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 95
+    },
+    {
+      "id": "synth-4-96",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 96
+    },
+    {
+      "id": "synth-4-97",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 97
+    },
+    {
+      "id": "synth-4-98",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 98
+    },
+    {
+      "id": "synth-4-99",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 99
+    },
+    {
+      "id": "synth-4-100",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 100
+    },
+    {
+      "id": "synth-4-101",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 101
+    },
+    {
+      "id": "synth-4-102",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 102
+    },
+    {
+      "id": "synth-4-107",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 107
+    },
+    {
+      "id": "synth-4-108",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 108
+    },
+    {
+      "id": "synth-4-109",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 109
+    },
+    {
+      "id": "synth-4-110",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 110
+    },
+    {
+      "id": "synth-4-115",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 115
+    },
+    {
+      "id": "synth-4-116",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 116
+    },
+    {
+      "id": "synth-4-118",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 118
+    },
+    {
+      "id": "synth-4-121",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 121
+    },
+    {
+      "id": "synth-4-122",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 122
+    },
+    {
+      "id": "synth-4-125",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 125
+    },
+    {
+      "id": "synth-4-126",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 126
+    },
+    {
+      "id": "synth-4-127",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 127
+    },
+    {
+      "id": "synth-4-128",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 128
+    },
+    {
+      "id": "synth-4-135",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 135
+    },
+    {
+      "id": "synth-4-136",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 136
+    },
+    {
+      "id": "synth-4-139",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 139
+    },
+    {
+      "id": "synth-4-140",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 140
+    },
+    {
+      "id": "synth-4-141",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 141
+    },
+    {
+      "id": "synth-4-142",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 142
+    },
+    {
+      "id": "synth-4-144",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 144
+    },
+    {
+      "id": "synth-4-145",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 145
+    },
+    {
+      "id": "synth-4-147",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 147
+    },
+    {
+      "id": "synth-4-151",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 151
+    },
+    {
+      "id": "synth-4-154",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 154
+    },
+    {
+      "id": "synth-4-156",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 156
+    },
+    {
+      "id": "synth-4-159",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 159
+    },
+    {
+      "id": "synth-4-161",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 161
+    },
+    {
+      "id": "synth-4-162",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 162
+    },
+    {
+      "id": "synth-4-165",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 165
+    },
+    {
+      "id": "synth-4-166",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 166
+    },
+    {
+      "id": "synth-4-170",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 170
+    },
+    {
+      "id": "synth-4-175",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 175
+    },
+    {
+      "id": "synth-4-180",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 180
+    },
+    {
+      "id": "synth-4-184",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 184
+    },
+    {
+      "id": "synth-4-210",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 210
+    },
+    {
+      "id": "synth-4-244",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 244
+    },
+    {
+      "id": "synth-4-258",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 258
+    },
+    {
+      "id": "synth-4-259",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 259
+    },
+    {
+      "id": "synth-4-261",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 261
+    },
+    {
+      "id": "synth-4-262",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 262
+    },
+    {
+      "id": "synth-4-264",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 264
+    },
+    {
+      "id": "synth-4-266",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 266
+    },
+    {
+      "id": "synth-4-268",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 268
+    },
+    {
+      "id": "synth-4-273",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 273
+    },
+    {
+      "id": "synth-4-275",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 275
+    },
+    {
+      "id": "synth-4-289",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 289
+    },
+    {
+      "id": "synth-4-292",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 292
+    },
+    {
+      "id": "synth-4-295",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 295
+    },
+    {
+      "id": "synth-4-299",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 299
+    },
+    {
+      "id": "synth-4-304",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 304
+    },
+    {
+      "id": "synth-4-305",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 305
+    },
+    {
+      "id": "synth-4-306",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 306
+    },
+    {
+      "id": "synth-4-308",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 308
+    },
+    {
+      "id": "synth-4-313",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 313
+    },
+    {
+      "id": "synth-4-315",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 315
+    },
+    {
+      "id": "synth-4-318",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 318
+    },
+    {
+      "id": "synth-4-322",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 322
+    },
+    {
+      "id": "synth-4-327",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 327
+    },
+    {
+      "id": "synth-4-332",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 332
+    },
+    {
+      "id": "synth-4-335",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 335
+    },
+    {
+      "id": "synth-4-336",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 336
+    },
+    {
+      "id": "synth-4-337",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 337
+    },
+    {
+      "id": "synth-4-338",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 338
+    },
+    {
+      "id": "synth-4-340",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 340
+    },
+    {
+      "id": "synth-4-349",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 349
+    },
+    {
+      "id": "synth-4-350",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 350
+    },
+    {
+      "id": "synth-4-351",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 351
+    },
+    {
+      "id": "synth-4-352",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 352
+    },
+    {
+      "id": "synth-4-353",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 353
+    },
+    {
+      "id": "synth-4-354",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 354
+    },
+    {
+      "id": "synth-4-355",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 355
+    },
+    {
+      "id": "synth-4-359",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 359
+    },
+    {
+      "id": "synth-4-361",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 361
+    },
+    {
+      "id": "synth-4-366",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 366
+    },
+    {
+      "id": "synth-4-367",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 367
+    },
+    {
+      "id": "synth-4-369",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 369
+    },
+    {
+      "id": "synth-4-370",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 370
+    },
+    {
+      "id": "synth-4-392",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 392
+    },
+    {
+      "id": "synth-4-393",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 393
+    },
+    {
+      "id": "synth-4-395",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 395
+    },
+    {
+      "id": "synth-4-396",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 396
+    },
+    {
+      "id": "synth-4-397",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 397
+    },
+    {
+      "id": "synth-4-398",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 398
+    },
+    {
+      "id": "synth-4-400",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 400
+    },
+    {
+      "id": "synth-4-404",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 404
+    },
+    {
+      "id": "synth-4-405",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 405
+    },
+    {
+      "id": "synth-4-412",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 412
+    },
+    {
+      "id": "synth-4-415",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 415
+    },
+    {
+      "id": "synth-4-416",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 416
+    },
+    {
+      "id": "synth-4-417",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 417
+    },
+    {
+      "id": "synth-4-418",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 418
+    },
+    {
+      "id": "synth-4-419",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 419
+    },
+    {
+      "id": "synth-4-420",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 420
+    },
+    {
+      "id": "synth-4-422",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 422
+    },
+    {
+      "id": "synth-4-425",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 425
+    },
+    {
+      "id": "synth-4-432",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 432
+    },
+    {
+      "id": "synth-4-437",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 437
+    },
+    {
+      "id": "synth-4-438",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 438
+    },
+    {
+      "id": "synth-4-446",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 446
+    },
+    {
+      "id": "synth-4-447",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 447
+    },
+    {
+      "id": "synth-4-467",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 467
+    },
+    {
+      "id": "synth-4-468",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 468
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "GENE_PRODUCT",
+    "page": null
+  }
+}

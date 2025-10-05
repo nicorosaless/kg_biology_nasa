@@ -1,0 +1,57 @@
+{
+  "paper_id": "PMC5666799",
+  "section": "Bone Structure",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 272,
+      "label": "changes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bone Structure",
+        "sentence_id": 92,
+        "char_start": 15848,
+        "char_end": 15855,
+        "anchor": "PMC5666799_15848_15855",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 274,
+      "label": "midshaft",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bone Structure",
+        "sentence_id": 92,
+        "char_start": 15893,
+        "char_end": 15901,
+        "anchor": "PMC5666799_15893_15901",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 264,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 272,
+      "target": 274
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 34,
+      "largest_component": 2,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 3
+  }
+}

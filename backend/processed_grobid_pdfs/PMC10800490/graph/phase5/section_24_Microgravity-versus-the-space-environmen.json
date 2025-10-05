@@ -1,0 +1,198 @@
+{
+  "paper_id": "PMC10800490",
+  "section": "Microgravity versus the space environment",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 549,
+      "label": "onboard",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Microgravity versus the space environment",
+        "sentence_id": 151,
+        "char_start": 31671,
+        "char_end": 31678,
+        "anchor": "PMC10800490_31671_31678",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 550,
+      "label": "EMCS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Microgravity versus the space environment",
+        "sentence_id": 151,
+        "char_start": 31734,
+        "char_end": 31738,
+        "anchor": "PMC10800490_31734_31738",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 551,
+      "label": "DEGs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Microgravity versus the space environment",
+        "sentence_id": 151,
+        "char_start": 31830,
+        "char_end": 31834,
+        "anchor": "PMC10800490_31830_31834",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 552,
+      "label": "controls",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Microgravity versus the space environment",
+        "sentence_id": 151,
+        "char_start": 31867,
+        "char_end": 31875,
+        "anchor": "PMC10800490_31867_31875",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 556,
+      "label": "PRR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Microgravity versus the space environment",
+        "sentence_id": 151,
+        "char_start": 31612,
+        "char_end": 31615,
+        "anchor": "PMC10800490_31612_31615",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 557,
+      "label": "EMCS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Microgravity versus the space environment",
+        "sentence_id": 151,
+        "char_start": 31734,
+        "char_end": 31738,
+        "anchor": "PMC10800490_31734_31738",
+        "page": 9,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1227,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 549,
+      "target": 550
+    },
+    {
+      "id": 1228,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 549,
+      "target": 551
+    },
+    {
+      "id": 1229,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 549,
+      "target": 552
+    },
+    {
+      "id": 1231,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 549,
+      "target": 556
+    },
+    {
+      "id": 1232,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 549,
+      "target": 557
+    },
+    {
+      "id": 1233,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 550,
+      "target": 551
+    },
+    {
+      "id": 1234,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 550,
+      "target": 552
+    },
+    {
+      "id": 1236,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 550,
+      "target": 556
+    },
+    {
+      "id": 1237,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 550,
+      "target": 557
+    },
+    {
+      "id": 1238,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 551,
+      "target": 552
+    },
+    {
+      "id": 1240,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 551,
+      "target": 556
+    },
+    {
+      "id": 1241,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 551,
+      "target": 557
+    },
+    {
+      "id": 1243,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 552,
+      "target": 556
+    },
+    {
+      "id": 1244,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 552,
+      "target": 557
+    },
+    {
+      "id": 1247,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 556,
+      "target": 557
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 12,
+      "largest_component": 6
+    },
+    "page": 9
+  }
+}

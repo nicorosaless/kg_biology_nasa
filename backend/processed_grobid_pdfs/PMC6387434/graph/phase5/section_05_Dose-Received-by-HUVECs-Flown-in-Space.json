@@ -1,0 +1,433 @@
+{
+  "paper_id": "PMC6387434",
+  "section": "Dose Received by HUVECs Flown in Space",
+  "n_nodes": 21,
+  "n_edges": 25,
+  "nodes": [
+    {
+      "id": 225,
+      "label": "launched",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Dose Received by HUVECs Flown in Space",
+        "sentence_id": 70,
+        "char_start": 16847,
+        "char_end": 16855,
+        "anchor": "PMC6387434_16847_16855"
+      }
+    },
+    {
+      "id": 226,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Dose Received by HUVECs Flown in Space",
+        "sentence_id": 70,
+        "char_start": 16863,
+        "char_end": 16866,
+        "anchor": "PMC6387434_16863_16866"
+      }
+    },
+    {
+      "id": 227,
+      "label": "culture",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Dose Received by HUVECs Flown in Space",
+        "sentence_id": 70,
+        "char_start": 16905,
+        "char_end": 16912,
+        "anchor": "PMC6387434_16905_16912"
+      }
+    },
+    {
+      "id": 228,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Dose Received by HUVECs Flown in Space",
+        "sentence_id": 70,
+        "char_start": 16863,
+        "char_end": 16866,
+        "anchor": "PMC6387434_16863_16866"
+      }
+    },
+    {
+      "id": 229,
+      "label": "Russian",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Dose Received by HUVECs Flown in Space",
+        "sentence_id": 70,
+        "char_start": 16872,
+        "char_end": 16879,
+        "anchor": "PMC6387434_16872_16879"
+      }
+    },
+    {
+      "id": 230,
+      "label": "ESA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Dose Received by HUVECs Flown in Space",
+        "sentence_id": 70,
+        "char_start": 16978,
+        "char_end": 16981,
+        "anchor": "PMC6387434_16978_16981"
+      }
+    },
+    {
+      "id": 231,
+      "label": "Columbus",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Dose Received by HUVECs Flown in Space",
+        "sentence_id": 70,
+        "char_start": 16983,
+        "char_end": 16991,
+        "anchor": "PMC6387434_16983_16991"
+      }
+    },
+    {
+      "id": 241,
+      "label": "particle",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Dose Received by HUVECs Flown in Space",
+        "sentence_id": 73,
+        "char_start": 18120,
+        "char_end": 18128,
+        "anchor": "PMC6387434_18120_18128"
+      }
+    },
+    {
+      "id": 244,
+      "label": "protons",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Dose Received by HUVECs Flown in Space",
+        "sentence_id": 73,
+        "char_start": 18191,
+        "char_end": 18198,
+        "anchor": "PMC6387434_18191_18198"
+      }
+    },
+    {
+      "id": 245,
+      "label": "Linear",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Dose Received by HUVECs Flown in Space",
+        "sentence_id": 73,
+        "char_start": 18060,
+        "char_end": 18066,
+        "anchor": "PMC6387434_18060_18066"
+      }
+    },
+    {
+      "id": 235,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Dose Received by HUVECs Flown in Space",
+        "sentence_id": 71,
+        "char_start": 17062,
+        "char_end": 17065,
+        "anchor": "PMC6387434_17062_17065"
+      }
+    },
+    {
+      "id": 236,
+      "label": "GCR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Dose Received by HUVECs Flown in Space",
+        "sentence_id": 71,
+        "char_start": 17703,
+        "char_end": 17706,
+        "anchor": "PMC6387434_17703_17706"
+      }
+    },
+    {
+      "id": 232,
+      "label": "almost constant",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Dose Received by HUVECs Flown in Space",
+        "sentence_id": 71,
+        "char_start": 17273,
+        "char_end": 17288,
+        "anchor": "PMC6387434_17273_17288"
+      }
+    },
+    {
+      "id": 233,
+      "label": "220.43 µGy/day",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Dose Received by HUVECs Flown in Space",
+        "sentence_id": 71,
+        "char_start": 17334,
+        "char_end": 17348,
+        "anchor": "PMC6387434_17334_17348"
+      }
+    },
+    {
+      "id": 234,
+      "label": "1.90 µGy/day",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Dose Received by HUVECs Flown in Space",
+        "sentence_id": 71,
+        "char_start": 17389,
+        "char_end": 17401,
+        "anchor": "PMC6387434_17389_17401"
+      }
+    },
+    {
+      "id": 237,
+      "label": "particle",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Dose Received by HUVECs Flown in Space",
+        "sentence_id": 72,
+        "char_start": 17933,
+        "char_end": 17941,
+        "anchor": "PMC6387434_17933_17941"
+      }
+    },
+    {
+      "id": 238,
+      "label": "energy loss",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Dose Received by HUVECs Flown in Space",
+        "sentence_id": 72,
+        "char_start": 17979,
+        "char_end": 17990,
+        "anchor": "PMC6387434_17979_17990"
+      }
+    },
+    {
+      "id": 239,
+      "label": "unit path length",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Dose Received by HUVECs Flown in Space",
+        "sentence_id": 72,
+        "char_start": 17995,
+        "char_end": 18011,
+        "anchor": "PMC6387434_17995_18011"
+      }
+    },
+    {
+      "id": 240,
+      "label": "Linear energy transfer",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Dose Received by HUVECs Flown in Space",
+        "sentence_id": 73,
+        "char_start": 18060,
+        "char_end": 18082,
+        "anchor": "PMC6387434_18060_18082"
+      }
+    },
+    {
+      "id": 242,
+      "label": "high-",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Dose Received by HUVECs Flown in Space",
+        "sentence_id": 73,
+        "char_start": 18171,
+        "char_end": 18176,
+        "anchor": "PMC6387434_18171_18176"
+      }
+    },
+    {
+      "id": 243,
+      "label": "low-energy",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Dose Received by HUVECs Flown in Space",
+        "sentence_id": 73,
+        "char_start": 18180,
+        "char_end": 18190,
+        "anchor": "PMC6387434_18180_18190"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 235,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 225,
+      "target": 226
+    },
+    {
+      "id": 236,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 225,
+      "target": 227
+    },
+    {
+      "id": 237,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 225,
+      "target": 228
+    },
+    {
+      "id": 238,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 225,
+      "target": 229
+    },
+    {
+      "id": 239,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 225,
+      "target": 230
+    },
+    {
+      "id": 240,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 225,
+      "target": 231
+    },
+    {
+      "id": 241,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 226,
+      "target": 227
+    },
+    {
+      "id": 242,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 226,
+      "target": 228
+    },
+    {
+      "id": 243,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 226,
+      "target": 229
+    },
+    {
+      "id": 244,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 226,
+      "target": 230
+    },
+    {
+      "id": 245,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 226,
+      "target": 231
+    },
+    {
+      "id": 246,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 227,
+      "target": 228
+    },
+    {
+      "id": 247,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 227,
+      "target": 229
+    },
+    {
+      "id": 248,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 227,
+      "target": 230
+    },
+    {
+      "id": 249,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 227,
+      "target": 231
+    },
+    {
+      "id": 250,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 228,
+      "target": 229
+    },
+    {
+      "id": 251,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 228,
+      "target": 230
+    },
+    {
+      "id": 252,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 228,
+      "target": 231
+    },
+    {
+      "id": 253,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 229,
+      "target": 230
+    },
+    {
+      "id": 254,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 229,
+      "target": 231
+    },
+    {
+      "id": 255,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 230,
+      "target": 231
+    },
+    {
+      "id": 256,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 235,
+      "target": 236
+    },
+    {
+      "id": 257,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 241,
+      "target": 244
+    },
+    {
+      "id": 258,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 241,
+      "target": 245
+    },
+    {
+      "id": 259,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 244,
+      "target": 245
+    }
+  ]
+}

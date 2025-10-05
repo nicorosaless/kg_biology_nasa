@@ -1,0 +1,120 @@
+{
+  "paper_id": "PMC4624184",
+  "section": "ISS debris",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 680,
+      "label": "shipped",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ISS debris",
+        "sentence_id": 209,
+        "char_start": 40734,
+        "char_end": 40741,
+        "anchor": "PMC4624184_40734_40741",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 681,
+      "label": "JPL",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ISS debris",
+        "sentence_id": 209,
+        "char_start": 40829,
+        "char_end": 40832,
+        "anchor": "PMC4624184_40829_40832",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 678,
+      "label": "microbio",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ISS debris",
+        "sentence_id": 209,
+        "char_start": 40589,
+        "char_end": 40597,
+        "anchor": "PMC4624184_40589_40597",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 679,
+      "label": "testing",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ISS debris",
+        "sentence_id": 209,
+        "char_start": 40605,
+        "char_end": 40612,
+        "anchor": "PMC4624184_40605_40612",
+        "page": 11,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 743,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 678,
+      "target": 679
+    },
+    {
+      "id": 744,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 678,
+      "target": 680
+    },
+    {
+      "id": 745,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 678,
+      "target": 681
+    },
+    {
+      "id": 746,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 679,
+      "target": 680
+    },
+    {
+      "id": 747,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 679,
+      "target": 681
+    },
+    {
+      "id": 748,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 680,
+      "target": 681
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 10,
+      "largest_component": 4,
+      "removed_components": [
+        4,
+        3,
+        3,
+        2
+      ]
+    },
+    "page": 11
+  }
+}

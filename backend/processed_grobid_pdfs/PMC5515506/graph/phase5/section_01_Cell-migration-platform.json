@@ -1,0 +1,158 @@
+{
+  "paper_id": "PMC5515506",
+  "section": "Cell migration platform",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 136,
+      "label": "Ibidi",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell migration platform",
+        "sentence_id": 58,
+        "char_start": 10236,
+        "char_end": 10241,
+        "anchor": "PMC5515506_10236_10241",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 138,
+      "label": "Che",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell migration platform",
+        "sentence_id": 58,
+        "char_start": 10269,
+        "char_end": 10272,
+        "anchor": "PMC5515506_10269_10272",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 140,
+      "label": "chamber",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell migration platform",
+        "sentence_id": 58,
+        "char_start": 10396,
+        "char_end": 10403,
+        "anchor": "PMC5515506_10396_10403",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 141,
+      "label": "Ibidi",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell migration platform",
+        "sentence_id": 58,
+        "char_start": 10284,
+        "char_end": 10289,
+        "anchor": "PMC5515506_10284_10289",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 142,
+      "label": "Munich",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell migration platform",
+        "sentence_id": 58,
+        "char_start": 10291,
+        "char_end": 10297,
+        "anchor": "PMC5515506_10291_10297",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 202,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 136,
+      "target": 138
+    },
+    {
+      "id": 203,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 136,
+      "target": 140
+    },
+    {
+      "id": 204,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 136,
+      "target": 141
+    },
+    {
+      "id": 205,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 136,
+      "target": 142
+    },
+    {
+      "id": 206,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 138,
+      "target": 140
+    },
+    {
+      "id": 207,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 138,
+      "target": 141
+    },
+    {
+      "id": 208,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 138,
+      "target": 142
+    },
+    {
+      "id": 209,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 140,
+      "target": 141
+    },
+    {
+      "id": 210,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 140,
+      "target": 142
+    },
+    {
+      "id": 211,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 141,
+      "target": 142
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 6,
+      "largest_component": 5,
+      "removed_components": [
+        4,
+        2,
+        2
+      ]
+    },
+    "page": 2
+  }
+}

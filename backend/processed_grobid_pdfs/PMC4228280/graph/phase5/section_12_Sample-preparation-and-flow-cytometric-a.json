@@ -1,0 +1,57 @@
+{
+  "paper_id": "PMC4228280",
+  "section": "Sample preparation and flow cytometric analysis",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 440,
+      "label": "diluted",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sample preparation and flow cytometric analysis",
+        "sentence_id": 133,
+        "char_start": 30305,
+        "char_end": 30312,
+        "anchor": "PMC4228280_30305_30312",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 444,
+      "label": "FAC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sample preparation and flow cytometric analysis",
+        "sentence_id": 133,
+        "char_start": 30401,
+        "char_end": 30404,
+        "anchor": "PMC4228280_30401_30404",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 496,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 440,
+      "target": 444
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 7,
+      "largest_component": 2,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 5
+  }
+}

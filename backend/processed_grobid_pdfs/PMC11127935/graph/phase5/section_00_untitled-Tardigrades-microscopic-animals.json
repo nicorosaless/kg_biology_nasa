@@ -1,0 +1,602 @@
+{
+  "paper_id": "PMC11127935",
+  "section": "(untitled) Tardigrades, microscopic animals that survive",
+  "n_nodes": 12,
+  "n_edges": 66,
+  "nodes": [
+    {
+      "id": 65,
+      "label": "SAHS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Tardigrades, microscopic animals that survive",
+        "sentence_id": 17,
+        "char_start": 4002,
+        "char_end": 4006,
+        "anchor": "PMC11127935_4002_4006",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 66,
+      "label": "ypsibius",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Tardigrades, microscopic animals that survive",
+        "sentence_id": 17,
+        "char_start": 4041,
+        "char_end": 4049,
+        "anchor": "PMC11127935_4041_4049",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 67,
+      "label": "Paramac",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Tardigrades, microscopic animals that survive",
+        "sentence_id": 17,
+        "char_start": 4089,
+        "char_end": 4096,
+        "anchor": "PMC11127935_4089_4096",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 71,
+      "label": "SAHS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Tardigrades, microscopic animals that survive",
+        "sentence_id": 17,
+        "char_start": 4216,
+        "char_end": 4220,
+        "anchor": "PMC11127935_4216_4220",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 72,
+      "label": "SAHS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Tardigrades, microscopic animals that survive",
+        "sentence_id": 17,
+        "char_start": 4226,
+        "char_end": 4230,
+        "anchor": "PMC11127935_4226_4230",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 73,
+      "label": "SAHS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Tardigrades, microscopic animals that survive",
+        "sentence_id": 17,
+        "char_start": 3688,
+        "char_end": 3692,
+        "anchor": "PMC11127935_3688_3692",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 75,
+      "label": "CAHS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Tardigrades, microscopic animals that survive",
+        "sentence_id": 17,
+        "char_start": 3919,
+        "char_end": 3923,
+        "anchor": "PMC11127935_3919_3923",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 76,
+      "label": "MAHS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Tardigrades, microscopic animals that survive",
+        "sentence_id": 17,
+        "char_start": 3928,
+        "char_end": 3932,
+        "anchor": "PMC11127935_3928_3932",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 78,
+      "label": "SAHS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Tardigrades, microscopic animals that survive",
+        "sentence_id": 17,
+        "char_start": 4002,
+        "char_end": 4006,
+        "anchor": "PMC11127935_4002_4006",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 80,
+      "label": "SAHS1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Tardigrades, microscopic animals that survive",
+        "sentence_id": 17,
+        "char_start": 4216,
+        "char_end": 4221,
+        "anchor": "PMC11127935_4216_4221",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 81,
+      "label": "SAHS4",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Tardigrades, microscopic animals that survive",
+        "sentence_id": 17,
+        "char_start": 4226,
+        "char_end": 4231,
+        "anchor": "PMC11127935_4226_4231",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 82,
+      "label": "SAHS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Tardigrades, microscopic animals that survive",
+        "sentence_id": 17,
+        "char_start": 4311,
+        "char_end": 4315,
+        "anchor": "PMC11127935_4311_4315",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 70,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 65,
+      "target": 66
+    },
+    {
+      "id": 71,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 65,
+      "target": 67
+    },
+    {
+      "id": 72,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 65,
+      "target": 71
+    },
+    {
+      "id": 73,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 65,
+      "target": 72
+    },
+    {
+      "id": 74,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 65,
+      "target": 73
+    },
+    {
+      "id": 76,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 65,
+      "target": 75
+    },
+    {
+      "id": 77,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 65,
+      "target": 76
+    },
+    {
+      "id": 79,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 65,
+      "target": 78
+    },
+    {
+      "id": 81,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 65,
+      "target": 80
+    },
+    {
+      "id": 82,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 65,
+      "target": 81
+    },
+    {
+      "id": 83,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 65,
+      "target": 82
+    },
+    {
+      "id": 84,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 66,
+      "target": 67
+    },
+    {
+      "id": 85,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 66,
+      "target": 71
+    },
+    {
+      "id": 86,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 66,
+      "target": 72
+    },
+    {
+      "id": 87,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 66,
+      "target": 73
+    },
+    {
+      "id": 89,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 66,
+      "target": 75
+    },
+    {
+      "id": 90,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 66,
+      "target": 76
+    },
+    {
+      "id": 92,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 66,
+      "target": 78
+    },
+    {
+      "id": 94,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 66,
+      "target": 80
+    },
+    {
+      "id": 95,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 66,
+      "target": 81
+    },
+    {
+      "id": 96,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 66,
+      "target": 82
+    },
+    {
+      "id": 97,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 67,
+      "target": 71
+    },
+    {
+      "id": 98,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 67,
+      "target": 72
+    },
+    {
+      "id": 99,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 67,
+      "target": 73
+    },
+    {
+      "id": 101,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 67,
+      "target": 75
+    },
+    {
+      "id": 102,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 67,
+      "target": 76
+    },
+    {
+      "id": 104,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 67,
+      "target": 78
+    },
+    {
+      "id": 106,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 67,
+      "target": 80
+    },
+    {
+      "id": 107,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 67,
+      "target": 81
+    },
+    {
+      "id": 108,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 67,
+      "target": 82
+    },
+    {
+      "id": 109,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 71,
+      "target": 72
+    },
+    {
+      "id": 110,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 71,
+      "target": 73
+    },
+    {
+      "id": 112,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 71,
+      "target": 75
+    },
+    {
+      "id": 113,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 71,
+      "target": 76
+    },
+    {
+      "id": 115,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 71,
+      "target": 78
+    },
+    {
+      "id": 117,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 71,
+      "target": 80
+    },
+    {
+      "id": 118,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 71,
+      "target": 81
+    },
+    {
+      "id": 119,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 71,
+      "target": 82
+    },
+    {
+      "id": 120,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 72,
+      "target": 73
+    },
+    {
+      "id": 122,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 72,
+      "target": 75
+    },
+    {
+      "id": 123,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 72,
+      "target": 76
+    },
+    {
+      "id": 125,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 72,
+      "target": 78
+    },
+    {
+      "id": 127,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 72,
+      "target": 80
+    },
+    {
+      "id": 128,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 72,
+      "target": 81
+    },
+    {
+      "id": 129,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 72,
+      "target": 82
+    },
+    {
+      "id": 131,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 73,
+      "target": 75
+    },
+    {
+      "id": 132,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 73,
+      "target": 76
+    },
+    {
+      "id": 134,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 73,
+      "target": 78
+    },
+    {
+      "id": 136,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 73,
+      "target": 80
+    },
+    {
+      "id": 137,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 73,
+      "target": 81
+    },
+    {
+      "id": 138,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 73,
+      "target": 82
+    },
+    {
+      "id": 147,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 75,
+      "target": 76
+    },
+    {
+      "id": 149,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 75,
+      "target": 78
+    },
+    {
+      "id": 151,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 75,
+      "target": 80
+    },
+    {
+      "id": 152,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 75,
+      "target": 81
+    },
+    {
+      "id": 153,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 75,
+      "target": 82
+    },
+    {
+      "id": 155,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 76,
+      "target": 78
+    },
+    {
+      "id": 157,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 76,
+      "target": 80
+    },
+    {
+      "id": 158,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 76,
+      "target": 81
+    },
+    {
+      "id": 159,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 76,
+      "target": 82
+    },
+    {
+      "id": 166,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 78,
+      "target": 80
+    },
+    {
+      "id": 167,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 78,
+      "target": 81
+    },
+    {
+      "id": 168,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 78,
+      "target": 82
+    },
+    {
+      "id": 172,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 80,
+      "target": 81
+    },
+    {
+      "id": 173,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 80,
+      "target": 82
+    },
+    {
+      "id": 174,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 81,
+      "target": 82
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 7,
+      "removed_orphans": 0,
+      "largest_component": 12,
+      "removed_components": [
+        7,
+        5,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    "page": 1
+  }
+}

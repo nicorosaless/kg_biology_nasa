@@ -1,0 +1,88 @@
+{
+  "paper_id": "PMC9862956",
+  "section": "Controlling CIP Temperature during C. elegans Assays",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 259,
+      "label": "section",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Controlling CIP Temperature during C. elegans Assays",
+        "sentence_id": 106,
+        "char_start": 19186,
+        "char_end": 19193,
+        "anchor": "PMC9862956_19186_19193",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 260,
+      "label": "CIP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Controlling CIP Temperature during C. elegans Assays",
+        "sentence_id": 106,
+        "char_start": 18920,
+        "char_end": 18923,
+        "anchor": "PMC9862956_18920_18923",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 261,
+      "label": "CIP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Controlling CIP Temperature during C. elegans Assays",
+        "sentence_id": 106,
+        "char_start": 19022,
+        "char_end": 19025,
+        "anchor": "PMC9862956_19022_19025",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 400,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 259,
+      "target": 260
+    },
+    {
+      "id": 401,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 259,
+      "target": 261
+    },
+    {
+      "id": 402,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 260,
+      "target": 261
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 6,
+      "removed_orphans": 16,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 5
+  }
+}

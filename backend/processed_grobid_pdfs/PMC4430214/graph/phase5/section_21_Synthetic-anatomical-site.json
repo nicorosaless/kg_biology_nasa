@@ -1,0 +1,94 @@
+{
+  "paper_id": "PMC4430214",
+  "section": "Synthetic ANATOMICAL_SITE",
+  "n_nodes": 4,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 55,
+      "label": "astronauts",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 18,
+        "char_start": 3027,
+        "char_end": 3037,
+        "anchor": "PMC4430214_3027_3037",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 367,
+      "label": "across the board",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Presentation and Activation Molecule Changes in Splenocytes during TLR Stimulation",
+        "sentence_id": 106,
+        "char_start": 19627,
+        "char_end": 19643,
+        "anchor": "PMC4430214_19627_19643",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 426,
+      "label": "peripheral blood",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 129,
+        "char_start": 23714,
+        "char_end": 23730,
+        "anchor": "PMC4430214_23714_23730",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 580,
+      "label": "human lymphocytes",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 197,
+        "char_start": 34118,
+        "char_end": 34135,
+        "anchor": "PMC4430214_34118_34135",
+        "page": 10,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-55-367",
+      "type": "ASSOCIATED",
+      "source": 55,
+      "target": 367
+    },
+    {
+      "id": "synth-55-426",
+      "type": "ASSOCIATED",
+      "source": 55,
+      "target": 426
+    },
+    {
+      "id": "synth-55-580",
+      "type": "ASSOCIATED",
+      "source": 55,
+      "target": 580
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "ANATOMICAL_SITE",
+    "page": null
+  }
+}

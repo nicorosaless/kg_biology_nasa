@@ -1,0 +1,202 @@
+{
+  "paper_id": "PMC10142442",
+  "section": "PpFucCS Depolymerization:",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 115,
+      "label": "GlcA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS Depolymerization:",
+        "sentence_id": 41,
+        "char_start": 8915,
+        "char_end": 8919,
+        "anchor": "PMC10142442_8915_8919",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 117,
+      "label": "changed",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS Depolymerization:",
+        "sentence_id": 41,
+        "char_start": 9055,
+        "char_end": 9062,
+        "anchor": "PMC10142442_9055_9062",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 120,
+      "label": "acetate",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS Depolymerization:",
+        "sentence_id": 41,
+        "char_start": 9279,
+        "char_end": 9286,
+        "anchor": "PMC10142442_9279_9286",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 121,
+      "label": "Fenton",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS Depolymerization:",
+        "sentence_id": 41,
+        "char_start": 8825,
+        "char_end": 8831,
+        "anchor": "PMC10142442_8825_8831",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 122,
+      "label": "GlcA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS Depolymerization:",
+        "sentence_id": 41,
+        "char_start": 8915,
+        "char_end": 8919,
+        "anchor": "PMC10142442_8915_8919",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 123,
+      "label": "GalNAc",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS Depolymerization:",
+        "sentence_id": 41,
+        "char_start": 8924,
+        "char_end": 8930,
+        "anchor": "PMC10142442_8924_8930",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 68,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 115,
+      "target": 117
+    },
+    {
+      "id": 69,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 115,
+      "target": 120
+    },
+    {
+      "id": 70,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 115,
+      "target": 121
+    },
+    {
+      "id": 71,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 115,
+      "target": 122
+    },
+    {
+      "id": 72,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 115,
+      "target": 123
+    },
+    {
+      "id": 75,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 117,
+      "target": 120
+    },
+    {
+      "id": 76,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 117,
+      "target": 121
+    },
+    {
+      "id": 77,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 117,
+      "target": 122
+    },
+    {
+      "id": 78,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 117,
+      "target": 123
+    },
+    {
+      "id": 81,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 120,
+      "target": 121
+    },
+    {
+      "id": 82,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 120,
+      "target": 122
+    },
+    {
+      "id": 83,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 120,
+      "target": 123
+    },
+    {
+      "id": 86,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 122
+    },
+    {
+      "id": 87,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 123
+    },
+    {
+      "id": 90,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 122,
+      "target": 123
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 6,
+      "largest_component": 6,
+      "removed_components": [
+        3,
+        2
+      ]
+    },
+    "page": 3
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "paper_id": "PMC10780891",
+  "section": "Scanning Electron Microscopy",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 800,
+      "label": "Camscan",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Scanning Electron Microscopy",
+        "sentence_id": 227,
+        "char_start": 48309,
+        "char_end": 48316,
+        "anchor": "PMC10780891_48309_48316",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 794,
+      "label": "Camscan",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Scanning Electron Microscopy",
+        "sentence_id": 227,
+        "char_start": 48309,
+        "char_end": 48316,
+        "anchor": "PMC10780891_48309_48316",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 798,
+      "label": "sections",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Scanning Electron Microscopy",
+        "sentence_id": 227,
+        "char_start": 48648,
+        "char_end": 48656,
+        "anchor": "PMC10780891_48648_48656",
+        "page": 14,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1154,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 794,
+      "target": 798
+    },
+    {
+      "id": 1155,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 794,
+      "target": 800
+    },
+    {
+      "id": 1157,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 798,
+      "target": 800
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 12,
+      "largest_component": 3,
+      "removed_components": [
+        3
+      ]
+    },
+    "page": 14
+  }
+}

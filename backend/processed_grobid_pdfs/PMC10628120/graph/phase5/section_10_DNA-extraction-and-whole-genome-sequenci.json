@@ -1,0 +1,315 @@
+{
+  "paper_id": "PMC10628120",
+  "section": "DNA extraction and whole genome sequencing",
+  "n_nodes": 8,
+  "n_edges": 28,
+  "nodes": [
+    {
+      "id": 242,
+      "label": "FastQC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA extraction and whole genome sequencing",
+        "sentence_id": 67,
+        "char_start": 15057,
+        "char_end": 15063,
+        "anchor": "PMC10628120_15057_15063",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 243,
+      "label": "sequenly",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA extraction and whole genome sequencing",
+        "sentence_id": 67,
+        "char_start": 15085,
+        "char_end": 15093,
+        "anchor": "PMC10628120_15085_15093",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 244,
+      "label": "quality",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA extraction and whole genome sequencing",
+        "sentence_id": 67,
+        "char_start": 15094,
+        "char_end": 15101,
+        "anchor": "PMC10628120_15094_15101",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 245,
+      "label": "filtered",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA extraction and whole genome sequencing",
+        "sentence_id": 67,
+        "char_start": 15102,
+        "char_end": 15110,
+        "anchor": "PMC10628120_15102_15110",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 246,
+      "label": "trimmed",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA extraction and whole genome sequencing",
+        "sentence_id": 67,
+        "char_start": 15112,
+        "char_end": 15119,
+        "anchor": "PMC10628120_15112_15119",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 247,
+      "label": "Draft",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA extraction and whole genome sequencing",
+        "sentence_id": 67,
+        "char_start": 15175,
+        "char_end": 15180,
+        "anchor": "PMC10628120_15175_15180",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 250,
+      "label": "QUAST",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA extraction and whole genome sequencing",
+        "sentence_id": 67,
+        "char_start": 15300,
+        "char_end": 15305,
+        "anchor": "PMC10628120_15300_15305",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 253,
+      "label": "SPAdes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA extraction and whole genome sequencing",
+        "sentence_id": 67,
+        "char_start": 15210,
+        "char_end": 15216,
+        "anchor": "PMC10628120_15210_15216",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 429,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 242,
+      "target": 243
+    },
+    {
+      "id": 430,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 242,
+      "target": 244
+    },
+    {
+      "id": 431,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 242,
+      "target": 245
+    },
+    {
+      "id": 432,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 242,
+      "target": 246
+    },
+    {
+      "id": 433,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 242,
+      "target": 247
+    },
+    {
+      "id": 434,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 242,
+      "target": 250
+    },
+    {
+      "id": 437,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 242,
+      "target": 253
+    },
+    {
+      "id": 441,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 243,
+      "target": 244
+    },
+    {
+      "id": 442,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 243,
+      "target": 245
+    },
+    {
+      "id": 443,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 243,
+      "target": 246
+    },
+    {
+      "id": 444,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 243,
+      "target": 247
+    },
+    {
+      "id": 445,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 243,
+      "target": 250
+    },
+    {
+      "id": 448,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 243,
+      "target": 253
+    },
+    {
+      "id": 452,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 244,
+      "target": 245
+    },
+    {
+      "id": 453,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 244,
+      "target": 246
+    },
+    {
+      "id": 454,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 244,
+      "target": 247
+    },
+    {
+      "id": 455,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 244,
+      "target": 250
+    },
+    {
+      "id": 458,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 244,
+      "target": 253
+    },
+    {
+      "id": 462,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 245,
+      "target": 246
+    },
+    {
+      "id": 463,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 245,
+      "target": 247
+    },
+    {
+      "id": 464,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 245,
+      "target": 250
+    },
+    {
+      "id": 467,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 245,
+      "target": 253
+    },
+    {
+      "id": 471,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 246,
+      "target": 247
+    },
+    {
+      "id": 472,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 246,
+      "target": 250
+    },
+    {
+      "id": 475,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 246,
+      "target": 253
+    },
+    {
+      "id": 479,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 247,
+      "target": 250
+    },
+    {
+      "id": 482,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 247,
+      "target": 253
+    },
+    {
+      "id": 488,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 250,
+      "target": 253
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 8,
+      "removed_orphans": 8,
+      "largest_component": 8,
+      "removed_components": [
+        7,
+        6,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 3
+  }
+}

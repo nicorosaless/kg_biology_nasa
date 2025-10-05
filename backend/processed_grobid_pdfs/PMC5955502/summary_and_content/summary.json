@@ -1,0 +1,223 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "This study investigates the effects of long-duration spaceflight on the cytoskeletal protein and mRNA expression in mouse cardiac and lung tissues. Prior research indicates that microgravity induces negative changes in skeletal, muscle, and cardiovascular systems. While previous experiments faced limitations due to delayed tissue fixation post-landing, this research uniquely fixed mouse biomaterial onboard the International Space Station (ISS) after 37 days of weightlessness, allowing for a more accurate assessment of microgravity's impact before readaptation to Earth's gravity.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Fig 1.Relative contents of cytoskeletal proteins in the membrane (MF) and cytoplasmic (CF) fractions of cardiomyocytes with typical Western blot images.(A) Alpha-actinin-1.(B) Alpha-actinin-4.(C) Beta-actin.(D) Gamma-actin.(E) Beta-tubulin.(F) Desmin.\"B\"-basal control group, \"V\"-vivarium control group, \"G\"-ground control group",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.png"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Fig 2.",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.png"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Fig 3.",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.png"
+      },
+      {
+        "id": "fig_4",
+        "caption": "https://doi.org/10.1371/journal.pone.0192643.g003",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.png"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Experimental Design",
+      "summary": "C57Bl6/J mice were used in the Rodent Research-1 (RR-1) experiment. Mice were launched on the SpaceX-4 spacecraft and housed on the ISS for 33 days. Four experimental groups were analyzed: a basal control group (B) euthanized shortly after launch, a flight group (F) euthanized onboard the ISS, a vivarium control group (V) housed in standard conditions, and a ground control group (G) simulating ISS environmental conditions on Earth. Tissues were immediately frozen after euthanasia for subsequent analysis.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Protein Content Determination",
+      "summary": "The protein content was determined via gel electrophoresis and immunoblotting. Cytoplasmic and membrane fractions were extracted from heart and lung tissues. Specific primary monoclonal antibodies were used to detect beta-actin, gamma-actin, alpha-actinin-1, alpha-actinin-4, desmin, and beta-tubulin. Secondary biotinylated goat antibodies were used to detect rabbit and mouse IgG. Protein bands were visualized using 3,3'-diaminobenzidine and analyzed with ImageJ.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "mRNA Content Determination",
+      "summary": "Total RNA was isolated from the left ventricle of the heart and lungs, and reverse transcription was performed. Real-time PCR was used with specific primers (Table 1 in paper) to quantify mRNA expression levels of genes encoding cytoskeletal, metabolic proteins, cytosine methylases/demethylases, and histone acetylase/deacetylase. The 2(-Delta Delta C(T)) method was used to determine fold change.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "DNA Methylation Level Determination",
+      "summary": "Total DNA was isolated from heart and lung tissues. The EpiJET Methylation Analysis Kit (MspI/HpaII) was used to analyze CpG methylation at the 5'-CCGG-3' locus. Restriction analysis was performed using MspI and HpaII enzymes, with methylated and unmethylated plasmid DNA controls. Results were analyzed via agarose gel electrophoresis and the Image Lab program, normalizing for total undigested genomic DNA.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Statistical Analysis",
+      "summary": "ANOVA and post hoc t-tests were used to analyze protein and mRNA expression levels, as well as methylation levels, with a significance level of p < 0.05. Data are presented as mean ± standard error of the mean (M±SE). All data were uploaded to the Dryad Digital Repository.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Cytoskeletal Protein Content",
+      "summary": "In the heart, the membrane fraction showed similar relative contents of beta-actin, gamma-actin, alpha-actinin-1, alpha-actinin-4, and beta-tubulin across all groups (B, V, G, F). The cytoplasmic fraction also showed unchanged levels of beta-actin, gamma-actin, beta-tubulin, and desmin. However, alpha-actinin-1 and alpha-actinin-4 decreased by 40% and 30%, respectively, in the flight group (F) compared to the ground control group (G) (Fig 1). In the lung, the cytoplasmic fraction showed similar levels of cytoskeletal components across all groups, and the membrane fraction showed no differences between groups G and F (Fig 2).",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "mRNA Contents of Genes",
+      "summary": "In the heart, mRNA contents of beta- and gamma-actin, Arpc3, Svil, Lcp1, Actn1, and beta-tubulin were similar across all groups (Fig 3).",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "DNA Total Methylation Level",
+      "summary": "",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "mRNA Contents of Transcriptional Regulators",
+      "summary": "",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Discussion",
+      "summary": "",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Long Duration Microgravity Effects",
+      "summary": "",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Total Transcriptional Efficiency",
+      "summary": "",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": "This study demonstrates that while cytoskeletal protein levels in mouse cardiac and lung tissues remain relatively stable during long-duration spaceflight, significant changes occur in mRNA content, indicating altered translation efficiency and gene expression potentially due to increased genome methylation. The decreased mRNA content of cytosine demethylase Tet2 may contribute to the observed changes in methylation levels.",
+  "keywords": [
+    "spaceflight",
+    "cytoskeleton",
+    "mrna expression",
+    "dna methylation",
+    "cardiac tissue",
+    "lung tissue",
+    "microgravity",
+    "gene expression",
+    "protein content",
+    "tet2"
+  ],
+  "topics": [
+    "molecular biology",
+    "space biology",
+    "gene regulation"
+  ],
+  "_meta": {
+    "paper_id": "sha256:8f34e2f1ee392fb124804732e3a83c455db21d59c4c4daf6f55aa53a9895895e",
+    "paper_title": "Cytoskeleton structure and total methylation of mouse cardiac and lung tissue during space flight",
+    "generated_at": "2025-10-05T10:47:56Z",
+    "word_count": 487,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "spaceflight",
+      "cytoskeleton",
+      "mrna expression",
+      "dna methylation",
+      "cardiac tissue",
+      "lung tissue",
+      "microgravity",
+      "gene expression",
+      "protein content",
+      "tet2"
+    ],
+    "topics": [
+      "molecular biology",
+      "space biology",
+      "gene regulation"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 7400,
+      "completion_tokens": 1716,
+      "total_tokens": 9116,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.00074,
+      "output_usd": 0.000686,
+      "total_usd": 0.001426
+    },
+    "cost": {
+      "input_usd": 0.00074,
+      "output_usd": 0.000686,
+      "total_usd": 0.001426
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [
+        {
+          "id": "fig_6",
+          "score": -9999,
+          "caption_wc": 1
+        },
+        {
+          "id": "fig_7",
+          "score": -9999,
+          "caption_wc": 40
+        }
+      ],
+      "corrupted_detected": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_5",
+        "fig_6",
+        "fig_7"
+      ],
+      "original_total": 6,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

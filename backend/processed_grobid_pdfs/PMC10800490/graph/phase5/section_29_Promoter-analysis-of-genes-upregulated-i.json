@@ -1,0 +1,513 @@
+{
+  "paper_id": "PMC10800490",
+  "section": "Promoter analysis of genes upregulated in µ g",
+  "n_nodes": 11,
+  "n_edges": 55,
+  "nodes": [
+    {
+      "id": 432,
+      "label": "CCA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Promoter analysis of genes upregulated in µ g",
+        "sentence_id": 124,
+        "char_start": 24681,
+        "char_end": 24684,
+        "anchor": "PMC10800490_24681_24684",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 435,
+      "label": "density",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Promoter analysis of genes upregulated in µ g",
+        "sentence_id": 124,
+        "char_start": 24991,
+        "char_end": 24998,
+        "anchor": "PMC10800490_24991_24998",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 436,
+      "label": "Up1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Promoter analysis of genes upregulated in µ g",
+        "sentence_id": 124,
+        "char_start": 25047,
+        "char_end": 25050,
+        "anchor": "PMC10800490_25047_25050",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 438,
+      "label": "defense",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Promoter analysis of genes upregulated in µ g",
+        "sentence_id": 124,
+        "char_start": 25517,
+        "char_end": 25524,
+        "anchor": "PMC10800490_25517_25524",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 441,
+      "label": "Molina",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Promoter analysis of genes upregulated in µ g",
+        "sentence_id": 124,
+        "char_start": 25172,
+        "char_end": 25178,
+        "anchor": "PMC10800490_25172_25178",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 442,
+      "label": "PCF",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Promoter analysis of genes upregulated in µ g",
+        "sentence_id": 124,
+        "char_start": 25308,
+        "char_end": 25311,
+        "anchor": "PMC10800490_25308_25311",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 443,
+      "label": "TCP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Promoter analysis of genes upregulated in µ g",
+        "sentence_id": 124,
+        "char_start": 25313,
+        "char_end": 25316,
+        "anchor": "PMC10800490_25313_25316",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 444,
+      "label": "Viola",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Promoter analysis of genes upregulated in µ g",
+        "sentence_id": 124,
+        "char_start": 25366,
+        "char_end": 25371,
+        "anchor": "PMC10800490_25366_25371",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 445,
+      "label": "TCP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Promoter analysis of genes upregulated in µ g",
+        "sentence_id": 124,
+        "char_start": 25398,
+        "char_end": 25401,
+        "anchor": "PMC10800490_25398_25401",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 446,
+      "label": "Sinha",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Promoter analysis of genes upregulated in µ g",
+        "sentence_id": 124,
+        "char_start": 25557,
+        "char_end": 25562,
+        "anchor": "PMC10800490_25557_25562",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 447,
+      "label": "TCP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Promoter analysis of genes upregulated in µ g",
+        "sentence_id": 124,
+        "char_start": 25674,
+        "char_end": 25677,
+        "anchor": "PMC10800490_25674_25677",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1015,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 432,
+      "target": 435
+    },
+    {
+      "id": 1016,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 432,
+      "target": 436
+    },
+    {
+      "id": 1017,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 432,
+      "target": 438
+    },
+    {
+      "id": 1020,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 432,
+      "target": 441
+    },
+    {
+      "id": 1021,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 432,
+      "target": 442
+    },
+    {
+      "id": 1022,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 432,
+      "target": 443
+    },
+    {
+      "id": 1023,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 432,
+      "target": 444
+    },
+    {
+      "id": 1024,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 432,
+      "target": 445
+    },
+    {
+      "id": 1025,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 432,
+      "target": 446
+    },
+    {
+      "id": 1026,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 432,
+      "target": 447
+    },
+    {
+      "id": 1027,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 435,
+      "target": 436
+    },
+    {
+      "id": 1028,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 435,
+      "target": 438
+    },
+    {
+      "id": 1031,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 435,
+      "target": 441
+    },
+    {
+      "id": 1032,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 435,
+      "target": 442
+    },
+    {
+      "id": 1033,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 435,
+      "target": 443
+    },
+    {
+      "id": 1034,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 435,
+      "target": 444
+    },
+    {
+      "id": 1035,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 435,
+      "target": 445
+    },
+    {
+      "id": 1036,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 435,
+      "target": 446
+    },
+    {
+      "id": 1037,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 435,
+      "target": 447
+    },
+    {
+      "id": 1038,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 436,
+      "target": 438
+    },
+    {
+      "id": 1041,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 436,
+      "target": 441
+    },
+    {
+      "id": 1042,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 436,
+      "target": 442
+    },
+    {
+      "id": 1043,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 436,
+      "target": 443
+    },
+    {
+      "id": 1044,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 436,
+      "target": 444
+    },
+    {
+      "id": 1045,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 436,
+      "target": 445
+    },
+    {
+      "id": 1046,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 436,
+      "target": 446
+    },
+    {
+      "id": 1047,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 436,
+      "target": 447
+    },
+    {
+      "id": 1050,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 438,
+      "target": 441
+    },
+    {
+      "id": 1051,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 438,
+      "target": 442
+    },
+    {
+      "id": 1052,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 438,
+      "target": 443
+    },
+    {
+      "id": 1053,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 438,
+      "target": 444
+    },
+    {
+      "id": 1054,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 438,
+      "target": 445
+    },
+    {
+      "id": 1055,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 438,
+      "target": 446
+    },
+    {
+      "id": 1056,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 438,
+      "target": 447
+    },
+    {
+      "id": 1072,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 441,
+      "target": 442
+    },
+    {
+      "id": 1073,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 441,
+      "target": 443
+    },
+    {
+      "id": 1074,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 441,
+      "target": 444
+    },
+    {
+      "id": 1075,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 441,
+      "target": 445
+    },
+    {
+      "id": 1076,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 441,
+      "target": 446
+    },
+    {
+      "id": 1077,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 441,
+      "target": 447
+    },
+    {
+      "id": 1078,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 442,
+      "target": 443
+    },
+    {
+      "id": 1079,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 442,
+      "target": 444
+    },
+    {
+      "id": 1080,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 442,
+      "target": 445
+    },
+    {
+      "id": 1081,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 442,
+      "target": 446
+    },
+    {
+      "id": 1082,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 442,
+      "target": 447
+    },
+    {
+      "id": 1083,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 443,
+      "target": 444
+    },
+    {
+      "id": 1084,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 443,
+      "target": 445
+    },
+    {
+      "id": 1085,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 443,
+      "target": 446
+    },
+    {
+      "id": 1086,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 443,
+      "target": 447
+    },
+    {
+      "id": 1087,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 444,
+      "target": 445
+    },
+    {
+      "id": 1088,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 444,
+      "target": 446
+    },
+    {
+      "id": 1089,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 444,
+      "target": 447
+    },
+    {
+      "id": 1090,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 445,
+      "target": 446
+    },
+    {
+      "id": 1091,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 445,
+      "target": 447
+    },
+    {
+      "id": 1092,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 446,
+      "target": 447
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 6,
+      "largest_component": 11
+    },
+    "page": 7
+  }
+}

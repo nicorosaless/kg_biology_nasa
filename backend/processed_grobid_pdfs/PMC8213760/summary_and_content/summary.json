@@ -1,0 +1,103 @@
+{
+  "intro": "This study investigates the impact of spaceflight on gene expression in brown adipose tissue (BAT) and white adipose tissue (WAT) of female C57BL/6J mice. The mice were housed aboard the International Space Station (ISS) for 37 days as part of the RR-1 mission. RNA was extracted from BAT and WAT samples of both flight and ground control mice to analyze gene expression changes related to thermogenesis, glucose metabolism, adipogenesis, and β-oxidation.",
+  "sections": [
+    {
+      "heading": "Mice as Facultative Daily Heterotherms",
+      "summary": "Mice, unlike humans, are facultative daily heterotherms and experience significant core temperature fluctuations, especially when exposed to temperatures below their thermoneutral zone. They rely on shivering and non-shivering thermogenesis to maintain core body temperature. Subthermoneutral housing induces adaptive responses, including increased food consumption and Ucp1 gene expression in BAT for non-shivering thermogenesis. Physiological and behavioral strategies such as torpor, nest building, and huddling are employed to minimize heat loss.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Spaceflight Study",
+      "summary": "Sixteen-week-old female B6 mice were sacrificed aboard the ISS after 37 days of flight. The animal protocol was approved by the NASA Institutional Animal Care and Use Committee. Environmental data, including temperature and humidity, were logged at a sampling rate of 1 Hz during the experiment. Ground control mice were processed using identical timelines and protocols as the flight animals.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Gene Expression Study",
+      "summary": "RNA was isolated from BAT and WAT samples, with RNA integrity numbers (RIN) assessed using an Agilent Bioanalyzer. Samples with RIN values of 5 or above were used for RT-qPCR. mRNA was reverse transcribed into cDNA using SuperScript III. Gene expression levels related to adipogenesis were determined using the Mouse Adipogenesis RT 2 Profiler PCR Array. Gene expression was normalized using GusB and ActB housekeeping genes, and relative quantification was determined using RT 2 Profiler PCR Array Data Analysis software.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": {
+    "heading": "Conclusion",
+    "summary": ""
+  },
+  "keywords": [
+    "spaceflight",
+    "thermogenesis",
+    "brown adipose tissue",
+    "white adipose tissue",
+    "gene expression",
+    "mice",
+    "non-shivering thermogenesis",
+    "adipogenesis",
+    "glucose metabolism",
+    "heterotherms"
+  ],
+  "topics": [
+    "physiology",
+    "molecular biology",
+    "space biology"
+  ],
+  "_meta": {
+    "paper_id": "sha256:96e9fc295964cf91f860412776fab8fe25d955aeace1cca39f0547d11e70a3e8",
+    "paper_title": "Evidence for increased thermogenesis in female C57BL/6J mice housed aboard the international space station",
+    "generated_at": "2025-10-05T10:50:59Z",
+    "word_count": 209,
+    "figures": [],
+    "equations": [],
+    "keywords": [
+      "spaceflight",
+      "thermogenesis",
+      "brown adipose tissue",
+      "white adipose tissue",
+      "gene expression",
+      "mice",
+      "non-shivering thermogenesis",
+      "adipogenesis",
+      "glucose metabolism",
+      "heterotherms"
+    ],
+    "topics": [
+      "physiology",
+      "molecular biology",
+      "space biology"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 1638,
+      "completion_tokens": 621,
+      "total_tokens": 2259,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000164,
+      "output_usd": 0.000248,
+      "total_usd": 0.000412
+    },
+    "cost": {
+      "input_usd": 0.000164,
+      "output_usd": 0.000248,
+      "total_usd": 0.000412
+    },
+    "figure_selection": {}
+  },
+  "figures": [],
+  "equations": []
+}

@@ -1,0 +1,132 @@
+{
+  "paper_id": "PMC4136787",
+  "section": "Telemetry probes implantation",
+  "n_nodes": 8,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 58,
+      "label": "Russia",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telemetry probes implantation",
+        "sentence_id": 109,
+        "char_start": 18582,
+        "char_end": 18588,
+        "anchor": "PMC4136787_18582_18588"
+      }
+    },
+    {
+      "id": 59,
+      "label": "Centre",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telemetry probes implantation",
+        "sentence_id": 109,
+        "char_start": 18598,
+        "char_end": 18604,
+        "anchor": "PMC4136787_18598_18604"
+      }
+    },
+    {
+      "id": 60,
+      "label": "CNES",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telemetry probes implantation",
+        "sentence_id": 109,
+        "char_start": 18636,
+        "char_end": 18640,
+        "anchor": "PMC4136787_18636_18640"
+      }
+    },
+    {
+      "id": 62,
+      "label": "xylazine",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telemetry probes implantation",
+        "sentence_id": 112,
+        "char_start": 19129,
+        "char_end": 19137,
+        "anchor": "PMC4136787_19129_19137"
+      }
+    },
+    {
+      "id": 63,
+      "label": "SFV",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telemetry probes implantation",
+        "sentence_id": 120,
+        "char_start": 20150,
+        "char_end": 20153,
+        "anchor": "PMC4136787_20150_20153"
+      }
+    },
+    {
+      "id": 65,
+      "label": "Baikonur",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telemetry probes implantation",
+        "sentence_id": 121,
+        "char_start": 20371,
+        "char_end": 20379,
+        "anchor": "PMC4136787_20371_20379"
+      }
+    },
+    {
+      "id": 67,
+      "label": "Moscow",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telemetry probes implantation",
+        "sentence_id": 122,
+        "char_start": 20494,
+        "char_end": 20500,
+        "anchor": "PMC4136787_20494_20500"
+      }
+    },
+    {
+      "id": 68,
+      "label": "Time",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telemetry probes implantation",
+        "sentence_id": 124,
+        "char_start": 20855,
+        "char_end": 20859,
+        "anchor": "PMC4136787_20855_20859"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 40,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 58,
+      "target": 59
+    },
+    {
+      "id": 41,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 58,
+      "target": 60
+    },
+    {
+      "id": 42,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 59,
+      "target": 60
+    }
+  ]
+}

@@ -1,0 +1,4504 @@
+{
+  "paper_id": "PMC4405755",
+  "section": "Synthetic GENE_PRODUCT",
+  "n_nodes": 214,
+  "n_edges": 213,
+  "nodes": [
+    {
+      "id": 1,
+      "label": "studies",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 1,
+        "char_start": 70,
+        "char_end": 77,
+        "anchor": "PMC4405755_70_77",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 8,
+      "label": "studies",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 3,
+        "char_start": 638,
+        "char_end": 645,
+        "anchor": "PMC4405755_638_645",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 11,
+      "label": "AMP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 4,
+        "char_start": 1001,
+        "char_end": 1004,
+        "anchor": "PMC4405755_1001_1004",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 12,
+      "label": "Elevated",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 5,
+        "char_start": 1099,
+        "char_end": 1107,
+        "anchor": "PMC4405755_1099_1107",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 13,
+      "label": "AMPK",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 5,
+        "char_start": 1212,
+        "char_end": 1216,
+        "anchor": "PMC4405755_1212_1216",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 23,
+      "label": "atrophy",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 7,
+        "char_start": 2104,
+        "char_end": 2111,
+        "anchor": "PMC4405755_2104_2111",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 24,
+      "label": "Ike",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 7,
+        "char_start": 2113,
+        "char_end": 2116,
+        "anchor": "PMC4405755_2113_2116",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 25,
+      "label": "Ser",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 9,
+        "char_start": 2155,
+        "char_end": 2158,
+        "anchor": "PMC4405755_2155_2158",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 26,
+      "label": "Des",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 10,
+        "char_start": 2194,
+        "char_end": 2197,
+        "anchor": "PMC4405755_2194_2197",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 27,
+      "label": "Can",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 15,
+        "char_start": 2297,
+        "char_end": 2300,
+        "anchor": "PMC4405755_2297_2300",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 34,
+      "label": "systems",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 17,
+        "char_start": 2737,
+        "char_end": 2744,
+        "anchor": "PMC4405755_2737_2744",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 38,
+      "label": "FoxO3",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 17,
+        "char_start": 2813,
+        "char_end": 2818,
+        "anchor": "PMC4405755_2813_2818",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 43,
+      "label": "Des",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 19,
+        "char_start": 3140,
+        "char_end": 3143,
+        "anchor": "PMC4405755_3140_3143",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 45,
+      "label": "induced",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 20,
+        "char_start": 3314,
+        "char_end": 3321,
+        "anchor": "PMC4405755_3314_3321",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 49,
+      "label": "Naga",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 21,
+        "char_start": 3548,
+        "char_end": 3552,
+        "anchor": "PMC4405755_3548_3552",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 50,
+      "label": "Mazzatti",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 21,
+        "char_start": 3504,
+        "char_end": 3512,
+        "anchor": "PMC4405755_3504_3512",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 57,
+      "label": "loading",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 22,
+        "char_start": 3823,
+        "char_end": 3830,
+        "anchor": "PMC4405755_3823_3830",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 59,
+      "label": "loading",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 23,
+        "char_start": 3931,
+        "char_end": 3938,
+        "anchor": "PMC4405755_3931_3938",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 60,
+      "label": "gastroc",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 23,
+        "char_start": 3955,
+        "char_end": 3962,
+        "anchor": "PMC4405755_3955_3962",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 61,
+      "label": "atrophy",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 23,
+        "char_start": 4044,
+        "char_end": 4051,
+        "anchor": "PMC4405755_4044_4051",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 64,
+      "label": "Mit",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 25,
+        "char_start": 4197,
+        "char_end": 4200,
+        "anchor": "PMC4405755_4197_4200",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 67,
+      "label": "fission",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 25,
+        "char_start": 4389,
+        "char_end": 4396,
+        "anchor": "PMC4405755_4389_4396",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 69,
+      "label": "Hop",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 25,
+        "char_start": 4489,
+        "char_end": 4492,
+        "anchor": "PMC4405755_4489_4492",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 72,
+      "label": "Mfn1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 26,
+        "char_start": 4526,
+        "char_end": 4530,
+        "anchor": "PMC4405755_4526_4530",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 73,
+      "label": "Koshiba",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 26,
+        "char_start": 4641,
+        "char_end": 4648,
+        "anchor": "PMC4405755_4641_4648",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 76,
+      "label": "Meeusen",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 30,
+        "char_start": 4832,
+        "char_end": 4839,
+        "anchor": "PMC4405755_4832_4839",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 80,
+      "label": "Mice",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 32,
+        "char_start": 5038,
+        "char_end": 5042,
+        "anchor": "PMC4405755_5038_5042",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 84,
+      "label": "profound",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 32,
+        "char_start": 5129,
+        "char_end": 5137,
+        "anchor": "PMC4405755_5129_5137",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 85,
+      "label": "atrophy",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 32,
+        "char_start": 5145,
+        "char_end": 5152,
+        "anchor": "PMC4405755_5145_5152",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 86,
+      "label": "Mfn2",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "C 2015 The Authors. The Journal of Physiology C 2015 The Physiological Society",
+        "sentence_id": 33,
+        "char_start": 5172,
+        "char_end": 5176,
+        "anchor": "PMC4405755_5172_5176",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 92,
+      "label": "Mfn2",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "C 2015 The Authors. The Journal of Physiology C 2015 The Physiological Society",
+        "sentence_id": 34,
+        "char_start": 5265,
+        "char_end": 5269,
+        "anchor": "PMC4405755_5265_5269",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 100,
+      "label": "induced",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "C 2015 The Authors. The Journal of Physiology C 2015 The Physiological Society",
+        "sentence_id": 38,
+        "char_start": 6070,
+        "char_end": 6077,
+        "anchor": "PMC4405755_6070_6077",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 109,
+      "label": "AMPK",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "C 2015 The Authors. The Journal of Physiology C 2015 The Physiological Society",
+        "sentence_id": 39,
+        "char_start": 6563,
+        "char_end": 6567,
+        "anchor": "PMC4405755_6563_6567",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 111,
+      "label": "AMPK",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "C 2015 The Authors. The Journal of Physiology C 2015 The Physiological Society",
+        "sentence_id": 39,
+        "char_start": 6563,
+        "char_end": 6567,
+        "anchor": "PMC4405755_6563_6567",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 112,
+      "label": "Mfn2",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "C 2015 The Authors. The Journal of Physiology C 2015 The Physiological Society",
+        "sentence_id": 39,
+        "char_start": 6700,
+        "char_end": 6704,
+        "anchor": "PMC4405755_6700_6704",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 116,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Animal care and hindlimb unloading",
+        "sentence_id": 41,
+        "char_start": 7009,
+        "char_end": 7012,
+        "anchor": "PMC4405755_7009_7012",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 121,
+      "label": "Muscles",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Animal care and hindlimb unloading",
+        "sentence_id": 46,
+        "char_start": 7829,
+        "char_end": 7836,
+        "anchor": "PMC4405755_7829_7836",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 128,
+      "label": "AMP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental plan",
+        "sentence_id": 48,
+        "char_start": 8301,
+        "char_end": 8304,
+        "anchor": "PMC4405755_8301_8304",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 130,
+      "label": "AMPK",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental plan",
+        "sentence_id": 48,
+        "char_start": 8301,
+        "char_end": 8305,
+        "anchor": "PMC4405755_8301_8305",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 140,
+      "label": "positive",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental plan",
+        "sentence_id": 51,
+        "char_start": 9092,
+        "char_end": 9100,
+        "anchor": "PMC4405755_9092_9100",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 144,
+      "label": "CSA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cross-sectional area (CSA) analysis",
+        "sentence_id": 52,
+        "char_start": 9188,
+        "char_end": 9191,
+        "anchor": "PMC4405755_9188_9191",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 147,
+      "label": "muscles",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cross-sectional area (CSA) analysis",
+        "sentence_id": 52,
+        "char_start": 9276,
+        "char_end": 9283,
+        "anchor": "PMC4405755_9276_9283",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 148,
+      "label": "sections",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cross-sectional area (CSA) analysis",
+        "sentence_id": 52,
+        "char_start": 9363,
+        "char_end": 9371,
+        "anchor": "PMC4405755_9363_9371",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 176,
+      "label": "MHC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Analysis of myosin heavy chain (MHC) isoform content",
+        "sentence_id": 56,
+        "char_start": 10315,
+        "char_end": 10318,
+        "anchor": "PMC4405755_10315_10318",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 189,
+      "label": "Equal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Western blot analysis",
+        "sentence_id": 58,
+        "char_start": 10808,
+        "char_end": 10813,
+        "anchor": "PMC4405755_10808_10813",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 191,
+      "label": "Proteins",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Western blot analysis",
+        "sentence_id": 58,
+        "char_start": 10927,
+        "char_end": 10935,
+        "anchor": "PMC4405755_10927_10935",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 193,
+      "label": "Hercules",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Western blot analysis",
+        "sentence_id": 58,
+        "char_start": 10908,
+        "char_end": 10916,
+        "anchor": "PMC4405755_10908_10916",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 195,
+      "label": "PVDF",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Western blot analysis",
+        "sentence_id": 58,
+        "char_start": 10964,
+        "char_end": 10968,
+        "anchor": "PMC4405755_10964_10968",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 200,
+      "label": "Gondin",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Western blot analysis",
+        "sentence_id": 61,
+        "char_start": 11363,
+        "char_end": 11369,
+        "anchor": "PMC4405755_11363_11369",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 202,
+      "label": "lverized",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OxyBlot analysis",
+        "sentence_id": 62,
+        "char_start": 11432,
+        "char_end": 11440,
+        "anchor": "PMC4405755_11432_11440",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 204,
+      "label": "NaOH",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OxyBlot analysis",
+        "sentence_id": 62,
+        "char_start": 11574,
+        "char_end": 11578,
+        "anchor": "PMC4405755_11574_11578",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 205,
+      "label": "Bro",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OxyBlot analysis",
+        "sentence_id": 62,
+        "char_start": 11614,
+        "char_end": 11617,
+        "anchor": "PMC4405755_11614_11617",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 208,
+      "label": "NaOH",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OxyBlot analysis",
+        "sentence_id": 62,
+        "char_start": 11574,
+        "char_end": 11578,
+        "anchor": "PMC4405755_11574_11578",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 213,
+      "label": "DCTM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OxyBlot analysis",
+        "sentence_id": 63,
+        "char_start": 11814,
+        "char_end": 11818,
+        "anchor": "PMC4405755_11814_11818",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 214,
+      "label": "OxyBlot",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OxyBlot analysis",
+        "sentence_id": 64,
+        "char_start": 11952,
+        "char_end": 11959,
+        "anchor": "PMC4405755_11952_11959",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 215,
+      "label": "AbNova",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OxyBlot analysis",
+        "sentence_id": 64,
+        "char_start": 11965,
+        "char_end": 11971,
+        "anchor": "PMC4405755_11965_11971",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 216,
+      "label": "Taiwan",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OxyBlot analysis",
+        "sentence_id": 64,
+        "char_start": 11986,
+        "char_end": 11992,
+        "anchor": "PMC4405755_11986_11992",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 226,
+      "label": "Ponce",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OxyBlot analysis",
+        "sentence_id": 66,
+        "char_start": 12432,
+        "char_end": 12437,
+        "anchor": "PMC4405755_12432_12437",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 228,
+      "label": "primary",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OxyBlot analysis",
+        "sentence_id": 67,
+        "char_start": 12491,
+        "char_end": 12498,
+        "anchor": "PMC4405755_12491_12498",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 229,
+      "label": "against",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OxyBlot analysis",
+        "sentence_id": 67,
+        "char_start": 12610,
+        "char_end": 12617,
+        "anchor": "PMC4405755_12610_12617",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 230,
+      "label": "primary",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OxyBlot analysis",
+        "sentence_id": 67,
+        "char_start": 12622,
+        "char_end": 12629,
+        "anchor": "PMC4405755_12622_12629",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 231,
+      "label": "antibody",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OxyBlot analysis",
+        "sentence_id": 67,
+        "char_start": 12630,
+        "char_end": 12638,
+        "anchor": "PMC4405755_12630_12638",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 232,
+      "label": "Blot",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OxyBlot analysis",
+        "sentence_id": 67,
+        "char_start": 12682,
+        "char_end": 12686,
+        "anchor": "PMC4405755_12682_12686",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 233,
+      "label": "DNP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OxyBlot analysis",
+        "sentence_id": 67,
+        "char_start": 12525,
+        "char_end": 12528,
+        "anchor": "PMC4405755_12525_12528",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 235,
+      "label": "OxyBlot",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OxyBlot analysis",
+        "sentence_id": 69,
+        "char_start": 12955,
+        "char_end": 12962,
+        "anchor": "PMC4405755_12955_12962",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 236,
+      "label": "Total",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression analysis",
+        "sentence_id": 70,
+        "char_start": 13004,
+        "char_end": 13009,
+        "anchor": "PMC4405755_13004_13009",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 237,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression analysis",
+        "sentence_id": 70,
+        "char_start": 13119,
+        "char_end": 13122,
+        "anchor": "PMC4405755_13119_13122",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 239,
+      "label": "Waltham",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression analysis",
+        "sentence_id": 70,
+        "char_start": 13188,
+        "char_end": 13195,
+        "anchor": "PMC4405755_13188_13195",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 241,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression analysis",
+        "sentence_id": 70,
+        "char_start": 13201,
+        "char_end": 13204,
+        "anchor": "PMC4405755_13201_13204",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 242,
+      "label": "Carlsbad",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression analysis",
+        "sentence_id": 70,
+        "char_start": 13297,
+        "char_end": 13305,
+        "anchor": "PMC4405755_13297_13305",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 244,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression analysis",
+        "sentence_id": 70,
+        "char_start": 13311,
+        "char_end": 13314,
+        "anchor": "PMC4405755_13311_13314",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 248,
+      "label": "PCR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression analysis",
+        "sentence_id": 71,
+        "char_start": 13367,
+        "char_end": 13370,
+        "anchor": "PMC4405755_13367_13370",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 250,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression analysis",
+        "sentence_id": 71,
+        "char_start": 13465,
+        "char_end": 13468,
+        "anchor": "PMC4405755_13465_13468",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 251,
+      "label": "Prime",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression analysis",
+        "sentence_id": 72,
+        "char_start": 13612,
+        "char_end": 13617,
+        "anchor": "PMC4405755_13612_13617",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 252,
+      "label": "ACC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression analysis",
+        "sentence_id": 72,
+        "char_start": 13702,
+        "char_end": 13705,
+        "anchor": "PMC4405755_13702_13705",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 253,
+      "label": "ACATC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression analysis",
+        "sentence_id": 72,
+        "char_start": 13743,
+        "char_end": 13748,
+        "anchor": "PMC4405755_13743_13748",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 254,
+      "label": "AAGT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression analysis",
+        "sentence_id": 72,
+        "char_start": 13801,
+        "char_end": 13805,
+        "anchor": "PMC4405755_13801_13805",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 255,
+      "label": "AAGC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression analysis",
+        "sentence_id": 72,
+        "char_start": 13851,
+        "char_end": 13855,
+        "anchor": "PMC4405755_13851_13855",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 256,
+      "label": "AGA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression analysis",
+        "sentence_id": 72,
+        "char_start": 13855,
+        "char_end": 13858,
+        "anchor": "PMC4405755_13855_13858",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 257,
+      "label": "GGA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression analysis",
+        "sentence_id": 72,
+        "char_start": 13858,
+        "char_end": 13861,
+        "anchor": "PMC4405755_13858_13861",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 258,
+      "label": "CAT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression analysis",
+        "sentence_id": 72,
+        "char_start": 13889,
+        "char_end": 13892,
+        "anchor": "PMC4405755_13889_13892",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 259,
+      "label": "TAA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression analysis",
+        "sentence_id": 72,
+        "char_start": 13927,
+        "char_end": 13930,
+        "anchor": "PMC4405755_13927_13930",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 262,
+      "label": "ACC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression analysis",
+        "sentence_id": 73,
+        "char_start": 13942,
+        "char_end": 13945,
+        "anchor": "PMC4405755_13942_13945",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 303,
+      "label": "Abc",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression analysis",
+        "sentence_id": 75,
+        "char_start": 14857,
+        "char_end": 14860,
+        "anchor": "PMC4405755_14857_14860",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 307,
+      "label": "LC3B",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression analysis",
+        "sentence_id": 75,
+        "char_start": 14805,
+        "char_end": 14809,
+        "anchor": "PMC4405755_14805_14809",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 308,
+      "label": "Abcam",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression analysis",
+        "sentence_id": 75,
+        "char_start": 14857,
+        "char_end": 14862,
+        "anchor": "PMC4405755_14857_14862",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 309,
+      "label": "IgG",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression analysis",
+        "sentence_id": 75,
+        "char_start": 14876,
+        "char_end": 14879,
+        "anchor": "PMC4405755_14876_14879",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 310,
+      "label": "Denmark",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression analysis",
+        "sentence_id": 75,
+        "char_start": 14897,
+        "char_end": 14904,
+        "anchor": "PMC4405755_14897_14904",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 311,
+      "label": "samples",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Hydrogen peroxide quantification",
+        "sentence_id": 76,
+        "char_start": 14954,
+        "char_end": 14961,
+        "anchor": "PMC4405755_14954_14961",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 312,
+      "label": "Frozen",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Hydrogen peroxide quantification",
+        "sentence_id": 76,
+        "char_start": 14940,
+        "char_end": 14946,
+        "anchor": "PMC4405755_14940_14946",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 333,
+      "label": "Oro",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OXPHOS capacity",
+        "sentence_id": 80,
+        "char_start": 15865,
+        "char_end": 15868,
+        "anchor": "PMC4405755_15865_15868",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 334,
+      "label": "Muscle",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OXPHOS capacity",
+        "sentence_id": 80,
+        "char_start": 15887,
+        "char_end": 15893,
+        "anchor": "PMC4405755_15887_15893",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 335,
+      "label": "samples",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OXPHOS capacity",
+        "sentence_id": 80,
+        "char_start": 15894,
+        "char_end": 15901,
+        "anchor": "PMC4405755_15894_15901",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 336,
+      "label": "solution",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OXPHOS capacity",
+        "sentence_id": 80,
+        "char_start": 15905,
+        "char_end": 15913,
+        "anchor": "PMC4405755_15905_15913",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 337,
+      "label": "BSA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OXPHOS capacity",
+        "sentence_id": 80,
+        "char_start": 15945,
+        "char_end": 15948,
+        "anchor": "PMC4405755_15945_15948",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 338,
+      "label": "BSA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OXPHOS capacity",
+        "sentence_id": 80,
+        "char_start": 15945,
+        "char_end": 15948,
+        "anchor": "PMC4405755_15945_15948",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 339,
+      "label": "saponin",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OXPHOS capacity",
+        "sentence_id": 81,
+        "char_start": 16197,
+        "char_end": 16204,
+        "anchor": "PMC4405755_16197_16204",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 340,
+      "label": "Fibre",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OXPHOS capacity",
+        "sentence_id": 81,
+        "char_start": 16238,
+        "char_end": 16243,
+        "anchor": "PMC4405755_16238_16243",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 341,
+      "label": "MiR05",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OXPHOS capacity",
+        "sentence_id": 81,
+        "char_start": 16439,
+        "char_end": 16444,
+        "anchor": "PMC4405755_16439_16444",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 344,
+      "label": "MiR05",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OXPHOS capacity",
+        "sentence_id": 81,
+        "char_start": 16311,
+        "char_end": 16316,
+        "anchor": "PMC4405755_16311_16316",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 345,
+      "label": "MiR05",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OXPHOS capacity",
+        "sentence_id": 81,
+        "char_start": 16439,
+        "char_end": 16444,
+        "anchor": "PMC4405755_16439_16444",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 350,
+      "label": "chamber",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OXPHOS capacity",
+        "sentence_id": 83,
+        "char_start": 16716,
+        "char_end": 16723,
+        "anchor": "PMC4405755_16716_16723",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 352,
+      "label": "Maximal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OXPHOS capacity",
+        "sentence_id": 84,
+        "char_start": 16807,
+        "char_end": 16814,
+        "anchor": "PMC4405755_16807_16814",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 354,
+      "label": "ADP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OXPHOS capacity",
+        "sentence_id": 84,
+        "char_start": 16913,
+        "char_end": 16916,
+        "anchor": "PMC4405755_16913_16916",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 356,
+      "label": "ADP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OXPHOS capacity",
+        "sentence_id": 84,
+        "char_start": 16913,
+        "char_end": 16916,
+        "anchor": "PMC4405755_16913_16916",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 363,
+      "label": "Student",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analysis",
+        "sentence_id": 87,
+        "char_start": 17440,
+        "char_end": 17447,
+        "anchor": "PMC4405755_17440_17447",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 368,
+      "label": "CSA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "J Physiol 593.8",
+        "sentence_id": 89,
+        "char_start": 17542,
+        "char_end": 17545,
+        "anchor": "PMC4405755_17542_17545",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 369,
+      "label": "CSA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "J Physiol 593.8",
+        "sentence_id": 89,
+        "char_start": 17601,
+        "char_end": 17604,
+        "anchor": "PMC4405755_17601_17604",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 386,
+      "label": "SOD1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The antioxidant defence system efficiently reacted to the initial reactive oxygen species (ROS) increase",
+        "sentence_id": 94,
+        "char_start": 18300,
+        "char_end": 18304,
+        "anchor": "PMC4405755_18300_18304",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 397,
+      "label": "Western",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 95,
+        "char_start": 18629,
+        "char_end": 18636,
+        "anchor": "PMC4405755_18629_18636",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 404,
+      "label": "changes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 98,
+        "char_start": 18954,
+        "char_end": 18961,
+        "anchor": "PMC4405755_18954_18961",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 405,
+      "label": "protein",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 98,
+        "char_start": 18975,
+        "char_end": 18982,
+        "anchor": "PMC4405755_18975_18982",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 416,
+      "label": "protein",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 102,
+        "char_start": 19436,
+        "char_end": 19443,
+        "anchor": "PMC4405755_19436_19443",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 417,
+      "label": "activity",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 102,
+        "char_start": 19448,
+        "char_end": 19456,
+        "anchor": "PMC4405755_19448_19456",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 418,
+      "label": "dropped",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 102,
+        "char_start": 19464,
+        "char_end": 19471,
+        "anchor": "PMC4405755_19464_19471",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 419,
+      "label": "OXPH",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 102,
+        "char_start": 19511,
+        "char_end": 19515,
+        "anchor": "PMC4405755_19511_19515",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 422,
+      "label": "impaired",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 102,
+        "char_start": 19555,
+        "char_end": 19563,
+        "anchor": "PMC4405755_19555_19563",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 425,
+      "label": "maximal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 103,
+        "char_start": 19688,
+        "char_end": 19695,
+        "anchor": "PMC4405755_19688_19695",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 426,
+      "label": "ADP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 103,
+        "char_start": 19696,
+        "char_end": 19699,
+        "anchor": "PMC4405755_19696_19699",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 436,
+      "label": "Mfn1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 104,
+        "char_start": 19951,
+        "char_end": 19955,
+        "anchor": "PMC4405755_19951_19955",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 451,
+      "label": "ACC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 107,
+        "char_start": 20614,
+        "char_end": 20617,
+        "anchor": "PMC4405755_20614_20617",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 453,
+      "label": "AMPK",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 107,
+        "char_start": 20564,
+        "char_end": 20568,
+        "anchor": "PMC4405755_20564_20568",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 454,
+      "label": "ACC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 107,
+        "char_start": 20614,
+        "char_end": 20617,
+        "anchor": "PMC4405755_20614_20617",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 460,
+      "label": "function",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 108,
+        "char_start": 20796,
+        "char_end": 20804,
+        "anchor": "PMC4405755_20796_20804",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 463,
+      "label": "AMPK",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 108,
+        "char_start": 20827,
+        "char_end": 20831,
+        "anchor": "PMC4405755_20827_20831",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 475,
+      "label": "Western",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 113,
+        "char_start": 21306,
+        "char_end": 21313,
+        "anchor": "PMC4405755_21306_21313",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 478,
+      "label": "Western",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 114,
+        "char_start": 21396,
+        "char_end": 21403,
+        "anchor": "PMC4405755_21396_21403",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 480,
+      "label": "Western",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 115,
+        "char_start": 21475,
+        "char_end": 21482,
+        "anchor": "PMC4405755_21475_21482",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 482,
+      "label": "Western",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 116,
+        "char_start": 21547,
+        "char_end": 21554,
+        "anchor": "PMC4405755_21547_21554",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 487,
+      "label": "hindlim",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 119,
+        "char_start": 21783,
+        "char_end": 21790,
+        "anchor": "PMC4405755_21783_21790",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 488,
+      "label": "hindlim",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mitochondrial fusion was impaired in gastrocnemius muscle in the early phases of HU",
+        "sentence_id": 119,
+        "char_start": 21819,
+        "char_end": 21826,
+        "anchor": "PMC4405755_21819_21826",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 490,
+      "label": "peroxiso",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α levels are maintained in transgenic mice during HU",
+        "sentence_id": 122,
+        "char_start": 22061,
+        "char_end": 22069,
+        "anchor": "PMC4405755_22061_22069",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 494,
+      "label": "Mfn2",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α levels are maintained in transgenic mice during HU",
+        "sentence_id": 122,
+        "char_start": 21986,
+        "char_end": 21990,
+        "anchor": "PMC4405755_21986_21990",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 498,
+      "label": "protein",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α levels are maintained in transgenic mice during HU",
+        "sentence_id": 124,
+        "char_start": 22494,
+        "char_end": 22501,
+        "anchor": "PMC4405755_22494_22501",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 509,
+      "label": "complete",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Elevated muscle PGC-1α completely preserved muscle mass by preventing the activation of catabolic systems",
+        "sentence_id": 127,
+        "char_start": 23019,
+        "char_end": 23027,
+        "anchor": "PMC4405755_23019_23027",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 511,
+      "label": "atrophy",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Elevated muscle PGC-1α completely preserved muscle mass by preventing the activation of catabolic systems",
+        "sentence_id": 127,
+        "char_start": 23052,
+        "char_end": 23059,
+        "anchor": "PMC4405755_23052_23059",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 513,
+      "label": "atrophy",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Elevated muscle PGC-1α completely preserved muscle mass by preventing the activation of catabolic systems",
+        "sentence_id": 127,
+        "char_start": 23052,
+        "char_end": 23059,
+        "anchor": "PMC4405755_23052_23059",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 522,
+      "label": "beclin1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Elevated muscle PGC-1α completely preserved muscle mass by preventing the activation of catabolic systems",
+        "sentence_id": 130,
+        "char_start": 23575,
+        "char_end": 23582,
+        "anchor": "PMC4405755_23575_23582",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 530,
+      "label": "controls",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Elevated muscle PGC-1α completely preserved muscle mass by preventing the activation of catabolic systems",
+        "sentence_id": 133,
+        "char_start": 24169,
+        "char_end": 24177,
+        "anchor": "PMC4405755_24169_24177",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 532,
+      "label": "systems",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Elevated muscle PGC-1α completely preserved muscle mass by preventing the activation of catabolic systems",
+        "sentence_id": 133,
+        "char_start": 24287,
+        "char_end": 24294,
+        "anchor": "PMC4405755_24287_24294",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 533,
+      "label": "Kabeya",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Elevated muscle PGC-1α completely preserved muscle mass by preventing the activation of catabolic systems",
+        "sentence_id": 133,
+        "char_start": 24063,
+        "char_end": 24069,
+        "anchor": "PMC4405755_24063_24069",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 535,
+      "label": "Hind",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Elevated muscle PGC-1α completely preserved muscle mass by preventing the activation of catabolic systems",
+        "sentence_id": 134,
+        "char_start": 24313,
+        "char_end": 24317,
+        "anchor": "PMC4405755_24313_24317",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 549,
+      "label": "OPA1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Elevated muscle PGC-1α completely prevented pro-fusion protein down-regulation and ACC activation",
+        "sentence_id": 137,
+        "char_start": 24743,
+        "char_end": 24747,
+        "anchor": "PMC4405755_24743_24747",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 550,
+      "label": "ACC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Elevated muscle PGC-1α completely prevented pro-fusion protein down-regulation and ACC activation",
+        "sentence_id": 137,
+        "char_start": 24783,
+        "char_end": 24786,
+        "anchor": "PMC4405755_24783_24786",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 552,
+      "label": "Mfn1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Elevated muscle PGC-1α completely prevented pro-fusion protein down-regulation and ACC activation",
+        "sentence_id": 137,
+        "char_start": 24728,
+        "char_end": 24732,
+        "anchor": "PMC4405755_24728_24732",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 554,
+      "label": "ACC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Elevated muscle PGC-1α completely prevented pro-fusion protein down-regulation and ACC activation",
+        "sentence_id": 137,
+        "char_start": 24783,
+        "char_end": 24786,
+        "anchor": "PMC4405755_24783_24786",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 557,
+      "label": "studies",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 138,
+        "char_start": 24982,
+        "char_end": 24989,
+        "anchor": "PMC4405755_24982_24989",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 558,
+      "label": "muscular",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 138,
+        "char_start": 25156,
+        "char_end": 25164,
+        "anchor": "PMC4405755_25156_25164",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 560,
+      "label": "atrophy",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 139,
+        "char_start": 25361,
+        "char_end": 25368,
+        "anchor": "PMC4405755_25361_25368",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 563,
+      "label": "FoxO3",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 140,
+        "char_start": 25536,
+        "char_end": 25541,
+        "anchor": "PMC4405755_25536_25541",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 565,
+      "label": "muscles",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 142,
+        "char_start": 25813,
+        "char_end": 25820,
+        "anchor": "PMC4405755_25813_25820",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 568,
+      "label": "express",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 142,
+        "char_start": 25966,
+        "char_end": 25973,
+        "anchor": "PMC4405755_25966_25973",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 571,
+      "label": "induced",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 143,
+        "char_start": 26171,
+        "char_end": 26178,
+        "anchor": "PMC4405755_26171_26178",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 588,
+      "label": "plateau",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 145,
+        "char_start": 26824,
+        "char_end": 26831,
+        "anchor": "PMC4405755_26824_26831",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 589,
+      "label": "Bodine",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 146,
+        "char_start": 26945,
+        "char_end": 26951,
+        "anchor": "PMC4405755_26945_26951",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 591,
+      "label": "atrophy",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Oxidative stress and disuse atrophy in a fast muscle",
+        "sentence_id": 147,
+        "char_start": 27301,
+        "char_end": 27308,
+        "anchor": "PMC4405755_27301_27308",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 592,
+      "label": "Ike",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Oxidative stress and disuse atrophy in a fast muscle",
+        "sentence_id": 147,
+        "char_start": 27310,
+        "char_end": 27313,
+        "anchor": "PMC4405755_27310_27313",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 593,
+      "label": "Ser",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Oxidative stress and disuse atrophy in a fast muscle",
+        "sentence_id": 149,
+        "char_start": 27352,
+        "char_end": 27355,
+        "anchor": "PMC4405755_27352_27355",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 594,
+      "label": "Des",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Oxidative stress and disuse atrophy in a fast muscle",
+        "sentence_id": 150,
+        "char_start": 27391,
+        "char_end": 27394,
+        "anchor": "PMC4405755_27391_27394",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 595,
+      "label": "Can",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Oxidative stress and disuse atrophy in a fast muscle",
+        "sentence_id": 155,
+        "char_start": 27494,
+        "char_end": 27497,
+        "anchor": "PMC4405755_27494_27497",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 596,
+      "label": "Red",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Oxidative stress and disuse atrophy in a fast muscle",
+        "sentence_id": 156,
+        "char_start": 27517,
+        "char_end": 27520,
+        "anchor": "PMC4405755_27517_27520",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 599,
+      "label": "SOD1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Oxidative stress and disuse atrophy in a fast muscle",
+        "sentence_id": 156,
+        "char_start": 27612,
+        "char_end": 27616,
+        "anchor": "PMC4405755_27612_27616",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 601,
+      "label": "SOD1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Oxidative stress and disuse atrophy in a fast muscle",
+        "sentence_id": 156,
+        "char_start": 27612,
+        "char_end": 27616,
+        "anchor": "PMC4405755_27612_27616",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 612,
+      "label": "loading",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Oxidative stress and disuse atrophy in a fast muscle",
+        "sentence_id": 158,
+        "char_start": 28117,
+        "char_end": 28124,
+        "anchor": "PMC4405755_28117_28124",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 613,
+      "label": "atrophy",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Oxidative stress and disuse atrophy in a fast muscle",
+        "sentence_id": 158,
+        "char_start": 28247,
+        "char_end": 28254,
+        "anchor": "PMC4405755_28247_28254",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 616,
+      "label": "unloaded",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+        "sentence_id": 159,
+        "char_start": 28359,
+        "char_end": 28367,
+        "anchor": "PMC4405755_28359_28367",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 623,
+      "label": "Naga",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+        "sentence_id": 161,
+        "char_start": 28698,
+        "char_end": 28702,
+        "anchor": "PMC4405755_28698_28702",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 624,
+      "label": "Mazzatti",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+        "sentence_id": 161,
+        "char_start": 28661,
+        "char_end": 28669,
+        "anchor": "PMC4405755_28661_28669",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 634,
+      "label": "chronic",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+        "sentence_id": 165,
+        "char_start": 29264,
+        "char_end": 29271,
+        "anchor": "PMC4405755_29264_29271",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 636,
+      "label": "Mit",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+        "sentence_id": 166,
+        "char_start": 29303,
+        "char_end": 29306,
+        "anchor": "PMC4405755_29303_29306",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 641,
+      "label": "damaged",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+        "sentence_id": 168,
+        "char_start": 29563,
+        "char_end": 29570,
+        "anchor": "PMC4405755_29563_29570",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 642,
+      "label": "Der",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+        "sentence_id": 169,
+        "char_start": 29719,
+        "char_end": 29722,
+        "anchor": "PMC4405755_29719_29722",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 646,
+      "label": "AMPK",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+        "sentence_id": 169,
+        "char_start": 29916,
+        "char_end": 29920,
+        "anchor": "PMC4405755_29916_29920",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 647,
+      "label": "Roman",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+        "sentence_id": 169,
+        "char_start": 29922,
+        "char_end": 29927,
+        "anchor": "PMC4405755_29922_29927",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 648,
+      "label": "AMPK",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+        "sentence_id": 169,
+        "char_start": 29916,
+        "char_end": 29920,
+        "anchor": "PMC4405755_29916_29920",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 653,
+      "label": "fission",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+        "sentence_id": 171,
+        "char_start": 30201,
+        "char_end": 30208,
+        "anchor": "PMC4405755_30201_30208",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 656,
+      "label": "GTPas",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+        "sentence_id": 172,
+        "char_start": 30294,
+        "char_end": 30299,
+        "anchor": "PMC4405755_30294_30299",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 660,
+      "label": "chronic",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+        "sentence_id": 172,
+        "char_start": 30590,
+        "char_end": 30597,
+        "anchor": "PMC4405755_30590_30597",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 661,
+      "label": "Mfn2",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+        "sentence_id": 172,
+        "char_start": 30378,
+        "char_end": 30382,
+        "anchor": "PMC4405755_30378_30382",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 662,
+      "label": "Mfn1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+        "sentence_id": 172,
+        "char_start": 30459,
+        "char_end": 30463,
+        "anchor": "PMC4405755_30459_30463",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 663,
+      "label": "OPA1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+        "sentence_id": 172,
+        "char_start": 30474,
+        "char_end": 30478,
+        "anchor": "PMC4405755_30474_30478",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 669,
+      "label": "maximal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+        "sentence_id": 173,
+        "char_start": 30774,
+        "char_end": 30781,
+        "anchor": "PMC4405755_30774_30781",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 675,
+      "label": "impaired",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+        "sentence_id": 175,
+        "char_start": 31070,
+        "char_end": 31078,
+        "anchor": "PMC4405755_31070_31078",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 689,
+      "label": "AMP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+        "sentence_id": 177,
+        "char_start": 31663,
+        "char_end": 31666,
+        "anchor": "PMC4405755_31663_31666",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 691,
+      "label": "AMPK",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+        "sentence_id": 177,
+        "char_start": 31663,
+        "char_end": 31667,
+        "anchor": "PMC4405755_31663_31667",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 696,
+      "label": "Mfn2",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 180,
+        "char_start": 31970,
+        "char_end": 31974,
+        "anchor": "PMC4405755_31970_31974",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 700,
+      "label": "loading",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 181,
+        "char_start": 32376,
+        "char_end": 32383,
+        "anchor": "PMC4405755_32376_32383",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 701,
+      "label": "Skeletal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 181,
+        "char_start": 32408,
+        "char_end": 32416,
+        "anchor": "PMC4405755_32408_32416",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 703,
+      "label": "Mfn2",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 181,
+        "char_start": 32126,
+        "char_end": 32130,
+        "anchor": "PMC4405755_32126_32130",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 705,
+      "label": "PGC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 181,
+        "char_start": 32439,
+        "char_end": 32442,
+        "anchor": "PMC4405755_32439_32442",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 707,
+      "label": "protein",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 182,
+        "char_start": 32659,
+        "char_end": 32666,
+        "anchor": "PMC4405755_32659_32666",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 711,
+      "label": "UPS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 184,
+        "char_start": 32843,
+        "char_end": 32846,
+        "anchor": "PMC4405755_32843_32846",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 713,
+      "label": "UPS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 185,
+        "char_start": 32956,
+        "char_end": 32959,
+        "anchor": "PMC4405755_32956_32959",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 716,
+      "label": "Physiol",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 185,
+        "char_start": 33076,
+        "char_end": 33083,
+        "anchor": "PMC4405755_33076_33083",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 718,
+      "label": "UPS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 185,
+        "char_start": 32956,
+        "char_end": 32959,
+        "anchor": "PMC4405755_32956_32959",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 720,
+      "label": "MuRF1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 185,
+        "char_start": 33007,
+        "char_end": 33012,
+        "anchor": "PMC4405755_33007_33012",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 721,
+      "label": "MuRF1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 186,
+        "char_start": 33185,
+        "char_end": 33190,
+        "anchor": "PMC4405755_33185_33190",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 724,
+      "label": "UPS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 186,
+        "char_start": 33279,
+        "char_end": 33282,
+        "anchor": "PMC4405755_33279_33282",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 726,
+      "label": "UPS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 187,
+        "char_start": 33693,
+        "char_end": 33696,
+        "anchor": "PMC4405755_33693_33696",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 728,
+      "label": "Sandri",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 187,
+        "char_start": 33541,
+        "char_end": 33547,
+        "anchor": "PMC4405755_33541_33547",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 729,
+      "label": "UPS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 187,
+        "char_start": 33693,
+        "char_end": 33696,
+        "anchor": "PMC4405755_33693_33696",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 743,
+      "label": "changes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 191,
+        "char_start": 34670,
+        "char_end": 34677,
+        "anchor": "PMC4405755_34670_34677",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 750,
+      "label": "Loss",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 191,
+        "char_start": 34919,
+        "char_end": 34923,
+        "anchor": "PMC4405755_34919_34923",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 752,
+      "label": "hindlim",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 191,
+        "char_start": 35028,
+        "char_end": 35035,
+        "anchor": "PMC4405755_35028_35035",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 754,
+      "label": "p70S6K",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 191,
+        "char_start": 34792,
+        "char_end": 34798,
+        "anchor": "PMC4405755_34792_34798",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 755,
+      "label": "EDL",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 191,
+        "char_start": 34858,
+        "char_end": 34861,
+        "anchor": "PMC4405755_34858_34861",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 756,
+      "label": "Krawiec",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 191,
+        "char_start": 35053,
+        "char_end": 35060,
+        "anchor": "PMC4405755_35053_35060",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 777,
+      "label": "rogin1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 193,
+        "char_start": 36237,
+        "char_end": 36243,
+        "anchor": "PMC4405755_36237_36243",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 780,
+      "label": "PGC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 193,
+        "char_start": 36041,
+        "char_end": 36044,
+        "anchor": "PMC4405755_36041_36044",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 781,
+      "label": "OPA1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 193,
+        "char_start": 36129,
+        "char_end": 36133,
+        "anchor": "PMC4405755_36129_36133",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 783,
+      "label": "AMPK",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PGC-1α over-expression prevents HU-induced muscle atrophy and imbalance in mitochondrial fusion and fission",
+        "sentence_id": 193,
+        "char_start": 36168,
+        "char_end": 36172,
+        "anchor": "PMC4405755_36168_36172",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 818,
+      "label": "Mfn2",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 197,
+        "char_start": 37601,
+        "char_end": 37605,
+        "anchor": "PMC4405755_37601_37605",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 819,
+      "label": "PGC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 197,
+        "char_start": 37685,
+        "char_end": 37688,
+        "anchor": "PMC4405755_37685_37688",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 821,
+      "label": "exercise",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 199,
+        "char_start": 38131,
+        "char_end": 38139,
+        "anchor": "PMC4405755_38131_38139",
+        "page": 11,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-1-8",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "id": "synth-1-11",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 11
+    },
+    {
+      "id": "synth-1-12",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 12
+    },
+    {
+      "id": "synth-1-13",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 13
+    },
+    {
+      "id": "synth-1-23",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 23
+    },
+    {
+      "id": "synth-1-24",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 24
+    },
+    {
+      "id": "synth-1-25",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 25
+    },
+    {
+      "id": "synth-1-26",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 26
+    },
+    {
+      "id": "synth-1-27",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 27
+    },
+    {
+      "id": "synth-1-34",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 34
+    },
+    {
+      "id": "synth-1-38",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 38
+    },
+    {
+      "id": "synth-1-43",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 43
+    },
+    {
+      "id": "synth-1-45",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 45
+    },
+    {
+      "id": "synth-1-49",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 49
+    },
+    {
+      "id": "synth-1-50",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 50
+    },
+    {
+      "id": "synth-1-57",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 57
+    },
+    {
+      "id": "synth-1-59",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 59
+    },
+    {
+      "id": "synth-1-60",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 60
+    },
+    {
+      "id": "synth-1-61",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 61
+    },
+    {
+      "id": "synth-1-64",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 64
+    },
+    {
+      "id": "synth-1-67",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 67
+    },
+    {
+      "id": "synth-1-69",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 69
+    },
+    {
+      "id": "synth-1-72",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 72
+    },
+    {
+      "id": "synth-1-73",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 73
+    },
+    {
+      "id": "synth-1-76",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 76
+    },
+    {
+      "id": "synth-1-80",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 80
+    },
+    {
+      "id": "synth-1-84",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 84
+    },
+    {
+      "id": "synth-1-85",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 85
+    },
+    {
+      "id": "synth-1-86",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 86
+    },
+    {
+      "id": "synth-1-92",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 92
+    },
+    {
+      "id": "synth-1-100",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 100
+    },
+    {
+      "id": "synth-1-109",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 109
+    },
+    {
+      "id": "synth-1-111",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 111
+    },
+    {
+      "id": "synth-1-112",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 112
+    },
+    {
+      "id": "synth-1-116",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 116
+    },
+    {
+      "id": "synth-1-121",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 121
+    },
+    {
+      "id": "synth-1-128",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 128
+    },
+    {
+      "id": "synth-1-130",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 130
+    },
+    {
+      "id": "synth-1-140",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 140
+    },
+    {
+      "id": "synth-1-144",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 144
+    },
+    {
+      "id": "synth-1-147",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 147
+    },
+    {
+      "id": "synth-1-148",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 148
+    },
+    {
+      "id": "synth-1-176",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 176
+    },
+    {
+      "id": "synth-1-189",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 189
+    },
+    {
+      "id": "synth-1-191",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 191
+    },
+    {
+      "id": "synth-1-193",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 193
+    },
+    {
+      "id": "synth-1-195",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 195
+    },
+    {
+      "id": "synth-1-200",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 200
+    },
+    {
+      "id": "synth-1-202",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 202
+    },
+    {
+      "id": "synth-1-204",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 204
+    },
+    {
+      "id": "synth-1-205",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 205
+    },
+    {
+      "id": "synth-1-208",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 208
+    },
+    {
+      "id": "synth-1-213",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 213
+    },
+    {
+      "id": "synth-1-214",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 214
+    },
+    {
+      "id": "synth-1-215",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 215
+    },
+    {
+      "id": "synth-1-216",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 216
+    },
+    {
+      "id": "synth-1-226",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 226
+    },
+    {
+      "id": "synth-1-228",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 228
+    },
+    {
+      "id": "synth-1-229",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 229
+    },
+    {
+      "id": "synth-1-230",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 230
+    },
+    {
+      "id": "synth-1-231",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 231
+    },
+    {
+      "id": "synth-1-232",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 232
+    },
+    {
+      "id": "synth-1-233",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 233
+    },
+    {
+      "id": "synth-1-235",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 235
+    },
+    {
+      "id": "synth-1-236",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 236
+    },
+    {
+      "id": "synth-1-237",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 237
+    },
+    {
+      "id": "synth-1-239",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 239
+    },
+    {
+      "id": "synth-1-241",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 241
+    },
+    {
+      "id": "synth-1-242",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 242
+    },
+    {
+      "id": "synth-1-244",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 244
+    },
+    {
+      "id": "synth-1-248",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 248
+    },
+    {
+      "id": "synth-1-250",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 250
+    },
+    {
+      "id": "synth-1-251",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 251
+    },
+    {
+      "id": "synth-1-252",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 252
+    },
+    {
+      "id": "synth-1-253",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 253
+    },
+    {
+      "id": "synth-1-254",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 254
+    },
+    {
+      "id": "synth-1-255",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 255
+    },
+    {
+      "id": "synth-1-256",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 256
+    },
+    {
+      "id": "synth-1-257",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 257
+    },
+    {
+      "id": "synth-1-258",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 258
+    },
+    {
+      "id": "synth-1-259",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 259
+    },
+    {
+      "id": "synth-1-262",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 262
+    },
+    {
+      "id": "synth-1-303",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 303
+    },
+    {
+      "id": "synth-1-307",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 307
+    },
+    {
+      "id": "synth-1-308",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 308
+    },
+    {
+      "id": "synth-1-309",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 309
+    },
+    {
+      "id": "synth-1-310",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 310
+    },
+    {
+      "id": "synth-1-311",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 311
+    },
+    {
+      "id": "synth-1-312",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 312
+    },
+    {
+      "id": "synth-1-333",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 333
+    },
+    {
+      "id": "synth-1-334",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 334
+    },
+    {
+      "id": "synth-1-335",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 335
+    },
+    {
+      "id": "synth-1-336",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 336
+    },
+    {
+      "id": "synth-1-337",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 337
+    },
+    {
+      "id": "synth-1-338",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 338
+    },
+    {
+      "id": "synth-1-339",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 339
+    },
+    {
+      "id": "synth-1-340",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 340
+    },
+    {
+      "id": "synth-1-341",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 341
+    },
+    {
+      "id": "synth-1-344",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 344
+    },
+    {
+      "id": "synth-1-345",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 345
+    },
+    {
+      "id": "synth-1-350",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 350
+    },
+    {
+      "id": "synth-1-352",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 352
+    },
+    {
+      "id": "synth-1-354",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 354
+    },
+    {
+      "id": "synth-1-356",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 356
+    },
+    {
+      "id": "synth-1-363",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 363
+    },
+    {
+      "id": "synth-1-368",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 368
+    },
+    {
+      "id": "synth-1-369",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 369
+    },
+    {
+      "id": "synth-1-386",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 386
+    },
+    {
+      "id": "synth-1-397",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 397
+    },
+    {
+      "id": "synth-1-404",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 404
+    },
+    {
+      "id": "synth-1-405",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 405
+    },
+    {
+      "id": "synth-1-416",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 416
+    },
+    {
+      "id": "synth-1-417",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 417
+    },
+    {
+      "id": "synth-1-418",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 418
+    },
+    {
+      "id": "synth-1-419",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 419
+    },
+    {
+      "id": "synth-1-422",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 422
+    },
+    {
+      "id": "synth-1-425",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 425
+    },
+    {
+      "id": "synth-1-426",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 426
+    },
+    {
+      "id": "synth-1-436",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 436
+    },
+    {
+      "id": "synth-1-451",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 451
+    },
+    {
+      "id": "synth-1-453",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 453
+    },
+    {
+      "id": "synth-1-454",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 454
+    },
+    {
+      "id": "synth-1-460",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 460
+    },
+    {
+      "id": "synth-1-463",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 463
+    },
+    {
+      "id": "synth-1-475",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 475
+    },
+    {
+      "id": "synth-1-478",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 478
+    },
+    {
+      "id": "synth-1-480",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 480
+    },
+    {
+      "id": "synth-1-482",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 482
+    },
+    {
+      "id": "synth-1-487",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 487
+    },
+    {
+      "id": "synth-1-488",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 488
+    },
+    {
+      "id": "synth-1-490",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 490
+    },
+    {
+      "id": "synth-1-494",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 494
+    },
+    {
+      "id": "synth-1-498",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 498
+    },
+    {
+      "id": "synth-1-509",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 509
+    },
+    {
+      "id": "synth-1-511",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 511
+    },
+    {
+      "id": "synth-1-513",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 513
+    },
+    {
+      "id": "synth-1-522",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 522
+    },
+    {
+      "id": "synth-1-530",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 530
+    },
+    {
+      "id": "synth-1-532",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 532
+    },
+    {
+      "id": "synth-1-533",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 533
+    },
+    {
+      "id": "synth-1-535",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 535
+    },
+    {
+      "id": "synth-1-549",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 549
+    },
+    {
+      "id": "synth-1-550",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 550
+    },
+    {
+      "id": "synth-1-552",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 552
+    },
+    {
+      "id": "synth-1-554",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 554
+    },
+    {
+      "id": "synth-1-557",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 557
+    },
+    {
+      "id": "synth-1-558",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 558
+    },
+    {
+      "id": "synth-1-560",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 560
+    },
+    {
+      "id": "synth-1-563",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 563
+    },
+    {
+      "id": "synth-1-565",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 565
+    },
+    {
+      "id": "synth-1-568",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 568
+    },
+    {
+      "id": "synth-1-571",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 571
+    },
+    {
+      "id": "synth-1-588",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 588
+    },
+    {
+      "id": "synth-1-589",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 589
+    },
+    {
+      "id": "synth-1-591",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 591
+    },
+    {
+      "id": "synth-1-592",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 592
+    },
+    {
+      "id": "synth-1-593",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 593
+    },
+    {
+      "id": "synth-1-594",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 594
+    },
+    {
+      "id": "synth-1-595",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 595
+    },
+    {
+      "id": "synth-1-596",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 596
+    },
+    {
+      "id": "synth-1-599",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 599
+    },
+    {
+      "id": "synth-1-601",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 601
+    },
+    {
+      "id": "synth-1-612",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 612
+    },
+    {
+      "id": "synth-1-613",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 613
+    },
+    {
+      "id": "synth-1-616",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 616
+    },
+    {
+      "id": "synth-1-623",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 623
+    },
+    {
+      "id": "synth-1-624",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 624
+    },
+    {
+      "id": "synth-1-634",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 634
+    },
+    {
+      "id": "synth-1-636",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 636
+    },
+    {
+      "id": "synth-1-641",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 641
+    },
+    {
+      "id": "synth-1-642",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 642
+    },
+    {
+      "id": "synth-1-646",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 646
+    },
+    {
+      "id": "synth-1-647",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 647
+    },
+    {
+      "id": "synth-1-648",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 648
+    },
+    {
+      "id": "synth-1-653",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 653
+    },
+    {
+      "id": "synth-1-656",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 656
+    },
+    {
+      "id": "synth-1-660",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 660
+    },
+    {
+      "id": "synth-1-661",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 661
+    },
+    {
+      "id": "synth-1-662",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 662
+    },
+    {
+      "id": "synth-1-663",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 663
+    },
+    {
+      "id": "synth-1-669",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 669
+    },
+    {
+      "id": "synth-1-675",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 675
+    },
+    {
+      "id": "synth-1-689",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 689
+    },
+    {
+      "id": "synth-1-691",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 691
+    },
+    {
+      "id": "synth-1-696",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 696
+    },
+    {
+      "id": "synth-1-700",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 700
+    },
+    {
+      "id": "synth-1-701",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 701
+    },
+    {
+      "id": "synth-1-703",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 703
+    },
+    {
+      "id": "synth-1-705",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 705
+    },
+    {
+      "id": "synth-1-707",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 707
+    },
+    {
+      "id": "synth-1-711",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 711
+    },
+    {
+      "id": "synth-1-713",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 713
+    },
+    {
+      "id": "synth-1-716",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 716
+    },
+    {
+      "id": "synth-1-718",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 718
+    },
+    {
+      "id": "synth-1-720",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 720
+    },
+    {
+      "id": "synth-1-721",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 721
+    },
+    {
+      "id": "synth-1-724",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 724
+    },
+    {
+      "id": "synth-1-726",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 726
+    },
+    {
+      "id": "synth-1-728",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 728
+    },
+    {
+      "id": "synth-1-729",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 729
+    },
+    {
+      "id": "synth-1-743",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 743
+    },
+    {
+      "id": "synth-1-750",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 750
+    },
+    {
+      "id": "synth-1-752",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 752
+    },
+    {
+      "id": "synth-1-754",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 754
+    },
+    {
+      "id": "synth-1-755",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 755
+    },
+    {
+      "id": "synth-1-756",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 756
+    },
+    {
+      "id": "synth-1-777",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 777
+    },
+    {
+      "id": "synth-1-780",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 780
+    },
+    {
+      "id": "synth-1-781",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 781
+    },
+    {
+      "id": "synth-1-783",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 783
+    },
+    {
+      "id": "synth-1-818",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 818
+    },
+    {
+      "id": "synth-1-819",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 819
+    },
+    {
+      "id": "synth-1-821",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 821
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "GENE_PRODUCT",
+    "page": null
+  }
+}

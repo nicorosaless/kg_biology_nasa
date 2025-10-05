@@ -1,0 +1,2908 @@
+{
+  "paper_id": "PMC3422896",
+  "section": "Synthetic GENE_PRODUCT",
+  "n_nodes": 138,
+  "n_edges": 137,
+  "nodes": [
+    {
+      "id": 5,
+      "label": "proteins",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 7,
+        "char_start": 1546,
+        "char_end": 1554,
+        "anchor": "PMC3422896_1546_1554",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 6,
+      "label": "karyotes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 7,
+        "char_start": 1580,
+        "char_end": 1588,
+        "anchor": "PMC3422896_1580_1588",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 11,
+      "label": "isoforms",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 8,
+        "char_start": 1962,
+        "char_end": 1970,
+        "anchor": "PMC3422896_1962_1970",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 13,
+      "label": "members",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 8,
+        "char_start": 2308,
+        "char_end": 2315,
+        "anchor": "PMC3422896_2308_2315",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 25,
+      "label": "hydrogen",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 12,
+        "char_start": 3399,
+        "char_end": 3407,
+        "anchor": "PMC3422896_3399_3407",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 26,
+      "label": "residues",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 12,
+        "char_start": 3446,
+        "char_end": 3454,
+        "anchor": "PMC3422896_3446_3454",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 27,
+      "label": "binding",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 12,
+        "char_start": 3474,
+        "char_end": 3481,
+        "anchor": "PMC3422896_3474_3481",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 29,
+      "label": "LDLE",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 13,
+        "char_start": 3713,
+        "char_end": 3717,
+        "anchor": "PMC3422896_3713_3717",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 30,
+      "label": "K49",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 13,
+        "char_start": 3573,
+        "char_end": 3576,
+        "anchor": "PMC3422896_3573_3576",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 31,
+      "label": "R56",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 13,
+        "char_start": 3578,
+        "char_end": 3581,
+        "anchor": "PMC3422896_3578_3581",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 32,
+      "label": "R127",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 13,
+        "char_start": 3587,
+        "char_end": 3591,
+        "anchor": "PMC3422896_3587_3591",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 34,
+      "label": "WLDLE",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 13,
+        "char_start": 3712,
+        "char_end": 3717,
+        "anchor": "PMC3422896_3712_3717",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 37,
+      "label": "Ferl",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 14,
+        "char_start": 4088,
+        "char_end": 4092,
+        "anchor": "PMC3422896_4088_4092",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 39,
+      "label": "Sehnke",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 15,
+        "char_start": 4547,
+        "char_end": 4553,
+        "anchor": "PMC3422896_4547_4553",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 43,
+      "label": "isoforms",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Primary Sequence Evolution",
+        "sentence_id": 18,
+        "char_start": 5048,
+        "char_end": 5056,
+        "anchor": "PMC3422896_5048_5056",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 45,
+      "label": "Arab",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Primary Sequence Evolution",
+        "sentence_id": 19,
+        "char_start": 5130,
+        "char_end": 5134,
+        "anchor": "PMC3422896_5130_5134",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 47,
+      "label": "protein",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Primary Sequence Evolution",
+        "sentence_id": 19,
+        "char_start": 5446,
+        "char_end": 5453,
+        "anchor": "PMC3422896_5446_5453",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 48,
+      "label": "Thirteen",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Primary Sequence Evolution",
+        "sentence_id": 19,
+        "char_start": 5087,
+        "char_end": 5095,
+        "anchor": "PMC3422896_5087_5095",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 49,
+      "label": "Ferl",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Primary Sequence Evolution",
+        "sentence_id": 19,
+        "char_start": 5208,
+        "char_end": 5212,
+        "anchor": "PMC3422896_5208_5212",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 50,
+      "label": "Moorhead",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Primary Sequence Evolution",
+        "sentence_id": 19,
+        "char_start": 5489,
+        "char_end": 5497,
+        "anchor": "PMC3422896_5489_5497",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 53,
+      "label": "thirteen",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Primary Sequence Evolution",
+        "sentence_id": 20,
+        "char_start": 5605,
+        "char_end": 5613,
+        "anchor": "PMC3422896_5605_5613",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 55,
+      "label": "Arab",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Primary Sequence Evolution",
+        "sentence_id": 20,
+        "char_start": 5635,
+        "char_end": 5639,
+        "anchor": "PMC3422896_5635_5639",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 56,
+      "label": "Sequence",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Primary Sequence Evolution",
+        "sentence_id": 20,
+        "char_start": 5579,
+        "char_end": 5587,
+        "anchor": "PMC3422896_5579_5587",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 57,
+      "label": "thirteen",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Primary Sequence Evolution",
+        "sentence_id": 20,
+        "char_start": 5605,
+        "char_end": 5613,
+        "anchor": "PMC3422896_5605_5613",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 60,
+      "label": "function",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Primary Sequence Evolution",
+        "sentence_id": 22,
+        "char_start": 6369,
+        "char_end": 6377,
+        "anchor": "PMC3422896_6369_6377",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 61,
+      "label": "complex",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Primary Sequence Evolution",
+        "sentence_id": 22,
+        "char_start": 6382,
+        "char_end": 6389,
+        "anchor": "PMC3422896_6382_6389",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 62,
+      "label": "Ferl",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Primary Sequence Evolution",
+        "sentence_id": 22,
+        "char_start": 6233,
+        "char_end": 6237,
+        "anchor": "PMC3422896_6233_6237",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 78,
+      "label": "proteins",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Primary Sequence Evolution",
+        "sentence_id": 24,
+        "char_start": 7265,
+        "char_end": 7273,
+        "anchor": "PMC3422896_7265_7273",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 80,
+      "label": "lineages",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Primary Sequence Evolution",
+        "sentence_id": 27,
+        "char_start": 7795,
+        "char_end": 7803,
+        "anchor": "PMC3422896_7795_7803",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 83,
+      "label": "Some",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 30,
+        "char_start": 8503,
+        "char_end": 8507,
+        "anchor": "PMC3422896_8503_8507",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 84,
+      "label": "S58",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 30,
+        "char_start": 8352,
+        "char_end": 8355,
+        "anchor": "PMC3422896_8352_8355",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 85,
+      "label": "S64",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 30,
+        "char_start": 8357,
+        "char_end": 8360,
+        "anchor": "PMC3422896_8357_8360",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 86,
+      "label": "S132",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 30,
+        "char_start": 8362,
+        "char_end": 8366,
+        "anchor": "PMC3422896_8362_8366",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 87,
+      "label": "Y179",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 30,
+        "char_start": 8384,
+        "char_end": 8388,
+        "anchor": "PMC3422896_8384_8388",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 91,
+      "label": "Sur",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 31,
+        "char_start": 8734,
+        "char_end": 8737,
+        "anchor": "PMC3422896_8734_8737",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 93,
+      "label": "ConSurf",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 31,
+        "char_start": 8731,
+        "char_end": 8738,
+        "anchor": "PMC3422896_8731_8738",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 94,
+      "label": "Residues",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 33,
+        "char_start": 8977,
+        "char_end": 8985,
+        "anchor": "PMC3422896_8977_8985",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 98,
+      "label": "S58",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 35,
+        "char_start": 9174,
+        "char_end": 9177,
+        "anchor": "PMC3422896_9174_9177",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 99,
+      "label": "S185",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 35,
+        "char_start": 9320,
+        "char_end": 9324,
+        "anchor": "PMC3422896_9320_9324",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 103,
+      "label": "protein",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 37,
+        "char_start": 9576,
+        "char_end": 9583,
+        "anchor": "PMC3422896_9576_9583",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 108,
+      "label": "oilseed",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 37,
+        "char_start": 9906,
+        "char_end": 9913,
+        "anchor": "PMC3422896_9906_9913",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 112,
+      "label": "Agrawal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 37,
+        "char_start": 9920,
+        "char_end": 9927,
+        "anchor": "PMC3422896_9920_9927",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 113,
+      "label": "Thelen",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 37,
+        "char_start": 9932,
+        "char_end": 9938,
+        "anchor": "PMC3422896_9932_9938",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 119,
+      "label": "Arab",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 39,
+        "char_start": 10472,
+        "char_end": 10476,
+        "anchor": "PMC3422896_10472_10476",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 120,
+      "label": "Tyrosine",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 40,
+        "char_start": 10493,
+        "char_end": 10501,
+        "anchor": "PMC3422896_10493_10501",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 121,
+      "label": "Maize",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 40,
+        "char_start": 10544,
+        "char_end": 10549,
+        "anchor": "PMC3422896_10544_10549",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 123,
+      "label": "Few",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 40,
+        "char_start": 10621,
+        "char_end": 10624,
+        "anchor": "PMC3422896_10621_10624",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 124,
+      "label": "Maize",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 40,
+        "char_start": 10544,
+        "char_end": 10549,
+        "anchor": "PMC3422896_10544_10549",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 125,
+      "label": "Olivari",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 40,
+        "char_start": 10575,
+        "char_end": 10582,
+        "anchor": "PMC3422896_10575_10582",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 132,
+      "label": "conform",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 42,
+        "char_start": 11206,
+        "char_end": 11213,
+        "anchor": "PMC3422896_11206_11213",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 134,
+      "label": "Dubois",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 42,
+        "char_start": 11247,
+        "char_end": 11253,
+        "anchor": "PMC3422896_11247_11253",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 135,
+      "label": "Kubala",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 42,
+        "char_start": 11268,
+        "char_end": 11274,
+        "anchor": "PMC3422896_11268_11274",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 138,
+      "label": "Brassica",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 43,
+        "char_start": 11452,
+        "char_end": 11460,
+        "anchor": "PMC3422896_11452_11460",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 141,
+      "label": "Brassica",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 43,
+        "char_start": 11452,
+        "char_end": 11460,
+        "anchor": "PMC3422896_11452_11460",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 142,
+      "label": "Agrawal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 43,
+        "char_start": 11462,
+        "char_end": 11469,
+        "anchor": "PMC3422896_11462_11469",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 143,
+      "label": "Thelen",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 43,
+        "char_start": 11474,
+        "char_end": 11480,
+        "anchor": "PMC3422896_11474_11480",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 147,
+      "label": "S58",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 44,
+        "char_start": 11786,
+        "char_end": 11789,
+        "anchor": "PMC3422896_11786_11789",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 148,
+      "label": "Powell",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 44,
+        "char_start": 11855,
+        "char_end": 11861,
+        "anchor": "PMC3422896_11855_11861",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 149,
+      "label": "S62",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 44,
+        "char_start": 12008,
+        "char_end": 12011,
+        "anchor": "PMC3422896_12008_12011",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 168,
+      "label": "Dime",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Dimerization",
+        "sentence_id": 49,
+        "char_start": 13101,
+        "char_end": 13105,
+        "anchor": "PMC3422896_13101_13105",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 170,
+      "label": "multiple",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Dimerization",
+        "sentence_id": 50,
+        "char_start": 13244,
+        "char_end": 13252,
+        "anchor": "PMC3422896_13244_13252",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 215,
+      "label": "Isoform",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mgs-----Gk Erdtfvylak Lseqaeryee Mvesmksvak ---Lnvd-Lt Veernllsvg Yknvigsrra Swrifssieq Keavkgndvn Vkrikeymek Velelsnici Dimsvldehl Ipsa-Seges Tvffnkmkgd Yyrylaefks Gnerkeaadq Slkayeiatt Aaeaklppth Pirlglalnf Svfyyeimna Perachlakq Afdeaiseld Tlneesykds Tlimqllrdn Ltlwtsdise Eg--Ddahkt -Ngs-----A Kpgaggddae --------Msssgs--Dk Eretfvymak Lseqaeryde Mvetmkkvar ---Vnse-Lt Veernllsvg Yknvigarra Swrimssieq Keeskgnesn Vkqikgyrqk Vedelanicq Diltiidqhl Ipha-Tsgea Tvfyykmkgd Yyrylaefkt Eqerkeaaeq Slkgyeaatq Aastelpsth Pirlglalnf Svfyyeimns Perachlakq Afdeaiaeld Tlseesykds Tlimqllrdn Ltlwtsdlpd -Gg-Ednikt -Eeskq-Eqa Kpa---Date N-------M-------En Erekliylak Lgcqagrydd Vmksmrkvce ---Ldie-Ls Eeerdllttg Yknvmeakrv Slrvissiek Medskgndqn Vklikgqqem Vkyeffnvcn Dilslidshl Ipstttnves Ivlfnrvkgd Yfrymaefgs Daerkenadn Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Lstwtsg--D -G--Ngn-Kt -Dg-------------------------M-------En Erakqvylak Lneqaeryde Mveamkkvaa ---Ldve-Lt Ieernllsvg Yknvigarra Swrilssieq Keeskgneqn Akrikdyrtk Veeelskicy Dilavidkhl Vpfa-Tsges Tvfyykmkgd Yfrylaefks Gadreeaadl Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Ltlwtsdlpe -Gg-----K-----------------------------M-------En Erekqvylak Lseqteryde Mveamkkvaq ---Ldve-Lt Veernlvsvg Yknvigarra Swrilssieq Keeskgnden Vkrlknyrkr Vedelakvcn Dilsvidkhl Ipss-Naves Tvffykmkgd Yyrylaefss Gaerkeaadq Slkayeaats Sastelstth Pirlglalnf Svfyyeilns Perachlakr Afdeaiaeld Slnedsykds Tlimqllrdn Ltlwtsdl-E Eg--Dertkg Ade------P Qd----En----------Mat-----Tl Srdqyvymak Laeqaeryee Mvqfmeqlvs Gatpage-Lt Veernllsva Yknvigslra Awrivssieq Keesrkneeh Vslvkdyrsk Vetelssics Gilrlldshl Ipsa-Tases Kvfylkmkgd Yhrylaefks Gderktaaed Sleaykaava Aaenglapth Pvrlglalnf Svfyyeilns Pesacqlakq Afddaiaeld Slneesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Maa-----Tl Grdqyvymak Laeqaeryee Mvqfmeqlvt Gatpaee-Lt Veernllsva Yknvigslra Awrivssieq Keesrkndeh Vslvkdyrsk Veselssvcs Gilklldshl Ipsa-Gases Kvfylkmkgd Yhrymaefks Gderktaaed Tmiaykaaqd Vavadlapth Pirlglalnf Svfyyeilns Sekacsmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Mat-Pg-Ass Ardefvymak Laeqaeryee Mvefmekvak --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vslirdyrsk Ietelsdicd Gilklldtil Vpaa-Asgds Kvfylkmkgd Yhrylaefks Gqerkdaaeh Tmlaykaaqd Iaaadmapth Pirlglalnf Svfyyeilns Sdkacnmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Dva-Dd-Ik--Eaa--Paaa Kpa---D--E Qqs-----Maa-Ppasss Areefvylak Laeqaeryee Mvefmekvae --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vttirdyrsk Ieselskicd Gilklldtrl Vpas-Angds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tltaykaaqd Ianselapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Esp-Ee-Ik--Eaaa----P Kpa---E--E Qkei----Mas-------Greefvymak Laeqaeryee Mvefmekvsa --Avdgdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vtaireyrsk Ietelsgicd Gilklldsrl Ipaa-Asgds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tlaayksaqd Ianaelapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Daa-De-Ik--Eaaa----P Kpt---E--E Qq------M--------S Treenvymak Laeqaeryee Mvefmekvak --Tvdveels Veernllsva Yknvigarra Swriissieq Keeskgnedh Vaiikdyrgk Ieselskicd Gilnvleahl Ipsa-Spaes Kvfylkmkgd Yhrylaefka Gaerkeaaes Tlvayksasd Iataelapth Pirlglalnf Svfyyeilns Pdracslakq Afddaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmtd Eag-De-Ik--Ea------S Kp----Dgae --------Ms-----Sds Sreenvylak Laeqaeryee Mvefmekvak --Tveteelt Veernllsva Yknvigarra Swriissieq Kedsrgnsdh Vsiikdyrgk Ietelskicd Gilnlleahl Ipaa-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Sdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwtsdlnd Eag-Dd-Ik--Eapk--Evq Kv----D--E Qaqpppsq Ms-------S Sreenvylak Laeqaeryee Mvefmekvak --Tvdtdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vsiikdyrgk Ietelskicd Gilnlldshl Vpta-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Pdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwnsdind Eaggde-Ik--Ea------S Kh----Epee",
+        "sentence_id": 56,
+        "char_start": 14693,
+        "char_end": 14700,
+        "anchor": "PMC3422896_14693_14700",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 230,
+      "label": "Rei",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mgs-----Gk Erdtfvylak Lseqaeryee Mvesmksvak ---Lnvd-Lt Veernllsvg Yknvigsrra Swrifssieq Keavkgndvn Vkrikeymek Velelsnici Dimsvldehl Ipsa-Seges Tvffnkmkgd Yyrylaefks Gnerkeaadq Slkayeiatt Aaeaklppth Pirlglalnf Svfyyeimna Perachlakq Afdeaiseld Tlneesykds Tlimqllrdn Ltlwtsdise Eg--Ddahkt -Ngs-----A Kpgaggddae --------Msssgs--Dk Eretfvymak Lseqaeryde Mvetmkkvar ---Vnse-Lt Veernllsvg Yknvigarra Swrimssieq Keeskgnesn Vkqikgyrqk Vedelanicq Diltiidqhl Ipha-Tsgea Tvfyykmkgd Yyrylaefkt Eqerkeaaeq Slkgyeaatq Aastelpsth Pirlglalnf Svfyyeimns Perachlakq Afdeaiaeld Tlseesykds Tlimqllrdn Ltlwtsdlpd -Gg-Ednikt -Eeskq-Eqa Kpa---Date N-------M-------En Erekliylak Lgcqagrydd Vmksmrkvce ---Ldie-Ls Eeerdllttg Yknvmeakrv Slrvissiek Medskgndqn Vklikgqqem Vkyeffnvcn Dilslidshl Ipstttnves Ivlfnrvkgd Yfrymaefgs Daerkenadn Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Lstwtsg--D -G--Ngn-Kt -Dg-------------------------M-------En Erakqvylak Lneqaeryde Mveamkkvaa ---Ldve-Lt Ieernllsvg Yknvigarra Swrilssieq Keeskgneqn Akrikdyrtk Veeelskicy Dilavidkhl Vpfa-Tsges Tvfyykmkgd Yfrylaefks Gadreeaadl Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Ltlwtsdlpe -Gg-----K-----------------------------M-------En Erekqvylak Lseqteryde Mveamkkvaq ---Ldve-Lt Veernlvsvg Yknvigarra Swrilssieq Keeskgnden Vkrlknyrkr Vedelakvcn Dilsvidkhl Ipss-Naves Tvffykmkgd Yyrylaefss Gaerkeaadq Slkayeaats Sastelstth Pirlglalnf Svfyyeilns Perachlakr Afdeaiaeld Slnedsykds Tlimqllrdn Ltlwtsdl-E Eg--Dertkg Ade------P Qd----En----------Mat-----Tl Srdqyvymak Laeqaeryee Mvqfmeqlvs Gatpage-Lt Veernllsva Yknvigslra Awrivssieq Keesrkneeh Vslvkdyrsk Vetelssics Gilrlldshl Ipsa-Tases Kvfylkmkgd Yhrylaefks Gderktaaed Sleaykaava Aaenglapth Pvrlglalnf Svfyyeilns Pesacqlakq Afddaiaeld Slneesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Maa-----Tl Grdqyvymak Laeqaeryee Mvqfmeqlvt Gatpaee-Lt Veernllsva Yknvigslra Awrivssieq Keesrkndeh Vslvkdyrsk Veselssvcs Gilklldshl Ipsa-Gases Kvfylkmkgd Yhrymaefks Gderktaaed Tmiaykaaqd Vavadlapth Pirlglalnf Svfyyeilns Sekacsmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Mat-Pg-Ass Ardefvymak Laeqaeryee Mvefmekvak --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vslirdyrsk Ietelsdicd Gilklldtil Vpaa-Asgds Kvfylkmkgd Yhrylaefks Gqerkdaaeh Tmlaykaaqd Iaaadmapth Pirlglalnf Svfyyeilns Sdkacnmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Dva-Dd-Ik--Eaa--Paaa Kpa---D--E Qqs-----Maa-Ppasss Areefvylak Laeqaeryee Mvefmekvae --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vttirdyrsk Ieselskicd Gilklldtrl Vpas-Angds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tltaykaaqd Ianselapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Esp-Ee-Ik--Eaaa----P Kpa---E--E Qkei----Mas-------Greefvymak Laeqaeryee Mvefmekvsa --Avdgdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vtaireyrsk Ietelsgicd Gilklldsrl Ipaa-Asgds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tlaayksaqd Ianaelapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Daa-De-Ik--Eaaa----P Kpt---E--E Qq------M--------S Treenvymak Laeqaeryee Mvefmekvak --Tvdveels Veernllsva Yknvigarra Swriissieq Keeskgnedh Vaiikdyrgk Ieselskicd Gilnvleahl Ipsa-Spaes Kvfylkmkgd Yhrylaefka Gaerkeaaes Tlvayksasd Iataelapth Pirlglalnf Svfyyeilns Pdracslakq Afddaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmtd Eag-De-Ik--Ea------S Kp----Dgae --------Ms-----Sds Sreenvylak Laeqaeryee Mvefmekvak --Tveteelt Veernllsva Yknvigarra Swriissieq Kedsrgnsdh Vsiikdyrgk Ietelskicd Gilnlleahl Ipaa-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Sdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwtsdlnd Eag-Dd-Ik--Eapk--Evq Kv----D--E Qaqpppsq Ms-------S Sreenvylak Laeqaeryee Mvefmekvak --Tvdtdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vsiikdyrgk Ietelskicd Gilnlldshl Vpta-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Pdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwnsdind Eaggde-Ik--Ea------S Kh----Epee",
+        "sentence_id": 59,
+        "char_start": 15041,
+        "char_end": 15044,
+        "anchor": "PMC3422896_15041_15044",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 232,
+      "label": "homodim",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mgs-----Gk Erdtfvylak Lseqaeryee Mvesmksvak ---Lnvd-Lt Veernllsvg Yknvigsrra Swrifssieq Keavkgndvn Vkrikeymek Velelsnici Dimsvldehl Ipsa-Seges Tvffnkmkgd Yyrylaefks Gnerkeaadq Slkayeiatt Aaeaklppth Pirlglalnf Svfyyeimna Perachlakq Afdeaiseld Tlneesykds Tlimqllrdn Ltlwtsdise Eg--Ddahkt -Ngs-----A Kpgaggddae --------Msssgs--Dk Eretfvymak Lseqaeryde Mvetmkkvar ---Vnse-Lt Veernllsvg Yknvigarra Swrimssieq Keeskgnesn Vkqikgyrqk Vedelanicq Diltiidqhl Ipha-Tsgea Tvfyykmkgd Yyrylaefkt Eqerkeaaeq Slkgyeaatq Aastelpsth Pirlglalnf Svfyyeimns Perachlakq Afdeaiaeld Tlseesykds Tlimqllrdn Ltlwtsdlpd -Gg-Ednikt -Eeskq-Eqa Kpa---Date N-------M-------En Erekliylak Lgcqagrydd Vmksmrkvce ---Ldie-Ls Eeerdllttg Yknvmeakrv Slrvissiek Medskgndqn Vklikgqqem Vkyeffnvcn Dilslidshl Ipstttnves Ivlfnrvkgd Yfrymaefgs Daerkenadn Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Lstwtsg--D -G--Ngn-Kt -Dg-------------------------M-------En Erakqvylak Lneqaeryde Mveamkkvaa ---Ldve-Lt Ieernllsvg Yknvigarra Swrilssieq Keeskgneqn Akrikdyrtk Veeelskicy Dilavidkhl Vpfa-Tsges Tvfyykmkgd Yfrylaefks Gadreeaadl Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Ltlwtsdlpe -Gg-----K-----------------------------M-------En Erekqvylak Lseqteryde Mveamkkvaq ---Ldve-Lt Veernlvsvg Yknvigarra Swrilssieq Keeskgnden Vkrlknyrkr Vedelakvcn Dilsvidkhl Ipss-Naves Tvffykmkgd Yyrylaefss Gaerkeaadq Slkayeaats Sastelstth Pirlglalnf Svfyyeilns Perachlakr Afdeaiaeld Slnedsykds Tlimqllrdn Ltlwtsdl-E Eg--Dertkg Ade------P Qd----En----------Mat-----Tl Srdqyvymak Laeqaeryee Mvqfmeqlvs Gatpage-Lt Veernllsva Yknvigslra Awrivssieq Keesrkneeh Vslvkdyrsk Vetelssics Gilrlldshl Ipsa-Tases Kvfylkmkgd Yhrylaefks Gderktaaed Sleaykaava Aaenglapth Pvrlglalnf Svfyyeilns Pesacqlakq Afddaiaeld Slneesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Maa-----Tl Grdqyvymak Laeqaeryee Mvqfmeqlvt Gatpaee-Lt Veernllsva Yknvigslra Awrivssieq Keesrkndeh Vslvkdyrsk Veselssvcs Gilklldshl Ipsa-Gases Kvfylkmkgd Yhrymaefks Gderktaaed Tmiaykaaqd Vavadlapth Pirlglalnf Svfyyeilns Sekacsmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Mat-Pg-Ass Ardefvymak Laeqaeryee Mvefmekvak --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vslirdyrsk Ietelsdicd Gilklldtil Vpaa-Asgds Kvfylkmkgd Yhrylaefks Gqerkdaaeh Tmlaykaaqd Iaaadmapth Pirlglalnf Svfyyeilns Sdkacnmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Dva-Dd-Ik--Eaa--Paaa Kpa---D--E Qqs-----Maa-Ppasss Areefvylak Laeqaeryee Mvefmekvae --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vttirdyrsk Ieselskicd Gilklldtrl Vpas-Angds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tltaykaaqd Ianselapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Esp-Ee-Ik--Eaaa----P Kpa---E--E Qkei----Mas-------Greefvymak Laeqaeryee Mvefmekvsa --Avdgdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vtaireyrsk Ietelsgicd Gilklldsrl Ipaa-Asgds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tlaayksaqd Ianaelapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Daa-De-Ik--Eaaa----P Kpt---E--E Qq------M--------S Treenvymak Laeqaeryee Mvefmekvak --Tvdveels Veernllsva Yknvigarra Swriissieq Keeskgnedh Vaiikdyrgk Ieselskicd Gilnvleahl Ipsa-Spaes Kvfylkmkgd Yhrylaefka Gaerkeaaes Tlvayksasd Iataelapth Pirlglalnf Svfyyeilns Pdracslakq Afddaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmtd Eag-De-Ik--Ea------S Kp----Dgae --------Ms-----Sds Sreenvylak Laeqaeryee Mvefmekvak --Tveteelt Veernllsva Yknvigarra Swriissieq Kedsrgnsdh Vsiikdyrgk Ietelskicd Gilnlleahl Ipaa-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Sdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwtsdlnd Eag-Dd-Ik--Eapk--Evq Kv----D--E Qaqpppsq Ms-------S Sreenvylak Laeqaeryee Mvefmekvak --Tvdtdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vsiikdyrgk Ietelskicd Gilnlldshl Vpta-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Pdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwnsdind Eaggde-Ik--Ea------S Kh----Epee",
+        "sentence_id": 61,
+        "char_start": 15416,
+        "char_end": 15423,
+        "anchor": "PMC3422896_15416_15423",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 233,
+      "label": "studies",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mgs-----Gk Erdtfvylak Lseqaeryee Mvesmksvak ---Lnvd-Lt Veernllsvg Yknvigsrra Swrifssieq Keavkgndvn Vkrikeymek Velelsnici Dimsvldehl Ipsa-Seges Tvffnkmkgd Yyrylaefks Gnerkeaadq Slkayeiatt Aaeaklppth Pirlglalnf Svfyyeimna Perachlakq Afdeaiseld Tlneesykds Tlimqllrdn Ltlwtsdise Eg--Ddahkt -Ngs-----A Kpgaggddae --------Msssgs--Dk Eretfvymak Lseqaeryde Mvetmkkvar ---Vnse-Lt Veernllsvg Yknvigarra Swrimssieq Keeskgnesn Vkqikgyrqk Vedelanicq Diltiidqhl Ipha-Tsgea Tvfyykmkgd Yyrylaefkt Eqerkeaaeq Slkgyeaatq Aastelpsth Pirlglalnf Svfyyeimns Perachlakq Afdeaiaeld Tlseesykds Tlimqllrdn Ltlwtsdlpd -Gg-Ednikt -Eeskq-Eqa Kpa---Date N-------M-------En Erekliylak Lgcqagrydd Vmksmrkvce ---Ldie-Ls Eeerdllttg Yknvmeakrv Slrvissiek Medskgndqn Vklikgqqem Vkyeffnvcn Dilslidshl Ipstttnves Ivlfnrvkgd Yfrymaefgs Daerkenadn Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Lstwtsg--D -G--Ngn-Kt -Dg-------------------------M-------En Erakqvylak Lneqaeryde Mveamkkvaa ---Ldve-Lt Ieernllsvg Yknvigarra Swrilssieq Keeskgneqn Akrikdyrtk Veeelskicy Dilavidkhl Vpfa-Tsges Tvfyykmkgd Yfrylaefks Gadreeaadl Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Ltlwtsdlpe -Gg-----K-----------------------------M-------En Erekqvylak Lseqteryde Mveamkkvaq ---Ldve-Lt Veernlvsvg Yknvigarra Swrilssieq Keeskgnden Vkrlknyrkr Vedelakvcn Dilsvidkhl Ipss-Naves Tvffykmkgd Yyrylaefss Gaerkeaadq Slkayeaats Sastelstth Pirlglalnf Svfyyeilns Perachlakr Afdeaiaeld Slnedsykds Tlimqllrdn Ltlwtsdl-E Eg--Dertkg Ade------P Qd----En----------Mat-----Tl Srdqyvymak Laeqaeryee Mvqfmeqlvs Gatpage-Lt Veernllsva Yknvigslra Awrivssieq Keesrkneeh Vslvkdyrsk Vetelssics Gilrlldshl Ipsa-Tases Kvfylkmkgd Yhrylaefks Gderktaaed Sleaykaava Aaenglapth Pvrlglalnf Svfyyeilns Pesacqlakq Afddaiaeld Slneesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Maa-----Tl Grdqyvymak Laeqaeryee Mvqfmeqlvt Gatpaee-Lt Veernllsva Yknvigslra Awrivssieq Keesrkndeh Vslvkdyrsk Veselssvcs Gilklldshl Ipsa-Gases Kvfylkmkgd Yhrymaefks Gderktaaed Tmiaykaaqd Vavadlapth Pirlglalnf Svfyyeilns Sekacsmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Mat-Pg-Ass Ardefvymak Laeqaeryee Mvefmekvak --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vslirdyrsk Ietelsdicd Gilklldtil Vpaa-Asgds Kvfylkmkgd Yhrylaefks Gqerkdaaeh Tmlaykaaqd Iaaadmapth Pirlglalnf Svfyyeilns Sdkacnmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Dva-Dd-Ik--Eaa--Paaa Kpa---D--E Qqs-----Maa-Ppasss Areefvylak Laeqaeryee Mvefmekvae --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vttirdyrsk Ieselskicd Gilklldtrl Vpas-Angds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tltaykaaqd Ianselapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Esp-Ee-Ik--Eaaa----P Kpa---E--E Qkei----Mas-------Greefvymak Laeqaeryee Mvefmekvsa --Avdgdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vtaireyrsk Ietelsgicd Gilklldsrl Ipaa-Asgds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tlaayksaqd Ianaelapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Daa-De-Ik--Eaaa----P Kpt---E--E Qq------M--------S Treenvymak Laeqaeryee Mvefmekvak --Tvdveels Veernllsva Yknvigarra Swriissieq Keeskgnedh Vaiikdyrgk Ieselskicd Gilnvleahl Ipsa-Spaes Kvfylkmkgd Yhrylaefka Gaerkeaaes Tlvayksasd Iataelapth Pirlglalnf Svfyyeilns Pdracslakq Afddaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmtd Eag-De-Ik--Ea------S Kp----Dgae --------Ms-----Sds Sreenvylak Laeqaeryee Mvefmekvak --Tveteelt Veernllsva Yknvigarra Swriissieq Kedsrgnsdh Vsiikdyrgk Ietelskicd Gilnlleahl Ipaa-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Sdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwtsdlnd Eag-Dd-Ik--Eapk--Evq Kv----D--E Qaqpppsq Ms-------S Sreenvylak Laeqaeryee Mvefmekvak --Tvdtdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vsiikdyrgk Ietelskicd Gilnlldshl Vpta-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Pdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwnsdind Eaggde-Ik--Ea------S Kh----Epee",
+        "sentence_id": 61,
+        "char_start": 15512,
+        "char_end": 15519,
+        "anchor": "PMC3422896_15512_15519",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 234,
+      "label": "homodim",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mgs-----Gk Erdtfvylak Lseqaeryee Mvesmksvak ---Lnvd-Lt Veernllsvg Yknvigsrra Swrifssieq Keavkgndvn Vkrikeymek Velelsnici Dimsvldehl Ipsa-Seges Tvffnkmkgd Yyrylaefks Gnerkeaadq Slkayeiatt Aaeaklppth Pirlglalnf Svfyyeimna Perachlakq Afdeaiseld Tlneesykds Tlimqllrdn Ltlwtsdise Eg--Ddahkt -Ngs-----A Kpgaggddae --------Msssgs--Dk Eretfvymak Lseqaeryde Mvetmkkvar ---Vnse-Lt Veernllsvg Yknvigarra Swrimssieq Keeskgnesn Vkqikgyrqk Vedelanicq Diltiidqhl Ipha-Tsgea Tvfyykmkgd Yyrylaefkt Eqerkeaaeq Slkgyeaatq Aastelpsth Pirlglalnf Svfyyeimns Perachlakq Afdeaiaeld Tlseesykds Tlimqllrdn Ltlwtsdlpd -Gg-Ednikt -Eeskq-Eqa Kpa---Date N-------M-------En Erekliylak Lgcqagrydd Vmksmrkvce ---Ldie-Ls Eeerdllttg Yknvmeakrv Slrvissiek Medskgndqn Vklikgqqem Vkyeffnvcn Dilslidshl Ipstttnves Ivlfnrvkgd Yfrymaefgs Daerkenadn Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Lstwtsg--D -G--Ngn-Kt -Dg-------------------------M-------En Erakqvylak Lneqaeryde Mveamkkvaa ---Ldve-Lt Ieernllsvg Yknvigarra Swrilssieq Keeskgneqn Akrikdyrtk Veeelskicy Dilavidkhl Vpfa-Tsges Tvfyykmkgd Yfrylaefks Gadreeaadl Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Ltlwtsdlpe -Gg-----K-----------------------------M-------En Erekqvylak Lseqteryde Mveamkkvaq ---Ldve-Lt Veernlvsvg Yknvigarra Swrilssieq Keeskgnden Vkrlknyrkr Vedelakvcn Dilsvidkhl Ipss-Naves Tvffykmkgd Yyrylaefss Gaerkeaadq Slkayeaats Sastelstth Pirlglalnf Svfyyeilns Perachlakr Afdeaiaeld Slnedsykds Tlimqllrdn Ltlwtsdl-E Eg--Dertkg Ade------P Qd----En----------Mat-----Tl Srdqyvymak Laeqaeryee Mvqfmeqlvs Gatpage-Lt Veernllsva Yknvigslra Awrivssieq Keesrkneeh Vslvkdyrsk Vetelssics Gilrlldshl Ipsa-Tases Kvfylkmkgd Yhrylaefks Gderktaaed Sleaykaava Aaenglapth Pvrlglalnf Svfyyeilns Pesacqlakq Afddaiaeld Slneesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Maa-----Tl Grdqyvymak Laeqaeryee Mvqfmeqlvt Gatpaee-Lt Veernllsva Yknvigslra Awrivssieq Keesrkndeh Vslvkdyrsk Veselssvcs Gilklldshl Ipsa-Gases Kvfylkmkgd Yhrymaefks Gderktaaed Tmiaykaaqd Vavadlapth Pirlglalnf Svfyyeilns Sekacsmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Mat-Pg-Ass Ardefvymak Laeqaeryee Mvefmekvak --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vslirdyrsk Ietelsdicd Gilklldtil Vpaa-Asgds Kvfylkmkgd Yhrylaefks Gqerkdaaeh Tmlaykaaqd Iaaadmapth Pirlglalnf Svfyyeilns Sdkacnmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Dva-Dd-Ik--Eaa--Paaa Kpa---D--E Qqs-----Maa-Ppasss Areefvylak Laeqaeryee Mvefmekvae --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vttirdyrsk Ieselskicd Gilklldtrl Vpas-Angds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tltaykaaqd Ianselapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Esp-Ee-Ik--Eaaa----P Kpa---E--E Qkei----Mas-------Greefvymak Laeqaeryee Mvefmekvsa --Avdgdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vtaireyrsk Ietelsgicd Gilklldsrl Ipaa-Asgds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tlaayksaqd Ianaelapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Daa-De-Ik--Eaaa----P Kpt---E--E Qq------M--------S Treenvymak Laeqaeryee Mvefmekvak --Tvdveels Veernllsva Yknvigarra Swriissieq Keeskgnedh Vaiikdyrgk Ieselskicd Gilnvleahl Ipsa-Spaes Kvfylkmkgd Yhrylaefka Gaerkeaaes Tlvayksasd Iataelapth Pirlglalnf Svfyyeilns Pdracslakq Afddaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmtd Eag-De-Ik--Ea------S Kp----Dgae --------Ms-----Sds Sreenvylak Laeqaeryee Mvefmekvak --Tveteelt Veernllsva Yknvigarra Swriissieq Kedsrgnsdh Vsiikdyrgk Ietelskicd Gilnlleahl Ipaa-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Sdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwtsdlnd Eag-Dd-Ik--Eapk--Evq Kv----D--E Qaqpppsq Ms-------S Sreenvylak Laeqaeryee Mvefmekvak --Tvdtdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vsiikdyrgk Ietelskicd Gilnlldshl Vpta-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Pdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwnsdind Eaggde-Ik--Ea------S Kh----Epee",
+        "sentence_id": 62,
+        "char_start": 15771,
+        "char_end": 15778,
+        "anchor": "PMC3422896_15771_15778",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 236,
+      "label": "DNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mgs-----Gk Erdtfvylak Lseqaeryee Mvesmksvak ---Lnvd-Lt Veernllsvg Yknvigsrra Swrifssieq Keavkgndvn Vkrikeymek Velelsnici Dimsvldehl Ipsa-Seges Tvffnkmkgd Yyrylaefks Gnerkeaadq Slkayeiatt Aaeaklppth Pirlglalnf Svfyyeimna Perachlakq Afdeaiseld Tlneesykds Tlimqllrdn Ltlwtsdise Eg--Ddahkt -Ngs-----A Kpgaggddae --------Msssgs--Dk Eretfvymak Lseqaeryde Mvetmkkvar ---Vnse-Lt Veernllsvg Yknvigarra Swrimssieq Keeskgnesn Vkqikgyrqk Vedelanicq Diltiidqhl Ipha-Tsgea Tvfyykmkgd Yyrylaefkt Eqerkeaaeq Slkgyeaatq Aastelpsth Pirlglalnf Svfyyeimns Perachlakq Afdeaiaeld Tlseesykds Tlimqllrdn Ltlwtsdlpd -Gg-Ednikt -Eeskq-Eqa Kpa---Date N-------M-------En Erekliylak Lgcqagrydd Vmksmrkvce ---Ldie-Ls Eeerdllttg Yknvmeakrv Slrvissiek Medskgndqn Vklikgqqem Vkyeffnvcn Dilslidshl Ipstttnves Ivlfnrvkgd Yfrymaefgs Daerkenadn Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Lstwtsg--D -G--Ngn-Kt -Dg-------------------------M-------En Erakqvylak Lneqaeryde Mveamkkvaa ---Ldve-Lt Ieernllsvg Yknvigarra Swrilssieq Keeskgneqn Akrikdyrtk Veeelskicy Dilavidkhl Vpfa-Tsges Tvfyykmkgd Yfrylaefks Gadreeaadl Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Ltlwtsdlpe -Gg-----K-----------------------------M-------En Erekqvylak Lseqteryde Mveamkkvaq ---Ldve-Lt Veernlvsvg Yknvigarra Swrilssieq Keeskgnden Vkrlknyrkr Vedelakvcn Dilsvidkhl Ipss-Naves Tvffykmkgd Yyrylaefss Gaerkeaadq Slkayeaats Sastelstth Pirlglalnf Svfyyeilns Perachlakr Afdeaiaeld Slnedsykds Tlimqllrdn Ltlwtsdl-E Eg--Dertkg Ade------P Qd----En----------Mat-----Tl Srdqyvymak Laeqaeryee Mvqfmeqlvs Gatpage-Lt Veernllsva Yknvigslra Awrivssieq Keesrkneeh Vslvkdyrsk Vetelssics Gilrlldshl Ipsa-Tases Kvfylkmkgd Yhrylaefks Gderktaaed Sleaykaava Aaenglapth Pvrlglalnf Svfyyeilns Pesacqlakq Afddaiaeld Slneesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Maa-----Tl Grdqyvymak Laeqaeryee Mvqfmeqlvt Gatpaee-Lt Veernllsva Yknvigslra Awrivssieq Keesrkndeh Vslvkdyrsk Veselssvcs Gilklldshl Ipsa-Gases Kvfylkmkgd Yhrymaefks Gderktaaed Tmiaykaaqd Vavadlapth Pirlglalnf Svfyyeilns Sekacsmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Mat-Pg-Ass Ardefvymak Laeqaeryee Mvefmekvak --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vslirdyrsk Ietelsdicd Gilklldtil Vpaa-Asgds Kvfylkmkgd Yhrylaefks Gqerkdaaeh Tmlaykaaqd Iaaadmapth Pirlglalnf Svfyyeilns Sdkacnmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Dva-Dd-Ik--Eaa--Paaa Kpa---D--E Qqs-----Maa-Ppasss Areefvylak Laeqaeryee Mvefmekvae --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vttirdyrsk Ieselskicd Gilklldtrl Vpas-Angds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tltaykaaqd Ianselapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Esp-Ee-Ik--Eaaa----P Kpa---E--E Qkei----Mas-------Greefvymak Laeqaeryee Mvefmekvsa --Avdgdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vtaireyrsk Ietelsgicd Gilklldsrl Ipaa-Asgds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tlaayksaqd Ianaelapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Daa-De-Ik--Eaaa----P Kpt---E--E Qq------M--------S Treenvymak Laeqaeryee Mvefmekvak --Tvdveels Veernllsva Yknvigarra Swriissieq Keeskgnedh Vaiikdyrgk Ieselskicd Gilnvleahl Ipsa-Spaes Kvfylkmkgd Yhrylaefka Gaerkeaaes Tlvayksasd Iataelapth Pirlglalnf Svfyyeilns Pdracslakq Afddaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmtd Eag-De-Ik--Ea------S Kp----Dgae --------Ms-----Sds Sreenvylak Laeqaeryee Mvefmekvak --Tveteelt Veernllsva Yknvigarra Swriissieq Kedsrgnsdh Vsiikdyrgk Ietelskicd Gilnlleahl Ipaa-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Sdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwtsdlnd Eag-Dd-Ik--Eapk--Evq Kv----D--E Qaqpppsq Ms-------S Sreenvylak Laeqaeryee Mvefmekvak --Tvdtdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vsiikdyrgk Ietelskicd Gilnlldshl Vpta-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Pdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwnsdind Eaggde-Ik--Ea------S Kh----Epee",
+        "sentence_id": 62,
+        "char_start": 16002,
+        "char_end": 16005,
+        "anchor": "PMC3422896_16002_16005",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 238,
+      "label": "Yang",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mgs-----Gk Erdtfvylak Lseqaeryee Mvesmksvak ---Lnvd-Lt Veernllsvg Yknvigsrra Swrifssieq Keavkgndvn Vkrikeymek Velelsnici Dimsvldehl Ipsa-Seges Tvffnkmkgd Yyrylaefks Gnerkeaadq Slkayeiatt Aaeaklppth Pirlglalnf Svfyyeimna Perachlakq Afdeaiseld Tlneesykds Tlimqllrdn Ltlwtsdise Eg--Ddahkt -Ngs-----A Kpgaggddae --------Msssgs--Dk Eretfvymak Lseqaeryde Mvetmkkvar ---Vnse-Lt Veernllsvg Yknvigarra Swrimssieq Keeskgnesn Vkqikgyrqk Vedelanicq Diltiidqhl Ipha-Tsgea Tvfyykmkgd Yyrylaefkt Eqerkeaaeq Slkgyeaatq Aastelpsth Pirlglalnf Svfyyeimns Perachlakq Afdeaiaeld Tlseesykds Tlimqllrdn Ltlwtsdlpd -Gg-Ednikt -Eeskq-Eqa Kpa---Date N-------M-------En Erekliylak Lgcqagrydd Vmksmrkvce ---Ldie-Ls Eeerdllttg Yknvmeakrv Slrvissiek Medskgndqn Vklikgqqem Vkyeffnvcn Dilslidshl Ipstttnves Ivlfnrvkgd Yfrymaefgs Daerkenadn Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Lstwtsg--D -G--Ngn-Kt -Dg-------------------------M-------En Erakqvylak Lneqaeryde Mveamkkvaa ---Ldve-Lt Ieernllsvg Yknvigarra Swrilssieq Keeskgneqn Akrikdyrtk Veeelskicy Dilavidkhl Vpfa-Tsges Tvfyykmkgd Yfrylaefks Gadreeaadl Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Ltlwtsdlpe -Gg-----K-----------------------------M-------En Erekqvylak Lseqteryde Mveamkkvaq ---Ldve-Lt Veernlvsvg Yknvigarra Swrilssieq Keeskgnden Vkrlknyrkr Vedelakvcn Dilsvidkhl Ipss-Naves Tvffykmkgd Yyrylaefss Gaerkeaadq Slkayeaats Sastelstth Pirlglalnf Svfyyeilns Perachlakr Afdeaiaeld Slnedsykds Tlimqllrdn Ltlwtsdl-E Eg--Dertkg Ade------P Qd----En----------Mat-----Tl Srdqyvymak Laeqaeryee Mvqfmeqlvs Gatpage-Lt Veernllsva Yknvigslra Awrivssieq Keesrkneeh Vslvkdyrsk Vetelssics Gilrlldshl Ipsa-Tases Kvfylkmkgd Yhrylaefks Gderktaaed Sleaykaava Aaenglapth Pvrlglalnf Svfyyeilns Pesacqlakq Afddaiaeld Slneesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Maa-----Tl Grdqyvymak Laeqaeryee Mvqfmeqlvt Gatpaee-Lt Veernllsva Yknvigslra Awrivssieq Keesrkndeh Vslvkdyrsk Veselssvcs Gilklldshl Ipsa-Gases Kvfylkmkgd Yhrymaefks Gderktaaed Tmiaykaaqd Vavadlapth Pirlglalnf Svfyyeilns Sekacsmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Mat-Pg-Ass Ardefvymak Laeqaeryee Mvefmekvak --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vslirdyrsk Ietelsdicd Gilklldtil Vpaa-Asgds Kvfylkmkgd Yhrylaefks Gqerkdaaeh Tmlaykaaqd Iaaadmapth Pirlglalnf Svfyyeilns Sdkacnmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Dva-Dd-Ik--Eaa--Paaa Kpa---D--E Qqs-----Maa-Ppasss Areefvylak Laeqaeryee Mvefmekvae --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vttirdyrsk Ieselskicd Gilklldtrl Vpas-Angds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tltaykaaqd Ianselapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Esp-Ee-Ik--Eaaa----P Kpa---E--E Qkei----Mas-------Greefvymak Laeqaeryee Mvefmekvsa --Avdgdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vtaireyrsk Ietelsgicd Gilklldsrl Ipaa-Asgds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tlaayksaqd Ianaelapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Daa-De-Ik--Eaaa----P Kpt---E--E Qq------M--------S Treenvymak Laeqaeryee Mvefmekvak --Tvdveels Veernllsva Yknvigarra Swriissieq Keeskgnedh Vaiikdyrgk Ieselskicd Gilnvleahl Ipsa-Spaes Kvfylkmkgd Yhrylaefka Gaerkeaaes Tlvayksasd Iataelapth Pirlglalnf Svfyyeilns Pdracslakq Afddaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmtd Eag-De-Ik--Ea------S Kp----Dgae --------Ms-----Sds Sreenvylak Laeqaeryee Mvefmekvak --Tveteelt Veernllsva Yknvigarra Swriissieq Kedsrgnsdh Vsiikdyrgk Ietelskicd Gilnlleahl Ipaa-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Sdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwtsdlnd Eag-Dd-Ik--Eapk--Evq Kv----D--E Qaqpppsq Ms-------S Sreenvylak Laeqaeryee Mvefmekvak --Tvdtdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vsiikdyrgk Ietelskicd Gilnlldshl Vpta-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Pdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwnsdind Eaggde-Ik--Ea------S Kh----Epee",
+        "sentence_id": 62,
+        "char_start": 16190,
+        "char_end": 16194,
+        "anchor": "PMC3422896_16190_16194",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 239,
+      "label": "Chaudhri",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mgs-----Gk Erdtfvylak Lseqaeryee Mvesmksvak ---Lnvd-Lt Veernllsvg Yknvigsrra Swrifssieq Keavkgndvn Vkrikeymek Velelsnici Dimsvldehl Ipsa-Seges Tvffnkmkgd Yyrylaefks Gnerkeaadq Slkayeiatt Aaeaklppth Pirlglalnf Svfyyeimna Perachlakq Afdeaiseld Tlneesykds Tlimqllrdn Ltlwtsdise Eg--Ddahkt -Ngs-----A Kpgaggddae --------Msssgs--Dk Eretfvymak Lseqaeryde Mvetmkkvar ---Vnse-Lt Veernllsvg Yknvigarra Swrimssieq Keeskgnesn Vkqikgyrqk Vedelanicq Diltiidqhl Ipha-Tsgea Tvfyykmkgd Yyrylaefkt Eqerkeaaeq Slkgyeaatq Aastelpsth Pirlglalnf Svfyyeimns Perachlakq Afdeaiaeld Tlseesykds Tlimqllrdn Ltlwtsdlpd -Gg-Ednikt -Eeskq-Eqa Kpa---Date N-------M-------En Erekliylak Lgcqagrydd Vmksmrkvce ---Ldie-Ls Eeerdllttg Yknvmeakrv Slrvissiek Medskgndqn Vklikgqqem Vkyeffnvcn Dilslidshl Ipstttnves Ivlfnrvkgd Yfrymaefgs Daerkenadn Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Lstwtsg--D -G--Ngn-Kt -Dg-------------------------M-------En Erakqvylak Lneqaeryde Mveamkkvaa ---Ldve-Lt Ieernllsvg Yknvigarra Swrilssieq Keeskgneqn Akrikdyrtk Veeelskicy Dilavidkhl Vpfa-Tsges Tvfyykmkgd Yfrylaefks Gadreeaadl Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Ltlwtsdlpe -Gg-----K-----------------------------M-------En Erekqvylak Lseqteryde Mveamkkvaq ---Ldve-Lt Veernlvsvg Yknvigarra Swrilssieq Keeskgnden Vkrlknyrkr Vedelakvcn Dilsvidkhl Ipss-Naves Tvffykmkgd Yyrylaefss Gaerkeaadq Slkayeaats Sastelstth Pirlglalnf Svfyyeilns Perachlakr Afdeaiaeld Slnedsykds Tlimqllrdn Ltlwtsdl-E Eg--Dertkg Ade------P Qd----En----------Mat-----Tl Srdqyvymak Laeqaeryee Mvqfmeqlvs Gatpage-Lt Veernllsva Yknvigslra Awrivssieq Keesrkneeh Vslvkdyrsk Vetelssics Gilrlldshl Ipsa-Tases Kvfylkmkgd Yhrylaefks Gderktaaed Sleaykaava Aaenglapth Pvrlglalnf Svfyyeilns Pesacqlakq Afddaiaeld Slneesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Maa-----Tl Grdqyvymak Laeqaeryee Mvqfmeqlvt Gatpaee-Lt Veernllsva Yknvigslra Awrivssieq Keesrkndeh Vslvkdyrsk Veselssvcs Gilklldshl Ipsa-Gases Kvfylkmkgd Yhrymaefks Gderktaaed Tmiaykaaqd Vavadlapth Pirlglalnf Svfyyeilns Sekacsmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Mat-Pg-Ass Ardefvymak Laeqaeryee Mvefmekvak --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vslirdyrsk Ietelsdicd Gilklldtil Vpaa-Asgds Kvfylkmkgd Yhrylaefks Gqerkdaaeh Tmlaykaaqd Iaaadmapth Pirlglalnf Svfyyeilns Sdkacnmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Dva-Dd-Ik--Eaa--Paaa Kpa---D--E Qqs-----Maa-Ppasss Areefvylak Laeqaeryee Mvefmekvae --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vttirdyrsk Ieselskicd Gilklldtrl Vpas-Angds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tltaykaaqd Ianselapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Esp-Ee-Ik--Eaaa----P Kpa---E--E Qkei----Mas-------Greefvymak Laeqaeryee Mvefmekvsa --Avdgdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vtaireyrsk Ietelsgicd Gilklldsrl Ipaa-Asgds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tlaayksaqd Ianaelapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Daa-De-Ik--Eaaa----P Kpt---E--E Qq------M--------S Treenvymak Laeqaeryee Mvefmekvak --Tvdveels Veernllsva Yknvigarra Swriissieq Keeskgnedh Vaiikdyrgk Ieselskicd Gilnvleahl Ipsa-Spaes Kvfylkmkgd Yhrylaefka Gaerkeaaes Tlvayksasd Iataelapth Pirlglalnf Svfyyeilns Pdracslakq Afddaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmtd Eag-De-Ik--Ea------S Kp----Dgae --------Ms-----Sds Sreenvylak Laeqaeryee Mvefmekvak --Tveteelt Veernllsva Yknvigarra Swriissieq Kedsrgnsdh Vsiikdyrgk Ietelskicd Gilnlleahl Ipaa-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Sdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwtsdlnd Eag-Dd-Ik--Eapk--Evq Kv----D--E Qaqpppsq Ms-------S Sreenvylak Laeqaeryee Mvefmekvak --Tvdtdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vsiikdyrgk Ietelskicd Gilnlldshl Vpta-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Pdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwnsdind Eaggde-Ik--Ea------S Kh----Epee",
+        "sentence_id": 62,
+        "char_start": 16168,
+        "char_end": 16176,
+        "anchor": "PMC3422896_16168_16176",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 241,
+      "label": "crystal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mgs-----Gk Erdtfvylak Lseqaeryee Mvesmksvak ---Lnvd-Lt Veernllsvg Yknvigsrra Swrifssieq Keavkgndvn Vkrikeymek Velelsnici Dimsvldehl Ipsa-Seges Tvffnkmkgd Yyrylaefks Gnerkeaadq Slkayeiatt Aaeaklppth Pirlglalnf Svfyyeimna Perachlakq Afdeaiseld Tlneesykds Tlimqllrdn Ltlwtsdise Eg--Ddahkt -Ngs-----A Kpgaggddae --------Msssgs--Dk Eretfvymak Lseqaeryde Mvetmkkvar ---Vnse-Lt Veernllsvg Yknvigarra Swrimssieq Keeskgnesn Vkqikgyrqk Vedelanicq Diltiidqhl Ipha-Tsgea Tvfyykmkgd Yyrylaefkt Eqerkeaaeq Slkgyeaatq Aastelpsth Pirlglalnf Svfyyeimns Perachlakq Afdeaiaeld Tlseesykds Tlimqllrdn Ltlwtsdlpd -Gg-Ednikt -Eeskq-Eqa Kpa---Date N-------M-------En Erekliylak Lgcqagrydd Vmksmrkvce ---Ldie-Ls Eeerdllttg Yknvmeakrv Slrvissiek Medskgndqn Vklikgqqem Vkyeffnvcn Dilslidshl Ipstttnves Ivlfnrvkgd Yfrymaefgs Daerkenadn Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Lstwtsg--D -G--Ngn-Kt -Dg-------------------------M-------En Erakqvylak Lneqaeryde Mveamkkvaa ---Ldve-Lt Ieernllsvg Yknvigarra Swrilssieq Keeskgneqn Akrikdyrtk Veeelskicy Dilavidkhl Vpfa-Tsges Tvfyykmkgd Yfrylaefks Gadreeaadl Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Ltlwtsdlpe -Gg-----K-----------------------------M-------En Erekqvylak Lseqteryde Mveamkkvaq ---Ldve-Lt Veernlvsvg Yknvigarra Swrilssieq Keeskgnden Vkrlknyrkr Vedelakvcn Dilsvidkhl Ipss-Naves Tvffykmkgd Yyrylaefss Gaerkeaadq Slkayeaats Sastelstth Pirlglalnf Svfyyeilns Perachlakr Afdeaiaeld Slnedsykds Tlimqllrdn Ltlwtsdl-E Eg--Dertkg Ade------P Qd----En----------Mat-----Tl Srdqyvymak Laeqaeryee Mvqfmeqlvs Gatpage-Lt Veernllsva Yknvigslra Awrivssieq Keesrkneeh Vslvkdyrsk Vetelssics Gilrlldshl Ipsa-Tases Kvfylkmkgd Yhrylaefks Gderktaaed Sleaykaava Aaenglapth Pvrlglalnf Svfyyeilns Pesacqlakq Afddaiaeld Slneesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Maa-----Tl Grdqyvymak Laeqaeryee Mvqfmeqlvt Gatpaee-Lt Veernllsva Yknvigslra Awrivssieq Keesrkndeh Vslvkdyrsk Veselssvcs Gilklldshl Ipsa-Gases Kvfylkmkgd Yhrymaefks Gderktaaed Tmiaykaaqd Vavadlapth Pirlglalnf Svfyyeilns Sekacsmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Mat-Pg-Ass Ardefvymak Laeqaeryee Mvefmekvak --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vslirdyrsk Ietelsdicd Gilklldtil Vpaa-Asgds Kvfylkmkgd Yhrylaefks Gqerkdaaeh Tmlaykaaqd Iaaadmapth Pirlglalnf Svfyyeilns Sdkacnmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Dva-Dd-Ik--Eaa--Paaa Kpa---D--E Qqs-----Maa-Ppasss Areefvylak Laeqaeryee Mvefmekvae --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vttirdyrsk Ieselskicd Gilklldtrl Vpas-Angds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tltaykaaqd Ianselapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Esp-Ee-Ik--Eaaa----P Kpa---E--E Qkei----Mas-------Greefvymak Laeqaeryee Mvefmekvsa --Avdgdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vtaireyrsk Ietelsgicd Gilklldsrl Ipaa-Asgds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tlaayksaqd Ianaelapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Daa-De-Ik--Eaaa----P Kpt---E--E Qq------M--------S Treenvymak Laeqaeryee Mvefmekvak --Tvdveels Veernllsva Yknvigarra Swriissieq Keeskgnedh Vaiikdyrgk Ieselskicd Gilnvleahl Ipsa-Spaes Kvfylkmkgd Yhrylaefka Gaerkeaaes Tlvayksasd Iataelapth Pirlglalnf Svfyyeilns Pdracslakq Afddaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmtd Eag-De-Ik--Ea------S Kp----Dgae --------Ms-----Sds Sreenvylak Laeqaeryee Mvefmekvak --Tveteelt Veernllsva Yknvigarra Swriissieq Kedsrgnsdh Vsiikdyrgk Ietelskicd Gilnlleahl Ipaa-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Sdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwtsdlnd Eag-Dd-Ik--Eapk--Evq Kv----D--E Qaqpppsq Ms-------S Sreenvylak Laeqaeryee Mvefmekvak --Tvdtdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vsiikdyrgk Ietelskicd Gilnlldshl Vpta-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Pdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwnsdind Eaggde-Ik--Ea------S Kh----Epee",
+        "sentence_id": 63,
+        "char_start": 16224,
+        "char_end": 16231,
+        "anchor": "PMC3422896_16224_16231",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 242,
+      "label": "variable",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mgs-----Gk Erdtfvylak Lseqaeryee Mvesmksvak ---Lnvd-Lt Veernllsvg Yknvigsrra Swrifssieq Keavkgndvn Vkrikeymek Velelsnici Dimsvldehl Ipsa-Seges Tvffnkmkgd Yyrylaefks Gnerkeaadq Slkayeiatt Aaeaklppth Pirlglalnf Svfyyeimna Perachlakq Afdeaiseld Tlneesykds Tlimqllrdn Ltlwtsdise Eg--Ddahkt -Ngs-----A Kpgaggddae --------Msssgs--Dk Eretfvymak Lseqaeryde Mvetmkkvar ---Vnse-Lt Veernllsvg Yknvigarra Swrimssieq Keeskgnesn Vkqikgyrqk Vedelanicq Diltiidqhl Ipha-Tsgea Tvfyykmkgd Yyrylaefkt Eqerkeaaeq Slkgyeaatq Aastelpsth Pirlglalnf Svfyyeimns Perachlakq Afdeaiaeld Tlseesykds Tlimqllrdn Ltlwtsdlpd -Gg-Ednikt -Eeskq-Eqa Kpa---Date N-------M-------En Erekliylak Lgcqagrydd Vmksmrkvce ---Ldie-Ls Eeerdllttg Yknvmeakrv Slrvissiek Medskgndqn Vklikgqqem Vkyeffnvcn Dilslidshl Ipstttnves Ivlfnrvkgd Yfrymaefgs Daerkenadn Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Lstwtsg--D -G--Ngn-Kt -Dg-------------------------M-------En Erakqvylak Lneqaeryde Mveamkkvaa ---Ldve-Lt Ieernllsvg Yknvigarra Swrilssieq Keeskgneqn Akrikdyrtk Veeelskicy Dilavidkhl Vpfa-Tsges Tvfyykmkgd Yfrylaefks Gadreeaadl Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Ltlwtsdlpe -Gg-----K-----------------------------M-------En Erekqvylak Lseqteryde Mveamkkvaq ---Ldve-Lt Veernlvsvg Yknvigarra Swrilssieq Keeskgnden Vkrlknyrkr Vedelakvcn Dilsvidkhl Ipss-Naves Tvffykmkgd Yyrylaefss Gaerkeaadq Slkayeaats Sastelstth Pirlglalnf Svfyyeilns Perachlakr Afdeaiaeld Slnedsykds Tlimqllrdn Ltlwtsdl-E Eg--Dertkg Ade------P Qd----En----------Mat-----Tl Srdqyvymak Laeqaeryee Mvqfmeqlvs Gatpage-Lt Veernllsva Yknvigslra Awrivssieq Keesrkneeh Vslvkdyrsk Vetelssics Gilrlldshl Ipsa-Tases Kvfylkmkgd Yhrylaefks Gderktaaed Sleaykaava Aaenglapth Pvrlglalnf Svfyyeilns Pesacqlakq Afddaiaeld Slneesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Maa-----Tl Grdqyvymak Laeqaeryee Mvqfmeqlvt Gatpaee-Lt Veernllsva Yknvigslra Awrivssieq Keesrkndeh Vslvkdyrsk Veselssvcs Gilklldshl Ipsa-Gases Kvfylkmkgd Yhrymaefks Gderktaaed Tmiaykaaqd Vavadlapth Pirlglalnf Svfyyeilns Sekacsmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Mat-Pg-Ass Ardefvymak Laeqaeryee Mvefmekvak --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vslirdyrsk Ietelsdicd Gilklldtil Vpaa-Asgds Kvfylkmkgd Yhrylaefks Gqerkdaaeh Tmlaykaaqd Iaaadmapth Pirlglalnf Svfyyeilns Sdkacnmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Dva-Dd-Ik--Eaa--Paaa Kpa---D--E Qqs-----Maa-Ppasss Areefvylak Laeqaeryee Mvefmekvae --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vttirdyrsk Ieselskicd Gilklldtrl Vpas-Angds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tltaykaaqd Ianselapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Esp-Ee-Ik--Eaaa----P Kpa---E--E Qkei----Mas-------Greefvymak Laeqaeryee Mvefmekvsa --Avdgdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vtaireyrsk Ietelsgicd Gilklldsrl Ipaa-Asgds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tlaayksaqd Ianaelapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Daa-De-Ik--Eaaa----P Kpt---E--E Qq------M--------S Treenvymak Laeqaeryee Mvefmekvak --Tvdveels Veernllsva Yknvigarra Swriissieq Keeskgnedh Vaiikdyrgk Ieselskicd Gilnvleahl Ipsa-Spaes Kvfylkmkgd Yhrylaefka Gaerkeaaes Tlvayksasd Iataelapth Pirlglalnf Svfyyeilns Pdracslakq Afddaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmtd Eag-De-Ik--Ea------S Kp----Dgae --------Ms-----Sds Sreenvylak Laeqaeryee Mvefmekvak --Tveteelt Veernllsva Yknvigarra Swriissieq Kedsrgnsdh Vsiikdyrgk Ietelskicd Gilnlleahl Ipaa-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Sdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwtsdlnd Eag-Dd-Ik--Eapk--Evq Kv----D--E Qaqpppsq Ms-------S Sreenvylak Laeqaeryee Mvefmekvak --Tvdtdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vsiikdyrgk Ietelskicd Gilnlldshl Vpta-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Pdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwnsdind Eaggde-Ik--Ea------S Kh----Epee",
+        "sentence_id": 64,
+        "char_start": 16374,
+        "char_end": 16382,
+        "anchor": "PMC3422896_16374_16382",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 244,
+      "label": "bridges",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mgs-----Gk Erdtfvylak Lseqaeryee Mvesmksvak ---Lnvd-Lt Veernllsvg Yknvigsrra Swrifssieq Keavkgndvn Vkrikeymek Velelsnici Dimsvldehl Ipsa-Seges Tvffnkmkgd Yyrylaefks Gnerkeaadq Slkayeiatt Aaeaklppth Pirlglalnf Svfyyeimna Perachlakq Afdeaiseld Tlneesykds Tlimqllrdn Ltlwtsdise Eg--Ddahkt -Ngs-----A Kpgaggddae --------Msssgs--Dk Eretfvymak Lseqaeryde Mvetmkkvar ---Vnse-Lt Veernllsvg Yknvigarra Swrimssieq Keeskgnesn Vkqikgyrqk Vedelanicq Diltiidqhl Ipha-Tsgea Tvfyykmkgd Yyrylaefkt Eqerkeaaeq Slkgyeaatq Aastelpsth Pirlglalnf Svfyyeimns Perachlakq Afdeaiaeld Tlseesykds Tlimqllrdn Ltlwtsdlpd -Gg-Ednikt -Eeskq-Eqa Kpa---Date N-------M-------En Erekliylak Lgcqagrydd Vmksmrkvce ---Ldie-Ls Eeerdllttg Yknvmeakrv Slrvissiek Medskgndqn Vklikgqqem Vkyeffnvcn Dilslidshl Ipstttnves Ivlfnrvkgd Yfrymaefgs Daerkenadn Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Lstwtsg--D -G--Ngn-Kt -Dg-------------------------M-------En Erakqvylak Lneqaeryde Mveamkkvaa ---Ldve-Lt Ieernllsvg Yknvigarra Swrilssieq Keeskgneqn Akrikdyrtk Veeelskicy Dilavidkhl Vpfa-Tsges Tvfyykmkgd Yfrylaefks Gadreeaadl Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Ltlwtsdlpe -Gg-----K-----------------------------M-------En Erekqvylak Lseqteryde Mveamkkvaq ---Ldve-Lt Veernlvsvg Yknvigarra Swrilssieq Keeskgnden Vkrlknyrkr Vedelakvcn Dilsvidkhl Ipss-Naves Tvffykmkgd Yyrylaefss Gaerkeaadq Slkayeaats Sastelstth Pirlglalnf Svfyyeilns Perachlakr Afdeaiaeld Slnedsykds Tlimqllrdn Ltlwtsdl-E Eg--Dertkg Ade------P Qd----En----------Mat-----Tl Srdqyvymak Laeqaeryee Mvqfmeqlvs Gatpage-Lt Veernllsva Yknvigslra Awrivssieq Keesrkneeh Vslvkdyrsk Vetelssics Gilrlldshl Ipsa-Tases Kvfylkmkgd Yhrylaefks Gderktaaed Sleaykaava Aaenglapth Pvrlglalnf Svfyyeilns Pesacqlakq Afddaiaeld Slneesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Maa-----Tl Grdqyvymak Laeqaeryee Mvqfmeqlvt Gatpaee-Lt Veernllsva Yknvigslra Awrivssieq Keesrkndeh Vslvkdyrsk Veselssvcs Gilklldshl Ipsa-Gases Kvfylkmkgd Yhrymaefks Gderktaaed Tmiaykaaqd Vavadlapth Pirlglalnf Svfyyeilns Sekacsmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Mat-Pg-Ass Ardefvymak Laeqaeryee Mvefmekvak --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vslirdyrsk Ietelsdicd Gilklldtil Vpaa-Asgds Kvfylkmkgd Yhrylaefks Gqerkdaaeh Tmlaykaaqd Iaaadmapth Pirlglalnf Svfyyeilns Sdkacnmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Dva-Dd-Ik--Eaa--Paaa Kpa---D--E Qqs-----Maa-Ppasss Areefvylak Laeqaeryee Mvefmekvae --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vttirdyrsk Ieselskicd Gilklldtrl Vpas-Angds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tltaykaaqd Ianselapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Esp-Ee-Ik--Eaaa----P Kpa---E--E Qkei----Mas-------Greefvymak Laeqaeryee Mvefmekvsa --Avdgdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vtaireyrsk Ietelsgicd Gilklldsrl Ipaa-Asgds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tlaayksaqd Ianaelapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Daa-De-Ik--Eaaa----P Kpt---E--E Qq------M--------S Treenvymak Laeqaeryee Mvefmekvak --Tvdveels Veernllsva Yknvigarra Swriissieq Keeskgnedh Vaiikdyrgk Ieselskicd Gilnvleahl Ipsa-Spaes Kvfylkmkgd Yhrylaefka Gaerkeaaes Tlvayksasd Iataelapth Pirlglalnf Svfyyeilns Pdracslakq Afddaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmtd Eag-De-Ik--Ea------S Kp----Dgae --------Ms-----Sds Sreenvylak Laeqaeryee Mvefmekvak --Tveteelt Veernllsva Yknvigarra Swriissieq Kedsrgnsdh Vsiikdyrgk Ietelskicd Gilnlleahl Ipaa-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Sdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwtsdlnd Eag-Dd-Ik--Eapk--Evq Kv----D--E Qaqpppsq Ms-------S Sreenvylak Laeqaeryee Mvefmekvak --Tvdtdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vsiikdyrgk Ietelskicd Gilnlldshl Vpta-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Pdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwnsdind Eaggde-Ik--Ea------S Kh----Epee",
+        "sentence_id": 65,
+        "char_start": 16480,
+        "char_end": 16487,
+        "anchor": "PMC3422896_16480_16487",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 246,
+      "label": "bridges",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mgs-----Gk Erdtfvylak Lseqaeryee Mvesmksvak ---Lnvd-Lt Veernllsvg Yknvigsrra Swrifssieq Keavkgndvn Vkrikeymek Velelsnici Dimsvldehl Ipsa-Seges Tvffnkmkgd Yyrylaefks Gnerkeaadq Slkayeiatt Aaeaklppth Pirlglalnf Svfyyeimna Perachlakq Afdeaiseld Tlneesykds Tlimqllrdn Ltlwtsdise Eg--Ddahkt -Ngs-----A Kpgaggddae --------Msssgs--Dk Eretfvymak Lseqaeryde Mvetmkkvar ---Vnse-Lt Veernllsvg Yknvigarra Swrimssieq Keeskgnesn Vkqikgyrqk Vedelanicq Diltiidqhl Ipha-Tsgea Tvfyykmkgd Yyrylaefkt Eqerkeaaeq Slkgyeaatq Aastelpsth Pirlglalnf Svfyyeimns Perachlakq Afdeaiaeld Tlseesykds Tlimqllrdn Ltlwtsdlpd -Gg-Ednikt -Eeskq-Eqa Kpa---Date N-------M-------En Erekliylak Lgcqagrydd Vmksmrkvce ---Ldie-Ls Eeerdllttg Yknvmeakrv Slrvissiek Medskgndqn Vklikgqqem Vkyeffnvcn Dilslidshl Ipstttnves Ivlfnrvkgd Yfrymaefgs Daerkenadn Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Lstwtsg--D -G--Ngn-Kt -Dg-------------------------M-------En Erakqvylak Lneqaeryde Mveamkkvaa ---Ldve-Lt Ieernllsvg Yknvigarra Swrilssieq Keeskgneqn Akrikdyrtk Veeelskicy Dilavidkhl Vpfa-Tsges Tvfyykmkgd Yfrylaefks Gadreeaadl Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Ltlwtsdlpe -Gg-----K-----------------------------M-------En Erekqvylak Lseqteryde Mveamkkvaq ---Ldve-Lt Veernlvsvg Yknvigarra Swrilssieq Keeskgnden Vkrlknyrkr Vedelakvcn Dilsvidkhl Ipss-Naves Tvffykmkgd Yyrylaefss Gaerkeaadq Slkayeaats Sastelstth Pirlglalnf Svfyyeilns Perachlakr Afdeaiaeld Slnedsykds Tlimqllrdn Ltlwtsdl-E Eg--Dertkg Ade------P Qd----En----------Mat-----Tl Srdqyvymak Laeqaeryee Mvqfmeqlvs Gatpage-Lt Veernllsva Yknvigslra Awrivssieq Keesrkneeh Vslvkdyrsk Vetelssics Gilrlldshl Ipsa-Tases Kvfylkmkgd Yhrylaefks Gderktaaed Sleaykaava Aaenglapth Pvrlglalnf Svfyyeilns Pesacqlakq Afddaiaeld Slneesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Maa-----Tl Grdqyvymak Laeqaeryee Mvqfmeqlvt Gatpaee-Lt Veernllsva Yknvigslra Awrivssieq Keesrkndeh Vslvkdyrsk Veselssvcs Gilklldshl Ipsa-Gases Kvfylkmkgd Yhrymaefks Gderktaaed Tmiaykaaqd Vavadlapth Pirlglalnf Svfyyeilns Sekacsmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Mat-Pg-Ass Ardefvymak Laeqaeryee Mvefmekvak --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vslirdyrsk Ietelsdicd Gilklldtil Vpaa-Asgds Kvfylkmkgd Yhrylaefks Gqerkdaaeh Tmlaykaaqd Iaaadmapth Pirlglalnf Svfyyeilns Sdkacnmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Dva-Dd-Ik--Eaa--Paaa Kpa---D--E Qqs-----Maa-Ppasss Areefvylak Laeqaeryee Mvefmekvae --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vttirdyrsk Ieselskicd Gilklldtrl Vpas-Angds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tltaykaaqd Ianselapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Esp-Ee-Ik--Eaaa----P Kpa---E--E Qkei----Mas-------Greefvymak Laeqaeryee Mvefmekvsa --Avdgdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vtaireyrsk Ietelsgicd Gilklldsrl Ipaa-Asgds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tlaayksaqd Ianaelapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Daa-De-Ik--Eaaa----P Kpt---E--E Qq------M--------S Treenvymak Laeqaeryee Mvefmekvak --Tvdveels Veernllsva Yknvigarra Swriissieq Keeskgnedh Vaiikdyrgk Ieselskicd Gilnvleahl Ipsa-Spaes Kvfylkmkgd Yhrylaefka Gaerkeaaes Tlvayksasd Iataelapth Pirlglalnf Svfyyeilns Pdracslakq Afddaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmtd Eag-De-Ik--Ea------S Kp----Dgae --------Ms-----Sds Sreenvylak Laeqaeryee Mvefmekvak --Tveteelt Veernllsva Yknvigarra Swriissieq Kedsrgnsdh Vsiikdyrgk Ietelskicd Gilnlleahl Ipaa-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Sdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwtsdlnd Eag-Dd-Ik--Eapk--Evq Kv----D--E Qaqpppsq Ms-------S Sreenvylak Laeqaeryee Mvefmekvak --Tvdtdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vsiikdyrgk Ietelskicd Gilnlldshl Vpta-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Pdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwnsdind Eaggde-Ik--Ea------S Kh----Epee",
+        "sentence_id": 66,
+        "char_start": 16624,
+        "char_end": 16631,
+        "anchor": "PMC3422896_16624_16631",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 248,
+      "label": "Gardino",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mgs-----Gk Erdtfvylak Lseqaeryee Mvesmksvak ---Lnvd-Lt Veernllsvg Yknvigsrra Swrifssieq Keavkgndvn Vkrikeymek Velelsnici Dimsvldehl Ipsa-Seges Tvffnkmkgd Yyrylaefks Gnerkeaadq Slkayeiatt Aaeaklppth Pirlglalnf Svfyyeimna Perachlakq Afdeaiseld Tlneesykds Tlimqllrdn Ltlwtsdise Eg--Ddahkt -Ngs-----A Kpgaggddae --------Msssgs--Dk Eretfvymak Lseqaeryde Mvetmkkvar ---Vnse-Lt Veernllsvg Yknvigarra Swrimssieq Keeskgnesn Vkqikgyrqk Vedelanicq Diltiidqhl Ipha-Tsgea Tvfyykmkgd Yyrylaefkt Eqerkeaaeq Slkgyeaatq Aastelpsth Pirlglalnf Svfyyeimns Perachlakq Afdeaiaeld Tlseesykds Tlimqllrdn Ltlwtsdlpd -Gg-Ednikt -Eeskq-Eqa Kpa---Date N-------M-------En Erekliylak Lgcqagrydd Vmksmrkvce ---Ldie-Ls Eeerdllttg Yknvmeakrv Slrvissiek Medskgndqn Vklikgqqem Vkyeffnvcn Dilslidshl Ipstttnves Ivlfnrvkgd Yfrymaefgs Daerkenadn Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Lstwtsg--D -G--Ngn-Kt -Dg-------------------------M-------En Erakqvylak Lneqaeryde Mveamkkvaa ---Ldve-Lt Ieernllsvg Yknvigarra Swrilssieq Keeskgneqn Akrikdyrtk Veeelskicy Dilavidkhl Vpfa-Tsges Tvfyykmkgd Yfrylaefks Gadreeaadl Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Ltlwtsdlpe -Gg-----K-----------------------------M-------En Erekqvylak Lseqteryde Mveamkkvaq ---Ldve-Lt Veernlvsvg Yknvigarra Swrilssieq Keeskgnden Vkrlknyrkr Vedelakvcn Dilsvidkhl Ipss-Naves Tvffykmkgd Yyrylaefss Gaerkeaadq Slkayeaats Sastelstth Pirlglalnf Svfyyeilns Perachlakr Afdeaiaeld Slnedsykds Tlimqllrdn Ltlwtsdl-E Eg--Dertkg Ade------P Qd----En----------Mat-----Tl Srdqyvymak Laeqaeryee Mvqfmeqlvs Gatpage-Lt Veernllsva Yknvigslra Awrivssieq Keesrkneeh Vslvkdyrsk Vetelssics Gilrlldshl Ipsa-Tases Kvfylkmkgd Yhrylaefks Gderktaaed Sleaykaava Aaenglapth Pvrlglalnf Svfyyeilns Pesacqlakq Afddaiaeld Slneesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Maa-----Tl Grdqyvymak Laeqaeryee Mvqfmeqlvt Gatpaee-Lt Veernllsva Yknvigslra Awrivssieq Keesrkndeh Vslvkdyrsk Veselssvcs Gilklldshl Ipsa-Gases Kvfylkmkgd Yhrymaefks Gderktaaed Tmiaykaaqd Vavadlapth Pirlglalnf Svfyyeilns Sekacsmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Mat-Pg-Ass Ardefvymak Laeqaeryee Mvefmekvak --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vslirdyrsk Ietelsdicd Gilklldtil Vpaa-Asgds Kvfylkmkgd Yhrylaefks Gqerkdaaeh Tmlaykaaqd Iaaadmapth Pirlglalnf Svfyyeilns Sdkacnmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Dva-Dd-Ik--Eaa--Paaa Kpa---D--E Qqs-----Maa-Ppasss Areefvylak Laeqaeryee Mvefmekvae --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vttirdyrsk Ieselskicd Gilklldtrl Vpas-Angds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tltaykaaqd Ianselapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Esp-Ee-Ik--Eaaa----P Kpa---E--E Qkei----Mas-------Greefvymak Laeqaeryee Mvefmekvsa --Avdgdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vtaireyrsk Ietelsgicd Gilklldsrl Ipaa-Asgds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tlaayksaqd Ianaelapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Daa-De-Ik--Eaaa----P Kpt---E--E Qq------M--------S Treenvymak Laeqaeryee Mvefmekvak --Tvdveels Veernllsva Yknvigarra Swriissieq Keeskgnedh Vaiikdyrgk Ieselskicd Gilnvleahl Ipsa-Spaes Kvfylkmkgd Yhrylaefka Gaerkeaaes Tlvayksasd Iataelapth Pirlglalnf Svfyyeilns Pdracslakq Afddaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmtd Eag-De-Ik--Ea------S Kp----Dgae --------Ms-----Sds Sreenvylak Laeqaeryee Mvefmekvak --Tveteelt Veernllsva Yknvigarra Swriissieq Kedsrgnsdh Vsiikdyrgk Ietelskicd Gilnlleahl Ipaa-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Sdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwtsdlnd Eag-Dd-Ik--Eapk--Evq Kv----D--E Qaqpppsq Ms-------S Sreenvylak Laeqaeryee Mvefmekvak --Tvdtdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vsiikdyrgk Ietelskicd Gilnlldshl Vpta-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Pdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwnsdind Eaggde-Ik--Ea------S Kh----Epee",
+        "sentence_id": 66,
+        "char_start": 16959,
+        "char_end": 16966,
+        "anchor": "PMC3422896_16959_16966",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 249,
+      "label": "Chaudhri",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mgs-----Gk Erdtfvylak Lseqaeryee Mvesmksvak ---Lnvd-Lt Veernllsvg Yknvigsrra Swrifssieq Keavkgndvn Vkrikeymek Velelsnici Dimsvldehl Ipsa-Seges Tvffnkmkgd Yyrylaefks Gnerkeaadq Slkayeiatt Aaeaklppth Pirlglalnf Svfyyeimna Perachlakq Afdeaiseld Tlneesykds Tlimqllrdn Ltlwtsdise Eg--Ddahkt -Ngs-----A Kpgaggddae --------Msssgs--Dk Eretfvymak Lseqaeryde Mvetmkkvar ---Vnse-Lt Veernllsvg Yknvigarra Swrimssieq Keeskgnesn Vkqikgyrqk Vedelanicq Diltiidqhl Ipha-Tsgea Tvfyykmkgd Yyrylaefkt Eqerkeaaeq Slkgyeaatq Aastelpsth Pirlglalnf Svfyyeimns Perachlakq Afdeaiaeld Tlseesykds Tlimqllrdn Ltlwtsdlpd -Gg-Ednikt -Eeskq-Eqa Kpa---Date N-------M-------En Erekliylak Lgcqagrydd Vmksmrkvce ---Ldie-Ls Eeerdllttg Yknvmeakrv Slrvissiek Medskgndqn Vklikgqqem Vkyeffnvcn Dilslidshl Ipstttnves Ivlfnrvkgd Yfrymaefgs Daerkenadn Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Lstwtsg--D -G--Ngn-Kt -Dg-------------------------M-------En Erakqvylak Lneqaeryde Mveamkkvaa ---Ldve-Lt Ieernllsvg Yknvigarra Swrilssieq Keeskgneqn Akrikdyrtk Veeelskicy Dilavidkhl Vpfa-Tsges Tvfyykmkgd Yfrylaefks Gadreeaadl Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Ltlwtsdlpe -Gg-----K-----------------------------M-------En Erekqvylak Lseqteryde Mveamkkvaq ---Ldve-Lt Veernlvsvg Yknvigarra Swrilssieq Keeskgnden Vkrlknyrkr Vedelakvcn Dilsvidkhl Ipss-Naves Tvffykmkgd Yyrylaefss Gaerkeaadq Slkayeaats Sastelstth Pirlglalnf Svfyyeilns Perachlakr Afdeaiaeld Slnedsykds Tlimqllrdn Ltlwtsdl-E Eg--Dertkg Ade------P Qd----En----------Mat-----Tl Srdqyvymak Laeqaeryee Mvqfmeqlvs Gatpage-Lt Veernllsva Yknvigslra Awrivssieq Keesrkneeh Vslvkdyrsk Vetelssics Gilrlldshl Ipsa-Tases Kvfylkmkgd Yhrylaefks Gderktaaed Sleaykaava Aaenglapth Pvrlglalnf Svfyyeilns Pesacqlakq Afddaiaeld Slneesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Maa-----Tl Grdqyvymak Laeqaeryee Mvqfmeqlvt Gatpaee-Lt Veernllsva Yknvigslra Awrivssieq Keesrkndeh Vslvkdyrsk Veselssvcs Gilklldshl Ipsa-Gases Kvfylkmkgd Yhrymaefks Gderktaaed Tmiaykaaqd Vavadlapth Pirlglalnf Svfyyeilns Sekacsmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Mat-Pg-Ass Ardefvymak Laeqaeryee Mvefmekvak --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vslirdyrsk Ietelsdicd Gilklldtil Vpaa-Asgds Kvfylkmkgd Yhrylaefks Gqerkdaaeh Tmlaykaaqd Iaaadmapth Pirlglalnf Svfyyeilns Sdkacnmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Dva-Dd-Ik--Eaa--Paaa Kpa---D--E Qqs-----Maa-Ppasss Areefvylak Laeqaeryee Mvefmekvae --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vttirdyrsk Ieselskicd Gilklldtrl Vpas-Angds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tltaykaaqd Ianselapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Esp-Ee-Ik--Eaaa----P Kpa---E--E Qkei----Mas-------Greefvymak Laeqaeryee Mvefmekvsa --Avdgdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vtaireyrsk Ietelsgicd Gilklldsrl Ipaa-Asgds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tlaayksaqd Ianaelapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Daa-De-Ik--Eaaa----P Kpt---E--E Qq------M--------S Treenvymak Laeqaeryee Mvefmekvak --Tvdveels Veernllsva Yknvigarra Swriissieq Keeskgnedh Vaiikdyrgk Ieselskicd Gilnvleahl Ipsa-Spaes Kvfylkmkgd Yhrylaefka Gaerkeaaes Tlvayksasd Iataelapth Pirlglalnf Svfyyeilns Pdracslakq Afddaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmtd Eag-De-Ik--Ea------S Kp----Dgae --------Ms-----Sds Sreenvylak Laeqaeryee Mvefmekvak --Tveteelt Veernllsva Yknvigarra Swriissieq Kedsrgnsdh Vsiikdyrgk Ietelskicd Gilnlleahl Ipaa-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Sdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwtsdlnd Eag-Dd-Ik--Eapk--Evq Kv----D--E Qaqpppsq Ms-------S Sreenvylak Laeqaeryee Mvefmekvak --Tvdtdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vsiikdyrgk Ietelskicd Gilnlldshl Vpta-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Pdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwnsdind Eaggde-Ik--Ea------S Kh----Epee",
+        "sentence_id": 66,
+        "char_start": 17091,
+        "char_end": 17099,
+        "anchor": "PMC3422896_17091_17099",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 253,
+      "label": "Cha",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mgs-----Gk Erdtfvylak Lseqaeryee Mvesmksvak ---Lnvd-Lt Veernllsvg Yknvigsrra Swrifssieq Keavkgndvn Vkrikeymek Velelsnici Dimsvldehl Ipsa-Seges Tvffnkmkgd Yyrylaefks Gnerkeaadq Slkayeiatt Aaeaklppth Pirlglalnf Svfyyeimna Perachlakq Afdeaiseld Tlneesykds Tlimqllrdn Ltlwtsdise Eg--Ddahkt -Ngs-----A Kpgaggddae --------Msssgs--Dk Eretfvymak Lseqaeryde Mvetmkkvar ---Vnse-Lt Veernllsvg Yknvigarra Swrimssieq Keeskgnesn Vkqikgyrqk Vedelanicq Diltiidqhl Ipha-Tsgea Tvfyykmkgd Yyrylaefkt Eqerkeaaeq Slkgyeaatq Aastelpsth Pirlglalnf Svfyyeimns Perachlakq Afdeaiaeld Tlseesykds Tlimqllrdn Ltlwtsdlpd -Gg-Ednikt -Eeskq-Eqa Kpa---Date N-------M-------En Erekliylak Lgcqagrydd Vmksmrkvce ---Ldie-Ls Eeerdllttg Yknvmeakrv Slrvissiek Medskgndqn Vklikgqqem Vkyeffnvcn Dilslidshl Ipstttnves Ivlfnrvkgd Yfrymaefgs Daerkenadn Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Lstwtsg--D -G--Ngn-Kt -Dg-------------------------M-------En Erakqvylak Lneqaeryde Mveamkkvaa ---Ldve-Lt Ieernllsvg Yknvigarra Swrilssieq Keeskgneqn Akrikdyrtk Veeelskicy Dilavidkhl Vpfa-Tsges Tvfyykmkgd Yfrylaefks Gadreeaadl Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Ltlwtsdlpe -Gg-----K-----------------------------M-------En Erekqvylak Lseqteryde Mveamkkvaq ---Ldve-Lt Veernlvsvg Yknvigarra Swrilssieq Keeskgnden Vkrlknyrkr Vedelakvcn Dilsvidkhl Ipss-Naves Tvffykmkgd Yyrylaefss Gaerkeaadq Slkayeaats Sastelstth Pirlglalnf Svfyyeilns Perachlakr Afdeaiaeld Slnedsykds Tlimqllrdn Ltlwtsdl-E Eg--Dertkg Ade------P Qd----En----------Mat-----Tl Srdqyvymak Laeqaeryee Mvqfmeqlvs Gatpage-Lt Veernllsva Yknvigslra Awrivssieq Keesrkneeh Vslvkdyrsk Vetelssics Gilrlldshl Ipsa-Tases Kvfylkmkgd Yhrylaefks Gderktaaed Sleaykaava Aaenglapth Pvrlglalnf Svfyyeilns Pesacqlakq Afddaiaeld Slneesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Maa-----Tl Grdqyvymak Laeqaeryee Mvqfmeqlvt Gatpaee-Lt Veernllsva Yknvigslra Awrivssieq Keesrkndeh Vslvkdyrsk Veselssvcs Gilklldshl Ipsa-Gases Kvfylkmkgd Yhrymaefks Gderktaaed Tmiaykaaqd Vavadlapth Pirlglalnf Svfyyeilns Sekacsmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Mat-Pg-Ass Ardefvymak Laeqaeryee Mvefmekvak --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vslirdyrsk Ietelsdicd Gilklldtil Vpaa-Asgds Kvfylkmkgd Yhrylaefks Gqerkdaaeh Tmlaykaaqd Iaaadmapth Pirlglalnf Svfyyeilns Sdkacnmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Dva-Dd-Ik--Eaa--Paaa Kpa---D--E Qqs-----Maa-Ppasss Areefvylak Laeqaeryee Mvefmekvae --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vttirdyrsk Ieselskicd Gilklldtrl Vpas-Angds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tltaykaaqd Ianselapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Esp-Ee-Ik--Eaaa----P Kpa---E--E Qkei----Mas-------Greefvymak Laeqaeryee Mvefmekvsa --Avdgdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vtaireyrsk Ietelsgicd Gilklldsrl Ipaa-Asgds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tlaayksaqd Ianaelapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Daa-De-Ik--Eaaa----P Kpt---E--E Qq------M--------S Treenvymak Laeqaeryee Mvefmekvak --Tvdveels Veernllsva Yknvigarra Swriissieq Keeskgnedh Vaiikdyrgk Ieselskicd Gilnvleahl Ipsa-Spaes Kvfylkmkgd Yhrylaefka Gaerkeaaes Tlvayksasd Iataelapth Pirlglalnf Svfyyeilns Pdracslakq Afddaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmtd Eag-De-Ik--Ea------S Kp----Dgae --------Ms-----Sds Sreenvylak Laeqaeryee Mvefmekvak --Tveteelt Veernllsva Yknvigarra Swriissieq Kedsrgnsdh Vsiikdyrgk Ietelskicd Gilnlleahl Ipaa-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Sdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwtsdlnd Eag-Dd-Ik--Eapk--Evq Kv----D--E Qaqpppsq Ms-------S Sreenvylak Laeqaeryee Mvefmekvak --Tvdtdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vsiikdyrgk Ietelskicd Gilnlldshl Vpta-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Pdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwnsdind Eaggde-Ik--Ea------S Kh----Epee",
+        "sentence_id": 67,
+        "char_start": 17405,
+        "char_end": 17408,
+        "anchor": "PMC3422896_17405_17408",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 254,
+      "label": "Chaudhri",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mgs-----Gk Erdtfvylak Lseqaeryee Mvesmksvak ---Lnvd-Lt Veernllsvg Yknvigsrra Swrifssieq Keavkgndvn Vkrikeymek Velelsnici Dimsvldehl Ipsa-Seges Tvffnkmkgd Yyrylaefks Gnerkeaadq Slkayeiatt Aaeaklppth Pirlglalnf Svfyyeimna Perachlakq Afdeaiseld Tlneesykds Tlimqllrdn Ltlwtsdise Eg--Ddahkt -Ngs-----A Kpgaggddae --------Msssgs--Dk Eretfvymak Lseqaeryde Mvetmkkvar ---Vnse-Lt Veernllsvg Yknvigarra Swrimssieq Keeskgnesn Vkqikgyrqk Vedelanicq Diltiidqhl Ipha-Tsgea Tvfyykmkgd Yyrylaefkt Eqerkeaaeq Slkgyeaatq Aastelpsth Pirlglalnf Svfyyeimns Perachlakq Afdeaiaeld Tlseesykds Tlimqllrdn Ltlwtsdlpd -Gg-Ednikt -Eeskq-Eqa Kpa---Date N-------M-------En Erekliylak Lgcqagrydd Vmksmrkvce ---Ldie-Ls Eeerdllttg Yknvmeakrv Slrvissiek Medskgndqn Vklikgqqem Vkyeffnvcn Dilslidshl Ipstttnves Ivlfnrvkgd Yfrymaefgs Daerkenadn Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Lstwtsg--D -G--Ngn-Kt -Dg-------------------------M-------En Erakqvylak Lneqaeryde Mveamkkvaa ---Ldve-Lt Ieernllsvg Yknvigarra Swrilssieq Keeskgneqn Akrikdyrtk Veeelskicy Dilavidkhl Vpfa-Tsges Tvfyykmkgd Yfrylaefks Gadreeaadl Sldaykvame Maenslaptn Mvrlglalnf Sifnyeihks Iesacklvkk Aydeaiteld Gldknicees Myiiemlkyn Ltlwtsdlpe -Gg-----K-----------------------------M-------En Erekqvylak Lseqteryde Mveamkkvaq ---Ldve-Lt Veernlvsvg Yknvigarra Swrilssieq Keeskgnden Vkrlknyrkr Vedelakvcn Dilsvidkhl Ipss-Naves Tvffykmkgd Yyrylaefss Gaerkeaadq Slkayeaats Sastelstth Pirlglalnf Svfyyeilns Perachlakr Afdeaiaeld Slnedsykds Tlimqllrdn Ltlwtsdl-E Eg--Dertkg Ade------P Qd----En----------Mat-----Tl Srdqyvymak Laeqaeryee Mvqfmeqlvs Gatpage-Lt Veernllsva Yknvigslra Awrivssieq Keesrkneeh Vslvkdyrsk Vetelssics Gilrlldshl Ipsa-Tases Kvfylkmkgd Yhrylaefks Gderktaaed Sleaykaava Aaenglapth Pvrlglalnf Svfyyeilns Pesacqlakq Afddaiaeld Slneesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Maa-----Tl Grdqyvymak Laeqaeryee Mvqfmeqlvt Gatpaee-Lt Veernllsva Yknvigslra Awrivssieq Keesrkndeh Vslvkdyrsk Veselssvcs Gilklldshl Ipsa-Gases Kvfylkmkgd Yhrymaefks Gderktaaed Tmiaykaaqd Vavadlapth Pirlglalnf Svfyyeilns Sekacsmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqe Qm--Dea-------------------------------Mat-Pg-Ass Ardefvymak Laeqaeryee Mvefmekvak --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vslirdyrsk Ietelsdicd Gilklldtil Vpaa-Asgds Kvfylkmkgd Yhrylaefks Gqerkdaaeh Tmlaykaaqd Iaaadmapth Pirlglalnf Svfyyeilns Sdkacnmakq Afeeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Dva-Dd-Ik--Eaa--Paaa Kpa---D--E Qqs-----Maa-Ppasss Areefvylak Laeqaeryee Mvefmekvae --Avdkdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vttirdyrsk Ieselskicd Gilklldtrl Vpas-Angds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tltaykaaqd Ianselapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Esp-Ee-Ik--Eaaa----P Kpa---E--E Qkei----Mas-------Greefvymak Laeqaeryee Mvefmekvsa --Avdgdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vtaireyrsk Ietelsgicd Gilklldsrl Ipaa-Asgds Kvfylkmkgd Yhrylaefkt Gqerkdaaeh Tlaayksaqd Ianaelapth Pirlglalnf Svfyyeilns Pdracnlakq Afdeaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmqd Daa-De-Ik--Eaaa----P Kpt---E--E Qq------M--------S Treenvymak Laeqaeryee Mvefmekvak --Tvdveels Veernllsva Yknvigarra Swriissieq Keeskgnedh Vaiikdyrgk Ieselskicd Gilnvleahl Ipsa-Spaes Kvfylkmkgd Yhrylaefka Gaerkeaaes Tlvayksasd Iataelapth Pirlglalnf Svfyyeilns Pdracslakq Afddaiaeld Tlgeesykds Tlimqllrdn Ltlwtsdmtd Eag-De-Ik--Ea------S Kp----Dgae --------Ms-----Sds Sreenvylak Laeqaeryee Mvefmekvak --Tveteelt Veernllsva Yknvigarra Swriissieq Kedsrgnsdh Vsiikdyrgk Ietelskicd Gilnlleahl Ipaa-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Sdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwtsdlnd Eag-Dd-Ik--Eapk--Evq Kv----D--E Qaqpppsq Ms-------S Sreenvylak Laeqaeryee Mvefmekvak --Tvdtdelt Veernllsva Yknvigarra Swriissieq Keesrgnddh Vsiikdyrgk Ietelskicd Gilnlldshl Vpta-Slaes Kvfylkmkgd Yhrylaefkt Gaerkeaaes Tlvayksaqd Ialadlapth Pirlglalnf Svfyyeilns Pdracslakq Afdeaiseld Tlgeesykds Tlimqllrdn Ltlwnsdind Eaggde-Ik--Ea------S Kh----Epee",
+        "sentence_id": 67,
+        "char_start": 17405,
+        "char_end": 17413,
+        "anchor": "PMC3422896_17405_17413",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 257,
+      "label": "idopsis",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Frontiers in Plant Science",
+        "sentence_id": 69,
+        "char_start": 17621,
+        "char_end": 17628,
+        "anchor": "PMC3422896_17621_17628",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 283,
+      "label": "Dime",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Frontiers in Plant Science",
+        "sentence_id": 72,
+        "char_start": 18671,
+        "char_end": 18675,
+        "anchor": "PMC3422896_18671_18675",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 287,
+      "label": "mammals",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Frontiers in Plant Science",
+        "sentence_id": 74,
+        "char_start": 19159,
+        "char_end": 19166,
+        "anchor": "PMC3422896_19159_19166",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 289,
+      "label": "Zhou",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Frontiers in Plant Science",
+        "sentence_id": 74,
+        "char_start": 19294,
+        "char_end": 19298,
+        "anchor": "PMC3422896_19294_19298",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 290,
+      "label": "Woodcock",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Frontiers in Plant Science",
+        "sentence_id": 74,
+        "char_start": 19099,
+        "char_end": 19107,
+        "anchor": "PMC3422896_19099_19107",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 298,
+      "label": "certain",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statement Of The Issue",
+        "sentence_id": 81,
+        "char_start": 20818,
+        "char_end": 20825,
+        "anchor": "PMC3422896_20818_20825",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 302,
+      "label": "multiple",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statement Of The Issue",
+        "sentence_id": 83,
+        "char_start": 21185,
+        "char_end": 21193,
+        "anchor": "PMC3422896_21185_21193",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 304,
+      "label": "isoforms",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statement Of The Issue",
+        "sentence_id": 88,
+        "char_start": 22071,
+        "char_end": 22079,
+        "anchor": "PMC3422896_22071_22079",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 317,
+      "label": "highest",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Expression Specificity",
+        "sentence_id": 93,
+        "char_start": 23537,
+        "char_end": 23544,
+        "anchor": "PMC3422896_23537_23544",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 318,
+      "label": "isoform",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Expression Specificity",
+        "sentence_id": 93,
+        "char_start": 23563,
+        "char_end": 23570,
+        "anchor": "PMC3422896_23563_23570",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 322,
+      "label": "Range",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Expression Specificity",
+        "sentence_id": 94,
+        "char_start": 23755,
+        "char_end": 23760,
+        "anchor": "PMC3422896_23755_23760",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 330,
+      "label": "Rangel",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Expression Specificity",
+        "sentence_id": 94,
+        "char_start": 23755,
+        "char_end": 23761,
+        "anchor": "PMC3422896_23755_23761",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 351,
+      "label": "Rice",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Expression Specificity",
+        "sentence_id": 96,
+        "char_start": 25466,
+        "char_end": 25470,
+        "anchor": "PMC3422896_25466_25470",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 354,
+      "label": "deletion",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Expression Specificity",
+        "sentence_id": 96,
+        "char_start": 25820,
+        "char_end": 25828,
+        "anchor": "PMC3422896_25820_25828",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 357,
+      "label": "isoforms",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Expression Specificity",
+        "sentence_id": 97,
+        "char_start": 26075,
+        "char_end": 26083,
+        "anchor": "PMC3422896_26075_26083",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 359,
+      "label": "isoforms",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Expression Specificity",
+        "sentence_id": 97,
+        "char_start": 26361,
+        "char_end": 26369,
+        "anchor": "PMC3422896_26361_26369",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 360,
+      "label": "soybean",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Expression Specificity",
+        "sentence_id": 97,
+        "char_start": 26407,
+        "char_end": 26414,
+        "anchor": "PMC3422896_26407_26414",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 370,
+      "label": "function",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Evidence For Redundancy",
+        "sentence_id": 99,
+        "char_start": 26785,
+        "char_end": 26793,
+        "anchor": "PMC3422896_26785_26793",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 372,
+      "label": "TDNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Evidence For Redundancy",
+        "sentence_id": 100,
+        "char_start": 26932,
+        "char_end": 26936,
+        "anchor": "PMC3422896_26932_26936",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 377,
+      "label": "At14",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Physiological redundancy",
+        "sentence_id": 106,
+        "char_start": 27901,
+        "char_end": 27905,
+        "anchor": "PMC3422896_27901_27905",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 379,
+      "label": "Sac",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Physiological redundancy",
+        "sentence_id": 106,
+        "char_start": 28005,
+        "char_end": 28008,
+        "anchor": "PMC3422896_28005_28008",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 380,
+      "label": "romyces",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Physiological redundancy",
+        "sentence_id": 106,
+        "char_start": 28011,
+        "char_end": 28018,
+        "anchor": "PMC3422896_28011_28018",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 383,
+      "label": "Arab",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Physiological redundancy",
+        "sentence_id": 107,
+        "char_start": 28511,
+        "char_end": 28515,
+        "anchor": "PMC3422896_28511_28515",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 384,
+      "label": "idopsis",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Physiological redundancy",
+        "sentence_id": 107,
+        "char_start": 28515,
+        "char_end": 28522,
+        "anchor": "PMC3422896_28515_28522",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 414,
+      "label": "discrete",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Functional specificity revealed by TDNA mutations",
+        "sentence_id": 117,
+        "char_start": 31149,
+        "char_end": 31157,
+        "anchor": "PMC3422896_31149_31157",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 416,
+      "label": "TDNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Functional specificity revealed by TDNA mutations",
+        "sentence_id": 117,
+        "char_start": 31224,
+        "char_end": 31228,
+        "anchor": "PMC3422896_31224_31228",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 417,
+      "label": "Aitken",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Functional specificity revealed by TDNA mutations",
+        "sentence_id": 117,
+        "char_start": 31105,
+        "char_end": 31111,
+        "anchor": "PMC3422896_31105_31111",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 420,
+      "label": "Mutant",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Functional specificity revealed by TDNA mutations",
+        "sentence_id": 118,
+        "char_start": 31365,
+        "char_end": 31371,
+        "anchor": "PMC3422896_31365_31371",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 423,
+      "label": "Yeast",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Functional specificity revealed by TDNA mutations",
+        "sentence_id": 120,
+        "char_start": 31592,
+        "char_end": 31597,
+        "anchor": "PMC3422896_31592_31597",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 428,
+      "label": "CON",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Functional specificity revealed by TDNA mutations",
+        "sentence_id": 120,
+        "char_start": 31705,
+        "char_end": 31708,
+        "anchor": "PMC3422896_31705_31708",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 440,
+      "label": "Plants",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Biochemical specificity",
+        "sentence_id": 127,
+        "char_start": 33287,
+        "char_end": 33293,
+        "anchor": "PMC3422896_33287_33293",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 461,
+      "label": "Bornke",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Biochemical specificity",
+        "sentence_id": 129,
+        "char_start": 34062,
+        "char_end": 34068,
+        "anchor": "PMC3422896_34062_34068",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 464,
+      "label": "Sinnige",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Biochemical specificity",
+        "sentence_id": 129,
+        "char_start": 34184,
+        "char_end": 34191,
+        "anchor": "PMC3422896_34184_34191",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 467,
+      "label": "peptide",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Biochemical specificity",
+        "sentence_id": 130,
+        "char_start": 34605,
+        "char_end": 34612,
+        "anchor": "PMC3422896_34605_34612",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 468,
+      "label": "Export",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Subcellular localization as a measure of specificity",
+        "sentence_id": 133,
+        "char_start": 35060,
+        "char_end": 35066,
+        "anchor": "PMC3422896_35060_35066",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 470,
+      "label": "nucleus",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Subcellular localization as a measure of specificity",
+        "sentence_id": 133,
+        "char_start": 35183,
+        "char_end": 35190,
+        "anchor": "PMC3422896_35183_35190",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 471,
+      "label": "Graves",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Subcellular localization as a measure of specificity",
+        "sentence_id": 133,
+        "char_start": 35192,
+        "char_end": 35198,
+        "anchor": "PMC3422896_35192_35198",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 472,
+      "label": "NES",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Subcellular localization as a measure of specificity",
+        "sentence_id": 133,
+        "char_start": 35075,
+        "char_end": 35078,
+        "anchor": "PMC3422896_35075_35078",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 473,
+      "label": "NES",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Subcellular localization as a measure of specificity",
+        "sentence_id": 135,
+        "char_start": 35551,
+        "char_end": 35554,
+        "anchor": "PMC3422896_35551_35554",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 474,
+      "label": "isoform",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Subcellular localization as a measure of specificity",
+        "sentence_id": 138,
+        "char_start": 35840,
+        "char_end": 35847,
+        "anchor": "PMC3422896_35840_35847",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 476,
+      "label": "proteins",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Subcellular localization as a measure of specificity",
+        "sentence_id": 140,
+        "char_start": 36271,
+        "char_end": 36279,
+        "anchor": "PMC3422896_36271_36279",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 477,
+      "label": "randomly",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Subcellular localization as a measure of specificity",
+        "sentence_id": 140,
+        "char_start": 36315,
+        "char_end": 36323,
+        "anchor": "PMC3422896_36315_36323",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 478,
+      "label": "distinct",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Subcellular localization as a measure of specificity",
+        "sentence_id": 142,
+        "char_start": 36692,
+        "char_end": 36700,
+        "anchor": "PMC3422896_36692_36700",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 479,
+      "label": "izations",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Subcellular localization as a measure of specificity",
+        "sentence_id": 142,
+        "char_start": 36725,
+        "char_end": 36733,
+        "anchor": "PMC3422896_36725_36733",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 483,
+      "label": "Sehnke",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Subcellular localization as a measure of specificity",
+        "sentence_id": 142,
+        "char_start": 36806,
+        "char_end": 36812,
+        "anchor": "PMC3422896_36806_36812",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 484,
+      "label": "Paul",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Subcellular localization as a measure of specificity",
+        "sentence_id": 142,
+        "char_start": 36984,
+        "char_end": 36988,
+        "anchor": "PMC3422896_36984_36988",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 486,
+      "label": "limited",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Subcellular localization as a measure of specificity",
+        "sentence_id": 155,
+        "char_start": 38840,
+        "char_end": 38847,
+        "anchor": "PMC3422896_38840_38847",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 493,
+      "label": "GFP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Subcellular localization as a measure of specificity",
+        "sentence_id": 160,
+        "char_start": 39632,
+        "char_end": 39635,
+        "anchor": "PMC3422896_39632_39635",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 509,
+      "label": "studies",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Model And Theory For Specificity",
+        "sentence_id": 166,
+        "char_start": 41732,
+        "char_end": 41739,
+        "anchor": "PMC3422896_41732_41739",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 513,
+      "label": "distinct",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Model And Theory For Specificity",
+        "sentence_id": 168,
+        "char_start": 42059,
+        "char_end": 42067,
+        "anchor": "PMC3422896_42059_42067",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 514,
+      "label": "related",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Model And Theory For Specificity",
+        "sentence_id": 170,
+        "char_start": 42337,
+        "char_end": 42344,
+        "anchor": "PMC3422896_42337_42344",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 520,
+      "label": "Redunda",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Model And Theory For Specificity",
+        "sentence_id": 174,
+        "char_start": 43178,
+        "char_end": 43185,
+        "anchor": "PMC3422896_43178_43185",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 524,
+      "label": "Guard",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Model And Theory For Specificity",
+        "sentence_id": 176,
+        "char_start": 43594,
+        "char_end": 43599,
+        "anchor": "PMC3422896_43594_43599",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 526,
+      "label": "GFP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Model And Theory For Specificity",
+        "sentence_id": 176,
+        "char_start": 43638,
+        "char_end": 43641,
+        "anchor": "PMC3422896_43638_43641",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 529,
+      "label": "Science",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Model And Theory For Specificity",
+        "sentence_id": 182,
+        "char_start": 44420,
+        "char_end": 44427,
+        "anchor": "PMC3422896_44420_44427",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 530,
+      "label": "teomics",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Model And Theory For Specificity",
+        "sentence_id": 182,
+        "char_start": 44439,
+        "char_end": 44446,
+        "anchor": "PMC3422896_44439_44446",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 531,
+      "label": "mutation",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Model And Theory For Specificity",
+        "sentence_id": 182,
+        "char_start": 44452,
+        "char_end": 44460,
+        "anchor": "PMC3422896_44452_44460",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 534,
+      "label": "peptide",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Model And Theory For Specificity",
+        "sentence_id": 185,
+        "char_start": 45027,
+        "char_end": 45034,
+        "anchor": "PMC3422896_45027_45034",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 540,
+      "label": "isoforms",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Model And Theory For Specificity",
+        "sentence_id": 187,
+        "char_start": 45397,
+        "char_end": 45405,
+        "anchor": "PMC3422896_45397_45405",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 545,
+      "label": "Akt",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Model And Theory For Specificity",
+        "sentence_id": 191,
+        "char_start": 46010,
+        "char_end": 46013,
+        "anchor": "PMC3422896_46010_46013",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 547,
+      "label": "knockout",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Model And Theory For Specificity",
+        "sentence_id": 192,
+        "char_start": 46148,
+        "char_end": 46156,
+        "anchor": "PMC3422896_46148_46156",
+        "page": 9,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-5-6",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "id": "synth-5-11",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 11
+    },
+    {
+      "id": "synth-5-13",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 13
+    },
+    {
+      "id": "synth-5-25",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 25
+    },
+    {
+      "id": "synth-5-26",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 26
+    },
+    {
+      "id": "synth-5-27",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 27
+    },
+    {
+      "id": "synth-5-29",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 29
+    },
+    {
+      "id": "synth-5-30",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 30
+    },
+    {
+      "id": "synth-5-31",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 31
+    },
+    {
+      "id": "synth-5-32",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 32
+    },
+    {
+      "id": "synth-5-34",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 34
+    },
+    {
+      "id": "synth-5-37",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 37
+    },
+    {
+      "id": "synth-5-39",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 39
+    },
+    {
+      "id": "synth-5-43",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 43
+    },
+    {
+      "id": "synth-5-45",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 45
+    },
+    {
+      "id": "synth-5-47",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 47
+    },
+    {
+      "id": "synth-5-48",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 48
+    },
+    {
+      "id": "synth-5-49",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 49
+    },
+    {
+      "id": "synth-5-50",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 50
+    },
+    {
+      "id": "synth-5-53",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 53
+    },
+    {
+      "id": "synth-5-55",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 55
+    },
+    {
+      "id": "synth-5-56",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 56
+    },
+    {
+      "id": "synth-5-57",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 57
+    },
+    {
+      "id": "synth-5-60",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 60
+    },
+    {
+      "id": "synth-5-61",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 61
+    },
+    {
+      "id": "synth-5-62",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 62
+    },
+    {
+      "id": "synth-5-78",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 78
+    },
+    {
+      "id": "synth-5-80",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 80
+    },
+    {
+      "id": "synth-5-83",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 83
+    },
+    {
+      "id": "synth-5-84",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 84
+    },
+    {
+      "id": "synth-5-85",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 85
+    },
+    {
+      "id": "synth-5-86",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 86
+    },
+    {
+      "id": "synth-5-87",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 87
+    },
+    {
+      "id": "synth-5-91",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 91
+    },
+    {
+      "id": "synth-5-93",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 93
+    },
+    {
+      "id": "synth-5-94",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 94
+    },
+    {
+      "id": "synth-5-98",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 98
+    },
+    {
+      "id": "synth-5-99",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 99
+    },
+    {
+      "id": "synth-5-103",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 103
+    },
+    {
+      "id": "synth-5-108",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 108
+    },
+    {
+      "id": "synth-5-112",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 112
+    },
+    {
+      "id": "synth-5-113",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 113
+    },
+    {
+      "id": "synth-5-119",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 119
+    },
+    {
+      "id": "synth-5-120",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 120
+    },
+    {
+      "id": "synth-5-121",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 121
+    },
+    {
+      "id": "synth-5-123",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 123
+    },
+    {
+      "id": "synth-5-124",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 124
+    },
+    {
+      "id": "synth-5-125",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 125
+    },
+    {
+      "id": "synth-5-132",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 132
+    },
+    {
+      "id": "synth-5-134",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 134
+    },
+    {
+      "id": "synth-5-135",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 135
+    },
+    {
+      "id": "synth-5-138",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 138
+    },
+    {
+      "id": "synth-5-141",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 141
+    },
+    {
+      "id": "synth-5-142",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 142
+    },
+    {
+      "id": "synth-5-143",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 143
+    },
+    {
+      "id": "synth-5-147",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 147
+    },
+    {
+      "id": "synth-5-148",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 148
+    },
+    {
+      "id": "synth-5-149",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 149
+    },
+    {
+      "id": "synth-5-168",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 168
+    },
+    {
+      "id": "synth-5-170",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 170
+    },
+    {
+      "id": "synth-5-215",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 215
+    },
+    {
+      "id": "synth-5-230",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 230
+    },
+    {
+      "id": "synth-5-232",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 232
+    },
+    {
+      "id": "synth-5-233",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 233
+    },
+    {
+      "id": "synth-5-234",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 234
+    },
+    {
+      "id": "synth-5-236",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 236
+    },
+    {
+      "id": "synth-5-238",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 238
+    },
+    {
+      "id": "synth-5-239",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 239
+    },
+    {
+      "id": "synth-5-241",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 241
+    },
+    {
+      "id": "synth-5-242",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 242
+    },
+    {
+      "id": "synth-5-244",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 244
+    },
+    {
+      "id": "synth-5-246",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 246
+    },
+    {
+      "id": "synth-5-248",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 248
+    },
+    {
+      "id": "synth-5-249",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 249
+    },
+    {
+      "id": "synth-5-253",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 253
+    },
+    {
+      "id": "synth-5-254",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 254
+    },
+    {
+      "id": "synth-5-257",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 257
+    },
+    {
+      "id": "synth-5-283",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 283
+    },
+    {
+      "id": "synth-5-287",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 287
+    },
+    {
+      "id": "synth-5-289",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 289
+    },
+    {
+      "id": "synth-5-290",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 290
+    },
+    {
+      "id": "synth-5-298",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 298
+    },
+    {
+      "id": "synth-5-302",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 302
+    },
+    {
+      "id": "synth-5-304",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 304
+    },
+    {
+      "id": "synth-5-317",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 317
+    },
+    {
+      "id": "synth-5-318",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 318
+    },
+    {
+      "id": "synth-5-322",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 322
+    },
+    {
+      "id": "synth-5-330",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 330
+    },
+    {
+      "id": "synth-5-351",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 351
+    },
+    {
+      "id": "synth-5-354",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 354
+    },
+    {
+      "id": "synth-5-357",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 357
+    },
+    {
+      "id": "synth-5-359",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 359
+    },
+    {
+      "id": "synth-5-360",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 360
+    },
+    {
+      "id": "synth-5-370",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 370
+    },
+    {
+      "id": "synth-5-372",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 372
+    },
+    {
+      "id": "synth-5-377",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 377
+    },
+    {
+      "id": "synth-5-379",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 379
+    },
+    {
+      "id": "synth-5-380",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 380
+    },
+    {
+      "id": "synth-5-383",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 383
+    },
+    {
+      "id": "synth-5-384",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 384
+    },
+    {
+      "id": "synth-5-414",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 414
+    },
+    {
+      "id": "synth-5-416",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 416
+    },
+    {
+      "id": "synth-5-417",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 417
+    },
+    {
+      "id": "synth-5-420",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 420
+    },
+    {
+      "id": "synth-5-423",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 423
+    },
+    {
+      "id": "synth-5-428",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 428
+    },
+    {
+      "id": "synth-5-440",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 440
+    },
+    {
+      "id": "synth-5-461",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 461
+    },
+    {
+      "id": "synth-5-464",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 464
+    },
+    {
+      "id": "synth-5-467",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 467
+    },
+    {
+      "id": "synth-5-468",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 468
+    },
+    {
+      "id": "synth-5-470",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 470
+    },
+    {
+      "id": "synth-5-471",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 471
+    },
+    {
+      "id": "synth-5-472",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 472
+    },
+    {
+      "id": "synth-5-473",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 473
+    },
+    {
+      "id": "synth-5-474",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 474
+    },
+    {
+      "id": "synth-5-476",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 476
+    },
+    {
+      "id": "synth-5-477",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 477
+    },
+    {
+      "id": "synth-5-478",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 478
+    },
+    {
+      "id": "synth-5-479",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 479
+    },
+    {
+      "id": "synth-5-483",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 483
+    },
+    {
+      "id": "synth-5-484",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 484
+    },
+    {
+      "id": "synth-5-486",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 486
+    },
+    {
+      "id": "synth-5-493",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 493
+    },
+    {
+      "id": "synth-5-509",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 509
+    },
+    {
+      "id": "synth-5-513",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 513
+    },
+    {
+      "id": "synth-5-514",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 514
+    },
+    {
+      "id": "synth-5-520",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 520
+    },
+    {
+      "id": "synth-5-524",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 524
+    },
+    {
+      "id": "synth-5-526",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 526
+    },
+    {
+      "id": "synth-5-529",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 529
+    },
+    {
+      "id": "synth-5-530",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 530
+    },
+    {
+      "id": "synth-5-531",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 531
+    },
+    {
+      "id": "synth-5-534",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 534
+    },
+    {
+      "id": "synth-5-540",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 540
+    },
+    {
+      "id": "synth-5-545",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 545
+    },
+    {
+      "id": "synth-5-547",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 547
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "GENE_PRODUCT",
+    "page": null
+  }
+}

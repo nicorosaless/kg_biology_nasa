@@ -1,0 +1,208 @@
+{
+  "intro": "Long-duration space travel poses health risks to astronauts, with space radiation and microgravity being key factors. Space radiation on the ISS differs from that on Earth, comprising protons and HZE ions. While HZE ions' carcinogenic potential is a major concern for missions beyond LEO, LEO radiation primarily consists of low-energy protons.",
+  "sections": [
+    {
+      "heading": "Global Analysis of Simulated Space Radiation",
+      "summary": "The study investigated space radiation's impact on the cardiovascular system using three GeneLab datasets (GLDS-52, -117, -109). Datasets GLDS-117 and GLDS-109 involved exposing male C57BL/6 mice to 900 mGy proton and 150 mGy 56Fe irradiation, respectively, followed by cardiomyocyte isolation at different time points. GLDS-52 involved cultivating HUVECs on the ISS for 7 days. Microarray data was analyzed separately for each dataset using ANOVA or t-tests.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Dose Received by HUVECs Flown in Space",
+      "summary": "HUVECs flown on the ISS as part of the ESA-SPHINX experiment received an average dose rate of 220.43 µGy/day (in water), totaling 1.544 mGy (in water) with a dose equivalent to 3.7 mSv. High-energy protons and other GCR ions accounted for 58% of the dose, and low-energy protons in the SAA contributed 42%. The actual dose to the samples may have been slightly lower due to incubator shielding. The distinction between particle energy and LET is important, with both high- and low-energy protons having relatively low LET.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Common Pathways Between Simulated Space Radiation",
+      "summary": "Gene set enrichment analysis (GSEA) was used to identify commonly regulated pathways between ground controls compared to spaceflight and irradiated samples, using Hallmarks and Reactome gene sets. The majority of pathways were downregulated after radiation exposure in cardiomyocytes, consistent with observations in HUVEC spaceflight samples. ROS pathways were also downregulated, indicating a decrease in ROS production. Fatty acid metabolism, which is linked to ROS formation, was also downregulated. This suggests an immediate and persistent impact of space radiation on the cardiovascular system.",
+      "figures": [
+        {
+          "id": "fig_2",
+          "order": 2,
+          "caption": "Figure 1.Global transcriptome analysis comparing experimental conditions to the controls for ground space radiation experiments and spaceflight experiment.The datasets analyzed were GeneLab Dataset (GLDS)-117 for cardiomyocytes isolated from C57BL/6 irradiated with whole body 900 mGy of proton at 1 GeV, GLDS-109 for cardiomyocytes isolated from C57BL/6 irradiated with whole body 150 mGy of56 Fe at 1 GeV/n, and GLDS-52 for Human Umbilical Vein Endothelial Cells (HUVECs) incubated on the International Space Station (ISS) for 7 days (estimated dose 1.5 mGy, see Section 2.2). (A-C) Principal component analysis (PCA) of all conditions for each dataset for genes.The percentage variance is shown for each principal component (PC) in parenthesis next to the PC axis.(D-F) Heat maps representing hierarchical clustering of significantly regulated genes by complete linkage and Euclidean distance calculation for datasets and conditions.",
+          "label": "Figure 1 .",
+          "type": "figure",
+          "image_path": "figures/fig_2.png"
+        },
+        {
+          "id": "fig_3",
+          "order": 3,
+          "caption": "Figure 2. Gene set enrichment analysis (GSEA) emphasizing the hallmark gene sets commonly enriched in cardiomyocytes of irradiated animals or HUVECs flown in space.(A) Common Hallmark gene sets enriched in spaceflight samples and irradiated samples.The majority of these datasets are downregulated.(B) Hallmark gene sets that are oppositely regulated between all irradiated samples and the spaceflight samples.(C) Hallmark gene sets commonly enriched in cardiomyocytes of animals irradiated with 1 GeV/n proton or HUVECs flown in space.Note, most of them are upregulated.(D) Hallmark gene sets commonly enriched in cardiomyocytes of animals irradiated with 1 GeV/n 56 Fe or HUVECs flown in space.Note, most of them are downregulated for 56 Fe and spaceflight samples.Note: all samples were comparing experimental conditions with the respective controls.For figures (C,D), the common wedges are highlighted in yellow outline.The significant gene sets were determined with false discovery rate (FDR) ≤ 0.05.The legend in the middle of the figure displays what each component/wedge of the nodes represent.Each node contains 11 wedges for each condition and the color of each wedge indicates if the gene set is downregulated (blue) or upregulated (red).The shade of the color indicates the degree of regulation.Each node represents one gene set and the size of the node indicates the number of genes involved with the predictions.Pathways with more than one node are grouped together in the black boxes under each major category.",
+          "label": "Figure 2 .",
+          "type": "figure",
+          "image_path": "figures/fig_3.png"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "Biological Pathways and Proton Overlap",
+      "summary": "The study compared predicted pathways from radiation conditions with spaceflight samples to determine if a specific radiation type had a predominant effect. Results showed that the majority of pathways common to protons and spaceflight were upregulated, while those common to 56Fe and spaceflight were downregulated. TGFβ signaling was identified as a key regulator in proton irradiation. Ingenuity Pathway Analysis (IPA) validated these findings, with MYC being downregulated and upstream regulators such as p53, HIF1A, IL2, and IL6 showing consistent activation/inhibition patterns. mTOR signaling also overlapped with GSEA predictions. Principal component analysis of IPA Z-scores showed that cardiomyocyte samples irradiated clustered together separately from 56Fe irradiated samples and controls, suggesting a stronger overlap between proton irradiation and spaceflight.",
+      "figures": [
+        {
+          "id": "fig_2",
+          "order": 2,
+          "caption": "Figure 1.Global transcriptome analysis comparing experimental conditions to the controls for ground space radiation experiments and spaceflight experiment.The datasets analyzed were GeneLab Dataset (GLDS)-117 for cardiomyocytes isolated from C57BL/6 irradiated with whole body 900 mGy of proton at 1 GeV, GLDS-109 for cardiomyocytes isolated from C57BL/6 irradiated with whole body 150 mGy of56 Fe at 1 GeV/n, and GLDS-52 for Human Umbilical Vein Endothelial Cells (HUVECs) incubated on the International Space Station (ISS) for 7 days (estimated dose 1.5 mGy, see Section 2.2). (A-C) Principal component analysis (PCA) of all conditions for each dataset for genes.The percentage variance is shown for each principal component (PC) in parenthesis next to the PC axis.(D-F) Heat maps representing hierarchical clustering of significantly regulated genes by complete linkage and Euclidean distance calculation for datasets and conditions.",
+          "label": "Figure 1 .",
+          "type": "figure",
+          "image_path": "figures/fig_2.png"
+        },
+        {
+          "id": "fig_4",
+          "order": 4,
+          "caption": "Figure 2. Gene set enrichment analysis (GSEA) emphasizing the hallmark gene sets commonly enriched in cardiomyocytes of irradiated animals or HUVECs flown in space.(A) Common Hallmark gene sets enriched in spaceflight samples and irradiated samples.The majority of these datasets are downregulated.(B) Hallmark gene sets that are oppositely regulated between all irradiated samples and the spaceflight samples.(C) Hallmark gene sets commonly enriched in cardiomyocytes of animals irradiated with 1 GeV/n proton or HUVECs flown in space.Note, most of them are upregulated.(D) Hallmark gene sets commonly enriched in cardiomyocytes of animals irradiated with 1 GeV/n 56 Fe or HUVECs flown in space.Note, most of them are downregulated for 56 Fe and spaceflight samples.Note: all samples were comparing experimental conditions with the respective controls.For figures (C,D), the common wedges are highlighted in yellow outline.The significant gene sets were determined with false discovery rate (FDR) ≤ 0.05.The legend in the middle of the figure displays what each component/wedge of the nodes represent.Each node contains 11 wedges for each condition and the color of each wedge indicates if the gene set is downregulated (blue) or upregulated (red).The shade of the color indicates the degree of regulation.Each node represents one gene set and the size of the node indicates the number of genes involved with the predictions.Pathways with more than one node are grouped together in the black boxes under each major category.",
+          "label": "Figure 2 .",
+          "type": "figure",
+          "image_path": "figures/fig_4.png"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "Key Driving Genes Direct Connection to ROS",
+      "summary": "To identify key driving genes, an unbiased systems biology approach was used to determine the genes involved in biological functions altered by radiation. Pooling all irradiated time points allowed identification of common key driving genes for each radiation type. The 7-day and 28-day time points for 56Fe were excluded from key gene analysis due to their behavior as outliers. Heat maps represented the activation Z-scores to visualize gene activation or inhibition.",
+      "figures": [
+        {
+          "id": "fig_4",
+          "order": 4,
+          "caption": "Figure 2. Gene set enrichment analysis (GSEA) emphasizing the hallmark gene sets commonly enriched in cardiomyocytes of irradiated animals or HUVECs flown in space.(A) Common Hallmark gene sets enriched in spaceflight samples and irradiated samples.The majority of these datasets are downregulated.(B) Hallmark gene sets that are oppositely regulated between all irradiated samples and the spaceflight samples.(C) Hallmark gene sets commonly enriched in cardiomyocytes of animals irradiated with 1 GeV/n proton or HUVECs flown in space.Note, most of them are upregulated.(D) Hallmark gene sets commonly enriched in cardiomyocytes of animals irradiated with 1 GeV/n 56 Fe or HUVECs flown in space.Note, most of them are downregulated for 56 Fe and spaceflight samples.Note: all samples were comparing experimental conditions with the respective controls.For figures (C,D), the common wedges are highlighted in yellow outline.The significant gene sets were determined with false discovery rate (FDR) ≤ 0.05.The legend in the middle of the figure displays what each component/wedge of the nodes represent.Each node contains 11 wedges for each condition and the color of each wedge indicates if the gene set is downregulated (blue) or upregulated (red).The shade of the color indicates the degree of regulation.Each node represents one gene set and the size of the node indicates the number of genes involved with the predictions.Pathways with more than one node are grouped together in the black boxes under each major category.",
+          "label": "Figure 2 .",
+          "type": "figure",
+          "image_path": "figures/fig_4.png"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "Predicted Circulating MiRNA Signature",
+      "summary": "Using the Cytoscape plugin ClueGo, the study predicted the top 30 miRNAs associated with the identified key genes. These miRNAs were hypothesized to be linked to cardiovascular risk from space radiation. Notably, many of these miRNAs have been previously associated with cardiovascular disease. For example, 17 miRNAs have been linked to heart disease and heart failure models. The let-7 family and miR-125b were specifically shown to regulate cardiomyocyte apoptosis. Three miRNAs (miR-125b-5p, miR-16-5p, and let-7a) overlapped with previously predicted miRNAs associated with the space environment.",
+      "figures": [
+        {
+          "id": "fig_6",
+          "order": 6,
+          "caption": "Figure 3. Gene set enrichment analysis (GSEA) with the Reactome gene sets comparing different time-points after irradiation with either protons or 56 Fe with the HUVECs flown in the space.All samples were comparing experimental conditions with the respective controls.The significant gene sets were determined with FDR ≤ 0.05.Each node represents one gene set and the size of the node indicates the number of genes involved with the predictions.Each node contains 11 wedges for each condition and the color of each wedge indicates if the gene set is downregulated (blue) or upregulated (red).The shade of the color indicates degree of regulation.",
+          "label": "Figure 3 .",
+          "type": "figure",
+          "image_path": "figures/fig_6.png"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "Discussion",
+      "summary": "The study utilized GeneLab datasets to assess the impact of space radiation on the cardiovascular system using an unbiased systems biology approach. Key findings include that the radiation on the ISS is potentially from protons. A novel response mechanism prevents damage through FYN activation. FYN is proposed as the central hub in the common biological response, with a feedback loop initiated by oxidative stress upregulating FYN, which then reduces ROS levels. This analysis also showed a potential increased cardiovascular health risk due to increased predictions of inflammation.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Figure 7",
+      "summary": "The mechanism involves FYN upregulation to reduce ROS, protecting against damage. FYN, part of the SRC family kinases, reduces ROS production and apoptosis. FYN knockout increases cardiac cell death and ROS production. FYN activation phosphorylates NRF2, triggering a defense response to ROS. Space radiation induces ROS and impacts the host. Oxidative stress caused by radiation upregulates FYN, decreasing ROS levels.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Datasets Utilized from GeneLab Platform",
+      "summary": "The study used GeneLab datasets GLDS-52, -109, and -117, detailing spaceflight and ground radiation experiments. Ground studies used cardiomyocytes from C57BL/6NT mice irradiated with 900 mGy protons or 150 mGy iron ions, with time points up to 28 days post-irradiation. Spaceflight study exposed HUVECs to the ISS environment.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Transcriptomic Analysis",
+      "summary": "Transcriptomic data from GLDS-52, -109, and -117 datasets were analyzed using RMAExpress for background adjustment and quantile normalization. Probes were median collapsed using GenePattern. MultiExperiment Viewer was used to determine statistically significant genes using ANOVA for GLDS-109 and -117, and t-tests for GLDS-52. Pathway analysis and predictions were performed using statistically significant genes with a fold-change ≥1.2 (or ≤-1.2). IPA software was used to predict upstream regulators, pathways, and biofunctions using activation Z-scores. GSEA was performed.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Determination of Key Genes/Drivers",
+      "summary": "Key genes/drivers were determined using a systems biology method by identifying overlapping genes involved in IPA's upstream regulators, pathways, biofunctions, and GSEA gene sets. These genes are considered central drivers, and their absence would nullify the predictions. The pathway predictions involved with gene overlaps were adjusted. Key genes were determined by overlapping genes in the GSEA Hallmarks Gene Set analysis with the IPA predictions. The gene with the highest number of connections was considered the central hub and plotted using the radial plot tool.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "MicroRNA (miRNA) Predictions",
+      "summary": "The Cytoscape plugin ClueGo was used to predict miRNAs based on the determined key genes. All key genes were entered into ClueGo to determine the top 30 miRNAs that were significantly regulated and connected to the key genes.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": "The study leverages NASA GeneLab datasets to demonstrate the potential long-term impacts of space radiation on the cardiovascular system, highlighting the role of FYN activation in mitigating oxidative stress. The findings suggest that protons are the primary source of radiation exposure on the ISS, and that the FYN-mediated response is a protective mechanism against space radiation-induced cardiovascular damage. Predicted circulating miRNAs associated with cardiovascular risk provide potential biomarkers for monitoring astronaut health during long-duration space missions.",
+  "keywords": [
+    "space radiation",
+    "cardiovascular system",
+    "genelab",
+    "fyn",
+    "reactive oxygen species",
+    "proteomics",
+    "mirna",
+    "protons",
+    "hze ions",
+    "transcriptomics"
+  ],
+  "topics": [
+    "space biology",
+    "systems biology",
+    "cardiovascular health"
+  ],
+  "_meta": {
+    "paper_id": "sha256:533468f3de6b1839f4b3562f846dd73cdba03ac6180b6794bb8222e21ba03c79",
+    "paper_title": "GeneLab Database Analyses Suggest Long-Term Impact of Space Radiation on the Cardiovascular System by the Activation",
+    "generated_at": "2025-10-04T23:25:38Z",
+    "word_count": 901,
+    "figures": [
+      "fig_2",
+      "fig_3",
+      "fig_4",
+      "fig_6"
+    ],
+    "equations": [],
+    "keywords": [
+      "space radiation",
+      "cardiovascular system",
+      "genelab",
+      "fyn",
+      "reactive oxygen species",
+      "proteomics",
+      "mirna",
+      "protons",
+      "hze ions",
+      "transcriptomics"
+    ],
+    "topics": [
+      "space biology",
+      "systems biology",
+      "cardiovascular health"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 9043,
+      "completion_tokens": 1804,
+      "total_tokens": 10847,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000904,
+      "output_usd": 0.000722,
+      "total_usd": 0.001626
+    },
+    "cost": {
+      "input_usd": 0.000904,
+      "output_usd": 0.000722,
+      "total_usd": 0.001626
+    }
+  }
+}

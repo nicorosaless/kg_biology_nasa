@@ -1,0 +1,255 @@
+{
+  "paper_id": "PMC5397022",
+  "section": "RNAlater treatment alters transcript levels in Arabidopsis seedlings",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 79,
+      "label": "RNAlater",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater treatment alters transcript levels in Arabidopsis seedlings",
+        "sentence_id": 22,
+        "char_start": 3780,
+        "char_end": 3788,
+        "anchor": "PMC5397022_3780_3788",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 80,
+      "label": "impacted",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater treatment alters transcript levels in Arabidopsis seedlings",
+        "sentence_id": 22,
+        "char_start": 3799,
+        "char_end": 3807,
+        "anchor": "PMC5397022_3799_3807",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 82,
+      "label": "Inc",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater treatment alters transcript levels in Arabidopsis seedlings",
+        "sentence_id": 22,
+        "char_start": 3938,
+        "char_end": 3941,
+        "anchor": "PMC5397022_3938_3941",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 83,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater treatment alters transcript levels in Arabidopsis seedlings",
+        "sentence_id": 22,
+        "char_start": 3960,
+        "char_end": 3963,
+        "anchor": "PMC5397022_3960_3963",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 84,
+      "label": "freezing",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater treatment alters transcript levels in Arabidopsis seedlings",
+        "sentence_id": 22,
+        "char_start": 4001,
+        "char_end": 4009,
+        "anchor": "PMC5397022_4001_4009",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 85,
+      "label": "RNAseq",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater treatment alters transcript levels in Arabidopsis seedlings",
+        "sentence_id": 22,
+        "char_start": 4019,
+        "char_end": 4025,
+        "anchor": "PMC5397022_4019_4025",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 87,
+      "label": "RNAlater",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater treatment alters transcript levels in Arabidopsis seedlings",
+        "sentence_id": 22,
+        "char_start": 3780,
+        "char_end": 3788,
+        "anchor": "PMC5397022_3780_3788",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 115,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 79,
+      "target": 80
+    },
+    {
+      "id": 116,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 79,
+      "target": 82
+    },
+    {
+      "id": 117,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 79,
+      "target": 83
+    },
+    {
+      "id": 118,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 79,
+      "target": 84
+    },
+    {
+      "id": 119,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 79,
+      "target": 85
+    },
+    {
+      "id": 120,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 79,
+      "target": 87
+    },
+    {
+      "id": 122,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 80,
+      "target": 82
+    },
+    {
+      "id": 123,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 80,
+      "target": 83
+    },
+    {
+      "id": 124,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 80,
+      "target": 84
+    },
+    {
+      "id": 125,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 80,
+      "target": 85
+    },
+    {
+      "id": 126,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 80,
+      "target": 87
+    },
+    {
+      "id": 128,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 82,
+      "target": 83
+    },
+    {
+      "id": 129,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 82,
+      "target": 84
+    },
+    {
+      "id": 130,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 82,
+      "target": 85
+    },
+    {
+      "id": 131,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 82,
+      "target": 87
+    },
+    {
+      "id": 133,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 83,
+      "target": 84
+    },
+    {
+      "id": 134,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 83,
+      "target": 85
+    },
+    {
+      "id": 135,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 83,
+      "target": 87
+    },
+    {
+      "id": 137,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 84,
+      "target": 85
+    },
+    {
+      "id": 138,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 84,
+      "target": 87
+    },
+    {
+      "id": 140,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 85,
+      "target": 87
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 16,
+      "largest_component": 7,
+      "removed_components": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 1
+  }
+}

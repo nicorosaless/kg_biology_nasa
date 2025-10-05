@@ -1,0 +1,156 @@
+{
+  "paper_id": "PMC4405755",
+  "section": "Elevated muscle PGC-1α completely prevented pro-fusion protein down-regulation and ACC activation",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 544,
+      "label": "OPA1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Elevated muscle PGC-1α completely prevented pro-fusion protein down-regulation and ACC activation",
+        "sentence_id": 136,
+        "char_start": 24643,
+        "char_end": 24647,
+        "anchor": "PMC4405755_24643_24647",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 545,
+      "label": "ACC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Elevated muscle PGC-1α completely prevented pro-fusion protein down-regulation and ACC activation",
+        "sentence_id": 136,
+        "char_start": 24652,
+        "char_end": 24655,
+        "anchor": "PMC4405755_24652_24655",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 546,
+      "label": "Mfn1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Elevated muscle PGC-1α completely prevented pro-fusion protein down-regulation and ACC activation",
+        "sentence_id": 136,
+        "char_start": 24631,
+        "char_end": 24635,
+        "anchor": "PMC4405755_24631_24635",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 547,
+      "label": "OPA1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Elevated muscle PGC-1α completely prevented pro-fusion protein down-regulation and ACC activation",
+        "sentence_id": 136,
+        "char_start": 24643,
+        "char_end": 24647,
+        "anchor": "PMC4405755_24643_24647",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 548,
+      "label": "ACC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Elevated muscle PGC-1α completely prevented pro-fusion protein down-regulation and ACC activation",
+        "sentence_id": 136,
+        "char_start": 24652,
+        "char_end": 24655,
+        "anchor": "PMC4405755_24652_24655",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 680,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 544,
+      "target": 545
+    },
+    {
+      "id": 681,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 544,
+      "target": 546
+    },
+    {
+      "id": 682,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 544,
+      "target": 547
+    },
+    {
+      "id": 683,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 544,
+      "target": 548
+    },
+    {
+      "id": 684,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 545,
+      "target": 546
+    },
+    {
+      "id": 685,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 545,
+      "target": 547
+    },
+    {
+      "id": 686,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 545,
+      "target": 548
+    },
+    {
+      "id": 687,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 546,
+      "target": 547
+    },
+    {
+      "id": 688,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 546,
+      "target": 548
+    },
+    {
+      "id": 689,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 547,
+      "target": 548
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 2,
+      "largest_component": 5,
+      "removed_components": [
+        4
+      ]
+    },
+    "page": 8
+  }
+}

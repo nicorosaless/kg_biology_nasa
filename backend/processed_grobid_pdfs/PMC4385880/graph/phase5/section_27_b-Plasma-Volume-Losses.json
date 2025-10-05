@@ -1,0 +1,87 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "b) Plasma Volume Losses",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 2217,
+      "label": "Norsk",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "b) Plasma Volume Losses",
+        "sentence_id": 693,
+        "char_start": 115139,
+        "char_end": 115144,
+        "anchor": "PMC4385880_115139_115144",
+        "page": 54,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2214,
+      "label": "Nor",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "b) Plasma Volume Losses",
+        "sentence_id": 693,
+        "char_start": 115139,
+        "char_end": 115142,
+        "anchor": "PMC4385880_115139_115142",
+        "page": 54,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2215,
+      "label": "negative",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "b) Plasma Volume Losses",
+        "sentence_id": 693,
+        "char_start": 115166,
+        "char_end": 115174,
+        "anchor": "PMC4385880_115166_115174",
+        "page": 54,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 2349,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2214,
+      "target": 2215
+    },
+    {
+      "id": 2350,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2214,
+      "target": 2217
+    },
+    {
+      "id": 2351,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2215,
+      "target": 2217
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 17,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 54
+  }
+}

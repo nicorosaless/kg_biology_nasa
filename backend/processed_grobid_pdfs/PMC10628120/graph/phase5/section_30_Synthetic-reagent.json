@@ -1,0 +1,30 @@
+{
+  "paper_id": "PMC10628120",
+  "section": "Synthetic REAGENT",
+  "n_nodes": 1,
+  "n_edges": 0,
+  "nodes": [
+    {
+      "id": 216,
+      "label": "ethanol",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Chemotaxonomy",
+        "sentence_id": 63,
+        "char_start": 14295,
+        "char_end": 14302,
+        "anchor": "PMC10628120_14295_14302",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "REAGENT",
+    "page": null
+  }
+}

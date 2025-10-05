@@ -1,0 +1,255 @@
+{
+  "paper_id": "PMC4624184",
+  "section": "Culture-based microbial diversity",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 179,
+      "label": "isolate",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Culture-based microbial diversity",
+        "sentence_id": 63,
+        "char_start": 11125,
+        "char_end": 11132,
+        "anchor": "PMC4624184_11125_11132",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 180,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Culture-based microbial diversity",
+        "sentence_id": 63,
+        "char_start": 11140,
+        "char_end": 11143,
+        "anchor": "PMC4624184_11140_11143",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 181,
+      "label": "Pen",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Culture-based microbial diversity",
+        "sentence_id": 63,
+        "char_start": 11254,
+        "char_end": 11257,
+        "anchor": "PMC4624184_11254_11257",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 182,
+      "label": "icillium",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Culture-based microbial diversity",
+        "sentence_id": 63,
+        "char_start": 11257,
+        "char_end": 11265,
+        "anchor": "PMC4624184_11257_11265",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 183,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Culture-based microbial diversity",
+        "sentence_id": 63,
+        "char_start": 11404,
+        "char_end": 11407,
+        "anchor": "PMC4624184_11404_11407",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 184,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Culture-based microbial diversity",
+        "sentence_id": 63,
+        "char_start": 11140,
+        "char_end": 11143,
+        "anchor": "PMC4624184_11140_11143",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 185,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Culture-based microbial diversity",
+        "sentence_id": 63,
+        "char_start": 11404,
+        "char_end": 11407,
+        "anchor": "PMC4624184_11404_11407",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 203,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 179,
+      "target": 180
+    },
+    {
+      "id": 204,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 179,
+      "target": 181
+    },
+    {
+      "id": 205,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 179,
+      "target": 182
+    },
+    {
+      "id": 206,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 179,
+      "target": 183
+    },
+    {
+      "id": 207,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 179,
+      "target": 184
+    },
+    {
+      "id": 208,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 179,
+      "target": 185
+    },
+    {
+      "id": 209,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 180,
+      "target": 181
+    },
+    {
+      "id": 210,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 180,
+      "target": 182
+    },
+    {
+      "id": 211,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 180,
+      "target": 183
+    },
+    {
+      "id": 212,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 180,
+      "target": 184
+    },
+    {
+      "id": 213,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 180,
+      "target": 185
+    },
+    {
+      "id": 214,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 181,
+      "target": 182
+    },
+    {
+      "id": 215,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 181,
+      "target": 183
+    },
+    {
+      "id": 216,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 181,
+      "target": 184
+    },
+    {
+      "id": 217,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 181,
+      "target": 185
+    },
+    {
+      "id": 218,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 182,
+      "target": 183
+    },
+    {
+      "id": 219,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 182,
+      "target": 184
+    },
+    {
+      "id": 220,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 182,
+      "target": 185
+    },
+    {
+      "id": 221,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 183,
+      "target": 184
+    },
+    {
+      "id": 222,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 183,
+      "target": 185
+    },
+    {
+      "id": 223,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 184,
+      "target": 185
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 9,
+      "largest_component": 7,
+      "removed_components": [
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 3
+  }
+}

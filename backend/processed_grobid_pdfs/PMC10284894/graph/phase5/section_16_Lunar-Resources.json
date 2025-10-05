@@ -1,0 +1,120 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "Lunar Resources",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 512,
+      "label": "Mars",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lunar Resources",
+        "sentence_id": 278,
+        "char_start": 52729,
+        "char_end": 52733,
+        "anchor": "PMC10284894_52729_52733",
+        "page": 54,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 509,
+      "label": "Advanced",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lunar Resources",
+        "sentence_id": 278,
+        "char_start": 52549,
+        "char_end": 52557,
+        "anchor": "PMC10284894_52549_52557",
+        "page": 53,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 510,
+      "label": "Artemis",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lunar Resources",
+        "sentence_id": 278,
+        "char_start": 52666,
+        "char_end": 52673,
+        "anchor": "PMC10284894_52666_52673",
+        "page": 53,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 511,
+      "label": "Moon",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lunar Resources",
+        "sentence_id": 278,
+        "char_start": 52720,
+        "char_end": 52724,
+        "anchor": "PMC10284894_52720_52724",
+        "page": 54,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 484,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 509,
+      "target": 510
+    },
+    {
+      "id": 485,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 509,
+      "target": 511
+    },
+    {
+      "id": 486,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 509,
+      "target": 512
+    },
+    {
+      "id": 487,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 510,
+      "target": 511
+    },
+    {
+      "id": 488,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 510,
+      "target": 512
+    },
+    {
+      "id": 489,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 511,
+      "target": 512
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 6,
+      "largest_component": 4,
+      "removed_components": [
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 53
+  }
+}

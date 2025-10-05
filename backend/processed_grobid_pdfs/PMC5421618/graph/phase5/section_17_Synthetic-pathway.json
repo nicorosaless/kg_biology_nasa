@@ -1,0 +1,73 @@
+{
+  "paper_id": "PMC5421618",
+  "section": "Synthetic PATHWAY",
+  "n_nodes": 3,
+  "n_edges": 2,
+  "nodes": [
+    {
+      "id": 352,
+      "label": "Wnt",
+      "type": "PATHWAY",
+      "freq": 1,
+      "nav": {
+        "section": "RESULTS",
+        "sentence_id": 84,
+        "char_start": 19391,
+        "char_end": 19394,
+        "anchor": "PMC5421618_19391_19394",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 477,
+      "label": "Wnt",
+      "type": "PATHWAY",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 115,
+        "char_start": 25925,
+        "char_end": 25928,
+        "anchor": "PMC5421618_25925_25928",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 508,
+      "label": "Wnt",
+      "type": "PATHWAY",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 130,
+        "char_start": 28488,
+        "char_end": 28491,
+        "anchor": "PMC5421618_28488_28491",
+        "page": 15,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-352-477",
+      "type": "ASSOCIATED",
+      "source": 352,
+      "target": 477
+    },
+    {
+      "id": "synth-352-508",
+      "type": "ASSOCIATED",
+      "source": 352,
+      "target": 508
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "PATHWAY",
+    "page": null
+  }
+}

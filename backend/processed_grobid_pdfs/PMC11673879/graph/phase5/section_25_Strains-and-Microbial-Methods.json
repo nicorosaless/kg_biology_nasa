@@ -1,0 +1,84 @@
+{
+  "paper_id": "PMC11673879",
+  "section": "Strains and Microbial Methods",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 112,
+      "label": "Churince",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Strains and Microbial Methods",
+        "sentence_id": 54,
+        "char_start": 9874,
+        "char_end": 9882,
+        "anchor": "PMC11673879_9874_9882",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 110,
+      "label": "Chu",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Strains and Microbial Methods",
+        "sentence_id": 54,
+        "char_start": 9874,
+        "char_end": 9877,
+        "anchor": "PMC11673879_9874_9877",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 111,
+      "label": "Coahuila",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Strains and Microbial Methods",
+        "sentence_id": 54,
+        "char_start": 9790,
+        "char_end": 9798,
+        "anchor": "PMC11673879_9790_9798",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 44,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 110,
+      "target": 111
+    },
+    {
+      "id": 45,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 110,
+      "target": 112
+    },
+    {
+      "id": 46,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 111,
+      "target": 112
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 10,
+      "largest_component": 3,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 4
+  }
+}

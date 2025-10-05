@@ -1,0 +1,176 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "Human cytomegalovirus (HCMV) poses a significant threat, especially to individuals with compromised immune systems and in utero, leading to congenital infections. Current treatments face challenges due to increasing drug resistance, highlighting the need for new anti-HCMV drugs with novel mechanisms. This study investigates a new fucosylated chondroitin sulfate from the sea cucumber *Pentacta pygmaea* (PpFucCS) targeting heparan sulfate (HS)-virus interactions to block HCMV entry into cells.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Figure 1.Structural representation of sulfated glycans assayed for anti-HCMV activity.(A) Unfractionated heparin (UFH) is mostly composed of repeating disaccharide units of [→4)-α-GlcN-(1→4)α-IdoA-(1→] where GlcN is glucosamine and IdoA is iduronic acid.Sulfation occurs frequently at the",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.png"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Figure 1.Structural representation of sulfated glycans assayed for anti-HCMV activity.(A) Unfractionated heparin (UFH) is mostly composed of repeating disaccharide units of [→4)-α-GlcN-(1→4)α-IdoA-(1→] where GlcN is glucosamine and IdoA is iduronic acid.Sulfation occurs frequently at the",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.png"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Figure 2.",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.png"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Figure 2.",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.png"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "PpFucCS Extraction and Purification",
+      "summary": "PpFucCS was extracted from the sea cucumber *P. pygmaea* using proteolytic digestion with papain and fractionated via anion exchange chromatography using a DEAE-Sephacel resin column with a NaCl gradient. Fractions were monitored using 1,9-dimethyl methylene blue (DMB) reagent, combined, dialyzed, and lyophilized. Further purification was achieved using a Sephadex G15 column with water as the mobile phase. Sample concentrations were determined by dry weight measurements.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "PpFucCS Depolymerization",
+      "summary": "PpFucCS was depolymerized using a modified Fenton technique to selectively break GlcA and GalNAc bonds. A solution of PpFucCS was reacted with copper (II) acetate and H2O2 at 60°C. The reaction was quenched by removing copper ions with Chelex resin, followed by centrifugation, lyophilization, and desalting.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Fractionation of PpFucCS Oligosaccharides",
+      "summary": "The depolymerized PpFucCS mixture was fractionated by size using a Bio-Gel P-10 column with 1.0 M NaCl in 10% ethanol. Fractions were assayed for PpFucCS oligosaccharides using DMB and divided into four fractions (Fr1-Fr4) based on retention times. Fractions were desalted on a Sephadex G-15 column and lyophilized.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Inhibition of HCMV by PpFucCS and Its Fractions",
+      "summary": "The inhibitory activity of native PpFucCS and its low molecular weight (LMW) fractions against HCMV was investigated. Native PpFucCS exhibited potent inhibitory activity, while the fractions showed decreased activity. At 50 µg/mL, the efficacy of native PpFucCS, hydrolyzed PpFucCS (HdPpFucCS), and Fr1 were comparable to unfractionated heparin (UFH). Native PpFucCS had the lowest IC50 value. Fractions 1-3 had similar structures, whereas fraction 4 showed signs of desulfation. Figure 2 shows anti-HCMV activity of PpFucCS oligosaccharides.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "PpFucCS Specifically Inhibits HCMV Entry into Cells",
+      "summary": "The TowneBAC strain of HCMV labeled with R18 was used to assess PpFucCS's inhibition of HCMV entry into cells. Fluorescence was recorded from 0 to 60 minutes post-infection. The R18 fluorescence increases upon fusion with the host cell membrane. Significantly fewer virus particles entered PpFucCS-treated cells compared to mock-treated cells at 60 minutes post-infection, demonstrating that PpFucCS inhibits HCMV entry. Figure 3 shows the inhibition of HCMV entry into HFF cells by native PpFucCS.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Effect of PpFucCS and Its Oligosaccharides Treatment on Cell Viability",
+      "summary": "PpFucCS and its oligosaccharides showed no significant cytotoxicity against HFF cells at 50 µg/mL and protected against virus-induced cell death. Fractions 3 and 4, which showed little antiviral activity, also did not protect against cell death. Native PpFucCS at 500 µg/mL showed no cytotoxic effect. ATP release assays corroborated these findings. Figure 4 shows the effect of PpFucCS and its oligosaccharides on cell viability.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": {
+    "heading": "Conclusion",
+    "summary": "PpFucCS extraction and purification: As previously reported [30], PpFucCS was recovered from the body wall of the sea cucumber P."
+  },
+  "keywords": [
+    "human cytomegalovirus",
+    "fucosylated chondroitin sulfate",
+    "heparan sulfate",
+    "antiviral activity",
+    "virus entry",
+    "ppfucscs",
+    "glycan",
+    "oligosaccharides",
+    "cell viability",
+    "hcmv"
+  ],
+  "topics": [
+    "virology",
+    "glycobiology",
+    "antiviral research"
+  ],
+  "_meta": {
+    "paper_id": "sha256:ad115fa758cfb3d44de194c9dd8e99e620a9757d7a3fcc65401dd6df8a2d4c12",
+    "paper_title": "Inhibition of Cytomegalovirus by Pentacta pygmaea Fucosylated Chondroitin Sulfate Depends on Its Molecular Weight",
+    "generated_at": "2025-10-05T10:32:02Z",
+    "word_count": 458,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "human cytomegalovirus",
+      "fucosylated chondroitin sulfate",
+      "heparan sulfate",
+      "antiviral activity",
+      "virus entry",
+      "ppfucscs",
+      "glycan",
+      "oligosaccharides",
+      "cell viability",
+      "hcmv"
+    ],
+    "topics": [
+      "virology",
+      "glycobiology",
+      "antiviral research"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 8424,
+      "completion_tokens": 938,
+      "total_tokens": 9362,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000842,
+      "output_usd": 0.000375,
+      "total_usd": 0.001218
+    },
+    "cost": {
+      "input_usd": 0.000842,
+      "output_usd": 0.000375,
+      "total_usd": 0.001218
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [],
+      "corrupted_detected": [
+        "fig_3",
+        "fig_6",
+        "fig_8"
+      ],
+      "original_total": 3,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

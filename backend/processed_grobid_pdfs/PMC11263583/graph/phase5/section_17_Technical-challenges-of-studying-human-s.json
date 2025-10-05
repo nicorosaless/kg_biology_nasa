@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC11263583",
+  "section": "Technical challenges of studying human space omics",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 456,
+      "label": "consent",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Technical challenges of studying human space omics",
+        "sentence_id": 127,
+        "char_start": 34670,
+        "char_end": 34677,
+        "anchor": "PMC11263583_34670_34677",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 458,
+      "label": "metadata",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Technical challenges of studying human space omics",
+        "sentence_id": 127,
+        "char_start": 34635,
+        "char_end": 34643,
+        "anchor": "PMC11263583_34635_34643",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1073,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 456,
+      "target": 458
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 2,
+      "largest_component": 2
+    },
+    "page": 3
+  }
+}

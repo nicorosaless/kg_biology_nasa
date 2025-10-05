@@ -1,0 +1,117 @@
+{
+  "paper_id": "PMC10628120",
+  "section": "Production of secondary metabolites",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 1051,
+      "label": "BGCs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Production of secondary metabolites",
+        "sentence_id": 258,
+        "char_start": 50432,
+        "char_end": 50436,
+        "anchor": "PMC10628120_50432_50436",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1043,
+      "label": "Lei",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Production of secondary metabolites",
+        "sentence_id": 258,
+        "char_start": 50059,
+        "char_end": 50062,
+        "anchor": "PMC10628120_50059_50062",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1052,
+      "label": "T3PKS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Production of secondary metabolites",
+        "sentence_id": 258,
+        "char_start": 50546,
+        "char_end": 50551,
+        "anchor": "PMC10628120_50546_50551",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1044,
+      "label": "species",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Production of secondary metabolites",
+        "sentence_id": 258,
+        "char_start": 50069,
+        "char_end": 50076,
+        "anchor": "PMC10628120_50069_50076",
+        "page": 10,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1199,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1043,
+      "target": 1044
+    },
+    {
+      "id": 1200,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1043,
+      "target": 1051
+    },
+    {
+      "id": 1201,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1043,
+      "target": 1052
+    },
+    {
+      "id": 1202,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1044,
+      "target": 1051
+    },
+    {
+      "id": 1203,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1044,
+      "target": 1052
+    },
+    {
+      "id": 1204,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1051,
+      "target": 1052
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 13,
+      "largest_component": 4,
+      "removed_components": [
+        3
+      ]
+    },
+    "page": 10
+  }
+}

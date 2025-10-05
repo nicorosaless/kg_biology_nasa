@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMC5397022",
+  "section": "Synthetic CELL_TYPE",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 444,
+      "label": "Orbitrap/FT cell",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 105,
+        "char_start": 19034,
+        "char_end": 19050,
+        "anchor": "PMC5397022_19034_19050",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 452,
+      "label": "Orbitrap/FT cell",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 108,
+        "char_start": 19376,
+        "char_end": 19392,
+        "anchor": "PMC5397022_19376_19392",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-444-452",
+      "type": "ASSOCIATED",
+      "source": 444,
+      "target": 452
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "CELL_TYPE",
+    "page": null
+  }
+}

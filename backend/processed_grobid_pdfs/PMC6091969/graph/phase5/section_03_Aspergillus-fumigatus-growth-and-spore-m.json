@@ -1,0 +1,85 @@
+{
+  "paper_id": "PMC6091969",
+  "section": "Aspergillus fumigatus growth and spore microinjection",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 514,
+      "label": "CFU",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Aspergillus fumigatus growth and spore microinjection",
+        "sentence_id": 170,
+        "char_start": 40195,
+        "char_end": 40198,
+        "anchor": "PMC6091969_40195_40198",
+        "page": 19,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 515,
+      "label": "plating",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Aspergillus fumigatus growth and spore microinjection",
+        "sentence_id": 170,
+        "char_start": 40199,
+        "char_end": 40206,
+        "anchor": "PMC6091969_40199_40206",
+        "page": 19,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 516,
+      "label": "CFU",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Aspergillus fumigatus growth and spore microinjection",
+        "sentence_id": 170,
+        "char_start": 40195,
+        "char_end": 40198,
+        "anchor": "PMC6091969_40195_40198",
+        "page": 19,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 668,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 514,
+      "target": 515
+    },
+    {
+      "id": 669,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 514,
+      "target": 516
+    },
+    {
+      "id": 670,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 515,
+      "target": 516
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 10,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        3
+      ]
+    },
+    "page": 19
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "paper_id": "PMC10800490",
+  "section": "Vesicle transport genes",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 423,
+      "label": "altered",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Vesicle transport genes",
+        "sentence_id": 122,
+        "char_start": 24078,
+        "char_end": 24085,
+        "anchor": "PMC10800490_24078_24085",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 424,
+      "label": "COP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Vesicle transport genes",
+        "sentence_id": 122,
+        "char_start": 23812,
+        "char_end": 23815,
+        "anchor": "PMC10800490_23812_23815",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 425,
+      "label": "Golgi",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Vesicle transport genes",
+        "sentence_id": 122,
+        "char_start": 23891,
+        "char_end": 23896,
+        "anchor": "PMC10800490_23891_23896",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 426,
+      "label": "Hwang",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Vesicle transport genes",
+        "sentence_id": 122,
+        "char_start": 23926,
+        "char_end": 23931,
+        "anchor": "PMC10800490_23926_23931",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 427,
+      "label": "Robinson",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Vesicle transport genes",
+        "sentence_id": 122,
+        "char_start": 23936,
+        "char_end": 23944,
+        "anchor": "PMC10800490_23936_23944",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 428,
+      "label": "Golgi",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Vesicle transport genes",
+        "sentence_id": 122,
+        "char_start": 24332,
+        "char_end": 24337,
+        "anchor": "PMC10800490_24332_24337",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1000,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 423,
+      "target": 424
+    },
+    {
+      "id": 1001,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 423,
+      "target": 425
+    },
+    {
+      "id": 1002,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 423,
+      "target": 426
+    },
+    {
+      "id": 1003,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 423,
+      "target": 427
+    },
+    {
+      "id": 1004,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 423,
+      "target": 428
+    },
+    {
+      "id": 1005,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 424,
+      "target": 425
+    },
+    {
+      "id": 1006,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 424,
+      "target": 426
+    },
+    {
+      "id": 1007,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 424,
+      "target": 427
+    },
+    {
+      "id": 1008,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 424,
+      "target": 428
+    },
+    {
+      "id": 1009,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 425,
+      "target": 426
+    },
+    {
+      "id": 1010,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 425,
+      "target": 427
+    },
+    {
+      "id": 1011,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 425,
+      "target": 428
+    },
+    {
+      "id": 1012,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 426,
+      "target": 427
+    },
+    {
+      "id": 1013,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 426,
+      "target": 428
+    },
+    {
+      "id": 1014,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 427,
+      "target": 428
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 5,
+      "largest_component": 6
+    },
+    "page": 7
+  }
+}

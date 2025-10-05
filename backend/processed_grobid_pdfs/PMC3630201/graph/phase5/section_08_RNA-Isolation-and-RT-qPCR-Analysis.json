@@ -1,0 +1,535 @@
+{
+  "paper_id": "PMC3630201",
+  "section": "RNA Isolation and RT-qPCR Analysis",
+  "n_nodes": 33,
+  "n_edges": 16,
+  "nodes": [
+    {
+      "id": 256,
+      "label": "Actb",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 238,
+        "char_start": 52087,
+        "char_end": 52091,
+        "anchor": "PMC3630201_52087_52091"
+      }
+    },
+    {
+      "id": 257,
+      "label": "PCR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 238,
+        "char_start": 52148,
+        "char_end": 52151,
+        "anchor": "PMC3630201_52148_52151"
+      }
+    },
+    {
+      "id": 253,
+      "label": "Gusb",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 238,
+        "char_start": 52053,
+        "char_end": 52057,
+        "anchor": "PMC3630201_52053_52057"
+      }
+    },
+    {
+      "id": 254,
+      "label": "Hprt1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 238,
+        "char_start": 52059,
+        "char_end": 52064,
+        "anchor": "PMC3630201_52059_52064"
+      }
+    },
+    {
+      "id": 255,
+      "label": "Gapdh",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 238,
+        "char_start": 52076,
+        "char_end": 52081,
+        "anchor": "PMC3630201_52076_52081"
+      }
+    },
+    {
+      "id": 236,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 232,
+        "char_start": 50578,
+        "char_end": 50581,
+        "anchor": "PMC3630201_50578_50581"
+      }
+    },
+    {
+      "id": 240,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 232,
+        "char_start": 51101,
+        "char_end": 51104,
+        "anchor": "PMC3630201_51101_51104"
+      }
+    },
+    {
+      "id": 241,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 232,
+        "char_start": 51136,
+        "char_end": 51139,
+        "anchor": "PMC3630201_51136_51139"
+      }
+    },
+    {
+      "id": 279,
+      "label": "Gusb",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 243,
+        "char_start": 53547,
+        "char_end": 53551,
+        "anchor": "PMC3630201_53547_53551"
+      }
+    },
+    {
+      "id": 280,
+      "label": "Gapdh",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 243,
+        "char_start": 53560,
+        "char_end": 53565,
+        "anchor": "PMC3630201_53560_53565"
+      }
+    },
+    {
+      "id": 281,
+      "label": "Actb",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 243,
+        "char_start": 53571,
+        "char_end": 53575,
+        "anchor": "PMC3630201_53571_53575"
+      }
+    },
+    {
+      "id": 237,
+      "label": "TRIzol",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 232,
+        "char_start": 50711,
+        "char_end": 50717,
+        "anchor": "PMC3630201_50711_50717"
+      }
+    },
+    {
+      "id": 238,
+      "label": "TRIzol",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 232,
+        "char_start": 50907,
+        "char_end": 50913,
+        "anchor": "PMC3630201_50907_50913"
+      }
+    },
+    {
+      "id": 244,
+      "label": "4uC",
+      "type": "EXPERIMENTAL_CONDITION",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 232,
+        "char_start": 51252,
+        "char_end": 51255,
+        "anchor": "PMC3630201_51252_51255"
+      }
+    },
+    {
+      "id": 245,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 233,
+        "char_start": 51290,
+        "char_end": 51293,
+        "anchor": "PMC3630201_51290_51293"
+      }
+    },
+    {
+      "id": 246,
+      "label": "EtOH",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 233,
+        "char_start": 51319,
+        "char_end": 51323,
+        "anchor": "PMC3630201_51319_51323"
+      }
+    },
+    {
+      "id": 247,
+      "label": "4uC",
+      "type": "EXPERIMENTAL_CONDITION",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 233,
+        "char_start": 51361,
+        "char_end": 51364,
+        "anchor": "PMC3630201_51361_51364"
+      }
+    },
+    {
+      "id": 248,
+      "label": "RNeasy",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 234,
+        "char_start": 51467,
+        "char_end": 51473,
+        "anchor": "PMC3630201_51467_51473"
+      }
+    },
+    {
+      "id": 249,
+      "label": "Qiagen",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 234,
+        "char_start": 51484,
+        "char_end": 51490,
+        "anchor": "PMC3630201_51484_51490"
+      }
+    },
+    {
+      "id": 250,
+      "label": "Nanodrop",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 235,
+        "char_start": 51638,
+        "char_end": 51646,
+        "anchor": "PMC3630201_51638_51646"
+      }
+    },
+    {
+      "id": 251,
+      "label": "NFkB",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 237,
+        "char_start": 51897,
+        "char_end": 51901,
+        "anchor": "PMC3630201_51897_51901"
+      }
+    },
+    {
+      "id": 259,
+      "label": "42uC",
+      "type": "EXPERIMENTAL_CONDITION",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 240,
+        "char_start": 52499,
+        "char_end": 52503,
+        "anchor": "PMC3630201_52499_52503"
+      }
+    },
+    {
+      "id": 261,
+      "label": "42uC",
+      "type": "EXPERIMENTAL_CONDITION",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 240,
+        "char_start": 52661,
+        "char_end": 52665,
+        "anchor": "PMC3630201_52661_52665"
+      }
+    },
+    {
+      "id": 263,
+      "label": "95uC",
+      "type": "EXPERIMENTAL_CONDITION",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 240,
+        "char_start": 52723,
+        "char_end": 52727,
+        "anchor": "PMC3630201_52723_52727"
+      }
+    },
+    {
+      "id": 264,
+      "label": "PCR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 240,
+        "char_start": 52839,
+        "char_end": 52842,
+        "anchor": "PMC3630201_52839_52842"
+      }
+    },
+    {
+      "id": 265,
+      "label": "Qiagen",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 241,
+        "char_start": 52908,
+        "char_end": 52914,
+        "anchor": "PMC3630201_52908_52914"
+      }
+    },
+    {
+      "id": 266,
+      "label": "95uC",
+      "type": "EXPERIMENTAL_CONDITION",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 243,
+        "char_start": 53084,
+        "char_end": 53088,
+        "anchor": "PMC3630201_53084_53088"
+      }
+    },
+    {
+      "id": 269,
+      "label": "95uC",
+      "type": "EXPERIMENTAL_CONDITION",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 243,
+        "char_start": 53114,
+        "char_end": 53118,
+        "anchor": "PMC3630201_53114_53118"
+      }
+    },
+    {
+      "id": 271,
+      "label": "60uC",
+      "type": "EXPERIMENTAL_CONDITION",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 243,
+        "char_start": 53132,
+        "char_end": 53136,
+        "anchor": "PMC3630201_53132_53136"
+      }
+    },
+    {
+      "id": 272,
+      "label": "95uC",
+      "type": "EXPERIMENTAL_CONDITION",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 243,
+        "char_start": 53173,
+        "char_end": 53177,
+        "anchor": "PMC3630201_53173_53177"
+      }
+    },
+    {
+      "id": 274,
+      "label": "60uC",
+      "type": "EXPERIMENTAL_CONDITION",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 243,
+        "char_start": 53188,
+        "char_end": 53192,
+        "anchor": "PMC3630201_53188_53192"
+      }
+    },
+    {
+      "id": 275,
+      "label": "95uC",
+      "type": "EXPERIMENTAL_CONDITION",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 243,
+        "char_start": 53204,
+        "char_end": 53208,
+        "anchor": "PMC3630201_53204_53208"
+      }
+    },
+    {
+      "id": 277,
+      "label": "60uC",
+      "type": "EXPERIMENTAL_CONDITION",
+      "freq": 1,
+      "nav": {
+        "section": "RNA Isolation and RT-qPCR Analysis",
+        "sentence_id": 243,
+        "char_start": 53222,
+        "char_end": 53226,
+        "anchor": "PMC3630201_53222_53226"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 211,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 236,
+      "target": 240
+    },
+    {
+      "id": 212,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 236,
+      "target": 241
+    },
+    {
+      "id": 219,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 240,
+      "target": 241
+    },
+    {
+      "id": 231,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 253,
+      "target": 254
+    },
+    {
+      "id": 232,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 253,
+      "target": 255
+    },
+    {
+      "id": 233,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 253,
+      "target": 256
+    },
+    {
+      "id": 234,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 253,
+      "target": 257
+    },
+    {
+      "id": 236,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 254,
+      "target": 255
+    },
+    {
+      "id": 237,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 254,
+      "target": 256
+    },
+    {
+      "id": 238,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 254,
+      "target": 257
+    },
+    {
+      "id": 240,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 255,
+      "target": 256
+    },
+    {
+      "id": 241,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 255,
+      "target": 257
+    },
+    {
+      "id": 243,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 256,
+      "target": 257
+    },
+    {
+      "id": 282,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 279,
+      "target": 280
+    },
+    {
+      "id": 283,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 279,
+      "target": 281
+    },
+    {
+      "id": 284,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 280,
+      "target": 281
+    }
+  ]
+}

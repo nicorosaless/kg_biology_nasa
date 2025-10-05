@@ -1,0 +1,84 @@
+{
+  "paper_id": "PMC6130020",
+  "section": "CFDA Application",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 569,
+      "label": "acetone",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "CFDA Application",
+        "sentence_id": 137,
+        "char_start": 29438,
+        "char_end": 29445,
+        "anchor": "PMC6130020_29438_29445",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 570,
+      "label": "dilution",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "CFDA Application",
+        "sentence_id": 137,
+        "char_start": 29466,
+        "char_end": 29474,
+        "anchor": "PMC6130020_29466_29474",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 571,
+      "label": "CFDA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "CFDA Application",
+        "sentence_id": 137,
+        "char_start": 29400,
+        "char_end": 29404,
+        "anchor": "PMC6130020_29400_29404",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 692,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 569,
+      "target": 570
+    },
+    {
+      "id": 693,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 569,
+      "target": 571
+    },
+    {
+      "id": 694,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 570,
+      "target": 571
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 2,
+      "largest_component": 3,
+      "removed_components": [
+        3
+      ]
+    },
+    "page": 8
+  }
+}

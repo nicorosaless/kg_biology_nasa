@@ -1,0 +1,253 @@
+{
+  "paper_id": "PMC4624184",
+  "section": "qPCR assay",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 805,
+      "label": "pumilus",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "qPCR assay",
+        "sentence_id": 237,
+        "char_start": 47553,
+        "char_end": 47560,
+        "anchor": "PMC4624184_47553_47560",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 806,
+      "label": "positive",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "qPCR assay",
+        "sentence_id": 237,
+        "char_start": 47581,
+        "char_end": 47589,
+        "anchor": "PMC4624184_47581_47589",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 807,
+      "label": "control",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "qPCR assay",
+        "sentence_id": 237,
+        "char_start": 47590,
+        "char_end": 47597,
+        "anchor": "PMC4624184_47590_47597",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 808,
+      "label": "negative",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "qPCR assay",
+        "sentence_id": 237,
+        "char_start": 47685,
+        "char_end": 47693,
+        "anchor": "PMC4624184_47685_47693",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 809,
+      "label": "BioRad",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "qPCR assay",
+        "sentence_id": 237,
+        "char_start": 47413,
+        "char_end": 47419,
+        "anchor": "PMC4624184_47413_47419",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 810,
+      "label": "Hercules",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "qPCR assay",
+        "sentence_id": 237,
+        "char_start": 47421,
+        "char_end": 47429,
+        "anchor": "PMC4624184_47421_47429",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 813,
+      "label": "Gibco",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "qPCR assay",
+        "sentence_id": 237,
+        "char_start": 47662,
+        "char_end": 47667,
+        "anchor": "PMC4624184_47662_47667",
+        "page": 13,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 946,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 805,
+      "target": 806
+    },
+    {
+      "id": 947,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 805,
+      "target": 807
+    },
+    {
+      "id": 948,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 805,
+      "target": 808
+    },
+    {
+      "id": 949,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 805,
+      "target": 809
+    },
+    {
+      "id": 950,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 805,
+      "target": 810
+    },
+    {
+      "id": 953,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 805,
+      "target": 813
+    },
+    {
+      "id": 954,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 806,
+      "target": 807
+    },
+    {
+      "id": 955,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 806,
+      "target": 808
+    },
+    {
+      "id": 956,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 806,
+      "target": 809
+    },
+    {
+      "id": 957,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 806,
+      "target": 810
+    },
+    {
+      "id": 960,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 806,
+      "target": 813
+    },
+    {
+      "id": 961,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 807,
+      "target": 808
+    },
+    {
+      "id": 962,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 807,
+      "target": 809
+    },
+    {
+      "id": 963,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 807,
+      "target": 810
+    },
+    {
+      "id": 966,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 807,
+      "target": 813
+    },
+    {
+      "id": 967,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 808,
+      "target": 809
+    },
+    {
+      "id": 968,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 808,
+      "target": 810
+    },
+    {
+      "id": 971,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 808,
+      "target": 813
+    },
+    {
+      "id": 972,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 809,
+      "target": 810
+    },
+    {
+      "id": 975,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 809,
+      "target": 813
+    },
+    {
+      "id": 978,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 810,
+      "target": 813
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 7,
+      "largest_component": 7,
+      "removed_components": [
+        4,
+        2
+      ]
+    },
+    "page": 13
+  }
+}

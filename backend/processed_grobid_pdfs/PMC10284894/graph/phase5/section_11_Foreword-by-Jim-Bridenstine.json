@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "Foreword by Jim Bridenstine",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 22,
+      "label": "America",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Foreword by Jim Bridenstine",
+        "sentence_id": 13,
+        "char_start": 1718,
+        "char_end": 1725,
+        "anchor": "PMC10284894_1718_1725",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 23,
+      "label": "Moon",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Foreword by Jim Bridenstine",
+        "sentence_id": 13,
+        "char_start": 1767,
+        "char_end": 1771,
+        "anchor": "PMC10284894_1767_1771",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 22,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 22,
+      "target": 23
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 4,
+      "largest_component": 2
+    },
+    "page": 2
+  }
+}

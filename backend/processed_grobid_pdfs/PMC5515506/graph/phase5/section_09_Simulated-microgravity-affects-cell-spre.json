@@ -1,0 +1,87 @@
+{
+  "paper_id": "PMC5515506",
+  "section": "Simulated microgravity affects cell spreading",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 289,
+      "label": "rounded",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Simulated microgravity affects cell spreading",
+        "sentence_id": 105,
+        "char_start": 19097,
+        "char_end": 19104,
+        "anchor": "PMC5515506_19097_19104",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 291,
+      "label": "semi-elongated cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Simulated microgravity affects cell spreading",
+        "sentence_id": 105,
+        "char_start": 19154,
+        "char_end": 19174,
+        "anchor": "PMC5515506_19154_19174",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 294,
+      "label": "rounded",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Simulated microgravity affects cell spreading",
+        "sentence_id": 105,
+        "char_start": 19392,
+        "char_end": 19399,
+        "anchor": "PMC5515506_19392_19399",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 328,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 289,
+      "target": 291
+    },
+    {
+      "id": 329,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 289,
+      "target": 294
+    },
+    {
+      "id": 330,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 294,
+      "target": 291
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 27,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 4
+  }
+}

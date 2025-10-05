@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMC5666744",
+  "section": "Synthetic REAGENT",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 626,
+      "label": "Qiagen",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcriptomics",
+        "sentence_id": 149,
+        "char_start": 39206,
+        "char_end": 39212,
+        "anchor": "PMC5666744_39206_39212",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 643,
+      "label": "Qiagen",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcriptomics",
+        "sentence_id": 153,
+        "char_start": 40259,
+        "char_end": 40265,
+        "anchor": "PMC5666744_40259_40265",
+        "page": 15,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-626-643",
+      "type": "ASSOCIATED",
+      "source": 626,
+      "target": 643
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "REAGENT",
+    "page": null
+  }
+}

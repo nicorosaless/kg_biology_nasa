@@ -1,0 +1,156 @@
+{
+  "intro": "The 14-3-3 proteins are regulatory proteins found in all eukaryotes, playing crucial roles in signal transduction pathways through protein interactions. Plants possess about a dozen 14-3-3 genes, leading to potential functional diversity. These proteins are major phosphoprotein interaction nodes in the Arabidopsis interactome, interacting with phosphorylated peptide sequences. This paper explores the evolutionary and biochemical diversity of 14-3-3s, questioning its functional significance and suggesting approaches to address this question. It emphasizes the importance of 14-3-3s in plant phosphoprotein interactions, making them key components of the Arabidopsis interactome.",
+  "sections": [
+    {
+      "heading": "3-3 Primary Sequence Evolution",
+      "summary": "The 14-3-3 family is considered well-conserved, with isoform numbers varying across species (e.g., thirteen in Arabidopsis, seven in animals, two in yeast). Amino acid identity is reasonably conserved, with subgroups showing greater similarity, suggesting specialization-driven divergence, as visualized through sequence alignment (Fig 2) and structural modeling (Fig 3). Conservation patterns hint at selection pressures due to involvement in specialized functions and complex formation. Plant 14-3-3s are categorized into ε and non-ε groups.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "3-3 Phosphorylation",
+      "summary": "Phosphorylation impacts 14-3-3 function in plants and animals, though a cohesive model is lacking. Non-universal conservation of phosphorylation sites allows marking certain isoforms for specific functions. Mammalian 14-3-3 phosphorylation occurs at sites like S58 and S185, with some sites not conserved across all isoforms. For instance, S58 is absent in 14-3-3σ and 14-3-3τ. Phosphorylation events can define functional specificity. Figure 4 shows conserved phosphorylation sites in 14-3-3s.",
+      "figures": [
+        {
+          "id": "fig_4",
+          "order": 4,
+          "caption": "| Plant ProteomicsAugust 2012 | Volume 3 | Article 190 | 4",
+          "type": "figure"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "3-3 Dimerization",
+      "summary": "14-3-3 isoforms form homo- and heterodimers involving interactions within the first four alpha helices. Free dimerization could dilute functional differences, but evidence suggests preferences for certain dimer combinations, particularly with 14-3-3σ and 14-3-3ε. Dimerization depends on intrinsic affinities, expression levels, subcellular localization, and phosphorylation status, as phosphorylation can inhibit dimerization. Homodimers and heterodimers potentially have different functions, contributing to functional diversity.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Statement Of The Issue",
+      "summary": "The core question is whether the diversity in 14-3-3 primary structure, amplified by phosphorylation and heterodimerization, translates to biochemical, cellular, and physiological impacts, or if it's merely evolutionary genetic drift. The theory posits true functional specificity exists among 14-3-3 family members, rejecting the null hypothesis of no functional specificity. Specific interactions and functional phenotypes revealed by mutation support this theory. The hypothesis suggests certain 14-3-3s in specific cellular contexts will have unique interactions not shared with other isoforms, leading to functional phenotypes.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Evidence For Functional Specificity Among Isoforms",
+      "summary": "Observed specificity in 14-3-3 function argues against complete isoform redundancy. TDNA insertions conditioning observable phenotypes suggest specificity, given the wide isoform expression (Figure 5). Comparative studies reveal phenotypes conditioned by one 14-3-3 isoform but not another. Subcellular localization also indicates specificity. Figure 6 illustrates distinct 14-3-3 localizations determined by confocal microscopy.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Functional Specificity Revealed By TDNA Mutations",
+      "summary": "Functional diversity of plant 14-3-3s includes primary metabolism, stress responses, light-mediated processes, hormonal signaling, and cell growth. Specific examples of isoform functional specificity are emerging from individual TDNA mutations. Arabidopsis 14-3-3 isoforms υ and μ are involved in light sensing and signaling. Mutant υ and μ plants flower later and exhibit long hypocotyls under red light, with little effect under blue or far-red light. This suggests a role for these specific isoforms in regulating flowering time. However, even though both 14-3-3μ and υ affect flowering time, they are not themselves redundant with each other.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Model And Theory For Specificity",
+      "summary": "Data supports the theory of specificity in 14-3-3 functional interactions at the cellular level. Phenotypes from 14-3-3 insertion mutants and differential subcellular localization reject the null hypothesis of redundancy. The existence of phenotypes associated with individual 14-3-3 insertion mutations is strong evidence that the particular isoform plays an important role that is not entirely complemented by other 14-3-3s present in a cell. Cell biology observations define another element of specificity.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": "The evidence suggests functional specificities exist among Arabidopsis 14-3-3 isoforms, advocating for the consideration of 14-3-3 diversity and specificity in signal transduction studies and experimental designs. This counters the idea that 14-3-3 diversity is merely evolutionary drift, emphasizing true functional roles within the 14-3-3 family. Future research should focus on addressing specificity in experimental design and analysis to fully understand 14-3-3 roles in signal transduction.",
+  "keywords": [
+    "14-3-3 proteins",
+    "isoform diversity",
+    "functional specificity",
+    "arabidopsis",
+    "signal transduction",
+    "phosphorylation",
+    "dimerization",
+    "tdna mutations",
+    "subcellular localization",
+    "protein interactions"
+  ],
+  "topics": [
+    "plant biology",
+    "molecular biology",
+    "signal transduction"
+  ],
+  "_meta": {
+    "paper_id": "sha256:dc390c1403a3d86241094062f1285e279a18636463ba4683bd72209e5a895922",
+    "paper_title": "4-3-3 Phosphoprotein interaction networks -does isoform diversity present functional interaction specification?",
+    "generated_at": "2025-10-05T10:40:46Z",
+    "word_count": 497,
+    "figures": [
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "14-3-3 proteins",
+      "isoform diversity",
+      "functional specificity",
+      "arabidopsis",
+      "signal transduction",
+      "phosphorylation",
+      "dimerization",
+      "tdna mutations",
+      "subcellular localization",
+      "protein interactions"
+    ],
+    "topics": [
+      "plant biology",
+      "molecular biology",
+      "signal transduction"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 8835,
+      "completion_tokens": 1313,
+      "total_tokens": 10148,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000884,
+      "output_usd": 0.000525,
+      "total_usd": 0.001409
+    },
+    "cost": {
+      "input_usd": 0.000884,
+      "output_usd": 0.000525,
+      "total_usd": 0.001409
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [
+        {
+          "id": "fig_4",
+          "score": 0.98,
+          "caption_wc": 12
+        }
+      ],
+      "discarded": [
+        {
+          "id": "fig_6",
+          "score": -9999,
+          "caption_wc": 64
+        }
+      ],
+      "corrupted_detected": [
+        "fig_2",
+        "fig_3",
+        "fig_5",
+        "fig_6"
+      ],
+      "original_total": 5,
+      "final_total": 1,
+      "non_corrupted_kept_total": 1
+    }
+  }
+}

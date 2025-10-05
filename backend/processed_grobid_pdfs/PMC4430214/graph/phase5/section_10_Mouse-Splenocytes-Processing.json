@@ -1,0 +1,372 @@
+{
+  "paper_id": "PMC4430214",
+  "section": "Mouse Splenocytes Processing",
+  "n_nodes": 9,
+  "n_edges": 36,
+  "nodes": [
+    {
+      "id": 110,
+      "label": "Animals",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mouse Splenocytes Processing",
+        "sentence_id": 41,
+        "char_start": 8011,
+        "char_end": 8018,
+        "anchor": "PMC4430214_8011_8018",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 111,
+      "label": "Mice",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mouse Splenocytes Processing",
+        "sentence_id": 41,
+        "char_start": 8191,
+        "char_end": 8195,
+        "anchor": "PMC4430214_8191_8195",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 112,
+      "label": "Cellgr",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mouse Splenocytes Processing",
+        "sentence_id": 41,
+        "char_start": 8461,
+        "char_end": 8467,
+        "anchor": "PMC4430214_8461_8467",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 113,
+      "label": "Buffer",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mouse Splenocytes Processing",
+        "sentence_id": 41,
+        "char_start": 8490,
+        "char_end": 8496,
+        "anchor": "PMC4430214_8490_8496",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 114,
+      "label": "culture",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mouse Splenocytes Processing",
+        "sentence_id": 41,
+        "char_start": 8526,
+        "char_end": 8533,
+        "anchor": "PMC4430214_8526_8533",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 115,
+      "label": "complete",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mouse Splenocytes Processing",
+        "sentence_id": 41,
+        "char_start": 8538,
+        "char_end": 8546,
+        "anchor": "PMC4430214_8538_8546",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 116,
+      "label": "RBC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mouse Splenocytes Processing",
+        "sentence_id": 41,
+        "char_start": 8405,
+        "char_end": 8408,
+        "anchor": "PMC4430214_8405_8408",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 117,
+      "label": "ACK",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mouse Splenocytes Processing",
+        "sentence_id": 41,
+        "char_start": 8420,
+        "char_end": 8423,
+        "anchor": "PMC4430214_8420_8423",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 119,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mouse Splenocytes Processing",
+        "sentence_id": 41,
+        "char_start": 8505,
+        "char_end": 8508,
+        "anchor": "PMC4430214_8505_8508",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 58,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 110,
+      "target": 111
+    },
+    {
+      "id": 59,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 110,
+      "target": 112
+    },
+    {
+      "id": 60,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 110,
+      "target": 113
+    },
+    {
+      "id": 61,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 110,
+      "target": 114
+    },
+    {
+      "id": 62,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 110,
+      "target": 115
+    },
+    {
+      "id": 63,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 110,
+      "target": 116
+    },
+    {
+      "id": 64,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 110,
+      "target": 117
+    },
+    {
+      "id": 66,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 110,
+      "target": 119
+    },
+    {
+      "id": 67,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 111,
+      "target": 112
+    },
+    {
+      "id": 68,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 111,
+      "target": 113
+    },
+    {
+      "id": 69,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 111,
+      "target": 114
+    },
+    {
+      "id": 70,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 111,
+      "target": 115
+    },
+    {
+      "id": 71,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 111,
+      "target": 116
+    },
+    {
+      "id": 72,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 111,
+      "target": 117
+    },
+    {
+      "id": 74,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 111,
+      "target": 119
+    },
+    {
+      "id": 75,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 112,
+      "target": 113
+    },
+    {
+      "id": 76,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 112,
+      "target": 114
+    },
+    {
+      "id": 77,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 112,
+      "target": 115
+    },
+    {
+      "id": 78,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 112,
+      "target": 116
+    },
+    {
+      "id": 79,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 112,
+      "target": 117
+    },
+    {
+      "id": 81,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 112,
+      "target": 119
+    },
+    {
+      "id": 82,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 113,
+      "target": 114
+    },
+    {
+      "id": 83,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 113,
+      "target": 115
+    },
+    {
+      "id": 84,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 113,
+      "target": 116
+    },
+    {
+      "id": 85,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 113,
+      "target": 117
+    },
+    {
+      "id": 87,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 113,
+      "target": 119
+    },
+    {
+      "id": 88,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 114,
+      "target": 115
+    },
+    {
+      "id": 89,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 114,
+      "target": 116
+    },
+    {
+      "id": 90,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 114,
+      "target": 117
+    },
+    {
+      "id": 92,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 114,
+      "target": 119
+    },
+    {
+      "id": 93,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 115,
+      "target": 116
+    },
+    {
+      "id": 94,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 115,
+      "target": 117
+    },
+    {
+      "id": 96,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 115,
+      "target": 119
+    },
+    {
+      "id": 97,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 116,
+      "target": 117
+    },
+    {
+      "id": 99,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 116,
+      "target": 119
+    },
+    {
+      "id": 101,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 117,
+      "target": 119
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 6,
+      "largest_component": 9,
+      "removed_components": [
+        4
+      ]
+    },
+    "page": 3
+  }
+}

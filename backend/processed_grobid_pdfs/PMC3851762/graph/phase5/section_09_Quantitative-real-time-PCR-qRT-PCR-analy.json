@@ -1,0 +1,117 @@
+{
+  "paper_id": "PMC3851762",
+  "section": "Quantitative real time PCR (qRT-PCR) analysis",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 265,
+      "label": "cDNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitative real time PCR (qRT-PCR) analysis",
+        "sentence_id": 75,
+        "char_start": 17217,
+        "char_end": 17221,
+        "anchor": "PMC3851762_17217_17221",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 266,
+      "label": "Monsters",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitative real time PCR (qRT-PCR) analysis",
+        "sentence_id": 75,
+        "char_start": 17232,
+        "char_end": 17240,
+        "anchor": "PMC3851762_17232_17240",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 267,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitative real time PCR (qRT-PCR) analysis",
+        "sentence_id": 75,
+        "char_start": 17185,
+        "char_end": 17188,
+        "anchor": "PMC3851762_17185_17188",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 268,
+      "label": "1st",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitative real time PCR (qRT-PCR) analysis",
+        "sentence_id": 75,
+        "char_start": 17248,
+        "char_end": 17251,
+        "anchor": "PMC3851762_17248_17251",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 258,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 265,
+      "target": 266
+    },
+    {
+      "id": 259,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 265,
+      "target": 267
+    },
+    {
+      "id": 260,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 265,
+      "target": 268
+    },
+    {
+      "id": 261,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 266,
+      "target": 267
+    },
+    {
+      "id": 262,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 266,
+      "target": 268
+    },
+    {
+      "id": 263,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 267,
+      "target": 268
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 14,
+      "largest_component": 4,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 8
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC11833055",
+  "section": "Statistical analysis",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 277,
+      "label": "ANOVA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analysis",
+        "sentence_id": 149,
+        "char_start": 20850,
+        "char_end": 20855,
+        "anchor": "PMC11833055_20850_20855",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 278,
+      "label": "ANOVA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analysis",
+        "sentence_id": 149,
+        "char_start": 20850,
+        "char_end": 20855,
+        "anchor": "PMC11833055_20850_20855",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 239,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 277,
+      "target": 278
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 3,
+      "largest_component": 2
+    },
+    "page": 4
+  }
+}

@@ -1,0 +1,823 @@
+{
+  "paper_id": "sha256:6c3ca1b6a02a670bfdc47fdda195412404618fbe253a8bca4c4c019bcfd3a5c0",
+  "metadata": {
+    "title": "Transcriptome and proteome responses in RNAlater preserved tissue of Arabidopsis thaliana",
+    "abstract": "Tissue preservation is a minimal requirement for the success of plant RNA and protein expression studies.The standard of snap-freezing in liquid nitrogen is not always practical or possible.RNAlater, a concentrated solution of ammonium and cesium sulfates, has become a standard preservative in the absence of liquid nitrogen.Here, we demonstrate the effectiveness of RNAlater in preserving both RNA and proteins in Arabidopsis thaliana tissues for use in RNAseq and LC-MS/MS analysis of proteins.While successful in preserving plant material, a transcriptomic and proteomic response is evident.Specifically, 5770 gene transcripts, 84 soluble proteins, and 120 membrane-bound proteins were found to be differentially expressed at a log-fold change of ±1 (P 0.05).This response is mirrored in the abundance of post-translational modifications, with 23 of the 108 (21.3%) phosphorylated proteins showing altered abundance at a log-fold change of ±1 (P 0.05).While RNAlater is effective in preserving biological information, our findings warrant caution in its use for transcriptomic and proteomic experiments.",
+    "authors": [
+      "Colin P SKruse",
+      "Proma Basu",
+      "Darron RLuesse",
+      "Sarah EWyatt"
+    ],
+    "affiliations": [
+      "1 Department of Environmental and Plant Biology , Ohio University , Athens , OH , United States of America,",
+      "2 Department of Biological Sciences , Southern Illinois University Edwardsville , Edwardsville , IL , United States of America",
+      "Pacific Northwest National Laboratory , UNITED STATES"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Abstract",
+      "paragraphs": [
+        "Tissue preservation is a minimal requirement for the success of plant RNA and protein expression studies.The standard of snap-freezing in liquid nitrogen is not always practical or possible.RNAlater, a concentrated solution of ammonium and cesium sulfates, has become a standard preservative in the absence of liquid nitrogen.Here, we demonstrate the effectiveness of RNAlater in preserving both RNA and proteins in Arabidopsis thaliana tissues for use in RNAseq and LC-MS/MS analysis of proteins.While successful in preserving plant material, a transcriptomic and proteomic response is evident.Specifically, 5770 gene transcripts, 84 soluble proteins, and 120 membrane-bound proteins were found to be differentially expressed at a log-fold change of ±1 (P 0.05).This response is mirrored in the abundance of post-translational modifications, with 23 of the 108 (21.3%) phosphorylated proteins showing altered abundance at a log-fold change of ±1 (P 0.05).While RNAlater is effective in preserving biological information, our findings warrant caution in its use for transcriptomic and proteomic experiments."
+      ],
+      "text": "Tissue preservation is a minimal requirement for the success of plant RNA and protein expression studies.The standard of snap-freezing in liquid nitrogen is not always practical or possible.RNAlater, a concentrated solution of ammonium and cesium sulfates, has become a standard preservative in the absence of liquid nitrogen.Here, we demonstrate the effectiveness of RNAlater in preserving both RNA and proteins in Arabidopsis thaliana tissues for use in RNAseq and LC-MS/MS analysis of proteins.While successful in preserving plant material, a transcriptomic and proteomic response is evident.Specifically, 5770 gene transcripts, 84 soluble proteins, and 120 membrane-bound proteins were found to be differentially expressed at a log-fold change of ±1 (P 0.05).This response is mirrored in the abundance of post-translational modifications, with 23 of the 108 (21.3%) phosphorylated proteins showing altered abundance at a log-fold change of ±1 (P 0.05).While RNAlater is effective in preserving biological information, our findings warrant caution in its use for transcriptomic and proteomic experiments.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tissue preservation is a minimal requirement for the success of plant RNA and protein expression studies.The standard of snap-freezing in liquid nitrogen is not always practical or possible.RNAlater, a concentrated solution of ammonium and cesium sulfates, has become a standard preservative in the absence of liquid nitrogen.Here, we demonstrate the effectiveness of RNAlater in preserving both RNA and proteins in Arabidopsis thaliana tissues for use in RNAseq and LC-MS/MS analysis of proteins.While successful in preserving plant material, a transcriptomic and proteomic response is evident.Specifically, 5770 gene transcripts, 84 soluble proteins, and 120 membrane-bound proteins were found to be differentially expressed at a log-fold change of ±1 (P 0.05).This response is mirrored in the abundance of post-translational modifications, with 23 of the 108 (21.3%) phosphorylated proteins showing altered abundance at a log-fold change of ±1 (P 0.05).While RNAlater is effective in preserving biological information, our findings warrant caution in its use for transcriptomic and proteomic experiments.",
+          "block_index": 0,
+          "section_index": 0,
+          "global_order": 0,
+          "id": "p_1_1"
+        },
+        {
+          "type": "figure",
+          "id": "fig_1",
+          "block_index": 1,
+          "section_index": 0,
+          "global_order": 1
+        },
+        {
+          "type": "figure",
+          "id": "fig_2",
+          "block_index": 2,
+          "section_index": 0,
+          "global_order": 2
+        }
+      ]
+    },
+    {
+      "heading": "Introduction",
+      "paragraphs": [
+        "For the success of transcriptomic and proteomic experiments sufficient quality and quantity of RNA or protein is essential.The ability to accurately preserve samples prior to extraction provides researchers flexibility with experimental design.Snap freezing in liquid nitrogen has been the standard technique for molecular and cell biologists and provides ideal preservation of proteins and nucleic acids for long periods when stored at -80˚C.However, field experiments, remote regions of the world, and areas with insufficient infrastructure to allow for access to liquid nitrogen necessitate the use of fixatives [1,2].",
+        "RNAlater contains high concentrations of quaternary ammonium sulfates and cesium sulfates which denature RNases, DNases and proteases to prevent the degradation of RNA [3].While RNAlater is ineffective in the preservation of fine anatomical and structural features [1], it has been shown to be effective in the preservation of nucleic acids [1,3,4].RNAlater has been used to successfully preserve high quality DNA for up to 7 years from the date of sample collection and fixation in chimpanzee fecal material collected from remote habitats [1].Parallel studies of RNAlater and formalin fixation on these fecal samples demonstrated RNAlater to be the superior fixative for the preservation of nucleic acids.In the past decade, studies on human tissues [3,5] and microbes [4] have shown that, in addition to nucleic acids, RNAlater is effective at preserving proteins.Saito et al. [4] analyzed microbial proteins and showed that more proteins were detected in RNAlater preserved samples than in the snap frozen controls.Bennike et al. [3,5] demonstrated protein and RNA integrity, and detection of post-translational modifications are not significantly impacted by RNAlater in human tissue samples.",
+        "RNAlater has been used for the preservation of plant material as well-especially space flown material grown aboard the international space station [2,6,7,8,9,10].However, the structure of plant tissues present challenges for the use of fixatives, and how the cell wall impacts permeability of the fixative is unclear.Herein, we present, to our knowledge, the first full 'omics level study performed to determine the ability of RNAlater to preserve tissue of Arabidopsis thaliana, the primary model organism for plants, for downstream 'omics-level analyses."
+      ],
+      "text": "For the success of transcriptomic and proteomic experiments sufficient quality and quantity of RNA or protein is essential.The ability to accurately preserve samples prior to extraction provides researchers flexibility with experimental design.Snap freezing in liquid nitrogen has been the standard technique for molecular and cell biologists and provides ideal preservation of proteins and nucleic acids for long periods when stored at -80˚C.However, field experiments, remote regions of the world, and areas with insufficient infrastructure to allow for access to liquid nitrogen necessitate the use of fixatives [1,2].\nRNAlater contains high concentrations of quaternary ammonium sulfates and cesium sulfates which denature RNases, DNases and proteases to prevent the degradation of RNA [3].While RNAlater is ineffective in the preservation of fine anatomical and structural features [1], it has been shown to be effective in the preservation of nucleic acids [1,3,4].RNAlater has been used to successfully preserve high quality DNA for up to 7 years from the date of sample collection and fixation in chimpanzee fecal material collected from remote habitats [1].Parallel studies of RNAlater and formalin fixation on these fecal samples demonstrated RNAlater to be the superior fixative for the preservation of nucleic acids.In the past decade, studies on human tissues [3,5] and microbes [4] have shown that, in addition to nucleic acids, RNAlater is effective at preserving proteins.Saito et al. [4] analyzed microbial proteins and showed that more proteins were detected in RNAlater preserved samples than in the snap frozen controls.Bennike et al. [3,5] demonstrated protein and RNA integrity, and detection of post-translational modifications are not significantly impacted by RNAlater in human tissue samples.\nRNAlater has been used for the preservation of plant material as well-especially space flown material grown aboard the international space station [2,6,7,8,9,10].However, the structure of plant tissues present challenges for the use of fixatives, and how the cell wall impacts permeability of the fixative is unclear.Herein, we present, to our knowledge, the first full 'omics level study performed to determine the ability of RNAlater to preserve tissue of Arabidopsis thaliana, the primary model organism for plants, for downstream 'omics-level analyses.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "For the success of transcriptomic and proteomic experiments sufficient quality and quantity of RNA or protein is essential.The ability to accurately preserve samples prior to extraction provides researchers flexibility with experimental design.Snap freezing in liquid nitrogen has been the standard technique for molecular and cell biologists and provides ideal preservation of proteins and nucleic acids for long periods when stored at -80˚C.However, field experiments, remote regions of the world, and areas with insufficient infrastructure to allow for access to liquid nitrogen necessitate the use of fixatives [1,2].",
+          "block_index": 0,
+          "section_index": 1,
+          "global_order": 3,
+          "id": "p_2_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "RNAlater contains high concentrations of quaternary ammonium sulfates and cesium sulfates which denature RNases, DNases and proteases to prevent the degradation of RNA [3].While RNAlater is ineffective in the preservation of fine anatomical and structural features [1], it has been shown to be effective in the preservation of nucleic acids [1,3,4].RNAlater has been used to successfully preserve high quality DNA for up to 7 years from the date of sample collection and fixation in chimpanzee fecal material collected from remote habitats [1].Parallel studies of RNAlater and formalin fixation on these fecal samples demonstrated RNAlater to be the superior fixative for the preservation of nucleic acids.In the past decade, studies on human tissues [3,5] and microbes [4] have shown that, in addition to nucleic acids, RNAlater is effective at preserving proteins.Saito et al. [4] analyzed microbial proteins and showed that more proteins were detected in RNAlater preserved samples than in the snap frozen controls.Bennike et al. [3,5] demonstrated protein and RNA integrity, and detection of post-translational modifications are not significantly impacted by RNAlater in human tissue samples.",
+          "block_index": 1,
+          "section_index": 1,
+          "global_order": 4,
+          "id": "p_2_2"
+        },
+        {
+          "type": "paragraph",
+          "text": "RNAlater has been used for the preservation of plant material as well-especially space flown material grown aboard the international space station [2,6,7,8,9,10].However, the structure of plant tissues present challenges for the use of fixatives, and how the cell wall impacts permeability of the fixative is unclear.Herein, we present, to our knowledge, the first full 'omics level study performed to determine the ability of RNAlater to preserve tissue of Arabidopsis thaliana, the primary model organism for plants, for downstream 'omics-level analyses.",
+          "block_index": 2,
+          "section_index": 1,
+          "global_order": 5,
+          "id": "p_2_3"
+        }
+      ]
+    },
+    {
+      "heading": "RNAlater treatment alters transcript levels in Arabidopsis seedlings",
+      "paragraphs": [
+        "One caution with using RNAlater is the rate of its diffusion through tissues that could lead to uneven preservation of cells across tissues.Because RNAlater denatures transcriptional machinery, uneven preservation across tissues could lead to a transcriptomic or proteomic response.To determine if RNAlater treatment impacted transcript levels in Arabidopsis thaliana, etiolated seedlings were grown for 72 hours then either snap frozen in liquid N 2 , or Incubated for 12 h in RNAlater at room temperature followed by freezing at -80˚C.RNAseq was performed and transcripts compared to assess differential gene expression.Between 17 and 30 million read pairs for each biological replicate were aligned to the TAIR10 assembly using STAR.For each replicate, at least 27,000 unique genes were detected using HTSeq, with at least 15,000 per replicate at greater than 5 counts per million.The ribosomal fraction was below 2% in all replicates.",
+        "Transcriptional activities in Arabidopsis were found to be modified by the method of preservation.At a log-fold change cutoff of ±1 (P 0.05), 5770 gene transcripts were differentially expressed (Fig 1A).More stringent log-fold change and significance cutoffs also identified transcripts that show differential regulation.We selected the 5770 as a robust number for subsequent analysis.A gene ontology (GO) enrichment analysis identified several upregulated categories indicating a transcript level response to osmotic stress (Fig 1B).Together, these results suggest that RNAlater preservation is not immediate in etiolated seedlings, and allows time for transcriptional response to osmotic stress caused by ammonium sulfates and cesium sulfates, resulting in potentially altered transcriptomes."
+      ],
+      "text": "One caution with using RNAlater is the rate of its diffusion through tissues that could lead to uneven preservation of cells across tissues.Because RNAlater denatures transcriptional machinery, uneven preservation across tissues could lead to a transcriptomic or proteomic response.To determine if RNAlater treatment impacted transcript levels in Arabidopsis thaliana, etiolated seedlings were grown for 72 hours then either snap frozen in liquid N 2 , or Incubated for 12 h in RNAlater at room temperature followed by freezing at -80˚C.RNAseq was performed and transcripts compared to assess differential gene expression.Between 17 and 30 million read pairs for each biological replicate were aligned to the TAIR10 assembly using STAR.For each replicate, at least 27,000 unique genes were detected using HTSeq, with at least 15,000 per replicate at greater than 5 counts per million.The ribosomal fraction was below 2% in all replicates.\nTranscriptional activities in Arabidopsis were found to be modified by the method of preservation.At a log-fold change cutoff of ±1 (P 0.05), 5770 gene transcripts were differentially expressed (Fig 1A).More stringent log-fold change and significance cutoffs also identified transcripts that show differential regulation.We selected the 5770 as a robust number for subsequent analysis.A gene ontology (GO) enrichment analysis identified several upregulated categories indicating a transcript level response to osmotic stress (Fig 1B).Together, these results suggest that RNAlater preservation is not immediate in etiolated seedlings, and allows time for transcriptional response to osmotic stress caused by ammonium sulfates and cesium sulfates, resulting in potentially altered transcriptomes.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "One caution with using RNAlater is the rate of its diffusion through tissues that could lead to uneven preservation of cells across tissues.Because RNAlater denatures transcriptional machinery, uneven preservation across tissues could lead to a transcriptomic or proteomic response.To determine if RNAlater treatment impacted transcript levels in Arabidopsis thaliana, etiolated seedlings were grown for 72 hours then either snap frozen in liquid N 2 , or Incubated for 12 h in RNAlater at room temperature followed by freezing at -80˚C.RNAseq was performed and transcripts compared to assess differential gene expression.Between 17 and 30 million read pairs for each biological replicate were aligned to the TAIR10 assembly using STAR.For each replicate, at least 27,000 unique genes were detected using HTSeq, with at least 15,000 per replicate at greater than 5 counts per million.The ribosomal fraction was below 2% in all replicates.",
+          "block_index": 0,
+          "section_index": 2,
+          "global_order": 6,
+          "id": "p_3_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "Transcriptional activities in Arabidopsis were found to be modified by the method of preservation.At a log-fold change cutoff of ±1 (P 0.05), 5770 gene transcripts were differentially expressed (Fig 1A).More stringent log-fold change and significance cutoffs also identified transcripts that show differential regulation.We selected the 5770 as a robust number for subsequent analysis.A gene ontology (GO) enrichment analysis identified several upregulated categories indicating a transcript level response to osmotic stress (Fig 1B).Together, these results suggest that RNAlater preservation is not immediate in etiolated seedlings, and allows time for transcriptional response to osmotic stress caused by ammonium sulfates and cesium sulfates, resulting in potentially altered transcriptomes.",
+          "block_index": 1,
+          "section_index": 2,
+          "global_order": 7,
+          "id": "p_3_2"
+        }
+      ]
+    },
+    {
+      "heading": "RNAlater fixation allows for proteomics analysis",
+      "paragraphs": [
+        "To determine if RNAlater fixation is sufficient to prevent proteolysis in Arabidopsis seedlings, etiolated plants were grown for 72 hours then either flash frozen in liquid N 2 or submerged in RNAlater for 12 hours prior to protein extraction.Soluble and insoluble protein were separately collected from each sample and labeled with iTRAQ tags for Mass Spectrometry-based protein quantification.In total, 2,915 membrane proteins were identified in both conditions, whereas 2646 soluble proteins were identified in both the RNAlater and snap frozen samples.The detection of individual proteins is unaltered by the treatment, showing RNAlater to be effective for absolute detection of proteins."
+      ],
+      "text": "To determine if RNAlater fixation is sufficient to prevent proteolysis in Arabidopsis seedlings, etiolated plants were grown for 72 hours then either flash frozen in liquid N 2 or submerged in RNAlater for 12 hours prior to protein extraction.Soluble and insoluble protein were separately collected from each sample and labeled with iTRAQ tags for Mass Spectrometry-based protein quantification.In total, 2,915 membrane proteins were identified in both conditions, whereas 2646 soluble proteins were identified in both the RNAlater and snap frozen samples.The detection of individual proteins is unaltered by the treatment, showing RNAlater to be effective for absolute detection of proteins.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "To determine if RNAlater fixation is sufficient to prevent proteolysis in Arabidopsis seedlings, etiolated plants were grown for 72 hours then either flash frozen in liquid N 2 or submerged in RNAlater for 12 hours prior to protein extraction.Soluble and insoluble protein were separately collected from each sample and labeled with iTRAQ tags for Mass Spectrometry-based protein quantification.In total, 2,915 membrane proteins were identified in both conditions, whereas 2646 soluble proteins were identified in both the RNAlater and snap frozen samples.The detection of individual proteins is unaltered by the treatment, showing RNAlater to be effective for absolute detection of proteins.",
+          "block_index": 0,
+          "section_index": 3,
+          "global_order": 8,
+          "id": "p_4_1"
+        }
+      ]
+    },
+    {
+      "heading": "Differentially detected proteins",
+      "paragraphs": [
+        "RNAlater successfully preserved protein integrity to allow for reproducible detection of proteins, however RNAlater-fixed samples have altered protein expression levels.At a log fold change of !±1, 84 soluble proteins and 120 membrane-bound proteins were found to be differentially expressed (P 0.05) (Fig 2A & 2B).A GO term enrichment analysis of the proteins showed that, unlike the transcript analysis, the proteome did not show significant GO differences for categories comprising osmotic stress.However, the GO analysis did show significant differences in protein import into the nucleus (translocation), mRNA transport, ribosomal  small subunit biogenesis, RNA localization, RNA/nucleic acid transport, translational elongation, and response to cadmium, metal, and cold, among others (Fig 2C)."
+      ],
+      "text": "RNAlater successfully preserved protein integrity to allow for reproducible detection of proteins, however RNAlater-fixed samples have altered protein expression levels.At a log fold change of !±1, 84 soluble proteins and 120 membrane-bound proteins were found to be differentially expressed (P 0.05) (Fig 2A & 2B).A GO term enrichment analysis of the proteins showed that, unlike the transcript analysis, the proteome did not show significant GO differences for categories comprising osmotic stress.However, the GO analysis did show significant differences in protein import into the nucleus (translocation), mRNA transport, ribosomal  small subunit biogenesis, RNA localization, RNA/nucleic acid transport, translational elongation, and response to cadmium, metal, and cold, among others (Fig 2C).",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "RNAlater successfully preserved protein integrity to allow for reproducible detection of proteins, however RNAlater-fixed samples have altered protein expression levels.At a log fold change of !±1, 84 soluble proteins and 120 membrane-bound proteins were found to be differentially expressed (P 0.05) (Fig 2A & 2B).A GO term enrichment analysis of the proteins showed that, unlike the transcript analysis, the proteome did not show significant GO differences for categories comprising osmotic stress.However, the GO analysis did show significant differences in protein import into the nucleus (translocation), mRNA transport, ribosomal  small subunit biogenesis, RNA localization, RNA/nucleic acid transport, translational elongation, and response to cadmium, metal, and cold, among others (Fig 2C).",
+          "block_index": 0,
+          "section_index": 4,
+          "global_order": 9,
+          "id": "p_5_1"
+        }
+      ]
+    },
+    {
+      "heading": "Post-translational modifications altered by RNAlater fixation",
+      "paragraphs": [
+        "A growing focus of proteomics research is the detection of alterations in post-translational modifications.The resolution of our data allowed the determination of phosphorylation, oxidation, and deamidation of detected peptides.A total of 29 phosphorylated, 7060 oxidized, and 6001 deamidated peptides were detected in the soluble protein fractions with 79 phosphorylated, 3934 oxidized and 4035 deamidated peptides detected in the membrane fractions (Table 1).",
+        "In the membrane protein fraction, two modifications were found solely in the RNAlater preserved replicates (both deamidations).These modified peptides correspond to ROC4 and an ATP synthase beta-subunit ( S1 Table).In the soluble fraction, 23 modified peptide states were found solely in the RNAlater preserved samples.These correspond to just two proteins-CRUCIFERIN 1 and 3 ( S2 Table).",
+        "Few modifications seem to be selectively induced by RNAlater fixation, but the abundance of many protein modifications is altered by the treatment.Phosphorylated proteins show the greatest sensitivity to the treatment 21.3% of all phosphorylated peptides showing altered abundance.Oxidation and deamidation modifications are more tolerant of the treatment with 6.8% and 10.4% showing altered abundance of modified peptides, respectively."
+      ],
+      "text": "A growing focus of proteomics research is the detection of alterations in post-translational modifications.The resolution of our data allowed the determination of phosphorylation, oxidation, and deamidation of detected peptides.A total of 29 phosphorylated, 7060 oxidized, and 6001 deamidated peptides were detected in the soluble protein fractions with 79 phosphorylated, 3934 oxidized and 4035 deamidated peptides detected in the membrane fractions (Table 1).\nIn the membrane protein fraction, two modifications were found solely in the RNAlater preserved replicates (both deamidations).These modified peptides correspond to ROC4 and an ATP synthase beta-subunit ( S1 Table).In the soluble fraction, 23 modified peptide states were found solely in the RNAlater preserved samples.These correspond to just two proteins-CRUCIFERIN 1 and 3 ( S2 Table).\nFew modifications seem to be selectively induced by RNAlater fixation, but the abundance of many protein modifications is altered by the treatment.Phosphorylated proteins show the greatest sensitivity to the treatment 21.3% of all phosphorylated peptides showing altered abundance.Oxidation and deamidation modifications are more tolerant of the treatment with 6.8% and 10.4% showing altered abundance of modified peptides, respectively.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A growing focus of proteomics research is the detection of alterations in post-translational modifications.The resolution of our data allowed the determination of phosphorylation, oxidation, and deamidation of detected peptides.A total of 29 phosphorylated, 7060 oxidized, and 6001 deamidated peptides were detected in the soluble protein fractions with 79 phosphorylated, 3934 oxidized and 4035 deamidated peptides detected in the membrane fractions (Table 1).",
+          "block_index": 0,
+          "section_index": 5,
+          "global_order": 10,
+          "id": "p_6_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the membrane protein fraction, two modifications were found solely in the RNAlater preserved replicates (both deamidations).These modified peptides correspond to ROC4 and an ATP synthase beta-subunit ( S1 Table).In the soluble fraction, 23 modified peptide states were found solely in the RNAlater preserved samples.These correspond to just two proteins-CRUCIFERIN 1 and 3 ( S2 Table).",
+          "block_index": 1,
+          "section_index": 5,
+          "global_order": 11,
+          "id": "p_6_2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Few modifications seem to be selectively induced by RNAlater fixation, but the abundance of many protein modifications is altered by the treatment.Phosphorylated proteins show the greatest sensitivity to the treatment 21.3% of all phosphorylated peptides showing altered abundance.Oxidation and deamidation modifications are more tolerant of the treatment with 6.8% and 10.4% showing altered abundance of modified peptides, respectively.",
+          "block_index": 2,
+          "section_index": 5,
+          "global_order": 12,
+          "id": "p_6_3"
+        }
+      ]
+    },
+    {
+      "heading": "Discussion",
+      "paragraphs": [
+        "RNAlater is a valuable fixative used for preservation of biological samples.The solution denatures proteases and RNases to preserve RNA and protein integrity for downstream analysis.While many studies have successfully utilized RNAlater as a preservative, few studies have directly compared the effects of this fixative on stability of RNA, protein and post-translational modifications.Bennike et al. [3] compared formalin, RNAlater and snap-freezing of human colon mucosal biopsies in a quantitative proteomics study which demonstrated RNAlater yielded the most similar results to liquid nitrogen.Additionally, the percentage of modified peptides detected was stable between RNAlater and snap-frozen samples.Specific amidation and oxidation events were not altered between liquid nitrogen and RNAlater fixation in human tissues [3,5].Saito et al. [4] performed a comparison of snap-frozen samples to five preservative solutions (SDS-extraction buffer, ethanol, trichloroacetic acid, B-PER, and RNAlater)",
+        "Table 1.Number of peptides with altered post-translational modifications due to RNAlater.Fraction Post-translational modification Total peptides identified with modification (#) Peptides differentially modified* # % of total Soluble Phosphorylation 29 5 17.24 Oxidation 7060 449 6.36 Deamidation 6001 726 12.10 Membrane Phosphorylation 79 18 22.78 Oxidation 3934 301 7.65 Deamidation 4035 318 7.88 *With significantly different abundances (p 0.05, LFC ±1 or greater) https://doi.org/10.1371/journal.pone.0175943.t001",
+        "on the proteome integrity of cyanobacterium Synechococcus WH8102 and found that, after four weeks of preservation, RNAlater was the superior preservative and did not significantly alter the proteome compared to snap freezing in liquid nitrogen.In the 20 most abundant proteins in this microbe, the average relative abundance in RNAlater samples compared to liquid nitrogen samples was 1.01, indicating retention of protein integrity [4].No equivalent control had been performed using plant tissues to examine the effects of RNAlater on plant proteomics nor to investigate transcriptomic modifications induced by the preservative.",
+        "Here, we show that fixation with RNAlater did not affect quality or quantity of proteins identified in Arabidopsis seedlings, consistent with previous studies using animal and bacterial tissue [3,4].However, RNAlater treatment led to altered gene expression (Fig 1), protein expression (Fig 2) and abundance of post-translational modifications (Table 1).RNAlater had a substantial impact on the transcriptome, with 5770 transcripts differentially expressed at a log-fold change ±1 (Fig 1A).If the preserved tissue was responding to RNAlater, one would predict that the ammonium sulfates and cesium sulfates in the mixture would induce expression of genes related to salt stress.Indeed, genes associated with desiccation and osmotic homeostasis were the most enriched categories, suggesting that the transcript differences are a result of a cellular response to RNAlater (Fig 1B), potentially caused by an uneven preservation of cells as RNAlater diffuses across a tissue.Of the proteins detected, less than 1.4% of the membrane and soluble proteins, 120 and 84 respectively, were found to be altered between treatments at a log-fold change ±1 (Fig 2A and 2C).A GO enrichment analysis of the differentially abundant proteins did not indicate a salt stress response that could be attributed to the effects of RNAlater (Fig 2B and 2D).The absolute detection of post-translational modifications was unchanged by RNAlater, with the exception of peptides corresponding to four proteins-ROC4 (AT3G62030), an ATP synthase beta-subunit (AT5G08670), as well as CRUCIFERIN 1 and 3 (AT4G28520 and AT5G44120) ( S1 and S2 Tables).Cruciferins are the most abundant seed storage proteins in Arabidopsis seedlings and have been implicated in response to oxidative stress [11].The modifications may be a direct result of the oxidative stress produced by the ammonium salts and may indicate potential mechanism for the cruciferin protein's ability to buffer seeds from oxidative stress.While the absolute detection of the remaining modifications was unaltered, the abundance of protein modifications was more sensitive to RNAlater fixation.Phosphorylation events were the most sensitive with 17.24% of the phosphorylated soluble proteins and 22.78% of the phosphorylated membrane proteins exhibiting an altered abundance of phosphorylated peptides.Deamidation and oxidation events were less sensitive to RNAlater (Table 1).",
+        "Interestingly, the drastic alterations in transcript levels were not mirrored in the proteome.While transcription can be quickly initiated in response to a change in environment, a change in translation would be slower and dependent on new transcripts.Thus, the rate of tissue infiltration allows a short-term alteration in transcription, but the RNAlater successfully inhibits the translational machinery before a substantial amount of protein is produced or degraded.The idea of a brief period of cellular response, prior to full fixation by RNAlater, is also supported by the observed changes in protein modifications (Fig 2).",
+        "Overall, these data suggest that researchers should use caution when selecting RNAlater as a fixative for plant omics-level experiments.Although it is convenient, depending on the sample, it may be unable to effectively halt transcriptional processes rapidly enough to prevent a transcriptomic response to the fixative.Theoretically, experimental controls, also fixed in RNAlater, would eliminate differential expression caused by the RNAlater-induced transcripts, preventing misidentification.However, some legitimate expression changes induced by experimental conditions could be obscured by RNAlater induction of the same genes."
+      ],
+      "text": "RNAlater is a valuable fixative used for preservation of biological samples.The solution denatures proteases and RNases to preserve RNA and protein integrity for downstream analysis.While many studies have successfully utilized RNAlater as a preservative, few studies have directly compared the effects of this fixative on stability of RNA, protein and post-translational modifications.Bennike et al. [3] compared formalin, RNAlater and snap-freezing of human colon mucosal biopsies in a quantitative proteomics study which demonstrated RNAlater yielded the most similar results to liquid nitrogen.Additionally, the percentage of modified peptides detected was stable between RNAlater and snap-frozen samples.Specific amidation and oxidation events were not altered between liquid nitrogen and RNAlater fixation in human tissues [3,5].Saito et al. [4] performed a comparison of snap-frozen samples to five preservative solutions (SDS-extraction buffer, ethanol, trichloroacetic acid, B-PER, and RNAlater)\nTable 1.Number of peptides with altered post-translational modifications due to RNAlater.Fraction Post-translational modification Total peptides identified with modification (#) Peptides differentially modified* # % of total Soluble Phosphorylation 29 5 17.24 Oxidation 7060 449 6.36 Deamidation 6001 726 12.10 Membrane Phosphorylation 79 18 22.78 Oxidation 3934 301 7.65 Deamidation 4035 318 7.88 *With significantly different abundances (p 0.05, LFC ±1 or greater) https://doi.org/10.1371/journal.pone.0175943.t001\non the proteome integrity of cyanobacterium Synechococcus WH8102 and found that, after four weeks of preservation, RNAlater was the superior preservative and did not significantly alter the proteome compared to snap freezing in liquid nitrogen.In the 20 most abundant proteins in this microbe, the average relative abundance in RNAlater samples compared to liquid nitrogen samples was 1.01, indicating retention of protein integrity [4].No equivalent control had been performed using plant tissues to examine the effects of RNAlater on plant proteomics nor to investigate transcriptomic modifications induced by the preservative.\nHere, we show that fixation with RNAlater did not affect quality or quantity of proteins identified in Arabidopsis seedlings, consistent with previous studies using animal and bacterial tissue [3,4].However, RNAlater treatment led to altered gene expression (Fig 1), protein expression (Fig 2) and abundance of post-translational modifications (Table 1).RNAlater had a substantial impact on the transcriptome, with 5770 transcripts differentially expressed at a log-fold change ±1 (Fig 1A).If the preserved tissue was responding to RNAlater, one would predict that the ammonium sulfates and cesium sulfates in the mixture would induce expression of genes related to salt stress.Indeed, genes associated with desiccation and osmotic homeostasis were the most enriched categories, suggesting that the transcript differences are a result of a cellular response to RNAlater (Fig 1B), potentially caused by an uneven preservation of cells as RNAlater diffuses across a tissue.Of the proteins detected, less than 1.4% of the membrane and soluble proteins, 120 and 84 respectively, were found to be altered between treatments at a log-fold change ±1 (Fig 2A and 2C).A GO enrichment analysis of the differentially abundant proteins did not indicate a salt stress response that could be attributed to the effects of RNAlater (Fig 2B and 2D).The absolute detection of post-translational modifications was unchanged by RNAlater, with the exception of peptides corresponding to four proteins-ROC4 (AT3G62030), an ATP synthase beta-subunit (AT5G08670), as well as CRUCIFERIN 1 and 3 (AT4G28520 and AT5G44120) ( S1 and S2 Tables).Cruciferins are the most abundant seed storage proteins in Arabidopsis seedlings and have been implicated in response to oxidative stress [11].The modifications may be a direct result of the oxidative stress produced by the ammonium salts and may indicate potential mechanism for the cruciferin protein's ability to buffer seeds from oxidative stress.While the absolute detection of the remaining modifications was unaltered, the abundance of protein modifications was more sensitive to RNAlater fixation.Phosphorylation events were the most sensitive with 17.24% of the phosphorylated soluble proteins and 22.78% of the phosphorylated membrane proteins exhibiting an altered abundance of phosphorylated peptides.Deamidation and oxidation events were less sensitive to RNAlater (Table 1).\nInterestingly, the drastic alterations in transcript levels were not mirrored in the proteome.While transcription can be quickly initiated in response to a change in environment, a change in translation would be slower and dependent on new transcripts.Thus, the rate of tissue infiltration allows a short-term alteration in transcription, but the RNAlater successfully inhibits the translational machinery before a substantial amount of protein is produced or degraded.The idea of a brief period of cellular response, prior to full fixation by RNAlater, is also supported by the observed changes in protein modifications (Fig 2).\nOverall, these data suggest that researchers should use caution when selecting RNAlater as a fixative for plant omics-level experiments.Although it is convenient, depending on the sample, it may be unable to effectively halt transcriptional processes rapidly enough to prevent a transcriptomic response to the fixative.Theoretically, experimental controls, also fixed in RNAlater, would eliminate differential expression caused by the RNAlater-induced transcripts, preventing misidentification.However, some legitimate expression changes induced by experimental conditions could be obscured by RNAlater induction of the same genes.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "RNAlater is a valuable fixative used for preservation of biological samples.The solution denatures proteases and RNases to preserve RNA and protein integrity for downstream analysis.While many studies have successfully utilized RNAlater as a preservative, few studies have directly compared the effects of this fixative on stability of RNA, protein and post-translational modifications.Bennike et al. [3] compared formalin, RNAlater and snap-freezing of human colon mucosal biopsies in a quantitative proteomics study which demonstrated RNAlater yielded the most similar results to liquid nitrogen.Additionally, the percentage of modified peptides detected was stable between RNAlater and snap-frozen samples.Specific amidation and oxidation events were not altered between liquid nitrogen and RNAlater fixation in human tissues [3,5].Saito et al. [4] performed a comparison of snap-frozen samples to five preservative solutions (SDS-extraction buffer, ethanol, trichloroacetic acid, B-PER, and RNAlater)",
+          "block_index": 0,
+          "section_index": 6,
+          "global_order": 13,
+          "id": "p_7_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "Table 1.Number of peptides with altered post-translational modifications due to RNAlater.Fraction Post-translational modification Total peptides identified with modification (#) Peptides differentially modified* # % of total Soluble Phosphorylation 29 5 17.24 Oxidation 7060 449 6.36 Deamidation 6001 726 12.10 Membrane Phosphorylation 79 18 22.78 Oxidation 3934 301 7.65 Deamidation 4035 318 7.88 *With significantly different abundances (p 0.05, LFC ±1 or greater) https://doi.org/10.1371/journal.pone.0175943.t001",
+          "block_index": 1,
+          "section_index": 6,
+          "global_order": 14,
+          "id": "p_7_2"
+        },
+        {
+          "type": "paragraph",
+          "text": "on the proteome integrity of cyanobacterium Synechococcus WH8102 and found that, after four weeks of preservation, RNAlater was the superior preservative and did not significantly alter the proteome compared to snap freezing in liquid nitrogen.In the 20 most abundant proteins in this microbe, the average relative abundance in RNAlater samples compared to liquid nitrogen samples was 1.01, indicating retention of protein integrity [4].No equivalent control had been performed using plant tissues to examine the effects of RNAlater on plant proteomics nor to investigate transcriptomic modifications induced by the preservative.",
+          "block_index": 2,
+          "section_index": 6,
+          "global_order": 15,
+          "id": "p_7_3"
+        },
+        {
+          "type": "paragraph",
+          "text": "Here, we show that fixation with RNAlater did not affect quality or quantity of proteins identified in Arabidopsis seedlings, consistent with previous studies using animal and bacterial tissue [3,4].However, RNAlater treatment led to altered gene expression (Fig 1), protein expression (Fig 2) and abundance of post-translational modifications (Table 1).RNAlater had a substantial impact on the transcriptome, with 5770 transcripts differentially expressed at a log-fold change ±1 (Fig 1A).If the preserved tissue was responding to RNAlater, one would predict that the ammonium sulfates and cesium sulfates in the mixture would induce expression of genes related to salt stress.Indeed, genes associated with desiccation and osmotic homeostasis were the most enriched categories, suggesting that the transcript differences are a result of a cellular response to RNAlater (Fig 1B), potentially caused by an uneven preservation of cells as RNAlater diffuses across a tissue.Of the proteins detected, less than 1.4% of the membrane and soluble proteins, 120 and 84 respectively, were found to be altered between treatments at a log-fold change ±1 (Fig 2A and 2C).A GO enrichment analysis of the differentially abundant proteins did not indicate a salt stress response that could be attributed to the effects of RNAlater (Fig 2B and 2D).The absolute detection of post-translational modifications was unchanged by RNAlater, with the exception of peptides corresponding to four proteins-ROC4 (AT3G62030), an ATP synthase beta-subunit (AT5G08670), as well as CRUCIFERIN 1 and 3 (AT4G28520 and AT5G44120) ( S1 and S2 Tables).Cruciferins are the most abundant seed storage proteins in Arabidopsis seedlings and have been implicated in response to oxidative stress [11].The modifications may be a direct result of the oxidative stress produced by the ammonium salts and may indicate potential mechanism for the cruciferin protein's ability to buffer seeds from oxidative stress.While the absolute detection of the remaining modifications was unaltered, the abundance of protein modifications was more sensitive to RNAlater fixation.Phosphorylation events were the most sensitive with 17.24% of the phosphorylated soluble proteins and 22.78% of the phosphorylated membrane proteins exhibiting an altered abundance of phosphorylated peptides.Deamidation and oxidation events were less sensitive to RNAlater (Table 1).",
+          "block_index": 3,
+          "section_index": 6,
+          "global_order": 16,
+          "id": "p_7_4"
+        },
+        {
+          "type": "paragraph",
+          "text": "Interestingly, the drastic alterations in transcript levels were not mirrored in the proteome.While transcription can be quickly initiated in response to a change in environment, a change in translation would be slower and dependent on new transcripts.Thus, the rate of tissue infiltration allows a short-term alteration in transcription, but the RNAlater successfully inhibits the translational machinery before a substantial amount of protein is produced or degraded.The idea of a brief period of cellular response, prior to full fixation by RNAlater, is also supported by the observed changes in protein modifications (Fig 2).",
+          "block_index": 4,
+          "section_index": 6,
+          "global_order": 17,
+          "id": "p_7_5"
+        },
+        {
+          "type": "paragraph",
+          "text": "Overall, these data suggest that researchers should use caution when selecting RNAlater as a fixative for plant omics-level experiments.Although it is convenient, depending on the sample, it may be unable to effectively halt transcriptional processes rapidly enough to prevent a transcriptomic response to the fixative.Theoretically, experimental controls, also fixed in RNAlater, would eliminate differential expression caused by the RNAlater-induced transcripts, preventing misidentification.However, some legitimate expression changes induced by experimental conditions could be obscured by RNAlater induction of the same genes.",
+          "block_index": 5,
+          "section_index": 6,
+          "global_order": 18,
+          "id": "p_7_6"
+        }
+      ]
+    },
+    {
+      "heading": "Plant material",
+      "paragraphs": [
+        "Arabidopsis thaliana (L.) Heyn.var Columbia seeds (Arabidopsis Biological Resource Center, Columbus, Ohio, USA) were used for all experiments.Forty-four aliquots of 0.016 ± 0.002 g of seeds (approximately 800-900 seeds per plate) were surface sterilized with 30% (v/v) bleach and 0.1% (v/v) Tween-20 for 20 min, washed with sterile water (5x), then dried onto 60 mm round filter paper to facilitate plating.Seeds were spread onto 60 mm round Petri plates containing 0.5 X MS media (Caisson) with 1% sucrose and 1% agar.Seeds were cold stratified then transferred to 22˚C for germination and growth.After 72 hours, half of the samples were fixed in RNAlater for 12 hours prior to freezing at -80˚C, while the remaining seedlings were snap-frozen in liquid nitrogen."
+      ],
+      "text": "Arabidopsis thaliana (L.) Heyn.var Columbia seeds (Arabidopsis Biological Resource Center, Columbus, Ohio, USA) were used for all experiments.Forty-four aliquots of 0.016 ± 0.002 g of seeds (approximately 800-900 seeds per plate) were surface sterilized with 30% (v/v) bleach and 0.1% (v/v) Tween-20 for 20 min, washed with sterile water (5x), then dried onto 60 mm round filter paper to facilitate plating.Seeds were spread onto 60 mm round Petri plates containing 0.5 X MS media (Caisson) with 1% sucrose and 1% agar.Seeds were cold stratified then transferred to 22˚C for germination and growth.After 72 hours, half of the samples were fixed in RNAlater for 12 hours prior to freezing at -80˚C, while the remaining seedlings were snap-frozen in liquid nitrogen.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Arabidopsis thaliana (L.) Heyn.var Columbia seeds (Arabidopsis Biological Resource Center, Columbus, Ohio, USA) were used for all experiments.Forty-four aliquots of 0.016 ± 0.002 g of seeds (approximately 800-900 seeds per plate) were surface sterilized with 30% (v/v) bleach and 0.1% (v/v) Tween-20 for 20 min, washed with sterile water (5x), then dried onto 60 mm round filter paper to facilitate plating.Seeds were spread onto 60 mm round Petri plates containing 0.5 X MS media (Caisson) with 1% sucrose and 1% agar.Seeds were cold stratified then transferred to 22˚C for germination and growth.After 72 hours, half of the samples were fixed in RNAlater for 12 hours prior to freezing at -80˚C, while the remaining seedlings were snap-frozen in liquid nitrogen.",
+          "block_index": 0,
+          "section_index": 7,
+          "global_order": 19,
+          "id": "p_8_1"
+        }
+      ]
+    },
+    {
+      "heading": "RNA erxtraction and processing",
+      "paragraphs": [
+        "Three biological replicates, one plate per replicate, were used for RNAseq analysis.RNA was extracted using an RNeasy Plant Mini Extraction Kit (Qiagen) according to standard protocols.RNA integrity (RIN !8) was verified using an Agilent 2100 Bioanalyzer.Paired-end sequence was obtained from an Illumina 2500 Hiseq using the Ribo-Zero rRNA Removal Kit prior to library preparation.Read pairs for each biological replicate were aligned to the TAIR10 assembly using STAR.Read counts were determined using HTSeq.Read counts were then analyzed to determine differential expression using the generalized linear model likelihood test within the EdgeR package.P-value was used to determine genes significantly expressed to maintain consistent statistics between protein and RNA data."
+      ],
+      "text": "Three biological replicates, one plate per replicate, were used for RNAseq analysis.RNA was extracted using an RNeasy Plant Mini Extraction Kit (Qiagen) according to standard protocols.RNA integrity (RIN !8) was verified using an Agilent 2100 Bioanalyzer.Paired-end sequence was obtained from an Illumina 2500 Hiseq using the Ribo-Zero rRNA Removal Kit prior to library preparation.Read pairs for each biological replicate were aligned to the TAIR10 assembly using STAR.Read counts were determined using HTSeq.Read counts were then analyzed to determine differential expression using the generalized linear model likelihood test within the EdgeR package.P-value was used to determine genes significantly expressed to maintain consistent statistics between protein and RNA data.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Three biological replicates, one plate per replicate, were used for RNAseq analysis.RNA was extracted using an RNeasy Plant Mini Extraction Kit (Qiagen) according to standard protocols.RNA integrity (RIN !8) was verified using an Agilent 2100 Bioanalyzer.Paired-end sequence was obtained from an Illumina 2500 Hiseq using the Ribo-Zero rRNA Removal Kit prior to library preparation.Read pairs for each biological replicate were aligned to the TAIR10 assembly using STAR.Read counts were determined using HTSeq.Read counts were then analyzed to determine differential expression using the generalized linear model likelihood test within the EdgeR package.P-value was used to determine genes significantly expressed to maintain consistent statistics between protein and RNA data.",
+          "block_index": 0,
+          "section_index": 8,
+          "global_order": 20,
+          "id": "p_9_1"
+        }
+      ]
+    },
+    {
+      "heading": "Protein extraction",
+      "paragraphs": [
+        "For extraction of soluble and membrane proteins, five plates were pooled for each replicate.Proteins were extracted according to Basu et al. [12].The collected protein extract was centrifuged at 10,000 g for 60 min to precipitate the microsomal fraction.The resultant supernatant was used to precipitate soluble proteins by addition of 0.1 M methanolic ammonium acetate (Fisher), incubation at -20˚C overnight then centrifugation at 16,000 g for 30 min.The pellet washed twice with 0.1M ammonium acetate (Fisher) solution, twice with 70% methanol and once with 80% acetone.The microsomal pellet was washed with sterile 160 mM sodium carbonate (Sigma) solution to remove any soluble protein contamination [13]."
+      ],
+      "text": "For extraction of soluble and membrane proteins, five plates were pooled for each replicate.Proteins were extracted according to Basu et al. [12].The collected protein extract was centrifuged at 10,000 g for 60 min to precipitate the microsomal fraction.The resultant supernatant was used to precipitate soluble proteins by addition of 0.1 M methanolic ammonium acetate (Fisher), incubation at -20˚C overnight then centrifugation at 16,000 g for 30 min.The pellet washed twice with 0.1M ammonium acetate (Fisher) solution, twice with 70% methanol and once with 80% acetone.The microsomal pellet was washed with sterile 160 mM sodium carbonate (Sigma) solution to remove any soluble protein contamination [13].",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "For extraction of soluble and membrane proteins, five plates were pooled for each replicate.Proteins were extracted according to Basu et al. [12].The collected protein extract was centrifuged at 10,000 g for 60 min to precipitate the microsomal fraction.The resultant supernatant was used to precipitate soluble proteins by addition of 0.1 M methanolic ammonium acetate (Fisher), incubation at -20˚C overnight then centrifugation at 16,000 g for 30 min.The pellet washed twice with 0.1M ammonium acetate (Fisher) solution, twice with 70% methanol and once with 80% acetone.The microsomal pellet was washed with sterile 160 mM sodium carbonate (Sigma) solution to remove any soluble protein contamination [13].",
+          "block_index": 0,
+          "section_index": 9,
+          "global_order": 21,
+          "id": "p_10_1"
+        }
+      ]
+    },
+    {
+      "heading": "Protein sample preparation",
+      "paragraphs": [
+        "All samples from the soluble protein extraction were washed additionally with 1 x 0.1M ammonium acetate in methanol, 1 x 80% acetone and 1 x 70% methanol.The pellets were then re-dissolved with 75 μL of 8 M urea in 0.5 M TEAB (pH 8.5) and 4 μL of the solution was assayed for protein concentration using the CBX kit (GBioscience).40 μg of each sample was reduced with 5 mM TCEP and alkylated with 10 mM iodoacetamide.Proteins were digested overnight at 37˚C by adding 2.5 μg of trypsin (1:16 enzyme:substrate ratio), followed by addition of 1.25μg of trypsin for another 3 h.All were then dried to prepare for iTRAQlabeling.",
+        "The membrane protein samples were centrifuged, and the supernatant assayed for protein using the CBX assay.To increase protein yield from the pellets, RapiGest (0.4%) was added to each pellet, and the samples incubated at 60˚C for 30 min and centrifuged at 21,000 x g for 10 min.40 μg of each sample was heated at 60˚C, then cooled, reduced with 10 mM TCEP and alkylated with 20 mM iodoacteamide.The proteins were then digested by adding 2.5 μg of trypsin (1:16 enzyme:substrate ratio) overnight at 37˚C; RapiGest was diluted to 0.1% with a 0.1M solution of TEAB; digestion was stopped after 3 h by acidifying to pH <2 and incubated for 2 h at 37˚C to denature the RapiGest.Digested samples were centrifuged, the supernatant was decanted, and the samples were dried for iTRAQ8-labeling."
+      ],
+      "text": "All samples from the soluble protein extraction were washed additionally with 1 x 0.1M ammonium acetate in methanol, 1 x 80% acetone and 1 x 70% methanol.The pellets were then re-dissolved with 75 μL of 8 M urea in 0.5 M TEAB (pH 8.5) and 4 μL of the solution was assayed for protein concentration using the CBX kit (GBioscience).40 μg of each sample was reduced with 5 mM TCEP and alkylated with 10 mM iodoacetamide.Proteins were digested overnight at 37˚C by adding 2.5 μg of trypsin (1:16 enzyme:substrate ratio), followed by addition of 1.25μg of trypsin for another 3 h.All were then dried to prepare for iTRAQlabeling.\nThe membrane protein samples were centrifuged, and the supernatant assayed for protein using the CBX assay.To increase protein yield from the pellets, RapiGest (0.4%) was added to each pellet, and the samples incubated at 60˚C for 30 min and centrifuged at 21,000 x g for 10 min.40 μg of each sample was heated at 60˚C, then cooled, reduced with 10 mM TCEP and alkylated with 20 mM iodoacteamide.The proteins were then digested by adding 2.5 μg of trypsin (1:16 enzyme:substrate ratio) overnight at 37˚C; RapiGest was diluted to 0.1% with a 0.1M solution of TEAB; digestion was stopped after 3 h by acidifying to pH <2 and incubated for 2 h at 37˚C to denature the RapiGest.Digested samples were centrifuged, the supernatant was decanted, and the samples were dried for iTRAQ8-labeling.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "All samples from the soluble protein extraction were washed additionally with 1 x 0.1M ammonium acetate in methanol, 1 x 80% acetone and 1 x 70% methanol.The pellets were then re-dissolved with 75 μL of 8 M urea in 0.5 M TEAB (pH 8.5) and 4 μL of the solution was assayed for protein concentration using the CBX kit (GBioscience).40 μg of each sample was reduced with 5 mM TCEP and alkylated with 10 mM iodoacetamide.Proteins were digested overnight at 37˚C by adding 2.5 μg of trypsin (1:16 enzyme:substrate ratio), followed by addition of 1.25μg of trypsin for another 3 h.All were then dried to prepare for iTRAQlabeling.",
+          "block_index": 0,
+          "section_index": 10,
+          "global_order": 22,
+          "id": "p_11_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "The membrane protein samples were centrifuged, and the supernatant assayed for protein using the CBX assay.To increase protein yield from the pellets, RapiGest (0.4%) was added to each pellet, and the samples incubated at 60˚C for 30 min and centrifuged at 21,000 x g for 10 min.40 μg of each sample was heated at 60˚C, then cooled, reduced with 10 mM TCEP and alkylated with 20 mM iodoacteamide.The proteins were then digested by adding 2.5 μg of trypsin (1:16 enzyme:substrate ratio) overnight at 37˚C; RapiGest was diluted to 0.1% with a 0.1M solution of TEAB; digestion was stopped after 3 h by acidifying to pH <2 and incubated for 2 h at 37˚C to denature the RapiGest.Digested samples were centrifuged, the supernatant was decanted, and the samples were dried for iTRAQ8-labeling.",
+          "block_index": 1,
+          "section_index": 10,
+          "global_order": 23,
+          "id": "p_11_2"
+        }
+      ]
+    },
+    {
+      "heading": "iTRAQ labeling and LC MS/MS analysis",
+      "paragraphs": [
+        "Equal amounts (40 μg) of both membrane and soluble, three replicates each, were digested with trypsin and labeled with a unique iTRAQ reagent according to the manufacturer's protocol (AB SCIEX, Massachusetts, USA).During MS/MS iTRAQ reagents release characteristic reporter ions (114-119 m/z) for simultaneous relative quantification and identification of the proteins.Replicates for each sample were then pooled and dried.The pooled samples were reconstituted in 0.5% TFA, desalted by solid-phase extraction and dried.100μg of each sample was fractionated using high pH reverse phase chromatography [14].The fractions were combined into 12 final fractions for LC-MS/MS using an LTQ-Orbitrap Velos Pro mass spectrometer (ThermoFisher Scientific, Waltham, MA) coupled with a U3000 RSLCnano HPLC (ThermoFisher Scientific, Waltham, MA).Each pooled fraction was redissolved in 15 μL 5% acetonitrile, 0.1% formic acid, and 5 μL of each loaded per injection, onto a C18 trap column (PepMap100, 300μmID × 5mm, 5μm particle size, 100 Å; ThermoFisher Scientific, Waltham, MA) at a flow rate of 5 μL/min for 3.5 min with 2% acetonitrile, 0.1% formic acid.Peptide separation was then carried out on a C18 column (nanoAcquity CSH130, 25 cm ×75 μm, C18, 1.7 μm, 130 Å, Waters, Milford, MA) at a flow rate of 0.26 μL/min.Peptides were separated using the following gradient (mobile phase A, 0.1% formic acid; mobile phase B, 0.1% formic acid in 80:20 acetonitrile:water).",
+        "The mass spectrometer was operated in positive ionization mode.The MS survey scan was performed in the Orbitrap/FT cell from a mass range of 300 to 1700 m/z.The resolution set to 60 000 @ 400 m/z, and the automatic gain control (AGC) target set to 1, 000 000 ions with a maximum fill time of 10 ms and 1 μscan.HCD fragmentation was used for MS/MS, and the 10 most intense signals in the survey scan are fragmented.Detection was performed in the Orbitrap/FT cell with resolution set to 7,500, an isolation window of 3.0 m/z, a target value of 100,000 ions and a maximum fill time of 100 ms and 1 μscan.Fragmentation was accomplished with normalized collision energy of 40 and activation time of 0.1 ms.Dynamic exclusion was performed with a repeat count of 1 and exclusion duration of 60 s, and a minimum MS signal for triggering MS/MS is set to 10,000 counts."
+      ],
+      "text": "Equal amounts (40 μg) of both membrane and soluble, three replicates each, were digested with trypsin and labeled with a unique iTRAQ reagent according to the manufacturer's protocol (AB SCIEX, Massachusetts, USA).During MS/MS iTRAQ reagents release characteristic reporter ions (114-119 m/z) for simultaneous relative quantification and identification of the proteins.Replicates for each sample were then pooled and dried.The pooled samples were reconstituted in 0.5% TFA, desalted by solid-phase extraction and dried.100μg of each sample was fractionated using high pH reverse phase chromatography [14].The fractions were combined into 12 final fractions for LC-MS/MS using an LTQ-Orbitrap Velos Pro mass spectrometer (ThermoFisher Scientific, Waltham, MA) coupled with a U3000 RSLCnano HPLC (ThermoFisher Scientific, Waltham, MA).Each pooled fraction was redissolved in 15 μL 5% acetonitrile, 0.1% formic acid, and 5 μL of each loaded per injection, onto a C18 trap column (PepMap100, 300μmID × 5mm, 5μm particle size, 100 Å; ThermoFisher Scientific, Waltham, MA) at a flow rate of 5 μL/min for 3.5 min with 2% acetonitrile, 0.1% formic acid.Peptide separation was then carried out on a C18 column (nanoAcquity CSH130, 25 cm ×75 μm, C18, 1.7 μm, 130 Å, Waters, Milford, MA) at a flow rate of 0.26 μL/min.Peptides were separated using the following gradient (mobile phase A, 0.1% formic acid; mobile phase B, 0.1% formic acid in 80:20 acetonitrile:water).\nThe mass spectrometer was operated in positive ionization mode.The MS survey scan was performed in the Orbitrap/FT cell from a mass range of 300 to 1700 m/z.The resolution set to 60 000 @ 400 m/z, and the automatic gain control (AGC) target set to 1, 000 000 ions with a maximum fill time of 10 ms and 1 μscan.HCD fragmentation was used for MS/MS, and the 10 most intense signals in the survey scan are fragmented.Detection was performed in the Orbitrap/FT cell with resolution set to 7,500, an isolation window of 3.0 m/z, a target value of 100,000 ions and a maximum fill time of 100 ms and 1 μscan.Fragmentation was accomplished with normalized collision energy of 40 and activation time of 0.1 ms.Dynamic exclusion was performed with a repeat count of 1 and exclusion duration of 60 s, and a minimum MS signal for triggering MS/MS is set to 10,000 counts.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Equal amounts (40 μg) of both membrane and soluble, three replicates each, were digested with trypsin and labeled with a unique iTRAQ reagent according to the manufacturer's protocol (AB SCIEX, Massachusetts, USA).During MS/MS iTRAQ reagents release characteristic reporter ions (114-119 m/z) for simultaneous relative quantification and identification of the proteins.Replicates for each sample were then pooled and dried.The pooled samples were reconstituted in 0.5% TFA, desalted by solid-phase extraction and dried.100μg of each sample was fractionated using high pH reverse phase chromatography [14].The fractions were combined into 12 final fractions for LC-MS/MS using an LTQ-Orbitrap Velos Pro mass spectrometer (ThermoFisher Scientific, Waltham, MA) coupled with a U3000 RSLCnano HPLC (ThermoFisher Scientific, Waltham, MA).Each pooled fraction was redissolved in 15 μL 5% acetonitrile, 0.1% formic acid, and 5 μL of each loaded per injection, onto a C18 trap column (PepMap100, 300μmID × 5mm, 5μm particle size, 100 Å; ThermoFisher Scientific, Waltham, MA) at a flow rate of 5 μL/min for 3.5 min with 2% acetonitrile, 0.1% formic acid.Peptide separation was then carried out on a C18 column (nanoAcquity CSH130, 25 cm ×75 μm, C18, 1.7 μm, 130 Å, Waters, Milford, MA) at a flow rate of 0.26 μL/min.Peptides were separated using the following gradient (mobile phase A, 0.1% formic acid; mobile phase B, 0.1% formic acid in 80:20 acetonitrile:water).",
+          "block_index": 0,
+          "section_index": 11,
+          "global_order": 24,
+          "id": "p_12_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "The mass spectrometer was operated in positive ionization mode.The MS survey scan was performed in the Orbitrap/FT cell from a mass range of 300 to 1700 m/z.The resolution set to 60 000 @ 400 m/z, and the automatic gain control (AGC) target set to 1, 000 000 ions with a maximum fill time of 10 ms and 1 μscan.HCD fragmentation was used for MS/MS, and the 10 most intense signals in the survey scan are fragmented.Detection was performed in the Orbitrap/FT cell with resolution set to 7,500, an isolation window of 3.0 m/z, a target value of 100,000 ions and a maximum fill time of 100 ms and 1 μscan.Fragmentation was accomplished with normalized collision energy of 40 and activation time of 0.1 ms.Dynamic exclusion was performed with a repeat count of 1 and exclusion duration of 60 s, and a minimum MS signal for triggering MS/MS is set to 10,000 counts.",
+          "block_index": 1,
+          "section_index": 11,
+          "global_order": 25,
+          "id": "p_12_2"
+        }
+      ]
+    },
+    {
+      "heading": "Protein data analysis",
+      "paragraphs": [
+        "Mass spectrometry data analyses were automated using Mascot Daemon 2.5 (Matrix Science, London, UK).The raw data was processed to.mgf files using Proteome Discoverer 1.4 (Thermo Scientific, San Jose, CA, USA).Mascot (Matrix Science, London, UK) analysis of the MS/MS samples utilized the TAIR10 database (including target and decoy sequences, 35,386 entries), assuming trypsin digestion.Mascot searches used parent ion tolerance of 10.0 ppm and fragment ion mass tolerance of 0.06 Da.Fixed modifications were set to assume iTRAQ 8-plex modifications at the N-terminus and lysine residues and carbamidomethyl modifications at cysteine residues.Deamidation of asparagine and glutamine residues, oxidation of methionine residues and phosphorylation of serine, threonine and tyrosine residues were specified as variable modifications.The decoy database was used to adjust the FDR to 1%.Only proteins with at least two peptides with score > 20 were reported.The iTRAQ labeling efficiency was also evaluated and calculated to be 99.25% and 98.1% for soluble and membrane experimental set-ups respectively."
+      ],
+      "text": "Mass spectrometry data analyses were automated using Mascot Daemon 2.5 (Matrix Science, London, UK).The raw data was processed to.mgf files using Proteome Discoverer 1.4 (Thermo Scientific, San Jose, CA, USA).Mascot (Matrix Science, London, UK) analysis of the MS/MS samples utilized the TAIR10 database (including target and decoy sequences, 35,386 entries), assuming trypsin digestion.Mascot searches used parent ion tolerance of 10.0 ppm and fragment ion mass tolerance of 0.06 Da.Fixed modifications were set to assume iTRAQ 8-plex modifications at the N-terminus and lysine residues and carbamidomethyl modifications at cysteine residues.Deamidation of asparagine and glutamine residues, oxidation of methionine residues and phosphorylation of serine, threonine and tyrosine residues were specified as variable modifications.The decoy database was used to adjust the FDR to 1%.Only proteins with at least two peptides with score > 20 were reported.The iTRAQ labeling efficiency was also evaluated and calculated to be 99.25% and 98.1% for soluble and membrane experimental set-ups respectively.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mass spectrometry data analyses were automated using Mascot Daemon 2.5 (Matrix Science, London, UK).The raw data was processed to.mgf files using Proteome Discoverer 1.4 (Thermo Scientific, San Jose, CA, USA).Mascot (Matrix Science, London, UK) analysis of the MS/MS samples utilized the TAIR10 database (including target and decoy sequences, 35,386 entries), assuming trypsin digestion.Mascot searches used parent ion tolerance of 10.0 ppm and fragment ion mass tolerance of 0.06 Da.Fixed modifications were set to assume iTRAQ 8-plex modifications at the N-terminus and lysine residues and carbamidomethyl modifications at cysteine residues.Deamidation of asparagine and glutamine residues, oxidation of methionine residues and phosphorylation of serine, threonine and tyrosine residues were specified as variable modifications.The decoy database was used to adjust the FDR to 1%.Only proteins with at least two peptides with score > 20 were reported.The iTRAQ labeling efficiency was also evaluated and calculated to be 99.25% and 98.1% for soluble and membrane experimental set-ups respectively.",
+          "block_index": 0,
+          "section_index": 12,
+          "global_order": 26,
+          "id": "p_13_1"
+        }
+      ]
+    },
+    {
+      "heading": "Protein quantification and statistical analysis",
+      "paragraphs": [
+        "Fold-changes were calculated using the average and standard deviation from each sample's normalized ratios of iTRAQ labels.The relative quantification of each protein identified in the RNAlater and liquid N 2 control were expressed as a ratio between the spectral counts of the isobaric tags.The p-value for testing significant differential abundance of proteins in each replicate was calculated using the Student's t-test.Proteins with a p-value less than 0.05 and a log fold change greater than 1 or less than -1 were considered to be significantly different between experimental and control samples."
+      ],
+      "text": "Fold-changes were calculated using the average and standard deviation from each sample's normalized ratios of iTRAQ labels.The relative quantification of each protein identified in the RNAlater and liquid N 2 control were expressed as a ratio between the spectral counts of the isobaric tags.The p-value for testing significant differential abundance of proteins in each replicate was calculated using the Student's t-test.Proteins with a p-value less than 0.05 and a log fold change greater than 1 or less than -1 were considered to be significantly different between experimental and control samples.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Fold-changes were calculated using the average and standard deviation from each sample's normalized ratios of iTRAQ labels.The relative quantification of each protein identified in the RNAlater and liquid N 2 control were expressed as a ratio between the spectral counts of the isobaric tags.The p-value for testing significant differential abundance of proteins in each replicate was calculated using the Student's t-test.Proteins with a p-value less than 0.05 and a log fold change greater than 1 or less than -1 were considered to be significantly different between experimental and control samples.",
+          "block_index": 0,
+          "section_index": 13,
+          "global_order": 27,
+          "id": "p_14_1"
+        }
+      ]
+    },
+    {
+      "heading": "GO enrichment analyses",
+      "paragraphs": [
+        "GO enrichments were performed using the Gene Ontology Consortium's web application [15,16] to determine the enrichment of biological process GO terms.For RNA, and total proteins, the list of genes or proteins submitted included those with a log-fold change ±1 (P 0.05).The analysis returned a list of biological processes with greater than expected frequency among the genes submitted.Gene annotation is based on prior studies and catalogued by the Gene Ontology Consortium's Panther Classification System [17].Gene ontology terms with a p-value 0.05 using the bonferroni correction for multiple comparisons were included."
+      ],
+      "text": "GO enrichments were performed using the Gene Ontology Consortium's web application [15,16] to determine the enrichment of biological process GO terms.For RNA, and total proteins, the list of genes or proteins submitted included those with a log-fold change ±1 (P 0.05).The analysis returned a list of biological processes with greater than expected frequency among the genes submitted.Gene annotation is based on prior studies and catalogued by the Gene Ontology Consortium's Panther Classification System [17].Gene ontology terms with a p-value 0.05 using the bonferroni correction for multiple comparisons were included.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "GO enrichments were performed using the Gene Ontology Consortium's web application [15,16] to determine the enrichment of biological process GO terms.For RNA, and total proteins, the list of genes or proteins submitted included those with a log-fold change ±1 (P 0.05).The analysis returned a list of biological processes with greater than expected frequency among the genes submitted.Gene annotation is based on prior studies and catalogued by the Gene Ontology Consortium's Panther Classification System [17].Gene ontology terms with a p-value 0.05 using the bonferroni correction for multiple comparisons were included.",
+          "block_index": 0,
+          "section_index": 14,
+          "global_order": 28,
+          "id": "p_15_1"
+        }
+      ]
+    }
+  ],
+  "figures": {
+    "fig_1": {
+      "label": "Fig 1 .",
+      "caption": "Fig 1. Number of differentially expressed genes identified by RNAseq analysis.A) the number of transcripts differentially expressed in RNAlater compared to liquid N 2 shown by log-fold change (base two) and p-value cutoffs and B) the log fold enrichment of the GO terms for biological processes enriched for the 5770 transcript IDs differentially expressed at log-fold change ±1 (p 0.05).All reported GO terms are significant at a p-value of 0.05 or below.https://doi.org/10.1371/journal.pone.0175943.g001",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "3,200.01,206.97,350.41,7.40;3,200.01,216.44,362.76,8.21;3,200.01,225.96,365.04,7.40;3,200.01,235.48,349.19,7.42;3,200.01,244.95,135.43,7.40;3,200.01,260.81,152.71,6.80;3,200.01,78.01,323.94,121.10",
+      "coords_groups": [
+        {
+          "page": 3,
+          "x": 200.01,
+          "y": 206.97,
+          "w": 350.41,
+          "h": 7.4,
+          "x2": 550.4200000000001,
+          "y2": 214.37
+        },
+        {
+          "page": 3,
+          "x": 200.01,
+          "y": 216.44,
+          "w": 362.76,
+          "h": 8.21,
+          "x2": 562.77,
+          "y2": 224.65
+        },
+        {
+          "page": 3,
+          "x": 200.01,
+          "y": 225.96,
+          "w": 365.04,
+          "h": 7.4,
+          "x2": 565.05,
+          "y2": 233.36
+        },
+        {
+          "page": 3,
+          "x": 200.01,
+          "y": 235.48,
+          "w": 349.19,
+          "h": 7.42,
+          "x2": 549.2,
+          "y2": 242.89999999999998
+        },
+        {
+          "page": 3,
+          "x": 200.01,
+          "y": 244.95,
+          "w": 135.43,
+          "h": 7.4,
+          "x2": 335.44,
+          "y2": 252.35
+        },
+        {
+          "page": 3,
+          "x": 200.01,
+          "y": 260.81,
+          "w": 152.71,
+          "h": 6.8,
+          "x2": 352.72,
+          "y2": 267.61
+        },
+        {
+          "page": 3,
+          "x": 200.01,
+          "y": 78.01,
+          "w": 323.94,
+          "h": 121.1,
+          "x2": 523.95,
+          "y2": 199.11
+        }
+      ],
+      "bbox": {
+        "page": 3,
+        "x1": 200.01,
+        "y1": 78.01,
+        "x2": 565.05,
+        "y2": 267.61,
+        "width": 365.03999999999996,
+        "height": 189.60000000000002
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 1,
+      "block_global_order": 1,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC5397022/fig_1.jpeg"
+    },
+    "fig_2": {
+      "label": "Fig 2 .",
+      "caption": "Fig 2. Proteomic analysis of RNAlater vs. Liquid N 2 treated samples.The number of A) soluble proteins and B) membrane proteins considered significantly differentially abundant between treatments.C) The logfold enrichment of the GO terms for biological processes for the proteins detected with a log-fold change ±1 (p 0.05).All reported GO terms are significant at a p-value of 0.05 or below.https://doi.org/10.1371/journal.pone.0175943.g002",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "3,200.01,662.50,369.61,8.21;3,200.01,672.02,365.29,7.40;3,200.01,681.49,365.42,7.42;3,200.01,691.01,264.18,7.40;3,200.01,706.87,152.71,6.80;3,200.01,411.87,323.94,242.82",
+      "coords_groups": [
+        {
+          "page": 3,
+          "x": 200.01,
+          "y": 662.5,
+          "w": 369.61,
+          "h": 8.21,
+          "x2": 569.62,
+          "y2": 670.71
+        },
+        {
+          "page": 3,
+          "x": 200.01,
+          "y": 672.02,
+          "w": 365.29,
+          "h": 7.4,
+          "x2": 565.3,
+          "y2": 679.42
+        },
+        {
+          "page": 3,
+          "x": 200.01,
+          "y": 681.49,
+          "w": 365.42,
+          "h": 7.42,
+          "x2": 565.4300000000001,
+          "y2": 688.91
+        },
+        {
+          "page": 3,
+          "x": 200.01,
+          "y": 691.01,
+          "w": 264.18,
+          "h": 7.4,
+          "x2": 464.19,
+          "y2": 698.41
+        },
+        {
+          "page": 3,
+          "x": 200.01,
+          "y": 706.87,
+          "w": 152.71,
+          "h": 6.8,
+          "x2": 352.72,
+          "y2": 713.67
+        },
+        {
+          "page": 3,
+          "x": 200.01,
+          "y": 411.87,
+          "w": 323.94,
+          "h": 242.82,
+          "x2": 523.95,
+          "y2": 654.69
+        }
+      ],
+      "bbox": {
+        "page": 3,
+        "x1": 200.01,
+        "y1": 411.87,
+        "x2": 569.62,
+        "y2": 713.67,
+        "width": 369.61,
+        "height": 301.79999999999995
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 2,
+      "block_global_order": 2,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC5397022/fig_2.jpeg"
+    }
+  },
+  "tables": {},
+  "equations": {},
+  "references": [
+    {
+      "title": "Use of RNAlater as a preservation method for parasitic coprology studies in wild-living chimpanzees",
+      "authors": [
+        "PDrakulovski",
+        "SLocatelli",
+        "CButel",
+        "SPion",
+        "DKrasteva",
+        "EMougdi-Pole"
+      ],
+      "date": "2013 Oct",
+      "raw": "Use of RNAlater as a preservation method for parasitic coprology studies in wild-living chimpanzees\n\t\t\n\t\t\tPDrakulovski\n\t\t\n\t\t\n\t\t\tSLocatelli\n\t\t\n\t\t\n\t\t\tCButel\n\t\t\n\t\t\n\t\t\tSPion\n\t\t\n\t\t\n\t\t\tDKrasteva\n\t\t\n\t\t\n\t\t\tEMougdi-Pole\n\t\t\n\t\t10.1016/j.exppara.2013.07.002\n\t\t23850999\n\t\t\n\t\n\t\n\t\tExperimental Parasitology\n\t\t\n\t\t\t135\n\t\t\t2\n\t\t\t\n\t\t\t2013 Oct\n\t\t\n\t\n\tDrakulovski P, Locatelli S, Butel C, Pion S, Krasteva D, Mougdi-Pole E, et al. Use of RNAlater as a pres- ervation method for parasitic coprology studies in wild-living chimpanzees. Experimental Parasitology. 2013 Oct; 135(2):257-61. https://doi.org/10.1016/j.exppara.2013.07.002 PMID: 23850999"
+    },
+    {
+      "title": "Plant molecular biology in the space station era: Utilization of KSC fixation tubes with RNAlater",
+      "authors": [
+        "A-LPaul",
+        "HGLevine",
+        "WMclamb",
+        "KLNorwood",
+        "DReed",
+        "GWStutte"
+      ],
+      "date": "2005 Jan 1",
+      "raw": "Plant molecular biology in the space station era: Utilization of KSC fixation tubes with RNAlater\n\t\t\n\t\t\tA-LPaul\n\t\t\n\t\t\n\t\t\tHGLevine\n\t\t\n\t\t\n\t\t\tWMclamb\n\t\t\n\t\t\n\t\t\tKLNorwood\n\t\t\n\t\t\n\t\t\tDReed\n\t\t\n\t\t\n\t\t\tGWStutte\n\t\t\n\t\t15736319\n\t\n\t\n\t\tActa Astronautica\n\t\t\n\t\t\t56\n\t\t\t\n\t\t\t2005 Jan 1\n\t\t\n\t\n\tPaul A-L, Levine HG, McLamb W, Norwood KL, Reed D, Stutte GW, et al. Plant molecular biology in the space station era: Utilization of KSC fixation tubes with RNAlater. Acta Astronautica. 2005 Jan 1; 56:623-8. PMID: 15736319"
+    },
+    {
+      "title": "Comparing the proteome of snap frozen, RNAlater preserved, and formalin-fixed paraffin-embedded human tissue samples",
+      "authors": [
+        "TBBennike",
+        "KKastaniegaard",
+        "SPadurariu",
+        "MGaihede",
+        "SBirkelund",
+        "VAndersen"
+      ],
+      "date": "2016 Mar 1",
+      "raw": "Comparing the proteome of snap frozen, RNAlater preserved, and formalin-fixed paraffin-embedded human tissue samples\n\t\t\n\t\t\tTBBennike\n\t\t\n\t\t\n\t\t\tKKastaniegaard\n\t\t\n\t\t\n\t\t\tSPadurariu\n\t\t\n\t\t\n\t\t\tMGaihede\n\t\t\n\t\t\n\t\t\tSBirkelund\n\t\t\n\t\t\n\t\t\tVAndersen\n\t\t\n\t\n\t\n\t\tEuPA Open Proteomics\n\t\t\n\t\t\t10\n\t\t\t\n\t\t\t2016 Mar 1\n\t\t\n\t\n\tBennike TB, Kastaniegaard K, Padurariu S, Gaihede M, Birkelund S, Andersen V, et al. Comparing the proteome of snap frozen, RNAlater preserved, and formalin-fixed paraffin-embedded human tissue samples. EuPA Open Proteomics. 2016 Mar 1; 10:9-18."
+    },
+    {
+      "title": "Examination of microbial proteome preservation techniques applicable to autonomous environmental sample collection",
+      "authors": [
+        "MASaito",
+        "VVBulygin",
+        "DMMoran",
+        "CTaylor",
+        "CScholin"
+      ],
+      "date": "2011",
+      "raw": "Examination of microbial proteome preservation techniques applicable to autonomous environmental sample collection\n\t\t\n\t\t\tMASaito\n\t\t\n\t\t\n\t\t\tVVBulygin\n\t\t\n\t\t\n\t\t\tDMMoran\n\t\t\n\t\t\n\t\t\tCTaylor\n\t\t\n\t\t\n\t\t\tCScholin\n\t\t\n\t\n\t\n\t\tFrontiers in Microbiobiology\n\t\t\n\t\t\t2\n\t\t\t215\n\t\t\t2011\n\t\t\n\t\n\tSaito MA, Bulygin VV, Moran DM, Taylor C, Scholin C. Examination of microbial proteome preservation techniques applicable to autonomous environmental sample collection. Frontiers in Microbiobiology 2011; 2:215."
+    },
+    {
+      "title": "Proteome stability analysis of snap frozen, RNAlater preserved, and formalin-fixed paraffin-embedded human colon mucosal biopsies. Data In Brief",
+      "authors": [
+        "TBBennike",
+        "KKastaniegaard",
+        "SPadurariu",
+        "MGaihede",
+        "SBirkelund",
+        "VAndersen",
+        "AStensballe"
+      ],
+      "date": "2016 Feb 6",
+      "raw": "Proteome stability analysis of snap frozen, RNAlater preserved, and formalin-fixed paraffin-embedded human colon mucosal biopsies. Data In Brief\n\t\t\n\t\t\tTBBennike\n\t\t\n\t\t\n\t\t\tKKastaniegaard\n\t\t\n\t\t\n\t\t\tSPadurariu\n\t\t\n\t\t\n\t\t\tMGaihede\n\t\t\n\t\t\n\t\t\tSBirkelund\n\t\t\n\t\t\n\t\t\tVAndersen\n\t\t\n\t\t\n\t\t\tAStensballe\n\t\t\n\t\t10.1016/j.dib.2016.01.061\n\t\t26937473\n\t\t\n\t\t\n\t\t\t2016 Feb 6\n\t\t\t6\n\t\t\t\n\t\t\n\t\n\tBennike TB, Kastaniegaard K, Padurariu S, Gaihede M, Birkelund S, Andersen V, Stensballe A Prote- ome stability analysis of snap frozen, RNAlater preserved, and formalin-fixed paraffin-embedded human colon mucosal biopsies. Data In Brief. 2016 Feb 6; 6:942-7. https://doi.org/10.1016/j.dib.2016. 01.061 PMID: 26937473"
+    },
+    {
+      "title": "A method for the imbibition and germination of wheat seeds in space",
+      "authors": [
+        "HGLevine",
+        "WCPiastuch"
+      ],
+      "date": "1999",
+      "raw": "A method for the imbibition and germination of wheat seeds in space\n\t\t\n\t\t\tHGLevine\n\t\t\n\t\t\n\t\t\tWCPiastuch\n\t\t\n\t\t11542683\n\t\n\t\n\t\tLife Support Biosph Sci\n\t\t\n\t\t\t6\n\t\t\t3\n\t\t\t\n\t\t\t1999\n\t\t\n\t\n\tLevine HG, Piastuch WC. A method for the imbibition and germination of wheat seeds in space. Life Support Biosph Sci. 1999; 6(3):221-30. PMID: 11542683"
+    },
+    {
+      "title": "Growth in microgravity increases susceptibility of soybean to a fungal pathogen",
+      "authors": [
+        "MRyba-White",
+        "ONedukha",
+        "EHilaire",
+        "JAGuikema",
+        "EKordyum",
+        "JELeach"
+      ],
+      "date": "2001 Jun",
+      "raw": "Growth in microgravity increases susceptibility of soybean to a fungal pathogen\n\t\t\n\t\t\tMRyba-White\n\t\t\n\t\t\n\t\t\tONedukha\n\t\t\n\t\t\n\t\t\tEHilaire\n\t\t\n\t\t\n\t\t\tJAGuikema\n\t\t\n\t\t\n\t\t\tEKordyum\n\t\t\n\t\t\n\t\t\tJELeach\n\t\t\n\t\t11427686\n\t\n\t\n\t\tPlant Cell Physiol\n\t\t\n\t\t\t42\n\t\t\t6\n\t\t\t\n\t\t\t2001 Jun\n\t\t\n\t\n\tRyba-White M, Nedukha O, Hilaire E, Guikema JA, Kordyum E, Leach JE. Growth in microgravity increases susceptibility of soybean to a fungal pathogen. Plant Cell Physiol. 2001 Jun; 42(6):657-64. PMID: 11427686"
+    },
+    {
+      "title": "Transcriptional response of Arabidopsis seedlings during spaceflight reveals peroxidase and cell wall remodeling genes associated with root hair development",
+      "authors": [
+        "TKwon",
+        "JASparks",
+        "JNakashima",
+        "SNAllen",
+        "YTang",
+        "EBBlancaflor"
+      ],
+      "date": "2014 Dec 10",
+      "raw": "Transcriptional response of Arabidopsis seedlings during spaceflight reveals peroxidase and cell wall remodeling genes associated with root hair development\n\t\t\n\t\t\tTKwon\n\t\t\n\t\t\n\t\t\tJASparks\n\t\t\n\t\t\n\t\t\tJNakashima\n\t\t\n\t\t\n\t\t\tSNAllen\n\t\t\n\t\t\n\t\t\tYTang\n\t\t\n\t\t\n\t\t\tEBBlancaflor\n\t\t\n\t\n\t\n\t\tAm J Bot\n\t\t\n\t\t\t102\n\t\t\t1\n\t\t\t\n\t\t\t2014 Dec 10\n\t\t\n\t\n\tKwon T, Sparks JA, Nakashima J, Allen SN, Tang Y, Blancaflor EB. Transcriptional response of Arabi- dopsis seedlings during spaceflight reveals peroxidase and cell wall remodeling genes associated with root hair development. Am J Bot. 2014 Dec 10; 102(1):21-35."
+    },
+    {
+      "title": "Spaceflight Transcriptomes: Unique Responses to a Novel Environment",
+      "authors": [
+        "A-LPaul",
+        "AKZupanska",
+        "DTOstrow",
+        "YZhang",
+        "YSun",
+        "J-LLi"
+      ],
+      "date": "2012 Jan",
+      "raw": "Spaceflight Transcriptomes: Unique Responses to a Novel Environment\n\t\t\n\t\t\tA-LPaul\n\t\t\n\t\t\n\t\t\tAKZupanska\n\t\t\n\t\t\n\t\t\tDTOstrow\n\t\t\n\t\t\n\t\t\tYZhang\n\t\t\n\t\t\n\t\t\tYSun\n\t\t\n\t\t\n\t\t\tJ-LLi\n\t\t\n\t\t10.1089/ast.2011.0696\n\t\t22221117\n\t\t\n\t\n\t\n\t\tAstrobiology\n\t\t\n\t\t\t12\n\t\t\t1\n\t\t\t\n\t\t\t2012 Jan\n\t\t\n\t\n\tPaul A-L, Zupanska AK, Ostrow DT, Zhang Y, Sun Y, Li J-L, et al. Spaceflight Transcriptomes: Unique Responses to a Novel Environment. Astrobiology. 2012 Jan; 12(1):40-56. https://doi.org/10.1089/ast. 2011.0696 PMID: 22221117"
+    },
+    {
+      "title": "A Method for Preparing Spaceflight RNAlater-Fixed Arabidopsis thaliana (Brassicaceae) Tissue for Scanning Electron Microscopy",
+      "authors": [
+        "ERSchultz",
+        "KLKelley",
+        "Paul A.-LFerl",
+        "RJ"
+      ],
+      "date": "2013",
+      "raw": "A Method for Preparing Spaceflight RNAlater-Fixed Arabidopsis thaliana (Brassicaceae) Tissue for Scanning Electron Microscopy\n\t\t\n\t\t\tERSchultz\n\t\t\n\t\t\n\t\t\tKLKelley\n\t\t\n\t\t\n\t\t\tPaul A.-LFerl\n\t\t\n\t\t\n\t\t\tRJ\n\t\t\n\t\n\t\n\t\tApplications in Plant Sciences\n\t\t\n\t\t\t29\n\t\t\t8\n\t\t\t1300034\n\t\t\t2013\n\t\t\n\t\n\tJul\n\tSchultz ER, Kelley KL, Paul A.-L., Ferl RJ. A Method for Preparing Spaceflight RNAlater-Fixed Arabi- dopsis thaliana (Brassicaceae) Tissue for Scanning Electron Microscopy. Applications in Plant Sci- ences. 2013 Jul 29; 1(8):1300034."
+    },
+    {
+      "title": "A role for seed storage proteins in Arabidopsis seed longevity",
+      "authors": [
+        "T-PNguyen",
+        "GCueff",
+        "DDHegedus",
+        "LRajjou",
+        "LBentsink"
+      ],
+      "date": "2015 Oct",
+      "raw": "A role for seed storage proteins in Arabidopsis seed longevity\n\t\t\n\t\t\tT-PNguyen\n\t\t\n\t\t\n\t\t\tGCueff\n\t\t\n\t\t\n\t\t\tDDHegedus\n\t\t\n\t\t\n\t\t\tLRajjou\n\t\t\n\t\t\n\t\t\tLBentsink\n\t\t\n\t\t10.1093/jxb/erv348\n\t\t26184996\n\t\t\n\t\n\t\n\t\tJ Exp Bot\n\t\t\n\t\t\t66\n\t\t\t20\n\t\t\t\n\t\t\t2015 Oct\n\t\t\n\t\n\tNguyen T-P, Cueff G, Hegedus DD, Rajjou L, Bentsink L. A role for seed storage proteins in Arabidopsis seed longevity. J Exp Bot. 2015 Oct; 66(20):6399-413. https://doi.org/10.1093/jxb/erv348 PMID: 26184996"
+    },
+    {
+      "title": "Proteomic approaches and their application to plant gravitropism",
+      "authors": [
+        "PBasu",
+        "DRLuesse",
+        "SEWyatt"
+      ],
+      "date": "2015",
+      "raw": "Proteomic approaches and their application to plant gravitropism\n\t\t\n\t\t\tPBasu\n\t\t\n\t\t\n\t\t\tDRLuesse\n\t\t\n\t\t\n\t\t\tSEWyatt\n\t\t\n\t\t10.1007/978-1-4939-2697-8_10\n\t\t25981772\n\t\t\n\t\n\t\n\t\tMethods Mol Biol\n\t\t\n\t\t\t1309\n\t\t\t\n\t\t\t2015\n\t\t\n\t\n\tBasu P, Luesse DR, Wyatt SE. Proteomic approaches and their application to plant gravitropism. Meth- ods Mol Biol. 2015; 1309:119-32. https://doi.org/10.1007/978-1-4939-2697-8_10 PMID: 25981772"
+    },
+    {
+      "title": "Mapping the Arabidopsis organelle proteome",
+      "authors": [
+        "Tpj Dunkley",
+        "SHester",
+        "IPShadforth",
+        "JRunions",
+        "TWeimar",
+        "SLHanton"
+      ],
+      "date": "2006 Apr 25",
+      "raw": "Mapping the Arabidopsis organelle proteome\n\t\t\n\t\t\tTpjDunkley\n\t\t\n\t\t\n\t\t\tSHester\n\t\t\n\t\t\n\t\t\tIPShadforth\n\t\t\n\t\t\n\t\t\tJRunions\n\t\t\n\t\t\n\t\t\tTWeimar\n\t\t\n\t\t\n\t\t\tSLHanton\n\t\t\n\t\t10.1073/pnas.0506958103\n\t\t16618929\n\t\t\n\t\n\t\n\t\tProc Natl Acad Sci\n\t\t\n\t\t\t103\n\t\t\t17\n\t\t\t\n\t\t\t2006 Apr 25\n\t\t\tUSA\n\t\t\n\t\n\tDunkley TPJ, Hester S, Shadforth IP, Runions J, Weimar T, Hanton SL, et al. Mapping the Arabidopsis organelle proteome. Proc Natl Acad Sci USA. 2006 Apr 25; 103(17):6518-23. https://doi.org/10.1073/ pnas.0506958103 PMID: 16618929"
+    },
+    {
+      "title": "High pH reversed-phase chromatography with fraction concatenation as an alternative to strong-cation exchange chromatography for two-dimensional proteomic analysis",
+      "authors": [
+        "FYang",
+        "YShen",
+        "DGCamp",
+        "RDSmith"
+      ],
+      "date": "2012 Apr",
+      "raw": "High pH reversed-phase chromatography with fraction concatenation as an alternative to strong-cation exchange chromatography for two-dimensional proteomic analysis\n\t\t\n\t\t\tFYang\n\t\t\n\t\t\n\t\t\tYShen\n\t\t\n\t\t\n\t\t\tDGCamp\n\t\t\n\t\t\n\t\t\tRDSmith\n\t\t\n\t\t10.1586/epr.12.15\n\t\t22462785\n\t\t\n\t\n\t\n\t\tExpert Rev Proteomics\n\t\t\n\t\t\t9\n\t\t\t2\n\t\t\t\n\t\t\t2012 Apr\n\t\t\n\t\n\tYang F, Shen Y, Camp DG, Smith RD. High pH reversed-phase chromatography with fraction concate- nation as an alternative to strong-cation exchange chromatography for two-dimensional proteomic anal- ysis. Expert Rev Proteomics. 2012 Apr; 9(2):129-34. https://doi.org/10.1586/epr.12.15 PMID: 22462785"
+    },
+    {
+      "title": "Gene ontology: tool for the unification of biology. The Gene Ontology Consortium",
+      "authors": [
+        "MAshburner",
+        "CABall",
+        "JABlake",
+        "DBotstein",
+        "HButler",
+        "JMCherry"
+      ],
+      "date": "2000 May",
+      "raw": "Gene ontology: tool for the unification of biology. The Gene Ontology Consortium\n\t\t\n\t\t\tMAshburner\n\t\t\n\t\t\n\t\t\tCABall\n\t\t\n\t\t\n\t\t\tJABlake\n\t\t\n\t\t\n\t\t\tDBotstein\n\t\t\n\t\t\n\t\t\tHButler\n\t\t\n\t\t\n\t\t\tJMCherry\n\t\t\n\t\t10.1038/75556\n\t\t10802651\n\t\t\n\t\n\t\n\t\tNat Genet\n\t\t\n\t\t\t25\n\t\t\t1\n\t\t\t\n\t\t\t2000 May\n\t\t\n\t\n\tAshburner M, Ball CA, Blake JA, Botstein D, Butler H, Cherry JM, et al. Gene ontology: tool for the unifi- cation of biology. The Gene Ontology Consortium. Nat Genet. 2000 May; 25(1):25-9. https://doi.org/10. 1038/75556 PMID: 10802651"
+    },
+    {
+      "title": "Gene Ontology Consortium: going forward",
+      "authors": [
+        "Gene Ontology",
+        "Consortium"
+      ],
+      "date": "2015 Jan",
+      "raw": "Gene Ontology Consortium: going forward\n\t\t\n\t\t\tGeneOntology\n\t\t\n\t\t\n\t\t\tConsortium\n\t\t\n\t\t10.1093/nar/gku1179\n\t\t25428369\n\t\t\n\t\n\t\n\t\tNucleic Acids Res\n\t\t\n\t\t\t43\n\t\t\t\n\t\t\t2015 Jan\n\t\t\n\t\n\tGene Ontology Consortium. Gene Ontology Consortium: going forward. Nucleic Acids Res. 2015 Jan; 43(Database issue):D1049-1056. https://doi.org/10.1093/nar/gku1179 PMID: 25428369"
+    },
+    {
+      "title": "PANTHER version 10: expanded protein families and functions, and analysis tools",
+      "authors": [
+        "HMi",
+        "SPoudel",
+        "AMuruganujan",
+        "JTCasagrande",
+        "PDThomas"
+      ],
+      "date": "2016 Jan 4",
+      "raw": "PANTHER version 10: expanded protein families and functions, and analysis tools\n\t\t\n\t\t\tHMi\n\t\t\n\t\t\n\t\t\tSPoudel\n\t\t\n\t\t\n\t\t\tAMuruganujan\n\t\t\n\t\t\n\t\t\tJTCasagrande\n\t\t\n\t\t\n\t\t\tPDThomas\n\t\t\n\t\t10.1093/nar/gkv1194\n\t\t26578592\n\t\t\n\t\n\t\n\t\tNucleic Acids Res\n\t\t\n\t\t\t44\n\t\t\t1\n\t\t\t\n\t\t\t2016 Jan 4\n\t\t\n\t\n\tMi H, Poudel S, Muruganujan A, Casagrande JT, Thomas PD. PANTHER version 10: expanded protein families and functions, and analysis tools. Nucleic Acids Res. 2016 Jan 4; 44(D1):D336-342. https:// doi.org/10.1093/nar/gkv1194 PMID: 26578592"
+    }
+  ],
+  "footnotes": [
+    {
+      "id": "foot_0",
+      "n": null,
+      "text": "PLOS ONE | https://doi.org/10.1371/journal.pone.0175943April 19, 2017"
+    }
+  ],
+  "full_text": "Tissue preservation is a minimal requirement for the success of plant RNA and protein expression studies.The standard of snap-freezing in liquid nitrogen is not always practical or possible.RNAlater, a concentrated solution of ammonium and cesium sulfates, has become a standard preservative in the absence of liquid nitrogen.Here, we demonstrate the effectiveness of RNAlater in preserving both RNA and proteins in Arabidopsis thaliana tissues for use in RNAseq and LC-MS/MS analysis of proteins.While successful in preserving plant material, a transcriptomic and proteomic response is evident.Specifically, 5770 gene transcripts, 84 soluble proteins, and 120 membrane-bound proteins were found to be differentially expressed at a log-fold change of ±1 (P 0.05).This response is mirrored in the abundance of post-translational modifications, with 23 of the 108 (21.3%) phosphorylated proteins showing altered abundance at a log-fold change of ±1 (P 0.05).While RNAlater is effective in preserving biological information, our findings warrant caution in its use for transcriptomic and proteomic experiments.\n\nFor the success of transcriptomic and proteomic experiments sufficient quality and quantity of RNA or protein is essential.The ability to accurately preserve samples prior to extraction provides researchers flexibility with experimental design.Snap freezing in liquid nitrogen has been the standard technique for molecular and cell biologists and provides ideal preservation of proteins and nucleic acids for long periods when stored at -80˚C.However, field experiments, remote regions of the world, and areas with insufficient infrastructure to allow for access to liquid nitrogen necessitate the use of fixatives [1,2].\nRNAlater contains high concentrations of quaternary ammonium sulfates and cesium sulfates which denature RNases, DNases and proteases to prevent the degradation of RNA [3].While RNAlater is ineffective in the preservation of fine anatomical and structural features [1], it has been shown to be effective in the preservation of nucleic acids [1,3,4].RNAlater has been used to successfully preserve high quality DNA for up to 7 years from the date of sample collection and fixation in chimpanzee fecal material collected from remote habitats [1].Parallel studies of RNAlater and formalin fixation on these fecal samples demonstrated RNAlater to be the superior fixative for the preservation of nucleic acids.In the past decade, studies on human tissues [3,5] and microbes [4] have shown that, in addition to nucleic acids, RNAlater is effective at preserving proteins.Saito et al. [4] analyzed microbial proteins and showed that more proteins were detected in RNAlater preserved samples than in the snap frozen controls.Bennike et al. [3,5] demonstrated protein and RNA integrity, and detection of post-translational modifications are not significantly impacted by RNAlater in human tissue samples.\nRNAlater has been used for the preservation of plant material as well-especially space flown material grown aboard the international space station [2,6,7,8,9,10].However, the structure of plant tissues present challenges for the use of fixatives, and how the cell wall impacts permeability of the fixative is unclear.Herein, we present, to our knowledge, the first full 'omics level study performed to determine the ability of RNAlater to preserve tissue of Arabidopsis thaliana, the primary model organism for plants, for downstream 'omics-level analyses.\n\nOne caution with using RNAlater is the rate of its diffusion through tissues that could lead to uneven preservation of cells across tissues.Because RNAlater denatures transcriptional machinery, uneven preservation across tissues could lead to a transcriptomic or proteomic response.To determine if RNAlater treatment impacted transcript levels in Arabidopsis thaliana, etiolated seedlings were grown for 72 hours then either snap frozen in liquid N 2 , or Incubated for 12 h in RNAlater at room temperature followed by freezing at -80˚C.RNAseq was performed and transcripts compared to assess differential gene expression.Between 17 and 30 million read pairs for each biological replicate were aligned to the TAIR10 assembly using STAR.For each replicate, at least 27,000 unique genes were detected using HTSeq, with at least 15,000 per replicate at greater than 5 counts per million.The ribosomal fraction was below 2% in all replicates.\nTranscriptional activities in Arabidopsis were found to be modified by the method of preservation.At a log-fold change cutoff of ±1 (P 0.05), 5770 gene transcripts were differentially expressed (Fig 1A).More stringent log-fold change and significance cutoffs also identified transcripts that show differential regulation.We selected the 5770 as a robust number for subsequent analysis.A gene ontology (GO) enrichment analysis identified several upregulated categories indicating a transcript level response to osmotic stress (Fig 1B).Together, these results suggest that RNAlater preservation is not immediate in etiolated seedlings, and allows time for transcriptional response to osmotic stress caused by ammonium sulfates and cesium sulfates, resulting in potentially altered transcriptomes.\n\nTo determine if RNAlater fixation is sufficient to prevent proteolysis in Arabidopsis seedlings, etiolated plants were grown for 72 hours then either flash frozen in liquid N 2 or submerged in RNAlater for 12 hours prior to protein extraction.Soluble and insoluble protein were separately collected from each sample and labeled with iTRAQ tags for Mass Spectrometry-based protein quantification.In total, 2,915 membrane proteins were identified in both conditions, whereas 2646 soluble proteins were identified in both the RNAlater and snap frozen samples.The detection of individual proteins is unaltered by the treatment, showing RNAlater to be effective for absolute detection of proteins.\n\nRNAlater successfully preserved protein integrity to allow for reproducible detection of proteins, however RNAlater-fixed samples have altered protein expression levels.At a log fold change of !±1, 84 soluble proteins and 120 membrane-bound proteins were found to be differentially expressed (P 0.05) (Fig 2A & 2B).A GO term enrichment analysis of the proteins showed that, unlike the transcript analysis, the proteome did not show significant GO differences for categories comprising osmotic stress.However, the GO analysis did show significant differences in protein import into the nucleus (translocation), mRNA transport, ribosomal  small subunit biogenesis, RNA localization, RNA/nucleic acid transport, translational elongation, and response to cadmium, metal, and cold, among others (Fig 2C).\n\nA growing focus of proteomics research is the detection of alterations in post-translational modifications.The resolution of our data allowed the determination of phosphorylation, oxidation, and deamidation of detected peptides.A total of 29 phosphorylated, 7060 oxidized, and 6001 deamidated peptides were detected in the soluble protein fractions with 79 phosphorylated, 3934 oxidized and 4035 deamidated peptides detected in the membrane fractions (Table 1).\nIn the membrane protein fraction, two modifications were found solely in the RNAlater preserved replicates (both deamidations).These modified peptides correspond to ROC4 and an ATP synthase beta-subunit ( S1 Table).In the soluble fraction, 23 modified peptide states were found solely in the RNAlater preserved samples.These correspond to just two proteins-CRUCIFERIN 1 and 3 ( S2 Table).\nFew modifications seem to be selectively induced by RNAlater fixation, but the abundance of many protein modifications is altered by the treatment.Phosphorylated proteins show the greatest sensitivity to the treatment 21.3% of all phosphorylated peptides showing altered abundance.Oxidation and deamidation modifications are more tolerant of the treatment with 6.8% and 10.4% showing altered abundance of modified peptides, respectively.\n\nRNAlater is a valuable fixative used for preservation of biological samples.The solution denatures proteases and RNases to preserve RNA and protein integrity for downstream analysis.While many studies have successfully utilized RNAlater as a preservative, few studies have directly compared the effects of this fixative on stability of RNA, protein and post-translational modifications.Bennike et al. [3] compared formalin, RNAlater and snap-freezing of human colon mucosal biopsies in a quantitative proteomics study which demonstrated RNAlater yielded the most similar results to liquid nitrogen.Additionally, the percentage of modified peptides detected was stable between RNAlater and snap-frozen samples.Specific amidation and oxidation events were not altered between liquid nitrogen and RNAlater fixation in human tissues [3,5].Saito et al. [4] performed a comparison of snap-frozen samples to five preservative solutions (SDS-extraction buffer, ethanol, trichloroacetic acid, B-PER, and RNAlater)\nTable 1.Number of peptides with altered post-translational modifications due to RNAlater.Fraction Post-translational modification Total peptides identified with modification (#) Peptides differentially modified* # % of total Soluble Phosphorylation 29 5 17.24 Oxidation 7060 449 6.36 Deamidation 6001 726 12.10 Membrane Phosphorylation 79 18 22.78 Oxidation 3934 301 7.65 Deamidation 4035 318 7.88 *With significantly different abundances (p 0.05, LFC ±1 or greater) https://doi.org/10.1371/journal.pone.0175943.t001\non the proteome integrity of cyanobacterium Synechococcus WH8102 and found that, after four weeks of preservation, RNAlater was the superior preservative and did not significantly alter the proteome compared to snap freezing in liquid nitrogen.In the 20 most abundant proteins in this microbe, the average relative abundance in RNAlater samples compared to liquid nitrogen samples was 1.01, indicating retention of protein integrity [4].No equivalent control had been performed using plant tissues to examine the effects of RNAlater on plant proteomics nor to investigate transcriptomic modifications induced by the preservative.\nHere, we show that fixation with RNAlater did not affect quality or quantity of proteins identified in Arabidopsis seedlings, consistent with previous studies using animal and bacterial tissue [3,4].However, RNAlater treatment led to altered gene expression (Fig 1), protein expression (Fig 2) and abundance of post-translational modifications (Table 1).RNAlater had a substantial impact on the transcriptome, with 5770 transcripts differentially expressed at a log-fold change ±1 (Fig 1A).If the preserved tissue was responding to RNAlater, one would predict that the ammonium sulfates and cesium sulfates in the mixture would induce expression of genes related to salt stress.Indeed, genes associated with desiccation and osmotic homeostasis were the most enriched categories, suggesting that the transcript differences are a result of a cellular response to RNAlater (Fig 1B), potentially caused by an uneven preservation of cells as RNAlater diffuses across a tissue.Of the proteins detected, less than 1.4% of the membrane and soluble proteins, 120 and 84 respectively, were found to be altered between treatments at a log-fold change ±1 (Fig 2A and 2C).A GO enrichment analysis of the differentially abundant proteins did not indicate a salt stress response that could be attributed to the effects of RNAlater (Fig 2B and 2D).The absolute detection of post-translational modifications was unchanged by RNAlater, with the exception of peptides corresponding to four proteins-ROC4 (AT3G62030), an ATP synthase beta-subunit (AT5G08670), as well as CRUCIFERIN 1 and 3 (AT4G28520 and AT5G44120) ( S1 and S2 Tables).Cruciferins are the most abundant seed storage proteins in Arabidopsis seedlings and have been implicated in response to oxidative stress [11].The modifications may be a direct result of the oxidative stress produced by the ammonium salts and may indicate potential mechanism for the cruciferin protein's ability to buffer seeds from oxidative stress.While the absolute detection of the remaining modifications was unaltered, the abundance of protein modifications was more sensitive to RNAlater fixation.Phosphorylation events were the most sensitive with 17.24% of the phosphorylated soluble proteins and 22.78% of the phosphorylated membrane proteins exhibiting an altered abundance of phosphorylated peptides.Deamidation and oxidation events were less sensitive to RNAlater (Table 1).\nInterestingly, the drastic alterations in transcript levels were not mirrored in the proteome.While transcription can be quickly initiated in response to a change in environment, a change in translation would be slower and dependent on new transcripts.Thus, the rate of tissue infiltration allows a short-term alteration in transcription, but the RNAlater successfully inhibits the translational machinery before a substantial amount of protein is produced or degraded.The idea of a brief period of cellular response, prior to full fixation by RNAlater, is also supported by the observed changes in protein modifications (Fig 2).\nOverall, these data suggest that researchers should use caution when selecting RNAlater as a fixative for plant omics-level experiments.Although it is convenient, depending on the sample, it may be unable to effectively halt transcriptional processes rapidly enough to prevent a transcriptomic response to the fixative.Theoretically, experimental controls, also fixed in RNAlater, would eliminate differential expression caused by the RNAlater-induced transcripts, preventing misidentification.However, some legitimate expression changes induced by experimental conditions could be obscured by RNAlater induction of the same genes.\n\nArabidopsis thaliana (L.) Heyn.var Columbia seeds (Arabidopsis Biological Resource Center, Columbus, Ohio, USA) were used for all experiments.Forty-four aliquots of 0.016 ± 0.002 g of seeds (approximately 800-900 seeds per plate) were surface sterilized with 30% (v/v) bleach and 0.1% (v/v) Tween-20 for 20 min, washed with sterile water (5x), then dried onto 60 mm round filter paper to facilitate plating.Seeds were spread onto 60 mm round Petri plates containing 0.5 X MS media (Caisson) with 1% sucrose and 1% agar.Seeds were cold stratified then transferred to 22˚C for germination and growth.After 72 hours, half of the samples were fixed in RNAlater for 12 hours prior to freezing at -80˚C, while the remaining seedlings were snap-frozen in liquid nitrogen.\n\nThree biological replicates, one plate per replicate, were used for RNAseq analysis.RNA was extracted using an RNeasy Plant Mini Extraction Kit (Qiagen) according to standard protocols.RNA integrity (RIN !8) was verified using an Agilent 2100 Bioanalyzer.Paired-end sequence was obtained from an Illumina 2500 Hiseq using the Ribo-Zero rRNA Removal Kit prior to library preparation.Read pairs for each biological replicate were aligned to the TAIR10 assembly using STAR.Read counts were determined using HTSeq.Read counts were then analyzed to determine differential expression using the generalized linear model likelihood test within the EdgeR package.P-value was used to determine genes significantly expressed to maintain consistent statistics between protein and RNA data.\n\nFor extraction of soluble and membrane proteins, five plates were pooled for each replicate.Proteins were extracted according to Basu et al. [12].The collected protein extract was centrifuged at 10,000 g for 60 min to precipitate the microsomal fraction.The resultant supernatant was used to precipitate soluble proteins by addition of 0.1 M methanolic ammonium acetate (Fisher), incubation at -20˚C overnight then centrifugation at 16,000 g for 30 min.The pellet washed twice with 0.1M ammonium acetate (Fisher) solution, twice with 70% methanol and once with 80% acetone.The microsomal pellet was washed with sterile 160 mM sodium carbonate (Sigma) solution to remove any soluble protein contamination [13].\n\nAll samples from the soluble protein extraction were washed additionally with 1 x 0.1M ammonium acetate in methanol, 1 x 80% acetone and 1 x 70% methanol.The pellets were then re-dissolved with 75 μL of 8 M urea in 0.5 M TEAB (pH 8.5) and 4 μL of the solution was assayed for protein concentration using the CBX kit (GBioscience).40 μg of each sample was reduced with 5 mM TCEP and alkylated with 10 mM iodoacetamide.Proteins were digested overnight at 37˚C by adding 2.5 μg of trypsin (1:16 enzyme:substrate ratio), followed by addition of 1.25μg of trypsin for another 3 h.All were then dried to prepare for iTRAQlabeling.\nThe membrane protein samples were centrifuged, and the supernatant assayed for protein using the CBX assay.To increase protein yield from the pellets, RapiGest (0.4%) was added to each pellet, and the samples incubated at 60˚C for 30 min and centrifuged at 21,000 x g for 10 min.40 μg of each sample was heated at 60˚C, then cooled, reduced with 10 mM TCEP and alkylated with 20 mM iodoacteamide.The proteins were then digested by adding 2.5 μg of trypsin (1:16 enzyme:substrate ratio) overnight at 37˚C; RapiGest was diluted to 0.1% with a 0.1M solution of TEAB; digestion was stopped after 3 h by acidifying to pH <2 and incubated for 2 h at 37˚C to denature the RapiGest.Digested samples were centrifuged, the supernatant was decanted, and the samples were dried for iTRAQ8-labeling.\n\nEqual amounts (40 μg) of both membrane and soluble, three replicates each, were digested with trypsin and labeled with a unique iTRAQ reagent according to the manufacturer's protocol (AB SCIEX, Massachusetts, USA).During MS/MS iTRAQ reagents release characteristic reporter ions (114-119 m/z) for simultaneous relative quantification and identification of the proteins.Replicates for each sample were then pooled and dried.The pooled samples were reconstituted in 0.5% TFA, desalted by solid-phase extraction and dried.100μg of each sample was fractionated using high pH reverse phase chromatography [14].The fractions were combined into 12 final fractions for LC-MS/MS using an LTQ-Orbitrap Velos Pro mass spectrometer (ThermoFisher Scientific, Waltham, MA) coupled with a U3000 RSLCnano HPLC (ThermoFisher Scientific, Waltham, MA).Each pooled fraction was redissolved in 15 μL 5% acetonitrile, 0.1% formic acid, and 5 μL of each loaded per injection, onto a C18 trap column (PepMap100, 300μmID × 5mm, 5μm particle size, 100 Å; ThermoFisher Scientific, Waltham, MA) at a flow rate of 5 μL/min for 3.5 min with 2% acetonitrile, 0.1% formic acid.Peptide separation was then carried out on a C18 column (nanoAcquity CSH130, 25 cm ×75 μm, C18, 1.7 μm, 130 Å, Waters, Milford, MA) at a flow rate of 0.26 μL/min.Peptides were separated using the following gradient (mobile phase A, 0.1% formic acid; mobile phase B, 0.1% formic acid in 80:20 acetonitrile:water).\nThe mass spectrometer was operated in positive ionization mode.The MS survey scan was performed in the Orbitrap/FT cell from a mass range of 300 to 1700 m/z.The resolution set to 60 000 @ 400 m/z, and the automatic gain control (AGC) target set to 1, 000 000 ions with a maximum fill time of 10 ms and 1 μscan.HCD fragmentation was used for MS/MS, and the 10 most intense signals in the survey scan are fragmented.Detection was performed in the Orbitrap/FT cell with resolution set to 7,500, an isolation window of 3.0 m/z, a target value of 100,000 ions and a maximum fill time of 100 ms and 1 μscan.Fragmentation was accomplished with normalized collision energy of 40 and activation time of 0.1 ms.Dynamic exclusion was performed with a repeat count of 1 and exclusion duration of 60 s, and a minimum MS signal for triggering MS/MS is set to 10,000 counts.\n\nMass spectrometry data analyses were automated using Mascot Daemon 2.5 (Matrix Science, London, UK).The raw data was processed to.mgf files using Proteome Discoverer 1.4 (Thermo Scientific, San Jose, CA, USA).Mascot (Matrix Science, London, UK) analysis of the MS/MS samples utilized the TAIR10 database (including target and decoy sequences, 35,386 entries), assuming trypsin digestion.Mascot searches used parent ion tolerance of 10.0 ppm and fragment ion mass tolerance of 0.06 Da.Fixed modifications were set to assume iTRAQ 8-plex modifications at the N-terminus and lysine residues and carbamidomethyl modifications at cysteine residues.Deamidation of asparagine and glutamine residues, oxidation of methionine residues and phosphorylation of serine, threonine and tyrosine residues were specified as variable modifications.The decoy database was used to adjust the FDR to 1%.Only proteins with at least two peptides with score > 20 were reported.The iTRAQ labeling efficiency was also evaluated and calculated to be 99.25% and 98.1% for soluble and membrane experimental set-ups respectively.\n\nFold-changes were calculated using the average and standard deviation from each sample's normalized ratios of iTRAQ labels.The relative quantification of each protein identified in the RNAlater and liquid N 2 control were expressed as a ratio between the spectral counts of the isobaric tags.The p-value for testing significant differential abundance of proteins in each replicate was calculated using the Student's t-test.Proteins with a p-value less than 0.05 and a log fold change greater than 1 or less than -1 were considered to be significantly different between experimental and control samples.\n\nGO enrichments were performed using the Gene Ontology Consortium's web application [15,16] to determine the enrichment of biological process GO terms.For RNA, and total proteins, the list of genes or proteins submitted included those with a log-fold change ±1 (P 0.05).The analysis returned a list of biological processes with greater than expected frequency among the genes submitted.Gene annotation is based on prior studies and catalogued by the Gene Ontology Consortium's Panther Classification System [17].Gene ontology terms with a p-value 0.05 using the bonferroni correction for multiple comparisons were included.",
+  "stats": {
+    "section_count": 15,
+    "figure_count": 2,
+    "figure_count_original": 2,
+    "figure_count_synthetic": 0,
+    "table_count": 0,
+    "equation_count": 0,
+    "reference_count": 17,
+    "footnote_count": 1,
+    "extracted_at": "2025-10-05T10:44:49.423893Z",
+    "image_extraction": {
+      "extracted_images": 13,
+      "figure_images_mapped": 2,
+      "table_images_mapped": 0,
+      "cropped_images": 0,
+      "figures_total_all": 2,
+      "figures_total_pure": 2,
+      "figures_total_original": 2,
+      "figures_total_synthetic": 0,
+      "tables_total": 0,
+      "figures_with_image_pure": 2,
+      "tables_with_image": 0,
+      "figures_missing_image_pure": 0,
+      "tables_missing_image": 0
+    },
+    "figures_total_all": 2,
+    "figures_total_pure": 2,
+    "figures_total_original": 2,
+    "figures_total_synthetic": 0,
+    "tables_total": 0,
+    "figures_with_image_pure": 2,
+    "tables_with_image": 0,
+    "validation": {
+      "figure_ids_total": 2,
+      "equation_ids_total": 0,
+      "figure_block_ids": 2,
+      "equation_block_ids": 0,
+      "missing_figure_block_refs": [],
+      "missing_equation_block_refs": [],
+      "global_order_contiguous": true,
+      "block_count": 29,
+      "equations_missing_loc": [],
+      "equations_missing_bbox_expected": []
+    }
+  }
+}

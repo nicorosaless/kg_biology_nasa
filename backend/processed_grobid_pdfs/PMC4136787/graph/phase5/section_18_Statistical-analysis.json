@@ -1,0 +1,124 @@
+{
+  "paper_id": "PMC4136787",
+  "section": "Statistical analysis",
+  "n_nodes": 6,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 83,
+      "label": "Fisher",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analysis",
+        "sentence_id": 157,
+        "char_start": 25620,
+        "char_end": 25626,
+        "anchor": "PMC4136787_25620_25626"
+      }
+    },
+    {
+      "id": 84,
+      "label": "Student",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analysis",
+        "sentence_id": 157,
+        "char_start": 25753,
+        "char_end": 25760,
+        "anchor": "PMC4136787_25753_25760"
+      }
+    },
+    {
+      "id": 85,
+      "label": "GraphPad",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analysis",
+        "sentence_id": 157,
+        "char_start": 25816,
+        "char_end": 25824,
+        "anchor": "PMC4136787_25816_25824"
+      }
+    },
+    {
+      "id": 86,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analysis",
+        "sentence_id": 157,
+        "char_start": 25884,
+        "char_end": 25887,
+        "anchor": "PMC4136787_25884_25887"
+      }
+    },
+    {
+      "id": 80,
+      "label": "ANOVA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analysis",
+        "sentence_id": 154,
+        "char_start": 25134,
+        "char_end": 25139,
+        "anchor": "PMC4136787_25134_25139"
+      }
+    },
+    {
+      "id": 82,
+      "label": "ANOVA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analysis",
+        "sentence_id": 156,
+        "char_start": 25490,
+        "char_end": 25495,
+        "anchor": "PMC4136787_25490_25495"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 54,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 83,
+      "target": 84
+    },
+    {
+      "id": 55,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 83,
+      "target": 85
+    },
+    {
+      "id": 56,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 83,
+      "target": 86
+    },
+    {
+      "id": 57,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 84,
+      "target": 85
+    },
+    {
+      "id": 58,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 84,
+      "target": 86
+    },
+    {
+      "id": 59,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 85,
+      "target": 86
+    }
+  ]
+}

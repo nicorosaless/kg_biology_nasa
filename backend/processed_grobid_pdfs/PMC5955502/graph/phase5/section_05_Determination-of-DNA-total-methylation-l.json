@@ -1,0 +1,159 @@
+{
+  "paper_id": "PMC5955502",
+  "section": "Determination of DNA total methylation level using restriction analysis (MspI/HpaII)",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 233,
+      "label": "DNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of DNA total methylation level using restriction analysis (MspI/HpaII)",
+        "sentence_id": 69,
+        "char_start": 14389,
+        "char_end": 14392,
+        "anchor": "PMC5955502_14389_14392",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 234,
+      "label": "SmaI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of DNA total methylation level using restriction analysis (MspI/HpaII)",
+        "sentence_id": 69,
+        "char_start": 14393,
+        "char_end": 14397,
+        "anchor": "PMC5955502_14393_14397",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 235,
+      "label": "DNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of DNA total methylation level using restriction analysis (MspI/HpaII)",
+        "sentence_id": 69,
+        "char_start": 14436,
+        "char_end": 14439,
+        "anchor": "PMC5955502_14436_14439",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 236,
+      "label": "SmaI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of DNA total methylation level using restriction analysis (MspI/HpaII)",
+        "sentence_id": 69,
+        "char_start": 14440,
+        "char_end": 14444,
+        "anchor": "PMC5955502_14440_14444",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 238,
+      "label": "MspI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of DNA total methylation level using restriction analysis (MspI/HpaII)",
+        "sentence_id": 69,
+        "char_start": 14558,
+        "char_end": 14562,
+        "anchor": "PMC5955502_14558_14562",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 251,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 233,
+      "target": 234
+    },
+    {
+      "id": 252,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 233,
+      "target": 235
+    },
+    {
+      "id": 253,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 233,
+      "target": 236
+    },
+    {
+      "id": 254,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 233,
+      "target": 238
+    },
+    {
+      "id": 255,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 234,
+      "target": 235
+    },
+    {
+      "id": 256,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 234,
+      "target": 236
+    },
+    {
+      "id": 257,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 234,
+      "target": 238
+    },
+    {
+      "id": 258,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 235,
+      "target": 236
+    },
+    {
+      "id": 259,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 235,
+      "target": 238
+    },
+    {
+      "id": 260,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 236,
+      "target": 238
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 6,
+      "largest_component": 5,
+      "removed_components": [
+        4,
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 7
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "paper_id": "PMC11833055",
+  "section": "The impact of 3D clinostat on serum metabolomics",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 466,
+      "label": "Por",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The impact of 3D clinostat on serum metabolomics",
+        "sentence_id": 197,
+        "char_start": 29783,
+        "char_end": 29786,
+        "anchor": "PMC11833055_29783_29786",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 470,
+      "label": "ABC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The impact of 3D clinostat on serum metabolomics",
+        "sentence_id": 197,
+        "char_start": 30095,
+        "char_end": 30098,
+        "anchor": "PMC11833055_30095_30098",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 471,
+      "label": "Poricoic",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The impact of 3D clinostat on serum metabolomics",
+        "sentence_id": 197,
+        "char_start": 29783,
+        "char_end": 29791,
+        "anchor": "PMC11833055_29783_29791",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 472,
+      "label": "Oleic",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The impact of 3D clinostat on serum metabolomics",
+        "sentence_id": 197,
+        "char_start": 29810,
+        "char_end": 29815,
+        "anchor": "PMC11833055_29810_29815",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 474,
+      "label": "ABC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The impact of 3D clinostat on serum metabolomics",
+        "sentence_id": 197,
+        "char_start": 30095,
+        "char_end": 30098,
+        "anchor": "PMC11833055_30095_30098",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 475,
+      "label": "Biotin",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The impact of 3D clinostat on serum metabolomics",
+        "sentence_id": 197,
+        "char_start": 30160,
+        "char_end": 30166,
+        "anchor": "PMC11833055_30160_30166",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 476,
+      "label": "Pentose",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The impact of 3D clinostat on serum metabolomics",
+        "sentence_id": 197,
+        "char_start": 30187,
+        "char_end": 30194,
+        "anchor": "PMC11833055_30187_30194",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 485,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 466,
+      "target": 470
+    },
+    {
+      "id": 486,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 466,
+      "target": 471
+    },
+    {
+      "id": 487,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 466,
+      "target": 472
+    },
+    {
+      "id": 489,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 466,
+      "target": 474
+    },
+    {
+      "id": 490,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 466,
+      "target": 475
+    },
+    {
+      "id": 491,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 466,
+      "target": 476
+    },
+    {
+      "id": 494,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 470,
+      "target": 471
+    },
+    {
+      "id": 495,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 470,
+      "target": 472
+    },
+    {
+      "id": 497,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 470,
+      "target": 474
+    },
+    {
+      "id": 498,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 470,
+      "target": 475
+    },
+    {
+      "id": 499,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 470,
+      "target": 476
+    },
+    {
+      "id": 502,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 471,
+      "target": 472
+    },
+    {
+      "id": 504,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 471,
+      "target": 474
+    },
+    {
+      "id": 505,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 471,
+      "target": 475
+    },
+    {
+      "id": 506,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 471,
+      "target": 476
+    },
+    {
+      "id": 510,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 472,
+      "target": 474
+    },
+    {
+      "id": 511,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 472,
+      "target": 475
+    },
+    {
+      "id": 512,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 472,
+      "target": 476
+    },
+    {
+      "id": 520,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 474,
+      "target": 475
+    },
+    {
+      "id": 521,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 474,
+      "target": 476
+    },
+    {
+      "id": 524,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 475,
+      "target": 476
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 10,
+      "largest_component": 7,
+      "removed_components": [
+        6
+      ]
+    },
+    "page": 6
+  }
+}

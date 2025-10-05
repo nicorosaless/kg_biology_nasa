@@ -1,0 +1,81 @@
+{
+  "paper_id": "PMC7012842",
+  "section": "Interface unit",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 80,
+      "label": "ammonia",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Interface unit",
+        "sentence_id": 71,
+        "char_start": 11409,
+        "char_end": 11416,
+        "anchor": "PMC7012842_11409_11416",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 84,
+      "label": "CBEF",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Interface unit",
+        "sentence_id": 71,
+        "char_start": 11503,
+        "char_end": 11507,
+        "anchor": "PMC7012842_11503_11507",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 77,
+      "label": "chassis",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Interface unit",
+        "sentence_id": 71,
+        "char_start": 11332,
+        "char_end": 11339,
+        "anchor": "PMC7012842_11332_11339",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 41,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 77,
+      "target": 80
+    },
+    {
+      "id": 43,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 77,
+      "target": 84
+    },
+    {
+      "id": 45,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 80,
+      "target": 84
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 8,
+      "largest_component": 3
+    },
+    "page": 4
+  }
+}

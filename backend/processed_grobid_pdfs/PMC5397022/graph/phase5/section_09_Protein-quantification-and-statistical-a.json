@@ -1,0 +1,58 @@
+{
+  "paper_id": "PMC5397022",
+  "section": "Protein quantification and statistical analysis",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 491,
+      "label": "standard",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein quantification and statistical analysis",
+        "sentence_id": 117,
+        "char_start": 20940,
+        "char_end": 20948,
+        "anchor": "PMC5397022_20940_20948",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 492,
+      "label": "iTRAQ",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein quantification and statistical analysis",
+        "sentence_id": 117,
+        "char_start": 20999,
+        "char_end": 21004,
+        "anchor": "PMC5397022_20999_21004",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 746,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 491,
+      "target": 492
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 9,
+      "largest_component": 2,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 2
+  }
+}

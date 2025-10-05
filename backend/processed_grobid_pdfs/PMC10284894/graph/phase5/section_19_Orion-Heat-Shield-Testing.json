@@ -1,0 +1,85 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "Orion Heat Shield Testing",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 592,
+      "label": "Langley",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Heat Shield Testing",
+        "sentence_id": 344,
+        "char_start": 63184,
+        "char_end": 63191,
+        "anchor": "PMC10284894_63184_63191",
+        "page": 64,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 593,
+      "label": "Mach",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Heat Shield Testing",
+        "sentence_id": 344,
+        "char_start": 63245,
+        "char_end": 63249,
+        "anchor": "PMC10284894_63245_63249",
+        "page": 64,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 594,
+      "label": "Langley",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Heat Shield Testing",
+        "sentence_id": 344,
+        "char_start": 63184,
+        "char_end": 63191,
+        "anchor": "PMC10284894_63184_63191",
+        "page": 64,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 538,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 592,
+      "target": 593
+    },
+    {
+      "id": 539,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 592,
+      "target": 594
+    },
+    {
+      "id": 540,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 593,
+      "target": 594
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 7,
+      "largest_component": 3,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 64
+  }
+}

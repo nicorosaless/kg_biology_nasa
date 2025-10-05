@@ -1,0 +1,153 @@
+{
+  "paper_id": "PMC4228280",
+  "section": "Role of swimming motility on spaceflight final cell density",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 240,
+      "label": "mAUMg",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Role of swimming motility on spaceflight final cell density",
+        "sentence_id": 67,
+        "char_start": 16808,
+        "char_end": 16813,
+        "anchor": "PMC4228280_16808_16813",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 242,
+      "label": "ANOVA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Role of swimming motility on spaceflight final cell density",
+        "sentence_id": 67,
+        "char_start": 17453,
+        "char_end": 17458,
+        "anchor": "PMC4228280_17453_17458",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 231,
+      "label": "culture",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Role of swimming motility on spaceflight final cell density",
+        "sentence_id": 67,
+        "char_start": 17064,
+        "char_end": 17071,
+        "anchor": "PMC4228280_17064_17071",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 233,
+      "label": "ABCD",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Role of swimming motility on spaceflight final cell density",
+        "sentence_id": 67,
+        "char_start": 17077,
+        "char_end": 17081,
+        "anchor": "PMC4228280_17077_17081",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 236,
+      "label": "gravity",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Role of swimming motility on spaceflight final cell density",
+        "sentence_id": 67,
+        "char_start": 17182,
+        "char_end": 17189,
+        "anchor": "PMC4228280_17182_17189",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 194,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 231,
+      "target": 233
+    },
+    {
+      "id": 195,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 231,
+      "target": 236
+    },
+    {
+      "id": 196,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 231,
+      "target": 240
+    },
+    {
+      "id": 198,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 231,
+      "target": 242
+    },
+    {
+      "id": 199,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 233,
+      "target": 236
+    },
+    {
+      "id": 200,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 233,
+      "target": 240
+    },
+    {
+      "id": 202,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 233,
+      "target": 242
+    },
+    {
+      "id": 203,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 236,
+      "target": 240
+    },
+    {
+      "id": 205,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 236,
+      "target": 242
+    },
+    {
+      "id": 207,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 240,
+      "target": 242
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 11,
+      "largest_component": 5
+    },
+    "page": 3
+  }
+}

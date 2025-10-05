@@ -1,0 +1,156 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "Biomarkers",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 3489,
+      "label": "CRP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Biomarkers",
+        "sentence_id": 1121,
+        "char_start": 186009,
+        "char_end": 186012,
+        "anchor": "PMC4385880_186009_186012",
+        "page": 87,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3490,
+      "label": "TTA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Biomarkers",
+        "sentence_id": 1121,
+        "char_start": 186097,
+        "char_end": 186100,
+        "anchor": "PMC4385880_186097_186100",
+        "page": 87,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3483,
+      "label": "platelet",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Biomarkers",
+        "sentence_id": 1121,
+        "char_start": 185984,
+        "char_end": 185992,
+        "anchor": "PMC4385880_185984_185992",
+        "page": 87,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3485,
+      "label": "insulin",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Biomarkers",
+        "sentence_id": 1121,
+        "char_start": 186035,
+        "char_end": 186042,
+        "anchor": "PMC4385880_186035_186042",
+        "page": 87,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3487,
+      "label": "Panel",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Biomarkers",
+        "sentence_id": 1121,
+        "char_start": 185863,
+        "char_end": 185868,
+        "anchor": "PMC4385880_185863_185868",
+        "page": 87,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 3593,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3483,
+      "target": 3485
+    },
+    {
+      "id": 3594,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3483,
+      "target": 3487
+    },
+    {
+      "id": 3596,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3483,
+      "target": 3489
+    },
+    {
+      "id": 3597,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3483,
+      "target": 3490
+    },
+    {
+      "id": 3598,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3485,
+      "target": 3487
+    },
+    {
+      "id": 3600,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3485,
+      "target": 3489
+    },
+    {
+      "id": 3601,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3485,
+      "target": 3490
+    },
+    {
+      "id": 3603,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3487,
+      "target": 3489
+    },
+    {
+      "id": 3604,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3487,
+      "target": 3490
+    },
+    {
+      "id": 3607,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3489,
+      "target": 3490
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 8,
+      "largest_component": 5,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 87
+  }
+}

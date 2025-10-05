@@ -1,0 +1,57 @@
+{
+  "paper_id": "PMC9862956",
+  "section": "CONCLUSION",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 464,
+      "label": "CIP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 180,
+        "char_start": 33055,
+        "char_end": 33058,
+        "anchor": "PMC9862956_33055_33058",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 465,
+      "label": "CIP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 180,
+        "char_start": 33055,
+        "char_end": 33058,
+        "anchor": "PMC9862956_33055_33058",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 566,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 464,
+      "target": 465
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 8,
+      "largest_component": 2,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 8
+  }
+}

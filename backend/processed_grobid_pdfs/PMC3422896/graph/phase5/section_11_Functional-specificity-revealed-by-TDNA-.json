@@ -1,0 +1,118 @@
+{
+  "paper_id": "PMC3422896",
+  "section": "Functional specificity revealed by TDNA mutations",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 432,
+      "label": "Arab",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Functional specificity revealed by TDNA mutations",
+        "sentence_id": 126,
+        "char_start": 32717,
+        "char_end": 32721,
+        "anchor": "PMC3422896_32717_32721",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 435,
+      "label": "Phot2",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Functional specificity revealed by TDNA mutations",
+        "sentence_id": 126,
+        "char_start": 33020,
+        "char_end": 33025,
+        "anchor": "PMC3422896_33020_33025",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 438,
+      "label": "Phot2",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Functional specificity revealed by TDNA mutations",
+        "sentence_id": 126,
+        "char_start": 32768,
+        "char_end": 32773,
+        "anchor": "PMC3422896_32768_32773",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 439,
+      "label": "Phot2",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Functional specificity revealed by TDNA mutations",
+        "sentence_id": 126,
+        "char_start": 33020,
+        "char_end": 33025,
+        "anchor": "PMC3422896_33020_33025",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 550,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 432,
+      "target": 435
+    },
+    {
+      "id": 551,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 432,
+      "target": 438
+    },
+    {
+      "id": 552,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 432,
+      "target": 439
+    },
+    {
+      "id": 553,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 435,
+      "target": 438
+    },
+    {
+      "id": 554,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 435,
+      "target": 439
+    },
+    {
+      "id": 555,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 438,
+      "target": 439
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 19,
+      "largest_component": 4,
+      "removed_components": [
+        3,
+        2
+      ]
+    },
+    "page": 7
+  }
+}

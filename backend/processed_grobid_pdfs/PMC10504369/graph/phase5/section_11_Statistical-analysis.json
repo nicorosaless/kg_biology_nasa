@@ -1,0 +1,118 @@
+{
+  "paper_id": "PMC10504369",
+  "section": "Statistical analysis",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 714,
+      "label": "Graph",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analysis",
+        "sentence_id": 191,
+        "char_start": 41286,
+        "char_end": 41291,
+        "anchor": "PMC10504369_41286_41291",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 715,
+      "label": "Pad",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analysis",
+        "sentence_id": 191,
+        "char_start": 41291,
+        "char_end": 41294,
+        "anchor": "PMC10504369_41291_41294",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 716,
+      "label": "GraphPad",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analysis",
+        "sentence_id": 191,
+        "char_start": 41286,
+        "char_end": 41294,
+        "anchor": "PMC10504369_41286_41294",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 718,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analysis",
+        "sentence_id": 191,
+        "char_start": 41310,
+        "char_end": 41313,
+        "anchor": "PMC10504369_41310_41313",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1144,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 714,
+      "target": 715
+    },
+    {
+      "id": 1145,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 714,
+      "target": 716
+    },
+    {
+      "id": 1147,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 714,
+      "target": 718
+    },
+    {
+      "id": 1148,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 715,
+      "target": 716
+    },
+    {
+      "id": 1150,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 715,
+      "target": 718
+    },
+    {
+      "id": 1152,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 716,
+      "target": 718
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 1,
+      "largest_component": 4,
+      "removed_components": [
+        3,
+        2
+      ]
+    },
+    "page": 5
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "paper_id": "PMC4228280",
+  "section": "Effects of post-growth storage on viable cell counts and FCM data",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 458,
+      "label": "FCM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of post-growth storage on viable cell counts and FCM data",
+        "sentence_id": 141,
+        "char_start": 31472,
+        "char_end": 31475,
+        "anchor": "PMC4228280_31472_31475",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 452,
+      "label": "PAs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of post-growth storage on viable cell counts and FCM data",
+        "sentence_id": 141,
+        "char_start": 31140,
+        "char_end": 31143,
+        "anchor": "PMC4228280_31140_31143",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 453,
+      "label": "FPAs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of post-growth storage on viable cell counts and FCM data",
+        "sentence_id": 141,
+        "char_start": 31221,
+        "char_end": 31225,
+        "anchor": "PMC4228280_31221_31225",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 454,
+      "label": "culture",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of post-growth storage on viable cell counts and FCM data",
+        "sentence_id": 141,
+        "char_start": 31354,
+        "char_end": 31361,
+        "anchor": "PMC4228280_31354_31361",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 501,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 452,
+      "target": 453
+    },
+    {
+      "id": 502,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 452,
+      "target": 454
+    },
+    {
+      "id": 505,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 452,
+      "target": 458
+    },
+    {
+      "id": 506,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 453,
+      "target": 454
+    },
+    {
+      "id": 509,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 453,
+      "target": 458
+    },
+    {
+      "id": 512,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 454,
+      "target": 458
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 1,
+      "largest_component": 4
+    },
+    "page": 5
+  }
+}

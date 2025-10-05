@@ -1,0 +1,93 @@
+{
+  "paper_id": "PMC4136787",
+  "section": "Animals",
+  "n_nodes": 5,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 24,
+      "label": "RFID",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Animals",
+        "sentence_id": 66,
+        "char_start": 12045,
+        "char_end": 12049,
+        "anchor": "PMC4136787_12045_12049"
+      }
+    },
+    {
+      "id": 25,
+      "label": "Felixcan",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Animals",
+        "sentence_id": 66,
+        "char_start": 12065,
+        "char_end": 12073,
+        "anchor": "PMC4136787_12065_12073"
+      }
+    },
+    {
+      "id": 26,
+      "label": "Spain",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Animals",
+        "sentence_id": 66,
+        "char_start": 12075,
+        "char_end": 12080,
+        "anchor": "PMC4136787_12075_12080"
+      }
+    },
+    {
+      "id": 20,
+      "label": "C57",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Animals",
+        "sentence_id": 54,
+        "char_start": 10307,
+        "char_end": 10310,
+        "anchor": "PMC4136787_10307_10310"
+      }
+    },
+    {
+      "id": 21,
+      "label": "C57",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Animals",
+        "sentence_id": 59,
+        "char_start": 11048,
+        "char_end": 11051,
+        "anchor": "PMC4136787_11048_11051"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 10,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 24,
+      "target": 25
+    },
+    {
+      "id": 11,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 24,
+      "target": 26
+    },
+    {
+      "id": 12,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 25,
+      "target": 26
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "SLS Wind Tunnel Testing",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 676,
+      "label": "SLS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "SLS Wind Tunnel Testing",
+        "sentence_id": 381,
+        "char_start": 69437,
+        "char_end": 69440,
+        "anchor": "PMC10284894_69437_69440",
+        "page": 70,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 677,
+      "label": "Langley",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "SLS Wind Tunnel Testing",
+        "sentence_id": 381,
+        "char_start": 69550,
+        "char_end": 69557,
+        "anchor": "PMC10284894_69550_69557",
+        "page": 70,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 678,
+      "label": "Marshall",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "SLS Wind Tunnel Testing",
+        "sentence_id": 381,
+        "char_start": 69563,
+        "char_end": 69571,
+        "anchor": "PMC10284894_69563_69571",
+        "page": 70,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 619,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 676,
+      "target": 677
+    },
+    {
+      "id": 620,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 676,
+      "target": 678
+    },
+    {
+      "id": 621,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 677,
+      "target": 678
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 0,
+      "largest_component": 3
+    },
+    "page": 70
+  }
+}

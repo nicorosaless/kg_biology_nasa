@@ -1,0 +1,84 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "Orion Parachute Testing",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 602,
+      "label": "Orion",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Parachute Testing",
+        "sentence_id": 348,
+        "char_start": 63709,
+        "char_end": 63714,
+        "anchor": "PMC10284894_63709_63714",
+        "page": 65,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 604,
+      "label": "Arizona",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Parachute Testing",
+        "sentence_id": 348,
+        "char_start": 63785,
+        "char_end": 63792,
+        "anchor": "PMC10284894_63785_63792",
+        "page": 65,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 605,
+      "label": "Artemis",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Parachute Testing",
+        "sentence_id": 348,
+        "char_start": 63820,
+        "char_end": 63827,
+        "anchor": "PMC10284894_63820_63827",
+        "page": 65,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 543,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 602,
+      "target": 604
+    },
+    {
+      "id": 544,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 602,
+      "target": 605
+    },
+    {
+      "id": 547,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 604,
+      "target": 605
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 3,
+      "largest_component": 3,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 65
+  }
+}

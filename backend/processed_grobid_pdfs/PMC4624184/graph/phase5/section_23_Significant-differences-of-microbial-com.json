@@ -1,0 +1,158 @@
+{
+  "paper_id": "PMC4624184",
+  "section": "Significant differences of microbial communities between ISS and Earth cleanroom samples",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 384,
+      "label": "analyses",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Significant differences of microbial communities between ISS and Earth cleanroom samples",
+        "sentence_id": 112,
+        "char_start": 21183,
+        "char_end": 21191,
+        "anchor": "PMC4624184_21183_21191",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 386,
+      "label": "Illumina",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Significant differences of microbial communities between ISS and Earth cleanroom samples",
+        "sentence_id": 112,
+        "char_start": 21247,
+        "char_end": 21255,
+        "anchor": "PMC4624184_21247_21255",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 388,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Significant differences of microbial communities between ISS and Earth cleanroom samples",
+        "sentence_id": 112,
+        "char_start": 21329,
+        "char_end": 21332,
+        "anchor": "PMC4624184_21329_21332",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 389,
+      "label": "Illumina",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Significant differences of microbial communities between ISS and Earth cleanroom samples",
+        "sentence_id": 112,
+        "char_start": 21247,
+        "char_end": 21255,
+        "anchor": "PMC4624184_21247_21255",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 390,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Significant differences of microbial communities between ISS and Earth cleanroom samples",
+        "sentence_id": 112,
+        "char_start": 21329,
+        "char_end": 21332,
+        "anchor": "PMC4624184_21329_21332",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 495,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 384,
+      "target": 386
+    },
+    {
+      "id": 496,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 384,
+      "target": 388
+    },
+    {
+      "id": 497,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 384,
+      "target": 389
+    },
+    {
+      "id": 498,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 384,
+      "target": 390
+    },
+    {
+      "id": 499,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 386,
+      "target": 388
+    },
+    {
+      "id": 500,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 386,
+      "target": 389
+    },
+    {
+      "id": 501,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 386,
+      "target": 390
+    },
+    {
+      "id": 502,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 388,
+      "target": 389
+    },
+    {
+      "id": 503,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 388,
+      "target": 390
+    },
+    {
+      "id": 504,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 389,
+      "target": 390
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 8,
+      "largest_component": 5,
+      "removed_components": [
+        4,
+        4,
+        2
+      ]
+    },
+    "page": 6
+  }
+}

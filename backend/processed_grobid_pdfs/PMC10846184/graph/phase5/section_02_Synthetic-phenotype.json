@@ -1,0 +1,73 @@
+{
+  "paper_id": "PMC10846184",
+  "section": "Synthetic PHENOTYPE",
+  "n_nodes": 3,
+  "n_edges": 2,
+  "nodes": [
+    {
+      "id": 1,
+      "label": "spelling errors",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 1,
+        "char_start": 329,
+        "char_end": 344,
+        "anchor": "PMC10846184_329_344",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 21,
+      "label": "heterogeneity",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) 1.The authors identified 29, 81,",
+        "sentence_id": 20,
+        "char_start": 2830,
+        "char_end": 2843,
+        "anchor": "PMC10846184_2830_2843",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 87,
+      "label": "condition",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) 1.The authors identified 29, 81,",
+        "sentence_id": 65,
+        "char_start": 9113,
+        "char_end": 9122,
+        "anchor": "PMC10846184_9113_9122",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-1-21",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 21
+    },
+    {
+      "id": "synth-1-87",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 87
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "PHENOTYPE",
+    "page": null
+  }
+}

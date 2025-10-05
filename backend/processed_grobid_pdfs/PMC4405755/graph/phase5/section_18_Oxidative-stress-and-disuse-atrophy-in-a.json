@@ -1,0 +1,119 @@
+{
+  "paper_id": "PMC4405755",
+  "section": "Oxidative stress and disuse atrophy in a fast muscle",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 610,
+      "label": "ROS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Oxidative stress and disuse atrophy in a fast muscle",
+        "sentence_id": 157,
+        "char_start": 27865,
+        "char_end": 27868,
+        "anchor": "PMC4405755_27865_27868",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 605,
+      "label": "oxidant",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Oxidative stress and disuse atrophy in a fast muscle",
+        "sentence_id": 157,
+        "char_start": 27808,
+        "char_end": 27815,
+        "anchor": "PMC4405755_27808_27815",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 606,
+      "label": "defence",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Oxidative stress and disuse atrophy in a fast muscle",
+        "sentence_id": 157,
+        "char_start": 27816,
+        "char_end": 27823,
+        "anchor": "PMC4405755_27816_27823",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 607,
+      "label": "ROS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Oxidative stress and disuse atrophy in a fast muscle",
+        "sentence_id": 157,
+        "char_start": 27865,
+        "char_end": 27868,
+        "anchor": "PMC4405755_27865_27868",
+        "page": 9,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 770,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 605,
+      "target": 606
+    },
+    {
+      "id": 771,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 605,
+      "target": 607
+    },
+    {
+      "id": 774,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 605,
+      "target": 610
+    },
+    {
+      "id": 775,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 606,
+      "target": 607
+    },
+    {
+      "id": 778,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 606,
+      "target": 610
+    },
+    {
+      "id": 781,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 607,
+      "target": 610
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 10,
+      "largest_component": 4,
+      "removed_components": [
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 9
+  }
+}

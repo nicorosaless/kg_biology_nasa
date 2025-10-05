@@ -1,0 +1,139 @@
+{
+  "paper_id": "PMC3630201",
+  "section": "Micro-Computed Tomography (mCT)",
+  "n_nodes": 9,
+  "n_edges": 2,
+  "nodes": [
+    {
+      "id": 210,
+      "label": "CTan",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography (mCT)",
+        "sentence_id": 197,
+        "char_start": 44739,
+        "char_end": 44743,
+        "anchor": "PMC3630201_44739_44743"
+      }
+    },
+    {
+      "id": 211,
+      "label": "Skyscan",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography (mCT)",
+        "sentence_id": 197,
+        "char_start": 44754,
+        "char_end": 44761,
+        "anchor": "PMC3630201_44754_44761"
+      }
+    },
+    {
+      "id": 213,
+      "label": "CTvox",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography (mCT)",
+        "sentence_id": 202,
+        "char_start": 45589,
+        "char_end": 45594,
+        "anchor": "PMC3630201_45589_45594"
+      }
+    },
+    {
+      "id": 214,
+      "label": "Skyscan",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography (mCT)",
+        "sentence_id": 202,
+        "char_start": 45621,
+        "char_end": 45628,
+        "anchor": "PMC3630201_45621_45628"
+      }
+    },
+    {
+      "id": 200,
+      "label": "Kontich",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography (mCT)",
+        "sentence_id": 190,
+        "char_start": 43489,
+        "char_end": 43496,
+        "anchor": "PMC3630201_43489_43496"
+      }
+    },
+    {
+      "id": 201,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography (mCT)",
+        "sentence_id": 192,
+        "char_start": 43796,
+        "char_end": 43799,
+        "anchor": "PMC3630201_43796_43799"
+      }
+    },
+    {
+      "id": 206,
+      "label": "NRecon",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography (mCT)",
+        "sentence_id": 195,
+        "char_start": 44297,
+        "char_end": 44303,
+        "anchor": "PMC3630201_44297_44303"
+      }
+    },
+    {
+      "id": 212,
+      "label": "CTan",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography (mCT)",
+        "sentence_id": 199,
+        "char_start": 45151,
+        "char_end": 45155,
+        "anchor": "PMC3630201_45151_45155"
+      }
+    },
+    {
+      "id": 217,
+      "label": "GraphPad",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography (mCT)",
+        "sentence_id": 204,
+        "char_start": 46125,
+        "char_end": 46133,
+        "anchor": "PMC3630201_46125_46133"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 196,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 210,
+      "target": 211
+    },
+    {
+      "id": 197,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 213,
+      "target": 214
+    }
+  ]
+}

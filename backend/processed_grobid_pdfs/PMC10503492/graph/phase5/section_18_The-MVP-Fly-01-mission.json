@@ -1,0 +1,198 @@
+{
+  "paper_id": "PMC10503492",
+  "section": "The MVP-Fly-01 mission",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 49,
+      "label": "elevated",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The MVP-Fly-01 mission",
+        "sentence_id": 12,
+        "char_start": 3828,
+        "char_end": 3836,
+        "anchor": "PMC10503492_3828_3836",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 51,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The MVP-Fly-01 mission",
+        "sentence_id": 12,
+        "char_start": 3681,
+        "char_end": 3684,
+        "anchor": "PMC10503492_3681_3684",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 52,
+      "label": "MVP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The MVP-Fly-01 mission",
+        "sentence_id": 12,
+        "char_start": 3893,
+        "char_end": 3896,
+        "anchor": "PMC10503492_3893_3896",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 53,
+      "label": "CNS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The MVP-Fly-01 mission",
+        "sentence_id": 12,
+        "char_start": 3985,
+        "char_end": 3988,
+        "anchor": "PMC10503492_3985_3988",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 54,
+      "label": "MVP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The MVP-Fly-01 mission",
+        "sentence_id": 12,
+        "char_start": 4037,
+        "char_end": 4040,
+        "anchor": "PMC10503492_4037_4040",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 55,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The MVP-Fly-01 mission",
+        "sentence_id": 12,
+        "char_start": 4218,
+        "char_end": 4221,
+        "anchor": "PMC10503492_4218_4221",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 69,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 49,
+      "target": 51
+    },
+    {
+      "id": 70,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 49,
+      "target": 52
+    },
+    {
+      "id": 71,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 49,
+      "target": 53
+    },
+    {
+      "id": 72,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 49,
+      "target": 54
+    },
+    {
+      "id": 73,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 49,
+      "target": 55
+    },
+    {
+      "id": 74,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 51,
+      "target": 52
+    },
+    {
+      "id": 75,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 51,
+      "target": 53
+    },
+    {
+      "id": 76,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 51,
+      "target": 54
+    },
+    {
+      "id": 77,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 51,
+      "target": 55
+    },
+    {
+      "id": 78,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 52,
+      "target": 53
+    },
+    {
+      "id": 79,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 52,
+      "target": 54
+    },
+    {
+      "id": 80,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 52,
+      "target": 55
+    },
+    {
+      "id": 81,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 53,
+      "target": 54
+    },
+    {
+      "id": 82,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 53,
+      "target": 55
+    },
+    {
+      "id": 83,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 54,
+      "target": 55
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 8,
+      "largest_component": 6
+    },
+    "page": 2
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "APPENDIX 1: Artemis Science Strategy",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 565,
+      "label": "Artemis",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "APPENDIX 1: Artemis Science Strategy",
+        "sentence_id": 316,
+        "char_start": 58597,
+        "char_end": 58604,
+        "anchor": "PMC10284894_58597_58604",
+        "page": 59,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 566,
+      "label": "Mars",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "APPENDIX 1: Artemis Science Strategy",
+        "sentence_id": 316,
+        "char_start": 58749,
+        "char_end": 58753,
+        "anchor": "PMC10284894_58749_58753",
+        "page": 60,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 523,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 565,
+      "target": 566
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 1,
+      "largest_component": 2
+    },
+    "page": 59
+  }
+}

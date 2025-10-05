@@ -1,0 +1,90 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "f) Vascular Adaptations to Spaceflight",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 2440,
+      "label": "changes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "f) Vascular Adaptations to Spaceflight",
+        "sentence_id": 776,
+        "char_start": 128524,
+        "char_end": 128531,
+        "anchor": "PMC4385880_128524_128531",
+        "page": 60,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2442,
+      "label": "impaired",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "f) Vascular Adaptations to Spaceflight",
+        "sentence_id": 776,
+        "char_start": 128649,
+        "char_end": 128657,
+        "anchor": "PMC4385880_128649_128657",
+        "page": 60,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2443,
+      "label": "control",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "f) Vascular Adaptations to Spaceflight",
+        "sentence_id": 776,
+        "char_start": 128667,
+        "char_end": 128674,
+        "anchor": "PMC4385880_128667_128674",
+        "page": 60,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 2451,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2440,
+      "target": 2442
+    },
+    {
+      "id": 2452,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2440,
+      "target": 2443
+    },
+    {
+      "id": 2453,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2442,
+      "target": 2443
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 8,
+      "removed_orphans": 22,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 60
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "paper_id": "PMC10889206",
+  "section": "Experimental Protocol",
+  "n_nodes": 8,
+  "n_edges": 27,
+  "nodes": [
+    {
+      "id": 448,
+      "label": "enriched",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental Protocol",
+        "sentence_id": 109,
+        "char_start": 21362,
+        "char_end": 21370,
+        "anchor": "PMC10889206_21362_21370",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 449,
+      "label": "bone marrow cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental Protocol",
+        "sentence_id": 109,
+        "char_start": 21376,
+        "char_end": 21393,
+        "anchor": "PMC10889206_21376_21393",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 450,
+      "label": "MAC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental Protocol",
+        "sentence_id": 109,
+        "char_start": 21430,
+        "char_end": 21433,
+        "anchor": "PMC10889206_21430_21433",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 451,
+      "label": "lineage cell",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental Protocol",
+        "sentence_id": 109,
+        "char_start": 21435,
+        "char_end": 21447,
+        "anchor": "PMC10889206_21435_21447",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 452,
+      "label": "Enriched",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental Protocol",
+        "sentence_id": 109,
+        "char_start": 21502,
+        "char_end": 21510,
+        "anchor": "PMC10889206_21502_21510",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 455,
+      "label": "MACS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental Protocol",
+        "sentence_id": 109,
+        "char_start": 21430,
+        "char_end": 21434,
+        "anchor": "PMC10889206_21430_21434",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 456,
+      "label": "Auburn",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental Protocol",
+        "sentence_id": 109,
+        "char_start": 21485,
+        "char_end": 21491,
+        "anchor": "PMC10889206_21485_21491",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 446,
+      "label": "Lineage",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental Protocol",
+        "sentence_id": 109,
+        "char_start": 21326,
+        "char_end": 21333,
+        "anchor": "PMC10889206_21326_21333",
+        "page": 9,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 723,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 446,
+      "target": 448
+    },
+    {
+      "id": 724,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 446,
+      "target": 449
+    },
+    {
+      "id": 725,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 446,
+      "target": 450
+    },
+    {
+      "id": 726,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 446,
+      "target": 451
+    },
+    {
+      "id": 727,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 446,
+      "target": 452
+    },
+    {
+      "id": 728,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 446,
+      "target": 455
+    },
+    {
+      "id": 729,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 446,
+      "target": 456
+    },
+    {
+      "id": 732,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 448,
+      "target": 449
+    },
+    {
+      "id": 733,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 448,
+      "target": 450
+    },
+    {
+      "id": 734,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 448,
+      "target": 451
+    },
+    {
+      "id": 735,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 448,
+      "target": 452
+    },
+    {
+      "id": 736,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 448,
+      "target": 455
+    },
+    {
+      "id": 737,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 448,
+      "target": 456
+    },
+    {
+      "id": 740,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 450,
+      "target": 449
+    },
+    {
+      "id": 741,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 452,
+      "target": 449
+    },
+    {
+      "id": 742,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 455,
+      "target": 449
+    },
+    {
+      "id": 743,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 456,
+      "target": 449
+    },
+    {
+      "id": 746,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 450,
+      "target": 451
+    },
+    {
+      "id": 747,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 450,
+      "target": 452
+    },
+    {
+      "id": 748,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 450,
+      "target": 455
+    },
+    {
+      "id": 749,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 450,
+      "target": 456
+    },
+    {
+      "id": 752,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 452,
+      "target": 451
+    },
+    {
+      "id": 753,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 455,
+      "target": 451
+    },
+    {
+      "id": 754,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 456,
+      "target": 451
+    },
+    {
+      "id": 757,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 452,
+      "target": 455
+    },
+    {
+      "id": 758,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 452,
+      "target": 456
+    },
+    {
+      "id": 761,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 455,
+      "target": 456
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 11,
+      "removed_orphans": 0,
+      "largest_component": 8,
+      "removed_components": [
+        6,
+        4,
+        4,
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 9
+  }
+}

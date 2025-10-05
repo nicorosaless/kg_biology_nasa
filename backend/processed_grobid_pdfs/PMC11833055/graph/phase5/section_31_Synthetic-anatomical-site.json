@@ -1,0 +1,136 @@
+{
+  "paper_id": "PMC11833055",
+  "section": "Synthetic ANATOMICAL_SITE",
+  "n_nodes": 6,
+  "n_edges": 5,
+  "nodes": [
+    {
+      "id": 8,
+      "label": "gut micro",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 3,
+        "char_start": 540,
+        "char_end": 549,
+        "anchor": "PMC11833055_540_549",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 64,
+      "label": "central and fringe areas",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Open field test",
+        "sentence_id": 28,
+        "char_start": 4841,
+        "char_end": 4865,
+        "anchor": "PMC11833055_4841_4865",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 164,
+      "label": "reference",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Brain transcriptomics",
+        "sentence_id": 93,
+        "char_start": 15053,
+        "char_end": 15062,
+        "anchor": "PMC11833055_15053_15062",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 261,
+      "label": "moral bone",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-CT imaging of bone",
+        "sentence_id": 145,
+        "char_start": 20275,
+        "char_end": 20285,
+        "anchor": "PMC11833055_20275_20285",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 653,
+      "label": "brain tissues",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 251,
+        "char_start": 40991,
+        "char_end": 41004,
+        "anchor": "PMC11833055_40991_41004",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 693,
+      "label": "hindlimbs",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 271,
+        "char_start": 45183,
+        "char_end": 45192,
+        "anchor": "PMC11833055_45183_45192",
+        "page": 9,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-8-64",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 64
+    },
+    {
+      "id": "synth-8-164",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 164
+    },
+    {
+      "id": "synth-8-261",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 261
+    },
+    {
+      "id": "synth-8-653",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 653
+    },
+    {
+      "id": "synth-8-693",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 693
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "ANATOMICAL_SITE",
+    "page": null
+  }
+}

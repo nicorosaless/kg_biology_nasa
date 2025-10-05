@@ -1,0 +1,259 @@
+{
+  "paper_id": "PMC11833055",
+  "section": "The impact of 3D clinostat on brain transcriptome",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 429,
+      "label": "OfT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The impact of 3D clinostat on brain transcriptome",
+        "sentence_id": 189,
+        "char_start": 28437,
+        "char_end": 28440,
+        "anchor": "PMC11833055_28437_28440",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 430,
+      "label": "Most",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The impact of 3D clinostat on brain transcriptome",
+        "sentence_id": 189,
+        "char_start": 28444,
+        "char_end": 28448,
+        "anchor": "PMC11833055_28444_28448",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 431,
+      "label": "Intense",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The impact of 3D clinostat on brain transcriptome",
+        "sentence_id": 189,
+        "char_start": 28448,
+        "char_end": 28455,
+        "anchor": "PMC11833055_28448_28455",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 432,
+      "label": "Pixels",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The impact of 3D clinostat on brain transcriptome",
+        "sentence_id": 189,
+        "char_start": 28455,
+        "char_end": 28461,
+        "anchor": "PMC11833055_28455_28461",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 435,
+      "label": "Len",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The impact of 3D clinostat on brain transcriptome",
+        "sentence_id": 189,
+        "char_start": 28543,
+        "char_end": 28546,
+        "anchor": "PMC11833055_28543_28546",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 436,
+      "label": "Hind",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The impact of 3D clinostat on brain transcriptome",
+        "sentence_id": 189,
+        "char_start": 28625,
+        "char_end": 28629,
+        "anchor": "PMC11833055_28625_28629",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 437,
+      "label": "Paws",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The impact of 3D clinostat on brain transcriptome",
+        "sentence_id": 189,
+        "char_start": 28629,
+        "char_end": 28633,
+        "anchor": "PMC11833055_28629_28633",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 417,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 429,
+      "target": 430
+    },
+    {
+      "id": 418,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 429,
+      "target": 431
+    },
+    {
+      "id": 419,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 429,
+      "target": 432
+    },
+    {
+      "id": 420,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 429,
+      "target": 435
+    },
+    {
+      "id": 421,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 429,
+      "target": 436
+    },
+    {
+      "id": 422,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 429,
+      "target": 437
+    },
+    {
+      "id": 423,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 430,
+      "target": 431
+    },
+    {
+      "id": 424,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 430,
+      "target": 432
+    },
+    {
+      "id": 425,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 430,
+      "target": 435
+    },
+    {
+      "id": 426,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 430,
+      "target": 436
+    },
+    {
+      "id": 427,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 430,
+      "target": 437
+    },
+    {
+      "id": 428,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 431,
+      "target": 432
+    },
+    {
+      "id": 429,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 431,
+      "target": 435
+    },
+    {
+      "id": 430,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 431,
+      "target": 436
+    },
+    {
+      "id": 431,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 431,
+      "target": 437
+    },
+    {
+      "id": 432,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 432,
+      "target": 435
+    },
+    {
+      "id": 433,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 432,
+      "target": 436
+    },
+    {
+      "id": 434,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 432,
+      "target": 437
+    },
+    {
+      "id": 435,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 435,
+      "target": 436
+    },
+    {
+      "id": 436,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 435,
+      "target": 437
+    },
+    {
+      "id": 437,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 436,
+      "target": 437
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 9,
+      "removed_orphans": 7,
+      "largest_component": 7,
+      "removed_components": [
+        6,
+        6,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 6
+  }
+}

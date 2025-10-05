@@ -1,0 +1,256 @@
+{
+  "paper_id": "PMC6091969",
+  "section": "A CEA10-derived strain germinates earlier than an Af293-derived strain in vivo",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 281,
+      "label": "A10",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "A CEA10-derived strain germinates earlier than an Af293-derived strain in vivo",
+        "sentence_id": 83,
+        "char_start": 25052,
+        "char_end": 25055,
+        "anchor": "PMC6091969_25052_25055",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 282,
+      "label": "strains",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "A CEA10-derived strain germinates earlier than an Af293-derived strain in vivo",
+        "sentence_id": 83,
+        "char_start": 25074,
+        "char_end": 25081,
+        "anchor": "PMC6091969_25074_25081",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 283,
+      "label": "Af29",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "A CEA10-derived strain germinates earlier than an Af293-derived strain in vivo",
+        "sentence_id": 83,
+        "char_start": 25358,
+        "char_end": 25362,
+        "anchor": "PMC6091969_25358_25362",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 284,
+      "label": "A10",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "A CEA10-derived strain germinates earlier than an Af293-derived strain in vivo",
+        "sentence_id": 83,
+        "char_start": 25370,
+        "char_end": 25373,
+        "anchor": "PMC6091969_25370_25373",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 285,
+      "label": "rminated",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "A CEA10-derived strain germinates earlier than an Af293-derived strain in vivo",
+        "sentence_id": 83,
+        "char_start": 25387,
+        "char_end": 25395,
+        "anchor": "PMC6091969_25387_25395",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 286,
+      "label": "CEA1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "A CEA10-derived strain germinates earlier than an Af293-derived strain in vivo",
+        "sentence_id": 83,
+        "char_start": 25409,
+        "char_end": 25413,
+        "anchor": "PMC6091969_25409_25413",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 287,
+      "label": "invasive",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "A CEA10-derived strain germinates earlier than an Af293-derived strain in vivo",
+        "sentence_id": 83,
+        "char_start": 25437,
+        "char_end": 25445,
+        "anchor": "PMC6091969_25437_25445",
+        "page": 12,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 370,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 281,
+      "target": 282
+    },
+    {
+      "id": 371,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 281,
+      "target": 283
+    },
+    {
+      "id": 372,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 281,
+      "target": 284
+    },
+    {
+      "id": 373,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 281,
+      "target": 285
+    },
+    {
+      "id": 374,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 281,
+      "target": 286
+    },
+    {
+      "id": 375,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 281,
+      "target": 287
+    },
+    {
+      "id": 378,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 282,
+      "target": 283
+    },
+    {
+      "id": 379,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 282,
+      "target": 284
+    },
+    {
+      "id": 380,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 282,
+      "target": 285
+    },
+    {
+      "id": 381,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 282,
+      "target": 286
+    },
+    {
+      "id": 382,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 282,
+      "target": 287
+    },
+    {
+      "id": 385,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 283,
+      "target": 284
+    },
+    {
+      "id": 386,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 283,
+      "target": 285
+    },
+    {
+      "id": 387,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 283,
+      "target": 286
+    },
+    {
+      "id": 388,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 283,
+      "target": 287
+    },
+    {
+      "id": 391,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 284,
+      "target": 285
+    },
+    {
+      "id": 392,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 284,
+      "target": 286
+    },
+    {
+      "id": 393,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 284,
+      "target": 287
+    },
+    {
+      "id": 396,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 285,
+      "target": 286
+    },
+    {
+      "id": 397,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 285,
+      "target": 287
+    },
+    {
+      "id": 400,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 286,
+      "target": 287
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 6,
+      "removed_orphans": 5,
+      "largest_component": 7,
+      "removed_components": [
+        6,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 12
+  }
+}

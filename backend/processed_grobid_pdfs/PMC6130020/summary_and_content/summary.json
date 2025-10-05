@@ -1,0 +1,187 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "This study investigates the roles of Arabidopsis annexins ANN1 and ANN2 in sugar transport and root development. The authors demonstrate that ANN1 and ANN2 are crucial for post-phloem sugar transport to the root tip, which indirectly influences photosynthetic rates in cotyledons. The research expands the understanding of annexin function in plants, revealing their importance in sugar allocation and stress response.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Figure 1.Inhibition of primary root growth in ANN1 and ANN2 knockout mutants is rescued by exogenous Suc independent of its osmotic effects.A, Representative images comparing primary root growth of 3-d-old Arabidopsis wild-type (Col-0), ann1-2, ann1-3",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.jpeg"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Figure 2.",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.jpeg"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Figure 3.",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.jpeg"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Figure 4.",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.jpeg"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Root Growth Inhibition and Rescue by Sugar",
+      "summary": "ANN1 and ANN2 knockout mutants exhibit significantly shorter primary root lengths and slower growth rates compared to wild type when grown without sucrose. This inhibition is rescued by exogenous sucrose, glucose, or fructose, but not by mannitol, sorbitol, or o-methyl-glucose, indicating a specific sugar-related effect rather than an osmotic one. Figure 1 shows the primary root growth of the mutants with and without sugar, demonstrating the rescue effect of sucrose. Figure 1's caption: Inhibition of primary root growth in ANN1 and ANN2 knockout mutants is rescued by exogenous Suc independent of its osmotic effects.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Root Cap Development Defects",
+      "summary": "Knocking out ANN1 or ANN2 impairs root cap development, leading to reduced layers of starch-containing columella cells and the absence of border-like cells. These defects are rescued by exogenous sucrose. Figure 2 illustrates the root cap defects in the mutants and their rescue by sucrose. Figure 2 caption: ANN1 and ANN2 knockout mutants have root cap developmental defects when grown without Suc.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Photosynthesis Gene Expression and Chlorophyll",
+      "summary": "RNA-seq analysis reveals up-regulation of photosynthesis-related genes in ann1-2 mutants grown without sucrose. RT-qPCR confirms that genes encoding chlorophyll-binding proteins and PSII subunits are significantly up-regulated in cotyledons of ann1-2 seedlings. This is further supported by increased chlorophyll accumulation in the mutants. Figure 4 shows the RT-qPCR results and chlorophyll fluorescence images, illustrating the impact on photosynthetic gene expression and chlorophyll content. Figure 4 caption: Up-regulation of photosynthesis-related gene expression and increased chlorophyll fluorescence in ANN1 knockout mutant is rescued by exogenous Suc.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Soluble Sugar Accumulation",
+      "summary": "Unexpectedly, the study finds significantly higher amounts of soluble sugars, including glucose and fructose, in primary roots of ann1-2 and ann2-1 mutants compared to wild type. This suggests that sugar transport to the root tip is impaired, causing accumulation in the roots. Figure 5 displays the soluble sugar contents in the mutant roots, confirming the increased sugar levels. Figure 5 caption: ANN1 and ANN2 knockout mutant roots contain significantly more soluble carbohydrates in primary roots when grown without Suc.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Post-Phloem Transport Impairment",
+      "summary": "Using carboxyfluorescein diacetate (CFDA) as a phloem-mobile probe, the researchers demonstrate that post-phloem transport is impaired in ann1-2 and ann2-1 root tips. The diffusion of CF in root tips is restricted in the mutants, while ANN1-overexpressing lines show enhanced diffusion. Figure 6 shows the fluorescence micrographs of root tips, illustrating the restricted CF diffusion in the mutants. Figure 6 caption: ANN1 and ANN2 knockout mutant roots have restricted diffusion of CF to root tips when grown without Suc.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "ROS and Callose Accumulation",
+      "summary": "Knocking out ANN1 and ANN2 leads to increased levels of reactive oxygen species (ROS) and callose accumulation in root tips. This callose deposition restricts plasmodesmal sugar transport to root tips.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": "ANN1 and ANN2 play a critical role in post-phloem sugar transport to root tips, influencing primary root growth, root cap development, and photosynthetic rates. The knockout mutants show impaired sugar diffusion in the root apex, leading to sugar starvation in the root tips and subsequent up-regulation of photosynthesis. The increased ROS and callose accumulation further restricts sugar transport, contributing to the observed phenotypes. These findings highlight the importance of annexins in regulating sugar allocation and stress responses in plants.",
+  "keywords": [
+    "annexins",
+    "sugar transport",
+    "root development",
+    "arabidopsis",
+    "post-phloem transport",
+    "ros",
+    "callose",
+    "photosynthesis",
+    "root tip",
+    "columella cells"
+  ],
+  "topics": [
+    "plant physiology",
+    "molecular biology",
+    "stress response"
+  ],
+  "_meta": {
+    "paper_id": "sha256:6aa13045696c2fa293ad8654b4572003017c4dd1176b58254b0bfe571c0162c3",
+    "paper_title": "ANN1 and ANN2 Function in Post-Phloem Sugar Transport in Root Tips to Affect Primary Root Growth",
+    "generated_at": "2025-10-05T10:48:53Z",
+    "word_count": 486,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "annexins",
+      "sugar transport",
+      "root development",
+      "arabidopsis",
+      "post-phloem transport",
+      "ros",
+      "callose",
+      "photosynthesis",
+      "root tip",
+      "columella cells"
+    ],
+    "topics": [
+      "plant physiology",
+      "molecular biology",
+      "stress response"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 7478,
+      "completion_tokens": 1063,
+      "total_tokens": 8541,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000748,
+      "output_usd": 0.000425,
+      "total_usd": 0.001173
+    },
+    "cost": {
+      "input_usd": 0.000748,
+      "output_usd": 0.000425,
+      "total_usd": 0.001173
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [
+        {
+          "id": "fig_6",
+          "score": -9999,
+          "caption_wc": 100
+        },
+        {
+          "id": "fig_7",
+          "score": -9999,
+          "caption_wc": 82
+        }
+      ],
+      "corrupted_detected": [
+        "fig_1",
+        "fig_2",
+        "fig_4",
+        "fig_5",
+        "fig_6",
+        "fig_7"
+      ],
+      "original_total": 6,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

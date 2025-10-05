@@ -1,0 +1,312 @@
+{
+  "paper_id": "PMC11451251",
+  "section": "Potential pathogenicity and antibiotic resistance",
+  "n_nodes": 8,
+  "n_edges": 28,
+  "nodes": [
+    {
+      "id": 356,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Potential pathogenicity and antibiotic resistance",
+        "sentence_id": 122,
+        "char_start": 24693,
+        "char_end": 24696,
+        "anchor": "PMC11451251_24693_24696",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 358,
+      "label": "surface",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Potential pathogenicity and antibiotic resistance",
+        "sentence_id": 122,
+        "char_start": 24760,
+        "char_end": 24767,
+        "anchor": "PMC11451251_24760_24767",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 359,
+      "label": "limited",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Potential pathogenicity and antibiotic resistance",
+        "sentence_id": 122,
+        "char_start": 24861,
+        "char_end": 24868,
+        "anchor": "PMC11451251_24861_24868",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 361,
+      "label": "features",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Potential pathogenicity and antibiotic resistance",
+        "sentence_id": 122,
+        "char_start": 24987,
+        "char_end": 24995,
+        "anchor": "PMC11451251_24987_24995",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 362,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Potential pathogenicity and antibiotic resistance",
+        "sentence_id": 122,
+        "char_start": 25008,
+        "char_end": 25011,
+        "anchor": "PMC11451251_25008_25011",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 364,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Potential pathogenicity and antibiotic resistance",
+        "sentence_id": 122,
+        "char_start": 24693,
+        "char_end": 24696,
+        "anchor": "PMC11451251_24693_24696",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 365,
+      "label": "Mora",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Potential pathogenicity and antibiotic resistance",
+        "sentence_id": 122,
+        "char_start": 24913,
+        "char_end": 24917,
+        "anchor": "PMC11451251_24913_24917",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 367,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Potential pathogenicity and antibiotic resistance",
+        "sentence_id": 122,
+        "char_start": 25008,
+        "char_end": 25011,
+        "anchor": "PMC11451251_25008_25011",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 289,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 356,
+      "target": 358
+    },
+    {
+      "id": 290,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 356,
+      "target": 359
+    },
+    {
+      "id": 291,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 356,
+      "target": 361
+    },
+    {
+      "id": 292,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 356,
+      "target": 362
+    },
+    {
+      "id": 293,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 356,
+      "target": 364
+    },
+    {
+      "id": 294,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 356,
+      "target": 365
+    },
+    {
+      "id": 296,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 356,
+      "target": 367
+    },
+    {
+      "id": 298,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 358,
+      "target": 359
+    },
+    {
+      "id": 299,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 358,
+      "target": 361
+    },
+    {
+      "id": 300,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 358,
+      "target": 362
+    },
+    {
+      "id": 301,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 358,
+      "target": 364
+    },
+    {
+      "id": 302,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 358,
+      "target": 365
+    },
+    {
+      "id": 304,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 358,
+      "target": 367
+    },
+    {
+      "id": 306,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 359,
+      "target": 361
+    },
+    {
+      "id": 307,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 359,
+      "target": 362
+    },
+    {
+      "id": 308,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 359,
+      "target": 364
+    },
+    {
+      "id": 309,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 359,
+      "target": 365
+    },
+    {
+      "id": 311,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 359,
+      "target": 367
+    },
+    {
+      "id": 313,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 361,
+      "target": 362
+    },
+    {
+      "id": 314,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 361,
+      "target": 364
+    },
+    {
+      "id": 315,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 361,
+      "target": 365
+    },
+    {
+      "id": 317,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 361,
+      "target": 367
+    },
+    {
+      "id": 319,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 362,
+      "target": 364
+    },
+    {
+      "id": 320,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 362,
+      "target": 365
+    },
+    {
+      "id": 322,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 362,
+      "target": 367
+    },
+    {
+      "id": 324,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 364,
+      "target": 365
+    },
+    {
+      "id": 326,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 364,
+      "target": 367
+    },
+    {
+      "id": 329,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 365,
+      "target": 367
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 13,
+      "largest_component": 8,
+      "removed_components": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 8
+  }
+}

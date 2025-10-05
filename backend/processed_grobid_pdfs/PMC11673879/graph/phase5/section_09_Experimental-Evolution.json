@@ -1,0 +1,58 @@
+{
+  "paper_id": "PMC11673879",
+  "section": "Experimental Evolution",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 140,
+      "label": "strains",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental Evolution",
+        "sentence_id": 64,
+        "char_start": 11396,
+        "char_end": 11403,
+        "anchor": "PMC11673879_11396_11403",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 141,
+      "label": "thermal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental Evolution",
+        "sentence_id": 64,
+        "char_start": 11434,
+        "char_end": 11441,
+        "anchor": "PMC11673879_11434_11441",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 68,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 140,
+      "target": 141
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 12,
+      "largest_component": 2,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 4
+  }
+}

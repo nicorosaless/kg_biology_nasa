@@ -1,0 +1,204 @@
+{
+  "paper_id": "PMC10780891",
+  "section": "Hyperspectral Imaging",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 832,
+      "label": "Russia",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Hyperspectral Imaging",
+        "sentence_id": 237,
+        "char_start": 50206,
+        "char_end": 50212,
+        "anchor": "PMC10780891_50206_50212",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 833,
+      "label": "AnC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Hyperspectral Imaging",
+        "sentence_id": 237,
+        "char_start": 50427,
+        "char_end": 50430,
+        "anchor": "PMC10780891_50427_50430",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 826,
+      "label": "Image",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Hyperspectral Imaging",
+        "sentence_id": 237,
+        "char_start": 50127,
+        "char_end": 50132,
+        "anchor": "PMC10780891_50127_50132",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 827,
+      "label": "Gel",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Hyperspectral Imaging",
+        "sentence_id": 237,
+        "char_start": 50181,
+        "char_end": 50184,
+        "anchor": "PMC10780891_50181_50184",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 830,
+      "label": "Gelion",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Hyperspectral Imaging",
+        "sentence_id": 237,
+        "char_start": 50164,
+        "char_end": 50170,
+        "anchor": "PMC10780891_50164_50170",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 831,
+      "label": "Moscow",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Hyperspectral Imaging",
+        "sentence_id": 237,
+        "char_start": 50198,
+        "char_end": 50204,
+        "anchor": "PMC10780891_50198_50204",
+        "page": 15,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1178,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 826,
+      "target": 827
+    },
+    {
+      "id": 1179,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 826,
+      "target": 830
+    },
+    {
+      "id": 1180,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 826,
+      "target": 831
+    },
+    {
+      "id": 1181,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 826,
+      "target": 832
+    },
+    {
+      "id": 1182,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 826,
+      "target": 833
+    },
+    {
+      "id": 1183,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 827,
+      "target": 830
+    },
+    {
+      "id": 1184,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 827,
+      "target": 831
+    },
+    {
+      "id": 1185,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 827,
+      "target": 832
+    },
+    {
+      "id": 1186,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 827,
+      "target": 833
+    },
+    {
+      "id": 1187,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 830,
+      "target": 831
+    },
+    {
+      "id": 1188,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 830,
+      "target": 832
+    },
+    {
+      "id": 1189,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 830,
+      "target": 833
+    },
+    {
+      "id": 1190,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 831,
+      "target": 832
+    },
+    {
+      "id": 1191,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 831,
+      "target": 833
+    },
+    {
+      "id": 1192,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 832,
+      "target": 833
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 9,
+      "largest_component": 6,
+      "removed_components": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 15
+  }
+}

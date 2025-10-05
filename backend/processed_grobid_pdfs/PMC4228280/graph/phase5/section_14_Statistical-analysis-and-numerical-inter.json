@@ -1,0 +1,84 @@
+{
+  "paper_id": "PMC4228280",
+  "section": "Statistical analysis and numerical interpretation",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 472,
+      "label": "SPSS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analysis and numerical interpretation",
+        "sentence_id": 146,
+        "char_start": 32372,
+        "char_end": 32376,
+        "anchor": "PMC4228280_32372_32376",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 470,
+      "label": "PAS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analysis and numerical interpretation",
+        "sentence_id": 146,
+        "char_start": 32353,
+        "char_end": 32356,
+        "anchor": "PMC4228280_32353_32356",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 471,
+      "label": "Tukey",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analysis and numerical interpretation",
+        "sentence_id": 146,
+        "char_start": 32335,
+        "char_end": 32340,
+        "anchor": "PMC4228280_32335_32340",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 523,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 470,
+      "target": 471
+    },
+    {
+      "id": 524,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 470,
+      "target": 472
+    },
+    {
+      "id": 525,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 471,
+      "target": 472
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 2,
+      "largest_component": 3,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 5
+  }
+}

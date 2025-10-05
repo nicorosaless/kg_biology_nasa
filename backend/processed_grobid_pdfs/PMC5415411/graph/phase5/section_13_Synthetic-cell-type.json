@@ -1,0 +1,73 @@
+{
+  "paper_id": "PMC5415411",
+  "section": "Synthetic CELL_TYPE",
+  "n_nodes": 3,
+  "n_edges": 2,
+  "nodes": [
+    {
+      "id": 12,
+      "label": "a cell",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 5,
+        "char_start": 1304,
+        "char_end": 1310,
+        "anchor": "PMC5415411_1304_1310",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 115,
+      "label": "plant cell",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ER Quality Control and Important ER Client Proteins Mediate both Programmed Cell Death and Cell Cycle Control",
+        "sentence_id": 17,
+        "char_start": 5555,
+        "char_end": 5565,
+        "anchor": "PMC5415411_5555_5565",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 208,
+      "label": "mammalian cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ER Quality Control and Important ER Client Proteins Mediate both Programmed Cell Death and Cell Cycle Control",
+        "sentence_id": 28,
+        "char_start": 10041,
+        "char_end": 10056,
+        "anchor": "PMC5415411_10041_10056",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-12-115",
+      "type": "ASSOCIATED",
+      "source": 12,
+      "target": 115
+    },
+    {
+      "id": "synth-12-208",
+      "type": "ASSOCIATED",
+      "source": 12,
+      "target": 208
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "CELL_TYPE",
+    "page": null
+  }
+}

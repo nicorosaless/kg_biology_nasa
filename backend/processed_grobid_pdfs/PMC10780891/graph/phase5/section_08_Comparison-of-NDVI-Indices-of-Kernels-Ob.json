@@ -1,0 +1,57 @@
+{
+  "paper_id": "PMC10780891",
+  "section": "Comparison of NDVI Indices of Kernels Obtained Using Hyperspectral Imaging",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 497,
+      "label": "kernels",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of NDVI Indices of Kernels Obtained Using Hyperspectral Imaging",
+        "sentence_id": 119,
+        "char_start": 25204,
+        "char_end": 25211,
+        "anchor": "PMC10780891_25204_25211",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 498,
+      "label": "NDVI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of NDVI Indices of Kernels Obtained Using Hyperspectral Imaging",
+        "sentence_id": 119,
+        "char_start": 25179,
+        "char_end": 25183,
+        "anchor": "PMC10780891_25179_25183",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 863,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 497,
+      "target": 498
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 18,
+      "largest_component": 2,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 8
+  }
+}

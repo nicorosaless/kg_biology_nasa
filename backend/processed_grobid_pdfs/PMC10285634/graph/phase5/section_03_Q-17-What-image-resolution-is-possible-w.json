@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC10285634",
+  "section": "Q 17. What image resolution is possible with the iNSiGHT system?",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 81,
+      "label": "DXA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Q 17. What image resolution is possible with the iNSiGHT system?",
+        "sentence_id": 74,
+        "char_start": 8602,
+        "char_end": 8605,
+        "anchor": "PMC10285634_8602_8605",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 79,
+      "label": "DXA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Q 17. What image resolution is possible with the iNSiGHT system?",
+        "sentence_id": 74,
+        "char_start": 8602,
+        "char_end": 8605,
+        "anchor": "PMC10285634_8602_8605",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 38,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 79,
+      "target": 81
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 2,
+      "largest_component": 2
+    },
+    "page": 6
+  }
+}

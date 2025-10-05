@@ -1,0 +1,117 @@
+{
+  "paper_id": "PMC11833055",
+  "section": "Serum metabolomics",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 225,
+      "label": "BLAST",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Serum metabolomics",
+        "sentence_id": 137,
+        "char_start": 19164,
+        "char_end": 19169,
+        "anchor": "PMC11833055_19164_19169",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 226,
+      "label": "KEGG",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Serum metabolomics",
+        "sentence_id": 137,
+        "char_start": 19056,
+        "char_end": 19060,
+        "anchor": "PMC11833055_19056_19060",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 227,
+      "label": "KEGG",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Serum metabolomics",
+        "sentence_id": 137,
+        "char_start": 19144,
+        "char_end": 19148,
+        "anchor": "PMC11833055_19144_19148",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 228,
+      "label": "KEGG",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Serum metabolomics",
+        "sentence_id": 137,
+        "char_start": 19230,
+        "char_end": 19234,
+        "anchor": "PMC11833055_19230_19234",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 165,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 225,
+      "target": 226
+    },
+    {
+      "id": 166,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 225,
+      "target": 227
+    },
+    {
+      "id": 167,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 225,
+      "target": 228
+    },
+    {
+      "id": 168,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 226,
+      "target": 227
+    },
+    {
+      "id": 169,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 226,
+      "target": 228
+    },
+    {
+      "id": 170,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 227,
+      "target": 228
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 9,
+      "largest_component": 4,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 4
+  }
+}

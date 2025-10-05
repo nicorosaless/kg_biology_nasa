@@ -1,0 +1,252 @@
+{
+  "paper_id": "PMC11127935",
+  "section": "SAHS proteins and BSA protect enzymes from dehydrationinduced inactivation",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 249,
+      "label": "SAHS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "SAHS proteins and BSA protect enzymes from dehydrationinduced inactivation",
+        "sentence_id": 52,
+        "char_start": 12375,
+        "char_end": 12379,
+        "anchor": "PMC11127935_12375_12379",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 250,
+      "label": "SAHS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "SAHS proteins and BSA protect enzymes from dehydrationinduced inactivation",
+        "sentence_id": 52,
+        "char_start": 12615,
+        "char_end": 12619,
+        "anchor": "PMC11127935_12615_12619",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 251,
+      "label": "BSA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "SAHS proteins and BSA protect enzymes from dehydrationinduced inactivation",
+        "sentence_id": 52,
+        "char_start": 12633,
+        "char_end": 12636,
+        "anchor": "PMC11127935_12633_12636",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 252,
+      "label": "SAHS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "SAHS proteins and BSA protect enzymes from dehydrationinduced inactivation",
+        "sentence_id": 52,
+        "char_start": 12375,
+        "char_end": 12379,
+        "anchor": "PMC11127935_12375_12379",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 253,
+      "label": "BSA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "SAHS proteins and BSA protect enzymes from dehydrationinduced inactivation",
+        "sentence_id": 52,
+        "char_start": 12487,
+        "char_end": 12490,
+        "anchor": "PMC11127935_12487_12490",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 254,
+      "label": "SAHS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "SAHS proteins and BSA protect enzymes from dehydrationinduced inactivation",
+        "sentence_id": 52,
+        "char_start": 12615,
+        "char_end": 12619,
+        "anchor": "PMC11127935_12615_12619",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 255,
+      "label": "BSA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "SAHS proteins and BSA protect enzymes from dehydrationinduced inactivation",
+        "sentence_id": 52,
+        "char_start": 12633,
+        "char_end": 12636,
+        "anchor": "PMC11127935_12633_12636",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 420,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 249,
+      "target": 250
+    },
+    {
+      "id": 421,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 249,
+      "target": 251
+    },
+    {
+      "id": 422,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 249,
+      "target": 252
+    },
+    {
+      "id": 423,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 249,
+      "target": 253
+    },
+    {
+      "id": 424,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 249,
+      "target": 254
+    },
+    {
+      "id": 425,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 249,
+      "target": 255
+    },
+    {
+      "id": 426,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 250,
+      "target": 251
+    },
+    {
+      "id": 427,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 250,
+      "target": 252
+    },
+    {
+      "id": 428,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 250,
+      "target": 253
+    },
+    {
+      "id": 429,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 250,
+      "target": 254
+    },
+    {
+      "id": 430,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 250,
+      "target": 255
+    },
+    {
+      "id": 431,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 251,
+      "target": 252
+    },
+    {
+      "id": 432,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 251,
+      "target": 253
+    },
+    {
+      "id": 433,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 251,
+      "target": 254
+    },
+    {
+      "id": 434,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 251,
+      "target": 255
+    },
+    {
+      "id": 435,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 252,
+      "target": 253
+    },
+    {
+      "id": 436,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 252,
+      "target": 254
+    },
+    {
+      "id": 437,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 252,
+      "target": 255
+    },
+    {
+      "id": 438,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 253,
+      "target": 254
+    },
+    {
+      "id": 439,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 253,
+      "target": 255
+    },
+    {
+      "id": 440,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 254,
+      "target": 255
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 1,
+      "largest_component": 7,
+      "removed_components": [
+        3
+      ]
+    },
+    "page": 3
+  }
+}

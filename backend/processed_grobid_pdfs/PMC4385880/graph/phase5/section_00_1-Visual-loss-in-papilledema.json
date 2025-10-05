@@ -1,0 +1,259 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "(1) Visual loss in papilledema",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 1510,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(1) Visual loss in papilledema",
+        "sentence_id": 465,
+        "char_start": 76040,
+        "char_end": 76043,
+        "anchor": "PMC4385880_76040_76043",
+        "page": 36,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1512,
+      "label": "ONSD",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(1) Visual loss in papilledema",
+        "sentence_id": 465,
+        "char_start": 76099,
+        "char_end": 76103,
+        "anchor": "PMC4385880_76099_76103",
+        "page": 36,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1513,
+      "label": "VIIP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(1) Visual loss in papilledema",
+        "sentence_id": 465,
+        "char_start": 76118,
+        "char_end": 76122,
+        "anchor": "PMC4385880_76118_76122",
+        "page": 36,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1514,
+      "label": "greater",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(1) Visual loss in papilledema",
+        "sentence_id": 465,
+        "char_start": 76147,
+        "char_end": 76154,
+        "anchor": "PMC4385880_76147_76154",
+        "page": 36,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1515,
+      "label": "noncases",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(1) Visual loss in papilledema",
+        "sentence_id": 465,
+        "char_start": 76181,
+        "char_end": 76189,
+        "anchor": "PMC4385880_76181_76189",
+        "page": 36,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1516,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(1) Visual loss in papilledema",
+        "sentence_id": 465,
+        "char_start": 76040,
+        "char_end": 76043,
+        "anchor": "PMC4385880_76040_76043",
+        "page": 36,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1517,
+      "label": "ONSD",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(1) Visual loss in papilledema",
+        "sentence_id": 465,
+        "char_start": 76099,
+        "char_end": 76103,
+        "anchor": "PMC4385880_76099_76103",
+        "page": 36,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1505,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1510,
+      "target": 1512
+    },
+    {
+      "id": 1506,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1510,
+      "target": 1513
+    },
+    {
+      "id": 1507,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1510,
+      "target": 1514
+    },
+    {
+      "id": 1508,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1510,
+      "target": 1515
+    },
+    {
+      "id": 1509,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1510,
+      "target": 1516
+    },
+    {
+      "id": 1510,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1510,
+      "target": 1517
+    },
+    {
+      "id": 1511,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1512,
+      "target": 1513
+    },
+    {
+      "id": 1512,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1512,
+      "target": 1514
+    },
+    {
+      "id": 1513,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1512,
+      "target": 1515
+    },
+    {
+      "id": 1514,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1512,
+      "target": 1516
+    },
+    {
+      "id": 1515,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1512,
+      "target": 1517
+    },
+    {
+      "id": 1516,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1513,
+      "target": 1514
+    },
+    {
+      "id": 1517,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1513,
+      "target": 1515
+    },
+    {
+      "id": 1518,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1513,
+      "target": 1516
+    },
+    {
+      "id": 1519,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1513,
+      "target": 1517
+    },
+    {
+      "id": 1520,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1514,
+      "target": 1515
+    },
+    {
+      "id": 1521,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1514,
+      "target": 1516
+    },
+    {
+      "id": 1522,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1514,
+      "target": 1517
+    },
+    {
+      "id": 1523,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1515,
+      "target": 1516
+    },
+    {
+      "id": 1524,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1515,
+      "target": 1517
+    },
+    {
+      "id": 1525,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1516,
+      "target": 1517
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 9,
+      "removed_orphans": 0,
+      "largest_component": 7,
+      "removed_components": [
+        5,
+        5,
+        5,
+        4,
+        4,
+        4,
+        4,
+        2
+      ]
+    },
+    "page": 36
+  }
+}

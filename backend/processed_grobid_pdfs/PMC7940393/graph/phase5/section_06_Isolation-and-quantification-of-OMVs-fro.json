@@ -1,0 +1,164 @@
+{
+  "paper_id": "PMC7940393",
+  "section": "Isolation and quantification of OMVs from V. fischeri ES114",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 630,
+      "label": "OMV",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Isolation and quantification of OMVs from V. fischeri ES114",
+        "sentence_id": 134,
+        "char_start": 35622,
+        "char_end": 35625,
+        "anchor": "PMC7940393_35622_35625",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 631,
+      "label": "OMV",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Isolation and quantification of OMVs from V. fischeri ES114",
+        "sentence_id": 134,
+        "char_start": 35622,
+        "char_end": 35625,
+        "anchor": "PMC7940393_35622_35625",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 632,
+      "label": "Beckman",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Isolation and quantification of OMVs from V. fischeri ES114",
+        "sentence_id": 134,
+        "char_start": 35718,
+        "char_end": 35725,
+        "anchor": "PMC7940393_35718_35725",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 633,
+      "label": "Brea",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Isolation and quantification of OMVs from V. fischeri ES114",
+        "sentence_id": 134,
+        "char_start": 35727,
+        "char_end": 35731,
+        "anchor": "PMC7940393_35727_35731",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 635,
+      "label": "OMV",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Isolation and quantification of OMVs from V. fischeri ES114",
+        "sentence_id": 134,
+        "char_start": 35789,
+        "char_end": 35792,
+        "anchor": "PMC7940393_35789_35792",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1365,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 630,
+      "target": 631
+    },
+    {
+      "id": 1366,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 630,
+      "target": 632
+    },
+    {
+      "id": 1367,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 630,
+      "target": 633
+    },
+    {
+      "id": 1369,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 630,
+      "target": 635
+    },
+    {
+      "id": 1370,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 631,
+      "target": 632
+    },
+    {
+      "id": 1371,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 631,
+      "target": 633
+    },
+    {
+      "id": 1373,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 631,
+      "target": 635
+    },
+    {
+      "id": 1374,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 632,
+      "target": 633
+    },
+    {
+      "id": 1376,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 632,
+      "target": 635
+    },
+    {
+      "id": 1378,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 633,
+      "target": 635
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 10,
+      "removed_orphans": 13,
+      "largest_component": 5,
+      "removed_components": [
+        4,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 5
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "The study investigates the impact of housing temperature on bone physiology in female mice, a common preclinical model for osteoporosis. Unlike humans, mice exhibit cancellous bone loss during growth, particularly in the C57BL/6J (B6) strain. The study addresses whether housing mice at a thermoneutral temperature (32°C), compared to standard room temperature (22°C), alters bone growth, turnover, and microarchitecture in B6 and C3H/HeJ (C3H) mice. The research aims to assess the validity of mice as preclinical models, considering the differences in thermoregulation between mice and humans.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Figure 1.Femur length (A), total femur bone volume (B), mid-diaphysis cortical thickness (C), distal metaphysis bone volume fraction (D), trabecular number (E), and trabecular thickness (F), and distal femur epiphysis bone volume fraction (G), trabecular",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.jpeg"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Figure 2.",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.jpeg"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Figure 3.",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.jpeg"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Figure 4.",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.jpeg"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Experimental Design",
+      "summary": "Four-week-old female B6 and C3H mice were housed individually under a 12-hour light/dark cycle with ad libitum access to food and water. Body weight and food consumption were monitored weekly. Experiment 1 assessed the effect of thermoneutral housing on bone in B6 mice, with mice randomized into 22°C and 32°C groups for 14 weeks. Experiment 2 verified the reproducibility of results and extended the study to C3H mice, with a 4-week extension to ensure peak bone mass was reached.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Serum Chemistry",
+      "summary": "Serum leptin, osteocalcin, and CTX-1 levels were measured using ELISA kits following the manufacturers' protocols.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Dual Energy X-ray Absorptiometry & Microcomputed Tomography",
+      "summary": "Body fat percentage was determined using DXA. Microcomputed tomography (μCT) was used to evaluate bone volume and architecture in right femora. Scans were performed at a voxel size of 12 × 12 × 12 μm. Total femur mineralized tissue volume was assessed, followed by site-specific evaluation of cortical bone in the midshaft and cancellous bone in the distal femur metaphysis and epiphysis. Cortical thickness and cancellous bone parameters (bone volume fraction, trabecular number, and trabecular thickness) were measured.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Histomorphometry",
+      "summary": "Distal right femora were processed for static and dynamic bone histomorphometry. Coronal sections were stained for tartrate-resistant acid phosphatase and counterstained with toluidine blue. Unstained sections were used for fluorochrome label measurements. Cell-based measurements included osteoblast perimeter, osteoclast perimeter, marrow adiposity, adipocyte density, and adipocyte size. Fluorochrome-based measurements assessed bone formation.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Gene Expression",
+      "summary": "Tibiae were pulverized, and total RNA was isolated. Gene expression related to osteoblast differentiation and function, adipocyte differentiation and function, and osteoporosis was determined using RT2 Profiler PCR Arrays. Gene expression was normalized to GAPDH, and fold-change was calculated using mice housed at 22°C as the control.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Results",
+      "summary": "B6 mice housed at 22°C showed gains in femur length and cortical thickness but experienced cancellous bone loss in the distal femur metaphysis and epiphysis due to reduced trabecular number (Figure 1). Thermoneutral housing (32°C) prevented cancellous bone loss and increased cancellous bone volume fraction in the epiphysis. Thermoneutral housing reduced food intake but increased body fat percentage and abdominal white adipose tissue weight (Figure 2). C3H mice showed similar skeletal responses to temperature as B6 mice (Figure 3). Thermoneutral housing increased bone formation indices and decreased bone resorption markers (Figure 4).",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Discussion",
+      "summary": "The study highlights the significant impact of housing temperature on bone in growing female mice. Mice housed at thermoneutral temperature did not exhibit the cancellous bone loss typically observed in room temperature-housed mice. This effect occurred independently of body weight.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": "Housing female mice at thermoneutral temperatures mitigates premature cancellous bone loss, suggesting that standard room temperature housing exaggerates physiological differences between mice and humans. This finding has implications for the validity of using mice as preclinical models for age-related bone loss, highlighting the importance of considering environmental factors in skeletal research. The study suggests that adjusting housing temperature could improve the relevance of mouse models for studying human bone diseases.",
+  "keywords": [
+    "thermoneutral housing",
+    "cancellous bone loss",
+    "osteoporosis",
+    "mouse model",
+    "bone microarchitecture",
+    "bone turnover",
+    "c57bl/6j mice",
+    "c3h/hej mice",
+    "bone formation",
+    "bone resorption"
+  ],
+  "topics": [
+    "skeletal biology",
+    "preclinical models",
+    "thermoregulation"
+  ],
+  "_meta": {
+    "paper_id": "sha256:5aa3857176a6ab6dae17f0fd85ebcf1663ccb1ba9bdf19d743f13187dd8e625d",
+    "paper_title": "Room Temperature Housing Results in Premature Cancellous Bone Loss in Growing Female Mice: Implications for the",
+    "generated_at": "2025-10-05T10:45:43Z",
+    "word_count": 487,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "thermoneutral housing",
+      "cancellous bone loss",
+      "osteoporosis",
+      "mouse model",
+      "bone microarchitecture",
+      "bone turnover",
+      "c57bl/6j mice",
+      "c3h/hej mice",
+      "bone formation",
+      "bone resorption"
+    ],
+    "topics": [
+      "skeletal biology",
+      "preclinical models",
+      "thermoregulation"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 4961,
+      "completion_tokens": 1101,
+      "total_tokens": 6062,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000496,
+      "output_usd": 0.00044,
+      "total_usd": 0.000937
+    },
+    "cost": {
+      "input_usd": 0.000496,
+      "output_usd": 0.00044,
+      "total_usd": 0.000937
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [],
+      "corrupted_detected": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ],
+      "original_total": 4,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "paper_id": "PMC5666799",
+  "section": "Total Antioxidant Capacity of the Marrow Extracellular Fluid",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 435,
+      "label": "Lower",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Total Antioxidant Capacity of the Marrow Extracellular Fluid",
+        "sentence_id": 138,
+        "char_start": 25664,
+        "char_end": 25669,
+        "anchor": "PMC5666799_25664_25669",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 437,
+      "label": "controls",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Total Antioxidant Capacity of the Marrow Extracellular Fluid",
+        "sentence_id": 138,
+        "char_start": 25792,
+        "char_end": 25800,
+        "anchor": "PMC5666799_25792_25800",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 438,
+      "label": "Mice",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Total Antioxidant Capacity of the Marrow Extracellular Fluid",
+        "sentence_id": 138,
+        "char_start": 25825,
+        "char_end": 25829,
+        "anchor": "PMC5666799_25825_25829",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 459,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 435,
+      "target": 437
+    },
+    {
+      "id": 460,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 435,
+      "target": 438
+    },
+    {
+      "id": 463,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 437,
+      "target": 438
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 17,
+      "largest_component": 3
+    },
+    "page": 4
+  }
+}

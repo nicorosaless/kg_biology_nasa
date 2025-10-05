@@ -1,0 +1,241 @@
+{
+  "paper_id": "PMC10142442",
+  "section": "Synthetic ANATOMICAL_SITE",
+  "n_nodes": 11,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 8,
+      "label": "foreskin fibroblasts",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 2,
+        "char_start": 427,
+        "char_end": 447,
+        "anchor": "PMC10142442_427_447",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 26,
+      "label": "atopoietic stem",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 9,
+        "char_start": 1849,
+        "char_end": 1864,
+        "anchor": "PMC10142442_1849_1864",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 35,
+      "label": "extracellular matrix of",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 14,
+        "char_start": 2891,
+        "char_end": 2914,
+        "anchor": "PMC10142442_2891_2914",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 36,
+      "label": "mammalian tissues",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 14,
+        "char_start": 2920,
+        "char_end": 2937,
+        "anchor": "PMC10142442_2920_2937",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 54,
+      "label": "body wall of the sea cucumber",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 21,
+        "char_start": 4575,
+        "char_end": 4604,
+        "anchor": "PMC10142442_4575_4604",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 68,
+      "label": "extracellular matrix of",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 26,
+        "char_start": 5341,
+        "char_end": 5364,
+        "anchor": "PMC10142442_5341_5364",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 69,
+      "label": "mammalian tissues",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 26,
+        "char_start": 5370,
+        "char_end": 5387,
+        "anchor": "PMC10142442_5370_5387",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 88,
+      "label": "body wall of the sea cucumber",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 32,
+        "char_start": 7023,
+        "char_end": 7052,
+        "anchor": "PMC10142442_7023_7052",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 101,
+      "label": "sea cucumber",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS",
+        "sentence_id": 36,
+        "char_start": 7789,
+        "char_end": 7801,
+        "anchor": "PMC10142442_7789_7801",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 102,
+      "label": "P. pygmaea",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS",
+        "sentence_id": 36,
+        "char_start": 7802,
+        "char_end": 7812,
+        "anchor": "PMC10142442_7802_7812",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 471,
+      "label": "red alga Bot",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 136,
+        "char_start": 29706,
+        "char_end": 29718,
+        "anchor": "PMC10142442_29706_29718",
+        "page": 10,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-8-26",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 26
+    },
+    {
+      "id": "synth-8-35",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 35
+    },
+    {
+      "id": "synth-8-36",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 36
+    },
+    {
+      "id": "synth-8-54",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 54
+    },
+    {
+      "id": "synth-8-68",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 68
+    },
+    {
+      "id": "synth-8-69",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 69
+    },
+    {
+      "id": "synth-8-88",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 88
+    },
+    {
+      "id": "synth-8-101",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 101
+    },
+    {
+      "id": "synth-8-102",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 102
+    },
+    {
+      "id": "synth-8-471",
+      "type": "ASSOCIATED",
+      "source": 8,
+      "target": 471
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "ANATOMICAL_SITE",
+    "page": null
+  }
+}

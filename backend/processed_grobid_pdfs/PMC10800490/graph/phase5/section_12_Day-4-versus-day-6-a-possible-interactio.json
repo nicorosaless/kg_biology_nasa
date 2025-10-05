@@ -1,0 +1,158 @@
+{
+  "paper_id": "PMC10800490",
+  "section": "Day 4 versus day 6: a possible interaction between µ g responses and development",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 633,
+      "label": "PCA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Day 4 versus day 6: a possible interaction between µ g responses and development",
+        "sentence_id": 171,
+        "char_start": 36745,
+        "char_end": 36748,
+        "anchor": "PMC10800490_36745_36748",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 636,
+      "label": "Day",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Day 4 versus day 6: a possible interaction between µ g responses and development",
+        "sentence_id": 171,
+        "char_start": 37006,
+        "char_end": 37009,
+        "anchor": "PMC10800490_37006_37009",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 637,
+      "label": "Day",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Day 4 versus day 6: a possible interaction between µ g responses and development",
+        "sentence_id": 171,
+        "char_start": 37016,
+        "char_end": 37019,
+        "anchor": "PMC10800490_37016_37019",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 638,
+      "label": "samples",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Day 4 versus day 6: a possible interaction between µ g responses and development",
+        "sentence_id": 171,
+        "char_start": 37022,
+        "char_end": 37029,
+        "anchor": "PMC10800490_37022_37029",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 639,
+      "label": "PCA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Day 4 versus day 6: a possible interaction between µ g responses and development",
+        "sentence_id": 171,
+        "char_start": 36745,
+        "char_end": 36748,
+        "anchor": "PMC10800490_36745_36748",
+        "page": 10,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1345,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 633,
+      "target": 636
+    },
+    {
+      "id": 1346,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 633,
+      "target": 637
+    },
+    {
+      "id": 1347,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 633,
+      "target": 638
+    },
+    {
+      "id": 1348,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 633,
+      "target": 639
+    },
+    {
+      "id": 1349,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 636,
+      "target": 637
+    },
+    {
+      "id": 1350,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 636,
+      "target": 638
+    },
+    {
+      "id": 1351,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 636,
+      "target": 639
+    },
+    {
+      "id": 1352,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 637,
+      "target": 638
+    },
+    {
+      "id": 1353,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 637,
+      "target": 639
+    },
+    {
+      "id": 1354,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 638,
+      "target": 639
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 18,
+      "largest_component": 5,
+      "removed_components": [
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 10
+  }
+}

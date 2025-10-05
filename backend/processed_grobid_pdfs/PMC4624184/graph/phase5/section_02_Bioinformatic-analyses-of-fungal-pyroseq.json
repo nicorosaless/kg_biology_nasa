@@ -1,0 +1,87 @@
+{
+  "paper_id": "PMC4624184",
+  "section": "Bioinformatic analyses of fungal pyrosequences",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 960,
+      "label": "UNITE",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bioinformatic analyses of fungal pyrosequences",
+        "sentence_id": 266,
+        "char_start": 53630,
+        "char_end": 53635,
+        "anchor": "PMC4624184_53630_53635",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 962,
+      "label": "GenBank",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bioinformatic analyses of fungal pyrosequences",
+        "sentence_id": 266,
+        "char_start": 53613,
+        "char_end": 53620,
+        "anchor": "PMC4624184_53613_53620",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 964,
+      "label": "UNITE",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bioinformatic analyses of fungal pyrosequences",
+        "sentence_id": 266,
+        "char_start": 53630,
+        "char_end": 53635,
+        "anchor": "PMC4624184_53630_53635",
+        "page": 14,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1388,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 960,
+      "target": 962
+    },
+    {
+      "id": 1390,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 960,
+      "target": 964
+    },
+    {
+      "id": 1395,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 962,
+      "target": 964
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 11,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 14
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "paper_id": "PMC11263583",
+  "section": "(untitled) had passed rigorous physical fitness",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 25,
+      "label": "Moon",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) had passed rigorous physical fitness",
+        "sentence_id": 11,
+        "char_start": 2429,
+        "char_end": 2433,
+        "anchor": "PMC11263583_2429_2433",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 26,
+      "label": "Mars",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) had passed rigorous physical fitness",
+        "sentence_id": 11,
+        "char_start": 2438,
+        "char_end": 2442,
+        "anchor": "PMC11263583_2438_2442",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 38,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 25,
+      "target": 26
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 2,
+      "largest_component": 2,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 1
+  }
+}

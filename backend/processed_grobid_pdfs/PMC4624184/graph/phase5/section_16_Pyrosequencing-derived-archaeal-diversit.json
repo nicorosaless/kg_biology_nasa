@@ -1,0 +1,84 @@
+{
+  "paper_id": "PMC4624184",
+  "section": "Pyrosequencing-derived archaeal diversity",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 347,
+      "label": "archaea",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Pyrosequencing-derived archaeal diversity",
+        "sentence_id": 97,
+        "char_start": 19301,
+        "char_end": 19308,
+        "anchor": "PMC4624184_19301_19308",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 349,
+      "label": "qPCR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Pyrosequencing-derived archaeal diversity",
+        "sentence_id": 97,
+        "char_start": 19165,
+        "char_end": 19169,
+        "anchor": "PMC4624184_19165_19169",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 350,
+      "label": "PCR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Pyrosequencing-derived archaeal diversity",
+        "sentence_id": 97,
+        "char_start": 19174,
+        "char_end": 19177,
+        "anchor": "PMC4624184_19174_19177",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 476,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 347,
+      "target": 349
+    },
+    {
+      "id": 477,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 347,
+      "target": 350
+    },
+    {
+      "id": 479,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 349,
+      "target": 350
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 3,
+      "largest_component": 3,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 6
+  }
+}

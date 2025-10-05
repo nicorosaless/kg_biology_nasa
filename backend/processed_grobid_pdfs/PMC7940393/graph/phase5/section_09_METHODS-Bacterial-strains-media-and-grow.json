@@ -1,0 +1,157 @@
+{
+  "paper_id": "PMC7940393",
+  "section": "METHODS Bacterial strains, media, and growth conditions",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 471,
+      "label": "fischeri",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS Bacterial strains, media, and growth conditions",
+        "sentence_id": 104,
+        "char_start": 29172,
+        "char_end": 29180,
+        "anchor": "PMC7940393_29172_29180",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 472,
+      "label": "fischeri",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS Bacterial strains, media, and growth conditions",
+        "sentence_id": 104,
+        "char_start": 29222,
+        "char_end": 29230,
+        "anchor": "PMC7940393_29222_29230",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 473,
+      "label": "fischer",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS Bacterial strains, media, and growth conditions",
+        "sentence_id": 104,
+        "char_start": 29370,
+        "char_end": 29377,
+        "anchor": "PMC7940393_29370_29377",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 474,
+      "label": "seawater",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS Bacterial strains, media, and growth conditions",
+        "sentence_id": 104,
+        "char_start": 29392,
+        "char_end": 29400,
+        "anchor": "PMC7940393_29392_29400",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 476,
+      "label": "SWT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS Bacterial strains, media, and growth conditions",
+        "sentence_id": 104,
+        "char_start": 29417,
+        "char_end": 29420,
+        "anchor": "PMC7940393_29417_29420",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1007,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 471,
+      "target": 472
+    },
+    {
+      "id": 1008,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 471,
+      "target": 473
+    },
+    {
+      "id": 1009,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 471,
+      "target": 474
+    },
+    {
+      "id": 1010,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 471,
+      "target": 476
+    },
+    {
+      "id": 1012,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 472,
+      "target": 473
+    },
+    {
+      "id": 1013,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 472,
+      "target": 474
+    },
+    {
+      "id": 1014,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 472,
+      "target": 476
+    },
+    {
+      "id": 1016,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 473,
+      "target": 474
+    },
+    {
+      "id": 1017,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 473,
+      "target": 476
+    },
+    {
+      "id": 1019,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 474,
+      "target": 476
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 11,
+      "largest_component": 5,
+      "removed_components": [
+        4,
+        3
+      ]
+    },
+    "page": 4
+  }
+}

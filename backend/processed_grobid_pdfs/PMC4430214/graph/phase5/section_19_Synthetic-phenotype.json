@@ -1,0 +1,535 @@
+{
+  "paper_id": "PMC4430214",
+  "section": "Synthetic PHENOTYPE",
+  "n_nodes": 25,
+  "n_edges": 24,
+  "nodes": [
+    {
+      "id": 5,
+      "label": "te changes",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 3,
+        "char_start": 498,
+        "char_end": 508,
+        "anchor": "PMC4430214_498_508",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 31,
+      "label": "responsiveness",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 14,
+        "char_start": 1965,
+        "char_end": 1979,
+        "anchor": "PMC4430214_1965_1979",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 33,
+      "label": "infections",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 15,
+        "char_start": 2113,
+        "char_end": 2123,
+        "anchor": "PMC4430214_2113_2123",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 34,
+      "label": "immune suppression",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 15,
+        "char_start": 2175,
+        "char_end": 2193,
+        "anchor": "PMC4430214_2175_2193",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 35,
+      "label": "respiratory issues",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 16,
+        "char_start": 2256,
+        "char_end": 2274,
+        "anchor": "PMC4430214_2256_2274",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 37,
+      "label": "infections",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 17,
+        "char_start": 2375,
+        "char_end": 2385,
+        "anchor": "PMC4430214_2375_2385",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 76,
+      "label": "activation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 24,
+        "char_start": 4624,
+        "char_end": 4634,
+        "anchor": "PMC4430214_4624_4634",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 92,
+      "label": "loss of bone",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Flight Information: Subjects and Spaceflight",
+        "sentence_id": 28,
+        "char_start": 5988,
+        "char_end": 6000,
+        "anchor": "PMC4430214_5988_6000",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 104,
+      "label": "microgravity",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Flight Information: Subjects and Spaceflight",
+        "sentence_id": 34,
+        "char_start": 7120,
+        "char_end": 7132,
+        "anchor": "PMC4430214_7120_7132",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 105,
+      "label": "vascular atrophy",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Flight Information: Subjects and Spaceflight",
+        "sentence_id": 34,
+        "char_start": 7136,
+        "char_end": 7152,
+        "anchor": "PMC4430214_7136_7152",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 109,
+      "label": "statistical outliers",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Flight Information: Subjects and Spaceflight",
+        "sentence_id": 39,
+        "char_start": 7755,
+        "char_end": 7775,
+        "anchor": "PMC4430214_7755_7775",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 258,
+      "label": "surface marker changes",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Splenocyte Markers Altered Post-Spaceflight",
+        "sentence_id": 72,
+        "char_start": 13986,
+        "char_end": 14008,
+        "anchor": "PMC4430214_13986_14008",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 275,
+      "label": "differences",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Splenocyte Markers Altered Post-Spaceflight",
+        "sentence_id": 76,
+        "char_start": 14599,
+        "char_end": 14610,
+        "anchor": "PMC4430214_14599_14610",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 394,
+      "label": "functional dys",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Cytokine Production from Stimulated Splenocytes Post-Spaceflight",
+        "sentence_id": 111,
+        "char_start": 21193,
+        "char_end": 21207,
+        "anchor": "PMC4430214_21193_21207",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 412,
+      "label": "disruption",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 117,
+        "char_start": 22109,
+        "char_end": 22119,
+        "anchor": "PMC4430214_22109_22119",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 415,
+      "label": "adverse health events",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 117,
+        "char_start": 22253,
+        "char_end": 22274,
+        "anchor": "PMC4430214_22253_22274",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 435,
+      "label": "expression",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 134,
+        "char_start": 24823,
+        "char_end": 24833,
+        "anchor": "PMC4430214_24823_24833",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 447,
+      "label": "responsiveness to antigen",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 137,
+        "char_start": 25173,
+        "char_end": 25198,
+        "anchor": "PMC4430214_25173_25198",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 454,
+      "label": "apoptosis",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 143,
+        "char_start": 25860,
+        "char_end": 25869,
+        "anchor": "PMC4430214_25860_25869",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 457,
+      "label": "microgravity",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 145,
+        "char_start": 26125,
+        "char_end": 26137,
+        "anchor": "PMC4430214_26125_26137",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 494,
+      "label": "towards pathogens",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 164,
+        "char_start": 28829,
+        "char_end": 28846,
+        "anchor": "PMC4430214_28829_28846",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 519,
+      "label": "tokine changes",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 170,
+        "char_start": 30062,
+        "char_end": 30076,
+        "anchor": "PMC4430214_30062_30076",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 573,
+      "label": "alterations",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 194,
+        "char_start": 33652,
+        "char_end": 33663,
+        "anchor": "PMC4430214_33652_33663",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 574,
+      "label": "methylation status",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 194,
+        "char_start": 33678,
+        "char_end": 33696,
+        "anchor": "PMC4430214_33678_33696",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 583,
+      "label": "suppression",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 201,
+        "char_start": 34558,
+        "char_end": 34569,
+        "anchor": "PMC4430214_34558_34569",
+        "page": 10,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-5-31",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 31
+    },
+    {
+      "id": "synth-5-33",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 33
+    },
+    {
+      "id": "synth-5-34",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 34
+    },
+    {
+      "id": "synth-5-35",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 35
+    },
+    {
+      "id": "synth-5-37",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 37
+    },
+    {
+      "id": "synth-5-76",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 76
+    },
+    {
+      "id": "synth-5-92",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 92
+    },
+    {
+      "id": "synth-5-104",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 104
+    },
+    {
+      "id": "synth-5-105",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 105
+    },
+    {
+      "id": "synth-5-109",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 109
+    },
+    {
+      "id": "synth-5-258",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 258
+    },
+    {
+      "id": "synth-5-275",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 275
+    },
+    {
+      "id": "synth-5-394",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 394
+    },
+    {
+      "id": "synth-5-412",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 412
+    },
+    {
+      "id": "synth-5-415",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 415
+    },
+    {
+      "id": "synth-5-435",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 435
+    },
+    {
+      "id": "synth-5-447",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 447
+    },
+    {
+      "id": "synth-5-454",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 454
+    },
+    {
+      "id": "synth-5-457",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 457
+    },
+    {
+      "id": "synth-5-494",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 494
+    },
+    {
+      "id": "synth-5-519",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 519
+    },
+    {
+      "id": "synth-5-573",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 573
+    },
+    {
+      "id": "synth-5-574",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 574
+    },
+    {
+      "id": "synth-5-583",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 583
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "PHENOTYPE",
+    "page": null
+  }
+}

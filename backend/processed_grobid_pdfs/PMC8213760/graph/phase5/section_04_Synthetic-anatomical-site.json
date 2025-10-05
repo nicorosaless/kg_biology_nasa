@@ -1,0 +1,73 @@
+{
+  "paper_id": "PMC8213760",
+  "section": "Synthetic ANATOMICAL_SITE",
+  "n_nodes": 3,
+  "n_edges": 2,
+  "nodes": [
+    {
+      "id": 1,
+      "label": "interscapular",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 1,
+        "char_start": 193,
+        "char_end": 206,
+        "anchor": "PMC8213760_193_206",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2,
+      "label": "brown adipose tissue",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 1,
+        "char_start": 207,
+        "char_end": 227,
+        "anchor": "PMC8213760_207_227",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3,
+      "label": "gonadal white adipose tissue",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 1,
+        "char_start": 238,
+        "char_end": 266,
+        "anchor": "PMC8213760_238_266",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-1-2",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "id": "synth-1-3",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 3
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "ANATOMICAL_SITE",
+    "page": null
+  }
+}

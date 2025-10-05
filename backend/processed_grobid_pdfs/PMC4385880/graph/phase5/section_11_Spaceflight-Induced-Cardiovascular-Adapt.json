@@ -1,0 +1,162 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "Spaceflight-Induced Cardiovascular Adaptations",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 2070,
+      "label": "symptoms",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight-Induced Cardiovascular Adaptations",
+        "sentence_id": 637,
+        "char_start": 105929,
+        "char_end": 105937,
+        "anchor": "PMC4385880_105929_105937",
+        "page": 50,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2073,
+      "label": "headache",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight-Induced Cardiovascular Adaptations",
+        "sentence_id": 637,
+        "char_start": 105999,
+        "char_end": 106007,
+        "anchor": "PMC4385880_105999_106007",
+        "page": 50,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2074,
+      "label": "Vision",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight-Induced Cardiovascular Adaptations",
+        "sentence_id": 637,
+        "char_start": 106130,
+        "char_end": 106136,
+        "anchor": "PMC4385880_106130_106136",
+        "page": 50,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2076,
+      "label": "Intra",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight-Induced Cardiovascular Adaptations",
+        "sentence_id": 637,
+        "char_start": 106152,
+        "char_end": 106157,
+        "anchor": "PMC4385880_106152_106157",
+        "page": 50,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2077,
+      "label": "Micro",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight-Induced Cardiovascular Adaptations",
+        "sentence_id": 637,
+        "char_start": 106177,
+        "char_end": 106182,
+        "anchor": "PMC4385880_106177_106182",
+        "page": 50,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 2294,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2070,
+      "target": 2073
+    },
+    {
+      "id": 2295,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2070,
+      "target": 2074
+    },
+    {
+      "id": 2296,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2070,
+      "target": 2076
+    },
+    {
+      "id": 2297,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2070,
+      "target": 2077
+    },
+    {
+      "id": 2298,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2073,
+      "target": 2074
+    },
+    {
+      "id": 2299,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2073,
+      "target": 2076
+    },
+    {
+      "id": 2300,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2073,
+      "target": 2077
+    },
+    {
+      "id": 2301,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2074,
+      "target": 2076
+    },
+    {
+      "id": 2302,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2074,
+      "target": 2077
+    },
+    {
+      "id": 2303,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2076,
+      "target": 2077
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 8,
+      "removed_orphans": 14,
+      "largest_component": 5,
+      "removed_components": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 50
+  }
+}

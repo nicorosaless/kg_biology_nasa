@@ -1,0 +1,203 @@
+{
+  "paper_id": "PMC10503492",
+  "section": "Global omics analysis highlights spaceflight induced altered genes and proteins in the brain",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 202,
+      "label": "DEGs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Global omics analysis highlights spaceflight induced altered genes and proteins in the brain",
+        "sentence_id": 44,
+        "char_start": 12990,
+        "char_end": 12994,
+        "anchor": "PMC10503492_12990_12994",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 203,
+      "label": "UpSet",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Global omics analysis highlights spaceflight induced altered genes and proteins in the brain",
+        "sentence_id": 44,
+        "char_start": 13203,
+        "char_end": 13208,
+        "anchor": "PMC10503492_13203_13208",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 204,
+      "label": "DEPs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Global omics analysis highlights spaceflight induced altered genes and proteins in the brain",
+        "sentence_id": 44,
+        "char_start": 13317,
+        "char_end": 13321,
+        "anchor": "PMC10503492_13317_13321",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 206,
+      "label": "DEPs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Global omics analysis highlights spaceflight induced altered genes and proteins in the brain",
+        "sentence_id": 44,
+        "char_start": 13540,
+        "char_end": 13544,
+        "anchor": "PMC10503492_13540_13544",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 208,
+      "label": "UpSet",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Global omics analysis highlights spaceflight induced altered genes and proteins in the brain",
+        "sentence_id": 44,
+        "char_start": 13203,
+        "char_end": 13208,
+        "anchor": "PMC10503492_13203_13208",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 210,
+      "label": "DEPs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Global omics analysis highlights spaceflight induced altered genes and proteins in the brain",
+        "sentence_id": 44,
+        "char_start": 13540,
+        "char_end": 13544,
+        "anchor": "PMC10503492_13540_13544",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 269,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 202,
+      "target": 203
+    },
+    {
+      "id": 270,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 202,
+      "target": 204
+    },
+    {
+      "id": 271,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 202,
+      "target": 206
+    },
+    {
+      "id": 272,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 202,
+      "target": 208
+    },
+    {
+      "id": 274,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 202,
+      "target": 210
+    },
+    {
+      "id": 275,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 203,
+      "target": 204
+    },
+    {
+      "id": 276,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 203,
+      "target": 206
+    },
+    {
+      "id": 277,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 203,
+      "target": 208
+    },
+    {
+      "id": 279,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 203,
+      "target": 210
+    },
+    {
+      "id": 280,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 204,
+      "target": 206
+    },
+    {
+      "id": 281,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 204,
+      "target": 208
+    },
+    {
+      "id": 283,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 204,
+      "target": 210
+    },
+    {
+      "id": 284,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 206,
+      "target": 208
+    },
+    {
+      "id": 286,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 206,
+      "target": 210
+    },
+    {
+      "id": 288,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 208,
+      "target": 210
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 20,
+      "largest_component": 6,
+      "removed_components": [
+        5,
+        5,
+        4
+      ]
+    },
+    "page": 7
+  }
+}

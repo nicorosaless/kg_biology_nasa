@@ -1,0 +1,174 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "The extreme conditions of outer space, including intense radiation and high vacuum, pose significant challenges for life. Microorganisms, particularly extremophiles like Bacillus and Deinococcus species, exhibit remarkable adaptability to these environments. The transfer of microbial life to space vessels and planets is virtually inevitable, including human-associated microbiomes, cargo, and scientific instruments. Studies have explored the survival capabilities of microbes exposed to space or simulated conditions to understand their potential adaptation and the panspermia hypothesis. Bacillus pumilus SAFR-032, for instance, showed some survivability after exposure to space conditions, highlighting the resilience of certain microorganisms.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Fig.",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.png"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Fig.",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.png"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Fig.3Overview of the annotations unique to ISS bacteria species.A Venn diagrams showing differences in genes (CD-hit clustering with 40% sequence similarity threshold) found in space isolates compared to their closest terrestrial relatives (ANI provided below",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.png"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Fig.",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.png"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Annotations Common for Space and Earth Species",
+      "summary": "DeepFRI analysis provided the highest annotation coverage compared to PGAP and eggNOG when comparing genomes. The genomes of the novel species had 1290 and 1184 shared medium quality (MQ) and high-quality (HQ) annotations, respectively. The majority of shared annotations were related to metabolism, followed by cellular processing and signaling, and information storage and processing. These annotations represent characteristics common between the ISS isolates and their closest Earth relatives (fig_2).",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Annotations Unique to ISS Bacterial Species",
+      "summary": "ISS species have different numbers of unique annotations when compared to their closest terrestrial relatives, corresponding to their ANI. Two-dimensional Conserved Domain (CD)-hit clustering identified subgroups of unique genes in each isolate, revealing 74 and 49 MQ and HQ common annotations, respectively. Novel biosynthetic gene clusters (BGCs) encoding secondary metabolites like terpenes and lanthipeptides were found in all species, expanding the BGCs classification of the studied ISS species into the \"novel\" category. These unique annotations and BGCs suggest adaptations specific to the ISS environment (fig_3).",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Proteome-Level Mutations in ISS Species",
+      "summary": "Proteins important for adaptation to space were analyzed between ISS species and their closest Earth relatives. Metallopeptidases showed higher mutation rates of hydrophobic amino acids and glycine, suggesting enrichment that may enhance protein stability. Glycine enrichment in metallopeptidase activity was consistent across all strains, indicating a critical role in adaptive mechanisms. Other molecular functions exhibited glycine or hydrophobic amino acid enrichment in specific Microbacterium species, suggesting taxonomy-based or convergent adaptations. These mutations reflect adaptations at the proteome level to the space environment (fig_4).",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Mechanosensitive Ion Channels and Osmoprotectants",
+      "summary": "Most studied organisms have at least one copy of the mscS gene, crucial for adapting to osmotic pressure. Low gravity can be viewed as a decrease in osmotic pressure, making these channels crucial for survival. Terrestrial relatives have a copy of mscS gene with high sequence similarity, except for L. williamsii which has an additional copy. Genes related to betaine, choline, ectoine, and trehalose synthesis (osmoprotectants) are not commonly shared among all five species, suggesting diverse strategies for osmotic adaptation. The presence of MscS proteins facilitates adaptation to hypoosmotic stress in the ISS environment.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "DNA Protection, Repair and Recombination",
+      "summary": "The elevated rate of DNA-damaging radiation is another feature associated with the ISS. All ISS species encode 10-14 genes related to homologous recombination (HR), compared to 10 genes identified in D. radiodurans, as well as a shared set of rec, ruv, rad and uvr genes. All ISS strains share at least one gene related to non-homologous end-joining (NHEJ) and the LexA repressor (EC 3.4.21.88), which is part of the SOS response.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Potential Pathogenicity and Antibiotic Resistance",
+      "summary": "",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": "The study's examination of five novel ISS bacterial species revealed clear adaptations to the rigors of the ISS space environment, with significant shifts in cell physiology and metabolism. The extent of genes lacking homologs in terrestrial relatives was associated with phylogenetic distance. Specific genes present in all isolates but absent in terrestrial relatives align with ISS-specific evolutionary patterns. The pool of novel genes unique to ISS species showed an abundance of genes related to peptide and small molecule synthesis, transmembrane secretion/transport, and mechanosensitive ion channels, suggesting a defense mechanism against hypoosmotic shocks. Further investigation using comparative transcriptomics, proteomics, and metabolomics is recommended.",
+  "keywords": [
+    "iss",
+    "bacteria",
+    "adaptation",
+    "genome annotation",
+    "space environment",
+    "deepfri",
+    "osmotic stress",
+    "dna repair",
+    "biofilm formation",
+    "metallopeptidases"
+  ],
+  "topics": [
+    "astrobiology",
+    "microbial adaptation",
+    "genomics"
+  ],
+  "_meta": {
+    "paper_id": "sha256:862dbc78c2e026f6f742b5c400c2e86673e6a2b42a13e6b001a8be085cf65c76",
+    "paper_title": "Adaptation to space conditions of novel bacterial species isolated from the International Space Station revealed by",
+    "generated_at": "2025-10-05T10:38:42Z",
+    "word_count": 495,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "iss",
+      "bacteria",
+      "adaptation",
+      "genome annotation",
+      "space environment",
+      "deepfri",
+      "osmotic stress",
+      "dna repair",
+      "biofilm formation",
+      "metallopeptidases"
+    ],
+    "topics": [
+      "astrobiology",
+      "microbial adaptation",
+      "genomics"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 7236,
+      "completion_tokens": 1166,
+      "total_tokens": 8402,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000724,
+      "output_usd": 0.000466,
+      "total_usd": 0.00119
+    },
+    "cost": {
+      "input_usd": 0.000724,
+      "output_usd": 0.000466,
+      "total_usd": 0.00119
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [],
+      "corrupted_detected": [
+        "fig_2",
+        "fig_3",
+        "fig_4",
+        "fig_5"
+      ],
+      "original_total": 4,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

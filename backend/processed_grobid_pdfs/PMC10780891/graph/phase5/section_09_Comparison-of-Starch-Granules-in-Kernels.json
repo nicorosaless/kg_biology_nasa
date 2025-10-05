@@ -1,0 +1,315 @@
+{
+  "paper_id": "PMC10780891",
+  "section": "Comparison of Starch Granules in Kernels from the ISS and from Ground Experiment",
+  "n_nodes": 8,
+  "n_edges": 28,
+  "nodes": [
+    {
+      "id": 429,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of Starch Granules in Kernels from the ISS and from Ground Experiment",
+        "sentence_id": 94,
+        "char_start": 20692,
+        "char_end": 20695,
+        "anchor": "PMC10780891_20692_20695",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 431,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of Starch Granules in Kernels from the ISS and from Ground Experiment",
+        "sentence_id": 94,
+        "char_start": 20812,
+        "char_end": 20815,
+        "anchor": "PMC10780891_20812_20815",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 432,
+      "label": "smaller",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of Starch Granules in Kernels from the ISS and from Ground Experiment",
+        "sentence_id": 94,
+        "char_start": 20834,
+        "char_end": 20841,
+        "anchor": "PMC10780891_20834_20841",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 434,
+      "label": "between",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of Starch Granules in Kernels from the ISS and from Ground Experiment",
+        "sentence_id": 94,
+        "char_start": 20917,
+        "char_end": 20924,
+        "anchor": "PMC10780891_20917_20924",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 435,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of Starch Granules in Kernels from the ISS and from Ground Experiment",
+        "sentence_id": 94,
+        "char_start": 20692,
+        "char_end": 20695,
+        "anchor": "PMC10780891_20692_20695",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 436,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of Starch Granules in Kernels from the ISS and from Ground Experiment",
+        "sentence_id": 94,
+        "char_start": 20812,
+        "char_end": 20815,
+        "anchor": "PMC10780891_20812_20815",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 437,
+      "label": "ANOVA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of Starch Granules in Kernels from the ISS and from Ground Experiment",
+        "sentence_id": 94,
+        "char_start": 20947,
+        "char_end": 20952,
+        "anchor": "PMC10780891_20947_20952",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 438,
+      "label": "Scheffe",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of Starch Granules in Kernels from the ISS and from Ground Experiment",
+        "sentence_id": 94,
+        "char_start": 20967,
+        "char_end": 20974,
+        "anchor": "PMC10780891_20967_20974",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 805,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 429,
+      "target": 431
+    },
+    {
+      "id": 806,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 429,
+      "target": 432
+    },
+    {
+      "id": 807,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 429,
+      "target": 434
+    },
+    {
+      "id": 808,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 429,
+      "target": 435
+    },
+    {
+      "id": 809,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 429,
+      "target": 436
+    },
+    {
+      "id": 810,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 429,
+      "target": 437
+    },
+    {
+      "id": 811,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 429,
+      "target": 438
+    },
+    {
+      "id": 812,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 431,
+      "target": 432
+    },
+    {
+      "id": 813,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 431,
+      "target": 434
+    },
+    {
+      "id": 814,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 431,
+      "target": 435
+    },
+    {
+      "id": 815,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 431,
+      "target": 436
+    },
+    {
+      "id": 816,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 431,
+      "target": 437
+    },
+    {
+      "id": 817,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 431,
+      "target": 438
+    },
+    {
+      "id": 818,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 432,
+      "target": 434
+    },
+    {
+      "id": 819,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 432,
+      "target": 435
+    },
+    {
+      "id": 820,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 432,
+      "target": 436
+    },
+    {
+      "id": 821,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 432,
+      "target": 437
+    },
+    {
+      "id": 822,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 432,
+      "target": 438
+    },
+    {
+      "id": 823,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 434,
+      "target": 435
+    },
+    {
+      "id": 824,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 434,
+      "target": 436
+    },
+    {
+      "id": 825,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 434,
+      "target": 437
+    },
+    {
+      "id": 826,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 434,
+      "target": 438
+    },
+    {
+      "id": 827,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 435,
+      "target": 436
+    },
+    {
+      "id": 828,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 435,
+      "target": 437
+    },
+    {
+      "id": 829,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 435,
+      "target": 438
+    },
+    {
+      "id": 830,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 436,
+      "target": 437
+    },
+    {
+      "id": 831,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 436,
+      "target": 438
+    },
+    {
+      "id": 832,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 437,
+      "target": 438
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 8,
+      "removed_orphans": 0,
+      "largest_component": 8,
+      "removed_components": [
+        7,
+        6,
+        6,
+        4,
+        4,
+        3,
+        2
+      ]
+    },
+    "page": 6
+  }
+}

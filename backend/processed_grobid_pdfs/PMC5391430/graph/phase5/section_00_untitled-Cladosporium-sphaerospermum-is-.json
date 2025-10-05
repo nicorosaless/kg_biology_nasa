@@ -1,0 +1,253 @@
+{
+  "paper_id": "PMC5391430",
+  "section": "(untitled) Cladosporium sphaerospermum is a plant",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 40,
+      "label": "assembly",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Cladosporium sphaerospermum is a plant",
+        "sentence_id": 14,
+        "char_start": 3261,
+        "char_end": 3269,
+        "anchor": "PMC5391430_3261_3269",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 41,
+      "label": "High",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Cladosporium sphaerospermum is a plant",
+        "sentence_id": 14,
+        "char_start": 3339,
+        "char_end": 3343,
+        "anchor": "PMC5391430_3339_3343",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 42,
+      "label": "quality",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Cladosporium sphaerospermum is a plant",
+        "sentence_id": 14,
+        "char_start": 3344,
+        "char_end": 3351,
+        "anchor": "PMC5391430_3344_3351",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 43,
+      "label": "filtered",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Cladosporium sphaerospermum is a plant",
+        "sentence_id": 14,
+        "char_start": 3359,
+        "char_end": 3367,
+        "anchor": "PMC5391430_3359_3367",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 44,
+      "label": "MaS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Cladosporium sphaerospermum is a plant",
+        "sentence_id": 14,
+        "char_start": 3406,
+        "char_end": 3409,
+        "anchor": "PMC5391430_3406_3409",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 46,
+      "label": "NGS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Cladosporium sphaerospermum is a plant",
+        "sentence_id": 14,
+        "char_start": 3143,
+        "char_end": 3146,
+        "anchor": "PMC5391430_3143_3146",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 48,
+      "label": "GenBank",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Cladosporium sphaerospermum is a plant",
+        "sentence_id": 14,
+        "char_start": 3579,
+        "char_end": 3586,
+        "anchor": "PMC5391430_3579_3586",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 75,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 40,
+      "target": 41
+    },
+    {
+      "id": 76,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 40,
+      "target": 42
+    },
+    {
+      "id": 77,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 40,
+      "target": 43
+    },
+    {
+      "id": 78,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 40,
+      "target": 44
+    },
+    {
+      "id": 79,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 40,
+      "target": 46
+    },
+    {
+      "id": 81,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 40,
+      "target": 48
+    },
+    {
+      "id": 82,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 41,
+      "target": 42
+    },
+    {
+      "id": 83,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 41,
+      "target": 43
+    },
+    {
+      "id": 84,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 41,
+      "target": 44
+    },
+    {
+      "id": 85,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 41,
+      "target": 46
+    },
+    {
+      "id": 87,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 41,
+      "target": 48
+    },
+    {
+      "id": 88,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 42,
+      "target": 43
+    },
+    {
+      "id": 89,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 42,
+      "target": 44
+    },
+    {
+      "id": 90,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 42,
+      "target": 46
+    },
+    {
+      "id": 92,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 42,
+      "target": 48
+    },
+    {
+      "id": 93,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 43,
+      "target": 44
+    },
+    {
+      "id": 94,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 43,
+      "target": 46
+    },
+    {
+      "id": 96,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 43,
+      "target": 48
+    },
+    {
+      "id": 97,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 44,
+      "target": 46
+    },
+    {
+      "id": 99,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 44,
+      "target": 48
+    },
+    {
+      "id": 101,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 46,
+      "target": 48
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 7,
+      "largest_component": 7,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 1
+  }
+}

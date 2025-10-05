@@ -1,0 +1,73 @@
+{
+  "paper_id": "PMC5397022",
+  "section": "Synthetic ANATOMICAL_SITE",
+  "n_nodes": 3,
+  "n_edges": 2,
+  "nodes": [
+    {
+      "id": 7,
+      "label": "Arabidopsis",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 3,
+        "char_start": 416,
+        "char_end": 427,
+        "anchor": "PMC5397022_416_427",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 8,
+      "label": "thaliana tissues",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 3,
+        "char_start": 428,
+        "char_end": 444,
+        "anchor": "PMC5397022_428_444",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 188,
+      "label": "human colon mucosal",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 50,
+        "char_start": 8448,
+        "char_end": 8467,
+        "anchor": "PMC5397022_8448_8467",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-7-8",
+      "type": "ASSOCIATED",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "id": "synth-7-188",
+      "type": "ASSOCIATED",
+      "source": 7,
+      "target": 188
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "ANATOMICAL_SITE",
+    "page": null
+  }
+}

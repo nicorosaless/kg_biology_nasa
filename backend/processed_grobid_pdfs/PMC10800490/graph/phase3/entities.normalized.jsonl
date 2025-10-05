@@ -1,0 +1,532 @@
+{"nid": 0, "canonical": "transcriptional profiling", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["ABSTRACT"], "examples": ["transcriptional profiling"]}
+{"nid": 1, "canonical": "experimental condition", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["ABSTRACT"], "examples": ["experimental conditions"]}
+{"nid": 2, "canonical": "plant signaling", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["ABSTRACT"], "examples": ["Plant Signaling"]}
+{"nid": 3, "canonical": "PS", "node_type": "GENE_PRODUCT", "frequency": 34, "sections": ["ABSTRACT", "Chloroplast and photosynthesis related genes", "Conserved and unique transcriptional changes in microgravity", "Data availability", "Data processing and analysis", "Differentially expressed genes", "Experimental setup and growth parameters", "Flight experiment preparation", "Genes downregulated in µ g, compared to 1 g in space", "Ground reference controls", "HY5 target genes", "Illumina sequencing", "Lessons learned for future spaceflight experiments 4.3.1 Long term plant experiments", "Microgravity versus the space environment", "Multiple bioreplicates", "Preflight ground testing", "RNA isolation", "Spaceflight", "Transcription factors"], "examples": ["PS", "PS", "PS"]}
+{"nid": 4, "canonical": "PRR", "node_type": "GENE_PRODUCT", "frequency": 38, "sections": ["ABSTRACT", "Chloroplast and photosynthesis related genes", "Conserved and unique transcriptional changes in microgravity", "Data availability", "Data processing and analysis", "Day 4 versus day 6: a possible interaction between µ g responses and development", "Differentially expressed genes", "Experimental setup and growth parameters", "Flight experiment preparation", "Genes downregulated in µ g, compared to 1 g in space", "Ground reference controls", "HY5 target genes", "Illumina sequencing", "Lessons learned for future spaceflight experiments 4.3.1 Long term plant experiments", "Micro RNAs detected and their target genes", "Microgravity versus the space environment", "Multiple bioreplicates", "Preflight ground testing", "RNA isolation", "Spaceflight", "The Influence of developmental stage on observed transcriptional responses", "Transcription factors"], "examples": ["PRR", "PRR", "PRR"]}
+{"nid": 5, "canonical": "rna-seq analysi", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["ABSTRACT"], "examples": ["RNA-Seq analysis"]}
+{"nid": 6, "canonical": "OVERLAP", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["ABSTRACT"], "examples": ["overlap"]}
+{"nid": 7, "canonical": "onboard 1", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["ABSTRACT"], "examples": ["onboard 1"]}
+{"nid": 8, "canonical": "cell wall modification", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["ABSTRACT", "Conserved and unique transcriptional changes in microgravity"], "examples": ["cell wall modification", "cell wall modification"]}
+{"nid": 9, "canonical": "stress response", "node_type": "PHENOTYPE", "frequency": 5, "sections": ["ABSTRACT", "Conserved and unique transcriptional changes in microgravity", "Genes downregulated in µ g, compared to 1 g in space", "KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["stress responses", "stress responses", "stress response"]}
+{"nid": 10, "canonical": "microgravity", "node_type": "PHENOTYPE", "frequency": 3, "sections": ["ABSTRACT", "Day 4 versus day 6: a possible interaction between µ g responses and development", "KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["microgravity", "microgravity", "microgravity"]}
+{"nid": 11, "canonical": "GULATED", "node_type": "GENE_PRODUCT", "frequency": 4, "sections": ["ABSTRACT", "Chloroplast and photosynthesis related genes", "Conserved and unique transcriptional changes in microgravity"], "examples": ["gulated", "gulated", "gulated"]}
+{"nid": 12, "canonical": "stress response gene", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["ABSTRACT"], "examples": ["stress response genes"]}
+{"nid": 13, "canonical": "CONTROL", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["ABSTRACT"], "examples": ["control"]}
+{"nid": 14, "canonical": "SRNA", "node_type": "GENE_PRODUCT", "frequency": 3, "sections": ["ABSTRACT", "Combined OMIC approaches", "Illumina sequencing"], "examples": ["sRNA", "sRNA", "sRNA"]}
+{"nid": 15, "canonical": "MIR", "node_type": "GENE_PRODUCT", "frequency": 14, "sections": ["ABSTRACT", "Chloroplast and photosynthesis related genes", "Micro RNAs detected and their target genes"], "examples": ["miR", "miR", "miR"]}
+{"nid": 16, "canonical": "MIR319C", "node_type": "GENE_PRODUCT", "frequency": 5, "sections": ["ABSTRACT", "Micro RNAs detected and their target genes"], "examples": ["miR319c", "miR319c", "miR319c"]}
+{"nid": 17, "canonical": "MIR398B", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["ABSTRACT", "Micro RNAs detected and their target genes"], "examples": ["miR398b", "miR398b"]}
+{"nid": 18, "canonical": "frontier", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["ABSTRACT"], "examples": ["Frontiers"]}
+{"nid": 19, "canonical": "plant science", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["ABSTRACT", "Micro RNAs detected and their target genes"], "examples": ["Plant Science", "Plant Science"]}
+{"nid": 20, "canonical": "transcriptional change", "node_type": "PHENOTYPE", "frequency": 3, "sections": ["(untitled) which were upregulated in microgravity,", "KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction", "Multiple bioreplicates"], "examples": ["transcriptional changes", "transcriptional changes", "transcriptional changes"]}
+{"nid": 21, "canonical": "fy the", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["fy the"]}
+{"nid": 22, "canonical": "FU", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["Fu"]}
+{"nid": 23, "canonical": "CAN", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["Can"]}
+{"nid": 24, "canonical": "transcriptional dataset", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["transcriptional dataset"]}
+{"nid": 25, "canonical": "ANALYSIS", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Data processing and analysis", "KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["analysis", "analysis"]}
+{"nid": 26, "canonical": "RNA", "node_type": "GENE_PRODUCT", "frequency": 16, "sections": ["Combined OMIC approaches", "Conserved and unique transcriptional changes in microgravity", "Illumina sequencing", "KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction", "Preflight ground testing", "RNA isolation", "Spaceflight"], "examples": ["RNA", "RNA", "RNA"]}
+{"nid": 27, "canonical": "variability", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["variability"]}
+{"nid": 28, "canonical": "GENELAB", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Data availability", "KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["GeneLab", "GeneLab"]}
+{"nid": 29, "canonical": "BARKER", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["Barker", "Barker"]}
+{"nid": 30, "canonical": "BRIC", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["BRIC"]}
+{"nid": 31, "canonical": "ROS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["ROS"]}
+{"nid": 32, "canonical": "transcriptional profiling study", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["transcriptional profiling study"]}
+{"nid": 33, "canonical": "ADVANCED", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["Advanced"]}
+{"nid": 34, "canonical": "organ-specific gene expression", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["organ-specific gene expression"]}
+{"nid": 35, "canonical": "pathogen response", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["pathogen responses"]}
+{"nid": 36, "canonical": "ABRS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["ABRS"]}
+{"nid": 37, "canonical": "GRAVITY", "node_type": "GENE_PRODUCT", "frequency": 5, "sections": ["KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["gravity", "gravity", "gravity"]}
+{"nid": 38, "canonical": "ISS", "node_type": "GENE_PRODUCT", "frequency": 6, "sections": ["Combined OMIC approaches", "Ground reference controls", "KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction", "Spaceflight"], "examples": ["ISS", "ISS", "ISS"]}
+{"nid": 39, "canonical": "cultivation system", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["Cultivation System"]}
+{"nid": 40, "canonical": "EMCS", "node_type": "GENE_PRODUCT", "frequency": 18, "sections": ["Chloroplast and photosynthesis related genes", "Conserved and unique transcriptional changes in microgravity", "Flight experiment preparation", "KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction", "Microgravity versus the space environment", "Spaceflight"], "examples": ["EMCS", "EMCS", "EMCS"]}
+{"nid": 41, "canonical": "rotor speed", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["Rotor speeds"]}
+{"nid": 42, "canonical": "experiment", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction", "The Influence of developmental stage on observed transcriptional responses"], "examples": ["experiments", "experiments"]}
+{"nid": 43, "canonical": "STIMULI", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["stimuli"]}
+{"nid": 44, "canonical": "transcriptional response", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["transcriptional response", "transcriptional response"]}
+{"nid": 45, "canonical": "partial g", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["partial g"]}
+{"nid": 46, "canonical": "incremental increase", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["incremental increases"]}
+{"nid": 47, "canonical": "gene expression", "node_type": "EXPERIMENT", "frequency": 3, "sections": ["Data processing and analysis", "KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction", "The Influence of developmental stage on observed transcriptional responses"], "examples": ["gene expression", "gene expression", "gene expression"]}
+{"nid": 48, "canonical": "LUNAR", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["Lunar"]}
+{"nid": 49, "canonical": "onboard 1 g control", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["onboard 1 g controls", "onboard 1 g controls"]}
+{"nid": 50, "canonical": "MARTIAN", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["Martian"]}
+{"nid": 51, "canonical": "ARAB", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["Arab"]}
+{"nid": 52, "canonical": "METHODS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction"], "examples": ["methods"]}
+{"nid": 53, "canonical": "arabidopsis thaliana", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Preflight ground testing"], "examples": ["Arabidopsis thaliana"]}
+{"nid": 54, "canonical": "col-0", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Preflight ground testing"], "examples": ["Col-0"]}
+{"nid": 55, "canonical": "seed stock", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Preflight ground testing"], "examples": ["seed stocks"]}
+{"nid": 56, "canonical": "≥1mg rna", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Preflight ground testing"], "examples": ["≥1mg RNA"]}
+{"nid": 57, "canonical": "THALIANA", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Preflight ground testing"], "examples": ["thaliana"]}
+{"nid": 58, "canonical": "signaling", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Preflight ground testing"], "examples": ["Signaling"]}
+{"nid": 59, "canonical": "operations verification", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Preflight ground testing"], "examples": ["Operations Verification"]}
+{"nid": 60, "canonical": "OVT", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Preflight ground testing"], "examples": ["OVT", "OVT"]}
+{"nid": 61, "canonical": "NORWAY", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Preflight ground testing"], "examples": ["Norway"]}
+{"nid": 62, "canonical": "EVT", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Preflight ground testing"], "examples": ["EVT"]}
+{"nid": 63, "canonical": "ARC", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Preflight ground testing"], "examples": ["ARC"]}
+{"nid": 64, "canonical": "WHAT", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Flight experiment preparation"], "examples": ["What"]}
+{"nid": 65, "canonical": "pes membrane", "node_type": "ANATOMICAL_SITE", "frequency": 1, "sections": ["Flight experiment preparation"], "examples": ["PES membrane"]}
+{"nid": 66, "canonical": "PAL", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Flight experiment preparation"], "examples": ["PAL"]}
+{"nid": 67, "canonical": "KISS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Flight experiment preparation"], "examples": ["Kiss"]}
+{"nid": 68, "canonical": "PES", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Flight experiment preparation"], "examples": ["PES"]}
+{"nid": 69, "canonical": "MS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Flight experiment preparation"], "examples": ["MS"]}
+{"nid": 70, "canonical": "SEEDS", "node_type": "GENE_PRODUCT", "frequency": 4, "sections": ["Flight experiment preparation"], "examples": ["Seeds", "Seeds", "Seeds"]}
+{"nid": 71, "canonical": "SURFACE", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Flight experiment preparation"], "examples": ["surface"]}
+{"nid": 72, "canonical": "microscope", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Flight experiment preparation"], "examples": ["microscope"]}
+{"nid": 73, "canonical": "MEMBRANE", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Flight experiment preparation"], "examples": ["membrane"]}
+{"nid": 74, "canonical": "27", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Flight experiment preparation", "Illumina sequencing"], "examples": ["27", "27"]}
+{"nid": 75, "canonical": "GRID", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Flight experiment preparation"], "examples": ["Grid"]}
+{"nid": 76, "canonical": "CASSETTE", "node_type": "GENE_PRODUCT", "frequency": 7, "sections": ["Experimental setup and growth parameters", "Flight experiment preparation", "Illumina sequencing", "Lessons learned for future spaceflight experiments 4.3.1 Long term plant experiments", "RNA isolation"], "examples": ["cassette", "cassette", "cassette"]}
+{"nid": 77, "canonical": "cassette cover", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Flight experiment preparation"], "examples": ["Cassette covers"]}
+{"nid": 78, "canonical": "80", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Flight experiment preparation"], "examples": ["80"]}
+{"nid": 79, "canonical": "ONBOARD", "node_type": "GENE_PRODUCT", "frequency": 3, "sections": ["Conserved and unique transcriptional changes in microgravity", "Microgravity versus the space environment", "Spaceflight"], "examples": ["Onboard", "onboard", "onboard"]}
+{"nid": 80, "canonical": "EC", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Lessons learned for future spaceflight experiments 4.3.1 Long term plant experiments", "Spaceflight"], "examples": ["EC", "EC"]}
+{"nid": 81, "canonical": "20", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Non-coding RNAs", "Spaceflight"], "examples": ["20", "20"]}
+{"nid": 82, "canonical": "16H", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Spaceflight"], "examples": ["16h"]}
+{"nid": 83, "canonical": "environmental parameter", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Spaceflight"], "examples": ["environmental parameters"]}
+{"nid": 84, "canonical": "o 2", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Spaceflight"], "examples": ["O 2"]}
+{"nid": 85, "canonical": "CONSTANT", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Spaceflight"], "examples": ["constant"]}
+{"nid": 86, "canonical": "temperature", "node_type": "EXPERIMENT", "frequency": 3, "sections": ["HY5 target genes", "Micro RNAs detected and their target genes", "Spaceflight"], "examples": ["temperature", "temperature", "temperature"]}
+{"nid": 87, "canonical": "AMBIENT", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Spaceflight"], "examples": ["ambient"]}
+{"nid": 88, "canonical": "co 2", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Spaceflight"], "examples": ["CO 2"]}
+{"nid": 89, "canonical": "equilibrate", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Spaceflight"], "examples": ["equilibrate"]}
+{"nid": 90, "canonical": "24", "node_type": "GENE_PRODUCT", "frequency": 3, "sections": ["Biotic stress and defense related genes", "Spaceflight"], "examples": ["24", "24", "24"]}
+{"nid": 91, "canonical": "DAYTIME", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Spaceflight"], "examples": ["daytime", "daytime"]}
+{"nid": 92, "canonical": "21", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Abiotic stress related genes", "Spaceflight"], "examples": ["21", "21"]}
+{"nid": 93, "canonical": "REALTIME", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Spaceflight"], "examples": ["realtime"]}
+{"nid": 94, "canonical": "telemetry", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Spaceflight"], "examples": ["telemetry"]}
+{"nid": 95, "canonical": "seed cassette", "node_type": "EXPERIMENT", "frequency": 5, "sections": ["Lessons learned for future spaceflight experiments 4.3.1 Long term plant experiments", "RNA isolation", "Spaceflight"], "examples": ["seed cassette", "Seed cassette", "seed cassette"]}
+{"nid": 96, "canonical": "DELIVERY", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Lessons learned for future spaceflight experiments 4.3.1 Long term plant experiments", "Spaceflight"], "examples": ["delivery", "delivery"]}
+{"nid": 97, "canonical": "reference experiment", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Ground reference controls"], "examples": ["reference experiments"]}
+{"nid": 98, "canonical": "MATCHING", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Ground reference controls"], "examples": ["matching"]}
+{"nid": 99, "canonical": "ECS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Ground reference controls"], "examples": ["ECs"]}
+{"nid": 100, "canonical": "ERM", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Ground reference controls"], "examples": ["ERM", "ERM"]}
+{"nid": 101, "canonical": "shoot sample", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA isolation"], "examples": ["shoot samples"]}
+{"nid": 102, "canonical": "CHILLED", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["RNA isolation"], "examples": ["chilled"]}
+{"nid": 103, "canonical": "rna recovery", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA isolation"], "examples": ["RNA recovery"]}
+{"nid": 104, "canonical": "bioanalyzer", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA isolation"], "examples": ["Bioanalyzer"]}
+{"nid": 105, "canonical": "rna isolation protocol", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["RNA isolation"], "examples": ["RNA isolation protocol"]}
+{"nid": 106, "canonical": "ILL", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Illumina sequencing"], "examples": ["Ill", "Ill"]}
+{"nid": 107, "canonical": "umina sequencing", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Illumina sequencing"], "examples": ["umina Sequencing"]}
+{"nid": 108, "canonical": "treatment/condition", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Illumina sequencing"], "examples": ["treatment/condition"]}
+{"nid": 109, "canonical": "sequencing", "node_type": "EXPERIMENT", "frequency": 4, "sections": ["Illumina sequencing", "Micro RNAs detected and their target genes"], "examples": ["sequencing", "Sequencing", "sequencing"]}
+{"nid": 110, "canonical": "library", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Illumina sequencing"], "examples": ["Libraries"]}
+{"nid": 111, "canonical": "ILLUMINA", "node_type": "GENE_PRODUCT", "frequency": 3, "sections": ["Illumina sequencing"], "examples": ["Illumina", "Illumina", "Illumina"]}
+{"nid": 112, "canonical": "HIS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Illumina sequencing"], "examples": ["HiS"]}
+{"nid": 113, "canonical": "EQ2500", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Illumina sequencing"], "examples": ["eq2500"]}
+{"nid": 114, "canonical": "preparation", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Illumina sequencing"], "examples": ["preparation"]}
+{"nid": 115, "canonical": "rna and small rna", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Illumina sequencing"], "examples": ["RNA and small RNA"]}
+{"nid": 116, "canonical": "RALEIGH", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Illumina sequencing"], "examples": ["Raleigh"]}
+{"nid": 117, "canonical": "NC", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Illumina sequencing"], "examples": ["NC"]}
+{"nid": 118, "canonical": "IPSWICH", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Illumina sequencing"], "examples": ["Ipswich"]}
+{"nid": 119, "canonical": "MA", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Illumina sequencing"], "examples": ["MA"]}
+{"nid": 120, "canonical": "125", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Illumina sequencing"], "examples": ["125"]}
+{"nid": 121, "canonical": "LIBRARY", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Illumina sequencing"], "examples": ["Library"]}
+{"nid": 122, "canonical": "CA", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Illumina sequencing"], "examples": ["CA"]}
+{"nid": 123, "canonical": "raw read", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["Raw reads"]}
+{"nid": 124, "canonical": "CLEANED", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["cleaned"]}
+{"nid": 125, "canonical": "shorter than 50 read", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["shorter than 50 reads"]}
+{"nid": 126, "canonical": "CUTADAPT", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["cutadapt"]}
+{"nid": 127, "canonical": "quality control", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["Quality control"]}
+{"nid": 128, "canonical": "FASTQC", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["FastQC"]}
+{"nid": 129, "canonical": "50", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["50"]}
+{"nid": 130, "canonical": "MARTIN", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["Martin"]}
+{"nid": 131, "canonical": "ANDREWS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["Andrews"]}
+{"nid": 132, "canonical": "2010", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["2010"]}
+{"nid": 133, "canonical": "READS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["Reads"]}
+{"nid": 134, "canonical": "HISAT2", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Data processing and analysis"], "examples": ["HiSat2", "HiSat2"]}
+{"nid": 135, "canonical": "arabidopsis genome", "node_type": "ANATOMICAL_SITE", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["Arabidopsis genome"]}
+{"nid": 136, "canonical": "TAIR10", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Data processing and analysis"], "examples": ["TAIR10", "TAIR10"]}
+{"nid": 137, "canonical": "LAME", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["Lame"]}
+{"nid": 138, "canonical": "ARA", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["Ara"]}
+{"nid": 139, "canonical": "PORT11", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["port11"]}
+{"nid": 140, "canonical": "read count", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["Read counts"]}
+{"nid": 141, "canonical": "FEATURE", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["feature"]}
+{"nid": 142, "canonical": "htseq-count", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["HTseq-Count"]}
+{"nid": 143, "canonical": "differential", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["Data processing and analysis"], "examples": ["Differential", "Differential"]}
+{"nid": 144, "canonical": "DESEQ2", "node_type": "GENE_PRODUCT", "frequency": 4, "sections": ["Data processing and analysis", "Day 4 versus day 6: a possible interaction between µ g responses and development"], "examples": ["DESeq2", "DESeq2", "DESeq2"]}
+{"nid": 145, "canonical": "FEATURES", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["Features"]}
+{"nid": 146, "canonical": "one count", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["one count"]}
+{"nid": 147, "canonical": "2019", "node_type": "GENE_PRODUCT", "frequency": 4, "sections": ["Conserved and unique transcriptional changes in microgravity", "Data processing and analysis"], "examples": ["2019", "2019", "2019"]}
+{"nid": 148, "canonical": "2012", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["2012"]}
+{"nid": 149, "canonical": "2017", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Data processing and analysis"], "examples": ["2017", "2017"]}
+{"nid": 150, "canonical": "HTSEQ", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["HTseq"]}
+{"nid": 151, "canonical": "expressed", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["Data processing and analysis", "Microgravity versus the space environment"], "examples": ["expressed", "expressed"]}
+{"nid": 152, "canonical": "deseq2 count", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["DESeq2 counts"]}
+{"nid": 153, "canonical": "HEATMAPS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["heatmaps"]}
+{"nid": 154, "canonical": "PHEATMAP", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["pheatmap"]}
+{"nid": 155, "canonical": "SCALING", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["scaling"]}
+{"nid": 156, "canonical": "prr de gene list", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["PRR DE gene lists"]}
+{"nid": 157, "canonical": "HYPERGE", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["hyperge"]}
+{"nid": 158, "canonical": "TESTING", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["testing"]}
+{"nid": 159, "canonical": "phyper function", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["phyper function"]}
+{"nid": 160, "canonical": "ANALYSES", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["analyses"]}
+{"nid": 161, "canonical": "enrichment for", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["enrichment for"]}
+{"nid": 162, "canonical": "hy5 target", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["Data processing and analysis", "HY5 target genes"], "examples": ["HY5 targets", "HY5 targets"]}
+{"nid": 163, "canonical": "g de", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["g DE"]}
+{"nid": 164, "canonical": "g list", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["G lists"]}
+{"nid": 165, "canonical": "hy5 binding target", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["HY5 binding targets"]}
+{"nid": 166, "canonical": "DEG", "node_type": "GENE_PRODUCT", "frequency": 5, "sections": ["Data processing and analysis", "Day 4 versus day 6: a possible interaction between µ g responses and development", "Differentially expressed genes"], "examples": ["DEG", "DEG", "DEG"]}
+{"nid": 167, "canonical": "2007", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Data processing and analysis", "Micro RNAs detected and their target genes"], "examples": ["2007", "2007"]}
+{"nid": 168, "canonical": "background model", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["background model"]}
+{"nid": 169, "canonical": "ly regulated", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["ly regulated"]}
+{"nid": 170, "canonical": "mod anr -minw 6 -maxw", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["mod anr -minw 6 -maxw"]}
+{"nid": 171, "canonical": "8 -p 4 -nmotif", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["8 -p 4 -nmotif"]}
+{"nid": 172, "canonical": "DNA", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["dna"]}
+{"nid": 173, "canonical": "4TH", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["4th"]}
+{"nid": 174, "canonical": "MARKOV", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["Markov"]}
+{"nid": 175, "canonical": "MEME", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["MEME"]}
+{"nid": 176, "canonical": "BAILEY", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["Bailey"]}
+{"nid": 177, "canonical": "2015", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["2015"]}
+{"nid": 178, "canonical": "500", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["500"]}
+{"nid": 179, "canonical": "gene ontology", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["Gene Ontology"]}
+{"nid": 180, "canonical": "enrichment", "node_type": "EXPERIMENT", "frequency": 7, "sections": ["Chloroplast and photosynthesis related genes", "Conserved and unique transcriptional changes in microgravity", "Data processing and analysis", "Differentially expressed genes", "Genes downregulated in µ g, compared to 1 g in space", "HY5 target genes", "Vesicle transport genes"], "examples": ["enrichment", "enrichment", "enrichment"]}
+{"nid": 181, "canonical": "AGRIGO2", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["agriGO2"]}
+{"nid": 182, "canonical": "PANTHER", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["PANTHER"]}
+{"nid": 183, "canonical": "plantgsad", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["PlantGSAD"]}
+{"nid": 184, "canonical": "TIAN", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["Tian"]}
+{"nid": 185, "canonical": "2020", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Combined OMIC approaches", "Data processing and analysis"], "examples": ["2020", "2020"]}
+{"nid": 186, "canonical": "2022", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Data processing and analysis"], "examples": ["2022", "2022"]}
+{"nid": 187, "canonical": "PCA", "node_type": "GENE_PRODUCT", "frequency": 5, "sections": ["Data processing and analysis", "Day 4 versus day 6: a possible interaction between µ g responses and development", "The Influence of developmental stage on observed transcriptional responses"], "examples": ["PCA", "PCA", "PCA"]}
+{"nid": 188, "canonical": "variance analysi", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["variance analysis"]}
+{"nid": 189, "canonical": "VARIANCE", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["variance"]}
+{"nid": 190, "canonical": "DESEQ", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Data processing and analysis"], "examples": ["DESeq", "DESeq"]}
+{"nid": 191, "canonical": "GGPLOT2", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["ggplot2"]}
+{"nid": 192, "canonical": "PCATOOLS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["PCAtools"]}
+{"nid": 193, "canonical": "BLIGHE", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["Blighe"]}
+{"nid": 194, "canonical": "LUN", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["Lun"]}
+{"nid": 195, "canonical": "PEARSON", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["Pearson"]}
+{"nid": 196, "canonical": "MULTIPLE", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["multiple"]}
+{"nid": 197, "canonical": "HOCHBERG", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data processing and analysis"], "examples": ["Hochberg"]}
+{"nid": 198, "canonical": "GENE", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Data availability"], "examples": ["Gene"]}
+{"nid": 199, "canonical": "membrane", "node_type": "ANATOMICAL_SITE", "frequency": 1, "sections": ["Experimental setup and growth parameters"], "examples": ["membranes"]}
+{"nid": 200, "canonical": "DORMANT", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Experimental setup and growth parameters"], "examples": ["dormant"]}
+{"nid": 201, "canonical": "LOADING", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Experimental setup and growth parameters"], "examples": ["loading"]}
+{"nid": 202, "canonical": "nominal growth", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Experimental setup and growth parameters"], "examples": ["nominal growth"]}
+{"nid": 203, "canonical": "experimental design", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Experimental setup and growth parameters"], "examples": ["experimental design"]}
+{"nid": 204, "canonical": "difference", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["Experimental setup and growth parameters", "The Influence of developmental stage on observed transcriptional responses"], "examples": ["difference", "differences"]}
+{"nid": 205, "canonical": "UNIFORM", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Experimental setup and growth parameters"], "examples": ["uniform"]}
+{"nid": 206, "canonical": "disordered growth", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Experimental setup and growth parameters"], "examples": ["disordered growth"]}
+{"nid": 207, "canonical": "PATTERNS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Experimental setup and growth parameters"], "examples": ["patterns"]}
+{"nid": 208, "canonical": "gravitational", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Experimental setup and growth parameters"], "examples": ["gravitational"]}
+{"nid": 209, "canonical": "presence of a", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Experimental setup and growth parameters"], "examples": ["presence of a"]}
+{"nid": 210, "canonical": "de-seq2 analyse", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Differentially expressed genes"], "examples": ["DE-Seq2 analyses"]}
+{"nid": 211, "canonical": "DEGS", "node_type": "GENE_PRODUCT", "frequency": 10, "sections": ["Conserved and unique transcriptional changes in microgravity", "Day 4 versus day 6: a possible interaction between µ g responses and development", "Differentially expressed genes", "Microgravity versus the space environment", "Other transcriptional regulators", "Transcription factors"], "examples": ["DEGs", "DEGs", "DEGs"]}
+{"nid": 212, "canonical": "178 gene", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Differentially expressed genes"], "examples": ["178 genes"]}
+{"nid": 213, "canonical": "399 gene", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Differentially expressed genes"], "examples": ["399 genes"]}
+{"nid": 214, "canonical": "AUX", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Differentially expressed genes"], "examples": ["Aux"]}
+{"nid": 215, "canonical": "178", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Differentially expressed genes"], "examples": ["178"]}
+{"nid": 216, "canonical": "399", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Differentially expressed genes"], "examples": ["399"]}
+{"nid": 217, "canonical": "cell wall", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Differentially expressed genes"], "examples": ["Cell Wall"]}
+{"nid": 218, "canonical": "rna-seq read", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Differentially expressed genes"], "examples": ["RNA-Seq reads"]}
+{"nid": 219, "canonical": "COMBINED", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Differentially expressed genes"], "examples": ["combined"]}
+{"nid": 220, "canonical": "de-seq2 analysi", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Differentially expressed genes"], "examples": ["DE-Seq2 analysis"]}
+{"nid": 221, "canonical": "1,112 gene", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Differentially expressed genes"], "examples": ["1,112 genes"]}
+{"nid": 222, "canonical": "upregulated", "node_type": "EXPERIMENT", "frequency": 7, "sections": ["Chloroplast and photosynthesis related genes", "Conserved and unique transcriptional changes in microgravity", "Differentially expressed genes", "Microgravity versus the space environment", "Non-coding RNAs"], "examples": ["upregulated", "upregulated", "upregulated"]}
+{"nid": 223, "canonical": "1,429 gene", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Differentially expressed genes"], "examples": ["1,429 genes"]}
+{"nid": 224, "canonical": "enrichment category", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Differentially expressed genes"], "examples": ["enrichment categories"]}
+{"nid": 225, "canonical": "transcription factors (", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["Transcription Factors ("]}
+{"nid": 226, "canonical": "2014", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Auxin related genes", "Transcription factors"], "examples": ["2014", "2014"]}
+{"nid": 227, "canonical": "auxin response", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["auxin responses"]}
+{"nid": 228, "canonical": "brassinosteroid (br", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["brassinosteroid (BR"]}
+{"nid": 229, "canonical": "SPCH", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["SPCH"]}
+{"nid": 230, "canonical": "GATA2", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["GATA2"]}
+{"nid": 231, "canonical": "BR", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["BR"]}
+{"nid": 232, "canonical": "APETALA2", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["Apetala2"]}
+{"nid": 233, "canonical": "ene response factor", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["ene response factor"]}
+{"nid": 234, "canonical": "cytokinin response factor", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["cytokinin response factors"]}
+{"nid": 235, "canonical": "aintegumenta", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["Aintegumenta"]}
+{"nid": 236, "canonical": "CRF4", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["CRF4"]}
+{"nid": 237, "canonical": "ANT", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["ANT"]}
+{"nid": 238, "canonical": "MIZUKAMI", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["Mizukami"]}
+{"nid": 239, "canonical": "FISCHER", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["Fischer"]}
+{"nid": 240, "canonical": "2006", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["2006"]}
+{"nid": 241, "canonical": "methyltransferase", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Other transcriptional regulators"], "examples": ["methyltransferases"]}
+{"nid": 242, "canonical": "SUVH", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Other transcriptional regulators"], "examples": ["SUVH", "SUVH"]}
+{"nid": 243, "canonical": "ALTERED", "node_type": "GENE_PRODUCT", "frequency": 3, "sections": ["Chloroplast and photosynthesis related genes", "Other transcriptional regulators", "Vesicle transport genes"], "examples": ["altered", "altered", "altered"]}
+{"nid": 244, "canonical": "transcriptional profile", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["Combined OMIC approaches", "Other transcriptional regulators"], "examples": ["transcriptional profiles", "transcriptional profiles"]}
+{"nid": 245, "canonical": "SET", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Other transcriptional regulators"], "examples": ["SET"]}
+{"nid": 246, "canonical": "NAUMANN", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Other transcriptional regulators"], "examples": ["Naumann"]}
+{"nid": 247, "canonical": "2021", "node_type": "GENE_PRODUCT", "frequency": 4, "sections": ["Conserved and unique transcriptional changes in microgravity", "Non-coding RNAs", "Other transcriptional regulators"], "examples": ["2021", "2021", "2021"]}
+{"nid": 248, "canonical": "auxin efflux carrier", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["auxin efflux carriers"]}
+{"nid": 249, "canonical": "auxin response factor", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["auxin response factors"]}
+{"nid": 250, "canonical": "11", "node_type": "GENE_PRODUCT", "frequency": 3, "sections": ["Auxin related genes"], "examples": ["11", "11", "11"]}
+{"nid": 251, "canonical": "gulated gene", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["Abiotic stress related genes", "Auxin related genes"], "examples": ["gulated genes", "gulated genes"]}
+{"nid": 252, "canonical": "SAURS", "node_type": "GENE_PRODUCT", "frequency": 3, "sections": ["Auxin related genes"], "examples": ["SAURs", "SAURs", "SAURs"]}
+{"nid": 253, "canonical": "RAPIDLY", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["rapidly"]}
+{"nid": 254, "canonical": "SAUR15", "node_type": "GENE_PRODUCT", "frequency": 3, "sections": ["Auxin related genes"], "examples": ["SAUR15", "SAUR15", "SAUR15"]}
+{"nid": 255, "canonical": "SAUR16", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Auxin related genes"], "examples": ["SAUR16", "SAUR16"]}
+{"nid": 256, "canonical": "bberellic acid", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["bberellic acid"]}
+{"nid": 257, "canonical": "ga)", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["GA)"]}
+{"nid": 258, "canonical": "BRASS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["Brass"]}
+{"nid": 259, "canonical": "INOSTER", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["inoster"]}
+{"nid": 260, "canonical": "saurs 13", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["SAURs 13"]}
+{"nid": 261, "canonical": "LIRSAURS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["lirSAURs"]}
+{"nid": 262, "canonical": "light-regulated", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["light-regulated"]}
+{"nid": 263, "canonical": "cotyledons and", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["cotyledons and"]}
+{"nid": 264, "canonical": "hypocotyl", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["hypocotyls"]}
+{"nid": 265, "canonical": "ytochrome interacting factors (pif)", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["ytochrome interacting factors (PIF)s"]}
+{"nid": 266, "canonical": "SAUR36", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Auxin related genes"], "examples": ["SAUR36", "SAUR36"]}
+{"nid": 267, "canonical": "SAUR41", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Auxin related genes"], "examples": ["SAUR41", "SAUR41"]}
+{"nid": 268, "canonical": "cell expansion", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["cell expansion"]}
+{"nid": 269, "canonical": "ypocotyl elongation", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["ypocotyl elongation"]}
+{"nid": 270, "canonical": "SAUR", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Auxin related genes"], "examples": ["SAUR", "SAUR"]}
+{"nid": 271, "canonical": "leaf growth senescence", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["leaf growth senescence"]}
+{"nid": 272, "canonical": "leaf expansion", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["leaf expansion"]}
+{"nid": 273, "canonical": "DIVISION", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["division"]}
+{"nid": 274, "canonical": "shade avoidance response", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["shade avoidance response"]}
+{"nid": 275, "canonical": "inflorescence stem", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["inflorescence stems"]}
+{"nid": 276, "canonical": "10", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["10"]}
+{"nid": 277, "canonical": "13", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["13"]}
+{"nid": 278, "canonical": "2016", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["2016"]}
+{"nid": 279, "canonical": "KUMAR", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Auxin related genes", "Transcription factors"], "examples": ["Kumar", "Kumar"]}
+{"nid": 280, "canonical": "2013", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Auxin related genes", "Biotic stress and defense related genes"], "examples": ["2013", "2013"]}
+{"nid": 281, "canonical": "SAUR76", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["SAUR76"]}
+{"nid": 282, "canonical": "30", "node_type": "GENE_PRODUCT", "frequency": 3, "sections": ["Auxin related genes", "Non-coding RNAs"], "examples": ["30", "30", "30"]}
+{"nid": 283, "canonical": "ARFS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["ARFs"]}
+{"nid": 284, "canonical": "ARF", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["ARF"]}
+{"nid": 285, "canonical": "ARF1", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["ARF1"]}
+{"nid": 286, "canonical": "ARF4", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["ARF4"]}
+{"nid": 287, "canonical": "2023", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Auxin related genes"], "examples": ["2023"]}
+{"nid": 288, "canonical": "ENRICHED", "node_type": "GENE_PRODUCT", "frequency": 7, "sections": ["Chloroplast and photosynthesis related genes", "Conserved and unique transcriptional changes in microgravity", "HY5 target genes", "Vesicle transport genes"], "examples": ["enriched", "enriched", "enriched"]}
+{"nid": 289, "canonical": "third enriched", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Vesicle transport genes"], "examples": ["third enriched"]}
+{"nid": 290, "canonical": "shoot growth", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Vesicle transport genes"], "examples": ["shoot growth"]}
+{"nid": 291, "canonical": "processe", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Vesicle transport genes"], "examples": ["processes"]}
+{"nid": 292, "canonical": "COP", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Vesicle transport genes"], "examples": ["COP"]}
+{"nid": 293, "canonical": "GOLGI", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Vesicle transport genes"], "examples": ["Golgi", "Golgi"]}
+{"nid": 294, "canonical": "HWANG", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Vesicle transport genes"], "examples": ["Hwang"]}
+{"nid": 295, "canonical": "ROBINSON", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Vesicle transport genes"], "examples": ["Robinson"]}
+{"nid": 296, "canonical": "regulatory element", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Promoter analysis of genes upregulated in µ g"], "examples": ["regulatory elements"]}
+{"nid": 297, "canonical": "initiation site", "node_type": "ANATOMICAL_SITE", "frequency": 1, "sections": ["Promoter analysis of genes upregulated in µ g"], "examples": ["initiation site"]}
+{"nid": 298, "canonical": "consensus sequence", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Promoter analysis of genes upregulated in µ g"], "examples": ["consensus sequence"]}
+{"nid": 299, "canonical": "CCA", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Promoter analysis of genes upregulated in µ g"], "examples": ["CCA"]}
+{"nid": 300, "canonical": "3.7e", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Promoter analysis of genes upregulated in µ g"], "examples": ["3.7E"]}
+{"nid": 301, "canonical": "258 occurrence", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Promoter analysis of genes upregulated in µ g"], "examples": ["258 occurrences"]}
+{"nid": 302, "canonical": "DENSITY", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Promoter analysis of genes upregulated in µ g"], "examples": ["density"]}
+{"nid": 303, "canonical": "UP1", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Promoter analysis of genes upregulated in µ g"], "examples": ["Up1"]}
+{"nid": 304, "canonical": "arabidopsis transcript", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Promoter analysis of genes upregulated in µ g"], "examples": ["Arabidopsis transcripts"]}
+{"nid": 305, "canonical": "DEFENSE", "node_type": "GENE_PRODUCT", "frequency": 4, "sections": ["Conserved and unique transcriptional changes in microgravity", "Micro RNAs detected and their target genes", "Microgravity versus the space environment", "Promoter analysis of genes upregulated in µ g"], "examples": ["defense", "defense", "defense"]}
+{"nid": 306, "canonical": "258", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Promoter analysis of genes upregulated in µ g"], "examples": ["258"]}
+{"nid": 307, "canonical": "174", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Promoter analysis of genes upregulated in µ g"], "examples": ["174"]}
+{"nid": 308, "canonical": "MOLINA", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Promoter analysis of genes upregulated in µ g"], "examples": ["Molina"]}
+{"nid": 309, "canonical": "PCF", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Promoter analysis of genes upregulated in µ g"], "examples": ["PCF"]}
+{"nid": 310, "canonical": "TCP", "node_type": "GENE_PRODUCT", "frequency": 4, "sections": ["Micro RNAs detected and their target genes", "Promoter analysis of genes upregulated in µ g"], "examples": ["TCP", "TCP", "TCP"]}
+{"nid": 311, "canonical": "VIOLA", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Promoter analysis of genes upregulated in µ g"], "examples": ["Viola"]}
+{"nid": 312, "canonical": "SINHA", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Promoter analysis of genes upregulated in µ g"], "examples": ["Sinha"]}
+{"nid": 313, "canonical": "enriched in gene", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Genes downregulated in µ g, compared to 1 g in space"], "examples": ["enriched in genes"]}
+{"nid": 314, "canonical": "downregulated", "node_type": "EXPERIMENT", "frequency": 5, "sections": ["Conserved and unique transcriptional changes in microgravity", "Genes downregulated in µ g, compared to 1 g in space", "Micro RNAs detected and their target genes"], "examples": ["downregulated", "downregulated", "downregulated"]}
+{"nid": 315, "canonical": "cytochrome p450", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Genes downregulated in µ g, compared to 1 g in space"], "examples": ["Cytochrome P450"]}
+{"nid": 316, "canonical": "P450", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Genes downregulated in µ g, compared to 1 g in space"], "examples": ["P450"]}
+{"nid": 317, "canonical": "ssociated gene", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Genes downregulated in µ g, compared to 1 g in space"], "examples": ["ssociated genes"]}
+{"nid": 318, "canonical": "120", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["120"]}
+{"nid": 319, "canonical": "2018", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["2018"]}
+{"nid": 320, "canonical": "go term", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["GO terms"]}
+{"nid": 321, "canonical": "ABA", "node_type": "GENE_PRODUCT", "frequency": 6, "sections": ["Abiotic stress related genes", "Transcription factors"], "examples": ["ABA", "ABA", "ABA"]}
+{"nid": 322, "canonical": "TF", "node_type": "GENE_PRODUCT", "frequency": 4, "sections": ["Abiotic stress related genes", "Transcription factors"], "examples": ["TF", "TF", "TF"]}
+{"nid": 323, "canonical": "LARGEST", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["largest"]}
+{"nid": 324, "canonical": "hylene response factor", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["hylene response factors"]}
+{"nid": 325, "canonical": "erf)", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["ERF)"]}
+{"nid": 326, "canonical": "15", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["15"]}
+{"nid": 327, "canonical": "12", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Micro RNAs detected and their target genes", "Transcription factors"], "examples": ["12", "12"]}
+{"nid": 328, "canonical": "WRKY", "node_type": "GENE_PRODUCT", "frequency": 3, "sections": ["Biotic stress and defense related genes", "Transcription factors"], "examples": ["WRKY", "WRKY", "WRKY"]}
+{"nid": 329, "canonical": "PHUKAN", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["Phukan"]}
+{"nid": 330, "canonical": "AP2", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["AP2"]}
+{"nid": 331, "canonical": "NAC", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Transcription factors"], "examples": ["NAC", "NAC"]}
+{"nid": 332, "canonical": "calmodulin binding transcriptional activator", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["calmodulin binding transcriptional activators"]}
+{"nid": 333, "canonical": "CAM", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["CAM"]}
+{"nid": 334, "canonical": "2004", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["2004"]}
+{"nid": 335, "canonical": "MYB", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Transcription factors"], "examples": ["MYB"]}
+{"nid": 336, "canonical": "WRKY18", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biotic stress and defense related genes"], "examples": ["WRKY18"]}
+{"nid": 337, "canonical": "WRKY40", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biotic stress and defense related genes"], "examples": ["WRKY40"]}
+{"nid": 338, "canonical": "WRKY60", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Biotic stress and defense related genes"], "examples": ["WRKY60"]}
+{"nid": 339, "canonical": "osmotic stress", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Abiotic stress related genes"], "examples": ["osmotic stress"]}
+{"nid": 340, "canonical": "rna-seq experiment", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Abiotic stress related genes"], "examples": ["RNA-Seq experiments"]}
+{"nid": 341, "canonical": "chip-seq", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Abiotic stress related genes"], "examples": ["ChIP-Seq"]}
+{"nid": 342, "canonical": "21 abare", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Abiotic stress related genes"], "examples": ["21 ABAres"]}
+{"nid": 343, "canonical": "DIV", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Abiotic stress related genes"], "examples": ["DIV"]}
+{"nid": 344, "canonical": "NFY", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Abiotic stress related genes"], "examples": ["NFY"]}
+{"nid": 345, "canonical": "GBF3", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Abiotic stress related genes"], "examples": ["GBF3"]}
+{"nid": 346, "canonical": "DIV2", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Abiotic stress related genes"], "examples": ["DIV2"]}
+{"nid": 347, "canonical": "HB7", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Abiotic stress related genes"], "examples": ["HB7"]}
+{"nid": 348, "canonical": "NAC032", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Abiotic stress related genes"], "examples": ["NAC032"]}
+{"nid": 349, "canonical": "NAC102", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Abiotic stress related genes"], "examples": ["NAC102"]}
+{"nid": 350, "canonical": "CALCIUM", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Calcium signaling related genes"], "examples": ["calcium", "calcium"]}
+{"nid": 351, "canonical": "calcium-dependent protein kinase", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Calcium signaling related genes"], "examples": ["calcium-dependent protein kinases"]}
+{"nid": 352, "canonical": "calmodulin-binding protein", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Calcium signaling related genes"], "examples": ["calmodulin-binding proteins"]}
+{"nid": 353, "canonical": "cbl-interacting protein kinase", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Calcium signaling related genes"], "examples": ["CBL-interacting protein kinase"]}
+{"nid": 354, "canonical": "cyclic nucleotide gated ion channel", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Calcium signaling related genes"], "examples": ["cyclic nucleotide gated ion channels"]}
+{"nid": 355, "canonical": "natural antisense transcripts (", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Non-coding RNAs"], "examples": ["Natural antisense transcripts ("]}
+{"nid": 356, "canonical": "nat)", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Non-coding RNAs"], "examples": ["NAT)"]}
+{"nid": 357, "canonical": "negative correlation", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["Non-coding RNAs"], "examples": ["negative correlation", "negative correlation"]}
+{"nid": 358, "canonical": "NAT", "node_type": "GENE_PRODUCT", "frequency": 4, "sections": ["Non-coding RNAs"], "examples": ["NAT", "NAT", "NAT"]}
+{"nid": 359, "canonical": "regulating", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Non-coding RNAs"], "examples": ["regulating"]}
+{"nid": 360, "canonical": "mrna stability", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Non-coding RNAs"], "examples": ["mRNA stability"]}
+{"nid": 361, "canonical": "translation", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["Micro RNAs detected and their target genes", "Non-coding RNAs"], "examples": ["translation", "translation"]}
+{"nid": 362, "canonical": "WIGHT", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Non-coding RNAs"], "examples": ["Wight"]}
+{"nid": 363, "canonical": "WERNER", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Non-coding RNAs"], "examples": ["Werner"]}
+{"nid": 364, "canonical": "REIS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Non-coding RNAs"], "examples": ["Reis"]}
+{"nid": 365, "canonical": "POIRIER", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Non-coding RNAs"], "examples": ["Poirier"]}
+{"nid": 366, "canonical": "upregulated nat", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Non-coding RNAs"], "examples": ["upregulated NAT"]}
+{"nid": 367, "canonical": "downregulated nat", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Non-coding RNAs"], "examples": ["downregulated NAT"]}
+{"nid": 368, "canonical": "42", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Non-coding RNAs"], "examples": ["42", "42"]}
+{"nid": 369, "canonical": "sense transcript", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Non-coding RNAs"], "examples": ["sense transcript"]}
+{"nid": 370, "canonical": "29 of the 42 upregulated nat", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Non-coding RNAs"], "examples": ["29 of the 42 upregulated NAT"]}
+{"nid": 371, "canonical": "29", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Non-coding RNAs"], "examples": ["29"]}
+{"nid": 372, "canonical": "transcription factor gene list", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Non-coding RNAs"], "examples": ["transcription factor gene lists"]}
+{"nid": 373, "canonical": "singular enrichment analyses (", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Non-coding RNAs"], "examples": ["Singular Enrichment Analyses ("]}
+{"nid": 374, "canonical": "sea)", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Non-coding RNAs"], "examples": ["SEA)s"]}
+{"nid": 375, "canonical": "PROTEINS", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Cell wall related genes", "Non-coding RNAs"], "examples": ["proteins", "proteins"]}
+{"nid": 376, "canonical": "expression", "node_type": "EXPERIMENT", "frequency": 6, "sections": ["Day 4 versus day 6: a possible interaction between µ g responses and development", "HY5 target genes", "Micro RNAs detected and their target genes", "Microgravity versus the space environment", "Non-coding RNAs", "The Influence of developmental stage on observed transcriptional responses"], "examples": ["expression", "expression", "expression"]}
+{"nid": 377, "canonical": "under µ g", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Non-coding RNAs"], "examples": ["under µ g"]}
+{"nid": 378, "canonical": "400", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Microgravity versus the space environment"], "examples": ["400"]}
+{"nid": 379, "canonical": "CONTROLS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Microgravity versus the space environment"], "examples": ["controls"]}
+{"nid": 380, "canonical": "stress response-related gene", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Microgravity versus the space environment"], "examples": ["stress response-related genes"]}
+{"nid": 381, "canonical": "heat map", "node_type": "EXPERIMENT", "frequency": 3, "sections": ["Microgravity versus the space environment"], "examples": ["heat maps", "heat maps", "heat maps"]}
+{"nid": 382, "canonical": "higher level", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Microgravity versus the space environment"], "examples": ["higher levels"]}
+{"nid": 383, "canonical": "-related", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Microgravity versus the space environment"], "examples": ["-related"]}
+{"nid": 384, "canonical": "MRNA", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Micro RNAs detected and their target genes"], "examples": ["mRNA"]}
+{"nid": 385, "canonical": "small rnas (srna)", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Micro RNAs detected and their target genes"], "examples": ["small RNAs (sRNA)s"]}
+{"nid": 386, "canonical": "LAND", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Micro RNAs detected and their target genes"], "examples": ["Land"]}
+{"nid": 387, "canonical": "micro rnas (", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Micro RNAs detected and their target genes"], "examples": ["micro RNAs ("]}
+{"nid": 388, "canonical": "mirna)", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Micro RNAs detected and their target genes"], "examples": ["miRNA)s"]}
+{"nid": 389, "canonical": "dna methylation", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Micro RNAs detected and their target genes"], "examples": ["DNA methylation"]}
+{"nid": 390, "canonical": "MIRNAS", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Conserved and unique transcriptional changes in microgravity", "Micro RNAs detected and their target genes"], "examples": ["miRNAs", "miRNAs"]}
+{"nid": 391, "canonical": "mir863-5p", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["Micro RNAs detected and their target genes"], "examples": ["miR863-5p", "miR863-5p"]}
+{"nid": 392, "canonical": "mir398b-3p", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Micro RNAs detected and their target genes"], "examples": ["miR398b-3p"]}
+{"nid": 393, "canonical": "MIR86", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Micro RNAs detected and their target genes"], "examples": ["miR86"]}
+{"nid": 394, "canonical": "arabidopsis leaves and seedling", "node_type": "ANATOMICAL_SITE", "frequency": 1, "sections": ["Micro RNAs detected and their target genes"], "examples": ["Arabidopsis leaves and seedlings"]}
+{"nid": 395, "canonical": "zn ++ dismutase enzyme", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Micro RNAs detected and their target genes"], "examples": ["Zn ++ dismutase enzymes"]}
+{"nid": 396, "canonical": "MIR319", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Micro RNAs detected and their target genes"], "examples": ["miR319"]}
+{"nid": 397, "canonical": "correlation analysi", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Micro RNAs detected and their target genes"], "examples": ["Correlation analysis"]}
+{"nid": 398, "canonical": "7B", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Micro RNAs detected and their target genes"], "examples": ["7B"]}
+{"nid": 399, "canonical": "22", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Micro RNAs detected and their target genes"], "examples": ["22"]}
+{"nid": 400, "canonical": "mir863-5", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Micro RNAs detected and their target genes"], "examples": ["miR863-5"]}
+{"nid": 401, "canonical": "mir398b-3", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Micro RNAs detected and their target genes"], "examples": ["miR398b-3"]}
+{"nid": 402, "canonical": "mir156f-3p", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Micro RNAs detected and their target genes"], "examples": ["miR156f-3p"]}
+{"nid": 403, "canonical": "mir5654-3p", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Micro RNAs detected and their target genes"], "examples": ["miR5654-3p"]}
+{"nid": 404, "canonical": "coordinate down", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Micro RNAs detected and their target genes"], "examples": ["coordinate down"]}
+{"nid": 405, "canonical": "MIR156", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Micro RNAs detected and their target genes"], "examples": ["miR156", "miR156"]}
+{"nid": 406, "canonical": "promoter binding like", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Micro RNAs detected and their target genes"], "examples": ["Promoter binding Like"]}
+{"nid": 407, "canonical": "light change", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Micro RNAs detected and their target genes"], "examples": ["light changes"]}
+{"nid": 408, "canonical": "7A", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Micro RNAs detected and their target genes"], "examples": ["7A"]}
+{"nid": 409, "canonical": "WANG", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Micro RNAs detected and their target genes"], "examples": ["Wang", "Wang"]}
+{"nid": 410, "canonical": "SPL9", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Micro RNAs detected and their target genes"], "examples": ["SPL9"]}
+{"nid": 411, "canonical": "higher expression", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Micro RNAs detected and their target genes"], "examples": ["higher expression"]}
+{"nid": 412, "canonical": "GTE11", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Micro RNAs detected and their target genes"], "examples": ["GTE11"]}
+{"nid": 413, "canonical": "stress de", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Day 4 versus day 6: a possible interaction between µ g responses and development"], "examples": ["stress DE"]}
+{"nid": 414, "canonical": "principal", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Day 4 versus day 6: a possible interaction between µ g responses and development"], "examples": ["Principal"]}
+{"nid": 415, "canonical": "principal component", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Day 4 versus day 6: a possible interaction between µ g responses and development"], "examples": ["Principal component"]}
+{"nid": 416, "canonical": "DAY", "node_type": "GENE_PRODUCT", "frequency": 7, "sections": ["Day 4 versus day 6: a possible interaction between µ g responses and development", "The Influence of developmental stage on observed transcriptional responses"], "examples": ["Day", "Day", "Day"]}
+{"nid": 417, "canonical": "SAMPLES", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Day 4 versus day 6: a possible interaction between µ g responses and development"], "examples": ["samples"]}
+{"nid": 418, "canonical": "much smaller fraction", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Day 4 versus day 6: a possible interaction between µ g responses and development"], "examples": ["much smaller fraction"]}
+{"nid": 419, "canonical": "regulated", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Day 4 versus day 6: a possible interaction between µ g responses and development"], "examples": ["regulated"]}
+{"nid": 420, "canonical": "406 deg", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Day 4 versus day 6: a possible interaction between µ g responses and development"], "examples": ["406 DEGs"]}
+{"nid": 421, "canonical": "406", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Day 4 versus day 6: a possible interaction between µ g responses and development"], "examples": ["406"]}
+{"nid": 422, "canonical": "75", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Day 4 versus day 6: a possible interaction between µ g responses and development"], "examples": ["75"]}
+{"nid": 423, "canonical": "331", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Day 4 versus day 6: a possible interaction between µ g responses and development"], "examples": ["331"]}
+{"nid": 424, "canonical": "STRESSES", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Day 4 versus day 6: a possible interaction between µ g responses and development"], "examples": ["stresses"]}
+{"nid": 425, "canonical": "210", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Day 4 versus day 6: a possible interaction between µ g responses and development"], "examples": ["210"]}
+{"nid": 426, "canonical": "response", "node_type": "PHENOTYPE", "frequency": 3, "sections": ["Conserved and unique transcriptional changes in microgravity", "Day 4 versus day 6: a possible interaction between µ g responses and development", "Gravitropism related genes"], "examples": ["responses", "responses", "responses"]}
+{"nid": 427, "canonical": "GENES", "node_type": "GENE_PRODUCT", "frequency": 5, "sections": ["Cell wall related genes", "Conserved and unique transcriptional changes in microgravity", "Day 4 versus day 6: a possible interaction between µ g responses and development", "HY5 target genes"], "examples": ["Genes", "Genes", "Genes"]}
+{"nid": 428, "canonical": "cell wall organization", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Day 4 versus day 6: a possible interaction between µ g responses and development"], "examples": ["cell wall organization"]}
+{"nid": 429, "canonical": "several gene", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Day 4 versus day 6: a possible interaction between µ g responses and development"], "examples": ["several genes"]}
+{"nid": 430, "canonical": "scatter plot", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Day 4 versus day 6: a possible interaction between µ g responses and development"], "examples": ["Scatter plots"]}
+{"nid": 431, "canonical": "representative gene", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Day 4 versus day 6: a possible interaction between µ g responses and development"], "examples": ["representative genes"]}
+{"nid": 432, "canonical": "different", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Conserved and unique transcriptional changes in microgravity"], "examples": ["different"]}
+{"nid": 433, "canonical": "lighting regime", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Conserved and unique transcriptional changes in microgravity"], "examples": ["lighting regimes"]}
+{"nid": 434, "canonical": "sicle transport", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Conserved and unique transcriptional changes in microgravity"], "examples": ["sicle transport"]}
+{"nid": 435, "canonical": "GULATION", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Conserved and unique transcriptional changes in microgravity"], "examples": ["gulation"]}
+{"nid": 436, "canonical": "70 gene", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Conserved and unique transcriptional changes in microgravity"], "examples": ["70 genes"]}
+{"nid": 437, "canonical": "BRIC19", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Conserved and unique transcriptional changes in microgravity"], "examples": ["BRIC19", "BRIC19"]}
+{"nid": 438, "canonical": "70", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Conserved and unique transcriptional changes in microgravity"], "examples": ["70"]}
+{"nid": 439, "canonical": "CHOI", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Conserved and unique transcriptional changes in microgravity"], "examples": ["Choi"]}
+{"nid": 440, "canonical": "SEQ", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Combined OMIC approaches", "Conserved and unique transcriptional changes in microgravity"], "examples": ["Seq", "Seq"]}
+{"nid": 441, "canonical": "seedling growth experiment", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Conserved and unique transcriptional changes in microgravity"], "examples": ["Seedling Growth experiments"]}
+{"nid": 442, "canonical": "SG2", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Chloroplast and photosynthesis related genes", "Conserved and unique transcriptional changes in microgravity"], "examples": ["SG2", "SG2"]}
+{"nid": 443, "canonical": "48H", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Conserved and unique transcriptional changes in microgravity"], "examples": ["48h"]}
+{"nid": 444, "canonical": "54 gene", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Conserved and unique transcriptional changes in microgravity"], "examples": ["54 genes"]}
+{"nid": 445, "canonical": "54", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Conserved and unique transcriptional changes in microgravity"], "examples": ["54"]}
+{"nid": 446, "canonical": "143 genes downregulated", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Conserved and unique transcriptional changes in microgravity"], "examples": ["143 genes downregulated"]}
+{"nid": 447, "canonical": "143", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Conserved and unique transcriptional changes in microgravity"], "examples": ["143"]}
+{"nid": 448, "canonical": "low g", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Conserved and unique transcriptional changes in microgravity"], "examples": ["low g"]}
+{"nid": 449, "canonical": "COL", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Conserved and unique transcriptional changes in microgravity"], "examples": ["Col", "Col"]}
+{"nid": 450, "canonical": "LER", "node_type": "GENE_PRODUCT", "frequency": 3, "sections": ["Conserved and unique transcriptional changes in microgravity"], "examples": ["Ler", "Ler", "Ler"]}
+{"nid": 451, "canonical": "CVI", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Conserved and unique transcriptional changes in microgravity"], "examples": ["Cvi"]}
+{"nid": 452, "canonical": "altered expression", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["Conserved and unique transcriptional changes in microgravity"], "examples": ["altered expression", "altered expression"]}
+{"nid": 453, "canonical": "transcription factor", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Conserved and unique transcriptional changes in microgravity"], "examples": ["transcription factor"]}
+{"nid": 454, "canonical": "elongated", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Conserved and unique transcriptional changes in microgravity"], "examples": ["Elongated"]}
+{"nid": 455, "canonical": "ocotyl 5", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Conserved and unique transcriptional changes in microgravity"], "examples": ["ocotyl 5"]}
+{"nid": 456, "canonical": "ly expressed", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Cell wall related genes"], "examples": ["ly expressed"]}
+{"nid": 457, "canonical": "CHANGES", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Cell wall related genes"], "examples": ["changes"]}
+{"nid": 458, "canonical": "modification", "node_type": "PHENOTYPE", "frequency": 2, "sections": ["Cell wall related genes"], "examples": ["modification", "modification"]}
+{"nid": 459, "canonical": "oglucan endotransglucosylase", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Cell wall related genes"], "examples": ["oglucan endotransglucosylase"]}
+{"nid": 460, "canonical": "JOHNSON", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Cell wall related genes"], "examples": ["Johnson"]}
+{"nid": 461, "canonical": "XTH", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Cell wall related genes"], "examples": ["XTH"]}
+{"nid": 462, "canonical": "rearrangement", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Cell wall related genes"], "examples": ["rearrangement"]}
+{"nid": 463, "canonical": "cellulose synthase-like gene", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Cell wall related genes"], "examples": ["cellulose synthase-like genes"]}
+{"nid": 464, "canonical": "n biosynthesi", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Cell wall related genes"], "examples": ["n biosynthesis"]}
+{"nid": 465, "canonical": "regulation", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Chloroplast and photosynthesis related genes"], "examples": ["regulation"]}
+{"nid": 466, "canonical": "altered regulation", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Chloroplast and photosynthesis related genes"], "examples": ["altered regulation"]}
+{"nid": 467, "canonical": "photosynthesis related gene", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["Chloroplast and photosynthesis related genes"], "examples": ["photosynthesis related genes", "photosynthesis related genes"]}
+{"nid": 468, "canonical": "spaceflight experiment", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Chloroplast and photosynthesis related genes"], "examples": ["spaceflight experiments"]}
+{"nid": 469, "canonical": "photosynthesi", "node_type": "EXPERIMENT", "frequency": 2, "sections": ["Chloroplast and photosynthesis related genes"], "examples": ["photosynthesis", "photosynthesis"]}
+{"nid": 470, "canonical": "both µ g", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Chloroplast and photosynthesis related genes"], "examples": ["both µ g"]}
+{"nid": 471, "canonical": "µ g down", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Chloroplast and photosynthesis related genes"], "examples": ["µ g down"]}
+{"nid": 472, "canonical": "LIGHTING", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Chloroplast and photosynthesis related genes"], "examples": ["lighting"]}
+{"nid": 473, "canonical": "SG", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Chloroplast and photosynthesis related genes"], "examples": ["SG"]}
+{"nid": 474, "canonical": "plastid function", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Chloroplast and photosynthesis related genes"], "examples": ["plastid function"]}
+{"nid": 475, "canonical": "cellular localization", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Chloroplast and photosynthesis related genes"], "examples": ["cellular localization"]}
+{"nid": 476, "canonical": "300 gene", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Chloroplast and photosynthesis related genes"], "examples": ["300 genes"]}
+{"nid": 477, "canonical": "genes encoding for subunit", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Chloroplast and photosynthesis related genes"], "examples": ["Genes encoding for subunit"]}
+{"nid": 478, "canonical": "NADPH", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Chloroplast and photosynthesis related genes"], "examples": ["NADPH", "NADPH"]}
+{"nid": 479, "canonical": "LHCA", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Chloroplast and photosynthesis related genes"], "examples": ["LHCA"]}
+{"nid": 480, "canonical": "photosystem", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Chloroplast and photosynthesis related genes"], "examples": ["photosystem"]}
+{"nid": 481, "canonical": "SEVERAL", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Chloroplast and photosynthesis related genes"], "examples": ["several"]}
+{"nid": 482, "canonical": "the µ g", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Chloroplast and photosynthesis related genes"], "examples": ["the µ g"]}
+{"nid": 483, "canonical": "II", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Chloroplast and photosynthesis related genes"], "examples": ["II"]}
+{"nid": 484, "canonical": "STUDIES", "node_type": "GENE_PRODUCT", "frequency": 3, "sections": ["Chloroplast and photosynthesis related genes", "Combined OMIC approaches"], "examples": ["studies", "studies", "studies"]}
+{"nid": 485, "canonical": "PHOTOSYN", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Chloroplast and photosynthesis related genes"], "examples": ["photosyn"]}
+{"nid": 486, "canonical": "morphogenesi", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["HY5 target genes"], "examples": ["morphogenesis"]}
+{"nid": 487, "canonical": "one third", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["HY5 target genes"], "examples": ["one third"]}
+{"nid": 488, "canonical": "idopsis genome", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["HY5 target genes"], "examples": ["idopsis genome"]}
+{"nid": 489, "canonical": "SIGNALS", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["HY5 target genes"], "examples": ["signals"]}
+{"nid": 490, "canonical": "BOTTO", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["HY5 target genes"], "examples": ["Botto"]}
+{"nid": 491, "canonical": "fluctuation", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["HY5 target genes"], "examples": ["fluctuations"]}
+{"nid": 492, "canonical": "TROPISM", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Gravitropism related genes"], "examples": ["tropism"]}
+{"nid": 493, "canonical": "tf shoot gravitropism", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Gravitropism related genes"], "examples": ["TF Shoot Gravitropism"]}
+{"nid": 494, "canonical": "arabidopsis in", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Gravitropism related genes"], "examples": ["Arabidopsis in"]}
+{"nid": 495, "canonical": "florescence stem", "node_type": "ANATOMICAL_SITE", "frequency": 1, "sections": ["Gravitropism related genes"], "examples": ["florescence stems"]}
+{"nid": 496, "canonical": "shoot endodermi", "node_type": "ANATOMICAL_SITE", "frequency": 1, "sections": ["Gravitropism related genes"], "examples": ["shoot endodermis"]}
+{"nid": 497, "canonical": "SEDIMENT", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Gravitropism related genes"], "examples": ["sediment"]}
+{"nid": 498, "canonical": "MORI", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Gravitropism related genes"], "examples": ["Mori"]}
+{"nid": 499, "canonical": "IND", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Gravitropism related genes"], "examples": ["Ind"]}
+{"nid": 500, "canonical": "idd tf", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Gravitropism related genes"], "examples": ["IDD TFs"]}
+{"nid": 501, "canonical": "IDD15", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Gravitropism related genes"], "examples": ["IDD15"]}
+{"nid": 502, "canonical": "IDD16", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Gravitropism related genes"], "examples": ["IDD16", "IDD16"]}
+{"nid": 503, "canonical": "auxin transport", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Gravitropism related genes"], "examples": ["auxin transport"]}
+{"nid": 504, "canonical": "aerial tissue development", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Gravitropism related genes"], "examples": ["aerial tissue development"]}
+{"nid": 505, "canonical": "IDD14", "node_type": "GENE_PRODUCT", "frequency": 2, "sections": ["Gravitropism related genes"], "examples": ["IDD14", "IDD14"]}
+{"nid": 506, "canonical": "seedling", "node_type": "ANATOMICAL_SITE", "frequency": 1, "sections": ["Gravitropism related genes"], "examples": ["seedlings"]}
+{"nid": 507, "canonical": "ypocotyl gravitropism", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["Gravitropism related genes"], "examples": ["ypocotyl gravitropism"]}
+{"nid": 508, "canonical": "SGR5", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Gravitropism related genes"], "examples": ["SGR5"]}
+{"nid": 509, "canonical": "SPALDING", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Gravitropism related genes"], "examples": ["Spalding"]}
+{"nid": 510, "canonical": "LAZY", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Gravitropism related genes"], "examples": ["LAZY"]}
+{"nid": 511, "canonical": "rmination", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["The Influence of developmental stage on observed transcriptional responses"], "examples": ["rmination"]}
+{"nid": 512, "canonical": "1 g and µ g", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["The Influence of developmental stage on observed transcriptional responses"], "examples": ["1 g and µ g"]}
+{"nid": 513, "canonical": "altered development", "node_type": "PHENOTYPE", "frequency": 1, "sections": ["The Influence of developmental stage on observed transcriptional responses"], "examples": ["altered development"]}
+{"nid": 514, "canonical": "rmination time", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["The Influence of developmental stage on observed transcriptional responses"], "examples": ["rmination time"]}
+{"nid": 515, "canonical": "RADICLE", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["The Influence of developmental stage on observed transcriptional responses"], "examples": ["radicle"]}
+{"nid": 516, "canonical": "LONGER", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["The Influence of developmental stage on observed transcriptional responses"], "examples": ["Longer"]}
+{"nid": 517, "canonical": "finer resolution", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["The Influence of developmental stage on observed transcriptional responses"], "examples": ["finer resolution"]}
+{"nid": 518, "canonical": "TROPI", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Lessons learned for future spaceflight experiments 4.3.1 Long term plant experiments"], "examples": ["TROPI"]}
+{"nid": 519, "canonical": "controlled", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Lessons learned for future spaceflight experiments 4.3.1 Long term plant experiments"], "examples": ["controlled"]}
+{"nid": 520, "canonical": "MATURITY", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Lessons learned for future spaceflight experiments 4.3.1 Long term plant experiments"], "examples": ["maturity"]}
+{"nid": 521, "canonical": "transcription", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Combined OMIC approaches"], "examples": ["transcription"]}
+{"nid": 522, "canonical": "flight experiment", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Combined OMIC approaches"], "examples": ["flight experiments"]}
+{"nid": 523, "canonical": "omic approach", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Combined OMIC approaches"], "examples": ["omic approach"]}
+{"nid": 524, "canonical": "proteomic", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Combined OMIC approaches"], "examples": ["proteomic"]}
+{"nid": 525, "canonical": "transcriptomic analyse", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Combined OMIC approaches"], "examples": ["transcriptomic analyses"]}
+{"nid": 526, "canonical": "FERL", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Combined OMIC approaches"], "examples": ["Ferl"]}
+{"nid": 527, "canonical": "KRUSE", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Combined OMIC approaches"], "examples": ["Kruse"]}
+{"nid": 528, "canonical": "VEGGIE", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Combined OMIC approaches"], "examples": ["Veggie"]}
+{"nid": 529, "canonical": "metabolic statu", "node_type": "EXPERIMENT", "frequency": 1, "sections": ["Combined OMIC approaches"], "examples": ["metabolic status"]}
+{"nid": 530, "canonical": "FORMAL", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Combined OMIC approaches"], "examples": ["Formal"]}
+{"nid": 531, "canonical": "IP", "node_type": "GENE_PRODUCT", "frequency": 1, "sections": ["Combined OMIC approaches"], "examples": ["IP"]}

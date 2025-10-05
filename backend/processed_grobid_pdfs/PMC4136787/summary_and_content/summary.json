@@ -1,0 +1,274 @@
+{
+  "intro": "The paper provides an overview of the scientific goals, experimental design, and mouse training/selection program for the Russian Bion-M 1 biosatellite mission, which resumed biomedical research in space after a 16-year hiatus. The mission aimed to elucidate cellular and molecular mechanisms underlying the adaptation of key physiological systems to long-term microgravity exposure using male C57/BL6 mice. The study combined in vivo and in vitro measurements to assess the effects of spaceflight and readaptation to Earth's gravity. Ethical approval was obtained for the animal experiments.",
+  "sections": [
+    {
+      "heading": "Overview of the Bion-m 1 Mission",
+      "summary": "The Bion-M 1 project sought data on adaptation mechanisms of various physiological systems to microgravity and post-flight recovery. It combined in vivo functional measurements with in vitro morphological, biochemical, cellular, and molecular studies.  The study monitored re-adaptation to normal gravity and assessed post-flight in vivo functions in mice, including video recording of behavior and continuous arterial pressure recording during flight. Post-flight assessments included behavior, memory, vestibular function, physical activity, cardiovascular parameters, and home cage monitoring using an automated data collection system and telemetry.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Animals and Experimental Groups",
+      "summary": "The study used male C57BL/6N mice due to their wide use in research and larger size. Specific pathogen-free mice were used to reduce variability and account for increased virulence of microorganisms in space.  A total of 45 mice per group were used in four experimental groups: space flight (SF), ground control (GC), space flight vivarium control (SFV), and ground control vivarium (GCV).  The SF group was exposed to microgravity for 30 days.  The GC experiment replicated flight conditions in a climatic chamber after the landing.  Vivarium control groups accounted for seasonal differences. Each group included mice for in vivo studies/recovery and mice for dissection/in vitro measurements. In vivo subgroups included mice with telemetry probes for blood pressure monitoring and intact animals.  Training was administered before flight and ground control experiments.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Housing and Habitats",
+      "summary": "Mice were housed in groups of three in BOS habitats (adapted from rat habitats) with a living compartment volume of approximately 1.7 liters. Habitats included a stainless steel feeder, lighting, an air supply fan, and a video camera for recording behavior six times daily. Food distribution was automated, providing paste food six times daily. Individually ventilated cages with environmental enrichment were used during training, surgery recovery, and behavioral tests.",
+      "figures": [
+        {
+          "id": "fig_2",
+          "order": 2,
+          "caption": "Figure 2. Habitat interior.doi:10.1371/journal.pone.0104830.g002",
+          "label": "Figure 2 .",
+          "type": "figure",
+          "image_path": "figures/fig_2.png"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "Diet",
+      "summary": "Mice were initially fed standard pelleted food and water ad libitum. Two weeks before launch, they were adapted to a paste food diet developed at IBMP. Vivarium control groups received standard chow and water throughout the experiments. Consumption of both diets was monitored, and a preliminary experiment in metabolic chambers quantified urination in mice fed both diets. The paste food contained water and casein as a gelling agent.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Telemetry Probes Implantation",
+      "summary": "Arterial pressure was monitored using implantable telemetry probes. Miniature probes were implanted three weeks before the start of experiments, with the catheter inserted into the left carotid artery. Mice were anaesthetized, and the transmitter body was implanted subcutaneously on the flank. The carotid artery was ligated, and the catheter was fixed in place with sutures and acrylic glue. Skin incisions were closed with absorbable sutures. Post-surgery health status was carefully monitored.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Pre-flight Training of Mice",
+      "summary": "Mice for in vivo studies underwent training and testing for homogenous group selection and to utilize repeated measures in the experimental design. A battery of behavioral and functional tests was administered, including examination for abnormalities and reflexes, the Open field test, grip force measurement, and RotaRod test. Animals were monitored for 7 days in Phenomaster cages, an automated data collection system.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Transportation",
+      "summary": "Mice were transported to Cosmodrome Baikonur one week before launch via car and air over 24 hours. They were housed in containers with sub-compartments and air filters. Paste food was provided during transportation.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Statistical Analysis",
+      "summary": "One-way ANOVA followed by Bonferroni's multiple comparisons was used for transportation bodyweight data. Rank transformation was applied before two-way ANOVA for pre/post flight bodyweight data. Fisher's exact test, Man-Whitney U-test, or paired Student's t-test were used as appropriate using GraphPad Prism software.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Group Housing",
+      "summary": "The study aimed to minimize aggressive interactions in group-housed male mice in space habitats. From 300 mice, 88 groups of 3 were formed; 53 for the space flight and 35 for the subsequent ground control studies. 14% of the groups needed rearrangement during the co-adaptation period. The approach focused on shaping social housing groups and carefully selecting stable groups before the experiments. Environmental enrichment aimed to improve animal welfare.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Food and Water Consumption",
+      "summary": "Average pelleted food consumption in SFV and GCV groups was 1.30 g/10g bodyweight (BW) and water consumption was 1.52 g/10g BW. Paste food consumption in the Space Flight and Ground Control groups was 5.52 g/10g BW. Dry weight consumption was the same for both diets.  Mice on the paste diet had a three-fold higher water intake. Urine production was higher and more dilute in mice fed the paste diet.",
+      "figures": [
+        {
+          "id": "fig_3",
+          "order": 3,
+          "caption": "Figure 3. Metabolic parameters in mice fed pelleted food and paste diet.Body weight (A), food (B) and water (C) consumption, feces (D) and urine (E) production.Differences significant at p,0.05 are marked with an asterisk.When the paste food diet with high water content was introduced mice displayed an increase in bodyweight, stopped drinking, while diuresis and feces weight were increased indicating excretion of excess water consumed with the paste diet.doi:10.1371/journal.pone.0104830.g003",
+          "label": "Figure 3 .",
+          "type": "figure",
+          "image_path": "figures/fig_3.jpeg"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "Telemetry Probes Impact on Mice Welfare",
+      "summary": "Continuous blood pressure measurement using telemetry probes was an integral part of in vivo studies. The health and function of implanted mice were closely monitored. The mice tolerated probe implantation well, with complete acute recovery by day 5 post-surgery. Behavioral tests revealed no adverse effects of probe implantation. Slight eyelid drooping (ptosis) was occasionally noted, possibly due to compromised extracranial blood supply.",
+      "figures": [
+        {
+          "id": "fig_4",
+          "order": 4,
+          "caption": "Figure 4. Bodyweight (A) and relative BW change (B) after telemetry probe implantation.Differences significant at p,0.05 are marked with an asterisk.As can be considered from bodyweight data, acute recovery was over by day 5 after surgery.doi:10.1371/journal.pone.0104830.g004",
+          "label": "Figure 4 .",
+          "type": "figure",
+          "image_path": "figures/fig_4.png"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "Pre-flight Training of Mice Designated for In Vivo Studies",
+      "summary": "Preliminary training was performed with 42 mice for the flight experiment and 30 mice for the ground control experiment. Inclusion criteria were based on blood pressure signal quality, running wheel use, and conditioning task performance. Mice were randomly assigned to flight, ground control, or vivarium groups. The probabilities of mice fulfilling each inclusion criteria was considered when planning the experiment and estimating sufficient allowance of extra animals.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Transportation",
+      "summary": "Transportation to Baikonur for 24 h caused a slight (3%) bodyweight change in the flight group, which recovered in two days.",
+      "figures": [
+        {
+          "id": "fig_5",
+          "order": 5,
+          "caption": "Figure 5. Mice bodyweight dynamics after transportation to the launch site.Differences significant at p,0.05 are marked with an asterisk.Transportation did not seriously affect the mice, as can be concluded from a slight drop of bodyweight and its rapid recovery.doi:10.1371/journal.pone.0104830.g005",
+          "label": "Figure 5 .",
+          "type": "figure",
+          "image_path": "figures/fig_5.png"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "Climate",
+      "summary": "Environmental parameters in the biosatellite, climatic chamber, and animal facility were closely matched and within the acceptable range for rodent housing.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Mice Condition After Flight",
+      "summary": "Survival rates were 36% in the flight experiment and 84% in the ground control. Loss of mice in one flight assembly resulted from a food distribution system malfunction. Upon examination, 25% of surviving SF mice had limb injuries and 38% had tail injuries.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Mice Behavior During the Flight",
+      "summary": "Extensive video data from the Bion habitats was analyzed to understand fatalities and injuries. Video quality decreased over time due to floating liquids and debris obscuring the camera lens. There was no evidence of fighting or agonistic behavior observed in the video records.",
+      "figures": [
+        {
+          "id": "fig_6",
+          "order": 6,
+          "caption": "Figure 6.A representative photograph of mice in the flight habitats.Note that mice occupy the floor grid before launch (upper row) and cling to the feeder (lower row) in microgravity.The same cages are shown.doi:10.1371/journal.pone.0104830.g006",
+          "label": "Figure 6 .Figure 7 .",
+          "type": "figure",
+          "image_path": "figures/fig_6.png"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "Examination at the Landing Site",
+      "summary": "Examination after the flight revealed motor function impairment, excessive toe spreading, and impaired righting reaction. Excessive urination with colorless urine was also noted.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Body Weight Data",
+      "summary": "Post-flight nutritional status varied: most mice maintained or gained weight, while some were underweight or overweight. Bodyweight differences between spaceflight, ground control and vivarium control groups were not significant. Bodyweight increased in all groups after the experiment. Discrepancies in weight gain may have been due to limited exercise opportunities in microgravity and partial loss of mice during the flight, leading to excesses of food available to the survivors.",
+      "figures": [
+        {
+          "id": "fig_7",
+          "order": 7,
+          "caption": "Figure 8. Post-flight open field behavior parameters expressed as percent of pre-flight background values.Total (A), center (B) and periphery (C) distance moved, rearing frequency (D), center entries frequency (E), time in center (F), latency to the first center zone entry (G) and grooming duration (H).SF mice displayed reduced activity compared to any of the control groups (GC, SFV or GCV).Mice housed in habitats (SF and GC) were reluctant to explore the center of the arena.Statistical analysis was performed using Mann-Whitney test (*2p,0.05,**2p,0.01,***2 p, 0.005 and ****2p,0.0001,ns -not significant or the p value is indicated).doi:10.1371/journal.pone.0104830.g008",
+          "label": "Figure 8 .",
+          "type": "figure",
+          "image_path": "figures/fig_7.png"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "Behavior in the Open-field Test",
+      "summary": "After spaceflight, mice were less active in the open field, with reduced distance traveled and rearing frequency, and increased grooming duration. Mice housed in small habitats displayed more pronounced thigmotaxis, indicating increased anxiety.",
+      "figures": [
+        {
+          "id": "fig_8",
+          "order": 8
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "Post-flight Adjustment of Experimental Groups",
+      "summary": "Due to mice loss in flight, the number of control mice was adjusted. The number of control mice for in vitro studies was decreased proportionately to the number of SF animals available. In vivo study groups were not altered to obtain a better estimate of the behavioral parameters.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Implementation of the Scientific Program",
+      "summary": "Despite animal loss, the scientific program was fully implemented. Hemodynamic and behavioral data were collected throughout the flight. Dissection of SF and SFV mice started 12 hours after landing, and recovery was followed for 7 days in the in vivo subgroup of SF mice before dissection. Joint effort resulted in over 70 distinct hypothesis-driven studies.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": "The Bion-M 1 flight was a unique automated mission with living animals, using male mice, which required careful group selection for social housing. The training program aimed to ensure mice adaptation to stressful spaceflight conditions, collect baseline data, select homogenous groups, and promote collection of less variable data. Group-housed male mice can be successfully employed in space biomedical research following procedures outlined in this study. Failures were related to hardware malfunction and microgravity-related changes in mouse behavior. Moving parts within the habitat present potential risks. The experiment introduced implantable telemetry in small laboratory animals.",
+  "keywords": [
+    "bion-m 1",
+    "spaceflight",
+    "microgravity",
+    "mice",
+    "telemetry",
+    "group housing",
+    "behavioral tests",
+    "physiological adaptation",
+    "paste diet",
+    "animal training"
+  ],
+  "topics": [
+    "space biology",
+    "animal physiology",
+    "behavioral science"
+  ],
+  "_meta": {
+    "paper_id": "sha256:2d8ee8d937c8188f740087ea13cc51578361e94b613865c6c5ca76675a9bf5a2",
+    "paper_title": "Mice in Bion-M 1 Space Mission: Training and Selection",
+    "generated_at": "2025-10-04T18:16:17Z",
+    "word_count": 1179,
+    "figures": [
+      "fig_2",
+      "fig_3",
+      "fig_4",
+      "fig_5",
+      "fig_6",
+      "fig_7",
+      "fig_8"
+    ],
+    "equations": [],
+    "keywords": [
+      "bion-m 1",
+      "spaceflight",
+      "microgravity",
+      "mice",
+      "telemetry",
+      "group housing",
+      "behavioral tests",
+      "physiological adaptation",
+      "paste diet",
+      "animal training"
+    ],
+    "topics": [
+      "space biology",
+      "animal physiology",
+      "behavioral science"
+    ],
+    "missing_figures": [
+      "fig_8"
+    ],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 9426,
+      "completion_tokens": 2466,
+      "total_tokens": 11892,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000943,
+      "output_usd": 0.000986,
+      "total_usd": 0.001929
+    },
+    "cost": {
+      "input_usd": 0.000943,
+      "output_usd": 0.000986,
+      "total_usd": 0.001929
+    }
+  }
+}

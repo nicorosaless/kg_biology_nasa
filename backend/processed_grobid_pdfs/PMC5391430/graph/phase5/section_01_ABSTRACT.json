@@ -1,0 +1,516 @@
+{
+  "paper_id": "PMC5391430",
+  "section": "ABSTRACT",
+  "n_nodes": 11,
+  "n_edges": 55,
+  "nodes": [
+    {
+      "id": 12,
+      "label": "compound",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 7,
+        "char_start": 1369,
+        "char_end": 1377,
+        "anchor": "PMC5391430_1369_1377",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 13,
+      "label": "pullula",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 7,
+        "char_start": 1452,
+        "char_end": 1459,
+        "anchor": "PMC5391430_1452_1459",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 14,
+      "label": "pullulan",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 7,
+        "char_start": 1490,
+        "char_end": 1498,
+        "anchor": "PMC5391430_1490_1498",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 15,
+      "label": "glucose",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 7,
+        "char_start": 1524,
+        "char_end": 1531,
+        "anchor": "PMC5391430_1524_1531",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 18,
+      "label": "factors",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 7,
+        "char_start": 1742,
+        "char_end": 1749,
+        "anchor": "PMC5391430_1742_1749",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 19,
+      "label": "Beau",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 7,
+        "char_start": 1781,
+        "char_end": 1785,
+        "anchor": "PMC5391430_1781_1785",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 21,
+      "label": "Gen",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 7,
+        "char_start": 1915,
+        "char_end": 1918,
+        "anchor": "PMC5391430_1915_1918",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 23,
+      "label": "Beau",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 7,
+        "char_start": 2080,
+        "char_end": 2084,
+        "anchor": "PMC5391430_2080_2084",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 25,
+      "label": "Clad",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 7,
+        "char_start": 2168,
+        "char_end": 2172,
+        "anchor": "PMC5391430_2168_2172",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 26,
+      "label": "pullulan",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 7,
+        "char_start": 1490,
+        "char_end": 1498,
+        "anchor": "PMC5391430_1490_1498",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 28,
+      "label": "bassiana",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 7,
+        "char_start": 1791,
+        "char_end": 1799,
+        "anchor": "PMC5391430_1791_1799",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 6,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "id": 7,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 12,
+      "target": 14
+    },
+    {
+      "id": 8,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 12,
+      "target": 15
+    },
+    {
+      "id": 9,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 12,
+      "target": 18
+    },
+    {
+      "id": 10,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 12,
+      "target": 19
+    },
+    {
+      "id": 11,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 12,
+      "target": 21
+    },
+    {
+      "id": 12,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 12,
+      "target": 23
+    },
+    {
+      "id": 13,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 12,
+      "target": 25
+    },
+    {
+      "id": 14,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 12,
+      "target": 26
+    },
+    {
+      "id": 16,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 12,
+      "target": 28
+    },
+    {
+      "id": 17,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 13,
+      "target": 14
+    },
+    {
+      "id": 18,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 13,
+      "target": 15
+    },
+    {
+      "id": 19,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 13,
+      "target": 18
+    },
+    {
+      "id": 20,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 13,
+      "target": 19
+    },
+    {
+      "id": 21,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 13,
+      "target": 21
+    },
+    {
+      "id": 22,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 13,
+      "target": 23
+    },
+    {
+      "id": 23,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 13,
+      "target": 25
+    },
+    {
+      "id": 24,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 13,
+      "target": 26
+    },
+    {
+      "id": 26,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 13,
+      "target": 28
+    },
+    {
+      "id": 27,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 14,
+      "target": 15
+    },
+    {
+      "id": 28,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 14,
+      "target": 18
+    },
+    {
+      "id": 29,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 14,
+      "target": 19
+    },
+    {
+      "id": 30,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 14,
+      "target": 21
+    },
+    {
+      "id": 31,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 14,
+      "target": 23
+    },
+    {
+      "id": 32,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 14,
+      "target": 25
+    },
+    {
+      "id": 33,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 14,
+      "target": 26
+    },
+    {
+      "id": 35,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 14,
+      "target": 28
+    },
+    {
+      "id": 36,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 15,
+      "target": 18
+    },
+    {
+      "id": 37,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 15,
+      "target": 19
+    },
+    {
+      "id": 38,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 15,
+      "target": 21
+    },
+    {
+      "id": 39,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 15,
+      "target": 23
+    },
+    {
+      "id": 40,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 15,
+      "target": 25
+    },
+    {
+      "id": 41,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 15,
+      "target": 26
+    },
+    {
+      "id": 43,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 15,
+      "target": 28
+    },
+    {
+      "id": 44,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 18,
+      "target": 19
+    },
+    {
+      "id": 45,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 18,
+      "target": 21
+    },
+    {
+      "id": 46,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 18,
+      "target": 23
+    },
+    {
+      "id": 47,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 18,
+      "target": 25
+    },
+    {
+      "id": 48,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 18,
+      "target": 26
+    },
+    {
+      "id": 50,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 18,
+      "target": 28
+    },
+    {
+      "id": 51,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 19,
+      "target": 21
+    },
+    {
+      "id": 52,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 19,
+      "target": 23
+    },
+    {
+      "id": 53,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 19,
+      "target": 25
+    },
+    {
+      "id": 54,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 19,
+      "target": 26
+    },
+    {
+      "id": 56,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 19,
+      "target": 28
+    },
+    {
+      "id": 57,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 21,
+      "target": 23
+    },
+    {
+      "id": 58,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 21,
+      "target": 25
+    },
+    {
+      "id": 59,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 21,
+      "target": 26
+    },
+    {
+      "id": 61,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 21,
+      "target": 28
+    },
+    {
+      "id": 62,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 23,
+      "target": 25
+    },
+    {
+      "id": 63,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 23,
+      "target": 26
+    },
+    {
+      "id": 65,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 23,
+      "target": 28
+    },
+    {
+      "id": 66,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 25,
+      "target": 26
+    },
+    {
+      "id": 68,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 25,
+      "target": 28
+    },
+    {
+      "id": 70,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 26,
+      "target": 28
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 13,
+      "largest_component": 11,
+      "removed_components": [
+        4
+      ]
+    },
+    "page": 1
+  }
+}

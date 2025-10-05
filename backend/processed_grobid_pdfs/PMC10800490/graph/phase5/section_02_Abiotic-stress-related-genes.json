@@ -1,0 +1,252 @@
+{
+  "paper_id": "PMC10800490",
+  "section": "Abiotic stress related genes",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 499,
+      "label": "DIV",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Abiotic stress related genes",
+        "sentence_id": 138,
+        "char_start": 28890,
+        "char_end": 28893,
+        "anchor": "PMC10800490_28890_28893",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 500,
+      "label": "NFY",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Abiotic stress related genes",
+        "sentence_id": 138,
+        "char_start": 28861,
+        "char_end": 28864,
+        "anchor": "PMC10800490_28861_28864",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 501,
+      "label": "GBF3",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Abiotic stress related genes",
+        "sentence_id": 138,
+        "char_start": 28877,
+        "char_end": 28881,
+        "anchor": "PMC10800490_28877_28881",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 502,
+      "label": "DIV2",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Abiotic stress related genes",
+        "sentence_id": 138,
+        "char_start": 28890,
+        "char_end": 28894,
+        "anchor": "PMC10800490_28890_28894",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 503,
+      "label": "HB7",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Abiotic stress related genes",
+        "sentence_id": 138,
+        "char_start": 28896,
+        "char_end": 28899,
+        "anchor": "PMC10800490_28896_28899",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 504,
+      "label": "NAC032",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Abiotic stress related genes",
+        "sentence_id": 138,
+        "char_start": 28901,
+        "char_end": 28907,
+        "anchor": "PMC10800490_28901_28907",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 505,
+      "label": "NAC102",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Abiotic stress related genes",
+        "sentence_id": 138,
+        "char_start": 28909,
+        "char_end": 28915,
+        "anchor": "PMC10800490_28909_28915",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1171,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 499,
+      "target": 500
+    },
+    {
+      "id": 1172,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 499,
+      "target": 501
+    },
+    {
+      "id": 1173,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 499,
+      "target": 502
+    },
+    {
+      "id": 1174,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 499,
+      "target": 503
+    },
+    {
+      "id": 1175,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 499,
+      "target": 504
+    },
+    {
+      "id": 1176,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 499,
+      "target": 505
+    },
+    {
+      "id": 1177,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 500,
+      "target": 501
+    },
+    {
+      "id": 1178,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 500,
+      "target": 502
+    },
+    {
+      "id": 1179,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 500,
+      "target": 503
+    },
+    {
+      "id": 1180,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 500,
+      "target": 504
+    },
+    {
+      "id": 1181,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 500,
+      "target": 505
+    },
+    {
+      "id": 1182,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 501,
+      "target": 502
+    },
+    {
+      "id": 1183,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 501,
+      "target": 503
+    },
+    {
+      "id": 1184,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 501,
+      "target": 504
+    },
+    {
+      "id": 1185,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 501,
+      "target": 505
+    },
+    {
+      "id": 1186,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 502,
+      "target": 503
+    },
+    {
+      "id": 1187,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 502,
+      "target": 504
+    },
+    {
+      "id": 1188,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 502,
+      "target": 505
+    },
+    {
+      "id": 1189,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 503,
+      "target": 504
+    },
+    {
+      "id": 1190,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 503,
+      "target": 505
+    },
+    {
+      "id": 1191,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 504,
+      "target": 505
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 5,
+      "largest_component": 7,
+      "removed_components": [
+        4
+      ]
+    },
+    "page": 8
+  }
+}

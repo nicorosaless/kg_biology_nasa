@@ -1,0 +1,117 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "Spaceflight-Induced Central Nervous System Adaptations",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 2690,
+      "label": "IIH",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight-Induced Central Nervous System Adaptations",
+        "sentence_id": 872,
+        "char_start": 146407,
+        "char_end": 146410,
+        "anchor": "PMC4385880_146407_146410",
+        "page": 68,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2691,
+      "label": "chronic",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight-Induced Central Nervous System Adaptations",
+        "sentence_id": 872,
+        "char_start": 146428,
+        "char_end": 146435,
+        "anchor": "PMC4385880_146428_146435",
+        "page": 68,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2692,
+      "label": "headache",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight-Induced Central Nervous System Adaptations",
+        "sentence_id": 872,
+        "char_start": 146436,
+        "char_end": 146444,
+        "anchor": "PMC4385880_146436_146444",
+        "page": 68,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2693,
+      "label": "IIH",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight-Induced Central Nervous System Adaptations",
+        "sentence_id": 872,
+        "char_start": 146407,
+        "char_end": 146410,
+        "anchor": "PMC4385880_146407_146410",
+        "page": 68,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 2566,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2690,
+      "target": 2691
+    },
+    {
+      "id": 2567,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2690,
+      "target": 2692
+    },
+    {
+      "id": 2568,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2690,
+      "target": 2693
+    },
+    {
+      "id": 2569,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2691,
+      "target": 2692
+    },
+    {
+      "id": 2570,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2691,
+      "target": 2693
+    },
+    {
+      "id": 2571,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2692,
+      "target": 2693
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 4,
+      "largest_component": 4,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 68
+  }
+}

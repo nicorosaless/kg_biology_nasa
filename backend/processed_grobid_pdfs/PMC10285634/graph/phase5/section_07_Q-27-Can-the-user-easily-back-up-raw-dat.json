@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC10285634",
+  "section": "Q 27. Can the user easily back-up raw data to analyze on another computer?",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 121,
+      "label": "iNSiGHT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Q 27. Can the user easily back-up raw data to analyze on another computer?",
+        "sentence_id": 112,
+        "char_start": 13174,
+        "char_end": 13181,
+        "anchor": "PMC10285634_13174_13181",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 122,
+      "label": "iNSiGHT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Q 27. Can the user easily back-up raw data to analyze on another computer?",
+        "sentence_id": 112,
+        "char_start": 13174,
+        "char_end": 13181,
+        "anchor": "PMC10285634_13174_13181",
+        "page": 9,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 63,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 122
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 1,
+      "largest_component": 2
+    },
+    "page": 9
+  }
+}

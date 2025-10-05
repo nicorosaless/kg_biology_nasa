@@ -1,0 +1,119 @@
+{
+  "paper_id": "PMC6387434",
+  "section": "MicroRNA (miRNA) Predictions",
+  "n_nodes": 7,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 728,
+      "label": "ClueGo",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "MicroRNA (miRNA) Predictions",
+        "sentence_id": 257,
+        "char_start": 56697,
+        "char_end": 56703,
+        "anchor": "PMC6387434_56697_56703"
+      }
+    },
+    {
+      "id": 730,
+      "label": "ClueGo",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "MicroRNA (miRNA) Predictions",
+        "sentence_id": 257,
+        "char_start": 56697,
+        "char_end": 56703,
+        "anchor": "PMC6387434_56697_56703"
+      }
+    },
+    {
+      "id": 731,
+      "label": "predict",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "MicroRNA (miRNA) Predictions",
+        "sentence_id": 258,
+        "char_start": 56726,
+        "char_end": 56733,
+        "anchor": "PMC6387434_56726_56733"
+      }
+    },
+    {
+      "id": 732,
+      "label": "miRNAs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "MicroRNA (miRNA) Predictions",
+        "sentence_id": 258,
+        "char_start": 56734,
+        "char_end": 56740,
+        "anchor": "PMC6387434_56734_56740"
+      }
+    },
+    {
+      "id": 734,
+      "label": "miRNAs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "MicroRNA (miRNA) Predictions",
+        "sentence_id": 259,
+        "char_start": 56883,
+        "char_end": 56889,
+        "anchor": "PMC6387434_56883_56889"
+      }
+    },
+    {
+      "id": 735,
+      "label": "ClueGo",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "MicroRNA (miRNA) Predictions",
+        "sentence_id": 259,
+        "char_start": 56826,
+        "char_end": 56832,
+        "anchor": "PMC6387434_56826_56832"
+      }
+    },
+    {
+      "id": 737,
+      "label": "directionality of",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "MicroRNA (miRNA) Predictions",
+        "sentence_id": 260,
+        "char_start": 56958,
+        "char_end": 56975,
+        "anchor": "PMC6387434_56958_56975"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 700,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 728,
+      "target": 730
+    },
+    {
+      "id": 702,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 731,
+      "target": 732
+    },
+    {
+      "id": 705,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 734,
+      "target": 735
+    }
+  ]
+}

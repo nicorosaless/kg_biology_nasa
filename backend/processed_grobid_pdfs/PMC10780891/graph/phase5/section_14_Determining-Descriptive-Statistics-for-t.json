@@ -1,0 +1,158 @@
+{
+  "paper_id": "PMC10780891",
+  "section": "Determining Descriptive Statistics for the Sample",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 736,
+      "label": "Epson",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Determining Descriptive Statistics for the Sample",
+        "sentence_id": 211,
+        "char_start": 44514,
+        "char_end": 44519,
+        "anchor": "PMC10780891_44514_44519",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 738,
+      "label": "Eps",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Determining Descriptive Statistics for the Sample",
+        "sentence_id": 211,
+        "char_start": 44551,
+        "char_end": 44554,
+        "anchor": "PMC10780891_44551_44554",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 739,
+      "label": "Epson",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Determining Descriptive Statistics for the Sample",
+        "sentence_id": 211,
+        "char_start": 44551,
+        "char_end": 44556,
+        "anchor": "PMC10780891_44551_44556",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 740,
+      "label": "Suwa",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Determining Descriptive Statistics for the Sample",
+        "sentence_id": 211,
+        "char_start": 44558,
+        "char_end": 44562,
+        "anchor": "PMC10780891_44558_44562",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 741,
+      "label": "Japan",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Determining Descriptive Statistics for the Sample",
+        "sentence_id": 211,
+        "char_start": 44564,
+        "char_end": 44569,
+        "anchor": "PMC10780891_44564_44569",
+        "page": 13,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1105,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 736,
+      "target": 738
+    },
+    {
+      "id": 1106,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 736,
+      "target": 739
+    },
+    {
+      "id": 1107,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 736,
+      "target": 740
+    },
+    {
+      "id": 1108,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 736,
+      "target": 741
+    },
+    {
+      "id": 1110,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 738,
+      "target": 739
+    },
+    {
+      "id": 1111,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 738,
+      "target": 740
+    },
+    {
+      "id": 1112,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 738,
+      "target": 741
+    },
+    {
+      "id": 1114,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 739,
+      "target": 740
+    },
+    {
+      "id": 1115,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 739,
+      "target": 741
+    },
+    {
+      "id": 1117,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 740,
+      "target": 741
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 11,
+      "largest_component": 5,
+      "removed_components": [
+        5,
+        3,
+        3
+      ]
+    },
+    "page": 13
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "paper_id": "PMC6130020",
+  "section": "Sugar in Regulation of Photosynthesis",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 356,
+      "label": "Koch",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sugar in Regulation of Photosynthesis",
+        "sentence_id": 76,
+        "char_start": 18600,
+        "char_end": 18604,
+        "anchor": "PMC6130020_18600_18604",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 357,
+      "label": "Sheen",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sugar in Regulation of Photosynthesis",
+        "sentence_id": 76,
+        "char_start": 18902,
+        "char_end": 18907,
+        "anchor": "PMC6130020_18902_18907",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 346,
+      "label": "Sugar",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sugar in Regulation of Photosynthesis",
+        "sentence_id": 76,
+        "char_start": 18630,
+        "char_end": 18635,
+        "anchor": "PMC6130020_18630_18635",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 349,
+      "label": "Sugar",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sugar in Regulation of Photosynthesis",
+        "sentence_id": 76,
+        "char_start": 18768,
+        "char_end": 18773,
+        "anchor": "PMC6130020_18768_18773",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 350,
+      "label": "activity",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sugar in Regulation of Photosynthesis",
+        "sentence_id": 76,
+        "char_start": 18804,
+        "char_end": 18812,
+        "anchor": "PMC6130020_18804_18812",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 468,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 346,
+      "target": 349
+    },
+    {
+      "id": 469,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 346,
+      "target": 350
+    },
+    {
+      "id": 470,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 346,
+      "target": 356
+    },
+    {
+      "id": 471,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 346,
+      "target": 357
+    },
+    {
+      "id": 472,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 349,
+      "target": 350
+    },
+    {
+      "id": 473,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 349,
+      "target": 356
+    },
+    {
+      "id": 474,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 349,
+      "target": 357
+    },
+    {
+      "id": 475,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 350,
+      "target": 356
+    },
+    {
+      "id": 476,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 350,
+      "target": 357
+    },
+    {
+      "id": 477,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 356,
+      "target": 357
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 23,
+      "largest_component": 5,
+      "removed_components": [
+        4,
+        4,
+        2,
+        2
+      ]
+    },
+    "page": 5
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "paper_id": "PMC10800490",
+  "section": "Conserved and unique transcriptional changes in microgravity",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 710,
+      "label": "Col",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Conserved and unique transcriptional changes in microgravity",
+        "sentence_id": 198,
+        "char_start": 41808,
+        "char_end": 41811,
+        "anchor": "PMC10800490_41808_41811",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 711,
+      "label": "Ler",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Conserved and unique transcriptional changes in microgravity",
+        "sentence_id": 198,
+        "char_start": 41815,
+        "char_end": 41818,
+        "anchor": "PMC10800490_41815_41818",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 712,
+      "label": "Cvi",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Conserved and unique transcriptional changes in microgravity",
+        "sentence_id": 198,
+        "char_start": 41827,
+        "char_end": 41830,
+        "anchor": "PMC10800490_41827_41830",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 713,
+      "label": "Col",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Conserved and unique transcriptional changes in microgravity",
+        "sentence_id": 198,
+        "char_start": 41888,
+        "char_end": 41891,
+        "anchor": "PMC10800490_41888_41891",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 714,
+      "label": "Ler",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Conserved and unique transcriptional changes in microgravity",
+        "sentence_id": 198,
+        "char_start": 41815,
+        "char_end": 41818,
+        "anchor": "PMC10800490_41815_41818",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 715,
+      "label": "Ler",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Conserved and unique transcriptional changes in microgravity",
+        "sentence_id": 198,
+        "char_start": 41989,
+        "char_end": 41992,
+        "anchor": "PMC10800490_41989_41992",
+        "page": 12,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1408,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 710,
+      "target": 711
+    },
+    {
+      "id": 1409,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 710,
+      "target": 712
+    },
+    {
+      "id": 1410,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 710,
+      "target": 713
+    },
+    {
+      "id": 1411,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 710,
+      "target": 714
+    },
+    {
+      "id": 1412,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 710,
+      "target": 715
+    },
+    {
+      "id": 1413,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 711,
+      "target": 712
+    },
+    {
+      "id": 1414,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 711,
+      "target": 713
+    },
+    {
+      "id": 1415,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 711,
+      "target": 714
+    },
+    {
+      "id": 1416,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 711,
+      "target": 715
+    },
+    {
+      "id": 1417,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 712,
+      "target": 713
+    },
+    {
+      "id": 1418,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 712,
+      "target": 714
+    },
+    {
+      "id": 1419,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 712,
+      "target": 715
+    },
+    {
+      "id": 1420,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 713,
+      "target": 714
+    },
+    {
+      "id": 1421,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 713,
+      "target": 715
+    },
+    {
+      "id": 1422,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 714,
+      "target": 715
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 7,
+      "removed_orphans": 17,
+      "largest_component": 6,
+      "removed_components": [
+        4,
+        4,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 12
+  }
+}

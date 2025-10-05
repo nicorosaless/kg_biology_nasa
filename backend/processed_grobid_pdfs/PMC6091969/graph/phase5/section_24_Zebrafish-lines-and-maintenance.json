@@ -1,0 +1,157 @@
+{
+  "paper_id": "PMC6091969",
+  "section": "Zebrafish lines and maintenance",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 448,
+      "label": "Tol2",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Zebrafish lines and maintenance",
+        "sentence_id": 145,
+        "char_start": 37097,
+        "char_end": 37101,
+        "anchor": "PMC6091969_37097_37101",
+        "page": 18,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 450,
+      "label": "BFP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Zebrafish lines and maintenance",
+        "sentence_id": 145,
+        "char_start": 37325,
+        "char_end": 37328,
+        "anchor": "PMC6091969_37325_37328",
+        "page": 18,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 445,
+      "label": "mRNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Zebrafish lines and maintenance",
+        "sentence_id": 145,
+        "char_start": 37198,
+        "char_end": 37202,
+        "anchor": "PMC6091969_37198_37202",
+        "page": 18,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 446,
+      "label": "neutrophils",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Zebrafish lines and maintenance",
+        "sentence_id": 145,
+        "char_start": 37343,
+        "char_end": 37354,
+        "anchor": "PMC6091969_37343_37354",
+        "page": 18,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 447,
+      "label": "lization",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Zebrafish lines and maintenance",
+        "sentence_id": 145,
+        "char_start": 37377,
+        "char_end": 37385,
+        "anchor": "PMC6091969_37377_37385",
+        "page": 18,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 557,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 445,
+      "target": 446
+    },
+    {
+      "id": 558,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 445,
+      "target": 447
+    },
+    {
+      "id": 559,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 445,
+      "target": 448
+    },
+    {
+      "id": 561,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 445,
+      "target": 450
+    },
+    {
+      "id": 562,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 447,
+      "target": 446
+    },
+    {
+      "id": 563,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 448,
+      "target": 446
+    },
+    {
+      "id": 565,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 450,
+      "target": 446
+    },
+    {
+      "id": 566,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 447,
+      "target": 448
+    },
+    {
+      "id": 568,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 447,
+      "target": 450
+    },
+    {
+      "id": 570,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 448,
+      "target": 450
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 2,
+      "largest_component": 5,
+      "removed_components": [
+        4,
+        3
+      ]
+    },
+    "page": 18
+  }
+}

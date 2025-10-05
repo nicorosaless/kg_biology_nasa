@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC7996555",
+  "section": "Arabidopsis Root Growth and Cell Wall Biosynthesis in Spaceflight Microgravity",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 361,
+      "label": "Arab",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Arabidopsis Root Growth and Cell Wall Biosynthesis in Spaceflight Microgravity",
+        "sentence_id": 180,
+        "char_start": 31407,
+        "char_end": 31411,
+        "anchor": "PMC7996555_31407_31411",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 362,
+      "label": "LASSO",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Arabidopsis Root Growth and Cell Wall Biosynthesis in Spaceflight Microgravity",
+        "sentence_id": 180,
+        "char_start": 31390,
+        "char_end": 31395,
+        "anchor": "PMC7996555_31390_31395",
+        "page": 12,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 155,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 361,
+      "target": 362
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 6,
+      "largest_component": 2
+    },
+    "page": 12
+  }
+}

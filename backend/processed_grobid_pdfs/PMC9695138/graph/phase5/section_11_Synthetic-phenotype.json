@@ -1,0 +1,724 @@
+{
+  "paper_id": "PMC9695138",
+  "section": "Synthetic PHENOTYPE",
+  "n_nodes": 34,
+  "n_edges": 33,
+  "nodes": [
+    {
+      "id": 9,
+      "label": "membrane permeability",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 4,
+        "char_start": 945,
+        "char_end": 966,
+        "anchor": "PMC9695138_945_966",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 19,
+      "label": "degradation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 13,
+        "char_start": 2799,
+        "char_end": 2810,
+        "anchor": "PMC9695138_2799_2810",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 20,
+      "label": "weightlessness",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 14,
+        "char_start": 3008,
+        "char_end": 3022,
+        "anchor": "PMC9695138_3008_3022",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 21,
+      "label": "weightlessness",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 15,
+        "char_start": 3106,
+        "char_end": 3120,
+        "anchor": "PMC9695138_3106_3120",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 24,
+      "label": "altered gravity",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 16,
+        "char_start": 3528,
+        "char_end": 3543,
+        "anchor": "PMC9695138_3528_3543",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 42,
+      "label": "influence of gravity",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 24,
+        "char_start": 4741,
+        "char_end": 4761,
+        "anchor": "PMC9695138_4741_4761",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 44,
+      "label": "gravity dependence",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 25,
+        "char_start": 4833,
+        "char_end": 4851,
+        "anchor": "PMC9695138_4833_4851",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 51,
+      "label": "gravitational",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 26,
+        "char_start": 5182,
+        "char_end": 5195,
+        "anchor": "PMC9695138_5182_5195",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 52,
+      "label": "surface tension",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 26,
+        "char_start": 5238,
+        "char_end": 5253,
+        "anchor": "PMC9695138_5238_5253",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 76,
+      "label": "ordered domains",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 33,
+        "char_start": 6646,
+        "char_end": 6661,
+        "anchor": "PMC9695138_6646_6661",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 93,
+      "label": "microdomains",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Lipid Rafts in Plants",
+        "sentence_id": 40,
+        "char_start": 7969,
+        "char_end": 7981,
+        "anchor": "PMC9695138_7969_7981",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 166,
+      "label": "components",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Lipid Rafts in Plants",
+        "sentence_id": 53,
+        "char_start": 11323,
+        "char_end": 11333,
+        "anchor": "PMC9695138_11323_11333",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 169,
+      "label": "id raft",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Lipid Rafts in Plants",
+        "sentence_id": 53,
+        "char_start": 11448,
+        "char_end": 11455,
+        "anchor": "PMC9695138_11448_11455",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 170,
+      "label": "cell death",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Lipid Rafts in Plants",
+        "sentence_id": 53,
+        "char_start": 11475,
+        "char_end": 11485,
+        "anchor": "PMC9695138_11475_11485",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 209,
+      "label": "mechanisms",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Lipid Rafts in Plants",
+        "sentence_id": 66,
+        "char_start": 13192,
+        "char_end": 13202,
+        "anchor": "PMC9695138_13192_13202",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 211,
+      "label": "cold stress",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Lipid Rafts in Plants",
+        "sentence_id": 66,
+        "char_start": 13245,
+        "char_end": 13256,
+        "anchor": "PMC9695138_13245_13256",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 274,
+      "label": "mechanisms",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Lipid Rafts under Clinorotation",
+        "sentence_id": 82,
+        "char_start": 15632,
+        "char_end": 15642,
+        "anchor": "PMC9695138_15632_15642",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 276,
+      "label": "cold stress",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Lipid Rafts under Clinorotation",
+        "sentence_id": 82,
+        "char_start": 15685,
+        "char_end": 15696,
+        "anchor": "PMC9695138_15685_15696",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 465,
+      "label": "expansion",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Laurdan Staining",
+        "sentence_id": 127,
+        "char_start": 25250,
+        "char_end": 25259,
+        "anchor": "PMC9695138_25250_25259",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 494,
+      "label": "expansion",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Laurdan Staining",
+        "sentence_id": 136,
+        "char_start": 26884,
+        "char_end": 26893,
+        "anchor": "PMC9695138_26884_26893",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 505,
+      "label": "gravity resistance",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Laurdan Staining",
+        "sentence_id": 140,
+        "char_start": 27516,
+        "char_end": 27534,
+        "anchor": "PMC9695138_27516_27534",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 506,
+      "label": "clinorotation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Laurdan Staining",
+        "sentence_id": 140,
+        "char_start": 27592,
+        "char_end": 27605,
+        "anchor": "PMC9695138_27592_27605",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 507,
+      "label": "weightlessness",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Laurdan Staining",
+        "sentence_id": 140,
+        "char_start": 27620,
+        "char_end": 27634,
+        "anchor": "PMC9695138_27620_27634",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 517,
+      "label": "gravity resistance",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Laurdan Staining",
+        "sentence_id": 144,
+        "char_start": 28168,
+        "char_end": 28186,
+        "anchor": "PMC9695138_28168_28186",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 518,
+      "label": "clinorotation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Laurdan Staining",
+        "sentence_id": 144,
+        "char_start": 28244,
+        "char_end": 28257,
+        "anchor": "PMC9695138_28244_28257",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 519,
+      "label": "weightlessness",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Laurdan Staining",
+        "sentence_id": 144,
+        "char_start": 28272,
+        "char_end": 28286,
+        "anchor": "PMC9695138_28272_28286",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 531,
+      "label": "microgravity",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "How Do Lipid Raft Studies Advance the Understanding of the Gravisensitivity of Plant Cells?",
+        "sentence_id": 150,
+        "char_start": 29520,
+        "char_end": 29532,
+        "anchor": "PMC9695138_29520_29532",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 534,
+      "label": "elongating",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "How Do Lipid Raft Studies Advance the Understanding of the Gravisensitivity of Plant Cells?",
+        "sentence_id": 150,
+        "char_start": 29800,
+        "char_end": 29810,
+        "anchor": "PMC9695138_29800_29810",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 542,
+      "label": "ypocotyls",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "How Do Lipid Raft Studies Advance the Understanding of the Gravisensitivity of Plant Cells?",
+        "sentence_id": 152,
+        "char_start": 30276,
+        "char_end": 30285,
+        "anchor": "PMC9695138_30276_30285",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 554,
+      "label": "softening",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "How Do Lipid Raft Studies Advance the Understanding of the Gravisensitivity of Plant Cells?",
+        "sentence_id": 157,
+        "char_start": 31319,
+        "char_end": 31328,
+        "anchor": "PMC9695138_31319_31328",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 555,
+      "label": "microgravity",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "How Do Lipid Raft Studies Advance the Understanding of the Gravisensitivity of Plant Cells?",
+        "sentence_id": 157,
+        "char_start": 31332,
+        "char_end": 31344,
+        "anchor": "PMC9695138_31332_31344",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 556,
+      "label": "inorotation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "How Do Lipid Raft Studies Advance the Understanding of the Gravisensitivity of Plant Cells?",
+        "sentence_id": 157,
+        "char_start": 31351,
+        "char_end": 31362,
+        "anchor": "PMC9695138_31351_31362",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 575,
+      "label": "polysaccharides",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "How Do Lipid Raft Studies Advance the Understanding of the Gravisensitivity of Plant Cells?",
+        "sentence_id": 160,
+        "char_start": 32194,
+        "char_end": 32209,
+        "anchor": "PMC9695138_32194_32209",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 577,
+      "label": "microgravity",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "How Do Lipid Raft Studies Advance the Understanding of the Gravisensitivity of Plant Cells?",
+        "sentence_id": 161,
+        "char_start": 32310,
+        "char_end": 32322,
+        "anchor": "PMC9695138_32310_32322",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-9-19",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 19
+    },
+    {
+      "id": "synth-9-20",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 20
+    },
+    {
+      "id": "synth-9-21",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 21
+    },
+    {
+      "id": "synth-9-24",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 24
+    },
+    {
+      "id": "synth-9-42",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 42
+    },
+    {
+      "id": "synth-9-44",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 44
+    },
+    {
+      "id": "synth-9-51",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 51
+    },
+    {
+      "id": "synth-9-52",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 52
+    },
+    {
+      "id": "synth-9-76",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 76
+    },
+    {
+      "id": "synth-9-93",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 93
+    },
+    {
+      "id": "synth-9-166",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 166
+    },
+    {
+      "id": "synth-9-169",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 169
+    },
+    {
+      "id": "synth-9-170",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 170
+    },
+    {
+      "id": "synth-9-209",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 209
+    },
+    {
+      "id": "synth-9-211",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 211
+    },
+    {
+      "id": "synth-9-274",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 274
+    },
+    {
+      "id": "synth-9-276",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 276
+    },
+    {
+      "id": "synth-9-465",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 465
+    },
+    {
+      "id": "synth-9-494",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 494
+    },
+    {
+      "id": "synth-9-505",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 505
+    },
+    {
+      "id": "synth-9-506",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 506
+    },
+    {
+      "id": "synth-9-507",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 507
+    },
+    {
+      "id": "synth-9-517",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 517
+    },
+    {
+      "id": "synth-9-518",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 518
+    },
+    {
+      "id": "synth-9-519",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 519
+    },
+    {
+      "id": "synth-9-531",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 531
+    },
+    {
+      "id": "synth-9-534",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 534
+    },
+    {
+      "id": "synth-9-542",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 542
+    },
+    {
+      "id": "synth-9-554",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 554
+    },
+    {
+      "id": "synth-9-555",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 555
+    },
+    {
+      "id": "synth-9-556",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 556
+    },
+    {
+      "id": "synth-9-575",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 575
+    },
+    {
+      "id": "synth-9-577",
+      "type": "ASSOCIATED",
+      "source": 9,
+      "target": 577
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "PHENOTYPE",
+    "page": null
+  }
+}

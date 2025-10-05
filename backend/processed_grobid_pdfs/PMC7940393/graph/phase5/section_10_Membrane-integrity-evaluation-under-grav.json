@@ -1,0 +1,59 @@
+{
+  "paper_id": "PMC7940393",
+  "section": "Membrane integrity evaluation under gravity and LSMMG conditions",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 708,
+      "label": "diluted",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Membrane integrity evaluation under gravity and LSMMG conditions",
+        "sentence_id": 155,
+        "char_start": 39707,
+        "char_end": 39714,
+        "anchor": "PMC7940393_39707_39714",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 709,
+      "label": "SWT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Membrane integrity evaluation under gravity and LSMMG conditions",
+        "sentence_id": 155,
+        "char_start": 39729,
+        "char_end": 39732,
+        "anchor": "PMC7940393_39729_39732",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1449,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 708,
+      "target": 709
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 10,
+      "largest_component": 2,
+      "removed_components": [
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 5
+  }
+}

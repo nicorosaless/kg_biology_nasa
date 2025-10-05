@@ -1,0 +1,85 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "Orion Structural Testing",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 624,
+      "label": "Orion",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Structural Testing",
+        "sentence_id": 354,
+        "char_start": 65212,
+        "char_end": 65217,
+        "anchor": "PMC10284894_65212_65217",
+        "page": 66,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 622,
+      "label": "Denver",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Structural Testing",
+        "sentence_id": 354,
+        "char_start": 65166,
+        "char_end": 65172,
+        "anchor": "PMC10284894_65166_65172",
+        "page": 66,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 623,
+      "label": "Denver",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Structural Testing",
+        "sentence_id": 354,
+        "char_start": 65166,
+        "char_end": 65172,
+        "anchor": "PMC10284894_65166_65172",
+        "page": 66,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 571,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 622,
+      "target": 623
+    },
+    {
+      "id": 572,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 622,
+      "target": 624
+    },
+    {
+      "id": 573,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 623,
+      "target": 624
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 3,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        2
+      ]
+    },
+    "page": 66
+  }
+}

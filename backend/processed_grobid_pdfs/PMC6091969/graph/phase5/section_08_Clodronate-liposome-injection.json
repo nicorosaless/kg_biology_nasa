@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC6091969",
+  "section": "Clodronate liposome injection",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 486,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Clodronate liposome injection",
+        "sentence_id": 153,
+        "char_start": 38720,
+        "char_end": 38723,
+        "anchor": "PMC6091969_38720_38723",
+        "page": 19,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 487,
+      "label": "Liposoma",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Clodronate liposome injection",
+        "sentence_id": 153,
+        "char_start": 38735,
+        "char_end": 38743,
+        "anchor": "PMC6091969_38735_38743",
+        "page": 19,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 658,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 486,
+      "target": 487
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 5,
+      "largest_component": 2
+    },
+    "page": 19
+  }
+}

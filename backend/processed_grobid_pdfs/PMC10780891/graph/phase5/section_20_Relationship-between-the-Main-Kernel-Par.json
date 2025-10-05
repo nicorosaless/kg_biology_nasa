@@ -1,0 +1,258 @@
+{
+  "paper_id": "PMC10780891",
+  "section": "Relationship between the Main Kernel Parameters and Asymmetry Indicators Obtained in a Non-Traumatic Manner",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 296,
+      "label": "average",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Relationship between the Main Kernel Parameters and Asymmetry Indicators Obtained in a Non-Traumatic Manner",
+        "sentence_id": 68,
+        "char_start": 14000,
+        "char_end": 14007,
+        "anchor": "PMC10780891_14000_14007",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 297,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Relationship between the Main Kernel Parameters and Asymmetry Indicators Obtained in a Non-Traumatic Manner",
+        "sentence_id": 68,
+        "char_start": 14069,
+        "char_end": 14072,
+        "anchor": "PMC10780891_14069_14072",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 298,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Relationship between the Main Kernel Parameters and Asymmetry Indicators Obtained in a Non-Traumatic Manner",
+        "sentence_id": 68,
+        "char_start": 14165,
+        "char_end": 14168,
+        "anchor": "PMC10780891_14165_14168",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 302,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Relationship between the Main Kernel Parameters and Asymmetry Indicators Obtained in a Non-Traumatic Manner",
+        "sentence_id": 68,
+        "char_start": 14400,
+        "char_end": 14403,
+        "anchor": "PMC10780891_14400_14403",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 303,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Relationship between the Main Kernel Parameters and Asymmetry Indicators Obtained in a Non-Traumatic Manner",
+        "sentence_id": 68,
+        "char_start": 14069,
+        "char_end": 14072,
+        "anchor": "PMC10780891_14069_14072",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 304,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Relationship between the Main Kernel Parameters and Asymmetry Indicators Obtained in a Non-Traumatic Manner",
+        "sentence_id": 68,
+        "char_start": 14165,
+        "char_end": 14168,
+        "anchor": "PMC10780891_14165_14168",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 305,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Relationship between the Main Kernel Parameters and Asymmetry Indicators Obtained in a Non-Traumatic Manner",
+        "sentence_id": 68,
+        "char_start": 14400,
+        "char_end": 14403,
+        "anchor": "PMC10780891_14400_14403",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 382,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 296,
+      "target": 297
+    },
+    {
+      "id": 383,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 296,
+      "target": 298
+    },
+    {
+      "id": 384,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 296,
+      "target": 302
+    },
+    {
+      "id": 385,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 296,
+      "target": 303
+    },
+    {
+      "id": 386,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 296,
+      "target": 304
+    },
+    {
+      "id": 387,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 296,
+      "target": 305
+    },
+    {
+      "id": 388,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 297,
+      "target": 298
+    },
+    {
+      "id": 389,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 297,
+      "target": 302
+    },
+    {
+      "id": 390,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 297,
+      "target": 303
+    },
+    {
+      "id": 391,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 297,
+      "target": 304
+    },
+    {
+      "id": 392,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 297,
+      "target": 305
+    },
+    {
+      "id": 393,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 298,
+      "target": 302
+    },
+    {
+      "id": 394,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 298,
+      "target": 303
+    },
+    {
+      "id": 395,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 298,
+      "target": 304
+    },
+    {
+      "id": 396,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 298,
+      "target": 305
+    },
+    {
+      "id": 397,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 302,
+      "target": 303
+    },
+    {
+      "id": 398,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 302,
+      "target": 304
+    },
+    {
+      "id": 399,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 302,
+      "target": 305
+    },
+    {
+      "id": 400,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 303,
+      "target": 304
+    },
+    {
+      "id": 401,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 303,
+      "target": 305
+    },
+    {
+      "id": 402,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 304,
+      "target": 305
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 8,
+      "removed_orphans": 6,
+      "largest_component": 7,
+      "removed_components": [
+        7,
+        4,
+        4,
+        4,
+        3,
+        3,
+        2
+      ]
+    },
+    "page": 4
+  }
+}

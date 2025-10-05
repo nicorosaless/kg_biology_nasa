@@ -1,0 +1,444 @@
+{
+  "paper_id": "PMC6130020",
+  "section": "(untitled) Annexins are multifunctional proteins that",
+  "n_nodes": 10,
+  "n_edges": 45,
+  "nodes": [
+    {
+      "id": 67,
+      "label": "ANN",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Annexins are multifunctional proteins that",
+        "sentence_id": 18,
+        "char_start": 3998,
+        "char_end": 4001,
+        "anchor": "PMC6130020_3998_4001",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 70,
+      "label": "Arabido",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Annexins are multifunctional proteins that",
+        "sentence_id": 18,
+        "char_start": 4051,
+        "char_end": 4058,
+        "anchor": "PMC6130020_4051_4058",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 71,
+      "label": "Annexin",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Annexins are multifunctional proteins that",
+        "sentence_id": 18,
+        "char_start": 3563,
+        "char_end": 3570,
+        "anchor": "PMC6130020_3563_3570",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 72,
+      "label": "Kehr",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Annexins are multifunctional proteins that",
+        "sentence_id": 18,
+        "char_start": 3660,
+        "char_end": 3664,
+        "anchor": "PMC6130020_3660_3664",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 74,
+      "label": "Guelette",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Annexins are multifunctional proteins that",
+        "sentence_id": 18,
+        "char_start": 3745,
+        "char_end": 3753,
+        "anchor": "PMC6130020_3745_3753",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 75,
+      "label": "Clark",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Annexins are multifunctional proteins that",
+        "sentence_id": 18,
+        "char_start": 3927,
+        "char_end": 3932,
+        "anchor": "PMC6130020_3927_3932",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 76,
+      "label": "ANN1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Annexins are multifunctional proteins that",
+        "sentence_id": 18,
+        "char_start": 3998,
+        "char_end": 4002,
+        "anchor": "PMC6130020_3998_4002",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 77,
+      "label": "Clark",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Annexins are multifunctional proteins that",
+        "sentence_id": 18,
+        "char_start": 4074,
+        "char_end": 4079,
+        "anchor": "PMC6130020_4074_4079",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 62,
+      "label": "Annex",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Annexins are multifunctional proteins that",
+        "sentence_id": 18,
+        "char_start": 3563,
+        "char_end": 3568,
+        "anchor": "PMC6130020_3563_3568",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 63,
+      "label": "ANN",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Annexins are multifunctional proteins that",
+        "sentence_id": 18,
+        "char_start": 3693,
+        "char_end": 3696,
+        "anchor": "PMC6130020_3693_3696",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 68,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 62,
+      "target": 63
+    },
+    {
+      "id": 69,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 62,
+      "target": 67
+    },
+    {
+      "id": 70,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 62,
+      "target": 70
+    },
+    {
+      "id": 71,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 62,
+      "target": 71
+    },
+    {
+      "id": 72,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 62,
+      "target": 72
+    },
+    {
+      "id": 74,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 62,
+      "target": 74
+    },
+    {
+      "id": 75,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 62,
+      "target": 75
+    },
+    {
+      "id": 76,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 62,
+      "target": 76
+    },
+    {
+      "id": 77,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 62,
+      "target": 77
+    },
+    {
+      "id": 78,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 63,
+      "target": 67
+    },
+    {
+      "id": 79,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 63,
+      "target": 70
+    },
+    {
+      "id": 80,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 63,
+      "target": 71
+    },
+    {
+      "id": 81,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 63,
+      "target": 72
+    },
+    {
+      "id": 83,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 63,
+      "target": 74
+    },
+    {
+      "id": 84,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 63,
+      "target": 75
+    },
+    {
+      "id": 85,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 63,
+      "target": 76
+    },
+    {
+      "id": 86,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 63,
+      "target": 77
+    },
+    {
+      "id": 87,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 67,
+      "target": 70
+    },
+    {
+      "id": 88,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 67,
+      "target": 71
+    },
+    {
+      "id": 89,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 67,
+      "target": 72
+    },
+    {
+      "id": 91,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 67,
+      "target": 74
+    },
+    {
+      "id": 92,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 67,
+      "target": 75
+    },
+    {
+      "id": 93,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 67,
+      "target": 76
+    },
+    {
+      "id": 94,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 67,
+      "target": 77
+    },
+    {
+      "id": 95,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 70,
+      "target": 71
+    },
+    {
+      "id": 96,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 70,
+      "target": 72
+    },
+    {
+      "id": 98,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 70,
+      "target": 74
+    },
+    {
+      "id": 99,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 70,
+      "target": 75
+    },
+    {
+      "id": 100,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 70,
+      "target": 76
+    },
+    {
+      "id": 101,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 70,
+      "target": 77
+    },
+    {
+      "id": 102,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 71,
+      "target": 72
+    },
+    {
+      "id": 104,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 71,
+      "target": 74
+    },
+    {
+      "id": 105,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 71,
+      "target": 75
+    },
+    {
+      "id": 106,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 71,
+      "target": 76
+    },
+    {
+      "id": 107,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 71,
+      "target": 77
+    },
+    {
+      "id": 109,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 72,
+      "target": 74
+    },
+    {
+      "id": 110,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 72,
+      "target": 75
+    },
+    {
+      "id": 111,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 72,
+      "target": 76
+    },
+    {
+      "id": 112,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 72,
+      "target": 77
+    },
+    {
+      "id": 117,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 74,
+      "target": 75
+    },
+    {
+      "id": 118,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 74,
+      "target": 76
+    },
+    {
+      "id": 119,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 74,
+      "target": 77
+    },
+    {
+      "id": 120,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 75,
+      "target": 76
+    },
+    {
+      "id": 121,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 75,
+      "target": 77
+    },
+    {
+      "id": 122,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 76,
+      "target": 77
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 0,
+      "largest_component": 10,
+      "removed_components": [
+        8,
+        8,
+        7,
+        7
+      ]
+    },
+    "page": 1
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "paper_id": "PMC11888247",
+  "section": "Synthetic GENE_PRODUCT",
+  "n_nodes": 7,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 5,
+      "label": "CKY101",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplemental Figures",
+        "sentence_id": 3,
+        "char_start": 548,
+        "char_end": 554,
+        "anchor": "PMC11888247_548_554",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 6,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplemental Figures",
+        "sentence_id": 3,
+        "char_start": 558,
+        "char_end": 561,
+        "anchor": "PMC11888247_558_561",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 13,
+      "label": "Ep2",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplemental Figures",
+        "sentence_id": 5,
+        "char_start": 1023,
+        "char_end": 1026,
+        "anchor": "PMC11888247_1023_1026",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 14,
+      "label": "Ep2",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplemental Figures",
+        "sentence_id": 5,
+        "char_start": 1111,
+        "char_end": 1114,
+        "anchor": "PMC11888247_1111_1114",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 15,
+      "label": "Ep1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplemental Figures",
+        "sentence_id": 6,
+        "char_start": 1331,
+        "char_end": 1334,
+        "anchor": "PMC11888247_1331_1334",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 18,
+      "label": "NAc",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplemental Figures",
+        "sentence_id": 6,
+        "char_start": 1388,
+        "char_end": 1391,
+        "anchor": "PMC11888247_1388_1391",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 19,
+      "label": "PFC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplemental Figures",
+        "sentence_id": 6,
+        "char_start": 1380,
+        "char_end": 1383,
+        "anchor": "PMC11888247_1380_1383",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-5-6",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "id": "synth-5-13",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 13
+    },
+    {
+      "id": "synth-5-14",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 14
+    },
+    {
+      "id": "synth-5-15",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 15
+    },
+    {
+      "id": "synth-5-18",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 18
+    },
+    {
+      "id": "synth-5-19",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 19
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "GENE_PRODUCT",
+    "page": null
+  }
+}

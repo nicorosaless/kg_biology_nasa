@@ -1,0 +1,58 @@
+{
+  "paper_id": "PMC9862956",
+  "section": "ABSTRACT",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 3,
+      "label": "USB",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 4,
+        "char_start": 655,
+        "char_end": 658,
+        "anchor": "PMC9862956_655_658",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 4,
+      "label": "USB",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 4,
+        "char_start": 655,
+        "char_end": 658,
+        "anchor": "PMC9862956_655_658",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3,
+      "target": 4
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 5,
+      "largest_component": 2,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 1
+  }
+}

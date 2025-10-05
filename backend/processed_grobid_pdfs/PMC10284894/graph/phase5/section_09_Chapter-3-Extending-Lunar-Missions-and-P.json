@@ -1,0 +1,160 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "Chapter 3: Extending Lunar Missions and Preparing for Mars",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 466,
+      "label": "LunaNet",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Chapter 3: Extending Lunar Missions and Preparing for Mars",
+        "sentence_id": 245,
+        "char_start": 46861,
+        "char_end": 46868,
+        "anchor": "PMC10284894_46861_46868",
+        "page": 48,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 467,
+      "label": "robotic",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Chapter 3: Extending Lunar Missions and Preparing for Mars",
+        "sentence_id": 245,
+        "char_start": 46892,
+        "char_end": 46899,
+        "anchor": "PMC10284894_46892_46899",
+        "page": 48,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 468,
+      "label": "network",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Chapter 3: Extending Lunar Missions and Preparing for Mars",
+        "sentence_id": 245,
+        "char_start": 46954,
+        "char_end": 46961,
+        "anchor": "PMC10284894_46954_46961",
+        "page": 48,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 469,
+      "label": "LunaNet",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Chapter 3: Extending Lunar Missions and Preparing for Mars",
+        "sentence_id": 245,
+        "char_start": 46861,
+        "char_end": 46868,
+        "anchor": "PMC10284894_46861_46868",
+        "page": 48,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 470,
+      "label": "Moon",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Chapter 3: Extending Lunar Missions and Preparing for Mars",
+        "sentence_id": 245,
+        "char_start": 46939,
+        "char_end": 46943,
+        "anchor": "PMC10284894_46939_46943",
+        "page": 48,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 452,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 466,
+      "target": 467
+    },
+    {
+      "id": 453,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 466,
+      "target": 468
+    },
+    {
+      "id": 454,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 466,
+      "target": 469
+    },
+    {
+      "id": 455,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 466,
+      "target": 470
+    },
+    {
+      "id": 456,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 467,
+      "target": 468
+    },
+    {
+      "id": 457,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 467,
+      "target": 469
+    },
+    {
+      "id": 458,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 467,
+      "target": 470
+    },
+    {
+      "id": 459,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 468,
+      "target": 469
+    },
+    {
+      "id": 460,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 468,
+      "target": 470
+    },
+    {
+      "id": 461,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 469,
+      "target": 470
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 6,
+      "removed_orphans": 5,
+      "largest_component": 5,
+      "removed_components": [
+        3,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 48
+  }
+}

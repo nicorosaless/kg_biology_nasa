@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC11167060",
+  "section": "Supplementary Data 2: Multi-mission multi-omic DisGeNET over-representation analysis results",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 1,
+      "label": "disease",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplementary Data 2: Multi-mission multi-omic DisGeNET over-representation analysis results",
+        "sentence_id": 0,
+        "char_start": 298,
+        "char_end": 305,
+        "anchor": "PMC11167060_298_305",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2,
+      "label": "DisGeNET",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplementary Data 2: Multi-mission multi-omic DisGeNET over-representation analysis results",
+        "sentence_id": 0,
+        "char_start": 66,
+        "char_end": 74,
+        "anchor": "PMC11167060_66_74",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1,
+      "target": 2
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 6,
+      "largest_component": 2
+    },
+    "page": 1
+  }
+}

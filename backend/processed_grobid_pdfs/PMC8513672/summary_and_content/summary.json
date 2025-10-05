@@ -1,0 +1,114 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "This paper focuses on validating mouse lines used in a study, providing genotypic and expression analyses to confirm the integrity and functionality of specific genetic modifications. The validation includes assessing Cre recombinase activity, floxed Cav1 locus recombination, and relative expression levels of Prox1, Cav1, VEGFR-3, and endothelial nitric oxide synthase (Nos3) in various tissues. The work aims to ensure the reliability of the mouse models for subsequent experiments.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Validation of the mouse lines used in this study.(a) Genotyping results for Lyve1-Cre and Cav1 flox/flox genetics.For Lyve1, the lower band indicates the presence of the Cre insertion.All mice are used as Cav1 flox/flox ",
+        "order": 10000,
+        "forced": true,
+        "image_path": "figures/fig_1.png"
+      }
+    ]
+  },
+  "sections": [],
+  "conclusion": {
+    "heading": "Conclusion",
+    "summary": ""
+  },
+  "keywords": [
+    "mouse models",
+    "genotyping",
+    "cre recombinase",
+    "cav1",
+    "prox1",
+    "vegfr-3",
+    "nos3",
+    "lymph nodes",
+    "adipose tissue",
+    "genetic validation"
+  ],
+  "topics": [
+    "genetics",
+    "molecular biology",
+    "animal models"
+  ],
+  "_meta": {
+    "paper_id": "sha256:19a000fd79f7d2f69209f7c3b4a63a0bbc972aabc9bd880aef6146c302c39256",
+    "paper_title": "",
+    "generated_at": "2025-10-05T10:51:14Z",
+    "word_count": 68,
+    "figures": [
+      "fig_1"
+    ],
+    "equations": [],
+    "keywords": [
+      "mouse models",
+      "genotyping",
+      "cre recombinase",
+      "cav1",
+      "prox1",
+      "vegfr-3",
+      "nos3",
+      "lymph nodes",
+      "adipose tissue",
+      "genetic validation"
+    ],
+    "topics": [
+      "genetics",
+      "molecular biology",
+      "animal models"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 967,
+      "completion_tokens": 269,
+      "total_tokens": 1236,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 9.7e-05,
+      "output_usd": 0.000108,
+      "total_usd": 0.000204
+    },
+    "cost": {
+      "input_usd": 9.7e-05,
+      "output_usd": 0.000108,
+      "total_usd": 0.000204
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [],
+      "corrupted_detected": [
+        "fig_1"
+      ],
+      "original_total": 1,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1"
+      ]
+    }
+  },
+  "figures": [
+    "fig_1"
+  ],
+  "equations": []
+}

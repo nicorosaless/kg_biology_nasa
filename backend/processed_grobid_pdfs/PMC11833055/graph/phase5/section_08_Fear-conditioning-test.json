@@ -1,0 +1,57 @@
+{
+  "paper_id": "PMC11833055",
+  "section": "Fear conditioning test",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 133,
+      "label": "training",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Fear conditioning test",
+        "sentence_id": 80,
+        "char_start": 13184,
+        "char_end": 13192,
+        "anchor": "PMC11833055_13184_13192",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 135,
+      "label": "freezing",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Fear conditioning test",
+        "sentence_id": 80,
+        "char_start": 13259,
+        "char_end": 13267,
+        "anchor": "PMC11833055_13259_13267",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 90,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 133,
+      "target": 135
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 9,
+      "largest_component": 2,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 3
+  }
+}

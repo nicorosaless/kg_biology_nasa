@@ -1,0 +1,310 @@
+{
+  "paper_id": "PMC7940393",
+  "section": "Low-shear modeled microgravity conditions",
+  "n_nodes": 8,
+  "n_edges": 28,
+  "nodes": [
+    {
+      "id": 560,
+      "label": "cultures",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Low-shear modeled microgravity conditions",
+        "sentence_id": 117,
+        "char_start": 32553,
+        "char_end": 32561,
+        "anchor": "PMC7940393_32553_32561",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 561,
+      "label": "cultures",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Low-shear modeled microgravity conditions",
+        "sentence_id": 117,
+        "char_start": 32705,
+        "char_end": 32713,
+        "anchor": "PMC7940393_32705_32713",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 562,
+      "label": "Cells",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Low-shear modeled microgravity conditions",
+        "sentence_id": 117,
+        "char_start": 32752,
+        "char_end": 32757,
+        "anchor": "PMC7940393_32752_32757",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 566,
+      "label": "PRO",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Low-shear modeled microgravity conditions",
+        "sentence_id": 117,
+        "char_start": 33087,
+        "char_end": 33090,
+        "anchor": "PMC7940393_33087_33090",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 568,
+      "label": "HARV",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Low-shear modeled microgravity conditions",
+        "sentence_id": 117,
+        "char_start": 32548,
+        "char_end": 32552,
+        "anchor": "PMC7940393_32548_32552",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 569,
+      "label": "Synergy",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Low-shear modeled microgravity conditions",
+        "sentence_id": 117,
+        "char_start": 32608,
+        "char_end": 32615,
+        "anchor": "PMC7940393_32608_32615",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 570,
+      "label": "HARV",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Low-shear modeled microgravity conditions",
+        "sentence_id": 117,
+        "char_start": 32724,
+        "char_end": 32728,
+        "anchor": "PMC7940393_32724_32728",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 571,
+      "label": "Jena",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Low-shear modeled microgravity conditions",
+        "sentence_id": 117,
+        "char_start": 32931,
+        "char_end": 32935,
+        "anchor": "PMC7940393_32931_32935",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1231,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 560,
+      "target": 561
+    },
+    {
+      "id": 1232,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 560,
+      "target": 562
+    },
+    {
+      "id": 1233,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 560,
+      "target": 566
+    },
+    {
+      "id": 1235,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 560,
+      "target": 568
+    },
+    {
+      "id": 1236,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 560,
+      "target": 569
+    },
+    {
+      "id": 1237,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 560,
+      "target": 570
+    },
+    {
+      "id": 1238,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 560,
+      "target": 571
+    },
+    {
+      "id": 1240,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 561,
+      "target": 562
+    },
+    {
+      "id": 1241,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 561,
+      "target": 566
+    },
+    {
+      "id": 1243,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 561,
+      "target": 568
+    },
+    {
+      "id": 1244,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 561,
+      "target": 569
+    },
+    {
+      "id": 1245,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 561,
+      "target": 570
+    },
+    {
+      "id": 1246,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 561,
+      "target": 571
+    },
+    {
+      "id": 1248,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 562,
+      "target": 566
+    },
+    {
+      "id": 1250,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 562,
+      "target": 568
+    },
+    {
+      "id": 1251,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 562,
+      "target": 569
+    },
+    {
+      "id": 1252,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 562,
+      "target": 570
+    },
+    {
+      "id": 1253,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 562,
+      "target": 571
+    },
+    {
+      "id": 1256,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 566,
+      "target": 568
+    },
+    {
+      "id": 1257,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 566,
+      "target": 569
+    },
+    {
+      "id": 1258,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 566,
+      "target": 570
+    },
+    {
+      "id": 1259,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 566,
+      "target": 571
+    },
+    {
+      "id": 1266,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 568,
+      "target": 569
+    },
+    {
+      "id": 1267,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 568,
+      "target": 570
+    },
+    {
+      "id": 1268,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 568,
+      "target": 571
+    },
+    {
+      "id": 1270,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 569,
+      "target": 570
+    },
+    {
+      "id": 1271,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 569,
+      "target": 571
+    },
+    {
+      "id": 1273,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 570,
+      "target": 571
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 14,
+      "largest_component": 8,
+      "removed_components": [
+        4,
+        2
+      ]
+    },
+    "page": 5
+  }
+}

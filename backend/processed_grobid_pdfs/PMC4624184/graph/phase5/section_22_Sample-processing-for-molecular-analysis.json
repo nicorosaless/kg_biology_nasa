@@ -1,0 +1,310 @@
+{
+  "paper_id": "PMC4624184",
+  "section": "Sample processing for molecular analysis",
+  "n_nodes": 8,
+  "n_edges": 28,
+  "nodes": [
+    {
+      "id": 754,
+      "label": "Photo",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sample processing for molecular analysis",
+        "sentence_id": 228,
+        "char_start": 45181,
+        "char_end": 45186,
+        "anchor": "PMC4624184_45181_45186",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 755,
+      "label": "blocking DNA from dead cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Sample processing for molecular analysis",
+        "sentence_id": 228,
+        "char_start": 45322,
+        "char_end": 45350,
+        "anchor": "PMC4624184_45322_45350",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 756,
+      "label": "PMA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sample processing for molecular analysis",
+        "sentence_id": 228,
+        "char_start": 44972,
+        "char_end": 44975,
+        "anchor": "PMC4624184_44972_44975",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 757,
+      "label": "Hayward",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sample processing for molecular analysis",
+        "sentence_id": 228,
+        "char_start": 44998,
+        "char_end": 45005,
+        "anchor": "PMC4624184_44998_45005",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 760,
+      "label": "PhAST",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sample processing for molecular analysis",
+        "sentence_id": 228,
+        "char_start": 45170,
+        "char_end": 45175,
+        "anchor": "PMC4624184_45170_45175",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 761,
+      "label": "GenIUL",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sample processing for molecular analysis",
+        "sentence_id": 228,
+        "char_start": 45216,
+        "char_end": 45222,
+        "anchor": "PMC4624184_45216_45222",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 762,
+      "label": "Terrassa",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sample processing for molecular analysis",
+        "sentence_id": 228,
+        "char_start": 45230,
+        "char_end": 45238,
+        "anchor": "PMC4624184_45230_45238",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 763,
+      "label": "Spain",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sample processing for molecular analysis",
+        "sentence_id": 228,
+        "char_start": 45240,
+        "char_end": 45245,
+        "anchor": "PMC4624184_45240_45245",
+        "page": 12,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 825,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 754,
+      "target": 755
+    },
+    {
+      "id": 826,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 754,
+      "target": 756
+    },
+    {
+      "id": 827,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 754,
+      "target": 757
+    },
+    {
+      "id": 830,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 754,
+      "target": 760
+    },
+    {
+      "id": 831,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 754,
+      "target": 761
+    },
+    {
+      "id": 832,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 754,
+      "target": 762
+    },
+    {
+      "id": 833,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 754,
+      "target": 763
+    },
+    {
+      "id": 835,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 756,
+      "target": 755
+    },
+    {
+      "id": 836,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 757,
+      "target": 755
+    },
+    {
+      "id": 839,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 760,
+      "target": 755
+    },
+    {
+      "id": 840,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 761,
+      "target": 755
+    },
+    {
+      "id": 841,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 762,
+      "target": 755
+    },
+    {
+      "id": 842,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 763,
+      "target": 755
+    },
+    {
+      "id": 844,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 756,
+      "target": 757
+    },
+    {
+      "id": 847,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 756,
+      "target": 760
+    },
+    {
+      "id": 848,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 756,
+      "target": 761
+    },
+    {
+      "id": 849,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 756,
+      "target": 762
+    },
+    {
+      "id": 850,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 756,
+      "target": 763
+    },
+    {
+      "id": 854,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 757,
+      "target": 760
+    },
+    {
+      "id": 855,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 757,
+      "target": 761
+    },
+    {
+      "id": 856,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 757,
+      "target": 762
+    },
+    {
+      "id": 857,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 757,
+      "target": 763
+    },
+    {
+      "id": 870,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 760,
+      "target": 761
+    },
+    {
+      "id": 871,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 760,
+      "target": 762
+    },
+    {
+      "id": 872,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 760,
+      "target": 763
+    },
+    {
+      "id": 874,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 761,
+      "target": 762
+    },
+    {
+      "id": 875,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 761,
+      "target": 763
+    },
+    {
+      "id": 877,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 762,
+      "target": 763
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 8,
+      "largest_component": 8,
+      "removed_components": [
+        5,
+        2
+      ]
+    },
+    "page": 12
+  }
+}

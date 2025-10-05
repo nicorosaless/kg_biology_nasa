@@ -1,0 +1,209 @@
+{
+  "paper_id": "PMC10780891",
+  "section": "DISCUSSION",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 582,
+      "label": "protein",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 158,
+        "char_start": 32241,
+        "char_end": 32248,
+        "anchor": "PMC10780891_32241_32248",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 583,
+      "label": "lglycer",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 158,
+        "char_start": 32259,
+        "char_end": 32266,
+        "anchor": "PMC10780891_32259_32266",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 584,
+      "label": "smaller",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 158,
+        "char_start": 32384,
+        "char_end": 32391,
+        "anchor": "PMC10780891_32384_32391",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 586,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 158,
+        "char_start": 32426,
+        "char_end": 32429,
+        "anchor": "PMC10780891_32426_32429",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 587,
+      "label": "protein",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 158,
+        "char_start": 32533,
+        "char_end": 32540,
+        "anchor": "PMC10780891_32533_32540",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 588,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 158,
+        "char_start": 32323,
+        "char_end": 32326,
+        "anchor": "PMC10780891_32323_32326",
+        "page": 10,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 895,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 582,
+      "target": 583
+    },
+    {
+      "id": 896,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 582,
+      "target": 584
+    },
+    {
+      "id": 897,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 582,
+      "target": 586
+    },
+    {
+      "id": 898,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 582,
+      "target": 587
+    },
+    {
+      "id": 899,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 582,
+      "target": 588
+    },
+    {
+      "id": 900,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 583,
+      "target": 584
+    },
+    {
+      "id": 901,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 583,
+      "target": 586
+    },
+    {
+      "id": 902,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 583,
+      "target": 587
+    },
+    {
+      "id": 903,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 583,
+      "target": 588
+    },
+    {
+      "id": 904,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 584,
+      "target": 586
+    },
+    {
+      "id": 905,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 584,
+      "target": 587
+    },
+    {
+      "id": 906,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 584,
+      "target": 588
+    },
+    {
+      "id": 907,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 586,
+      "target": 587
+    },
+    {
+      "id": 908,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 586,
+      "target": 588
+    },
+    {
+      "id": 909,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 587,
+      "target": 588
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 10,
+      "removed_orphans": 11,
+      "largest_component": 6,
+      "removed_components": [
+        5,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 10
+  }
+}

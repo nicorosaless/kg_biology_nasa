@@ -1,0 +1,184 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "Herbicides, particularly auxinic herbicides like 2,4-D, are increasingly used in agriculture to combat weed resistance. The study investigates the impact of a commercial 2,4-D formulation (AsiMax 50 ®) on freshwater microbial communities, focusing on micro/nano phytoplankton, photosynthetic picoplankton (PPP), and heterotrophic bacteria (HB), in both clear and turbid water systems.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Fig.",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.jpeg"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Fig.",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.jpeg"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Fig.",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.jpeg"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Fig.",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.jpeg"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Experimental Methods",
+      "summary": "The study employed a microcosm-based experiment using water samples from clear and turbid freshwater systems. Microcosms were exposed to seven concentrations of 2,4-D (0-2000 mg a.i. L À1) for 7 days. Physical/chemical parameters (turbidity, 2,4-D concentration), chlorophyll a levels, and biological variables (phytoplankton, PPP, HB) were measured. Phytoplankton was identified using Utermöhl's technique. PPP and HB populations were analyzed via flow cytometry. Statistical analyses included ANOVA, Tukey tests, and network analysis to assess treatment effects.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Physical and Chemical Parameters",
+      "summary": "The real 2,4-D concentrations were measured using HPLC-UV. Initial turbidity was 1.10 NTU for clear water and 9.29 NTU for turbid water. At the end of the experiment, turbidity significantly decreased in the turbid system at higher 2,4-D concentrations (20-2000 mg L À1) compared to the control (Fig. 1A).",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Chlorophyll a Concentrations",
+      "summary": "Maximum chlorophyll a concentrations were observed at 2 mg L À1 in both clear (7.62 μg L À1) and turbid (101.24 μg L À1) conditions (Fig. 1B). Significant decreases in chlorophyll a were found at 2000 mg L À1, with a 36.7% reduction in the turbid system and a 76.9% reduction in the clear system, relative to the control.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Micro and Nano-Phytoplankton Composition",
+      "summary": "Chlorophyta was the dominant group in both systems. In the clear system, Chlorophyta increased significantly at Tf, except at the highest 2,4-D concentration (Fig. 2A). The turbid system also showed a significant increase in Chlorophyta at Tf (Fig. 2B). Species richness decreased at higher herbicide concentrations in the turbid system. Correlation networks revealed interactions among phytoplankton species (Fig. 3).",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "PPP and HB Population Dynamics",
+      "summary": "HB was generally more abundant than PPP. Significant differences were observed in HB and PPP abundances between T1 and Tf. PPP abundance increased significantly at 2000 mg L À1 of 2,4-D. HB abundance increased at Tf in the clear system at 2000 mg L À1. PE-Pcy was the most abundant PPP group (Fig. 4, Fig. 5).",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Discussion of Turbidity Effects",
+      "summary": "Water turbidity significantly influenced the response of freshwater microbial communities to 2,4-D. The herbicide's impact on micro/nano phytoplankton was greater in the turbid system. Higher diversity in the clear system might explain its resilience. The study highlights the importance of community-scale approaches in ecotoxicological assessments. The total abundance of living micro + nano phytoplankton increased at lower concentrations in the turbid system, fitting a humped-shaped curve.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": {
+    "heading": "Conclusion",
+    "summary": "The 2,4-D has different effects according to its concentration: low concentrations stimulate the growth of some phytoplanktonic species, whereas high concentrations inhibit their development (Boyle, 1980;Kobraei and White, 1996;Wong, 2000).In regard to other freshwater communities, De Lipthay et al."
+  },
+  "keywords": [
+    "2,4-d",
+    "herbicide",
+    "phytoplankton",
+    "picoplankton",
+    "turbidity",
+    "microcosm",
+    "freshwater",
+    "ecotoxicology",
+    "chlorophyll a",
+    "asimax 50"
+  ],
+  "topics": [
+    "ecotoxicology",
+    "aquatic ecology",
+    "environmental science"
+  ],
+  "_meta": {
+    "paper_id": "sha256:47881ea02c5bb863dc9c5563ec5b1cf5e78edd344d27f5ed4fb9671a83f7634e",
+    "paper_title": "Turbidity matters: differential effect of a 2,4-D formulation on the structure of microbial communities from clear",
+    "generated_at": "2025-10-05T10:49:19Z",
+    "word_count": 453,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "2,4-d",
+      "herbicide",
+      "phytoplankton",
+      "picoplankton",
+      "turbidity",
+      "microcosm",
+      "freshwater",
+      "ecotoxicology",
+      "chlorophyll a",
+      "asimax 50"
+    ],
+    "topics": [
+      "ecotoxicology",
+      "aquatic ecology",
+      "environmental science"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 5878,
+      "completion_tokens": 980,
+      "total_tokens": 6858,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000588,
+      "output_usd": 0.000392,
+      "total_usd": 0.00098
+    },
+    "cost": {
+      "input_usd": 0.000588,
+      "output_usd": 0.000392,
+      "total_usd": 0.00098
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [
+        {
+          "id": "fig_4",
+          "score": -9999,
+          "caption_wc": 28
+        }
+      ],
+      "corrupted_detected": [
+        "fig_1",
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ],
+      "original_total": 5,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

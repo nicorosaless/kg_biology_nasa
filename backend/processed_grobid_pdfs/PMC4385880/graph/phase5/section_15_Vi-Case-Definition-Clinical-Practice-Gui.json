@@ -1,0 +1,117 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "Vi. Case Definition/Clinical Practice Guidelines",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 3505,
+      "label": "Stage",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Vi. Case Definition/Clinical Practice Guidelines",
+        "sentence_id": 1128,
+        "char_start": 187330,
+        "char_end": 187335,
+        "anchor": "PMC4385880_187330_187335",
+        "page": 87,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3506,
+      "label": "Severe",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Vi. Case Definition/Clinical Practice Guidelines",
+        "sentence_id": 1128,
+        "char_start": 187339,
+        "char_end": 187345,
+        "anchor": "PMC4385880_187339_187345",
+        "page": 87,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3507,
+      "label": "Optic",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Vi. Case Definition/Clinical Practice Guidelines",
+        "sentence_id": 1128,
+        "char_start": 187346,
+        "char_end": 187351,
+        "anchor": "PMC4385880_187346_187351",
+        "page": 87,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3508,
+      "label": "Per",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Vi. Case Definition/Clinical Practice Guidelines",
+        "sentence_id": 1128,
+        "char_start": 187430,
+        "char_end": 187433,
+        "anchor": "PMC4385880_187430_187433",
+        "page": 87,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 3611,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3505,
+      "target": 3506
+    },
+    {
+      "id": 3612,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3505,
+      "target": 3507
+    },
+    {
+      "id": 3613,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3505,
+      "target": 3508
+    },
+    {
+      "id": 3614,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3506,
+      "target": 3507
+    },
+    {
+      "id": 3615,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3506,
+      "target": 3508
+    },
+    {
+      "id": 3616,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3507,
+      "target": 3508
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 8,
+      "largest_component": 4,
+      "removed_components": [
+        3
+      ]
+    },
+    "page": 87
+  }
+}

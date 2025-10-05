@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC4405755",
+  "section": "Animal care and hindlimb unloading",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 117,
+      "label": "Mice",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Animal care and hindlimb unloading",
+        "sentence_id": 42,
+        "char_start": 7140,
+        "char_end": 7144,
+        "anchor": "PMC4405755_7140_7144",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 118,
+      "label": "unloaded",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Animal care and hindlimb unloading",
+        "sentence_id": 42,
+        "char_start": 7150,
+        "char_end": 7158,
+        "anchor": "PMC4405755_7150_7158",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 32,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 117,
+      "target": 118
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 4,
+      "largest_component": 2
+    },
+    "page": 3
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "paper_id": "PMC10780891",
+  "section": "Comparison of Approximation Indices of the Kernel Spectral Profile to a Given Anthocyanin Standard",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 512,
+      "label": "AnC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of Approximation Indices of the Kernel Spectral Profile to a Given Anthocyanin Standard",
+        "sentence_id": 123,
+        "char_start": 26004,
+        "char_end": 26007,
+        "anchor": "PMC10780891_26004_26007",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 509,
+      "label": "Ant",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of Approximation Indices of the Kernel Spectral Profile to a Given Anthocyanin Standard",
+        "sentence_id": 123,
+        "char_start": 25976,
+        "char_end": 25979,
+        "anchor": "PMC10780891_25976_25979",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 864,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 509,
+      "target": 512
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 14,
+      "largest_component": 2,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 8
+  }
+}

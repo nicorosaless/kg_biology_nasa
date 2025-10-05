@@ -1,0 +1,59 @@
+{
+  "paper_id": "PMC5515506",
+  "section": "Statistical analyses",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 229,
+      "label": "Welch",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analyses",
+        "sentence_id": 86,
+        "char_start": 15015,
+        "char_end": 15020,
+        "anchor": "PMC5515506_15015_15020",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 230,
+      "label": "Tukey",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analyses",
+        "sentence_id": 86,
+        "char_start": 15035,
+        "char_end": 15040,
+        "anchor": "PMC5515506_15035_15040",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 278,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 229,
+      "target": 230
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 19,
+      "largest_component": 2,
+      "removed_components": [
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 3
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "paper_id": "PMC9784906",
+  "section": "Quantitative Real-Time PCR (qRT-PCR)",
+  "n_nodes": 9,
+  "n_edges": 36,
+  "nodes": [
+    {
+      "id": 226,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitative Real-Time PCR (qRT-PCR)",
+        "sentence_id": 57,
+        "char_start": 10384,
+        "char_end": 10387,
+        "anchor": "PMC9784906_10384_10387",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 230,
+      "label": "cDNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitative Real-Time PCR (qRT-PCR)",
+        "sentence_id": 57,
+        "char_start": 10504,
+        "char_end": 10508,
+        "anchor": "PMC9784906_10504_10508",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 232,
+      "label": "Real",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitative Real-Time PCR (qRT-PCR)",
+        "sentence_id": 57,
+        "char_start": 10697,
+        "char_end": 10701,
+        "anchor": "PMC9784906_10697_10701",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 233,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitative Real-Time PCR (qRT-PCR)",
+        "sentence_id": 57,
+        "char_start": 10384,
+        "char_end": 10387,
+        "anchor": "PMC9784906_10384_10387",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 234,
+      "label": "Hercules",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitative Real-Time PCR (qRT-PCR)",
+        "sentence_id": 57,
+        "char_start": 10581,
+        "char_end": 10589,
+        "anchor": "PMC9784906_10581_10589",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 237,
+      "label": "PCR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitative Real-Time PCR (qRT-PCR)",
+        "sentence_id": 57,
+        "char_start": 10680,
+        "char_end": 10683,
+        "anchor": "PMC9784906_10680_10683",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 238,
+      "label": "Cat",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitative Real-Time PCR (qRT-PCR)",
+        "sentence_id": 57,
+        "char_start": 10740,
+        "char_end": 10743,
+        "anchor": "PMC9784906_10740_10743",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 239,
+      "label": "Ipswich",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitative Real-Time PCR (qRT-PCR)",
+        "sentence_id": 57,
+        "char_start": 10846,
+        "char_end": 10853,
+        "anchor": "PMC9784906_10846_10853",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 242,
+      "label": "MIX",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitative Real-Time PCR (qRT-PCR)",
+        "sentence_id": 57,
+        "char_start": 10990,
+        "char_end": 10993,
+        "anchor": "PMC9784906_10990_10993",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 617,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 226,
+      "target": 230
+    },
+    {
+      "id": 618,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 226,
+      "target": 232
+    },
+    {
+      "id": 619,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 226,
+      "target": 233
+    },
+    {
+      "id": 620,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 226,
+      "target": 234
+    },
+    {
+      "id": 623,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 226,
+      "target": 237
+    },
+    {
+      "id": 624,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 226,
+      "target": 238
+    },
+    {
+      "id": 625,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 226,
+      "target": 239
+    },
+    {
+      "id": 628,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 226,
+      "target": 242
+    },
+    {
+      "id": 629,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 230,
+      "target": 232
+    },
+    {
+      "id": 630,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 230,
+      "target": 233
+    },
+    {
+      "id": 631,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 230,
+      "target": 234
+    },
+    {
+      "id": 634,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 230,
+      "target": 237
+    },
+    {
+      "id": 635,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 230,
+      "target": 238
+    },
+    {
+      "id": 636,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 230,
+      "target": 239
+    },
+    {
+      "id": 639,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 230,
+      "target": 242
+    },
+    {
+      "id": 640,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 232,
+      "target": 233
+    },
+    {
+      "id": 641,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 232,
+      "target": 234
+    },
+    {
+      "id": 644,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 232,
+      "target": 237
+    },
+    {
+      "id": 645,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 232,
+      "target": 238
+    },
+    {
+      "id": 646,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 232,
+      "target": 239
+    },
+    {
+      "id": 649,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 232,
+      "target": 242
+    },
+    {
+      "id": 650,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 233,
+      "target": 234
+    },
+    {
+      "id": 653,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 233,
+      "target": 237
+    },
+    {
+      "id": 654,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 233,
+      "target": 238
+    },
+    {
+      "id": 655,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 233,
+      "target": 239
+    },
+    {
+      "id": 658,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 233,
+      "target": 242
+    },
+    {
+      "id": 661,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 234,
+      "target": 237
+    },
+    {
+      "id": 662,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 234,
+      "target": 238
+    },
+    {
+      "id": 663,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 234,
+      "target": 239
+    },
+    {
+      "id": 666,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 234,
+      "target": 242
+    },
+    {
+      "id": 680,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 237,
+      "target": 238
+    },
+    {
+      "id": 681,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 237,
+      "target": 239
+    },
+    {
+      "id": 684,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 237,
+      "target": 242
+    },
+    {
+      "id": 685,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 238,
+      "target": 239
+    },
+    {
+      "id": 688,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 238,
+      "target": 242
+    },
+    {
+      "id": 691,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 239,
+      "target": 242
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 12,
+      "largest_component": 9,
+      "removed_components": [
+        3
+      ]
+    },
+    "page": 4
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "paper_id": "PMC11673879",
+  "section": "Sporulation Capacity",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 267,
+      "label": "malachi",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sporulation Capacity",
+        "sentence_id": 108,
+        "char_start": 18312,
+        "char_end": 18319,
+        "anchor": "PMC11673879_18312_18319",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 268,
+      "label": "Leica",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sporulation Capacity",
+        "sentence_id": 108,
+        "char_start": 18349,
+        "char_end": 18354,
+        "anchor": "PMC11673879_18349_18354",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 270,
+      "label": "Wetzlar",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sporulation Capacity",
+        "sentence_id": 108,
+        "char_start": 18392,
+        "char_end": 18399,
+        "anchor": "PMC11673879_18392_18399",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 271,
+      "label": "Germany",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sporulation Capacity",
+        "sentence_id": 108,
+        "char_start": 18401,
+        "char_end": 18408,
+        "anchor": "PMC11673879_18401_18408",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 192,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 267,
+      "target": 268
+    },
+    {
+      "id": 193,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 267,
+      "target": 270
+    },
+    {
+      "id": 194,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 267,
+      "target": 271
+    },
+    {
+      "id": 195,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 268,
+      "target": 270
+    },
+    {
+      "id": 196,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 268,
+      "target": 271
+    },
+    {
+      "id": 197,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 270,
+      "target": 271
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 3,
+      "largest_component": 4
+    },
+    "page": 6
+  }
+}

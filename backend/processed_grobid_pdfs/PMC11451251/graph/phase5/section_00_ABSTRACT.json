@@ -1,0 +1,85 @@
+{
+  "paper_id": "PMC11451251",
+  "section": "ABSTRACT",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 0,
+      "label": "extreme",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 0,
+        "char_start": 14,
+        "char_end": 21,
+        "anchor": "PMC11451251_14_21",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2,
+      "label": "microorg",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 0,
+        "char_start": 102,
+        "char_end": 110,
+        "anchor": "PMC11451251_102_110",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3,
+      "label": "platform",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 0,
+        "char_start": 199,
+        "char_end": 207,
+        "anchor": "PMC11451251_199_207",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "id": 1,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "id": 2,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2,
+      "target": 3
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 13,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        2
+      ]
+    },
+    "page": 1
+  }
+}

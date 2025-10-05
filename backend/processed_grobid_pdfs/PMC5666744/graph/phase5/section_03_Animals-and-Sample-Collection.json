@@ -1,0 +1,204 @@
+{
+  "paper_id": "PMC5666744",
+  "section": "Animals and Sample Collection",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 594,
+      "label": "Mice",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Animals and Sample Collection",
+        "sentence_id": 141,
+        "char_start": 37696,
+        "char_end": 37700,
+        "anchor": "PMC5666744_37696_37700",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 596,
+      "label": "AEM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Animals and Sample Collection",
+        "sentence_id": 141,
+        "char_start": 37760,
+        "char_end": 37763,
+        "anchor": "PMC5666744_37760_37763",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 597,
+      "label": "FLT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Animals and Sample Collection",
+        "sentence_id": 141,
+        "char_start": 37882,
+        "char_end": 37885,
+        "anchor": "PMC5666744_37882_37885",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 598,
+      "label": "KSC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Animals and Sample Collection",
+        "sentence_id": 141,
+        "char_start": 37944,
+        "char_end": 37947,
+        "anchor": "PMC5666744_37944_37947",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 599,
+      "label": "AEM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Animals and Sample Collection",
+        "sentence_id": 141,
+        "char_start": 37956,
+        "char_end": 37959,
+        "anchor": "PMC5666744_37956_37959",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 600,
+      "label": "AEM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Animals and Sample Collection",
+        "sentence_id": 141,
+        "char_start": 37970,
+        "char_end": 37973,
+        "anchor": "PMC5666744_37970_37973",
+        "page": 14,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 583,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 594,
+      "target": 596
+    },
+    {
+      "id": 584,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 594,
+      "target": 597
+    },
+    {
+      "id": 585,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 594,
+      "target": 598
+    },
+    {
+      "id": 586,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 594,
+      "target": 599
+    },
+    {
+      "id": 587,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 594,
+      "target": 600
+    },
+    {
+      "id": 593,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 596,
+      "target": 597
+    },
+    {
+      "id": 594,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 596,
+      "target": 598
+    },
+    {
+      "id": 595,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 596,
+      "target": 599
+    },
+    {
+      "id": 596,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 596,
+      "target": 600
+    },
+    {
+      "id": 597,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 597,
+      "target": 598
+    },
+    {
+      "id": 598,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 597,
+      "target": 599
+    },
+    {
+      "id": 599,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 597,
+      "target": 600
+    },
+    {
+      "id": 600,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 598,
+      "target": 599
+    },
+    {
+      "id": 601,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 598,
+      "target": 600
+    },
+    {
+      "id": 602,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 599,
+      "target": 600
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 9,
+      "largest_component": 6,
+      "removed_components": [
+        4,
+        4,
+        2,
+        2
+      ]
+    },
+    "page": 14
+  }
+}

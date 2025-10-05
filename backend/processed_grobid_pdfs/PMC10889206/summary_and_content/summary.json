@@ -1,0 +1,164 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "Bone marrow adipose tissue (BMAT) serves as a dynamic energy reserve, potentially minimizing energy requirements for hematopoiesis. While BMAT can be labile, it paradoxically increases during energy deprivation, suggesting a non-traditional energy reservoir role. The study investigates whether BMAT is essential for immune reconstitution post-injury. Prior research suggests increased BMAT during fasting is an adaptive response to negative energy balance, reducing hematopoietic compartment size to lower energy expenditure. Mesenchymal cells, including adipocytes, often express stem cell factor (kit ligand), crucial for hematopoietic cell differentiation and survival.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Figure 1.Experimental protocol: Mice were randomized into 4 groups: GFP HSC → WT (n = 3), GFP HSC → Kit W/W-v (n = 3), WT HSC → WT (n = 10), and WT HSC →",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.png"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Int.",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.jpeg"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Figure 2.",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.jpeg"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Figure 2.",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.jpeg"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Immune Cell Reconstitution",
+      "summary": "Immune cell reconstitution was assessed via adoptive transfer of hematopoietic stem cells (HSCs) into irradiated wild-type (WT) and BMAT-deficient mice. Flow cytometry analysis revealed substantial reconstitution of B and T cell compartments with donor-derived GFP+ immune cells in both groups, observed in blood at 4 and 9 weeks, and in bone marrow and lymph nodes post-necropsy. The magnitude of hematopoietic cell reconstitution did not significantly differ between WT and BMAT-deficient mice. Figure 4 illustrates the percentages of GFP+ cells in mesenteric lymph nodes, peripheral blood, and bone marrow, demonstrating effective immune reconstitution in both groups.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Body Composition and Blood Glucose",
+      "summary": "The study examined the impact of adoptive transfer of WT HSCs into irradiated WT and BMAT-deficient mice on body composition and blood glucose levels. No significant differences were found in terminal body, spleen, or adrenal weights, nor in blood glucose levels, 11 weeks post-irradiation/adoptive transfer. However, abdominal white adipose tissue (WAT) and seminal vesicle weights were lower in BMAT-deficient mice compared to WT mice, suggesting some impact on peripheral fat depots.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Bone Microarchitecture",
+      "summary": "Bone microarchitecture was evaluated in the humerus, lumbar vertebra, and femur using micro-computed tomography (µCT). No significant differences were observed between WT and BMAT-deficient mice in humerus length, total humerus bone volume, or cortical and cancellous bone architecture. Trabecular thickness in the lumbar vertebra was an exception, being lower in BMAT-deficient mice. Femur bone area, bone mineral content (BMC), and bone mineral density (BMD) also showed no significant differences. Figure 7 shows the regions of interest evaluated in the humerus, lumbar vertebra, and femur.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Static and Dynamic Histomorphometry",
+      "summary": "Static and dynamic bone histomorphometry in the distal femur metaphysis revealed no significant differences between WT and BMAT-deficient mice in bone area fraction, mineralizing perimeter, mineral apposition rate, bone formation rates, osteoclast-lined bone perimeter, or osteoblast-lined bone perimeter. BMAT was abundant in WT mice but nearly absent in BMAT-deficient mice. Adipocyte area/tissue area and adipocyte density were significantly lower in BMAT-deficient mice, although the size of the few remaining adipocytes did not differ from those in WT mice. Figure 6 shows representative histological images highlighting the differences in BMAT.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": {
+    "heading": "Conclusion",
+    "summary": "[21] concluded that BMAT is essential for recovery of the hematopoietic system and bone following exposure to an energy deficit, injury, or high-dose ionizing radiation."
+  },
+  "keywords": [
+    "bone marrow adipose tissue",
+    "immune reconstitution",
+    "hematopoietic stem cells",
+    "irradiation",
+    "kit signaling",
+    "bone microarchitecture",
+    "adipocytes",
+    "gfp",
+    "mice",
+    "skeletal phenotype"
+  ],
+  "topics": [
+    "immunology",
+    "bone biology",
+    "hematopoiesis"
+  ],
+  "_meta": {
+    "paper_id": "sha256:59380131f25c9409140217bb58d26664c99f054592e33bce35a7ed18fc590bd2",
+    "paper_title": "Bone Marrow Adipose Tissue Is Not Required for Reconstitution of the Immune System Following Irradiation in",
+    "generated_at": "2025-10-05T10:37:02Z",
+    "word_count": 450,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "bone marrow adipose tissue",
+      "immune reconstitution",
+      "hematopoietic stem cells",
+      "irradiation",
+      "kit signaling",
+      "bone microarchitecture",
+      "adipocytes",
+      "gfp",
+      "mice",
+      "skeletal phenotype"
+    ],
+    "topics": [
+      "immunology",
+      "bone biology",
+      "hematopoiesis"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 5385,
+      "completion_tokens": 900,
+      "total_tokens": 6285,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000539,
+      "output_usd": 0.00036,
+      "total_usd": 0.000898
+    },
+    "cost": {
+      "input_usd": 0.000539,
+      "output_usd": 0.00036,
+      "total_usd": 0.000898
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [],
+      "corrupted_detected": [
+        "fig_4",
+        "fig_7",
+        "fig_6"
+      ],
+      "original_total": 3,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

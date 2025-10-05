@@ -1,0 +1,94 @@
+{
+  "paper_id": "PMC10020673",
+  "section": "Synthetic PHENOTYPE",
+  "n_nodes": 4,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 4,
+      "label": "Homogeneit",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) GCF 000987075 1 GCF 018223785",
+        "sentence_id": 1,
+        "char_start": 1301,
+        "char_end": 1311,
+        "anchor": "PMC10020673_1301_1311",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 5,
+      "label": "Homogeneity",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) GCF 000987075 1 GCF 018223785",
+        "sentence_id": 2,
+        "char_start": 1323,
+        "char_end": 1334,
+        "anchor": "PMC10020673_1323_1334",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 24,
+      "label": "Homogeneit",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) GCF 000987075 1 GCF 018223785",
+        "sentence_id": 15,
+        "char_start": 1955,
+        "char_end": 1965,
+        "anchor": "PMC10020673_1955_1965",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 25,
+      "label": "Homogeneity",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) GCF 000987075 1 GCF 018223785",
+        "sentence_id": 16,
+        "char_start": 1977,
+        "char_end": 1988,
+        "anchor": "PMC10020673_1977_1988",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-4-5",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "id": "synth-4-24",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 24
+    },
+    {
+      "id": "synth-4-25",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 25
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "PHENOTYPE",
+    "page": null
+  }
+}

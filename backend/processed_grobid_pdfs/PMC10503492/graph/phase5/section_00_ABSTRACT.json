@@ -1,0 +1,84 @@
+{
+  "paper_id": "PMC10503492",
+  "section": "ABSTRACT",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 3,
+      "label": "changes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 1,
+        "char_start": 149,
+        "char_end": 156,
+        "anchor": "PMC10503492_149_156",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 4,
+      "label": "inflight",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 1,
+        "char_start": 297,
+        "char_end": 305,
+        "anchor": "PMC10503492_297_305",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 5,
+      "label": "CNS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 1,
+        "char_start": 145,
+        "char_end": 148,
+        "anchor": "PMC10503492_145_148",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "id": 2,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "id": 3,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 4,
+      "target": 5
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 1,
+      "largest_component": 3,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 1
+  }
+}

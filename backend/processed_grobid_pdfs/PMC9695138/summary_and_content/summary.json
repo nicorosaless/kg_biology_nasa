@@ -1,0 +1,168 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "The study of plant responses to microgravity is crucial for developing Bioregenerative Life Support Systems (BLSS) for long-term space missions, where plants provide essential resources such as food, oxygen, and water recycling. Understanding how weightlessness affects plant cells, particularly the cell membrane (CM) and its functions in signaling, transport, and stress response, is critical for optimizing plant growth in space. This involves investigating complex interactions between plant responses and environmental conditions to elucidate gravity's influence on plants at a cellular level, with a focus on the structure, composition, and function of lipid rafts within the CM.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Figure1.Raft fraction isolated the root CM of 6-day-old pea seedlings (transmission electron microscopy).Arrows point to rafts[47].",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.png"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Figure1.Raft fraction isolated the root CM of 6-day-old pea seedlings (transmission electron microscopy).Arrows point to rafts[47].",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.png"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Figure1.Raft fraction isolated the root CM of 6-day-old pea seedlings (transmission electron microscopy).Arrows point to rafts[47].",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.png"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Figure1.Raft fraction isolated the root CM of 6-day-old pea seedlings (transmission electron microscopy).Arrows point to rafts[47].",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.png"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Lipid Rafts in Plants",
+      "summary": "Lipid rafts, microdomains in the plant CM enriched in sphingolipids and sterols, play a vital role in cell signaling and responses to stress. These microdomains, typically 100-400 nm in size, contain aggregated protein complexes and are involved in cellular trafficking and cell wall metabolism. The enrichment of lipid rafts with polyphosphoinositides and saturated fatty acids further supports their involvement in cell signaling. Studies have identified specific proteins and lipids enriched in these domains, highlighting their importance in plant cellular processes.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Lipid Rafts under Clinorotation",
+      "summary": "Clinorotation studies on pea seedlings reveal that lipid rafts in root CM exhibit structural similarities to those in other plant species, showing enrichment with cholesterol and saturated fatty acids. Under clinorotation, there is an increase in saturated fatty acid content and a significant rise in cholesterol levels compared to static conditions. This suggests that clinorotation induces changes in membrane composition, potentially affecting plasmodesmata function and the transport of various molecules across the membrane. Microdomains are enriched with ABC transporters, aquaporins and ATPases, which are important in cellular signaling pathways and membrane arrangement.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Filipin Staining",
+      "summary": "Filipin staining, used to visualize sterols in cell membranes, shows that the CM of pea seedlings exhibits a characteristic blue color, indicating the presence of sterols. The intensity of filipin fluorescence varies with the developmental stage, suggesting changes in cholesterol content. Under clinorotation, filipin labeling indicates an uneven cholesterol distribution in 3-day-old seedlings, whereas 6-day-old seedlings show increased cholesterol content and clustering of microdomains, suggesting increased membrane rigidity and reduced permeability. These sterol-dependent changes affect cell responses to stress and microgravity.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Laurdan Staining",
+      "summary": "Laurdan staining is employed to examine the dynamics of liquid-ordered (Lo) and liquid-disordered (Ld) phases in the CM under clinorotation. Laurdan's emission spectra depend on medium parameters such as polarity and viscosity, allowing for the estimation of CM water content. The expansion of Lo areas under clinorotation suggests higher rigidity and denser domains, which indicates that clinorotation induces enhanced mechanostimulation rather than replicating microgravity conditions. Overall, the increased cholesterol content and density of lipid rafts under clinorotation point to alterations in associated proteins and CM permeability, affecting cell metabolism in response to mechanical stress.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "How Do Lipid Raft Studies Advance the Understanding of the Gravisensitivity of Plant Cells?",
+      "summary": "Lipid rafts link the CM with the cytoskeleton, influencing cell polarization and signal transmission. Proteomic analysis reveals actin-binding proteins and tubulin in rafts, indicating a role in cellular mechanotransduction and organization. The cytoskeleton's modifications under microgravity and clinorotation suggest it may act as a gravity sensor.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": "The functional domains of membranes are critically important for signal integration and responses, and the review encourages future research on the effect of lipid rafts and membrane functions on general and gravitational physiology.",
+  "keywords": [
+    "lipid rafts",
+    "cell membrane",
+    "clinorotation",
+    "gravisensitivity",
+    "sterols",
+    "filipin staining",
+    "laurdan staining",
+    "cytoskeleton",
+    "mechanostimulation",
+    "plant cells"
+  ],
+  "topics": [
+    "plant physiology",
+    "cell biology",
+    "gravitational biology"
+  ],
+  "_meta": {
+    "paper_id": "sha256:92780b5e1528aa0179fea08fd8ed502bf25cfd43b661d7874152a6d55a97e080",
+    "paper_title": "Lipid Rafts and Plant Gravisensitivity",
+    "generated_at": "2025-10-05T10:52:01Z",
+    "word_count": 489,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "lipid rafts",
+      "cell membrane",
+      "clinorotation",
+      "gravisensitivity",
+      "sterols",
+      "filipin staining",
+      "laurdan staining",
+      "cytoskeleton",
+      "mechanostimulation",
+      "plant cells"
+    ],
+    "topics": [
+      "plant physiology",
+      "cell biology",
+      "gravitational biology"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 6266,
+      "completion_tokens": 965,
+      "total_tokens": 7231,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000627,
+      "output_usd": 0.000386,
+      "total_usd": 0.001013
+    },
+    "cost": {
+      "input_usd": 0.000627,
+      "output_usd": 0.000386,
+      "total_usd": 0.001013
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [],
+      "corrupted_detected": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ],
+      "original_total": 4,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

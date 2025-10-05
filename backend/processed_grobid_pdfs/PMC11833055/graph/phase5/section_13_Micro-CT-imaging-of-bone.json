@@ -1,0 +1,156 @@
+{
+  "paper_id": "PMC11833055",
+  "section": "Micro-CT imaging of bone",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 262,
+      "label": "formalin",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-CT imaging of bone",
+        "sentence_id": 145,
+        "char_start": 20326,
+        "char_end": 20334,
+        "anchor": "PMC11833055_20326_20334",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 263,
+      "label": "metaphy",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-CT imaging of bone",
+        "sentence_id": 145,
+        "char_start": 20350,
+        "char_end": 20357,
+        "anchor": "PMC11833055_20350_20357",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 264,
+      "label": "Siemens",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-CT imaging of bone",
+        "sentence_id": 145,
+        "char_start": 20376,
+        "char_end": 20383,
+        "anchor": "PMC11833055_20376_20383",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 265,
+      "label": "INVEON",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-CT imaging of bone",
+        "sentence_id": 145,
+        "char_start": 20384,
+        "char_end": 20390,
+        "anchor": "PMC11833055_20384_20390",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 266,
+      "label": "Siemens",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-CT imaging of bone",
+        "sentence_id": 145,
+        "char_start": 20376,
+        "char_end": 20383,
+        "anchor": "PMC11833055_20376_20383",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 200,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 262,
+      "target": 263
+    },
+    {
+      "id": 201,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 262,
+      "target": 264
+    },
+    {
+      "id": 202,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 262,
+      "target": 265
+    },
+    {
+      "id": 203,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 262,
+      "target": 266
+    },
+    {
+      "id": 208,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 263,
+      "target": 264
+    },
+    {
+      "id": 209,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 263,
+      "target": 265
+    },
+    {
+      "id": 210,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 263,
+      "target": 266
+    },
+    {
+      "id": 215,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 264,
+      "target": 265
+    },
+    {
+      "id": 216,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 264,
+      "target": 266
+    },
+    {
+      "id": 221,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 265,
+      "target": 266
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 3,
+      "largest_component": 5,
+      "removed_components": [
+        3
+      ]
+    },
+    "page": 4
+  }
+}

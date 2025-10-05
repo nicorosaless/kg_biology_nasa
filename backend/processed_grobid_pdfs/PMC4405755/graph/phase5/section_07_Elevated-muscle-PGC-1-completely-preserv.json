@@ -1,0 +1,118 @@
+{
+  "paper_id": "PMC4405755",
+  "section": "Elevated muscle PGC-1α completely preserved muscle mass by preventing the activation of catabolic systems",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 539,
+      "label": "pAK",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Elevated muscle PGC-1α completely preserved muscle mass by preventing the activation of catabolic systems",
+        "sentence_id": 135,
+        "char_start": 24480,
+        "char_end": 24483,
+        "anchor": "PMC4405755_24480_24483",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 540,
+      "label": "p4EB",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Elevated muscle PGC-1α completely preserved muscle mass by preventing the activation of catabolic systems",
+        "sentence_id": 135,
+        "char_start": 24495,
+        "char_end": 24499,
+        "anchor": "PMC4405755_24495_24499",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 541,
+      "label": "pAKT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Elevated muscle PGC-1α completely preserved muscle mass by preventing the activation of catabolic systems",
+        "sentence_id": 135,
+        "char_start": 24480,
+        "char_end": 24484,
+        "anchor": "PMC4405755_24480_24484",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 542,
+      "label": "pS6R",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Elevated muscle PGC-1α completely preserved muscle mass by preventing the activation of catabolic systems",
+        "sentence_id": 135,
+        "char_start": 24486,
+        "char_end": 24490,
+        "anchor": "PMC4405755_24486_24490",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 674,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 539,
+      "target": 540
+    },
+    {
+      "id": 675,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 539,
+      "target": 541
+    },
+    {
+      "id": 676,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 539,
+      "target": 542
+    },
+    {
+      "id": 677,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 540,
+      "target": 541
+    },
+    {
+      "id": 678,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 540,
+      "target": 542
+    },
+    {
+      "id": 679,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 541,
+      "target": 542
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 15,
+      "largest_component": 4,
+      "removed_components": [
+        3,
+        3
+      ]
+    },
+    "page": 8
+  }
+}

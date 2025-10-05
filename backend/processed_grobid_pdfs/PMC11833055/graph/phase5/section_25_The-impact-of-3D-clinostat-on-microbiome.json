@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC11833055",
+  "section": "The impact of 3D clinostat on microbiome",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 515,
+      "label": "KEGG",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The impact of 3D clinostat on microbiome",
+        "sentence_id": 206,
+        "char_start": 31217,
+        "char_end": 31221,
+        "anchor": "PMC11833055_31217_31221",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 518,
+      "label": "Lysosome",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The impact of 3D clinostat on microbiome",
+        "sentence_id": 206,
+        "char_start": 31324,
+        "char_end": 31332,
+        "anchor": "PMC11833055_31324_31332",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 571,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 515,
+      "target": 518
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 18,
+      "largest_component": 2
+    },
+    "page": 6
+  }
+}

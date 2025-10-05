@@ -1,0 +1,81 @@
+{
+  "paper_id": "PMC11673879",
+  "section": "Classification of Mutations in Lines Evolved at 37 °C (CTT) and Above the HCT",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 440,
+      "label": "Black",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Classification of Mutations in Lines Evolved at 37 °C (CTT) and Above the HCT",
+        "sentence_id": 198,
+        "char_start": 32585,
+        "char_end": 32590,
+        "anchor": "PMC11673879_32585_32590",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 441,
+      "label": "squares",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Classification of Mutations in Lines Evolved at 37 °C (CTT) and Above the HCT",
+        "sentence_id": 198,
+        "char_start": 32591,
+        "char_end": 32598,
+        "anchor": "PMC11673879_32591_32598",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 442,
+      "label": "mutation",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Classification of Mutations in Lines Evolved at 37 °C (CTT) and Above the HCT",
+        "sentence_id": 198,
+        "char_start": 32632,
+        "char_end": 32640,
+        "anchor": "PMC11673879_32632_32640",
+        "page": 11,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 286,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 440,
+      "target": 441
+    },
+    {
+      "id": 287,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 440,
+      "target": 442
+    },
+    {
+      "id": 288,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 441,
+      "target": 442
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 10,
+      "largest_component": 3
+    },
+    "page": 11
+  }
+}

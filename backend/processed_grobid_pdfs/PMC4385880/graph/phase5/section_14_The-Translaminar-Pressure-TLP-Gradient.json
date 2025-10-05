@@ -1,0 +1,208 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "The Translaminar Pressure (TLP) Gradient",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 1712,
+      "label": "IOP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The Translaminar Pressure (TLP) Gradient",
+        "sentence_id": 543,
+        "char_start": 89552,
+        "char_end": 89555,
+        "anchor": "PMC4385880_89552_89555",
+        "page": 42,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1713,
+      "label": "pressure",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The Translaminar Pressure (TLP) Gradient",
+        "sentence_id": 543,
+        "char_start": 89597,
+        "char_end": 89605,
+        "anchor": "PMC4385880_89597_89605",
+        "page": 42,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1716,
+      "label": "laminar",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The Translaminar Pressure (TLP) Gradient",
+        "sentence_id": 543,
+        "char_start": 89780,
+        "char_end": 89787,
+        "anchor": "PMC4385880_89780_89787",
+        "page": 42,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1717,
+      "label": "laminar",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The Translaminar Pressure (TLP) Gradient",
+        "sentence_id": 543,
+        "char_start": 89792,
+        "char_end": 89799,
+        "anchor": "PMC4385880_89792_89799",
+        "page": 42,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1718,
+      "label": "IOP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The Translaminar Pressure (TLP) Gradient",
+        "sentence_id": 543,
+        "char_start": 89552,
+        "char_end": 89555,
+        "anchor": "PMC4385880_89552_89555",
+        "page": 42,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1719,
+      "label": "TLP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The Translaminar Pressure (TLP) Gradient",
+        "sentence_id": 543,
+        "char_start": 89613,
+        "char_end": 89616,
+        "anchor": "PMC4385880_89613_89616",
+        "page": 42,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1628,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1712,
+      "target": 1713
+    },
+    {
+      "id": 1629,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1712,
+      "target": 1716
+    },
+    {
+      "id": 1630,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1712,
+      "target": 1717
+    },
+    {
+      "id": 1631,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1712,
+      "target": 1718
+    },
+    {
+      "id": 1632,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1712,
+      "target": 1719
+    },
+    {
+      "id": 1633,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1713,
+      "target": 1716
+    },
+    {
+      "id": 1634,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1713,
+      "target": 1717
+    },
+    {
+      "id": 1635,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1713,
+      "target": 1718
+    },
+    {
+      "id": 1636,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1713,
+      "target": 1719
+    },
+    {
+      "id": 1637,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1716,
+      "target": 1717
+    },
+    {
+      "id": 1638,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1716,
+      "target": 1718
+    },
+    {
+      "id": 1639,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1716,
+      "target": 1719
+    },
+    {
+      "id": 1640,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1717,
+      "target": 1718
+    },
+    {
+      "id": 1641,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1717,
+      "target": 1719
+    },
+    {
+      "id": 1642,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1718,
+      "target": 1719
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 9,
+      "removed_orphans": 9,
+      "largest_component": 6,
+      "removed_components": [
+        6,
+        6,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 42
+  }
+}

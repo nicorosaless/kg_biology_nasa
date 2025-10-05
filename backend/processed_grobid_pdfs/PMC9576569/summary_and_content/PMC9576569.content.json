@@ -1,0 +1,310 @@
+{
+  "paper_id": "sha256:48a3150988df7dc962dcb18435455d9acff8eae1328b15469adcd2867f53c4ad",
+  "metadata": {
+    "title": "Muscle atrophy phenotype gene expression during spaceflight is linked to a metabolic crosstalk in both the liver and the muscle in mice",
+    "abstract": "",
+    "authors": [
+      "Geraldine Vitry",
+      "Rebecca Finch",
+      "Gavin Mcstay",
+      "Afshin Behesti",
+      "Sébastien Déjean",
+      "Tricia Larose",
+      "Virginia Wotring",
+      "Willian Abraham Da Silveira"
+    ],
+    "affiliations": []
+  },
+  "sections": [],
+  "figures": {
+    "fig_1": {
+      "label": "Supplemental figure 1 ,",
+      "caption": "Related to figure 1. A) Cytoscape network of Gene Ontology biological Pathway (GOBP) Gene Set Enrichment Analysis (GSEA) of the whole transcriptome in RR1 mice liver and quadriceps (p-value < 0.05, FDR < 0.05).B) Webgesalt ORA enriched KEGG pathways of DEG in mice liver during spaceflight.Blue arrow indicates lipid metabolism related pathways (p-value < 0.05, FDR < 0.05).DEG: Differentially Expressed Genes, FDR: False Discovery Rate, KEGG: Kyoto Encyclopedia of Genes and Genomes.ORA: Over Representation Analysis Supplemental figure 2, Related to figure 2. A) Webgesalt ORA enriched KEGG pathways of the 3463 common genes reported by the 100%, 75%, 50%, and 25% sPLS-DA in mice quadriceps during spaceflight, and Venn diagram of the 100%, 75%, 50%, and 25% sPLS-DA reported genes.Blue arrow indicates hypoglycemic pathways (p-value < 0.05, FDR < 0.05).B) Webgesalt enriched KEGG pathways of the 491 common DEG between total DEG and DEG post 100%, 75%, 50%, and 25% sPLS-DA in mice quadriceps during spaceflight, and Venn diagram of the pre-and post-100%, 75%, 50%, and 25% sPLS-DA DEG(p-value < 0.05, FDR < 0.05).Blue arrow indicates hypoglycemic pathways.C) PCA in muscle Glucose Transport and muscle Hypoglycemic Signaling pathways.D) Correlation heatmap between muscle Glucose Transport and muscle Hypoglycemic Signaling pathways gene expression from sPLS of mice quadriceps transcriptome during spaceflight.Color key shows correlation intensity DEG: Differentially Expressed Genes, FDR : False Discovery Rate, KEGG: Kyoto Encyclopedia of Genes and Genomes, ORA: Over Representation Analysis, PCA: Principal Component Analysis, sPLS-DA: sparse Partial Least Square-Differential Analysis Supplemental figure 3, Related to figure 4. A) Webgesalt ORA enriched KEGG pathways of the 3334 common genes reported by the 100%, 75%, 50%, and 25% sPLS-DA in mice liver during spaceflight, and Venn diagram of the 100%, 75%, 50%, and 25% sPLS-DA reported genes (p-value < 0.05, FDR < 0.05).Blue arrow indicates lipid metabolism related pathways.B) Venn diagram of the pre-and post-100%, 75%, 50%, and 25% sPLS-DA DEG (p-value < 0.05, FDR < 0.05).C) Summary of common Webgesalts ORA enriched KEGG pathways in common between DEG, sPLS-DA genes, and post sPLS-DA DEG.Lipid metabolism related pathways are shown in blue.DEG: Differentially Expressed Genes, FDR : False Discovery Rate, KEGG: Kyoto Encyclopedia of Genes and Genomes, ORA: Over Representation Analysis, sPLS-DA: sparse Partial Least Square-Differential Analysis",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "2,36.00,652.42,523.42,11.04;2,36.00,665.86,523.56,11.04;2,36.00,679.30,523.47,11.04;2,36.00,692.74,523.35,11.04;2,36.00,706.18,411.55,11.04;3,26.88,695.74,536.22,11.04;3,26.88,709.18,536.32,11.04;3,26.88,722.52,536.29,11.04;3,26.88,735.96,536.08,11.04;3,26.88,749.40,536.28,11.04;3,26.88,762.84,536.41,11.04;3,26.88,776.28,536.32,11.04;3,26.88,789.72,536.10,11.04;3,26.88,803.16,536.16,11.04;3,26.88,816.60,536.36,11.04;3,26.88,830.04,214.82,11.04;4,38.16,553.75,521.46,11.04;4,38.16,567.22,521.51,11.04;4,38.16,580.66,521.61,11.04;4,38.16,593.98,521.42,11.04;4,38.16,607.42,521.61,11.04;4,38.16,620.86,521.46,11.04;4,38.16,634.30,521.60,11.04;4,38.16,647.74,214.82,11.04",
+      "coords_groups": [
+        {
+          "page": 2,
+          "x": 36.0,
+          "y": 652.42,
+          "w": 523.42,
+          "h": 11.04,
+          "x2": 559.42,
+          "y2": 663.4599999999999
+        },
+        {
+          "page": 2,
+          "x": 36.0,
+          "y": 665.86,
+          "w": 523.56,
+          "h": 11.04,
+          "x2": 559.56,
+          "y2": 676.9
+        },
+        {
+          "page": 2,
+          "x": 36.0,
+          "y": 679.3,
+          "w": 523.47,
+          "h": 11.04,
+          "x2": 559.47,
+          "y2": 690.3399999999999
+        },
+        {
+          "page": 2,
+          "x": 36.0,
+          "y": 692.74,
+          "w": 523.35,
+          "h": 11.04,
+          "x2": 559.35,
+          "y2": 703.78
+        },
+        {
+          "page": 2,
+          "x": 36.0,
+          "y": 706.18,
+          "w": 411.55,
+          "h": 11.04,
+          "x2": 447.55,
+          "y2": 717.2199999999999
+        },
+        {
+          "page": 3,
+          "x": 26.88,
+          "y": 695.74,
+          "w": 536.22,
+          "h": 11.04,
+          "x2": 563.1,
+          "y2": 706.78
+        },
+        {
+          "page": 3,
+          "x": 26.88,
+          "y": 709.18,
+          "w": 536.32,
+          "h": 11.04,
+          "x2": 563.2,
+          "y2": 720.2199999999999
+        },
+        {
+          "page": 3,
+          "x": 26.88,
+          "y": 722.52,
+          "w": 536.29,
+          "h": 11.04,
+          "x2": 563.17,
+          "y2": 733.56
+        },
+        {
+          "page": 3,
+          "x": 26.88,
+          "y": 735.96,
+          "w": 536.08,
+          "h": 11.04,
+          "x2": 562.96,
+          "y2": 747.0
+        },
+        {
+          "page": 3,
+          "x": 26.88,
+          "y": 749.4,
+          "w": 536.28,
+          "h": 11.04,
+          "x2": 563.16,
+          "y2": 760.4399999999999
+        },
+        {
+          "page": 3,
+          "x": 26.88,
+          "y": 762.84,
+          "w": 536.41,
+          "h": 11.04,
+          "x2": 563.29,
+          "y2": 773.88
+        },
+        {
+          "page": 3,
+          "x": 26.88,
+          "y": 776.28,
+          "w": 536.32,
+          "h": 11.04,
+          "x2": 563.2,
+          "y2": 787.3199999999999
+        },
+        {
+          "page": 3,
+          "x": 26.88,
+          "y": 789.72,
+          "w": 536.1,
+          "h": 11.04,
+          "x2": 562.98,
+          "y2": 800.76
+        },
+        {
+          "page": 3,
+          "x": 26.88,
+          "y": 803.16,
+          "w": 536.16,
+          "h": 11.04,
+          "x2": 563.04,
+          "y2": 814.1999999999999
+        },
+        {
+          "page": 3,
+          "x": 26.88,
+          "y": 816.6,
+          "w": 536.36,
+          "h": 11.04,
+          "x2": 563.24,
+          "y2": 827.64
+        },
+        {
+          "page": 3,
+          "x": 26.88,
+          "y": 830.04,
+          "w": 214.82,
+          "h": 11.04,
+          "x2": 241.7,
+          "y2": 841.0799999999999
+        },
+        {
+          "page": 4,
+          "x": 38.16,
+          "y": 553.75,
+          "w": 521.46,
+          "h": 11.04,
+          "x2": 559.62,
+          "y2": 564.79
+        },
+        {
+          "page": 4,
+          "x": 38.16,
+          "y": 567.22,
+          "w": 521.51,
+          "h": 11.04,
+          "x2": 559.67,
+          "y2": 578.26
+        },
+        {
+          "page": 4,
+          "x": 38.16,
+          "y": 580.66,
+          "w": 521.61,
+          "h": 11.04,
+          "x2": 559.77,
+          "y2": 591.6999999999999
+        },
+        {
+          "page": 4,
+          "x": 38.16,
+          "y": 593.98,
+          "w": 521.42,
+          "h": 11.04,
+          "x2": 559.5799999999999,
+          "y2": 605.02
+        },
+        {
+          "page": 4,
+          "x": 38.16,
+          "y": 607.42,
+          "w": 521.61,
+          "h": 11.04,
+          "x2": 559.77,
+          "y2": 618.4599999999999
+        },
+        {
+          "page": 4,
+          "x": 38.16,
+          "y": 620.86,
+          "w": 521.46,
+          "h": 11.04,
+          "x2": 559.62,
+          "y2": 631.9
+        },
+        {
+          "page": 4,
+          "x": 38.16,
+          "y": 634.3,
+          "w": 521.6,
+          "h": 11.04,
+          "x2": 559.76,
+          "y2": 645.3399999999999
+        },
+        {
+          "page": 4,
+          "x": 38.16,
+          "y": 647.74,
+          "w": 214.82,
+          "h": 11.04,
+          "x2": 252.98,
+          "y2": 658.78
+        }
+      ],
+      "bbox": {
+        "page": 2,
+        "x1": 36.0,
+        "y1": 652.42,
+        "x2": 559.56,
+        "y2": 717.2199999999999,
+        "width": 523.56,
+        "height": 64.79999999999995
+      },
+      "section_index": null,
+      "section_heading": null,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC9576569/fig_1.png"
+    }
+  },
+  "tables": {},
+  "equations": {},
+  "references": [],
+  "footnotes": [],
+  "full_text": "",
+  "stats": {
+    "section_count": 0,
+    "figure_count": 1,
+    "figure_count_original": 1,
+    "figure_count_synthetic": 0,
+    "table_count": 0,
+    "equation_count": 0,
+    "reference_count": 0,
+    "footnote_count": 0,
+    "extracted_at": "2025-10-05T10:51:43.811548Z",
+    "image_extraction": {
+      "extracted_images": 3,
+      "figure_images_mapped": 1,
+      "table_images_mapped": 0,
+      "cropped_images": 0,
+      "figures_total_all": 1,
+      "figures_total_pure": 1,
+      "figures_total_original": 1,
+      "figures_total_synthetic": 0,
+      "tables_total": 0,
+      "figures_with_image_pure": 1,
+      "tables_with_image": 0,
+      "figures_missing_image_pure": 0,
+      "tables_missing_image": 0
+    },
+    "figures_total_all": 1,
+    "figures_total_pure": 1,
+    "figures_total_original": 1,
+    "figures_total_synthetic": 0,
+    "tables_total": 0,
+    "figures_with_image_pure": 1,
+    "tables_with_image": 0,
+    "validation": {
+      "figure_ids_total": 1,
+      "equation_ids_total": 0,
+      "figure_block_ids": 0,
+      "equation_block_ids": 0,
+      "missing_figure_block_refs": [
+        "fig_1"
+      ],
+      "missing_equation_block_refs": [],
+      "global_order_contiguous": true,
+      "block_count": 0,
+      "equations_missing_loc": [],
+      "equations_missing_bbox_expected": []
+    }
+  }
+}

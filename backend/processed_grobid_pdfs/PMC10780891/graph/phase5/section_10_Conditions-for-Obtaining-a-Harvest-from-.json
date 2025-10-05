@@ -1,0 +1,162 @@
+{
+  "paper_id": "PMC10780891",
+  "section": "Conditions for Obtaining a Harvest from Super Dwarf Wheat",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 646,
+      "label": "Upright",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Conditions for Obtaining a Harvest from Super Dwarf Wheat",
+        "sentence_id": 182,
+        "char_start": 36922,
+        "char_end": 36929,
+        "anchor": "PMC10780891_36922_36929",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 647,
+      "label": "chamber",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Conditions for Obtaining a Harvest from Super Dwarf Wheat",
+        "sentence_id": 182,
+        "char_start": 37345,
+        "char_end": 37352,
+        "anchor": "PMC10780891_37345_37352",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 648,
+      "label": "Watering",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Conditions for Obtaining a Harvest from Super Dwarf Wheat",
+        "sentence_id": 182,
+        "char_start": 37435,
+        "char_end": 37443,
+        "anchor": "PMC10780891_37435_37443",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 652,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Conditions for Obtaining a Harvest from Super Dwarf Wheat",
+        "sentence_id": 182,
+        "char_start": 36963,
+        "char_end": 36966,
+        "anchor": "PMC10780891_36963_36966",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 653,
+      "label": "AIMCOR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Conditions for Obtaining a Harvest from Super Dwarf Wheat",
+        "sentence_id": 182,
+        "char_start": 37302,
+        "char_end": 37308,
+        "anchor": "PMC10780891_37302_37308",
+        "page": 11,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 957,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 646,
+      "target": 647
+    },
+    {
+      "id": 958,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 646,
+      "target": 648
+    },
+    {
+      "id": 959,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 646,
+      "target": 652
+    },
+    {
+      "id": 960,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 646,
+      "target": 653
+    },
+    {
+      "id": 962,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 647,
+      "target": 648
+    },
+    {
+      "id": 963,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 647,
+      "target": 652
+    },
+    {
+      "id": 964,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 647,
+      "target": 653
+    },
+    {
+      "id": 966,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 648,
+      "target": 652
+    },
+    {
+      "id": 967,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 648,
+      "target": 653
+    },
+    {
+      "id": 969,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 652,
+      "target": 653
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 8,
+      "removed_orphans": 9,
+      "largest_component": 5,
+      "removed_components": [
+        4,
+        4,
+        3,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 11
+  }
+}

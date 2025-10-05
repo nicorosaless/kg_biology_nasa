@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMC5391430",
+  "section": "Synthetic ANATOMICAL_SITE",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 59,
+      "label": "Kirovograd",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Accession number(s).",
+        "sentence_id": 18,
+        "char_start": 4152,
+        "char_end": 4162,
+        "anchor": "PMC5391430_4152_4162",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 83,
+      "label": "International",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Accession number(s).",
+        "sentence_id": 23,
+        "char_start": 4810,
+        "char_end": 4823,
+        "anchor": "PMC5391430_4810_4823",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-59-83",
+      "type": "ASSOCIATED",
+      "source": 59,
+      "target": 83
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "ANATOMICAL_SITE",
+    "page": null
+  }
+}

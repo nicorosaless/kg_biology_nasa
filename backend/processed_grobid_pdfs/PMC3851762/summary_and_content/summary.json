@@ -1,0 +1,172 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "This study investigates the global transcriptional and phenotypic responses of Candida albicans, a major opportunistic fungal pathogen, to spaceflight conditions. Astronauts' compromised immune systems and the presence of opportunistic pathogens like Candida species pose infection risks during space missions. Prior research suggests spaceflight can alter pathogen virulence and gene expression. This research aims to understand how spaceflight affects C. albicans, which is frequently found in astronauts and the space environment.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Figure 1.Ten most represented functional categories affected by growth of C.",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.jpeg"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Figure 2.",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.jpeg"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Figure 3.Light microscopic analyses of fixed cultured in spaceflight (A, B) and ground control (a, b) conditions.Panels A and B: Differential interface contrast (DIC) images at 4006 magnification.Panels a, b: DIC images are 6306 magnification.Purple",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.jpeg"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Figure 4.",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.png"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Experimental Setup",
+      "summary": "C. albicans strain SC5314 was cultured in Fluid Processing Apparatuses (FPAs) under spaceflight and synchronous ground control conditions for 25 hours. Growth was initiated in flight by adding YPD medium. Samples were then fixed for RNA, protein, and morphological imaging using RNA Later II reagent, or for infection studies and SEM with YPD medium or glutaraldehyde. Post-flight, samples were analyzed for viability, gene expression via microarray and qRT-PCR, morphological changes via microscopy, and virulence in a murine infection model. Figure S1 shows a schematic of the FPA.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Transcriptional Profiling",
+      "summary": "Microarray analysis revealed that 452 genes (8.3% of analyzed ORFs) were differentially expressed in spaceflight-cultured C. albicans compared to ground controls; 279 were upregulated, and 173 were downregulated. GO Slim Mapper categorized these genes, revealing differential expression in genes related to cell aggregation, stress resistance, and actin cytoskeleton. The transcriptional regulator Cap1 and a significant portion of its regulon were also differentially expressed, suggesting its role in the spaceflight response.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Biofilm and Filamentation Gene Expression",
+      "summary": "Several genes involved in biofilm formation and filamentation were differentially expressed under spaceflight conditions, including TUP1, ALS1, and CPH1. YWP1, a gene promoting the non-filamentous phenotype, was significantly induced. Genes encoding the glucanosyltransferase Phr1, involved in glucan modification, were upregulated. Enhanced cell aggregation, resembling flocculation in S. cerevisiae, was observed. The cell surface glycoprotein Als1, similar to Flo11, was also upregulated.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "RNA-Binding Proteins Analysis",
+      "summary": "Analysis of 'RNA metabolic processes' identified LSm2 as the only LSm family member differentially expressed. Twelve additional RNA-binding proteins showed altered expression, including PRP39, SPT5, STI1, and TCA5. Several of these genes (Yth1, Prp39, Spt5, Sti1, and Tca5) are associated with hyphal formation, indicating a potential link between RNA regulation and morphological changes in spaceflight.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Morphological Analysis",
+      "summary": "Light microscopy showed enhanced cellular aggregation in flight samples compared to ground controls. Spaceflight samples exhibited more and larger cell clusters. SEM revealed that ground samples had more cells with bipolar budding patterns, while spaceflight cultures showed more cells with multiple, randomly distributed budding scars (Figure 4). Cell surface area was significantly smaller in spaceflight samples. Flow cytometry confirmed increased cell aggregation in flight samples. Figure 3 shows light microscopy images comparing flight and ground control conditions.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Virulence Assessment",
+      "summary": "Mice infected intraperitoneally with C. albicans cultured in spaceflight or ground control conditions showed no significant difference in survival rates (Figure S2), indicating no increased virulence under the conditions tested.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": "Spaceflight culture induces a self-aggregative phenotype in C. albicans, similar to flocculation in S. cerevisiae. This response to the low fluid-shear environment of spaceflight could reveal novel infectious disease mechanisms relevant to conditions in the gastrointestinal, respiratory, and urogenital tracts. While altered gene expression was observed, no increased virulence was detected in the murine model used in this study.",
+  "keywords": [
+    "candida albicans",
+    "spaceflight",
+    "gene expression",
+    "cell aggregation",
+    "microgravity",
+    "virulence",
+    "microarray analysis",
+    "rna-binding proteins",
+    "morphology",
+    "flocculation"
+  ],
+  "topics": [
+    "microbial response to spaceflight",
+    "fungal pathogenesis",
+    "gene expression regulation"
+  ],
+  "_meta": {
+    "paper_id": "sha256:6b941479e09c128e96bf2fcb06e1c1c30671b295bcccedf5c9616099801a915f",
+    "paper_title": "Spaceflight Enhances Cell Aggregation and Random Budding in Candida albicans",
+    "generated_at": "2025-10-05T10:41:16Z",
+    "word_count": 450,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "candida albicans",
+      "spaceflight",
+      "gene expression",
+      "cell aggregation",
+      "microgravity",
+      "virulence",
+      "microarray analysis",
+      "rna-binding proteins",
+      "morphology",
+      "flocculation"
+    ],
+    "topics": [
+      "microbial response to spaceflight",
+      "fungal pathogenesis",
+      "gene expression regulation"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 6608,
+      "completion_tokens": 941,
+      "total_tokens": 7549,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000661,
+      "output_usd": 0.000376,
+      "total_usd": 0.001037
+    },
+    "cost": {
+      "input_usd": 0.000661,
+      "output_usd": 0.000376,
+      "total_usd": 0.001037
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [],
+      "corrupted_detected": [
+        "fig_3",
+        "fig_4"
+      ],
+      "original_total": 2,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

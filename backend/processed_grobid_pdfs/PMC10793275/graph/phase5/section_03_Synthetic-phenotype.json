@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMC10793275",
+  "section": "Synthetic PHENOTYPE",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 1,
+      "label": "genetic changes",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 1,
+        "char_start": 105,
+        "char_end": 120,
+        "anchor": "PMC10793275_105_120",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 19,
+      "label": "strainspe",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 6,
+        "char_start": 1147,
+        "char_end": 1156,
+        "anchor": "PMC10793275_1147_1156",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-1-19",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 19
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "PHENOTYPE",
+    "page": null
+  }
+}

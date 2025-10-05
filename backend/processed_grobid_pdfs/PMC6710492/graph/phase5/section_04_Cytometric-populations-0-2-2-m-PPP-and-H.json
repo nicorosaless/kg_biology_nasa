@@ -1,0 +1,206 @@
+{
+  "paper_id": "PMC6710492",
+  "section": "Cytometric populations (0.2-2 μm): PPP and HB",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 577,
+      "label": "fraction",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytometric populations (0.2-2 μm): PPP and HB",
+        "sentence_id": 128,
+        "char_start": 28743,
+        "char_end": 28751,
+        "anchor": "PMC6710492_28743_28751",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 578,
+      "label": "biomass",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytometric populations (0.2-2 μm): PPP and HB",
+        "sentence_id": 128,
+        "char_start": 28774,
+        "char_end": 28781,
+        "anchor": "PMC6710492_28774_28781",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 584,
+      "label": "ANOVA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytometric populations (0.2-2 μm): PPP and HB",
+        "sentence_id": 128,
+        "char_start": 28959,
+        "char_end": 28964,
+        "anchor": "PMC6710492_28959_28964",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 586,
+      "label": "ANOVA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytometric populations (0.2-2 μm): PPP and HB",
+        "sentence_id": 128,
+        "char_start": 29123,
+        "char_end": 29128,
+        "anchor": "PMC6710492_29123_29128",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 587,
+      "label": "PEuk",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytometric populations (0.2-2 μm): PPP and HB",
+        "sentence_id": 128,
+        "char_start": 29238,
+        "char_end": 29242,
+        "anchor": "PMC6710492_29238_29242",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 588,
+      "label": "ANOVA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytometric populations (0.2-2 μm): PPP and HB",
+        "sentence_id": 128,
+        "char_start": 29244,
+        "char_end": 29249,
+        "anchor": "PMC6710492_29244_29249",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 774,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 577,
+      "target": 578
+    },
+    {
+      "id": 776,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 577,
+      "target": 584
+    },
+    {
+      "id": 778,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 577,
+      "target": 586
+    },
+    {
+      "id": 779,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 577,
+      "target": 587
+    },
+    {
+      "id": 780,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 577,
+      "target": 588
+    },
+    {
+      "id": 782,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 578,
+      "target": 584
+    },
+    {
+      "id": 784,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 578,
+      "target": 586
+    },
+    {
+      "id": 785,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 578,
+      "target": 587
+    },
+    {
+      "id": 786,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 578,
+      "target": 588
+    },
+    {
+      "id": 793,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 584,
+      "target": 586
+    },
+    {
+      "id": 794,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 584,
+      "target": 587
+    },
+    {
+      "id": 795,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 584,
+      "target": 588
+    },
+    {
+      "id": 799,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 586,
+      "target": 587
+    },
+    {
+      "id": 800,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 586,
+      "target": 588
+    },
+    {
+      "id": 801,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 587,
+      "target": 588
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 7,
+      "removed_orphans": 16,
+      "largest_component": 6,
+      "removed_components": [
+        5,
+        3,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 5
+  }
+}

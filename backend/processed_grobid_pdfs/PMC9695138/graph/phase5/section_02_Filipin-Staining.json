@@ -1,0 +1,87 @@
+{
+  "paper_id": "PMC9695138",
+  "section": "Filipin Staining",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 384,
+      "label": "ordering",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Filipin Staining",
+        "sentence_id": 105,
+        "char_start": 20757,
+        "char_end": 20765,
+        "anchor": "PMC9695138_20757_20765",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 385,
+      "label": "keleton",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Filipin Staining",
+        "sentence_id": 105,
+        "char_start": 20837,
+        "char_end": 20844,
+        "anchor": "PMC9695138_20837_20844",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 383,
+      "label": "membrane",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Filipin Staining",
+        "sentence_id": 105,
+        "char_start": 20516,
+        "char_end": 20524,
+        "anchor": "PMC9695138_20516_20524",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 309,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 383,
+      "target": 384
+    },
+    {
+      "id": 310,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 383,
+      "target": 385
+    },
+    {
+      "id": 311,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 384,
+      "target": 385
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 28,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 4
+  }
+}

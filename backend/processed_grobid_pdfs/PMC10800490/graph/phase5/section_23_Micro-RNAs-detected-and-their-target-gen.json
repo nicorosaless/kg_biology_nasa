@@ -1,0 +1,446 @@
+{
+  "paper_id": "PMC10800490",
+  "section": "Micro RNAs detected and their target genes",
+  "n_nodes": 10,
+  "n_edges": 45,
+  "nodes": [
+    {
+      "id": 577,
+      "label": "miRNAs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro RNAs detected and their target genes",
+        "sentence_id": 158,
+        "char_start": 33827,
+        "char_end": 33833,
+        "anchor": "PMC10800490_33827_33833",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 578,
+      "label": "miR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro RNAs detected and their target genes",
+        "sentence_id": 158,
+        "char_start": 33835,
+        "char_end": 33838,
+        "anchor": "PMC10800490_33835_33838",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 581,
+      "label": "miR86",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro RNAs detected and their target genes",
+        "sentence_id": 158,
+        "char_start": 33915,
+        "char_end": 33920,
+        "anchor": "PMC10800490_33915_33920",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 582,
+      "label": "miR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro RNAs detected and their target genes",
+        "sentence_id": 158,
+        "char_start": 33926,
+        "char_end": 33929,
+        "anchor": "PMC10800490_33926_33929",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 584,
+      "label": "miR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro RNAs detected and their target genes",
+        "sentence_id": 158,
+        "char_start": 34004,
+        "char_end": 34007,
+        "anchor": "PMC10800490_34004_34007",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 585,
+      "label": "PRR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro RNAs detected and their target genes",
+        "sentence_id": 158,
+        "char_start": 33385,
+        "char_end": 33388,
+        "anchor": "PMC10800490_33385_33388",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 586,
+      "label": "miR398b",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro RNAs detected and their target genes",
+        "sentence_id": 158,
+        "char_start": 33926,
+        "char_end": 33933,
+        "anchor": "PMC10800490_33926_33933",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 566,
+      "label": "mRNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro RNAs detected and their target genes",
+        "sentence_id": 158,
+        "char_start": 33365,
+        "char_end": 33369,
+        "anchor": "PMC10800490_33365_33369",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 569,
+      "label": "Land",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro RNAs detected and their target genes",
+        "sentence_id": 158,
+        "char_start": 33474,
+        "char_end": 33478,
+        "anchor": "PMC10800490_33474_33478",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 573,
+      "label": "miR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro RNAs detected and their target genes",
+        "sentence_id": 158,
+        "char_start": 33655,
+        "char_end": 33658,
+        "anchor": "PMC10800490_33655_33658",
+        "page": 9,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1248,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 566,
+      "target": 569
+    },
+    {
+      "id": 1249,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 566,
+      "target": 573
+    },
+    {
+      "id": 1250,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 566,
+      "target": 577
+    },
+    {
+      "id": 1251,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 566,
+      "target": 578
+    },
+    {
+      "id": 1252,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 566,
+      "target": 581
+    },
+    {
+      "id": 1253,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 566,
+      "target": 582
+    },
+    {
+      "id": 1254,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 566,
+      "target": 584
+    },
+    {
+      "id": 1255,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 566,
+      "target": 585
+    },
+    {
+      "id": 1256,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 566,
+      "target": 586
+    },
+    {
+      "id": 1257,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 569,
+      "target": 573
+    },
+    {
+      "id": 1258,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 569,
+      "target": 577
+    },
+    {
+      "id": 1259,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 569,
+      "target": 578
+    },
+    {
+      "id": 1260,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 569,
+      "target": 581
+    },
+    {
+      "id": 1261,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 569,
+      "target": 582
+    },
+    {
+      "id": 1262,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 569,
+      "target": 584
+    },
+    {
+      "id": 1263,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 569,
+      "target": 585
+    },
+    {
+      "id": 1264,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 569,
+      "target": 586
+    },
+    {
+      "id": 1265,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 573,
+      "target": 577
+    },
+    {
+      "id": 1266,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 573,
+      "target": 578
+    },
+    {
+      "id": 1267,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 573,
+      "target": 581
+    },
+    {
+      "id": 1268,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 573,
+      "target": 582
+    },
+    {
+      "id": 1269,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 573,
+      "target": 584
+    },
+    {
+      "id": 1270,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 573,
+      "target": 585
+    },
+    {
+      "id": 1271,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 573,
+      "target": 586
+    },
+    {
+      "id": 1272,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 577,
+      "target": 578
+    },
+    {
+      "id": 1273,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 577,
+      "target": 581
+    },
+    {
+      "id": 1274,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 577,
+      "target": 582
+    },
+    {
+      "id": 1275,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 577,
+      "target": 584
+    },
+    {
+      "id": 1276,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 577,
+      "target": 585
+    },
+    {
+      "id": 1277,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 577,
+      "target": 586
+    },
+    {
+      "id": 1278,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 578,
+      "target": 581
+    },
+    {
+      "id": 1279,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 578,
+      "target": 582
+    },
+    {
+      "id": 1280,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 578,
+      "target": 584
+    },
+    {
+      "id": 1281,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 578,
+      "target": 585
+    },
+    {
+      "id": 1282,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 578,
+      "target": 586
+    },
+    {
+      "id": 1283,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 581,
+      "target": 582
+    },
+    {
+      "id": 1284,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 581,
+      "target": 584
+    },
+    {
+      "id": 1285,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 581,
+      "target": 585
+    },
+    {
+      "id": 1286,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 581,
+      "target": 586
+    },
+    {
+      "id": 1287,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 582,
+      "target": 584
+    },
+    {
+      "id": 1288,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 582,
+      "target": 585
+    },
+    {
+      "id": 1289,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 582,
+      "target": 586
+    },
+    {
+      "id": 1290,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 584,
+      "target": 585
+    },
+    {
+      "id": 1291,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 584,
+      "target": 586
+    },
+    {
+      "id": 1292,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 585,
+      "target": 586
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 7,
+      "removed_orphans": 10,
+      "largest_component": 10,
+      "removed_components": [
+        6,
+        4,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 9
+  }
+}

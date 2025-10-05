@@ -1,0 +1,203 @@
+{
+  "paper_id": "PMC9862956",
+  "section": "Relevance of CIP for C. elegans Spaceflight Studies",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 451,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Relevance of CIP for C. elegans Spaceflight Studies",
+        "sentence_id": 175,
+        "char_start": 32257,
+        "char_end": 32260,
+        "anchor": "PMC9862956_32257_32260",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 452,
+      "label": "microfl",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Relevance of CIP for C. elegans Spaceflight Studies",
+        "sentence_id": 175,
+        "char_start": 32279,
+        "char_end": 32286,
+        "anchor": "PMC9862956_32279_32286",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 453,
+      "label": "strength",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Relevance of CIP for C. elegans Spaceflight Studies",
+        "sentence_id": 175,
+        "char_start": 32311,
+        "char_end": 32319,
+        "anchor": "PMC9862956_32311_32319",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 454,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Relevance of CIP for C. elegans Spaceflight Studies",
+        "sentence_id": 175,
+        "char_start": 32257,
+        "char_end": 32260,
+        "anchor": "PMC9862956_32257_32260",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 456,
+      "label": "CIP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Relevance of CIP for C. elegans Spaceflight Studies",
+        "sentence_id": 175,
+        "char_start": 32361,
+        "char_end": 32364,
+        "anchor": "PMC9862956_32361_32364",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 457,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Relevance of CIP for C. elegans Spaceflight Studies",
+        "sentence_id": 175,
+        "char_start": 32416,
+        "char_end": 32419,
+        "anchor": "PMC9862956_32416_32419",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 544,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 451,
+      "target": 452
+    },
+    {
+      "id": 545,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 451,
+      "target": 453
+    },
+    {
+      "id": 546,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 451,
+      "target": 454
+    },
+    {
+      "id": 548,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 451,
+      "target": 456
+    },
+    {
+      "id": 549,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 451,
+      "target": 457
+    },
+    {
+      "id": 550,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 452,
+      "target": 453
+    },
+    {
+      "id": 551,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 452,
+      "target": 454
+    },
+    {
+      "id": 553,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 452,
+      "target": 456
+    },
+    {
+      "id": 554,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 452,
+      "target": 457
+    },
+    {
+      "id": 555,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 453,
+      "target": 454
+    },
+    {
+      "id": 557,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 453,
+      "target": 456
+    },
+    {
+      "id": 558,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 453,
+      "target": 457
+    },
+    {
+      "id": 560,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 454,
+      "target": 456
+    },
+    {
+      "id": 561,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 454,
+      "target": 457
+    },
+    {
+      "id": 564,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 456,
+      "target": 457
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 15,
+      "largest_component": 6,
+      "removed_components": [
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 8
+  }
+}

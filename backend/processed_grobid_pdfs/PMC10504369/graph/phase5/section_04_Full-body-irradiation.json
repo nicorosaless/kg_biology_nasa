@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC10504369",
+  "section": "Full body irradiation",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 497,
+      "label": "returned",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Full body irradiation",
+        "sentence_id": 146,
+        "char_start": 32813,
+        "char_end": 32821,
+        "anchor": "PMC10504369_32813_32821",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 498,
+      "label": "HLS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Full body irradiation",
+        "sentence_id": 146,
+        "char_start": 32864,
+        "char_end": 32867,
+        "anchor": "PMC10504369_32864_32867",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 593,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 497,
+      "target": 498
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 0,
+      "largest_component": 2
+    },
+    "page": 4
+  }
+}

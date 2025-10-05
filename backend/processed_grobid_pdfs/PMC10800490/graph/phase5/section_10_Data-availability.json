@@ -1,0 +1,81 @@
+{
+  "paper_id": "PMC10800490",
+  "section": "Data availability",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 291,
+      "label": "Gene",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Data availability",
+        "sentence_id": 92,
+        "char_start": 17174,
+        "char_end": 17178,
+        "anchor": "PMC10800490_17174_17178",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 293,
+      "label": "PRR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Data availability",
+        "sentence_id": 92,
+        "char_start": 17128,
+        "char_end": 17131,
+        "anchor": "PMC10800490_17128_17131",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 294,
+      "label": "GeneLab",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Data availability",
+        "sentence_id": 92,
+        "char_start": 17174,
+        "char_end": 17181,
+        "anchor": "PMC10800490_17174_17181",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 544,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 291,
+      "target": 293
+    },
+    {
+      "id": 545,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 291,
+      "target": 294
+    },
+    {
+      "id": 548,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 293,
+      "target": 294
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 0,
+      "largest_component": 3
+    },
+    "page": 5
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "paper_id": "PMC7012842",
+  "section": "Synthetic ANATOMICAL_SITE",
+  "n_nodes": 3,
+  "n_edges": 2,
+  "nodes": [
+    {
+      "id": 62,
+      "label": "absorbing",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Mouse habitat cage units",
+        "sentence_id": 50,
+        "char_start": 8532,
+        "char_end": 8541,
+        "anchor": "PMC7012842_8532_8541",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 81,
+      "label": "microgravity compartment",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Interface unit",
+        "sentence_id": 71,
+        "char_start": 11440,
+        "char_end": 11464,
+        "anchor": "PMC7012842_11440_11464",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 82,
+      "label": "gravity compartment",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Interface unit",
+        "sentence_id": 71,
+        "char_start": 11480,
+        "char_end": 11499,
+        "anchor": "PMC7012842_11480_11499",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-62-81",
+      "type": "ASSOCIATED",
+      "source": 62,
+      "target": 81
+    },
+    {
+      "id": "synth-62-82",
+      "type": "ASSOCIATED",
+      "source": 62,
+      "target": 82
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "ANATOMICAL_SITE",
+    "page": null
+  }
+}

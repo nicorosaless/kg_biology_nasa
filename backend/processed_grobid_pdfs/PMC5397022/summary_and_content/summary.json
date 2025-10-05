@@ -1,0 +1,146 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "The study investigates the effectiveness of RNAlater, a common alternative to snap-freezing in liquid nitrogen, for preserving RNA and proteins in Arabidopsis thaliana tissues. While RNAlater is known to prevent RNA degradation, its impact on transcriptomic and proteomic profiles is not fully understood. The research compares transcript and protein levels in Arabidopsis seedlings preserved using RNAlater versus snap-freezing, assessing differential gene expression, protein abundance, and post-translational modifications.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Fig 1.",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.jpeg"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Fig 2.",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.jpeg"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "RNAlater Treatment Alters Transcript Levels",
+      "summary": "RNA sequencing revealed that RNAlater treatment significantly alters transcript levels in Arabidopsis seedlings. Specifically, 5770 gene transcripts were differentially expressed at a log-fold change of ±1 (P 0.05) when comparing RNAlater-treated samples to snap-frozen samples. Gene ontology (GO) enrichment analysis indicated an upregulated response to osmotic stress, suggesting that RNAlater preservation is not immediate and induces a transcriptional response to the ammonium and cesium sulfates present in the solution. This osmotic stress response potentially alters transcriptomes.",
+      "figures": []
+    },
+    {
+      "heading": "RNAlater Fixation Enables Proteomics Analysis",
+      "summary": "RNAlater fixation is sufficient to prevent proteolysis in Arabidopsis seedlings, allowing for proteomics analysis. A total of 2,915 membrane proteins and 2,646 soluble proteins were identified in both RNAlater and snap-frozen samples. The detection of individual proteins was not significantly altered by the treatment, indicating that RNAlater is effective for absolute protein detection.",
+      "figures": []
+    },
+    {
+      "heading": "Differentially Detected Proteins",
+      "summary": "While RNAlater preserves protein integrity, it does alter protein expression levels. At a log fold change of ±1, 84 soluble proteins and 120 membrane-bound proteins were found to be differentially expressed (P 0.05). Unlike the transcript analysis, the proteome did not show significant GO differences for categories comprising osmotic stress. Instead, GO analysis revealed significant differences in protein import into the nucleus, mRNA transport, ribosomal small subunit biogenesis, RNA localization, translational elongation, and response to cadmium, metal, and cold.",
+      "figures": []
+    },
+    {
+      "heading": "Post-Translational Modifications Altered by RNAlater Fixation",
+      "summary": "RNAlater fixation alters the abundance of post-translational modifications, particularly phosphorylation. 21.3% of all phosphorylated peptides showed altered abundance, indicating a greater sensitivity to the treatment compared to oxidation and deamidation modifications, which showed altered abundance in 6.8% and 10.4% of modified peptides, respectively. Few modifications were selectively induced by RNAlater, but the overall abundance of many protein modifications was affected.",
+      "figures": []
+    },
+    {
+      "heading": "Discussion",
+      "summary": "RNAlater is a valuable fixative that denatures proteases and RNases, thus preserving RNA and protein integrity. While many studies have successfully used RNAlater as a preservative, few have directly compared its effects on the stability of RNA, protein, and post-translational modifications. The study's findings indicate that RNAlater induces both transcriptomic and proteomic responses in Arabidopsis seedlings. These responses should be considered when using RNAlater for transcriptomic and proteomic experiments to avoid misinterpreting experimental results.",
+      "figures": []
+    }
+  ],
+  "conclusion": {
+    "heading": "Conclusion",
+    "summary": "[4] analyzed microbial proteins and showed that more proteins were detected in RNAlater preserved samples than in the snap frozen controls.Bennike et al. [3,5] demonstrated protein and RNA integrity, and detection of post-translational modifications are not significantly impacted by RNAlater in human tissue samples."
+  },
+  "keywords": [
+    "rnalater",
+    "arabidopsis thaliana",
+    "transcriptomics",
+    "proteomics",
+    "post-translational modifications",
+    "gene expression",
+    "protein abundance",
+    "osmotic stress",
+    "tissue preservation",
+    "mass spectrometry"
+  ],
+  "topics": [
+    "plant biology",
+    "molecular biology",
+    "proteomics"
+  ],
+  "_meta": {
+    "paper_id": "sha256:6c3ca1b6a02a670bfdc47fdda195412404618fbe253a8bca4c4c019bcfd3a5c0",
+    "paper_title": "Transcriptome and proteome responses in RNAlater preserved tissue of Arabidopsis thaliana",
+    "generated_at": "2025-10-05T10:44:54Z",
+    "word_count": 453,
+    "figures": [
+      "fig_1",
+      "fig_2"
+    ],
+    "equations": [],
+    "keywords": [
+      "rnalater",
+      "arabidopsis thaliana",
+      "transcriptomics",
+      "proteomics",
+      "post-translational modifications",
+      "gene expression",
+      "protein abundance",
+      "osmotic stress",
+      "tissue preservation",
+      "mass spectrometry"
+    ],
+    "topics": [
+      "plant biology",
+      "molecular biology",
+      "proteomics"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 4803,
+      "completion_tokens": 828,
+      "total_tokens": 5631,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.00048,
+      "output_usd": 0.000331,
+      "total_usd": 0.000812
+    },
+    "cost": {
+      "input_usd": 0.00048,
+      "output_usd": 0.000331,
+      "total_usd": 0.000812
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [],
+      "corrupted_detected": [
+        "fig_1",
+        "fig_2"
+      ],
+      "original_total": 2,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2"
+      ]
+    }
+  }
+}

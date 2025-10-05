@@ -1,0 +1,208 @@
+{
+  "paper_id": "PMC11451251",
+  "section": "Annotations unique to ISS bacterial species",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 142,
+      "label": "terpenes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 56,
+        "char_start": 11256,
+        "char_end": 11264,
+        "anchor": "PMC11451251_11256_11264",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 148,
+      "label": "NAPAA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 56,
+        "char_start": 11387,
+        "char_end": 11392,
+        "anchor": "PMC11451251_11387_11392",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 151,
+      "label": "RiP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 56,
+        "char_start": 11499,
+        "char_end": 11502,
+        "anchor": "PMC11451251_11499_11502",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 153,
+      "label": "BGCs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 56,
+        "char_start": 11214,
+        "char_end": 11218,
+        "anchor": "PMC11451251_11214_11218",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 154,
+      "label": "NAPAA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 56,
+        "char_start": 11387,
+        "char_end": 11392,
+        "anchor": "PMC11451251_11387_11392",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 155,
+      "label": "RiPP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 56,
+        "char_start": 11499,
+        "char_end": 11503,
+        "anchor": "PMC11451251_11499_11503",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 107,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 142,
+      "target": 148
+    },
+    {
+      "id": 108,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 142,
+      "target": 151
+    },
+    {
+      "id": 109,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 142,
+      "target": 153
+    },
+    {
+      "id": 110,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 142,
+      "target": 154
+    },
+    {
+      "id": 111,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 142,
+      "target": 155
+    },
+    {
+      "id": 112,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 148,
+      "target": 151
+    },
+    {
+      "id": 113,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 148,
+      "target": 153
+    },
+    {
+      "id": 114,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 148,
+      "target": 154
+    },
+    {
+      "id": 115,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 148,
+      "target": 155
+    },
+    {
+      "id": 116,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 151,
+      "target": 153
+    },
+    {
+      "id": 117,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 151,
+      "target": 154
+    },
+    {
+      "id": 118,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 151,
+      "target": 155
+    },
+    {
+      "id": 119,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 153,
+      "target": 154
+    },
+    {
+      "id": 120,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 153,
+      "target": 155
+    },
+    {
+      "id": 121,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 154,
+      "target": 155
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 9,
+      "removed_orphans": 8,
+      "largest_component": 6,
+      "removed_components": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 4
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "paper_id": "PMC5415411",
+  "section": "Synthetic ANATOMICAL_SITE",
+  "n_nodes": 10,
+  "n_edges": 9,
+  "nodes": [
+    {
+      "id": 470,
+      "label": "Golgi apparatus",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "The Canonical Response to Unfolded Proteins: New Look at the Master Regulators IRE1, bZIP60, and bZIP28",
+        "sentence_id": 63,
+        "char_start": 22095,
+        "char_end": 22110,
+        "anchor": "PMC5415411_22095_22110",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 491,
+      "label": "Golgi apparatus",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "The Canonical Response to Unfolded Proteins: New Look at the Master Regulators IRE1, bZIP60, and bZIP28",
+        "sentence_id": 64,
+        "char_start": 22883,
+        "char_end": 22898,
+        "anchor": "PMC5415411_22883_22898",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 494,
+      "label": "Golgi apparatus",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "The Canonical Response to Unfolded Proteins: New Look at the Master Regulators IRE1, bZIP60, and bZIP28",
+        "sentence_id": 65,
+        "char_start": 23120,
+        "char_end": 23135,
+        "anchor": "PMC5415411_23120_23135",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 543,
+      "label": "cell surface",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "The Canonical Response to Unfolded Proteins: New Look at the Master Regulators IRE1, bZIP60, and bZIP28",
+        "sentence_id": 73,
+        "char_start": 24926,
+        "char_end": 24938,
+        "anchor": "PMC5415411_24926_24938",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 626,
+      "label": "26S proteasome",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Send in the Cavalry: Downstream Effectors during ER Stress",
+        "sentence_id": 82,
+        "char_start": 27954,
+        "char_end": 27968,
+        "anchor": "PMC5415411_27954_27968",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 677,
+      "label": "erentiated",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Send in the Cavalry: Downstream Effectors during ER Stress",
+        "sentence_id": 88,
+        "char_start": 30443,
+        "char_end": 30453,
+        "anchor": "PMC5415411_30443_30453",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 689,
+      "label": "ER lu",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Send in the Cavalry: Downstream Effectors during ER Stress",
+        "sentence_id": 90,
+        "char_start": 30885,
+        "char_end": 30890,
+        "anchor": "PMC5415411_30885_30890",
+        "page": 16,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 718,
+      "label": "inner nuclear membranes",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Send in the Cavalry: Downstream Effectors during ER Stress",
+        "sentence_id": 93,
+        "char_start": 32114,
+        "char_end": 32137,
+        "anchor": "PMC5415411_32114_32137",
+        "page": 16,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 738,
+      "label": "inner membrane",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Send in the Cavalry: Downstream Effectors during ER Stress",
+        "sentence_id": 96,
+        "char_start": 32530,
+        "char_end": 32544,
+        "anchor": "PMC5415411_32530_32544",
+        "page": 17,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 753,
+      "label": "male fertility",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Send in the Cavalry: Downstream Effectors during ER Stress",
+        "sentence_id": 97,
+        "char_start": 33082,
+        "char_end": 33096,
+        "anchor": "PMC5415411_33082_33096",
+        "page": 17,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-470-491",
+      "type": "ASSOCIATED",
+      "source": 470,
+      "target": 491
+    },
+    {
+      "id": "synth-470-494",
+      "type": "ASSOCIATED",
+      "source": 470,
+      "target": 494
+    },
+    {
+      "id": "synth-470-543",
+      "type": "ASSOCIATED",
+      "source": 470,
+      "target": 543
+    },
+    {
+      "id": "synth-470-626",
+      "type": "ASSOCIATED",
+      "source": 470,
+      "target": 626
+    },
+    {
+      "id": "synth-470-677",
+      "type": "ASSOCIATED",
+      "source": 470,
+      "target": 677
+    },
+    {
+      "id": "synth-470-689",
+      "type": "ASSOCIATED",
+      "source": 470,
+      "target": 689
+    },
+    {
+      "id": "synth-470-718",
+      "type": "ASSOCIATED",
+      "source": 470,
+      "target": 718
+    },
+    {
+      "id": "synth-470-738",
+      "type": "ASSOCIATED",
+      "source": 470,
+      "target": 738
+    },
+    {
+      "id": "synth-470-753",
+      "type": "ASSOCIATED",
+      "source": 470,
+      "target": 753
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "ANATOMICAL_SITE",
+    "page": null
+  }
+}

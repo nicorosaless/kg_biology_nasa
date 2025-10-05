@@ -1,0 +1,382 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "Technology",
+  "n_nodes": 9,
+  "n_edges": 36,
+  "nodes": [
+    {
+      "id": 352,
+      "label": "Moon",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Technology",
+        "sentence_id": 170,
+        "char_start": 32776,
+        "char_end": 32780,
+        "anchor": "PMC10284894_32776_32780",
+        "page": 33,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 353,
+      "label": "Artemis",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Technology",
+        "sentence_id": 170,
+        "char_start": 32863,
+        "char_end": 32870,
+        "anchor": "PMC10284894_32863_32870",
+        "page": 34,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 345,
+      "label": "Origin",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Technology",
+        "sentence_id": 170,
+        "char_start": 32589,
+        "char_end": 32595,
+        "anchor": "PMC10284894_32589_32595",
+        "page": 33,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 346,
+      "label": "Lei",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Technology",
+        "sentence_id": 170,
+        "char_start": 32629,
+        "char_end": 32632,
+        "anchor": "PMC10284894_32629_32632",
+        "page": 33,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 347,
+      "label": "SpaceX",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Technology",
+        "sentence_id": 170,
+        "char_start": 32673,
+        "char_end": 32679,
+        "anchor": "PMC10284894_32673_32679",
+        "page": 33,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 348,
+      "label": "Moon",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Technology",
+        "sentence_id": 170,
+        "char_start": 32776,
+        "char_end": 32780,
+        "anchor": "PMC10284894_32776_32780",
+        "page": 33,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 349,
+      "label": "Leidos",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Technology",
+        "sentence_id": 170,
+        "char_start": 32629,
+        "char_end": 32635,
+        "anchor": "PMC10284894_32629_32635",
+        "page": 33,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 350,
+      "label": "Alabama",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Technology",
+        "sentence_id": 170,
+        "char_start": 32660,
+        "char_end": 32667,
+        "anchor": "PMC10284894_32660_32667",
+        "page": 33,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 351,
+      "label": "HLS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Technology",
+        "sentence_id": 170,
+        "char_start": 32739,
+        "char_end": 32742,
+        "anchor": "PMC10284894_32739_32742",
+        "page": 33,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 354,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 345,
+      "target": 346
+    },
+    {
+      "id": 355,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 345,
+      "target": 347
+    },
+    {
+      "id": 356,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 345,
+      "target": 348
+    },
+    {
+      "id": 357,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 345,
+      "target": 349
+    },
+    {
+      "id": 358,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 345,
+      "target": 350
+    },
+    {
+      "id": 359,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 345,
+      "target": 351
+    },
+    {
+      "id": 360,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 345,
+      "target": 352
+    },
+    {
+      "id": 361,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 345,
+      "target": 353
+    },
+    {
+      "id": 362,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 346,
+      "target": 347
+    },
+    {
+      "id": 363,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 346,
+      "target": 348
+    },
+    {
+      "id": 364,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 346,
+      "target": 349
+    },
+    {
+      "id": 365,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 346,
+      "target": 350
+    },
+    {
+      "id": 366,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 346,
+      "target": 351
+    },
+    {
+      "id": 367,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 346,
+      "target": 352
+    },
+    {
+      "id": 368,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 346,
+      "target": 353
+    },
+    {
+      "id": 369,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 347,
+      "target": 348
+    },
+    {
+      "id": 370,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 347,
+      "target": 349
+    },
+    {
+      "id": 371,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 347,
+      "target": 350
+    },
+    {
+      "id": 372,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 347,
+      "target": 351
+    },
+    {
+      "id": 373,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 347,
+      "target": 352
+    },
+    {
+      "id": 374,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 347,
+      "target": 353
+    },
+    {
+      "id": 375,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 348,
+      "target": 349
+    },
+    {
+      "id": 376,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 348,
+      "target": 350
+    },
+    {
+      "id": 377,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 348,
+      "target": 351
+    },
+    {
+      "id": 378,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 348,
+      "target": 352
+    },
+    {
+      "id": 379,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 348,
+      "target": 353
+    },
+    {
+      "id": 380,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 349,
+      "target": 350
+    },
+    {
+      "id": 381,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 349,
+      "target": 351
+    },
+    {
+      "id": 382,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 349,
+      "target": 352
+    },
+    {
+      "id": 383,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 349,
+      "target": 353
+    },
+    {
+      "id": 384,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 350,
+      "target": 351
+    },
+    {
+      "id": 385,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 350,
+      "target": 352
+    },
+    {
+      "id": 386,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 350,
+      "target": 353
+    },
+    {
+      "id": 387,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 351,
+      "target": 352
+    },
+    {
+      "id": 388,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 351,
+      "target": 353
+    },
+    {
+      "id": 389,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 352,
+      "target": 353
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 12,
+      "removed_orphans": 1,
+      "largest_component": 9,
+      "removed_components": [
+        5,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 33
+  }
+}

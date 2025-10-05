@@ -1,0 +1,81 @@
+{
+  "paper_id": "PMC10628120",
+  "section": "Mapping metagenome sequence reads from ISS to isolated novel species",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 360,
+      "label": "average",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mapping metagenome sequence reads from ISS to isolated novel species",
+        "sentence_id": 91,
+        "char_start": 19794,
+        "char_end": 19801,
+        "anchor": "PMC10628120_19794_19801",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 362,
+      "label": "Meta",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mapping metagenome sequence reads from ISS to isolated novel species",
+        "sentence_id": 91,
+        "char_start": 19844,
+        "char_end": 19848,
+        "anchor": "PMC10628120_19844_19848",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 363,
+      "label": "assembly",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mapping metagenome sequence reads from ISS to isolated novel species",
+        "sentence_id": 91,
+        "char_start": 19893,
+        "char_end": 19901,
+        "anchor": "PMC10628120_19893_19901",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 655,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 360,
+      "target": 362
+    },
+    {
+      "id": 656,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 360,
+      "target": 363
+    },
+    {
+      "id": 657,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 362,
+      "target": 363
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 8,
+      "largest_component": 3
+    },
+    "page": 4
+  }
+}

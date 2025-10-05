@@ -1,0 +1,87 @@
+{
+  "paper_id": "PMC5421618",
+  "section": "Histomorphometry",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 192,
+      "label": "mineral",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Histomorphometry",
+        "sentence_id": 62,
+        "char_start": 11806,
+        "char_end": 11813,
+        "anchor": "PMC5421618_11806_11813",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 187,
+      "label": "Flu",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Histomorphometry",
+        "sentence_id": 62,
+        "char_start": 11281,
+        "char_end": 11284,
+        "anchor": "PMC5421618_11281_11284",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 188,
+      "label": "mineral",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Histomorphometry",
+        "sentence_id": 62,
+        "char_start": 11340,
+        "char_end": 11347,
+        "anchor": "PMC5421618_11340_11347",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 138,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 187,
+      "target": 188
+    },
+    {
+      "id": 139,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 187,
+      "target": 192
+    },
+    {
+      "id": 141,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 188,
+      "target": 192
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 18,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    "page": 6
+  }
+}

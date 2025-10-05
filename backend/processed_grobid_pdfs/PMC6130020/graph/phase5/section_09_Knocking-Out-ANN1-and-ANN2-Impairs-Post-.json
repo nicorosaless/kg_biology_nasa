@@ -1,0 +1,86 @@
+{
+  "paper_id": "PMC6130020",
+  "section": "Knocking Out ANN1 and ANN2 Impairs Post-Phloem Transport in Root Tips",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 289,
+      "label": "ann1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Knocking Out ANN1 and ANN2 Impairs Post-Phloem Transport in Root Tips",
+        "sentence_id": 67,
+        "char_start": 16049,
+        "char_end": 16053,
+        "anchor": "PMC6130020_16049_16053",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 290,
+      "label": "ann2",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Knocking Out ANN1 and ANN2 Impairs Post-Phloem Transport in Root Tips",
+        "sentence_id": 67,
+        "char_start": 16060,
+        "char_end": 16064,
+        "anchor": "PMC6130020_16060_16064",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 291,
+      "label": "ANN",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Knocking Out ANN1 and ANN2 Impairs Post-Phloem Transport in Root Tips",
+        "sentence_id": 67,
+        "char_start": 16072,
+        "char_end": 16075,
+        "anchor": "PMC6130020_16072_16075",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 380,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 289,
+      "target": 290
+    },
+    {
+      "id": 381,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 289,
+      "target": 291
+    },
+    {
+      "id": 383,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 290,
+      "target": 291
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 10,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        3,
+        2
+      ]
+    },
+    "page": 5
+  }
+}

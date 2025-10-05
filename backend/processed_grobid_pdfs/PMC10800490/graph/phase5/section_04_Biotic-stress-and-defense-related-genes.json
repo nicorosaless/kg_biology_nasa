@@ -1,0 +1,81 @@
+{
+  "paper_id": "PMC10800490",
+  "section": "Biotic stress and defense related genes",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 484,
+      "label": "WRKY18",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Biotic stress and defense related genes",
+        "sentence_id": 136,
+        "char_start": 28115,
+        "char_end": 28121,
+        "anchor": "PMC10800490_28115_28121",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 485,
+      "label": "WRKY40",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Biotic stress and defense related genes",
+        "sentence_id": 136,
+        "char_start": 28123,
+        "char_end": 28129,
+        "anchor": "PMC10800490_28123_28129",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 486,
+      "label": "WRKY60",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Biotic stress and defense related genes",
+        "sentence_id": 136,
+        "char_start": 28134,
+        "char_end": 28140,
+        "anchor": "PMC10800490_28134_28140",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1150,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 484,
+      "target": 485
+    },
+    {
+      "id": 1151,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 484,
+      "target": 486
+    },
+    {
+      "id": 1153,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 485,
+      "target": 486
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 1,
+      "largest_component": 3
+    },
+    "page": 8
+  }
+}

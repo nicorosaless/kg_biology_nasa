@@ -1,0 +1,117 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "a) Visual Acuity Disturbance and Elevated ICP in Spaceflight",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 472,
+      "label": "fifteen",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Visual Acuity Disturbance and Elevated ICP in Spaceflight",
+        "sentence_id": 152,
+        "char_start": 27235,
+        "char_end": 27242,
+        "anchor": "PMC4385880_27235_27242",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 468,
+      "label": "fifteen",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Visual Acuity Disturbance and Elevated ICP in Spaceflight",
+        "sentence_id": 152,
+        "char_start": 27235,
+        "char_end": 27242,
+        "anchor": "PMC4385880_27235_27242",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 470,
+      "label": "Made",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Visual Acuity Disturbance and Elevated ICP in Spaceflight",
+        "sentence_id": 152,
+        "char_start": 27364,
+        "char_end": 27368,
+        "anchor": "PMC4385880_27364_27368",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 471,
+      "label": "Mader",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Visual Acuity Disturbance and Elevated ICP in Spaceflight",
+        "sentence_id": 152,
+        "char_start": 27188,
+        "char_end": 27193,
+        "anchor": "PMC4385880_27188_27193",
+        "page": 13,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 298,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 468,
+      "target": 470
+    },
+    {
+      "id": 299,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 468,
+      "target": 471
+    },
+    {
+      "id": 300,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 468,
+      "target": 472
+    },
+    {
+      "id": 301,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 470,
+      "target": 471
+    },
+    {
+      "id": 302,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 470,
+      "target": 472
+    },
+    {
+      "id": 303,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 471,
+      "target": 472
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 17,
+      "largest_component": 4,
+      "removed_components": [
+        3
+      ]
+    },
+    "page": 13
+  }
+}

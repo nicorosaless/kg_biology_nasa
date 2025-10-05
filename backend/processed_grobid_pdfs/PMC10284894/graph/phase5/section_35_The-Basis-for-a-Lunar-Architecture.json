@@ -1,0 +1,87 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "The Basis for a Lunar Architecture",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 99,
+      "label": "Moon",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The Basis for a Lunar Architecture",
+        "sentence_id": 57,
+        "char_start": 8843,
+        "char_end": 8847,
+        "anchor": "PMC10284894_8843_8847",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 100,
+      "label": "Mars",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The Basis for a Lunar Architecture",
+        "sentence_id": 57,
+        "char_start": 8866,
+        "char_end": 8870,
+        "anchor": "PMC10284894_8866_8870",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 101,
+      "label": "Orion",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The Basis for a Lunar Architecture",
+        "sentence_id": 57,
+        "char_start": 9018,
+        "char_end": 9023,
+        "anchor": "PMC10284894_9018_9023",
+        "page": 10,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 78,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 99,
+      "target": 100
+    },
+    {
+      "id": 79,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 99,
+      "target": 101
+    },
+    {
+      "id": 80,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 100,
+      "target": 101
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 8,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 9
+  }
+}

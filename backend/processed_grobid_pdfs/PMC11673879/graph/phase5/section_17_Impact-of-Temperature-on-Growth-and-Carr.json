@@ -1,0 +1,84 @@
+{
+  "paper_id": "PMC11673879",
+  "section": "Impact of Temperature on Growth and Carrying Capacity on Bacillus subtilis Lineages",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 320,
+      "label": "K43",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Impact of Temperature on Growth and Carrying Capacity on Bacillus subtilis Lineages",
+        "sentence_id": 133,
+        "char_start": 22992,
+        "char_end": 22995,
+        "anchor": "PMC11673879_22992_22995",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 318,
+      "label": "changes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Impact of Temperature on Growth and Carrying Capacity on Bacillus subtilis Lineages",
+        "sentence_id": 133,
+        "char_start": 22954,
+        "char_end": 22961,
+        "anchor": "PMC11673879_22954_22961",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 319,
+      "label": "K37",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Impact of Temperature on Growth and Carrying Capacity on Bacillus subtilis Lineages",
+        "sentence_id": 133,
+        "char_start": 22984,
+        "char_end": 22987,
+        "anchor": "PMC11673879_22984_22987",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 208,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 318,
+      "target": 319
+    },
+    {
+      "id": 209,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 318,
+      "target": 320
+    },
+    {
+      "id": 210,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 319,
+      "target": 320
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 8,
+      "largest_component": 3,
+      "removed_components": [
+        3
+      ]
+    },
+    "page": 8
+  }
+}

@@ -1,0 +1,445 @@
+{
+  "paper_id": "PMC5397022",
+  "section": "iTRAQ labeling and LC MS/MS analysis",
+  "n_nodes": 10,
+  "n_edges": 45,
+  "nodes": [
+    {
+      "id": 416,
+      "label": "RSLCnano",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 102,
+        "char_start": 18253,
+        "char_end": 18261,
+        "anchor": "PMC5397022_18253_18261",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 417,
+      "label": "Pep",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 102,
+        "char_start": 18450,
+        "char_end": 18453,
+        "anchor": "PMC5397022_18450_18453",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 418,
+      "label": "Map",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 102,
+        "char_start": 18453,
+        "char_end": 18456,
+        "anchor": "PMC5397022_18453_18456",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 419,
+      "label": "mID",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 102,
+        "char_start": 18465,
+        "char_end": 18468,
+        "anchor": "PMC5397022_18465_18468",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 423,
+      "label": "Waltham",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 102,
+        "char_start": 18219,
+        "char_end": 18226,
+        "anchor": "PMC5397022_18219_18226",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 425,
+      "label": "Waltham",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 102,
+        "char_start": 18293,
+        "char_end": 18300,
+        "anchor": "PMC5397022_18293_18300",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 427,
+      "label": "C18",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 102,
+        "char_start": 18433,
+        "char_end": 18436,
+        "anchor": "PMC5397022_18433_18436",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 429,
+      "label": "Waltham",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 102,
+        "char_start": 18527,
+        "char_end": 18534,
+        "anchor": "PMC5397022_18527_18534",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 412,
+      "label": "fraction",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 102,
+        "char_start": 18082,
+        "char_end": 18090,
+        "anchor": "PMC5397022_18082_18090",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 415,
+      "label": "U3000",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 102,
+        "char_start": 18247,
+        "char_end": 18252,
+        "anchor": "PMC5397022_18247_18252",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 560,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 412,
+      "target": 415
+    },
+    {
+      "id": 561,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 412,
+      "target": 416
+    },
+    {
+      "id": 562,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 412,
+      "target": 417
+    },
+    {
+      "id": 563,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 412,
+      "target": 418
+    },
+    {
+      "id": 564,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 412,
+      "target": 419
+    },
+    {
+      "id": 566,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 412,
+      "target": 423
+    },
+    {
+      "id": 568,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 412,
+      "target": 425
+    },
+    {
+      "id": 570,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 412,
+      "target": 427
+    },
+    {
+      "id": 572,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 412,
+      "target": 429
+    },
+    {
+      "id": 574,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 415,
+      "target": 416
+    },
+    {
+      "id": 575,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 415,
+      "target": 417
+    },
+    {
+      "id": 576,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 415,
+      "target": 418
+    },
+    {
+      "id": 577,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 415,
+      "target": 419
+    },
+    {
+      "id": 579,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 415,
+      "target": 423
+    },
+    {
+      "id": 581,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 415,
+      "target": 425
+    },
+    {
+      "id": 583,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 415,
+      "target": 427
+    },
+    {
+      "id": 585,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 415,
+      "target": 429
+    },
+    {
+      "id": 587,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 416,
+      "target": 417
+    },
+    {
+      "id": 588,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 416,
+      "target": 418
+    },
+    {
+      "id": 589,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 416,
+      "target": 419
+    },
+    {
+      "id": 591,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 416,
+      "target": 423
+    },
+    {
+      "id": 593,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 416,
+      "target": 425
+    },
+    {
+      "id": 595,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 416,
+      "target": 427
+    },
+    {
+      "id": 597,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 416,
+      "target": 429
+    },
+    {
+      "id": 599,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 417,
+      "target": 418
+    },
+    {
+      "id": 600,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 417,
+      "target": 419
+    },
+    {
+      "id": 602,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 417,
+      "target": 423
+    },
+    {
+      "id": 604,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 417,
+      "target": 425
+    },
+    {
+      "id": 606,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 417,
+      "target": 427
+    },
+    {
+      "id": 608,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 417,
+      "target": 429
+    },
+    {
+      "id": 610,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 418,
+      "target": 419
+    },
+    {
+      "id": 612,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 418,
+      "target": 423
+    },
+    {
+      "id": 614,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 418,
+      "target": 425
+    },
+    {
+      "id": 616,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 418,
+      "target": 427
+    },
+    {
+      "id": 618,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 418,
+      "target": 429
+    },
+    {
+      "id": 621,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 419,
+      "target": 423
+    },
+    {
+      "id": 623,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 419,
+      "target": 425
+    },
+    {
+      "id": 625,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 419,
+      "target": 427
+    },
+    {
+      "id": 627,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 419,
+      "target": 429
+    },
+    {
+      "id": 638,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 423,
+      "target": 425
+    },
+    {
+      "id": 640,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 423,
+      "target": 427
+    },
+    {
+      "id": 642,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 423,
+      "target": 429
+    },
+    {
+      "id": 651,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 425,
+      "target": 427
+    },
+    {
+      "id": 653,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 425,
+      "target": 429
+    },
+    {
+      "id": 660,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 427,
+      "target": 429
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 6,
+      "removed_orphans": 13,
+      "largest_component": 10,
+      "removed_components": [
+        8,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 2
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "paper_id": "PMC9862956",
+  "section": "Compatibility of the CIP with Different C. elegans Substrates",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 225,
+      "label": "optimal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Compatibility of the CIP with Different C. elegans Substrates",
+        "sentence_id": 83,
+        "char_start": 15394,
+        "char_end": 15401,
+        "anchor": "PMC9862956_15394_15401",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 227,
+      "label": "wrMTrck",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Compatibility of the CIP with Different C. elegans Substrates",
+        "sentence_id": 83,
+        "char_start": 15367,
+        "char_end": 15374,
+        "anchor": "PMC9862956_15367_15374",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 379,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 225,
+      "target": 227
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 8,
+      "removed_orphans": 19,
+      "largest_component": 2,
+      "removed_components": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 4
+  }
+}

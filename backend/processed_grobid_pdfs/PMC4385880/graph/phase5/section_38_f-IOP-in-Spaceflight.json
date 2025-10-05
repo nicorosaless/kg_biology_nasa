@@ -1,0 +1,377 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "f) IOP in Spaceflight",
+  "n_nodes": 9,
+  "n_edges": 36,
+  "nodes": [
+    {
+      "id": 1160,
+      "label": "filling",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "f) IOP in Spaceflight",
+        "sentence_id": 358,
+        "char_start": 57372,
+        "char_end": 57379,
+        "anchor": "PMC4385880_57372_57379",
+        "page": 27,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1163,
+      "label": "IOP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "f) IOP in Spaceflight",
+        "sentence_id": 358,
+        "char_start": 57481,
+        "char_end": 57484,
+        "anchor": "PMC4385880_57481_57484",
+        "page": 27,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1165,
+      "label": "negative",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "f) IOP in Spaceflight",
+        "sentence_id": 358,
+        "char_start": 57513,
+        "char_end": 57521,
+        "anchor": "PMC4385880_57513_57521",
+        "page": 27,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1166,
+      "label": "pressure",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "f) IOP in Spaceflight",
+        "sentence_id": 358,
+        "char_start": 57581,
+        "char_end": 57589,
+        "anchor": "PMC4385880_57581_57589",
+        "page": 27,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1167,
+      "label": "restored",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "f) IOP in Spaceflight",
+        "sentence_id": 358,
+        "char_start": 57594,
+        "char_end": 57602,
+        "anchor": "PMC4385880_57594_57602",
+        "page": 27,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1169,
+      "label": "IOP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "f) IOP in Spaceflight",
+        "sentence_id": 358,
+        "char_start": 57063,
+        "char_end": 57066,
+        "anchor": "PMC4385880_57063_57066",
+        "page": 27,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1170,
+      "label": "HDT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "f) IOP in Spaceflight",
+        "sentence_id": 358,
+        "char_start": 57249,
+        "char_end": 57252,
+        "anchor": "PMC4385880_57249_57252",
+        "page": 27,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1171,
+      "label": "IOP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "f) IOP in Spaceflight",
+        "sentence_id": 358,
+        "char_start": 57279,
+        "char_end": 57282,
+        "anchor": "PMC4385880_57279_57282",
+        "page": 27,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1172,
+      "label": "IOP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "f) IOP in Spaceflight",
+        "sentence_id": 358,
+        "char_start": 57481,
+        "char_end": 57484,
+        "anchor": "PMC4385880_57481_57484",
+        "page": 27,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1144,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1160,
+      "target": 1163
+    },
+    {
+      "id": 1145,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1160,
+      "target": 1165
+    },
+    {
+      "id": 1146,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1160,
+      "target": 1166
+    },
+    {
+      "id": 1147,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1160,
+      "target": 1167
+    },
+    {
+      "id": 1148,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1160,
+      "target": 1169
+    },
+    {
+      "id": 1149,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1160,
+      "target": 1170
+    },
+    {
+      "id": 1150,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1160,
+      "target": 1171
+    },
+    {
+      "id": 1151,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1160,
+      "target": 1172
+    },
+    {
+      "id": 1152,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1163,
+      "target": 1165
+    },
+    {
+      "id": 1153,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1163,
+      "target": 1166
+    },
+    {
+      "id": 1154,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1163,
+      "target": 1167
+    },
+    {
+      "id": 1155,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1163,
+      "target": 1169
+    },
+    {
+      "id": 1156,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1163,
+      "target": 1170
+    },
+    {
+      "id": 1157,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1163,
+      "target": 1171
+    },
+    {
+      "id": 1158,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1163,
+      "target": 1172
+    },
+    {
+      "id": 1159,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1165,
+      "target": 1166
+    },
+    {
+      "id": 1160,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1165,
+      "target": 1167
+    },
+    {
+      "id": 1161,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1165,
+      "target": 1169
+    },
+    {
+      "id": 1162,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1165,
+      "target": 1170
+    },
+    {
+      "id": 1163,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1165,
+      "target": 1171
+    },
+    {
+      "id": 1164,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1165,
+      "target": 1172
+    },
+    {
+      "id": 1165,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1166,
+      "target": 1167
+    },
+    {
+      "id": 1166,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1166,
+      "target": 1169
+    },
+    {
+      "id": 1167,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1166,
+      "target": 1170
+    },
+    {
+      "id": 1168,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1166,
+      "target": 1171
+    },
+    {
+      "id": 1169,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1166,
+      "target": 1172
+    },
+    {
+      "id": 1170,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1167,
+      "target": 1169
+    },
+    {
+      "id": 1171,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1167,
+      "target": 1170
+    },
+    {
+      "id": 1172,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1167,
+      "target": 1171
+    },
+    {
+      "id": 1173,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1167,
+      "target": 1172
+    },
+    {
+      "id": 1174,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1169,
+      "target": 1170
+    },
+    {
+      "id": 1175,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1169,
+      "target": 1171
+    },
+    {
+      "id": 1176,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1169,
+      "target": 1172
+    },
+    {
+      "id": 1177,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1170,
+      "target": 1171
+    },
+    {
+      "id": 1178,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1170,
+      "target": 1172
+    },
+    {
+      "id": 1179,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1171,
+      "target": 1172
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 7,
+      "removed_orphans": 0,
+      "largest_component": 9,
+      "removed_components": [
+        9,
+        6,
+        6,
+        5,
+        3,
+        2
+      ]
+    },
+    "page": 27
+  }
+}

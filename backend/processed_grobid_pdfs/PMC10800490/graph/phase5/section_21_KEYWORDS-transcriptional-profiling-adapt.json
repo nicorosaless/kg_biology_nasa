@@ -1,0 +1,160 @@
+{
+  "paper_id": "PMC10800490",
+  "section": "KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 33,
+      "label": "GeneLab",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction",
+        "sentence_id": 21,
+        "char_start": 3883,
+        "char_end": 3890,
+        "anchor": "PMC10800490_3883_3890",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 34,
+      "label": "Barker",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction",
+        "sentence_id": 21,
+        "char_start": 4153,
+        "char_end": 4159,
+        "anchor": "PMC10800490_4153_4159",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 35,
+      "label": "Barker",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction",
+        "sentence_id": 21,
+        "char_start": 4222,
+        "char_end": 4228,
+        "anchor": "PMC10800490_4222_4228",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 30,
+      "label": "analysis",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction",
+        "sentence_id": 21,
+        "char_start": 4271,
+        "char_end": 4279,
+        "anchor": "PMC10800490_4271_4279",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 31,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "KEYWORDS transcriptional profiling, adaptation to spaceflight, Arabidopsis, microgravity (mg), plants 1 Introduction",
+        "sentence_id": 21,
+        "char_start": 4288,
+        "char_end": 4291,
+        "anchor": "PMC10800490_4288_4291",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 14,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 30,
+      "target": 31
+    },
+    {
+      "id": 15,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 30,
+      "target": 33
+    },
+    {
+      "id": 16,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 30,
+      "target": 34
+    },
+    {
+      "id": 17,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 30,
+      "target": 35
+    },
+    {
+      "id": 18,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 31,
+      "target": 33
+    },
+    {
+      "id": 19,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 31,
+      "target": 34
+    },
+    {
+      "id": 20,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 31,
+      "target": 35
+    },
+    {
+      "id": 21,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 33,
+      "target": 34
+    },
+    {
+      "id": 22,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 33,
+      "target": 35
+    },
+    {
+      "id": 23,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 34,
+      "target": 35
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 6,
+      "removed_orphans": 24,
+      "largest_component": 5,
+      "removed_components": [
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 2
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "paper_id": "PMC5666744",
+  "section": "Synthetic CELL_TYPE",
+  "n_nodes": 5,
+  "n_edges": 4,
+  "nodes": [
+    {
+      "id": 170,
+      "label": "inflammatory cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Altered Betaine and Glutathione Metabolism Are Central Defects in Spaceflight Mouse Livers",
+        "sentence_id": 39,
+        "char_start": 11338,
+        "char_end": 11356,
+        "anchor": "PMC5666744_11338_11356",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 362,
+      "label": "bone marrow-derived T cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight Causes Broad Alterations in Transcriptome Profiles in the Liver",
+        "sentence_id": 82,
+        "char_start": 21179,
+        "char_end": 21206,
+        "anchor": "PMC5666744_21179_21206",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 366,
+      "label": "progenitor cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight Causes Broad Alterations in Transcriptome Profiles in the Liver",
+        "sentence_id": 83,
+        "char_start": 21341,
+        "char_end": 21357,
+        "anchor": "PMC5666744_21341_21357",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 369,
+      "label": "macrophage",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight Causes Broad Alterations in Transcriptome Profiles in the Liver",
+        "sentence_id": 83,
+        "char_start": 21492,
+        "char_end": 21502,
+        "anchor": "PMC5666744_21492_21502",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 456,
+      "label": "bone marrow-derived mesenchymal stem cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Pathways Involved in Lipid Membrane Metabolism and Protein Biosynthesis Are Enriched in Multi-'Omics Datasets from Livers of Spaceflight Mice",
+        "sentence_id": 103,
+        "char_start": 27216,
+        "char_end": 27258,
+        "anchor": "PMC5666744_27216_27258",
+        "page": 10,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-170-362",
+      "type": "ASSOCIATED",
+      "source": 170,
+      "target": 362
+    },
+    {
+      "id": "synth-170-366",
+      "type": "ASSOCIATED",
+      "source": 170,
+      "target": 366
+    },
+    {
+      "id": "synth-170-369",
+      "type": "ASSOCIATED",
+      "source": 170,
+      "target": 369
+    },
+    {
+      "id": "synth-170-456",
+      "type": "ASSOCIATED",
+      "source": 170,
+      "target": 456
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "CELL_TYPE",
+    "page": null
+  }
+}

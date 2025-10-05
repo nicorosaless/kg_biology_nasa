@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC10628120",
+  "section": "Functional characterization of the novel species",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 888,
+      "label": "virtsii",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Functional characterization of the novel species",
+        "sentence_id": 214,
+        "char_start": 42695,
+        "char_end": 42702,
+        "anchor": "PMC10628120_42695_42702",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 898,
+      "label": "pigments",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Functional characterization of the novel species",
+        "sentence_id": 214,
+        "char_start": 43124,
+        "char_end": 43132,
+        "anchor": "PMC10628120_43124_43132",
+        "page": 9,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1070,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 888,
+      "target": 898
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 36,
+      "largest_component": 2
+    },
+    "page": 9
+  }
+}

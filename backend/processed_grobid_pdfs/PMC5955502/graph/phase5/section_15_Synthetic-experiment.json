@@ -1,0 +1,4525 @@
+{
+  "paper_id": "PMC5955502",
+  "section": "Synthetic EXPERIMENT",
+  "n_nodes": 215,
+  "n_edges": 214,
+  "nodes": [
+    {
+      "id": 1,
+      "label": "mRNA expression levels",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 0,
+        "char_start": 57,
+        "char_end": 79,
+        "anchor": "PMC5955502_57_79",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 7,
+      "label": "no changes",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 0,
+        "char_start": 340,
+        "char_end": 350,
+        "anchor": "PMC5955502_340_350",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 12,
+      "label": "mRNA expression",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 0,
+        "char_start": 473,
+        "char_end": 488,
+        "anchor": "PMC5955502_473_488",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 13,
+      "label": "mRNA expression",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 1,
+        "char_start": 585,
+        "char_end": 600,
+        "anchor": "PMC5955502_585_600",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 15,
+      "label": "cytosine demethylases",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 1,
+        "char_start": 631,
+        "char_end": 652,
+        "anchor": "PMC5955502_631_652",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 18,
+      "label": "histone acetylase",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 1,
+        "char_start": 668,
+        "char_end": 685,
+        "anchor": "PMC5955502_668_685",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 19,
+      "label": "histone deacetylase",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 1,
+        "char_start": 690,
+        "char_end": 709,
+        "anchor": "PMC5955502_690_709",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 20,
+      "label": "mRNA expression",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 1,
+        "char_start": 734,
+        "char_end": 749,
+        "anchor": "PMC5955502_734_749",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 21,
+      "label": "cytosine demethylase Tet",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 1,
+        "char_start": 759,
+        "char_end": 783,
+        "anchor": "PMC5955502_759_783",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 25,
+      "label": "Animal experiments",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 3,
+        "char_start": 932,
+        "char_end": 950,
+        "anchor": "PMC5955502_932_950",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 31,
+      "label": "negative changes",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 4,
+        "char_start": 1250,
+        "char_end": 1266,
+        "anchor": "PMC5955502_1250_1266",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 32,
+      "label": "structure",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 4,
+        "char_start": 1274,
+        "char_end": 1283,
+        "anchor": "PMC5955502_1274_1283",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 37,
+      "label": "systolic output",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 5,
+        "char_start": 1421,
+        "char_end": 1436,
+        "anchor": "PMC5955502_1421_1436",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 38,
+      "label": "functional capabilities",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 6,
+        "char_start": 1608,
+        "char_end": 1631,
+        "anchor": "PMC5955502_1608_1631",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 41,
+      "label": "iomyocytes",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 6,
+        "char_start": 1792,
+        "char_end": 1802,
+        "anchor": "PMC5955502_1792_1802",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 43,
+      "label": "Biosatellite",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 6,
+        "char_start": 1834,
+        "char_end": 1846,
+        "anchor": "PMC5955502_1834_1846",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 44,
+      "label": "cytoskeletal proteins",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 6,
+        "char_start": 1946,
+        "char_end": 1967,
+        "anchor": "PMC5955502_1946_1967",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 46,
+      "label": "expression",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 6,
+        "char_start": 2052,
+        "char_end": 2062,
+        "anchor": "PMC5955502_2052_2062",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 49,
+      "label": "structure",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 7,
+        "char_start": 2257,
+        "char_end": 2266,
+        "anchor": "PMC5955502_2257_2266",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 52,
+      "label": "structure",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 9,
+        "char_start": 2461,
+        "char_end": 2470,
+        "anchor": "PMC5955502_2461_2470",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 55,
+      "label": "cellular shape",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 9,
+        "char_start": 2586,
+        "char_end": 2600,
+        "anchor": "PMC5955502_2586_2600",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 56,
+      "label": "cell imaging",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 11,
+        "char_start": 2691,
+        "char_end": 2703,
+        "anchor": "PMC5955502_2691_2703",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 59,
+      "label": "less aggressive",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 11,
+        "char_start": 2783,
+        "char_end": 2798,
+        "anchor": "PMC5955502_2783_2798",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 61,
+      "label": "F-actin",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 12,
+        "char_start": 2954,
+        "char_end": 2961,
+        "anchor": "PMC5955502_2954_2961",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 63,
+      "label": "gene expression",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 13,
+        "char_start": 3059,
+        "char_end": 3074,
+        "anchor": "PMC5955502_3059_3074",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 69,
+      "label": "DNA methylation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 15,
+        "char_start": 3788,
+        "char_end": 3803,
+        "anchor": "PMC5955502_3788_3803",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 81,
+      "label": "Culture System",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 20,
+        "char_start": 4343,
+        "char_end": 4357,
+        "anchor": "PMC5955502_4343_4357",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 83,
+      "label": "methylome",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 20,
+        "char_start": 4439,
+        "char_end": 4448,
+        "anchor": "PMC5955502_4439_4448",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 87,
+      "label": "volume load",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 22,
+        "char_start": 4953,
+        "char_end": 4964,
+        "anchor": "PMC5955502_4953_4964",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 89,
+      "label": "cortical cytoskeleton structure",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 23,
+        "char_start": 5020,
+        "char_end": 5051,
+        "anchor": "PMC5955502_5020_5051",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 92,
+      "label": "investigations",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 24,
+        "char_start": 5392,
+        "char_end": 5406,
+        "anchor": "PMC5955502_5392_5406",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 94,
+      "label": "Rodent Research",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 25,
+        "char_start": 5558,
+        "char_end": 5573,
+        "anchor": "PMC5955502_5558_5573",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 96,
+      "label": "Rodent Research",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental design",
+        "sentence_id": 28,
+        "char_start": 6299,
+        "char_end": 6314,
+        "anchor": "PMC5955502_6299_6314",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 101,
+      "label": "biomaterial sampling schedule",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental design",
+        "sentence_id": 33,
+        "char_start": 6932,
+        "char_end": 6961,
+        "anchor": "PMC5955502_6932_6961",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 122,
+      "label": "procedures",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental design",
+        "sentence_id": 42,
+        "char_start": 8415,
+        "char_end": 8425,
+        "anchor": "PMC5955502_8415_8425",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 127,
+      "label": "biomaterial of",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental design",
+        "sentence_id": 44,
+        "char_start": 9071,
+        "char_end": 9085,
+        "anchor": "PMC5955502_9071_9085",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 130,
+      "label": "Tissue extracts",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of the protein content levels using gel electrophoresis followed by immunoblotting",
+        "sentence_id": 47,
+        "char_start": 9605,
+        "char_end": 9620,
+        "anchor": "PMC5955502_9605_9620",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 131,
+      "label": "membrane fraction",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of the protein content levels using gel electrophoresis followed by immunoblotting",
+        "sentence_id": 47,
+        "char_start": 9662,
+        "char_end": 9679,
+        "anchor": "PMC5955502_9662_9679",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 132,
+      "label": "electrophoresis",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of the protein content levels using gel electrophoresis followed by immunoblotting",
+        "sentence_id": 47,
+        "char_start": 9713,
+        "char_end": 9728,
+        "anchor": "PMC5955502_9713_9728",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 136,
+      "label": "antibodies",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of the protein content levels using gel electrophoresis followed by immunoblotting",
+        "sentence_id": 47,
+        "char_start": 10031,
+        "char_end": 10041,
+        "anchor": "PMC5955502_10031_10041",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 137,
+      "label": "antibodies",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of the protein content levels using gel electrophoresis followed by immunoblotting",
+        "sentence_id": 47,
+        "char_start": 10149,
+        "char_end": 10159,
+        "anchor": "PMC5955502_10149_10159",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 138,
+      "label": "beta-actin",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of the protein content levels using gel electrophoresis followed by immunoblotting",
+        "sentence_id": 47,
+        "char_start": 10168,
+        "char_end": 10178,
+        "anchor": "PMC5955502_10168_10178",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 139,
+      "label": "gamma-actin",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of the protein content levels using gel electrophoresis followed by immunoblotting",
+        "sentence_id": 47,
+        "char_start": 10196,
+        "char_end": 10207,
+        "anchor": "PMC5955502_10196_10207",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 140,
+      "label": "alpha-actinin-1",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of the protein content levels using gel electrophoresis followed by immunoblotting",
+        "sentence_id": 47,
+        "char_start": 10225,
+        "char_end": 10240,
+        "anchor": "PMC5955502_10225_10240",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 141,
+      "label": "alpha-actinin-4",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of the protein content levels using gel electrophoresis followed by immunoblotting",
+        "sentence_id": 47,
+        "char_start": 10258,
+        "char_end": 10273,
+        "anchor": "PMC5955502_10258_10273",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 142,
+      "label": "antibodies against",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of the protein content levels using gel electrophoresis followed by immunoblotting",
+        "sentence_id": 47,
+        "char_start": 10363,
+        "char_end": 10381,
+        "anchor": "PMC5955502_10363_10381",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 143,
+      "label": "beta-tubulin",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of the protein content levels using gel electrophoresis followed by immunoblotting",
+        "sentence_id": 47,
+        "char_start": 10382,
+        "char_end": 10394,
+        "anchor": "PMC5955502_10382_10394",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 145,
+      "label": "antibodies",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of the protein content levels using gel electrophoresis followed by immunoblotting",
+        "sentence_id": 47,
+        "char_start": 10468,
+        "char_end": 10478,
+        "anchor": "PMC5955502_10468_10478",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 146,
+      "label": "rabbit IgG",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of the protein content levels using gel electrophoresis followed by immunoblotting",
+        "sentence_id": 47,
+        "char_start": 10527,
+        "char_end": 10537,
+        "anchor": "PMC5955502_10527_10537",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 147,
+      "label": "mouse I",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of the protein content levels using gel electrophoresis followed by immunoblotting",
+        "sentence_id": 47,
+        "char_start": 10615,
+        "char_end": 10622,
+        "anchor": "PMC5955502_10615_10622",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 148,
+      "label": "Protein bands",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of the protein content levels using gel electrophoresis followed by immunoblotting",
+        "sentence_id": 47,
+        "char_start": 10856,
+        "char_end": 10869,
+        "anchor": "PMC5955502_10856_10869",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 161,
+      "label": "cytosine methylases",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 48,
+        "char_start": 11371,
+        "char_end": 11390,
+        "anchor": "PMC5955502_11371_11390",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 162,
+      "label": "histone acetylase",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 48,
+        "char_start": 11413,
+        "char_end": 11430,
+        "anchor": "PMC5955502_11413_11430",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 168,
+      "label": "Reverse transcription",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 49,
+        "char_start": 11447,
+        "char_end": 11468,
+        "anchor": "PMC5955502_11447_11468",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 175,
+      "label": "sequences",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 55,
+        "char_start": 11944,
+        "char_end": 11953,
+        "anchor": "PMC5955502_11944_11953",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 180,
+      "label": "bp Act",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 58,
+        "char_start": 12034,
+        "char_end": 12040,
+        "anchor": "PMC5955502_12034_12040",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 186,
+      "label": "168 Des",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 60,
+        "char_start": 12536,
+        "char_end": 12543,
+        "anchor": "PMC5955502_12536_12543",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 193,
+      "label": "beta-tubulin",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 61,
+        "char_start": 12608,
+        "char_end": 12620,
+        "anchor": "PMC5955502_12608_12620",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 195,
+      "label": "ggataagatg/",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 62,
+        "char_start": 12736,
+        "char_end": 12747,
+        "anchor": "PMC5955502_12736_12747",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 198,
+      "label": "lyceraldehyde 3-phosphate dehydrogenase",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 63,
+        "char_start": 12945,
+        "char_end": 12984,
+        "anchor": "PMC5955502_12945_12984",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 199,
+      "label": "90 Dnmt3A",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 63,
+        "char_start": 13104,
+        "char_end": 13113,
+        "anchor": "PMC5955502_13104_13113",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 204,
+      "label": "ggaccaggaaaaaca",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 64,
+        "char_start": 13158,
+        "char_end": 13173,
+        "anchor": "PMC5955502_13158_13173",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 205,
+      "label": "150 Tet1",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 64,
+        "char_start": 13179,
+        "char_end": 13187,
+        "anchor": "PMC5955502_13179_13187",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 206,
+      "label": "ine demethylase",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 64,
+        "char_start": 13194,
+        "char_end": 13209,
+        "anchor": "PMC5955502_13194_13209",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 207,
+      "label": "208 Tet2",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 64,
+        "char_start": 13254,
+        "char_end": 13262,
+        "anchor": "PMC5955502_13254_13262",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 208,
+      "label": "ine demethylase",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 64,
+        "char_start": 13269,
+        "char_end": 13284,
+        "anchor": "PMC5955502_13269_13284",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 209,
+      "label": "gaagg/",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 64,
+        "char_start": 13301,
+        "char_end": 13307,
+        "anchor": "PMC5955502_13301_13307",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 212,
+      "label": "tactctgcac",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 65,
+        "char_start": 13318,
+        "char_end": 13328,
+        "anchor": "PMC5955502_13318_13328",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 213,
+      "label": "tosine demethylase",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 65,
+        "char_start": 13341,
+        "char_end": 13359,
+        "anchor": "PMC5955502_13341_13359",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 214,
+      "label": "226 Hat1",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 65,
+        "char_start": 13404,
+        "char_end": 13412,
+        "anchor": "PMC5955502_13404_13412",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 215,
+      "label": "150 Hdac",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 65,
+        "char_start": 13485,
+        "char_end": 13493,
+        "anchor": "PMC5955502_13485_13493",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 216,
+      "label": "histone deacety",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 65,
+        "char_start": 13496,
+        "char_end": 13511,
+        "anchor": "PMC5955502_13496_13511",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 232,
+      "label": "omic DNA",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of DNA total methylation level using restriction analysis (MspI/HpaII)",
+        "sentence_id": 69,
+        "char_start": 14339,
+        "char_end": 14347,
+        "anchor": "PMC5955502_14339_14347",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 239,
+      "label": "restriction results analysis",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of DNA total methylation level using restriction analysis (MspI/HpaII)",
+        "sentence_id": 70,
+        "char_start": 14585,
+        "char_end": 14613,
+        "anchor": "PMC5955502_14585_14613",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 241,
+      "label": "Image Lab",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of DNA total methylation level using restriction analysis (MspI/HpaII)",
+        "sentence_id": 70,
+        "char_start": 14770,
+        "char_end": 14779,
+        "anchor": "PMC5955502_14770_14779",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 244,
+      "label": "methylation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analysis",
+        "sentence_id": 71,
+        "char_start": 14996,
+        "char_end": 15007,
+        "anchor": "PMC5955502_14996_15007",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 245,
+      "label": "significance level",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analysis",
+        "sentence_id": 71,
+        "char_start": 15067,
+        "char_end": 15085,
+        "anchor": "PMC5955502_15067_15085",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 248,
+      "label": "Repository",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analysis",
+        "sentence_id": 73,
+        "char_start": 15350,
+        "char_end": 15360,
+        "anchor": "PMC5955502_15350_15360",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 249,
+      "label": "beta-act",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytoskeletal protein content in the membrane and cytoplasmic fractions",
+        "sentence_id": 74,
+        "char_start": 15414,
+        "char_end": 15422,
+        "anchor": "PMC5955502_15414_15422",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 250,
+      "label": "gamma-actin",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytoskeletal protein content in the membrane and cytoplasmic fractions",
+        "sentence_id": 74,
+        "char_start": 15426,
+        "char_end": 15437,
+        "anchor": "PMC5955502_15426_15437",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 251,
+      "label": "alpha-actinin-1",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytoskeletal protein content in the membrane and cytoplasmic fractions",
+        "sentence_id": 74,
+        "char_start": 15439,
+        "char_end": 15454,
+        "anchor": "PMC5955502_15439_15454",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 252,
+      "label": "alpha-actinin-4",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytoskeletal protein content in the membrane and cytoplasmic fractions",
+        "sentence_id": 74,
+        "char_start": 15456,
+        "char_end": 15471,
+        "anchor": "PMC5955502_15456_15471",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 253,
+      "label": "betatubulin",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytoskeletal protein content in the membrane and cytoplasmic fractions",
+        "sentence_id": 74,
+        "char_start": 15477,
+        "char_end": 15488,
+        "anchor": "PMC5955502_15477_15488",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 254,
+      "label": "membrane fraction",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytoskeletal protein content in the membrane and cytoplasmic fractions",
+        "sentence_id": 74,
+        "char_start": 15496,
+        "char_end": 15513,
+        "anchor": "PMC5955502_15496_15513",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 257,
+      "label": "protein contents",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytoskeletal protein content in the membrane and cytoplasmic fractions",
+        "sentence_id": 74,
+        "char_start": 15644,
+        "char_end": 15660,
+        "anchor": "PMC5955502_15644_15660",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 258,
+      "label": "betaactin",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytoskeletal protein content in the membrane and cytoplasmic fractions",
+        "sentence_id": 74,
+        "char_start": 15664,
+        "char_end": 15673,
+        "anchor": "PMC5955502_15664_15673",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 259,
+      "label": "gamma-actin",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytoskeletal protein content in the membrane and cytoplasmic fractions",
+        "sentence_id": 74,
+        "char_start": 15684,
+        "char_end": 15695,
+        "anchor": "PMC5955502_15684_15695",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 260,
+      "label": "beta-tubulin",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytoskeletal protein content in the membrane and cytoplasmic fractions",
+        "sentence_id": 74,
+        "char_start": 15706,
+        "char_end": 15718,
+        "anchor": "PMC5955502_15706_15718",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 261,
+      "label": "unchanged",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytoskeletal protein content in the membrane and cytoplasmic fractions",
+        "sentence_id": 74,
+        "char_start": 15759,
+        "char_end": 15768,
+        "anchor": "PMC5955502_15759_15768",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 262,
+      "label": "protein contents",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytoskeletal protein content in the membrane and cytoplasmic fractions",
+        "sentence_id": 74,
+        "char_start": 15825,
+        "char_end": 15841,
+        "anchor": "PMC5955502_15825_15841",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 263,
+      "label": "alphaactinin-1",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytoskeletal protein content in the membrane and cytoplasmic fractions",
+        "sentence_id": 74,
+        "char_start": 15845,
+        "char_end": 15859,
+        "anchor": "PMC5955502_15845_15859",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 264,
+      "label": "alpha-actinin-4",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytoskeletal protein content in the membrane and cytoplasmic fractions",
+        "sentence_id": 74,
+        "char_start": 15873,
+        "char_end": 15888,
+        "anchor": "PMC5955502_15873_15888",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 265,
+      "label": "protein contents",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytoskeletal protein content in the membrane and cytoplasmic fractions",
+        "sentence_id": 74,
+        "char_start": 16004,
+        "char_end": 16020,
+        "anchor": "PMC5955502_16004_16020",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 266,
+      "label": "toskeletal components",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytoskeletal protein content in the membrane and cytoplasmic fractions",
+        "sentence_id": 74,
+        "char_start": 16036,
+        "char_end": 16057,
+        "anchor": "PMC5955502_16036_16057",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 267,
+      "label": "lasmic fraction",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytoskeletal protein content in the membrane and cytoplasmic fractions",
+        "sentence_id": 74,
+        "char_start": 16142,
+        "char_end": 16157,
+        "anchor": "PMC5955502_16142_16157",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 276,
+      "label": "none of the",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode some cytoskeletal and metabolic proteins",
+        "sentence_id": 75,
+        "char_start": 16454,
+        "char_end": 16465,
+        "anchor": "PMC5955502_16454_16465",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 277,
+      "label": "mRNA contents",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode some cytoskeletal and metabolic proteins",
+        "sentence_id": 75,
+        "char_start": 16466,
+        "char_end": 16479,
+        "anchor": "PMC5955502_16466_16479",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 280,
+      "label": "mRNA contents of",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode some cytoskeletal and metabolic proteins",
+        "sentence_id": 76,
+        "char_start": 16638,
+        "char_end": 16654,
+        "anchor": "PMC5955502_16638_16654",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 281,
+      "label": "genes encoding beta-and gamma-actin",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode some cytoskeletal and metabolic proteins",
+        "sentence_id": 76,
+        "char_start": 16655,
+        "char_end": 16690,
+        "anchor": "PMC5955502_16655_16690",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 282,
+      "label": "certain actin-binding proteins",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode some cytoskeletal and metabolic proteins",
+        "sentence_id": 76,
+        "char_start": 16701,
+        "char_end": 16731,
+        "anchor": "PMC5955502_16701_16731",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 284,
+      "label": "beta-tubulin",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode some cytoskeletal and metabolic proteins",
+        "sentence_id": 76,
+        "char_start": 16773,
+        "char_end": 16785,
+        "anchor": "PMC5955502_16773_16785",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 288,
+      "label": "mRNA contents",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode some cytoskeletal and metabolic proteins",
+        "sentence_id": 77,
+        "char_start": 16858,
+        "char_end": 16871,
+        "anchor": "PMC5955502_16858_16871",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 298,
+      "label": "mRNA contents",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode some cytoskeletal and metabolic proteins",
+        "sentence_id": 78,
+        "char_start": 17154,
+        "char_end": 17167,
+        "anchor": "PMC5955502_17154_17167",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 310,
+      "label": "Actn1 mRNA content",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode some cytoskeletal and metabolic proteins",
+        "sentence_id": 79,
+        "char_start": 17439,
+        "char_end": 17457,
+        "anchor": "PMC5955502_17439_17457",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 313,
+      "label": "mRNA contents",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode some cytoskeletal and metabolic proteins",
+        "sentence_id": 80,
+        "char_start": 17547,
+        "char_end": 17560,
+        "anchor": "PMC5955502_17547_17560",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 316,
+      "label": "BetaTub genes",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode some cytoskeletal and metabolic proteins",
+        "sentence_id": 80,
+        "char_start": 17591,
+        "char_end": 17604,
+        "anchor": "PMC5955502_17591_17604",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 317,
+      "label": "unchanged",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode some cytoskeletal and metabolic proteins",
+        "sentence_id": 80,
+        "char_start": 17610,
+        "char_end": 17619,
+        "anchor": "PMC5955502_17610_17619",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 318,
+      "label": "group F",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode some cytoskeletal and metabolic proteins",
+        "sentence_id": 80,
+        "char_start": 17623,
+        "char_end": 17630,
+        "anchor": "PMC5955502_17623_17630",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 319,
+      "label": "group G",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode some cytoskeletal and metabolic proteins",
+        "sentence_id": 80,
+        "char_start": 17643,
+        "char_end": 17650,
+        "anchor": "PMC5955502_17643_17650",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 325,
+      "label": "DNA methylation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA total methylation level",
+        "sentence_id": 81,
+        "char_start": 17686,
+        "char_end": 17701,
+        "anchor": "PMC5955502_17686_17701",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 327,
+      "label": "DNA methylation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA total methylation level",
+        "sentence_id": 82,
+        "char_start": 17840,
+        "char_end": 17855,
+        "anchor": "PMC5955502_17840_17855",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 331,
+      "label": "internal cytosine",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA total methylation level",
+        "sentence_id": 82,
+        "char_start": 18097,
+        "char_end": 18114,
+        "anchor": "PMC5955502_18097_18114",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 335,
+      "label": "mRNA contents",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode transcriptional regulators: Methylases, demethylases, histone acetylase and histone deacetylase",
+        "sentence_id": 83,
+        "char_start": 18296,
+        "char_end": 18309,
+        "anchor": "PMC5955502_18296_18309",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 336,
+      "label": "genes encoding",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode transcriptional regulators: Methylases, demethylases, histone acetylase and histone deacetylase",
+        "sentence_id": 83,
+        "char_start": 18313,
+        "char_end": 18327,
+        "anchor": "PMC5955502_18313_18327",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 337,
+      "label": "transcriptional regulation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode transcriptional regulators: Methylases, demethylases, histone acetylase and histone deacetylase",
+        "sentence_id": 83,
+        "char_start": 18349,
+        "char_end": 18375,
+        "anchor": "PMC5955502_18349_18375",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 341,
+      "label": "cytosine demethylases",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode transcriptional regulators: Methylases, demethylases, histone acetylase and histone deacetylase",
+        "sentence_id": 83,
+        "char_start": 18670,
+        "char_end": 18691,
+        "anchor": "PMC5955502_18670_18691",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 344,
+      "label": "histone aminotransferase",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode transcriptional regulators: Methylases, demethylases, histone acetylase and histone deacetylase",
+        "sentence_id": 83,
+        "char_start": 18727,
+        "char_end": 18751,
+        "anchor": "PMC5955502_18727_18751",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 346,
+      "label": "histone deacetylase Hdac1",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode transcriptional regulators: Methylases, demethylases, histone acetylase and histone deacetylase",
+        "sentence_id": 83,
+        "char_start": 18765,
+        "char_end": 18790,
+        "anchor": "PMC5955502_18765_18790",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 355,
+      "label": "mRNA content",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode transcriptional regulators: Methylases, demethylases, histone acetylase and histone deacetylase",
+        "sentence_id": 84,
+        "char_start": 18867,
+        "char_end": 18879,
+        "anchor": "PMC5955502_18867_18879",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 356,
+      "label": "tosine demethylase Tet2",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The mRNA contents of genes that encode transcriptional regulators: Methylases, demethylases, histone acetylase and histone deacetylase",
+        "sentence_id": 84,
+        "char_start": 18889,
+        "char_end": 18912,
+        "anchor": "PMC5955502_18889_18912",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 364,
+      "label": "no changes in",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 89,
+        "char_start": 19850,
+        "char_end": 19863,
+        "anchor": "PMC5955502_19850_19863",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 365,
+      "label": "cytoskeletal proteins",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 89,
+        "char_start": 19868,
+        "char_end": 19889,
+        "anchor": "PMC5955502_19868_19889",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 367,
+      "label": "alpha-actinin-1",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 90,
+        "char_start": 19975,
+        "char_end": 19990,
+        "anchor": "PMC5955502_19975_19990",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 368,
+      "label": "alpha-actinin-4 protein",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 90,
+        "char_start": 19995,
+        "char_end": 20018,
+        "anchor": "PMC5955502_19995_20018",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 370,
+      "label": "Biosatellite",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 90,
+        "char_start": 20140,
+        "char_end": 20152,
+        "anchor": "PMC5955502_20140_20152",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 372,
+      "label": "beta-tubulin",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 91,
+        "char_start": 20384,
+        "char_end": 20396,
+        "anchor": "PMC5955502_20384_20396",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 377,
+      "label": "eton structure",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 92,
+        "char_start": 20717,
+        "char_end": 20731,
+        "anchor": "PMC5955502_20717_20731",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 379,
+      "label": "actin-binding proteins",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 93,
+        "char_start": 20804,
+        "char_end": 20826,
+        "anchor": "PMC5955502_20804_20826",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 380,
+      "label": "alpha-actinin-1",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 93,
+        "char_start": 20827,
+        "char_end": 20842,
+        "anchor": "PMC5955502_20827_20842",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 381,
+      "label": "alpha-actinin-4",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 93,
+        "char_start": 20847,
+        "char_end": 20862,
+        "anchor": "PMC5955502_20847_20862",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 382,
+      "label": "membrane fraction",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 93,
+        "char_start": 20870,
+        "char_end": 20887,
+        "anchor": "PMC5955502_20870_20887",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 383,
+      "label": "alpha-actinin-1",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 94,
+        "char_start": 20946,
+        "char_end": 20961,
+        "anchor": "PMC5955502_20946_20961",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 384,
+      "label": "alpha-actinin-4",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 94,
+        "char_start": 20995,
+        "char_end": 21010,
+        "anchor": "PMC5955502_20995_21010",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 385,
+      "label": "Biosatellite",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 95,
+        "char_start": 21132,
+        "char_end": 21144,
+        "anchor": "PMC5955502_21132_21144",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 386,
+      "label": "beta-actin",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 95,
+        "char_start": 21182,
+        "char_end": 21192,
+        "anchor": "PMC5955502_21182_21192",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 387,
+      "label": "membrane fraction",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 95,
+        "char_start": 21208,
+        "char_end": 21225,
+        "anchor": "PMC5955502_21208_21225",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 388,
+      "label": "beta-actin protein",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 95,
+        "char_start": 21324,
+        "char_end": 21342,
+        "anchor": "PMC5955502_21324_21342",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 389,
+      "label": "mRNA expression",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 95,
+        "char_start": 21347,
+        "char_end": 21362,
+        "anchor": "PMC5955502_21347_21362",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 390,
+      "label": "flight group",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 95,
+        "char_start": 21377,
+        "char_end": 21389,
+        "anchor": "PMC5955502_21377_21389",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 393,
+      "label": "gamma-actin mRNA",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 96,
+        "char_start": 21399,
+        "char_end": 21415,
+        "anchor": "PMC5955502_21399_21415",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 395,
+      "label": "alpha-actinin-1 protein",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 97,
+        "char_start": 21456,
+        "char_end": 21479,
+        "anchor": "PMC5955502_21456_21479",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 396,
+      "label": "unchanged",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 97,
+        "char_start": 21497,
+        "char_end": 21506,
+        "anchor": "PMC5955502_21497_21506",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 397,
+      "label": "mRNA content",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 97,
+        "char_start": 21556,
+        "char_end": 21568,
+        "anchor": "PMC5955502_21556_21568",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 398,
+      "label": "alpha-actinin-4 protein",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 98,
+        "char_start": 21636,
+        "char_end": 21659,
+        "anchor": "PMC5955502_21636_21659",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 399,
+      "label": "membrane fraction",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 98,
+        "char_start": 21675,
+        "char_end": 21692,
+        "anchor": "PMC5955502_21675_21692",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 400,
+      "label": "gene expression",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 99,
+        "char_start": 21863,
+        "char_end": 21878,
+        "anchor": "PMC5955502_21863_21878",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 401,
+      "label": "biomaterial",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 100,
+        "char_start": 21987,
+        "char_end": 21998,
+        "anchor": "PMC5955502_21987_21998",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 406,
+      "label": "external mechanical load",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 103,
+        "char_start": 22449,
+        "char_end": 22473,
+        "anchor": "PMC5955502_22449_22473",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 408,
+      "label": "actin-binding proteins",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 103,
+        "char_start": 22506,
+        "char_end": 22528,
+        "anchor": "PMC5955502_22506_22528",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 409,
+      "label": "expression",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 103,
+        "char_start": 22626,
+        "char_end": 22636,
+        "anchor": "PMC5955502_22626_22636",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 410,
+      "label": "redistribution",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 103,
+        "char_start": 22696,
+        "char_end": 22710,
+        "anchor": "PMC5955502_22696_22710",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 411,
+      "label": "toskeletal proteins",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 103,
+        "char_start": 22716,
+        "char_end": 22735,
+        "anchor": "PMC5955502_22716_22735",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 413,
+      "label": "expression",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 103,
+        "char_start": 22958,
+        "char_end": 22968,
+        "anchor": "PMC5955502_22958_22968",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 414,
+      "label": "alpha-actinin-4",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 103,
+        "char_start": 22999,
+        "char_end": 23014,
+        "anchor": "PMC5955502_22999_23014",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 415,
+      "label": "beta-actin",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 104,
+        "char_start": 23159,
+        "char_end": 23169,
+        "anchor": "PMC5955502_23159_23169",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 417,
+      "label": "alpha-actinin-4",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 104,
+        "char_start": 23310,
+        "char_end": 23325,
+        "anchor": "PMC5955502_23310_23325",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 420,
+      "label": "readaptation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 106,
+        "char_start": 23543,
+        "char_end": 23555,
+        "anchor": "PMC5955502_23543_23555",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 426,
+      "label": "gamma-act",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 106,
+        "char_start": 23774,
+        "char_end": 23783,
+        "anchor": "PMC5955502_23774_23783",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 435,
+      "label": "protein contents",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 111,
+        "char_start": 24476,
+        "char_end": 24492,
+        "anchor": "PMC5955502_24476_24492",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 436,
+      "label": "cytoplasmic fraction",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 111,
+        "char_start": 24500,
+        "char_end": 24520,
+        "anchor": "PMC5955502_24500_24520",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 438,
+      "label": "no changes",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 111,
+        "char_start": 24559,
+        "char_end": 24569,
+        "anchor": "PMC5955502_24559_24569",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 441,
+      "label": "protein contents",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 112,
+        "char_start": 24688,
+        "char_end": 24704,
+        "anchor": "PMC5955502_24688_24704",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 444,
+      "label": "/ proteolysis",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 112,
+        "char_start": 24796,
+        "char_end": 24809,
+        "anchor": "PMC5955502_24796_24809",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 445,
+      "label": "no changes",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 114,
+        "char_start": 24910,
+        "char_end": 24920,
+        "anchor": "PMC5955502_24910_24920",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 446,
+      "label": "mRNA contents",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 114,
+        "char_start": 24928,
+        "char_end": 24941,
+        "anchor": "PMC5955502_24928_24941",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 448,
+      "label": "mRNA content",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 114,
+        "char_start": 25041,
+        "char_end": 25053,
+        "anchor": "PMC5955502_25041_25053",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 450,
+      "label": "desmin mRNA",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 115,
+        "char_start": 25200,
+        "char_end": 25211,
+        "anchor": "PMC5955502_25200_25211",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 452,
+      "label": "desmin mRNA",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 116,
+        "char_start": 25278,
+        "char_end": 25289,
+        "anchor": "PMC5955502_25278_25289",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 453,
+      "label": "beta-actin mRNA",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 116,
+        "char_start": 25376,
+        "char_end": 25391,
+        "anchor": "PMC5955502_25376_25391",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 454,
+      "label": "translation efficiency",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 117,
+        "char_start": 25456,
+        "char_end": 25478,
+        "anchor": "PMC5955502_25456_25478",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 455,
+      "label": "olipase D",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 119,
+        "char_start": 25674,
+        "char_end": 25683,
+        "anchor": "PMC5955502_25674_25683",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 459,
+      "label": "model experiments",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 119,
+        "char_start": 25954,
+        "char_end": 25971,
+        "anchor": "PMC5955502_25954_25971",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 461,
+      "label": "alpha-actini",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 121,
+        "char_start": 26176,
+        "char_end": 26188,
+        "anchor": "PMC5955502_26176_26188",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 462,
+      "label": "protein content",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 121,
+        "char_start": 26210,
+        "char_end": 26225,
+        "anchor": "PMC5955502_26210_26225",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 464,
+      "label": "alpha-actinin-1",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 121,
+        "char_start": 26296,
+        "char_end": 26311,
+        "anchor": "PMC5955502_26296_26311",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 467,
+      "label": "Alpha-actinin-1",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 122,
+        "char_start": 26387,
+        "char_end": 26402,
+        "anchor": "PMC5955502_26387_26402",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 470,
+      "label": "Alpha-actinin",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 123,
+        "char_start": 26522,
+        "char_end": 26535,
+        "anchor": "PMC5955502_26522_26535",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 471,
+      "label": "expressed",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 123,
+        "char_start": 26624,
+        "char_end": 26633,
+        "anchor": "PMC5955502_26624_26633",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 474,
+      "label": "signaling molecules",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 124,
+        "char_start": 26704,
+        "char_end": 26723,
+        "anchor": "PMC5955502_26704_26723",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 475,
+      "label": "transcription",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 124,
+        "char_start": 26728,
+        "char_end": 26741,
+        "anchor": "PMC5955502_26728_26741",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 476,
+      "label": "alphaactinin-1 content",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 124,
+        "char_start": 26781,
+        "char_end": 26803,
+        "anchor": "PMC5955502_26781_26803",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 477,
+      "label": "mic fraction",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 124,
+        "char_start": 26829,
+        "char_end": 26841,
+        "anchor": "PMC5955502_26829_26841",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 480,
+      "label": "alpha-actinin-4",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 125,
+        "char_start": 26977,
+        "char_end": 26992,
+        "anchor": "PMC5955502_26977_26992",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 484,
+      "label": "mRNA content",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 128,
+        "char_start": 27488,
+        "char_end": 27500,
+        "anchor": "PMC5955502_27488_27500",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 488,
+      "label": "modeling experiments",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 130,
+        "char_start": 28069,
+        "char_end": 28089,
+        "anchor": "PMC5955502_28069_28089",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 489,
+      "label": "DNA methyl",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 130,
+        "char_start": 28103,
+        "char_end": 28113,
+        "anchor": "PMC5955502_28103_28113",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 497,
+      "label": "methylation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 135,
+        "char_start": 28558,
+        "char_end": 28569,
+        "anchor": "PMC5955502_28558_28569",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 503,
+      "label": "methylase",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 139,
+        "char_start": 29340,
+        "char_end": 29349,
+        "anchor": "PMC5955502_29340_29349",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 517,
+      "label": "SWI/SNF chromatin remodeler",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 142,
+        "char_start": 30034,
+        "char_end": 30061,
+        "anchor": "PMC5955502_30034_30061",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 518,
+      "label": "siRNA-related proteins",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 142,
+        "char_start": 30073,
+        "char_end": 30095,
+        "anchor": "PMC5955502_30073_30095",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 524,
+      "label": "histone acetylase",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 143,
+        "char_start": 30363,
+        "char_end": 30380,
+        "anchor": "PMC5955502_30363_30380",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 525,
+      "label": "gene expression",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 144,
+        "char_start": 30432,
+        "char_end": 30447,
+        "anchor": "PMC5955502_30432_30447",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 526,
+      "label": "histone aminotransferase",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 144,
+        "char_start": 30462,
+        "char_end": 30486,
+        "anchor": "PMC5955502_30462_30486",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 528,
+      "label": "histone deacetylase",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 144,
+        "char_start": 30497,
+        "char_end": 30516,
+        "anchor": "PMC5955502_30497_30516",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 530,
+      "label": "cytosine methylases",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 144,
+        "char_start": 30532,
+        "char_end": 30551,
+        "anchor": "PMC5955502_30532_30551",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 537,
+      "label": "(TE",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 148,
+        "char_start": 30955,
+        "char_end": 30958,
+        "anchor": "PMC5955502_30955_30958",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 538,
+      "label": "oxidative catalysis",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 148,
+        "char_start": 30978,
+        "char_end": 30997,
+        "anchor": "PMC5955502_30978_30997",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 541,
+      "label": "mRNA content",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 150,
+        "char_start": 31038,
+        "char_end": 31050,
+        "anchor": "PMC5955502_31038_31050",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 542,
+      "label": "cytosine demethylases",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 150,
+        "char_start": 31054,
+        "char_end": 31075,
+        "anchor": "PMC5955502_31054_31075",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 544,
+      "label": "no changes",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 151,
+        "char_start": 31128,
+        "char_end": 31138,
+        "anchor": "PMC5955502_31128_31138",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 546,
+      "label": "Tet3 mRNA",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 151,
+        "char_start": 31151,
+        "char_end": 31160,
+        "anchor": "PMC5955502_31151_31160",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 547,
+      "label": "Tet2 mRNA",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 151,
+        "char_start": 31207,
+        "char_end": 31216,
+        "anchor": "PMC5955502_31207_31216",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 561,
+      "label": "total methylation levels",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 157,
+        "char_start": 31849,
+        "char_end": 31873,
+        "anchor": "PMC5955502_31849_31873",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 564,
+      "label": "Tet2 mRNA",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 157,
+        "char_start": 31953,
+        "char_end": 31962,
+        "anchor": "PMC5955502_31953_31962",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 566,
+      "label": "rine biomaterial",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 158,
+        "char_start": 32023,
+        "char_end": 32039,
+        "anchor": "PMC5955502_32023_32039",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 571,
+      "label": "significant",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 159,
+        "char_start": 32257,
+        "char_end": 32268,
+        "anchor": "PMC5955502_32257_32268",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 575,
+      "label": "translation efficiency",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 159,
+        "char_start": 32343,
+        "char_end": 32365,
+        "anchor": "PMC5955502_32343_32365",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 576,
+      "label": "proteolysis",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 159,
+        "char_start": 32373,
+        "char_end": 32384,
+        "anchor": "PMC5955502_32373_32384",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 577,
+      "label": "alteration",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 159,
+        "char_start": 32476,
+        "char_end": 32486,
+        "anchor": "PMC5955502_32476_32486",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 578,
+      "label": "expression",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 159,
+        "char_start": 32494,
+        "char_end": 32504,
+        "anchor": "PMC5955502_32494_32504",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 581,
+      "label": "cytosine demethylases Tet1",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 160,
+        "char_start": 32659,
+        "char_end": 32685,
+        "anchor": "PMC5955502_32659_32685",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 583,
+      "label": "histone acetylase",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 160,
+        "char_start": 32696,
+        "char_end": 32713,
+        "anchor": "PMC5955502_32696_32713",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 584,
+      "label": "histone deacetylase",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 160,
+        "char_start": 32718,
+        "char_end": 32737,
+        "anchor": "PMC5955502_32718_32737",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 585,
+      "label": "mRNA content",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 160,
+        "char_start": 32762,
+        "char_end": 32774,
+        "anchor": "PMC5955502_32762_32774",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 586,
+      "label": "cytosine demethylase Tet2",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 160,
+        "char_start": 32782,
+        "char_end": 32807,
+        "anchor": "PMC5955502_32782_32807",
+        "page": 15,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-1-7",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "id": "synth-1-12",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 12
+    },
+    {
+      "id": "synth-1-13",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 13
+    },
+    {
+      "id": "synth-1-15",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 15
+    },
+    {
+      "id": "synth-1-18",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 18
+    },
+    {
+      "id": "synth-1-19",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 19
+    },
+    {
+      "id": "synth-1-20",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 20
+    },
+    {
+      "id": "synth-1-21",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 21
+    },
+    {
+      "id": "synth-1-25",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 25
+    },
+    {
+      "id": "synth-1-31",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 31
+    },
+    {
+      "id": "synth-1-32",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 32
+    },
+    {
+      "id": "synth-1-37",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 37
+    },
+    {
+      "id": "synth-1-38",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 38
+    },
+    {
+      "id": "synth-1-41",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 41
+    },
+    {
+      "id": "synth-1-43",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 43
+    },
+    {
+      "id": "synth-1-44",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 44
+    },
+    {
+      "id": "synth-1-46",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 46
+    },
+    {
+      "id": "synth-1-49",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 49
+    },
+    {
+      "id": "synth-1-52",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 52
+    },
+    {
+      "id": "synth-1-55",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 55
+    },
+    {
+      "id": "synth-1-56",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 56
+    },
+    {
+      "id": "synth-1-59",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 59
+    },
+    {
+      "id": "synth-1-61",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 61
+    },
+    {
+      "id": "synth-1-63",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 63
+    },
+    {
+      "id": "synth-1-69",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 69
+    },
+    {
+      "id": "synth-1-81",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 81
+    },
+    {
+      "id": "synth-1-83",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 83
+    },
+    {
+      "id": "synth-1-87",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 87
+    },
+    {
+      "id": "synth-1-89",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 89
+    },
+    {
+      "id": "synth-1-92",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 92
+    },
+    {
+      "id": "synth-1-94",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 94
+    },
+    {
+      "id": "synth-1-96",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 96
+    },
+    {
+      "id": "synth-1-101",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 101
+    },
+    {
+      "id": "synth-1-122",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 122
+    },
+    {
+      "id": "synth-1-127",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 127
+    },
+    {
+      "id": "synth-1-130",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 130
+    },
+    {
+      "id": "synth-1-131",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 131
+    },
+    {
+      "id": "synth-1-132",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 132
+    },
+    {
+      "id": "synth-1-136",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 136
+    },
+    {
+      "id": "synth-1-137",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 137
+    },
+    {
+      "id": "synth-1-138",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 138
+    },
+    {
+      "id": "synth-1-139",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 139
+    },
+    {
+      "id": "synth-1-140",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 140
+    },
+    {
+      "id": "synth-1-141",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 141
+    },
+    {
+      "id": "synth-1-142",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 142
+    },
+    {
+      "id": "synth-1-143",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 143
+    },
+    {
+      "id": "synth-1-145",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 145
+    },
+    {
+      "id": "synth-1-146",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 146
+    },
+    {
+      "id": "synth-1-147",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 147
+    },
+    {
+      "id": "synth-1-148",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 148
+    },
+    {
+      "id": "synth-1-161",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 161
+    },
+    {
+      "id": "synth-1-162",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 162
+    },
+    {
+      "id": "synth-1-168",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 168
+    },
+    {
+      "id": "synth-1-175",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 175
+    },
+    {
+      "id": "synth-1-180",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 180
+    },
+    {
+      "id": "synth-1-186",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 186
+    },
+    {
+      "id": "synth-1-193",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 193
+    },
+    {
+      "id": "synth-1-195",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 195
+    },
+    {
+      "id": "synth-1-198",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 198
+    },
+    {
+      "id": "synth-1-199",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 199
+    },
+    {
+      "id": "synth-1-204",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 204
+    },
+    {
+      "id": "synth-1-205",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 205
+    },
+    {
+      "id": "synth-1-206",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 206
+    },
+    {
+      "id": "synth-1-207",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 207
+    },
+    {
+      "id": "synth-1-208",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 208
+    },
+    {
+      "id": "synth-1-209",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 209
+    },
+    {
+      "id": "synth-1-212",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 212
+    },
+    {
+      "id": "synth-1-213",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 213
+    },
+    {
+      "id": "synth-1-214",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 214
+    },
+    {
+      "id": "synth-1-215",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 215
+    },
+    {
+      "id": "synth-1-216",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 216
+    },
+    {
+      "id": "synth-1-232",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 232
+    },
+    {
+      "id": "synth-1-239",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 239
+    },
+    {
+      "id": "synth-1-241",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 241
+    },
+    {
+      "id": "synth-1-244",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 244
+    },
+    {
+      "id": "synth-1-245",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 245
+    },
+    {
+      "id": "synth-1-248",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 248
+    },
+    {
+      "id": "synth-1-249",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 249
+    },
+    {
+      "id": "synth-1-250",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 250
+    },
+    {
+      "id": "synth-1-251",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 251
+    },
+    {
+      "id": "synth-1-252",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 252
+    },
+    {
+      "id": "synth-1-253",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 253
+    },
+    {
+      "id": "synth-1-254",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 254
+    },
+    {
+      "id": "synth-1-257",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 257
+    },
+    {
+      "id": "synth-1-258",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 258
+    },
+    {
+      "id": "synth-1-259",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 259
+    },
+    {
+      "id": "synth-1-260",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 260
+    },
+    {
+      "id": "synth-1-261",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 261
+    },
+    {
+      "id": "synth-1-262",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 262
+    },
+    {
+      "id": "synth-1-263",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 263
+    },
+    {
+      "id": "synth-1-264",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 264
+    },
+    {
+      "id": "synth-1-265",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 265
+    },
+    {
+      "id": "synth-1-266",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 266
+    },
+    {
+      "id": "synth-1-267",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 267
+    },
+    {
+      "id": "synth-1-276",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 276
+    },
+    {
+      "id": "synth-1-277",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 277
+    },
+    {
+      "id": "synth-1-280",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 280
+    },
+    {
+      "id": "synth-1-281",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 281
+    },
+    {
+      "id": "synth-1-282",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 282
+    },
+    {
+      "id": "synth-1-284",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 284
+    },
+    {
+      "id": "synth-1-288",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 288
+    },
+    {
+      "id": "synth-1-298",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 298
+    },
+    {
+      "id": "synth-1-310",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 310
+    },
+    {
+      "id": "synth-1-313",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 313
+    },
+    {
+      "id": "synth-1-316",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 316
+    },
+    {
+      "id": "synth-1-317",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 317
+    },
+    {
+      "id": "synth-1-318",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 318
+    },
+    {
+      "id": "synth-1-319",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 319
+    },
+    {
+      "id": "synth-1-325",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 325
+    },
+    {
+      "id": "synth-1-327",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 327
+    },
+    {
+      "id": "synth-1-331",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 331
+    },
+    {
+      "id": "synth-1-335",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 335
+    },
+    {
+      "id": "synth-1-336",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 336
+    },
+    {
+      "id": "synth-1-337",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 337
+    },
+    {
+      "id": "synth-1-341",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 341
+    },
+    {
+      "id": "synth-1-344",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 344
+    },
+    {
+      "id": "synth-1-346",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 346
+    },
+    {
+      "id": "synth-1-355",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 355
+    },
+    {
+      "id": "synth-1-356",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 356
+    },
+    {
+      "id": "synth-1-364",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 364
+    },
+    {
+      "id": "synth-1-365",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 365
+    },
+    {
+      "id": "synth-1-367",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 367
+    },
+    {
+      "id": "synth-1-368",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 368
+    },
+    {
+      "id": "synth-1-370",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 370
+    },
+    {
+      "id": "synth-1-372",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 372
+    },
+    {
+      "id": "synth-1-377",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 377
+    },
+    {
+      "id": "synth-1-379",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 379
+    },
+    {
+      "id": "synth-1-380",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 380
+    },
+    {
+      "id": "synth-1-381",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 381
+    },
+    {
+      "id": "synth-1-382",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 382
+    },
+    {
+      "id": "synth-1-383",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 383
+    },
+    {
+      "id": "synth-1-384",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 384
+    },
+    {
+      "id": "synth-1-385",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 385
+    },
+    {
+      "id": "synth-1-386",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 386
+    },
+    {
+      "id": "synth-1-387",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 387
+    },
+    {
+      "id": "synth-1-388",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 388
+    },
+    {
+      "id": "synth-1-389",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 389
+    },
+    {
+      "id": "synth-1-390",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 390
+    },
+    {
+      "id": "synth-1-393",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 393
+    },
+    {
+      "id": "synth-1-395",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 395
+    },
+    {
+      "id": "synth-1-396",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 396
+    },
+    {
+      "id": "synth-1-397",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 397
+    },
+    {
+      "id": "synth-1-398",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 398
+    },
+    {
+      "id": "synth-1-399",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 399
+    },
+    {
+      "id": "synth-1-400",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 400
+    },
+    {
+      "id": "synth-1-401",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 401
+    },
+    {
+      "id": "synth-1-406",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 406
+    },
+    {
+      "id": "synth-1-408",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 408
+    },
+    {
+      "id": "synth-1-409",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 409
+    },
+    {
+      "id": "synth-1-410",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 410
+    },
+    {
+      "id": "synth-1-411",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 411
+    },
+    {
+      "id": "synth-1-413",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 413
+    },
+    {
+      "id": "synth-1-414",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 414
+    },
+    {
+      "id": "synth-1-415",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 415
+    },
+    {
+      "id": "synth-1-417",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 417
+    },
+    {
+      "id": "synth-1-420",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 420
+    },
+    {
+      "id": "synth-1-426",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 426
+    },
+    {
+      "id": "synth-1-435",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 435
+    },
+    {
+      "id": "synth-1-436",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 436
+    },
+    {
+      "id": "synth-1-438",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 438
+    },
+    {
+      "id": "synth-1-441",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 441
+    },
+    {
+      "id": "synth-1-444",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 444
+    },
+    {
+      "id": "synth-1-445",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 445
+    },
+    {
+      "id": "synth-1-446",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 446
+    },
+    {
+      "id": "synth-1-448",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 448
+    },
+    {
+      "id": "synth-1-450",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 450
+    },
+    {
+      "id": "synth-1-452",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 452
+    },
+    {
+      "id": "synth-1-453",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 453
+    },
+    {
+      "id": "synth-1-454",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 454
+    },
+    {
+      "id": "synth-1-455",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 455
+    },
+    {
+      "id": "synth-1-459",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 459
+    },
+    {
+      "id": "synth-1-461",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 461
+    },
+    {
+      "id": "synth-1-462",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 462
+    },
+    {
+      "id": "synth-1-464",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 464
+    },
+    {
+      "id": "synth-1-467",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 467
+    },
+    {
+      "id": "synth-1-470",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 470
+    },
+    {
+      "id": "synth-1-471",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 471
+    },
+    {
+      "id": "synth-1-474",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 474
+    },
+    {
+      "id": "synth-1-475",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 475
+    },
+    {
+      "id": "synth-1-476",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 476
+    },
+    {
+      "id": "synth-1-477",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 477
+    },
+    {
+      "id": "synth-1-480",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 480
+    },
+    {
+      "id": "synth-1-484",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 484
+    },
+    {
+      "id": "synth-1-488",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 488
+    },
+    {
+      "id": "synth-1-489",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 489
+    },
+    {
+      "id": "synth-1-497",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 497
+    },
+    {
+      "id": "synth-1-503",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 503
+    },
+    {
+      "id": "synth-1-517",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 517
+    },
+    {
+      "id": "synth-1-518",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 518
+    },
+    {
+      "id": "synth-1-524",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 524
+    },
+    {
+      "id": "synth-1-525",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 525
+    },
+    {
+      "id": "synth-1-526",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 526
+    },
+    {
+      "id": "synth-1-528",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 528
+    },
+    {
+      "id": "synth-1-530",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 530
+    },
+    {
+      "id": "synth-1-537",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 537
+    },
+    {
+      "id": "synth-1-538",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 538
+    },
+    {
+      "id": "synth-1-541",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 541
+    },
+    {
+      "id": "synth-1-542",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 542
+    },
+    {
+      "id": "synth-1-544",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 544
+    },
+    {
+      "id": "synth-1-546",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 546
+    },
+    {
+      "id": "synth-1-547",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 547
+    },
+    {
+      "id": "synth-1-561",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 561
+    },
+    {
+      "id": "synth-1-564",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 564
+    },
+    {
+      "id": "synth-1-566",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 566
+    },
+    {
+      "id": "synth-1-571",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 571
+    },
+    {
+      "id": "synth-1-575",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 575
+    },
+    {
+      "id": "synth-1-576",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 576
+    },
+    {
+      "id": "synth-1-577",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 577
+    },
+    {
+      "id": "synth-1-578",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 578
+    },
+    {
+      "id": "synth-1-581",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 581
+    },
+    {
+      "id": "synth-1-583",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 583
+    },
+    {
+      "id": "synth-1-584",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 584
+    },
+    {
+      "id": "synth-1-585",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 585
+    },
+    {
+      "id": "synth-1-586",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 586
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "EXPERIMENT",
+    "page": null
+  }
+}

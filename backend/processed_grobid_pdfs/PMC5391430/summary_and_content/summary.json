@@ -1,0 +1,103 @@
+{
+  "intro": "This paper presents the whole-genome sequences of eight fungal strains selected for exposure to microgravity at the International Space Station (ISS). These baseline sequences are crucial for understanding the production of novel bioactive compounds observed in these fungi. The strains, which include species isolated from environments associated with the Chernobyl nuclear power plant (ChNPP) accident, were selected for their ability to produce valuable natural products, their genomic potential for secondary metabolism, or their positive radiotropism.",
+  "sections": [
+    {
+      "heading": "Fungal Strain Characteristics",
+      "summary": "The study focuses on several fungal species with notable characteristics. Aspergillus niger has the genetic potential to produce carcinogenic fumonisins and naphtho-gamma-pyrone secondary metabolites with antibacterial, antifungal, antitumor, and cytotoxic activities. Aspergillus terreus produces organic acids like itaconic acid, enzymes such as xylanases, and the cholesterol-lowering molecule lovastatin. Aureobasidium pullulans is a significant producer of pullulan, a glucose homopolysaccharide widely used in various industries, and possesses biotechnological potential alongside virulence factors. Beauveria bassiana, an entomopathogenic fungus, is used in bioinsecticides and produces secondary metabolites like oosporein and beauvericin, which exhibit antimicrobial and antitumor activity.",
+      "figures": []
+    },
+    {
+      "heading": "Additional Fungal Species",
+      "summary": "Cladosporium sphaerospermum, a plant endophyte and allergen, can produce allergens such as enolase and aldehyde dehydrogenase. Fusarium solani, a plant pathogen, produces phytotoxins that cause sudden death syndrome in plants like soybean. Trichoderma virens, a rhizosphere fungus beneficial to plants, induces a defense response in cotton against seedling diseases. These species were selected based on their unique properties and potential for study in microgravity environments.",
+      "figures": []
+    },
+    {
+      "heading": "Genome Sequencing and Assembly",
+      "summary": "The whole-genome sequences of the eight fungal strains were obtained through shotgun sequencing on an Illumina HiSeq2500 platform with a paired-end module. The NGS QC toolkit version 2.3 was used to filter the data, ensuring high-quality, vector- and adaptor-free reads for genome assembly, using a cutoff read length of 80% and a quality score of 20. The MaSuRCA genome assembler (k-mer size ϭ 70) was used for the assembly process. The resulting data includes the number of scaffolds, total genome size, N50 contig length, and G+C content.",
+      "figures": []
+    },
+    {
+      "heading": "Accession Numbers",
+      "summary": "The whole-genome shotgun project has been deposited in DDBJ/ENA/GenBank under specific accession numbers, providing public access to the genomic data. The statistical summary for the eight draft fungal genome sequences includes strain designations, NCBI accession numbers, isolation locations, number of contigs, genome size, N50 values, and G+C content. For example, Aspergillus niger JSC-093350089 has accession number MSJD00000000, a genome size of 36,080,355 bp, and a G+C content of 49.46%.",
+      "figures": []
+    }
+  ],
+  "conclusion": {
+    "heading": "Conclusion",
+    "summary": "pullulans revealed significant biotechnological potential but also the presence of virulence factors that cannot be overlooked (12).Beauveria bassiana is an entomopathogenic fungus used to produce biodegradable, nonpoisonous, and cost-efficient bioinsecticides (13).Genomic analysis of B. Cladosporium sphaerospermum is a plant endophyte but also an allergen to immunocompromised populations.It has the capacity to produce a variety of allergens, such as enolase, mannitol, dehydrogenase, and aldehyde dehydrogenase (18). Fusarium solani is a plant pathogen that produces multiple phytotoxins, such as marticin, isomarticin, anhydrofusarubin, and javanicin, that cause sudden death syndrome of soybean (19), for example. Trichoderma virens is a common rhizosphere fungus beneficial to plants and reported to induce a defense response of cotton to Rhizoctonia solani-incited seedling disease (20,21). This whole-genome shotgun project has been deposited in DDBJ/ENA/GenBank under the accession numbers given in Table 1.The versions described in this paper are the second versions."
+  },
+  "keywords": [
+    "fungal genomes",
+    "microgravity",
+    "aspergillus niger",
+    "aspergillus terreus",
+    "aureobasidium pullulans",
+    "beauveria bassiana",
+    "fusarium solani",
+    "trichoderma virens",
+    "genome sequencing",
+    "bioactive compounds"
+  ],
+  "topics": [
+    "microbial genomics",
+    "space biology",
+    "secondary metabolism"
+  ],
+  "_meta": {
+    "paper_id": "sha256:6f2d60b107c1e626755d6005646bae1dddc1f44c75c838f8e3d455a336c27870",
+    "paper_title": "Draft Genome Sequences of Several Fungal Strains Selected for Exposure to Microgravity at the International Space",
+    "generated_at": "2025-10-05T10:44:37Z",
+    "word_count": 458,
+    "figures": [],
+    "equations": [],
+    "keywords": [
+      "fungal genomes",
+      "microgravity",
+      "aspergillus niger",
+      "aspergillus terreus",
+      "aureobasidium pullulans",
+      "beauveria bassiana",
+      "fusarium solani",
+      "trichoderma virens",
+      "genome sequencing",
+      "bioactive compounds"
+    ],
+    "topics": [
+      "microbial genomics",
+      "space biology",
+      "secondary metabolism"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 2141,
+      "completion_tokens": 770,
+      "total_tokens": 2911,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000214,
+      "output_usd": 0.000308,
+      "total_usd": 0.000522
+    },
+    "cost": {
+      "input_usd": 0.000214,
+      "output_usd": 0.000308,
+      "total_usd": 0.000522
+    },
+    "figure_selection": {}
+  }
+}

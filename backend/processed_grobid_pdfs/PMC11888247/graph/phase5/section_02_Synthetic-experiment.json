@@ -1,0 +1,136 @@
+{
+  "paper_id": "PMC11888247",
+  "section": "Synthetic EXPERIMENT",
+  "n_nodes": 6,
+  "n_edges": 5,
+  "nodes": [
+    {
+      "id": 7,
+      "label": "Expression",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplemental Figures",
+        "sentence_id": 4,
+        "char_start": 692,
+        "char_end": 702,
+        "anchor": "PMC11888247_692_702",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 8,
+      "label": "Ep genes",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplemental Figures",
+        "sentence_id": 4,
+        "char_start": 706,
+        "char_end": 714,
+        "anchor": "PMC11888247_706_714",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 9,
+      "label": "PGE-metabolite",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplemental Figures",
+        "sentence_id": 4,
+        "char_start": 845,
+        "char_end": 859,
+        "anchor": "PMC11888247_845_859",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 12,
+      "label": "Pearson correlations",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplemental Figures",
+        "sentence_id": 5,
+        "char_start": 1161,
+        "char_end": 1181,
+        "anchor": "PMC11888247_1161_1181",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 16,
+      "label": "concentration",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplemental Figures",
+        "sentence_id": 6,
+        "char_start": 1350,
+        "char_end": 1363,
+        "anchor": "PMC11888247_1350_1363",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 17,
+      "label": "PGE-M",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplemental Figures",
+        "sentence_id": 6,
+        "char_start": 1367,
+        "char_end": 1372,
+        "anchor": "PMC11888247_1367_1372",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-7-8",
+      "type": "ASSOCIATED",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "id": "synth-7-9",
+      "type": "ASSOCIATED",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "id": "synth-7-12",
+      "type": "ASSOCIATED",
+      "source": 7,
+      "target": 12
+    },
+    {
+      "id": "synth-7-16",
+      "type": "ASSOCIATED",
+      "source": 7,
+      "target": 16
+    },
+    {
+      "id": "synth-7-17",
+      "type": "ASSOCIATED",
+      "source": 7,
+      "target": 17
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "EXPERIMENT",
+    "page": null
+  }
+}

@@ -1,0 +1,955 @@
+{
+  "paper_id": "PMC10889206",
+  "section": "Synthetic ANATOMICAL_SITE",
+  "n_nodes": 45,
+  "n_edges": 44,
+  "nodes": [
+    {
+      "id": 0,
+      "label": "Bone marrow",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 0,
+        "char_start": 0,
+        "char_end": 11,
+        "anchor": "PMC10889206_0_11",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 18,
+      "label": "peripheral blood",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 5,
+        "char_start": 762,
+        "char_end": 778,
+        "anchor": "PMC10889206_762_778",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 21,
+      "label": "bone marrow",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 5,
+        "char_start": 831,
+        "char_end": 842,
+        "anchor": "PMC10889206_831_842",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 22,
+      "label": "lymph nodes",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 5,
+        "char_start": 847,
+        "char_end": 858,
+        "anchor": "PMC10889206_847_858",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 31,
+      "label": "distal femur",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 6,
+        "char_start": 986,
+        "char_end": 998,
+        "anchor": "PMC10889206_986_998",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 42,
+      "label": "general circulation",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 10,
+        "char_start": 1791,
+        "char_end": 1810,
+        "anchor": "PMC10889206_1791_1810",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 105,
+      "label": "bone marrow",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 26,
+        "char_start": 5009,
+        "char_end": 5020,
+        "anchor": "PMC10889206_5009_5020",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 121,
+      "label": "Mesenteric lymph nodes",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 32,
+        "char_start": 5954,
+        "char_end": 5976,
+        "anchor": "PMC10889206_5954_5976",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 122,
+      "label": "bone marrow",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 32,
+        "char_start": 5981,
+        "char_end": 5992,
+        "anchor": "PMC10889206_5981_5992",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 132,
+      "label": "5th lumbar",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 35,
+        "char_start": 6314,
+        "char_end": 6324,
+        "anchor": "PMC10889206_6314_6324",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 140,
+      "label": "teric lymph node",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Immune Cell Reconstitution",
+        "sentence_id": 37,
+        "char_start": 6615,
+        "char_end": 6631,
+        "anchor": "PMC10889206_6615_6631",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 146,
+      "label": "mesenteric lymph nodes",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Immune Cell Reconstitution",
+        "sentence_id": 37,
+        "char_start": 7193,
+        "char_end": 7215,
+        "anchor": "PMC10889206_7193_7215",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 172,
+      "label": "Abdominal WAT",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Body Composition and Blood Glucose Levels",
+        "sentence_id": 42,
+        "char_start": 7979,
+        "char_end": 7992,
+        "anchor": "PMC10889206_7979_7992",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 180,
+      "label": "distal humerus",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Bone Microarchitecture",
+        "sentence_id": 43,
+        "char_start": 8305,
+        "char_end": 8319,
+        "anchor": "PMC10889206_8305_8319",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 189,
+      "label": "rtebral body",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Bone Microarchitecture",
+        "sentence_id": 44,
+        "char_start": 8951,
+        "char_end": 8963,
+        "anchor": "PMC10889206_8951_8963",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 193,
+      "label": "distal femur",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Bone Microarchitecture",
+        "sentence_id": 44,
+        "char_start": 9520,
+        "char_end": 9532,
+        "anchor": "PMC10889206_9520_9532",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 214,
+      "label": "distal femur",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Bone Microarchitecture",
+        "sentence_id": 47,
+        "char_start": 10113,
+        "char_end": 10125,
+        "anchor": "PMC10889206_10113_10125",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 215,
+      "label": "distal femur",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Bone Microarchitecture",
+        "sentence_id": 47,
+        "char_start": 10150,
+        "char_end": 10162,
+        "anchor": "PMC10889206_10150_10162",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 223,
+      "label": "distal fe",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Static and Dynamic Histomorphometry",
+        "sentence_id": 48,
+        "char_start": 10318,
+        "char_end": 10327,
+        "anchor": "PMC10889206_10318_10327",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 228,
+      "label": "Bone marrow",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Static and Dynamic Histomorphometry",
+        "sentence_id": 49,
+        "char_start": 10595,
+        "char_end": 10606,
+        "anchor": "PMC10889206_10595_10606",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 274,
+      "label": "distal femur",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 60,
+        "char_start": 12634,
+        "char_end": 12646,
+        "anchor": "PMC10889206_12634_12646",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 286,
+      "label": "bone sites",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 63,
+        "char_start": 12997,
+        "char_end": 13007,
+        "anchor": "PMC10889206_12997_13007",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 324,
+      "label": "bone marrow",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 74,
+        "char_start": 14930,
+        "char_end": 14941,
+        "anchor": "PMC10889206_14930_14941",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 354,
+      "label": "bone surfaces",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 82,
+        "char_start": 16668,
+        "char_end": 16681,
+        "anchor": "PMC10889206_16668_16681",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 359,
+      "label": "osteoblasts",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 85,
+        "char_start": 17320,
+        "char_end": 17331,
+        "anchor": "PMC10889206_17320_17331",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 360,
+      "label": "adipocytes",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 85,
+        "char_start": 17337,
+        "char_end": 17347,
+        "anchor": "PMC10889206_17337_17347",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 393,
+      "label": "bone marrow of femur",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 94,
+        "char_start": 19128,
+        "char_end": 19148,
+        "anchor": "PMC10889206_19128_19148",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 441,
+      "label": "bone marrow",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental Protocol",
+        "sentence_id": 108,
+        "char_start": 21212,
+        "char_end": 21223,
+        "anchor": "PMC10889206_21212_21223",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 463,
+      "label": "tail vein",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental Protocol",
+        "sentence_id": 111,
+        "char_start": 21900,
+        "char_end": 21909,
+        "anchor": "PMC10889206_21900_21909",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 466,
+      "label": "hematopoietic compartment",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental Protocol",
+        "sentence_id": 112,
+        "char_start": 21990,
+        "char_end": 22015,
+        "anchor": "PMC10889206_21990_22015",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 472,
+      "label": "peripheral blood lymphocytes",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental Protocol",
+        "sentence_id": 113,
+        "char_start": 22169,
+        "char_end": 22197,
+        "anchor": "PMC10889206_22169_22197",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 477,
+      "label": "Mesenteric lymph nodes",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental Protocol",
+        "sentence_id": 114,
+        "char_start": 22341,
+        "char_end": 22363,
+        "anchor": "PMC10889206_22341_22363",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 478,
+      "label": "bone marrow",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental Protocol",
+        "sentence_id": 114,
+        "char_start": 22368,
+        "char_end": 22379,
+        "anchor": "PMC10889206_22368_22379",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 488,
+      "label": "abdominal",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental Protocol",
+        "sentence_id": 118,
+        "char_start": 22999,
+        "char_end": 23008,
+        "anchor": "PMC10889206_22999_23008",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 496,
+      "label": "5th lumbar",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental Protocol",
+        "sentence_id": 119,
+        "char_start": 23158,
+        "char_end": 23168,
+        "anchor": "PMC10889206_23158_23168",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 511,
+      "label": "5th lumbar",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography",
+        "sentence_id": 122,
+        "char_start": 23692,
+        "char_end": 23702,
+        "anchor": "PMC10889206_23692_23702",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 521,
+      "label": "Cortical bone",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography",
+        "sentence_id": 123,
+        "char_start": 24100,
+        "char_end": 24113,
+        "anchor": "PMC10889206_24100_24113",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 525,
+      "label": "femoral head",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography",
+        "sentence_id": 123,
+        "char_start": 24405,
+        "char_end": 24417,
+        "anchor": "PMC10889206_24405_24417",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 532,
+      "label": "endocortex",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography",
+        "sentence_id": 125,
+        "char_start": 24637,
+        "char_end": 24647,
+        "anchor": "PMC10889206_24637_24647",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 541,
+      "label": "distal femur",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography",
+        "sentence_id": 127,
+        "char_start": 24985,
+        "char_end": 24997,
+        "anchor": "PMC10889206_24985_24997",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 542,
+      "label": "distal humerus ep",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography",
+        "sentence_id": 127,
+        "char_start": 25155,
+        "char_end": 25172,
+        "anchor": "PMC10889206_25155_25172",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 543,
+      "label": "distal femur",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography",
+        "sentence_id": 127,
+        "char_start": 25211,
+        "char_end": 25223,
+        "anchor": "PMC10889206_25211_25223",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 544,
+      "label": "rtebral body",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography",
+        "sentence_id": 127,
+        "char_start": 25271,
+        "char_end": 25283,
+        "anchor": "PMC10889206_25271_25283",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 560,
+      "label": "distal femora",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Histomorphometry",
+        "sentence_id": 128,
+        "char_start": 25811,
+        "char_end": 25824,
+        "anchor": "PMC10889206_25811_25824",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 571,
+      "label": "distal femur",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Histomorphometry",
+        "sentence_id": 132,
+        "char_start": 26422,
+        "char_end": 26434,
+        "anchor": "PMC10889206_26422_26434",
+        "page": 11,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-0-18",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 18
+    },
+    {
+      "id": "synth-0-21",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 21
+    },
+    {
+      "id": "synth-0-22",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 22
+    },
+    {
+      "id": "synth-0-31",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 31
+    },
+    {
+      "id": "synth-0-42",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 42
+    },
+    {
+      "id": "synth-0-105",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 105
+    },
+    {
+      "id": "synth-0-121",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 121
+    },
+    {
+      "id": "synth-0-122",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 122
+    },
+    {
+      "id": "synth-0-132",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 132
+    },
+    {
+      "id": "synth-0-140",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 140
+    },
+    {
+      "id": "synth-0-146",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 146
+    },
+    {
+      "id": "synth-0-172",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 172
+    },
+    {
+      "id": "synth-0-180",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 180
+    },
+    {
+      "id": "synth-0-189",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 189
+    },
+    {
+      "id": "synth-0-193",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 193
+    },
+    {
+      "id": "synth-0-214",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 214
+    },
+    {
+      "id": "synth-0-215",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 215
+    },
+    {
+      "id": "synth-0-223",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 223
+    },
+    {
+      "id": "synth-0-228",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 228
+    },
+    {
+      "id": "synth-0-274",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 274
+    },
+    {
+      "id": "synth-0-286",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 286
+    },
+    {
+      "id": "synth-0-324",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 324
+    },
+    {
+      "id": "synth-0-354",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 354
+    },
+    {
+      "id": "synth-0-359",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 359
+    },
+    {
+      "id": "synth-0-360",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 360
+    },
+    {
+      "id": "synth-0-393",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 393
+    },
+    {
+      "id": "synth-0-441",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 441
+    },
+    {
+      "id": "synth-0-463",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 463
+    },
+    {
+      "id": "synth-0-466",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 466
+    },
+    {
+      "id": "synth-0-472",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 472
+    },
+    {
+      "id": "synth-0-477",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 477
+    },
+    {
+      "id": "synth-0-478",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 478
+    },
+    {
+      "id": "synth-0-488",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 488
+    },
+    {
+      "id": "synth-0-496",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 496
+    },
+    {
+      "id": "synth-0-511",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 511
+    },
+    {
+      "id": "synth-0-521",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 521
+    },
+    {
+      "id": "synth-0-525",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 525
+    },
+    {
+      "id": "synth-0-532",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 532
+    },
+    {
+      "id": "synth-0-541",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 541
+    },
+    {
+      "id": "synth-0-542",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 542
+    },
+    {
+      "id": "synth-0-543",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 543
+    },
+    {
+      "id": "synth-0-544",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 544
+    },
+    {
+      "id": "synth-0-560",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 560
+    },
+    {
+      "id": "synth-0-571",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 571
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "ANATOMICAL_SITE",
+    "page": null
+  }
+}

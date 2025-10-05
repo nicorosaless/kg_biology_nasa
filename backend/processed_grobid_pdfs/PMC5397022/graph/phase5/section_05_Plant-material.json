@@ -1,0 +1,204 @@
+{
+  "paper_id": "PMC5397022",
+  "section": "Plant material",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 314,
+      "label": "Arab",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Plant material",
+        "sentence_id": 74,
+        "char_start": 13812,
+        "char_end": 13816,
+        "anchor": "PMC5397022_13812_13816",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 315,
+      "label": "idopsis",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Plant material",
+        "sentence_id": 74,
+        "char_start": 13816,
+        "char_end": 13823,
+        "anchor": "PMC5397022_13816_13823",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 316,
+      "label": "thaliana",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Plant material",
+        "sentence_id": 74,
+        "char_start": 13824,
+        "char_end": 13832,
+        "anchor": "PMC5397022_13824_13832",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 317,
+      "label": "Columbus",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Plant material",
+        "sentence_id": 74,
+        "char_start": 13903,
+        "char_end": 13911,
+        "anchor": "PMC5397022_13903_13911",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 318,
+      "label": "Ohio",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Plant material",
+        "sentence_id": 74,
+        "char_start": 13913,
+        "char_end": 13917,
+        "anchor": "PMC5397022_13913_13917",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 319,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Plant material",
+        "sentence_id": 74,
+        "char_start": 13919,
+        "char_end": 13922,
+        "anchor": "PMC5397022_13919_13922",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 414,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 314,
+      "target": 315
+    },
+    {
+      "id": 415,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 314,
+      "target": 316
+    },
+    {
+      "id": 416,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 314,
+      "target": 317
+    },
+    {
+      "id": 417,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 314,
+      "target": 318
+    },
+    {
+      "id": 418,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 314,
+      "target": 319
+    },
+    {
+      "id": 419,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 315,
+      "target": 316
+    },
+    {
+      "id": 420,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 315,
+      "target": 317
+    },
+    {
+      "id": 421,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 315,
+      "target": 318
+    },
+    {
+      "id": 422,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 315,
+      "target": 319
+    },
+    {
+      "id": 423,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 316,
+      "target": 317
+    },
+    {
+      "id": 424,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 316,
+      "target": 318
+    },
+    {
+      "id": 425,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 316,
+      "target": 319
+    },
+    {
+      "id": 426,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 317,
+      "target": 318
+    },
+    {
+      "id": 427,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 317,
+      "target": 319
+    },
+    {
+      "id": 428,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 318,
+      "target": 319
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 3,
+      "largest_component": 6,
+      "removed_components": [
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 2
+  }
+}

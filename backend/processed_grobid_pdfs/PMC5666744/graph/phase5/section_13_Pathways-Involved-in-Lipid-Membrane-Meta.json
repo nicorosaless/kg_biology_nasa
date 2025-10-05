@@ -1,0 +1,209 @@
+{
+  "paper_id": "PMC5666744",
+  "section": "Pathways Involved in Lipid Membrane Metabolism and Protein Biosynthesis Are Enriched in Multi-'Omics Datasets from Livers of Spaceflight Mice",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 516,
+      "label": "Wipi",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Pathways Involved in Lipid Membrane Metabolism and Protein Biosynthesis Are Enriched in Multi-'Omics Datasets from Livers of Spaceflight Mice",
+        "sentence_id": 120,
+        "char_start": 31167,
+        "char_end": 31171,
+        "anchor": "PMC5666744_31167_31171",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 519,
+      "label": "ROS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Pathways Involved in Lipid Membrane Metabolism and Protein Biosynthesis Are Enriched in Multi-'Omics Datasets from Livers of Spaceflight Mice",
+        "sentence_id": 120,
+        "char_start": 31469,
+        "char_end": 31472,
+        "anchor": "PMC5666744_31469_31472",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 522,
+      "label": "EGAN",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Pathways Involved in Lipid Membrane Metabolism and Protein Biosynthesis Are Enriched in Multi-'Omics Datasets from Livers of Spaceflight Mice",
+        "sentence_id": 120,
+        "char_start": 30909,
+        "char_end": 30913,
+        "anchor": "PMC5666744_30909_30913",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 523,
+      "label": "Map1lc3a",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Pathways Involved in Lipid Membrane Metabolism and Protein Biosynthesis Are Enriched in Multi-'Omics Datasets from Livers of Spaceflight Mice",
+        "sentence_id": 120,
+        "char_start": 31146,
+        "char_end": 31154,
+        "anchor": "PMC5666744_31146_31154",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 524,
+      "label": "Mtor",
+      "type": "PATHWAY",
+      "freq": 1,
+      "nav": {
+        "section": "Pathways Involved in Lipid Membrane Metabolism and Protein Biosynthesis Are Enriched in Multi-'Omics Datasets from Livers of Spaceflight Mice",
+        "sentence_id": 120,
+        "char_start": 31266,
+        "char_end": 31270,
+        "anchor": "PMC5666744_31266_31270",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 525,
+      "label": "ROS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Pathways Involved in Lipid Membrane Metabolism and Protein Biosynthesis Are Enriched in Multi-'Omics Datasets from Livers of Spaceflight Mice",
+        "sentence_id": 120,
+        "char_start": 31469,
+        "char_end": 31472,
+        "anchor": "PMC5666744_31469_31472",
+        "page": 12,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 538,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 516,
+      "target": 519
+    },
+    {
+      "id": 540,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 516,
+      "target": 522
+    },
+    {
+      "id": 541,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 516,
+      "target": 523
+    },
+    {
+      "id": 542,
+      "type": "GENE_PRODUCT_INVOLVED_IN_PATHWAY",
+      "source": 516,
+      "target": 524
+    },
+    {
+      "id": 543,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 516,
+      "target": 525
+    },
+    {
+      "id": 545,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 519,
+      "target": 522
+    },
+    {
+      "id": 546,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 519,
+      "target": 523
+    },
+    {
+      "id": 547,
+      "type": "GENE_PRODUCT_INVOLVED_IN_PATHWAY",
+      "source": 519,
+      "target": 524
+    },
+    {
+      "id": 548,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 519,
+      "target": 525
+    },
+    {
+      "id": 553,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 522,
+      "target": 523
+    },
+    {
+      "id": 554,
+      "type": "GENE_PRODUCT_INVOLVED_IN_PATHWAY",
+      "source": 522,
+      "target": 524
+    },
+    {
+      "id": 555,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 522,
+      "target": 525
+    },
+    {
+      "id": 556,
+      "type": "GENE_PRODUCT_INVOLVED_IN_PATHWAY",
+      "source": 523,
+      "target": 524
+    },
+    {
+      "id": 557,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 523,
+      "target": 525
+    },
+    {
+      "id": 558,
+      "type": "GENE_PRODUCT_INVOLVED_IN_PATHWAY",
+      "source": 525,
+      "target": 524
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 10,
+      "removed_orphans": 3,
+      "largest_component": 6,
+      "removed_components": [
+        5,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    "page": 11
+  }
+}

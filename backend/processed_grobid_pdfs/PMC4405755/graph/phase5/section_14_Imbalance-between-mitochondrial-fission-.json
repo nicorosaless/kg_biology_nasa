@@ -1,0 +1,204 @@
+{
+  "paper_id": "PMC4405755",
+  "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 678,
+      "label": "AMP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+        "sentence_id": 176,
+        "char_start": 31240,
+        "char_end": 31243,
+        "anchor": "PMC4405755_31240_31243",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 681,
+      "label": "ACC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+        "sentence_id": 176,
+        "char_start": 31404,
+        "char_end": 31407,
+        "anchor": "PMC4405755_31404_31407",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 682,
+      "label": "AMP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+        "sentence_id": 176,
+        "char_start": 31486,
+        "char_end": 31489,
+        "anchor": "PMC4405755_31486_31489",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 684,
+      "label": "AMPK",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+        "sentence_id": 176,
+        "char_start": 31240,
+        "char_end": 31244,
+        "anchor": "PMC4405755_31240_31244",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 685,
+      "label": "ACC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+        "sentence_id": 176,
+        "char_start": 31404,
+        "char_end": 31407,
+        "anchor": "PMC4405755_31404_31407",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 686,
+      "label": "AMPK",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imbalance between mitochondrial fission and fusion and AMPK activation in fast muscles following HU",
+        "sentence_id": 176,
+        "char_start": 31432,
+        "char_end": 31436,
+        "anchor": "PMC4405755_31432_31436",
+        "page": 10,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 818,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 678,
+      "target": 681
+    },
+    {
+      "id": 819,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 678,
+      "target": 682
+    },
+    {
+      "id": 820,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 678,
+      "target": 684
+    },
+    {
+      "id": 821,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 678,
+      "target": 685
+    },
+    {
+      "id": 822,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 678,
+      "target": 686
+    },
+    {
+      "id": 824,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 681,
+      "target": 682
+    },
+    {
+      "id": 825,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 681,
+      "target": 684
+    },
+    {
+      "id": 826,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 681,
+      "target": 685
+    },
+    {
+      "id": 827,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 681,
+      "target": 686
+    },
+    {
+      "id": 829,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 682,
+      "target": 684
+    },
+    {
+      "id": 830,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 682,
+      "target": 685
+    },
+    {
+      "id": 831,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 682,
+      "target": 686
+    },
+    {
+      "id": 833,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 684,
+      "target": 685
+    },
+    {
+      "id": 834,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 684,
+      "target": 686
+    },
+    {
+      "id": 836,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 685,
+      "target": 686
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 21,
+      "largest_component": 6,
+      "removed_components": [
+        5,
+        4,
+        2,
+        2
+      ]
+    },
+    "page": 10
+  }
+}

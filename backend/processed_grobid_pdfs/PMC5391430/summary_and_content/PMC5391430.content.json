@@ -1,0 +1,431 @@
+{
+  "paper_id": "sha256:6f2d60b107c1e626755d6005646bae1dddc1f44c75c838f8e3d455a336c27870",
+  "metadata": {
+    "title": "Draft Genome Sequences of Several Fungal Strains Selected for Exposure to Microgravity at the International Space Station",
+    "abstract": "The whole-genome sequences of eight fungal strains that were selected for exposure to microgravity at the International Space Station are presented here.These baseline sequences will help to understand the observed production of novel bioactive compounds.I n a screening project of natural products, fungal strains isolated from environments associated with the Chernobyl nuclear power plant (ChNPP) accident (1) have been investigated.The radiation-tolerant microorganisms selected for exposure to microgravity at the International Space Station were known to produce valuable natural products; their genomic sequences coded for secondary metabolism pathways; or they displayed positive radiotropism.Aspergillus niger, an industrially important filamentous fungus, contains a sequence resembling the fumonisin gene cluster, which suggests that the fungus has the genetic potential to produce carcinogenic fumonisins (2). A. niger also produces an abundance of naphtho-gamma-pyrone secondary metabolites, which have been shown to have antibacterial, antifungal (3), antitumor (4), and cytotoxic (3, 4) activity.Aspergillus terreus is used to produce organic acids, such as itaconic acid (5), or enzymes, such as xylanases (6, 7).One of the most important secondary metabolites made by A. terreus is the cholesterol-lowering molecule lovastatin.Discovery of this potent compound revolutionized the treatment of hypercholesterolemia (8, 9).Aureobasidium pullulans is an important producer of pullulan, a homopolysaccharide of glucose that is widely used in the food, pharmaceutical, and electronics industries (10, 11).The whole-genome sequence of A. pullulans revealed significant biotechnological potential but also the presence of virulence factors that cannot be overlooked (12).Beauveria bassiana is an entomopathogenic fungus used to produce biodegradable, nonpoisonous, and cost-efficient bioinsecticides (13).Genomic analysis of B. bassiana exhibits its capacity to produce a plethora of secondary metabolites, such as oosporein, bassianin, beauvericin, or oxalic acid (14).Beauvericin possesses antimicrobial, antiviral, antifungal, and antitumor activity (15).Cladosporium cladosporioides, a ubiquitous organism, produces cladosporin and isocladosporin-secondary metabolites known to have antifungal activities.Its genome has not been sequenced yet (16, 17).",
+    "authors": [
+      "Nitin KSingh",
+      "Adriana Blachowicz",
+      "Jillian Romsdahl",
+      "Clay Wang",
+      "Tamas Torok",
+      "Kasthuri Venkateswaran"
+    ],
+    "affiliations": [
+      "a Jet Propulsion Laboratory , California Institute of Technology , Pasadena , California , USA ; Department of Pharmacology and Pharmaceutical Sciences ,",
+      "b School of Pharmacy , University of Southern California , Los Angeles , California , USA ;",
+      "c Department of Chemistry , Dornsife College of Letters , Arts and Sciences , University of Southern California , Los Angeles , California , USA ;",
+      "d Lawrence Berkeley National Laboratory , Berkeley , California , USA"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Abstract",
+      "paragraphs": [
+        "The whole-genome sequences of eight fungal strains that were selected for exposure to microgravity at the International Space Station are presented here.These baseline sequences will help to understand the observed production of novel bioactive compounds.I n a screening project of natural products, fungal strains isolated from environments associated with the Chernobyl nuclear power plant (ChNPP) accident (1) have been investigated.The radiation-tolerant microorganisms selected for exposure to microgravity at the International Space Station were known to produce valuable natural products; their genomic sequences coded for secondary metabolism pathways; or they displayed positive radiotropism.Aspergillus niger, an industrially important filamentous fungus, contains a sequence resembling the fumonisin gene cluster, which suggests that the fungus has the genetic potential to produce carcinogenic fumonisins (2). A. niger also produces an abundance of naphtho-gamma-pyrone secondary metabolites, which have been shown to have antibacterial, antifungal (3), antitumor (4), and cytotoxic (3, 4) activity.Aspergillus terreus is used to produce organic acids, such as itaconic acid (5), or enzymes, such as xylanases (6, 7).One of the most important secondary metabolites made by A. terreus is the cholesterol-lowering molecule lovastatin.Discovery of this potent compound revolutionized the treatment of hypercholesterolemia (8, 9).Aureobasidium pullulans is an important producer of pullulan, a homopolysaccharide of glucose that is widely used in the food, pharmaceutical, and electronics industries (10, 11).The whole-genome sequence of A. pullulans revealed significant biotechnological potential but also the presence of virulence factors that cannot be overlooked (12).Beauveria bassiana is an entomopathogenic fungus used to produce biodegradable, nonpoisonous, and cost-efficient bioinsecticides (13).Genomic analysis of B. bassiana exhibits its capacity to produce a plethora of secondary metabolites, such as oosporein, bassianin, beauvericin, or oxalic acid (14).Beauvericin possesses antimicrobial, antiviral, antifungal, and antitumor activity (15).Cladosporium cladosporioides, a ubiquitous organism, produces cladosporin and isocladosporin-secondary metabolites known to have antifungal activities.Its genome has not been sequenced yet (16, 17)."
+      ],
+      "text": "The whole-genome sequences of eight fungal strains that were selected for exposure to microgravity at the International Space Station are presented here.These baseline sequences will help to understand the observed production of novel bioactive compounds.I n a screening project of natural products, fungal strains isolated from environments associated with the Chernobyl nuclear power plant (ChNPP) accident (1) have been investigated.The radiation-tolerant microorganisms selected for exposure to microgravity at the International Space Station were known to produce valuable natural products; their genomic sequences coded for secondary metabolism pathways; or they displayed positive radiotropism.Aspergillus niger, an industrially important filamentous fungus, contains a sequence resembling the fumonisin gene cluster, which suggests that the fungus has the genetic potential to produce carcinogenic fumonisins (2). A. niger also produces an abundance of naphtho-gamma-pyrone secondary metabolites, which have been shown to have antibacterial, antifungal (3), antitumor (4), and cytotoxic (3, 4) activity.Aspergillus terreus is used to produce organic acids, such as itaconic acid (5), or enzymes, such as xylanases (6, 7).One of the most important secondary metabolites made by A. terreus is the cholesterol-lowering molecule lovastatin.Discovery of this potent compound revolutionized the treatment of hypercholesterolemia (8, 9).Aureobasidium pullulans is an important producer of pullulan, a homopolysaccharide of glucose that is widely used in the food, pharmaceutical, and electronics industries (10, 11).The whole-genome sequence of A. pullulans revealed significant biotechnological potential but also the presence of virulence factors that cannot be overlooked (12).Beauveria bassiana is an entomopathogenic fungus used to produce biodegradable, nonpoisonous, and cost-efficient bioinsecticides (13).Genomic analysis of B. bassiana exhibits its capacity to produce a plethora of secondary metabolites, such as oosporein, bassianin, beauvericin, or oxalic acid (14).Beauvericin possesses antimicrobial, antiviral, antifungal, and antitumor activity (15).Cladosporium cladosporioides, a ubiquitous organism, produces cladosporin and isocladosporin-secondary metabolites known to have antifungal activities.Its genome has not been sequenced yet (16, 17).",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The whole-genome sequences of eight fungal strains that were selected for exposure to microgravity at the International Space Station are presented here.These baseline sequences will help to understand the observed production of novel bioactive compounds.I n a screening project of natural products, fungal strains isolated from environments associated with the Chernobyl nuclear power plant (ChNPP) accident (1) have been investigated.The radiation-tolerant microorganisms selected for exposure to microgravity at the International Space Station were known to produce valuable natural products; their genomic sequences coded for secondary metabolism pathways; or they displayed positive radiotropism.Aspergillus niger, an industrially important filamentous fungus, contains a sequence resembling the fumonisin gene cluster, which suggests that the fungus has the genetic potential to produce carcinogenic fumonisins (2). A. niger also produces an abundance of naphtho-gamma-pyrone secondary metabolites, which have been shown to have antibacterial, antifungal (3), antitumor (4), and cytotoxic (3, 4) activity.Aspergillus terreus is used to produce organic acids, such as itaconic acid (5), or enzymes, such as xylanases (6, 7).One of the most important secondary metabolites made by A. terreus is the cholesterol-lowering molecule lovastatin.Discovery of this potent compound revolutionized the treatment of hypercholesterolemia (8, 9).Aureobasidium pullulans is an important producer of pullulan, a homopolysaccharide of glucose that is widely used in the food, pharmaceutical, and electronics industries (10, 11).The whole-genome sequence of A. pullulans revealed significant biotechnological potential but also the presence of virulence factors that cannot be overlooked (12).Beauveria bassiana is an entomopathogenic fungus used to produce biodegradable, nonpoisonous, and cost-efficient bioinsecticides (13).Genomic analysis of B. bassiana exhibits its capacity to produce a plethora of secondary metabolites, such as oosporein, bassianin, beauvericin, or oxalic acid (14).Beauvericin possesses antimicrobial, antiviral, antifungal, and antitumor activity (15).Cladosporium cladosporioides, a ubiquitous organism, produces cladosporin and isocladosporin-secondary metabolites known to have antifungal activities.Its genome has not been sequenced yet (16, 17).",
+          "block_index": 0,
+          "section_index": 0,
+          "global_order": 0,
+          "id": "p_1_1"
+        }
+      ]
+    },
+    {
+      "heading": "(untitled) Cladosporium sphaerospermum is a plant",
+      "paragraphs": [
+        "Cladosporium sphaerospermum is a plant endophyte but also an allergen to immunocompromised populations.It has the capacity to produce a variety of allergens, such as enolase, mannitol, dehydrogenase, and aldehyde dehydrogenase (18).",
+        "Fusarium solani is a plant pathogen that produces multiple phytotoxins, such as marticin, isomarticin, anhydrofusarubin, and javanicin, that cause sudden death syndrome of soybean (19), for example.",
+        "Trichoderma virens is a common rhizosphere fungus beneficial to plants and reported to induce a defense response of cotton to Rhizoctonia solani-incited seedling disease (20,21).",
+        "The whole-genome sequences of these eight fungal strains were obtained by shotgun sequencing performed on an Illumina HiSeq2500 platform with a paired-end module.The NGS QC toolkit version 2.3 (22) was used to filter the data for high-quality vector-and adaptor-free reads for genome assembly (cutoff read length for high quality: 80%; cutoff quality score: 20).High-quality vector-filtered reads were used for assembly with the MaSuRCA genome assembler (k-mer size ϭ 70) (23).Data from the final assembly of the strains, including number of scaffolds, total size, N 50 contig length, GϩC content, and GenBank accession numbers, are given in Table 1."
+      ],
+      "text": "Cladosporium sphaerospermum is a plant endophyte but also an allergen to immunocompromised populations.It has the capacity to produce a variety of allergens, such as enolase, mannitol, dehydrogenase, and aldehyde dehydrogenase (18).\nFusarium solani is a plant pathogen that produces multiple phytotoxins, such as marticin, isomarticin, anhydrofusarubin, and javanicin, that cause sudden death syndrome of soybean (19), for example.\nTrichoderma virens is a common rhizosphere fungus beneficial to plants and reported to induce a defense response of cotton to Rhizoctonia solani-incited seedling disease (20,21).\nThe whole-genome sequences of these eight fungal strains were obtained by shotgun sequencing performed on an Illumina HiSeq2500 platform with a paired-end module.The NGS QC toolkit version 2.3 (22) was used to filter the data for high-quality vector-and adaptor-free reads for genome assembly (cutoff read length for high quality: 80%; cutoff quality score: 20).High-quality vector-filtered reads were used for assembly with the MaSuRCA genome assembler (k-mer size ϭ 70) (23).Data from the final assembly of the strains, including number of scaffolds, total size, N 50 contig length, GϩC content, and GenBank accession numbers, are given in Table 1.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Cladosporium sphaerospermum is a plant endophyte but also an allergen to immunocompromised populations.It has the capacity to produce a variety of allergens, such as enolase, mannitol, dehydrogenase, and aldehyde dehydrogenase (18).",
+          "block_index": 0,
+          "section_index": 1,
+          "global_order": 1,
+          "id": "p_2_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fusarium solani is a plant pathogen that produces multiple phytotoxins, such as marticin, isomarticin, anhydrofusarubin, and javanicin, that cause sudden death syndrome of soybean (19), for example.",
+          "block_index": 1,
+          "section_index": 1,
+          "global_order": 2,
+          "id": "p_2_2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Trichoderma virens is a common rhizosphere fungus beneficial to plants and reported to induce a defense response of cotton to Rhizoctonia solani-incited seedling disease (20,21).",
+          "block_index": 2,
+          "section_index": 1,
+          "global_order": 3,
+          "id": "p_2_3"
+        },
+        {
+          "type": "paragraph",
+          "text": "The whole-genome sequences of these eight fungal strains were obtained by shotgun sequencing performed on an Illumina HiSeq2500 platform with a paired-end module.The NGS QC toolkit version 2.3 (22) was used to filter the data for high-quality vector-and adaptor-free reads for genome assembly (cutoff read length for high quality: 80%; cutoff quality score: 20).High-quality vector-filtered reads were used for assembly with the MaSuRCA genome assembler (k-mer size ϭ 70) (23).Data from the final assembly of the strains, including number of scaffolds, total size, N 50 contig length, GϩC content, and GenBank accession numbers, are given in Table 1.",
+          "block_index": 3,
+          "section_index": 1,
+          "global_order": 4,
+          "id": "p_2_4"
+        }
+      ]
+    },
+    {
+      "heading": "Accession number(s).",
+      "paragraphs": [
+        "This whole-genome shotgun project has been deposited in DDBJ/ENA/GenBank under the accession numbers given in Table 1.The versions described in this paper are the second versions.",
+        "TABLE 1 Statistical summary for the eight draft fungal genome sequences Strain Strain designation NCBI accession no. Isolation location a No. of contigs Genome size (bp) N 50 (bp) G؉C content (%) Aspergillus niger JSC-093350089 MSJD00000000 ISS environmental surface 223 36,080,355 543,773 49.46 Aspergillus terreus IMV 01167 MSJE00000000 Soil, Kirovograd region 331 31,580,414 482,632 52.24 Aureobasidium pullulans IMV 00882 MSJF00000000 Wall surface, unit 4, ChNPP 879 40,984,331 98,085 51.01 Beauveria bassiana IMV 00265 MSJG00000000 Wall surface, unit 4, ChNPP 735 35,190,057 138,299 51.72 Cladosporium cladosporioides IMV 00236 MSJH00000000 Wall surface, unit 4, ChNPP 843 47,573,060 186,555 42.89 Cladosporium sphaerospermum IMV 00045 MSJI00000000 Wall surface, unit 4, ChNPP 959 50,156,125 72,128 53.05 Fusarium solani IMV 00293 MSJJ00000000 Wall surface, unit 4, ChNPP 876 51,318,644 812,484 47.58 Trichoderma virens IMV 00454 MSJK00000000 Soil, 10-km ChEZ 197 42,025,033 1,319,489 48.44 a ISS, International Space Station; ChNPP, Chernobyl nuclear power plant; ChEZ, Chernobyl exclusion zone."
+      ],
+      "text": "This whole-genome shotgun project has been deposited in DDBJ/ENA/GenBank under the accession numbers given in Table 1.The versions described in this paper are the second versions.\nTABLE 1 Statistical summary for the eight draft fungal genome sequences Strain Strain designation NCBI accession no. Isolation location a No. of contigs Genome size (bp) N 50 (bp) G؉C content (%) Aspergillus niger JSC-093350089 MSJD00000000 ISS environmental surface 223 36,080,355 543,773 49.46 Aspergillus terreus IMV 01167 MSJE00000000 Soil, Kirovograd region 331 31,580,414 482,632 52.24 Aureobasidium pullulans IMV 00882 MSJF00000000 Wall surface, unit 4, ChNPP 879 40,984,331 98,085 51.01 Beauveria bassiana IMV 00265 MSJG00000000 Wall surface, unit 4, ChNPP 735 35,190,057 138,299 51.72 Cladosporium cladosporioides IMV 00236 MSJH00000000 Wall surface, unit 4, ChNPP 843 47,573,060 186,555 42.89 Cladosporium sphaerospermum IMV 00045 MSJI00000000 Wall surface, unit 4, ChNPP 959 50,156,125 72,128 53.05 Fusarium solani IMV 00293 MSJJ00000000 Wall surface, unit 4, ChNPP 876 51,318,644 812,484 47.58 Trichoderma virens IMV 00454 MSJK00000000 Soil, 10-km ChEZ 197 42,025,033 1,319,489 48.44 a ISS, International Space Station; ChNPP, Chernobyl nuclear power plant; ChEZ, Chernobyl exclusion zone.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "This whole-genome shotgun project has been deposited in DDBJ/ENA/GenBank under the accession numbers given in Table 1.The versions described in this paper are the second versions.",
+          "block_index": 0,
+          "section_index": 2,
+          "global_order": 5,
+          "id": "p_3_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "TABLE 1 Statistical summary for the eight draft fungal genome sequences Strain Strain designation NCBI accession no. Isolation location a No. of contigs Genome size (bp) N 50 (bp) G؉C content (%) Aspergillus niger JSC-093350089 MSJD00000000 ISS environmental surface 223 36,080,355 543,773 49.46 Aspergillus terreus IMV 01167 MSJE00000000 Soil, Kirovograd region 331 31,580,414 482,632 52.24 Aureobasidium pullulans IMV 00882 MSJF00000000 Wall surface, unit 4, ChNPP 879 40,984,331 98,085 51.01 Beauveria bassiana IMV 00265 MSJG00000000 Wall surface, unit 4, ChNPP 735 35,190,057 138,299 51.72 Cladosporium cladosporioides IMV 00236 MSJH00000000 Wall surface, unit 4, ChNPP 843 47,573,060 186,555 42.89 Cladosporium sphaerospermum IMV 00045 MSJI00000000 Wall surface, unit 4, ChNPP 959 50,156,125 72,128 53.05 Fusarium solani IMV 00293 MSJJ00000000 Wall surface, unit 4, ChNPP 876 51,318,644 812,484 47.58 Trichoderma virens IMV 00454 MSJK00000000 Soil, 10-km ChEZ 197 42,025,033 1,319,489 48.44 a ISS, International Space Station; ChNPP, Chernobyl nuclear power plant; ChEZ, Chernobyl exclusion zone.",
+          "block_index": 1,
+          "section_index": 2,
+          "global_order": 6,
+          "id": "p_3_2"
+        }
+      ]
+    }
+  ],
+  "figures": {},
+  "tables": {},
+  "equations": {},
+  "references": [
+    {
+      "title": "The severe reactor accidents of",
+      "authors": [
+        "GKessler",
+        "AVeser",
+        "F-HSchlüter",
+        "WRaskob",
+        "CLandman",
+        "JPäsler-Sauer"
+      ],
+      "date": "2014",
+      "raw": "The severe reactor accidents of\n\t\t\n\t\t\tGKessler\n\t\t\n\t\t\n\t\t\tAVeser\n\t\t\n\t\t\n\t\t\tF-HSchlüter\n\t\t\n\t\t\n\t\t\tWRaskob\n\t\t\n\t\t\n\t\t\tCLandman\n\t\t\n\t\t\n\t\t\tJPäsler-Sauer\n\t\t\n\t\n\t\n\t\tThe risks of nuclear energy technology\n\t\tThree Mile Island, Chernobyl, and Fukushima; Berlin\n\t\t\n\t\t\tSpringer\n\t\t\t2014\n\t\t\t\n\t\t\n\t\n\tKessler G, Veser A, Schlüter F-H, Raskob W, Landman C, Päsler-Sauer J. 2014. The severe reactor accidents of Three Mile Island, Chernobyl, and Fukushima, p 173-198. In The risks of nuclear energy technology. Springer, Berlin."
+    },
+    {
+      "title": "Aspergillus niger genomics: past, present and into the future",
+      "authors": [
+        "SEBaker"
+      ],
+      "date": "2006",
+      "raw": "Aspergillus niger genomics: past, present and into the future\n\t\t\n\t\t\tSEBaker\n\t\t\n\t\t10.1080/13693780600921037\n\t\t\n\t\n\t\n\t\tMed Mycol\n\t\t\n\t\t\t44\n\t\t\t\n\t\t\t2006\n\t\t\n\t\n\tsuppl 1\n\tBaker SE. 2006. Aspergillus niger genomics: past, present and into the future. Med Mycol 44(suppl 1):S17-S21. https://doi.org/10.1080/ 13693780600921037."
+    },
+    {
+      "title": "Cytotoxicity and antitumor activities of fungal bis(naphtho-gamma-pyrone) derivatives",
+      "authors": [
+        "KKoyama",
+        "KOminato",
+        "SNatori",
+        "TTashiro",
+        "TTsuruo"
+      ],
+      "date": "1988",
+      "raw": "Cytotoxicity and antitumor activities of fungal bis(naphtho-gamma-pyrone) derivatives\n\t\t\n\t\t\tKKoyama\n\t\t\n\t\t\n\t\t\tKOminato\n\t\t\n\t\t\n\t\t\tSNatori\n\t\t\n\t\t\n\t\t\tTTashiro\n\t\t\n\t\t\n\t\t\tTTsuruo\n\t\t\n\t\t10.1248/bpb1978.11.630\n\t\t\n\t\n\t\n\t\tJ Pharmacobiodyn\n\t\t\n\t\t\t11\n\t\t\t\n\t\t\t1988\n\t\t\n\t\n\tKoyama K, Ominato K, Natori S, Tashiro T, Tsuruo T. 1988. Cytotoxicity and antitumor activities of fungal bis(naphtho-gamma-pyrone) deriva- tives. J Pharmacobiodyn 11:630 -635. https://doi.org/10.1248/bpb1978 .11.630."
+    },
+    {
+      "title": "Endophytic naphthopyrone metabolites are co-inhibitors of xanthine oxidase, SW1116 cell and some microbial growths",
+      "authors": [
+        "YCSong",
+        "HLi",
+        "YHYe",
+        "CYShan",
+        "YMYang",
+        "RXTan"
+      ],
+      "date": "2004",
+      "raw": "Endophytic naphthopyrone metabolites are co-inhibitors of xanthine oxidase, SW1116 cell and some microbial growths\n\t\t\n\t\t\tYCSong\n\t\t\n\t\t\n\t\t\tHLi\n\t\t\n\t\t\n\t\t\tYHYe\n\t\t\n\t\t\n\t\t\tCYShan\n\t\t\n\t\t\n\t\t\tYMYang\n\t\t\n\t\t\n\t\t\tRXTan\n\t\t\n\t\t10.1016/j.femsle.2004.10.005\n\t\t\n\t\n\t\n\t\tFEMS Microbiol Lett\n\t\t\n\t\t\t241\n\t\t\t\n\t\t\t2004\n\t\t\n\t\n\tSong YC, Li H, Ye YH, Shan CY, Yang YM, Tan RX. 2004. Endophytic naphthopyrone metabolites are co-inhibitors of xanthine oxidase, SW1116 cell and some microbial growths. FEMS Microbiol Lett 241: 67-72. https://doi.org/10.1016/j.femsle.2004.10.005."
+    },
+    {
+      "title": "Biotechnological production of itaconic acid and its biosynthesis in Aspergillus terreus",
+      "authors": [
+        "MOkabe",
+        "DLies",
+        "SKanamasa",
+        "EYPark"
+      ],
+      "date": "2009",
+      "raw": "Biotechnological production of itaconic acid and its biosynthesis in Aspergillus terreus\n\t\t\n\t\t\tMOkabe\n\t\t\n\t\t\n\t\t\tDLies\n\t\t\n\t\t\n\t\t\tSKanamasa\n\t\t\n\t\t\n\t\t\tEYPark\n\t\t\n\t\t10.1007/s00253-009-2132-3\n\t\t\n\t\n\t\n\t\tAppl Microbiol Biotechnol\n\t\t\n\t\t\t84\n\t\t\t\n\t\t\t2009\n\t\t\n\t\n\tOkabe M, Lies D, Kanamasa S, Park EY. 2009. Biotechnological produc- tion of itaconic acid and its biosynthesis in Aspergillus terreus. Appl Microbiol Biotechnol 84:597-606. https://doi.org/10.1007/s00253-009 -2132-3."
+    },
+    {
+      "title": "Enhanced production of xylanase by a newly isolated Aspergillus terreus under solid state fermentation using palm industrial waste: a statistical optimization",
+      "authors": [
+        "GSLakshmi",
+        "CSRao",
+        "RSRao",
+        "PJHobbs",
+        "RSPrakasham"
+      ],
+      "date": "2009",
+      "raw": "Enhanced production of xylanase by a newly isolated Aspergillus terreus under solid state fermentation using palm industrial waste: a statistical optimization\n\t\t\n\t\t\tGSLakshmi\n\t\t\n\t\t\n\t\t\tCSRao\n\t\t\n\t\t\n\t\t\tRSRao\n\t\t\n\t\t\n\t\t\tPJHobbs\n\t\t\n\t\t\n\t\t\tRSPrakasham\n\t\t\n\t\t10.1016/j.bej.2009.08.005\n\t\t\n\t\n\t\n\t\tBiochem Eng J\n\t\t\n\t\t\t48\n\t\t\t\n\t\t\t2009\n\t\t\n\t\n\tLakshmi GS, Rao CS, Rao RS, Hobbs PJ, Prakasham RS. 2009. Enhanced production of xylanase by a newly isolated Aspergillus terreus under solid state fermentation using palm industrial waste: a statistical optimization. Biochem Eng J 48:51-57. https://doi.org/10.1016/j.bej.2009.08.005."
+    },
+    {
+      "title": "Production of Aspergillus terreus xylanase in solid-state cultures: application of the Plackett-Burman experimental design to evaluate nutritional require-ments",
+      "authors": [
+        "NBGhanem",
+        "HHYusef",
+        "HKMahrouse"
+      ],
+      "date": "2000",
+      "raw": "Production of Aspergillus terreus xylanase in solid-state cultures: application of the Plackett-Burman experimental design to evaluate nutritional require-ments\n\t\t\n\t\t\tNBGhanem\n\t\t\n\t\t\n\t\t\tHHYusef\n\t\t\n\t\t\n\t\t\tHKMahrouse\n\t\t\n\t\t10.1016/S0960-8524(99)00155-8\n\t\t\n\t\n\t\n\t\tBioresour Technol\n\t\t\n\t\t\t73\n\t\t\t\n\t\t\t2000\n\t\t\n\t\n\tGhanem NB, Yusef HH, Mahrouse HK. 2000. Production of Aspergillus terreus xylanase in solid-state cultures: application of the Plackett-Burman experimental design to evaluate nutritional require- ments. Bioresour Technol 73:113-121. https://doi.org/10.1016/S0960 -8524(99)00155-8."
+    },
+    {
+      "title": "Discovery, biochemistry and biology of lovastatin",
+      "authors": [
+        "AWAlberts"
+      ],
+      "date": "1988",
+      "raw": "Discovery, biochemistry and biology of lovastatin\n\t\t\n\t\t\tAWAlberts\n\t\t\n\t\t10.1016/0002-9149(88)90002-1\n\t\t\n\t\n\t\n\t\tAm J Cardiol\n\t\t\n\t\t\t62\n\t\t\t15\n\t\t\t1988\n\t\t\n\t\n\tAlberts AW. 1988. Discovery, biochemistry and biology of lovastatin. Am J Cardiol 62:10J-15J. https://doi.org/10.1016/0002-9149(88)90002-1."
+    },
+    {
+      "title": "Lovastatin production: From molecular basis to industrial process optimization",
+      "authors": [
+        "Kcl Mulder",
+        "FMulinari",
+        "OLFranco",
+        "Msf Soares",
+        "BSMagalhães",
+        "NSParachin"
+      ],
+      "date": "2015",
+      "raw": "Lovastatin production: From molecular basis to industrial process optimization\n\t\t\n\t\t\tKclMulder\n\t\t\n\t\t\n\t\t\tFMulinari\n\t\t\n\t\t\n\t\t\tOLFranco\n\t\t\n\t\t\n\t\t\tMsfSoares\n\t\t\n\t\t\n\t\t\tBSMagalhães\n\t\t\n\t\t\n\t\t\tNSParachin\n\t\t\n\t\t10.1016/j.biotechadv.2015.04.001\n\t\t\n\t\n\t\n\t\tBiotechnol Adv\n\t\t\n\t\t\t33\n\t\t\t\n\t\t\t2015\n\t\t\n\t\n\tMulder KCL, Mulinari F, Franco OL, Soares MSF, Magalhães BS, Parachin NS. 2015. Lovastatin production: From molecular basis to industrial process optimization. Biotechnol Adv 33:648 -665. https://doi.org/10 .1016/j.biotechadv.2015.04.001."
+    },
+    {
+      "title": "Pullulan: biosynthesis, production, and applications",
+      "authors": [
+        "KCCheng",
+        "ADemirci",
+        "JMCatchmark"
+      ],
+      "date": "2011",
+      "raw": "Pullulan: biosynthesis, production, and applications\n\t\t\n\t\t\tKCCheng\n\t\t\n\t\t\n\t\t\tADemirci\n\t\t\n\t\t\n\t\t\tJMCatchmark\n\t\t\n\t\t10.1007/s00253-011-3477-y\n\t\t\n\t\n\t\n\t\tAppl Microbiol Biotechnol\n\t\t\n\t\t\t92\n\t\t\t\n\t\t\t2011\n\t\t\n\t\n\tCheng KC, Demirci A, Catchmark JM. 2011. Pullulan: biosynthesis, pro- duction, and applications. Appl Microbiol Biotechnol 92:29 -44. https:// doi.org/10.1007/s00253-011-3477-y."
+    },
+    {
+      "title": "Biotechnological production and applications of pullulan",
+      "authors": [
+        "TDLeathers"
+      ],
+      "date": "2003",
+      "raw": "Biotechnological production and applications of pullulan\n\t\t\n\t\t\tTDLeathers\n\t\t\n\t\t10.1007/s00253-003-1386-4\n\t\t1007/s00253-003-1386-4\n\t\t\n\t\n\t\n\t\tAppl Microbiol Biotechnol\n\t\t\n\t\t\t62\n\t\t\t\n\t\t\t2003\n\t\t\n\t\n\tLeathers TD. 2003. Biotechnological production and applications of pullulan. Appl Microbiol Biotechnol 62:468 -473. https://doi.org/10 .1007/s00253-003-1386-4."
+    },
+    {
+      "title": "Genome sequence of Aureobasidium pullulans AY4, an emerging opportunistic fungal pathogen with diverse biotechnological potential",
+      "authors": [
+        "GFChan",
+        "HMBamadhaj",
+        "HMGan",
+        "Naa Rashid"
+      ],
+      "date": "2012",
+      "raw": "Genome sequence of Aureobasidium pullulans AY4, an emerging opportunistic fungal pathogen with diverse biotechnological potential\n\t\t\n\t\t\tGFChan\n\t\t\n\t\t\n\t\t\tHMBamadhaj\n\t\t\n\t\t\n\t\t\tHMGan\n\t\t\n\t\t\n\t\t\tNaaRashid\n\t\t\n\t\t10.1128/EC.00245-12\n\t\t\n\t\n\t\n\t\tEukaryot Cell\n\t\t\n\t\t\t11\n\t\t\t\n\t\t\t2012\n\t\t\n\t\n\tChan GF, Bamadhaj HM, Gan HM, Rashid NAA. 2012. Genome sequence of Aureobasidium pullulans AY4, an emerging opportunistic fungal pathogen with diverse biotechnological potential. Eukaryot Cell 11: 1419 -1420. https://doi.org/10.1128/EC.00245-12."
+    },
+    {
+      "title": "Production, formulation and application of the entomopathogenic fungus Beauveria bassiana for insect control: current status",
+      "authors": [
+        "MGFeng",
+        "TJPoprawski",
+        "GGKhachatourians"
+      ],
+      "date": "1994",
+      "raw": "Production, formulation and application of the entomopathogenic fungus Beauveria bassiana for insect control: current status\n\t\t\n\t\t\tMGFeng\n\t\t\n\t\t\n\t\t\tTJPoprawski\n\t\t\n\t\t\n\t\t\tGGKhachatourians\n\t\t\n\t\t10.1080/09583159409355309\n\t\t\n\t\n\t\n\t\tBiocontrol Sci Technol\n\t\t\n\t\t\t4\n\t\t\t\n\t\t\t1994\n\t\t\n\t\n\tFeng MG, Poprawski TJ, Khachatourians GG. 1994. Production, formula- tion and application of the entomopathogenic fungus Beauveria bassi- ana for insect control: current status. Biocontrol Sci Technol 4:3-34. https://doi.org/10.1080/09583159409355309."
+    },
+    {
+      "title": "Genomic perspectives on the evolution of fungal entomopathogenicity in Beauveria bassiana",
+      "authors": [
+        "GXiao",
+        "SHYing",
+        "PZheng",
+        "ZLWang",
+        "SZhang",
+        "XQXie",
+        "YShang",
+        "St Leger",
+        "RJZhao",
+        "GPWang",
+        "CFeng",
+        "MG"
+      ],
+      "date": "2012",
+      "raw": "Genomic perspectives on the evolution of fungal entomopathogenicity in Beauveria bassiana\n\t\t\n\t\t\tGXiao\n\t\t\n\t\t\n\t\t\tSHYing\n\t\t\n\t\t\n\t\t\tPZheng\n\t\t\n\t\t\n\t\t\tZLWang\n\t\t\n\t\t\n\t\t\tSZhang\n\t\t\n\t\t\n\t\t\tXQXie\n\t\t\n\t\t\n\t\t\tYShang\n\t\t\n\t\t\n\t\t\tStLeger\n\t\t\n\t\t\n\t\t\tRJZhao\n\t\t\n\t\t\n\t\t\tGPWang\n\t\t\n\t\t\n\t\t\tCFeng\n\t\t\n\t\t\n\t\t\tMG\n\t\t\n\t\t10.1038/srep00483\n\t\t\n\t\n\t\n\t\tSci Rep\n\t\t\n\t\t\t2\n\t\t\t483\n\t\t\t2012\n\t\t\n\t\n\tXiao G, Ying SH, Zheng P, Wang ZL, Zhang S, Xie XQ, Shang Y, St Leger RJ, Zhao GP, Wang C, Feng MG. 2012. Genomic perspectives on the evolution of fungal entomopathogenicity in Beauveria bassiana. Sci Rep 2:483. https://doi.org/10.1038/srep00483."
+    },
+    {
+      "title": "Beauvericin, a bioactive compound produced by fungi: a short review",
+      "authors": [
+        "QWang",
+        "LXu"
+      ],
+      "date": "2012",
+      "raw": "Beauvericin, a bioactive compound produced by fungi: a short review\n\t\t\n\t\t\tQWang\n\t\t\n\t\t\n\t\t\tLXu\n\t\t\n\t\t10.3390/molecules17032367\n\t\t\n\t\n\t\n\t\tMolecules\n\t\t\n\t\t\t17\n\t\t\t\n\t\t\t2012\n\t\t\n\t\n\tWang Q, Xu L. 2012. Beauvericin, a bioactive compound produced by fungi: a short review. Molecules 17:2367-2377. https://doi.org/10.3390/ molecules17032367."
+    },
+    {
+      "title": "Cladosporin, a new antifungal metabolite from Cladosporium cladosporioides",
+      "authors": [
+        "PMScott",
+        "WVVan Walbeek",
+        "WMMaclean"
+      ],
+      "date": "1971",
+      "raw": "Cladosporin, a new antifungal metabolite from Cladosporium cladosporioides\n\t\t\n\t\t\tPMScott\n\t\t\n\t\t\n\t\t\tWVVan Walbeek\n\t\t\n\t\t\n\t\t\tWMMaclean\n\t\t\n\t\t10.7164/antibiotics.24.747\n\t\t\n\t\n\t\n\t\tJ Antibiot (Tokyo)\n\t\t\n\t\t\t24\n\t\t\t\n\t\t\t1971\n\t\t\n\t\n\tScott PM, Van Walbeek WV, Maclean WM. 1971. Cladosporin, a new antifungal metabolite from Cladosporium cladosporioides. J Antibiot (To- kyo) 24:747-755. https://doi.org/10.7164/antibiotics.24.747."
+    },
+    {
+      "title": "Isocladosporin, a biologically active isomer of cladosporin from Cladosporium cladosporioides",
+      "authors": [
+        "JMJacyno",
+        "JSHarwood",
+        "HGCutler",
+        "MKLee"
+      ],
+      "date": "1993",
+      "raw": "Isocladosporin, a biologically active isomer of cladosporin from Cladosporium cladosporioides\n\t\t\n\t\t\tJMJacyno\n\t\t\n\t\t\n\t\t\tJSHarwood\n\t\t\n\t\t\n\t\t\tHGCutler\n\t\t\n\t\t\n\t\t\tMKLee\n\t\t\n\t\t10.1021/np50098a023\n\t\t\n\t\n\t\n\t\tJ Nat Prod\n\t\t\n\t\t\t56\n\t\t\t\n\t\t\t1993\n\t\t\n\t\n\tJacyno JM, Harwood JS, Cutler HG, Lee MK. 1993. Isocladosporin, a biologically active isomer of cladosporin from Cladosporium cladospori- oides. J Nat Prod 56:1397-1401. https://doi.org/10.1021/np50098a023."
+    },
+    {
+      "title": "Sequencing of Cladosporium sphaerospermum, a dematiaceous fungus isolated from blood culture",
+      "authors": [
+        "KPNg",
+        "SMYew",
+        "CLChan",
+        "TSSoo-Hoo",
+        "SLNa",
+        "HHassan",
+        "YFNgeow",
+        "CCHoh",
+        "KWLee",
+        "WYYee"
+      ],
+      "date": "2012",
+      "raw": "Sequencing of Cladosporium sphaerospermum, a dematiaceous fungus isolated from blood culture\n\t\t\n\t\t\tKPNg\n\t\t\n\t\t\n\t\t\tSMYew\n\t\t\n\t\t\n\t\t\tCLChan\n\t\t\n\t\t\n\t\t\tTSSoo-Hoo\n\t\t\n\t\t\n\t\t\tSLNa\n\t\t\n\t\t\n\t\t\tHHassan\n\t\t\n\t\t\n\t\t\tYFNgeow\n\t\t\n\t\t\n\t\t\tCCHoh\n\t\t\n\t\t\n\t\t\tKWLee\n\t\t\n\t\t\n\t\t\tWYYee\n\t\t\n\t\t10.1128/EC.00081-12\n\t\t\n\t\n\t\n\t\tEukaryot Cell\n\t\t\n\t\t\t11\n\t\t\t\n\t\t\t2012\n\t\t\n\t\n\tNg KP, Yew SM, Chan CL, Soo-Hoo TS, Na SL, Hassan H, Ngeow YF, Hoh CC, Lee KW, Yee WY. 2012. Sequencing of Cladosporium sphaerosper- mum, a dematiaceous fungus isolated from blood culture. Eukaryot Cell 11:705-706. https://doi.org/10.1128/EC.00081-12."
+    },
+    {
+      "title": "Characterization and purification of a phytotoxin produced by Fusarium solani, the causal agent of soybean sudden death syndrome",
+      "authors": [
+        "Jin H"
+      ],
+      "date": "1996",
+      "raw": "Characterization and purification of a phytotoxin produced by Fusarium solani, the causal agent of soybean sudden death syndrome\n\t\t\n\t\t\tJinH\n\t\t\n\t\t10.1094/Phyto-86-277\n\t\t\n\t\n\t\n\t\tPhytopathology\n\t\t\n\t\t\t86\n\t\t\t277\n\t\t\t1996\n\t\t\n\t\n\tJin H. 1996. Characterization and purification of a phytotoxin produced by Fusarium solani, the causal agent of soybean sudden death syn- drome. Phytopathology 86:277. https://doi.org/10.1094/Phyto-86-277."
+    },
+    {
+      "title": "Induction of terpenoid synthesis in cotton roots and control of Rhizoctonia solani by seed treatment with Trichoderma virens",
+      "authors": [
+        "CRHowell",
+        "LEHanson",
+        "RDStipanovic",
+        "LSPuckhaber"
+      ],
+      "date": "2000",
+      "raw": "Induction of terpenoid synthesis in cotton roots and control of Rhizoctonia solani by seed treatment with Trichoderma virens\n\t\t\n\t\t\tCRHowell\n\t\t\n\t\t\n\t\t\tLEHanson\n\t\t\n\t\t\n\t\t\tRDStipanovic\n\t\t\n\t\t\n\t\t\tLSPuckhaber\n\t\t\n\t\t10.1094/PHYTO.2000.90.3.248\n\t\t\n\t\n\t\n\t\tPhytopathology\n\t\t\n\t\t\t90\n\t\t\t\n\t\t\t2000\n\t\t\n\t\n\tHowell CR, Hanson LE, Stipanovic RD, Puckhaber LS. 2000. Induction of terpenoid synthesis in cotton roots and control of Rhizoctonia solani by seed treatment with Trichoderma virens. Phytopathology 90:248 -252. https://doi.org/10.1094/PHYTO.2000.90.3.248."
+    },
+    {
+      "title": "Trichoderma species-opportunistic, avirulent plant symbionts",
+      "authors": [
+        "GEHarman",
+        "CRHowell",
+        "AViterbo",
+        "IChet",
+        "MLorito"
+      ],
+      "date": "2004",
+      "raw": "Trichoderma species-opportunistic, avirulent plant symbionts\n\t\t\n\t\t\tGEHarman\n\t\t\n\t\t\n\t\t\tCRHowell\n\t\t\n\t\t\n\t\t\tAViterbo\n\t\t\n\t\t\n\t\t\tIChet\n\t\t\n\t\t\n\t\t\tMLorito\n\t\t\n\t\t10.1038/nrmicro797\n\t\t\n\t\n\t\n\t\tNat Rev Microbiol\n\t\t\n\t\t\t2\n\t\t\t\n\t\t\t2004\n\t\t\n\t\n\tHarman GE, Howell CR, Viterbo A, Chet I, Lorito M. 2004. Trichoderma species-opportunistic, avirulent plant symbionts. Nat Rev Microbiol 2:43-56. https://doi.org/10.1038/nrmicro797."
+    },
+    {
+      "title": "NGS QC toolkit: a toolkit for quality control of next generation sequencing data",
+      "authors": [
+        "RKPatel",
+        "MJain"
+      ],
+      "date": "2012",
+      "raw": "NGS QC toolkit: a toolkit for quality control of next generation sequencing data\n\t\t\n\t\t\tRKPatel\n\t\t\n\t\t\n\t\t\tMJain\n\t\t\n\t\t10.1371/journal.pone.0030619\n\t\t\n\t\n\t\n\t\tPLoS One\n\t\t\n\t\t\t7\n\t\t\t30619\n\t\t\t2012\n\t\t\n\t\n\tPatel RK, Jain M. 2012. NGS QC toolkit: a toolkit for quality control of next generation sequencing data. PLoS One 7:e30619. https://doi.org/10 .1371/journal.pone.0030619."
+    },
+    {
+      "title": "The MaSuRCA genome assembler",
+      "authors": [
+        "AVZimin",
+        "GMarçais",
+        "DPuiu",
+        "MRoberts",
+        "SLSalzberg",
+        "JAYorke"
+      ],
+      "date": "2013",
+      "raw": "The MaSuRCA genome assembler\n\t\t\n\t\t\tAVZimin\n\t\t\n\t\t\n\t\t\tGMarçais\n\t\t\n\t\t\n\t\t\tDPuiu\n\t\t\n\t\t\n\t\t\tMRoberts\n\t\t\n\t\t\n\t\t\tSLSalzberg\n\t\t\n\t\t\n\t\t\tJAYorke\n\t\t\n\t\t10.1093/bioinformatics/btt476\n\t\t\n\t\n\t\n\t\tBioinformatics\n\t\t\n\t\t\t29\n\t\t\t\n\t\t\t2013\n\t\t\n\t\n\tZimin AV, Marçais G, Puiu D, Roberts M, Salzberg SL, Yorke JA. 2013. The MaSuRCA genome assembler. Bioinformatics 29:2669 -2677. https://doi .org/10.1093/bioinformatics/btt476."
+    }
+  ],
+  "footnotes": [
+    {
+      "id": "foot_0",
+      "n": null,
+      "text": "Volume 5 Issue 15 e01602-16genomea.asm.org 2"
+    },
+    {
+      "id": "foot_1",
+      "n": null,
+      "text": "Volume 5 Issue 15 e01602-16genomea.asm.org 3"
+    }
+  ],
+  "full_text": "The whole-genome sequences of eight fungal strains that were selected for exposure to microgravity at the International Space Station are presented here.These baseline sequences will help to understand the observed production of novel bioactive compounds.I n a screening project of natural products, fungal strains isolated from environments associated with the Chernobyl nuclear power plant (ChNPP) accident (1) have been investigated.The radiation-tolerant microorganisms selected for exposure to microgravity at the International Space Station were known to produce valuable natural products; their genomic sequences coded for secondary metabolism pathways; or they displayed positive radiotropism.Aspergillus niger, an industrially important filamentous fungus, contains a sequence resembling the fumonisin gene cluster, which suggests that the fungus has the genetic potential to produce carcinogenic fumonisins (2). A. niger also produces an abundance of naphtho-gamma-pyrone secondary metabolites, which have been shown to have antibacterial, antifungal (3), antitumor (4), and cytotoxic (3, 4) activity.Aspergillus terreus is used to produce organic acids, such as itaconic acid (5), or enzymes, such as xylanases (6, 7).One of the most important secondary metabolites made by A. terreus is the cholesterol-lowering molecule lovastatin.Discovery of this potent compound revolutionized the treatment of hypercholesterolemia (8, 9).Aureobasidium pullulans is an important producer of pullulan, a homopolysaccharide of glucose that is widely used in the food, pharmaceutical, and electronics industries (10, 11).The whole-genome sequence of A. pullulans revealed significant biotechnological potential but also the presence of virulence factors that cannot be overlooked (12).Beauveria bassiana is an entomopathogenic fungus used to produce biodegradable, nonpoisonous, and cost-efficient bioinsecticides (13).Genomic analysis of B. bassiana exhibits its capacity to produce a plethora of secondary metabolites, such as oosporein, bassianin, beauvericin, or oxalic acid (14).Beauvericin possesses antimicrobial, antiviral, antifungal, and antitumor activity (15).Cladosporium cladosporioides, a ubiquitous organism, produces cladosporin and isocladosporin-secondary metabolites known to have antifungal activities.Its genome has not been sequenced yet (16, 17).\n\nCladosporium sphaerospermum is a plant endophyte but also an allergen to immunocompromised populations.It has the capacity to produce a variety of allergens, such as enolase, mannitol, dehydrogenase, and aldehyde dehydrogenase (18).\nFusarium solani is a plant pathogen that produces multiple phytotoxins, such as marticin, isomarticin, anhydrofusarubin, and javanicin, that cause sudden death syndrome of soybean (19), for example.\nTrichoderma virens is a common rhizosphere fungus beneficial to plants and reported to induce a defense response of cotton to Rhizoctonia solani-incited seedling disease (20,21).\nThe whole-genome sequences of these eight fungal strains were obtained by shotgun sequencing performed on an Illumina HiSeq2500 platform with a paired-end module.The NGS QC toolkit version 2.3 (22) was used to filter the data for high-quality vector-and adaptor-free reads for genome assembly (cutoff read length for high quality: 80%; cutoff quality score: 20).High-quality vector-filtered reads were used for assembly with the MaSuRCA genome assembler (k-mer size ϭ 70) (23).Data from the final assembly of the strains, including number of scaffolds, total size, N 50 contig length, GϩC content, and GenBank accession numbers, are given in Table 1.\n\nThis whole-genome shotgun project has been deposited in DDBJ/ENA/GenBank under the accession numbers given in Table 1.The versions described in this paper are the second versions.\nTABLE 1 Statistical summary for the eight draft fungal genome sequences Strain Strain designation NCBI accession no. Isolation location a No. of contigs Genome size (bp) N 50 (bp) G؉C content (%) Aspergillus niger JSC-093350089 MSJD00000000 ISS environmental surface 223 36,080,355 543,773 49.46 Aspergillus terreus IMV 01167 MSJE00000000 Soil, Kirovograd region 331 31,580,414 482,632 52.24 Aureobasidium pullulans IMV 00882 MSJF00000000 Wall surface, unit 4, ChNPP 879 40,984,331 98,085 51.01 Beauveria bassiana IMV 00265 MSJG00000000 Wall surface, unit 4, ChNPP 735 35,190,057 138,299 51.72 Cladosporium cladosporioides IMV 00236 MSJH00000000 Wall surface, unit 4, ChNPP 843 47,573,060 186,555 42.89 Cladosporium sphaerospermum IMV 00045 MSJI00000000 Wall surface, unit 4, ChNPP 959 50,156,125 72,128 53.05 Fusarium solani IMV 00293 MSJJ00000000 Wall surface, unit 4, ChNPP 876 51,318,644 812,484 47.58 Trichoderma virens IMV 00454 MSJK00000000 Soil, 10-km ChEZ 197 42,025,033 1,319,489 48.44 a ISS, International Space Station; ChNPP, Chernobyl nuclear power plant; ChEZ, Chernobyl exclusion zone.",
+  "stats": {
+    "section_count": 3,
+    "figure_count": 0,
+    "figure_count_original": 0,
+    "figure_count_synthetic": 0,
+    "table_count": 0,
+    "equation_count": 0,
+    "reference_count": 23,
+    "footnote_count": 2,
+    "extracted_at": "2025-10-05T10:44:32.601581Z",
+    "image_extraction": {
+      "extracted_images": 3,
+      "figure_images_mapped": 0,
+      "table_images_mapped": 0,
+      "cropped_images": 0,
+      "figures_total_all": 0,
+      "figures_total_pure": 0,
+      "figures_total_original": 0,
+      "figures_total_synthetic": 0,
+      "tables_total": 0,
+      "figures_with_image_pure": 0,
+      "tables_with_image": 0,
+      "figures_missing_image_pure": 0,
+      "tables_missing_image": 0
+    },
+    "figures_total_all": 0,
+    "figures_total_pure": 0,
+    "figures_total_original": 0,
+    "figures_total_synthetic": 0,
+    "tables_total": 0,
+    "figures_with_image_pure": 0,
+    "tables_with_image": 0,
+    "validation": {
+      "figure_ids_total": 0,
+      "equation_ids_total": 0,
+      "figure_block_ids": 0,
+      "equation_block_ids": 0,
+      "missing_figure_block_refs": [],
+      "missing_equation_block_refs": [],
+      "global_order_contiguous": true,
+      "block_count": 7,
+      "equations_missing_loc": [],
+      "equations_missing_bbox_expected": []
+    }
+  }
+}

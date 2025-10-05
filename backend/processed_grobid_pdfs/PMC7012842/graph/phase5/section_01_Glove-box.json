@@ -1,0 +1,81 @@
+{
+  "paper_id": "PMC7012842",
+  "section": "Glove box",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 100,
+      "label": "TORI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Glove box",
+        "sentence_id": 104,
+        "char_start": 15827,
+        "char_end": 15831,
+        "anchor": "PMC7012842_15827_15831",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 101,
+      "label": "TORI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Glove box",
+        "sentence_id": 104,
+        "char_start": 15923,
+        "char_end": 15927,
+        "anchor": "PMC7012842_15923_15927",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 102,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Glove box",
+        "sentence_id": 104,
+        "char_start": 15941,
+        "char_end": 15944,
+        "anchor": "PMC7012842_15941_15944",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 50,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 100,
+      "target": 101
+    },
+    {
+      "id": 51,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 100,
+      "target": 102
+    },
+    {
+      "id": 52,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 101,
+      "target": 102
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 9,
+      "largest_component": 3
+    },
+    "page": 6
+  }
+}

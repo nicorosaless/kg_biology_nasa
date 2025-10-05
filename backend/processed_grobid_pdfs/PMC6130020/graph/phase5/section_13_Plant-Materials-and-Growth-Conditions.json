@@ -1,0 +1,120 @@
+{
+  "paper_id": "PMC6130020",
+  "section": "Plant Materials and Growth Conditions",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 480,
+      "label": "Seeds",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Plant Materials and Growth Conditions",
+        "sentence_id": 102,
+        "char_start": 25006,
+        "char_end": 25011,
+        "anchor": "PMC6130020_25006_25011",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 474,
+      "label": "Seeds",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Plant Materials and Growth Conditions",
+        "sentence_id": 102,
+        "char_start": 25006,
+        "char_end": 25011,
+        "anchor": "PMC6130020_25006_25011",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 476,
+      "label": "darkness",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Plant Materials and Growth Conditions",
+        "sentence_id": 102,
+        "char_start": 25046,
+        "char_end": 25054,
+        "anchor": "PMC6130020_25046_25054",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 477,
+      "label": "chamber",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Plant Materials and Growth Conditions",
+        "sentence_id": 102,
+        "char_start": 25123,
+        "char_end": 25130,
+        "anchor": "PMC6130020_25123_25130",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 618,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 474,
+      "target": 476
+    },
+    {
+      "id": 619,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 474,
+      "target": 477
+    },
+    {
+      "id": 620,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 474,
+      "target": 480
+    },
+    {
+      "id": 621,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 476,
+      "target": 477
+    },
+    {
+      "id": 622,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 476,
+      "target": 480
+    },
+    {
+      "id": 623,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 477,
+      "target": 480
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 9,
+      "largest_component": 4,
+      "removed_components": [
+        4,
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 7
+  }
+}

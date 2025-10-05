@@ -1,0 +1,520 @@
+{
+  "paper_id": "PMC9862956",
+  "section": "Description of the Compact Imaging Platform and Its Components",
+  "n_nodes": 11,
+  "n_edges": 55,
+  "nodes": [
+    {
+      "id": 128,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Description of the Compact Imaging Platform and Its Components",
+        "sentence_id": 46,
+        "char_start": 8346,
+        "char_end": 8349,
+        "anchor": "PMC9862956_8346_8349",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 131,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Description of the Compact Imaging Platform and Its Components",
+        "sentence_id": 46,
+        "char_start": 8480,
+        "char_end": 8483,
+        "anchor": "PMC9862956_8480_8483",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 133,
+      "label": "Wathai",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Description of the Compact Imaging Platform and Its Components",
+        "sentence_id": 46,
+        "char_start": 8513,
+        "char_end": 8519,
+        "anchor": "PMC9862956_8513_8519",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 134,
+      "label": "China",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Description of the Compact Imaging Platform and Its Components",
+        "sentence_id": 46,
+        "char_start": 8521,
+        "char_end": 8526,
+        "anchor": "PMC9862956_8521_8526",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 135,
+      "label": "CIP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Description of the Compact Imaging Platform and Its Components",
+        "sentence_id": 46,
+        "char_start": 8684,
+        "char_end": 8687,
+        "anchor": "PMC9862956_8684_8687",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 117,
+      "label": "printed",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Description of the Compact Imaging Platform and Its Components",
+        "sentence_id": 46,
+        "char_start": 8114,
+        "char_end": 8121,
+        "anchor": "PMC9862956_8114_8121",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 118,
+      "label": "opening",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Description of the Compact Imaging Platform and Its Components",
+        "sentence_id": 46,
+        "char_start": 8242,
+        "char_end": 8249,
+        "anchor": "PMC9862956_8242_8249",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 119,
+      "label": "closing",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Description of the Compact Imaging Platform and Its Components",
+        "sentence_id": 46,
+        "char_start": 8254,
+        "char_end": 8261,
+        "anchor": "PMC9862956_8254_8261",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 122,
+      "label": "Power",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Description of the Compact Imaging Platform and Its Components",
+        "sentence_id": 46,
+        "char_start": 8438,
+        "char_end": 8443,
+        "anchor": "PMC9862956_8438_8443",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 124,
+      "label": "HUBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Description of the Compact Imaging Platform and Its Components",
+        "sentence_id": 46,
+        "char_start": 8159,
+        "char_end": 8163,
+        "anchor": "PMC9862956_8159_8163",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 125,
+      "label": "Chicago",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Description of the Compact Imaging Platform and Its Components",
+        "sentence_id": 46,
+        "char_start": 8165,
+        "char_end": 8172,
+        "anchor": "PMC9862956_8165_8172",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 187,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 117,
+      "target": 118
+    },
+    {
+      "id": 188,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 117,
+      "target": 119
+    },
+    {
+      "id": 189,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 117,
+      "target": 122
+    },
+    {
+      "id": 190,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 117,
+      "target": 124
+    },
+    {
+      "id": 191,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 117,
+      "target": 125
+    },
+    {
+      "id": 194,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 117,
+      "target": 128
+    },
+    {
+      "id": 197,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 117,
+      "target": 131
+    },
+    {
+      "id": 199,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 117,
+      "target": 133
+    },
+    {
+      "id": 200,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 117,
+      "target": 134
+    },
+    {
+      "id": 201,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 117,
+      "target": 135
+    },
+    {
+      "id": 202,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 118,
+      "target": 119
+    },
+    {
+      "id": 203,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 118,
+      "target": 122
+    },
+    {
+      "id": 204,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 118,
+      "target": 124
+    },
+    {
+      "id": 205,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 118,
+      "target": 125
+    },
+    {
+      "id": 208,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 118,
+      "target": 128
+    },
+    {
+      "id": 211,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 118,
+      "target": 131
+    },
+    {
+      "id": 213,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 118,
+      "target": 133
+    },
+    {
+      "id": 214,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 118,
+      "target": 134
+    },
+    {
+      "id": 215,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 118,
+      "target": 135
+    },
+    {
+      "id": 216,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 119,
+      "target": 122
+    },
+    {
+      "id": 217,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 119,
+      "target": 124
+    },
+    {
+      "id": 218,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 119,
+      "target": 125
+    },
+    {
+      "id": 221,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 119,
+      "target": 128
+    },
+    {
+      "id": 224,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 119,
+      "target": 131
+    },
+    {
+      "id": 226,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 119,
+      "target": 133
+    },
+    {
+      "id": 227,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 119,
+      "target": 134
+    },
+    {
+      "id": 228,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 119,
+      "target": 135
+    },
+    {
+      "id": 229,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 122,
+      "target": 124
+    },
+    {
+      "id": 230,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 122,
+      "target": 125
+    },
+    {
+      "id": 233,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 122,
+      "target": 128
+    },
+    {
+      "id": 236,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 122,
+      "target": 131
+    },
+    {
+      "id": 238,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 122,
+      "target": 133
+    },
+    {
+      "id": 239,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 122,
+      "target": 134
+    },
+    {
+      "id": 240,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 122,
+      "target": 135
+    },
+    {
+      "id": 241,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 124,
+      "target": 125
+    },
+    {
+      "id": 244,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 124,
+      "target": 128
+    },
+    {
+      "id": 247,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 124,
+      "target": 131
+    },
+    {
+      "id": 249,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 124,
+      "target": 133
+    },
+    {
+      "id": 250,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 124,
+      "target": 134
+    },
+    {
+      "id": 251,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 124,
+      "target": 135
+    },
+    {
+      "id": 254,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 125,
+      "target": 128
+    },
+    {
+      "id": 257,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 125,
+      "target": 131
+    },
+    {
+      "id": 259,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 125,
+      "target": 133
+    },
+    {
+      "id": 260,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 125,
+      "target": 134
+    },
+    {
+      "id": 261,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 125,
+      "target": 135
+    },
+    {
+      "id": 281,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 128,
+      "target": 131
+    },
+    {
+      "id": 283,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 128,
+      "target": 133
+    },
+    {
+      "id": 284,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 128,
+      "target": 134
+    },
+    {
+      "id": 285,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 128,
+      "target": 135
+    },
+    {
+      "id": 298,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 131,
+      "target": 133
+    },
+    {
+      "id": 299,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 131,
+      "target": 134
+    },
+    {
+      "id": 300,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 131,
+      "target": 135
+    },
+    {
+      "id": 304,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 133,
+      "target": 134
+    },
+    {
+      "id": 305,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 133,
+      "target": 135
+    },
+    {
+      "id": 306,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 134,
+      "target": 135
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 6,
+      "removed_orphans": 0,
+      "largest_component": 11,
+      "removed_components": [
+        11,
+        6,
+        5,
+        4,
+        3
+      ]
+    },
+    "page": 2
+  }
+}

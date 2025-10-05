@@ -1,0 +1,262 @@
+{
+  "paper_id": "PMC6091969",
+  "section": "Image analysis/processing",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 657,
+      "label": "Fiji",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 211,
+        "char_start": 45470,
+        "char_end": 45474,
+        "anchor": "PMC6091969_45470_45474",
+        "page": 22,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 660,
+      "label": "gaussian",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 211,
+        "char_start": 45556,
+        "char_end": 45564,
+        "anchor": "PMC6091969_45556_45564",
+        "page": 22,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 661,
+      "label": "Images",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 211,
+        "char_start": 45586,
+        "char_end": 45592,
+        "anchor": "PMC6091969_45586_45592",
+        "page": 22,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 662,
+      "label": "Fiji",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 211,
+        "char_start": 45623,
+        "char_end": 45627,
+        "anchor": "PMC6091969_45623_45627",
+        "page": 22,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 665,
+      "label": "Fiji",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 211,
+        "char_start": 45470,
+        "char_end": 45474,
+        "anchor": "PMC6091969_45470_45474",
+        "page": 22,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 666,
+      "label": "gaussian",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 211,
+        "char_start": 45556,
+        "char_end": 45564,
+        "anchor": "PMC6091969_45556_45564",
+        "page": 22,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 668,
+      "label": "Fiji",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 211,
+        "char_start": 45623,
+        "char_end": 45627,
+        "anchor": "PMC6091969_45623_45627",
+        "page": 22,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 842,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 657,
+      "target": 660
+    },
+    {
+      "id": 843,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 657,
+      "target": 661
+    },
+    {
+      "id": 844,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 657,
+      "target": 662
+    },
+    {
+      "id": 846,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 657,
+      "target": 665
+    },
+    {
+      "id": 847,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 657,
+      "target": 666
+    },
+    {
+      "id": 849,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 657,
+      "target": 668
+    },
+    {
+      "id": 850,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 660,
+      "target": 661
+    },
+    {
+      "id": 851,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 660,
+      "target": 662
+    },
+    {
+      "id": 853,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 660,
+      "target": 665
+    },
+    {
+      "id": 854,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 660,
+      "target": 666
+    },
+    {
+      "id": 856,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 660,
+      "target": 668
+    },
+    {
+      "id": 857,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 661,
+      "target": 662
+    },
+    {
+      "id": 859,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 661,
+      "target": 665
+    },
+    {
+      "id": 860,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 661,
+      "target": 666
+    },
+    {
+      "id": 862,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 661,
+      "target": 668
+    },
+    {
+      "id": 864,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 662,
+      "target": 665
+    },
+    {
+      "id": 865,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 662,
+      "target": 666
+    },
+    {
+      "id": 867,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 662,
+      "target": 668
+    },
+    {
+      "id": 872,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 665,
+      "target": 666
+    },
+    {
+      "id": 874,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 665,
+      "target": 668
+    },
+    {
+      "id": 876,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 666,
+      "target": 668
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 12,
+      "removed_orphans": 2,
+      "largest_component": 7,
+      "removed_components": [
+        6,
+        4,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 22
+  }
+}

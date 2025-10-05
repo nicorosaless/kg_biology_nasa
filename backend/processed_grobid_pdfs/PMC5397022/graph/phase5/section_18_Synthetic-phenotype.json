@@ -1,0 +1,157 @@
+{
+  "paper_id": "PMC5397022",
+  "section": "Synthetic PHENOTYPE",
+  "n_nodes": 7,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 67,
+      "label": "post-translational modifications",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 17,
+        "char_start": 2825,
+        "char_end": 2857,
+        "anchor": "PMC5397022_2825_2857",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 244,
+      "label": "modifications",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 58,
+        "char_start": 10476,
+        "char_end": 10489,
+        "anchor": "PMC5397022_10476_10489",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 259,
+      "label": "osmotic homeostasis",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 59,
+        "char_start": 10870,
+        "char_end": 10889,
+        "anchor": "PMC5397022_10870_10889",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 271,
+      "label": "salt stress response",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 60,
+        "char_start": 11389,
+        "char_end": 11409,
+        "anchor": "PMC5397022_11389_11409",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 273,
+      "label": "translational modifications",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 60,
+        "char_start": 11509,
+        "char_end": 11536,
+        "anchor": "PMC5397022_11509_11536",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 285,
+      "label": "oxidative stress",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 61,
+        "char_start": 11883,
+        "char_end": 11899,
+        "anchor": "PMC5397022_11883_11899",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 448,
+      "label": "fragmentation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 107,
+        "char_start": 19245,
+        "char_end": 19258,
+        "anchor": "PMC5397022_19245_19258",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-67-244",
+      "type": "ASSOCIATED",
+      "source": 67,
+      "target": 244
+    },
+    {
+      "id": "synth-67-259",
+      "type": "ASSOCIATED",
+      "source": 67,
+      "target": 259
+    },
+    {
+      "id": "synth-67-271",
+      "type": "ASSOCIATED",
+      "source": 67,
+      "target": 271
+    },
+    {
+      "id": "synth-67-273",
+      "type": "ASSOCIATED",
+      "source": 67,
+      "target": 273
+    },
+    {
+      "id": "synth-67-285",
+      "type": "ASSOCIATED",
+      "source": 67,
+      "target": 285
+    },
+    {
+      "id": "synth-67-448",
+      "type": "ASSOCIATED",
+      "source": 67,
+      "target": 448
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "PHENOTYPE",
+    "page": null
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "paper_id": "PMC7012842",
+  "section": "Synthetic PHENOTYPE",
+  "n_nodes": 5,
+  "n_edges": 4,
+  "nodes": [
+    {
+      "id": 16,
+      "label": "volatile temperaments",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "| 1. Introduction",
+        "sentence_id": 10,
+        "char_start": 2014,
+        "char_end": 2035,
+        "anchor": "PMC7012842_2014_2035",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 18,
+      "label": "contamination",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "| 1. Introduction",
+        "sentence_id": 11,
+        "char_start": 2081,
+        "char_end": 2094,
+        "anchor": "PMC7012842_2081_2094",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 19,
+      "label": "contamination",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "| 1. Introduction",
+        "sentence_id": 11,
+        "char_start": 2158,
+        "char_end": 2171,
+        "anchor": "PMC7012842_2158_2171",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 56,
+      "label": "Ventilation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Mouse habitat cage units",
+        "sentence_id": 42,
+        "char_start": 6988,
+        "char_end": 6999,
+        "anchor": "PMC7012842_6988_6999",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 57,
+      "label": "natural convection",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Mouse habitat cage units",
+        "sentence_id": 42,
+        "char_start": 7061,
+        "char_end": 7079,
+        "anchor": "PMC7012842_7061_7079",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-16-18",
+      "type": "ASSOCIATED",
+      "source": 16,
+      "target": 18
+    },
+    {
+      "id": "synth-16-19",
+      "type": "ASSOCIATED",
+      "source": 16,
+      "target": 19
+    },
+    {
+      "id": "synth-16-56",
+      "type": "ASSOCIATED",
+      "source": 16,
+      "target": 56
+    },
+    {
+      "id": "synth-16-57",
+      "type": "ASSOCIATED",
+      "source": 16,
+      "target": 57
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "PHENOTYPE",
+    "page": null
+  }
+}

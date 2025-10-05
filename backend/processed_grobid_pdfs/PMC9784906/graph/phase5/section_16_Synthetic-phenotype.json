@@ -1,0 +1,472 @@
+{
+  "paper_id": "PMC9784906",
+  "section": "Synthetic PHENOTYPE",
+  "n_nodes": 22,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 5,
+      "label": "Weight gain",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 3,
+        "char_start": 558,
+        "char_end": 569,
+        "anchor": "PMC9784906_558_569",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 20,
+      "label": "infiltration",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 6,
+        "char_start": 1063,
+        "char_end": 1075,
+        "anchor": "PMC9784906_1063_1075",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 29,
+      "label": "weight gain",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 8,
+        "char_start": 1459,
+        "char_end": 1470,
+        "anchor": "PMC9784906_1459_1470",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 65,
+      "label": "metabolic disturbances",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 23,
+        "char_start": 3397,
+        "char_end": 3419,
+        "anchor": "PMC9784906_3397_3419",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 72,
+      "label": "myelopoiesis",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 26,
+        "char_start": 4052,
+        "char_end": 4064,
+        "anchor": "PMC9784906_4052_4064",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 87,
+      "label": "weight gain",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 28,
+        "char_start": 4428,
+        "char_end": 4439,
+        "anchor": "PMC9784906_4428_4439",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 320,
+      "label": "medullary rewiring",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Mrc1 Deficiency in Mice Fed with a High-Fat Diet Affects Bone Marrow Myelopoiesis and Adiposity, Which Results in Dampened Immune-Inflammatory Response in the Circulation",
+        "sentence_id": 72,
+        "char_start": 15465,
+        "char_end": 15483,
+        "anchor": "PMC9784906_15465_15483",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 351,
+      "label": "myelopoiesis",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Mrc1 Deficiency in Mice Fed with a High-Fat Diet Affects Bone Marrow Myelopoiesis and Adiposity, Which Results in Dampened Immune-Inflammatory Response in the Circulation",
+        "sentence_id": 80,
+        "char_start": 17150,
+        "char_end": 17162,
+        "anchor": "PMC9784906_17150_17162",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 358,
+      "label": "inflammatory",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Mrc1 Deficiency in Mice Fed with a High-Fat Diet Impacts Immune Infiltration of Metabolic Tissues during Obesity",
+        "sentence_id": 81,
+        "char_start": 17521,
+        "char_end": 17533,
+        "anchor": "PMC9784906_17521_17533",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 418,
+      "label": "id accumulation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Immunomodulation in Mrc1 -/-Mice Is Associated with Improved Obese Phenotype",
+        "sentence_id": 91,
+        "char_start": 20973,
+        "char_end": 20988,
+        "anchor": "PMC9784906_20973_20988",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 478,
+      "label": "id accumulation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Immunomodulation in Mrc1 -/-Mice Is Associated with Improved Obese Phenotype",
+        "sentence_id": 107,
+        "char_start": 24363,
+        "char_end": 24378,
+        "anchor": "PMC9784906_24363_24378",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 492,
+      "label": "infiltration",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Immunomodulation in Mrc1 -/-Mice Is Associated with Improved Obese Phenotype",
+        "sentence_id": 110,
+        "char_start": 25355,
+        "char_end": 25367,
+        "anchor": "PMC9784906_25355_25367",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 495,
+      "label": "inflammation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Immunomodulation in Mrc1 -/-Mice Is Associated with Improved Obese Phenotype",
+        "sentence_id": 111,
+        "char_start": 25417,
+        "char_end": 25429,
+        "anchor": "PMC9784906_25417_25429",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 513,
+      "label": "inflammation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Immunomodulation in Mrc1 -/-Mice Is Associated with Improved Obese Phenotype",
+        "sentence_id": 112,
+        "char_start": 26084,
+        "char_end": 26096,
+        "anchor": "PMC9784906_26084_26096",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 532,
+      "label": "dysmetabolic condition",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 113,
+        "char_start": 27037,
+        "char_end": 27059,
+        "anchor": "PMC9784906_27037_27059",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 537,
+      "label": "inflammation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 114,
+        "char_start": 27402,
+        "char_end": 27414,
+        "anchor": "PMC9784906_27402_27414",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 543,
+      "label": "inflammation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 116,
+        "char_start": 27695,
+        "char_end": 27707,
+        "anchor": "PMC9784906_27695_27707",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 558,
+      "label": "inflammatory",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 119,
+        "char_start": 28907,
+        "char_end": 28919,
+        "anchor": "PMC9784906_28907_28919",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 564,
+      "label": "leukocyte migration",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 120,
+        "char_start": 29067,
+        "char_end": 29086,
+        "anchor": "PMC9784906_29067_29086",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 565,
+      "label": "tissue in",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 120,
+        "char_start": 29095,
+        "char_end": 29104,
+        "anchor": "PMC9784906_29095_29104",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 570,
+      "label": "infiltration",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 122,
+        "char_start": 29507,
+        "char_end": 29519,
+        "anchor": "PMC9784906_29507_29519",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 580,
+      "label": "leucocyte trafficking in l",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 127,
+        "char_start": 30760,
+        "char_end": 30786,
+        "anchor": "PMC9784906_30760_30786",
+        "page": 11,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-5-20",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 20
+    },
+    {
+      "id": "synth-5-29",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 29
+    },
+    {
+      "id": "synth-5-65",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 65
+    },
+    {
+      "id": "synth-5-72",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 72
+    },
+    {
+      "id": "synth-5-87",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 87
+    },
+    {
+      "id": "synth-5-320",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 320
+    },
+    {
+      "id": "synth-5-351",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 351
+    },
+    {
+      "id": "synth-5-358",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 358
+    },
+    {
+      "id": "synth-5-418",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 418
+    },
+    {
+      "id": "synth-5-478",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 478
+    },
+    {
+      "id": "synth-5-492",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 492
+    },
+    {
+      "id": "synth-5-495",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 495
+    },
+    {
+      "id": "synth-5-513",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 513
+    },
+    {
+      "id": "synth-5-532",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 532
+    },
+    {
+      "id": "synth-5-537",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 537
+    },
+    {
+      "id": "synth-5-543",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 543
+    },
+    {
+      "id": "synth-5-558",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 558
+    },
+    {
+      "id": "synth-5-564",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 564
+    },
+    {
+      "id": "synth-5-565",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 565
+    },
+    {
+      "id": "synth-5-570",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 570
+    },
+    {
+      "id": "synth-5-580",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 580
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "PHENOTYPE",
+    "page": null
+  }
+}

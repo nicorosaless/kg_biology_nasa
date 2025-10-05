@@ -1,0 +1,117 @@
+{
+  "paper_id": "PMC10628120",
+  "section": "Genome characteristics and relatedness indices",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 416,
+      "label": "species",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome characteristics and relatedness indices",
+        "sentence_id": 106,
+        "char_start": 22764,
+        "char_end": 22771,
+        "anchor": "PMC10628120_22764_22771",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 417,
+      "label": "ANI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome characteristics and relatedness indices",
+        "sentence_id": 106,
+        "char_start": 22666,
+        "char_end": 22669,
+        "anchor": "PMC10628120_22666_22669",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 414,
+      "label": "related",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome characteristics and relatedness indices",
+        "sentence_id": 106,
+        "char_start": 22620,
+        "char_end": 22627,
+        "anchor": "PMC10628120_22620_22627",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 415,
+      "label": "species",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome characteristics and relatedness indices",
+        "sentence_id": 106,
+        "char_start": 22649,
+        "char_end": 22656,
+        "anchor": "PMC10628120_22649_22656",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 703,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 414,
+      "target": 415
+    },
+    {
+      "id": 704,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 414,
+      "target": 416
+    },
+    {
+      "id": 705,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 414,
+      "target": 417
+    },
+    {
+      "id": 708,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 415,
+      "target": 416
+    },
+    {
+      "id": 709,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 415,
+      "target": 417
+    },
+    {
+      "id": 712,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 416,
+      "target": 417
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 17,
+      "largest_component": 4,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 5
+  }
+}

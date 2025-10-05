@@ -1,0 +1,84 @@
+{
+  "paper_id": "PMC4405755",
+  "section": "Hydrogen peroxide quantification",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 321,
+      "label": "HRP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Hydrogen peroxide quantification",
+        "sentence_id": 78,
+        "char_start": 15362,
+        "char_end": 15365,
+        "anchor": "PMC4405755_15362_15365",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 322,
+      "label": "Tecan",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Hydrogen peroxide quantification",
+        "sentence_id": 78,
+        "char_start": 15498,
+        "char_end": 15503,
+        "anchor": "PMC4405755_15498_15503",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 315,
+      "label": "Samples",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Hydrogen peroxide quantification",
+        "sentence_id": 78,
+        "char_start": 15283,
+        "char_end": 15290,
+        "anchor": "PMC4405755_15283_15290",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 471,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 315,
+      "target": 321
+    },
+    {
+      "id": 472,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 315,
+      "target": 322
+    },
+    {
+      "id": 477,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 321,
+      "target": 322
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 6,
+      "largest_component": 3,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 5
+  }
+}

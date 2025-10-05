@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMC11888247",
+  "section": "Synthetic ANATOMICAL_SITE",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 10,
+      "label": "frontal cortex",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Supplemental Figures",
+        "sentence_id": 5,
+        "char_start": 1052,
+        "char_end": 1066,
+        "anchor": "PMC11888247_1052_1066",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 11,
+      "label": "nucleus acc",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Supplemental Figures",
+        "sentence_id": 5,
+        "char_start": 1137,
+        "char_end": 1148,
+        "anchor": "PMC11888247_1137_1148",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-10-11",
+      "type": "ASSOCIATED",
+      "source": 10,
+      "target": 11
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "ANATOMICAL_SITE",
+    "page": null
+  }
+}

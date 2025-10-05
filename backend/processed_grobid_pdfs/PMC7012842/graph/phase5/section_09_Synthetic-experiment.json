@@ -1,0 +1,346 @@
+{
+  "paper_id": "PMC7012842",
+  "section": "Synthetic EXPERIMENT",
+  "n_nodes": 16,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 4,
+      "label": "mouse-rearing",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 2,
+        "char_start": 390,
+        "char_end": 403,
+        "anchor": "PMC7012842_390_403",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 20,
+      "label": "camera lens",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "| 1. Introduction",
+        "sentence_id": 11,
+        "char_start": 2179,
+        "char_end": 2190,
+        "anchor": "PMC7012842_2179_2190",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 24,
+      "label": "mouse-rearing experiment",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "| 1. Introduction",
+        "sentence_id": 14,
+        "char_start": 2737,
+        "char_end": 2761,
+        "anchor": "PMC7012842_2737_2761",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 26,
+      "label": "monitoring",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "| 1. Introduction",
+        "sentence_id": 14,
+        "char_start": 2972,
+        "char_end": 2982,
+        "anchor": "PMC7012842_2972_2982",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 52,
+      "label": "verification test",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "| 3. Mouse Habitat Unit (MHU)",
+        "sentence_id": 36,
+        "char_start": 6232,
+        "char_end": 6249,
+        "anchor": "PMC7012842_6232_6249",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 58,
+      "label": "excellent",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Mouse habitat cage units",
+        "sentence_id": 45,
+        "char_start": 7361,
+        "char_end": 7370,
+        "anchor": "PMC7012842_7361_7370",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 61,
+      "label": "mouse rear",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Mouse habitat cage units",
+        "sentence_id": 48,
+        "char_start": 8141,
+        "char_end": 8151,
+        "anchor": "PMC7012842_8141_8151",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 63,
+      "label": "wind speed",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Mouse habitat cage units",
+        "sentence_id": 51,
+        "char_start": 8635,
+        "char_end": 8645,
+        "anchor": "PMC7012842_8635_8645",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 74,
+      "label": "inner substrate functions",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Interface unit",
+        "sentence_id": 69,
+        "char_start": 10981,
+        "char_end": 11006,
+        "anchor": "PMC7012842_10981_11006",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 75,
+      "label": "identical",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Interface unit",
+        "sentence_id": 69,
+        "char_start": 11011,
+        "char_end": 11020,
+        "anchor": "PMC7012842_11011_11020",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 78,
+      "label": "CO 2",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Interface unit",
+        "sentence_id": 71,
+        "char_start": 11346,
+        "char_end": 11350,
+        "anchor": "PMC7012842_11346_11350",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 79,
+      "label": "CO 2",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Interface unit",
+        "sentence_id": 71,
+        "char_start": 11400,
+        "char_end": 11404,
+        "anchor": "PMC7012842_11400_11404",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 90,
+      "label": "verification",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Transportation cage unit",
+        "sentence_id": 84,
+        "char_start": 13206,
+        "char_end": 13218,
+        "anchor": "PMC7012842_13206_13218",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 94,
+      "label": "rmo-hygro logger",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Transportation cage unit",
+        "sentence_id": 94,
+        "char_start": 14350,
+        "char_end": 14366,
+        "anchor": "PMC7012842_14350_14366",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 95,
+      "label": "cosmic radiation meter",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Transportation cage unit",
+        "sentence_id": 94,
+        "char_start": 14373,
+        "char_end": 14395,
+        "anchor": "PMC7012842_14373_14395",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 109,
+      "label": "DNA base sequence information",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Glove box",
+        "sentence_id": 114,
+        "char_start": 17456,
+        "char_end": 17485,
+        "anchor": "PMC7012842_17456_17485",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-4-20",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 20
+    },
+    {
+      "id": "synth-4-24",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 24
+    },
+    {
+      "id": "synth-4-26",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 26
+    },
+    {
+      "id": "synth-4-52",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 52
+    },
+    {
+      "id": "synth-4-58",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 58
+    },
+    {
+      "id": "synth-4-61",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 61
+    },
+    {
+      "id": "synth-4-63",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 63
+    },
+    {
+      "id": "synth-4-74",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 74
+    },
+    {
+      "id": "synth-4-75",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 75
+    },
+    {
+      "id": "synth-4-78",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 78
+    },
+    {
+      "id": "synth-4-79",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 79
+    },
+    {
+      "id": "synth-4-90",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 90
+    },
+    {
+      "id": "synth-4-94",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 94
+    },
+    {
+      "id": "synth-4-95",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 95
+    },
+    {
+      "id": "synth-4-109",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 109
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "EXPERIMENT",
+    "page": null
+  }
+}

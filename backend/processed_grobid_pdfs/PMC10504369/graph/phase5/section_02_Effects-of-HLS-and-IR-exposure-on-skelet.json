@@ -1,0 +1,202 @@
+{
+  "paper_id": "PMC10504369",
+  "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+  "n_nodes": 6,
+  "n_edges": 14,
+  "nodes": [
+    {
+      "id": 141,
+      "label": "Telome",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 40,
+        "char_start": 9015,
+        "char_end": 9021,
+        "anchor": "PMC10504369_9015_9021",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 143,
+      "label": "dynamics",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 40,
+        "char_start": 9031,
+        "char_end": 9039,
+        "anchor": "PMC10504369_9031_9039",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 144,
+      "label": "muscles",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 40,
+        "char_start": 9064,
+        "char_end": 9071,
+        "anchor": "PMC10504369_9064_9071",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 145,
+      "label": "circulating blood cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 40,
+        "char_start": 9171,
+        "char_end": 9194,
+        "anchor": "PMC10504369_9171_9194",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 146,
+      "label": "lengths",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 40,
+        "char_start": 9264,
+        "char_end": 9271,
+        "anchor": "PMC10504369_9264_9271",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 147,
+      "label": "muscle cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Effects of HLS and IR exposure on skeletal muscle properties",
+        "sentence_id": 40,
+        "char_start": 9275,
+        "char_end": 9287,
+        "anchor": "PMC10504369_9275_9287",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 181,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 141,
+      "target": 143
+    },
+    {
+      "id": 182,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 141,
+      "target": 144
+    },
+    {
+      "id": 183,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 141,
+      "target": 145
+    },
+    {
+      "id": 184,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 141,
+      "target": 146
+    },
+    {
+      "id": 185,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 141,
+      "target": 147
+    },
+    {
+      "id": 189,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 143,
+      "target": 144
+    },
+    {
+      "id": 190,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 143,
+      "target": 145
+    },
+    {
+      "id": 191,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 143,
+      "target": 146
+    },
+    {
+      "id": 192,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 143,
+      "target": 147
+    },
+    {
+      "id": 194,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 144,
+      "target": 145
+    },
+    {
+      "id": 195,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 144,
+      "target": 146
+    },
+    {
+      "id": 196,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 144,
+      "target": 147
+    },
+    {
+      "id": 198,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 146,
+      "target": 145
+    },
+    {
+      "id": 200,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 146,
+      "target": 147
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 9,
+      "removed_orphans": 1,
+      "largest_component": 6,
+      "removed_components": [
+        6,
+        5,
+        4,
+        4,
+        4,
+        4,
+        4,
+        2
+      ]
+    },
+    "page": 2
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "paper_id": "PMC11833055",
+  "section": "Grip strength experiment",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 56,
+      "label": "anything",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Grip strength experiment",
+        "sentence_id": 19,
+        "char_start": 3977,
+        "char_end": 3985,
+        "anchor": "PMC11833055_3977_3985",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 57,
+      "label": "pulling",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Grip strength experiment",
+        "sentence_id": 19,
+        "char_start": 4051,
+        "char_end": 4058,
+        "anchor": "PMC11833055_4051_4058",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 59,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 56,
+      "target": 57
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 3,
+      "largest_component": 2,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 1
+  }
+}

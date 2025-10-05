@@ -1,0 +1,57 @@
+{
+  "paper_id": "PMC10285634",
+  "section": "Q 21. What is the max working range for the x-ray source?",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 96,
+      "label": "DXA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Q 21. What is the max working range for the x-ray source?",
+        "sentence_id": 88,
+        "char_start": 10134,
+        "char_end": 10137,
+        "anchor": "PMC10285634_10134_10137",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 99,
+      "label": "DXA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Q 21. What is the max working range for the x-ray source?",
+        "sentence_id": 88,
+        "char_start": 10134,
+        "char_end": 10137,
+        "anchor": "PMC10285634_10134_10137",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 44,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 96,
+      "target": 99
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 0,
+      "largest_component": 2,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 7
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "paper_id": "PMC11127935",
+  "section": "Synthetic CELL_TYPE",
+  "n_nodes": 7,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 25,
+      "label": "human cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Tardigrades, microscopic animals that survive",
+        "sentence_id": 10,
+        "char_start": 2015,
+        "char_end": 2026,
+        "anchor": "PMC11127935_2015_2026",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 233,
+      "label": "ici cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "SAHS proteins enhance survival of desiccated bacterial cells",
+        "sentence_id": 49,
+        "char_start": 11695,
+        "char_end": 11704,
+        "anchor": "PMC11127935_11695_11704",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 701,
+      "label": "MO21(DE3) competent cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Protein expression and purification",
+        "sentence_id": 137,
+        "char_start": 32398,
+        "char_end": 32423,
+        "anchor": "PMC11127935_32398_32423",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 809,
+      "label": "× 10 6 cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Lactate dehydrogenase inactivation assay",
+        "sentence_id": 156,
+        "char_start": 36547,
+        "char_end": 36559,
+        "anchor": "PMC11127935_36547_36559",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 827,
+      "label": "× 10 6 cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Lactate dehydrogenase inactivation assay",
+        "sentence_id": 160,
+        "char_start": 37248,
+        "char_end": 37260,
+        "anchor": "PMC11127935_37248_37260",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 838,
+      "label": "899 cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Lactate dehydrogenase inactivation assay",
+        "sentence_id": 162,
+        "char_start": 37534,
+        "char_end": 37543,
+        "anchor": "PMC11127935_37534_37543",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 851,
+      "label": ".2 × 10 8 cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Lactate dehydrogenase inactivation assay",
+        "sentence_id": 166,
+        "char_start": 38141,
+        "char_end": 38156,
+        "anchor": "PMC11127935_38141_38156",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-25-233",
+      "type": "ASSOCIATED",
+      "source": 25,
+      "target": 233
+    },
+    {
+      "id": "synth-25-701",
+      "type": "ASSOCIATED",
+      "source": 25,
+      "target": 701
+    },
+    {
+      "id": "synth-25-809",
+      "type": "ASSOCIATED",
+      "source": 25,
+      "target": 809
+    },
+    {
+      "id": "synth-25-827",
+      "type": "ASSOCIATED",
+      "source": 25,
+      "target": 827
+    },
+    {
+      "id": "synth-25-838",
+      "type": "ASSOCIATED",
+      "source": 25,
+      "target": 838
+    },
+    {
+      "id": "synth-25-851",
+      "type": "ASSOCIATED",
+      "source": 25,
+      "target": 851
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "CELL_TYPE",
+    "page": null
+  }
+}

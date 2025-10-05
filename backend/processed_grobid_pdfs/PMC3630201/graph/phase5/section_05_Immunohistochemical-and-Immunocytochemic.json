@@ -1,0 +1,232 @@
+{
+  "paper_id": "PMC3630201",
+  "section": "Immunohistochemical and Immunocytochemical Analysis",
+  "n_nodes": 12,
+  "n_edges": 11,
+  "nodes": [
+    {
+      "id": 288,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immunohistochemical and Immunocytochemical Analysis",
+        "sentence_id": 245,
+        "char_start": 54283,
+        "char_end": 54286,
+        "anchor": "PMC3630201_54283_54286"
+      }
+    },
+    {
+      "id": 290,
+      "label": "Donkey",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immunohistochemical and Immunocytochemical Analysis",
+        "sentence_id": 245,
+        "char_start": 54391,
+        "char_end": 54397,
+        "anchor": "PMC3630201_54391_54397"
+      }
+    },
+    {
+      "id": 291,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immunohistochemical and Immunocytochemical Analysis",
+        "sentence_id": 245,
+        "char_start": 54407,
+        "char_end": 54410,
+        "anchor": "PMC3630201_54407_54410"
+      }
+    },
+    {
+      "id": 283,
+      "label": "IgG",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immunohistochemical and Immunocytochemical Analysis",
+        "sentence_id": 245,
+        "char_start": 54090,
+        "char_end": 54093,
+        "anchor": "PMC3630201_54090_54093"
+      }
+    },
+    {
+      "id": 284,
+      "label": "Jackson",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immunohistochemical and Immunocytochemical Analysis",
+        "sentence_id": 245,
+        "char_start": 54147,
+        "char_end": 54154,
+        "anchor": "PMC3630201_54147_54154"
+      }
+    },
+    {
+      "id": 292,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immunohistochemical and Immunocytochemical Analysis",
+        "sentence_id": 247,
+        "char_start": 54575,
+        "char_end": 54578,
+        "anchor": "PMC3630201_54575_54578"
+      }
+    },
+    {
+      "id": 293,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immunohistochemical and Immunocytochemical Analysis",
+        "sentence_id": 247,
+        "char_start": 54709,
+        "char_end": 54712,
+        "anchor": "PMC3630201_54709_54712"
+      }
+    },
+    {
+      "id": 286,
+      "label": "95uC",
+      "type": "EXPERIMENTAL_CONDITION",
+      "freq": 1,
+      "nav": {
+        "section": "Immunohistochemical and Immunocytochemical Analysis",
+        "sentence_id": 245,
+        "char_start": 54242,
+        "char_end": 54246,
+        "anchor": "PMC3630201_54242_54246"
+      }
+    },
+    {
+      "id": 295,
+      "label": "EtOH",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Immunohistochemical and Immunocytochemical Analysis",
+        "sentence_id": 248,
+        "char_start": 54864,
+        "char_end": 54868,
+        "anchor": "PMC3630201_54864_54868"
+      }
+    },
+    {
+      "id": 296,
+      "label": "Olympus",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immunohistochemical and Immunocytochemical Analysis",
+        "sentence_id": 249,
+        "char_start": 54982,
+        "char_end": 54989,
+        "anchor": "PMC3630201_54982_54989"
+      }
+    },
+    {
+      "id": 297,
+      "label": "Hoechst",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immunohistochemical and Immunocytochemical Analysis",
+        "sentence_id": 250,
+        "char_start": 55056,
+        "char_end": 55063,
+        "anchor": "PMC3630201_55056_55063"
+      }
+    },
+    {
+      "id": 301,
+      "label": "Hoechst",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immunohistochemical and Immunocytochemical Analysis",
+        "sentence_id": 251,
+        "char_start": 55270,
+        "char_end": 55277,
+        "anchor": "PMC3630201_55270_55277"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 293,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 283,
+      "target": 284
+    },
+    {
+      "id": 296,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 283,
+      "target": 288
+    },
+    {
+      "id": 298,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 283,
+      "target": 290
+    },
+    {
+      "id": 299,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 283,
+      "target": 291
+    },
+    {
+      "id": 302,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 284,
+      "target": 288
+    },
+    {
+      "id": 304,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 284,
+      "target": 290
+    },
+    {
+      "id": 305,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 284,
+      "target": 291
+    },
+    {
+      "id": 316,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 288,
+      "target": 290
+    },
+    {
+      "id": 317,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 288,
+      "target": 291
+    },
+    {
+      "id": 320,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 290,
+      "target": 291
+    },
+    {
+      "id": 321,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 292,
+      "target": 293
+    }
+  ]
+}

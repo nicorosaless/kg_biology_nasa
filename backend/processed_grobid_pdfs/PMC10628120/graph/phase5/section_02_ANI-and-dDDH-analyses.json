@@ -1,0 +1,85 @@
+{
+  "paper_id": "PMC10628120",
+  "section": "ANI and dDDH analyses",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 290,
+      "label": "ANI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ANI and dDDH analyses",
+        "sentence_id": 74,
+        "char_start": 16770,
+        "char_end": 16773,
+        "anchor": "PMC10628120_16770_16773",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 292,
+      "label": "NCBI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ANI and dDDH analyses",
+        "sentence_id": 74,
+        "char_start": 16671,
+        "char_end": 16675,
+        "anchor": "PMC10628120_16671_16675",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 294,
+      "label": "ANI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ANI and dDDH analyses",
+        "sentence_id": 74,
+        "char_start": 16770,
+        "char_end": 16773,
+        "anchor": "PMC10628120_16770_16773",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 563,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 290,
+      "target": 292
+    },
+    {
+      "id": 565,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 290,
+      "target": 294
+    },
+    {
+      "id": 567,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 292,
+      "target": 294
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 8,
+      "largest_component": 3,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 4
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "Chapter 2: Landing Humans on the Moon in 2024",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 174,
+      "label": "Next",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Chapter 2: Landing Humans on the Moon in 2024",
+        "sentence_id": 94,
+        "char_start": 16556,
+        "char_end": 16560,
+        "anchor": "PMC10284894_16556_16560",
+        "page": 17,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 175,
+      "label": "Moon",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Chapter 2: Landing Humans on the Moon in 2024",
+        "sentence_id": 94,
+        "char_start": 16618,
+        "char_end": 16622,
+        "anchor": "PMC10284894_16618_16622",
+        "page": 17,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 177,
+      "label": "Moon",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Chapter 2: Landing Humans on the Moon in 2024",
+        "sentence_id": 94,
+        "char_start": 16618,
+        "char_end": 16622,
+        "anchor": "PMC10284894_16618_16622",
+        "page": 17,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 178,
+      "label": "CLPS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Chapter 2: Landing Humans on the Moon in 2024",
+        "sentence_id": 94,
+        "char_start": 16690,
+        "char_end": 16694,
+        "anchor": "PMC10284894_16690_16694",
+        "page": 17,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 180,
+      "label": "SLS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Chapter 2: Landing Humans on the Moon in 2024",
+        "sentence_id": 94,
+        "char_start": 16746,
+        "char_end": 16749,
+        "anchor": "PMC10284894_16746_16749",
+        "page": 17,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 181,
+      "label": "Artemis",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Chapter 2: Landing Humans on the Moon in 2024",
+        "sentence_id": 94,
+        "char_start": 16757,
+        "char_end": 16764,
+        "anchor": "PMC10284894_16757_16764",
+        "page": 17,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 162,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 174,
+      "target": 175
+    },
+    {
+      "id": 163,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 174,
+      "target": 177
+    },
+    {
+      "id": 164,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 174,
+      "target": 178
+    },
+    {
+      "id": 166,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 174,
+      "target": 180
+    },
+    {
+      "id": 167,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 174,
+      "target": 181
+    },
+    {
+      "id": 168,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 175,
+      "target": 177
+    },
+    {
+      "id": 169,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 175,
+      "target": 178
+    },
+    {
+      "id": 171,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 175,
+      "target": 180
+    },
+    {
+      "id": 172,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 175,
+      "target": 181
+    },
+    {
+      "id": 173,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 177,
+      "target": 178
+    },
+    {
+      "id": 175,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 177,
+      "target": 180
+    },
+    {
+      "id": 176,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 177,
+      "target": 181
+    },
+    {
+      "id": 178,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 178,
+      "target": 180
+    },
+    {
+      "id": 179,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 178,
+      "target": 181
+    },
+    {
+      "id": 182,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 180,
+      "target": 181
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 3,
+      "largest_component": 6,
+      "removed_components": [
+        3,
+        3,
+        2
+      ]
+    },
+    "page": 17
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "paper_id": "PMC5666799",
+  "section": "Total Antioxidant Capacity",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 809,
+      "label": "BCA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Total Antioxidant Capacity",
+        "sentence_id": 219,
+        "char_start": 47452,
+        "char_end": 47455,
+        "anchor": "PMC5666799_47452_47455",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 813,
+      "label": "changes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Total Antioxidant Capacity",
+        "sentence_id": 219,
+        "char_start": 47655,
+        "char_end": 47662,
+        "anchor": "PMC5666799_47655_47662",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 814,
+      "label": "protein",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Total Antioxidant Capacity",
+        "sentence_id": 219,
+        "char_start": 47666,
+        "char_end": 47673,
+        "anchor": "PMC5666799_47666_47673",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 815,
+      "label": "BCA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Total Antioxidant Capacity",
+        "sentence_id": 219,
+        "char_start": 47452,
+        "char_end": 47455,
+        "anchor": "PMC5666799_47452_47455",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1478,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 809,
+      "target": 813
+    },
+    {
+      "id": 1479,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 809,
+      "target": 814
+    },
+    {
+      "id": 1480,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 809,
+      "target": 815
+    },
+    {
+      "id": 1482,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 813,
+      "target": 814
+    },
+    {
+      "id": 1483,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 813,
+      "target": 815
+    },
+    {
+      "id": 1485,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 814,
+      "target": 815
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 7,
+      "largest_component": 4
+    },
+    "page": 8
+  }
+}

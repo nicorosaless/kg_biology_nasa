@@ -1,0 +1,257 @@
+{
+  "paper_id": "PMC11127935",
+  "section": "Protein sequence analysis and expression",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 128,
+      "label": "SAHS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein sequence analysis and expression",
+        "sentence_id": 27,
+        "char_start": 6625,
+        "char_end": 6629,
+        "anchor": "PMC11127935_6625_6629",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 129,
+      "label": "SAHS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein sequence analysis and expression",
+        "sentence_id": 27,
+        "char_start": 6506,
+        "char_end": 6510,
+        "anchor": "PMC11127935_6506_6510",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 130,
+      "label": "Uniprot",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein sequence analysis and expression",
+        "sentence_id": 27,
+        "char_start": 6532,
+        "char_end": 6539,
+        "anchor": "PMC11127935_6532_6539",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 131,
+      "label": "SAHS1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein sequence analysis and expression",
+        "sentence_id": 27,
+        "char_start": 6615,
+        "char_end": 6620,
+        "anchor": "PMC11127935_6615_6620",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 132,
+      "label": "SAHS4",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein sequence analysis and expression",
+        "sentence_id": 27,
+        "char_start": 6625,
+        "char_end": 6630,
+        "anchor": "PMC11127935_6625_6630",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 136,
+      "label": "SAHS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein sequence analysis and expression",
+        "sentence_id": 27,
+        "char_start": 6746,
+        "char_end": 6750,
+        "anchor": "PMC11127935_6746_6750",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 125,
+      "label": "SAHS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein sequence analysis and expression",
+        "sentence_id": 27,
+        "char_start": 6506,
+        "char_end": 6510,
+        "anchor": "PMC11127935_6506_6510",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 219,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 125,
+      "target": 128
+    },
+    {
+      "id": 220,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 125,
+      "target": 129
+    },
+    {
+      "id": 221,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 125,
+      "target": 130
+    },
+    {
+      "id": 222,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 125,
+      "target": 131
+    },
+    {
+      "id": 223,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 125,
+      "target": 132
+    },
+    {
+      "id": 227,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 125,
+      "target": 136
+    },
+    {
+      "id": 228,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 128,
+      "target": 129
+    },
+    {
+      "id": 229,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 128,
+      "target": 130
+    },
+    {
+      "id": 230,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 128,
+      "target": 131
+    },
+    {
+      "id": 231,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 128,
+      "target": 132
+    },
+    {
+      "id": 235,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 128,
+      "target": 136
+    },
+    {
+      "id": 236,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 129,
+      "target": 130
+    },
+    {
+      "id": 237,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 129,
+      "target": 131
+    },
+    {
+      "id": 238,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 129,
+      "target": 132
+    },
+    {
+      "id": 242,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 129,
+      "target": 136
+    },
+    {
+      "id": 243,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 130,
+      "target": 131
+    },
+    {
+      "id": 244,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 130,
+      "target": 132
+    },
+    {
+      "id": 248,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 130,
+      "target": 136
+    },
+    {
+      "id": 249,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 131,
+      "target": 132
+    },
+    {
+      "id": 253,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 131,
+      "target": 136
+    },
+    {
+      "id": 257,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 132,
+      "target": 136
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 7,
+      "removed_orphans": 9,
+      "largest_component": 7,
+      "removed_components": [
+        6,
+        4,
+        4,
+        4,
+        4,
+        2
+      ]
+    },
+    "page": 2
+  }
+}

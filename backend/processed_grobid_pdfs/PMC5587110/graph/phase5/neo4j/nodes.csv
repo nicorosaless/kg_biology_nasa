@@ -1,0 +1,157 @@
+id:ID,mention,frequency:int,node_type:LABEL,sections
+0,ISS,1,GENE_PRODUCT,ABSTRACT
+2,PCR,1,GENE_PRODUCT,ABSTRACT
+3,PCR,1,GENE_PRODUCT,ABSTRACT
+4,RNA,1,GENE_PRODUCT,ABSTRACT
+5,PCR,1,GENE_PRODUCT,ABSTRACT
+6,ISS,1,GENE_PRODUCT,INTRODUCTION
+7,Mars,1,GENE_PRODUCT,INTRODUCTION
+8,RNA,1,GENE_PRODUCT,INTRODUCTION
+9,ISS,1,GENE_PRODUCT,INTRODUCTION
+11,PCR,1,GENE_PRODUCT,INTRODUCTION
+12,RNA,1,GENE_PRODUCT,INTRODUCTION
+13,CSR,1,GENE_PRODUCT,INTRODUCTION
+17,RNA,1,GENE_PRODUCT,INTRODUCTION
+18,TaqMan,1,GENE_PRODUCT,INTRODUCTION
+19,ISS,1,GENE_PRODUCT,INTRODUCTION
+20,qPCR,1,GENE_PRODUCT,INTRODUCTION
+21,RNA,1,GENE_PRODUCT,INTRODUCTION
+22,PCR,1,GENE_PRODUCT,INTRODUCTION
+23,ISS,1,GENE_PRODUCT,INTRODUCTION
+24,SPM,1,GENE_PRODUCT,METHODS
+25,qPCR,1,GENE_PRODUCT,METHODS
+26,RNA,1,GENE_PRODUCT,METHODS
+27,First,1,GENE_PRODUCT,Primer and probe design
+28,qPCR,1,GENE_PRODUCT,Primer and probe design
+30,RNA,1,GENE_PRODUCT,Primer and probe design
+31,SPM,1,GENE_PRODUCT,Primer and probe design
+32,RNA,1,GENE_PRODUCT,Primer and probe design
+33,RNA,1,GENE_PRODUCT,Primer and probe design
+35,ISS,1,GENE_PRODUCT,Primer and probe design
+37,L19,1,GENE_PRODUCT,Primer and probe design
+38,rpl19,1,GENE_PRODUCT,Primer and probe design
+39,TaqMan,1,GENE_PRODUCT,Primer and probe design
+40,qPCR,1,GENE_PRODUCT,"Assay formulation, preparation, and validation"
+43,Iowa,1,GENE_PRODUCT,"Assay formulation, preparation, and validation"
+44,Mix,1,GENE_PRODUCT,"Assay formulation, preparation, and validation"
+45,Promega,1,GENE_PRODUCT,"Assay formulation, preparation, and validation"
+46,Madison,1,GENE_PRODUCT,"Assay formulation, preparation, and validation"
+48,TekNova,1,GENE_PRODUCT,"Assay formulation, preparation, and validation"
+52,rpl19,1,GENE_PRODUCT,"Assay formulation, preparation, and validation"
+53,Ipswich,1,GENE_PRODUCT,"Assay formulation, preparation, and validation"
+55,Qiagen,1,REAGENT,"Assay formulation, preparation, and validation"
+56,Valencia,1,GENE_PRODUCT,"Assay formulation, preparation, and validation"
+59,RNA,1,GENE_PRODUCT,"Assay formulation, preparation, and validation"
+64,NTC,1,GENE_PRODUCT,Lyophilized assay validation
+65,Upland,1,GENE_PRODUCT,Lyophilized assay validation
+66,RNA,1,GENE_PRODUCT,Microgravity compatible RNA extraction procedure
+67,RNA,1,GENE_PRODUCT,Microgravity compatible RNA extraction procedure
+68,SPM,1,GENE_PRODUCT,Microgravity compatible RNA extraction procedure
+69,SPM,1,GENE_PRODUCT,Microgravity compatible RNA extraction procedure
+70,RNA,1,GENE_PRODUCT,Microgravity compatible RNA extraction procedure
+71,SPM,1,GENE_PRODUCT,Microgravity compatible RNA extraction procedure
+72,RNA,1,GENE_PRODUCT,Microgravity compatible RNA extraction procedure
+73,Waltham,1,GENE_PRODUCT,Microgravity compatible RNA extraction procedure
+75,Agilent,1,GENE_PRODUCT,Microgravity compatible RNA extraction procedure
+77,SPM,1,GENE_PRODUCT,Microgravity compatible RNA extraction procedure
+78,RNA,1,GENE_PRODUCT,Microgravity compatible RNA extraction procedure
+80,Techshot,1,GENE_PRODUCT,Hardware testing
+84,RNA,1,GENE_PRODUCT,Hardware testing
+85,SPM,1,GENE_PRODUCT,Hardware testing
+86,1x10,1,GENE_PRODUCT,Hardware testing
+87,BioGX,1,GENE_PRODUCT,Hardware testing
+90,ISS,1,GENE_PRODUCT,Hardware testing
+91,Microgravity,1,PHENOTYPE,On-orbit quantitative PCR analyses
+92,ISS,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+97,SPM,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+98,Cepheid,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+100,First,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+101,qPCR,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+102,Second,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+103,RNA,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+104,SPM,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+105,RNA,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+106,SPM,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+107,ISS,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+108,RNase,1,REAGENT,On-orbit quantitative PCR analyses
+109,RNase,1,REAGENT,On-orbit quantitative PCR analyses
+110,DGB,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+111,Waltham,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+112,ISS,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+113,ISS,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+115,qPCR,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+116,NTC,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+119,qPCR,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+120,RNA,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+121,SPM,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+122,STT,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+123,SPM,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+124,SPM,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+125,STT,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+126,Upland,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+129,Cepheid,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+130,Cepheid,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+133,GraphPad,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+134,ANOVA,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+135,Grubb,1,GENE_PRODUCT,On-orbit quantitative PCR analyses
+136,qPCR,1,GENE_PRODUCT,qPCR in microgravity
+138,Assays,1,GENE_PRODUCT,qPCR in microgravity
+139,Cepheid,1,GENE_PRODUCT,qPCR in microgravity
+141,qPCR,1,GENE_PRODUCT,qPCR in microgravity
+142,ISS,1,GENE_PRODUCT,qPCR in microgravity
+143,qPCR,1,GENE_PRODUCT,qPCR in microgravity
+145,qPCR,1,GENE_PRODUCT,qPCR in microgravity
+147,Microgravity,1,PHENOTYPE,qPCR in microgravity
+148,NTC,1,GENE_PRODUCT,qPCR in microgravity
+149,NTC,1,GENE_PRODUCT,qPCR in microgravity
+152,Boxcar,1,GENE_PRODUCT,qPCR in microgravity
+154,RNA,1,GENE_PRODUCT,RNA sample prep and RT-qPCR analysis in microgravity
+155,ANOVA,1,GENE_PRODUCT,RNA sample prep and RT-qPCR analysis in microgravity
+156,RNA,1,GENE_PRODUCT,RNA sample prep and RT-qPCR analysis in microgravity
+157,ISS,1,GENE_PRODUCT,RNA sample prep and RT-qPCR analysis in microgravity
+159,SPM,1,GENE_PRODUCT,RNA sample prep and RT-qPCR analysis in microgravity
+160,RNA,1,GENE_PRODUCT,RNA sample prep and RT-qPCR analysis in microgravity
+161,RNA,1,GENE_PRODUCT,RNA sample prep and RT-qPCR analysis in microgravity
+162,SPM,1,GENE_PRODUCT,RNA sample prep and RT-qPCR analysis in microgravity
+163,SPM,1,GENE_PRODUCT,RNA sample prep and RT-qPCR analysis in microgravity
+164,RNA,1,GENE_PRODUCT,RNA sample prep and RT-qPCR analysis in microgravity
+165,SPM,1,GENE_PRODUCT,RNA sample prep and RT-qPCR analysis in microgravity
+166,Qiagen,1,REAGENT,RNA sample prep and RT-qPCR analysis in microgravity
+167,RNA,1,GENE_PRODUCT,RNA sample prep and RT-qPCR analysis in microgravity
+168,RNA,1,GENE_PRODUCT,RNA sample prep and RT-qPCR analysis in microgravity
+170,RNA,1,GENE_PRODUCT,RNA sample prep and RT-qPCR analysis in microgravity
+171,ISS,1,GENE_PRODUCT,RNA sample prep and RT-qPCR analysis in microgravity
+172,qPCR,1,GENE_PRODUCT,RNA sample prep and RT-qPCR analysis in microgravity
+173,ISS,1,GENE_PRODUCT,RNA sample prep and RT-qPCR analysis in microgravity
+174,FAM,1,GENE_PRODUCT,RNA sample prep and RT-qPCR analysis in microgravity
+176,RNA,1,GENE_PRODUCT,RNA sample prep and RT-qPCR analysis in microgravity
+177,rpl19,1,GENE_PRODUCT,RNA sample prep and RT-qPCR analysis in microgravity
+178,FAM,1,GENE_PRODUCT,Repeat run of E. coli RNA isolation and bubble mitigation
+179,ISS,1,GENE_PRODUCT,DISCUSSION
+180,ISS,1,GENE_PRODUCT,DISCUSSION
+182,RNA,1,GENE_PRODUCT,DISCUSSION
+183,ISS,1,GENE_PRODUCT,DISCUSSION
+184,Cepheid,1,GENE_PRODUCT,DISCUSSION
+186,ISS,1,GENE_PRODUCT,DISCUSSION
+187,RNA,1,GENE_PRODUCT,DISCUSSION
+188,RNA,1,GENE_PRODUCT,DISCUSSION
+189,RNA,1,GENE_PRODUCT,DISCUSSION
+190,SPM,1,GENE_PRODUCT,DISCUSSION
+192,RNA,1,GENE_PRODUCT,DISCUSSION
+193,DNase,1,REAGENT,DISCUSSION
+195,qPCR,1,GENE_PRODUCT,DISCUSSION
+196,qPCR,1,GENE_PRODUCT,DISCUSSION
+197,qPCR,1,GENE_PRODUCT,DISCUSSION
+198,RNA,1,GENE_PRODUCT,DISCUSSION
+199,SPM,1,GENE_PRODUCT,DISCUSSION
+200,qPCR,1,GENE_PRODUCT,DISCUSSION
+201,RNA,1,GENE_PRODUCT,DISCUSSION
+202,SPM,1,GENE_PRODUCT,and S1 Table
+203,qPCR,1,GENE_PRODUCT,and S1 Table
+204,RNA,1,GENE_PRODUCT,and S1 Table
+205,ISS,1,GENE_PRODUCT,and S1 Table
+207,RNA,1,GENE_PRODUCT,and S1 Table
+209,ISS,1,GENE_PRODUCT,and S1 Table
+210,Duplex,1,GENE_PRODUCT,and S1 Table
+211,Triplex,1,GENE_PRODUCT,and S1 Table
+PUB_PMC5587110,PMC5587110,1,PUBLICATION,

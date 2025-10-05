@@ -1,0 +1,374 @@
+{
+  "paper_id": "PMC11263583",
+  "section": "Studying omics for improved spaceflight nutrition",
+  "n_nodes": 9,
+  "n_edges": 36,
+  "nodes": [
+    {
+      "id": 399,
+      "label": "insulin",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Studying omics for improved spaceflight nutrition",
+        "sentence_id": 102,
+        "char_start": 28344,
+        "char_end": 28351,
+        "anchor": "PMC11263583_28344_28351",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 400,
+      "label": "SIR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Studying omics for improved spaceflight nutrition",
+        "sentence_id": 102,
+        "char_start": 28368,
+        "char_end": 28371,
+        "anchor": "PMC11263583_28368_28371",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 401,
+      "label": "veratrol",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Studying omics for improved spaceflight nutrition",
+        "sentence_id": 102,
+        "char_start": 28466,
+        "char_end": 28474,
+        "anchor": "PMC11263583_28466_28474",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 402,
+      "label": "fisetin",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Studying omics for improved spaceflight nutrition",
+        "sentence_id": 102,
+        "char_start": 28544,
+        "char_end": 28551,
+        "anchor": "PMC11263583_28544_28551",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 403,
+      "label": "insulin",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Studying omics for improved spaceflight nutrition",
+        "sentence_id": 102,
+        "char_start": 28632,
+        "char_end": 28639,
+        "anchor": "PMC11263583_28632_28639",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 404,
+      "label": "SIR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Studying omics for improved spaceflight nutrition",
+        "sentence_id": 102,
+        "char_start": 28778,
+        "char_end": 28781,
+        "anchor": "PMC11263583_28778_28781",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 405,
+      "label": "variants",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Studying omics for improved spaceflight nutrition",
+        "sentence_id": 102,
+        "char_start": 28829,
+        "char_end": 28837,
+        "anchor": "PMC11263583_28829_28837",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 406,
+      "label": "SIRT1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Studying omics for improved spaceflight nutrition",
+        "sentence_id": 102,
+        "char_start": 28368,
+        "char_end": 28373,
+        "anchor": "PMC11263583_28368_28373",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 407,
+      "label": "Japanese",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Studying omics for improved spaceflight nutrition",
+        "sentence_id": 102,
+        "char_start": 28520,
+        "char_end": 28528,
+        "anchor": "PMC11263583_28520_28528",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 962,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 399,
+      "target": 400
+    },
+    {
+      "id": 963,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 399,
+      "target": 401
+    },
+    {
+      "id": 964,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 399,
+      "target": 402
+    },
+    {
+      "id": 965,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 399,
+      "target": 403
+    },
+    {
+      "id": 966,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 399,
+      "target": 404
+    },
+    {
+      "id": 967,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 399,
+      "target": 405
+    },
+    {
+      "id": 968,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 399,
+      "target": 406
+    },
+    {
+      "id": 969,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 399,
+      "target": 407
+    },
+    {
+      "id": 973,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 400,
+      "target": 401
+    },
+    {
+      "id": 974,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 400,
+      "target": 402
+    },
+    {
+      "id": 975,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 400,
+      "target": 403
+    },
+    {
+      "id": 976,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 400,
+      "target": 404
+    },
+    {
+      "id": 977,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 400,
+      "target": 405
+    },
+    {
+      "id": 978,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 400,
+      "target": 406
+    },
+    {
+      "id": 979,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 400,
+      "target": 407
+    },
+    {
+      "id": 983,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 401,
+      "target": 402
+    },
+    {
+      "id": 984,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 401,
+      "target": 403
+    },
+    {
+      "id": 985,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 401,
+      "target": 404
+    },
+    {
+      "id": 986,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 401,
+      "target": 405
+    },
+    {
+      "id": 987,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 401,
+      "target": 406
+    },
+    {
+      "id": 988,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 401,
+      "target": 407
+    },
+    {
+      "id": 992,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 402,
+      "target": 403
+    },
+    {
+      "id": 993,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 402,
+      "target": 404
+    },
+    {
+      "id": 994,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 402,
+      "target": 405
+    },
+    {
+      "id": 995,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 402,
+      "target": 406
+    },
+    {
+      "id": 996,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 402,
+      "target": 407
+    },
+    {
+      "id": 1000,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 403,
+      "target": 404
+    },
+    {
+      "id": 1001,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 403,
+      "target": 405
+    },
+    {
+      "id": 1002,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 403,
+      "target": 406
+    },
+    {
+      "id": 1003,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 403,
+      "target": 407
+    },
+    {
+      "id": 1007,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 404,
+      "target": 405
+    },
+    {
+      "id": 1008,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 404,
+      "target": 406
+    },
+    {
+      "id": 1009,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 404,
+      "target": 407
+    },
+    {
+      "id": 1013,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 405,
+      "target": 406
+    },
+    {
+      "id": 1014,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 405,
+      "target": 407
+    },
+    {
+      "id": 1018,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 406,
+      "target": 407
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 20,
+      "largest_component": 9,
+      "removed_components": [
+        5,
+        3,
+        2
+      ]
+    },
+    "page": 3
+  }
+}

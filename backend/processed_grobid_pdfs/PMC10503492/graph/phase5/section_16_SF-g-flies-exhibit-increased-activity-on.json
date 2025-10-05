@@ -1,0 +1,81 @@
+{
+  "paper_id": "PMC10503492",
+  "section": "SFμg flies exhibit increased activity on ISS",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 65,
+      "label": "MIPs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "SFμg flies exhibit increased activity on ISS",
+        "sentence_id": 16,
+        "char_start": 5045,
+        "char_end": 5049,
+        "anchor": "PMC10503492_5045_5049",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 76,
+      "label": "MIP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "SFμg flies exhibit increased activity on ISS",
+        "sentence_id": 16,
+        "char_start": 5537,
+        "char_end": 5540,
+        "anchor": "PMC10503492_5537_5540",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 71,
+      "label": "MIP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "SFμg flies exhibit increased activity on ISS",
+        "sentence_id": 16,
+        "char_start": 5537,
+        "char_end": 5540,
+        "anchor": "PMC10503492_5537_5540",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 85,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 65,
+      "target": 71
+    },
+    {
+      "id": 89,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 65,
+      "target": 76
+    },
+    {
+      "id": 93,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 71,
+      "target": 76
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 12,
+      "largest_component": 3
+    },
+    "page": 3
+  }
+}

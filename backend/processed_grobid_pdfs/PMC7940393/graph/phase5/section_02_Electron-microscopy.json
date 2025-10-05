@@ -1,0 +1,204 @@
+{
+  "paper_id": "PMC7940393",
+  "section": "Electron microscopy",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 501,
+      "label": "fischer",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Electron microscopy",
+        "sentence_id": 109,
+        "char_start": 30584,
+        "char_end": 30591,
+        "anchor": "PMC7940393_30584_30591",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 502,
+      "label": "shaking",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Electron microscopy",
+        "sentence_id": 109,
+        "char_start": 30655,
+        "char_end": 30662,
+        "anchor": "PMC7940393_30655_30662",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 503,
+      "label": "Tri",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Electron microscopy",
+        "sentence_id": 109,
+        "char_start": 30824,
+        "char_end": 30827,
+        "anchor": "PMC7940393_30824_30827",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 504,
+      "label": "SEM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Electron microscopy",
+        "sentence_id": 109,
+        "char_start": 30576,
+        "char_end": 30579,
+        "anchor": "PMC7940393_30576_30579",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 505,
+      "label": "SWT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Electron microscopy",
+        "sentence_id": 109,
+        "char_start": 30607,
+        "char_end": 30610,
+        "anchor": "PMC7940393_30607_30610",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 508,
+      "label": "TEM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Electron microscopy",
+        "sentence_id": 109,
+        "char_start": 30676,
+        "char_end": 30679,
+        "anchor": "PMC7940393_30676_30679",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1042,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 501,
+      "target": 502
+    },
+    {
+      "id": 1043,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 501,
+      "target": 503
+    },
+    {
+      "id": 1044,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 501,
+      "target": 504
+    },
+    {
+      "id": 1045,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 501,
+      "target": 505
+    },
+    {
+      "id": 1048,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 501,
+      "target": 508
+    },
+    {
+      "id": 1053,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 502,
+      "target": 503
+    },
+    {
+      "id": 1054,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 502,
+      "target": 504
+    },
+    {
+      "id": 1055,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 502,
+      "target": 505
+    },
+    {
+      "id": 1058,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 502,
+      "target": 508
+    },
+    {
+      "id": 1063,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 503,
+      "target": 504
+    },
+    {
+      "id": 1064,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 503,
+      "target": 505
+    },
+    {
+      "id": 1067,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 503,
+      "target": 508
+    },
+    {
+      "id": 1072,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 504,
+      "target": 505
+    },
+    {
+      "id": 1075,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 504,
+      "target": 508
+    },
+    {
+      "id": 1082,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 505,
+      "target": 508
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 7,
+      "largest_component": 6,
+      "removed_components": [
+        5,
+        5,
+        5,
+        2
+      ]
+    },
+    "page": 4
+  }
+}

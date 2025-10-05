@@ -1,0 +1,175 @@
+{
+  "paper_id": "PMC7998608",
+  "section": "Multilineage Differentiation Assay",
+  "n_nodes": 9,
+  "n_edges": 8,
+  "nodes": [
+    {
+      "id": 136,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Multilineage Differentiation Assay",
+        "sentence_id": 72,
+        "char_start": 16496,
+        "char_end": 16499,
+        "anchor": "PMC7998608_16496_16499"
+      }
+    },
+    {
+      "id": 137,
+      "label": "AdipoRed",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Multilineage Differentiation Assay",
+        "sentence_id": 72,
+        "char_start": 16717,
+        "char_end": 16725,
+        "anchor": "PMC7998608_16717_16725"
+      }
+    },
+    {
+      "id": 138,
+      "label": "Basel",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Multilineage Differentiation Assay",
+        "sentence_id": 72,
+        "char_start": 16742,
+        "char_end": 16747,
+        "anchor": "PMC7998608_16742_16747"
+      }
+    },
+    {
+      "id": 139,
+      "label": "hASCs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Multilineage Differentiation Assay",
+        "sentence_id": 72,
+        "char_start": 16972,
+        "char_end": 16977,
+        "anchor": "PMC7998608_16972_16977"
+      }
+    },
+    {
+      "id": 175,
+      "label": "hASCs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Multilineage Differentiation Assay",
+        "sentence_id": 104,
+        "char_start": 27226,
+        "char_end": 27231,
+        "anchor": "PMC7998608_27226_27231"
+      }
+    },
+    {
+      "id": 176,
+      "label": "hASCs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Multilineage Differentiation Assay",
+        "sentence_id": 104,
+        "char_start": 27395,
+        "char_end": 27400,
+        "anchor": "PMC7998608_27395_27400"
+      }
+    },
+    {
+      "id": 177,
+      "label": "hASCs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Multilineage Differentiation Assay",
+        "sentence_id": 105,
+        "char_start": 27755,
+        "char_end": 27760,
+        "anchor": "PMC7998608_27755_27760"
+      }
+    },
+    {
+      "id": 178,
+      "label": "hASCs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Multilineage Differentiation Assay",
+        "sentence_id": 105,
+        "char_start": 27924,
+        "char_end": 27929,
+        "anchor": "PMC7998608_27924_27929"
+      }
+    },
+    {
+      "id": 140,
+      "label": "Alcian",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Multilineage Differentiation Assay",
+        "sentence_id": 73,
+        "char_start": 17231,
+        "char_end": 17237,
+        "anchor": "PMC7998608_17231_17237"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 319,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 136,
+      "target": 137
+    },
+    {
+      "id": 320,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 136,
+      "target": 138
+    },
+    {
+      "id": 321,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 136,
+      "target": 139
+    },
+    {
+      "id": 322,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 137,
+      "target": 138
+    },
+    {
+      "id": 323,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 137,
+      "target": 139
+    },
+    {
+      "id": 324,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 138,
+      "target": 139
+    },
+    {
+      "id": 385,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 175,
+      "target": 176
+    },
+    {
+      "id": 386,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 177,
+      "target": 178
+    }
+  ]
+}

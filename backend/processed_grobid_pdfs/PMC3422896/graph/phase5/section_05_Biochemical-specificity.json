@@ -1,0 +1,117 @@
+{
+  "paper_id": "PMC3422896",
+  "section": "Biochemical specificity",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 448,
+      "label": "Rec",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Biochemical specificity",
+        "sentence_id": 128,
+        "char_start": 33773,
+        "char_end": 33776,
+        "anchor": "PMC3422896_33773_33776",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 443,
+      "label": "nitrate",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Biochemical specificity",
+        "sentence_id": 128,
+        "char_start": 33520,
+        "char_end": 33527,
+        "anchor": "PMC3422896_33520_33527",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 452,
+      "label": "nitrate",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Biochemical specificity",
+        "sentence_id": 128,
+        "char_start": 33931,
+        "char_end": 33938,
+        "anchor": "PMC3422896_33931_33938",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 453,
+      "label": "Bachmann",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Biochemical specificity",
+        "sentence_id": 128,
+        "char_start": 33618,
+        "char_end": 33626,
+        "anchor": "PMC3422896_33618_33626",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 556,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 443,
+      "target": 448
+    },
+    {
+      "id": 557,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 443,
+      "target": 452
+    },
+    {
+      "id": 558,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 443,
+      "target": 453
+    },
+    {
+      "id": 560,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 448,
+      "target": 452
+    },
+    {
+      "id": 561,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 448,
+      "target": 453
+    },
+    {
+      "id": 563,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 452,
+      "target": 453
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 18,
+      "largest_component": 4,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 7
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "paper_id": "PMC10628120",
+  "section": "Synthetic ANATOMICAL_SITE",
+  "n_nodes": 5,
+  "n_edges": 4,
+  "nodes": [
+    {
+      "id": 358,
+      "label": "metagenome",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Mapping metagenome sequence reads from ISS to isolated novel species",
+        "sentence_id": 91,
+        "char_start": 19703,
+        "char_end": 19713,
+        "anchor": "PMC10628120_19703_19713",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 492,
+      "label": "ARED's surface",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Phylogeny",
+        "sentence_id": 124,
+        "char_start": 26646,
+        "char_end": 26660,
+        "anchor": "PMC10628120_26646_26660",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 634,
+      "label": "ARED platform",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Arthrobacter burdickii sp. nov.",
+        "sentence_id": 156,
+        "char_start": 33110,
+        "char_end": 33123,
+        "anchor": "PMC10628120_33110_33123",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 849,
+      "label": "respiratory",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Sporosarcina highlanderae sp. nov.",
+        "sentence_id": 203,
+        "char_start": 40254,
+        "char_end": 40265,
+        "anchor": "PMC10628120_40254_40265",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 853,
+      "label": "ARED platform",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Sporosarcina highlanderae sp. nov.",
+        "sentence_id": 205,
+        "char_start": 40438,
+        "char_end": 40451,
+        "anchor": "PMC10628120_40438_40451",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-358-492",
+      "type": "ASSOCIATED",
+      "source": 358,
+      "target": 492
+    },
+    {
+      "id": "synth-358-634",
+      "type": "ASSOCIATED",
+      "source": 358,
+      "target": 634
+    },
+    {
+      "id": "synth-358-849",
+      "type": "ASSOCIATED",
+      "source": 358,
+      "target": 849
+    },
+    {
+      "id": "synth-358-853",
+      "type": "ASSOCIATED",
+      "source": 358,
+      "target": 853
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "ANATOMICAL_SITE",
+    "page": null
+  }
+}

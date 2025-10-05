@@ -1,0 +1,255 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "f) Using Ultrasound to Estimate ICP",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 3180,
+      "label": "elevated",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "f) Using Ultrasound to Estimate ICP",
+        "sentence_id": 1036,
+        "char_start": 171428,
+        "char_end": 171436,
+        "anchor": "PMC4385880_171428_171436",
+        "page": 80,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3181,
+      "label": "ONSD",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "f) Using Ultrasound to Estimate ICP",
+        "sentence_id": 1036,
+        "char_start": 171455,
+        "char_end": 171459,
+        "anchor": "PMC4385880_171455_171459",
+        "page": 80,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3182,
+      "label": "ICP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "f) Using Ultrasound to Estimate ICP",
+        "sentence_id": 1036,
+        "char_start": 171468,
+        "char_end": 171471,
+        "anchor": "PMC4385880_171468_171471",
+        "page": 80,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3183,
+      "label": "ONSD",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "f) Using Ultrasound to Estimate ICP",
+        "sentence_id": 1036,
+        "char_start": 171361,
+        "char_end": 171365,
+        "anchor": "PMC4385880_171361_171365",
+        "page": 80,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3184,
+      "label": "CSF",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "f) Using Ultrasound to Estimate ICP",
+        "sentence_id": 1036,
+        "char_start": 171437,
+        "char_end": 171440,
+        "anchor": "PMC4385880_171437_171440",
+        "page": 80,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3185,
+      "label": "ONSD",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "f) Using Ultrasound to Estimate ICP",
+        "sentence_id": 1036,
+        "char_start": 171455,
+        "char_end": 171459,
+        "anchor": "PMC4385880_171455_171459",
+        "page": 80,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3186,
+      "label": "ICP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "f) Using Ultrasound to Estimate ICP",
+        "sentence_id": 1036,
+        "char_start": 171468,
+        "char_end": 171471,
+        "anchor": "PMC4385880_171468_171471",
+        "page": 80,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 3062,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3180,
+      "target": 3181
+    },
+    {
+      "id": 3063,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3180,
+      "target": 3182
+    },
+    {
+      "id": 3064,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3180,
+      "target": 3183
+    },
+    {
+      "id": 3065,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3180,
+      "target": 3184
+    },
+    {
+      "id": 3066,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3180,
+      "target": 3185
+    },
+    {
+      "id": 3067,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3180,
+      "target": 3186
+    },
+    {
+      "id": 3068,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3181,
+      "target": 3182
+    },
+    {
+      "id": 3069,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3181,
+      "target": 3183
+    },
+    {
+      "id": 3070,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3181,
+      "target": 3184
+    },
+    {
+      "id": 3071,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3181,
+      "target": 3185
+    },
+    {
+      "id": 3072,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3181,
+      "target": 3186
+    },
+    {
+      "id": 3073,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3182,
+      "target": 3183
+    },
+    {
+      "id": 3074,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3182,
+      "target": 3184
+    },
+    {
+      "id": 3075,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3182,
+      "target": 3185
+    },
+    {
+      "id": 3076,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3182,
+      "target": 3186
+    },
+    {
+      "id": 3077,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3183,
+      "target": 3184
+    },
+    {
+      "id": 3078,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3183,
+      "target": 3185
+    },
+    {
+      "id": 3079,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3183,
+      "target": 3186
+    },
+    {
+      "id": 3080,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3184,
+      "target": 3185
+    },
+    {
+      "id": 3081,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3184,
+      "target": 3186
+    },
+    {
+      "id": 3082,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3185,
+      "target": 3186
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 7,
+      "largest_component": 7,
+      "removed_components": [
+        4,
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 80
+  }
+}

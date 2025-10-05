@@ -1,0 +1,106 @@
+{
+  "paper_id": "PMC5587110",
+  "section": "Hardware testing",
+  "n_nodes": 6,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 80,
+      "label": "Techshot",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Hardware testing",
+        "sentence_id": 60,
+        "char_start": 15724,
+        "char_end": 15732,
+        "anchor": "PMC5587110_15724_15732"
+      }
+    },
+    {
+      "id": 84,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Hardware testing",
+        "sentence_id": 60,
+        "char_start": 16008,
+        "char_end": 16011,
+        "anchor": "PMC5587110_16008_16011"
+      }
+    },
+    {
+      "id": 85,
+      "label": "SPM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Hardware testing",
+        "sentence_id": 60,
+        "char_start": 16036,
+        "char_end": 16039,
+        "anchor": "PMC5587110_16036_16039"
+      }
+    },
+    {
+      "id": 86,
+      "label": "1x10",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Hardware testing",
+        "sentence_id": 62,
+        "char_start": 16300,
+        "char_end": 16304,
+        "anchor": "PMC5587110_16300_16304"
+      }
+    },
+    {
+      "id": 87,
+      "label": "BioGX",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Hardware testing",
+        "sentence_id": 65,
+        "char_start": 16668,
+        "char_end": 16673,
+        "anchor": "PMC5587110_16668_16673"
+      }
+    },
+    {
+      "id": 90,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Hardware testing",
+        "sentence_id": 69,
+        "char_start": 17099,
+        "char_end": 17102,
+        "anchor": "PMC5587110_17099_17102"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 131,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 80,
+      "target": 84
+    },
+    {
+      "id": 132,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 80,
+      "target": 85
+    },
+    {
+      "id": 142,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 84,
+      "target": 85
+    }
+  ]
+}

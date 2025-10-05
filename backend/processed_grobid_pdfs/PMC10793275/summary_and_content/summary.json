@@ -1,0 +1,158 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "This paper reports the draft genome sequence of Sphingomonas strain Sph5, isolated from a tap water filtration membrane. Sphingomonadaceae are common membrane colonizers and biofilm formers, and this study contributes to understanding long-term genetic changes in drinking water biofilm species. The isolate was identified as Sphingomonas paucimobilis through whole genome sequencing and de novo assembly, providing insights into strain-specific traits associated with membrane biofouling, given that Sphingomonas spp. are prevalent in drinking water biofilms.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "[v2.5.4 (13)], MAFFT [v7.490 (14)], and FastTree [v.2.1.10(15)]",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.jpeg"
+      },
+      {
+        "id": "fig_2",
+        "caption": ".",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.jpeg"
+      },
+      {
+        "id": "fig_3",
+        "caption": "FIG 1 Orthofindergenerated rooted tree of 50 complete Sphingomonas genomes with the Sph5 strain.Branch lengths represent evolutionary distance.We used the multiple-sequence alignment option with MAFFT and used FastTree to infer the trees.The mathematical parameters used",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.jpeg"
+      },
+      {
+        "id": "fig_5",
+        "caption": "Data curation, Formal analysis, Investigation, Writing -original draft, Writing -review and editing | Kristina Buss, Data curation, Formal analysis, Software, Writing -original draft, Writing -review and editing | Joy M.",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_5.png"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Genome Sequencing and Assembly",
+      "summary": "Sphingomonas spp. Sph5 was isolated from a biofilm on a Nadir MP005 microfiltration membrane. Genomic DNA was extracted and sequenced using Illumina short-read sequencing. Assembly was performed using SPADES, and contigs were aligned to NCBI databases. Completeness was estimated using BUSCO, revealing high completeness (97.7% complete and single copy). Nineteen million 2 × 150 bp reads were obtained on a NovaSeq (Illumina), with an average Phred score of 33-36.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Phylogenetic Analysis and Annotation",
+      "summary": "Annotations were predicted with Prokka, using S. sanguinis and S. paucimobilis as references. Orthogroup-based phylogeny construction was performed with Orthofinder, confirming that Sph5 is closest to S. paucimobilis, but related to S. sanguinis (Fig. 1). RagTag was used for scaffolding, and the resulting assembly was realigned with BWA, SamTools, and Picard. Re-annotation with Prokka predicts 4,321 CDS, 3 rRNAs, 54 tRNAs, 1 tmRNA, and 1 repeat region. Of the CDS, 3,342 could be functionally annotated.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": {
+    "heading": "Conclusion",
+    "summary": "paucimobilis ranged from 99.77%-99.95%,while ANI between Sph5 and S. Annotations were predicted with Prokka [v1.14.6 (12)], given S. paucimobilis references (Table 1), and used for orthogroup-based phylogeny construc tion with Orthofinder  The WGS phylogeny (Fig. 1) confirms that Sph5 is closest to S. Re-annotation with Prokka predicts 4,321 CDS, 3 rRNAs, 54 tRNAs, 1 tmRNA, and 1 repeat region.Of the CDS, 3,342 could be functionally annotated."
+  },
+  "keywords": [
+    "sphingomonas",
+    "draft genome",
+    "wgs",
+    "biofilm",
+    "membrane biofouling",
+    "sphingomonadaceae",
+    "water",
+    "genome sequence",
+    "sphingomonas paucimobilis",
+    "filtration membrane"
+  ],
+  "topics": [
+    "microbiology",
+    "genomics",
+    "biofilms"
+  ],
+  "_meta": {
+    "paper_id": "sha256:c6cb5720c3ed7fe5cda76854c330862820f69c04fd725b6386822b879e63ca0e",
+    "paper_title": "Draft genome sequence of Sphingomonas paucimobilis strain Sph5, isolated from tap water filtration membrane",
+    "generated_at": "2025-10-05T10:35:53Z",
+    "word_count": 284,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_5"
+    ],
+    "equations": [],
+    "keywords": [
+      "sphingomonas",
+      "draft genome",
+      "wgs",
+      "biofilm",
+      "membrane biofouling",
+      "sphingomonadaceae",
+      "water",
+      "genome sequence",
+      "sphingomonas paucimobilis",
+      "filtration membrane"
+    ],
+    "topics": [
+      "microbiology",
+      "genomics",
+      "biofilms"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 2394,
+      "completion_tokens": 592,
+      "total_tokens": 2986,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000239,
+      "output_usd": 0.000237,
+      "total_usd": 0.000476
+    },
+    "cost": {
+      "input_usd": 0.000239,
+      "output_usd": 0.000237,
+      "total_usd": 0.000476
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [],
+      "corrupted_detected": [
+        "fig_1"
+      ],
+      "original_total": 1,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_5"
+      ]
+    }
+  },
+  "figures": {
+    "fig_1": {
+      "label": "FIG 1",
+      "caption": "FIG 1 Orthofindergenerated rooted tree of 50 complete Sphingomonas genomes with the Sph5 strain, showing branch lengths representing evolutionary distance.",
+      "type": "figure"
+    }
+  },
+  "equations": []
+}

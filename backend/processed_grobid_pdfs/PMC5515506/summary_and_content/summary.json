@@ -1,0 +1,185 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "The study investigates the effects of simulated microgravity on human mesenchymal stem cells (hMSCs) using clinorotation, a ground-based technique that simulates weightlessness. Understanding the biological mechanisms of gravity's role in human health is crucial for long-term space exploration. Previous research has highlighted the adverse effects of space travel, such as bone loss and muscle tissue degeneration. This study focuses on hMSCs due to their involvement in musculoskeletal functions and bone repair. Clinostats offer a cost-effective alternative to space-based research, allowing for controlled microgravity simulation.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Figure 1.Framework of how perceived gravity may bias cellular events under clinorotation.(a) The clinochip system consists of a stationary non-rotated control chip and a rotating clinochip, the speed of which can be controlled.(b) In the",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.jpeg"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Figure 2.",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.jpeg"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Figure 3.",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.jpeg"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Figure 4.",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.jpeg"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Experimental Setup",
+      "summary": "A custom microscope-mounted gear system was used to rotate lab-on-chip devices within an environmental chamber. This system allowed for concurrent static control conditions. The setup included an Olympus IX-81 epi-fluorescence microscope for visualization. A clinochip device was used to visualize cell spreading, consisting of polydimethylsiloxane sandwiched between glass layers with channels for cell seeding. Cell migration was analyzed using Ibidi Chemotaxis slides, with cells constrained to minimize centrifugal effects. Nerve growth factor (NGF) was used to create a chemical gradient to study hMSC chemotaxis.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Cell Morphology Platform",
+      "summary": "A custom clinochip device was fabricated, consisting of polydimethylsiloxane sandwiched between two glass layers with a central channel. The channel was treated with fibronectin to promote cell attachment. hMSCs were seeded into the clinochip channels and incubated before commencing clinorotation. This platform allowed for the visualization of cell spreading and changes in cell morphology over time under simulated microgravity conditions.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Cell Migration Platform",
+      "summary": "Cell migration was analyzed using Ibidi Chemotaxis slides, which fit within the clinorotation device. The chambers constrained cells to a narrow region to minimize centrifugal effects. The chambers were treated with fibronectin, followed by hMSC seeding and incubation. NGF was used to create a chemical gradient to induce chemotaxis. This platform facilitated the study of hMSC migration behavior under simulated microgravity, specifically in response to a chemical signal.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Clinorotation and Time-Lapse Imaging",
+      "summary": "Morphology and chemotaxis platforms were rotated along the channels' axis, ensuring minimal residual accelerations. Channels were bubble-free to avoid external effects. Analyses focused on cells near the rotation axis to prevent edge effects. Clinorotation was initiated at 30, 60, or 75 rpm after cell attachment and maintained for 8 hours, with 0 rpm as the control. Rotation paused hourly for bright-field imaging. Post-experiment, cells were fixed, stained for actin and vinculin, and images were analyzed using ImageJ.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Simulated Microgravity Affects Cell Spreading",
+      "summary": "Simulated microgravity significantly impacted cell spreading. Non-rotated cells markedly increased their spreading area within 1 hour, reaching 3000 μm² by 8 hours. Clinorotated cells exhibited impeded spreading almost immediately, with higher angular frequencies causing greater inhibition. After 8 hours, cells at 30 rpm had an average area of 2750 μm², while cells at 60 and 75 rpm had significantly smaller areas. The time required for cells to reach 2000 μm² was within 1 hour for controls, 4 hours for 30 rpm, and 8 hours for 60 rpm.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Cell Viability and Recovery After Clinorotation",
+      "summary": "Cell viability was assessed using calcein-AM and ethidium homodimer-1, revealing no significant difference in viability or cell number compared to controls. Cells exposed to 75 rpm remained viable without evidence of apoptosis.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Simulated Microgravity Inhibits Cell Migration",
+      "summary": "",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Discussion",
+      "summary": "",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": "The study demonstrates that hMSCs respond to clinorotation by adopting more rounded morphologies, with the angular frequency influencing the rate of perturbation. Higher clinorotation speeds resulted in greater inhibition of cell spreading. Clinorotation also compromised cell motility, with most cells exhibiting retraction. These findings suggest that a cell's ability to sense the changing gravity vector depends on the rate of perturbation, which has implications for understanding cellular behavior in microgravity environments.",
+  "keywords": [
+    "clinorotation",
+    "mesenchymal stem cells",
+    "microgravity simulation",
+    "cell morphology",
+    "cell migration",
+    "angular frequency",
+    "chemotaxis",
+    "cell spreading",
+    "hms cs",
+    "nerve growth factor"
+  ],
+  "topics": [
+    "cell biology",
+    "microgravity research",
+    "stem cell behavior"
+  ],
+  "_meta": {
+    "paper_id": "sha256:02a0ac31ce049f48779fa875e8dad8e52e410f4cb6f3c3ab8dd3940cf4e5db4c",
+    "paper_title": "Effects of angular frequency during clinorotation on mesenchymal stem cell morphology and migration",
+    "generated_at": "2025-10-05T10:46:33Z",
+    "word_count": 492,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "clinorotation",
+      "mesenchymal stem cells",
+      "microgravity simulation",
+      "cell morphology",
+      "cell migration",
+      "angular frequency",
+      "chemotaxis",
+      "cell spreading",
+      "hms cs",
+      "nerve growth factor"
+    ],
+    "topics": [
+      "cell biology",
+      "microgravity research",
+      "stem cell behavior"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 5328,
+      "completion_tokens": 1282,
+      "total_tokens": 6610,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000533,
+      "output_usd": 0.000513,
+      "total_usd": 0.001046
+    },
+    "cost": {
+      "input_usd": 0.000533,
+      "output_usd": 0.000513,
+      "total_usd": 0.001046
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [],
+      "corrupted_detected": [
+        "fig_2",
+        "fig_4",
+        "fig_5"
+      ],
+      "original_total": 3,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

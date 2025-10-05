@@ -1,0 +1,207 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "Exploration missions pose environmental challenges to astronauts, including gravitational changes and radiation, impacting the CNS. The CNS is vulnerable due to its lipid concentration and energy demands, leading to behavioral deficits. Studying these effects in humans is limited, necessitating animal models like fruit flies to understand the molecular mechanisms. This study uses Drosophila to investigate the impact of microgravity (μg) and simulated Earth gravity (1g) on the fly CNS during spaceflight.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Figure 6D, a non-parametric t-test (Mann-Whitney test) was performed to compare all conditions (Earth, SF1g, and SFμg) within their respective time points (R+0, R+25).A value of p<0.05 was considered statistically significant.The error bars in the",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.jpeg"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Figure 1: Inflight behavioral analysis shows hyperactivity in microgravity.(A) Schematic of MVP-Fly01 mission outline depicting the 34-days mission on ISS.Camera represents inflight videos that were recorded to monitor fly health and behavior.Onboard operations included freezing",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.jpeg"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Figure 2: CNS-associated deficits in microgravity flies.(A) Decreased climbing ability of space-flown flies (n=90-120).(B) Representative image of fly brain stained with neuronal marker, anti-ELAV; neuronal cortex marked by the dashed outer white line and neuropil",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.jpeg"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Figure 3: Global overview of multi-omics analysis on flies frozen in space.(A) Schematic showing transcriptomics and proteomics sample processing.Table provides a global view of the total number of differentially up and down regulated genes (DEGs)",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.jpeg"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "MVP-Fly-01 Mission Overview",
+      "summary": "The MVP-Fly-01 mission on the ISS studied the effects of spaceflight, combining μg with radiation and elevated CO2. Two centrifuges maintained flies in μg (SFμg) and simulated Earth gravity (SF1g), acting as an on-orbit control. Postflight ground control mimicked spaceflight conditions. Flies were used for behavioral, morphological, and acclimation analyses.",
+      "figures": []
+    },
+    {
+      "heading": "Increased Activity in SFμg Flies",
+      "summary": "An algorithm quantified fly activity from video recordings, showing that SFμg flies exhibited significantly greater activity levels than SF1g flies. This difference was observed except around mission days 20 and 28, where initial fly emergence and high fly density might have influenced activity.",
+      "figures": []
+    },
+    {
+      "heading": "Behavioral and Neuronal Deficits in Microgravity",
+      "summary": "Postflight, climbing ability assays revealed significant deficits in SFμg males compared to Earth males. Brain staining showed a slight reduction in brain area of SFμg female flies. Morphological quantification showed a decrease in neuronal cortex area, alongside increased apoptosis and oxidative DNA damage in the brains of SFμg flies.",
+      "figures": []
+    },
+    {
+      "heading": "Global Omics Analysis of Brain Changes",
+      "summary": "Transcriptomics and proteomics analyses revealed differential expression of genes and proteins in SFμg and SF1g flies compared to Earth controls. SFμg flies showed differential expression of 1014 genes (females) and 507 genes (males) while SF1g flies showed differential expression of 80 genes (females) and 601 genes (males) compared to earth controls. The intersection within differentially expressed proteins across experimental conditions yielded more hits compared to differentially expressed genes, suggesting alterations in transcripts and protein levels when flies are reared in space conditions compared to Earth condition.",
+      "figures": []
+    },
+    {
+      "heading": "Metabolic Pathway and Oxidative Phosphorylation Alterations",
+      "summary": "Omics analysis highlighted enriched GO biological processes, including cuticle development, oxidative phosphorylation, and metabolic processes. Proteomic data of SFμg flies showed enrichment of pathways such as endocytosis, cellular metabolic responsive pathways, pyruvate metabolism, oxidative phosphorylation, and amino acid metabolism, indicating metabolic and cellular stress. Analysis of cellular respiration revealed perturbations in the biological processes and cellular components encompassing every step of the pathway.",
+      "figures": []
+    },
+    {
+      "heading": "Expression of Stress-Inducible Proteins",
+      "summary": "Spaceflight altered metabolic pathways and increased cellular stress, with significant upregulation of heat shock proteins (HSPs) in both spaceflight conditions. Increased neuronal loss, apoptosis, and oxidative damage in the fly brain confirm the effects of oxidative stress during spaceflight. Altered expression of proteins enriched in neuronal projection, neuron death, axonogenesis, and synaptic transmission was observed in SFμg flies.",
+      "figures": []
+    },
+    {
+      "heading": "Persistent Effects of Spaceflight Exposure",
+      "summary": "Proteomics analysis suggests enrichment of behavioral and aging markers in SF1g and SFμg flies, with upregulation of HSPs and downregulation of proteins associated with oxidative stress response. Longitudinally, brain morphology of SF1g and SFμg was altered compared to Earth controls. Significant reduction of DA neurons was observed early in SFμg flies.",
+      "figures": []
+    },
+    {
+      "heading": "Discussion",
+      "summary": "The study provides insights into spaceflight effects on the brain at molecular, morphological, and behavioral levels using the MVP fruit fly space habitat.",
+      "figures": []
+    },
+    {
+      "heading": "Limitations of the Study",
+      "summary": ""
+    }
+  ],
+  "conclusion": "This study provides insights into the neurological impacts of spaceflight, demonstrating that artificial gravity can partially mitigate these effects. The multi-omics approach reveals molecular changes related to stress, metabolism, and neuronal function, enhancing understanding of the risks associated with space travel.",
+  "keywords": [
+    "spaceflight",
+    "microgravity",
+    "drosophila",
+    "central nervous system",
+    "artificial gravity",
+    "proteomics",
+    "transcriptomics",
+    "oxidative stress",
+    "neurological deficits",
+    "heat shock proteins"
+  ],
+  "topics": [
+    "space biology",
+    "neuroscience",
+    "genomics"
+  ],
+  "_meta": {
+    "paper_id": "sha256:d93cf3164b19a1f03ed3856600502f07e68b1270b2d1b8b87bc72716960e44ee",
+    "paper_title": "Artificial Gravity Partially Protects Space-induced Neurological Deficits in Drosophila melanogaster",
+    "generated_at": "2025-10-05T10:33:46Z",
+    "word_count": 494,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "spaceflight",
+      "microgravity",
+      "drosophila",
+      "central nervous system",
+      "artificial gravity",
+      "proteomics",
+      "transcriptomics",
+      "oxidative stress",
+      "neurological deficits",
+      "heat shock proteins"
+    ],
+    "topics": [
+      "space biology",
+      "neuroscience",
+      "genomics"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 9196,
+      "completion_tokens": 1132,
+      "total_tokens": 10328,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.00092,
+      "output_usd": 0.000453,
+      "total_usd": 0.001372
+    },
+    "cost": {
+      "input_usd": 0.00092,
+      "output_usd": 0.000453,
+      "total_usd": 0.001372
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [
+        {
+          "id": "fig_4",
+          "score": -9999,
+          "caption_wc": 99
+        },
+        {
+          "id": "fig_5",
+          "score": -9999,
+          "caption_wc": 144
+        },
+        {
+          "id": "fig_6",
+          "score": -9999,
+          "caption_wc": 110
+        },
+        {
+          "id": "fig_7",
+          "score": -9999,
+          "caption_wc": 88
+        }
+      ],
+      "corrupted_detected": [
+        "fig_1",
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4",
+        "fig_5",
+        "fig_6",
+        "fig_7"
+      ],
+      "original_total": 8,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

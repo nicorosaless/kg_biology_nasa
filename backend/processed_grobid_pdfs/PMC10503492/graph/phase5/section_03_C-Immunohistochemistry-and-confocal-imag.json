@@ -1,0 +1,376 @@
+{
+  "paper_id": "PMC10503492",
+  "section": "C. Immunohistochemistry and confocal imaging of brains-F1",
+  "n_nodes": 9,
+  "n_edges": 36,
+  "nodes": [
+    {
+      "id": 819,
+      "label": "Total",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "C. Immunohistochemistry and confocal imaging of brains-F1",
+        "sentence_id": 207,
+        "char_start": 59031,
+        "char_end": 59036,
+        "anchor": "PMC10503492_59031_59036",
+        "page": 30,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 820,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "C. Immunohistochemistry and confocal imaging of brains-F1",
+        "sentence_id": 207,
+        "char_start": 59037,
+        "char_end": 59040,
+        "anchor": "PMC10503492_59037_59040",
+        "page": 30,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 821,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "C. Immunohistochemistry and confocal imaging of brains-F1",
+        "sentence_id": 207,
+        "char_start": 59061,
+        "char_end": 59064,
+        "anchor": "PMC10503492_59061_59064",
+        "page": 30,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 822,
+      "label": "Protein",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "C. Immunohistochemistry and confocal imaging of brains-F1",
+        "sentence_id": 207,
+        "char_start": 59065,
+        "char_end": 59072,
+        "anchor": "PMC10503492_59065_59072",
+        "page": 30,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 824,
+      "label": "Nor",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "C. Immunohistochemistry and confocal imaging of brains-F1",
+        "sentence_id": 207,
+        "char_start": 59092,
+        "char_end": 59095,
+        "anchor": "PMC10503492_59092_59095",
+        "page": 30,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 828,
+      "label": "protein",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "C. Immunohistochemistry and confocal imaging of brains-F1",
+        "sentence_id": 207,
+        "char_start": 59227,
+        "char_end": 59234,
+        "anchor": "PMC10503492_59227_59234",
+        "page": 30,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 829,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "C. Immunohistochemistry and confocal imaging of brains-F1",
+        "sentence_id": 207,
+        "char_start": 59037,
+        "char_end": 59040,
+        "anchor": "PMC10503492_59037_59040",
+        "page": 30,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 830,
+      "label": "Norgen",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "C. Immunohistochemistry and confocal imaging of brains-F1",
+        "sentence_id": 207,
+        "char_start": 59092,
+        "char_end": 59098,
+        "anchor": "PMC10503492_59092_59098",
+        "page": 30,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 831,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "C. Immunohistochemistry and confocal imaging of brains-F1",
+        "sentence_id": 207,
+        "char_start": 59219,
+        "char_end": 59222,
+        "anchor": "PMC10503492_59219_59222",
+        "page": 30,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1101,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 819,
+      "target": 820
+    },
+    {
+      "id": 1102,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 819,
+      "target": 821
+    },
+    {
+      "id": 1103,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 819,
+      "target": 822
+    },
+    {
+      "id": 1104,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 819,
+      "target": 824
+    },
+    {
+      "id": 1105,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 819,
+      "target": 828
+    },
+    {
+      "id": 1106,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 819,
+      "target": 829
+    },
+    {
+      "id": 1107,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 819,
+      "target": 830
+    },
+    {
+      "id": 1108,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 819,
+      "target": 831
+    },
+    {
+      "id": 1109,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 820,
+      "target": 821
+    },
+    {
+      "id": 1110,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 820,
+      "target": 822
+    },
+    {
+      "id": 1111,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 820,
+      "target": 824
+    },
+    {
+      "id": 1112,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 820,
+      "target": 828
+    },
+    {
+      "id": 1113,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 820,
+      "target": 829
+    },
+    {
+      "id": 1114,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 820,
+      "target": 830
+    },
+    {
+      "id": 1115,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 820,
+      "target": 831
+    },
+    {
+      "id": 1116,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 821,
+      "target": 822
+    },
+    {
+      "id": 1117,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 821,
+      "target": 824
+    },
+    {
+      "id": 1118,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 821,
+      "target": 828
+    },
+    {
+      "id": 1119,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 821,
+      "target": 829
+    },
+    {
+      "id": 1120,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 821,
+      "target": 830
+    },
+    {
+      "id": 1121,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 821,
+      "target": 831
+    },
+    {
+      "id": 1122,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 822,
+      "target": 824
+    },
+    {
+      "id": 1123,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 822,
+      "target": 828
+    },
+    {
+      "id": 1124,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 822,
+      "target": 829
+    },
+    {
+      "id": 1125,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 822,
+      "target": 830
+    },
+    {
+      "id": 1126,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 822,
+      "target": 831
+    },
+    {
+      "id": 1127,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 824,
+      "target": 828
+    },
+    {
+      "id": 1128,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 824,
+      "target": 829
+    },
+    {
+      "id": 1129,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 824,
+      "target": 830
+    },
+    {
+      "id": 1130,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 824,
+      "target": 831
+    },
+    {
+      "id": 1131,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 828,
+      "target": 829
+    },
+    {
+      "id": 1132,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 828,
+      "target": 830
+    },
+    {
+      "id": 1133,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 828,
+      "target": 831
+    },
+    {
+      "id": 1134,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 829,
+      "target": 830
+    },
+    {
+      "id": 1135,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 829,
+      "target": 831
+    },
+    {
+      "id": 1136,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 830,
+      "target": 831
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 6,
+      "removed_orphans": 0,
+      "largest_component": 9,
+      "removed_components": [
+        9,
+        7,
+        6,
+        6,
+        3
+      ]
+    },
+    "page": 30
+  }
+}

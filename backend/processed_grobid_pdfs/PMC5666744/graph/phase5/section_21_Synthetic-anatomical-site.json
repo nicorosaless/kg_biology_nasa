@@ -1,0 +1,157 @@
+{
+  "paper_id": "PMC5666744",
+  "section": "Synthetic ANATOMICAL_SITE",
+  "n_nodes": 7,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 21,
+      "label": "mitochondrial DNA",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 6,
+        "char_start": 1614,
+        "char_end": 1631,
+        "anchor": "PMC5666744_1614_1631",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 365,
+      "label": "bone marrow",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight Causes Broad Alterations in Transcriptome Profiles in the Liver",
+        "sentence_id": 83,
+        "char_start": 21329,
+        "char_end": 21340,
+        "anchor": "PMC5666744_21329_21340",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 421,
+      "label": "mitochondrial",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Pathways Involved in Lipid Membrane Metabolism and Protein Biosynthesis Are Enriched in Multi-'Omics Datasets from Livers of Spaceflight Mice",
+        "sentence_id": 95,
+        "char_start": 25366,
+        "char_end": 25379,
+        "anchor": "PMC5666744_25366_25379",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 470,
+      "label": "bone marrow stem",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Pathways Involved in Lipid Membrane Metabolism and Protein Biosynthesis Are Enriched in Multi-'Omics Datasets from Livers of Spaceflight Mice",
+        "sentence_id": 104,
+        "char_start": 27860,
+        "char_end": 27876,
+        "anchor": "PMC5666744_27860_27876",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 551,
+      "label": "bone marrow tissues",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Pathways Involved in Lipid Membrane Metabolism and Protein Biosynthesis Are Enriched in Multi-'Omics Datasets from Livers of Spaceflight Mice",
+        "sentence_id": 126,
+        "char_start": 33011,
+        "char_end": 33030,
+        "anchor": "PMC5666744_33011_33030",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 562,
+      "label": "bone marrow tissues",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Pathways Involved in Lipid Membrane Metabolism and Protein Biosynthesis Are Enriched in Multi-'Omics Datasets from Livers of Spaceflight Mice",
+        "sentence_id": 128,
+        "char_start": 33787,
+        "char_end": 33806,
+        "anchor": "PMC5666744_33787_33806",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 617,
+      "label": "Liver lobes",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Animals and Sample Collection",
+        "sentence_id": 147,
+        "char_start": 38817,
+        "char_end": 38828,
+        "anchor": "PMC5666744_38817_38828",
+        "page": 14,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-21-365",
+      "type": "ASSOCIATED",
+      "source": 21,
+      "target": 365
+    },
+    {
+      "id": "synth-21-421",
+      "type": "ASSOCIATED",
+      "source": 21,
+      "target": 421
+    },
+    {
+      "id": "synth-21-470",
+      "type": "ASSOCIATED",
+      "source": 21,
+      "target": 470
+    },
+    {
+      "id": "synth-21-551",
+      "type": "ASSOCIATED",
+      "source": 21,
+      "target": 551
+    },
+    {
+      "id": "synth-21-562",
+      "type": "ASSOCIATED",
+      "source": 21,
+      "target": 562
+    },
+    {
+      "id": "synth-21-617",
+      "type": "ASSOCIATED",
+      "source": 21,
+      "target": 617
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "ANATOMICAL_SITE",
+    "page": null
+  }
+}

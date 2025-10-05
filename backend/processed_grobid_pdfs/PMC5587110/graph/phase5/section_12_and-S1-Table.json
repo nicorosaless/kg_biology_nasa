@@ -1,0 +1,132 @@
+{
+  "paper_id": "PMC5587110",
+  "section": "and S1 Table",
+  "n_nodes": 8,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 203,
+      "label": "qPCR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "and S1 Table",
+        "sentence_id": 206,
+        "char_start": 41777,
+        "char_end": 41781,
+        "anchor": "PMC5587110_41777_41781"
+      }
+    },
+    {
+      "id": 204,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "and S1 Table",
+        "sentence_id": 206,
+        "char_start": 41961,
+        "char_end": 41964,
+        "anchor": "PMC5587110_41961_41964"
+      }
+    },
+    {
+      "id": 205,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "and S1 Table",
+        "sentence_id": 209,
+        "char_start": 42557,
+        "char_end": 42560,
+        "anchor": "PMC5587110_42557_42560"
+      }
+    },
+    {
+      "id": 207,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "and S1 Table",
+        "sentence_id": 209,
+        "char_start": 42681,
+        "char_end": 42684,
+        "anchor": "PMC5587110_42681_42684"
+      }
+    },
+    {
+      "id": 210,
+      "label": "Duplex",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "and S1 Table",
+        "sentence_id": 211,
+        "char_start": 43142,
+        "char_end": 43148,
+        "anchor": "PMC5587110_43142_43148"
+      }
+    },
+    {
+      "id": 211,
+      "label": "Triplex",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "and S1 Table",
+        "sentence_id": 211,
+        "char_start": 43153,
+        "char_end": 43160,
+        "anchor": "PMC5587110_43153_43160"
+      }
+    },
+    {
+      "id": 202,
+      "label": "SPM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "and S1 Table",
+        "sentence_id": 202,
+        "char_start": 40900,
+        "char_end": 40903,
+        "anchor": "PMC5587110_40900_40903"
+      }
+    },
+    {
+      "id": 209,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "and S1 Table",
+        "sentence_id": 210,
+        "char_start": 42902,
+        "char_end": 42905,
+        "anchor": "PMC5587110_42902_42905"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 223,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 203,
+      "target": 204
+    },
+    {
+      "id": 225,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 205,
+      "target": 207
+    },
+    {
+      "id": 230,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 210,
+      "target": 211
+    }
+  ]
+}

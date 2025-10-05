@@ -1,0 +1,74 @@
+{
+  "paper_id": "PMC4136787",
+  "section": "Behavior in the open-field test",
+  "n_nodes": 4,
+  "n_edges": 2,
+  "nodes": [
+    {
+      "id": 144,
+      "label": "SFV",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Behavior in the open-field test",
+        "sentence_id": 261,
+        "char_start": 45639,
+        "char_end": 45642,
+        "anchor": "PMC4136787_45639_45642"
+      }
+    },
+    {
+      "id": 154,
+      "label": "SFV",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Behavior in the open-field test",
+        "sentence_id": 262,
+        "char_start": 46243,
+        "char_end": 46246,
+        "anchor": "PMC4136787_46243_46246"
+      }
+    },
+    {
+      "id": 149,
+      "label": "SFV",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Behavior in the open-field test",
+        "sentence_id": 261,
+        "char_start": 45968,
+        "char_end": 45971,
+        "anchor": "PMC4136787_45968_45971"
+      }
+    },
+    {
+      "id": 158,
+      "label": "SFV",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Behavior in the open-field test",
+        "sentence_id": 262,
+        "char_start": 46553,
+        "char_end": 46556,
+        "anchor": "PMC4136787_46553_46556"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 150,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 144,
+      "target": 149
+    },
+    {
+      "id": 188,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 154,
+      "target": 158
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "Artemis I and Mission Readiness",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 194,
+      "label": "Pacific",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis I and Mission Readiness",
+        "sentence_id": 99,
+        "char_start": 18006,
+        "char_end": 18013,
+        "anchor": "PMC10284894_18006_18013",
+        "page": 19,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 195,
+      "label": "Ocean",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis I and Mission Readiness",
+        "sentence_id": 99,
+        "char_start": 18014,
+        "char_end": 18019,
+        "anchor": "PMC10284894_18014_18019",
+        "page": 19,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 191,
+      "label": "reentry",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis I and Mission Readiness",
+        "sentence_id": 99,
+        "char_start": 17767,
+        "char_end": 17774,
+        "anchor": "PMC10284894_17767_17774",
+        "page": 18,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 190,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 191,
+      "target": 194
+    },
+    {
+      "id": 191,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 191,
+      "target": 195
+    },
+    {
+      "id": 192,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 194,
+      "target": 195
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 7,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        3,
+        3
+      ]
+    },
+    "page": 18
+  }
+}

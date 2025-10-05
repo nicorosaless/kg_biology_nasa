@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC3422896",
+  "section": "Statement Of The Issue",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 293,
+      "label": "multiple",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statement Of The Issue",
+        "sentence_id": 76,
+        "char_start": 19962,
+        "char_end": 19970,
+        "anchor": "PMC3422896_19962_19970",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 294,
+      "label": "isoforms",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statement Of The Issue",
+        "sentence_id": 76,
+        "char_start": 19971,
+        "char_end": 19979,
+        "anchor": "PMC3422896_19971_19979",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 443,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 293,
+      "target": 294
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 11,
+      "largest_component": 2
+    },
+    "page": 4
+  }
+}

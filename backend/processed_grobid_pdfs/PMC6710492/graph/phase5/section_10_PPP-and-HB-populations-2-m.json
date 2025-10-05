@@ -1,0 +1,253 @@
+{
+  "paper_id": "PMC6710492",
+  "section": "PPP and HB populations (<2 μm)",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 193,
+      "label": "DMSO",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PPP and HB populations (<2 μm)",
+        "sentence_id": 46,
+        "char_start": 12732,
+        "char_end": 12736,
+        "anchor": "PMC6710492_12732_12736",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 179,
+      "label": "standard",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PPP and HB populations (<2 μm)",
+        "sentence_id": 46,
+        "char_start": 12347,
+        "char_end": 12355,
+        "anchor": "PMC6710492_12347_12355",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 180,
+      "label": "Gree",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PPP and HB populations (<2 μm)",
+        "sentence_id": 46,
+        "char_start": 12694,
+        "char_end": 12698,
+        "anchor": "PMC6710492_12694_12698",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 181,
+      "label": "Sigma",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PPP and HB populations (<2 μm)",
+        "sentence_id": 46,
+        "char_start": 12703,
+        "char_end": 12708,
+        "anchor": "PMC6710492_12703_12708",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 182,
+      "label": "Aldrich",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PPP and HB populations (<2 μm)",
+        "sentence_id": 46,
+        "char_start": 12709,
+        "char_end": 12716,
+        "anchor": "PMC6710492_12709_12716",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 183,
+      "label": "nucleic",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PPP and HB populations (<2 μm)",
+        "sentence_id": 46,
+        "char_start": 12819,
+        "char_end": 12826,
+        "anchor": "PMC6710492_12819_12826",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 184,
+      "label": "PPP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "PPP and HB populations (<2 μm)",
+        "sentence_id": 46,
+        "char_start": 12238,
+        "char_end": 12241,
+        "anchor": "PMC6710492_12238_12241",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 187,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 179,
+      "target": 180
+    },
+    {
+      "id": 188,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 179,
+      "target": 181
+    },
+    {
+      "id": 189,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 179,
+      "target": 182
+    },
+    {
+      "id": 190,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 179,
+      "target": 183
+    },
+    {
+      "id": 191,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 179,
+      "target": 184
+    },
+    {
+      "id": 200,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 179,
+      "target": 193
+    },
+    {
+      "id": 201,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 180,
+      "target": 181
+    },
+    {
+      "id": 202,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 180,
+      "target": 182
+    },
+    {
+      "id": 203,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 180,
+      "target": 183
+    },
+    {
+      "id": 204,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 180,
+      "target": 184
+    },
+    {
+      "id": 213,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 180,
+      "target": 193
+    },
+    {
+      "id": 214,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 181,
+      "target": 182
+    },
+    {
+      "id": 215,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 181,
+      "target": 183
+    },
+    {
+      "id": 216,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 181,
+      "target": 184
+    },
+    {
+      "id": 225,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 181,
+      "target": 193
+    },
+    {
+      "id": 226,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 182,
+      "target": 183
+    },
+    {
+      "id": 227,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 182,
+      "target": 184
+    },
+    {
+      "id": 236,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 182,
+      "target": 193
+    },
+    {
+      "id": 237,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 183,
+      "target": 184
+    },
+    {
+      "id": 246,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 183,
+      "target": 193
+    },
+    {
+      "id": 255,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 184,
+      "target": 193
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 7,
+      "largest_component": 7,
+      "removed_components": [
+        6,
+        4
+      ]
+    },
+    "page": 2
+  }
+}

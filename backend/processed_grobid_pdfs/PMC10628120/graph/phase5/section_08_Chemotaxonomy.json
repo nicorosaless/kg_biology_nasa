@@ -1,0 +1,253 @@
+{
+  "paper_id": "PMC10628120",
+  "section": "Chemotaxonomy",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 225,
+      "label": "Dittmer",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Chemotaxonomy",
+        "sentence_id": 63,
+        "char_start": 14421,
+        "char_end": 14428,
+        "anchor": "PMC10628120_14421_14428",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 226,
+      "label": "Lester",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Chemotaxonomy",
+        "sentence_id": 63,
+        "char_start": 14433,
+        "char_end": 14439,
+        "anchor": "PMC10628120_14433_14439",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 213,
+      "label": "quinones",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Chemotaxonomy",
+        "sentence_id": 63,
+        "char_start": 14095,
+        "char_end": 14103,
+        "anchor": "PMC10628120_14095_14103",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 218,
+      "label": "butanol",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Chemotaxonomy",
+        "sentence_id": 63,
+        "char_start": 14368,
+        "char_end": 14375,
+        "anchor": "PMC10628120_14368_14375",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 219,
+      "label": "aminolip",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Chemotaxonomy",
+        "sentence_id": 63,
+        "char_start": 14380,
+        "char_end": 14388,
+        "anchor": "PMC10628120_14380_14388",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 221,
+      "label": "Lester",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Chemotaxonomy",
+        "sentence_id": 63,
+        "char_start": 14433,
+        "char_end": 14439,
+        "anchor": "PMC10628120_14433_14439",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 222,
+      "label": "TSA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Chemotaxonomy",
+        "sentence_id": 63,
+        "char_start": 14050,
+        "char_end": 14053,
+        "anchor": "PMC10628120_14050_14053",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 381,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 213,
+      "target": 218
+    },
+    {
+      "id": 382,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 213,
+      "target": 219
+    },
+    {
+      "id": 383,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 213,
+      "target": 221
+    },
+    {
+      "id": 384,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 213,
+      "target": 222
+    },
+    {
+      "id": 387,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 213,
+      "target": 225
+    },
+    {
+      "id": 388,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 213,
+      "target": 226
+    },
+    {
+      "id": 389,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 218,
+      "target": 219
+    },
+    {
+      "id": 390,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 218,
+      "target": 221
+    },
+    {
+      "id": 391,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 218,
+      "target": 222
+    },
+    {
+      "id": 394,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 218,
+      "target": 225
+    },
+    {
+      "id": 395,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 218,
+      "target": 226
+    },
+    {
+      "id": 396,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 219,
+      "target": 221
+    },
+    {
+      "id": 397,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 219,
+      "target": 222
+    },
+    {
+      "id": 400,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 219,
+      "target": 225
+    },
+    {
+      "id": 401,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 219,
+      "target": 226
+    },
+    {
+      "id": 402,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 221,
+      "target": 222
+    },
+    {
+      "id": 405,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 221,
+      "target": 225
+    },
+    {
+      "id": 406,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 221,
+      "target": 226
+    },
+    {
+      "id": 409,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 222,
+      "target": 225
+    },
+    {
+      "id": 410,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 222,
+      "target": 226
+    },
+    {
+      "id": 416,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 225,
+      "target": 226
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 15,
+      "largest_component": 7,
+      "removed_components": [
+        4,
+        2
+      ]
+    },
+    "page": 3
+  }
+}

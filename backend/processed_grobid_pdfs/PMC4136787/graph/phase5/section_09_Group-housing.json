@@ -1,0 +1,55 @@
+{
+  "paper_id": "PMC4136787",
+  "section": "Group housing",
+  "n_nodes": 3,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 90,
+      "label": "SFV",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Group housing",
+        "sentence_id": 163,
+        "char_start": 26781,
+        "char_end": 26784,
+        "anchor": "PMC4136787_26781_26784"
+      }
+    },
+    {
+      "id": 93,
+      "label": "GCV",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Group housing",
+        "sentence_id": 163,
+        "char_start": 26818,
+        "char_end": 26821,
+        "anchor": "PMC4136787_26818_26821"
+      }
+    },
+    {
+      "id": 96,
+      "label": "Shelter",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Group housing",
+        "sentence_id": 173,
+        "char_start": 28276,
+        "char_end": 28283,
+        "anchor": "PMC4136787_28276_28283"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 80,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 90,
+      "target": 93
+    }
+  ]
+}

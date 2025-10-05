@@ -1,0 +1,147 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "This document is a compilation of reviewer comments and staff comments regarding a manuscript submission titled \"Metabolic model predictions enable targeted microbiome manipulations through precision prebiotics.\" The comments address concerns about the identification of compounds promoting MYb11 growth, validation of selected compounds, details of bacterial model construction and FBA simulations, and issues with model accuracy.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Figure 1",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.png"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Manuscript: A .DOC version of the revised manuscript • Figures: Editable, high-resolution, individual figure files are required at revision, TIFF or EPS files are preferred For complete guidelines on revision requirements, please see the journal",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.png"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Compounds Promoting MYb11 Growth",
+      "summary": "Reviewers inquire about the full list of 29, 81, and 17 compounds identified from FBA, cFBA, and IbM that may promote MYb11 growth. They ask about the overlap between these predictions and the final selection of compounds (4-hydroxybenzoate, D-mannitol, γ-aminobutyric acid (GABA), glycerol-3-phosphate, L-serine, trehalose, L-threonine, and putrescine).",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Validation of Selected Compounds",
+      "summary": "The validation focused on four compounds (L-serine, L-threonine, GABA, and D-mannitol) with in vitro data, and only L-serine with in vivo data. The reviewers question why experimental and modeling results for other compounds were not presented, suggesting at least model predictions should be included, even if inconsistent with experimental data.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Construction and FBA Simulations of Bacterial Models",
+      "summary": "More details are requested regarding the construction and FBA simulations of 78 bacterial models in C. elegans microbiota. The reviewers suggest an independent section in Methods describing step-by-step procedures of metabolic network reconstruction. Clarity is needed on how to obtain the LP solution using the R-package sybil, specifically addressing the minimization of flux through each exchange reaction.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Model Accuracy Issues",
+      "summary": "Figure 2 shows significant discrepancy between Biolog data and growth predictions from the models. The accuracy of the models is questioned based on this discrepancy.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": {
+    "heading": "Conclusion",
+    "summary": "Reviewer(s): Disclosure of reviewer identity is with reference to reviewer comments included in decision letter(s). The more details need to be provided regarding the construction and FBA simulations of 78 bacterial models (in C. Figure 2 shows significant discrepancy between Biolog data vs. How can the authors justify the following assumptions?a. \"For simulations using community FBA, the metabolic models of both organisms were merged into one microbial community model\" -I believe individual models were merged as a compartmentalized model (rather than mixed-bag), but it needs to be mentioned.b. Reviewer #2 (Comments for the Author):\nThe presented study uses metabolic models, a defined coculture of bacteria, and C. elegans as a host for the coculture.The stated goal is to develop precision prebiotics to engineer microbiome composition. The manuscript needs major revisions before it is ready for publication. The first section of the results section analyzes human microbiome metagenome data.This is a distraction from the rest of the paper which examines a C. elegans coculture.Please remove the human microbiome section.The data could be better applied to a different study further detailing the classic power law relationship between a community property and its frequency. The document states that 100 mM of serine (10 g/L) results in a change in the frequency of the target species in the C."
+  },
+  "keywords": [
+    "metabolic modeling",
+    "fba",
+    "microbiome",
+    "precision prebiotics",
+    "myb11",
+    "c. elegans",
+    "l-serine",
+    "gaba",
+    "model validation",
+    "network reconstruction"
+  ],
+  "topics": [
+    "systems biology",
+    "microbial ecology",
+    "computational biology"
+  ],
+  "_meta": {
+    "paper_id": "sha256:f1227eb4fe590ec19459018f33a3126a7e69f9c67671107111770a75cedf5094",
+    "paper_title": "Metabolic model predictions enable targeted microbiome manipulations through precision prebiotics",
+    "generated_at": "2025-10-05T10:36:41Z",
+    "word_count": 450,
+    "figures": [
+      "fig_1",
+      "fig_2"
+    ],
+    "equations": [],
+    "keywords": [
+      "metabolic modeling",
+      "fba",
+      "microbiome",
+      "precision prebiotics",
+      "myb11",
+      "c. elegans",
+      "l-serine",
+      "gaba",
+      "model validation",
+      "network reconstruction"
+    ],
+    "topics": [
+      "systems biology",
+      "microbial ecology",
+      "computational biology"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 1572,
+      "completion_tokens": 647,
+      "total_tokens": 2219,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000157,
+      "output_usd": 0.000259,
+      "total_usd": 0.000416
+    },
+    "cost": {
+      "input_usd": 0.000157,
+      "output_usd": 0.000259,
+      "total_usd": 0.000416
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [],
+      "corrupted_detected": [
+        "fig_2"
+      ],
+      "original_total": 1,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2"
+      ]
+    }
+  },
+  "figures": {
+    "fig_2": "Manuscript requires editable, high-resolution, individual figure files."
+  }
+}

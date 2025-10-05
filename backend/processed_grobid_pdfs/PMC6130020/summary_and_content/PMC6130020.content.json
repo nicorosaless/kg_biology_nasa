@@ -1,0 +1,1982 @@
+{
+  "paper_id": "sha256:6aa13045696c2fa293ad8654b4572003017c4dd1176b58254b0bfe571c0162c3",
+  "metadata": {
+    "title": "ANN1 and ANN2 Function in Post-Phloem Sugar Transport in Root Tips to Affect Primary Root Growth 1[OPEN]",
+    "abstract": "Annexins are a multigene family of calcium-dependent membrane-binding proteins that play important roles in plant cell signaling.Annexins are multifunctional proteins, and their function in plants is not comprehensively understood.Arabidopsis (Arabidopsis thaliana) annexins ANN1 and ANN2 are 64% identical in their primary structure, and both are highly expressed in seedlings.Here, we showed that ann-mutant seedlings grown in the absence of sugar show decreased primary root growth and altered columella cells in root caps; however, these mutant defects are rescued by Suc, Glc, or Fru.In seedlings grown without sugar, significant up-regulation of photosynthetic gene expression and chlorophyll accumulation was found in ann-mutant cotyledons compared to that in wild type, which indicates potential sugar starvation in the roots of ann-mutant seedlings.Unexpectedly, the overall sugar content of ann-mutant primary roots was significantly higher than that of wild-type roots when grown without sugar.To examine the diffusion of sugar along the entire root to the root tip, we examined the unloading pattern of carboxyfluorescein dye and found that post-phloem sugar transport was impaired in ann-mutant root tips compared to that in wild type.Increased levels of ROS and callose were detected in the root tips of ann-mutant seedlings grown without Suc, the latter of which would restrict plasmodesmal sugar transport to root tips.Our results indicate that ANN1 and ANN2 play an important role in post-phloem sugar transport to the root tip, which in turn indirectly influences photosynthetic rates in cotyledons.This study expands our understanding of the function of annexins in plants.",
+    "authors": [
+      "Jing Wang",
+      "Jawon Song",
+      "Greg Clark",
+      "Stanley JRoux",
+      "Ambavaram Mm",
+      "Brady Sm",
+      "Orlando Da"
+    ],
+    "affiliations": [
+      "a Department of Molecular Biosciences , The University of Texas at Austin , Austin , Texas 78712",
+      "b Texas Advanced Computing Center , The University of Texas at Austin , Austin , Texas 78712",
+      "Department of Molecular Biosciences , Univer- sity of Texas , 100 E. 24th Street Stop A5000 , Austin , Texas 78712 ."
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Abstract",
+      "paragraphs": [
+        "Annexins are a multigene family of calcium-dependent membrane-binding proteins that play important roles in plant cell signaling.Annexins are multifunctional proteins, and their function in plants is not comprehensively understood.Arabidopsis (Arabidopsis thaliana) annexins ANN1 and ANN2 are 64% identical in their primary structure, and both are highly expressed in seedlings.Here, we showed that ann-mutant seedlings grown in the absence of sugar show decreased primary root growth and altered columella cells in root caps; however, these mutant defects are rescued by Suc, Glc, or Fru.In seedlings grown without sugar, significant up-regulation of photosynthetic gene expression and chlorophyll accumulation was found in ann-mutant cotyledons compared to that in wild type, which indicates potential sugar starvation in the roots of ann-mutant seedlings.Unexpectedly, the overall sugar content of ann-mutant primary roots was significantly higher than that of wild-type roots when grown without sugar.To examine the diffusion of sugar along the entire root to the root tip, we examined the unloading pattern of carboxyfluorescein dye and found that post-phloem sugar transport was impaired in ann-mutant root tips compared to that in wild type.Increased levels of ROS and callose were detected in the root tips of ann-mutant seedlings grown without Suc, the latter of which would restrict plasmodesmal sugar transport to root tips.Our results indicate that ANN1 and ANN2 play an important role in post-phloem sugar transport to the root tip, which in turn indirectly influences photosynthetic rates in cotyledons.This study expands our understanding of the function of annexins in plants."
+      ],
+      "text": "Annexins are a multigene family of calcium-dependent membrane-binding proteins that play important roles in plant cell signaling.Annexins are multifunctional proteins, and their function in plants is not comprehensively understood.Arabidopsis (Arabidopsis thaliana) annexins ANN1 and ANN2 are 64% identical in their primary structure, and both are highly expressed in seedlings.Here, we showed that ann-mutant seedlings grown in the absence of sugar show decreased primary root growth and altered columella cells in root caps; however, these mutant defects are rescued by Suc, Glc, or Fru.In seedlings grown without sugar, significant up-regulation of photosynthetic gene expression and chlorophyll accumulation was found in ann-mutant cotyledons compared to that in wild type, which indicates potential sugar starvation in the roots of ann-mutant seedlings.Unexpectedly, the overall sugar content of ann-mutant primary roots was significantly higher than that of wild-type roots when grown without sugar.To examine the diffusion of sugar along the entire root to the root tip, we examined the unloading pattern of carboxyfluorescein dye and found that post-phloem sugar transport was impaired in ann-mutant root tips compared to that in wild type.Increased levels of ROS and callose were detected in the root tips of ann-mutant seedlings grown without Suc, the latter of which would restrict plasmodesmal sugar transport to root tips.Our results indicate that ANN1 and ANN2 play an important role in post-phloem sugar transport to the root tip, which in turn indirectly influences photosynthetic rates in cotyledons.This study expands our understanding of the function of annexins in plants.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Annexins are a multigene family of calcium-dependent membrane-binding proteins that play important roles in plant cell signaling.Annexins are multifunctional proteins, and their function in plants is not comprehensively understood.Arabidopsis (Arabidopsis thaliana) annexins ANN1 and ANN2 are 64% identical in their primary structure, and both are highly expressed in seedlings.Here, we showed that ann-mutant seedlings grown in the absence of sugar show decreased primary root growth and altered columella cells in root caps; however, these mutant defects are rescued by Suc, Glc, or Fru.In seedlings grown without sugar, significant up-regulation of photosynthetic gene expression and chlorophyll accumulation was found in ann-mutant cotyledons compared to that in wild type, which indicates potential sugar starvation in the roots of ann-mutant seedlings.Unexpectedly, the overall sugar content of ann-mutant primary roots was significantly higher than that of wild-type roots when grown without sugar.To examine the diffusion of sugar along the entire root to the root tip, we examined the unloading pattern of carboxyfluorescein dye and found that post-phloem sugar transport was impaired in ann-mutant root tips compared to that in wild type.Increased levels of ROS and callose were detected in the root tips of ann-mutant seedlings grown without Suc, the latter of which would restrict plasmodesmal sugar transport to root tips.Our results indicate that ANN1 and ANN2 play an important role in post-phloem sugar transport to the root tip, which in turn indirectly influences photosynthetic rates in cotyledons.This study expands our understanding of the function of annexins in plants.",
+          "block_index": 0,
+          "section_index": 0,
+          "global_order": 0,
+          "id": "p_1_1"
+        },
+        {
+          "type": "figure",
+          "id": "fig_1",
+          "block_index": 1,
+          "section_index": 0,
+          "global_order": 1
+        },
+        {
+          "type": "figure",
+          "id": "fig_2",
+          "block_index": 2,
+          "section_index": 0,
+          "global_order": 2
+        },
+        {
+          "type": "figure",
+          "id": "fig_3",
+          "block_index": 3,
+          "section_index": 0,
+          "global_order": 3
+        },
+        {
+          "type": "figure",
+          "id": "fig_4",
+          "block_index": 4,
+          "section_index": 0,
+          "global_order": 4
+        },
+        {
+          "type": "figure",
+          "id": "fig_5",
+          "block_index": 5,
+          "section_index": 0,
+          "global_order": 5
+        },
+        {
+          "type": "figure",
+          "id": "fig_6",
+          "block_index": 6,
+          "section_index": 0,
+          "global_order": 6
+        },
+        {
+          "type": "figure",
+          "id": "fig_7",
+          "block_index": 7,
+          "section_index": 0,
+          "global_order": 7
+        },
+        {
+          "type": "figure",
+          "id": "fig_8",
+          "block_index": 8,
+          "section_index": 0,
+          "global_order": 8
+        }
+      ]
+    },
+    {
+      "heading": "(untitled) Annexins are multifunctional proteins that",
+      "paragraphs": [
+        "Annexins are multifunctional proteins that have been found in all plants and vertebrate species.Their tertiary structure with calcium-binding domains is evolutionarily conserved in all species (Morgan et al., 2004(Morgan et al., , 2006;;Konopka-Postupolska et al., 2011;Clark et al., 2012).In plants, annexins have been localized in many parts of the cell, including the plasma membrane, the Golgi apparatus, secretory vesicles, vacuolar membranes, and the nucleus.Certain annexins are also found in the extracellular matrix as secreted proteins.",
+        "On the molecular level, certain plant annexins serve as components of calcium channels or regulate calcium channel activity to help initiate and amplify calcium signals in plants (Laohavisit et al., 2010;Laohavisit and Davies, 2011;Davies, 2014).On the cellular level, one of the earliest functions discovered for annexins in plant cells was meditation of vesicle trafficking and secretion (Konopka-Postupolska and Clark, 2017).On the whole-plant level, key discoveries of annexin function have been carried out using mutants of the model plant, Arabidopsis (Arabidopsis thaliana), where there are eight different annexins that show differential expression patterns (Cantero et al., 2006).Several of these mutant studies show that certain Arabidopsis annexins function to provide stress tolerance in response to a variety of stress conditions (Konopka-Postupolska et al., 2009;Dalal et al., 2014;Richards et al., 2014;Wang et al., 2015;Liao et al., 2017).For example, overexpression of ANN1 in Arabidopsis results in increased antioxidant activity and confers drought tolerance (Konopka-Postupolska et al., 2009).",
+        "Plant annexins are expressed in all stages of plant growth and development.Recently, Thieme et al. (2015) found that some Arabidopsis annexin transcripts can be transported across the whole plant by phloem sap.Annexin proteins have also been identified in the phloem sap of several different plant species (Kehr, 2006), and in Arabidopsis, ANN1 was found in phloem exudate of rosette leaves (Guelette et al., 2012).Immunolocalization of a pea annexin protein in young developing sieve elements led to the suggestion that annexins may play a role in phloem cell development (Clark et al., 1992).In situ transcript localization studies found that ANN1 is expressed in phloem and phloem parenchyma in Arabidopsis seedlings (Clark et al., 2001).However, the physiological importance of annexins in phloem remains undefined.",
+        "Phloem transport links sources to sinks and is a key passageway for communication between leaves and roots.Sugars generated from photosynthetic leaves (source organs) and transported through the phloem to roots (sink organs) serve both as metabolic substrates to fuel plant growth and development and as signals that integrate plant responses to environmental stimuli, hormones, and changes in nutrition status (Martin et al., 2002;Moore et al., 2003;Smeekens et al., 2010;Lastdrager et al., 2014;Ljung et al., 2015;Dobrenel et al., 2016;Dodds and Lagudah, 2016;Kühn, 2016;Li and Sheen, 2016;Baena-González and Hanson, 2017).Plants have developed complex sugar-sensing systems to monitor and respond to continuous fluctuations in sugar status caused by the circadian clock and frequent environmental changes (Stitt and Zeeman, 2012).",
+        "Multiple recent studies have revealed significant roles of sugar in plant growth (Lastdrager et al., 2014) and development (Wingler, 2018).For example, sugar availability to axillary buds is a key determinant for shoot branching.Removal of pea shoot tips induces a sufficient flow of sugar into axillary buds to repress the expression of the branching inhibitor gene Branched1, which highlights the importance of sugars in mediating apical dominance (Mason et al., 2014).Sugars in photosynthetic leaves function as mobile signals to repress the expression of microRNA156 and thus promote the maturation of juvenile plants (Yu et al., 2013).",
+        "Important sugar responses are also found in roots, whose growth depends on Suc transported from photosynthetic leaves.This dependence underscores the importance of understanding the effects of sugars on root growth and development.Although sugar controls primary and lateral root growth in a dose-dependent manner (Freixes et al., 2002), sugar demand in roots continuously changes due to environmental signals (Lemoine et al., 2013) and developmental stages.Having a sugar-sensing system in roots that can efficiently monitor sugar levels would be important for root and whole-plant growth.However, studies of sugar signaling in roots are generally scant.",
+        "Root growth is closely associated with sugar concentrations (Thompson et al., 2017).Greater soluble sugar content has been found in fast-growing roots of pruned barley plants, whereas slow-growing barley roots contain less soluble sugar (Farrar and Jones, 1986).Suc generated by photosynthesis in cotyledons is required to regulate primary root growth (Kircher and Schopfer, 2012).Suc promotes primary root elongation in a dose-dependent manner.The higher the exogenous Suc concentration, the faster primary roots elongate (Freixes et al., 2002).Furthermore, the finding that neighboring secondary roots in the same root system have different growth rates in their elongation zone as a function of local sugar concentration also favors the conclusion that sugar is a major determinant of root growth (Freixes et al., 2002).",
+        "Because local sugar concentrations play critical roles in regulating root growth, it is important to learn more about the mechanisms that control sugar transport into the growing zones of the root.Sugars generated by photosynthesis in leaves are loaded into sieve elements of the phloem and then delivered by phloem into roots (De Schepper et al., 2013).According to pressure flow theory, it is the osmotic differential in phloem sieve elements that drives the bulk flow from source photosynthetic organs to sink organs such as roots.After sugar reaches its destination, it must be unloaded from phloem sieve elements into surrounding cells.Ross-Elliott et al. (2017) have proposed that after sugar reaches the connecting tissue between conducting phloem and sink tissues, called protophloem, it is unloaded into surrounding cells through funnel plasmodesmata and then diffuses freely along a concentration gradient into cells of the root tip in a symplastic way.The unloading of sugar into the elongation zone, mitotic zone, and root cap accommodates the highenergy demands of fast-growing regions in roots.Here, we describe the effect of knocking out two of the eight members of the annexin gene family in Arabidopsis, namely ANN1 and ANN2, on the diffusion of sugars from the unloading zone to root tips, and we discuss how these two annexins play an important mechanistic role in post-phloem transport of sugars into root tips."
+      ],
+      "text": "Annexins are multifunctional proteins that have been found in all plants and vertebrate species.Their tertiary structure with calcium-binding domains is evolutionarily conserved in all species (Morgan et al., 2004(Morgan et al., , 2006;;Konopka-Postupolska et al., 2011;Clark et al., 2012).In plants, annexins have been localized in many parts of the cell, including the plasma membrane, the Golgi apparatus, secretory vesicles, vacuolar membranes, and the nucleus.Certain annexins are also found in the extracellular matrix as secreted proteins.\nOn the molecular level, certain plant annexins serve as components of calcium channels or regulate calcium channel activity to help initiate and amplify calcium signals in plants (Laohavisit et al., 2010;Laohavisit and Davies, 2011;Davies, 2014).On the cellular level, one of the earliest functions discovered for annexins in plant cells was meditation of vesicle trafficking and secretion (Konopka-Postupolska and Clark, 2017).On the whole-plant level, key discoveries of annexin function have been carried out using mutants of the model plant, Arabidopsis (Arabidopsis thaliana), where there are eight different annexins that show differential expression patterns (Cantero et al., 2006).Several of these mutant studies show that certain Arabidopsis annexins function to provide stress tolerance in response to a variety of stress conditions (Konopka-Postupolska et al., 2009;Dalal et al., 2014;Richards et al., 2014;Wang et al., 2015;Liao et al., 2017).For example, overexpression of ANN1 in Arabidopsis results in increased antioxidant activity and confers drought tolerance (Konopka-Postupolska et al., 2009).\nPlant annexins are expressed in all stages of plant growth and development.Recently, Thieme et al. (2015) found that some Arabidopsis annexin transcripts can be transported across the whole plant by phloem sap.Annexin proteins have also been identified in the phloem sap of several different plant species (Kehr, 2006), and in Arabidopsis, ANN1 was found in phloem exudate of rosette leaves (Guelette et al., 2012).Immunolocalization of a pea annexin protein in young developing sieve elements led to the suggestion that annexins may play a role in phloem cell development (Clark et al., 1992).In situ transcript localization studies found that ANN1 is expressed in phloem and phloem parenchyma in Arabidopsis seedlings (Clark et al., 2001).However, the physiological importance of annexins in phloem remains undefined.\nPhloem transport links sources to sinks and is a key passageway for communication between leaves and roots.Sugars generated from photosynthetic leaves (source organs) and transported through the phloem to roots (sink organs) serve both as metabolic substrates to fuel plant growth and development and as signals that integrate plant responses to environmental stimuli, hormones, and changes in nutrition status (Martin et al., 2002;Moore et al., 2003;Smeekens et al., 2010;Lastdrager et al., 2014;Ljung et al., 2015;Dobrenel et al., 2016;Dodds and Lagudah, 2016;Kühn, 2016;Li and Sheen, 2016;Baena-González and Hanson, 2017).Plants have developed complex sugar-sensing systems to monitor and respond to continuous fluctuations in sugar status caused by the circadian clock and frequent environmental changes (Stitt and Zeeman, 2012).\nMultiple recent studies have revealed significant roles of sugar in plant growth (Lastdrager et al., 2014) and development (Wingler, 2018).For example, sugar availability to axillary buds is a key determinant for shoot branching.Removal of pea shoot tips induces a sufficient flow of sugar into axillary buds to repress the expression of the branching inhibitor gene Branched1, which highlights the importance of sugars in mediating apical dominance (Mason et al., 2014).Sugars in photosynthetic leaves function as mobile signals to repress the expression of microRNA156 and thus promote the maturation of juvenile plants (Yu et al., 2013).\nImportant sugar responses are also found in roots, whose growth depends on Suc transported from photosynthetic leaves.This dependence underscores the importance of understanding the effects of sugars on root growth and development.Although sugar controls primary and lateral root growth in a dose-dependent manner (Freixes et al., 2002), sugar demand in roots continuously changes due to environmental signals (Lemoine et al., 2013) and developmental stages.Having a sugar-sensing system in roots that can efficiently monitor sugar levels would be important for root and whole-plant growth.However, studies of sugar signaling in roots are generally scant.\nRoot growth is closely associated with sugar concentrations (Thompson et al., 2017).Greater soluble sugar content has been found in fast-growing roots of pruned barley plants, whereas slow-growing barley roots contain less soluble sugar (Farrar and Jones, 1986).Suc generated by photosynthesis in cotyledons is required to regulate primary root growth (Kircher and Schopfer, 2012).Suc promotes primary root elongation in a dose-dependent manner.The higher the exogenous Suc concentration, the faster primary roots elongate (Freixes et al., 2002).Furthermore, the finding that neighboring secondary roots in the same root system have different growth rates in their elongation zone as a function of local sugar concentration also favors the conclusion that sugar is a major determinant of root growth (Freixes et al., 2002).\nBecause local sugar concentrations play critical roles in regulating root growth, it is important to learn more about the mechanisms that control sugar transport into the growing zones of the root.Sugars generated by photosynthesis in leaves are loaded into sieve elements of the phloem and then delivered by phloem into roots (De Schepper et al., 2013).According to pressure flow theory, it is the osmotic differential in phloem sieve elements that drives the bulk flow from source photosynthetic organs to sink organs such as roots.After sugar reaches its destination, it must be unloaded from phloem sieve elements into surrounding cells.Ross-Elliott et al. (2017) have proposed that after sugar reaches the connecting tissue between conducting phloem and sink tissues, called protophloem, it is unloaded into surrounding cells through funnel plasmodesmata and then diffuses freely along a concentration gradient into cells of the root tip in a symplastic way.The unloading of sugar into the elongation zone, mitotic zone, and root cap accommodates the highenergy demands of fast-growing regions in roots.Here, we describe the effect of knocking out two of the eight members of the annexin gene family in Arabidopsis, namely ANN1 and ANN2, on the diffusion of sugars from the unloading zone to root tips, and we discuss how these two annexins play an important mechanistic role in post-phloem transport of sugars into root tips.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Annexins are multifunctional proteins that have been found in all plants and vertebrate species.Their tertiary structure with calcium-binding domains is evolutionarily conserved in all species (Morgan et al., 2004(Morgan et al., , 2006;;Konopka-Postupolska et al., 2011;Clark et al., 2012).In plants, annexins have been localized in many parts of the cell, including the plasma membrane, the Golgi apparatus, secretory vesicles, vacuolar membranes, and the nucleus.Certain annexins are also found in the extracellular matrix as secreted proteins.",
+          "block_index": 0,
+          "section_index": 1,
+          "global_order": 9,
+          "id": "p_2_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "On the molecular level, certain plant annexins serve as components of calcium channels or regulate calcium channel activity to help initiate and amplify calcium signals in plants (Laohavisit et al., 2010;Laohavisit and Davies, 2011;Davies, 2014).On the cellular level, one of the earliest functions discovered for annexins in plant cells was meditation of vesicle trafficking and secretion (Konopka-Postupolska and Clark, 2017).On the whole-plant level, key discoveries of annexin function have been carried out using mutants of the model plant, Arabidopsis (Arabidopsis thaliana), where there are eight different annexins that show differential expression patterns (Cantero et al., 2006).Several of these mutant studies show that certain Arabidopsis annexins function to provide stress tolerance in response to a variety of stress conditions (Konopka-Postupolska et al., 2009;Dalal et al., 2014;Richards et al., 2014;Wang et al., 2015;Liao et al., 2017).For example, overexpression of ANN1 in Arabidopsis results in increased antioxidant activity and confers drought tolerance (Konopka-Postupolska et al., 2009).",
+          "block_index": 1,
+          "section_index": 1,
+          "global_order": 10,
+          "id": "p_2_2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Plant annexins are expressed in all stages of plant growth and development.Recently, Thieme et al. (2015) found that some Arabidopsis annexin transcripts can be transported across the whole plant by phloem sap.Annexin proteins have also been identified in the phloem sap of several different plant species (Kehr, 2006), and in Arabidopsis, ANN1 was found in phloem exudate of rosette leaves (Guelette et al., 2012).Immunolocalization of a pea annexin protein in young developing sieve elements led to the suggestion that annexins may play a role in phloem cell development (Clark et al., 1992).In situ transcript localization studies found that ANN1 is expressed in phloem and phloem parenchyma in Arabidopsis seedlings (Clark et al., 2001).However, the physiological importance of annexins in phloem remains undefined.",
+          "block_index": 2,
+          "section_index": 1,
+          "global_order": 11,
+          "id": "p_2_3"
+        },
+        {
+          "type": "paragraph",
+          "text": "Phloem transport links sources to sinks and is a key passageway for communication between leaves and roots.Sugars generated from photosynthetic leaves (source organs) and transported through the phloem to roots (sink organs) serve both as metabolic substrates to fuel plant growth and development and as signals that integrate plant responses to environmental stimuli, hormones, and changes in nutrition status (Martin et al., 2002;Moore et al., 2003;Smeekens et al., 2010;Lastdrager et al., 2014;Ljung et al., 2015;Dobrenel et al., 2016;Dodds and Lagudah, 2016;Kühn, 2016;Li and Sheen, 2016;Baena-González and Hanson, 2017).Plants have developed complex sugar-sensing systems to monitor and respond to continuous fluctuations in sugar status caused by the circadian clock and frequent environmental changes (Stitt and Zeeman, 2012).",
+          "block_index": 3,
+          "section_index": 1,
+          "global_order": 12,
+          "id": "p_2_4"
+        },
+        {
+          "type": "paragraph",
+          "text": "Multiple recent studies have revealed significant roles of sugar in plant growth (Lastdrager et al., 2014) and development (Wingler, 2018).For example, sugar availability to axillary buds is a key determinant for shoot branching.Removal of pea shoot tips induces a sufficient flow of sugar into axillary buds to repress the expression of the branching inhibitor gene Branched1, which highlights the importance of sugars in mediating apical dominance (Mason et al., 2014).Sugars in photosynthetic leaves function as mobile signals to repress the expression of microRNA156 and thus promote the maturation of juvenile plants (Yu et al., 2013).",
+          "block_index": 4,
+          "section_index": 1,
+          "global_order": 13,
+          "id": "p_2_5"
+        },
+        {
+          "type": "paragraph",
+          "text": "Important sugar responses are also found in roots, whose growth depends on Suc transported from photosynthetic leaves.This dependence underscores the importance of understanding the effects of sugars on root growth and development.Although sugar controls primary and lateral root growth in a dose-dependent manner (Freixes et al., 2002), sugar demand in roots continuously changes due to environmental signals (Lemoine et al., 2013) and developmental stages.Having a sugar-sensing system in roots that can efficiently monitor sugar levels would be important for root and whole-plant growth.However, studies of sugar signaling in roots are generally scant.",
+          "block_index": 5,
+          "section_index": 1,
+          "global_order": 14,
+          "id": "p_2_6"
+        },
+        {
+          "type": "paragraph",
+          "text": "Root growth is closely associated with sugar concentrations (Thompson et al., 2017).Greater soluble sugar content has been found in fast-growing roots of pruned barley plants, whereas slow-growing barley roots contain less soluble sugar (Farrar and Jones, 1986).Suc generated by photosynthesis in cotyledons is required to regulate primary root growth (Kircher and Schopfer, 2012).Suc promotes primary root elongation in a dose-dependent manner.The higher the exogenous Suc concentration, the faster primary roots elongate (Freixes et al., 2002).Furthermore, the finding that neighboring secondary roots in the same root system have different growth rates in their elongation zone as a function of local sugar concentration also favors the conclusion that sugar is a major determinant of root growth (Freixes et al., 2002).",
+          "block_index": 6,
+          "section_index": 1,
+          "global_order": 15,
+          "id": "p_2_7"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because local sugar concentrations play critical roles in regulating root growth, it is important to learn more about the mechanisms that control sugar transport into the growing zones of the root.Sugars generated by photosynthesis in leaves are loaded into sieve elements of the phloem and then delivered by phloem into roots (De Schepper et al., 2013).According to pressure flow theory, it is the osmotic differential in phloem sieve elements that drives the bulk flow from source photosynthetic organs to sink organs such as roots.After sugar reaches its destination, it must be unloaded from phloem sieve elements into surrounding cells.Ross-Elliott et al. (2017) have proposed that after sugar reaches the connecting tissue between conducting phloem and sink tissues, called protophloem, it is unloaded into surrounding cells through funnel plasmodesmata and then diffuses freely along a concentration gradient into cells of the root tip in a symplastic way.The unloading of sugar into the elongation zone, mitotic zone, and root cap accommodates the highenergy demands of fast-growing regions in roots.Here, we describe the effect of knocking out two of the eight members of the annexin gene family in Arabidopsis, namely ANN1 and ANN2, on the diffusion of sugars from the unloading zone to root tips, and we discuss how these two annexins play an important mechanistic role in post-phloem transport of sugars into root tips.",
+          "block_index": 7,
+          "section_index": 1,
+          "global_order": 16,
+          "id": "p_2_8"
+        }
+      ]
+    },
+    {
+      "heading": "Inhibition of Primary Root Growth in ANN1 and ANN2 Knockout Mutants Is Rescued by Exogenous Suc Independent of Its Osmotic Effects",
+      "paragraphs": [
+        "In 3-d-old seedlings, all ANN1 and ANN2 knockout mutants (ann1-2, ann1-3, ann2-1, and ann1-2/ann2-1) had primary root lengths that were significantly shorter compared to wild type when grown on agar plates containing no Suc (Fig. 1, A and B).However, these knockout mutants had the same hypocotyl lengths compared to that in wild type (Supplemental Fig. S1).To rule out that the differences in primary root lengths were due to differences in germination, we also measured growth rates in both mutants and wild type under the same condition (Fig. 1B).Consistent with the root length data, the primary roots of ann1-2, ann1-3, ann2-1, and ann1-2/ann2-1 grew significantly slower compared to that in wild type.",
+        "This inhibition of primary root growth observed in ANN1 and ANN2 knockout mutants was rescued by 2% Suc (Fig. 1, A and C).This rescue was not due to the osmotic effect of Suc in agar plates, since equimolar concentrations of mannitol did not rescue the primary root growth inhibition in ANN1 and ANN2 mutants (Fig. 1, A and D).Similar results were also found in 1% sorbitol and 1% o-methyl-Glc treatments (Supplemental Fig. S2, C and D), indicating that Suc functioned either as a carbon source or a signal to rescue the primary root growth inhibition in ANN1 and ANN2 knockout mutants.Since Suc can be catalyzed by invertase into Fru and Glc, we also tested 1% Glc and 1% Fru treatments (Supplemental Fig. S2, A and B).Both Glc and Fru also rescued primary root growth inhibition in ANN1 and ANN2 knockout mutants."
+      ],
+      "text": "In 3-d-old seedlings, all ANN1 and ANN2 knockout mutants (ann1-2, ann1-3, ann2-1, and ann1-2/ann2-1) had primary root lengths that were significantly shorter compared to wild type when grown on agar plates containing no Suc (Fig. 1, A and B).However, these knockout mutants had the same hypocotyl lengths compared to that in wild type (Supplemental Fig. S1).To rule out that the differences in primary root lengths were due to differences in germination, we also measured growth rates in both mutants and wild type under the same condition (Fig. 1B).Consistent with the root length data, the primary roots of ann1-2, ann1-3, ann2-1, and ann1-2/ann2-1 grew significantly slower compared to that in wild type.\nThis inhibition of primary root growth observed in ANN1 and ANN2 knockout mutants was rescued by 2% Suc (Fig. 1, A and C).This rescue was not due to the osmotic effect of Suc in agar plates, since equimolar concentrations of mannitol did not rescue the primary root growth inhibition in ANN1 and ANN2 mutants (Fig. 1, A and D).Similar results were also found in 1% sorbitol and 1% o-methyl-Glc treatments (Supplemental Fig. S2, C and D), indicating that Suc functioned either as a carbon source or a signal to rescue the primary root growth inhibition in ANN1 and ANN2 knockout mutants.Since Suc can be catalyzed by invertase into Fru and Glc, we also tested 1% Glc and 1% Fru treatments (Supplemental Fig. S2, A and B).Both Glc and Fru also rescued primary root growth inhibition in ANN1 and ANN2 knockout mutants.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In 3-d-old seedlings, all ANN1 and ANN2 knockout mutants (ann1-2, ann1-3, ann2-1, and ann1-2/ann2-1) had primary root lengths that were significantly shorter compared to wild type when grown on agar plates containing no Suc (Fig. 1, A and B).However, these knockout mutants had the same hypocotyl lengths compared to that in wild type (Supplemental Fig. S1).To rule out that the differences in primary root lengths were due to differences in germination, we also measured growth rates in both mutants and wild type under the same condition (Fig. 1B).Consistent with the root length data, the primary roots of ann1-2, ann1-3, ann2-1, and ann1-2/ann2-1 grew significantly slower compared to that in wild type.",
+          "block_index": 0,
+          "section_index": 2,
+          "global_order": 17,
+          "id": "p_3_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "This inhibition of primary root growth observed in ANN1 and ANN2 knockout mutants was rescued by 2% Suc (Fig. 1, A and C).This rescue was not due to the osmotic effect of Suc in agar plates, since equimolar concentrations of mannitol did not rescue the primary root growth inhibition in ANN1 and ANN2 mutants (Fig. 1, A and D).Similar results were also found in 1% sorbitol and 1% o-methyl-Glc treatments (Supplemental Fig. S2, C and D), indicating that Suc functioned either as a carbon source or a signal to rescue the primary root growth inhibition in ANN1 and ANN2 knockout mutants.Since Suc can be catalyzed by invertase into Fru and Glc, we also tested 1% Glc and 1% Fru treatments (Supplemental Fig. S2, A and B).Both Glc and Fru also rescued primary root growth inhibition in ANN1 and ANN2 knockout mutants.",
+          "block_index": 1,
+          "section_index": 2,
+          "global_order": 18,
+          "id": "p_3_2"
+        }
+      ]
+    },
+    {
+      "heading": "Inhibition of Root Cap Development in ANN1 and ANN2 Knockout Mutants Is Rescued by Exogenous Suc",
+      "paragraphs": [
+        "As observed by light microscopy, knocking out ANN1 or ANN2 affected primary root structures of 4-d-old ann1-2, ann1-3, ann2-1, and ann1-2/ann2-1 seedlings when grown without Suc.Starch detection by Lugol staining revealed reduced layers of starchcontaining columella cells in ann1-2, ann1-3, ann2-1, and ann1-2/ann2-1 compared to that in the wild type (Fig. 2A).In wild type root caps, there are four layers of columella cells with Lugol-stained starch granules in them, whereas only three layers of columella cells were detected in ANN1 and ANN2 knockout mutants.Also, unlike wild-type roots, the roots of ANN1 and ANN2 mutants had no border-like cells around their root caps.These root cap defects in ann1-2, ann1-3, ann2-1, and ann1-2/ann2-1 were rescued by 1% Suc (Fig. 2B).When grown with 1% Suc for 4 d, ann1-2, ann1-3, ann2-1, and ann1-2/ann2-1 roots showed four layers of starch-containing columella cells like those in wild type with border-like cells attached to the root caps.",
+        "Because Lugol staining (Fig. 2A) revealed similar levels of starch granules in ann1-2, ann2-1, and ann1-2/ ann2-1 when seedlings were grown without Suc, ann1-2 was used as a representative line for all ann-mutants in subsequent quantification of root-tip starch levels (Fig. 3).Consistent with Lugol staining, ann1-2 displayed significantly lower levels of starch in root tips compared to that in wild type when grown without Suc (Fig. 3)."
+      ],
+      "text": "As observed by light microscopy, knocking out ANN1 or ANN2 affected primary root structures of 4-d-old ann1-2, ann1-3, ann2-1, and ann1-2/ann2-1 seedlings when grown without Suc.Starch detection by Lugol staining revealed reduced layers of starchcontaining columella cells in ann1-2, ann1-3, ann2-1, and ann1-2/ann2-1 compared to that in the wild type (Fig. 2A).In wild type root caps, there are four layers of columella cells with Lugol-stained starch granules in them, whereas only three layers of columella cells were detected in ANN1 and ANN2 knockout mutants.Also, unlike wild-type roots, the roots of ANN1 and ANN2 mutants had no border-like cells around their root caps.These root cap defects in ann1-2, ann1-3, ann2-1, and ann1-2/ann2-1 were rescued by 1% Suc (Fig. 2B).When grown with 1% Suc for 4 d, ann1-2, ann1-3, ann2-1, and ann1-2/ann2-1 roots showed four layers of starch-containing columella cells like those in wild type with border-like cells attached to the root caps.\nBecause Lugol staining (Fig. 2A) revealed similar levels of starch granules in ann1-2, ann2-1, and ann1-2/ ann2-1 when seedlings were grown without Suc, ann1-2 was used as a representative line for all ann-mutants in subsequent quantification of root-tip starch levels (Fig. 3).Consistent with Lugol staining, ann1-2 displayed significantly lower levels of starch in root tips compared to that in wild type when grown without Suc (Fig. 3).",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "As observed by light microscopy, knocking out ANN1 or ANN2 affected primary root structures of 4-d-old ann1-2, ann1-3, ann2-1, and ann1-2/ann2-1 seedlings when grown without Suc.Starch detection by Lugol staining revealed reduced layers of starchcontaining columella cells in ann1-2, ann1-3, ann2-1, and ann1-2/ann2-1 compared to that in the wild type (Fig. 2A).In wild type root caps, there are four layers of columella cells with Lugol-stained starch granules in them, whereas only three layers of columella cells were detected in ANN1 and ANN2 knockout mutants.Also, unlike wild-type roots, the roots of ANN1 and ANN2 mutants had no border-like cells around their root caps.These root cap defects in ann1-2, ann1-3, ann2-1, and ann1-2/ann2-1 were rescued by 1% Suc (Fig. 2B).When grown with 1% Suc for 4 d, ann1-2, ann1-3, ann2-1, and ann1-2/ann2-1 roots showed four layers of starch-containing columella cells like those in wild type with border-like cells attached to the root caps.",
+          "block_index": 0,
+          "section_index": 3,
+          "global_order": 19,
+          "id": "p_4_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because Lugol staining (Fig. 2A) revealed similar levels of starch granules in ann1-2, ann2-1, and ann1-2/ ann2-1 when seedlings were grown without Suc, ann1-2 was used as a representative line for all ann-mutants in subsequent quantification of root-tip starch levels (Fig. 3).Consistent with Lugol staining, ann1-2 displayed significantly lower levels of starch in root tips compared to that in wild type when grown without Suc (Fig. 3).",
+          "block_index": 1,
+          "section_index": 3,
+          "global_order": 20,
+          "id": "p_4_2"
+        }
+      ]
+    },
+    {
+      "heading": "Expression of Photosynthesis-Related Genes and Chlorophyll Accumulation Is Enhanced in ANN1 Knockout Mutants, Dependent on the Absence of Exogenous Suc",
+      "paragraphs": [
+        "An RNA sequencing (RNA-seq) analysis comparing the transcript abundance in total mRNA extracted from primary roots of 2-week-old wild type, ann1-2, and ann2-1 grown without Suc in light revealed many differentially expressed genes (DEG) in the primary roots of the mutants.After the DEGs were assigned to gene ontology (GO) terms, the GO analysis in ann1-2 revealed functional enrichment in photosynthesis with seven out of a total of 13 up-regulated GO categories related to photosynthesis (Supplemental Table S1).This indicated significant enhancement in the expression levels of photosynthetic genes in ann1-2 in the absence of exogenous Suc.",
+        "Although Arabidopsis roots partially turn green when exposed to light, the main energy source that facilitates root growth originates in the leaves (Kobayashi et al., 2012).Thus, we decided to assay transcript levels of photosynthetic genes in the cotyledons of 4-d-old ann1-2, and wild-type seedlings grown without Suc.We assayed 4-d-old seedlings because evidence shows that the dominant roles of sugar to regulate root growth are probably restricted to the first 5 to 6 d before leaf development (Kircher and Schopfer, 2012).Among all the genes in photosynthesis-related GO categories, the top five most up-regulated ones were selected to be analyzed by reverse transcription quantitative PCR (RT-qPCR).Results showed that four out of five photosynthetic genes were significantly up-regulated in cotyledons of ann1-2 seedlings grown without Suc (Fig. 4A).These four genes encode chlorophyll-binding protein 2 (CAB2, LHCB1.1),chlorophyll-binding protein 3 (CAB3, LHCB1.2), and two subunits of PSII lightharvesting complex (PSII, LHB1B1, and LHB1B2).We also quantified the accumulation of chlorophyll in cotyledons of 4-d-old ann1-2 and wild-type seedlings grown without Suc.Consistent with the up-regulation of photosynthetic gene expression, cotyledons of ann1-2 seedlings showed significantly higher intensity of chlorophyll autofluorescence signal than that in wild-type cotyledons, indicating a higher chlorophyll content in cotyledons of ann1-2 seedlings compared to that in the wild type (Fig. 4, B and C).",
+        "Exogenous Suc reversed the enhanced expression of photosynthetic genes and chlorophyll accumulation in cotyledons of ann1-2 seedlings.When grown with 1% Suc, ann1-2 cotyledons showed similar photosynthetic gene expression levels as that in the wild type (Fig. 4D), and accumulation of chlorophyll in these tissues was also comparable (Fig. 4, E and F)."
+      ],
+      "text": "An RNA sequencing (RNA-seq) analysis comparing the transcript abundance in total mRNA extracted from primary roots of 2-week-old wild type, ann1-2, and ann2-1 grown without Suc in light revealed many differentially expressed genes (DEG) in the primary roots of the mutants.After the DEGs were assigned to gene ontology (GO) terms, the GO analysis in ann1-2 revealed functional enrichment in photosynthesis with seven out of a total of 13 up-regulated GO categories related to photosynthesis (Supplemental Table S1).This indicated significant enhancement in the expression levels of photosynthetic genes in ann1-2 in the absence of exogenous Suc.\nAlthough Arabidopsis roots partially turn green when exposed to light, the main energy source that facilitates root growth originates in the leaves (Kobayashi et al., 2012).Thus, we decided to assay transcript levels of photosynthetic genes in the cotyledons of 4-d-old ann1-2, and wild-type seedlings grown without Suc.We assayed 4-d-old seedlings because evidence shows that the dominant roles of sugar to regulate root growth are probably restricted to the first 5 to 6 d before leaf development (Kircher and Schopfer, 2012).Among all the genes in photosynthesis-related GO categories, the top five most up-regulated ones were selected to be analyzed by reverse transcription quantitative PCR (RT-qPCR).Results showed that four out of five photosynthetic genes were significantly up-regulated in cotyledons of ann1-2 seedlings grown without Suc (Fig. 4A).These four genes encode chlorophyll-binding protein 2 (CAB2, LHCB1.1),chlorophyll-binding protein 3 (CAB3, LHCB1.2), and two subunits of PSII lightharvesting complex (PSII, LHB1B1, and LHB1B2).We also quantified the accumulation of chlorophyll in cotyledons of 4-d-old ann1-2 and wild-type seedlings grown without Suc.Consistent with the up-regulation of photosynthetic gene expression, cotyledons of ann1-2 seedlings showed significantly higher intensity of chlorophyll autofluorescence signal than that in wild-type cotyledons, indicating a higher chlorophyll content in cotyledons of ann1-2 seedlings compared to that in the wild type (Fig. 4, B and C).\nExogenous Suc reversed the enhanced expression of photosynthetic genes and chlorophyll accumulation in cotyledons of ann1-2 seedlings.When grown with 1% Suc, ann1-2 cotyledons showed similar photosynthetic gene expression levels as that in the wild type (Fig. 4D), and accumulation of chlorophyll in these tissues was also comparable (Fig. 4, E and F).",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "An RNA sequencing (RNA-seq) analysis comparing the transcript abundance in total mRNA extracted from primary roots of 2-week-old wild type, ann1-2, and ann2-1 grown without Suc in light revealed many differentially expressed genes (DEG) in the primary roots of the mutants.After the DEGs were assigned to gene ontology (GO) terms, the GO analysis in ann1-2 revealed functional enrichment in photosynthesis with seven out of a total of 13 up-regulated GO categories related to photosynthesis (Supplemental Table S1).This indicated significant enhancement in the expression levels of photosynthetic genes in ann1-2 in the absence of exogenous Suc.",
+          "block_index": 0,
+          "section_index": 4,
+          "global_order": 21,
+          "id": "p_5_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "Although Arabidopsis roots partially turn green when exposed to light, the main energy source that facilitates root growth originates in the leaves (Kobayashi et al., 2012).Thus, we decided to assay transcript levels of photosynthetic genes in the cotyledons of 4-d-old ann1-2, and wild-type seedlings grown without Suc.We assayed 4-d-old seedlings because evidence shows that the dominant roles of sugar to regulate root growth are probably restricted to the first 5 to 6 d before leaf development (Kircher and Schopfer, 2012).Among all the genes in photosynthesis-related GO categories, the top five most up-regulated ones were selected to be analyzed by reverse transcription quantitative PCR (RT-qPCR).Results showed that four out of five photosynthetic genes were significantly up-regulated in cotyledons of ann1-2 seedlings grown without Suc (Fig. 4A).These four genes encode chlorophyll-binding protein 2 (CAB2, LHCB1.1),chlorophyll-binding protein 3 (CAB3, LHCB1.2), and two subunits of PSII lightharvesting complex (PSII, LHB1B1, and LHB1B2).We also quantified the accumulation of chlorophyll in cotyledons of 4-d-old ann1-2 and wild-type seedlings grown without Suc.Consistent with the up-regulation of photosynthetic gene expression, cotyledons of ann1-2 seedlings showed significantly higher intensity of chlorophyll autofluorescence signal than that in wild-type cotyledons, indicating a higher chlorophyll content in cotyledons of ann1-2 seedlings compared to that in the wild type (Fig. 4, B and C).",
+          "block_index": 1,
+          "section_index": 4,
+          "global_order": 22,
+          "id": "p_5_2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Exogenous Suc reversed the enhanced expression of photosynthetic genes and chlorophyll accumulation in cotyledons of ann1-2 seedlings.When grown with 1% Suc, ann1-2 cotyledons showed similar photosynthetic gene expression levels as that in the wild type (Fig. 4D), and accumulation of chlorophyll in these tissues was also comparable (Fig. 4, E and F).",
+          "block_index": 2,
+          "section_index": 4,
+          "global_order": 23,
+          "id": "p_5_3"
+        }
+      ]
+    },
+    {
+      "heading": "Knocking Out ANN1 and ANN2 Induces Accumulation of Soluble Sugars in Primary Roots",
+      "paragraphs": [
+        "We quantified neutral soluble sugars in primary roots of ann1-2, ann2-1 and wild type by gas chromatography/ mass spectrometry (GC/MS) using primary roots collected from 1-week-old seedlings grown on agar plates containing no sugars (Supplemental Table S3).Unexpectedly, significantly higher amounts of sugars were detected in both ann1-2 and ann2-1 root tissue relative to that in wild type (Fig. 5A), including significantly higher contents of soluble Glc (Fig. 5B) and Fru (Fig. 5C).Most of the sugar detected was probably in the phloem."
+      ],
+      "text": "We quantified neutral soluble sugars in primary roots of ann1-2, ann2-1 and wild type by gas chromatography/ mass spectrometry (GC/MS) using primary roots collected from 1-week-old seedlings grown on agar plates containing no sugars (Supplemental Table S3).Unexpectedly, significantly higher amounts of sugars were detected in both ann1-2 and ann2-1 root tissue relative to that in wild type (Fig. 5A), including significantly higher contents of soluble Glc (Fig. 5B) and Fru (Fig. 5C).Most of the sugar detected was probably in the phloem.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We quantified neutral soluble sugars in primary roots of ann1-2, ann2-1 and wild type by gas chromatography/ mass spectrometry (GC/MS) using primary roots collected from 1-week-old seedlings grown on agar plates containing no sugars (Supplemental Table S3).Unexpectedly, significantly higher amounts of sugars were detected in both ann1-2 and ann2-1 root tissue relative to that in wild type (Fig. 5A), including significantly higher contents of soluble Glc (Fig. 5B) and Fru (Fig. 5C).Most of the sugar detected was probably in the phloem.",
+          "block_index": 0,
+          "section_index": 5,
+          "global_order": 24,
+          "id": "p_6_1"
+        }
+      ]
+    },
+    {
+      "heading": "Knocking Out ANN1 and ANN2 Impairs Post-Phloem Transport in Root Tips",
+      "paragraphs": [
+        "Because 5(6)-carboxyfluorescein diacetate (CFDA) has been widely used as a phloem-mobile probe (Oparka et al., 1994;Knoblauch et al., 2015), we used CFDA to detect post-phloem transport in wild-type, ann1-2, ann2-1, and the ANN1-overexpressing line 35S:ANN1.35S:ANN1 seedlings showed significantly longer roots compared to that in the wild type when grown without Suc (Supplemental Fig. S3).All seedlings were grown without Suc for 4 d.After applying CFDA on cotyledons for 30 min, the dye was apparent in the two phloem files in primary roots of ann1-2, ann2-1, 35S:ANN1, and the wild type (Fig. 6A), indicating successful loading of carboxyfluorescein (CF).The wild type showed a characteristic transport pattern of CF along the root cortex (Fig. 6B).However, in ann1-2 and ann2-1, the diffusion of CF in root tips was restricted (Fig. 6B).",
+        "The post-phloem region has been defined as the region 250 μm behind the root tip (Stadler et al., 2005;Ross-Elliott et al., 2017), so we quantified CF fluorescence in three different areas (transition zone, meristem zone, and root cap) of this post-phloem region in ann1-2, ann2-1, 35S:ANN1, and wild-type roots (Fig. 6C).Significantly lower levels of CF fluorescence were detected in both ann1-2 and ann2-1 roots compared to that in wild type when seedlings were grown without Suc.This significant decrease of CF diffusion was more obvious in root caps, reaching a level more than 50% less compared to that of wild type.In contrast to that in ann1-2 and ann2-1, 35S:ANN1 showed significantly higher levels of CF diffusion in root tips compared to that in wild type by more than 50% in root caps.Taken together, these results indicate that ann1-2 and ann2-1 roots had impaired post-phloem transport; i.e. knocking out ANN1 and ANN2 restricted the diffusion of sugars from the phloem to the root tip."
+      ],
+      "text": "Because 5(6)-carboxyfluorescein diacetate (CFDA) has been widely used as a phloem-mobile probe (Oparka et al., 1994;Knoblauch et al., 2015), we used CFDA to detect post-phloem transport in wild-type, ann1-2, ann2-1, and the ANN1-overexpressing line 35S:ANN1.35S:ANN1 seedlings showed significantly longer roots compared to that in the wild type when grown without Suc (Supplemental Fig. S3).All seedlings were grown without Suc for 4 d.After applying CFDA on cotyledons for 30 min, the dye was apparent in the two phloem files in primary roots of ann1-2, ann2-1, 35S:ANN1, and the wild type (Fig. 6A), indicating successful loading of carboxyfluorescein (CF).The wild type showed a characteristic transport pattern of CF along the root cortex (Fig. 6B).However, in ann1-2 and ann2-1, the diffusion of CF in root tips was restricted (Fig. 6B).\nThe post-phloem region has been defined as the region 250 μm behind the root tip (Stadler et al., 2005;Ross-Elliott et al., 2017), so we quantified CF fluorescence in three different areas (transition zone, meristem zone, and root cap) of this post-phloem region in ann1-2, ann2-1, 35S:ANN1, and wild-type roots (Fig. 6C).Significantly lower levels of CF fluorescence were detected in both ann1-2 and ann2-1 roots compared to that in wild type when seedlings were grown without Suc.This significant decrease of CF diffusion was more obvious in root caps, reaching a level more than 50% less compared to that of wild type.In contrast to that in ann1-2 and ann2-1, 35S:ANN1 showed significantly higher levels of CF diffusion in root tips compared to that in wild type by more than 50% in root caps.Taken together, these results indicate that ann1-2 and ann2-1 roots had impaired post-phloem transport; i.e. knocking out ANN1 and ANN2 restricted the diffusion of sugars from the phloem to the root tip.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Because 5(6)-carboxyfluorescein diacetate (CFDA) has been widely used as a phloem-mobile probe (Oparka et al., 1994;Knoblauch et al., 2015), we used CFDA to detect post-phloem transport in wild-type, ann1-2, ann2-1, and the ANN1-overexpressing line 35S:ANN1.35S:ANN1 seedlings showed significantly longer roots compared to that in the wild type when grown without Suc (Supplemental Fig. S3).All seedlings were grown without Suc for 4 d.After applying CFDA on cotyledons for 30 min, the dye was apparent in the two phloem files in primary roots of ann1-2, ann2-1, 35S:ANN1, and the wild type (Fig. 6A), indicating successful loading of carboxyfluorescein (CF).The wild type showed a characteristic transport pattern of CF along the root cortex (Fig. 6B).However, in ann1-2 and ann2-1, the diffusion of CF in root tips was restricted (Fig. 6B).",
+          "block_index": 0,
+          "section_index": 6,
+          "global_order": 25,
+          "id": "p_7_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "The post-phloem region has been defined as the region 250 μm behind the root tip (Stadler et al., 2005;Ross-Elliott et al., 2017), so we quantified CF fluorescence in three different areas (transition zone, meristem zone, and root cap) of this post-phloem region in ann1-2, ann2-1, 35S:ANN1, and wild-type roots (Fig. 6C).Significantly lower levels of CF fluorescence were detected in both ann1-2 and ann2-1 roots compared to that in wild type when seedlings were grown without Suc.This significant decrease of CF diffusion was more obvious in root caps, reaching a level more than 50% less compared to that of wild type.In contrast to that in ann1-2 and ann2-1, 35S:ANN1 showed significantly higher levels of CF diffusion in root tips compared to that in wild type by more than 50% in root caps.Taken together, these results indicate that ann1-2 and ann2-1 roots had impaired post-phloem transport; i.e. knocking out ANN1 and ANN2 restricted the diffusion of sugars from the phloem to the root tip.",
+          "block_index": 1,
+          "section_index": 6,
+          "global_order": 26,
+          "id": "p_7_2"
+        }
+      ]
+    },
+    {
+      "heading": "Knocking Out ANN1 and ANN2 Increased ROS Levels and Callose Accumulation in Root Tips",
+      "paragraphs": [
+        "Intracellular reactive oxygen species (ROS) regulate plasmodesmata permeability through callose deposition (Benitez-Alfonso et al., 2009, 2011;Stonebloom et al., 2012).To test whether knocking out ANN1 and ANN2 leads to ROS accumulation in root tips, 2,7dichlorodihydrofluorescein diacetate (H 2 DCFDA), a dye that stains hydrogen peroxide (H 2 O 2 ), was applied to 3-d-old seedlings grown without Suc.Significantly higher levels of stain were detected in root tips of ann1-2 and ann2-1 compared to that in wild type when grown without Suc (Fig. 7, A and B).Aniline blue was used to detect callose accumulation in root tips of 3-d-old wild-type, ann1-2, and ann2-1 seedlings grown without Suc, which revealed significantly higher levels of callose deposition in ann1-2 and ann2-1 compared to that in wild type (Fig. 7, C and D)."
+      ],
+      "text": "Intracellular reactive oxygen species (ROS) regulate plasmodesmata permeability through callose deposition (Benitez-Alfonso et al., 2009, 2011;Stonebloom et al., 2012).To test whether knocking out ANN1 and ANN2 leads to ROS accumulation in root tips, 2,7dichlorodihydrofluorescein diacetate (H 2 DCFDA), a dye that stains hydrogen peroxide (H 2 O 2 ), was applied to 3-d-old seedlings grown without Suc.Significantly higher levels of stain were detected in root tips of ann1-2 and ann2-1 compared to that in wild type when grown without Suc (Fig. 7, A and B).Aniline blue was used to detect callose accumulation in root tips of 3-d-old wild-type, ann1-2, and ann2-1 seedlings grown without Suc, which revealed significantly higher levels of callose deposition in ann1-2 and ann2-1 compared to that in wild type (Fig. 7, C and D).",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Intracellular reactive oxygen species (ROS) regulate plasmodesmata permeability through callose deposition (Benitez-Alfonso et al., 2009, 2011;Stonebloom et al., 2012).To test whether knocking out ANN1 and ANN2 leads to ROS accumulation in root tips, 2,7dichlorodihydrofluorescein diacetate (H 2 DCFDA), a dye that stains hydrogen peroxide (H 2 O 2 ), was applied to 3-d-old seedlings grown without Suc.Significantly higher levels of stain were detected in root tips of ann1-2 and ann2-1 compared to that in wild type when grown without Suc (Fig. 7, A and B).Aniline blue was used to detect callose accumulation in root tips of 3-d-old wild-type, ann1-2, and ann2-1 seedlings grown without Suc, which revealed significantly higher levels of callose deposition in ann1-2 and ann2-1 compared to that in wild type (Fig. 7, C and D).",
+          "block_index": 0,
+          "section_index": 7,
+          "global_order": 27,
+          "id": "p_8_1"
+        }
+      ]
+    },
+    {
+      "heading": "ANN1 and ANN2 Knockout Seedlings Show Suc-Dependent Phenotypes",
+      "paragraphs": [
+        "The observation that significantly higher contents of soluble sugar were detected by GC/MS analysis in primary roots of ann1-2 and ann2-1 compared to those of wild type when grown together without Suc indicated there was successful phloem transport of sugar from shoots to roots in the knockout mutants, yet the mutants had obvious growth and columella cell defects.The fact that these defects were rescued by exogenous Suc independent of its osmotic effects suggested the possibility that ANN1 and ANN2 helped to regulate the post-phloem transport of Suc into root tips.Although successful unloading was detected in both the ANN1 knockout mutant ann1-2 and the ANN2 knockout mutant ann2-1, the diffusion of CFDA into root tips was impaired in both ann1-2 and ann2-1, indicating these mutants had restricted sugar diffusion in fast-growing regions from the unloading zone to root tips.These results are consistent with the conclusion that compromised expression of ANN1 and ANN2 leads to impaired diffusion of sugars in the fast-growing root apex, and this, in turn, inhibits primary root growth.However, further studies quantifying carbohydrate content only in the cap region after laser microdissection are required to confirm this conclusion."
+      ],
+      "text": "The observation that significantly higher contents of soluble sugar were detected by GC/MS analysis in primary roots of ann1-2 and ann2-1 compared to those of wild type when grown together without Suc indicated there was successful phloem transport of sugar from shoots to roots in the knockout mutants, yet the mutants had obvious growth and columella cell defects.The fact that these defects were rescued by exogenous Suc independent of its osmotic effects suggested the possibility that ANN1 and ANN2 helped to regulate the post-phloem transport of Suc into root tips.Although successful unloading was detected in both the ANN1 knockout mutant ann1-2 and the ANN2 knockout mutant ann2-1, the diffusion of CFDA into root tips was impaired in both ann1-2 and ann2-1, indicating these mutants had restricted sugar diffusion in fast-growing regions from the unloading zone to root tips.These results are consistent with the conclusion that compromised expression of ANN1 and ANN2 leads to impaired diffusion of sugars in the fast-growing root apex, and this, in turn, inhibits primary root growth.However, further studies quantifying carbohydrate content only in the cap region after laser microdissection are required to confirm this conclusion.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The observation that significantly higher contents of soluble sugar were detected by GC/MS analysis in primary roots of ann1-2 and ann2-1 compared to those of wild type when grown together without Suc indicated there was successful phloem transport of sugar from shoots to roots in the knockout mutants, yet the mutants had obvious growth and columella cell defects.The fact that these defects were rescued by exogenous Suc independent of its osmotic effects suggested the possibility that ANN1 and ANN2 helped to regulate the post-phloem transport of Suc into root tips.Although successful unloading was detected in both the ANN1 knockout mutant ann1-2 and the ANN2 knockout mutant ann2-1, the diffusion of CFDA into root tips was impaired in both ann1-2 and ann2-1, indicating these mutants had restricted sugar diffusion in fast-growing regions from the unloading zone to root tips.These results are consistent with the conclusion that compromised expression of ANN1 and ANN2 leads to impaired diffusion of sugars in the fast-growing root apex, and this, in turn, inhibits primary root growth.However, further studies quantifying carbohydrate content only in the cap region after laser microdissection are required to confirm this conclusion.",
+          "block_index": 0,
+          "section_index": 8,
+          "global_order": 28,
+          "id": "p_9_1"
+        }
+      ]
+    },
+    {
+      "heading": "Sugar in Regulation of Photosynthesis",
+      "paragraphs": [
+        "The regulatory roles of sugar in photosynthetic gene transcripts and photosynthesis capacity have been widely documented (Koch, 1996;Pego et al., 2000).Sugar starvation in plants activates photosynthesis, whereas high sugar levels inhibit photosynthesis (Yu et al., 2015;Sami et al., 2016).Sugar represses the transcriptional activity of photosynthetic gene promoters transiently expressed in maize mesophyll protoplasts   (Sheen, 1990).Sugar accumulation in leaves represses photosynthetic gene expression and photosynthesis (Pego et al., 2000).Roots are typical sink organs.Sugar demands in young roots promote photosynthesis in leaves.For example, overexpression of the HIGHER YIELD RICE gene encoding an APETALA2/ETHYLENE RESPONSIVE FACTOR transcription factor leads to increased root length, branching, and strength, which in turn promotes photosynthesis in leaves (Ambavaram et al., 2014).However, the mechanism of how plants monitor sugar levels in roots remains an active area of investigation.Here, we hypothesize that root tips are sugar-sensing tissues, and their sugar status can affect photosynthesis capacity in leaves.",
+        "As noted above, our results revealed sugar starvation in the actively growing root apex of the ann1-2 and ann2-1 knockout mutants by using CF as a phloem mobile probe.Evidence that this apical sugar starvation led to an up-regulation of photosynthesis was indicated by the up-regulated expression of genes encoding CAB2 (LHCB1.1),CAB3 (LHCB 1.2), and PSII subunits (LHB1B1 and LHB1B2), along with increased chlorophyll contents in ann1-2.The enhancement of photosynthesis in ann1-2 was most likely the change that resulted in the elevated sugar contents observed in primary roots of ann1-2.However, because these accumulated sugars could not reach the root apex due to the defective post-phloem transport of sugars in ann1-2, they failed to rescue primary root growth defects and to reverse the enhancement of photosynthesis.Assuming that sugars accumulate in the phloem and unloading zone without sufficient diffusion into the post-phloem region, this transport defect would lead to sugar starvation in root tips.Because roots can communicate their nutrient status to shoots and induce responses in them (Ko and Helariutta, 2017), the stress of sugar starvation in root tips could initiate a root-to-shoot signal, just as salt stress in roots promote the propagation of Ca 2+ waves from roots to shoots (Choi et al., 2014;Evans et al., 2016).Plausibly, such a signal could help explain how sugar-deprived root tips could induce the up-regulation of photosynthetic genes in leaves.",
+        "Roots efficiently take up Suc and Glc from the media (Chaudhuri et al., 2008), and consistently, exogenously supplied sugars in the medium successfully rescued primary root growth defects and reversed photosynthesis enhancement in ann1-2.These results favor the conclusion that ANN1 helps control root sugar status, which would result in feedback regulation of photosynthesis.Knocking out ANN1 may result in sugar starvation in roots, which could serve as a signal for plants to up-regulate photosynthesis."
+      ],
+      "text": "The regulatory roles of sugar in photosynthetic gene transcripts and photosynthesis capacity have been widely documented (Koch, 1996;Pego et al., 2000).Sugar starvation in plants activates photosynthesis, whereas high sugar levels inhibit photosynthesis (Yu et al., 2015;Sami et al., 2016).Sugar represses the transcriptional activity of photosynthetic gene promoters transiently expressed in maize mesophyll protoplasts   (Sheen, 1990).Sugar accumulation in leaves represses photosynthetic gene expression and photosynthesis (Pego et al., 2000).Roots are typical sink organs.Sugar demands in young roots promote photosynthesis in leaves.For example, overexpression of the HIGHER YIELD RICE gene encoding an APETALA2/ETHYLENE RESPONSIVE FACTOR transcription factor leads to increased root length, branching, and strength, which in turn promotes photosynthesis in leaves (Ambavaram et al., 2014).However, the mechanism of how plants monitor sugar levels in roots remains an active area of investigation.Here, we hypothesize that root tips are sugar-sensing tissues, and their sugar status can affect photosynthesis capacity in leaves.\nAs noted above, our results revealed sugar starvation in the actively growing root apex of the ann1-2 and ann2-1 knockout mutants by using CF as a phloem mobile probe.Evidence that this apical sugar starvation led to an up-regulation of photosynthesis was indicated by the up-regulated expression of genes encoding CAB2 (LHCB1.1),CAB3 (LHCB 1.2), and PSII subunits (LHB1B1 and LHB1B2), along with increased chlorophyll contents in ann1-2.The enhancement of photosynthesis in ann1-2 was most likely the change that resulted in the elevated sugar contents observed in primary roots of ann1-2.However, because these accumulated sugars could not reach the root apex due to the defective post-phloem transport of sugars in ann1-2, they failed to rescue primary root growth defects and to reverse the enhancement of photosynthesis.Assuming that sugars accumulate in the phloem and unloading zone without sufficient diffusion into the post-phloem region, this transport defect would lead to sugar starvation in root tips.Because roots can communicate their nutrient status to shoots and induce responses in them (Ko and Helariutta, 2017), the stress of sugar starvation in root tips could initiate a root-to-shoot signal, just as salt stress in roots promote the propagation of Ca 2+ waves from roots to shoots (Choi et al., 2014;Evans et al., 2016).Plausibly, such a signal could help explain how sugar-deprived root tips could induce the up-regulation of photosynthetic genes in leaves.\nRoots efficiently take up Suc and Glc from the media (Chaudhuri et al., 2008), and consistently, exogenously supplied sugars in the medium successfully rescued primary root growth defects and reversed photosynthesis enhancement in ann1-2.These results favor the conclusion that ANN1 helps control root sugar status, which would result in feedback regulation of photosynthesis.Knocking out ANN1 may result in sugar starvation in roots, which could serve as a signal for plants to up-regulate photosynthesis.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The regulatory roles of sugar in photosynthetic gene transcripts and photosynthesis capacity have been widely documented (Koch, 1996;Pego et al., 2000).Sugar starvation in plants activates photosynthesis, whereas high sugar levels inhibit photosynthesis (Yu et al., 2015;Sami et al., 2016).Sugar represses the transcriptional activity of photosynthetic gene promoters transiently expressed in maize mesophyll protoplasts   (Sheen, 1990).Sugar accumulation in leaves represses photosynthetic gene expression and photosynthesis (Pego et al., 2000).Roots are typical sink organs.Sugar demands in young roots promote photosynthesis in leaves.For example, overexpression of the HIGHER YIELD RICE gene encoding an APETALA2/ETHYLENE RESPONSIVE FACTOR transcription factor leads to increased root length, branching, and strength, which in turn promotes photosynthesis in leaves (Ambavaram et al., 2014).However, the mechanism of how plants monitor sugar levels in roots remains an active area of investigation.Here, we hypothesize that root tips are sugar-sensing tissues, and their sugar status can affect photosynthesis capacity in leaves.",
+          "block_index": 0,
+          "section_index": 9,
+          "global_order": 29,
+          "id": "p_10_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "As noted above, our results revealed sugar starvation in the actively growing root apex of the ann1-2 and ann2-1 knockout mutants by using CF as a phloem mobile probe.Evidence that this apical sugar starvation led to an up-regulation of photosynthesis was indicated by the up-regulated expression of genes encoding CAB2 (LHCB1.1),CAB3 (LHCB 1.2), and PSII subunits (LHB1B1 and LHB1B2), along with increased chlorophyll contents in ann1-2.The enhancement of photosynthesis in ann1-2 was most likely the change that resulted in the elevated sugar contents observed in primary roots of ann1-2.However, because these accumulated sugars could not reach the root apex due to the defective post-phloem transport of sugars in ann1-2, they failed to rescue primary root growth defects and to reverse the enhancement of photosynthesis.Assuming that sugars accumulate in the phloem and unloading zone without sufficient diffusion into the post-phloem region, this transport defect would lead to sugar starvation in root tips.Because roots can communicate their nutrient status to shoots and induce responses in them (Ko and Helariutta, 2017), the stress of sugar starvation in root tips could initiate a root-to-shoot signal, just as salt stress in roots promote the propagation of Ca 2+ waves from roots to shoots (Choi et al., 2014;Evans et al., 2016).Plausibly, such a signal could help explain how sugar-deprived root tips could induce the up-regulation of photosynthetic genes in leaves.",
+          "block_index": 1,
+          "section_index": 9,
+          "global_order": 30,
+          "id": "p_10_2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Roots efficiently take up Suc and Glc from the media (Chaudhuri et al., 2008), and consistently, exogenously supplied sugars in the medium successfully rescued primary root growth defects and reversed photosynthesis enhancement in ann1-2.These results favor the conclusion that ANN1 helps control root sugar status, which would result in feedback regulation of photosynthesis.Knocking out ANN1 may result in sugar starvation in roots, which could serve as a signal for plants to up-regulate photosynthesis.",
+          "block_index": 2,
+          "section_index": 9,
+          "global_order": 31,
+          "id": "p_10_3"
+        }
+      ]
+    },
+    {
+      "heading": "Post-Phloem Transport of Sugar to Root Tips",
+      "paragraphs": [
+        "Apical sugar concentration in root tips has been considered to play the determinant role in regulating root growth and development (Freixes et al., 2002).The diffusion of CF in root tips of ann1-2 and ann2-1 was restricted, whereas the ANN1-ovexpressing line 35S:ANN1 showed promoted diffusion of CF.We interpreted these results to indicate that knocking out ANN1 and ANN2 restricted symplastic diffusion in post-phloem transport from the unloading zone to root tips and that this restriction impaired primary root growth along with root cap development.",
+        "Sugar diffuses freely along the concentration gradient through plasmodesmata in the root apex.It is now widely accepted that plasmodesmata are dynamic channels whose permeability is highly regulated during plant growth and development (Sager and Lee, 2014).Callose has been found deposited in the neck region of plasmodesmata and can restrict the size exclusion limit of plasmodesmata (Luna et al., 2011;Zavaliev et al., 2011).ROS accumulation can increase callose accumulation, which may result in reduced plasmodesmatal transport (Benitez-Alfonso et al., 2009, 2011;Stonebloom et al., 2012).",
+        "ANNt1 has antioxidant activity (Gidrol et al., 1996), and this activity may help explain the results of prior studies that documented a link between ANN1 suppression and an increase in ROS levels.For example, the knockout of ANN1 results in the accumulation of higher levels of ROS in leaves compared to that in wild type (Konopka-Postupolska et al., 2009).Similarly, our results show that knocking out ANN1 and ANN2 leads to hyperaccumulation of ROS in root tips, and, like earlier studies, associates this change with an elevated accumulation of callose.Assuming that some of this accumulated callose is deposited in plasmodesmata, it would restrict plasmodesmatal sugar transport and thus help explain why post-phloem transport of sugar to root tips is inhibited in mutants.",
+        "In conclusion, our results provide data linking ANN1 and ANN2 to the regulation of primary root growth and development.This study expands our understanding of the function of annexins in plants to include an important role in the post-phloem transport of sugars to the root tip, which, in turn, indirectly impacts photosynthetic rates in cotyledons.",
+        "confocal microscopy images of callose levels in roots tips as detected by aniline blue staining of wild-type (Col-0), ann1-2, and ann2-1 seedlings grown without Suc for 3 d.D, Quantification of relative fluorescence intensity indicating callose deposition in root tips of 3-d-old wild-type (Col-0), ann1-2, and ann2-1 seedlings grown without Suc.B and D, Results were consistent in three independent experiments.Values are means ± se (n ≥ 8).Different letters indicate statistically significant differences as evaluated by Student's t test (P < 0.05).Bar, 50 μm.Wang et al."
+      ],
+      "text": "Apical sugar concentration in root tips has been considered to play the determinant role in regulating root growth and development (Freixes et al., 2002).The diffusion of CF in root tips of ann1-2 and ann2-1 was restricted, whereas the ANN1-ovexpressing line 35S:ANN1 showed promoted diffusion of CF.We interpreted these results to indicate that knocking out ANN1 and ANN2 restricted symplastic diffusion in post-phloem transport from the unloading zone to root tips and that this restriction impaired primary root growth along with root cap development.\nSugar diffuses freely along the concentration gradient through plasmodesmata in the root apex.It is now widely accepted that plasmodesmata are dynamic channels whose permeability is highly regulated during plant growth and development (Sager and Lee, 2014).Callose has been found deposited in the neck region of plasmodesmata and can restrict the size exclusion limit of plasmodesmata (Luna et al., 2011;Zavaliev et al., 2011).ROS accumulation can increase callose accumulation, which may result in reduced plasmodesmatal transport (Benitez-Alfonso et al., 2009, 2011;Stonebloom et al., 2012).\nANNt1 has antioxidant activity (Gidrol et al., 1996), and this activity may help explain the results of prior studies that documented a link between ANN1 suppression and an increase in ROS levels.For example, the knockout of ANN1 results in the accumulation of higher levels of ROS in leaves compared to that in wild type (Konopka-Postupolska et al., 2009).Similarly, our results show that knocking out ANN1 and ANN2 leads to hyperaccumulation of ROS in root tips, and, like earlier studies, associates this change with an elevated accumulation of callose.Assuming that some of this accumulated callose is deposited in plasmodesmata, it would restrict plasmodesmatal sugar transport and thus help explain why post-phloem transport of sugar to root tips is inhibited in mutants.\nIn conclusion, our results provide data linking ANN1 and ANN2 to the regulation of primary root growth and development.This study expands our understanding of the function of annexins in plants to include an important role in the post-phloem transport of sugars to the root tip, which, in turn, indirectly impacts photosynthetic rates in cotyledons.\nconfocal microscopy images of callose levels in roots tips as detected by aniline blue staining of wild-type (Col-0), ann1-2, and ann2-1 seedlings grown without Suc for 3 d.D, Quantification of relative fluorescence intensity indicating callose deposition in root tips of 3-d-old wild-type (Col-0), ann1-2, and ann2-1 seedlings grown without Suc.B and D, Results were consistent in three independent experiments.Values are means ± se (n ≥ 8).Different letters indicate statistically significant differences as evaluated by Student's t test (P < 0.05).Bar, 50 μm.Wang et al.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Apical sugar concentration in root tips has been considered to play the determinant role in regulating root growth and development (Freixes et al., 2002).The diffusion of CF in root tips of ann1-2 and ann2-1 was restricted, whereas the ANN1-ovexpressing line 35S:ANN1 showed promoted diffusion of CF.We interpreted these results to indicate that knocking out ANN1 and ANN2 restricted symplastic diffusion in post-phloem transport from the unloading zone to root tips and that this restriction impaired primary root growth along with root cap development.",
+          "block_index": 0,
+          "section_index": 10,
+          "global_order": 32,
+          "id": "p_11_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sugar diffuses freely along the concentration gradient through plasmodesmata in the root apex.It is now widely accepted that plasmodesmata are dynamic channels whose permeability is highly regulated during plant growth and development (Sager and Lee, 2014).Callose has been found deposited in the neck region of plasmodesmata and can restrict the size exclusion limit of plasmodesmata (Luna et al., 2011;Zavaliev et al., 2011).ROS accumulation can increase callose accumulation, which may result in reduced plasmodesmatal transport (Benitez-Alfonso et al., 2009, 2011;Stonebloom et al., 2012).",
+          "block_index": 1,
+          "section_index": 10,
+          "global_order": 33,
+          "id": "p_11_2"
+        },
+        {
+          "type": "paragraph",
+          "text": "ANNt1 has antioxidant activity (Gidrol et al., 1996), and this activity may help explain the results of prior studies that documented a link between ANN1 suppression and an increase in ROS levels.For example, the knockout of ANN1 results in the accumulation of higher levels of ROS in leaves compared to that in wild type (Konopka-Postupolska et al., 2009).Similarly, our results show that knocking out ANN1 and ANN2 leads to hyperaccumulation of ROS in root tips, and, like earlier studies, associates this change with an elevated accumulation of callose.Assuming that some of this accumulated callose is deposited in plasmodesmata, it would restrict plasmodesmatal sugar transport and thus help explain why post-phloem transport of sugar to root tips is inhibited in mutants.",
+          "block_index": 2,
+          "section_index": 10,
+          "global_order": 34,
+          "id": "p_11_3"
+        },
+        {
+          "type": "paragraph",
+          "text": "In conclusion, our results provide data linking ANN1 and ANN2 to the regulation of primary root growth and development.This study expands our understanding of the function of annexins in plants to include an important role in the post-phloem transport of sugars to the root tip, which, in turn, indirectly impacts photosynthetic rates in cotyledons.",
+          "block_index": 3,
+          "section_index": 10,
+          "global_order": 35,
+          "id": "p_11_4"
+        },
+        {
+          "type": "paragraph",
+          "text": "confocal microscopy images of callose levels in roots tips as detected by aniline blue staining of wild-type (Col-0), ann1-2, and ann2-1 seedlings grown without Suc for 3 d.D, Quantification of relative fluorescence intensity indicating callose deposition in root tips of 3-d-old wild-type (Col-0), ann1-2, and ann2-1 seedlings grown without Suc.B and D, Results were consistent in three independent experiments.Values are means ± se (n ≥ 8).Different letters indicate statistically significant differences as evaluated by Student's t test (P < 0.05).Bar, 50 μm.Wang et al.",
+          "block_index": 4,
+          "section_index": 10,
+          "global_order": 36,
+          "id": "p_11_5"
+        }
+      ]
+    },
+    {
+      "heading": "Plant Materials and Growth Conditions",
+      "paragraphs": [
+        "Arabidopsis (Arabidopsis thaliana) Colombia (Col-0) ecotype was used as the wild type in all experiments.ANN1 (At1g35720) and ANN2 (At5g65020) are studied.Annexin T-DNA insertion mutants including ann1-2, ann1-3, ann2-1, ann1-2/ann2-1, and 35S:ANN1 used in this study were all obtained from Wang et al. (2015).All seeds were surface sterilized by 75% (v/v) ethanol for 1 min and 20% bleach (v/v) for 10 min.After washing five times with sterile, deionized water, seeds were sowed on agar plates containing either no Suc, 2% (w/v) Suc, or 1% (w/v) mannitol.Seeds on agar plates were stratified in darkness at 4°C for 3 d.Stratified plates were placed vertically in a growth chamber (Percival AR-66 L; light intensity of 275/µmol m -2 s -1 , humidity of approximately 80%, 20°C) in continuous light or in darkness.Unless otherwise noted, chemicals were reagent grade from Sigma-Aldrich."
+      ],
+      "text": "Arabidopsis (Arabidopsis thaliana) Colombia (Col-0) ecotype was used as the wild type in all experiments.ANN1 (At1g35720) and ANN2 (At5g65020) are studied.Annexin T-DNA insertion mutants including ann1-2, ann1-3, ann2-1, ann1-2/ann2-1, and 35S:ANN1 used in this study were all obtained from Wang et al. (2015).All seeds were surface sterilized by 75% (v/v) ethanol for 1 min and 20% bleach (v/v) for 10 min.After washing five times with sterile, deionized water, seeds were sowed on agar plates containing either no Suc, 2% (w/v) Suc, or 1% (w/v) mannitol.Seeds on agar plates were stratified in darkness at 4°C for 3 d.Stratified plates were placed vertically in a growth chamber (Percival AR-66 L; light intensity of 275/µmol m -2 s -1 , humidity of approximately 80%, 20°C) in continuous light or in darkness.Unless otherwise noted, chemicals were reagent grade from Sigma-Aldrich.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Arabidopsis (Arabidopsis thaliana) Colombia (Col-0) ecotype was used as the wild type in all experiments.ANN1 (At1g35720) and ANN2 (At5g65020) are studied.Annexin T-DNA insertion mutants including ann1-2, ann1-3, ann2-1, ann1-2/ann2-1, and 35S:ANN1 used in this study were all obtained from Wang et al. (2015).All seeds were surface sterilized by 75% (v/v) ethanol for 1 min and 20% bleach (v/v) for 10 min.After washing five times with sterile, deionized water, seeds were sowed on agar plates containing either no Suc, 2% (w/v) Suc, or 1% (w/v) mannitol.Seeds on agar plates were stratified in darkness at 4°C for 3 d.Stratified plates were placed vertically in a growth chamber (Percival AR-66 L; light intensity of 275/µmol m -2 s -1 , humidity of approximately 80%, 20°C) in continuous light or in darkness.Unless otherwise noted, chemicals were reagent grade from Sigma-Aldrich.",
+          "block_index": 0,
+          "section_index": 11,
+          "global_order": 37,
+          "id": "p_12_1"
+        }
+      ]
+    },
+    {
+      "heading": "Lugol Staining of Columella Cells",
+      "paragraphs": [
+        "Seedlings grown with 1% Suc or without Suc were submerged in a root cap fixative solution (5% [w/v] formaldehyde, 5% [v/v] acetic acid, and 25% [v/v] ethanol) for 24 h.Lugol staining of root caps was done as described by Hong et al. (2015).Ten to thirteen seedlings were imaged for each genotype with a DIC optics on a Nikon 90i Stereology microscope, using a 60× objective."
+      ],
+      "text": "Seedlings grown with 1% Suc or without Suc were submerged in a root cap fixative solution (5% [w/v] formaldehyde, 5% [v/v] acetic acid, and 25% [v/v] ethanol) for 24 h.Lugol staining of root caps was done as described by Hong et al. (2015).Ten to thirteen seedlings were imaged for each genotype with a DIC optics on a Nikon 90i Stereology microscope, using a 60× objective.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Seedlings grown with 1% Suc or without Suc were submerged in a root cap fixative solution (5% [w/v] formaldehyde, 5% [v/v] acetic acid, and 25% [v/v] ethanol) for 24 h.Lugol staining of root caps was done as described by Hong et al. (2015).Ten to thirteen seedlings were imaged for each genotype with a DIC optics on a Nikon 90i Stereology microscope, using a 60× objective.",
+          "block_index": 0,
+          "section_index": 12,
+          "global_order": 38,
+          "id": "p_13_1"
+        }
+      ]
+    },
+    {
+      "heading": "Starch Quantification",
+      "paragraphs": [
+        "Starch levels in 2 mm root tips of 10-d-old wild-type and ann1-2 seedlings grown without Suc were assayed in ethanol extracts using methods described by Bergmeyer (1984), Barratt et al. (2009), andDivya et al. (2010)."
+      ],
+      "text": "Starch levels in 2 mm root tips of 10-d-old wild-type and ann1-2 seedlings grown without Suc were assayed in ethanol extracts using methods described by Bergmeyer (1984), Barratt et al. (2009), andDivya et al. (2010).",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Starch levels in 2 mm root tips of 10-d-old wild-type and ann1-2 seedlings grown without Suc were assayed in ethanol extracts using methods described by Bergmeyer (1984), Barratt et al. (2009), andDivya et al. (2010).",
+          "block_index": 0,
+          "section_index": 13,
+          "global_order": 39,
+          "id": "p_14_1"
+        }
+      ]
+    },
+    {
+      "heading": "RNA Extraction",
+      "paragraphs": [
+        "Trizol reagent was used in all RNA extraction experiments following the manufacturer's protocol."
+      ],
+      "text": "Trizol reagent was used in all RNA extraction experiments following the manufacturer's protocol.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Trizol reagent was used in all RNA extraction experiments following the manufacturer's protocol.",
+          "block_index": 0,
+          "section_index": 14,
+          "global_order": 40,
+          "id": "p_15_1"
+        }
+      ]
+    },
+    {
+      "heading": "RNA-Seq Analysis",
+      "paragraphs": [
+        "To elucidate the mechanisms of ANN1 and ANN2 in regulation of primary root growth, we performed a comparative RNA-seq using total RNA from primary roots excised from 2-week-old wild-type, ann1-2, and ann2-1 seedlings grown without Suc in light.Total RNA extracted from primary roots of 2-week-old wild-type, ann1-2, and ann2-1 seedlings grown without Suc was submitted to the Genome Sequencing and Analysis Facility (GSAF) at the University of Texas at Austin.Both library construction and sequencing were performed by GSAF.After filtering low-quality reads and removing adaptor contamination from the raw data of Illumina reads, the following steps were as described by Van Verk et al. (2013) to detect differential expression in ann1-2 and ann2-1 compared to Col-0.A cutoff value of a greater than 2-fold change in expression was used to select differentially expressed genes in ann1-2 and ann2-1.",
+        "To further investigate the biological functions of the DEG in both ann1-2 and ann2-1, we subsequently assigned the DEGs to GO terms.TAIR10 was downloaded for gene function descriptions and GO annotations.Ture-path rule was applied in functional enrichment analysis.A gene annotated with a particular GO term was also annotated with all its parents.To avoid very generic, noninformative terms for analysis, only terms annotating 500 or fewer genes were retained.Genes annotated with a given specific GO term were considered as a gene set.All the gene sets were tested for the statistical significance of enrichment among themselves using the cumulative hypergeometric test.Then a Benjamini-Hochberg false discovery rate (Benjamini and Hochberg, 1995) was also calculated.A false discovery rate threshold of 0.05 was used for significance."
+      ],
+      "text": "To elucidate the mechanisms of ANN1 and ANN2 in regulation of primary root growth, we performed a comparative RNA-seq using total RNA from primary roots excised from 2-week-old wild-type, ann1-2, and ann2-1 seedlings grown without Suc in light.Total RNA extracted from primary roots of 2-week-old wild-type, ann1-2, and ann2-1 seedlings grown without Suc was submitted to the Genome Sequencing and Analysis Facility (GSAF) at the University of Texas at Austin.Both library construction and sequencing were performed by GSAF.After filtering low-quality reads and removing adaptor contamination from the raw data of Illumina reads, the following steps were as described by Van Verk et al. (2013) to detect differential expression in ann1-2 and ann2-1 compared to Col-0.A cutoff value of a greater than 2-fold change in expression was used to select differentially expressed genes in ann1-2 and ann2-1.\nTo further investigate the biological functions of the DEG in both ann1-2 and ann2-1, we subsequently assigned the DEGs to GO terms.TAIR10 was downloaded for gene function descriptions and GO annotations.Ture-path rule was applied in functional enrichment analysis.A gene annotated with a particular GO term was also annotated with all its parents.To avoid very generic, noninformative terms for analysis, only terms annotating 500 or fewer genes were retained.Genes annotated with a given specific GO term were considered as a gene set.All the gene sets were tested for the statistical significance of enrichment among themselves using the cumulative hypergeometric test.Then a Benjamini-Hochberg false discovery rate (Benjamini and Hochberg, 1995) was also calculated.A false discovery rate threshold of 0.05 was used for significance.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "To elucidate the mechanisms of ANN1 and ANN2 in regulation of primary root growth, we performed a comparative RNA-seq using total RNA from primary roots excised from 2-week-old wild-type, ann1-2, and ann2-1 seedlings grown without Suc in light.Total RNA extracted from primary roots of 2-week-old wild-type, ann1-2, and ann2-1 seedlings grown without Suc was submitted to the Genome Sequencing and Analysis Facility (GSAF) at the University of Texas at Austin.Both library construction and sequencing were performed by GSAF.After filtering low-quality reads and removing adaptor contamination from the raw data of Illumina reads, the following steps were as described by Van Verk et al. (2013) to detect differential expression in ann1-2 and ann2-1 compared to Col-0.A cutoff value of a greater than 2-fold change in expression was used to select differentially expressed genes in ann1-2 and ann2-1.",
+          "block_index": 0,
+          "section_index": 15,
+          "global_order": 41,
+          "id": "p_16_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "To further investigate the biological functions of the DEG in both ann1-2 and ann2-1, we subsequently assigned the DEGs to GO terms.TAIR10 was downloaded for gene function descriptions and GO annotations.Ture-path rule was applied in functional enrichment analysis.A gene annotated with a particular GO term was also annotated with all its parents.To avoid very generic, noninformative terms for analysis, only terms annotating 500 or fewer genes were retained.Genes annotated with a given specific GO term were considered as a gene set.All the gene sets were tested for the statistical significance of enrichment among themselves using the cumulative hypergeometric test.Then a Benjamini-Hochberg false discovery rate (Benjamini and Hochberg, 1995) was also calculated.A false discovery rate threshold of 0.05 was used for significance.",
+          "block_index": 1,
+          "section_index": 15,
+          "global_order": 42,
+          "id": "p_16_2"
+        }
+      ]
+    },
+    {
+      "heading": "RT-qPCR Analysis",
+      "paragraphs": [
+        "cDNA was transcribed from RNA by the High-Capacity cDNA Reverse Transcription Kit (Thermo Fisher) after DNase I digestion.Ten micrograms cDNA was used for each sample.RT-qPCR was performed on Quant-Studio platform (Applied Biosystems) with PowerUp Sybr Green Master Mix (Thermo Fisher).Transcripts of cab2 (AT1G29920), cab3 (AT1G29910), LHB1B1 (AT2G34430), LHB1B2 (AT2G34420), ANN1 (AT1G35720), and ANN2 (AT5G65020) under different conditions were studied.Primer sequences used in all RT-qPCR experiments to detect gene expression are listed in Supplemental Table S2.Specificity of gene amplifications were confirmed by melting curves.For each condition tested, three biological replicates for both wild type and ann1-2 with three technical replicates for each biological replicate were used. 2 -ΔΔCT method (Livak and Schmittgen, 2001) was used to calculate fold changes.For significant difference between each condition, either one-way ANOVA for three conditions or Student's t test for two conditions was used."
+      ],
+      "text": "cDNA was transcribed from RNA by the High-Capacity cDNA Reverse Transcription Kit (Thermo Fisher) after DNase I digestion.Ten micrograms cDNA was used for each sample.RT-qPCR was performed on Quant-Studio platform (Applied Biosystems) with PowerUp Sybr Green Master Mix (Thermo Fisher).Transcripts of cab2 (AT1G29920), cab3 (AT1G29910), LHB1B1 (AT2G34430), LHB1B2 (AT2G34420), ANN1 (AT1G35720), and ANN2 (AT5G65020) under different conditions were studied.Primer sequences used in all RT-qPCR experiments to detect gene expression are listed in Supplemental Table S2.Specificity of gene amplifications were confirmed by melting curves.For each condition tested, three biological replicates for both wild type and ann1-2 with three technical replicates for each biological replicate were used. 2 -ΔΔCT method (Livak and Schmittgen, 2001) was used to calculate fold changes.For significant difference between each condition, either one-way ANOVA for three conditions or Student's t test for two conditions was used.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "cDNA was transcribed from RNA by the High-Capacity cDNA Reverse Transcription Kit (Thermo Fisher) after DNase I digestion.Ten micrograms cDNA was used for each sample.RT-qPCR was performed on Quant-Studio platform (Applied Biosystems) with PowerUp Sybr Green Master Mix (Thermo Fisher).Transcripts of cab2 (AT1G29920), cab3 (AT1G29910), LHB1B1 (AT2G34430), LHB1B2 (AT2G34420), ANN1 (AT1G35720), and ANN2 (AT5G65020) under different conditions were studied.Primer sequences used in all RT-qPCR experiments to detect gene expression are listed in Supplemental Table S2.Specificity of gene amplifications were confirmed by melting curves.For each condition tested, three biological replicates for both wild type and ann1-2 with three technical replicates for each biological replicate were used. 2 -ΔΔCT method (Livak and Schmittgen, 2001) was used to calculate fold changes.For significant difference between each condition, either one-way ANOVA for three conditions or Student's t test for two conditions was used.",
+          "block_index": 0,
+          "section_index": 16,
+          "global_order": 43,
+          "id": "p_17_1"
+        }
+      ]
+    },
+    {
+      "heading": "Detection of Chlorophyll Autofluorescence",
+      "paragraphs": [
+        "Cotyledons of 4-d-old intact ann1-2 and wild-type seedlings grown either with 1% Suc or without Suc were examined.Chlorophyll autofluorescence 660 to 701 nm was detected with an excitation wavelength of 488 nm.Fifteen seedlings were examined for ann1-2 and the wild type."
+      ],
+      "text": "Cotyledons of 4-d-old intact ann1-2 and wild-type seedlings grown either with 1% Suc or without Suc were examined.Chlorophyll autofluorescence 660 to 701 nm was detected with an excitation wavelength of 488 nm.Fifteen seedlings were examined for ann1-2 and the wild type.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Cotyledons of 4-d-old intact ann1-2 and wild-type seedlings grown either with 1% Suc or without Suc were examined.Chlorophyll autofluorescence 660 to 701 nm was detected with an excitation wavelength of 488 nm.Fifteen seedlings were examined for ann1-2 and the wild type.",
+          "block_index": 0,
+          "section_index": 17,
+          "global_order": 44,
+          "id": "p_18_1"
+        }
+      ]
+    },
+    {
+      "heading": "GC/MS Analysis",
+      "paragraphs": [
+        "Wild-type, ann1-2, and ann2-1 seedlings were grown in continuous light on agar plates containing no Suc for a week.Primary roots were collected and washed in sterile water twice.After freeze drying for 2 d, samples were submitted to complex carbohydrate research center at the University of Georgia for GC/MS analysis.Triplicate experiments were carried out."
+      ],
+      "text": "Wild-type, ann1-2, and ann2-1 seedlings were grown in continuous light on agar plates containing no Suc for a week.Primary roots were collected and washed in sterile water twice.After freeze drying for 2 d, samples were submitted to complex carbohydrate research center at the University of Georgia for GC/MS analysis.Triplicate experiments were carried out.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Wild-type, ann1-2, and ann2-1 seedlings were grown in continuous light on agar plates containing no Suc for a week.Primary roots were collected and washed in sterile water twice.After freeze drying for 2 d, samples were submitted to complex carbohydrate research center at the University of Georgia for GC/MS analysis.Triplicate experiments were carried out.",
+          "block_index": 0,
+          "section_index": 18,
+          "global_order": 45,
+          "id": "p_19_1"
+        }
+      ]
+    },
+    {
+      "heading": "CFDA Application",
+      "paragraphs": [
+        "CFDA stock was prepared as 6 mg/mL in acetone and kept at -80°C.A dilution of 1:20 in sterile water was used for application.Wild-type, ann1-2, and ann2-1 seedlings were grown on agar plates containing no Suc for 4 d.A cotyledon was grazed by fine tweezers to allow 1 µL CFDA to penetrate.All samples were excited by 488-nm laser.Fluorescence 500 to 566 nm was monitored."
+      ],
+      "text": "CFDA stock was prepared as 6 mg/mL in acetone and kept at -80°C.A dilution of 1:20 in sterile water was used for application.Wild-type, ann1-2, and ann2-1 seedlings were grown on agar plates containing no Suc for 4 d.A cotyledon was grazed by fine tweezers to allow 1 µL CFDA to penetrate.All samples were excited by 488-nm laser.Fluorescence 500 to 566 nm was monitored.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "CFDA stock was prepared as 6 mg/mL in acetone and kept at -80°C.A dilution of 1:20 in sterile water was used for application.Wild-type, ann1-2, and ann2-1 seedlings were grown on agar plates containing no Suc for 4 d.A cotyledon was grazed by fine tweezers to allow 1 µL CFDA to penetrate.All samples were excited by 488-nm laser.Fluorescence 500 to 566 nm was monitored.",
+          "block_index": 0,
+          "section_index": 19,
+          "global_order": 46,
+          "id": "p_20_1"
+        }
+      ]
+    },
+    {
+      "heading": "ROS Detection",
+      "paragraphs": [
+        "Three-day-old wild-type, ann1-2, and ann2-1 seedlings grown without Suc were used.Whole seedlings were incubated in the buffer (30 mm KCl and 10 mm MES-KOH, pH 6.15) with 50 µm H 2 DCFDA for 1 h in darkness at room temperature.Extra dye was washed three times by the buffer before confocal microscopy.All samples were excited by 488-nm laser.Fluorescence between 517 and 527 nm was collected."
+      ],
+      "text": "Three-day-old wild-type, ann1-2, and ann2-1 seedlings grown without Suc were used.Whole seedlings were incubated in the buffer (30 mm KCl and 10 mm MES-KOH, pH 6.15) with 50 µm H 2 DCFDA for 1 h in darkness at room temperature.Extra dye was washed three times by the buffer before confocal microscopy.All samples were excited by 488-nm laser.Fluorescence between 517 and 527 nm was collected.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Three-day-old wild-type, ann1-2, and ann2-1 seedlings grown without Suc were used.Whole seedlings were incubated in the buffer (30 mm KCl and 10 mm MES-KOH, pH 6.15) with 50 µm H 2 DCFDA for 1 h in darkness at room temperature.Extra dye was washed three times by the buffer before confocal microscopy.All samples were excited by 488-nm laser.Fluorescence between 517 and 527 nm was collected.",
+          "block_index": 0,
+          "section_index": 20,
+          "global_order": 47,
+          "id": "p_21_1"
+        }
+      ]
+    }
+  ],
+  "figures": {
+    "fig_1": {
+      "label": "Figure 1 .",
+      "caption": "Figure 1.Inhibition of primary root growth in ANN1 and ANN2 knockout mutants is rescued by exogenous Suc independent of its osmotic effects.A, Representative images comparing primary root growth of 3-d-old Arabidopsis wild-type (Col-0), ann1-2, ann1-3, ann2-1, and ann1-2/ann2-1 mutant seedlings grown on vertical Murashige and Skoog (MS) plates containing either no Suc, 1% mannitol, or 2% Suc.Bars, 5 mm.B, C, and D, Primary root lengths (left graphs) and growth rates (right graphs) of 3-d-old wild-type (Col-0), ann1-2, ann1-3, ann2-1, and ann1-2/ann2-1 seedlings grown on vertical MS plates containing either no Suc (B), 2% Suc (C), or 1% mannitol (D).Data are means ± sd (n = 16-20) of three independent experiments.Different letters indicate statistically significant differences as evaluated by Student's t test (P < 0.05).",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "3,69.00,394.64,432.05,7.88;3,69.00,404.64,432.00,7.88;3,69.00,414.64,432.03,7.88;3,69.00,424.64,432.06,7.88;3,69.00,434.64,431.98,7.88;3,69.00,444.64,432.00,7.88;3,69.00,454.64,289.12,7.88;3,45.30,75.00,479.40,303.12",
+      "coords_groups": [
+        {
+          "page": 3,
+          "x": 69.0,
+          "y": 394.64,
+          "w": 432.05,
+          "h": 7.88,
+          "x2": 501.05,
+          "y2": 402.52
+        },
+        {
+          "page": 3,
+          "x": 69.0,
+          "y": 404.64,
+          "w": 432.0,
+          "h": 7.88,
+          "x2": 501.0,
+          "y2": 412.52
+        },
+        {
+          "page": 3,
+          "x": 69.0,
+          "y": 414.64,
+          "w": 432.03,
+          "h": 7.88,
+          "x2": 501.03,
+          "y2": 422.52
+        },
+        {
+          "page": 3,
+          "x": 69.0,
+          "y": 424.64,
+          "w": 432.06,
+          "h": 7.88,
+          "x2": 501.06,
+          "y2": 432.52
+        },
+        {
+          "page": 3,
+          "x": 69.0,
+          "y": 434.64,
+          "w": 431.98,
+          "h": 7.88,
+          "x2": 500.98,
+          "y2": 442.52
+        },
+        {
+          "page": 3,
+          "x": 69.0,
+          "y": 444.64,
+          "w": 432.0,
+          "h": 7.88,
+          "x2": 501.0,
+          "y2": 452.52
+        },
+        {
+          "page": 3,
+          "x": 69.0,
+          "y": 454.64,
+          "w": 289.12,
+          "h": 7.88,
+          "x2": 358.12,
+          "y2": 462.52
+        },
+        {
+          "page": 3,
+          "x": 45.3,
+          "y": 75.0,
+          "w": 479.4,
+          "h": 303.12,
+          "x2": 524.6999999999999,
+          "y2": 378.12
+        }
+      ],
+      "bbox": {
+        "page": 3,
+        "x1": 45.3,
+        "y1": 75.0,
+        "x2": 524.6999999999999,
+        "y2": 462.52,
+        "width": 479.3999999999999,
+        "height": 387.52
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 1,
+      "block_global_order": 1,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC6130020/fig_1.jpeg"
+    },
+    "fig_2": {
+      "label": "Figure 2 .",
+      "caption": "Figure 2. ANN1 and ANN2 knockout mutants have root cap developmental defects when grown without Suc.A and B, Root cap features revealed by Lugol staining of granule starch in columella cells of 4-d-old Arabidopsis wild-type (Col-0), ann1-2, ann2-1, and ann1-2/ann2-1 seedlings with or without 1% Suc.Cells with columella identity were detected by staining with Lugol solution.Ten to thirteen seedlings of each set of wild-type (Col-0) and mutant plants were observed.Root tips with stained columella cells of seedlings grown without Suc (A) and with 1% Suc (B).White arrow indicates border-like cells.Bars, 10 μm.",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "4,84.00,364.83,432.01,7.88;4,84.00,374.83,432.01,7.88;4,84.00,384.83,432.01,7.88;4,84.00,394.83,431.95,7.88;4,84.00,404.83,431.69,7.88;4,59.45,94.97,481.10,253.46",
+      "coords_groups": [
+        {
+          "page": 4,
+          "x": 84.0,
+          "y": 364.83,
+          "w": 432.01,
+          "h": 7.88,
+          "x2": 516.01,
+          "y2": 372.71
+        },
+        {
+          "page": 4,
+          "x": 84.0,
+          "y": 374.83,
+          "w": 432.01,
+          "h": 7.88,
+          "x2": 516.01,
+          "y2": 382.71
+        },
+        {
+          "page": 4,
+          "x": 84.0,
+          "y": 384.83,
+          "w": 432.01,
+          "h": 7.88,
+          "x2": 516.01,
+          "y2": 392.71
+        },
+        {
+          "page": 4,
+          "x": 84.0,
+          "y": 394.83,
+          "w": 431.95,
+          "h": 7.88,
+          "x2": 515.95,
+          "y2": 402.71
+        },
+        {
+          "page": 4,
+          "x": 84.0,
+          "y": 404.83,
+          "w": 431.69,
+          "h": 7.88,
+          "x2": 515.69,
+          "y2": 412.71
+        },
+        {
+          "page": 4,
+          "x": 59.45,
+          "y": 94.97,
+          "w": 481.1,
+          "h": 253.46,
+          "x2": 540.5500000000001,
+          "y2": 348.43
+        }
+      ],
+      "bbox": {
+        "page": 4,
+        "x1": 59.45,
+        "y1": 94.97,
+        "x2": 540.5500000000001,
+        "y2": 412.71,
+        "width": 481.1000000000001,
+        "height": 317.74
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 2,
+      "block_global_order": 2,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC6130020/fig_2.jpeg"
+    },
+    "fig_3": {
+      "label": "Figure 3 .",
+      "caption": "Figure 3. ann1-mutant root tips contain less starch than wild-type root tips when grown without Suc.Quantitative analysis of starch content levels in root tips of wild-type (Col-0) and ann1-2 seedlings grown without Suc.Starch levels were measured in 2-mm root tips harvested from 10-d-old seedlings grown without Suc.Data represent means ± sd of two replicates.Different letters indicate statistically significant differences as evaluated by Student's t test (P < 0.05).",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "4,48.00,662.52,240.02,7.88;4,48.00,672.52,240.01,7.88;4,48.00,682.52,239.98,7.88;4,48.00,692.52,240.00,7.88;4,48.00,702.52,240.02,7.88;4,48.00,712.52,239.97,7.88;4,48.00,722.52,181.96,7.88",
+      "coords_groups": [
+        {
+          "page": 4,
+          "x": 48.0,
+          "y": 662.52,
+          "w": 240.02,
+          "h": 7.88,
+          "x2": 288.02,
+          "y2": 670.4
+        },
+        {
+          "page": 4,
+          "x": 48.0,
+          "y": 672.52,
+          "w": 240.01,
+          "h": 7.88,
+          "x2": 288.01,
+          "y2": 680.4
+        },
+        {
+          "page": 4,
+          "x": 48.0,
+          "y": 682.52,
+          "w": 239.98,
+          "h": 7.88,
+          "x2": 287.98,
+          "y2": 690.4
+        },
+        {
+          "page": 4,
+          "x": 48.0,
+          "y": 692.52,
+          "w": 240.0,
+          "h": 7.88,
+          "x2": 288.0,
+          "y2": 700.4
+        },
+        {
+          "page": 4,
+          "x": 48.0,
+          "y": 702.52,
+          "w": 240.02,
+          "h": 7.88,
+          "x2": 288.02,
+          "y2": 710.4
+        },
+        {
+          "page": 4,
+          "x": 48.0,
+          "y": 712.52,
+          "w": 239.97,
+          "h": 7.88,
+          "x2": 287.97,
+          "y2": 720.4
+        },
+        {
+          "page": 4,
+          "x": 48.0,
+          "y": 722.52,
+          "w": 181.96,
+          "h": 7.88,
+          "x2": 229.96,
+          "y2": 730.4
+        }
+      ],
+      "bbox": {
+        "page": 4,
+        "x1": 48.0,
+        "y1": 662.52,
+        "x2": 288.02,
+        "y2": 730.4,
+        "width": 240.01999999999998,
+        "height": 67.88
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 3,
+      "block_global_order": 3,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC6130020/fig_3.jpeg"
+    },
+    "fig_4": {
+      "label": "Figure 4 .",
+      "caption": "Figure 4. Up-regulation of photosynthesis-related gene expression and increased chlorophyll fluorescence in ANN1 knockout mutant is rescued by exogenous Suc.A and D, RT-qPCR analysis of gene expression levels in cotyledons of 4-d-old wild-type (Col-0) and ann1-2 seedlings grown without Suc (A) or with 1% Suc (D).Data represent means ± se, (n = 9) of three independent experiments.B and E, Confocal microscopy of chlorophyll fluorescence in cotyledons of 4-d-old wild-type (Col-0) and ann1-2 seedlings grown without Suc (B) or with 1% Suc (E).Top, chlorophyll fluorescence.Bottom, bright field.Fifteen seedlings were assayed for each set.Bars, 100 μm.C and F, Quantification of chlorophyll fluorescence relative intensity in cotyledons of 4-d-old wild-type (Col-0) and ann1-2 seedlings grown without Suc (C) or with 1% Suc (F).Values are means ± se (n = 15) of three independent experiments.Different letters indicate statistically significant differences as evaluated by Student's t test (P < 0.05).",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "5,69.00,495.18,431.97,7.88;5,69.00,505.18,431.96,7.88;5,69.00,515.18,432.01,7.88;5,69.00,525.18,431.98,7.88;5,69.00,535.18,432.00,7.88;5,69.00,545.18,431.95,7.88;5,69.00,555.18,432.00,7.88;5,69.00,565.18,432.05,7.88",
+      "coords_groups": [
+        {
+          "page": 5,
+          "x": 69.0,
+          "y": 495.18,
+          "w": 431.97,
+          "h": 7.88,
+          "x2": 500.97,
+          "y2": 503.06
+        },
+        {
+          "page": 5,
+          "x": 69.0,
+          "y": 505.18,
+          "w": 431.96,
+          "h": 7.88,
+          "x2": 500.96,
+          "y2": 513.0600000000001
+        },
+        {
+          "page": 5,
+          "x": 69.0,
+          "y": 515.18,
+          "w": 432.01,
+          "h": 7.88,
+          "x2": 501.01,
+          "y2": 523.06
+        },
+        {
+          "page": 5,
+          "x": 69.0,
+          "y": 525.18,
+          "w": 431.98,
+          "h": 7.88,
+          "x2": 500.98,
+          "y2": 533.06
+        },
+        {
+          "page": 5,
+          "x": 69.0,
+          "y": 535.18,
+          "w": 432.0,
+          "h": 7.88,
+          "x2": 501.0,
+          "y2": 543.06
+        },
+        {
+          "page": 5,
+          "x": 69.0,
+          "y": 545.18,
+          "w": 431.95,
+          "h": 7.88,
+          "x2": 500.95,
+          "y2": 553.06
+        },
+        {
+          "page": 5,
+          "x": 69.0,
+          "y": 555.18,
+          "w": 432.0,
+          "h": 7.88,
+          "x2": 501.0,
+          "y2": 563.06
+        },
+        {
+          "page": 5,
+          "x": 69.0,
+          "y": 565.18,
+          "w": 432.05,
+          "h": 7.88,
+          "x2": 501.05,
+          "y2": 573.06
+        }
+      ],
+      "bbox": {
+        "page": 5,
+        "x1": 69.0,
+        "y1": 495.18,
+        "x2": 501.05,
+        "y2": 573.06,
+        "width": 432.05,
+        "height": 77.87999999999994
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 4,
+      "block_global_order": 4,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC6130020/fig_4.jpeg"
+    },
+    "fig_5": {
+      "label": "Figure 5 .",
+      "caption": "Figure 5. ANN1 and ANN2 knockout mutant roots contain significantly more soluble carbohydrates in primary roots when grown without Suc.A to C, Primary roots were harvested from 1-week-old wild-type (Col-0), ann1-2, and ann2-1 seedlings grown on agar plates containing no Suc.Soluble sugar contents were analyzed by GC/MS to reveal total sugar (A), Glc (B), and Fru (C) contents.Values are means ± sd of triplicates.Different letters indicate statistically significant differences as evaluated by Student's t test (P < 0.05).",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "6,84.00,225.20,431.98,7.88;6,84.00,235.20,432.04,7.88;6,84.00,245.20,431.98,7.88;6,84.00,255.20,432.03,7.88;6,84.00,265.20,97.50,7.88;6,60.30,75.00,479.40,133.68",
+      "coords_groups": [
+        {
+          "page": 6,
+          "x": 84.0,
+          "y": 225.2,
+          "w": 431.98,
+          "h": 7.88,
+          "x2": 515.98,
+          "y2": 233.07999999999998
+        },
+        {
+          "page": 6,
+          "x": 84.0,
+          "y": 235.2,
+          "w": 432.04,
+          "h": 7.88,
+          "x2": 516.04,
+          "y2": 243.07999999999998
+        },
+        {
+          "page": 6,
+          "x": 84.0,
+          "y": 245.2,
+          "w": 431.98,
+          "h": 7.88,
+          "x2": 515.98,
+          "y2": 253.07999999999998
+        },
+        {
+          "page": 6,
+          "x": 84.0,
+          "y": 255.2,
+          "w": 432.03,
+          "h": 7.88,
+          "x2": 516.03,
+          "y2": 263.08
+        },
+        {
+          "page": 6,
+          "x": 84.0,
+          "y": 265.2,
+          "w": 97.5,
+          "h": 7.88,
+          "x2": 181.5,
+          "y2": 273.08
+        },
+        {
+          "page": 6,
+          "x": 60.3,
+          "y": 75.0,
+          "w": 479.4,
+          "h": 133.68,
+          "x2": 539.6999999999999,
+          "y2": 208.68
+        }
+      ],
+      "bbox": {
+        "page": 6,
+        "x1": 60.3,
+        "y1": 75.0,
+        "x2": 539.6999999999999,
+        "y2": 273.08,
+        "width": 479.3999999999999,
+        "height": 198.07999999999998
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 5,
+      "block_global_order": 5,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC6130020/fig_5.jpeg"
+    },
+    "fig_6": {
+      "label": "Figure 6 .",
+      "caption": "Figure 6.ANN1 and ANN2 knockout mutant roots have restricted diffusion of CF to root tips when grown without Suc.A, Representative images showing successful loading of CF in phloem files.White lines indicate edge of root tissue.B, Representative fluorescence micrographs of root tips from wild-type (Col-0), ann1-2, ann2-1, and 35S:ANN1 (ANN1 overexpression) seedlings grown without Suc.Bar, 50 μm.C, Quantification of fluorescence levels in different root-tip zones as indicated in wild-type (Col-0), ann1-2, ann2-1, and 35S:ANN1 seedlings grown without Suc.QC, Quiescent center.Values are means ± se (n ≥ 8).Different letters indicate statistically significant differences as evaluated by Student's t test (P < 0.05).",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "7,69.00,478.00,432.00,7.88;7,69.00,488.00,432.03,7.88;7,69.00,498.00,432.01,7.88;7,69.00,508.00,431.94,7.88;7,69.00,518.00,432.01,7.88;7,69.00,528.00,344.42,7.88",
+      "coords_groups": [
+        {
+          "page": 7,
+          "x": 69.0,
+          "y": 478.0,
+          "w": 432.0,
+          "h": 7.88,
+          "x2": 501.0,
+          "y2": 485.88
+        },
+        {
+          "page": 7,
+          "x": 69.0,
+          "y": 488.0,
+          "w": 432.03,
+          "h": 7.88,
+          "x2": 501.03,
+          "y2": 495.88
+        },
+        {
+          "page": 7,
+          "x": 69.0,
+          "y": 498.0,
+          "w": 432.01,
+          "h": 7.88,
+          "x2": 501.01,
+          "y2": 505.88
+        },
+        {
+          "page": 7,
+          "x": 69.0,
+          "y": 508.0,
+          "w": 431.94,
+          "h": 7.88,
+          "x2": 500.94,
+          "y2": 515.88
+        },
+        {
+          "page": 7,
+          "x": 69.0,
+          "y": 518.0,
+          "w": 432.01,
+          "h": 7.88,
+          "x2": 501.01,
+          "y2": 525.88
+        },
+        {
+          "page": 7,
+          "x": 69.0,
+          "y": 528.0,
+          "w": 344.42,
+          "h": 7.88,
+          "x2": 413.42,
+          "y2": 535.88
+        }
+      ],
+      "bbox": {
+        "page": 7,
+        "x1": 69.0,
+        "y1": 478.0,
+        "x2": 501.03,
+        "y2": 535.88,
+        "width": 432.03,
+        "height": 57.879999999999995
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 6,
+      "block_global_order": 6,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC6130020/fig_6.jpeg"
+    },
+    "fig_7": {
+      "label": "Figure 7 .",
+      "caption": "Figure 7. ANN1 and ANN2 knockout mutant roots show increased levels of ROS and callose in root tips when grown without Suc.A, Representative confocal microscopy images of H 2 O 2 levels in root tips as detected by H 2 DCFDA staining of wild-type (Col-0), ann1-2, and ann2-1 seedlings grown without Suc for 3 d.B, Quantification of relative fluorescence intensity indicating H 2 O 2 levels in root tips of 3-d-old wild-type (Col-0), ann1-2, and ann2-1 mutant seedlings grown without Suc.C, Representative",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "8,84.00,692.52,431.98,7.88;8,84.00,702.52,195.45,7.88;8,279.47,707.47,2.59,4.59;8,282.06,702.52,6.66,7.88;8,288.72,707.47,2.59,4.59;8,293.74,702.52,119.88,7.88;8,413.64,707.47,2.59,4.59;8,416.23,702.52,99.76,7.88;8,84.00,712.52,432.04,7.88;8,84.00,722.52,6.22,7.88;8,90.22,727.47,2.59,4.59;8,92.82,722.52,6.66,7.88;8,99.48,727.47,2.59,4.59;8,103.88,722.52,412.10,7.88",
+      "coords_groups": [
+        {
+          "page": 8,
+          "x": 84.0,
+          "y": 692.52,
+          "w": 431.98,
+          "h": 7.88,
+          "x2": 515.98,
+          "y2": 700.4
+        },
+        {
+          "page": 8,
+          "x": 84.0,
+          "y": 702.52,
+          "w": 195.45,
+          "h": 7.88,
+          "x2": 279.45,
+          "y2": 710.4
+        },
+        {
+          "page": 8,
+          "x": 279.47,
+          "y": 707.47,
+          "w": 2.59,
+          "h": 4.59,
+          "x2": 282.06,
+          "y2": 712.0600000000001
+        },
+        {
+          "page": 8,
+          "x": 282.06,
+          "y": 702.52,
+          "w": 6.66,
+          "h": 7.88,
+          "x2": 288.72,
+          "y2": 710.4
+        },
+        {
+          "page": 8,
+          "x": 288.72,
+          "y": 707.47,
+          "w": 2.59,
+          "h": 4.59,
+          "x2": 291.31,
+          "y2": 712.0600000000001
+        },
+        {
+          "page": 8,
+          "x": 293.74,
+          "y": 702.52,
+          "w": 119.88,
+          "h": 7.88,
+          "x2": 413.62,
+          "y2": 710.4
+        },
+        {
+          "page": 8,
+          "x": 413.64,
+          "y": 707.47,
+          "w": 2.59,
+          "h": 4.59,
+          "x2": 416.22999999999996,
+          "y2": 712.0600000000001
+        },
+        {
+          "page": 8,
+          "x": 416.23,
+          "y": 702.52,
+          "w": 99.76,
+          "h": 7.88,
+          "x2": 515.99,
+          "y2": 710.4
+        },
+        {
+          "page": 8,
+          "x": 84.0,
+          "y": 712.52,
+          "w": 432.04,
+          "h": 7.88,
+          "x2": 516.04,
+          "y2": 720.4
+        },
+        {
+          "page": 8,
+          "x": 84.0,
+          "y": 722.52,
+          "w": 6.22,
+          "h": 7.88,
+          "x2": 90.22,
+          "y2": 730.4
+        },
+        {
+          "page": 8,
+          "x": 90.22,
+          "y": 727.47,
+          "w": 2.59,
+          "h": 4.59,
+          "x2": 92.81,
+          "y2": 732.0600000000001
+        },
+        {
+          "page": 8,
+          "x": 92.82,
+          "y": 722.52,
+          "w": 6.66,
+          "h": 7.88,
+          "x2": 99.47999999999999,
+          "y2": 730.4
+        },
+        {
+          "page": 8,
+          "x": 99.48,
+          "y": 727.47,
+          "w": 2.59,
+          "h": 4.59,
+          "x2": 102.07000000000001,
+          "y2": 732.0600000000001
+        },
+        {
+          "page": 8,
+          "x": 103.88,
+          "y": 722.52,
+          "w": 412.1,
+          "h": 7.88,
+          "x2": 515.98,
+          "y2": 730.4
+        }
+      ],
+      "bbox": {
+        "page": 8,
+        "x1": 84.0,
+        "y1": 692.52,
+        "x2": 516.04,
+        "y2": 732.0600000000001,
+        "width": 432.03999999999996,
+        "height": 39.54000000000008
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 7,
+      "block_global_order": 7,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC6130020/fig_7.jpeg"
+    },
+    "fig_8": {
+      "label": "Figure 7 .",
+      "caption": "Figure 7. (Continued.)",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "9,69.00,672.52,76.98,7.88",
+      "coords_groups": [
+        {
+          "page": 9,
+          "x": 69.0,
+          "y": 672.52,
+          "w": 76.98,
+          "h": 7.88,
+          "x2": 145.98000000000002,
+          "y2": 680.4
+        }
+      ],
+      "bbox": {
+        "page": 9,
+        "x1": 69.0,
+        "y1": 672.52,
+        "x2": 145.98000000000002,
+        "y2": 680.4,
+        "width": 76.98000000000002,
+        "height": 7.8799999999999955
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 8,
+      "block_global_order": 8
+    }
+  },
+  "tables": {},
+  "equations": {},
+  "references": [
+    {
+      "title": "Alleviation of methyl viologen-mediated oxidative stress by Brassica juncea annexin-3 in transgenic Arabidopsis",
+      "authors": [],
+      "date": "",
+      "raw": "Alleviation of methyl viologen-mediated oxidative stress by Brassica juncea annexin-3 in transgenic Arabidopsis\n\t\n\t\n\t\tPlant Sci\n\t\t\n\t\t\t219\n\t\t\t220\n\t\t\t\n\t\t\n\t\n\tAlleviation of methyl viologen-mediated oxidative stress by Brassica juncea annexin-3 in transgenic Arabidopsis. Plant Sci 219-220: 9-18"
+    },
+    {
+      "title": "Annexin-mediated calcium signalling in plants",
+      "authors": [
+        "JMDavies"
+      ],
+      "date": "2014",
+      "raw": "Annexin-mediated calcium signalling in plants\n\t\t\n\t\t\tJMDavies\n\t\t\n\t\n\t\n\t\tPlants (Basel)\n\t\t\n\t\t\t3\n\t\t\t\n\t\t\t2014\n\t\t\n\t\n\tDavies JM (2014) Annexin-mediated calcium signalling in plants. Plants (Basel) 3: 128-140"
+    },
+    {
+      "title": "Phloem transport: a review of mechanisms and controls",
+      "authors": [
+        "De Schepper",
+        "V",
+        "De Swaef",
+        "TBauweraerts",
+        "ISteppe",
+        "K"
+      ],
+      "date": "2013",
+      "raw": "Phloem transport: a review of mechanisms and controls\n\t\t\n\t\t\tDeSchepper\n\t\t\n\t\t\n\t\t\tV\n\t\t\n\t\t\n\t\t\tDeSwaef\n\t\t\n\t\t\n\t\t\tTBauweraerts\n\t\t\n\t\t\n\t\t\tISteppe\n\t\t\n\t\t\n\t\t\tK\n\t\t\n\t\n\t\n\t\tJ Exp Bot\n\t\t\n\t\t\t64\n\t\t\t\n\t\t\t2013\n\t\t\n\t\n\tDe Schepper V, De Swaef T, Bauweraerts I, Steppe K (2013) Phloem trans- port: a review of mechanisms and controls. J Exp Bot 64: 4839-4850"
+    },
+    {
+      "title": "Constitutive expression of mustard annexin, AnnBj1 enhances abiotic stress tolerance and fiber quality in cotton under stress",
+      "authors": [
+        "KDivya",
+        "SKJami",
+        "PBKirti"
+      ],
+      "date": "2010",
+      "raw": "Constitutive expression of mustard annexin, AnnBj1 enhances abiotic stress tolerance and fiber quality in cotton under stress\n\t\t\n\t\t\tKDivya\n\t\t\n\t\t\n\t\t\tSKJami\n\t\t\n\t\t\n\t\t\tPBKirti\n\t\t\n\t\n\t\n\t\tPlant Mol Biol\n\t\t\n\t\t\t73\n\t\t\t\n\t\t\t2010\n\t\t\n\t\n\tDivya K, Jami SK, Kirti PB (2010) Constitutive expression of mustard annex- in, AnnBj1 enhances abiotic stress tolerance and fiber quality in cotton un- der stress. Plant Mol Biol 73: 293-308"
+    },
+    {
+      "title": "TOR Signaling and nutrient sensing",
+      "authors": [
+        "TDobrenel",
+        "CCaldana",
+        "JHanson",
+        "CRobaglia",
+        "MVincentz",
+        "BVeit",
+        "CMeyer"
+      ],
+      "date": "2016",
+      "raw": "TOR Signaling and nutrient sensing\n\t\t\n\t\t\tTDobrenel\n\t\t\n\t\t\n\t\t\tCCaldana\n\t\t\n\t\t\n\t\t\tJHanson\n\t\t\n\t\t\n\t\t\tCRobaglia\n\t\t\n\t\t\n\t\t\tMVincentz\n\t\t\n\t\t\n\t\t\tBVeit\n\t\t\n\t\t\n\t\t\tCMeyer\n\t\t\n\t\n\t\n\t\tAnnu Rev Plant Biol\n\t\t\n\t\t\t67\n\t\t\t\n\t\t\t2016\n\t\t\n\t\n\tDobrenel T, Caldana C, Hanson J, Robaglia C, Vincentz M, Veit B, Meyer C (2016) TOR Signaling and nutrient sensing. Annu Rev Plant Biol 67: 261-285"
+    },
+    {
+      "title": "Starving the enemy",
+      "authors": [
+        "PNDodds",
+        "ESLagudah"
+      ],
+      "date": "2016",
+      "raw": "Starving the enemy\n\t\t\n\t\t\tPNDodds\n\t\t\n\t\t\n\t\t\tESLagudah\n\t\t\n\t\n\t\n\t\tScience\n\t\t\n\t\t\t354\n\t\t\t\n\t\t\t2016\n\t\t\n\t\n\tDodds PN, Lagudah ES (2016) Starving the enemy. Science 354: 1377-1378"
+    },
+    {
+      "title": "A ROS-assisted calcium wave dependent on the AtRBOHD NADPH Oxidase and TPC1 cation channel propagates the systemic response to salt stress",
+      "authors": [
+        "MJEvans",
+        "WGChoi",
+        "SGilroy",
+        "RJMorris"
+      ],
+      "date": "2016",
+      "raw": "A ROS-assisted calcium wave dependent on the AtRBOHD NADPH Oxidase and TPC1 cation channel propagates the systemic response to salt stress\n\t\t\n\t\t\tMJEvans\n\t\t\n\t\t\n\t\t\tWGChoi\n\t\t\n\t\t\n\t\t\tSGilroy\n\t\t\n\t\t\n\t\t\tRJMorris\n\t\t\n\t\n\t\n\t\tPlant Physiol\n\t\t\n\t\t\t171\n\t\t\t\n\t\t\t2016\n\t\t\n\t\n\tEvans MJ, Choi WG, Gilroy S, Morris RJ (2016) A ROS-assisted calcium wave dependent on the AtRBOHD NADPH Oxidase and TPC1 cation channel propagates the systemic response to salt stress. Plant Physiol 171: 1771- 1784"
+    },
+    {
+      "title": "Modification of respiration and carbohydrate status of barley roots by selective pruning",
+      "authors": [
+        "JFFarrar",
+        "CLJones"
+      ],
+      "date": "1986",
+      "raw": "Modification of respiration and carbohydrate status of barley roots by selective pruning\n\t\t\n\t\t\tJFFarrar\n\t\t\n\t\t\n\t\t\tCLJones\n\t\t\n\t\n\t\n\t\tNew Phytol\n\t\t\n\t\t\t102\n\t\t\t\n\t\t\t1986\n\t\t\n\t\n\tFarrar JF, Jones CL (1986) Modification of respiration and carbohydrate status of barley roots by selective pruning. New Phytol 102: 513-521"
+    },
+    {
+      "title": "Root elongation and branching is related to local hexose concentration in Arabidopsis thaliana seedlings",
+      "authors": [
+        "SFreixes",
+        "Thibaud Mc Tardieu",
+        "FMuller",
+        "B"
+      ],
+      "date": "2002",
+      "raw": "Root elongation and branching is related to local hexose concentration in Arabidopsis thaliana seedlings\n\t\t\n\t\t\tSFreixes\n\t\t\n\t\t\n\t\t\tThibaudMcTardieu\n\t\t\n\t\t\n\t\t\tFMuller\n\t\t\n\t\t\n\t\t\tB\n\t\t\n\t\n\t\n\t\tPlant Cell Environ\n\t\t\n\t\t\t25\n\t\t\t\n\t\t\t2002\n\t\t\n\t\n\tFreixes S, Thibaud MC, Tardieu F, Muller B (2002) Root elongation and branching is related to local hexose concentration in Arabidopsis thaliana seedlings. Plant Cell Environ 25: 1357-1366"
+    },
+    {
+      "title": "Annexin-like protein from Arabidopsis thaliana rescues delta oxyR mutant of Escherichia coli from H2O2 stress",
+      "authors": [
+        "XGidrol",
+        "PASabelli",
+        "YSFern",
+        "AKKush"
+      ],
+      "date": "1996",
+      "raw": "Annexin-like protein from Arabidopsis thaliana rescues delta oxyR mutant of Escherichia coli from H2O2 stress\n\t\t\n\t\t\tXGidrol\n\t\t\n\t\t\n\t\t\tPASabelli\n\t\t\n\t\t\n\t\t\tYSFern\n\t\t\n\t\t\n\t\t\tAKKush\n\t\t\n\t\n\t\n\t\tProc Natl Acad Sci\n\t\t\n\t\t\t93\n\t\t\t\n\t\t\t1996\n\t\t\tUSA\n\t\t\n\t\n\tGidrol X, Sabelli PA, Fern YS, Kush AK (1996) Annexin-like protein from Arabidopsis thaliana rescues delta oxyR mutant of Escherichia coli from H2O2 stress. Proc Natl Acad Sci USA 93: 11268-11273"
+    },
+    {
+      "title": "Identification of lipids and lipid-binding proteins in phloem exudates from Arabidopsis thaliana",
+      "authors": [
+        "BSGuelette",
+        "UFBenning",
+        "SHoffmann-Benning"
+      ],
+      "date": "2012",
+      "raw": "Identification of lipids and lipid-binding proteins in phloem exudates from Arabidopsis thaliana\n\t\t\n\t\t\tBSGuelette\n\t\t\n\t\t\n\t\t\tUFBenning\n\t\t\n\t\t\n\t\t\tSHoffmann-Benning\n\t\t\n\t\n\t\n\t\tJ Exp Bot\n\t\t\n\t\t\t63\n\t\t\t\n\t\t\t2012\n\t\t\n\t\n\tGuelette BS, Benning UF, Hoffmann-Benning S (2012) Identification of lipids and lipid-binding proteins in phloem exudates from Arabidopsis thaliana. J Exp Bot 63: 3603-3616"
+    },
+    {
+      "title": "A quantitative analysis of stem cell homeostasis in the Arabidopsis columella root cap",
+      "authors": [
+        "JHHong",
+        "HChu",
+        "CZhang",
+        "DGhosh",
+        "XGong",
+        "JXu"
+      ],
+      "date": "2015",
+      "raw": "A quantitative analysis of stem cell homeostasis in the Arabidopsis columella root cap\n\t\t\n\t\t\tJHHong\n\t\t\n\t\t\n\t\t\tHChu\n\t\t\n\t\t\n\t\t\tCZhang\n\t\t\n\t\t\n\t\t\tDGhosh\n\t\t\n\t\t\n\t\t\tXGong\n\t\t\n\t\t\n\t\t\tJXu\n\t\t\n\t\n\t\n\t\tFront Plant Sci\n\t\t\n\t\t\t6\n\t\t\t206\n\t\t\t2015\n\t\t\n\t\n\tHong JH, Chu H, Zhang C, Ghosh D, Gong X, Xu J (2015) A quantitative analysis of stem cell homeostasis in the Arabidopsis columella root cap. Front Plant Sci 6: 206"
+    },
+    {
+      "title": "Phloem sap proteins: their identities and potential roles in the interaction between plants and phloem-feeding insects",
+      "authors": [
+        "JKehr"
+      ],
+      "date": "2006",
+      "raw": "Phloem sap proteins: their identities and potential roles in the interaction between plants and phloem-feeding insects\n\t\t\n\t\t\tJKehr\n\t\t\n\t\n\t\n\t\tJ Exp Bot\n\t\t\n\t\t\t57\n\t\t\t\n\t\t\t2006\n\t\t\n\t\n\tKehr J (2006) Phloem sap proteins: their identities and potential roles in the in- teraction between plants and phloem-feeding insects. J Exp Bot 57: 767-774"
+    },
+    {
+      "title": "Photosynthetic sucrose acts as cotyledon-derived long-distance signal to control root growth during early seedling development in Arabidopsis",
+      "authors": [
+        "SKircher",
+        "PSchopfer"
+      ],
+      "date": "2012",
+      "raw": "Photosynthetic sucrose acts as cotyledon-derived long-distance signal to control root growth during early seedling development in Arabidopsis\n\t\t\n\t\t\tSKircher\n\t\t\n\t\t\n\t\t\tPSchopfer\n\t\t\n\t\n\t\n\t\tProc Natl Acad Sci\n\t\t\n\t\t\t109\n\t\t\t\n\t\t\t2012\n\t\t\tUSA\n\t\t\n\t\n\tKircher S, Schopfer P (2012) Photosynthetic sucrose acts as cotyledon-derived long-distance signal to control root growth during early seedling develop- ment in Arabidopsis. Proc Natl Acad Sci USA 109: 11217-11221"
+    },
+    {
+      "title": "Multispectral phloem-mobile probes: properties and applications",
+      "authors": [
+        "MKnoblauch",
+        "MVendrell",
+        "EDe Leau",
+        "APaterlini",
+        "KKnox",
+        "TRoss-Elliot",
+        "AReinders",
+        "SABrockman",
+        "JWard",
+        "KOparka"
+      ],
+      "date": "2015",
+      "raw": "Multispectral phloem-mobile probes: properties and applications\n\t\t\n\t\t\tMKnoblauch\n\t\t\n\t\t\n\t\t\tMVendrell\n\t\t\n\t\t\n\t\t\tEDe Leau\n\t\t\n\t\t\n\t\t\tAPaterlini\n\t\t\n\t\t\n\t\t\tKKnox\n\t\t\n\t\t\n\t\t\tTRoss-Elliot\n\t\t\n\t\t\n\t\t\tAReinders\n\t\t\n\t\t\n\t\t\tSABrockman\n\t\t\n\t\t\n\t\t\tJWard\n\t\t\n\t\t\n\t\t\tKOparka\n\t\t\n\t\n\t\n\t\tPlant Physiol\n\t\t\n\t\t\t167\n\t\t\t\n\t\t\t2015\n\t\t\n\t\n\tKnoblauch M, Vendrell M, de Leau E, Paterlini A, Knox K, Ross-Elliot T, Reinders A, Brockman SA, Ward J, Oparka K (2015) Multispectral phlo- em-mobile probes: properties and applications. Plant Physiol 167: 1211- 1220"
+    },
+    {
+      "title": "Shoot-root communication in flowering plants",
+      "authors": [
+        "DKo",
+        "YHelariutta"
+      ],
+      "date": "2017",
+      "raw": "Shoot-root communication in flowering plants\n\t\t\n\t\t\tDKo\n\t\t\n\t\t\n\t\t\tYHelariutta\n\t\t\n\t\n\t\n\t\tCurr Biol\n\t\t\n\t\t\t27\n\t\t\t\n\t\t\t2017\n\t\t\n\t\n\tKo D, Helariutta Y (2017) Shoot-root communication in flowering plants. Curr Biol 27: R973-R978"
+    },
+    {
+      "title": "Regulation of root greening by light and auxin/cytokinin signaling in Arabidopsis",
+      "authors": [
+        "KKobayashi",
+        "SBaba",
+        "TObayashi",
+        "MSato",
+        "KToyooka",
+        "MKeränen",
+        "EMAro",
+        "HFukaki",
+        "HOhta",
+        "KSugimoto"
+      ],
+      "date": "2012",
+      "raw": "Regulation of root greening by light and auxin/cytokinin signaling in Arabidopsis\n\t\t\n\t\t\tKKobayashi\n\t\t\n\t\t\n\t\t\tSBaba\n\t\t\n\t\t\n\t\t\tTObayashi\n\t\t\n\t\t\n\t\t\tMSato\n\t\t\n\t\t\n\t\t\tKToyooka\n\t\t\n\t\t\n\t\t\tMKeränen\n\t\t\n\t\t\n\t\t\tEMAro\n\t\t\n\t\t\n\t\t\tHFukaki\n\t\t\n\t\t\n\t\t\tHOhta\n\t\t\n\t\t\n\t\t\tKSugimoto\n\t\t\n\t\n\t\n\t\tPlant Cell\n\t\t\n\t\t\t24\n\t\t\t\n\t\t\t2012\n\t\t\n\t\n\tKobayashi K, Baba S, Obayashi T, Sato M, Toyooka K, Keränen M, Aro EM, Fukaki H, Ohta H, Sugimoto K, (2012) Regulation of root greening by light and auxin/cytokinin signaling in Arabidopsis. Plant Cell 24: 1081-1095"
+    },
+    {
+      "title": "Carbohydrate-modulated gene expression in plants",
+      "authors": [
+        "KEKoch"
+      ],
+      "date": "1996",
+      "raw": "Carbohydrate-modulated gene expression in plants\n\t\t\n\t\t\tKEKoch\n\t\t\n\t\n\t\n\t\tAnnu Rev Plant Physiol Plant Mol Biol\n\t\t\n\t\t\t47\n\t\t\t\n\t\t\t1996\n\t\t\n\t\n\tKoch KE (1996) Carbohydrate-modulated gene expression in plants. Annu Rev Plant Physiol Plant Mol Biol 47: 509-540"
+    },
+    {
+      "title": "Annexins as overlooked regulators of membrane trafficking in plant cells",
+      "authors": [
+        "DKonopka-Postupolska",
+        "GClark"
+      ],
+      "date": "2017",
+      "raw": "Annexins as overlooked regulators of membrane trafficking in plant cells\n\t\t\n\t\t\tDKonopka-Postupolska\n\t\t\n\t\t\n\t\t\tGClark\n\t\t\n\t\n\t\n\t\tInt J Mol Sci\n\t\t\n\t\t\t18\n\t\t\t863\n\t\t\t2017\n\t\t\n\t\n\tKonopka-Postupolska D, Clark G (2017) Annexins as overlooked regulators of membrane trafficking in plant cells. Int J Mol Sci 18: E863"
+    },
+    {
+      "title": "The role of annexin 1 in drought stress in Arabidopsis",
+      "authors": [
+        "DKonopka-Postupolska",
+        "GClark",
+        "GGoch",
+        "JDebski",
+        "KFloras",
+        "ACantero",
+        "BFijolek",
+        "SRoux",
+        "JHennig"
+      ],
+      "date": "2009",
+      "raw": "The role of annexin 1 in drought stress in Arabidopsis\n\t\t\n\t\t\tDKonopka-Postupolska\n\t\t\n\t\t\n\t\t\tGClark\n\t\t\n\t\t\n\t\t\tGGoch\n\t\t\n\t\t\n\t\t\tJDebski\n\t\t\n\t\t\n\t\t\tKFloras\n\t\t\n\t\t\n\t\t\tACantero\n\t\t\n\t\t\n\t\t\tBFijolek\n\t\t\n\t\t\n\t\t\tSRoux\n\t\t\n\t\t\n\t\t\tJHennig\n\t\t\n\t\n\t\n\t\tPlant Physiol\n\t\t\n\t\t\t150\n\t\t\t\n\t\t\t2009\n\t\t\n\t\n\tKonopka-Postupolska D, Clark G, Goch G, Debski J, Floras K, Cantero A, Fijolek B, Roux S, Hennig J (2009) The role of annexin 1 in drought stress in Arabidopsis. Plant Physiol 150: 1394-1410"
+    },
+    {
+      "title": "Structure, function and membrane interactions of plant annexins: an update",
+      "authors": [
+        "DKonopka-Postupolska",
+        "GClark",
+        "AHofmann"
+      ],
+      "date": "2011",
+      "raw": "Structure, function and membrane interactions of plant annexins: an update\n\t\t\n\t\t\tDKonopka-Postupolska\n\t\t\n\t\t\n\t\t\tGClark\n\t\t\n\t\t\n\t\t\tAHofmann\n\t\t\n\t\n\t\n\t\tPlant Sci\n\t\t\n\t\t\t181\n\t\t\t\n\t\t\t2011\n\t\t\n\t\n\tKonopka-Postupolska D, Clark G, Hofmann A (2011) Structure, function and membrane interactions of plant annexins: an update. Plant Sci 181: 230-241"
+    },
+    {
+      "title": "Review: Post-translational cross-talk between brassinosteroid and sucrose signaling",
+      "authors": [
+        "CKühn"
+      ],
+      "date": "2016",
+      "raw": "Review: Post-translational cross-talk between brassinosteroid and sucrose signaling\n\t\t\n\t\t\tCKühn\n\t\t\n\t\n\t\n\t\tPlant Sci\n\t\t\n\t\t\t248\n\t\t\t\n\t\t\t2016\n\t\t\n\t\n\tKühn C (2016) Review: Post-translational cross-talk between brassinosteroid and sucrose signaling. Plant Sci 248: 75-81"
+    },
+    {
+      "title": "",
+      "authors": [
+        "ALaohavisit",
+        "JMDavies"
+      ],
+      "date": "2011",
+      "raw": "ALaohavisit\n\t\t\n\t\t\n\t\t\tJMDavies\n\t\t\n\t\n\t\n\t\tAnnexins. New Phytol\n\t\t\n\t\t\t189\n\t\t\t\n\t\t\t2011\n\t\t\n\t\n\tLaohavisit A, Davies JM (2011) Annexins. New Phytol 189: 40-53"
+    },
+    {
+      "title": "Annexins: components of the calcium and reactive oxygen signaling network",
+      "authors": [
+        "ALaohavisit",
+        "ATBrown",
+        "PCicuta",
+        "JMDavies"
+      ],
+      "date": "2010",
+      "raw": "Annexins: components of the calcium and reactive oxygen signaling network\n\t\t\n\t\t\tALaohavisit\n\t\t\n\t\t\n\t\t\tATBrown\n\t\t\n\t\t\n\t\t\tPCicuta\n\t\t\n\t\t\n\t\t\tJMDavies\n\t\t\n\t\n\t\n\t\tPlant Physiol\n\t\t\n\t\t\t152\n\t\t\t\n\t\t\t2010\n\t\t\n\t\n\tLaohavisit A, Brown AT, Cicuta P, Davies JM (2010) Annexins: components of the calcium and reactive oxygen signaling network. Plant Physiol 152: 1824-1829"
+    },
+    {
+      "title": "Sugar signals and the control of plant growth and development",
+      "authors": [
+        "JLastdrager",
+        "JHanson",
+        "SSmeekens"
+      ],
+      "date": "2014",
+      "raw": "Sugar signals and the control of plant growth and development\n\t\t\n\t\t\tJLastdrager\n\t\t\n\t\t\n\t\t\tJHanson\n\t\t\n\t\t\n\t\t\tSSmeekens\n\t\t\n\t\n\t\n\t\tJ Exp Bot\n\t\t\n\t\t\t65\n\t\t\t\n\t\t\t2014\n\t\t\n\t\n\tLastdrager J, Hanson J, Smeekens S (2014) Sugar signals and the control of plant growth and development. J Exp Bot 65: 799-807"
+    },
+    {
+      "title": "Source-to-sink transport of sugar and regulation by environmental factors",
+      "authors": [
+        "RLemoine",
+        "La Camera",
+        "SAtanassova",
+        "RDédaldéchamp",
+        "FAllario",
+        "TPourtau",
+        "NBonnemain",
+        "JLLaloi",
+        "MCoutos-Thévenot",
+        "PMaurousset",
+        "L"
+      ],
+      "date": "2013",
+      "raw": "Source-to-sink transport of sugar and regulation by environmental factors\n\t\t\n\t\t\tRLemoine\n\t\t\n\t\t\n\t\t\tLaCamera\n\t\t\n\t\t\n\t\t\tSAtanassova\n\t\t\n\t\t\n\t\t\tRDédaldéchamp\n\t\t\n\t\t\n\t\t\tFAllario\n\t\t\n\t\t\n\t\t\tTPourtau\n\t\t\n\t\t\n\t\t\tNBonnemain\n\t\t\n\t\t\n\t\t\tJLLaloi\n\t\t\n\t\t\n\t\t\tMCoutos-Thévenot\n\t\t\n\t\t\n\t\t\tPMaurousset\n\t\t\n\t\t\n\t\t\tL\n\t\t\n\t\n\t\n\t\tFront Plant Sci\n\t\t\n\t\t\t4\n\t\t\t272\n\t\t\t2013\n\t\t\n\t\n\tLemoine R, La Camera S, Atanassova R, Dédaldéchamp F, Allario T, Pourtau N, Bonnemain JL, Laloi M, Coutos-Thévenot P, Maurousset L, (2013) Source-to-sink transport of sugar and regulation by environmental factors. Front Plant Sci 4: 272"
+    },
+    {
+      "title": "Dynamic and diverse sugar signaling",
+      "authors": [
+        "LLi",
+        "JSheen"
+      ],
+      "date": "2016",
+      "raw": "Dynamic and diverse sugar signaling\n\t\t\n\t\t\tLLi\n\t\t\n\t\t\n\t\t\tJSheen\n\t\t\n\t\n\t\n\t\tCurr Opin Plant Biol\n\t\t\n\t\t\t33\n\t\t\t\n\t\t\t2016\n\t\t\n\t\n\tLi L, Sheen J (2016) Dynamic and diverse sugar signaling. Curr Opin Plant Biol 33: 116-125"
+    },
+    {
+      "title": "MYB30 transcription factor regulates oxidative and heat stress responses through ANNEXIN-mediated cytosolic calcium signaling in Arabidopsis",
+      "authors": [
+        "CLiao",
+        "YZheng",
+        "YGuo"
+      ],
+      "date": "2017",
+      "raw": "MYB30 transcription factor regulates oxidative and heat stress responses through ANNEXIN-mediated cytosolic calcium signaling in Arabidopsis\n\t\t\n\t\t\tCLiao\n\t\t\n\t\t\n\t\t\tYZheng\n\t\t\n\t\t\n\t\t\tYGuo\n\t\t\n\t\n\t\n\t\tNew Phytol\n\t\t\n\t\t\t216\n\t\t\t\n\t\t\t2017\n\t\t\n\t\n\tLiao C, Zheng Y, Guo Y (2017) MYB30 transcription factor regulates oxidative and heat stress responses through ANNEXIN-mediated cytosolic calcium signaling in Arabidopsis. New Phytol 216: 163-177"
+    },
+    {
+      "title": "Analysis of relative gene expression data using real-time quantitative PCR and the 2(-Δ Δ C(T)) Method",
+      "authors": [
+        "KJLivak",
+        "TDSchmittgen"
+      ],
+      "date": "2001",
+      "raw": "Analysis of relative gene expression data using real-time quantitative PCR and the 2(-Δ Δ C(T)) Method\n\t\t\n\t\t\tKJLivak\n\t\t\n\t\t\n\t\t\tTDSchmittgen\n\t\t\n\t\n\t\n\t\tMethods\n\t\t\n\t\t\t25\n\t\t\t\n\t\t\t2001\n\t\t\n\t\n\tLivak KJ, Schmittgen TD (2001) Analysis of relative gene expression data us- ing real-time quantitative PCR and the 2(-Δ Δ C(T)) Method. Methods 25: 402-408"
+    },
+    {
+      "title": "New mechanistic links between sugar and hormone signalling networks",
+      "authors": [
+        "KLjung",
+        "JLNemhauser",
+        "PPerata"
+      ],
+      "date": "2015",
+      "raw": "New mechanistic links between sugar and hormone signalling networks\n\t\t\n\t\t\tKLjung\n\t\t\n\t\t\n\t\t\tJLNemhauser\n\t\t\n\t\t\n\t\t\tPPerata\n\t\t\n\t\n\t\n\t\tCurr Opin Plant Biol\n\t\t\n\t\t\t25\n\t\t\t\n\t\t\t2015\n\t\t\n\t\n\tLjung K, Nemhauser JL, Perata P (2015) New mechanistic links between sug- ar and hormone signalling networks. Curr Opin Plant Biol 25: 130-137"
+    },
+    {
+      "title": "Callose deposition: a multifaceted plant defense response",
+      "authors": [
+        "ELuna",
+        "VPastor",
+        "JRobert",
+        "VFlors",
+        "BMauch-Mani",
+        "JTon"
+      ],
+      "date": "2011",
+      "raw": "Callose deposition: a multifaceted plant defense response\n\t\t\n\t\t\tELuna\n\t\t\n\t\t\n\t\t\tVPastor\n\t\t\n\t\t\n\t\t\tJRobert\n\t\t\n\t\t\n\t\t\tVFlors\n\t\t\n\t\t\n\t\t\tBMauch-Mani\n\t\t\n\t\t\n\t\t\tJTon\n\t\t\n\t\n\t\n\t\tMol Plant Microbe Interact\n\t\t\n\t\t\t24\n\t\t\t\n\t\t\t2011\n\t\t\n\t\n\tLuna E, Pastor V, Robert J, Flors V, Mauch-Mani B, Ton J (2011) Callose depo- sition: a multifaceted plant defense response. Mol Plant Microbe Interact 24: 183-193"
+    },
+    {
+      "title": "Arabidopsis seedling growth, storage lipid mobilization, and photosynthetic gene expression are regulated by carbon:nitrogen availability",
+      "authors": [
+        "TMartin",
+        "OOswald",
+        "IAGraham"
+      ],
+      "date": "2002",
+      "raw": "Arabidopsis seedling growth, storage lipid mobilization, and photosynthetic gene expression are regulated by carbon:nitrogen availability\n\t\t\n\t\t\tTMartin\n\t\t\n\t\t\n\t\t\tOOswald\n\t\t\n\t\t\n\t\t\tIAGraham\n\t\t\n\t\n\t\n\t\tPlant Physiol\n\t\t\n\t\t\t128\n\t\t\t\n\t\t\t2002\n\t\t\n\t\n\tMartin T, Oswald O, Graham IA (2002) Arabidopsis seedling growth, storage lipid mobilization, and photosynthetic gene expression are regulated by carbon:nitrogen availability. Plant Physiol 128: 472-481"
+    },
+    {
+      "title": "Sugar demand, not auxin, is the initial regulator of apical dominance",
+      "authors": [
+        "MGMason",
+        "JJRoss",
+        "BABabst",
+        "BNWienclaw",
+        "CABeveridge"
+      ],
+      "date": "2014",
+      "raw": "Sugar demand, not auxin, is the initial regulator of apical dominance\n\t\t\n\t\t\tMGMason\n\t\t\n\t\t\n\t\t\tJJRoss\n\t\t\n\t\t\n\t\t\tBABabst\n\t\t\n\t\t\n\t\t\tBNWienclaw\n\t\t\n\t\t\n\t\t\tCABeveridge\n\t\t\n\t\n\t\n\t\tProc Natl Acad Sci\n\t\t\n\t\t\t111\n\t\t\t\n\t\t\t2014\n\t\t\tUSA\n\t\t\n\t\n\tMason MG, Ross JJ, Babst BA, Wienclaw BN, Beveridge CA (2014) Sugar demand, not auxin, is the initial regulator of apical dominance. Proc Natl Acad Sci USA 111: 6092-6097"
+    },
+    {
+      "title": "Role of the Arabidopsis glucose sensor HXK1 in nutrient, light, and hormonal signaling",
+      "authors": [
+        "BMoore",
+        "LZhou",
+        "FRolland",
+        "QHall",
+        "WHCheng",
+        "YXLiu",
+        "IHwang",
+        "TJones",
+        "JSheen"
+      ],
+      "date": "2003",
+      "raw": "Role of the Arabidopsis glucose sensor HXK1 in nutrient, light, and hormonal signaling\n\t\t\n\t\t\tBMoore\n\t\t\n\t\t\n\t\t\tLZhou\n\t\t\n\t\t\n\t\t\tFRolland\n\t\t\n\t\t\n\t\t\tQHall\n\t\t\n\t\t\n\t\t\tWHCheng\n\t\t\n\t\t\n\t\t\tYXLiu\n\t\t\n\t\t\n\t\t\tIHwang\n\t\t\n\t\t\n\t\t\tTJones\n\t\t\n\t\t\n\t\t\tJSheen\n\t\t\n\t\n\t\n\t\tScience\n\t\t\n\t\t\t300\n\t\t\t\n\t\t\t2003\n\t\t\n\t\n\tMoore B, Zhou L, Rolland F, Hall Q, Cheng WH, Liu YX, Hwang I, Jones T, Sheen J (2003) Role of the Arabidopsis glucose sensor HXK1 in nutrient, light, and hormonal signaling. Science 300: 332-336"
+    },
+    {
+      "title": "Evolutionary perspective on annexin calcium-binding domains",
+      "authors": [
+        "ROMorgan",
+        "SMartin-Almedina",
+        "JMIglesias",
+        "MIGonzalez-Florez",
+        "MPFernandez"
+      ],
+      "date": "2004",
+      "raw": "Evolutionary perspective on annexin calcium-binding domains\n\t\t\n\t\t\tROMorgan\n\t\t\n\t\t\n\t\t\tSMartin-Almedina\n\t\t\n\t\t\n\t\t\tJMIglesias\n\t\t\n\t\t\n\t\t\tMIGonzalez-Florez\n\t\t\n\t\t\n\t\t\tMPFernandez\n\t\t\n\t\n\t\n\t\tBiochim Biophys Acta\n\t\t\n\t\t\t1742\n\t\t\t\n\t\t\t2004\n\t\t\n\t\n\tMorgan RO, Martin-Almedina S, Iglesias JM, Gonzalez-Florez MI, Fernandez MP (2004) Evolutionary perspective on annexin calcium-binding domains. Biochim Biophys Acta 1742: 133-140"
+    },
+    {
+      "title": "Deciphering function and mechanism of calcium-binding proteins from their evolutionary imprints",
+      "authors": [
+        "ROMorgan",
+        "SMartin-Almedina",
+        "MGarcia",
+        "JJhoncon-Kooyip",
+        "MPFernandez"
+      ],
+      "date": "2006",
+      "raw": "Deciphering function and mechanism of calcium-binding proteins from their evolutionary imprints\n\t\t\n\t\t\tROMorgan\n\t\t\n\t\t\n\t\t\tSMartin-Almedina\n\t\t\n\t\t\n\t\t\tMGarcia\n\t\t\n\t\t\n\t\t\tJJhoncon-Kooyip\n\t\t\n\t\t\n\t\t\tMPFernandez\n\t\t\n\t\n\t\n\t\tBiochim Biophys Acta\n\t\t\n\t\t\t1763\n\t\t\t\n\t\t\t2006\n\t\t\n\t\n\tMorgan RO, Martin-Almedina S, Garcia M, Jhoncon-Kooyip J, Fernandez MP (2006) Deciphering function and mechanism of calcium-binding proteins from their evolutionary imprints. Biochim Biophys Acta 1763: 1238-1249"
+    },
+    {
+      "title": "Real-time imaging of phloem unloading in the root tip of Arabidopsis",
+      "authors": [
+        "KJOparka",
+        "Dam Prior",
+        "CMDuckett",
+        "DBFisher"
+      ],
+      "date": "1994",
+      "raw": "Real-time imaging of phloem unloading in the root tip of Arabidopsis\n\t\t\n\t\t\tKJOparka\n\t\t\n\t\t\n\t\t\tDamPrior\n\t\t\n\t\t\n\t\t\tCMDuckett\n\t\t\n\t\t\n\t\t\tDBFisher\n\t\t\n\t\n\t\n\t\tPlant J\n\t\t\n\t\t\t6\n\t\t\t\n\t\t\t1994\n\t\t\n\t\n\tOparka KJ, Prior DAM, Duckett CM, Fisher DB (1994) Real-time imaging of phloem unloading in the root tip of Arabidopsis. Plant J 6: 759-766"
+    },
+    {
+      "title": "Photosynthesis, sugars and the regulation of gene expression",
+      "authors": [
+        "JVPego",
+        "AJKortstee",
+        "CHuijser",
+        "SCSmeekens"
+      ],
+      "date": "2000",
+      "raw": "Photosynthesis, sugars and the regulation of gene expression\n\t\t\n\t\t\tJVPego\n\t\t\n\t\t\n\t\t\tAJKortstee\n\t\t\n\t\t\n\t\t\tCHuijser\n\t\t\n\t\t\n\t\t\tSCSmeekens\n\t\t\n\t\n\t\n\t\tJ Exp Bot\n\t\t\n\t\t\t51\n\t\t\t\n\t\t\t2000\n\t\t\n\t\n\tPego JV, Kortstee AJ, Huijser C, Smeekens SC (2000) Photosynthesis, sugars and the regulation of gene expression. J Exp Bot 51: 407-416"
+    },
+    {
+      "title": "Annexin 1 regulates the H 2 O 2 -induced calcium signature in Arabidopsis thaliana roots",
+      "authors": [
+        "SLRichards",
+        "ALaohavisit",
+        "JCMortimer",
+        "LShabala",
+        "SMSwarbreck",
+        "SShabala",
+        "JMDavies"
+      ],
+      "date": "2014",
+      "raw": "Annexin 1 regulates the H 2 O 2 -induced calcium signature in Arabidopsis thaliana roots\n\t\t\n\t\t\tSLRichards\n\t\t\n\t\t\n\t\t\tALaohavisit\n\t\t\n\t\t\n\t\t\tJCMortimer\n\t\t\n\t\t\n\t\t\tLShabala\n\t\t\n\t\t\n\t\t\tSMSwarbreck\n\t\t\n\t\t\n\t\t\tSShabala\n\t\t\n\t\t\n\t\t\tJMDavies\n\t\t\n\t\n\t\n\t\tPlant J\n\t\t\n\t\t\t77\n\t\t\t\n\t\t\t2014\n\t\t\n\t\n\tRichards SL, Laohavisit A, Mortimer JC, Shabala L, Swarbreck SM, Shabala S, Davies JM (2014) Annexin 1 regulates the H 2 O 2 -induced calcium signa- ture in Arabidopsis thaliana roots. Plant J 77: 136-145"
+    },
+    {
+      "title": "Phloem unloading in Arabidopsis roots is convective and regulated by the phloem-pole pericycle",
+      "authors": [
+        "Ross-Elliott Tj Jensen",
+        "KHHaaning",
+        "KSWager",
+        "BMKnoblauch",
+        "JHowell",
+        "AHMullendore",
+        "DLMonteith",
+        "AGPaultre",
+        "DYan",
+        "D"
+      ],
+      "date": "2017",
+      "raw": "Phloem unloading in Arabidopsis roots is convective and regulated by the phloem-pole pericycle\n\t\t\n\t\t\tRoss-Elliott TjJensen\n\t\t\n\t\t\n\t\t\tKHHaaning\n\t\t\n\t\t\n\t\t\tKSWager\n\t\t\n\t\t\n\t\t\tBMKnoblauch\n\t\t\n\t\t\n\t\t\tJHowell\n\t\t\n\t\t\n\t\t\tAHMullendore\n\t\t\n\t\t\n\t\t\tDLMonteith\n\t\t\n\t\t\n\t\t\tAGPaultre\n\t\t\n\t\t\n\t\t\tDYan\n\t\t\n\t\t\n\t\t\tD\n\t\t\n\t\t\n\t\t\t2017\n\t\t\t6\n\t\t\t24125\n\t\t\n\t\n\tRoss-Elliott TJ, Jensen KH, Haaning KS, Wager BM, Knoblauch J, Howell AH, Mullendore DL, Monteith AG, Paultre D, Yan D, (2017) Phloem unloading in Arabidopsis roots is convective and regulated by the phlo- em-pole pericycle. eLife 6: e24125"
+    },
+    {
+      "title": "Plasmodesmata in integrated cell signalling: insights from development and environmental signals and stresses",
+      "authors": [
+        "RSager",
+        "JYLee"
+      ],
+      "date": "2014",
+      "raw": "Plasmodesmata in integrated cell signalling: insights from development and environmental signals and stresses\n\t\t\n\t\t\tRSager\n\t\t\n\t\t\n\t\t\tJYLee\n\t\t\n\t\n\t\n\t\tJ Exp Bot\n\t\t\n\t\t\t65\n\t\t\t\n\t\t\t2014\n\t\t\n\t\n\tSager R, Lee JY (2014) Plasmodesmata in integrated cell signalling: insights from development and environmental signals and stresses. J Exp Bot 65: 6337-6358"
+    },
+    {
+      "title": "Role of sugars under abiotic stress",
+      "authors": [
+        "FSami",
+        "MYusuf",
+        "MFaizan",
+        "AFaraz",
+        "SHayat"
+      ],
+      "date": "2016",
+      "raw": "Role of sugars under abiotic stress\n\t\t\n\t\t\tFSami\n\t\t\n\t\t\n\t\t\tMYusuf\n\t\t\n\t\t\n\t\t\tMFaizan\n\t\t\n\t\t\n\t\t\tAFaraz\n\t\t\n\t\t\n\t\t\tSHayat\n\t\t\n\t\n\t\n\t\tPlant Physiol Biochem\n\t\t\n\t\t\t109\n\t\t\t\n\t\t\t2016\n\t\t\n\t\n\tSami F, Yusuf M, Faizan M, Faraz A, Hayat S (2016) Role of sugars under abiotic stress. Plant Physiol Biochem 109: 54-61"
+    },
+    {
+      "title": "Metabolic repression of transcription in higher plants",
+      "authors": [
+        "JSheen"
+      ],
+      "date": "1990",
+      "raw": "Metabolic repression of transcription in higher plants\n\t\t\n\t\t\tJSheen\n\t\t\n\t\n\t\n\t\tPlant Cell\n\t\t\n\t\t\t2\n\t\t\t\n\t\t\t1990\n\t\t\n\t\n\tSheen J (1990) Metabolic repression of transcription in higher plants. Plant Cell 2: 1027-1038"
+    },
+    {
+      "title": "Sugar signals and molecular networks controlling plant growth",
+      "authors": [
+        "SSmeekens",
+        "JMa",
+        "JHanson",
+        "FRolland"
+      ],
+      "date": "2010",
+      "raw": "Sugar signals and molecular networks controlling plant growth\n\t\t\n\t\t\tSSmeekens\n\t\t\n\t\t\n\t\t\tJMa\n\t\t\n\t\t\n\t\t\tJHanson\n\t\t\n\t\t\n\t\t\tFRolland\n\t\t\n\t\n\t\n\t\tCurr Opin Plant Biol\n\t\t\n\t\t\t13\n\t\t\t\n\t\t\t2010\n\t\t\n\t\n\tSmeekens S, Ma J, Hanson J, Rolland F (2010) Sugar signals and molecular networks controlling plant growth. Curr Opin Plant Biol 13: 274-279"
+    },
+    {
+      "title": "Expression of GFP-fusions in Arabidopsis companion cells reveals non-specific protein trafficking into sieve elements and identifies a novel post-phloem domain in roots",
+      "authors": [
+        "RStadler",
+        "KMWright",
+        "CLauterbach",
+        "GAmon",
+        "MGahrtz",
+        "AFeuerstein",
+        "KJOparka",
+        "NSauer"
+      ],
+      "date": "2005",
+      "raw": "Expression of GFP-fusions in Arabidopsis companion cells reveals non-specific protein trafficking into sieve elements and identifies a novel post-phloem domain in roots\n\t\t\n\t\t\tRStadler\n\t\t\n\t\t\n\t\t\tKMWright\n\t\t\n\t\t\n\t\t\tCLauterbach\n\t\t\n\t\t\n\t\t\tGAmon\n\t\t\n\t\t\n\t\t\tMGahrtz\n\t\t\n\t\t\n\t\t\tAFeuerstein\n\t\t\n\t\t\n\t\t\tKJOparka\n\t\t\n\t\t\n\t\t\tNSauer\n\t\t\n\t\n\t\n\t\tPlant J\n\t\t\n\t\t\t41\n\t\t\t\n\t\t\t2005\n\t\t\n\t\n\tStadler R, Wright KM, Lauterbach C, Amon G, Gahrtz M, Feuerstein A, Oparka KJ, Sauer N (2005) Expression of GFP-fusions in Arabidopsis com- panion cells reveals non-specific protein trafficking into sieve elements and identifies a novel post-phloem domain in roots. Plant J 41: 319-331"
+    },
+    {
+      "title": "Starch turnover: pathways, regulation and role in growth",
+      "authors": [
+        "MStitt",
+        "SCZeeman"
+      ],
+      "date": "2012",
+      "raw": "Starch turnover: pathways, regulation and role in growth\n\t\t\n\t\t\tMStitt\n\t\t\n\t\t\n\t\t\tSCZeeman\n\t\t\n\t\n\t\n\t\tCurr Opin Plant Biol\n\t\t\n\t\t\t15\n\t\t\t\n\t\t\t2012\n\t\t\n\t\n\tStitt M, Zeeman SC (2012) Starch turnover: pathways, regulation and role in growth. Curr Opin Plant Biol 15: 282-292"
+    },
+    {
+      "title": "Redox states of plastids and mitochondria differentially regulate intercellular transport via plasmodesmata",
+      "authors": [
+        "SStonebloom",
+        "JOBrunkard",
+        "ACCheung",
+        "KJiang",
+        "LFeldman",
+        "PZambryski"
+      ],
+      "date": "2012",
+      "raw": "Redox states of plastids and mitochondria differentially regulate intercellular transport via plasmodesmata\n\t\t\n\t\t\tSStonebloom\n\t\t\n\t\t\n\t\t\tJOBrunkard\n\t\t\n\t\t\n\t\t\tACCheung\n\t\t\n\t\t\n\t\t\tKJiang\n\t\t\n\t\t\n\t\t\tLFeldman\n\t\t\n\t\t\n\t\t\tPZambryski\n\t\t\n\t\n\t\n\t\tPlant Physiol\n\t\t\n\t\t\t158\n\t\t\t\n\t\t\t2012\n\t\t\n\t\n\tStonebloom S, Brunkard JO, Cheung AC, Jiang K, Feldman L, Zambryski P (2012) Redox states of plastids and mitochondria differentially regulate intercellular transport via plasmodesmata. Plant Physiol 158: 190-199"
+    },
+    {
+      "title": "Endogenous Arabidopsis messenger RNAs transported to distant tissues",
+      "authors": [
+        "CJThieme",
+        "MRojas-Triana",
+        "EStecyk",
+        "CSchudoma",
+        "WZhang",
+        "LYang",
+        "MMiñambres",
+        "DWalther",
+        "WXSchulze",
+        "JPaz-Ares"
+      ],
+      "date": "2015",
+      "raw": "Endogenous Arabidopsis messenger RNAs transported to distant tissues\n\t\t\n\t\t\tCJThieme\n\t\t\n\t\t\n\t\t\tMRojas-Triana\n\t\t\n\t\t\n\t\t\tEStecyk\n\t\t\n\t\t\n\t\t\tCSchudoma\n\t\t\n\t\t\n\t\t\tWZhang\n\t\t\n\t\t\n\t\t\tLYang\n\t\t\n\t\t\n\t\t\tMMiñambres\n\t\t\n\t\t\n\t\t\tDWalther\n\t\t\n\t\t\n\t\t\tWXSchulze\n\t\t\n\t\t\n\t\t\tJPaz-Ares\n\t\t\n\t\n\t\n\t\tNat Plants\n\t\t\n\t\t\t1\n\t\t\t15025\n\t\t\t2015\n\t\t\n\t\n\tThieme CJ, Rojas-Triana M, Stecyk E, Schudoma C, Zhang W, Yang L, Miñambres M, Walther D, Schulze WX, Paz-Ares J, (2015) Endogenous Arabidopsis messenger RNAs transported to distant tissues. Nat Plants 1: 15025"
+    },
+    {
+      "title": "Effects of elevated carbon dioxide on photosynthesis and carbon partitioning: A perspective on root sugar sensing and hormonal crosstalk",
+      "authors": [
+        "MThompson",
+        "DGamage",
+        "NHirotsu",
+        "AMartin",
+        "SSeneweera"
+      ],
+      "date": "2017",
+      "raw": "Effects of elevated carbon dioxide on photosynthesis and carbon partitioning: A perspective on root sugar sensing and hormonal crosstalk\n\t\t\n\t\t\tMThompson\n\t\t\n\t\t\n\t\t\tDGamage\n\t\t\n\t\t\n\t\t\tNHirotsu\n\t\t\n\t\t\n\t\t\tAMartin\n\t\t\n\t\t\n\t\t\tSSeneweera\n\t\t\n\t\n\t\n\t\tFront Physiol\n\t\t\n\t\t\t8\n\t\t\t578\n\t\t\t2017\n\t\t\n\t\n\tThompson M, Gamage D, Hirotsu N, Martin A, Seneweera S (2017) Effects of elevated carbon dioxide on photosynthesis and carbon partitioning: A per- spective on root sugar sensing and hormonal crosstalk. Front Physiol 8: 578"
+    },
+    {
+      "title": "RNA-Seq: revelation of the messengers",
+      "authors": [
+        "MCVan Verk",
+        "RHickman",
+        "CMPieterse",
+        "SCVan Wees"
+      ],
+      "date": "2013",
+      "raw": "RNA-Seq: revelation of the messengers\n\t\t\n\t\t\tMCVan Verk\n\t\t\n\t\t\n\t\t\tRHickman\n\t\t\n\t\t\n\t\t\tCMPieterse\n\t\t\n\t\t\n\t\t\tSCVan Wees\n\t\t\n\t\n\t\n\t\tTrends Plant Sci\n\t\t\n\t\t\t18\n\t\t\t\n\t\t\t2013\n\t\t\n\t\n\tVan Verk MC, Hickman R, Pieterse CM, Van Wees SC (2013) RNA-Seq: reve- lation of the messengers. Trends Plant Sci 18: 175-179"
+    },
+    {
+      "title": "Proteomic study of microsomal proteins reveals a key role for Arabidopsis annexin 1 in mediating heat stress-induced increase in intracellular calcium levels",
+      "authors": [
+        "XWang",
+        "XMa",
+        "HWang",
+        "BLi",
+        "GClark",
+        "YGuo",
+        "SRoux",
+        "DSun",
+        "WTang"
+      ],
+      "date": "2015",
+      "raw": "Proteomic study of microsomal proteins reveals a key role for Arabidopsis annexin 1 in mediating heat stress-induced increase in intracellular calcium levels\n\t\t\n\t\t\tXWang\n\t\t\n\t\t\n\t\t\tXMa\n\t\t\n\t\t\n\t\t\tHWang\n\t\t\n\t\t\n\t\t\tBLi\n\t\t\n\t\t\n\t\t\tGClark\n\t\t\n\t\t\n\t\t\tYGuo\n\t\t\n\t\t\n\t\t\tSRoux\n\t\t\n\t\t\n\t\t\tDSun\n\t\t\n\t\t\n\t\t\tWTang\n\t\t\n\t\n\t\n\t\tMol Cell Proteomics\n\t\t\n\t\t\t14\n\t\t\t\n\t\t\t2015\n\t\t\n\t\n\tWang X, Ma X, Wang H, Li B, Clark G, Guo Y, Roux S, Sun D, Tang W (2015) Proteomic study of microsomal proteins reveals a key role for Arabidopsis annexin 1 in mediating heat stress-induced increase in intracellular calcium levels. Mol Cell Proteomics 14: 686-694"
+    },
+    {
+      "title": "Transitioning to the next phase: the role of sugar signaling throughout the plant life cycle",
+      "authors": [
+        "AWingler"
+      ],
+      "date": "2018",
+      "raw": "Transitioning to the next phase: the role of sugar signaling throughout the plant life cycle\n\t\t\n\t\t\tAWingler\n\t\t\n\t\n\t\n\t\tPlant Physiol\n\t\t\n\t\t\t176\n\t\t\t\n\t\t\t2018\n\t\t\n\t\n\tWingler A (2018) Transitioning to the next phase: the role of sugar signaling throughout the plant life cycle. Plant Physiol 176: 1075-1084"
+    },
+    {
+      "title": "Sugar is an endogenous cue for juvenile-to-adult phase",
+      "authors": [
+        "SYu",
+        "LCao",
+        "CMZhou",
+        "TQZhang",
+        "HLian",
+        "YSun",
+        "JWu",
+        "JHuang",
+        "GWang",
+        "JWWang"
+      ],
+      "date": "2013",
+      "raw": "Sugar is an endogenous cue for juvenile-to-adult phase\n\t\t\n\t\t\tSYu\n\t\t\n\t\t\n\t\t\tLCao\n\t\t\n\t\t\n\t\t\tCMZhou\n\t\t\n\t\t\n\t\t\tTQZhang\n\t\t\n\t\t\n\t\t\tHLian\n\t\t\n\t\t\n\t\t\tYSun\n\t\t\n\t\t\n\t\t\tJWu\n\t\t\n\t\t\n\t\t\tJHuang\n\t\t\n\t\t\n\t\t\tGWang\n\t\t\n\t\t\n\t\t\tJWWang\n\t\t\n\t\t\n\t\t\t2013\n\t\t\n\t\n\ttransition in plants. eLife 2: e00269\n\tYu S, Cao L, Zhou CM, Zhang TQ, Lian H, Sun Y, Wu J, Huang J, Wang G, Wang JW (2013) Sugar is an endogenous cue for juvenile-to-adult phase transition in plants. eLife 2: e00269"
+    },
+    {
+      "title": "Source-sink communication: Regulated by hormone, nutrient, and stress cross-signaling",
+      "authors": [
+        "SMYu",
+        "SFLo",
+        "TDHo"
+      ],
+      "date": "2015",
+      "raw": "Source-sink communication: Regulated by hormone, nutrient, and stress cross-signaling\n\t\t\n\t\t\tSMYu\n\t\t\n\t\t\n\t\t\tSFLo\n\t\t\n\t\t\n\t\t\tTDHo\n\t\t\n\t\n\t\n\t\tTrends Plant Sci\n\t\t\n\t\t\t20\n\t\t\t\n\t\t\t2015\n\t\t\n\t\n\tYu SM, Lo SF, Ho TD (2015) Source-sink communication: Regulated by hor- mone, nutrient, and stress cross-signaling. Trends Plant Sci 20: 844-857"
+    },
+    {
+      "title": "Biology of callose (β-1,3glucan) turnover at plasmodesmata",
+      "authors": [
+        "RZavaliev",
+        "SUeki",
+        "BLEpel",
+        "VCitovsky"
+      ],
+      "date": "2011",
+      "raw": "Biology of callose (β-1,3glucan) turnover at plasmodesmata\n\t\t\n\t\t\tRZavaliev\n\t\t\n\t\t\n\t\t\tSUeki\n\t\t\n\t\t\n\t\t\tBLEpel\n\t\t\n\t\t\n\t\t\tVCitovsky\n\t\t\n\t\n\t\n\t\tProtoplasma\n\t\t\n\t\t\t248\n\t\t\t\n\t\t\t2011\n\t\t\n\t\n\tZavaliev R, Ueki S, Epel BL, Citovsky V (2011) Biology of callose (β-1,3- glucan) turnover at plasmodesmata. Protoplasma 248: 117-130"
+    }
+  ],
+  "footnotes": [
+    {
+      "id": "foot_0",
+      "n": null,
+      "text": "Plant Physiol.Vol.178, 2018"
+    }
+  ],
+  "full_text": "Annexins are a multigene family of calcium-dependent membrane-binding proteins that play important roles in plant cell signaling.Annexins are multifunctional proteins, and their function in plants is not comprehensively understood.Arabidopsis (Arabidopsis thaliana) annexins ANN1 and ANN2 are 64% identical in their primary structure, and both are highly expressed in seedlings.Here, we showed that ann-mutant seedlings grown in the absence of sugar show decreased primary root growth and altered columella cells in root caps; however, these mutant defects are rescued by Suc, Glc, or Fru.In seedlings grown without sugar, significant up-regulation of photosynthetic gene expression and chlorophyll accumulation was found in ann-mutant cotyledons compared to that in wild type, which indicates potential sugar starvation in the roots of ann-mutant seedlings.Unexpectedly, the overall sugar content of ann-mutant primary roots was significantly higher than that of wild-type roots when grown without sugar.To examine the diffusion of sugar along the entire root to the root tip, we examined the unloading pattern of carboxyfluorescein dye and found that post-phloem sugar transport was impaired in ann-mutant root tips compared to that in wild type.Increased levels of ROS and callose were detected in the root tips of ann-mutant seedlings grown without Suc, the latter of which would restrict plasmodesmal sugar transport to root tips.Our results indicate that ANN1 and ANN2 play an important role in post-phloem sugar transport to the root tip, which in turn indirectly influences photosynthetic rates in cotyledons.This study expands our understanding of the function of annexins in plants.\n\nAnnexins are multifunctional proteins that have been found in all plants and vertebrate species.Their tertiary structure with calcium-binding domains is evolutionarily conserved in all species (Morgan et al., 2004(Morgan et al., , 2006;;Konopka-Postupolska et al., 2011;Clark et al., 2012).In plants, annexins have been localized in many parts of the cell, including the plasma membrane, the Golgi apparatus, secretory vesicles, vacuolar membranes, and the nucleus.Certain annexins are also found in the extracellular matrix as secreted proteins.\nOn the molecular level, certain plant annexins serve as components of calcium channels or regulate calcium channel activity to help initiate and amplify calcium signals in plants (Laohavisit et al., 2010;Laohavisit and Davies, 2011;Davies, 2014).On the cellular level, one of the earliest functions discovered for annexins in plant cells was meditation of vesicle trafficking and secretion (Konopka-Postupolska and Clark, 2017).On the whole-plant level, key discoveries of annexin function have been carried out using mutants of the model plant, Arabidopsis (Arabidopsis thaliana), where there are eight different annexins that show differential expression patterns (Cantero et al., 2006).Several of these mutant studies show that certain Arabidopsis annexins function to provide stress tolerance in response to a variety of stress conditions (Konopka-Postupolska et al., 2009;Dalal et al., 2014;Richards et al., 2014;Wang et al., 2015;Liao et al., 2017).For example, overexpression of ANN1 in Arabidopsis results in increased antioxidant activity and confers drought tolerance (Konopka-Postupolska et al., 2009).\nPlant annexins are expressed in all stages of plant growth and development.Recently, Thieme et al. (2015) found that some Arabidopsis annexin transcripts can be transported across the whole plant by phloem sap.Annexin proteins have also been identified in the phloem sap of several different plant species (Kehr, 2006), and in Arabidopsis, ANN1 was found in phloem exudate of rosette leaves (Guelette et al., 2012).Immunolocalization of a pea annexin protein in young developing sieve elements led to the suggestion that annexins may play a role in phloem cell development (Clark et al., 1992).In situ transcript localization studies found that ANN1 is expressed in phloem and phloem parenchyma in Arabidopsis seedlings (Clark et al., 2001).However, the physiological importance of annexins in phloem remains undefined.\nPhloem transport links sources to sinks and is a key passageway for communication between leaves and roots.Sugars generated from photosynthetic leaves (source organs) and transported through the phloem to roots (sink organs) serve both as metabolic substrates to fuel plant growth and development and as signals that integrate plant responses to environmental stimuli, hormones, and changes in nutrition status (Martin et al., 2002;Moore et al., 2003;Smeekens et al., 2010;Lastdrager et al., 2014;Ljung et al., 2015;Dobrenel et al., 2016;Dodds and Lagudah, 2016;Kühn, 2016;Li and Sheen, 2016;Baena-González and Hanson, 2017).Plants have developed complex sugar-sensing systems to monitor and respond to continuous fluctuations in sugar status caused by the circadian clock and frequent environmental changes (Stitt and Zeeman, 2012).\nMultiple recent studies have revealed significant roles of sugar in plant growth (Lastdrager et al., 2014) and development (Wingler, 2018).For example, sugar availability to axillary buds is a key determinant for shoot branching.Removal of pea shoot tips induces a sufficient flow of sugar into axillary buds to repress the expression of the branching inhibitor gene Branched1, which highlights the importance of sugars in mediating apical dominance (Mason et al., 2014).Sugars in photosynthetic leaves function as mobile signals to repress the expression of microRNA156 and thus promote the maturation of juvenile plants (Yu et al., 2013).\nImportant sugar responses are also found in roots, whose growth depends on Suc transported from photosynthetic leaves.This dependence underscores the importance of understanding the effects of sugars on root growth and development.Although sugar controls primary and lateral root growth in a dose-dependent manner (Freixes et al., 2002), sugar demand in roots continuously changes due to environmental signals (Lemoine et al., 2013) and developmental stages.Having a sugar-sensing system in roots that can efficiently monitor sugar levels would be important for root and whole-plant growth.However, studies of sugar signaling in roots are generally scant.\nRoot growth is closely associated with sugar concentrations (Thompson et al., 2017).Greater soluble sugar content has been found in fast-growing roots of pruned barley plants, whereas slow-growing barley roots contain less soluble sugar (Farrar and Jones, 1986).Suc generated by photosynthesis in cotyledons is required to regulate primary root growth (Kircher and Schopfer, 2012).Suc promotes primary root elongation in a dose-dependent manner.The higher the exogenous Suc concentration, the faster primary roots elongate (Freixes et al., 2002).Furthermore, the finding that neighboring secondary roots in the same root system have different growth rates in their elongation zone as a function of local sugar concentration also favors the conclusion that sugar is a major determinant of root growth (Freixes et al., 2002).\nBecause local sugar concentrations play critical roles in regulating root growth, it is important to learn more about the mechanisms that control sugar transport into the growing zones of the root.Sugars generated by photosynthesis in leaves are loaded into sieve elements of the phloem and then delivered by phloem into roots (De Schepper et al., 2013).According to pressure flow theory, it is the osmotic differential in phloem sieve elements that drives the bulk flow from source photosynthetic organs to sink organs such as roots.After sugar reaches its destination, it must be unloaded from phloem sieve elements into surrounding cells.Ross-Elliott et al. (2017) have proposed that after sugar reaches the connecting tissue between conducting phloem and sink tissues, called protophloem, it is unloaded into surrounding cells through funnel plasmodesmata and then diffuses freely along a concentration gradient into cells of the root tip in a symplastic way.The unloading of sugar into the elongation zone, mitotic zone, and root cap accommodates the highenergy demands of fast-growing regions in roots.Here, we describe the effect of knocking out two of the eight members of the annexin gene family in Arabidopsis, namely ANN1 and ANN2, on the diffusion of sugars from the unloading zone to root tips, and we discuss how these two annexins play an important mechanistic role in post-phloem transport of sugars into root tips.\n\nIn 3-d-old seedlings, all ANN1 and ANN2 knockout mutants (ann1-2, ann1-3, ann2-1, and ann1-2/ann2-1) had primary root lengths that were significantly shorter compared to wild type when grown on agar plates containing no Suc (Fig. 1, A and B).However, these knockout mutants had the same hypocotyl lengths compared to that in wild type (Supplemental Fig. S1).To rule out that the differences in primary root lengths were due to differences in germination, we also measured growth rates in both mutants and wild type under the same condition (Fig. 1B).Consistent with the root length data, the primary roots of ann1-2, ann1-3, ann2-1, and ann1-2/ann2-1 grew significantly slower compared to that in wild type.\nThis inhibition of primary root growth observed in ANN1 and ANN2 knockout mutants was rescued by 2% Suc (Fig. 1, A and C).This rescue was not due to the osmotic effect of Suc in agar plates, since equimolar concentrations of mannitol did not rescue the primary root growth inhibition in ANN1 and ANN2 mutants (Fig. 1, A and D).Similar results were also found in 1% sorbitol and 1% o-methyl-Glc treatments (Supplemental Fig. S2, C and D), indicating that Suc functioned either as a carbon source or a signal to rescue the primary root growth inhibition in ANN1 and ANN2 knockout mutants.Since Suc can be catalyzed by invertase into Fru and Glc, we also tested 1% Glc and 1% Fru treatments (Supplemental Fig. S2, A and B).Both Glc and Fru also rescued primary root growth inhibition in ANN1 and ANN2 knockout mutants.\n\nAs observed by light microscopy, knocking out ANN1 or ANN2 affected primary root structures of 4-d-old ann1-2, ann1-3, ann2-1, and ann1-2/ann2-1 seedlings when grown without Suc.Starch detection by Lugol staining revealed reduced layers of starchcontaining columella cells in ann1-2, ann1-3, ann2-1, and ann1-2/ann2-1 compared to that in the wild type (Fig. 2A).In wild type root caps, there are four layers of columella cells with Lugol-stained starch granules in them, whereas only three layers of columella cells were detected in ANN1 and ANN2 knockout mutants.Also, unlike wild-type roots, the roots of ANN1 and ANN2 mutants had no border-like cells around their root caps.These root cap defects in ann1-2, ann1-3, ann2-1, and ann1-2/ann2-1 were rescued by 1% Suc (Fig. 2B).When grown with 1% Suc for 4 d, ann1-2, ann1-3, ann2-1, and ann1-2/ann2-1 roots showed four layers of starch-containing columella cells like those in wild type with border-like cells attached to the root caps.\nBecause Lugol staining (Fig. 2A) revealed similar levels of starch granules in ann1-2, ann2-1, and ann1-2/ ann2-1 when seedlings were grown without Suc, ann1-2 was used as a representative line for all ann-mutants in subsequent quantification of root-tip starch levels (Fig. 3).Consistent with Lugol staining, ann1-2 displayed significantly lower levels of starch in root tips compared to that in wild type when grown without Suc (Fig. 3).\n\nAn RNA sequencing (RNA-seq) analysis comparing the transcript abundance in total mRNA extracted from primary roots of 2-week-old wild type, ann1-2, and ann2-1 grown without Suc in light revealed many differentially expressed genes (DEG) in the primary roots of the mutants.After the DEGs were assigned to gene ontology (GO) terms, the GO analysis in ann1-2 revealed functional enrichment in photosynthesis with seven out of a total of 13 up-regulated GO categories related to photosynthesis (Supplemental Table S1).This indicated significant enhancement in the expression levels of photosynthetic genes in ann1-2 in the absence of exogenous Suc.\nAlthough Arabidopsis roots partially turn green when exposed to light, the main energy source that facilitates root growth originates in the leaves (Kobayashi et al., 2012).Thus, we decided to assay transcript levels of photosynthetic genes in the cotyledons of 4-d-old ann1-2, and wild-type seedlings grown without Suc.We assayed 4-d-old seedlings because evidence shows that the dominant roles of sugar to regulate root growth are probably restricted to the first 5 to 6 d before leaf development (Kircher and Schopfer, 2012).Among all the genes in photosynthesis-related GO categories, the top five most up-regulated ones were selected to be analyzed by reverse transcription quantitative PCR (RT-qPCR).Results showed that four out of five photosynthetic genes were significantly up-regulated in cotyledons of ann1-2 seedlings grown without Suc (Fig. 4A).These four genes encode chlorophyll-binding protein 2 (CAB2, LHCB1.1),chlorophyll-binding protein 3 (CAB3, LHCB1.2), and two subunits of PSII lightharvesting complex (PSII, LHB1B1, and LHB1B2).We also quantified the accumulation of chlorophyll in cotyledons of 4-d-old ann1-2 and wild-type seedlings grown without Suc.Consistent with the up-regulation of photosynthetic gene expression, cotyledons of ann1-2 seedlings showed significantly higher intensity of chlorophyll autofluorescence signal than that in wild-type cotyledons, indicating a higher chlorophyll content in cotyledons of ann1-2 seedlings compared to that in the wild type (Fig. 4, B and C).\nExogenous Suc reversed the enhanced expression of photosynthetic genes and chlorophyll accumulation in cotyledons of ann1-2 seedlings.When grown with 1% Suc, ann1-2 cotyledons showed similar photosynthetic gene expression levels as that in the wild type (Fig. 4D), and accumulation of chlorophyll in these tissues was also comparable (Fig. 4, E and F).\n\nWe quantified neutral soluble sugars in primary roots of ann1-2, ann2-1 and wild type by gas chromatography/ mass spectrometry (GC/MS) using primary roots collected from 1-week-old seedlings grown on agar plates containing no sugars (Supplemental Table S3).Unexpectedly, significantly higher amounts of sugars were detected in both ann1-2 and ann2-1 root tissue relative to that in wild type (Fig. 5A), including significantly higher contents of soluble Glc (Fig. 5B) and Fru (Fig. 5C).Most of the sugar detected was probably in the phloem.\n\nBecause 5(6)-carboxyfluorescein diacetate (CFDA) has been widely used as a phloem-mobile probe (Oparka et al., 1994;Knoblauch et al., 2015), we used CFDA to detect post-phloem transport in wild-type, ann1-2, ann2-1, and the ANN1-overexpressing line 35S:ANN1.35S:ANN1 seedlings showed significantly longer roots compared to that in the wild type when grown without Suc (Supplemental Fig. S3).All seedlings were grown without Suc for 4 d.After applying CFDA on cotyledons for 30 min, the dye was apparent in the two phloem files in primary roots of ann1-2, ann2-1, 35S:ANN1, and the wild type (Fig. 6A), indicating successful loading of carboxyfluorescein (CF).The wild type showed a characteristic transport pattern of CF along the root cortex (Fig. 6B).However, in ann1-2 and ann2-1, the diffusion of CF in root tips was restricted (Fig. 6B).\nThe post-phloem region has been defined as the region 250 μm behind the root tip (Stadler et al., 2005;Ross-Elliott et al., 2017), so we quantified CF fluorescence in three different areas (transition zone, meristem zone, and root cap) of this post-phloem region in ann1-2, ann2-1, 35S:ANN1, and wild-type roots (Fig. 6C).Significantly lower levels of CF fluorescence were detected in both ann1-2 and ann2-1 roots compared to that in wild type when seedlings were grown without Suc.This significant decrease of CF diffusion was more obvious in root caps, reaching a level more than 50% less compared to that of wild type.In contrast to that in ann1-2 and ann2-1, 35S:ANN1 showed significantly higher levels of CF diffusion in root tips compared to that in wild type by more than 50% in root caps.Taken together, these results indicate that ann1-2 and ann2-1 roots had impaired post-phloem transport; i.e. knocking out ANN1 and ANN2 restricted the diffusion of sugars from the phloem to the root tip.\n\nIntracellular reactive oxygen species (ROS) regulate plasmodesmata permeability through callose deposition (Benitez-Alfonso et al., 2009, 2011;Stonebloom et al., 2012).To test whether knocking out ANN1 and ANN2 leads to ROS accumulation in root tips, 2,7dichlorodihydrofluorescein diacetate (H 2 DCFDA), a dye that stains hydrogen peroxide (H 2 O 2 ), was applied to 3-d-old seedlings grown without Suc.Significantly higher levels of stain were detected in root tips of ann1-2 and ann2-1 compared to that in wild type when grown without Suc (Fig. 7, A and B).Aniline blue was used to detect callose accumulation in root tips of 3-d-old wild-type, ann1-2, and ann2-1 seedlings grown without Suc, which revealed significantly higher levels of callose deposition in ann1-2 and ann2-1 compared to that in wild type (Fig. 7, C and D).\n\nThe observation that significantly higher contents of soluble sugar were detected by GC/MS analysis in primary roots of ann1-2 and ann2-1 compared to those of wild type when grown together without Suc indicated there was successful phloem transport of sugar from shoots to roots in the knockout mutants, yet the mutants had obvious growth and columella cell defects.The fact that these defects were rescued by exogenous Suc independent of its osmotic effects suggested the possibility that ANN1 and ANN2 helped to regulate the post-phloem transport of Suc into root tips.Although successful unloading was detected in both the ANN1 knockout mutant ann1-2 and the ANN2 knockout mutant ann2-1, the diffusion of CFDA into root tips was impaired in both ann1-2 and ann2-1, indicating these mutants had restricted sugar diffusion in fast-growing regions from the unloading zone to root tips.These results are consistent with the conclusion that compromised expression of ANN1 and ANN2 leads to impaired diffusion of sugars in the fast-growing root apex, and this, in turn, inhibits primary root growth.However, further studies quantifying carbohydrate content only in the cap region after laser microdissection are required to confirm this conclusion.\n\nThe regulatory roles of sugar in photosynthetic gene transcripts and photosynthesis capacity have been widely documented (Koch, 1996;Pego et al., 2000).Sugar starvation in plants activates photosynthesis, whereas high sugar levels inhibit photosynthesis (Yu et al., 2015;Sami et al., 2016).Sugar represses the transcriptional activity of photosynthetic gene promoters transiently expressed in maize mesophyll protoplasts   (Sheen, 1990).Sugar accumulation in leaves represses photosynthetic gene expression and photosynthesis (Pego et al., 2000).Roots are typical sink organs.Sugar demands in young roots promote photosynthesis in leaves.For example, overexpression of the HIGHER YIELD RICE gene encoding an APETALA2/ETHYLENE RESPONSIVE FACTOR transcription factor leads to increased root length, branching, and strength, which in turn promotes photosynthesis in leaves (Ambavaram et al., 2014).However, the mechanism of how plants monitor sugar levels in roots remains an active area of investigation.Here, we hypothesize that root tips are sugar-sensing tissues, and their sugar status can affect photosynthesis capacity in leaves.\nAs noted above, our results revealed sugar starvation in the actively growing root apex of the ann1-2 and ann2-1 knockout mutants by using CF as a phloem mobile probe.Evidence that this apical sugar starvation led to an up-regulation of photosynthesis was indicated by the up-regulated expression of genes encoding CAB2 (LHCB1.1),CAB3 (LHCB 1.2), and PSII subunits (LHB1B1 and LHB1B2), along with increased chlorophyll contents in ann1-2.The enhancement of photosynthesis in ann1-2 was most likely the change that resulted in the elevated sugar contents observed in primary roots of ann1-2.However, because these accumulated sugars could not reach the root apex due to the defective post-phloem transport of sugars in ann1-2, they failed to rescue primary root growth defects and to reverse the enhancement of photosynthesis.Assuming that sugars accumulate in the phloem and unloading zone without sufficient diffusion into the post-phloem region, this transport defect would lead to sugar starvation in root tips.Because roots can communicate their nutrient status to shoots and induce responses in them (Ko and Helariutta, 2017), the stress of sugar starvation in root tips could initiate a root-to-shoot signal, just as salt stress in roots promote the propagation of Ca 2+ waves from roots to shoots (Choi et al., 2014;Evans et al., 2016).Plausibly, such a signal could help explain how sugar-deprived root tips could induce the up-regulation of photosynthetic genes in leaves.\nRoots efficiently take up Suc and Glc from the media (Chaudhuri et al., 2008), and consistently, exogenously supplied sugars in the medium successfully rescued primary root growth defects and reversed photosynthesis enhancement in ann1-2.These results favor the conclusion that ANN1 helps control root sugar status, which would result in feedback regulation of photosynthesis.Knocking out ANN1 may result in sugar starvation in roots, which could serve as a signal for plants to up-regulate photosynthesis.\n\nApical sugar concentration in root tips has been considered to play the determinant role in regulating root growth and development (Freixes et al., 2002).The diffusion of CF in root tips of ann1-2 and ann2-1 was restricted, whereas the ANN1-ovexpressing line 35S:ANN1 showed promoted diffusion of CF.We interpreted these results to indicate that knocking out ANN1 and ANN2 restricted symplastic diffusion in post-phloem transport from the unloading zone to root tips and that this restriction impaired primary root growth along with root cap development.\nSugar diffuses freely along the concentration gradient through plasmodesmata in the root apex.It is now widely accepted that plasmodesmata are dynamic channels whose permeability is highly regulated during plant growth and development (Sager and Lee, 2014).Callose has been found deposited in the neck region of plasmodesmata and can restrict the size exclusion limit of plasmodesmata (Luna et al., 2011;Zavaliev et al., 2011).ROS accumulation can increase callose accumulation, which may result in reduced plasmodesmatal transport (Benitez-Alfonso et al., 2009, 2011;Stonebloom et al., 2012).\nANNt1 has antioxidant activity (Gidrol et al., 1996), and this activity may help explain the results of prior studies that documented a link between ANN1 suppression and an increase in ROS levels.For example, the knockout of ANN1 results in the accumulation of higher levels of ROS in leaves compared to that in wild type (Konopka-Postupolska et al., 2009).Similarly, our results show that knocking out ANN1 and ANN2 leads to hyperaccumulation of ROS in root tips, and, like earlier studies, associates this change with an elevated accumulation of callose.Assuming that some of this accumulated callose is deposited in plasmodesmata, it would restrict plasmodesmatal sugar transport and thus help explain why post-phloem transport of sugar to root tips is inhibited in mutants.\nIn conclusion, our results provide data linking ANN1 and ANN2 to the regulation of primary root growth and development.This study expands our understanding of the function of annexins in plants to include an important role in the post-phloem transport of sugars to the root tip, which, in turn, indirectly impacts photosynthetic rates in cotyledons.\nconfocal microscopy images of callose levels in roots tips as detected by aniline blue staining of wild-type (Col-0), ann1-2, and ann2-1 seedlings grown without Suc for 3 d.D, Quantification of relative fluorescence intensity indicating callose deposition in root tips of 3-d-old wild-type (Col-0), ann1-2, and ann2-1 seedlings grown without Suc.B and D, Results were consistent in three independent experiments.Values are means ± se (n ≥ 8).Different letters indicate statistically significant differences as evaluated by Student's t test (P < 0.05).Bar, 50 μm.Wang et al.\n\nArabidopsis (Arabidopsis thaliana) Colombia (Col-0) ecotype was used as the wild type in all experiments.ANN1 (At1g35720) and ANN2 (At5g65020) are studied.Annexin T-DNA insertion mutants including ann1-2, ann1-3, ann2-1, ann1-2/ann2-1, and 35S:ANN1 used in this study were all obtained from Wang et al. (2015).All seeds were surface sterilized by 75% (v/v) ethanol for 1 min and 20% bleach (v/v) for 10 min.After washing five times with sterile, deionized water, seeds were sowed on agar plates containing either no Suc, 2% (w/v) Suc, or 1% (w/v) mannitol.Seeds on agar plates were stratified in darkness at 4°C for 3 d.Stratified plates were placed vertically in a growth chamber (Percival AR-66 L; light intensity of 275/µmol m -2 s -1 , humidity of approximately 80%, 20°C) in continuous light or in darkness.Unless otherwise noted, chemicals were reagent grade from Sigma-Aldrich.\n\nSeedlings grown with 1% Suc or without Suc were submerged in a root cap fixative solution (5% [w/v] formaldehyde, 5% [v/v] acetic acid, and 25% [v/v] ethanol) for 24 h.Lugol staining of root caps was done as described by Hong et al. (2015).Ten to thirteen seedlings were imaged for each genotype with a DIC optics on a Nikon 90i Stereology microscope, using a 60× objective.\n\nStarch levels in 2 mm root tips of 10-d-old wild-type and ann1-2 seedlings grown without Suc were assayed in ethanol extracts using methods described by Bergmeyer (1984), Barratt et al. (2009), andDivya et al. (2010).\n\nTrizol reagent was used in all RNA extraction experiments following the manufacturer's protocol.\n\nTo elucidate the mechanisms of ANN1 and ANN2 in regulation of primary root growth, we performed a comparative RNA-seq using total RNA from primary roots excised from 2-week-old wild-type, ann1-2, and ann2-1 seedlings grown without Suc in light.Total RNA extracted from primary roots of 2-week-old wild-type, ann1-2, and ann2-1 seedlings grown without Suc was submitted to the Genome Sequencing and Analysis Facility (GSAF) at the University of Texas at Austin.Both library construction and sequencing were performed by GSAF.After filtering low-quality reads and removing adaptor contamination from the raw data of Illumina reads, the following steps were as described by Van Verk et al. (2013) to detect differential expression in ann1-2 and ann2-1 compared to Col-0.A cutoff value of a greater than 2-fold change in expression was used to select differentially expressed genes in ann1-2 and ann2-1.\nTo further investigate the biological functions of the DEG in both ann1-2 and ann2-1, we subsequently assigned the DEGs to GO terms.TAIR10 was downloaded for gene function descriptions and GO annotations.Ture-path rule was applied in functional enrichment analysis.A gene annotated with a particular GO term was also annotated with all its parents.To avoid very generic, noninformative terms for analysis, only terms annotating 500 or fewer genes were retained.Genes annotated with a given specific GO term were considered as a gene set.All the gene sets were tested for the statistical significance of enrichment among themselves using the cumulative hypergeometric test.Then a Benjamini-Hochberg false discovery rate (Benjamini and Hochberg, 1995) was also calculated.A false discovery rate threshold of 0.05 was used for significance.\n\ncDNA was transcribed from RNA by the High-Capacity cDNA Reverse Transcription Kit (Thermo Fisher) after DNase I digestion.Ten micrograms cDNA was used for each sample.RT-qPCR was performed on Quant-Studio platform (Applied Biosystems) with PowerUp Sybr Green Master Mix (Thermo Fisher).Transcripts of cab2 (AT1G29920), cab3 (AT1G29910), LHB1B1 (AT2G34430), LHB1B2 (AT2G34420), ANN1 (AT1G35720), and ANN2 (AT5G65020) under different conditions were studied.Primer sequences used in all RT-qPCR experiments to detect gene expression are listed in Supplemental Table S2.Specificity of gene amplifications were confirmed by melting curves.For each condition tested, three biological replicates for both wild type and ann1-2 with three technical replicates for each biological replicate were used. 2 -ΔΔCT method (Livak and Schmittgen, 2001) was used to calculate fold changes.For significant difference between each condition, either one-way ANOVA for three conditions or Student's t test for two conditions was used.\n\nCotyledons of 4-d-old intact ann1-2 and wild-type seedlings grown either with 1% Suc or without Suc were examined.Chlorophyll autofluorescence 660 to 701 nm was detected with an excitation wavelength of 488 nm.Fifteen seedlings were examined for ann1-2 and the wild type.\n\nWild-type, ann1-2, and ann2-1 seedlings were grown in continuous light on agar plates containing no Suc for a week.Primary roots were collected and washed in sterile water twice.After freeze drying for 2 d, samples were submitted to complex carbohydrate research center at the University of Georgia for GC/MS analysis.Triplicate experiments were carried out.\n\nCFDA stock was prepared as 6 mg/mL in acetone and kept at -80°C.A dilution of 1:20 in sterile water was used for application.Wild-type, ann1-2, and ann2-1 seedlings were grown on agar plates containing no Suc for 4 d.A cotyledon was grazed by fine tweezers to allow 1 µL CFDA to penetrate.All samples were excited by 488-nm laser.Fluorescence 500 to 566 nm was monitored.\n\nThree-day-old wild-type, ann1-2, and ann2-1 seedlings grown without Suc were used.Whole seedlings were incubated in the buffer (30 mm KCl and 10 mm MES-KOH, pH 6.15) with 50 µm H 2 DCFDA for 1 h in darkness at room temperature.Extra dye was washed three times by the buffer before confocal microscopy.All samples were excited by 488-nm laser.Fluorescence between 517 and 527 nm was collected.",
+  "stats": {
+    "section_count": 21,
+    "figure_count": 8,
+    "figure_count_original": 8,
+    "figure_count_synthetic": 0,
+    "table_count": 0,
+    "equation_count": 0,
+    "reference_count": 55,
+    "footnote_count": 1,
+    "extracted_at": "2025-10-05T10:48:46.673057Z",
+    "image_extraction": {
+      "extracted_images": 7,
+      "figure_images_mapped": 7,
+      "table_images_mapped": 0,
+      "cropped_images": 0,
+      "figures_total_all": 8,
+      "figures_total_pure": 8,
+      "figures_total_original": 8,
+      "figures_total_synthetic": 0,
+      "tables_total": 0,
+      "figures_with_image_pure": 7,
+      "tables_with_image": 0,
+      "figures_missing_image_pure": 1,
+      "tables_missing_image": 0
+    },
+    "figures_total_all": 8,
+    "figures_total_pure": 8,
+    "figures_total_original": 8,
+    "figures_total_synthetic": 0,
+    "tables_total": 0,
+    "figures_with_image_pure": 7,
+    "tables_with_image": 0,
+    "validation": {
+      "figure_ids_total": 8,
+      "equation_ids_total": 0,
+      "figure_block_ids": 8,
+      "equation_block_ids": 0,
+      "missing_figure_block_refs": [],
+      "missing_equation_block_refs": [],
+      "global_order_contiguous": true,
+      "block_count": 48,
+      "equations_missing_loc": [],
+      "equations_missing_bbox_expected": []
+    }
+  }
+}

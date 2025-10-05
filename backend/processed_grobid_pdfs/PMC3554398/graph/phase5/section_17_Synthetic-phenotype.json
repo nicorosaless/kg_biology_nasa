@@ -1,0 +1,283 @@
+{
+  "paper_id": "PMC3554398",
+  "section": "Synthetic PHENOTYPE",
+  "n_nodes": 13,
+  "n_edges": 12,
+  "nodes": [
+    {
+      "id": 36,
+      "label": "bial lineage",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 10,
+        "char_start": 3019,
+        "char_end": 3031,
+        "anchor": "PMC3554398_3019_3031",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 218,
+      "label": "strong positives",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Sample processing",
+        "sentence_id": 40,
+        "char_start": 12597,
+        "char_end": 12613,
+        "anchor": "PMC3554398_12597_12613",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 219,
+      "label": "weak positive",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Sample processing",
+        "sentence_id": 40,
+        "char_start": 12662,
+        "char_end": 12675,
+        "anchor": "PMC3554398_12662_12675",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 243,
+      "label": "extension",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Sample processing",
+        "sentence_id": 44,
+        "char_start": 13439,
+        "char_end": 13448,
+        "anchor": "PMC3554398_13439_13448",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 257,
+      "label": "evolutionary",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Taxonomy",
+        "sentence_id": 46,
+        "char_start": 13868,
+        "char_end": 13880,
+        "anchor": "PMC3554398_13868_13880",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 277,
+      "label": "microorganism",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Taxonomy",
+        "sentence_id": 48,
+        "char_start": 14976,
+        "char_end": 14989,
+        "anchor": "PMC3554398_14976_14989",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 309,
+      "label": "hybridization",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "PhyloChip G3 data analysis",
+        "sentence_id": 52,
+        "char_start": 16125,
+        "char_end": 16138,
+        "anchor": "PMC3554398_16125_16138",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 377,
+      "label": "weak positives",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "PhyloChip G3 data analysis",
+        "sentence_id": 59,
+        "char_start": 18772,
+        "char_end": 18786,
+        "anchor": "PMC3554398_18772_18786",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 769,
+      "label": "nutrient-deprived",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 129,
+        "char_start": 34210,
+        "char_end": 34227,
+        "anchor": "PMC3554398_34210_34227",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 806,
+      "label": "penetrated by PM",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 136,
+        "char_start": 36605,
+        "char_end": 36621,
+        "anchor": "PMC3554398_36605_36621",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 831,
+      "label": "Gram-positive",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 141,
+        "char_start": 37822,
+        "char_end": 37835,
+        "anchor": "PMC3554398_37822_37835",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 834,
+      "label": "microbial diversity",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 142,
+        "char_start": 38009,
+        "char_end": 38028,
+        "anchor": "PMC3554398_38009_38028",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 840,
+      "label": "microorganisms",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 147,
+        "char_start": 39649,
+        "char_end": 39663,
+        "anchor": "PMC3554398_39649_39663",
+        "page": 9,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-36-218",
+      "type": "ASSOCIATED",
+      "source": 36,
+      "target": 218
+    },
+    {
+      "id": "synth-36-219",
+      "type": "ASSOCIATED",
+      "source": 36,
+      "target": 219
+    },
+    {
+      "id": "synth-36-243",
+      "type": "ASSOCIATED",
+      "source": 36,
+      "target": 243
+    },
+    {
+      "id": "synth-36-257",
+      "type": "ASSOCIATED",
+      "source": 36,
+      "target": 257
+    },
+    {
+      "id": "synth-36-277",
+      "type": "ASSOCIATED",
+      "source": 36,
+      "target": 277
+    },
+    {
+      "id": "synth-36-309",
+      "type": "ASSOCIATED",
+      "source": 36,
+      "target": 309
+    },
+    {
+      "id": "synth-36-377",
+      "type": "ASSOCIATED",
+      "source": 36,
+      "target": 377
+    },
+    {
+      "id": "synth-36-769",
+      "type": "ASSOCIATED",
+      "source": 36,
+      "target": 769
+    },
+    {
+      "id": "synth-36-806",
+      "type": "ASSOCIATED",
+      "source": 36,
+      "target": 806
+    },
+    {
+      "id": "synth-36-831",
+      "type": "ASSOCIATED",
+      "source": 36,
+      "target": 831
+    },
+    {
+      "id": "synth-36-834",
+      "type": "ASSOCIATED",
+      "source": 36,
+      "target": 834
+    },
+    {
+      "id": "synth-36-840",
+      "type": "ASSOCIATED",
+      "source": 36,
+      "target": 840
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "PHENOTYPE",
+    "page": null
+  }
+}

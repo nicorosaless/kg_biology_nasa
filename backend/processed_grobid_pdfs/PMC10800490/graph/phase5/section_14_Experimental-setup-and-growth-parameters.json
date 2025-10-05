@@ -1,0 +1,114 @@
+{
+  "paper_id": "PMC10800490",
+  "section": "Experimental setup and growth parameters",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 305,
+      "label": "uniform",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental setup and growth parameters",
+        "sentence_id": 99,
+        "char_start": 18208,
+        "char_end": 18215,
+        "anchor": "PMC10800490_18208_18215",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 307,
+      "label": "patterns",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental setup and growth parameters",
+        "sentence_id": 99,
+        "char_start": 18295,
+        "char_end": 18303,
+        "anchor": "PMC10800490_18295_18303",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 311,
+      "label": "PRR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental setup and growth parameters",
+        "sentence_id": 99,
+        "char_start": 18316,
+        "char_end": 18319,
+        "anchor": "PMC10800490_18316_18319",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 313,
+      "label": "PRR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental setup and growth parameters",
+        "sentence_id": 99,
+        "char_start": 18463,
+        "char_end": 18466,
+        "anchor": "PMC10800490_18463_18466",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 550,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 305,
+      "target": 307
+    },
+    {
+      "id": 552,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 305,
+      "target": 311
+    },
+    {
+      "id": 554,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 305,
+      "target": 313
+    },
+    {
+      "id": 556,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 307,
+      "target": 311
+    },
+    {
+      "id": 558,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 307,
+      "target": 313
+    },
+    {
+      "id": 563,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 311,
+      "target": 313
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 12,
+      "largest_component": 4
+    },
+    "page": 5
+  }
+}

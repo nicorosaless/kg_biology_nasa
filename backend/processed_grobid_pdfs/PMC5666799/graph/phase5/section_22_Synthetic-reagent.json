@@ -1,0 +1,94 @@
+{
+  "paper_id": "PMC5666799",
+  "section": "Synthetic REAGENT",
+  "n_nodes": 4,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 850,
+      "label": "RNeasy",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Ex Vivo Osteoblastogenic Assays and qRT-PCR Analyses",
+        "sentence_id": 226,
+        "char_start": 49248,
+        "char_end": 49254,
+        "anchor": "PMC5666799_49248_49254",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 854,
+      "label": "Qiagen",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Ex Vivo Osteoblastogenic Assays and qRT-PCR Analyses",
+        "sentence_id": 226,
+        "char_start": 49175,
+        "char_end": 49181,
+        "anchor": "PMC5666799_49175_49181",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 859,
+      "label": "RNeasy",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Ex Vivo Osteoblastogenic Assays and qRT-PCR Analyses",
+        "sentence_id": 226,
+        "char_start": 49248,
+        "char_end": 49254,
+        "anchor": "PMC5666799_49248_49254",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 866,
+      "label": "Qiagen",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Ex Vivo Osteoblastogenic Assays and qRT-PCR Analyses",
+        "sentence_id": 227,
+        "char_start": 49510,
+        "char_end": 49516,
+        "anchor": "PMC5666799_49510_49516",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-850-854",
+      "type": "ASSOCIATED",
+      "source": 850,
+      "target": 854
+    },
+    {
+      "id": "synth-850-859",
+      "type": "ASSOCIATED",
+      "source": 850,
+      "target": 859
+    },
+    {
+      "id": "synth-850-866",
+      "type": "ASSOCIATED",
+      "source": 850,
+      "target": 866
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "REAGENT",
+    "page": null
+  }
+}

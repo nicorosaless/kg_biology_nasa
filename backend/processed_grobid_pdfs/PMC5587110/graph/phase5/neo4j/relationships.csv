@@ -1,0 +1,250 @@
+:START_ID,:END_ID,type:TYPE,method,trigger,evidence_span,section_heading,sentence_id:int
+0,2,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Here we describe the results from the WetLab-2 validation experiments conducted in microgravity during ISS increment 47/SPX-8.Specifically, quantitative PCR was performed on a concentration series of DNA calibration standards, and Reverse T",ABSTRACT,4
+0,3,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Here we describe the results from the WetLab-2 validation experiments conducted in microgravity during ISS increment 47/SPX-8.Specifically, quantitative PCR was performed on a concentration series of DNA calibration standards, and Reverse T",ABSTRACT,4
+0,4,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Here we describe the results from the WetLab-2 validation experiments conducted in microgravity during ISS increment 47/SPX-8.Specifically, quantitative PCR was performed on a concentration series of DNA calibration standards, and Reverse T",ABSTRACT,4
+2,3,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Here we describe the results from the WetLab-2 validation experiments conducted in microgravity during ISS increment 47/SPX-8.Specifically, quantitative PCR was performed on a concentration series of DNA calibration standards, and Reverse T",ABSTRACT,4
+2,4,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Here we describe the results from the WetLab-2 validation experiments conducted in microgravity during ISS increment 47/SPX-8.Specifically, quantitative PCR was performed on a concentration series of DNA calibration standards, and Reverse T",ABSTRACT,4
+3,4,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Here we describe the results from the WetLab-2 validation experiments conducted in microgravity during ISS increment 47/SPX-8.Specifically, quantitative PCR was performed on a concentration series of DNA calibration standards, and Reverse T",ABSTRACT,4
+7,8,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"As human exploration of the solar system proceeds, human missions to Mars and deep space will require greater levels of autonomy and resourcefulness as outlined in the National Research Council's Space Exploration Decadal Survey for Life an",INTRODUCTION,10
+11,12,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"[6][7][8][9][10][11][12][13][14].Recent efforts by various groups of investigators have sought to develop portions of an overall genomic and molecular biology experimental capability on ISS.Specifically, these include the NASA Genes in Spac",INTRODUCTION,13
+20,21,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"This consisted of first demonstrating that qPCR functions in microgravity conditions, followed by demonstration of RNA isolation from bacterial cell and mammalian tissue and gene expression analysis by RT-qPCR.When gases evolved by thermal ",INTRODUCTION,22
+20,22,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"This consisted of first demonstrating that qPCR functions in microgravity conditions, followed by demonstration of RNA isolation from bacterial cell and mammalian tissue and gene expression analysis by RT-qPCR.When gases evolved by thermal ",INTRODUCTION,22
+21,22,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"This consisted of first demonstrating that qPCR functions in microgravity conditions, followed by demonstration of RNA isolation from bacterial cell and mammalian tissue and gene expression analysis by RT-qPCR.When gases evolved by thermal ",INTRODUCTION,22
+24,25,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"In order to validate the system, a number of ground-based and on-orbit tests were performed including: validation of E. coli primer assays (ground), validation of lyophilized components (ground), validation of the SPM (ground), validation o",METHODS,25
+24,26,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"In order to validate the system, a number of ground-based and on-orbit tests were performed including: validation of E. coli primer assays (ground), validation of lyophilized components (ground), validation of the SPM (ground), validation o",METHODS,25
+25,26,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"In order to validate the system, a number of ground-based and on-orbit tests were performed including: validation of E. coli primer assays (ground), validation of lyophilized components (ground), validation of the SPM (ground), validation o",METHODS,25
+27,28,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"First, an E. coli genomic assay was used to demonstrate if qPCR was possible in microgravity and that the data matched 1 g controls.",Primer and probe design,27
+31,32,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Isolation and purification of RNA from biological tissues on-orbit starts with introduction of cells or tissues for lysis and homogenization into the Sample Preparation Module (SPM), followed by RNA binding to an affinity column, washing, a",Primer and probe design,32
+33,35,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,This is then used to dispense accurate volumes of purified RNA into a centrifuge rotor/rack of lyophilized reagent tubes with enzymes and regents for reverse transcription and Taqman RT-qPCR.Data is available on-orbit within 3h of initiatin,Primer and probe design,34
+37,38,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"https://doi.org/10.1371/journal.pone.0183480.g001repressor (srlR).For mouse assays, pre-designed intron spanning assays targeting genes for glyceraldehyde 3-phosphate dehydrogenase (gapdh) and 60S ribosomal protein L19 (rpl19) were used for",Primer and probe design,36
+40,43,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"To validate the E. coli genomic assay formulation, we analyzed qPCR performance using varying quantities of template in tenfold dilutions between 1 μg and 1 pg (inclusive).Assays were constituted using high molecular weight genomic DNA from","Assay formulation, preparation, and validation",38
+40,44,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"To validate the E. coli genomic assay formulation, we analyzed qPCR performance using varying quantities of template in tenfold dilutions between 1 μg and 1 pg (inclusive).Assays were constituted using high molecular weight genomic DNA from","Assay formulation, preparation, and validation",38
+40,45,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"To validate the E. coli genomic assay formulation, we analyzed qPCR performance using varying quantities of template in tenfold dilutions between 1 μg and 1 pg (inclusive).Assays were constituted using high molecular weight genomic DNA from","Assay formulation, preparation, and validation",38
+40,46,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"To validate the E. coli genomic assay formulation, we analyzed qPCR performance using varying quantities of template in tenfold dilutions between 1 μg and 1 pg (inclusive).Assays were constituted using high molecular weight genomic DNA from","Assay formulation, preparation, and validation",38
+40,48,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"To validate the E. coli genomic assay formulation, we analyzed qPCR performance using varying quantities of template in tenfold dilutions between 1 μg and 1 pg (inclusive).Assays were constituted using high molecular weight genomic DNA from","Assay formulation, preparation, and validation",38
+43,44,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"To validate the E. coli genomic assay formulation, we analyzed qPCR performance using varying quantities of template in tenfold dilutions between 1 μg and 1 pg (inclusive).Assays were constituted using high molecular weight genomic DNA from","Assay formulation, preparation, and validation",38
+43,45,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"To validate the E. coli genomic assay formulation, we analyzed qPCR performance using varying quantities of template in tenfold dilutions between 1 μg and 1 pg (inclusive).Assays were constituted using high molecular weight genomic DNA from","Assay formulation, preparation, and validation",38
+43,46,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"To validate the E. coli genomic assay formulation, we analyzed qPCR performance using varying quantities of template in tenfold dilutions between 1 μg and 1 pg (inclusive).Assays were constituted using high molecular weight genomic DNA from","Assay formulation, preparation, and validation",38
+43,48,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"To validate the E. coli genomic assay formulation, we analyzed qPCR performance using varying quantities of template in tenfold dilutions between 1 μg and 1 pg (inclusive).Assays were constituted using high molecular weight genomic DNA from","Assay formulation, preparation, and validation",38
+44,45,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"To validate the E. coli genomic assay formulation, we analyzed qPCR performance using varying quantities of template in tenfold dilutions between 1 μg and 1 pg (inclusive).Assays were constituted using high molecular weight genomic DNA from","Assay formulation, preparation, and validation",38
+44,46,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"To validate the E. coli genomic assay formulation, we analyzed qPCR performance using varying quantities of template in tenfold dilutions between 1 μg and 1 pg (inclusive).Assays were constituted using high molecular weight genomic DNA from","Assay formulation, preparation, and validation",38
+44,48,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"To validate the E. coli genomic assay formulation, we analyzed qPCR performance using varying quantities of template in tenfold dilutions between 1 μg and 1 pg (inclusive).Assays were constituted using high molecular weight genomic DNA from","Assay formulation, preparation, and validation",38
+45,46,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"To validate the E. coli genomic assay formulation, we analyzed qPCR performance using varying quantities of template in tenfold dilutions between 1 μg and 1 pg (inclusive).Assays were constituted using high molecular weight genomic DNA from","Assay formulation, preparation, and validation",38
+45,48,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"To validate the E. coli genomic assay formulation, we analyzed qPCR performance using varying quantities of template in tenfold dilutions between 1 μg and 1 pg (inclusive).Assays were constituted using high molecular weight genomic DNA from","Assay formulation, preparation, and validation",38
+46,48,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"To validate the E. coli genomic assay formulation, we analyzed qPCR performance using varying quantities of template in tenfold dilutions between 1 μg and 1 pg (inclusive).Assays were constituted using high molecular weight genomic DNA from","Assay formulation, preparation, and validation",38
+52,53,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Genomic and gene expression assays for E. coli (dnaK, rpoA and srIR) and mouse tissue (gapdh, rpl19, and fn1) were validated using genomic E. coli DNA and RNA from E. coli K12 TB1 (New England Biolabs Inc, Ipswich, MA) and whole livers from","Assay formulation, preparation, and validation",40
+52,56,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Genomic and gene expression assays for E. coli (dnaK, rpoA and srIR) and mouse tissue (gapdh, rpl19, and fn1) were validated using genomic E. coli DNA and RNA from E. coli K12 TB1 (New England Biolabs Inc, Ipswich, MA) and whole livers from","Assay formulation, preparation, and validation",40
+53,56,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Genomic and gene expression assays for E. coli (dnaK, rpoA and srIR) and mouse tissue (gapdh, rpl19, and fn1) were validated using genomic E. coli DNA and RNA from E. coli K12 TB1 (New England Biolabs Inc, Ipswich, MA) and whole livers from","Assay formulation, preparation, and validation",40
+66,67,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,RNA isolation was performed utilizing an alcohol-free version of the RNA binding buffer and washes for Claremont BioSolutions' commercially available OmniLyse 1,Microgravity compatible RNA extraction procedure,50
+69,70,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,The SPM contains syringes preloaded with wash and elution buffers and has an input port with a Luer-Lok 1 connection for the incoming Sample Transfer Tool (STT).The procedure consists of lysing the sample with the battery powered OmniLyse 1,Microgravity compatible RNA extraction procedure,53
+71,72,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"To test the SPM performance, 100 million E. coli cells or 5 mg of mouse liver tissue were used for RNA extraction.",Microgravity compatible RNA extraction procedure,56
+73,75,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Resulting RNA quantity and quality were assessed using a NanoDrop 2000 1 (Thermofisher, Waltham, MD) and a Bioanalyzer 2100 (Agilent, Santa Clara, CA), respectively.",Microgravity compatible RNA extraction procedure,57
+77,78,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,The SPM-derived RNA was also used as the template in RT-qPCR reactions prepared as stated above.,Microgravity compatible RNA extraction procedure,58
+80,84,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"ACT 2 s (specialty microgravity compatible transfer hardware, Techshot, Greenville, IN) and Finger Loop syringes (BD, Franklin Lakes, NJ) were loaded and stored at -80˚C.Units were removed from the freezer at designated time points, allowed",Hardware testing,60
+80,85,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"ACT 2 s (specialty microgravity compatible transfer hardware, Techshot, Greenville, IN) and Finger Loop syringes (BD, Franklin Lakes, NJ) were loaded and stored at -80˚C.Units were removed from the freezer at designated time points, allowed",Hardware testing,60
+84,85,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"ACT 2 s (specialty microgravity compatible transfer hardware, Techshot, Greenville, IN) and Finger Loop syringes (BD, Franklin Lakes, NJ) were loaded and stored at -80˚C.Units were removed from the freezer at designated time points, allowed",Hardware testing,60
+97,98,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"May 2 nd .Operations required the use of the WetLab-2 hardware suite consisting of microgravity-compatible STT (ACT 2 or Finger Loop syringe), SPM, bubble-removing Pipette Loader (PL), reaction tube centrifugation rotor and a Cepheid SmartC",On-orbit quantitative PCR analyses,72
+100,101,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"First, the efficiency of qPCR in microgravity using pre-prepared reaction mixtures including E. coli genomic DNA was tested three times.",On-orbit quantitative PCR analyses,76
+102,103,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Second, isolation of RNA on-orbit using the SPM and pre-frozen E. coli cells followed by analysis of gene expression was tested followed by testing of RNA isolation from mammalian tissue using the SPM and pre-frozen mouse liver tissue follo",On-orbit quantitative PCR analyses,77
+102,104,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Second, isolation of RNA on-orbit using the SPM and pre-frozen E. coli cells followed by analysis of gene expression was tested followed by testing of RNA isolation from mammalian tissue using the SPM and pre-frozen mouse liver tissue follo",On-orbit quantitative PCR analyses,77
+102,105,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Second, isolation of RNA on-orbit using the SPM and pre-frozen E. coli cells followed by analysis of gene expression was tested followed by testing of RNA isolation from mammalian tissue using the SPM and pre-frozen mouse liver tissue follo",On-orbit quantitative PCR analyses,77
+102,106,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Second, isolation of RNA on-orbit using the SPM and pre-frozen E. coli cells followed by analysis of gene expression was tested followed by testing of RNA isolation from mammalian tissue using the SPM and pre-frozen mouse liver tissue follo",On-orbit quantitative PCR analyses,77
+103,104,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Second, isolation of RNA on-orbit using the SPM and pre-frozen E. coli cells followed by analysis of gene expression was tested followed by testing of RNA isolation from mammalian tissue using the SPM and pre-frozen mouse liver tissue follo",On-orbit quantitative PCR analyses,77
+103,105,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Second, isolation of RNA on-orbit using the SPM and pre-frozen E. coli cells followed by analysis of gene expression was tested followed by testing of RNA isolation from mammalian tissue using the SPM and pre-frozen mouse liver tissue follo",On-orbit quantitative PCR analyses,77
+103,106,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Second, isolation of RNA on-orbit using the SPM and pre-frozen E. coli cells followed by analysis of gene expression was tested followed by testing of RNA isolation from mammalian tissue using the SPM and pre-frozen mouse liver tissue follo",On-orbit quantitative PCR analyses,77
+104,105,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Second, isolation of RNA on-orbit using the SPM and pre-frozen E. coli cells followed by analysis of gene expression was tested followed by testing of RNA isolation from mammalian tissue using the SPM and pre-frozen mouse liver tissue follo",On-orbit quantitative PCR analyses,77
+104,106,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Second, isolation of RNA on-orbit using the SPM and pre-frozen E. coli cells followed by analysis of gene expression was tested followed by testing of RNA isolation from mammalian tissue using the SPM and pre-frozen mouse liver tissue follo",On-orbit quantitative PCR analyses,77
+105,106,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Second, isolation of RNA on-orbit using the SPM and pre-frozen E. coli cells followed by analysis of gene expression was tested followed by testing of RNA isolation from mammalian tissue using the SPM and pre-frozen mouse liver tissue follo",On-orbit quantitative PCR analyses,77
+110,111,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"At the start of ISS operations, session materials contained in RNase-free bags were placed into the DGB and wiped with RNase AWAY™ wipes (Molecular BioProducts™, Waltham, MA).The 1 g control experiment was conducted in a standard molecular ",On-orbit quantitative PCR analyses,79
+115,116,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"The efficiency of qPCR performed in microgravity was determined using reaction mixtures containing low, mid, or high concentrations of E. coli DNA template and a no template control (NTC) as described above.",On-orbit quantitative PCR analyses,83
+120,121,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,RNA isolation using the SPM in microgravity was validated using 1x10 8 E. coli cells grown on the ground and transferred into a STT (ACT 2 ) and stored at -80˚C or colder.,On-orbit quantitative PCR analyses,88
+120,122,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,RNA isolation using the SPM in microgravity was validated using 1x10 8 E. coli cells grown on the ground and transferred into a STT (ACT 2 ) and stored at -80˚C or colder.,On-orbit quantitative PCR analyses,88
+121,122,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,RNA isolation using the SPM in microgravity was validated using 1x10 8 E. coli cells grown on the ground and transferred into a STT (ACT 2 ) and stored at -80˚C or colder.,On-orbit quantitative PCR analyses,88
+124,125,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"To test isolation of RNA from mammalian tissue in microgravity using the SPM, 5 mg of mouse liver tissue were biopsied on the ground and transferred into a STT (10 ml finger loop syringe) with 2 ml of lysis buffer (Claremont BioSolutions, U",On-orbit quantitative PCR analyses,93
+124,126,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"To test isolation of RNA from mammalian tissue in microgravity using the SPM, 5 mg of mouse liver tissue were biopsied on the ground and transferred into a STT (10 ml finger loop syringe) with 2 ml of lysis buffer (Claremont BioSolutions, U",On-orbit quantitative PCR analyses,93
+125,126,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"To test isolation of RNA from mammalian tissue in microgravity using the SPM, 5 mg of mouse liver tissue were biopsied on the ground and transferred into a STT (10 ml finger loop syringe) with 2 ml of lysis buffer (Claremont BioSolutions, U",On-orbit quantitative PCR analyses,93
+129,130,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"After addition of the RNA, the reaction tubes were closed using clipped tube caps from commercial Cepheid SmartTubes (Cepheid, Sunnyvale, CA).The 1 g control experiment was conducted with a 24 h delay.",On-orbit quantitative PCR analyses,98
+133,134,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Statistical analyses were performed using JMP10 (SAAS Institute Inc, Cary, NC) and GraphPad Prism 5 (GraphPad Software Inc, La Jolla, CA).Comparisons made between microgravity and 1 g control data, or between lyophilized and benchtop contro",On-orbit quantitative PCR analyses,99
+156,157,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"An enclosed, simple RNA extraction procedure not requiring toxic chemicalsthat may complicate operation on ISS, was adapted (by removing alcohol) from commercially available Claremont BioSolutions products (Fig 3A).The resulting SPM was tes",RNA sample prep and RT-qPCR analysis in microgravity,140
+156,159,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"An enclosed, simple RNA extraction procedure not requiring toxic chemicalsthat may complicate operation on ISS, was adapted (by removing alcohol) from commercially available Claremont BioSolutions products (Fig 3A).The resulting SPM was tes",RNA sample prep and RT-qPCR analysis in microgravity,140
+156,160,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"An enclosed, simple RNA extraction procedure not requiring toxic chemicalsthat may complicate operation on ISS, was adapted (by removing alcohol) from commercially available Claremont BioSolutions products (Fig 3A).The resulting SPM was tes",RNA sample prep and RT-qPCR analysis in microgravity,140
+156,161,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"An enclosed, simple RNA extraction procedure not requiring toxic chemicalsthat may complicate operation on ISS, was adapted (by removing alcohol) from commercially available Claremont BioSolutions products (Fig 3A).The resulting SPM was tes",RNA sample prep and RT-qPCR analysis in microgravity,140
+156,162,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"An enclosed, simple RNA extraction procedure not requiring toxic chemicalsthat may complicate operation on ISS, was adapted (by removing alcohol) from commercially available Claremont BioSolutions products (Fig 3A).The resulting SPM was tes",RNA sample prep and RT-qPCR analysis in microgravity,140
+157,159,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"An enclosed, simple RNA extraction procedure not requiring toxic chemicalsthat may complicate operation on ISS, was adapted (by removing alcohol) from commercially available Claremont BioSolutions products (Fig 3A).The resulting SPM was tes",RNA sample prep and RT-qPCR analysis in microgravity,140
+157,160,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"An enclosed, simple RNA extraction procedure not requiring toxic chemicalsthat may complicate operation on ISS, was adapted (by removing alcohol) from commercially available Claremont BioSolutions products (Fig 3A).The resulting SPM was tes",RNA sample prep and RT-qPCR analysis in microgravity,140
+157,161,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"An enclosed, simple RNA extraction procedure not requiring toxic chemicalsthat may complicate operation on ISS, was adapted (by removing alcohol) from commercially available Claremont BioSolutions products (Fig 3A).The resulting SPM was tes",RNA sample prep and RT-qPCR analysis in microgravity,140
+157,162,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"An enclosed, simple RNA extraction procedure not requiring toxic chemicalsthat may complicate operation on ISS, was adapted (by removing alcohol) from commercially available Claremont BioSolutions products (Fig 3A).The resulting SPM was tes",RNA sample prep and RT-qPCR analysis in microgravity,140
+159,160,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"An enclosed, simple RNA extraction procedure not requiring toxic chemicalsthat may complicate operation on ISS, was adapted (by removing alcohol) from commercially available Claremont BioSolutions products (Fig 3A).The resulting SPM was tes",RNA sample prep and RT-qPCR analysis in microgravity,140
+159,161,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"An enclosed, simple RNA extraction procedure not requiring toxic chemicalsthat may complicate operation on ISS, was adapted (by removing alcohol) from commercially available Claremont BioSolutions products (Fig 3A).The resulting SPM was tes",RNA sample prep and RT-qPCR analysis in microgravity,140
+159,162,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"An enclosed, simple RNA extraction procedure not requiring toxic chemicalsthat may complicate operation on ISS, was adapted (by removing alcohol) from commercially available Claremont BioSolutions products (Fig 3A).The resulting SPM was tes",RNA sample prep and RT-qPCR analysis in microgravity,140
+160,161,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"An enclosed, simple RNA extraction procedure not requiring toxic chemicalsthat may complicate operation on ISS, was adapted (by removing alcohol) from commercially available Claremont BioSolutions products (Fig 3A).The resulting SPM was tes",RNA sample prep and RT-qPCR analysis in microgravity,140
+160,162,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"An enclosed, simple RNA extraction procedure not requiring toxic chemicalsthat may complicate operation on ISS, was adapted (by removing alcohol) from commercially available Claremont BioSolutions products (Fig 3A).The resulting SPM was tes",RNA sample prep and RT-qPCR analysis in microgravity,140
+161,162,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"An enclosed, simple RNA extraction procedure not requiring toxic chemicalsthat may complicate operation on ISS, was adapted (by removing alcohol) from commercially available Claremont BioSolutions products (Fig 3A).The resulting SPM was tes",RNA sample prep and RT-qPCR analysis in microgravity,140
+164,165,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,Ct values from RT-qPCR runs using RNA isolated from the SPM were also similar to results from Qiagen purified RNA.Residual E. coli RNA purified in microgravity was returned to Earth on SpaceX CRS-8 for Bioanalyzer testing.,RNA sample prep and RT-qPCR analysis in microgravity,143
+164,167,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,Ct values from RT-qPCR runs using RNA isolated from the SPM were also similar to results from Qiagen purified RNA.Residual E. coli RNA purified in microgravity was returned to Earth on SpaceX CRS-8 for Bioanalyzer testing.,RNA sample prep and RT-qPCR analysis in microgravity,143
+165,167,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,Ct values from RT-qPCR runs using RNA isolated from the SPM were also similar to results from Qiagen purified RNA.Residual E. coli RNA purified in microgravity was returned to Earth on SpaceX CRS-8 for Bioanalyzer testing.,RNA sample prep and RT-qPCR analysis in microgravity,143
+168,170,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,The RNA extracted in microgravity (RIN 8.5) was compared to that of RNA extracted at 1 g on the same day (RIN 8) and is of comparable quality (Fig 3B ) showing that RNA was successfully purified on the ISS.,RNA sample prep and RT-qPCR analysis in microgravity,144
+168,171,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,The RNA extracted in microgravity (RIN 8.5) was compared to that of RNA extracted at 1 g on the same day (RIN 8) and is of comparable quality (Fig 3B ) showing that RNA was successfully purified on the ISS.,RNA sample prep and RT-qPCR analysis in microgravity,144
+170,171,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,The RNA extracted in microgravity (RIN 8.5) was compared to that of RNA extracted at 1 g on the same day (RIN 8) and is of comparable quality (Fig 3B ) showing that RNA was successfully purified on the ISS.,RNA sample prep and RT-qPCR analysis in microgravity,144
+189,190,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,RNA extracted from the SPM proved to be of sufficient high quality and quantity for gene expression studies utilizing RT-qPCR (Fig 3B).Longevity testing of loaded SPMs showed no degradation of the reagents for at least 26 weeks (S2 Text).,DISCUSSION,183
+198,199,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,Results show that RNA was successfully isolated onorbit using the SPM and that singleplex and multiplex RT-qPCR analyses from both E. coli cells and mouse liver tissues resulted in successful qPCR amplification (Fig 3  ),DISCUSSION,199
+198,200,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,Results show that RNA was successfully isolated onorbit using the SPM and that singleplex and multiplex RT-qPCR analyses from both E. coli cells and mouse liver tissues resulted in successful qPCR amplification (Fig 3  ),DISCUSSION,199
+199,200,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,Results show that RNA was successfully isolated onorbit using the SPM and that singleplex and multiplex RT-qPCR analyses from both E. coli cells and mouse liver tissues resulted in successful qPCR amplification (Fig 3  ),DISCUSSION,199
+203,204,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Through these experiments, we have demonstrated that qPCR can be successfully performed in the microgravity environment of space and developed an system of molecular biology tools and reagents for extracting and quantitatively analyzing RNA",and S1 Table,206
+205,207,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"The WetLab2 system is publicly available to investigators for research on ISS [37] and can also potentially be used to analyze environmental samples, for medical diagnostics, or to provide purified RNA and cDNAs for expressome sequencing an",and S1 Table,209
+210,211,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Singleplex assays were amplified independently of one another, while Duplex and Triplex assays were amplified in multiplex assays, combined as shown.p-values are from t-test analyses, Ɨ denotes statistical outliers not included in t-test an",and S1 Table,211
+PUB_PMC5587110,5,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,6,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,9,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,13,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,17,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,18,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,19,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,23,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,30,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,39,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,55,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,59,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,64,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,65,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,68,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,86,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,87,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,90,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,91,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,92,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,107,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,108,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,109,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,112,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,113,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,119,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,123,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,135,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,136,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,138,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,139,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,141,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,142,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,143,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,145,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,147,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,148,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,149,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,152,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,154,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,155,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,163,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,166,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,172,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,173,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,174,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,176,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,177,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,178,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,179,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,180,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,182,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,183,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,184,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,186,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,187,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,188,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,192,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,193,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,195,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,196,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,197,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,201,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,202,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,209,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC5587110,0,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,2,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,3,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,4,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,7,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,8,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,11,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,12,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,20,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,21,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,22,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,24,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,25,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,26,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,27,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,28,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,31,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,32,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,33,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,35,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,37,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,38,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,40,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,43,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,44,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,45,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,46,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,48,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,52,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,53,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,56,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,66,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,67,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,69,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,70,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,71,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,72,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,73,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,75,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,77,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,78,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,80,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,84,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,85,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,97,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,98,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,100,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,101,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,102,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,103,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,104,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,105,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,106,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,110,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,111,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,115,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,116,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,120,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,121,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,122,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,124,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,125,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,126,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,129,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,130,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,133,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,134,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,156,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,157,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,159,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,160,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,161,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,162,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,164,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,165,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,167,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,168,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,170,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,171,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,189,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,190,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,198,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,199,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,200,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,203,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,204,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,205,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,207,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,210,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC5587110,211,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,

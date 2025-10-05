@@ -1,0 +1,81 @@
+{
+  "paper_id": "PMC7012842",
+  "section": "| 5. Conclusion",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 112,
+      "label": "habitat",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "| 5. Conclusion",
+        "sentence_id": 117,
+        "char_start": 17820,
+        "char_end": 17827,
+        "anchor": "PMC7012842_17820_17827",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 110,
+      "label": "MHI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "| 5. Conclusion",
+        "sentence_id": 117,
+        "char_start": 17782,
+        "char_end": 17785,
+        "anchor": "PMC7012842_17782_17785",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 111,
+      "label": "Japan",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "| 5. Conclusion",
+        "sentence_id": 117,
+        "char_start": 17800,
+        "char_end": 17805,
+        "anchor": "PMC7012842_17800_17805",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 54,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 110,
+      "target": 111
+    },
+    {
+      "id": 55,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 110,
+      "target": 112
+    },
+    {
+      "id": 56,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 111,
+      "target": 112
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 2,
+      "largest_component": 3
+    },
+    "page": 6
+  }
+}

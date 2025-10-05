@@ -1,0 +1,90 @@
+{
+  "paper_id": "PMC4405755",
+  "section": "INTRODUCTION",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 41,
+      "label": "loading",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 18,
+        "char_start": 3092,
+        "char_end": 3099,
+        "anchor": "PMC4405755_3092_3099",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 42,
+      "label": "Bro",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 18,
+        "char_start": 3121,
+        "char_end": 3124,
+        "anchor": "PMC4405755_3121_3124",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 39,
+      "label": "studies",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 18,
+        "char_start": 2872,
+        "char_end": 2879,
+        "anchor": "PMC4405755_2872_2879",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 6,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 39,
+      "target": 41
+    },
+    {
+      "id": 7,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 39,
+      "target": 42
+    },
+    {
+      "id": 8,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 41,
+      "target": 42
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 8,
+      "removed_orphans": 20,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 1
+  }
+}

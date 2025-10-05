@@ -1,0 +1,3517 @@
+{
+  "paper_id": "PMC5397022",
+  "section": "Synthetic EXPERIMENT",
+  "n_nodes": 167,
+  "n_edges": 166,
+  "nodes": [
+    {
+      "id": 0,
+      "label": "Tissue preservation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 0,
+        "char_start": 0,
+        "char_end": 19,
+        "anchor": "PMC5397022_0_19",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 13,
+      "label": "gene transcript",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 5,
+        "char_start": 614,
+        "char_end": 629,
+        "anchor": "PMC5397022_614_629",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 15,
+      "label": "membrane-bound proteins",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 5,
+        "char_start": 661,
+        "char_end": 684,
+        "anchor": "PMC5397022_661_684",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 16,
+      "label": "ly expressed",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 5,
+        "char_start": 714,
+        "char_end": 726,
+        "anchor": "PMC5397022_714_726",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 17,
+      "label": "log-fold change",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 5,
+        "char_start": 732,
+        "char_end": 747,
+        "anchor": "PMC5397022_732_747",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 18,
+      "label": "altered abundance",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 5,
+        "char_start": 902,
+        "char_end": 919,
+        "anchor": "PMC5397022_902_919",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 19,
+      "label": "fold change",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 5,
+        "char_start": 929,
+        "char_end": 940,
+        "anchor": "PMC5397022_929_940",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 26,
+      "label": "transcript",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 6,
+        "char_start": 1126,
+        "char_end": 1136,
+        "anchor": "PMC5397022_1126_1136",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 27,
+      "label": "experiments",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 6,
+        "char_start": 1155,
+        "char_end": 1166,
+        "anchor": "PMC5397022_1155_1166",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 31,
+      "label": "cell biologist",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 8,
+        "char_start": 1434,
+        "char_end": 1448,
+        "anchor": "PMC5397022_1434_1448",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 33,
+      "label": "nucleic acids",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 8,
+        "char_start": 1498,
+        "char_end": 1511,
+        "anchor": "PMC5397022_1498_1511",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 38,
+      "label": "monium sulfate",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 9,
+        "char_start": 1783,
+        "char_end": 1797,
+        "anchor": "PMC5397022_1783_1797",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 43,
+      "label": "anatomical",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 9,
+        "char_start": 1959,
+        "char_end": 1969,
+        "anchor": "PMC5397022_1959_1969",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 44,
+      "label": "structural features",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 9,
+        "char_start": 1974,
+        "char_end": 1993,
+        "anchor": "PMC5397022_1974_1993",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 49,
+      "label": "nucleic acids",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 10,
+        "char_start": 2056,
+        "char_end": 2069,
+        "anchor": "PMC5397022_2056_2069",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 53,
+      "label": "cal material",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 11,
+        "char_start": 2225,
+        "char_end": 2237,
+        "anchor": "PMC5397022_2225_2237",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 55,
+      "label": "formalin fixation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 12,
+        "char_start": 2306,
+        "char_end": 2323,
+        "anchor": "PMC5397022_2306_2323",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 63,
+      "label": "microbial proteins",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 15,
+        "char_start": 2621,
+        "char_end": 2639,
+        "anchor": "PMC5397022_2621_2639",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 64,
+      "label": "more proteins",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 15,
+        "char_start": 2656,
+        "char_end": 2669,
+        "anchor": "PMC5397022_2656_2669",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 81,
+      "label": "transcript",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater treatment alters transcript levels in Arabidopsis seedlings",
+        "sentence_id": 22,
+        "char_start": 3808,
+        "char_end": 3818,
+        "anchor": "PMC5397022_3808_3818",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 86,
+      "label": "transcript",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater treatment alters transcript levels in Arabidopsis seedlings",
+        "sentence_id": 22,
+        "char_start": 4044,
+        "char_end": 4054,
+        "anchor": "PMC5397022_4044_4054",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 89,
+      "label": "Between 17 and 30 million read pairs",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater treatment alters transcript levels in Arabidopsis seedlings",
+        "sentence_id": 23,
+        "char_start": 4104,
+        "char_end": 4140,
+        "anchor": "PMC5397022_4104_4140",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 90,
+      "label": "replicate",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater treatment alters transcript levels in Arabidopsis seedlings",
+        "sentence_id": 23,
+        "char_start": 4161,
+        "char_end": 4170,
+        "anchor": "PMC5397022_4161_4170",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 91,
+      "label": "27,000 unique genes",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater treatment alters transcript levels in Arabidopsis seedlings",
+        "sentence_id": 23,
+        "char_start": 4247,
+        "char_end": 4266,
+        "anchor": "PMC5397022_4247_4266",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 92,
+      "label": "15,000 per replicate",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater treatment alters transcript levels in Arabidopsis seedlings",
+        "sentence_id": 23,
+        "char_start": 4308,
+        "char_end": 4328,
+        "anchor": "PMC5397022_4308_4328",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 95,
+      "label": "ribosomal fraction",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater treatment alters transcript levels in Arabidopsis seedlings",
+        "sentence_id": 24,
+        "char_start": 4370,
+        "char_end": 4388,
+        "anchor": "PMC5397022_4370_4388",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 96,
+      "label": "below 2%",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater treatment alters transcript levels in Arabidopsis seedlings",
+        "sentence_id": 24,
+        "char_start": 4393,
+        "char_end": 4401,
+        "anchor": "PMC5397022_4393_4401",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 97,
+      "label": "Transcriptional activities",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater treatment alters transcript levels in Arabidopsis seedlings",
+        "sentence_id": 25,
+        "char_start": 4421,
+        "char_end": 4447,
+        "anchor": "PMC5397022_4421_4447",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 100,
+      "label": "fold change",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater treatment alters transcript levels in Arabidopsis seedlings",
+        "sentence_id": 26,
+        "char_start": 4528,
+        "char_end": 4539,
+        "anchor": "PMC5397022_4528_4539",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 101,
+      "label": "gene transcripts",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater treatment alters transcript levels in Arabidopsis seedlings",
+        "sentence_id": 26,
+        "char_start": 4568,
+        "char_end": 4584,
+        "anchor": "PMC5397022_4568_4584",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 102,
+      "label": "ly expressed",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater treatment alters transcript levels in Arabidopsis seedlings",
+        "sentence_id": 26,
+        "char_start": 4602,
+        "char_end": 4614,
+        "anchor": "PMC5397022_4602_4614",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 106,
+      "label": "gene ontology",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater treatment alters transcript levels in Arabidopsis seedlings",
+        "sentence_id": 28,
+        "char_start": 4808,
+        "char_end": 4821,
+        "anchor": "PMC5397022_4808_4821",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 107,
+      "label": "enrichment",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater treatment alters transcript levels in Arabidopsis seedlings",
+        "sentence_id": 28,
+        "char_start": 4827,
+        "char_end": 4837,
+        "anchor": "PMC5397022_4827_4837",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 109,
+      "label": "monium sulfate",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater treatment alters transcript levels in Arabidopsis seedlings",
+        "sentence_id": 28,
+        "char_start": 5130,
+        "char_end": 5144,
+        "anchor": "PMC5397022_5130_5144",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 118,
+      "label": "2,915 membrane",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater fixation allows for proteomics analysis",
+        "sentence_id": 31,
+        "char_start": 5620,
+        "char_end": 5634,
+        "anchor": "PMC5397022_5620_5634",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 120,
+      "label": "2646 soluble",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater fixation allows for proteomics analysis",
+        "sentence_id": 31,
+        "char_start": 5688,
+        "char_end": 5700,
+        "anchor": "PMC5397022_5688_5700",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 130,
+      "label": "log fold change",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Differentially detected proteins",
+        "sentence_id": 34,
+        "char_start": 6081,
+        "char_end": 6096,
+        "anchor": "PMC5397022_6081_6096",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 131,
+      "label": "soluble proteins",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Differentially detected proteins",
+        "sentence_id": 34,
+        "char_start": 6108,
+        "char_end": 6124,
+        "anchor": "PMC5397022_6108_6124",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 132,
+      "label": "membrane-bound proteins",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Differentially detected proteins",
+        "sentence_id": 34,
+        "char_start": 6133,
+        "char_end": 6156,
+        "anchor": "PMC5397022_6133_6156",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 133,
+      "label": "differentially expressed",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Differentially detected proteins",
+        "sentence_id": 34,
+        "char_start": 6174,
+        "char_end": 6198,
+        "anchor": "PMC5397022_6174_6198",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 136,
+      "label": "GO term enrichment analysis",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Differentially detected proteins",
+        "sentence_id": 35,
+        "char_start": 6224,
+        "char_end": 6251,
+        "anchor": "PMC5397022_6224_6251",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 137,
+      "label": "GO differences",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Differentially detected proteins",
+        "sentence_id": 35,
+        "char_start": 6351,
+        "char_end": 6365,
+        "anchor": "PMC5397022_6351_6365",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 138,
+      "label": "GO analysis",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Differentially detected proteins",
+        "sentence_id": 36,
+        "char_start": 6420,
+        "char_end": 6431,
+        "anchor": "PMC5397022_6420_6431",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 141,
+      "label": "6001 deamidated",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-translational modifications altered by RNAlater fixation",
+        "sentence_id": 39,
+        "char_start": 6983,
+        "char_end": 6998,
+        "anchor": "PMC5397022_6983_6998",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 143,
+      "label": "soluble protein fractions",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-translational modifications altered by RNAlater fixation",
+        "sentence_id": 39,
+        "char_start": 7029,
+        "char_end": 7054,
+        "anchor": "PMC5397022_7029_7054",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 144,
+      "label": "3934 oxidized",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-translational modifications altered by RNAlater fixation",
+        "sentence_id": 39,
+        "char_start": 7079,
+        "char_end": 7092,
+        "anchor": "PMC5397022_7079_7092",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 145,
+      "label": "d peptide",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-translational modifications altered by RNAlater fixation",
+        "sentence_id": 39,
+        "char_start": 7111,
+        "char_end": 7120,
+        "anchor": "PMC5397022_7111_7120",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 146,
+      "label": "membrane fractions",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-translational modifications altered by RNAlater fixation",
+        "sentence_id": 39,
+        "char_start": 7138,
+        "char_end": 7156,
+        "anchor": "PMC5397022_7138_7156",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 155,
+      "label": "replicate",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-translational modifications altered by RNAlater fixation",
+        "sentence_id": 40,
+        "char_start": 7264,
+        "char_end": 7273,
+        "anchor": "PMC5397022_7264_7273",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 156,
+      "label": "ATP synthase",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-translational modifications altered by RNAlater fixation",
+        "sentence_id": 40,
+        "char_start": 7345,
+        "char_end": 7357,
+        "anchor": "PMC5397022_7345_7357",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 161,
+      "label": "soluble fraction",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-translational modifications altered by RNAlater fixation",
+        "sentence_id": 41,
+        "char_start": 7390,
+        "char_end": 7406,
+        "anchor": "PMC5397022_7390_7406",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 162,
+      "label": "23 modified peptide states",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-translational modifications altered by RNAlater fixation",
+        "sentence_id": 41,
+        "char_start": 7408,
+        "char_end": 7434,
+        "anchor": "PMC5397022_7408_7434",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 166,
+      "label": "proteins-CRUCIFERIN",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-translational modifications altered by RNAlater fixation",
+        "sentence_id": 42,
+        "char_start": 7516,
+        "char_end": 7535,
+        "anchor": "PMC5397022_7516_7535",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 168,
+      "label": "modifications",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-translational modifications altered by RNAlater fixation",
+        "sentence_id": 43,
+        "char_start": 7561,
+        "char_end": 7574,
+        "anchor": "PMC5397022_7561_7574",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 172,
+      "label": "osphorylated proteins",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-translational modifications altered by RNAlater fixation",
+        "sentence_id": 44,
+        "char_start": 7706,
+        "char_end": 7727,
+        "anchor": "PMC5397022_7706_7727",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 173,
+      "label": "orylated peptide",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-translational modifications altered by RNAlater fixation",
+        "sentence_id": 44,
+        "char_start": 7794,
+        "char_end": 7810,
+        "anchor": "PMC5397022_7794_7810",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 175,
+      "label": "Oxidation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-translational modifications altered by RNAlater fixation",
+        "sentence_id": 45,
+        "char_start": 7838,
+        "char_end": 7847,
+        "anchor": "PMC5397022_7838_7847",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 176,
+      "label": "altered abundance",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Post-translational modifications altered by RNAlater fixation",
+        "sentence_id": 45,
+        "char_start": 7941,
+        "char_end": 7958,
+        "anchor": "PMC5397022_7941_7958",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 190,
+      "label": "proteomics study",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 50,
+        "char_start": 8495,
+        "char_end": 8511,
+        "anchor": "PMC5397022_8495_8511",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 194,
+      "label": "modified peptides",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 51,
+        "char_start": 8624,
+        "char_end": 8641,
+        "anchor": "PMC5397022_8624_8641",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 197,
+      "label": "amidation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 52,
+        "char_start": 8712,
+        "char_end": 8721,
+        "anchor": "PMC5397022_8712_8721",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 198,
+      "label": "oxidation events",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 52,
+        "char_start": 8726,
+        "char_end": 8742,
+        "anchor": "PMC5397022_8726_8742",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 199,
+      "label": "liquid nitrogen",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 52,
+        "char_start": 8768,
+        "char_end": 8783,
+        "anchor": "PMC5397022_8768_8783",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 200,
+      "label": "RNAlater fixation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 52,
+        "char_start": 8788,
+        "char_end": 8805,
+        "anchor": "PMC5397022_8788_8805",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 203,
+      "label": "snap-frozen samples",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 54,
+        "char_start": 8872,
+        "char_end": 8891,
+        "anchor": "PMC5397022_8872_8891",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 206,
+      "label": "modifications",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 54,
+        "char_start": 9058,
+        "char_end": 9071,
+        "anchor": "PMC5397022_9058_9071",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 209,
+      "label": "Fraction Post-translational modification",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 55,
+        "char_start": 9088,
+        "char_end": 9128,
+        "anchor": "PMC5397022_9088_9128",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 210,
+      "label": "Total peptides",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 55,
+        "char_start": 9129,
+        "char_end": 9143,
+        "anchor": "PMC5397022_9129_9143",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 211,
+      "label": "modification (",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 55,
+        "char_start": 9160,
+        "char_end": 9174,
+        "anchor": "PMC5397022_9160_9174",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 214,
+      "label": "total Soluble Phosphorylation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 55,
+        "char_start": 9218,
+        "char_end": 9247,
+        "anchor": "PMC5397022_9218_9247",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 215,
+      "label": "Oxidation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 55,
+        "char_start": 9259,
+        "char_end": 9268,
+        "anchor": "PMC5397022_9259_9268",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 216,
+      "label": "Deamidation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 55,
+        "char_start": 9283,
+        "char_end": 9294,
+        "anchor": "PMC5397022_9283_9294",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 217,
+      "label": "Membrane Phosphorylation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 55,
+        "char_start": 9310,
+        "char_end": 9334,
+        "anchor": "PMC5397022_9310_9334",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 218,
+      "label": "Oxidation 39",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 55,
+        "char_start": 9347,
+        "char_end": 9359,
+        "anchor": "PMC5397022_9347_9359",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 219,
+      "label": "Deamidation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 55,
+        "char_start": 9371,
+        "char_end": 9382,
+        "anchor": "PMC5397022_9371_9382",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 220,
+      "label": "different abundance",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 55,
+        "char_start": 9417,
+        "char_end": 9436,
+        "anchor": "PMC5397022_9417_9436",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 221,
+      "label": "cyanobacterium",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 55,
+        "char_start": 9545,
+        "char_end": 9559,
+        "anchor": "PMC5397022_9545_9559",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 231,
+      "label": "abundance",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 56,
+        "char_start": 9831,
+        "char_end": 9840,
+        "anchor": "PMC5397022_9831_9840",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 232,
+      "label": "RNAlater samples",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 56,
+        "char_start": 9844,
+        "char_end": 9860,
+        "anchor": "PMC5397022_9844_9860",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 233,
+      "label": "liquid nitrogen samples",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 56,
+        "char_start": 9873,
+        "char_end": 9896,
+        "anchor": "PMC5397022_9873_9896",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 234,
+      "label": "retention",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 56,
+        "char_start": 9918,
+        "char_end": 9927,
+        "anchor": "PMC5397022_9918_9927",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 235,
+      "label": "protein integrity",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 56,
+        "char_start": 9931,
+        "char_end": 9948,
+        "anchor": "PMC5397022_9931_9948",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 239,
+      "label": "proteomics",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 57,
+        "char_start": 10058,
+        "char_end": 10068,
+        "anchor": "PMC5397022_10058_10068",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 240,
+      "label": "transcriptomic modifications",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 57,
+        "char_start": 10088,
+        "char_end": 10116,
+        "anchor": "PMC5397022_10088_10116",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 246,
+      "label": "5770 transcripts",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 58,
+        "char_start": 10561,
+        "char_end": 10577,
+        "anchor": "PMC5397022_10561_10577",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 247,
+      "label": "expressed",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 58,
+        "char_start": 10593,
+        "char_end": 10602,
+        "anchor": "PMC5397022_10593_10602",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 248,
+      "label": "log-fold change",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 58,
+        "char_start": 10608,
+        "char_end": 10623,
+        "anchor": "PMC5397022_10608_10623",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 249,
+      "label": "monium sulfate",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 58,
+        "char_start": 10717,
+        "char_end": 10731,
+        "anchor": "PMC5397022_10717_10731",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 250,
+      "label": "cesium sulfate",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 58,
+        "char_start": 10737,
+        "char_end": 10751,
+        "anchor": "PMC5397022_10737_10751",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 266,
+      "label": "less than 1.4%",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 60,
+        "char_start": 11143,
+        "char_end": 11157,
+        "anchor": "PMC5397022_11143_11157",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 268,
+      "label": "altered between treatments",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 60,
+        "char_start": 11238,
+        "char_end": 11264,
+        "anchor": "PMC5397022_11238_11264",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 269,
+      "label": "log-fold change",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 60,
+        "char_start": 11270,
+        "char_end": 11285,
+        "anchor": "PMC5397022_11270_11285",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 270,
+      "label": "GO enrichment analysis",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 60,
+        "char_start": 11307,
+        "char_end": 11329,
+        "anchor": "PMC5397022_11307_11329",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 275,
+      "label": "four proteins-ROC4",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 60,
+        "char_start": 11612,
+        "char_end": 11630,
+        "anchor": "PMC5397022_11612_11630",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 276,
+      "label": "ATP synthase beta-subunit",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 60,
+        "char_start": 11647,
+        "char_end": 11672,
+        "anchor": "PMC5397022_11647_11672",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 277,
+      "label": "UCIFERIN 1 and 3",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 60,
+        "char_start": 11699,
+        "char_end": 11715,
+        "anchor": "PMC5397022_11699_11715",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 289,
+      "label": "osphorylation events",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 64,
+        "char_start": 12269,
+        "char_end": 12289,
+        "anchor": "PMC5397022_12269_12289",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 290,
+      "label": "sensitive",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 64,
+        "char_start": 12304,
+        "char_end": 12313,
+        "anchor": "PMC5397022_12304_12313",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 291,
+      "label": "17.24% of",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 64,
+        "char_start": 12319,
+        "char_end": 12328,
+        "anchor": "PMC5397022_12319_12328",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 292,
+      "label": "lated soluble proteins",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 64,
+        "char_start": 12342,
+        "char_end": 12364,
+        "anchor": "PMC5397022_12342_12364",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 293,
+      "label": "22.78% of",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 64,
+        "char_start": 12369,
+        "char_end": 12378,
+        "anchor": "PMC5397022_12369_12378",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 294,
+      "label": "lated membrane proteins",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 64,
+        "char_start": 12392,
+        "char_end": 12415,
+        "anchor": "PMC5397022_12392_12415",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 295,
+      "label": "altered abundance",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 64,
+        "char_start": 12430,
+        "char_end": 12447,
+        "anchor": "PMC5397022_12430_12447",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 297,
+      "label": "oxidation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 65,
+        "char_start": 12491,
+        "char_end": 12500,
+        "anchor": "PMC5397022_12491_12500",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 299,
+      "label": "alterations",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 66,
+        "char_start": 12578,
+        "char_end": 12589,
+        "anchor": "PMC5397022_12578_12589",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 300,
+      "label": "transcript levels",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 66,
+        "char_start": 12593,
+        "char_end": 12610,
+        "anchor": "PMC5397022_12593_12610",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 301,
+      "label": "infiltration",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 68,
+        "char_start": 12828,
+        "char_end": 12840,
+        "anchor": "PMC5397022_12828_12840",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 304,
+      "label": "protein modifications",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 69,
+        "char_start": 13150,
+        "char_end": 13171,
+        "anchor": "PMC5397022_13150_13171",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 311,
+      "label": "expression",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 73,
+        "char_start": 13700,
+        "char_end": 13710,
+        "anchor": "PMC5397022_13700_13710",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 320,
+      "label": "Forty-four aliquots",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Plant material",
+        "sentence_id": 75,
+        "char_start": 13954,
+        "char_end": 13973,
+        "anchor": "PMC5397022_13954_13973",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 321,
+      "label": "0.016 ± 0.002 g of seeds",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Plant material",
+        "sentence_id": 75,
+        "char_start": 13977,
+        "char_end": 14001,
+        "anchor": "PMC5397022_13977_14001",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 326,
+      "label": "ri plates",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Plant material",
+        "sentence_id": 76,
+        "char_start": 14257,
+        "char_end": 14266,
+        "anchor": "PMC5397022_14257_14266",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 340,
+      "label": "RNA integrity",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA erxtraction and processing",
+        "sentence_id": 81,
+        "char_start": 14761,
+        "char_end": 14774,
+        "anchor": "PMC5397022_14761_14774",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 342,
+      "label": "Paired-end sequence",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA erxtraction and processing",
+        "sentence_id": 82,
+        "char_start": 14831,
+        "char_end": 14850,
+        "anchor": "PMC5397022_14831_14850",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 344,
+      "label": "Read pairs",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA erxtraction and processing",
+        "sentence_id": 83,
+        "char_start": 14958,
+        "char_end": 14968,
+        "anchor": "PMC5397022_14958_14968",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 345,
+      "label": "replicate",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA erxtraction and processing",
+        "sentence_id": 83,
+        "char_start": 14989,
+        "char_end": 14998,
+        "anchor": "PMC5397022_14989_14998",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 346,
+      "label": "Read counts",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA erxtraction and processing",
+        "sentence_id": 83,
+        "char_start": 15046,
+        "char_end": 15057,
+        "anchor": "PMC5397022_15046_15057",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 349,
+      "label": "Read counts",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA erxtraction and processing",
+        "sentence_id": 84,
+        "char_start": 15086,
+        "char_end": 15097,
+        "anchor": "PMC5397022_15086_15097",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 350,
+      "label": "differential expression",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA erxtraction and processing",
+        "sentence_id": 84,
+        "char_start": 15130,
+        "char_end": 15153,
+        "anchor": "PMC5397022_15130_15153",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 351,
+      "label": "generalized linear model likelihood test",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA erxtraction and processing",
+        "sentence_id": 84,
+        "char_start": 15164,
+        "char_end": 15204,
+        "anchor": "PMC5397022_15164_15204",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 353,
+      "label": "P-value",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA erxtraction and processing",
+        "sentence_id": 85,
+        "char_start": 15230,
+        "char_end": 15237,
+        "anchor": "PMC5397022_15230_15237",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 356,
+      "label": "extracted",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein extraction",
+        "sentence_id": 87,
+        "char_start": 15459,
+        "char_end": 15468,
+        "anchor": "PMC5397022_15459_15468",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 358,
+      "label": "protein extract",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein extraction",
+        "sentence_id": 88,
+        "char_start": 15513,
+        "char_end": 15528,
+        "anchor": "PMC5397022_15513_15528",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 360,
+      "label": "soluble proteins",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein extraction",
+        "sentence_id": 89,
+        "char_start": 15657,
+        "char_end": 15673,
+        "anchor": "PMC5397022_15657_15673",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 370,
+      "label": "soluble protein extraction",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein sample preparation",
+        "sentence_id": 92,
+        "char_start": 16083,
+        "char_end": 16109,
+        "anchor": "PMC5397022_16083_16109",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 382,
+      "label": "membrane protein",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein sample preparation",
+        "sentence_id": 95,
+        "char_start": 16691,
+        "char_end": 16707,
+        "anchor": "PMC5397022_16691_16707",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 387,
+      "label": "centrifuged",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein sample preparation",
+        "sentence_id": 96,
+        "char_start": 16929,
+        "char_end": 16940,
+        "anchor": "PMC5397022_16929_16940",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 408,
+      "label": "Replicate",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 100,
+        "char_start": 17842,
+        "char_end": 17851,
+        "anchor": "PMC5397022_17842_17851",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 410,
+      "label": "chromatography",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 101,
+        "char_start": 18058,
+        "char_end": 18072,
+        "anchor": "PMC5397022_18058_18072",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 413,
+      "label": "final fraction",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 102,
+        "char_start": 18114,
+        "char_end": 18128,
+        "anchor": "PMC5397022_18114_18128",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 414,
+      "label": "mass spectrometer",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 102,
+        "char_start": 18175,
+        "char_end": 18192,
+        "anchor": "PMC5397022_18175_18192",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 420,
+      "label": "flow rate",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 102,
+        "char_start": 18545,
+        "char_end": 18554,
+        "anchor": "PMC5397022_18545_18554",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 421,
+      "label": "5 μL/min",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 102,
+        "char_start": 18558,
+        "char_end": 18566,
+        "anchor": "PMC5397022_18558_18566",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 431,
+      "label": "Peptide separation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 103,
+        "char_start": 18618,
+        "char_end": 18636,
+        "anchor": "PMC5397022_18618_18636",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 433,
+      "label": "separated",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 103,
+        "char_start": 18794,
+        "char_end": 18803,
+        "anchor": "PMC5397022_18794_18803",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 443,
+      "label": "mass spectrometer",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 104,
+        "char_start": 18935,
+        "char_end": 18952,
+        "anchor": "PMC5397022_18935_18952",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 447,
+      "label": "1, 000 000 ions",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 106,
+        "char_start": 19179,
+        "char_end": 19194,
+        "anchor": "PMC5397022_19179_19194",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 451,
+      "label": "Detection",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 108,
+        "char_start": 19345,
+        "char_end": 19354,
+        "anchor": "PMC5397022_19345_19354",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 453,
+      "label": "resolution",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 108,
+        "char_start": 19398,
+        "char_end": 19408,
+        "anchor": "PMC5397022_19398_19408",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 454,
+      "label": "100,000 ions",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 108,
+        "char_start": 19473,
+        "char_end": 19485,
+        "anchor": "PMC5397022_19473_19485",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 456,
+      "label": "collision energy",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 109,
+        "char_start": 19579,
+        "char_end": 19595,
+        "anchor": "PMC5397022_19579_19595",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 457,
+      "label": "activation time",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "iTRAQ labeling and LC MS/MS analysis",
+        "sentence_id": 109,
+        "char_start": 19606,
+        "char_end": 19621,
+        "anchor": "PMC5397022_19606_19621",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 460,
+      "label": "Mass spectrometry data analyses",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein data analysis",
+        "sentence_id": 111,
+        "char_start": 19790,
+        "char_end": 19821,
+        "anchor": "PMC5397022_19790_19821",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 461,
+      "label": "ome Discover",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein data analysis",
+        "sentence_id": 111,
+        "char_start": 19941,
+        "char_end": 19953,
+        "anchor": "PMC5397022_19941_19953",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 469,
+      "label": "Mascot searches",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein data analysis",
+        "sentence_id": 112,
+        "char_start": 20177,
+        "char_end": 20192,
+        "anchor": "PMC5397022_20177_20192",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 470,
+      "label": "parent ion tolerance",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein data analysis",
+        "sentence_id": 112,
+        "char_start": 20198,
+        "char_end": 20218,
+        "anchor": "PMC5397022_20198_20218",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 471,
+      "label": "fragment ion mass tolerance",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein data analysis",
+        "sentence_id": 112,
+        "char_start": 20235,
+        "char_end": 20262,
+        "anchor": "PMC5397022_20235_20262",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 472,
+      "label": "06 Da",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein data analysis",
+        "sentence_id": 112,
+        "char_start": 20268,
+        "char_end": 20273,
+        "anchor": "PMC5397022_20268_20273",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 475,
+      "label": "oxidation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein data analysis",
+        "sentence_id": 114,
+        "char_start": 20483,
+        "char_end": 20492,
+        "anchor": "PMC5397022_20483_20492",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 476,
+      "label": "methionine residues",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein data analysis",
+        "sentence_id": 114,
+        "char_start": 20496,
+        "char_end": 20515,
+        "anchor": "PMC5397022_20496_20515",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 477,
+      "label": "orylation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein data analysis",
+        "sentence_id": 114,
+        "char_start": 20526,
+        "char_end": 20535,
+        "anchor": "PMC5397022_20526_20535",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 478,
+      "label": "threonine",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein data analysis",
+        "sentence_id": 114,
+        "char_start": 20547,
+        "char_end": 20556,
+        "anchor": "PMC5397022_20547_20556",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 482,
+      "label": "at least two peptides",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein data analysis",
+        "sentence_id": 115,
+        "char_start": 20691,
+        "char_end": 20712,
+        "anchor": "PMC5397022_20691_20712",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 483,
+      "label": "score > 20",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein data analysis",
+        "sentence_id": 115,
+        "char_start": 20718,
+        "char_end": 20728,
+        "anchor": "PMC5397022_20718_20728",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 486,
+      "label": "iTRAQ labeling efficiency",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein data analysis",
+        "sentence_id": 116,
+        "char_start": 20747,
+        "char_end": 20772,
+        "anchor": "PMC5397022_20747_20772",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 490,
+      "label": "Fold-changes",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein quantification and statistical analysis",
+        "sentence_id": 117,
+        "char_start": 20889,
+        "char_end": 20901,
+        "anchor": "PMC5397022_20889_20901",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 494,
+      "label": "liquid N 2 control",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein quantification and statistical analysis",
+        "sentence_id": 118,
+        "char_start": 21087,
+        "char_end": 21105,
+        "anchor": "PMC5397022_21087_21105",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 496,
+      "label": "significant",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein quantification and statistical analysis",
+        "sentence_id": 119,
+        "char_start": 21205,
+        "char_end": 21216,
+        "anchor": "PMC5397022_21205_21216",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 497,
+      "label": "abundance",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein quantification and statistical analysis",
+        "sentence_id": 119,
+        "char_start": 21230,
+        "char_end": 21239,
+        "anchor": "PMC5397022_21230_21239",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 501,
+      "label": "less than 0.05",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein quantification and statistical analysis",
+        "sentence_id": 120,
+        "char_start": 21336,
+        "char_end": 21350,
+        "anchor": "PMC5397022_21336_21350",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 502,
+      "label": "log fold change",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein quantification and statistical analysis",
+        "sentence_id": 120,
+        "char_start": 21357,
+        "char_end": 21372,
+        "anchor": "PMC5397022_21357_21372",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 503,
+      "label": "greater than 1",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein quantification and statistical analysis",
+        "sentence_id": 120,
+        "char_start": 21373,
+        "char_end": 21387,
+        "anchor": "PMC5397022_21373_21387",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 504,
+      "label": "less than -1",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein quantification and statistical analysis",
+        "sentence_id": 120,
+        "char_start": 21391,
+        "char_end": 21403,
+        "anchor": "PMC5397022_21391_21403",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 506,
+      "label": "processes",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "GO enrichment analyses",
+        "sentence_id": 122,
+        "char_start": 21803,
+        "char_end": 21812,
+        "anchor": "PMC5397022_21803_21812",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 507,
+      "label": "greater than expected frequency",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "GO enrichment analyses",
+        "sentence_id": 122,
+        "char_start": 21818,
+        "char_end": 21849,
+        "anchor": "PMC5397022_21818_21849",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 510,
+      "label": "Gene Onto",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "GO enrichment analyses",
+        "sentence_id": 123,
+        "char_start": 21940,
+        "char_end": 21949,
+        "anchor": "PMC5397022_21940_21949",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 511,
+      "label": "p-value",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "GO enrichment analyses",
+        "sentence_id": 124,
+        "char_start": 22029,
+        "char_end": 22036,
+        "anchor": "PMC5397022_22029_22036",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-0-13",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 13
+    },
+    {
+      "id": "synth-0-15",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 15
+    },
+    {
+      "id": "synth-0-16",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 16
+    },
+    {
+      "id": "synth-0-17",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 17
+    },
+    {
+      "id": "synth-0-18",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 18
+    },
+    {
+      "id": "synth-0-19",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 19
+    },
+    {
+      "id": "synth-0-26",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 26
+    },
+    {
+      "id": "synth-0-27",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 27
+    },
+    {
+      "id": "synth-0-31",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 31
+    },
+    {
+      "id": "synth-0-33",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 33
+    },
+    {
+      "id": "synth-0-38",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 38
+    },
+    {
+      "id": "synth-0-43",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 43
+    },
+    {
+      "id": "synth-0-44",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 44
+    },
+    {
+      "id": "synth-0-49",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 49
+    },
+    {
+      "id": "synth-0-53",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 53
+    },
+    {
+      "id": "synth-0-55",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 55
+    },
+    {
+      "id": "synth-0-63",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 63
+    },
+    {
+      "id": "synth-0-64",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 64
+    },
+    {
+      "id": "synth-0-81",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 81
+    },
+    {
+      "id": "synth-0-86",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 86
+    },
+    {
+      "id": "synth-0-89",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 89
+    },
+    {
+      "id": "synth-0-90",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 90
+    },
+    {
+      "id": "synth-0-91",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 91
+    },
+    {
+      "id": "synth-0-92",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 92
+    },
+    {
+      "id": "synth-0-95",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 95
+    },
+    {
+      "id": "synth-0-96",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 96
+    },
+    {
+      "id": "synth-0-97",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 97
+    },
+    {
+      "id": "synth-0-100",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 100
+    },
+    {
+      "id": "synth-0-101",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 101
+    },
+    {
+      "id": "synth-0-102",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 102
+    },
+    {
+      "id": "synth-0-106",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 106
+    },
+    {
+      "id": "synth-0-107",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 107
+    },
+    {
+      "id": "synth-0-109",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 109
+    },
+    {
+      "id": "synth-0-118",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 118
+    },
+    {
+      "id": "synth-0-120",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 120
+    },
+    {
+      "id": "synth-0-130",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 130
+    },
+    {
+      "id": "synth-0-131",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 131
+    },
+    {
+      "id": "synth-0-132",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 132
+    },
+    {
+      "id": "synth-0-133",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 133
+    },
+    {
+      "id": "synth-0-136",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 136
+    },
+    {
+      "id": "synth-0-137",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 137
+    },
+    {
+      "id": "synth-0-138",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 138
+    },
+    {
+      "id": "synth-0-141",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 141
+    },
+    {
+      "id": "synth-0-143",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 143
+    },
+    {
+      "id": "synth-0-144",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 144
+    },
+    {
+      "id": "synth-0-145",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 145
+    },
+    {
+      "id": "synth-0-146",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 146
+    },
+    {
+      "id": "synth-0-155",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 155
+    },
+    {
+      "id": "synth-0-156",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 156
+    },
+    {
+      "id": "synth-0-161",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 161
+    },
+    {
+      "id": "synth-0-162",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 162
+    },
+    {
+      "id": "synth-0-166",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 166
+    },
+    {
+      "id": "synth-0-168",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 168
+    },
+    {
+      "id": "synth-0-172",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 172
+    },
+    {
+      "id": "synth-0-173",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 173
+    },
+    {
+      "id": "synth-0-175",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 175
+    },
+    {
+      "id": "synth-0-176",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 176
+    },
+    {
+      "id": "synth-0-190",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 190
+    },
+    {
+      "id": "synth-0-194",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 194
+    },
+    {
+      "id": "synth-0-197",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 197
+    },
+    {
+      "id": "synth-0-198",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 198
+    },
+    {
+      "id": "synth-0-199",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 199
+    },
+    {
+      "id": "synth-0-200",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 200
+    },
+    {
+      "id": "synth-0-203",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 203
+    },
+    {
+      "id": "synth-0-206",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 206
+    },
+    {
+      "id": "synth-0-209",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 209
+    },
+    {
+      "id": "synth-0-210",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 210
+    },
+    {
+      "id": "synth-0-211",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 211
+    },
+    {
+      "id": "synth-0-214",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 214
+    },
+    {
+      "id": "synth-0-215",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 215
+    },
+    {
+      "id": "synth-0-216",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 216
+    },
+    {
+      "id": "synth-0-217",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 217
+    },
+    {
+      "id": "synth-0-218",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 218
+    },
+    {
+      "id": "synth-0-219",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 219
+    },
+    {
+      "id": "synth-0-220",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 220
+    },
+    {
+      "id": "synth-0-221",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 221
+    },
+    {
+      "id": "synth-0-231",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 231
+    },
+    {
+      "id": "synth-0-232",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 232
+    },
+    {
+      "id": "synth-0-233",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 233
+    },
+    {
+      "id": "synth-0-234",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 234
+    },
+    {
+      "id": "synth-0-235",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 235
+    },
+    {
+      "id": "synth-0-239",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 239
+    },
+    {
+      "id": "synth-0-240",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 240
+    },
+    {
+      "id": "synth-0-246",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 246
+    },
+    {
+      "id": "synth-0-247",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 247
+    },
+    {
+      "id": "synth-0-248",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 248
+    },
+    {
+      "id": "synth-0-249",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 249
+    },
+    {
+      "id": "synth-0-250",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 250
+    },
+    {
+      "id": "synth-0-266",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 266
+    },
+    {
+      "id": "synth-0-268",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 268
+    },
+    {
+      "id": "synth-0-269",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 269
+    },
+    {
+      "id": "synth-0-270",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 270
+    },
+    {
+      "id": "synth-0-275",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 275
+    },
+    {
+      "id": "synth-0-276",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 276
+    },
+    {
+      "id": "synth-0-277",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 277
+    },
+    {
+      "id": "synth-0-289",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 289
+    },
+    {
+      "id": "synth-0-290",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 290
+    },
+    {
+      "id": "synth-0-291",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 291
+    },
+    {
+      "id": "synth-0-292",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 292
+    },
+    {
+      "id": "synth-0-293",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 293
+    },
+    {
+      "id": "synth-0-294",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 294
+    },
+    {
+      "id": "synth-0-295",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 295
+    },
+    {
+      "id": "synth-0-297",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 297
+    },
+    {
+      "id": "synth-0-299",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 299
+    },
+    {
+      "id": "synth-0-300",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 300
+    },
+    {
+      "id": "synth-0-301",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 301
+    },
+    {
+      "id": "synth-0-304",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 304
+    },
+    {
+      "id": "synth-0-311",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 311
+    },
+    {
+      "id": "synth-0-320",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 320
+    },
+    {
+      "id": "synth-0-321",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 321
+    },
+    {
+      "id": "synth-0-326",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 326
+    },
+    {
+      "id": "synth-0-340",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 340
+    },
+    {
+      "id": "synth-0-342",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 342
+    },
+    {
+      "id": "synth-0-344",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 344
+    },
+    {
+      "id": "synth-0-345",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 345
+    },
+    {
+      "id": "synth-0-346",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 346
+    },
+    {
+      "id": "synth-0-349",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 349
+    },
+    {
+      "id": "synth-0-350",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 350
+    },
+    {
+      "id": "synth-0-351",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 351
+    },
+    {
+      "id": "synth-0-353",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 353
+    },
+    {
+      "id": "synth-0-356",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 356
+    },
+    {
+      "id": "synth-0-358",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 358
+    },
+    {
+      "id": "synth-0-360",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 360
+    },
+    {
+      "id": "synth-0-370",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 370
+    },
+    {
+      "id": "synth-0-382",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 382
+    },
+    {
+      "id": "synth-0-387",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 387
+    },
+    {
+      "id": "synth-0-408",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 408
+    },
+    {
+      "id": "synth-0-410",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 410
+    },
+    {
+      "id": "synth-0-413",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 413
+    },
+    {
+      "id": "synth-0-414",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 414
+    },
+    {
+      "id": "synth-0-420",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 420
+    },
+    {
+      "id": "synth-0-421",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 421
+    },
+    {
+      "id": "synth-0-431",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 431
+    },
+    {
+      "id": "synth-0-433",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 433
+    },
+    {
+      "id": "synth-0-443",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 443
+    },
+    {
+      "id": "synth-0-447",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 447
+    },
+    {
+      "id": "synth-0-451",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 451
+    },
+    {
+      "id": "synth-0-453",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 453
+    },
+    {
+      "id": "synth-0-454",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 454
+    },
+    {
+      "id": "synth-0-456",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 456
+    },
+    {
+      "id": "synth-0-457",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 457
+    },
+    {
+      "id": "synth-0-460",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 460
+    },
+    {
+      "id": "synth-0-461",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 461
+    },
+    {
+      "id": "synth-0-469",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 469
+    },
+    {
+      "id": "synth-0-470",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 470
+    },
+    {
+      "id": "synth-0-471",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 471
+    },
+    {
+      "id": "synth-0-472",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 472
+    },
+    {
+      "id": "synth-0-475",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 475
+    },
+    {
+      "id": "synth-0-476",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 476
+    },
+    {
+      "id": "synth-0-477",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 477
+    },
+    {
+      "id": "synth-0-478",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 478
+    },
+    {
+      "id": "synth-0-482",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 482
+    },
+    {
+      "id": "synth-0-483",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 483
+    },
+    {
+      "id": "synth-0-486",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 486
+    },
+    {
+      "id": "synth-0-490",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 490
+    },
+    {
+      "id": "synth-0-494",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 494
+    },
+    {
+      "id": "synth-0-496",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 496
+    },
+    {
+      "id": "synth-0-497",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 497
+    },
+    {
+      "id": "synth-0-501",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 501
+    },
+    {
+      "id": "synth-0-502",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 502
+    },
+    {
+      "id": "synth-0-503",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 503
+    },
+    {
+      "id": "synth-0-504",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 504
+    },
+    {
+      "id": "synth-0-506",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 506
+    },
+    {
+      "id": "synth-0-507",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 507
+    },
+    {
+      "id": "synth-0-510",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 510
+    },
+    {
+      "id": "synth-0-511",
+      "type": "ASSOCIATED",
+      "source": 0,
+      "target": 511
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "EXPERIMENT",
+    "page": null
+  }
+}

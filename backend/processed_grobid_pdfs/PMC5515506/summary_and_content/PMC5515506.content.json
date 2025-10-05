@@ -1,0 +1,1887 @@
+{
+  "paper_id": "sha256:02a0ac31ce049f48779fa875e8dad8e52e410f4cb6f3c3ab8dd3940cf4e5db4c",
+  "metadata": {
+    "title": "Effects of angular frequency during clinorotation on mesenchymal stem cell morphology and migration",
+    "abstract": "To determine the short-term effects of simulated microgravity on mesenchymal stem cell behaviors-as a function of clinorotation speed-using time-lapse microscopy.BACKGROUND: Ground-based microgravity simulation can reproduce the apparent effects of weightlessness in spaceflight using clinostats that continuously reorient the gravity vector on a specimen, creating a time-averaged nullification of gravity.In this work, we investigated the effects of clinorotation speed on the morphology, cytoarchitecture, and migration behavior of human mesenchymal stem cells (hMSCs).METHODS: We compared cell responses at clinorotation speeds of 0, 30, 60, and 75 rpm over 8 h in a recently developed lab-onchip-based clinostat system.Time-lapse light microscopy was used to visualize changes in cell morphology during and after cessation of clinorotation.Cytoarchitecture was assessed by actin and vinculin staining, and chemotaxis was examined using timelapse light microscopy of cells in NGF (100 ng/ml) gradients.RESULTS: Among clinorotated groups, cell area distributions indicated a greater inhibition of cell spreading with higher angular frequency (P o 0.005), though average cell area at 30 rpm after 8 h became statistically similar to control (P = 0.794).Cells at 75 rpm clinorotation remained viable and were able to re-spread after clinorotation.In chemotaxis chambers, clinorotation did not alter migration patterns in elongated cells, but most clinorotated cells exhibited cell retraction, which strongly compromised motility.CONCLUSIONS: These results indicate that hMSCs respond to clinorotation by adopting more rounded, less-spread morphologies.The angular frequency-dependence suggests that a cell's ability to sense the changing gravity vector is governed by the rate of perturbation.For migration studies, cells cultured in clinorotated chemotaxis chambers were generally less motile and exhibited retraction instead of migration.",
+    "authors": [
+      "Carlos Luna",
+      "Alvin GYew",
+      "Adam HHsieh"
+    ],
+    "affiliations": [
+      "1 Fischell Department of Bioengineering , University of Maryland , College Park , MD , USA;",
+      "2 NASA Goddard Space Flight Center , Greenbelt , MD , USA and",
+      "3 Department of Orthopaedics , University of Maryland , Baltimore , MD , USA."
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Abstract",
+      "paragraphs": [
+        "To determine the short-term effects of simulated microgravity on mesenchymal stem cell behaviors-as a function of clinorotation speed-using time-lapse microscopy.BACKGROUND: Ground-based microgravity simulation can reproduce the apparent effects of weightlessness in spaceflight using clinostats that continuously reorient the gravity vector on a specimen, creating a time-averaged nullification of gravity.In this work, we investigated the effects of clinorotation speed on the morphology, cytoarchitecture, and migration behavior of human mesenchymal stem cells (hMSCs).METHODS: We compared cell responses at clinorotation speeds of 0, 30, 60, and 75 rpm over 8 h in a recently developed lab-onchip-based clinostat system.Time-lapse light microscopy was used to visualize changes in cell morphology during and after cessation of clinorotation.Cytoarchitecture was assessed by actin and vinculin staining, and chemotaxis was examined using timelapse light microscopy of cells in NGF (100 ng/ml) gradients.RESULTS: Among clinorotated groups, cell area distributions indicated a greater inhibition of cell spreading with higher angular frequency (P o 0.005), though average cell area at 30 rpm after 8 h became statistically similar to control (P = 0.794).Cells at 75 rpm clinorotation remained viable and were able to re-spread after clinorotation.In chemotaxis chambers, clinorotation did not alter migration patterns in elongated cells, but most clinorotated cells exhibited cell retraction, which strongly compromised motility.CONCLUSIONS: These results indicate that hMSCs respond to clinorotation by adopting more rounded, less-spread morphologies.The angular frequency-dependence suggests that a cell's ability to sense the changing gravity vector is governed by the rate of perturbation.For migration studies, cells cultured in clinorotated chemotaxis chambers were generally less motile and exhibited retraction instead of migration."
+      ],
+      "text": "To determine the short-term effects of simulated microgravity on mesenchymal stem cell behaviors-as a function of clinorotation speed-using time-lapse microscopy.BACKGROUND: Ground-based microgravity simulation can reproduce the apparent effects of weightlessness in spaceflight using clinostats that continuously reorient the gravity vector on a specimen, creating a time-averaged nullification of gravity.In this work, we investigated the effects of clinorotation speed on the morphology, cytoarchitecture, and migration behavior of human mesenchymal stem cells (hMSCs).METHODS: We compared cell responses at clinorotation speeds of 0, 30, 60, and 75 rpm over 8 h in a recently developed lab-onchip-based clinostat system.Time-lapse light microscopy was used to visualize changes in cell morphology during and after cessation of clinorotation.Cytoarchitecture was assessed by actin and vinculin staining, and chemotaxis was examined using timelapse light microscopy of cells in NGF (100 ng/ml) gradients.RESULTS: Among clinorotated groups, cell area distributions indicated a greater inhibition of cell spreading with higher angular frequency (P o 0.005), though average cell area at 30 rpm after 8 h became statistically similar to control (P = 0.794).Cells at 75 rpm clinorotation remained viable and were able to re-spread after clinorotation.In chemotaxis chambers, clinorotation did not alter migration patterns in elongated cells, but most clinorotated cells exhibited cell retraction, which strongly compromised motility.CONCLUSIONS: These results indicate that hMSCs respond to clinorotation by adopting more rounded, less-spread morphologies.The angular frequency-dependence suggests that a cell's ability to sense the changing gravity vector is governed by the rate of perturbation.For migration studies, cells cultured in clinorotated chemotaxis chambers were generally less motile and exhibited retraction instead of migration.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "To determine the short-term effects of simulated microgravity on mesenchymal stem cell behaviors-as a function of clinorotation speed-using time-lapse microscopy.BACKGROUND: Ground-based microgravity simulation can reproduce the apparent effects of weightlessness in spaceflight using clinostats that continuously reorient the gravity vector on a specimen, creating a time-averaged nullification of gravity.In this work, we investigated the effects of clinorotation speed on the morphology, cytoarchitecture, and migration behavior of human mesenchymal stem cells (hMSCs).METHODS: We compared cell responses at clinorotation speeds of 0, 30, 60, and 75 rpm over 8 h in a recently developed lab-onchip-based clinostat system.Time-lapse light microscopy was used to visualize changes in cell morphology during and after cessation of clinorotation.Cytoarchitecture was assessed by actin and vinculin staining, and chemotaxis was examined using timelapse light microscopy of cells in NGF (100 ng/ml) gradients.RESULTS: Among clinorotated groups, cell area distributions indicated a greater inhibition of cell spreading with higher angular frequency (P o 0.005), though average cell area at 30 rpm after 8 h became statistically similar to control (P = 0.794).Cells at 75 rpm clinorotation remained viable and were able to re-spread after clinorotation.In chemotaxis chambers, clinorotation did not alter migration patterns in elongated cells, but most clinorotated cells exhibited cell retraction, which strongly compromised motility.CONCLUSIONS: These results indicate that hMSCs respond to clinorotation by adopting more rounded, less-spread morphologies.The angular frequency-dependence suggests that a cell's ability to sense the changing gravity vector is governed by the rate of perturbation.For migration studies, cells cultured in clinorotated chemotaxis chambers were generally less motile and exhibited retraction instead of migration.",
+          "block_index": 0,
+          "section_index": 0,
+          "global_order": 0,
+          "id": "p_1_1"
+        },
+        {
+          "type": "figure",
+          "id": "fig_1",
+          "block_index": 1,
+          "section_index": 0,
+          "global_order": 1
+        },
+        {
+          "type": "figure",
+          "id": "fig_2",
+          "block_index": 2,
+          "section_index": 0,
+          "global_order": 2
+        },
+        {
+          "type": "figure",
+          "id": "fig_3",
+          "block_index": 3,
+          "section_index": 0,
+          "global_order": 3
+        },
+        {
+          "type": "figure",
+          "id": "fig_4",
+          "block_index": 4,
+          "section_index": 0,
+          "global_order": 4
+        },
+        {
+          "type": "figure",
+          "id": "fig_5",
+          "block_index": 5,
+          "section_index": 0,
+          "global_order": 5
+        },
+        {
+          "type": "figure",
+          "id": "fig_6",
+          "block_index": 6,
+          "section_index": 0,
+          "global_order": 6
+        },
+        {
+          "type": "figure",
+          "id": "fig_7",
+          "block_index": 7,
+          "section_index": 0,
+          "global_order": 7
+        }
+      ]
+    },
+    {
+      "heading": "Introduction",
+      "paragraphs": [
+        "Intricate multi-scale interactions among cells, tissues, and organs fundamentally govern human health, which has evolved on Earth under a constant gravitational load of 1 g (9.8 m/s 2 ).The biological mechanisms underlying the role of gravity in human health remain poorly understood, but their elucidation is necessary for enabling long-term manned space exploration.Numerous studies, supported by the National Aeronautics and Space Administration and other space agencies, have shown deleterious effects of space travel on the human body, such as accelerated bone loss, 1,2 muscle tissue degeneration, 3 and others. 4Importantly, these observations may have broader implications beyond spaceflight applications to provide a more detailed understanding of diseases on Earth.In particular, the musculoskeletal system has historically been a focal point in space biology research, because of the strikingly adverse changes that occur in astronauts. 5More recently, studies have begun to investigate mesenchymal stem cells for their roles in musculoskeletal lineage determination, 6 bone repair, 7 and tissue maintenance. 8lthough the most relevant environment for performing microgravity research is in space, competition to use space-based facilities, like the International Space Station, is fierce and is further complicated by substantial time and resource investments. 9As a result, lower-cost and logistically simpler alternatives are attractive and include sounding rockets 10 and parabolic flights, 11 or in-lab devices such as random positioning machines 12 and clinorotation devices (clinostats) 13 to simulate microgravity.The selection of a specific technique usually depends on accessibility, cost, experimental design, and research question.Clinostats are among the most accessible methods to simulate microgravity, and they allow researchers to study living cells using standard laboratory tissue culture supplies. 14linorotation experiments have provided significant insight into the behavior of biological organisms in space.The technique was originally developed to study gravitropism in plant development, and has revealed that gravity serves a key role in statocyte function, which is believed to be directly involved in plant gravisensing and growth patterns. 15In animal and human cells, clinorotation has been used to recreate experiments that would otherwise be challenging to perform in space, such as highresolution microscopy 16 and assessment of stem cell differentiation. 17Cellular changes in microgravity have been associated with disruptions in the cytoskeleton and, consequently, changes in cell morphology and behavior. 18,19lthough clinorotation is a standard ground-based tool, previously reported studies on the effects of simulated microgravity in mesenchymal stem cells have yielded conflicting findings (Table 1).For instance, some researchers have shown that microgravity enhances proliferation, 17 whereas others have demonstrated inhibition. 20Chondrogenic differentiation has also been found to be either promoted 21 or suppressed. 22Similar inconsistencies have also been highlighted in a recent review. 23ome of these observed discrepancies could be due to differences in culture media formulation and cell source, but it is also possible that the choice of clinorotation parameters used for an experiment may substantially influence cell behavior.",
+        "A two-dimensional clinostat rotates a sample along the longitudinal axis to produce a time-averaged nullification of the gravity vector.Theoretically speaking, to simulate microgravity effectively, the period of rotation should be shorter than some time constant that governs the rate processes involved in the cellular gravisensing machinery that enable a cell to 'perceive' and respond to the changing trajectory of the gravity vector.For conventional clinostats, however, there are also practical considerations that limit the angular frequency of rotation. 24pecifically, rotation speed must be adjusted to balance sedimentation forces, centrifugal and Coriolis effects, and Stokes' drag.Because of these constraints, the parameters of angular rotation depend on the particular design and implementation of each experimental system.",
+        "To minimize the effects of these extrinsic stimuli, we recently developed a lab-on-chip clinorotation device (clinochip, Figure 1a) that confines adhered cells within a small region along the axis of rotation, limiting residual accelerations to levels below 10 -4 g at different rotation speeds. 25Moreover, the clinochip is amenable to time-lapse microscopy, which enables us to characterize the kinetics of cell spreading, changes in morphology, and migration with minimal disruption to the simulated microgravity environment.In this study, we used this device to investigate how angular frequency affects human mesenchymal stem cell (hMSC) behavior.On the basis of the concept that there are specific rate processes that govern cellular gravisensing (Figure 1b), we hypothesize that hMSCs would exhibit angular frequency-dependent responses.The results of this work demonstrate that hMSCs can in fact 'detect' differences in rotation speed in a manner that causes heterogeneous population shifts toward more rounded morphologies and retraction of cell area.This could have significant implications on our basic understanding of stem cell regulation as well as on strategies that are being used in stem cell-based applications."
+      ],
+      "text": "Intricate multi-scale interactions among cells, tissues, and organs fundamentally govern human health, which has evolved on Earth under a constant gravitational load of 1 g (9.8 m/s 2 ).The biological mechanisms underlying the role of gravity in human health remain poorly understood, but their elucidation is necessary for enabling long-term manned space exploration.Numerous studies, supported by the National Aeronautics and Space Administration and other space agencies, have shown deleterious effects of space travel on the human body, such as accelerated bone loss, 1,2 muscle tissue degeneration, 3 and others. 4Importantly, these observations may have broader implications beyond spaceflight applications to provide a more detailed understanding of diseases on Earth.In particular, the musculoskeletal system has historically been a focal point in space biology research, because of the strikingly adverse changes that occur in astronauts. 5More recently, studies have begun to investigate mesenchymal stem cells for their roles in musculoskeletal lineage determination, 6 bone repair, 7 and tissue maintenance. 8lthough the most relevant environment for performing microgravity research is in space, competition to use space-based facilities, like the International Space Station, is fierce and is further complicated by substantial time and resource investments. 9As a result, lower-cost and logistically simpler alternatives are attractive and include sounding rockets 10 and parabolic flights, 11 or in-lab devices such as random positioning machines 12 and clinorotation devices (clinostats) 13 to simulate microgravity.The selection of a specific technique usually depends on accessibility, cost, experimental design, and research question.Clinostats are among the most accessible methods to simulate microgravity, and they allow researchers to study living cells using standard laboratory tissue culture supplies. 14linorotation experiments have provided significant insight into the behavior of biological organisms in space.The technique was originally developed to study gravitropism in plant development, and has revealed that gravity serves a key role in statocyte function, which is believed to be directly involved in plant gravisensing and growth patterns. 15In animal and human cells, clinorotation has been used to recreate experiments that would otherwise be challenging to perform in space, such as highresolution microscopy 16 and assessment of stem cell differentiation. 17Cellular changes in microgravity have been associated with disruptions in the cytoskeleton and, consequently, changes in cell morphology and behavior. 18,19lthough clinorotation is a standard ground-based tool, previously reported studies on the effects of simulated microgravity in mesenchymal stem cells have yielded conflicting findings (Table 1).For instance, some researchers have shown that microgravity enhances proliferation, 17 whereas others have demonstrated inhibition. 20Chondrogenic differentiation has also been found to be either promoted 21 or suppressed. 22Similar inconsistencies have also been highlighted in a recent review. 23ome of these observed discrepancies could be due to differences in culture media formulation and cell source, but it is also possible that the choice of clinorotation parameters used for an experiment may substantially influence cell behavior.\nA two-dimensional clinostat rotates a sample along the longitudinal axis to produce a time-averaged nullification of the gravity vector.Theoretically speaking, to simulate microgravity effectively, the period of rotation should be shorter than some time constant that governs the rate processes involved in the cellular gravisensing machinery that enable a cell to 'perceive' and respond to the changing trajectory of the gravity vector.For conventional clinostats, however, there are also practical considerations that limit the angular frequency of rotation. 24pecifically, rotation speed must be adjusted to balance sedimentation forces, centrifugal and Coriolis effects, and Stokes' drag.Because of these constraints, the parameters of angular rotation depend on the particular design and implementation of each experimental system.\nTo minimize the effects of these extrinsic stimuli, we recently developed a lab-on-chip clinorotation device (clinochip, Figure 1a) that confines adhered cells within a small region along the axis of rotation, limiting residual accelerations to levels below 10 -4 g at different rotation speeds. 25Moreover, the clinochip is amenable to time-lapse microscopy, which enables us to characterize the kinetics of cell spreading, changes in morphology, and migration with minimal disruption to the simulated microgravity environment.In this study, we used this device to investigate how angular frequency affects human mesenchymal stem cell (hMSC) behavior.On the basis of the concept that there are specific rate processes that govern cellular gravisensing (Figure 1b), we hypothesize that hMSCs would exhibit angular frequency-dependent responses.The results of this work demonstrate that hMSCs can in fact 'detect' differences in rotation speed in a manner that causes heterogeneous population shifts toward more rounded morphologies and retraction of cell area.This could have significant implications on our basic understanding of stem cell regulation as well as on strategies that are being used in stem cell-based applications.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Intricate multi-scale interactions among cells, tissues, and organs fundamentally govern human health, which has evolved on Earth under a constant gravitational load of 1 g (9.8 m/s 2 ).The biological mechanisms underlying the role of gravity in human health remain poorly understood, but their elucidation is necessary for enabling long-term manned space exploration.Numerous studies, supported by the National Aeronautics and Space Administration and other space agencies, have shown deleterious effects of space travel on the human body, such as accelerated bone loss, 1,2 muscle tissue degeneration, 3 and others. 4Importantly, these observations may have broader implications beyond spaceflight applications to provide a more detailed understanding of diseases on Earth.In particular, the musculoskeletal system has historically been a focal point in space biology research, because of the strikingly adverse changes that occur in astronauts. 5More recently, studies have begun to investigate mesenchymal stem cells for their roles in musculoskeletal lineage determination, 6 bone repair, 7 and tissue maintenance. 8lthough the most relevant environment for performing microgravity research is in space, competition to use space-based facilities, like the International Space Station, is fierce and is further complicated by substantial time and resource investments. 9As a result, lower-cost and logistically simpler alternatives are attractive and include sounding rockets 10 and parabolic flights, 11 or in-lab devices such as random positioning machines 12 and clinorotation devices (clinostats) 13 to simulate microgravity.The selection of a specific technique usually depends on accessibility, cost, experimental design, and research question.Clinostats are among the most accessible methods to simulate microgravity, and they allow researchers to study living cells using standard laboratory tissue culture supplies. 14linorotation experiments have provided significant insight into the behavior of biological organisms in space.The technique was originally developed to study gravitropism in plant development, and has revealed that gravity serves a key role in statocyte function, which is believed to be directly involved in plant gravisensing and growth patterns. 15In animal and human cells, clinorotation has been used to recreate experiments that would otherwise be challenging to perform in space, such as highresolution microscopy 16 and assessment of stem cell differentiation. 17Cellular changes in microgravity have been associated with disruptions in the cytoskeleton and, consequently, changes in cell morphology and behavior. 18,19lthough clinorotation is a standard ground-based tool, previously reported studies on the effects of simulated microgravity in mesenchymal stem cells have yielded conflicting findings (Table 1).For instance, some researchers have shown that microgravity enhances proliferation, 17 whereas others have demonstrated inhibition. 20Chondrogenic differentiation has also been found to be either promoted 21 or suppressed. 22Similar inconsistencies have also been highlighted in a recent review. 23ome of these observed discrepancies could be due to differences in culture media formulation and cell source, but it is also possible that the choice of clinorotation parameters used for an experiment may substantially influence cell behavior.",
+          "block_index": 0,
+          "section_index": 1,
+          "global_order": 8,
+          "id": "p_2_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "A two-dimensional clinostat rotates a sample along the longitudinal axis to produce a time-averaged nullification of the gravity vector.Theoretically speaking, to simulate microgravity effectively, the period of rotation should be shorter than some time constant that governs the rate processes involved in the cellular gravisensing machinery that enable a cell to 'perceive' and respond to the changing trajectory of the gravity vector.For conventional clinostats, however, there are also practical considerations that limit the angular frequency of rotation. 24pecifically, rotation speed must be adjusted to balance sedimentation forces, centrifugal and Coriolis effects, and Stokes' drag.Because of these constraints, the parameters of angular rotation depend on the particular design and implementation of each experimental system.",
+          "block_index": 1,
+          "section_index": 1,
+          "global_order": 9,
+          "id": "p_2_2"
+        },
+        {
+          "type": "paragraph",
+          "text": "To minimize the effects of these extrinsic stimuli, we recently developed a lab-on-chip clinorotation device (clinochip, Figure 1a) that confines adhered cells within a small region along the axis of rotation, limiting residual accelerations to levels below 10 -4 g at different rotation speeds. 25Moreover, the clinochip is amenable to time-lapse microscopy, which enables us to characterize the kinetics of cell spreading, changes in morphology, and migration with minimal disruption to the simulated microgravity environment.In this study, we used this device to investigate how angular frequency affects human mesenchymal stem cell (hMSC) behavior.On the basis of the concept that there are specific rate processes that govern cellular gravisensing (Figure 1b), we hypothesize that hMSCs would exhibit angular frequency-dependent responses.The results of this work demonstrate that hMSCs can in fact 'detect' differences in rotation speed in a manner that causes heterogeneous population shifts toward more rounded morphologies and retraction of cell area.This could have significant implications on our basic understanding of stem cell regulation as well as on strategies that are being used in stem cell-based applications.",
+          "block_index": 2,
+          "section_index": 1,
+          "global_order": 10,
+          "id": "p_2_3"
+        }
+      ]
+    },
+    {
+      "heading": "Materials",
+      "paragraphs": [
+        "hMSCs were obtained from a commercial source (PT-2501, Lonza, Walkersville, MD, USA), and confirmed to be mycoplasma-free.Clinochip fabrication required microscope slides (12-544-1, Fisher Scientific, Waltham, MA, USA) and 0.25-mm-thick polydimethylsiloxane sheets (HT-6240, Rogers Corporation, Rogers, CT, USA).Fluorescence visualization was performed for actin using 5% (w/v) Texas red phalloidin (Life Technologies, Gaithersburg, MD, USA) and for focal adhesions using 1 μg/ml fluoresceinconjugated anti-vinculin (MA1-34629, Life Technologies).Fibronectin (354008, BD Biosciences, San Jose, CA, USA) was used to enable cell adhesion, and nerve growth factor (NGF; 7S-NGF, Life Technologies) was used for migration experiments.Calcein-AM and ethidium homodimer-1 (L-3224, Life Technologies) were used to perform cell viability assays."
+      ],
+      "text": "hMSCs were obtained from a commercial source (PT-2501, Lonza, Walkersville, MD, USA), and confirmed to be mycoplasma-free.Clinochip fabrication required microscope slides (12-544-1, Fisher Scientific, Waltham, MA, USA) and 0.25-mm-thick polydimethylsiloxane sheets (HT-6240, Rogers Corporation, Rogers, CT, USA).Fluorescence visualization was performed for actin using 5% (w/v) Texas red phalloidin (Life Technologies, Gaithersburg, MD, USA) and for focal adhesions using 1 μg/ml fluoresceinconjugated anti-vinculin (MA1-34629, Life Technologies).Fibronectin (354008, BD Biosciences, San Jose, CA, USA) was used to enable cell adhesion, and nerve growth factor (NGF; 7S-NGF, Life Technologies) was used for migration experiments.Calcein-AM and ethidium homodimer-1 (L-3224, Life Technologies) were used to perform cell viability assays.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "hMSCs were obtained from a commercial source (PT-2501, Lonza, Walkersville, MD, USA), and confirmed to be mycoplasma-free.Clinochip fabrication required microscope slides (12-544-1, Fisher Scientific, Waltham, MA, USA) and 0.25-mm-thick polydimethylsiloxane sheets (HT-6240, Rogers Corporation, Rogers, CT, USA).Fluorescence visualization was performed for actin using 5% (w/v) Texas red phalloidin (Life Technologies, Gaithersburg, MD, USA) and for focal adhesions using 1 μg/ml fluoresceinconjugated anti-vinculin (MA1-34629, Life Technologies).Fibronectin (354008, BD Biosciences, San Jose, CA, USA) was used to enable cell adhesion, and nerve growth factor (NGF; 7S-NGF, Life Technologies) was used for migration experiments.Calcein-AM and ethidium homodimer-1 (L-3224, Life Technologies) were used to perform cell viability assays.",
+          "block_index": 0,
+          "section_index": 2,
+          "global_order": 11,
+          "id": "p_3_1"
+        }
+      ]
+    },
+    {
+      "heading": "Experimental setup",
+      "paragraphs": [
+        "In general, we used a single experimental system for all of our experiments, as detailed previously. 25In brief, the system consists of a custom microscope-mounted gear system, driven by a computer-controlled stepper motor that rotates a small slide holder. 25This slide holder can accommodate various custom and commercially available lab-on-chip devices.A non-rotating slide holder enables having a static (standard gravity) control condition performed concurrently.The entire system is enclosed in an environmental chamber (Precision Plastics, Beltsville, MD, USA) and installed on an Olympus IX-81 epi-fluorescence microscope (Center Valley, PA, USA)."
+      ],
+      "text": "In general, we used a single experimental system for all of our experiments, as detailed previously. 25In brief, the system consists of a custom microscope-mounted gear system, driven by a computer-controlled stepper motor that rotates a small slide holder. 25This slide holder can accommodate various custom and commercially available lab-on-chip devices.A non-rotating slide holder enables having a static (standard gravity) control condition performed concurrently.The entire system is enclosed in an environmental chamber (Precision Plastics, Beltsville, MD, USA) and installed on an Olympus IX-81 epi-fluorescence microscope (Center Valley, PA, USA).",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In general, we used a single experimental system for all of our experiments, as detailed previously. 25In brief, the system consists of a custom microscope-mounted gear system, driven by a computer-controlled stepper motor that rotates a small slide holder. 25This slide holder can accommodate various custom and commercially available lab-on-chip devices.A non-rotating slide holder enables having a static (standard gravity) control condition performed concurrently.The entire system is enclosed in an environmental chamber (Precision Plastics, Beltsville, MD, USA) and installed on an Olympus IX-81 epi-fluorescence microscope (Center Valley, PA, USA).",
+          "block_index": 0,
+          "section_index": 3,
+          "global_order": 12,
+          "id": "p_4_1"
+        }
+      ]
+    },
+    {
+      "heading": "Cell morphology platform",
+      "paragraphs": [
+        "A custom 'clinochip' device was used for visualizing cell spreading (that is, changes in cell morphology over time), and fabricated according to our previously described protocol. 25This clinochip consists of three layers comprising polydimethylsiloxane sandwiched between two layers of glass.",
+        "In brief, we used a high-resolution razor cutter (FC8000, Graphtec, Irvine, CA, USA) to trim stock polydimethylsiloxane sheets.The sheet was cut to length and width dimensions of microscope slides and with a single 1-mm wide, 30-mm long channel at the center.A second microscope slide was used as the third layer.Prior to assembly, two 1-mm diameter holes had been made in the top slide using a sandblaster (6500, Airbrasive, Piscataway, NJ, USA) to provide access to the channels.The three layers were energetically bonded using a high-frequency corona treater (BD--20AC, Electrotechnic Products, Chicago, IL, USA).The clinochip was first sterilized for 20 min in a UV chamber.To promote cell attachment, the channel was then treated with 100 μg/ml fibronectin for 1 h and washed with phosphate-buffered saline before use.Passage 3 (P3) and P4 hMSCs were seeded into clinochip channels and incubated at 37 °C for 10 min to allow for cell attachment, followed by commencement of clinorotation."
+      ],
+      "text": "A custom 'clinochip' device was used for visualizing cell spreading (that is, changes in cell morphology over time), and fabricated according to our previously described protocol. 25This clinochip consists of three layers comprising polydimethylsiloxane sandwiched between two layers of glass.\nIn brief, we used a high-resolution razor cutter (FC8000, Graphtec, Irvine, CA, USA) to trim stock polydimethylsiloxane sheets.The sheet was cut to length and width dimensions of microscope slides and with a single 1-mm wide, 30-mm long channel at the center.A second microscope slide was used as the third layer.Prior to assembly, two 1-mm diameter holes had been made in the top slide using a sandblaster (6500, Airbrasive, Piscataway, NJ, USA) to provide access to the channels.The three layers were energetically bonded using a high-frequency corona treater (BD--20AC, Electrotechnic Products, Chicago, IL, USA).The clinochip was first sterilized for 20 min in a UV chamber.To promote cell attachment, the channel was then treated with 100 μg/ml fibronectin for 1 h and washed with phosphate-buffered saline before use.Passage 3 (P3) and P4 hMSCs were seeded into clinochip channels and incubated at 37 °C for 10 min to allow for cell attachment, followed by commencement of clinorotation.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A custom 'clinochip' device was used for visualizing cell spreading (that is, changes in cell morphology over time), and fabricated according to our previously described protocol. 25This clinochip consists of three layers comprising polydimethylsiloxane sandwiched between two layers of glass.",
+          "block_index": 0,
+          "section_index": 4,
+          "global_order": 13,
+          "id": "p_5_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "In brief, we used a high-resolution razor cutter (FC8000, Graphtec, Irvine, CA, USA) to trim stock polydimethylsiloxane sheets.The sheet was cut to length and width dimensions of microscope slides and with a single 1-mm wide, 30-mm long channel at the center.A second microscope slide was used as the third layer.Prior to assembly, two 1-mm diameter holes had been made in the top slide using a sandblaster (6500, Airbrasive, Piscataway, NJ, USA) to provide access to the channels.The three layers were energetically bonded using a high-frequency corona treater (BD--20AC, Electrotechnic Products, Chicago, IL, USA).The clinochip was first sterilized for 20 min in a UV chamber.To promote cell attachment, the channel was then treated with 100 μg/ml fibronectin for 1 h and washed with phosphate-buffered saline before use.Passage 3 (P3) and P4 hMSCs were seeded into clinochip channels and incubated at 37 °C for 10 min to allow for cell attachment, followed by commencement of clinorotation.",
+          "block_index": 1,
+          "section_index": 4,
+          "global_order": 14,
+          "id": "p_5_2"
+        }
+      ]
+    },
+    {
+      "heading": "Cell migration platform",
+      "paragraphs": [
+        "Cell migration was analyzed using commercially available Ibidi Chemotaxis slides (μ-Slide Chemotaxis 2D, Ibidi, Munich, Germany).The slides fit perfectly in our clinorotation device and the 2 × 1 mm dimensions of the chamber are suitable for simulated microgravity, as they constrain cells to a narrow region about the axis of rotation to minimize centrifugal effects.First, a 100 μg/ml fibronectin solution was injected into the viewing chamber and incubated for 1 h, followed by three phosphate-buffered saline washes.Then, P3 and P4 hMSCs were plated and incubated at 37 °C for 12 h of initial seeding time.Our pilot experiments showed that after 12 h the spreading areas of hMSCs reach a plateau so that cell spreading would not confound the cell migration data.As a first step, we chose to study hMSC chemotaxis mediated by NGF, one of several growth factors identified in this active field of research. 26Mesenchymal stem cells have been shown to express receptors to neurotrophic factors including NGF, 27 and also secrete NGF during tissue repair. 28In these migration experiments, NGF was prepared as a 100 ng/ml solution and injected into the top ports of the chamber.Following manufacturer's instructions, the same volume was aspirated from the opposite port to create a chemical gradient."
+      ],
+      "text": "Cell migration was analyzed using commercially available Ibidi Chemotaxis slides (μ-Slide Chemotaxis 2D, Ibidi, Munich, Germany).The slides fit perfectly in our clinorotation device and the 2 × 1 mm dimensions of the chamber are suitable for simulated microgravity, as they constrain cells to a narrow region about the axis of rotation to minimize centrifugal effects.First, a 100 μg/ml fibronectin solution was injected into the viewing chamber and incubated for 1 h, followed by three phosphate-buffered saline washes.Then, P3 and P4 hMSCs were plated and incubated at 37 °C for 12 h of initial seeding time.Our pilot experiments showed that after 12 h the spreading areas of hMSCs reach a plateau so that cell spreading would not confound the cell migration data.As a first step, we chose to study hMSC chemotaxis mediated by NGF, one of several growth factors identified in this active field of research. 26Mesenchymal stem cells have been shown to express receptors to neurotrophic factors including NGF, 27 and also secrete NGF during tissue repair. 28In these migration experiments, NGF was prepared as a 100 ng/ml solution and injected into the top ports of the chamber.Following manufacturer's instructions, the same volume was aspirated from the opposite port to create a chemical gradient.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Cell migration was analyzed using commercially available Ibidi Chemotaxis slides (μ-Slide Chemotaxis 2D, Ibidi, Munich, Germany).The slides fit perfectly in our clinorotation device and the 2 × 1 mm dimensions of the chamber are suitable for simulated microgravity, as they constrain cells to a narrow region about the axis of rotation to minimize centrifugal effects.First, a 100 μg/ml fibronectin solution was injected into the viewing chamber and incubated for 1 h, followed by three phosphate-buffered saline washes.Then, P3 and P4 hMSCs were plated and incubated at 37 °C for 12 h of initial seeding time.Our pilot experiments showed that after 12 h the spreading areas of hMSCs reach a plateau so that cell spreading would not confound the cell migration data.As a first step, we chose to study hMSC chemotaxis mediated by NGF, one of several growth factors identified in this active field of research. 26Mesenchymal stem cells have been shown to express receptors to neurotrophic factors including NGF, 27 and also secrete NGF during tissue repair. 28In these migration experiments, NGF was prepared as a 100 ng/ml solution and injected into the top ports of the chamber.Following manufacturer's instructions, the same volume was aspirated from the opposite port to create a chemical gradient.",
+          "block_index": 0,
+          "section_index": 5,
+          "global_order": 15,
+          "id": "p_6_1"
+        }
+      ]
+    },
+    {
+      "heading": "Clinorotation and time-lapse imaging",
+      "paragraphs": [
+        "Both morphology and chemotaxis platforms were rotated along the axis of the channels in which cells were cultured.Residual accelerations are one to two orders of magnitude smaller than conventional clinostats, even at 75 rpm. 25Before the experiment, we made sure that the channels did not contain any bubbles, to minimize any other external effects such as shear stress and dehydration.During imaging, we constrained our analyses to cells near the axis of rotation, away from the sides of the channel, to avoid potential edge effects.",
+        "At the appropriate times (10 min after seeding for morphology assays; 12 h after seeding for chemotaxis and migration assays to allow the cells to become fully spread), clinorotation was initiated at 30, 60, or 75 rpm and maintained over the course of 8 h.Clinochips at 0 rpm (non-rotated) were used as a control (standard gravity).During each hour, rotation was paused for a total of 60 s, and a set of bright-field images of the clinochip were acquired at × 200 magnification.At the end of the 8 h period, cells were fixed in 4% paraformaldehyde, and fluorescently stained for actin and vinculin.Captured images were analyzed using ImageJ (National Institutes of Health)."
+      ],
+      "text": "Both morphology and chemotaxis platforms were rotated along the axis of the channels in which cells were cultured.Residual accelerations are one to two orders of magnitude smaller than conventional clinostats, even at 75 rpm. 25Before the experiment, we made sure that the channels did not contain any bubbles, to minimize any other external effects such as shear stress and dehydration.During imaging, we constrained our analyses to cells near the axis of rotation, away from the sides of the channel, to avoid potential edge effects.\nAt the appropriate times (10 min after seeding for morphology assays; 12 h after seeding for chemotaxis and migration assays to allow the cells to become fully spread), clinorotation was initiated at 30, 60, or 75 rpm and maintained over the course of 8 h.Clinochips at 0 rpm (non-rotated) were used as a control (standard gravity).During each hour, rotation was paused for a total of 60 s, and a set of bright-field images of the clinochip were acquired at × 200 magnification.At the end of the 8 h period, cells were fixed in 4% paraformaldehyde, and fluorescently stained for actin and vinculin.Captured images were analyzed using ImageJ (National Institutes of Health).",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Both morphology and chemotaxis platforms were rotated along the axis of the channels in which cells were cultured.Residual accelerations are one to two orders of magnitude smaller than conventional clinostats, even at 75 rpm. 25Before the experiment, we made sure that the channels did not contain any bubbles, to minimize any other external effects such as shear stress and dehydration.During imaging, we constrained our analyses to cells near the axis of rotation, away from the sides of the channel, to avoid potential edge effects.",
+          "block_index": 0,
+          "section_index": 6,
+          "global_order": 16,
+          "id": "p_7_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "At the appropriate times (10 min after seeding for morphology assays; 12 h after seeding for chemotaxis and migration assays to allow the cells to become fully spread), clinorotation was initiated at 30, 60, or 75 rpm and maintained over the course of 8 h.Clinochips at 0 rpm (non-rotated) were used as a control (standard gravity).During each hour, rotation was paused for a total of 60 s, and a set of bright-field images of the clinochip were acquired at × 200 magnification.At the end of the 8 h period, cells were fixed in 4% paraformaldehyde, and fluorescently stained for actin and vinculin.Captured images were analyzed using ImageJ (National Institutes of Health).",
+          "block_index": 1,
+          "section_index": 6,
+          "global_order": 17,
+          "id": "p_7_2"
+        }
+      ]
+    },
+    {
+      "heading": "Cell viability and recovery after clinorotation",
+      "paragraphs": [
+        "Cell viability was determined using calcein-AM (green) to indicate intracellular esterase activity for live cells and ethidium homodimer-1 (red) to indicate loss of plasma membrane integrity for dead cells.Calcein (final concentration 4 μM) and ethidium homodimer (final concentration 2 μM) were added to cell culture media that was used to plate hMSCs in fibronectin-treated clinochips.After 10 min of attachment, clinochips were either rotated at 75 rpm or maintained at standard gravity conditions (nonrotated control) and fluorescence micrographs were taken at 1, 4, and 8 h during clinorotation.",
+        "In addition to the live/dead assays, we acquired light micrographs of cell morphology in standard gravity following exposure to (a) 1 or 4 h of 30 rpm clinorotation, (b) 1 or 4 h of 60 rpm clinorotation, or (c) 1, 4, or 8 h of 75 rpm clinorotation.After termination of the clinorotation treatment, images were acquired in standard gravity every 30 min for 4 h, and then analyzed for cell area and shape factor using ImageJ (National Institutes of Health)."
+      ],
+      "text": "Cell viability was determined using calcein-AM (green) to indicate intracellular esterase activity for live cells and ethidium homodimer-1 (red) to indicate loss of plasma membrane integrity for dead cells.Calcein (final concentration 4 μM) and ethidium homodimer (final concentration 2 μM) were added to cell culture media that was used to plate hMSCs in fibronectin-treated clinochips.After 10 min of attachment, clinochips were either rotated at 75 rpm or maintained at standard gravity conditions (nonrotated control) and fluorescence micrographs were taken at 1, 4, and 8 h during clinorotation.\nIn addition to the live/dead assays, we acquired light micrographs of cell morphology in standard gravity following exposure to (a) 1 or 4 h of 30 rpm clinorotation, (b) 1 or 4 h of 60 rpm clinorotation, or (c) 1, 4, or 8 h of 75 rpm clinorotation.After termination of the clinorotation treatment, images were acquired in standard gravity every 30 min for 4 h, and then analyzed for cell area and shape factor using ImageJ (National Institutes of Health).",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Cell viability was determined using calcein-AM (green) to indicate intracellular esterase activity for live cells and ethidium homodimer-1 (red) to indicate loss of plasma membrane integrity for dead cells.Calcein (final concentration 4 μM) and ethidium homodimer (final concentration 2 μM) were added to cell culture media that was used to plate hMSCs in fibronectin-treated clinochips.After 10 min of attachment, clinochips were either rotated at 75 rpm or maintained at standard gravity conditions (nonrotated control) and fluorescence micrographs were taken at 1, 4, and 8 h during clinorotation.",
+          "block_index": 0,
+          "section_index": 7,
+          "global_order": 18,
+          "id": "p_8_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "In addition to the live/dead assays, we acquired light micrographs of cell morphology in standard gravity following exposure to (a) 1 or 4 h of 30 rpm clinorotation, (b) 1 or 4 h of 60 rpm clinorotation, or (c) 1, 4, or 8 h of 75 rpm clinorotation.After termination of the clinorotation treatment, images were acquired in standard gravity every 30 min for 4 h, and then analyzed for cell area and shape factor using ImageJ (National Institutes of Health).",
+          "block_index": 1,
+          "section_index": 7,
+          "global_order": 19,
+          "id": "p_8_2"
+        }
+      ]
+    },
+    {
+      "heading": "Statistical analyses",
+      "paragraphs": [
+        "Because no prior publications have quantified cell areas during clinorotation, we relied on pilot data for descriptive statistics to make sample size calculations.Assuming a critical significance level of α = 0.05, statistical power of 0.9 (β = 0.1), and a detectable difference equal to the population s.d., we performed a power analysis to calculate an estimated sample size of n = 23, using the method of Sokal and Rohlf. 29To ensure adequate statistical power for cell area measurements, we chose to include at least n = 30 for each sample group (Table 2), acquired over several experimental replicates.All data are expressed as mean ± s.e.m.Variance did not markedly differ between groups (less than fourfold).Average cell areas among different clinorotation speeds were first log transformed to improve normality.Differences between clinorotation groups were then statistically analyzed using the Welch's t-test for samples with unequal variance and unequal sample size, with Tukey post hoc tests for multiple pairwise comparisons.",
+        "Using Welch's t-test for samples with unequal variance and sample size, we analyzed differences in cell velocity and directionality between 0 (n = 15) and 75 rpm (n = 6) only for cells that were actively migrating.Similarly, we used Welch's t-test with Tukey post hoc test for multiple pairwise comparisons to analyze differences in cell area between 30 and 75 rpm (at 0, 1, 2, 3, and 4 h) only for cells that were actively retracting (n = 28)."
+      ],
+      "text": "Because no prior publications have quantified cell areas during clinorotation, we relied on pilot data for descriptive statistics to make sample size calculations.Assuming a critical significance level of α = 0.05, statistical power of 0.9 (β = 0.1), and a detectable difference equal to the population s.d., we performed a power analysis to calculate an estimated sample size of n = 23, using the method of Sokal and Rohlf. 29To ensure adequate statistical power for cell area measurements, we chose to include at least n = 30 for each sample group (Table 2), acquired over several experimental replicates.All data are expressed as mean ± s.e.m.Variance did not markedly differ between groups (less than fourfold).Average cell areas among different clinorotation speeds were first log transformed to improve normality.Differences between clinorotation groups were then statistically analyzed using the Welch's t-test for samples with unequal variance and unequal sample size, with Tukey post hoc tests for multiple pairwise comparisons.\nUsing Welch's t-test for samples with unequal variance and sample size, we analyzed differences in cell velocity and directionality between 0 (n = 15) and 75 rpm (n = 6) only for cells that were actively migrating.Similarly, we used Welch's t-test with Tukey post hoc test for multiple pairwise comparisons to analyze differences in cell area between 30 and 75 rpm (at 0, 1, 2, 3, and 4 h) only for cells that were actively retracting (n = 28).",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Because no prior publications have quantified cell areas during clinorotation, we relied on pilot data for descriptive statistics to make sample size calculations.Assuming a critical significance level of α = 0.05, statistical power of 0.9 (β = 0.1), and a detectable difference equal to the population s.d., we performed a power analysis to calculate an estimated sample size of n = 23, using the method of Sokal and Rohlf. 29To ensure adequate statistical power for cell area measurements, we chose to include at least n = 30 for each sample group (Table 2), acquired over several experimental replicates.All data are expressed as mean ± s.e.m.Variance did not markedly differ between groups (less than fourfold).Average cell areas among different clinorotation speeds were first log transformed to improve normality.Differences between clinorotation groups were then statistically analyzed using the Welch's t-test for samples with unequal variance and unequal sample size, with Tukey post hoc tests for multiple pairwise comparisons.",
+          "block_index": 0,
+          "section_index": 8,
+          "global_order": 20,
+          "id": "p_9_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "Using Welch's t-test for samples with unequal variance and sample size, we analyzed differences in cell velocity and directionality between 0 (n = 15) and 75 rpm (n = 6) only for cells that were actively migrating.Similarly, we used Welch's t-test with Tukey post hoc test for multiple pairwise comparisons to analyze differences in cell area between 30 and 75 rpm (at 0, 1, 2, 3, and 4 h) only for cells that were actively retracting (n = 28).",
+          "block_index": 1,
+          "section_index": 8,
+          "global_order": 21,
+          "id": "p_9_2"
+        }
+      ]
+    },
+    {
+      "heading": "Simulated microgravity affects cell spreading",
+      "paragraphs": [
+        "Simulated microgravity had a profound effect on both the extent and kinetics of cell spreading (Figure 2).After the initial 10-min cell attachment and before rotation commenced, all of the groups possessed similar cell areas of ~500 μm 2 .We found that hMSCs in the non-rotated 0 rpm condition (i.e., standard gravity) markedly increased spreading areas within 1 h after plating, reaching an average of 2000 μm 2 .Their spreading area increased gradually with time, until they reached an average of 3000 μm 2 by 8 h.For clinorotated groups, cell spreading was impeded almost immediately.At 1 h, cells in the 30 rpm group were significantly smaller than control with an average cell area slightly above 1000 μm 2 ; cells at 60 and 75 rpm were both significantly different from 0 and 30 rpm, remaining rounded and small.The effects of clinorotation continued to affect cell spreading over the course of the entire 8 h experiment in a rotation speed-dependent manner.By 8 h, we measured a statistically similar but smaller average area of 2750 μm 2 for cells at 30 rpm.In contrast, the 60 rpm group had an average area of 2192 μm 2 , and the 75 rpm group had the lowest cell area of 1500 μm 2 , both statistically smaller than 0 and 30 rpm.",
+        "From a kinetics perspective, the time required for cell spreading areas to reach 2000 μm 2 was within 1 h for non-rotating controls, within 4 h for 30 rpm, and within 8 h for 60 rpm.Our experiments did not run long enough to determine whether or not cells would reach this mark for the 75 rpm condition, but based on the observed trends, it appears that cell spreading no longer increases after 7 h.These results indicate that cell spreading is markedly affected by angular frequency and that these effects can be observed as soon as 1 h after clinorotation starts.Finer temporal resolutions and longer durations in future experiments may provide more detailed insight on the time constant of important cellular processes associated with cellular gravisensing.",
+        "One notable observation we made was that cells within each clinorotation speed were not uniformly spread.As individual cells did not accurately represent the population characteristics, we plotted the group-wise distributions of cell morphologies at various time points (Supplementary Figure 1).The 0 rpm control group adopts a broad distribution of cell areas within the first hour, followed by the 30 and 60 rpm groups.By 8 h, it is clear that the 0, 30, and 60 rpm cell populations encompassed comparable ranges of cell areas.The 75 rpm group, however, exhibited a much more narrow distribution.Likewise, when staining for filamentous actin we found that cells also spanned a range of cell shapes within each group (Supplementary Figure 2).There were no discernable differences in actin organization between cells of similar morphology (elongated or rounded), even when comparing across different clinorotation conditions.This suggests that the observed population differences with angular frequency is caused by disparate effects on individual cells, perhaps by triggering/ overcoming some intrinsic signal within cells to reduce cell adhesion, suppress actin stress fiber formation, and consequently induce cell rounding.It is unclear whether simulated microgravity directly affects actin stress fiber assembly to result in cell rounding, or whether cell rounding induced by simulated microgravity is what inhibits stress fiber formation.",
+        "To quantify these differences in cell shape as a function of clinorotation speed, we computed circularity (circularity = 4π*area/ perimeter 2 ), as it accommodates more abstract shapes than an aspect ratio calculation.We assigned circularity values above 0.6  Note that cells at a speed of 30 rpm were more similar to control, whereas cells at 60 and 75 rpm have adopted a more rounded morphology.",
+        "to cells that were considered rounded (Figure 3, black), values between 0.3 and 0.6 to semi-elongated cells (Figure 3, hatch) and values below 0.3 to elongated cells (Figure 3, gray).As expected from the previous area measurements, Figure 3 clearly shows that increasing clinorotation speed results in a larger percentage of rounded cells in its population.The number of elongated cells was significantly reduced with increasing clinorotation speed, and no elongated cells were found at 75 rpm.Plotting cell circularity against cell area for each clinorotation speed at different time points, we clearly see a temporal increase in area associated with cell elongation in 0 rpm control cells (Supplementary Figure 3).This trend becomes disrupted with exposure to 30 and 60 rpm clinorotation, as cells tended to exhibit a broad range of circularity and area.However, only at 75 rpm the does cell population maintain high circularity and smaller areas across time points (1, 4, and 8 h).Overall, our morphology analysis demonstrates that the cell population at 75 rpm possesses a more consistent morphology (average area, cell distribution, circularity versus area over time) over time."
+      ],
+      "text": "Simulated microgravity had a profound effect on both the extent and kinetics of cell spreading (Figure 2).After the initial 10-min cell attachment and before rotation commenced, all of the groups possessed similar cell areas of ~500 μm 2 .We found that hMSCs in the non-rotated 0 rpm condition (i.e., standard gravity) markedly increased spreading areas within 1 h after plating, reaching an average of 2000 μm 2 .Their spreading area increased gradually with time, until they reached an average of 3000 μm 2 by 8 h.For clinorotated groups, cell spreading was impeded almost immediately.At 1 h, cells in the 30 rpm group were significantly smaller than control with an average cell area slightly above 1000 μm 2 ; cells at 60 and 75 rpm were both significantly different from 0 and 30 rpm, remaining rounded and small.The effects of clinorotation continued to affect cell spreading over the course of the entire 8 h experiment in a rotation speed-dependent manner.By 8 h, we measured a statistically similar but smaller average area of 2750 μm 2 for cells at 30 rpm.In contrast, the 60 rpm group had an average area of 2192 μm 2 , and the 75 rpm group had the lowest cell area of 1500 μm 2 , both statistically smaller than 0 and 30 rpm.\nFrom a kinetics perspective, the time required for cell spreading areas to reach 2000 μm 2 was within 1 h for non-rotating controls, within 4 h for 30 rpm, and within 8 h for 60 rpm.Our experiments did not run long enough to determine whether or not cells would reach this mark for the 75 rpm condition, but based on the observed trends, it appears that cell spreading no longer increases after 7 h.These results indicate that cell spreading is markedly affected by angular frequency and that these effects can be observed as soon as 1 h after clinorotation starts.Finer temporal resolutions and longer durations in future experiments may provide more detailed insight on the time constant of important cellular processes associated with cellular gravisensing.\nOne notable observation we made was that cells within each clinorotation speed were not uniformly spread.As individual cells did not accurately represent the population characteristics, we plotted the group-wise distributions of cell morphologies at various time points (Supplementary Figure 1).The 0 rpm control group adopts a broad distribution of cell areas within the first hour, followed by the 30 and 60 rpm groups.By 8 h, it is clear that the 0, 30, and 60 rpm cell populations encompassed comparable ranges of cell areas.The 75 rpm group, however, exhibited a much more narrow distribution.Likewise, when staining for filamentous actin we found that cells also spanned a range of cell shapes within each group (Supplementary Figure 2).There were no discernable differences in actin organization between cells of similar morphology (elongated or rounded), even when comparing across different clinorotation conditions.This suggests that the observed population differences with angular frequency is caused by disparate effects on individual cells, perhaps by triggering/ overcoming some intrinsic signal within cells to reduce cell adhesion, suppress actin stress fiber formation, and consequently induce cell rounding.It is unclear whether simulated microgravity directly affects actin stress fiber assembly to result in cell rounding, or whether cell rounding induced by simulated microgravity is what inhibits stress fiber formation.\nTo quantify these differences in cell shape as a function of clinorotation speed, we computed circularity (circularity = 4π*area/ perimeter 2 ), as it accommodates more abstract shapes than an aspect ratio calculation.We assigned circularity values above 0.6  Note that cells at a speed of 30 rpm were more similar to control, whereas cells at 60 and 75 rpm have adopted a more rounded morphology.\nto cells that were considered rounded (Figure 3, black), values between 0.3 and 0.6 to semi-elongated cells (Figure 3, hatch) and values below 0.3 to elongated cells (Figure 3, gray).As expected from the previous area measurements, Figure 3 clearly shows that increasing clinorotation speed results in a larger percentage of rounded cells in its population.The number of elongated cells was significantly reduced with increasing clinorotation speed, and no elongated cells were found at 75 rpm.Plotting cell circularity against cell area for each clinorotation speed at different time points, we clearly see a temporal increase in area associated with cell elongation in 0 rpm control cells (Supplementary Figure 3).This trend becomes disrupted with exposure to 30 and 60 rpm clinorotation, as cells tended to exhibit a broad range of circularity and area.However, only at 75 rpm the does cell population maintain high circularity and smaller areas across time points (1, 4, and 8 h).Overall, our morphology analysis demonstrates that the cell population at 75 rpm possesses a more consistent morphology (average area, cell distribution, circularity versus area over time) over time.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Simulated microgravity had a profound effect on both the extent and kinetics of cell spreading (Figure 2).After the initial 10-min cell attachment and before rotation commenced, all of the groups possessed similar cell areas of ~500 μm 2 .We found that hMSCs in the non-rotated 0 rpm condition (i.e., standard gravity) markedly increased spreading areas within 1 h after plating, reaching an average of 2000 μm 2 .Their spreading area increased gradually with time, until they reached an average of 3000 μm 2 by 8 h.For clinorotated groups, cell spreading was impeded almost immediately.At 1 h, cells in the 30 rpm group were significantly smaller than control with an average cell area slightly above 1000 μm 2 ; cells at 60 and 75 rpm were both significantly different from 0 and 30 rpm, remaining rounded and small.The effects of clinorotation continued to affect cell spreading over the course of the entire 8 h experiment in a rotation speed-dependent manner.By 8 h, we measured a statistically similar but smaller average area of 2750 μm 2 for cells at 30 rpm.In contrast, the 60 rpm group had an average area of 2192 μm 2 , and the 75 rpm group had the lowest cell area of 1500 μm 2 , both statistically smaller than 0 and 30 rpm.",
+          "block_index": 0,
+          "section_index": 9,
+          "global_order": 22,
+          "id": "p_10_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "From a kinetics perspective, the time required for cell spreading areas to reach 2000 μm 2 was within 1 h for non-rotating controls, within 4 h for 30 rpm, and within 8 h for 60 rpm.Our experiments did not run long enough to determine whether or not cells would reach this mark for the 75 rpm condition, but based on the observed trends, it appears that cell spreading no longer increases after 7 h.These results indicate that cell spreading is markedly affected by angular frequency and that these effects can be observed as soon as 1 h after clinorotation starts.Finer temporal resolutions and longer durations in future experiments may provide more detailed insight on the time constant of important cellular processes associated with cellular gravisensing.",
+          "block_index": 1,
+          "section_index": 9,
+          "global_order": 23,
+          "id": "p_10_2"
+        },
+        {
+          "type": "paragraph",
+          "text": "One notable observation we made was that cells within each clinorotation speed were not uniformly spread.As individual cells did not accurately represent the population characteristics, we plotted the group-wise distributions of cell morphologies at various time points (Supplementary Figure 1).The 0 rpm control group adopts a broad distribution of cell areas within the first hour, followed by the 30 and 60 rpm groups.By 8 h, it is clear that the 0, 30, and 60 rpm cell populations encompassed comparable ranges of cell areas.The 75 rpm group, however, exhibited a much more narrow distribution.Likewise, when staining for filamentous actin we found that cells also spanned a range of cell shapes within each group (Supplementary Figure 2).There were no discernable differences in actin organization between cells of similar morphology (elongated or rounded), even when comparing across different clinorotation conditions.This suggests that the observed population differences with angular frequency is caused by disparate effects on individual cells, perhaps by triggering/ overcoming some intrinsic signal within cells to reduce cell adhesion, suppress actin stress fiber formation, and consequently induce cell rounding.It is unclear whether simulated microgravity directly affects actin stress fiber assembly to result in cell rounding, or whether cell rounding induced by simulated microgravity is what inhibits stress fiber formation.",
+          "block_index": 2,
+          "section_index": 9,
+          "global_order": 24,
+          "id": "p_10_3"
+        },
+        {
+          "type": "paragraph",
+          "text": "To quantify these differences in cell shape as a function of clinorotation speed, we computed circularity (circularity = 4π*area/ perimeter 2 ), as it accommodates more abstract shapes than an aspect ratio calculation.We assigned circularity values above 0.6  Note that cells at a speed of 30 rpm were more similar to control, whereas cells at 60 and 75 rpm have adopted a more rounded morphology.",
+          "block_index": 3,
+          "section_index": 9,
+          "global_order": 25,
+          "id": "p_10_4"
+        },
+        {
+          "type": "paragraph",
+          "text": "to cells that were considered rounded (Figure 3, black), values between 0.3 and 0.6 to semi-elongated cells (Figure 3, hatch) and values below 0.3 to elongated cells (Figure 3, gray).As expected from the previous area measurements, Figure 3 clearly shows that increasing clinorotation speed results in a larger percentage of rounded cells in its population.The number of elongated cells was significantly reduced with increasing clinorotation speed, and no elongated cells were found at 75 rpm.Plotting cell circularity against cell area for each clinorotation speed at different time points, we clearly see a temporal increase in area associated with cell elongation in 0 rpm control cells (Supplementary Figure 3).This trend becomes disrupted with exposure to 30 and 60 rpm clinorotation, as cells tended to exhibit a broad range of circularity and area.However, only at 75 rpm the does cell population maintain high circularity and smaller areas across time points (1, 4, and 8 h).Overall, our morphology analysis demonstrates that the cell population at 75 rpm possesses a more consistent morphology (average area, cell distribution, circularity versus area over time) over time.",
+          "block_index": 4,
+          "section_index": 9,
+          "global_order": 26,
+          "id": "p_10_5"
+        }
+      ]
+    },
+    {
+      "heading": "Cell viability and recovery after clinorotation",
+      "paragraphs": [
+        "To determine whether there was any loss of viability or if rounded cells were undergoing apoptosis, we exposed cells to 75 rpm and used a live/dead assay after 1, 4, and 8 h of clinorotation (Figure 4b).We found no difference in cell viability or changes in cell number when compared with control; in fact, the majority of cells were alive (490%).Under light microscopy, we observed no evidence of apoptosis (i.e., membrane blebbing) for the cells that were not viable.This also indicates that our clinochip system can be used effectively without loss of cells due to lifting or cell death for at least 8 h.",
+        "We investigated whether clinorotation effects on cell morphology are reversible by performing time-lapse microscopy after exposure to 1, 4, and 8 h of 75 rpm clinorotation.Following cessation of clinorotation, all cells increased their areas and round cells became more elongated, similar to most of the cells in standard gravity controls (Figure 4a).Similar experiments were also repeated for 30 and 60 rpm after 1 and 4 h of clinorotation (Supplementary Figure 4).",
+        "Simulated microgravity inhibits cell migration by inducing cell rounding For cell migration experiments, cells were seeded in Ibidi chemotaxis chips with a chemical gradient of 100 ng/ml NGF to promote cell migration.Under clinorotation, only a few cells migrated, whereas most cells did not (see Table 2 for cell numbers).Cells that were actively migrating at 75 rpm had a similar velocity (P = 0.391) and directionality (P = 0.822) when compared with control cells (Figure 5).Cells that were not migrating under simulated microgravity exhibited morphological retraction (Figure 5).In other words, cell areas changed from fully spread morphologies to more rounded ones.This phenomenon is in agreement with our observations in cell-spreading experiments, even when the initial conditions were different (10 min for spreading assays versus 12 h for chemotaxis and migration assays).",
+        "We found that during clinorotation cells retracted their area, but did so independently of rotation speed ('0 h' P = 0.539, '1 h' P = 0.288, '2 h' P = 0.963, '3 h' P = 0.848, '4 h' P = 0.689, between 30 and 75 rpm).After 4 h of clinorotation during chemotaxis, cells at 30 and 75 rpm reached an average area of 2500 μm 2 , which is a value similar to the spreading experiments for 30 rpm at 8 h (P = 0.962  between 30 rpm, P = 0.975 between 75 rpm).However, we did not conduct experiments long enough to determine steady stateretracted cell areas.",
+        "Our results indicate that the cellular response to simulated microgravity is more dominant than chemotactic signals, suggesting the role of migration of hMSCs to tissue repair sites might be suppressed in microgravity.We base this conclusion on our observations of response to NGF at a concentration of 100 ng/ml.However, these results were obtained with only one concentration of NGF and it is possible that different concentrations or other chemotactic molecules can elicit a stronger chemotactic response.For example stromal-derived factor-1, which is known to be a strong homing signal for hMSCs. 30Nevertheless, because the response of adhered cells to clinorotation is retraction of cellular processes, we believe that the behavior will be similar, unless the chemotactic agent can also enhance cell adhesion."
+      ],
+      "text": "To determine whether there was any loss of viability or if rounded cells were undergoing apoptosis, we exposed cells to 75 rpm and used a live/dead assay after 1, 4, and 8 h of clinorotation (Figure 4b).We found no difference in cell viability or changes in cell number when compared with control; in fact, the majority of cells were alive (490%).Under light microscopy, we observed no evidence of apoptosis (i.e., membrane blebbing) for the cells that were not viable.This also indicates that our clinochip system can be used effectively without loss of cells due to lifting or cell death for at least 8 h.\nWe investigated whether clinorotation effects on cell morphology are reversible by performing time-lapse microscopy after exposure to 1, 4, and 8 h of 75 rpm clinorotation.Following cessation of clinorotation, all cells increased their areas and round cells became more elongated, similar to most of the cells in standard gravity controls (Figure 4a).Similar experiments were also repeated for 30 and 60 rpm after 1 and 4 h of clinorotation (Supplementary Figure 4).\nSimulated microgravity inhibits cell migration by inducing cell rounding For cell migration experiments, cells were seeded in Ibidi chemotaxis chips with a chemical gradient of 100 ng/ml NGF to promote cell migration.Under clinorotation, only a few cells migrated, whereas most cells did not (see Table 2 for cell numbers).Cells that were actively migrating at 75 rpm had a similar velocity (P = 0.391) and directionality (P = 0.822) when compared with control cells (Figure 5).Cells that were not migrating under simulated microgravity exhibited morphological retraction (Figure 5).In other words, cell areas changed from fully spread morphologies to more rounded ones.This phenomenon is in agreement with our observations in cell-spreading experiments, even when the initial conditions were different (10 min for spreading assays versus 12 h for chemotaxis and migration assays).\nWe found that during clinorotation cells retracted their area, but did so independently of rotation speed ('0 h' P = 0.539, '1 h' P = 0.288, '2 h' P = 0.963, '3 h' P = 0.848, '4 h' P = 0.689, between 30 and 75 rpm).After 4 h of clinorotation during chemotaxis, cells at 30 and 75 rpm reached an average area of 2500 μm 2 , which is a value similar to the spreading experiments for 30 rpm at 8 h (P = 0.962  between 30 rpm, P = 0.975 between 75 rpm).However, we did not conduct experiments long enough to determine steady stateretracted cell areas.\nOur results indicate that the cellular response to simulated microgravity is more dominant than chemotactic signals, suggesting the role of migration of hMSCs to tissue repair sites might be suppressed in microgravity.We base this conclusion on our observations of response to NGF at a concentration of 100 ng/ml.However, these results were obtained with only one concentration of NGF and it is possible that different concentrations or other chemotactic molecules can elicit a stronger chemotactic response.For example stromal-derived factor-1, which is known to be a strong homing signal for hMSCs. 30Nevertheless, because the response of adhered cells to clinorotation is retraction of cellular processes, we believe that the behavior will be similar, unless the chemotactic agent can also enhance cell adhesion.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "To determine whether there was any loss of viability or if rounded cells were undergoing apoptosis, we exposed cells to 75 rpm and used a live/dead assay after 1, 4, and 8 h of clinorotation (Figure 4b).We found no difference in cell viability or changes in cell number when compared with control; in fact, the majority of cells were alive (490%).Under light microscopy, we observed no evidence of apoptosis (i.e., membrane blebbing) for the cells that were not viable.This also indicates that our clinochip system can be used effectively without loss of cells due to lifting or cell death for at least 8 h.",
+          "block_index": 0,
+          "section_index": 10,
+          "global_order": 27,
+          "id": "p_11_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "We investigated whether clinorotation effects on cell morphology are reversible by performing time-lapse microscopy after exposure to 1, 4, and 8 h of 75 rpm clinorotation.Following cessation of clinorotation, all cells increased their areas and round cells became more elongated, similar to most of the cells in standard gravity controls (Figure 4a).Similar experiments were also repeated for 30 and 60 rpm after 1 and 4 h of clinorotation (Supplementary Figure 4).",
+          "block_index": 1,
+          "section_index": 10,
+          "global_order": 28,
+          "id": "p_11_2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Simulated microgravity inhibits cell migration by inducing cell rounding For cell migration experiments, cells were seeded in Ibidi chemotaxis chips with a chemical gradient of 100 ng/ml NGF to promote cell migration.Under clinorotation, only a few cells migrated, whereas most cells did not (see Table 2 for cell numbers).Cells that were actively migrating at 75 rpm had a similar velocity (P = 0.391) and directionality (P = 0.822) when compared with control cells (Figure 5).Cells that were not migrating under simulated microgravity exhibited morphological retraction (Figure 5).In other words, cell areas changed from fully spread morphologies to more rounded ones.This phenomenon is in agreement with our observations in cell-spreading experiments, even when the initial conditions were different (10 min for spreading assays versus 12 h for chemotaxis and migration assays).",
+          "block_index": 2,
+          "section_index": 10,
+          "global_order": 29,
+          "id": "p_11_3"
+        },
+        {
+          "type": "paragraph",
+          "text": "We found that during clinorotation cells retracted their area, but did so independently of rotation speed ('0 h' P = 0.539, '1 h' P = 0.288, '2 h' P = 0.963, '3 h' P = 0.848, '4 h' P = 0.689, between 30 and 75 rpm).After 4 h of clinorotation during chemotaxis, cells at 30 and 75 rpm reached an average area of 2500 μm 2 , which is a value similar to the spreading experiments for 30 rpm at 8 h (P = 0.962  between 30 rpm, P = 0.975 between 75 rpm).However, we did not conduct experiments long enough to determine steady stateretracted cell areas.",
+          "block_index": 3,
+          "section_index": 10,
+          "global_order": 30,
+          "id": "p_11_4"
+        },
+        {
+          "type": "paragraph",
+          "text": "Our results indicate that the cellular response to simulated microgravity is more dominant than chemotactic signals, suggesting the role of migration of hMSCs to tissue repair sites might be suppressed in microgravity.We base this conclusion on our observations of response to NGF at a concentration of 100 ng/ml.However, these results were obtained with only one concentration of NGF and it is possible that different concentrations or other chemotactic molecules can elicit a stronger chemotactic response.For example stromal-derived factor-1, which is known to be a strong homing signal for hMSCs. 30Nevertheless, because the response of adhered cells to clinorotation is retraction of cellular processes, we believe that the behavior will be similar, unless the chemotactic agent can also enhance cell adhesion.",
+          "block_index": 4,
+          "section_index": 10,
+          "global_order": 31,
+          "id": "p_11_5"
+        }
+      ]
+    },
+    {
+      "heading": "Discussion",
+      "paragraphs": [
+        "Understanding how angular frequency, or rotation speed, of clinorotation affects cell behavior is a critical aspect of microgravity simulation experiments, so that the role of the changing gravity vector in cellular regulation can be appropriately considered.In this work we show that hMSCs can behave differently depending on clinorotation speed.In particular, although average cell area increased more slowly at 30 rpm compared with non-rotated controls, it continues along an upward trajectory at 8 h and seems to be converging with control values.For higher rotational speeds, cell area increases even more slowly, and appears to reach a plateau by 8 h at 75 rpm.This suggests that changes in cell morphology may approach a limit at an angular frequency that is close to 75 rpm, and almost certainly must exceed 30 rpm.Although these results are relevant to our clinochip configuration, results may vary for other clinostat devices, particularly for those that support cells in suspension.",
+        "Our results are consistent with other research showing that rotation speed affects animal cells, plants, and bacteria (Escherichia coli).For example, a study on osteoblastic ROS 17/2.8 cells reported that rotations at 10 and 40 rpm did not exhibit reproducible, detectable changes from stationary control cells. 31nly a speed of 50 rpm showed reproducible changes in actin cytoskeleton and cell surface integrin β1 and apoptosis.The same effect has been observed with E. coli, 32 which exhibited differential response as a function of clinorotation speeds from 10 to 50 rpm.Interestingly, the difference between 40 and 50 rpm is only 0.1674 of a cycle per second, indicating that cells can be highly sensitive to small changes in angular frequency.",
+        "Although a precise gravisensing mechanism has yet to be determined, it must be one that can detect subtle alterations to external forces in a short period of time.Our data indicate that it is linked to pathways that are involved in cell spreading and cytoskeletal organization, two phenomena that have been observed for different cell types.Potential candidates could be one or more molecules already known to play important roles in cellular mechanoregulation, such as the Rho family of GTPases, 33 ion mechanosensitive channels, 34 intracellular calcium, 35 nuclear deformations, 36 focal adhesions, or other cell surface receptors. 37lthough mechanosensitive pathways seem the most direct apparatus for gravisensing, others have also suggested the importance of external environmental factors including fluid shear, fluid and nutrient exchange, oxygen content, buoyancy, and changes in the extracellular matrix. 38Thus, clinostats used to probe candidate gravisensing receptors should minimize external environmental variables that arise from clinostat operation.",
+        "In the context of a proposed framework for cellular gravisensing, the current results are consistent with our working hypothetical model (Figure 1b).Standard gravity would constitute a constant gravitational stimulus and be detectable to all cells.With intermediate timescales of gravitational nullification, the probability for a single cycle of rotational perturbation to evade gravisensing in each cell would assume a broad distribution.As any putative biochemical gravisensing reaction(s) would be stochastic, the probability for gravisensory evasion in each cell would decrease with both lower angular frequency and exposure to longer duration perturbations.We did in fact observe such trends, as a result of the time lapse, single-cell measurement capabilities of the clinochip system.",
+        "For our clinochips, we do not expect that centripetal forces have a role with our observed angular frequency-dependence, as residual accelerations were calculated to be on the micro-scale regime.In addition, because the capillary number (indicative of viscous forces) is orders of magnitude smaller than surface tension, fluid shear forces are deemed negligible.There is also no enhanced nutrient transport that accompanies clinorotation in our system.Without these confounding factors, it seems reasonable to conclude that the cell morphology differences we observed were predominantly due to changes in the angular frequency of clinorotation.",
+        "We believe the rounding and retracted cell area of hMSCs in simulated microgravity inhibit migration in the presence of a chemical gradient.Interestingly, the kinetics of cell area changes during retraction were different from those during spreading, and were also angular frequency independent, suggesting that distinct gravisensing mechanisms may regulate different processes.Similarly, other cell processes, and even cell fate, could be affected. 39In the same way that microgravity may produce these cellular alterations, other mechanical stimuli and substrate characteristics can also modulate cell function. 40tem cell morphology has a strong correlation with cellular phenotype and differentiation potential. 41,42It has been demonstrated in prior work that spread cells have a higher tendency to undergo osteogenesis and that cells with rounded morphologies are more susceptible to adipogenesis. 42Because of the short-term nature of this current study, it is not possible to establish whether hMSCs in our system would behave according to these trends.However, our data would suggest that cells at 30 rpm clinorotation would be more amenable to osteogenic differentiation, whereas cells at 75 rpm would tend toward adipogenic or chondrogenic lineages.This may help explain the conflicting reports on mesenchymal stem cells differentiation during clinorotation that we and others 23 have observed.Future longer-term studies with the clinochip are required to explore hMSC differentiation potential.Specifically, as we have shown that the population distribution of cell morphologies can be controlled by the angular frequency of rotation, we may be able to derive cellular phenotypes desirable for stem cell renewal, repair, and tissue engineering."
+      ],
+      "text": "Understanding how angular frequency, or rotation speed, of clinorotation affects cell behavior is a critical aspect of microgravity simulation experiments, so that the role of the changing gravity vector in cellular regulation can be appropriately considered.In this work we show that hMSCs can behave differently depending on clinorotation speed.In particular, although average cell area increased more slowly at 30 rpm compared with non-rotated controls, it continues along an upward trajectory at 8 h and seems to be converging with control values.For higher rotational speeds, cell area increases even more slowly, and appears to reach a plateau by 8 h at 75 rpm.This suggests that changes in cell morphology may approach a limit at an angular frequency that is close to 75 rpm, and almost certainly must exceed 30 rpm.Although these results are relevant to our clinochip configuration, results may vary for other clinostat devices, particularly for those that support cells in suspension.\nOur results are consistent with other research showing that rotation speed affects animal cells, plants, and bacteria (Escherichia coli).For example, a study on osteoblastic ROS 17/2.8 cells reported that rotations at 10 and 40 rpm did not exhibit reproducible, detectable changes from stationary control cells. 31nly a speed of 50 rpm showed reproducible changes in actin cytoskeleton and cell surface integrin β1 and apoptosis.The same effect has been observed with E. coli, 32 which exhibited differential response as a function of clinorotation speeds from 10 to 50 rpm.Interestingly, the difference between 40 and 50 rpm is only 0.1674 of a cycle per second, indicating that cells can be highly sensitive to small changes in angular frequency.\nAlthough a precise gravisensing mechanism has yet to be determined, it must be one that can detect subtle alterations to external forces in a short period of time.Our data indicate that it is linked to pathways that are involved in cell spreading and cytoskeletal organization, two phenomena that have been observed for different cell types.Potential candidates could be one or more molecules already known to play important roles in cellular mechanoregulation, such as the Rho family of GTPases, 33 ion mechanosensitive channels, 34 intracellular calcium, 35 nuclear deformations, 36 focal adhesions, or other cell surface receptors. 37lthough mechanosensitive pathways seem the most direct apparatus for gravisensing, others have also suggested the importance of external environmental factors including fluid shear, fluid and nutrient exchange, oxygen content, buoyancy, and changes in the extracellular matrix. 38Thus, clinostats used to probe candidate gravisensing receptors should minimize external environmental variables that arise from clinostat operation.\nIn the context of a proposed framework for cellular gravisensing, the current results are consistent with our working hypothetical model (Figure 1b).Standard gravity would constitute a constant gravitational stimulus and be detectable to all cells.With intermediate timescales of gravitational nullification, the probability for a single cycle of rotational perturbation to evade gravisensing in each cell would assume a broad distribution.As any putative biochemical gravisensing reaction(s) would be stochastic, the probability for gravisensory evasion in each cell would decrease with both lower angular frequency and exposure to longer duration perturbations.We did in fact observe such trends, as a result of the time lapse, single-cell measurement capabilities of the clinochip system.\nFor our clinochips, we do not expect that centripetal forces have a role with our observed angular frequency-dependence, as residual accelerations were calculated to be on the micro-scale regime.In addition, because the capillary number (indicative of viscous forces) is orders of magnitude smaller than surface tension, fluid shear forces are deemed negligible.There is also no enhanced nutrient transport that accompanies clinorotation in our system.Without these confounding factors, it seems reasonable to conclude that the cell morphology differences we observed were predominantly due to changes in the angular frequency of clinorotation.\nWe believe the rounding and retracted cell area of hMSCs in simulated microgravity inhibit migration in the presence of a chemical gradient.Interestingly, the kinetics of cell area changes during retraction were different from those during spreading, and were also angular frequency independent, suggesting that distinct gravisensing mechanisms may regulate different processes.Similarly, other cell processes, and even cell fate, could be affected. 39In the same way that microgravity may produce these cellular alterations, other mechanical stimuli and substrate characteristics can also modulate cell function. 40tem cell morphology has a strong correlation with cellular phenotype and differentiation potential. 41,42It has been demonstrated in prior work that spread cells have a higher tendency to undergo osteogenesis and that cells with rounded morphologies are more susceptible to adipogenesis. 42Because of the short-term nature of this current study, it is not possible to establish whether hMSCs in our system would behave according to these trends.However, our data would suggest that cells at 30 rpm clinorotation would be more amenable to osteogenic differentiation, whereas cells at 75 rpm would tend toward adipogenic or chondrogenic lineages.This may help explain the conflicting reports on mesenchymal stem cells differentiation during clinorotation that we and others 23 have observed.Future longer-term studies with the clinochip are required to explore hMSC differentiation potential.Specifically, as we have shown that the population distribution of cell morphologies can be controlled by the angular frequency of rotation, we may be able to derive cellular phenotypes desirable for stem cell renewal, repair, and tissue engineering.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Understanding how angular frequency, or rotation speed, of clinorotation affects cell behavior is a critical aspect of microgravity simulation experiments, so that the role of the changing gravity vector in cellular regulation can be appropriately considered.In this work we show that hMSCs can behave differently depending on clinorotation speed.In particular, although average cell area increased more slowly at 30 rpm compared with non-rotated controls, it continues along an upward trajectory at 8 h and seems to be converging with control values.For higher rotational speeds, cell area increases even more slowly, and appears to reach a plateau by 8 h at 75 rpm.This suggests that changes in cell morphology may approach a limit at an angular frequency that is close to 75 rpm, and almost certainly must exceed 30 rpm.Although these results are relevant to our clinochip configuration, results may vary for other clinostat devices, particularly for those that support cells in suspension.",
+          "block_index": 0,
+          "section_index": 11,
+          "global_order": 32,
+          "id": "p_12_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "Our results are consistent with other research showing that rotation speed affects animal cells, plants, and bacteria (Escherichia coli).For example, a study on osteoblastic ROS 17/2.8 cells reported that rotations at 10 and 40 rpm did not exhibit reproducible, detectable changes from stationary control cells. 31nly a speed of 50 rpm showed reproducible changes in actin cytoskeleton and cell surface integrin β1 and apoptosis.The same effect has been observed with E. coli, 32 which exhibited differential response as a function of clinorotation speeds from 10 to 50 rpm.Interestingly, the difference between 40 and 50 rpm is only 0.1674 of a cycle per second, indicating that cells can be highly sensitive to small changes in angular frequency.",
+          "block_index": 1,
+          "section_index": 11,
+          "global_order": 33,
+          "id": "p_12_2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Although a precise gravisensing mechanism has yet to be determined, it must be one that can detect subtle alterations to external forces in a short period of time.Our data indicate that it is linked to pathways that are involved in cell spreading and cytoskeletal organization, two phenomena that have been observed for different cell types.Potential candidates could be one or more molecules already known to play important roles in cellular mechanoregulation, such as the Rho family of GTPases, 33 ion mechanosensitive channels, 34 intracellular calcium, 35 nuclear deformations, 36 focal adhesions, or other cell surface receptors. 37lthough mechanosensitive pathways seem the most direct apparatus for gravisensing, others have also suggested the importance of external environmental factors including fluid shear, fluid and nutrient exchange, oxygen content, buoyancy, and changes in the extracellular matrix. 38Thus, clinostats used to probe candidate gravisensing receptors should minimize external environmental variables that arise from clinostat operation.",
+          "block_index": 2,
+          "section_index": 11,
+          "global_order": 34,
+          "id": "p_12_3"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the context of a proposed framework for cellular gravisensing, the current results are consistent with our working hypothetical model (Figure 1b).Standard gravity would constitute a constant gravitational stimulus and be detectable to all cells.With intermediate timescales of gravitational nullification, the probability for a single cycle of rotational perturbation to evade gravisensing in each cell would assume a broad distribution.As any putative biochemical gravisensing reaction(s) would be stochastic, the probability for gravisensory evasion in each cell would decrease with both lower angular frequency and exposure to longer duration perturbations.We did in fact observe such trends, as a result of the time lapse, single-cell measurement capabilities of the clinochip system.",
+          "block_index": 3,
+          "section_index": 11,
+          "global_order": 35,
+          "id": "p_12_4"
+        },
+        {
+          "type": "paragraph",
+          "text": "For our clinochips, we do not expect that centripetal forces have a role with our observed angular frequency-dependence, as residual accelerations were calculated to be on the micro-scale regime.In addition, because the capillary number (indicative of viscous forces) is orders of magnitude smaller than surface tension, fluid shear forces are deemed negligible.There is also no enhanced nutrient transport that accompanies clinorotation in our system.Without these confounding factors, it seems reasonable to conclude that the cell morphology differences we observed were predominantly due to changes in the angular frequency of clinorotation.",
+          "block_index": 4,
+          "section_index": 11,
+          "global_order": 36,
+          "id": "p_12_5"
+        },
+        {
+          "type": "paragraph",
+          "text": "We believe the rounding and retracted cell area of hMSCs in simulated microgravity inhibit migration in the presence of a chemical gradient.Interestingly, the kinetics of cell area changes during retraction were different from those during spreading, and were also angular frequency independent, suggesting that distinct gravisensing mechanisms may regulate different processes.Similarly, other cell processes, and even cell fate, could be affected. 39In the same way that microgravity may produce these cellular alterations, other mechanical stimuli and substrate characteristics can also modulate cell function. 40tem cell morphology has a strong correlation with cellular phenotype and differentiation potential. 41,42It has been demonstrated in prior work that spread cells have a higher tendency to undergo osteogenesis and that cells with rounded morphologies are more susceptible to adipogenesis. 42Because of the short-term nature of this current study, it is not possible to establish whether hMSCs in our system would behave according to these trends.However, our data would suggest that cells at 30 rpm clinorotation would be more amenable to osteogenic differentiation, whereas cells at 75 rpm would tend toward adipogenic or chondrogenic lineages.This may help explain the conflicting reports on mesenchymal stem cells differentiation during clinorotation that we and others 23 have observed.Future longer-term studies with the clinochip are required to explore hMSC differentiation potential.Specifically, as we have shown that the population distribution of cell morphologies can be controlled by the angular frequency of rotation, we may be able to derive cellular phenotypes desirable for stem cell renewal, repair, and tissue engineering.",
+          "block_index": 5,
+          "section_index": 11,
+          "global_order": 37,
+          "id": "p_12_6"
+        }
+      ]
+    }
+  ],
+  "figures": {
+    "fig_1": {
+      "label": "Figure 1 .",
+      "caption": "Figure 1.Framework of how perceived gravity may bias cellular events under clinorotation.(a) The clinochip system consists of a stationary non-rotated control chip and a rotating clinochip, the speed of which can be controlled.(b) In the rotating cell-fixed frame of reference, the components of force caused by the gravity vector oscillate in a sinusoidal fashion during clinorotation.Lightly shaded blocks illustrate hypothetical time constants required for various intrinsic cellular events to occur.Forces experienced by cells are shaded in darker colors to help clarify the idea that slower clinorotation (upper graph) may fail to nullify gravity biases for some cell events, whereas faster clinorotation (lower graph) could provide greater probability of nullification for any given event.",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "3,35.89,421.02,247.99,7.49;3,35.89,429.98,248.03,7.49;3,35.89,438.94,248.04,7.49;3,35.89,447.89,248.01,7.49;3,35.89,456.85,248.01,7.49;3,35.89,465.81,247.99,7.49;3,35.89,474.82,248.12,7.49;3,35.89,483.78,248.02,7.49;3,35.89,492.74,247.98,7.49;3,35.89,501.70,248.01,7.49;3,35.89,510.65,248.03,7.49;3,35.89,519.61,231.72,7.49;3,45.30,59.30,229.29,354.50",
+      "coords_groups": [
+        {
+          "page": 3,
+          "x": 35.89,
+          "y": 421.02,
+          "w": 247.99,
+          "h": 7.49,
+          "x2": 283.88,
+          "y2": 428.51
+        },
+        {
+          "page": 3,
+          "x": 35.89,
+          "y": 429.98,
+          "w": 248.03,
+          "h": 7.49,
+          "x2": 283.92,
+          "y2": 437.47
+        },
+        {
+          "page": 3,
+          "x": 35.89,
+          "y": 438.94,
+          "w": 248.04,
+          "h": 7.49,
+          "x2": 283.93,
+          "y2": 446.43
+        },
+        {
+          "page": 3,
+          "x": 35.89,
+          "y": 447.89,
+          "w": 248.01,
+          "h": 7.49,
+          "x2": 283.9,
+          "y2": 455.38
+        },
+        {
+          "page": 3,
+          "x": 35.89,
+          "y": 456.85,
+          "w": 248.01,
+          "h": 7.49,
+          "x2": 283.9,
+          "y2": 464.34000000000003
+        },
+        {
+          "page": 3,
+          "x": 35.89,
+          "y": 465.81,
+          "w": 247.99,
+          "h": 7.49,
+          "x2": 283.88,
+          "y2": 473.3
+        },
+        {
+          "page": 3,
+          "x": 35.89,
+          "y": 474.82,
+          "w": 248.12,
+          "h": 7.49,
+          "x2": 284.01,
+          "y2": 482.31
+        },
+        {
+          "page": 3,
+          "x": 35.89,
+          "y": 483.78,
+          "w": 248.02,
+          "h": 7.49,
+          "x2": 283.91,
+          "y2": 491.27
+        },
+        {
+          "page": 3,
+          "x": 35.89,
+          "y": 492.74,
+          "w": 247.98,
+          "h": 7.49,
+          "x2": 283.87,
+          "y2": 500.23
+        },
+        {
+          "page": 3,
+          "x": 35.89,
+          "y": 501.7,
+          "w": 248.01,
+          "h": 7.49,
+          "x2": 283.9,
+          "y2": 509.19
+        },
+        {
+          "page": 3,
+          "x": 35.89,
+          "y": 510.65,
+          "w": 248.03,
+          "h": 7.49,
+          "x2": 283.92,
+          "y2": 518.14
+        },
+        {
+          "page": 3,
+          "x": 35.89,
+          "y": 519.61,
+          "w": 231.72,
+          "h": 7.49,
+          "x2": 267.61,
+          "y2": 527.1
+        },
+        {
+          "page": 3,
+          "x": 45.3,
+          "y": 59.3,
+          "w": 229.29,
+          "h": 354.5,
+          "x2": 274.59,
+          "y2": 413.8
+        }
+      ],
+      "bbox": {
+        "page": 3,
+        "x1": 35.89,
+        "y1": 59.3,
+        "x2": 284.01,
+        "y2": 527.1,
+        "width": 248.12,
+        "height": 467.8
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 1,
+      "block_global_order": 1,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC5515506/fig_1.jpeg"
+    },
+    "fig_2": {
+      "label": "Figure 2 .",
+      "caption": "Figure 2. Human mesenchymal stem cell (hMSC) spreading areas in simulated microgravity.(a) Time analysis of cell spreading of hMSCs in simulated microgravity at different rotation speeds (0, 30, 60, and 75 rpm).Note that increasing the rotation speed resulted in lessspreading area over time.NS Indicates statistically similar average areas (P40.05).(b) Representative micrographs of hMSCs spreading in a glass substrate coated with FN at different rotation speeds for 8 h (0, 30, 60, and 75 rpm).Note that cells at a speed of 30 rpm were more similar to control, whereas cells at 60 and 75 rpm have adopted a more rounded morphology.",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "4,311.36,296.92,248.03,7.49;4,311.36,305.88,248.04,7.49;4,311.36,314.83,248.00,7.49;4,311.36,323.85,248.04,7.49;4,311.36,332.81,248.00,7.49;4,311.36,341.76,247.99,7.49;4,311.36,350.72,248.01,7.49;4,311.36,359.68,248.03,7.49;4,311.36,368.64,248.03,7.49;4,311.36,377.60,143.32,7.49;4,318.44,59.30,233.90,230.40",
+      "coords_groups": [
+        {
+          "page": 4,
+          "x": 311.36,
+          "y": 296.92,
+          "w": 248.03,
+          "h": 7.49,
+          "x2": 559.39,
+          "y2": 304.41
+        },
+        {
+          "page": 4,
+          "x": 311.36,
+          "y": 305.88,
+          "w": 248.04,
+          "h": 7.49,
+          "x2": 559.4,
+          "y2": 313.37
+        },
+        {
+          "page": 4,
+          "x": 311.36,
+          "y": 314.83,
+          "w": 248.0,
+          "h": 7.49,
+          "x2": 559.36,
+          "y2": 322.32
+        },
+        {
+          "page": 4,
+          "x": 311.36,
+          "y": 323.85,
+          "w": 248.04,
+          "h": 7.49,
+          "x2": 559.4,
+          "y2": 331.34000000000003
+        },
+        {
+          "page": 4,
+          "x": 311.36,
+          "y": 332.81,
+          "w": 248.0,
+          "h": 7.49,
+          "x2": 559.36,
+          "y2": 340.3
+        },
+        {
+          "page": 4,
+          "x": 311.36,
+          "y": 341.76,
+          "w": 247.99,
+          "h": 7.49,
+          "x2": 559.35,
+          "y2": 349.25
+        },
+        {
+          "page": 4,
+          "x": 311.36,
+          "y": 350.72,
+          "w": 248.01,
+          "h": 7.49,
+          "x2": 559.37,
+          "y2": 358.21000000000004
+        },
+        {
+          "page": 4,
+          "x": 311.36,
+          "y": 359.68,
+          "w": 248.03,
+          "h": 7.49,
+          "x2": 559.39,
+          "y2": 367.17
+        },
+        {
+          "page": 4,
+          "x": 311.36,
+          "y": 368.64,
+          "w": 248.03,
+          "h": 7.49,
+          "x2": 559.39,
+          "y2": 376.13
+        },
+        {
+          "page": 4,
+          "x": 311.36,
+          "y": 377.6,
+          "w": 143.32,
+          "h": 7.49,
+          "x2": 454.68,
+          "y2": 385.09000000000003
+        },
+        {
+          "page": 4,
+          "x": 318.44,
+          "y": 59.3,
+          "w": 233.9,
+          "h": 230.4,
+          "x2": 552.34,
+          "y2": 289.7
+        }
+      ],
+      "bbox": {
+        "page": 4,
+        "x1": 311.36,
+        "y1": 59.3,
+        "x2": 559.4,
+        "y2": 385.09000000000003,
+        "width": 248.03999999999996,
+        "height": 325.79
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 2,
+      "block_global_order": 2,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC5515506/fig_2.jpeg"
+    },
+    "fig_3": {
+      "label": "Figure 3 .",
+      "caption": "Figure 3. Human mesenchymal stem cell shape as function of time at different rotation speeds.We analyzed the shapes of hMSCs at different rotation speeds as a function of time for 1, 4, and 8 h; black = rounded cells, line pattern = semi-elongated cells, gray = elongated.Cells were stained with phalloidin (actin, red) and representative micrographs were selected for each morphological configuration.At 0 rpm, cells were rounded at the first hour and were mostly elongated at the end of our time lapse.At 30 rpm, the number of elongated cells was reduced but still present at 4 and 8 h.At 60 rpm, there were no elongated cells at 4 h and there were mostly semi-elongated cells at 8 h.At 75 rpm, the number of rounded cells increases at every time point.",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "5,35.89,404.81,514.09,7.49;5,35.89,413.12,514.04,8.47;5,35.88,422.72,514.04,7.49;5,35.88,431.04,514.00,8.47;5,35.88,440.69,514.04,7.49;5,35.88,449.65,203.58,7.49;5,135.16,59.30,315.54,338.29",
+      "coords_groups": [
+        {
+          "page": 5,
+          "x": 35.89,
+          "y": 404.81,
+          "w": 514.09,
+          "h": 7.49,
+          "x2": 549.98,
+          "y2": 412.3
+        },
+        {
+          "page": 5,
+          "x": 35.89,
+          "y": 413.12,
+          "w": 514.04,
+          "h": 8.47,
+          "x2": 549.93,
+          "y2": 421.59000000000003
+        },
+        {
+          "page": 5,
+          "x": 35.88,
+          "y": 422.72,
+          "w": 514.04,
+          "h": 7.49,
+          "x2": 549.92,
+          "y2": 430.21000000000004
+        },
+        {
+          "page": 5,
+          "x": 35.88,
+          "y": 431.04,
+          "w": 514.0,
+          "h": 8.47,
+          "x2": 549.88,
+          "y2": 439.51000000000005
+        },
+        {
+          "page": 5,
+          "x": 35.88,
+          "y": 440.69,
+          "w": 514.04,
+          "h": 7.49,
+          "x2": 549.92,
+          "y2": 448.18
+        },
+        {
+          "page": 5,
+          "x": 35.88,
+          "y": 449.65,
+          "w": 203.58,
+          "h": 7.49,
+          "x2": 239.46,
+          "y2": 457.14
+        },
+        {
+          "page": 5,
+          "x": 135.16,
+          "y": 59.3,
+          "w": 315.54,
+          "h": 338.29,
+          "x2": 450.70000000000005,
+          "y2": 397.59000000000003
+        }
+      ],
+      "bbox": {
+        "page": 5,
+        "x1": 35.88,
+        "y1": 59.3,
+        "x2": 549.98,
+        "y2": 457.14,
+        "width": 514.1,
+        "height": 397.84
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 3,
+      "block_global_order": 3,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC5515506/fig_3.jpeg"
+    },
+    "fig_4": {
+      "label": "Figure 4 .",
+      "caption": "Figure 4. Cell viability and recovery after clinorotation.(a) Cell spreading dynamics were measured for cells after 1, 4, and 8 h of clinorotation at 75 rpm.Four hours after clinorotation was terminated, cell areas were observed to increase by a factor of 1.4-1.8times.(b) A live/dead stain was used to analyze both cells in the control and cells exposed to clinorotation, and revealed that cell viability was preserved over time.(c) A fluorescence micrograph for live cells (green) and dead cells (red) is provided to demonstrate the data we analyzed, dotted line indicates the axis of rotation.(d) Time-lapse micrographs illustrate a round cell adopting a more elongated morphology during recovery in standard microgravity.",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "6,45.35,392.56,514.00,7.49;6,45.35,401.52,514.01,7.49;6,45.35,410.48,514.02,7.49;6,45.35,418.79,514.04,8.47;6,45.35,428.45,514.01,7.49;6,45.35,437.41,47.00,7.49;6,141.73,59.30,321.26,326.04",
+      "coords_groups": [
+        {
+          "page": 6,
+          "x": 45.35,
+          "y": 392.56,
+          "w": 514.0,
+          "h": 7.49,
+          "x2": 559.35,
+          "y2": 400.05
+        },
+        {
+          "page": 6,
+          "x": 45.35,
+          "y": 401.52,
+          "w": 514.01,
+          "h": 7.49,
+          "x2": 559.36,
+          "y2": 409.01
+        },
+        {
+          "page": 6,
+          "x": 45.35,
+          "y": 410.48,
+          "w": 514.02,
+          "h": 7.49,
+          "x2": 559.37,
+          "y2": 417.97
+        },
+        {
+          "page": 6,
+          "x": 45.35,
+          "y": 418.79,
+          "w": 514.04,
+          "h": 8.47,
+          "x2": 559.39,
+          "y2": 427.26000000000005
+        },
+        {
+          "page": 6,
+          "x": 45.35,
+          "y": 428.45,
+          "w": 514.01,
+          "h": 7.49,
+          "x2": 559.36,
+          "y2": 435.94
+        },
+        {
+          "page": 6,
+          "x": 45.35,
+          "y": 437.41,
+          "w": 47.0,
+          "h": 7.49,
+          "x2": 92.35,
+          "y2": 444.90000000000003
+        },
+        {
+          "page": 6,
+          "x": 141.73,
+          "y": 59.3,
+          "w": 321.26,
+          "h": 326.04,
+          "x2": 462.99,
+          "y2": 385.34000000000003
+        }
+      ],
+      "bbox": {
+        "page": 6,
+        "x1": 45.35,
+        "y1": 59.3,
+        "x2": 559.39,
+        "y2": 444.90000000000003,
+        "width": 514.04,
+        "height": 385.6
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 4,
+      "block_global_order": 4,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC5515506/fig_4.jpeg"
+    },
+    "fig_5": {
+      "label": "Figure 5 .",
+      "caption": "Figure 5. Analysis of chemotactic migration of human mesenchymal stem cells in simulated microgravity.Cells stimulated by a chemotactic signal (NGF) in microgravity exhibited one of two behaviors: migration or retraction.Under simulated microgravity, most cells retracted (N = 17) and only some cells (N = 6) actively migrated.Cells that were actively migrating (left), had a similar velocity (P = 0.391) and directionality (P = 0.822) in simulated microgravity to those in non-rotated conditions.Cells that did not migrate retracted their area as a function of time.This behavior was similar at different clinorotation speeds (P = 0.698 at 4 h between 30 and 75 rpm).Results indicate that the morphological response to microgravity is stronger than the response to the NGF chemotactic signal.NGF, nerve growth factor.",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "6,45.35,601.53,514.01,7.49;6,45.35,610.49,514.02,7.49;6,45.35,618.86,514.01,8.47;6,45.35,627.82,514.02,8.47;6,45.35,636.77,514.05,8.47;6,45.35,646.38,474.16,7.49;6,139.75,468.28,325.27,126.03",
+      "coords_groups": [
+        {
+          "page": 6,
+          "x": 45.35,
+          "y": 601.53,
+          "w": 514.01,
+          "h": 7.49,
+          "x2": 559.36,
+          "y2": 609.02
+        },
+        {
+          "page": 6,
+          "x": 45.35,
+          "y": 610.49,
+          "w": 514.02,
+          "h": 7.49,
+          "x2": 559.37,
+          "y2": 617.98
+        },
+        {
+          "page": 6,
+          "x": 45.35,
+          "y": 618.86,
+          "w": 514.01,
+          "h": 8.47,
+          "x2": 559.36,
+          "y2": 627.33
+        },
+        {
+          "page": 6,
+          "x": 45.35,
+          "y": 627.82,
+          "w": 514.02,
+          "h": 8.47,
+          "x2": 559.37,
+          "y2": 636.2900000000001
+        },
+        {
+          "page": 6,
+          "x": 45.35,
+          "y": 636.77,
+          "w": 514.05,
+          "h": 8.47,
+          "x2": 559.4,
+          "y2": 645.24
+        },
+        {
+          "page": 6,
+          "x": 45.35,
+          "y": 646.38,
+          "w": 474.16,
+          "h": 7.49,
+          "x2": 519.51,
+          "y2": 653.87
+        },
+        {
+          "page": 6,
+          "x": 139.75,
+          "y": 468.28,
+          "w": 325.27,
+          "h": 126.03,
+          "x2": 465.02,
+          "y2": 594.31
+        }
+      ],
+      "bbox": {
+        "page": 6,
+        "x1": 45.35,
+        "y1": 468.28,
+        "x2": 559.4,
+        "y2": 653.87,
+        "width": 514.05,
+        "height": 185.59000000000003
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 5,
+      "block_global_order": 5,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC5515506/fig_5.jpeg"
+    }
+  },
+  "tables": {
+    "fig_6": {
+      "label": "Table 1 .",
+      "caption": "Previously reported studies on mesenchymal stem cells under simulated microgravity",
+      "type": "table",
+      "table": {
+        "rows": [
+          [
+            "Type of MSCs",
+            "Experimental device",
+            "Angular",
+            "Duration",
+            "Results"
+          ],
+          [
+            "",
+            "",
+            "frequency",
+            "",
+            ""
+          ]
+        ],
+        "row_count": 2,
+        "col_count": 5
+      },
+      "coords_raw": "2,49.32,64.54,503.12,272.56",
+      "coords_groups": [
+        {
+          "page": 2,
+          "x": 49.32,
+          "y": 64.54,
+          "w": 503.12,
+          "h": 272.56,
+          "x2": 552.44,
+          "y2": 337.1
+        }
+      ],
+      "bbox": {
+        "page": 2,
+        "x1": 49.32,
+        "y1": 64.54,
+        "x2": 552.44,
+        "y2": 337.1,
+        "width": 503.12000000000006,
+        "height": 272.56
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 6,
+      "block_global_order": 6,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC5515506/fig_6.crop.png",
+      "image_cropped": true,
+      "image_zoom": 2.0
+    },
+    "fig_7": {
+      "label": "Table 2 .",
+      "caption": "Number of cells measured for each condition in each",
+      "type": "table",
+      "table": {
+        "rows": [
+          [
+            "experiment",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Experiment",
+            "Condition",
+            "0 rpm",
+            "30 rpm",
+            "60 rpm",
+            "75 rpm"
+          ],
+          [
+            "Cell spreading",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "NE = 6",
+            "0h",
+            "3 0",
+            "3 0",
+            "3 0",
+            "3 0"
+          ],
+          [
+            "",
+            "1 h",
+            "31",
+            "31",
+            "51",
+            "31"
+          ],
+          [
+            "",
+            "2 h",
+            "30",
+            "49",
+            "57",
+            "30"
+          ],
+          [
+            "",
+            "3 h",
+            "45",
+            "47",
+            "60",
+            "32"
+          ],
+          [
+            "",
+            "4 h",
+            "44",
+            "48",
+            "60",
+            "45"
+          ],
+          [
+            "",
+            "5 h",
+            "60",
+            "44",
+            "55",
+            "33"
+          ],
+          [
+            "",
+            "6 h",
+            "37",
+            "40",
+            "58",
+            "36"
+          ],
+          [
+            "",
+            "7 h",
+            "31",
+            "36",
+            "47",
+            "32"
+          ],
+          [
+            "",
+            "8 h",
+            "31",
+            "37",
+            "50",
+            "36"
+          ],
+          [
+            "Cell morphology",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "NE = 3",
+            "1h",
+            "2 0",
+            "2 0",
+            "2 0",
+            "2 0"
+          ],
+          [
+            "",
+            "4 h",
+            "19",
+            "20",
+            "20",
+            "21"
+          ],
+          [
+            "",
+            "8 h",
+            "20",
+            "20",
+            "20",
+            "20"
+          ],
+          [
+            "Chemotaxis",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "NE = 3",
+            "Retract",
+            "Null",
+            "28",
+            "dnp",
+            "28"
+          ],
+          [
+            "",
+            "Migrate",
+            "15",
+            "dnp",
+            "dnp",
+            "6"
+          ],
+          [
+            "Cell recovery",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "NE = 2",
+            "0 -5 h",
+            "9",
+            "9",
+            "9",
+            "12"
+          ],
+          [
+            "Cell viability",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "NE = 2",
+            "1 h",
+            "33",
+            "dnp",
+            "dnp",
+            "53"
+          ],
+          [
+            "",
+            "4 h",
+            "33",
+            "dnp",
+            "dnp",
+            "53"
+          ],
+          [
+            "",
+            "8 h",
+            "33",
+            "dnp",
+            "dnp",
+            "53"
+          ]
+        ],
+        "row_count": 25,
+        "col_count": 6
+      },
+      "coords_raw": "4,49.32,64.54,240.02,309.11",
+      "coords_groups": [
+        {
+          "page": 4,
+          "x": 49.32,
+          "y": 64.54,
+          "w": 240.02,
+          "h": 309.11,
+          "x2": 289.34000000000003,
+          "y2": 373.65000000000003
+        }
+      ],
+      "bbox": {
+        "page": 4,
+        "x1": 49.32,
+        "y1": 64.54,
+        "x2": 289.34000000000003,
+        "y2": 373.65000000000003,
+        "width": 240.02000000000004,
+        "height": 309.11
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 7,
+      "block_global_order": 7,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC5515506/fig_7.crop.png",
+      "image_cropped": true,
+      "image_zoom": 2.0
+    }
+  },
+  "equations": {},
+  "references": [
+    {
+      "title": "Iron status and its relations with oxidative damage and bone loss during long-duration space flight on the International Space Station",
+      "authors": [
+        "SRZwart",
+        "JLMorgan",
+        "SMSmith"
+      ],
+      "date": "2013",
+      "raw": "Iron status and its relations with oxidative damage and bone loss during long-duration space flight on the International Space Station\n\t\t\n\t\t\tSRZwart\n\t\t\n\t\t\n\t\t\tJLMorgan\n\t\t\n\t\t\n\t\t\tSMSmith\n\t\t\n\t\n\t\n\t\tAm J Clin Nutr\n\t\t\n\t\t\t98\n\t\t\t\n\t\t\t2013\n\t\t\n\t\n\tZwart SR, Morgan JL, Smith SM. Iron status and its relations with oxidative damage and bone loss during long-duration space flight on the International Space Station. Am J Clin Nutr 2013; 98: 217-223."
+    },
+    {
+      "title": "Bone mineral and lean tissue loss after long duration space flight",
+      "authors": [
+        "ALeblanc",
+        "VSchneider",
+        "LShackelford",
+        "SWest",
+        "VOganov",
+        "ABakulin"
+      ],
+      "date": "2000",
+      "raw": "Bone mineral and lean tissue loss after long duration space flight\n\t\t\n\t\t\tALeblanc\n\t\t\n\t\t\n\t\t\tVSchneider\n\t\t\n\t\t\n\t\t\tLShackelford\n\t\t\n\t\t\n\t\t\tSWest\n\t\t\n\t\t\n\t\t\tVOganov\n\t\t\n\t\t\n\t\t\tABakulin\n\t\t\n\t\n\t\n\t\tJ Musculoskelet Neuronal Interact\n\t\t\n\t\t\t1\n\t\t\t\n\t\t\t2000\n\t\t\n\t\n\tLeBlanc A, Schneider V, Shackelford L, West S, Oganov V, Bakulin A et al. Bone mineral and lean tissue loss after long duration space flight. J Musculoskelet Neuronal Interact 2000; 1: 157-160."
+    },
+    {
+      "title": "Prolonged space flight-induced alterations in the structure and function of human skeletal muscle fibres",
+      "authors": [
+        "RHFitts",
+        "SWTrappe",
+        "DLCostill",
+        "PMGallagher",
+        "ACCreer",
+        "PAColloton"
+      ],
+      "date": "2010",
+      "raw": "Prolonged space flight-induced alterations in the structure and function of human skeletal muscle fibres\n\t\t\n\t\t\tRHFitts\n\t\t\n\t\t\n\t\t\tSWTrappe\n\t\t\n\t\t\n\t\t\tDLCostill\n\t\t\n\t\t\n\t\t\tPMGallagher\n\t\t\n\t\t\n\t\t\tACCreer\n\t\t\n\t\t\n\t\t\tPAColloton\n\t\t\n\t\n\t\n\t\tJ Physiol\n\t\t\n\t\t\t588\n\t\t\t\n\t\t\t2010\n\t\t\n\t\n\tFitts RH, Trappe SW, Costill DL, Gallagher PM, Creer AC, Colloton PA et al. Pro- longed space flight-induced alterations in the structure and function of human skeletal muscle fibres. J Physiol 2010; 588: 3567-3592."
+    },
+    {
+      "title": "Effect of potassium citrate therapy on the risk of renal stone formation during spaceflight",
+      "authors": [
+        "PAWhitson",
+        "RAPietrzyk",
+        "JAJones",
+        "MNelman-Gonzalez",
+        "EKHudson",
+        "CFSams"
+      ],
+      "date": "2009",
+      "raw": "Effect of potassium citrate therapy on the risk of renal stone formation during spaceflight\n\t\t\n\t\t\tPAWhitson\n\t\t\n\t\t\n\t\t\tRAPietrzyk\n\t\t\n\t\t\n\t\t\tJAJones\n\t\t\n\t\t\n\t\t\tMNelman-Gonzalez\n\t\t\n\t\t\n\t\t\tEKHudson\n\t\t\n\t\t\n\t\t\tCFSams\n\t\t\n\t\n\t\n\t\tJ Urol\n\t\t\n\t\t\t182\n\t\t\t\n\t\t\t2009\n\t\t\n\t\n\tWhitson PA, Pietrzyk RA, Jones JA, Nelman-Gonzalez M, Hudson EK, Sams CF. Effect of potassium citrate therapy on the risk of renal stone formation during spaceflight. J Urol 2009; 182: 2490-2496."
+    },
+    {
+      "title": "Inhibition of bone formation during space flight",
+      "authors": [
+        "ERMorey",
+        "DJBaylink"
+      ],
+      "date": "1978",
+      "raw": "Inhibition of bone formation during space flight\n\t\t\n\t\t\tERMorey\n\t\t\n\t\t\n\t\t\tDJBaylink\n\t\t\n\t\n\t\n\t\tScience\n\t\t\n\t\t\t201\n\t\t\t\n\t\t\t1978\n\t\t\n\t\n\tMorey ER, Baylink DJ. Inhibition of bone formation during space flight. Science 1978; 201: 1138-1141."
+    },
+    {
+      "title": "Multilineage potential of adult human mesenchymal stem cells",
+      "authors": [
+        "MFPittenger",
+        "AMMackay",
+        "SCBeck",
+        "RKJaiswal",
+        "RDouglas",
+        "JDMosca"
+      ],
+      "date": "1999",
+      "raw": "Multilineage potential of adult human mesenchymal stem cells\n\t\t\n\t\t\tMFPittenger\n\t\t\n\t\t\n\t\t\tAMMackay\n\t\t\n\t\t\n\t\t\tSCBeck\n\t\t\n\t\t\n\t\t\tRKJaiswal\n\t\t\n\t\t\n\t\t\tRDouglas\n\t\t\n\t\t\n\t\t\tJDMosca\n\t\t\n\t\n\t\n\t\tScience\n\t\t\n\t\t\t284\n\t\t\t\n\t\t\t1999\n\t\t\n\t\n\tPittenger MF, Mackay AM, Beck SC, Jaiswal RK, Douglas R, Mosca JD et al. Multilineage potential of adult human mesenchymal stem cells. Science 1999; 284: 143-147."
+    },
+    {
+      "title": "Mesenchymal stem cells in bone development, bone repair, and skeletal regeneration therapy",
+      "authors": [
+        "SPBruder",
+        "DJFink",
+        "AICaplan"
+      ],
+      "date": "1994",
+      "raw": "Mesenchymal stem cells in bone development, bone repair, and skeletal regeneration therapy\n\t\t\n\t\t\tSPBruder\n\t\t\n\t\t\n\t\t\tDJFink\n\t\t\n\t\t\n\t\t\tAICaplan\n\t\t\n\t\n\t\n\t\tJ Cell Biochem\n\t\t\n\t\t\t56\n\t\t\t\n\t\t\t1994\n\t\t\n\t\n\tBruder SP, Fink DJ, Caplan AI. Mesenchymal stem cells in bone development, bone repair, and skeletal regeneration therapy. J Cell Biochem 1994; 56: 283-294."
+    },
+    {
+      "title": "Mesenchymal stem cells as trophic mediators",
+      "authors": [
+        "AICaplan",
+        "JEDennis"
+      ],
+      "date": "2006",
+      "raw": "Mesenchymal stem cells as trophic mediators\n\t\t\n\t\t\tAICaplan\n\t\t\n\t\t\n\t\t\tJEDennis\n\t\t\n\t\n\t\n\t\tJ Cell Biochem\n\t\t\n\t\t\t98\n\t\t\t\n\t\t\t2006\n\t\t\n\t\n\tCaplan AI, Dennis JE. Mesenchymal stem cells as trophic mediators. J Cell Biochem 2006; 98: 1076-1084."
+    },
+    {
+      "title": "Recognizing and optimizing flight opportunities with hardware and life sciences limitations",
+      "authors": [
+        "MWLuttges"
+      ],
+      "date": "1992",
+      "raw": "Recognizing and optimizing flight opportunities with hardware and life sciences limitations\n\t\t\n\t\t\tMWLuttges\n\t\t\n\t\n\t\n\t\tTrans Kans Acad Sci\n\t\t\n\t\t\t95\n\t\t\t\n\t\t\t1992\n\t\t\n\t\n\t9 Luttges MW. Recognizing and optimizing flight opportunities with hardware and life sciences limitations. Trans Kans Acad Sci 1992; 95: 76-86."
+    },
+    {
+      "title": "Cells in space-sounding rocket facilities for cell biology and biotechnology in microgravity",
+      "authors": [
+        "RHuijser",
+        "LAartman",
+        "HWillemsen"
+      ],
+      "date": "1990",
+      "raw": "Cells in space-sounding rocket facilities for cell biology and biotechnology in microgravity\n\t\t\n\t\t\tRHuijser\n\t\t\n\t\t\n\t\t\tLAartman\n\t\t\n\t\t\n\t\t\tHWillemsen\n\t\t\n\t\n\t\n\t\tEsa Sp Publ\n\t\t\n\t\t\t307\n\t\t\t\n\t\t\t1990\n\t\t\n\t\n\tHuijser R, Aartman L, Willemsen H. Cells in space-sounding rocket facilities for cell biology and biotechnology in microgravity. Esa Sp Publ 1990; 307: 455-466."
+    },
+    {
+      "title": "Parabolic flight induces changes in gene expression patterns in Arabidopsis thaliana",
+      "authors": [
+        "ALPaul",
+        "MSManak",
+        "JDMayfield",
+        "MFReyes",
+        "WBGurley",
+        "RJFerl"
+      ],
+      "date": "2011",
+      "raw": "Parabolic flight induces changes in gene expression patterns in Arabidopsis thaliana\n\t\t\n\t\t\tALPaul\n\t\t\n\t\t\n\t\t\tMSManak\n\t\t\n\t\t\n\t\t\tJDMayfield\n\t\t\n\t\t\n\t\t\tMFReyes\n\t\t\n\t\t\n\t\t\tWBGurley\n\t\t\n\t\t\n\t\t\tRJFerl\n\t\t\n\t\n\t\n\t\tAstrobiology\n\t\t\n\t\t\t11\n\t\t\t\n\t\t\t2011\n\t\t\n\t\n\tPaul AL, Manak MS, Mayfield JD, Reyes MF, Gurley WB, Ferl RJ. Parabolic flight induces changes in gene expression patterns in Arabidopsis thaliana. Astrobiology 2011; 11: 743-758."
+    },
+    {
+      "title": "Some history and use of the random positioning machine, RPM, in gravity related research",
+      "authors": [
+        "Jjwa Van Loon"
+      ],
+      "date": "2007",
+      "raw": "Some history and use of the random positioning machine, RPM, in gravity related research\n\t\t\n\t\t\tJjwaVan Loon\n\t\t\n\t\n\t\n\t\tAdv Space Res\n\t\t\n\t\t\t39\n\t\t\t\n\t\t\t2007\n\t\t\n\t\n\tvan Loon JJWA. Some history and use of the random positioning machine, RPM, in gravity related research. Adv Space Res 2007; 39: 1161-1165."
+    },
+    {
+      "title": "Comparative studies on gravisensitive protists on ground (2D and 3D clinostats) and in microgravity",
+      "authors": [
+        "RHemmersbach",
+        "SMStrauch",
+        "DSeibt",
+        "MSchuber"
+      ],
+      "date": "2006",
+      "raw": "Comparative studies on gravisensitive protists on ground (2D and 3D clinostats) and in microgravity\n\t\t\n\t\t\tRHemmersbach\n\t\t\n\t\t\n\t\t\tSMStrauch\n\t\t\n\t\t\n\t\t\tDSeibt\n\t\t\n\t\t\n\t\t\tMSchuber\n\t\t\n\t\n\t\n\t\tMicrogravity Sci Tec\n\t\t\n\t\t\t18\n\t\t\t\n\t\t\t2006\n\t\t\n\t\n\tHemmersbach R, Strauch SM, Seibt D, Schuber M. Comparative studies on grav- isensitive protists on ground (2D and 3D clinostats) and in microgravity. Micro- gravity Sci Tec 2006; 18: 257-259."
+    },
+    {
+      "title": "",
+      "authors": [
+        "DMKlaus"
+      ],
+      "date": "2001",
+      "raw": "DMKlaus\n\t\t\n\t\n\t\n\t\tClinostats and bioreactors. Gravitat Space Biol Bull\n\t\t\n\t\t\t14\n\t\t\t\n\t\t\t2001\n\t\t\n\t\n\tKlaus DM. Clinostats and bioreactors. Gravitat Space Biol Bull 2001; 14: 55-64."
+    },
+    {
+      "title": "Root-growth and statocyte polarity in lentil seedling roots grown in microgravity or on a slowly rotating clinostat",
+      "authors": [
+        "GLorenzi",
+        "GPerbal"
+      ],
+      "date": "1990",
+      "raw": "Root-growth and statocyte polarity in lentil seedling roots grown in microgravity or on a slowly rotating clinostat\n\t\t\n\t\t\tGLorenzi\n\t\t\n\t\t\n\t\t\tGPerbal\n\t\t\n\t\n\t\n\t\tPhysiol Plant\n\t\t\n\t\t\t78\n\t\t\t\n\t\t\t1990\n\t\t\n\t\n\tLorenzi G, Perbal G. Root-growth and statocyte polarity in lentil seedling roots grown in microgravity or on a slowly rotating clinostat. Physiol Plant 1990; 78: 532-537."
+    },
+    {
+      "title": "Enhanced robustness digital holographic microscopy for demanding environment of space biology",
+      "authors": [
+        "MFToy",
+        "SRichard",
+        "JKuhn",
+        "AFranco-Obregon",
+        "MEgli",
+        "CDepeursinge"
+      ],
+      "date": "2012",
+      "raw": "Enhanced robustness digital holographic microscopy for demanding environment of space biology\n\t\t\n\t\t\tMFToy\n\t\t\n\t\t\n\t\t\tSRichard\n\t\t\n\t\t\n\t\t\tJKuhn\n\t\t\n\t\t\n\t\t\tAFranco-Obregon\n\t\t\n\t\t\n\t\t\tMEgli\n\t\t\n\t\t\n\t\t\tCDepeursinge\n\t\t\n\t\n\t\n\t\tBiomed Opt Express\n\t\t\n\t\t\t3\n\t\t\t\n\t\t\t2012\n\t\t\n\t\n\tToy MF, Richard S, Kuhn J, Franco-Obregon A, Egli M, Depeursinge C. Enhanced robustness digital holographic microscopy for demanding environment of space biology. Biomed Opt Express 2012; 3: 313-326."
+    },
+    {
+      "title": "Microgravity potentiates stem cell proliferation while sustaining the capability of differentiation",
+      "authors": [
+        "LYuge",
+        "TKajiume",
+        "HTahara",
+        "YKawahara",
+        "CUmeda",
+        "RYoshimoto"
+      ],
+      "date": "2006",
+      "raw": "Microgravity potentiates stem cell proliferation while sustaining the capability of differentiation\n\t\t\n\t\t\tLYuge\n\t\t\n\t\t\n\t\t\tTKajiume\n\t\t\n\t\t\n\t\t\tHTahara\n\t\t\n\t\t\n\t\t\tYKawahara\n\t\t\n\t\t\n\t\t\tCUmeda\n\t\t\n\t\t\n\t\t\tRYoshimoto\n\t\t\n\t\n\t\n\t\tStem Cells Dev\n\t\t\n\t\t\t15\n\t\t\t\n\t\t\t2006\n\t\t\n\t\n\tYuge L, Kajiume T, Tahara H, Kawahara Y, Umeda C, Yoshimoto R et al. Micro- gravity potentiates stem cell proliferation while sustaining the capability of dif- ferentiation. Stem Cells Dev 2006; 15: 921-929."
+    },
+    {
+      "title": "The role of cytoskeleton in cell changes under condition of simulated microgravity",
+      "authors": [
+        "LBBuravkova",
+        "YARomanov"
+      ],
+      "date": "2001",
+      "raw": "The role of cytoskeleton in cell changes under condition of simulated microgravity\n\t\t\n\t\t\tLBBuravkova\n\t\t\n\t\t\n\t\t\tYARomanov\n\t\t\n\t\n\t\n\t\tActa Astronaut\n\t\t\n\t\t\t48\n\t\t\t\n\t\t\t2001\n\t\t\n\t\n\tBuravkova LB, Romanov YA. The role of cytoskeleton in cell changes under condition of simulated microgravity. Acta Astronaut 2001; 48: 647-650."
+    },
+    {
+      "title": "Influence of simulated microgravity on the activation of the small GTPase Rho involved in cytoskeletal formation--molecular cloning and sequencing of bovine leukemiaassociated guanine nucleotide exchange factor",
+      "authors": [
+        "AHigashibata",
+        "MImamizo-Sato",
+        "MSeki",
+        "TYamazaki",
+        "NIshioka"
+      ],
+      "date": "2006",
+      "raw": "Influence of simulated microgravity on the activation of the small GTPase Rho involved in cytoskeletal formation--molecular cloning and sequencing of bovine leukemiaassociated guanine nucleotide exchange factor\n\t\t\n\t\t\tAHigashibata\n\t\t\n\t\t\n\t\t\tMImamizo-Sato\n\t\t\n\t\t\n\t\t\tMSeki\n\t\t\n\t\t\n\t\t\tTYamazaki\n\t\t\n\t\t\n\t\t\tNIshioka\n\t\t\n\t\n\t\n\t\tBMC Biochem\n\t\t\n\t\t\t7\n\t\t\t19\n\t\t\t2006\n\t\t\n\t\n\tHigashibata A, Imamizo-Sato M, Seki M, Yamazaki T, Ishioka N. Influence of simulated microgravity on the activation of the small GTPase Rho involved in cytoskeletal formation--molecular cloning and sequencing of bovine leukemia- associated guanine nucleotide exchange factor. BMC Biochem 2006; 7: 19."
+    },
+    {
+      "title": "Simulated microgravity inhibits the proliferation and osteogenesis of rat bone marrow mesenchymal stem cells",
+      "authors": [
+        "ZQDai",
+        "RWang",
+        "SKLing",
+        "YMWan",
+        "YHLi"
+      ],
+      "date": "2007",
+      "raw": "Simulated microgravity inhibits the proliferation and osteogenesis of rat bone marrow mesenchymal stem cells\n\t\t\n\t\t\tZQDai\n\t\t\n\t\t\n\t\t\tRWang\n\t\t\n\t\t\n\t\t\tSKLing\n\t\t\n\t\t\n\t\t\tYMWan\n\t\t\n\t\t\n\t\t\tYHLi\n\t\t\n\t\n\t\n\t\tCell Prolif\n\t\t\n\t\t\t40\n\t\t\t\n\t\t\t2007\n\t\t\n\t\n\tDai ZQ, Wang R, Ling SK, Wan YM, Li YH. Simulated microgravity inhibits the proliferation and osteogenesis of rat bone marrow mesenchymal stem cells. Cell Prolif 2007; 40: 671-684."
+    },
+    {
+      "title": "Simulated microgravity using a rotary cell culture system promotes chondrogenesis of human adipose-derived mesenchymal stem cells via the p38 MAPK pathway",
+      "authors": [
+        "BYu",
+        "DYu",
+        "LCao",
+        "XZhao",
+        "TLong",
+        "GLiu"
+      ],
+      "date": "2011",
+      "raw": "Simulated microgravity using a rotary cell culture system promotes chondrogenesis of human adipose-derived mesenchymal stem cells via the p38 MAPK pathway\n\t\t\n\t\t\tBYu\n\t\t\n\t\t\n\t\t\tDYu\n\t\t\n\t\t\n\t\t\tLCao\n\t\t\n\t\t\n\t\t\tXZhao\n\t\t\n\t\t\n\t\t\tTLong\n\t\t\n\t\t\n\t\t\tGLiu\n\t\t\n\t\n\t\n\t\tBiochem Biophys Res Commun\n\t\t\n\t\t\t414\n\t\t\t\n\t\t\t2011\n\t\t\n\t\n\tYu B, Yu D, Cao L, Zhao X, Long T, Liu G et al. Simulated microgravity using a rotary cell culture system promotes chondrogenesis of human adipose-derived mesenchymal stem cells via the p38 MAPK pathway. Biochem Biophys Res Com- mun 2011; 414: 412-418."
+    },
+    {
+      "title": "The effect of simulated microgravity on human mesenchymal stem cells cultured in an osteogenic differentiation system: a bioinformatics study",
+      "authors": [
+        "DSheyn",
+        "GPelled",
+        "DNetanely",
+        "EDomany",
+        "DGazit"
+      ],
+      "date": "2010",
+      "raw": "The effect of simulated microgravity on human mesenchymal stem cells cultured in an osteogenic differentiation system: a bioinformatics study\n\t\t\n\t\t\tDSheyn\n\t\t\n\t\t\n\t\t\tGPelled\n\t\t\n\t\t\n\t\t\tDNetanely\n\t\t\n\t\t\n\t\t\tEDomany\n\t\t\n\t\t\n\t\t\tDGazit\n\t\t\n\t\n\t\n\t\tTissue Eng Part A\n\t\t\n\t\t\t16\n\t\t\t\n\t\t\t2010\n\t\t\n\t\n\tSheyn D, Pelled G, Netanely D, Domany E, Gazit D. The effect of simulated microgravity on human mesenchymal stem cells cultured in an osteogenic dif- ferentiation system: a bioinformatics study. Tissue Eng Part A 2010; 16: 3403-3412."
+    },
+    {
+      "title": "The impact of simulated and real microgravity on bone cells and mesenchymal stem cells",
+      "authors": [
+        "CUlbrich",
+        "MWehland",
+        "JPietsch",
+        "GAleshcheva",
+        "PWise",
+        "JVan Loon"
+      ],
+      "date": "2014. 2014",
+      "raw": "The impact of simulated and real microgravity on bone cells and mesenchymal stem cells\n\t\t\n\t\t\tCUlbrich\n\t\t\n\t\t\n\t\t\tMWehland\n\t\t\n\t\t\n\t\t\tJPietsch\n\t\t\n\t\t\n\t\t\tGAleshcheva\n\t\t\n\t\t\n\t\t\tPWise\n\t\t\n\t\t\n\t\t\tJVan Loon\n\t\t\n\t\n\t\n\t\tBioMed Res Int\n\t\t\n\t\t\t928507\n\t\t\t2014. 2014\n\t\t\n\t\n\tUlbrich C, Wehland M, Pietsch J, Aleshcheva G, Wise P, van Loon J et al. The impact of simulated and real microgravity on bone cells and mesenchymal stem cells. BioMed Res Int 2014; 2014: 928507."
+    },
+    {
+      "title": "Functional weightlessness during clinorotation of cell suspensions",
+      "authors": [
+        "DMKlaus",
+        "PTodd",
+        "ASchatz"
+      ],
+      "date": "1998",
+      "raw": "Functional weightlessness during clinorotation of cell suspensions\n\t\t\n\t\t\tDMKlaus\n\t\t\n\t\t\n\t\t\tPTodd\n\t\t\n\t\t\n\t\t\tASchatz\n\t\t\n\t\n\t\n\t\tAdv Space Res\n\t\t\n\t\t\t21\n\t\t\t\n\t\t\t1998\n\t\t\n\t\n\tKlaus DM, Todd P, Schatz A. Functional weightlessness during clinorotation of cell suspensions. Adv Space Res 1998; 21: 1315-1318."
+    },
+    {
+      "title": "Lab-on-chip clinorotation system for live-cell microscopy under simulated microgravity",
+      "authors": [
+        "AGYew",
+        "JAtencia",
+        "AHHsieh"
+      ],
+      "date": "2014",
+      "raw": "Lab-on-chip clinorotation system for live-cell microscopy under simulated microgravity\n\t\t\n\t\t\tAGYew\n\t\t\n\t\t\n\t\t\tJAtencia\n\t\t\n\t\t\n\t\t\tAHHsieh\n\t\t\n\t\n\t\n\t\tCell Mol Bioeng\n\t\t\n\t\t\t7\n\t\t\t\n\t\t\t2014\n\t\t\n\t\n\tYew AG, Atencia J, Hsieh AH. Lab-on-chip clinorotation system for live-cell microscopy under simulated microgravity. Cell Mol Bioeng 2014; 7: 165-170."
+    },
+    {
+      "title": "Comprehensive analysis of chemotactic factors for bone marrow mesenchymal stem cells",
+      "authors": [
+        "YOzaki",
+        "MNishimura",
+        "KSekiya",
+        "FSuehiro",
+        "MKanawa",
+        "HNikawa"
+      ],
+      "date": "2007",
+      "raw": "Comprehensive analysis of chemotactic factors for bone marrow mesenchymal stem cells\n\t\t\n\t\t\tYOzaki\n\t\t\n\t\t\n\t\t\tMNishimura\n\t\t\n\t\t\n\t\t\tKSekiya\n\t\t\n\t\t\n\t\t\tFSuehiro\n\t\t\n\t\t\n\t\t\tMKanawa\n\t\t\n\t\t\n\t\t\tHNikawa\n\t\t\n\t\n\t\n\t\tStem Cells Dev\n\t\t\n\t\t\t16\n\t\t\t\n\t\t\t2007\n\t\t\n\t\n\tOzaki Y, Nishimura M, Sekiya K, Suehiro F, Kanawa M, Nikawa H et al. Compre- hensive analysis of chemotactic factors for bone marrow mesenchymal stem cells. Stem Cells Dev 2007; 16: 119-129."
+    },
+    {
+      "title": "Isolation of bone marrow mesenchymal stem cells by anti-nerve growth factor receptor antibodies",
+      "authors": [
+        "NQuirici",
+        "DSoligo",
+        "PBossolasco",
+        "FServida",
+        "CLumini",
+        "GLDeliliers"
+      ],
+      "date": "2002",
+      "raw": "Isolation of bone marrow mesenchymal stem cells by anti-nerve growth factor receptor antibodies\n\t\t\n\t\t\tNQuirici\n\t\t\n\t\t\n\t\t\tDSoligo\n\t\t\n\t\t\n\t\t\tPBossolasco\n\t\t\n\t\t\n\t\t\tFServida\n\t\t\n\t\t\n\t\t\tCLumini\n\t\t\n\t\t\n\t\t\tGLDeliliers\n\t\t\n\t\n\t\n\t\tExp Hematol\n\t\t\n\t\t\t30\n\t\t\t\n\t\t\t2002\n\t\t\n\t\n\tQuirici N, Soligo D, Bossolasco P, Servida F, Lumini C, Deliliers GL. Isolation of bone marrow mesenchymal stem cells by anti-nerve growth factor receptor antibodies. Exp Hematol 2002; 30: 783-791."
+    },
+    {
+      "title": "Transplantation of human mesenchymal stem cells promotes functional improvement and increased expression of neurotrophic factors in a rat focal cerebral ischemia model",
+      "authors": [
+        "KWakabayashi",
+        "ANagai",
+        "AMSheikh",
+        "YShiota",
+        "DNarantuya",
+        "TWatanabe"
+      ],
+      "date": "2010",
+      "raw": "Transplantation of human mesenchymal stem cells promotes functional improvement and increased expression of neurotrophic factors in a rat focal cerebral ischemia model\n\t\t\n\t\t\tKWakabayashi\n\t\t\n\t\t\n\t\t\tANagai\n\t\t\n\t\t\n\t\t\tAMSheikh\n\t\t\n\t\t\n\t\t\tYShiota\n\t\t\n\t\t\n\t\t\tDNarantuya\n\t\t\n\t\t\n\t\t\tTWatanabe\n\t\t\n\t\n\t\n\t\tJ Neurosci Res\n\t\t\n\t\t\t88\n\t\t\t\n\t\t\t2010\n\t\t\n\t\n\tWakabayashi K, Nagai A, Sheikh AM, Shiota Y, Narantuya D, Watanabe T et al. Transplantation of human mesenchymal stem cells promotes functional improvement and increased expression of neurotrophic factors in a rat focal cerebral ischemia model. J Neurosci Res 2010; 88: 1017-1025."
+    },
+    {
+      "title": "Single classification analysis of variance: finding the sample size required for a test",
+      "authors": [
+        "RRSokal",
+        "FJRohlf"
+      ],
+      "date": "1995",
+      "raw": "Single classification analysis of variance: finding the sample size required for a test\n\t\t\n\t\t\tRRSokal\n\t\t\n\t\t\n\t\t\tFJRohlf\n\t\t\n\t\n\t\n\t\tBiometry\n\t\t\n\t\t\t3\n\t\t\t\n\t\t\t1995\n\t\t\tW. H. Freeman and Co\n\t\t\tNew York City, NY, USA\n\t\t\n\t\n\tSokal RR, Rohlf FJ. Single classification analysis of variance: finding the sample size required for a test. Biometry, 3rd (edn). W. H. Freeman and Co.: New York City, NY, USA, 1995; 260-265."
+    },
+    {
+      "title": "Migration of bone marrow and cord blood mesenchymal stem cells in vitro is regulated by stromal-derived factor-1-CXCR4 and hepatocyte growth factor-c-met axes and involves matrix metalloproteinases",
+      "authors": [
+        "BRSon",
+        "LAMarquez-Curtis",
+        "MKucia",
+        "MWysoczynski",
+        "ARTurner",
+        "JRatajczak"
+      ],
+      "date": "2006",
+      "raw": "Migration of bone marrow and cord blood mesenchymal stem cells in vitro is regulated by stromal-derived factor-1-CXCR4 and hepatocyte growth factor-c-met axes and involves matrix metalloproteinases\n\t\t\n\t\t\tBRSon\n\t\t\n\t\t\n\t\t\tLAMarquez-Curtis\n\t\t\n\t\t\n\t\t\tMKucia\n\t\t\n\t\t\n\t\t\tMWysoczynski\n\t\t\n\t\t\n\t\t\tARTurner\n\t\t\n\t\t\n\t\t\tJRatajczak\n\t\t\n\t\n\t\n\t\tStem Cells\n\t\t\n\t\t\t24\n\t\t\t\n\t\t\t2006\n\t\t\n\t\n\tSon BR, Marquez-Curtis LA, Kucia M, Wysoczynski M, Turner AR, Ratajczak J et al. Migration of bone marrow and cord blood mesenchymal stem cells in vitro is regulated by stromal-derived factor-1-CXCR4 and hepatocyte growth factor-c-met axes and involves matrix metalloproteinases. Stem Cells 2006; 24: 1254-1264."
+    },
+    {
+      "title": "Culture in vectoraveraged gravity under clinostat rotation results in apoptosis of osteoblastic ROS 17/2.8 cells",
+      "authors": [
+        "DSarkar",
+        "TNagaya",
+        "KKoga",
+        "YNomura",
+        "RGruener",
+        "HSeo"
+      ],
+      "date": "2000",
+      "raw": "Culture in vectoraveraged gravity under clinostat rotation results in apoptosis of osteoblastic ROS 17/2.8 cells\n\t\t\n\t\t\tDSarkar\n\t\t\n\t\t\n\t\t\tTNagaya\n\t\t\n\t\t\n\t\t\tKKoga\n\t\t\n\t\t\n\t\t\tYNomura\n\t\t\n\t\t\n\t\t\tRGruener\n\t\t\n\t\t\n\t\t\tHSeo\n\t\t\n\t\n\t\n\t\tJ Bone Miner Res\n\t\t\n\t\t\t15\n\t\t\t\n\t\t\t2000\n\t\t\n\t\n\tSarkar D, Nagaya T, Koga K, Nomura Y, Gruener R, Seo H. Culture in vector- averaged gravity under clinostat rotation results in apoptosis of osteoblastic ROS 17/2.8 cells. J Bone Miner Res 2000; 15: 489-498."
+    },
+    {
+      "title": "Escherichia coli growth under modeled reduced gravity",
+      "authors": [
+        "PWBaker",
+        "MLMeyer",
+        "LGLeff"
+      ],
+      "date": "2004",
+      "raw": "Escherichia coli growth under modeled reduced gravity\n\t\t\n\t\t\tPWBaker\n\t\t\n\t\t\n\t\t\tMLMeyer\n\t\t\n\t\t\n\t\t\tLGLeff\n\t\t\n\t\n\t\n\t\tMicrogravity Sci Technol\n\t\t\n\t\t\t15\n\t\t\t\n\t\t\t2004\n\t\t\n\t\n\tBaker PW, Meyer ML, Leff LG. Escherichia coli growth under modeled reduced gravity. Microgravity Sci Technol 2004; 15: 39-44."
+    },
+    {
+      "title": "RhoGTPases as key players in mammalian cell adaptation to microgravity",
+      "authors": [
+        "FLouis",
+        "CDeroanne",
+        "BNusgens",
+        "LVico",
+        "AGuignandon"
+      ],
+      "date": "2015. 2015",
+      "raw": "RhoGTPases as key players in mammalian cell adaptation to microgravity\n\t\t\n\t\t\tFLouis\n\t\t\n\t\t\n\t\t\tCDeroanne\n\t\t\n\t\t\n\t\t\tBNusgens\n\t\t\n\t\t\n\t\t\tLVico\n\t\t\n\t\t\n\t\t\tAGuignandon\n\t\t\n\t\n\t\n\t\tBioMed Res Int\n\t\t\n\t\t\t747693\n\t\t\t2015. 2015\n\t\t\n\t\n\tLouis F, Deroanne C, Nusgens B, Vico L, Guignandon A. RhoGTPases as key players in mammalian cell adaptation to microgravity. BioMed Res Int 2015; 2015: 747693."
+    },
+    {
+      "title": "Simulated microgravity inhibits L-type calcium channel currents partially by the up-regulation of miR-103 in MC3T3-E1 osteoblasts",
+      "authors": [
+        "ZSun",
+        "XCao",
+        "ZZhang",
+        "ZHu",
+        "LZhang",
+        "HWang"
+      ],
+      "date": "2015",
+      "raw": "Simulated microgravity inhibits L-type calcium channel currents partially by the up-regulation of miR-103 in MC3T3-E1 osteoblasts\n\t\t\n\t\t\tZSun\n\t\t\n\t\t\n\t\t\tXCao\n\t\t\n\t\t\n\t\t\tZZhang\n\t\t\n\t\t\n\t\t\tZHu\n\t\t\n\t\t\n\t\t\tLZhang\n\t\t\n\t\t\n\t\t\tHWang\n\t\t\n\t\n\t\n\t\tSci Rep\n\t\t\n\t\t\t5\n\t\t\t8077\n\t\t\t2015\n\t\t\n\t\n\tSun Z, Cao X, Zhang Z, Hu Z, Zhang L, Wang H et al. Simulated microgravity inhibits L-type calcium channel currents partially by the up-regulation of miR-103 in MC3T3-E1 osteoblasts. Sci Rep 2015; 5: 8077."
+    },
+    {
+      "title": "High throughput fluorescent screening of membrane potential and intracellular calcium concentration under variable gravity conditions",
+      "authors": [
+        "Fpm Kohn"
+      ],
+      "date": "2013",
+      "raw": "High throughput fluorescent screening of membrane potential and intracellular calcium concentration under variable gravity conditions\n\t\t\n\t\t\tFpmKohn\n\t\t\n\t\n\t\n\t\tMicrogravity Sci Tec\n\t\t\n\t\t\t25\n\t\t\t\n\t\t\t2013\n\t\t\n\t\n\tKohn FPM. High throughput fluorescent screening of membrane potential and intracellular calcium concentration under variable gravity conditions. Microgravity Sci Tec 2013; 25: 113-120."
+    },
+    {
+      "title": "Nuclear betacatenin in mesenchymal tumors",
+      "authors": [
+        "TLNg",
+        "AMGown",
+        "TSBarry",
+        "MCCheang",
+        "AKChan",
+        "DATurbin"
+      ],
+      "date": "2005",
+      "raw": "Nuclear betacatenin in mesenchymal tumors\n\t\t\n\t\t\tTLNg\n\t\t\n\t\t\n\t\t\tAMGown\n\t\t\n\t\t\n\t\t\tTSBarry\n\t\t\n\t\t\n\t\t\tMCCheang\n\t\t\n\t\t\n\t\t\tAKChan\n\t\t\n\t\t\n\t\t\tDATurbin\n\t\t\n\t\n\t\n\t\tMod Pathol\n\t\t\n\t\t\t18\n\t\t\t\n\t\t\t2005\n\t\t\n\t\n\tNg TL, Gown AM, Barry TS, Cheang MC, Chan AK, Turbin DA et al. Nuclear beta- catenin in mesenchymal tumors. Mod Pathol 2005; 18: 68-74."
+    },
+    {
+      "title": "Modeled microgravity causes changes in the cytoskeleton and focal adhesions, and decreases in migration in malignant human MCF-7 cells",
+      "authors": [
+        "JLi",
+        "SZhang",
+        "JChen",
+        "TDu",
+        "YWang",
+        "ZWang"
+      ],
+      "date": "2009",
+      "raw": "Modeled microgravity causes changes in the cytoskeleton and focal adhesions, and decreases in migration in malignant human MCF-7 cells\n\t\t\n\t\t\tJLi\n\t\t\n\t\t\n\t\t\tSZhang\n\t\t\n\t\t\n\t\t\tJChen\n\t\t\n\t\t\n\t\t\tTDu\n\t\t\n\t\t\n\t\t\tYWang\n\t\t\n\t\t\n\t\t\tZWang\n\t\t\n\t\n\t\n\t\tProtoplasma\n\t\t\n\t\t\t238\n\t\t\t\n\t\t\t2009\n\t\t\n\t\n\tLi J, Zhang S, Chen J, Du T, Wang Y, Wang Z. Modeled microgravity causes changes in the cytoskeleton and focal adhesions, and decreases in migration in malignant human MCF-7 cells. Protoplasma 2009; 238: 23-33."
+    },
+    {
+      "title": "Optimized suspension culture: the rotatingwall vessel",
+      "authors": [
+        "TGHammond",
+        "JMHammond"
+      ],
+      "date": "2001",
+      "raw": "Optimized suspension culture: the rotatingwall vessel\n\t\t\n\t\t\tTGHammond\n\t\t\n\t\t\n\t\t\tJMHammond\n\t\t\n\t\n\t\n\t\tAm J Physiol Renal Physiol\n\t\t\n\t\t\t281\n\t\t\t\n\t\t\t2001\n\t\t\n\t\n\tHammond TG, Hammond JM. Optimized suspension culture: the rotating- wall vessel. Am J Physiol Renal Physiol 2001; 281: F12-F25."
+    },
+    {
+      "title": "Morphologybased prediction of osteogenic differentiation potential of human mesenchymal stem cells",
+      "authors": [
+        "FMatsuoka",
+        "ITakeuchi",
+        "HAgata",
+        "HKagami",
+        "HShiono",
+        "YKiyota"
+      ],
+      "date": "2013",
+      "raw": "Morphologybased prediction of osteogenic differentiation potential of human mesenchymal stem cells\n\t\t\n\t\t\tFMatsuoka\n\t\t\n\t\t\n\t\t\tITakeuchi\n\t\t\n\t\t\n\t\t\tHAgata\n\t\t\n\t\t\n\t\t\tHKagami\n\t\t\n\t\t\n\t\t\tHShiono\n\t\t\n\t\t\n\t\t\tYKiyota\n\t\t\n\t\n\t\n\t\tPloS One\n\t\t\n\t\t\t8\n\t\t\t55082\n\t\t\t2013\n\t\t\n\t\n\tMatsuoka F, Takeuchi I, Agata H, Kagami H, Shiono H, Kiyota Y et al. Morphology- based prediction of osteogenic differentiation potential of human mesenchymal stem cells. PloS One 2013; 8: e55082."
+    },
+    {
+      "title": "Mechanical stimuli differentially control stem cell behavior: morphology, proliferation, and differentiation",
+      "authors": [
+        "TMMaul",
+        "DWChew",
+        "ANieponice",
+        "DAVorp"
+      ],
+      "date": "2011",
+      "raw": "Mechanical stimuli differentially control stem cell behavior: morphology, proliferation, and differentiation\n\t\t\n\t\t\tTMMaul\n\t\t\n\t\t\n\t\t\tDWChew\n\t\t\n\t\t\n\t\t\tANieponice\n\t\t\n\t\t\n\t\t\tDAVorp\n\t\t\n\t\n\t\n\t\tBiomech Model Mechanobiol\n\t\t\n\t\t\t10\n\t\t\t\n\t\t\t2011\n\t\t\n\t\n\tMaul TM, Chew DW, Nieponice A, Vorp DA. Mechanical stimuli differentially control stem cell behavior: morphology, proliferation, and differentiation. Biomech Model Mechanobiol 2011; 10: 939-953."
+    },
+    {
+      "title": "Geometric cues for directing the differentiation of mesenchymal stem cells",
+      "authors": [
+        "KAKilian",
+        "BBugarija",
+        "BTLahn",
+        "MMrksich"
+      ],
+      "date": "2010",
+      "raw": "Geometric cues for directing the differentiation of mesenchymal stem cells\n\t\t\n\t\t\tKAKilian\n\t\t\n\t\t\n\t\t\tBBugarija\n\t\t\n\t\t\n\t\t\tBTLahn\n\t\t\n\t\t\n\t\t\tMMrksich\n\t\t\n\t\n\t\n\t\tProc Natl Acad Sci\n\t\t\n\t\t\t107\n\t\t\t\n\t\t\t2010\n\t\t\tUSA\n\t\t\n\t\n\tKilian KA, Bugarija B, Lahn BT, Mrksich M. Geometric cues for directing the differentiation of mesenchymal stem cells. Proc Natl Acad Sci USA 2010; 107: 4872-4877."
+    },
+    {
+      "title": "Cell shape, cytoskeletal tension, and RhoA regulate stem cell lineage commitment",
+      "authors": [
+        "RMcbeath",
+        "DMPirone",
+        "CMNelson",
+        "KBhadriraju",
+        "CSChen"
+      ],
+      "date": "2004",
+      "raw": "Cell shape, cytoskeletal tension, and RhoA regulate stem cell lineage commitment\n\t\t\n\t\t\tRMcbeath\n\t\t\n\t\t\n\t\t\tDMPirone\n\t\t\n\t\t\n\t\t\tCMNelson\n\t\t\n\t\t\n\t\t\tKBhadriraju\n\t\t\n\t\t\n\t\t\tCSChen\n\t\t\n\t\n\t\n\t\tDev Cell\n\t\t\n\t\t\t6\n\t\t\t\n\t\t\t2004\n\t\t\n\t\n\tMcBeath R, Pirone DM, Nelson CM, Bhadriraju K, Chen CS. Cell shape, cytoskeletal tension, and RhoA regulate stem cell lineage commitment. Dev Cell 2004; 6: 483-495."
+    },
+    {
+      "title": "The effect of simulated microgravity by three-dimensional clinostat on bone tissue engineering",
+      "authors": [
+        "MNishikawa",
+        "HOhgushi",
+        "NTamai",
+        "KOsuga",
+        "MUemura",
+        "HYoshikawa"
+      ],
+      "date": "2005",
+      "raw": "The effect of simulated microgravity by three-dimensional clinostat on bone tissue engineering\n\t\t\n\t\t\tMNishikawa\n\t\t\n\t\t\n\t\t\tHOhgushi\n\t\t\n\t\t\n\t\t\tNTamai\n\t\t\n\t\t\n\t\t\tKOsuga\n\t\t\n\t\t\n\t\t\tMUemura\n\t\t\n\t\t\n\t\t\tHYoshikawa\n\t\t\n\t\n\t\n\t\tCell Transplant\n\t\t\n\t\t\t14\n\t\t\t\n\t\t\t2005\n\t\t\n\t\n\tNishikawa M, Ohgushi H, Tamai N, Osuga K, Uemura M, Yoshikawa H et al. The effect of simulated microgravity by three-dimensional clinostat on bone tissue engineering. Cell Transplant 2005; 14: 829-835."
+    },
+    {
+      "title": "The effect of the microgravity rotating culture system on the chondrogenic differentiation of bone marrow mesenchymal stem cells",
+      "authors": [
+        "XWu",
+        "SHLi",
+        "LMLou",
+        "ZRChen"
+      ],
+      "date": "2013",
+      "raw": "The effect of the microgravity rotating culture system on the chondrogenic differentiation of bone marrow mesenchymal stem cells\n\t\t\n\t\t\tXWu\n\t\t\n\t\t\n\t\t\tSHLi\n\t\t\n\t\t\n\t\t\tLMLou\n\t\t\n\t\t\n\t\t\tZRChen\n\t\t\n\t\n\t\n\t\tMol Biotechnol\n\t\t\n\t\t\t54\n\t\t\t\n\t\t\t2013\n\t\t\n\t\n\tWu X, Li SH, Lou LM, Chen ZR. The effect of the microgravity rotating culture system on the chondrogenic differentiation of bone marrow mesenchymal stem cells. Mol Biotechnol 2013; 54: 331-336."
+    },
+    {
+      "title": "Model microgravity enhances endothelium differentiation of mesenchymal stem cells",
+      "authors": [
+        "XZhang",
+        "Nan YWang",
+        "HChen",
+        "JWang",
+        "NXie",
+        "J"
+      ],
+      "date": "2013",
+      "raw": "Model microgravity enhances endothelium differentiation of mesenchymal stem cells\n\t\t\n\t\t\tXZhang\n\t\t\n\t\t\n\t\t\tNanYWang\n\t\t\n\t\t\n\t\t\tHChen\n\t\t\n\t\t\n\t\t\tJWang\n\t\t\n\t\t\n\t\t\tNXie\n\t\t\n\t\t\n\t\t\tJ\n\t\t\n\t\n\t\n\t\tNaturwissenschaften\n\t\t\n\t\t\t100\n\t\t\t\n\t\t\t2013\n\t\t\n\t\n\tZhang X, Nan Y, Wang H, Chen J, Wang N, Xie J et al. Model microgravity enhances endothelium differentiation of mesenchymal stem cells. Naturwissenschaften 2013; 100: 125-133."
+    },
+    {
+      "title": "Enhancement of osteogenic differentiation and proliferation in human mesenchymal stem cells by a modified low intensity ultrasound stimulation under simulated microgravity",
+      "authors": [
+        "SMUddin",
+        "YXQin"
+      ],
+      "date": "2013",
+      "raw": "Enhancement of osteogenic differentiation and proliferation in human mesenchymal stem cells by a modified low intensity ultrasound stimulation under simulated microgravity\n\t\t\n\t\t\tSMUddin\n\t\t\n\t\t\n\t\t\tYXQin\n\t\t\n\t\n\t\n\t\tPloS One\n\t\t\n\t\t\t8\n\t\t\t73914\n\t\t\t2013\n\t\t\n\t\n\tUddin SM, Qin YX. Enhancement of osteogenic differentiation and proliferation in human mesenchymal stem cells by a modified low intensity ultrasound stimulation under simulated microgravity. PloS One 2013; 8: e73914."
+    },
+    {
+      "title": "Modeled microgravity inhibits osteogenic differentiation of human mesenchymal stem cells and increases adipogenesis",
+      "authors": [
+        "MZayzafoon",
+        "WEGathings",
+        "JMMcdonald"
+      ],
+      "date": "2004",
+      "raw": "Modeled microgravity inhibits osteogenic differentiation of human mesenchymal stem cells and increases adipogenesis\n\t\t\n\t\t\tMZayzafoon\n\t\t\n\t\t\n\t\t\tWEGathings\n\t\t\n\t\t\n\t\t\tJMMcdonald\n\t\t\n\t\n\t\n\t\tEndocrinology\n\t\t\n\t\t\t145\n\t\t\t\n\t\t\t2004\n\t\t\n\t\n\tZayzafoon M, Gathings WE, McDonald JM. Modeled microgravity inhibits osteo- genic differentiation of human mesenchymal stem cells and increases adipo- genesis. Endocrinology 2004; 145: 2421-2432."
+    },
+    {
+      "title": "Osteoblast and osteoclast differentiation in modeled microgravity",
+      "authors": [
+        "RSaxena",
+        "GPan",
+        "JMMcdonald"
+      ],
+      "date": "2007",
+      "raw": "Osteoblast and osteoclast differentiation in modeled microgravity\n\t\t\n\t\t\tRSaxena\n\t\t\n\t\t\n\t\t\tGPan\n\t\t\n\t\t\n\t\t\tJMMcdonald\n\t\t\n\t\n\t\n\t\tAnn N Y Acad Sci\n\t\t\n\t\t\t1116\n\t\t\t\n\t\t\t2007\n\t\t\n\t\n\tSaxena R, Pan G, McDonald JM. Osteoblast and osteoclast differentiation in modeled microgravity. Ann N Y Acad Sci 2007; 1116: 494-498."
+    },
+    {
+      "title": "Modeled microgravity disrupts collagen I/integrin signaling during osteoblastic differentiation of human mesenchymal stem cells",
+      "authors": [
+        "VEMeyers",
+        "MZayzafoon",
+        "SRGonda",
+        "WEGathings",
+        "JMMcdonald"
+      ],
+      "date": "2004",
+      "raw": "Modeled microgravity disrupts collagen I/integrin signaling during osteoblastic differentiation of human mesenchymal stem cells\n\t\t\n\t\t\tVEMeyers\n\t\t\n\t\t\n\t\t\tMZayzafoon\n\t\t\n\t\t\n\t\t\tSRGonda\n\t\t\n\t\t\n\t\t\tWEGathings\n\t\t\n\t\t\n\t\t\tJMMcdonald\n\t\t\n\t\n\t\n\t\tJ Cell Biochem\n\t\t\n\t\t\t93\n\t\t\t\n\t\t\t2004\n\t\t\n\t\n\tMeyers VE, Zayzafoon M, Gonda SR, Gathings WE, McDonald JM. Modeled microgravity disrupts collagen I/integrin signaling during osteoblastic differentiation of human mesenchymal stem cells. J Cell Biochem 2004; 93: 697-707."
+    },
+    {
+      "title": "This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. The images or other third party material in this article are included in the article's Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material",
+      "authors": [
+        "JChen",
+        "RRLiu",
+        "YYang",
+        "JLi",
+        "XFZhang",
+        "JCLi"
+      ],
+      "date": "2011",
+      "raw": "This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. The images or other third party material in this article are included in the article's Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material\n\t\t\n\t\t\tJChen\n\t\t\n\t\t\n\t\t\tRRLiu\n\t\t\n\t\t\n\t\t\tYYang\n\t\t\n\t\t\n\t\t\tJLi\n\t\t\n\t\t\n\t\t\tXFZhang\n\t\t\n\t\t\n\t\t\tJCLi\n\t\t\n\t\t\n\t\n\t\n\t\tNeurosci Lett\n\t\t\n\t\t\t505\n\t\t\t\n\t\t\t2011\n\t\t\n\t\n\tThe simulated microgravity enhances the differentiation of mesenchymal stem cells into neurons\n\tChen J, Liu RR, Yang Y, Li J, Zhang XF, Li JC et al. The simulated microgravity enhances the differentiation of mesenchymal stem cells into neurons. Neurosci Lett 2011; 505: 171-175. This work is licensed under a Creative Commons Attribution- NonCommercial-NoDerivatives 4.0 International License. The images or other third party material in this article are included in the article's Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit http:// creativecommons.org/licenses/by-nc-nd/4.0/"
+    }
+  ],
+  "footnotes": [
+    {
+      "id": "foot_0",
+      "n": null,
+      "text": "npj Microgravity (2015) 15007 © 2015 Macmillan Publishers Limited"
+    },
+    {
+      "id": "foot_1",
+      "n": null,
+      "text": "© 2015 Macmillan Publishers Limited npj Microgravity (2015) 15007"
+    },
+    {
+      "id": "foot_2",
+      "n": null,
+      "text": "CL, AY, AH conceived the project and analyzed the data, CL performed the experiments, AY developed the lab-on-chip clinostat, and all authors contributed to writing of the manuscript."
+    }
+  ],
+  "full_text": "To determine the short-term effects of simulated microgravity on mesenchymal stem cell behaviors-as a function of clinorotation speed-using time-lapse microscopy.BACKGROUND: Ground-based microgravity simulation can reproduce the apparent effects of weightlessness in spaceflight using clinostats that continuously reorient the gravity vector on a specimen, creating a time-averaged nullification of gravity.In this work, we investigated the effects of clinorotation speed on the morphology, cytoarchitecture, and migration behavior of human mesenchymal stem cells (hMSCs).METHODS: We compared cell responses at clinorotation speeds of 0, 30, 60, and 75 rpm over 8 h in a recently developed lab-onchip-based clinostat system.Time-lapse light microscopy was used to visualize changes in cell morphology during and after cessation of clinorotation.Cytoarchitecture was assessed by actin and vinculin staining, and chemotaxis was examined using timelapse light microscopy of cells in NGF (100 ng/ml) gradients.RESULTS: Among clinorotated groups, cell area distributions indicated a greater inhibition of cell spreading with higher angular frequency (P o 0.005), though average cell area at 30 rpm after 8 h became statistically similar to control (P = 0.794).Cells at 75 rpm clinorotation remained viable and were able to re-spread after clinorotation.In chemotaxis chambers, clinorotation did not alter migration patterns in elongated cells, but most clinorotated cells exhibited cell retraction, which strongly compromised motility.CONCLUSIONS: These results indicate that hMSCs respond to clinorotation by adopting more rounded, less-spread morphologies.The angular frequency-dependence suggests that a cell's ability to sense the changing gravity vector is governed by the rate of perturbation.For migration studies, cells cultured in clinorotated chemotaxis chambers were generally less motile and exhibited retraction instead of migration.\n\nIntricate multi-scale interactions among cells, tissues, and organs fundamentally govern human health, which has evolved on Earth under a constant gravitational load of 1 g (9.8 m/s 2 ).The biological mechanisms underlying the role of gravity in human health remain poorly understood, but their elucidation is necessary for enabling long-term manned space exploration.Numerous studies, supported by the National Aeronautics and Space Administration and other space agencies, have shown deleterious effects of space travel on the human body, such as accelerated bone loss, 1,2 muscle tissue degeneration, 3 and others. 4Importantly, these observations may have broader implications beyond spaceflight applications to provide a more detailed understanding of diseases on Earth.In particular, the musculoskeletal system has historically been a focal point in space biology research, because of the strikingly adverse changes that occur in astronauts. 5More recently, studies have begun to investigate mesenchymal stem cells for their roles in musculoskeletal lineage determination, 6 bone repair, 7 and tissue maintenance. 8lthough the most relevant environment for performing microgravity research is in space, competition to use space-based facilities, like the International Space Station, is fierce and is further complicated by substantial time and resource investments. 9As a result, lower-cost and logistically simpler alternatives are attractive and include sounding rockets 10 and parabolic flights, 11 or in-lab devices such as random positioning machines 12 and clinorotation devices (clinostats) 13 to simulate microgravity.The selection of a specific technique usually depends on accessibility, cost, experimental design, and research question.Clinostats are among the most accessible methods to simulate microgravity, and they allow researchers to study living cells using standard laboratory tissue culture supplies. 14linorotation experiments have provided significant insight into the behavior of biological organisms in space.The technique was originally developed to study gravitropism in plant development, and has revealed that gravity serves a key role in statocyte function, which is believed to be directly involved in plant gravisensing and growth patterns. 15In animal and human cells, clinorotation has been used to recreate experiments that would otherwise be challenging to perform in space, such as highresolution microscopy 16 and assessment of stem cell differentiation. 17Cellular changes in microgravity have been associated with disruptions in the cytoskeleton and, consequently, changes in cell morphology and behavior. 18,19lthough clinorotation is a standard ground-based tool, previously reported studies on the effects of simulated microgravity in mesenchymal stem cells have yielded conflicting findings (Table 1).For instance, some researchers have shown that microgravity enhances proliferation, 17 whereas others have demonstrated inhibition. 20Chondrogenic differentiation has also been found to be either promoted 21 or suppressed. 22Similar inconsistencies have also been highlighted in a recent review. 23ome of these observed discrepancies could be due to differences in culture media formulation and cell source, but it is also possible that the choice of clinorotation parameters used for an experiment may substantially influence cell behavior.\nA two-dimensional clinostat rotates a sample along the longitudinal axis to produce a time-averaged nullification of the gravity vector.Theoretically speaking, to simulate microgravity effectively, the period of rotation should be shorter than some time constant that governs the rate processes involved in the cellular gravisensing machinery that enable a cell to 'perceive' and respond to the changing trajectory of the gravity vector.For conventional clinostats, however, there are also practical considerations that limit the angular frequency of rotation. 24pecifically, rotation speed must be adjusted to balance sedimentation forces, centrifugal and Coriolis effects, and Stokes' drag.Because of these constraints, the parameters of angular rotation depend on the particular design and implementation of each experimental system.\nTo minimize the effects of these extrinsic stimuli, we recently developed a lab-on-chip clinorotation device (clinochip, Figure 1a) that confines adhered cells within a small region along the axis of rotation, limiting residual accelerations to levels below 10 -4 g at different rotation speeds. 25Moreover, the clinochip is amenable to time-lapse microscopy, which enables us to characterize the kinetics of cell spreading, changes in morphology, and migration with minimal disruption to the simulated microgravity environment.In this study, we used this device to investigate how angular frequency affects human mesenchymal stem cell (hMSC) behavior.On the basis of the concept that there are specific rate processes that govern cellular gravisensing (Figure 1b), we hypothesize that hMSCs would exhibit angular frequency-dependent responses.The results of this work demonstrate that hMSCs can in fact 'detect' differences in rotation speed in a manner that causes heterogeneous population shifts toward more rounded morphologies and retraction of cell area.This could have significant implications on our basic understanding of stem cell regulation as well as on strategies that are being used in stem cell-based applications.\n\nhMSCs were obtained from a commercial source (PT-2501, Lonza, Walkersville, MD, USA), and confirmed to be mycoplasma-free.Clinochip fabrication required microscope slides (12-544-1, Fisher Scientific, Waltham, MA, USA) and 0.25-mm-thick polydimethylsiloxane sheets (HT-6240, Rogers Corporation, Rogers, CT, USA).Fluorescence visualization was performed for actin using 5% (w/v) Texas red phalloidin (Life Technologies, Gaithersburg, MD, USA) and for focal adhesions using 1 μg/ml fluoresceinconjugated anti-vinculin (MA1-34629, Life Technologies).Fibronectin (354008, BD Biosciences, San Jose, CA, USA) was used to enable cell adhesion, and nerve growth factor (NGF; 7S-NGF, Life Technologies) was used for migration experiments.Calcein-AM and ethidium homodimer-1 (L-3224, Life Technologies) were used to perform cell viability assays.\n\nIn general, we used a single experimental system for all of our experiments, as detailed previously. 25In brief, the system consists of a custom microscope-mounted gear system, driven by a computer-controlled stepper motor that rotates a small slide holder. 25This slide holder can accommodate various custom and commercially available lab-on-chip devices.A non-rotating slide holder enables having a static (standard gravity) control condition performed concurrently.The entire system is enclosed in an environmental chamber (Precision Plastics, Beltsville, MD, USA) and installed on an Olympus IX-81 epi-fluorescence microscope (Center Valley, PA, USA).\n\nA custom 'clinochip' device was used for visualizing cell spreading (that is, changes in cell morphology over time), and fabricated according to our previously described protocol. 25This clinochip consists of three layers comprising polydimethylsiloxane sandwiched between two layers of glass.\nIn brief, we used a high-resolution razor cutter (FC8000, Graphtec, Irvine, CA, USA) to trim stock polydimethylsiloxane sheets.The sheet was cut to length and width dimensions of microscope slides and with a single 1-mm wide, 30-mm long channel at the center.A second microscope slide was used as the third layer.Prior to assembly, two 1-mm diameter holes had been made in the top slide using a sandblaster (6500, Airbrasive, Piscataway, NJ, USA) to provide access to the channels.The three layers were energetically bonded using a high-frequency corona treater (BD--20AC, Electrotechnic Products, Chicago, IL, USA).The clinochip was first sterilized for 20 min in a UV chamber.To promote cell attachment, the channel was then treated with 100 μg/ml fibronectin for 1 h and washed with phosphate-buffered saline before use.Passage 3 (P3) and P4 hMSCs were seeded into clinochip channels and incubated at 37 °C for 10 min to allow for cell attachment, followed by commencement of clinorotation.\n\nCell migration was analyzed using commercially available Ibidi Chemotaxis slides (μ-Slide Chemotaxis 2D, Ibidi, Munich, Germany).The slides fit perfectly in our clinorotation device and the 2 × 1 mm dimensions of the chamber are suitable for simulated microgravity, as they constrain cells to a narrow region about the axis of rotation to minimize centrifugal effects.First, a 100 μg/ml fibronectin solution was injected into the viewing chamber and incubated for 1 h, followed by three phosphate-buffered saline washes.Then, P3 and P4 hMSCs were plated and incubated at 37 °C for 12 h of initial seeding time.Our pilot experiments showed that after 12 h the spreading areas of hMSCs reach a plateau so that cell spreading would not confound the cell migration data.As a first step, we chose to study hMSC chemotaxis mediated by NGF, one of several growth factors identified in this active field of research. 26Mesenchymal stem cells have been shown to express receptors to neurotrophic factors including NGF, 27 and also secrete NGF during tissue repair. 28In these migration experiments, NGF was prepared as a 100 ng/ml solution and injected into the top ports of the chamber.Following manufacturer's instructions, the same volume was aspirated from the opposite port to create a chemical gradient.\n\nBoth morphology and chemotaxis platforms were rotated along the axis of the channels in which cells were cultured.Residual accelerations are one to two orders of magnitude smaller than conventional clinostats, even at 75 rpm. 25Before the experiment, we made sure that the channels did not contain any bubbles, to minimize any other external effects such as shear stress and dehydration.During imaging, we constrained our analyses to cells near the axis of rotation, away from the sides of the channel, to avoid potential edge effects.\nAt the appropriate times (10 min after seeding for morphology assays; 12 h after seeding for chemotaxis and migration assays to allow the cells to become fully spread), clinorotation was initiated at 30, 60, or 75 rpm and maintained over the course of 8 h.Clinochips at 0 rpm (non-rotated) were used as a control (standard gravity).During each hour, rotation was paused for a total of 60 s, and a set of bright-field images of the clinochip were acquired at × 200 magnification.At the end of the 8 h period, cells were fixed in 4% paraformaldehyde, and fluorescently stained for actin and vinculin.Captured images were analyzed using ImageJ (National Institutes of Health).\n\nCell viability was determined using calcein-AM (green) to indicate intracellular esterase activity for live cells and ethidium homodimer-1 (red) to indicate loss of plasma membrane integrity for dead cells.Calcein (final concentration 4 μM) and ethidium homodimer (final concentration 2 μM) were added to cell culture media that was used to plate hMSCs in fibronectin-treated clinochips.After 10 min of attachment, clinochips were either rotated at 75 rpm or maintained at standard gravity conditions (nonrotated control) and fluorescence micrographs were taken at 1, 4, and 8 h during clinorotation.\nIn addition to the live/dead assays, we acquired light micrographs of cell morphology in standard gravity following exposure to (a) 1 or 4 h of 30 rpm clinorotation, (b) 1 or 4 h of 60 rpm clinorotation, or (c) 1, 4, or 8 h of 75 rpm clinorotation.After termination of the clinorotation treatment, images were acquired in standard gravity every 30 min for 4 h, and then analyzed for cell area and shape factor using ImageJ (National Institutes of Health).\n\nBecause no prior publications have quantified cell areas during clinorotation, we relied on pilot data for descriptive statistics to make sample size calculations.Assuming a critical significance level of α = 0.05, statistical power of 0.9 (β = 0.1), and a detectable difference equal to the population s.d., we performed a power analysis to calculate an estimated sample size of n = 23, using the method of Sokal and Rohlf. 29To ensure adequate statistical power for cell area measurements, we chose to include at least n = 30 for each sample group (Table 2), acquired over several experimental replicates.All data are expressed as mean ± s.e.m.Variance did not markedly differ between groups (less than fourfold).Average cell areas among different clinorotation speeds were first log transformed to improve normality.Differences between clinorotation groups were then statistically analyzed using the Welch's t-test for samples with unequal variance and unequal sample size, with Tukey post hoc tests for multiple pairwise comparisons.\nUsing Welch's t-test for samples with unequal variance and sample size, we analyzed differences in cell velocity and directionality between 0 (n = 15) and 75 rpm (n = 6) only for cells that were actively migrating.Similarly, we used Welch's t-test with Tukey post hoc test for multiple pairwise comparisons to analyze differences in cell area between 30 and 75 rpm (at 0, 1, 2, 3, and 4 h) only for cells that were actively retracting (n = 28).\n\nSimulated microgravity had a profound effect on both the extent and kinetics of cell spreading (Figure 2).After the initial 10-min cell attachment and before rotation commenced, all of the groups possessed similar cell areas of ~500 μm 2 .We found that hMSCs in the non-rotated 0 rpm condition (i.e., standard gravity) markedly increased spreading areas within 1 h after plating, reaching an average of 2000 μm 2 .Their spreading area increased gradually with time, until they reached an average of 3000 μm 2 by 8 h.For clinorotated groups, cell spreading was impeded almost immediately.At 1 h, cells in the 30 rpm group were significantly smaller than control with an average cell area slightly above 1000 μm 2 ; cells at 60 and 75 rpm were both significantly different from 0 and 30 rpm, remaining rounded and small.The effects of clinorotation continued to affect cell spreading over the course of the entire 8 h experiment in a rotation speed-dependent manner.By 8 h, we measured a statistically similar but smaller average area of 2750 μm 2 for cells at 30 rpm.In contrast, the 60 rpm group had an average area of 2192 μm 2 , and the 75 rpm group had the lowest cell area of 1500 μm 2 , both statistically smaller than 0 and 30 rpm.\nFrom a kinetics perspective, the time required for cell spreading areas to reach 2000 μm 2 was within 1 h for non-rotating controls, within 4 h for 30 rpm, and within 8 h for 60 rpm.Our experiments did not run long enough to determine whether or not cells would reach this mark for the 75 rpm condition, but based on the observed trends, it appears that cell spreading no longer increases after 7 h.These results indicate that cell spreading is markedly affected by angular frequency and that these effects can be observed as soon as 1 h after clinorotation starts.Finer temporal resolutions and longer durations in future experiments may provide more detailed insight on the time constant of important cellular processes associated with cellular gravisensing.\nOne notable observation we made was that cells within each clinorotation speed were not uniformly spread.As individual cells did not accurately represent the population characteristics, we plotted the group-wise distributions of cell morphologies at various time points (Supplementary Figure 1).The 0 rpm control group adopts a broad distribution of cell areas within the first hour, followed by the 30 and 60 rpm groups.By 8 h, it is clear that the 0, 30, and 60 rpm cell populations encompassed comparable ranges of cell areas.The 75 rpm group, however, exhibited a much more narrow distribution.Likewise, when staining for filamentous actin we found that cells also spanned a range of cell shapes within each group (Supplementary Figure 2).There were no discernable differences in actin organization between cells of similar morphology (elongated or rounded), even when comparing across different clinorotation conditions.This suggests that the observed population differences with angular frequency is caused by disparate effects on individual cells, perhaps by triggering/ overcoming some intrinsic signal within cells to reduce cell adhesion, suppress actin stress fiber formation, and consequently induce cell rounding.It is unclear whether simulated microgravity directly affects actin stress fiber assembly to result in cell rounding, or whether cell rounding induced by simulated microgravity is what inhibits stress fiber formation.\nTo quantify these differences in cell shape as a function of clinorotation speed, we computed circularity (circularity = 4π*area/ perimeter 2 ), as it accommodates more abstract shapes than an aspect ratio calculation.We assigned circularity values above 0.6  Note that cells at a speed of 30 rpm were more similar to control, whereas cells at 60 and 75 rpm have adopted a more rounded morphology.\nto cells that were considered rounded (Figure 3, black), values between 0.3 and 0.6 to semi-elongated cells (Figure 3, hatch) and values below 0.3 to elongated cells (Figure 3, gray).As expected from the previous area measurements, Figure 3 clearly shows that increasing clinorotation speed results in a larger percentage of rounded cells in its population.The number of elongated cells was significantly reduced with increasing clinorotation speed, and no elongated cells were found at 75 rpm.Plotting cell circularity against cell area for each clinorotation speed at different time points, we clearly see a temporal increase in area associated with cell elongation in 0 rpm control cells (Supplementary Figure 3).This trend becomes disrupted with exposure to 30 and 60 rpm clinorotation, as cells tended to exhibit a broad range of circularity and area.However, only at 75 rpm the does cell population maintain high circularity and smaller areas across time points (1, 4, and 8 h).Overall, our morphology analysis demonstrates that the cell population at 75 rpm possesses a more consistent morphology (average area, cell distribution, circularity versus area over time) over time.\n\nTo determine whether there was any loss of viability or if rounded cells were undergoing apoptosis, we exposed cells to 75 rpm and used a live/dead assay after 1, 4, and 8 h of clinorotation (Figure 4b).We found no difference in cell viability or changes in cell number when compared with control; in fact, the majority of cells were alive (490%).Under light microscopy, we observed no evidence of apoptosis (i.e., membrane blebbing) for the cells that were not viable.This also indicates that our clinochip system can be used effectively without loss of cells due to lifting or cell death for at least 8 h.\nWe investigated whether clinorotation effects on cell morphology are reversible by performing time-lapse microscopy after exposure to 1, 4, and 8 h of 75 rpm clinorotation.Following cessation of clinorotation, all cells increased their areas and round cells became more elongated, similar to most of the cells in standard gravity controls (Figure 4a).Similar experiments were also repeated for 30 and 60 rpm after 1 and 4 h of clinorotation (Supplementary Figure 4).\nSimulated microgravity inhibits cell migration by inducing cell rounding For cell migration experiments, cells were seeded in Ibidi chemotaxis chips with a chemical gradient of 100 ng/ml NGF to promote cell migration.Under clinorotation, only a few cells migrated, whereas most cells did not (see Table 2 for cell numbers).Cells that were actively migrating at 75 rpm had a similar velocity (P = 0.391) and directionality (P = 0.822) when compared with control cells (Figure 5).Cells that were not migrating under simulated microgravity exhibited morphological retraction (Figure 5).In other words, cell areas changed from fully spread morphologies to more rounded ones.This phenomenon is in agreement with our observations in cell-spreading experiments, even when the initial conditions were different (10 min for spreading assays versus 12 h for chemotaxis and migration assays).\nWe found that during clinorotation cells retracted their area, but did so independently of rotation speed ('0 h' P = 0.539, '1 h' P = 0.288, '2 h' P = 0.963, '3 h' P = 0.848, '4 h' P = 0.689, between 30 and 75 rpm).After 4 h of clinorotation during chemotaxis, cells at 30 and 75 rpm reached an average area of 2500 μm 2 , which is a value similar to the spreading experiments for 30 rpm at 8 h (P = 0.962  between 30 rpm, P = 0.975 between 75 rpm).However, we did not conduct experiments long enough to determine steady stateretracted cell areas.\nOur results indicate that the cellular response to simulated microgravity is more dominant than chemotactic signals, suggesting the role of migration of hMSCs to tissue repair sites might be suppressed in microgravity.We base this conclusion on our observations of response to NGF at a concentration of 100 ng/ml.However, these results were obtained with only one concentration of NGF and it is possible that different concentrations or other chemotactic molecules can elicit a stronger chemotactic response.For example stromal-derived factor-1, which is known to be a strong homing signal for hMSCs. 30Nevertheless, because the response of adhered cells to clinorotation is retraction of cellular processes, we believe that the behavior will be similar, unless the chemotactic agent can also enhance cell adhesion.\n\nUnderstanding how angular frequency, or rotation speed, of clinorotation affects cell behavior is a critical aspect of microgravity simulation experiments, so that the role of the changing gravity vector in cellular regulation can be appropriately considered.In this work we show that hMSCs can behave differently depending on clinorotation speed.In particular, although average cell area increased more slowly at 30 rpm compared with non-rotated controls, it continues along an upward trajectory at 8 h and seems to be converging with control values.For higher rotational speeds, cell area increases even more slowly, and appears to reach a plateau by 8 h at 75 rpm.This suggests that changes in cell morphology may approach a limit at an angular frequency that is close to 75 rpm, and almost certainly must exceed 30 rpm.Although these results are relevant to our clinochip configuration, results may vary for other clinostat devices, particularly for those that support cells in suspension.\nOur results are consistent with other research showing that rotation speed affects animal cells, plants, and bacteria (Escherichia coli).For example, a study on osteoblastic ROS 17/2.8 cells reported that rotations at 10 and 40 rpm did not exhibit reproducible, detectable changes from stationary control cells. 31nly a speed of 50 rpm showed reproducible changes in actin cytoskeleton and cell surface integrin β1 and apoptosis.The same effect has been observed with E. coli, 32 which exhibited differential response as a function of clinorotation speeds from 10 to 50 rpm.Interestingly, the difference between 40 and 50 rpm is only 0.1674 of a cycle per second, indicating that cells can be highly sensitive to small changes in angular frequency.\nAlthough a precise gravisensing mechanism has yet to be determined, it must be one that can detect subtle alterations to external forces in a short period of time.Our data indicate that it is linked to pathways that are involved in cell spreading and cytoskeletal organization, two phenomena that have been observed for different cell types.Potential candidates could be one or more molecules already known to play important roles in cellular mechanoregulation, such as the Rho family of GTPases, 33 ion mechanosensitive channels, 34 intracellular calcium, 35 nuclear deformations, 36 focal adhesions, or other cell surface receptors. 37lthough mechanosensitive pathways seem the most direct apparatus for gravisensing, others have also suggested the importance of external environmental factors including fluid shear, fluid and nutrient exchange, oxygen content, buoyancy, and changes in the extracellular matrix. 38Thus, clinostats used to probe candidate gravisensing receptors should minimize external environmental variables that arise from clinostat operation.\nIn the context of a proposed framework for cellular gravisensing, the current results are consistent with our working hypothetical model (Figure 1b).Standard gravity would constitute a constant gravitational stimulus and be detectable to all cells.With intermediate timescales of gravitational nullification, the probability for a single cycle of rotational perturbation to evade gravisensing in each cell would assume a broad distribution.As any putative biochemical gravisensing reaction(s) would be stochastic, the probability for gravisensory evasion in each cell would decrease with both lower angular frequency and exposure to longer duration perturbations.We did in fact observe such trends, as a result of the time lapse, single-cell measurement capabilities of the clinochip system.\nFor our clinochips, we do not expect that centripetal forces have a role with our observed angular frequency-dependence, as residual accelerations were calculated to be on the micro-scale regime.In addition, because the capillary number (indicative of viscous forces) is orders of magnitude smaller than surface tension, fluid shear forces are deemed negligible.There is also no enhanced nutrient transport that accompanies clinorotation in our system.Without these confounding factors, it seems reasonable to conclude that the cell morphology differences we observed were predominantly due to changes in the angular frequency of clinorotation.\nWe believe the rounding and retracted cell area of hMSCs in simulated microgravity inhibit migration in the presence of a chemical gradient.Interestingly, the kinetics of cell area changes during retraction were different from those during spreading, and were also angular frequency independent, suggesting that distinct gravisensing mechanisms may regulate different processes.Similarly, other cell processes, and even cell fate, could be affected. 39In the same way that microgravity may produce these cellular alterations, other mechanical stimuli and substrate characteristics can also modulate cell function. 40tem cell morphology has a strong correlation with cellular phenotype and differentiation potential. 41,42It has been demonstrated in prior work that spread cells have a higher tendency to undergo osteogenesis and that cells with rounded morphologies are more susceptible to adipogenesis. 42Because of the short-term nature of this current study, it is not possible to establish whether hMSCs in our system would behave according to these trends.However, our data would suggest that cells at 30 rpm clinorotation would be more amenable to osteogenic differentiation, whereas cells at 75 rpm would tend toward adipogenic or chondrogenic lineages.This may help explain the conflicting reports on mesenchymal stem cells differentiation during clinorotation that we and others 23 have observed.Future longer-term studies with the clinochip are required to explore hMSC differentiation potential.Specifically, as we have shown that the population distribution of cell morphologies can be controlled by the angular frequency of rotation, we may be able to derive cellular phenotypes desirable for stem cell renewal, repair, and tissue engineering.",
+  "stats": {
+    "section_count": 12,
+    "figure_count": 5,
+    "figure_count_original": 5,
+    "figure_count_synthetic": 0,
+    "table_count": 2,
+    "equation_count": 0,
+    "reference_count": 50,
+    "footnote_count": 3,
+    "extracted_at": "2025-10-05T10:46:23.997072Z",
+    "image_extraction": {
+      "extracted_images": 5,
+      "figure_images_mapped": 5,
+      "table_images_mapped": 2,
+      "cropped_images": 2,
+      "figures_total_all": 7,
+      "figures_total_pure": 5,
+      "figures_total_original": 5,
+      "figures_total_synthetic": 0,
+      "tables_total": 2,
+      "figures_with_image_pure": 5,
+      "tables_with_image": 2,
+      "figures_missing_image_pure": 0,
+      "tables_missing_image": 0
+    },
+    "figures_total_all": 7,
+    "figures_total_pure": 5,
+    "figures_total_original": 5,
+    "figures_total_synthetic": 0,
+    "tables_total": 2,
+    "figures_with_image_pure": 5,
+    "tables_with_image": 2,
+    "validation": {
+      "figure_ids_total": 5,
+      "equation_ids_total": 0,
+      "figure_block_ids": 7,
+      "equation_block_ids": 0,
+      "missing_figure_block_refs": [],
+      "missing_equation_block_refs": [],
+      "global_order_contiguous": true,
+      "block_count": 38,
+      "equations_missing_loc": [],
+      "equations_missing_bbox_expected": []
+    }
+  }
+}

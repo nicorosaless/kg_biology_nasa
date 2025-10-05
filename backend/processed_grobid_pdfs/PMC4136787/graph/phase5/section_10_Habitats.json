@@ -1,0 +1,124 @@
+{
+  "paper_id": "PMC4136787",
+  "section": "Habitats",
+  "n_nodes": 6,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 48,
+      "label": "Russian",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Habitats",
+        "sentence_id": 86,
+        "char_start": 15190,
+        "char_end": 15197,
+        "anchor": "PMC4136787_15190_15197"
+      }
+    },
+    {
+      "id": 45,
+      "label": "IBMP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Habitats",
+        "sentence_id": 86,
+        "char_start": 15052,
+        "char_end": 15056,
+        "anchor": "PMC4136787_15052_15056"
+      }
+    },
+    {
+      "id": 46,
+      "label": "IBMP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Habitats",
+        "sentence_id": 86,
+        "char_start": 15088,
+        "char_end": 15092,
+        "anchor": "PMC4136787_15088_15092"
+      }
+    },
+    {
+      "id": 47,
+      "label": "BOS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Habitats",
+        "sentence_id": 86,
+        "char_start": 15151,
+        "char_end": 15154,
+        "anchor": "PMC4136787_15151_15154"
+      }
+    },
+    {
+      "id": 44,
+      "label": "Bion",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Habitats",
+        "sentence_id": 85,
+        "char_start": 14988,
+        "char_end": 14992,
+        "anchor": "PMC4136787_14988_14992"
+      }
+    },
+    {
+      "id": 49,
+      "label": "Bulbs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Habitats",
+        "sentence_id": 91,
+        "char_start": 16022,
+        "char_end": 16027,
+        "anchor": "PMC4136787_16022_16027"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 30,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 45,
+      "target": 46
+    },
+    {
+      "id": 31,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 45,
+      "target": 47
+    },
+    {
+      "id": 32,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 45,
+      "target": 48
+    },
+    {
+      "id": 33,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 46,
+      "target": 47
+    },
+    {
+      "id": 34,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 46,
+      "target": 48
+    },
+    {
+      "id": 35,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 47,
+      "target": 48
+    }
+  ]
+}

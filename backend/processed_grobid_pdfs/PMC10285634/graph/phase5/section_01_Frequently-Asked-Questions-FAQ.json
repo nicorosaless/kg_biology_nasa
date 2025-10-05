@@ -1,0 +1,126 @@
+{
+  "paper_id": "PMC10285634",
+  "section": "Frequently Asked Questions (FAQ)",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 0,
+      "label": "DXA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Frequently Asked Questions (FAQ)",
+        "sentence_id": 0,
+        "char_start": 163,
+        "char_end": 166,
+        "anchor": "PMC10285634_163_166",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1,
+      "label": "imaging",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Frequently Asked Questions (FAQ)",
+        "sentence_id": 0,
+        "char_start": 167,
+        "char_end": 174,
+        "anchor": "PMC10285634_167_174",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2,
+      "label": "iNSiGHT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Frequently Asked Questions (FAQ)",
+        "sentence_id": 0,
+        "char_start": 192,
+        "char_end": 199,
+        "anchor": "PMC10285634_192_199",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3,
+      "label": "DXA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Frequently Asked Questions (FAQ)",
+        "sentence_id": 0,
+        "char_start": 163,
+        "char_end": 166,
+        "anchor": "PMC10285634_163_166",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "id": 1,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "id": 2,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "id": 3,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "id": 4,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "id": 5,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2,
+      "target": 3
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 11,
+      "removed_orphans": 10,
+      "largest_component": 4,
+      "removed_components": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 1
+  }
+}

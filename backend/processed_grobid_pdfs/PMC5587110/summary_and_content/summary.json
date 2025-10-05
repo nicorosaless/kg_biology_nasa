@@ -1,0 +1,212 @@
+{
+  "intro": "The International Space Station (ISS) National Laboratory aims to study the effects of space on life and physical systems and develop new space exploration technologies. A key goal is to operate the ISS National Lab more like an Earth-based laboratory, conducting complex end-to-end experimentation. To achieve this, NASA developed WetLab-2, a novel suite of molecular biology tools, reagents, and methods designed for microgravity operation and on-orbit real-time gene expression analysis. WetLab-2 includes a fluidic RNA Sample Preparation Module (SPM), fluid transfer devices, lyophilized PCR assays, a centrifuge, and a real-time PCR thermal cycler. This paper describes the validation experiments conducted during ISS increment 47/SPX-8, focusing on quantitative PCR using DNA standards and Reverse Transcriptase-quantitative PCR (RT-qPCR) on RNA extracted and purified on-orbit from Escherichia coli and mouse liver tissue.",
+  "sections": [
+    {
+      "heading": "Primer and Probe Design",
+      "summary": "Three types of assays were used: an E. coli genomic assay to demonstrate qPCR feasibility in microgravity, E. coli gene expression assays to validate sample preparation and RT-qPCR, and mouse gene expression assays for mammalian tissue validation. E. coli primers and probes targeted genomic and exonic regions, including the 16S ribosomal DNA sequence (rrnH gene) and genes like heat shock protein 70-2 (dnaK), RNA polymerase (rpoA), and a glucitol operon. RNA isolation and purification on-orbit use the SPM, involving cell lysis, RNA binding to an affinity column, washing, and elution. A Pipette Loader (PL) facilitates bubble-free fluid transfer to a repeater pipette for dispensing purified RNA into lyophilized reagent tubes for RT-qPCR. Data is available on-orbit within 3 hours and transmitted to NASA Marshall Space Flight Center.",
+      "figures": [
+        {
+          "id": "fig_1",
+          "order": 1,
+          "caption": "Fig 1.Operations for the WetLab-2 system.Isolation and purification of RNA from biological tissues on-orbit starts with introduction of cells or tissues for lysis and homogenization into the Sample Preparation Module (SPM), followed by RNA binding to an affinity column, washing, and elution from the module.A Pipette Loader (PL) tool is provided for bubble free fluid transfer to a repeater pipette.This is then used to dispense accurate volumes of purified RNA into a centrifuge rotor/rack of lyophilized reagent tubes with enzymes and regents for reverse transcription and Taqman RT-qPCR.Data is available on-orbit within 3h of initiating the experiment, and transmitted by ISS to NASA Marshall Space Flight Center for emailing to investigators within 2 h of clean-up.A more detailed description of the process can be found in the S1 Text.",
+          "label": "Fig 1 .",
+          "type": "figure",
+          "image_path": "figures/fig_1.png"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "Assay Formulation, Preparation, And Validation",
+      "summary": "To validate the E. coli genomic assay, qPCR performance was analyzed using tenfold dilutions of template DNA. Assays used genomic DNA from E. coli type B cells, custom primers and probes targeting a 16S ribosomal DNA sequence, GoTaq Probe Master Mix, and molecular biology grade water. Amplification used a standard thermal protocol with a hot-start activation step and 45 cycles of denaturation and annealing/extension. Samples were run in duplicate, and average Ct values were plotted against template concentration to determine R-square and efficiency. Products were confirmed using a Bioanalyzer 2100 and an Agilent DNA chip. Genomic and gene expression assays for E. coli (dnaK, rpoA and srIR) and mouse tissue (gapdh, rpl19, and fn1) were validated using genomic E. coli DNA and RNA from E. coli K12 TB1 and whole livers from male C57BL/6 mice. RNA was isolated using the RNeasy Mini kit and tested for RNA Integrity Number (RIN) greater than 9.0.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Lyophilized Assay Validation",
+      "summary": "After successful assay validation, all assay formulations were purchased as lyophilized sample-ready products in Reaction Tubes. The performance of lyophilized assays was tested by comparing Ct values to non-lyophilized controls. For the E. coli genomic assay, high, mid, and low template concentrations, along with no template controls (NTC), were run for each group. Non-lyophilized controls were constituted as described above, while lyophilized assays were re-hydrated with elution buffer. Lyophilized E. coli and mouse liver gene expression assays were tested by running singleplex, duplex, and triplex reactions. Individual, average, and standard deviation of Ct values were compared to corresponding controls, within template groups. Two individual lots were tested against a single benchtop control lot. BioGX also carried out independent validation of the lyophilized products.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Microgravity Compatible Rna Extraction Procedure",
+      "summary": "RNA isolation was performed using an alcohol-free version of the RNA binding buffer and washes for Claremont BioSolutions' commercially available OmniLyse 1 and their RNAexpress™ column. The process was carried out in a SPM, which is a microgravity-compatible hardware module designed to require only simple manual manipulations. The SPM contains syringes preloaded with wash and elution buffers and has an input port with a Luer-Lok connection for the incoming Sample Transfer Tool (STT). The procedure consists of lysing the sample with the battery-powered OmniLyse 1 and binding of RNA to the RNAexpress™ column. This is followed by two washes of the column with Claremont BioSolutions wash buffer in preloaded syringes. The RNA is then eluted into a removable syringe using the Claremont BioSolutions elution buffer. To test the SPM performance, 100 million E. coli cells or 5 mg of mouse liver tissue were used for RNA extraction. Resulting RNA quantity and quality were assessed using a NanoDrop 2000 and a Bioanalyzer 2100. The SPM-derived RNA was also used as the template in RT-qPCR reactions.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Hardware Testing",
+      "summary": "To determine the compatibility of hardware components, reagents were stored in hardware for long duration testing and assessed for compatibility with downstream molecular biology applications (e.g. qPCR, RNA Isolation, and RT-qPCR). ACT 2s and Finger Loop syringes were loaded and stored at -80˚C. Units were removed from the freezer at designated time points, allowed to thaw at ambient temperature, then RNA was extracted using the SPM procedure. To test the SPMs for reagent compatibility, SPMs were assembled with the syringes preloaded with wash and elution buffers and stored at ambient temperatures. At designated time points, SPMs were used to isolate fresh samples of either 1x10^8 E. coli cells or 5 mg of mouse liver tissue. For all hardware tests, RNA quantity and quality were assessed as described previously. RT-qPCR using sample-specific primers and probes were also used to test RNA quality. Reaction Tubes containing lyophilized E. coli and mouse gene expression assays, master mixes, and enzymes were packaged at BioGX and stored at 4˚C until tested. All lyophilized mixes were tested at designated time points and utilized 25 ng of E. coli or mouse Qiagen RNeasy purified RNA in 25 μl of molecular biology grade water to rehydrate the assays. Amplification conditions used were described above. In all cases, results were compared to those from controls.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "On-Orbit Quantitative PCR Analyses",
+      "summary": "Microgravity data was generated on-orbit aboard the ISS. Materials, hardware, and biology were transported during the SpaceX CRS-8 cargo resupply mission. Experiments were conducted on multiple days and required the use of the WetLab-2 hardware suite, including a microgravity-compatible STT, SPM, bubble-removing Pipette Loader, reaction tube centrifugation rotor, and a Cepheid SmartCycler for thermocycling/fluorescence readout. Ground control data was generated using identical protocols and hardware within 12 hours of ISS operations. The on-orbit operations consisted of three types of tests: qPCR efficiency in microgravity using pre-prepared reaction mixtures including E. coli genomic DNA; isolation of RNA on-orbit using the SPM and pre-frozen E. coli cells followed by gene expression analysis; and RNA isolation from mammalian tissue using the SPM and pre-frozen mouse liver tissue followed by gene expression analysis. For each experiment, one ISS and one ground kit were removed from their respective cold stowage and allowed to equilibrate at room temperature. ISS operations were performed within a RNase-free and cleaned Disposable Glove Bag (DGB) to prevent contamination.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Qpcr In Microgravity",
+      "summary": "To assess PCR functionality in microgravity and establish dynamic range and amplification efficiency, a robust qPCR assay was designed targeting a 16S ribosomal region of genomic E. coli DNA. Validation of the E. coli genomic DNA assay was performed using a standard thermal cycling protocol with controlled quantities of commercially available E. coli DNA as template. Assays were tested with template quantities between 1 pg and 1 μg, in duplicates. Assays successfully generated amplification products, as detected by qPCR, with fluorescence peaks between 300 and 600 units. Assay efficiency was determined to be at 96.8% with an R^2 greater than 0.99. Specificity and accuracy were confirmed by gel band migration analysis. To minimize crew time and the need for refrigeration resources, pre-formulated reagents were lyophilized in the Cepheid SmartTube detection window. To validate that the lyophilized assay format and lyophilization process did not compromise assay performance, the lyophilized products were tested by assessing qPCR performance in comparison to commercial non-lyophilized reagents (control). Combined data between two lots of lyophilized product showed that lyophilized assays were able to consistently generate Ct values.",
+      "figures": [
+        {
+          "id": "fig_2",
+          "order": 2,
+          "caption": "0d software was used to analyze all fluorescence intensities and generate Ct values.All pre-launch ground testing used the default software values (Background Subtraction: ON, Background Min: 5, Background Max: 40, Primary Curve Analysis, Manual Threshold: 30, Boxcar Averaging: 0), while microgravity to 1 g comparisons used slightly modified values with a Boxcar averaging of 3. Genomic DNA qPCR runs used: Background Subtraction: ON, Background Min: 5, Background Max: 40, Primary Curve Analysis, Manual Threshold: 30, Boxcar Averaging: 3; software values for the E. coli RT-qPCR runs: Background Subtraction: ON, Background Min: 1, Background Max: 40, Primary Curve Analysis, Manual Thresholds: (FAM: 15, HEX: 15, Cy5: 15) Boxcar Averaging: 3; and software values for the mouse liver RT-qPCR runs: Background Subtraction: ON, Background Min: 5, Background Max: 40, Primary Curve Analysis, Manual Thresholds: (FAM: 15, HEX: 30, Cy5: 15) Boxcar Averaging: 3; for the Increment 49 Bubble Mitigation run: Background Subtraction: ON, Background Min: 1, Background Max: 40, Primary Curve Analysis, Manual Thresholds: (FAM: 15, HEX: 15, Cy5: 15) Boxcar Averaging: 0. Amplification efficiency was calculated using the formula: E = (10 [-1/slope] -1) Ã 100.",
+          "label": "Cepheid SmartCycler 2 .",
+          "type": "figure",
+          "image_path": "figures/fig_2.png"
+        },
+        {
+          "id": "fig_3",
+          "order": 3,
+          "caption": "Fig 2. qPCR validation in microgravity.(A) qPCR assays targeting the E. coli 16S ribosomal gene were validated on the ground using seven tenfold dilutions of template to measure sensitivity and efficiency (inset).(B) Amplification curve from qPCR run conducted on the ISS with photo of a representative tube pre-and post-run in microgravity (inset).(C-F) qPCR amplification curves from the microgravity (C & D) and 1 g control (E & F) runs.All curves use the default SmartCycler values with the exception that the boxcar correction is set to 3. Efficiency graphs are shown on the insets.(G & H) Ct values for low (0.01 ng/test), mid (1 ng/test), and high (100 ng/test) assays during both experimental runs are shown using scatter plots with jitter.μg = microgravity.https://doi.org/10.1371/journal.pone.0183480.g002",
+          "label": "Fig 2 .",
+          "type": "figure",
+          "image_path": "figures/fig_3.png"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "Rna Sample Prep And Rt-Qpcr Analysis In Microgravity",
+      "summary": "E. coli and mouse gene expression assays were tested and validated using Qiagen RNeasy derived RNA. For both species, genes were tested using singleplex, duplex, and triplex formats. All primer and probe sets yielded consistent RT-qPCR reactions with resulting Ct values between 19 and 24 when 100 ng of starting RNA was used. Lyophilized E. coli and mouse RNA gene expression assays, singleplex, duplex, and triplex formulations, were tested. All lyophilized assays generated similar PCR amplification compared to the non-lyophilized controls, indicating that the Reverse Transcriptase enzyme remained active. ANOVA analyses showed no statistical variation between lyophilized assays and their non-lyophilized controls, indicating that lyophilized assays were suitable for use on ISS. An enclosed, simple RNA extraction procedure not requiring toxic chemicals was adapted (by removing alcohol) from commercially available Claremont BioSolutions products. RNA yields from the SPM were 2-10 μg for 1 x 10^8 E. coli and 1.5-8 μg for 5 mg mouse liver. The RNA quality was adequate with RINs of 7.9 ±1.2 for E. coli and 7.4 ±1.6 for mouse liver.",
+      "figures": [
+        {
+          "id": "fig_6",
+          "order": 6,
+          "caption": "Fig 3. RNA isolation and RT-qPCR in microgravity.(A) Photo of SPM.(B) Typical RNA quality from SPM with E. coli (left panel) and mouse liver (right panel), control Qiagen (left lane) SPM (right lane).Center panel shows RNA quality from the 1 g control (left lane) and the returned microgravity sample from ISS (right lane).(C-E) Scatter plots with jitter of the microgravity and 1 g control E. coli singleplex (C), duplex (D) and triplex (E) reactions.One outlier is indicated by the open marker in C. One of the microgravity triplex tubes did not give a dnaK-FAM signal (E).(F-H) Scatter plots with jitter of the microgravity and 1 g control mouse liver singleplex (F), duplex (G) and triplex (H) reactions.One outlier from the microgravity triplex fn1 plot is indicated by the open marker and no gapdh-FAM signal was seen in the microgravity triplex reactions (H).https://doi.org/10.1371/journal.pone.0183480.g003",
+          "label": "Fig 3 .",
+          "type": "figure",
+          "image_path": "figures/fig_6.png"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "Repeat Run Of E. Coli Rna Isolation And Bubble Mitigation",
+      "summary": "Following on-orbit activities, an opportunity arose to test bubble formation mitigation strategies while repeating the E. coli isolation activity. Half of the modified reaction tube septa caps were replaced with standard SmartTube caps. This test resulted in compromised Ct values in the FAM and Cy5 channels, but the HEX channel appeared to be unaffected. The hypothesis is that the internal tube pressure created when inserting the standard caps helps mitigate bubble formation. Sideways and inverted ground thermocycling experiments also trapped bubbles.",
+      "figures": [
+        {
+          "id": "fig_4",
+          "order": 4,
+          "caption": "), duplex (Fig 3D), and triplex (Fig 3E) reactions (S1 Table",
+          "type": "figure",
+          "image_path": "figures/fig_4.png"
+        },
+        {
+          "id": "fig_7",
+          "order": 7,
+          "caption": "Fig 4. HEX amplification curves and photos from microgravity reactions comparing different caps.(A) HEX amplification curves when our modified septa caps are used.(B) HEX amplification curves from tubes sealed with the standard commercial SmartTube Caps.Post run photos of representative tubes are shown above.https://doi.org/10.1371/journal.pone.0183480.g004",
+          "label": "Fig 4 .",
+          "type": "figure",
+          "image_path": "figures/fig_7.png"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "Discussion",
+      "summary": "A major obstacle to space exploration is the ISS's dependence on Earth support and lack of autonomy. The National Academies of Sciences have identified these limitations, suggesting the ISS should operate more like Earth-based laboratories, enabling experiments to be designed, conducted, modified, and iterated in space. Despite numerous investigations on the ISS, limitations prevent on-orbit molecular biology measurements of gene expression. The NASA WetLab-2 project addresses these concerns by introducing new, time-efficient, practical, and flexible molecular biology gene expression analysis capabilities to the ISS. The WetLab-2 hardware system can rapidly perform RNA isolation on-orbit and immediately conduct RT-qPCR analyses or other analyses like nanopore-based RNA sequencing. WetLab-2 can be applied to many molecular biology experimental designs using various sample types, providing improved insight and interactivity. Overall, the on-orbit process of total RNA isolation and gene expression analysis is accomplished in approximately 3 hours without requiring a highly experienced user, expanding the limits of possible on-orbit science.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "And S1 Table",
+      "summary": "Comparison of raw background fluorescence data showed significant differences between microgravity and 1 g control samples, but no significant differences in Ct values. Increased variability was observed in the microgravity samples using SPM-derived E. coli and mouse RNA, likely due to bubble formation during thermal cycling. A follow-up experiment by astronaut Kate Rubins aimed at reducing bubbles showed that the positive pressure formed in the tubes when closed using a standard cap drastically reduces bubbles and results in smooth amplification curves. This run yielded data with less variability. For future experiments, standard commercial tubes will be used to suppress degassing bubble formation. qPCR can be successfully performed in the microgravity environment of space, and a system of molecular biology tools and reagents for extracting and quantitatively analyzing RNA from biological samples on-orbit and generating RT-qPCR Ct data has been developed. The WetLab-2 ISS system is now validated and ready for future end-to-end gene expression analysis on-orbit, providing prompt results and data reporting from multiple cell and tissue types.",
+      "figures": [
+        {
+          "id": "fig_5",
+          "order": 5,
+          "caption": "Fig 4. A reduction in noise was observed with the use of standard caps (Fig 4B) as compared to the typical noise seen when septa caps are used (Fig 4A).Additionally, photos taken of the tubes after completion of the RT-qPCR run show an increase in the number of bubbles in the septa capped tubes as compared to those",
+          "type": "figure",
+          "image_path": "figures/fig_5.png"
+        }
+      ],
+      "equations": []
+    }
+  ],
+  "conclusion": "The WetLab-2 system successfully validated RNA isolation and RT-qPCR in microgravity, enabling on-orbit gene expression analysis. The system shows promise for autonomous molecular biology research in space, addressing critical limitations and expanding the scope of possible scientific investigations on the ISS.",
+  "keywords": [
+    "wetlab-2",
+    "iss",
+    "microgravity",
+    "rt-qpcr",
+    "rna isolation",
+    "gene expression",
+    "space exploration",
+    "lyophilized assays",
+    "sample preparation module",
+    "qpcr"
+  ],
+  "topics": [
+    "molecular biology",
+    "space biology",
+    "gene expression analysis"
+  ],
+  "_meta": {
+    "paper_id": "sha256:eb4c8cbc9035879e9801a524be4146c6a9caf8dfd7a0536c16ebaff79675eec8",
+    "paper_title": "Microgravity validation of a novel system for RNA isolation and multiplex quantitative real time PCR analysis",
+    "generated_at": "2025-10-04T18:16:51Z",
+    "word_count": 1721,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_6",
+      "fig_4",
+      "fig_7",
+      "fig_5"
+    ],
+    "equations": [],
+    "keywords": [
+      "wetlab-2",
+      "iss",
+      "microgravity",
+      "rt-qpcr",
+      "rna isolation",
+      "gene expression",
+      "space exploration",
+      "lyophilized assays",
+      "sample preparation module",
+      "qpcr"
+    ],
+    "topics": [
+      "molecular biology",
+      "space biology",
+      "gene expression analysis"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 6464,
+      "completion_tokens": 3534,
+      "total_tokens": 9998,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000646,
+      "output_usd": 0.001414,
+      "total_usd": 0.00206
+    },
+    "cost": {
+      "input_usd": 0.000646,
+      "output_usd": 0.001414,
+      "total_usd": 0.00206
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "paper_id": "PMC4136787",
+  "section": "Implementation of the scientific program",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 169,
+      "label": "SFV",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Implementation of the scientific program",
+        "sentence_id": 278,
+        "char_start": 49894,
+        "char_end": 49897,
+        "anchor": "PMC4136787_49894_49897"
+      }
+    },
+    {
+      "id": 171,
+      "label": "Russia",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Implementation of the scientific program",
+        "sentence_id": 278,
+        "char_start": 50109,
+        "char_end": 50115,
+        "anchor": "PMC4136787_50109_50115"
+      }
+    },
+    {
+      "id": 172,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Implementation of the scientific program",
+        "sentence_id": 278,
+        "char_start": 50117,
+        "char_end": 50120,
+        "anchor": "PMC4136787_50117_50120"
+      }
+    },
+    {
+      "id": 173,
+      "label": "France",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Implementation of the scientific program",
+        "sentence_id": 278,
+        "char_start": 50122,
+        "char_end": 50128,
+        "anchor": "PMC4136787_50122_50128"
+      }
+    },
+    {
+      "id": 174,
+      "label": "Germany",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Implementation of the scientific program",
+        "sentence_id": 278,
+        "char_start": 50130,
+        "char_end": 50137,
+        "anchor": "PMC4136787_50130_50137"
+      }
+    },
+    {
+      "id": 175,
+      "label": "Italy",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Implementation of the scientific program",
+        "sentence_id": 278,
+        "char_start": 50139,
+        "char_end": 50144,
+        "anchor": "PMC4136787_50139_50144"
+      }
+    },
+    {
+      "id": 176,
+      "label": "Ukraine",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Implementation of the scientific program",
+        "sentence_id": 278,
+        "char_start": 50149,
+        "char_end": 50156,
+        "anchor": "PMC4136787_50149_50156"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 203,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 169,
+      "target": 171
+    },
+    {
+      "id": 204,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 169,
+      "target": 172
+    },
+    {
+      "id": 205,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 169,
+      "target": 173
+    },
+    {
+      "id": 206,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 169,
+      "target": 174
+    },
+    {
+      "id": 207,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 169,
+      "target": 175
+    },
+    {
+      "id": 208,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 169,
+      "target": 176
+    },
+    {
+      "id": 217,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 171,
+      "target": 172
+    },
+    {
+      "id": 218,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 171,
+      "target": 173
+    },
+    {
+      "id": 219,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 171,
+      "target": 174
+    },
+    {
+      "id": 220,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 171,
+      "target": 175
+    },
+    {
+      "id": 221,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 171,
+      "target": 176
+    },
+    {
+      "id": 223,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 172,
+      "target": 173
+    },
+    {
+      "id": 224,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 172,
+      "target": 174
+    },
+    {
+      "id": 225,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 172,
+      "target": 175
+    },
+    {
+      "id": 226,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 172,
+      "target": 176
+    },
+    {
+      "id": 228,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 173,
+      "target": 174
+    },
+    {
+      "id": 229,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 173,
+      "target": 175
+    },
+    {
+      "id": 230,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 173,
+      "target": 176
+    },
+    {
+      "id": 232,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 174,
+      "target": 175
+    },
+    {
+      "id": 233,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 174,
+      "target": 176
+    },
+    {
+      "id": 235,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 175,
+      "target": 176
+    }
+  ]
+}

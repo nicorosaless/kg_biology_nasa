@@ -1,0 +1,4189 @@
+{
+  "paper_id": "PMC11451251",
+  "section": "Synthetic EXPERIMENT",
+  "n_nodes": 199,
+  "n_edges": 198,
+  "nodes": [
+    {
+      "id": 1,
+      "label": "selective",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 0,
+        "char_start": 80,
+        "char_end": 89,
+        "anchor": "PMC11451251_80_89",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 4,
+      "label": "functional annota",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 2,
+        "char_start": 414,
+        "char_end": 431,
+        "anchor": "PMC11451251_414_431",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 6,
+      "label": "functional",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 2,
+        "char_start": 653,
+        "char_end": 663,
+        "anchor": "PMC11451251_653_663",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 8,
+      "label": "close to 100% of protein-coding genes",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 2,
+        "char_start": 675,
+        "char_end": 712,
+        "anchor": "PMC11451251_675_712",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 10,
+      "label": "comparative genomic analysis",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 3,
+        "char_start": 775,
+        "char_end": 803,
+        "anchor": "PMC11451251_775_803",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 12,
+      "label": "Proteome analysis",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 4,
+        "char_start": 937,
+        "char_end": 954,
+        "anchor": "PMC11451251_937_954",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 14,
+      "label": "DNA repair activity",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 5,
+        "char_start": 1198,
+        "char_end": 1217,
+        "anchor": "PMC11451251_1198_1217",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 15,
+      "label": "genetic elements",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 5,
+        "char_start": 1290,
+        "char_end": 1306,
+        "anchor": "PMC11451251_1290_1306",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 30,
+      "label": "microbial samples",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 21,
+        "char_start": 3592,
+        "char_end": 3609,
+        "anchor": "PMC11451251_3592_3609",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 32,
+      "label": "astrobiology",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 21,
+        "char_start": 3727,
+        "char_end": 3739,
+        "anchor": "PMC11451251_3727_3739",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 36,
+      "label": "survivability",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 21,
+        "char_start": 3943,
+        "char_end": 3956,
+        "anchor": "PMC11451251_3943_3956",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 37,
+      "label": "UV light",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 22,
+        "char_start": 4032,
+        "char_end": 4040,
+        "anchor": "PMC11451251_4032_4040",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 38,
+      "label": "7-log reduction",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 22,
+        "char_start": 4136,
+        "char_end": 4151,
+        "anchor": "PMC11451251_4136_4151",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 48,
+      "label": "comparative",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 25,
+        "char_start": 4717,
+        "char_end": 4728,
+        "anchor": "PMC11451251_4717_4728",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 49,
+      "label": "proteomics analysis",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 25,
+        "char_start": 4729,
+        "char_end": 4748,
+        "anchor": "PMC11451251_4729_4748",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 51,
+      "label": "SAFR-032",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 25,
+        "char_start": 4763,
+        "char_end": 4771,
+        "anchor": "PMC11451251_4763_4771",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 53,
+      "label": "superoxide dismuta",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 25,
+        "char_start": 4833,
+        "char_end": 4851,
+        "anchor": "PMC11451251_4833_4851",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 54,
+      "label": "UVC resistance",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 26,
+        "char_start": 5106,
+        "char_end": 5120,
+        "anchor": "PMC11451251_5106_5120",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 58,
+      "label": "Whole-genome sequencing",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 29,
+        "char_start": 5704,
+        "char_end": 5727,
+        "anchor": "PMC11451251_5704_5727",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 59,
+      "label": "typic characterization",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 29,
+        "char_start": 5743,
+        "char_end": 5765,
+        "anchor": "PMC11451251_5743_5765",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 67,
+      "label": "metabolism",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 32,
+        "char_start": 6801,
+        "char_end": 6811,
+        "anchor": "PMC11451251_6801_6811",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 68,
+      "label": "antibiotic resistance",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 32,
+        "char_start": 6891,
+        "char_end": 6912,
+        "anchor": "PMC11451251_6891_6912",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 71,
+      "label": "60% improvement",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 34,
+        "char_start": 7346,
+        "char_end": 7361,
+        "anchor": "PMC11451251_7346_7361",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 79,
+      "label": "protein-coding sequences",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 38,
+        "char_start": 7869,
+        "char_end": 7893,
+        "anchor": "PMC11451251_7869_7893",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 81,
+      "label": "similarity",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 38,
+        "char_start": 7946,
+        "char_end": 7956,
+        "anchor": "PMC11451251_7946_7956",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 83,
+      "label": "protein structures",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 39,
+        "char_start": 8134,
+        "char_end": 8152,
+        "anchor": "PMC11451251_8134_8152",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 88,
+      "label": "molecular analyses",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of different annotations and between the isolates and within pangenome context",
+        "sentence_id": 43,
+        "char_start": 8614,
+        "char_end": 8632,
+        "anchor": "PMC11451251_8614_8632",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 89,
+      "label": "teny analysis",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of different annotations and between the isolates and within pangenome context",
+        "sentence_id": 46,
+        "char_start": 9139,
+        "char_end": 9152,
+        "anchor": "PMC11451251_9139_9152",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 96,
+      "label": "DeepFRI analysis",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations common for space and Earth species (closest relative, see Supplementary Fig. S1 for more comparisons)",
+        "sentence_id": 48,
+        "char_start": 9411,
+        "char_end": 9427,
+        "anchor": "PMC11451251_9411_9427",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 98,
+      "label": "confidence",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations common for space and Earth species (closest relative, see Supplementary Fig. S1 for more comparisons)",
+        "sentence_id": 48,
+        "char_start": 9478,
+        "char_end": 9488,
+        "anchor": "PMC11451251_9478_9488",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 102,
+      "label": "1290 and",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations common for space and Earth species (closest relative, see Supplementary Fig. S1 for more comparisons)",
+        "sentence_id": 49,
+        "char_start": 9710,
+        "char_end": 9718,
+        "anchor": "PMC11451251_9710_9718",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 103,
+      "label": "annotations",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations common for space and Earth species (closest relative, see Supplementary Fig. S1 for more comparisons)",
+        "sentence_id": 49,
+        "char_start": 9741,
+        "char_end": 9752,
+        "anchor": "PMC11451251_9741_9752",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 110,
+      "label": "processing",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations common for space and Earth species (closest relative, see Supplementary Fig. S1 for more comparisons)",
+        "sentence_id": 50,
+        "char_start": 9872,
+        "char_end": 9882,
+        "anchor": "PMC11451251_9872_9882",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 111,
+      "label": "signaling",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations common for space and Earth species (closest relative, see Supplementary Fig. S1 for more comparisons)",
+        "sentence_id": 50,
+        "char_start": 9887,
+        "char_end": 9896,
+        "anchor": "PMC11451251_9887_9896",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 112,
+      "label": "information storage",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations common for space and Earth species (closest relative, see Supplementary Fig. S1 for more comparisons)",
+        "sentence_id": 50,
+        "char_start": 9901,
+        "char_end": 9920,
+        "anchor": "PMC11451251_9901_9920",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 113,
+      "label": "processing",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations common for space and Earth species (closest relative, see Supplementary Fig. S1 for more comparisons)",
+        "sentence_id": 50,
+        "char_start": 9925,
+        "char_end": 9935,
+        "anchor": "PMC11451251_9925_9935",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 117,
+      "label": "Center for Biotechnology Information (",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 51,
+        "char_start": 10072,
+        "char_end": 10110,
+        "anchor": "PMC11451251_10072_10110",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 120,
+      "label": "highest average",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 51,
+        "char_start": 10246,
+        "char_end": 10261,
+        "anchor": "PMC11451251_10246_10261",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 121,
+      "label": "nucleotide identity (ANI",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 51,
+        "char_start": 10262,
+        "char_end": 10286,
+        "anchor": "PMC11451251_10262_10286",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 125,
+      "label": "different numbers",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 52,
+        "char_start": 10453,
+        "char_end": 10470,
+        "anchor": "PMC11451251_10453_10470",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 126,
+      "label": "unique annotations",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 52,
+        "char_start": 10474,
+        "char_end": 10492,
+        "anchor": "PMC11451251_10474_10492",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 127,
+      "label": "hit clustering",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 52,
+        "char_start": 10638,
+        "char_end": 10652,
+        "anchor": "PMC11451251_10638_10652",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 135,
+      "label": "74 and 49 MQ",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 53,
+        "char_start": 10953,
+        "char_end": 10965,
+        "anchor": "PMC11451251_10953_10965",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 143,
+      "label": "betalactones",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 56,
+        "char_start": 11277,
+        "char_end": 11289,
+        "anchor": "PMC11451251_11277_11289",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 144,
+      "label": "lanthipeptides",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 56,
+        "char_start": 11291,
+        "char_end": 11305,
+        "anchor": "PMC11451251_11291_11305",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 145,
+      "label": "lassopeptides",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 56,
+        "char_start": 11307,
+        "char_end": 11320,
+        "anchor": "PMC11451251_11307_11320",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 146,
+      "label": "non-ribosomal metallophores",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 56,
+        "char_start": 11322,
+        "char_end": 11349,
+        "anchor": "PMC11451251_11322_11349",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 147,
+      "label": "non-alpha poly-amino acids",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 56,
+        "char_start": 11359,
+        "char_end": 11385,
+        "anchor": "PMC11451251_11359_11385",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 149,
+      "label": "type 3 polyketide synthase",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 56,
+        "char_start": 11395,
+        "char_end": 11421,
+        "anchor": "PMC11451251_11395_11421",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 150,
+      "label": "translationally modified peptides",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 56,
+        "char_start": 11464,
+        "char_end": 11497,
+        "anchor": "PMC11451251_11464_11497",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 152,
+      "label": "proteusins",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 56,
+        "char_start": 11506,
+        "char_end": 11516,
+        "anchor": "PMC11451251_11506_11516",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 160,
+      "label": "transcription factors",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 59,
+        "char_start": 11970,
+        "char_end": 11991,
+        "anchor": "PMC11451251_11970_11991",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 161,
+      "label": "different number",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 60,
+        "char_start": 12145,
+        "char_end": 12161,
+        "anchor": "PMC11451251_12145_12161",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 162,
+      "label": "novel gen",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 60,
+        "char_start": 12165,
+        "char_end": 12174,
+        "anchor": "PMC11451251_12165_12174",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 167,
+      "label": "Mma_00",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 61,
+        "char_start": 12523,
+        "char_end": 12529,
+        "anchor": "PMC11451251_12523_12529",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 172,
+      "label": "structures",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 63,
+        "char_start": 12919,
+        "char_end": 12929,
+        "anchor": "PMC11451251_12919_12929",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 173,
+      "label": "almost identical",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 63,
+        "char_start": 12971,
+        "char_end": 12987,
+        "anchor": "PMC11451251_12971_12987",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 176,
+      "label": "deep-FRI annotations",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 64,
+        "char_start": 13018,
+        "char_end": 13038,
+        "anchor": "PMC11451251_13018_13038",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 177,
+      "label": "oxidoreductase",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 64,
+        "char_start": 13071,
+        "char_end": 13085,
+        "anchor": "PMC11451251_13071_13085",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 180,
+      "label": "structural homology",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 64,
+        "char_start": 13270,
+        "char_end": 13289,
+        "anchor": "PMC11451251_13270_13289",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 183,
+      "label": "Mobile genetic elements (",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 65,
+        "char_start": 13384,
+        "char_end": 13409,
+        "anchor": "PMC11451251_13384_13409",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 185,
+      "label": "transposases",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 65,
+        "char_start": 13423,
+        "char_end": 13435,
+        "anchor": "PMC11451251_13423_13435",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 193,
+      "label": "mutation rate",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of proteome-level mutations in the ISS species and within pangenome context",
+        "sentence_id": 68,
+        "char_start": 13869,
+        "char_end": 13882,
+        "anchor": "PMC11451251_13869_13882",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 194,
+      "label": "hydrophobic",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of proteome-level mutations in the ISS species and within pangenome context",
+        "sentence_id": 68,
+        "char_start": 13886,
+        "char_end": 13897,
+        "anchor": "PMC11451251_13886_13897",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 195,
+      "label": "amino acids",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of proteome-level mutations in the ISS species and within pangenome context",
+        "sentence_id": 68,
+        "char_start": 13898,
+        "char_end": 13909,
+        "anchor": "PMC11451251_13898_13909",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 196,
+      "label": "higher than 1",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of proteome-level mutations in the ISS species and within pangenome context",
+        "sentence_id": 68,
+        "char_start": 13926,
+        "char_end": 13939,
+        "anchor": "PMC11451251_13926_13939",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 201,
+      "label": "amino acid",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of proteome-level mutations in the ISS species and within pangenome context",
+        "sentence_id": 70,
+        "char_start": 14334,
+        "char_end": 14344,
+        "anchor": "PMC11451251_14334_14344",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 204,
+      "label": "ptidase activity",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of proteome-level mutations in the ISS species and within pangenome context",
+        "sentence_id": 70,
+        "char_start": 14640,
+        "char_end": 14656,
+        "anchor": "PMC11451251_14640_14656",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 211,
+      "label": "hydrophobic",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of proteome-level mutations in the ISS species and within pangenome context",
+        "sentence_id": 74,
+        "char_start": 15515,
+        "char_end": 15526,
+        "anchor": "PMC11451251_15515_15526",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 220,
+      "label": "comparative analysis of",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of proteome-level mutations in the ISS species and within pangenome context",
+        "sentence_id": 78,
+        "char_start": 16123,
+        "char_end": 16146,
+        "anchor": "PMC11451251_16123_16146",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 221,
+      "label": "sequences and structures of",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of proteome-level mutations in the ISS species and within pangenome context",
+        "sentence_id": 78,
+        "char_start": 16147,
+        "char_end": 16174,
+        "anchor": "PMC11451251_16147_16174",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 232,
+      "label": "to carbohydrate, cofactors and coenzymes metabolism",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Energy metabolism",
+        "sentence_id": 82,
+        "char_start": 16671,
+        "char_end": 16722,
+        "anchor": "PMC11451251_16671_16722",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 233,
+      "label": "omic annotation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Energy metabolism",
+        "sentence_id": 82,
+        "char_start": 16754,
+        "char_end": 16769,
+        "anchor": "PMC11451251_16754_16769",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 234,
+      "label": "metabolic tests",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Energy metabolism",
+        "sentence_id": 82,
+        "char_start": 16797,
+        "char_end": 16812,
+        "anchor": "PMC11451251_16797_16812",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 237,
+      "label": "carbohydrates",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Energy metabolism",
+        "sentence_id": 83,
+        "char_start": 17090,
+        "char_end": 17103,
+        "anchor": "PMC11451251_17090_17103",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 239,
+      "label": "melibiose",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Energy metabolism",
+        "sentence_id": 83,
+        "char_start": 17160,
+        "char_end": 17169,
+        "anchor": "PMC11451251_17160_17169",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 241,
+      "label": "galactose",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Energy metabolism",
+        "sentence_id": 83,
+        "char_start": 17180,
+        "char_end": 17189,
+        "anchor": "PMC11451251_17180_17189",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 243,
+      "label": "fatty acids",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Energy metabolism",
+        "sentence_id": 83,
+        "char_start": 17257,
+        "char_end": 17268,
+        "anchor": "PMC11451251_17257_17268",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 244,
+      "label": "sodium lac",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Energy metabolism",
+        "sentence_id": 83,
+        "char_start": 17297,
+        "char_end": 17307,
+        "anchor": "PMC11451251_17297_17307",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 245,
+      "label": "amino acids",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Energy metabolism",
+        "sentence_id": 83,
+        "char_start": 17327,
+        "char_end": 17338,
+        "anchor": "PMC11451251_17327_17338",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 253,
+      "label": "bacterium",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Energy metabolism",
+        "sentence_id": 86,
+        "char_start": 17930,
+        "char_end": 17939,
+        "anchor": "PMC11451251_17930_17939",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 257,
+      "label": "potassium",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Energy metabolism",
+        "sentence_id": 87,
+        "char_start": 18194,
+        "char_end": 18203,
+        "anchor": "PMC11451251_18194_18203",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 266,
+      "label": "90% sequence",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Mechanosensitive ion channels (Msc) and osmoprotectants",
+        "sentence_id": 92,
+        "char_start": 19303,
+        "char_end": 19315,
+        "anchor": "PMC11451251_19303_19315",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 271,
+      "label": "trehalose synthesis",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Mechanosensitive ion channels (Msc) and osmoprotectants",
+        "sentence_id": 93,
+        "char_start": 19783,
+        "char_end": 19802,
+        "anchor": "PMC11451251_19783_19802",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 281,
+      "label": "elevated number",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Redox stress",
+        "sentence_id": 96,
+        "char_start": 20160,
+        "char_end": 20175,
+        "anchor": "PMC11451251_20160_20175",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 282,
+      "label": "metalloprotein",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Redox stress",
+        "sentence_id": 96,
+        "char_start": 20179,
+        "char_end": 20193,
+        "anchor": "PMC11451251_20179_20193",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 283,
+      "label": "27 and 25",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Redox stress",
+        "sentence_id": 96,
+        "char_start": 20327,
+        "char_end": 20336,
+        "anchor": "PMC11451251_20327_20336",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 284,
+      "label": "metalloprotein",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Redox stress",
+        "sentence_id": 96,
+        "char_start": 20344,
+        "char_end": 20358,
+        "anchor": "PMC11451251_20344_20358",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 285,
+      "label": "metallopept",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Redox stress",
+        "sentence_id": 96,
+        "char_start": 20415,
+        "char_end": 20426,
+        "anchor": "PMC11451251_20415_20426",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 286,
+      "label": "ioredoxin",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Redox stress",
+        "sentence_id": 96,
+        "char_start": 20436,
+        "char_end": 20445,
+        "anchor": "PMC11451251_20436_20445",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 287,
+      "label": "metallore",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Redox stress",
+        "sentence_id": 96,
+        "char_start": 20448,
+        "char_end": 20457,
+        "anchor": "PMC11451251_20448_20457",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 289,
+      "label": "transcription factors",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Redox stress",
+        "sentence_id": 96,
+        "char_start": 20465,
+        "char_end": 20486,
+        "anchor": "PMC11451251_20465_20486",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 297,
+      "label": "metallopeptidase",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Redox stress",
+        "sentence_id": 97,
+        "char_start": 20722,
+        "char_end": 20738,
+        "anchor": "PMC11451251_20722_20738",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 298,
+      "label": "protein sequence similarity",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Redox stress",
+        "sentence_id": 97,
+        "char_start": 20997,
+        "char_end": 21024,
+        "anchor": "PMC11451251_20997_21024",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 300,
+      "label": "structural models",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Redox stress",
+        "sentence_id": 99,
+        "char_start": 21083,
+        "char_end": 21100,
+        "anchor": "PMC11451251_21083_21100",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 302,
+      "label": "enrichment",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Redox stress",
+        "sentence_id": 100,
+        "char_start": 21267,
+        "char_end": 21277,
+        "anchor": "PMC11451251_21267_21277",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 303,
+      "label": "amino acids",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Redox stress",
+        "sentence_id": 100,
+        "char_start": 21285,
+        "char_end": 21296,
+        "anchor": "PMC11451251_21285_21296",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 304,
+      "label": "Mme_0019",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Redox stress",
+        "sentence_id": 100,
+        "char_start": 21300,
+        "char_end": 21308,
+        "anchor": "PMC11451251_21300_21308",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 306,
+      "label": "over 1.5 times more abundant",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Redox stress",
+        "sentence_id": 100,
+        "char_start": 21408,
+        "char_end": 21436,
+        "anchor": "PMC11451251_21408_21436",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 307,
+      "label": "over 2 times less abundant",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Redox stress",
+        "sentence_id": 101,
+        "char_start": 21518,
+        "char_end": 21544,
+        "anchor": "PMC11451251_21518_21544",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 310,
+      "label": "deinococcal aminopeptidase",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Redox stress",
+        "sentence_id": 102,
+        "char_start": 21592,
+        "char_end": 21618,
+        "anchor": "PMC11451251_21592_21618",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 311,
+      "label": "Mme_001",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Redox stress",
+        "sentence_id": 102,
+        "char_start": 21636,
+        "char_end": 21643,
+        "anchor": "PMC11451251_21636_21643",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 312,
+      "label": "1.81 times bigger",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Redox stress",
+        "sentence_id": 102,
+        "char_start": 21719,
+        "char_end": 21736,
+        "anchor": "PMC11451251_21719_21736",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 315,
+      "label": "histidine",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Redox stress",
+        "sentence_id": 103,
+        "char_start": 22047,
+        "char_end": 22056,
+        "anchor": "PMC11451251_22047_22056",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 316,
+      "label": "two times",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Redox stress",
+        "sentence_id": 104,
+        "char_start": 22100,
+        "char_end": 22109,
+        "anchor": "PMC11451251_22100_22109",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 340,
+      "label": "Phage elements",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Phage elements",
+        "sentence_id": 113,
+        "char_start": 22978,
+        "char_end": 22992,
+        "anchor": "PMC11451251_22978_22992",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 348,
+      "label": "metallophores",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Potential pathogenicity and antibiotic resistance",
+        "sentence_id": 117,
+        "char_start": 23647,
+        "char_end": 23660,
+        "anchor": "PMC11451251_23647_23660",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 349,
+      "label": "hemolysins",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Potential pathogenicity and antibiotic resistance",
+        "sentence_id": 117,
+        "char_start": 23665,
+        "char_end": 23675,
+        "anchor": "PMC11451251_23665_23675",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 353,
+      "label": "enhanced expression",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Potential pathogenicity and antibiotic resistance",
+        "sentence_id": 118,
+        "char_start": 23816,
+        "char_end": 23835,
+        "anchor": "PMC11451251_23816_23835",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 357,
+      "label": "biofilm formation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Potential pathogenicity and antibiotic resistance",
+        "sentence_id": 122,
+        "char_start": 24738,
+        "char_end": 24755,
+        "anchor": "PMC11451251_24738_24755",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 360,
+      "label": "nutrient availability",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Potential pathogenicity and antibiotic resistance",
+        "sentence_id": 122,
+        "char_start": 24869,
+        "char_end": 24890,
+        "anchor": "PMC11451251_24869_24890",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 363,
+      "label": "film formation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Potential pathogenicity and antibiotic resistance",
+        "sentence_id": 122,
+        "char_start": 25111,
+        "char_end": 25125,
+        "anchor": "PMC11451251_25111_25125",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 369,
+      "label": "Structure alignment",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Potential pathogenicity and antibiotic resistance",
+        "sentence_id": 123,
+        "char_start": 25145,
+        "char_end": 25164,
+        "anchor": "PMC11451251_25145_25164",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 372,
+      "label": "amino acid enrichment",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Potential pathogenicity and antibiotic resistance",
+        "sentence_id": 123,
+        "char_start": 25229,
+        "char_end": 25250,
+        "anchor": "PMC11451251_25229_25250",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 374,
+      "label": "Metabolic assays",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Potential pathogenicity and antibiotic resistance",
+        "sentence_id": 125,
+        "char_start": 25584,
+        "char_end": 25600,
+        "anchor": "PMC11451251_25584_25600",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 377,
+      "label": "two anti",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Potential pathogenicity and antibiotic resistance",
+        "sentence_id": 125,
+        "char_start": 25678,
+        "char_end": 25686,
+        "anchor": "PMC11451251_25678_25686",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 378,
+      "label": "microbial compounds",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Potential pathogenicity and antibiotic resistance",
+        "sentence_id": 125,
+        "char_start": 25686,
+        "char_end": 25705,
+        "anchor": "PMC11451251_25686_25705",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 381,
+      "label": "examination of genomes",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 128,
+        "char_start": 26211,
+        "char_end": 26233,
+        "anchor": "PMC11451251_26211_26233",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 384,
+      "label": "cell physiology",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 129,
+        "char_start": 26427,
+        "char_end": 26442,
+        "anchor": "PMC11451251_26427_26442",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 385,
+      "label": "metabolism",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 129,
+        "char_start": 26447,
+        "char_end": 26457,
+        "anchor": "PMC11451251_26447_26457",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 389,
+      "label": "glycosylation in",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 132,
+        "char_start": 26855,
+        "char_end": 26871,
+        "anchor": "PMC11451251_26855_26871",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 392,
+      "label": "genes related",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 134,
+        "char_start": 26988,
+        "char_end": 27001,
+        "anchor": "PMC11451251_26988_27001",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 393,
+      "label": "beta-mannosidase",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 134,
+        "char_start": 27005,
+        "char_end": 27021,
+        "anchor": "PMC11451251_27005_27021",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 394,
+      "label": "mannose activities",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 134,
+        "char_start": 27026,
+        "char_end": 27044,
+        "anchor": "PMC11451251_27026_27044",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 395,
+      "label": "regulated",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 134,
+        "char_start": 27053,
+        "char_end": 27062,
+        "anchor": "PMC11451251_27053_27062",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 405,
+      "label": "surface oxidoreductases",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 138,
+        "char_start": 27703,
+        "char_end": 27726,
+        "anchor": "PMC11451251_27703_27726",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 407,
+      "label": "meta-omic analysis",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 140,
+        "char_start": 27972,
+        "char_end": 27990,
+        "anchor": "PMC11451251_27972_27990",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 409,
+      "label": "meta-omic analyses",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 141,
+        "char_start": 28172,
+        "char_end": 28190,
+        "anchor": "PMC11451251_28172_28190",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 413,
+      "label": "protein activity",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 143,
+        "char_start": 28612,
+        "char_end": 28628,
+        "anchor": "PMC11451251_28612_28628",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 417,
+      "label": "transposable elements",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 146,
+        "char_start": 29466,
+        "char_end": 29487,
+        "anchor": "PMC11451251_29466_29487",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 424,
+      "label": "spore-former",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 151,
+        "char_start": 30292,
+        "char_end": 30304,
+        "anchor": "PMC11451251_30292_30304",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 427,
+      "label": "discerned",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 152,
+        "char_start": 30484,
+        "char_end": 30493,
+        "anchor": "PMC11451251_30484_30493",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 428,
+      "label": "alterations",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 154,
+        "char_start": 30730,
+        "char_end": 30741,
+        "anchor": "PMC11451251_30730_30741",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 433,
+      "label": "metallopeptidase",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 161,
+        "char_start": 32008,
+        "char_end": 32024,
+        "anchor": "PMC11451251_32008_32024",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 434,
+      "label": "aminopeptidase",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 161,
+        "char_start": 32026,
+        "char_end": 32040,
+        "anchor": "PMC11451251_32026_32040",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 436,
+      "label": "amino acid composition",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 162,
+        "char_start": 32220,
+        "char_end": 32242,
+        "anchor": "PMC11451251_32220_32242",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 437,
+      "label": "enrichment",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 162,
+        "char_start": 32304,
+        "char_end": 32314,
+        "anchor": "PMC11451251_32304_32314",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 438,
+      "label": "methionine",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 162,
+        "char_start": 32334,
+        "char_end": 32344,
+        "anchor": "PMC11451251_32334_32344",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 440,
+      "label": "stability",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 163,
+        "char_start": 32438,
+        "char_end": 32447,
+        "anchor": "PMC11451251_32438_32447",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 441,
+      "label": "structure",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 163,
+        "char_start": 32455,
+        "char_end": 32464,
+        "anchor": "PMC11451251_32455_32464",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 445,
+      "label": "independent",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 164,
+        "char_start": 32617,
+        "char_end": 32628,
+        "anchor": "PMC11451251_32617_32628",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 446,
+      "label": "oxidation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 165,
+        "char_start": 32719,
+        "char_end": 32728,
+        "anchor": "PMC11451251_32719_32728",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 447,
+      "label": "metalloproteins",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 166,
+        "char_start": 32923,
+        "char_end": 32938,
+        "anchor": "PMC11451251_32923_32938",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 449,
+      "label": "extraordinary",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 167,
+        "char_start": 33162,
+        "char_end": 33175,
+        "anchor": "PMC11451251_33162_33175",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 451,
+      "label": "resistance",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 167,
+        "char_start": 33186,
+        "char_end": 33196,
+        "anchor": "PMC11451251_33186_33196",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 456,
+      "label": "metallopeptidases",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 175,
+        "char_start": 34299,
+        "char_end": 34316,
+        "anchor": "PMC11451251_34299_34316",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 457,
+      "label": "microbial virulence",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 175,
+        "char_start": 34500,
+        "char_end": 34519,
+        "anchor": "PMC11451251_34500_34519",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 458,
+      "label": "biofilm formation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 175,
+        "char_start": 34524,
+        "char_end": 34541,
+        "anchor": "PMC11451251_34524_34541",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 459,
+      "label": "protein glycosylation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 177,
+        "char_start": 34804,
+        "char_end": 34825,
+        "anchor": "PMC11451251_34804_34825",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 460,
+      "label": "antibiotic resistance",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 177,
+        "char_start": 34837,
+        "char_end": 34858,
+        "anchor": "PMC11451251_34837_34858",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 464,
+      "label": "biofilm production",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 178,
+        "char_start": 35136,
+        "char_end": 35154,
+        "anchor": "PMC11451251_35136_35154",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 469,
+      "label": "cteriocin synthesis",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 181,
+        "char_start": 35522,
+        "char_end": 35541,
+        "anchor": "PMC11451251_35522_35541",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 483,
+      "label": "data availability",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 193,
+        "char_start": 37112,
+        "char_end": 37129,
+        "anchor": "PMC11451251_37112_37129",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 484,
+      "label": "Sample collection",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacteria isolation, genome assembly and annotation",
+        "sentence_id": 198,
+        "char_start": 37840,
+        "char_end": 37857,
+        "anchor": "PMC11451251_37840_37857",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 485,
+      "label": "bacterial isolation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacteria isolation, genome assembly and annotation",
+        "sentence_id": 198,
+        "char_start": 37862,
+        "char_end": 37881,
+        "anchor": "PMC11451251_37862_37881",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 487,
+      "label": "Biochemical tests",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacteria isolation, genome assembly and annotation",
+        "sentence_id": 198,
+        "char_start": 37938,
+        "char_end": 37955,
+        "anchor": "PMC11451251_37938_37955",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 488,
+      "label": "phenotypic fingerprint",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacteria isolation, genome assembly and annotation",
+        "sentence_id": 198,
+        "char_start": 38045,
+        "char_end": 38067,
+        "anchor": "PMC11451251_38045_38067",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 496,
+      "label": "Phylogenetic affiliation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacteria isolation, genome assembly and annotation",
+        "sentence_id": 199,
+        "char_start": 38377,
+        "char_end": 38401,
+        "anchor": "PMC11451251_38377_38401",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 507,
+      "label": "Sequencing",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA extraction",
+        "sentence_id": 202,
+        "char_start": 38673,
+        "char_end": 38683,
+        "anchor": "PMC11451251_38673_38683",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 513,
+      "label": "WGS reads",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA extraction",
+        "sentence_id": 205,
+        "char_start": 38836,
+        "char_end": 38845,
+        "anchor": "PMC11451251_38836_38845",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 515,
+      "label": "genome statistics",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA extraction",
+        "sentence_id": 205,
+        "char_start": 38885,
+        "char_end": 38902,
+        "anchor": "PMC11451251_38885_38902",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 520,
+      "label": "quality checks",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA extraction",
+        "sentence_id": 206,
+        "char_start": 38923,
+        "char_end": 38937,
+        "anchor": "PMC11451251_38923_38937",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 523,
+      "label": "verification",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA extraction",
+        "sentence_id": 207,
+        "char_start": 38963,
+        "char_end": 38975,
+        "anchor": "PMC11451251_38963_38975",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 527,
+      "label": "digital DNA-DNA hybridization (",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA extraction",
+        "sentence_id": 210,
+        "char_start": 39105,
+        "char_end": 39136,
+        "anchor": "PMC11451251_39105_39136",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 549,
+      "label": "structures",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome annotation",
+        "sentence_id": 221,
+        "char_start": 40176,
+        "char_end": 40186,
+        "anchor": "PMC11451251_40176_40186",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 551,
+      "label": "protein databank",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome annotation",
+        "sentence_id": 225,
+        "char_start": 40293,
+        "char_end": 40309,
+        "anchor": "PMC11451251_40293_40309",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 553,
+      "label": "contact map alignment",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome annotation",
+        "sentence_id": 226,
+        "char_start": 40351,
+        "char_end": 40372,
+        "anchor": "PMC11451251_40351_40372",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 555,
+      "label": "Graph Convolutional Network",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome annotation",
+        "sentence_id": 226,
+        "char_start": 40419,
+        "char_end": 40446,
+        "anchor": "PMC11451251_40419_40446",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 556,
+      "label": "alignment",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome annotation",
+        "sentence_id": 226,
+        "char_start": 40481,
+        "char_end": 40490,
+        "anchor": "PMC11451251_40481_40490",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 558,
+      "label": "al Neural Network",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome annotation",
+        "sentence_id": 226,
+        "char_start": 40542,
+        "char_end": 40559,
+        "anchor": "PMC11451251_40542_40559",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 566,
+      "label": "Protein sequences",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome annotation",
+        "sentence_id": 227,
+        "char_start": 41013,
+        "char_end": 41030,
+        "anchor": "PMC11451251_41013_41030",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 570,
+      "label": "that threshold",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome annotation",
+        "sentence_id": 229,
+        "char_start": 41244,
+        "char_end": 41258,
+        "anchor": "PMC11451251_41244_41258",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 573,
+      "label": "Annotations",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome annotation",
+        "sentence_id": 230,
+        "char_start": 41329,
+        "char_end": 41340,
+        "anchor": "PMC11451251_41329_41340",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 579,
+      "label": "nn diagrams",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome annotation",
+        "sentence_id": 232,
+        "char_start": 41859,
+        "char_end": 41870,
+        "anchor": "PMC11451251_41859_41870",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 580,
+      "label": "Upsetplot",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome annotation",
+        "sentence_id": 232,
+        "char_start": 41875,
+        "char_end": 41884,
+        "anchor": "PMC11451251_41875_41884",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 581,
+      "label": "Protein structures",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome annotation",
+        "sentence_id": 234,
+        "char_start": 42049,
+        "char_end": 42067,
+        "anchor": "PMC11451251_42049_42067",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 582,
+      "label": "silico structure prediction tool",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome annotation",
+        "sentence_id": 234,
+        "char_start": 42090,
+        "char_end": 42122,
+        "anchor": "PMC11451251_42090_42122",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 584,
+      "label": "format structures",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome annotation",
+        "sentence_id": 234,
+        "char_start": 42186,
+        "char_end": 42203,
+        "anchor": "PMC11451251_42186_42203",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 587,
+      "label": "Structures",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome annotation",
+        "sentence_id": 234,
+        "char_start": 42260,
+        "char_end": 42270,
+        "anchor": "PMC11451251_42260_42270",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 590,
+      "label": "Sequences of selected proteins",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Sequence alignments, functional annotations for plasmids, phage elements and biosynthetic gene clusters in the genome",
+        "sentence_id": 237,
+        "char_start": 42606,
+        "char_end": 42636,
+        "anchor": "PMC11451251_42606_42636",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 593,
+      "label": "Clustering dendrograms",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Sequence alignments, functional annotations for plasmids, phage elements and biosynthetic gene clusters in the genome",
+        "sentence_id": 237,
+        "char_start": 42672,
+        "char_end": 42694,
+        "anchor": "PMC11451251_42672_42694",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 594,
+      "label": "amino acid substitution model",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Sequence alignments, functional annotations for plasmids, phage elements and biosynthetic gene clusters in the genome",
+        "sentence_id": 237,
+        "char_start": 42737,
+        "char_end": 42766,
+        "anchor": "PMC11451251_42737_42766",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 595,
+      "label": "approximate likelihood ratio test",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Sequence alignments, functional annotations for plasmids, phage elements and biosynthetic gene clusters in the genome",
+        "sentence_id": 237,
+        "char_start": 42771,
+        "char_end": 42804,
+        "anchor": "PMC11451251_42771_42804",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 604,
+      "label": "hetic gene clusters",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Sequence alignments, functional annotations for plasmids, phage elements and biosynthetic gene clusters in the genome",
+        "sentence_id": 239,
+        "char_start": 43179,
+        "char_end": 43198,
+        "anchor": "PMC11451251_43179_43198",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 607,
+      "label": "amino acid compositions",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein mutation and enrichment analysis",
+        "sentence_id": 241,
+        "char_start": 43475,
+        "char_end": 43498,
+        "anchor": "PMC11451251_43475_43498",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 609,
+      "label": "global alignment",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein mutation and enrichment analysis",
+        "sentence_id": 241,
+        "char_start": 43615,
+        "char_end": 43631,
+        "anchor": "PMC11451251_43615_43631",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 611,
+      "label": "acid substitutions",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein mutation and enrichment analysis",
+        "sentence_id": 242,
+        "char_start": 43856,
+        "char_end": 43874,
+        "anchor": "PMC11451251_43856_43874",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 613,
+      "label": "amino acid substitution",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein mutation and enrichment analysis",
+        "sentence_id": 242,
+        "char_start": 43912,
+        "char_end": 43935,
+        "anchor": "PMC11451251_43912_43935",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 616,
+      "label": "amino acid mutation rate",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein mutation and enrichment analysis",
+        "sentence_id": 243,
+        "char_start": 44001,
+        "char_end": 44025,
+        "anchor": "PMC11451251_44001_44025",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 617,
+      "label": "Z-score",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein mutation and enrichment analysis",
+        "sentence_id": 243,
+        "char_start": 44030,
+        "char_end": 44037,
+        "anchor": "PMC11451251_44030_44037",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 618,
+      "label": "above 1.96",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein mutation and enrichment analysis",
+        "sentence_id": 243,
+        "char_start": 44038,
+        "char_end": 44048,
+        "anchor": "PMC11451251_44038_44048",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 619,
+      "label": "below -1.96",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein mutation and enrichment analysis",
+        "sentence_id": 243,
+        "char_start": 44052,
+        "char_end": 44063,
+        "anchor": "PMC11451251_44052_44063",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 622,
+      "label": "gene sets for bacteria",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein mutation and enrichment analysis",
+        "sentence_id": 248,
+        "char_start": 44254,
+        "char_end": 44276,
+        "anchor": "PMC11451251_44254_44276",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 628,
+      "label": "gene sets",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein mutation and enrichment analysis",
+        "sentence_id": 251,
+        "char_start": 44506,
+        "char_end": 44515,
+        "anchor": "PMC11451251_44506_44515",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 630,
+      "label": "false discovery rate",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein mutation and enrichment analysis",
+        "sentence_id": 251,
+        "char_start": 44554,
+        "char_end": 44574,
+        "anchor": "PMC11451251_44554_44574",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 631,
+      "label": "molecular",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein mutation and enrichment analysis",
+        "sentence_id": 251,
+        "char_start": 44604,
+        "char_end": 44613,
+        "anchor": "PMC11451251_44604_44613",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 634,
+      "label": "Data visualization",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein mutation and enrichment analysis",
+        "sentence_id": 252,
+        "char_start": 44632,
+        "char_end": 44650,
+        "anchor": "PMC11451251_44632_44650",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 638,
+      "label": "phylogenetic trees",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein mutation and enrichment analysis",
+        "sentence_id": 254,
+        "char_start": 44740,
+        "char_end": 44758,
+        "anchor": "PMC11451251_44740_44758",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 639,
+      "label": "phylogenetic distance",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein mutation and enrichment analysis",
+        "sentence_id": 256,
+        "char_start": 44843,
+        "char_end": 44864,
+        "anchor": "PMC11451251_44843_44864",
+        "page": 14,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-1-4",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "id": "synth-1-6",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 6
+    },
+    {
+      "id": "synth-1-8",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "id": "synth-1-10",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 10
+    },
+    {
+      "id": "synth-1-12",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 12
+    },
+    {
+      "id": "synth-1-14",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 14
+    },
+    {
+      "id": "synth-1-15",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 15
+    },
+    {
+      "id": "synth-1-30",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 30
+    },
+    {
+      "id": "synth-1-32",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 32
+    },
+    {
+      "id": "synth-1-36",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 36
+    },
+    {
+      "id": "synth-1-37",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 37
+    },
+    {
+      "id": "synth-1-38",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 38
+    },
+    {
+      "id": "synth-1-48",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 48
+    },
+    {
+      "id": "synth-1-49",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 49
+    },
+    {
+      "id": "synth-1-51",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 51
+    },
+    {
+      "id": "synth-1-53",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 53
+    },
+    {
+      "id": "synth-1-54",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 54
+    },
+    {
+      "id": "synth-1-58",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 58
+    },
+    {
+      "id": "synth-1-59",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 59
+    },
+    {
+      "id": "synth-1-67",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 67
+    },
+    {
+      "id": "synth-1-68",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 68
+    },
+    {
+      "id": "synth-1-71",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 71
+    },
+    {
+      "id": "synth-1-79",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 79
+    },
+    {
+      "id": "synth-1-81",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 81
+    },
+    {
+      "id": "synth-1-83",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 83
+    },
+    {
+      "id": "synth-1-88",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 88
+    },
+    {
+      "id": "synth-1-89",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 89
+    },
+    {
+      "id": "synth-1-96",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 96
+    },
+    {
+      "id": "synth-1-98",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 98
+    },
+    {
+      "id": "synth-1-102",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 102
+    },
+    {
+      "id": "synth-1-103",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 103
+    },
+    {
+      "id": "synth-1-110",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 110
+    },
+    {
+      "id": "synth-1-111",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 111
+    },
+    {
+      "id": "synth-1-112",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 112
+    },
+    {
+      "id": "synth-1-113",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 113
+    },
+    {
+      "id": "synth-1-117",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 117
+    },
+    {
+      "id": "synth-1-120",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 120
+    },
+    {
+      "id": "synth-1-121",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 121
+    },
+    {
+      "id": "synth-1-125",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 125
+    },
+    {
+      "id": "synth-1-126",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 126
+    },
+    {
+      "id": "synth-1-127",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 127
+    },
+    {
+      "id": "synth-1-135",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 135
+    },
+    {
+      "id": "synth-1-143",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 143
+    },
+    {
+      "id": "synth-1-144",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 144
+    },
+    {
+      "id": "synth-1-145",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 145
+    },
+    {
+      "id": "synth-1-146",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 146
+    },
+    {
+      "id": "synth-1-147",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 147
+    },
+    {
+      "id": "synth-1-149",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 149
+    },
+    {
+      "id": "synth-1-150",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 150
+    },
+    {
+      "id": "synth-1-152",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 152
+    },
+    {
+      "id": "synth-1-160",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 160
+    },
+    {
+      "id": "synth-1-161",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 161
+    },
+    {
+      "id": "synth-1-162",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 162
+    },
+    {
+      "id": "synth-1-167",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 167
+    },
+    {
+      "id": "synth-1-172",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 172
+    },
+    {
+      "id": "synth-1-173",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 173
+    },
+    {
+      "id": "synth-1-176",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 176
+    },
+    {
+      "id": "synth-1-177",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 177
+    },
+    {
+      "id": "synth-1-180",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 180
+    },
+    {
+      "id": "synth-1-183",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 183
+    },
+    {
+      "id": "synth-1-185",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 185
+    },
+    {
+      "id": "synth-1-193",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 193
+    },
+    {
+      "id": "synth-1-194",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 194
+    },
+    {
+      "id": "synth-1-195",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 195
+    },
+    {
+      "id": "synth-1-196",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 196
+    },
+    {
+      "id": "synth-1-201",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 201
+    },
+    {
+      "id": "synth-1-204",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 204
+    },
+    {
+      "id": "synth-1-211",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 211
+    },
+    {
+      "id": "synth-1-220",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 220
+    },
+    {
+      "id": "synth-1-221",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 221
+    },
+    {
+      "id": "synth-1-232",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 232
+    },
+    {
+      "id": "synth-1-233",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 233
+    },
+    {
+      "id": "synth-1-234",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 234
+    },
+    {
+      "id": "synth-1-237",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 237
+    },
+    {
+      "id": "synth-1-239",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 239
+    },
+    {
+      "id": "synth-1-241",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 241
+    },
+    {
+      "id": "synth-1-243",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 243
+    },
+    {
+      "id": "synth-1-244",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 244
+    },
+    {
+      "id": "synth-1-245",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 245
+    },
+    {
+      "id": "synth-1-253",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 253
+    },
+    {
+      "id": "synth-1-257",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 257
+    },
+    {
+      "id": "synth-1-266",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 266
+    },
+    {
+      "id": "synth-1-271",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 271
+    },
+    {
+      "id": "synth-1-281",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 281
+    },
+    {
+      "id": "synth-1-282",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 282
+    },
+    {
+      "id": "synth-1-283",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 283
+    },
+    {
+      "id": "synth-1-284",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 284
+    },
+    {
+      "id": "synth-1-285",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 285
+    },
+    {
+      "id": "synth-1-286",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 286
+    },
+    {
+      "id": "synth-1-287",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 287
+    },
+    {
+      "id": "synth-1-289",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 289
+    },
+    {
+      "id": "synth-1-297",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 297
+    },
+    {
+      "id": "synth-1-298",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 298
+    },
+    {
+      "id": "synth-1-300",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 300
+    },
+    {
+      "id": "synth-1-302",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 302
+    },
+    {
+      "id": "synth-1-303",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 303
+    },
+    {
+      "id": "synth-1-304",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 304
+    },
+    {
+      "id": "synth-1-306",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 306
+    },
+    {
+      "id": "synth-1-307",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 307
+    },
+    {
+      "id": "synth-1-310",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 310
+    },
+    {
+      "id": "synth-1-311",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 311
+    },
+    {
+      "id": "synth-1-312",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 312
+    },
+    {
+      "id": "synth-1-315",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 315
+    },
+    {
+      "id": "synth-1-316",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 316
+    },
+    {
+      "id": "synth-1-340",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 340
+    },
+    {
+      "id": "synth-1-348",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 348
+    },
+    {
+      "id": "synth-1-349",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 349
+    },
+    {
+      "id": "synth-1-353",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 353
+    },
+    {
+      "id": "synth-1-357",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 357
+    },
+    {
+      "id": "synth-1-360",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 360
+    },
+    {
+      "id": "synth-1-363",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 363
+    },
+    {
+      "id": "synth-1-369",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 369
+    },
+    {
+      "id": "synth-1-372",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 372
+    },
+    {
+      "id": "synth-1-374",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 374
+    },
+    {
+      "id": "synth-1-377",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 377
+    },
+    {
+      "id": "synth-1-378",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 378
+    },
+    {
+      "id": "synth-1-381",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 381
+    },
+    {
+      "id": "synth-1-384",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 384
+    },
+    {
+      "id": "synth-1-385",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 385
+    },
+    {
+      "id": "synth-1-389",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 389
+    },
+    {
+      "id": "synth-1-392",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 392
+    },
+    {
+      "id": "synth-1-393",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 393
+    },
+    {
+      "id": "synth-1-394",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 394
+    },
+    {
+      "id": "synth-1-395",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 395
+    },
+    {
+      "id": "synth-1-405",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 405
+    },
+    {
+      "id": "synth-1-407",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 407
+    },
+    {
+      "id": "synth-1-409",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 409
+    },
+    {
+      "id": "synth-1-413",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 413
+    },
+    {
+      "id": "synth-1-417",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 417
+    },
+    {
+      "id": "synth-1-424",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 424
+    },
+    {
+      "id": "synth-1-427",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 427
+    },
+    {
+      "id": "synth-1-428",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 428
+    },
+    {
+      "id": "synth-1-433",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 433
+    },
+    {
+      "id": "synth-1-434",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 434
+    },
+    {
+      "id": "synth-1-436",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 436
+    },
+    {
+      "id": "synth-1-437",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 437
+    },
+    {
+      "id": "synth-1-438",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 438
+    },
+    {
+      "id": "synth-1-440",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 440
+    },
+    {
+      "id": "synth-1-441",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 441
+    },
+    {
+      "id": "synth-1-445",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 445
+    },
+    {
+      "id": "synth-1-446",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 446
+    },
+    {
+      "id": "synth-1-447",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 447
+    },
+    {
+      "id": "synth-1-449",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 449
+    },
+    {
+      "id": "synth-1-451",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 451
+    },
+    {
+      "id": "synth-1-456",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 456
+    },
+    {
+      "id": "synth-1-457",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 457
+    },
+    {
+      "id": "synth-1-458",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 458
+    },
+    {
+      "id": "synth-1-459",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 459
+    },
+    {
+      "id": "synth-1-460",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 460
+    },
+    {
+      "id": "synth-1-464",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 464
+    },
+    {
+      "id": "synth-1-469",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 469
+    },
+    {
+      "id": "synth-1-483",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 483
+    },
+    {
+      "id": "synth-1-484",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 484
+    },
+    {
+      "id": "synth-1-485",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 485
+    },
+    {
+      "id": "synth-1-487",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 487
+    },
+    {
+      "id": "synth-1-488",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 488
+    },
+    {
+      "id": "synth-1-496",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 496
+    },
+    {
+      "id": "synth-1-507",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 507
+    },
+    {
+      "id": "synth-1-513",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 513
+    },
+    {
+      "id": "synth-1-515",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 515
+    },
+    {
+      "id": "synth-1-520",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 520
+    },
+    {
+      "id": "synth-1-523",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 523
+    },
+    {
+      "id": "synth-1-527",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 527
+    },
+    {
+      "id": "synth-1-549",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 549
+    },
+    {
+      "id": "synth-1-551",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 551
+    },
+    {
+      "id": "synth-1-553",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 553
+    },
+    {
+      "id": "synth-1-555",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 555
+    },
+    {
+      "id": "synth-1-556",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 556
+    },
+    {
+      "id": "synth-1-558",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 558
+    },
+    {
+      "id": "synth-1-566",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 566
+    },
+    {
+      "id": "synth-1-570",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 570
+    },
+    {
+      "id": "synth-1-573",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 573
+    },
+    {
+      "id": "synth-1-579",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 579
+    },
+    {
+      "id": "synth-1-580",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 580
+    },
+    {
+      "id": "synth-1-581",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 581
+    },
+    {
+      "id": "synth-1-582",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 582
+    },
+    {
+      "id": "synth-1-584",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 584
+    },
+    {
+      "id": "synth-1-587",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 587
+    },
+    {
+      "id": "synth-1-590",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 590
+    },
+    {
+      "id": "synth-1-593",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 593
+    },
+    {
+      "id": "synth-1-594",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 594
+    },
+    {
+      "id": "synth-1-595",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 595
+    },
+    {
+      "id": "synth-1-604",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 604
+    },
+    {
+      "id": "synth-1-607",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 607
+    },
+    {
+      "id": "synth-1-609",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 609
+    },
+    {
+      "id": "synth-1-611",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 611
+    },
+    {
+      "id": "synth-1-613",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 613
+    },
+    {
+      "id": "synth-1-616",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 616
+    },
+    {
+      "id": "synth-1-617",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 617
+    },
+    {
+      "id": "synth-1-618",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 618
+    },
+    {
+      "id": "synth-1-619",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 619
+    },
+    {
+      "id": "synth-1-622",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 622
+    },
+    {
+      "id": "synth-1-628",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 628
+    },
+    {
+      "id": "synth-1-630",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 630
+    },
+    {
+      "id": "synth-1-631",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 631
+    },
+    {
+      "id": "synth-1-634",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 634
+    },
+    {
+      "id": "synth-1-638",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 638
+    },
+    {
+      "id": "synth-1-639",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 639
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "EXPERIMENT",
+    "page": null
+  }
+}

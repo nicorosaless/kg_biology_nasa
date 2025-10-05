@@ -1,0 +1,196 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "This paper presents supplementary figures related to the study of the impact of C. albicans colonization on mouse behavior and gene expression in the brain. The focus is on exploring the relationship between C. albicans colonization, ethanol consumption, and the expression of genes implicated in addiction and reward pathways.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Figure S1: Ep receptor expression were not different in C.",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.png"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Figure S3: Drd gene expression was not different between C.",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.png"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Figure S4: Expression of other addiction-implicated genes in the Dorsal Striatum of C.",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.png"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Figure S5: No differences in mouse weight were observed in the ethanol-induced conditioned taste aversion experiment.Single housed female C57BL/6 mice were trained to drink their daily liquid in the late morning.Mice orally inoculated with C.",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.png"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Serum PGE-Metabolite Correlates with EP1 Receptor Expression",
+      "summary": "The study examined the correlation between serum prostaglandin E (PGE) metabolite concentrations and EP1 receptor expression in the prefrontal cortex (PFC) and nucleus accumbens (NAc) of C. albicans-colonized mice. A significant positive correlation was found between EP1 expression and PGE-M concentration in both the PFC and NAc. This suggests a link between C. albicans colonization, altered PGE metabolism, and changes in EP1 receptor expression in brain regions associated with reward and addiction.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Ep Receptor Expression in Brain Regions",
+      "summary": "The expression of Ep receptors was measured in various brain regions of mock-colonized and C. albicans-colonized mice using RT-qPCR. No significant differences in Ep receptor expression were observed between the two groups in the dorsal striatum (DS), prefrontal cortex (PFC), and nucleus accumbens (NAc).",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Drd Gene Expression in PFC and NAc",
+      "summary": "The expression of Drd (dopamine receptor) genes was examined in the prefrontal cortex (PFC) and nucleus accumbens (NAc) of mock-colonized and C. albicans-colonized mice. No significant differences in Drd gene expression were found between the two groups.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Expression of Addiction-Implicated Genes in Dorsal Striatum",
+      "summary": "The expression of genes implicated in addiction was measured in the dorsal striatum of C. albicans-colonized mice, mock-colonized mice that consumed ethanol, and mock-colonized mice given only water. Significant differences in gene expression were observed among the groups, suggesting that C. albicans colonization and ethanol consumption can influence the expression of addiction-related genes in the dorsal striatum.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Conditioned Taste Aversion Experiment",
+      "summary": "An ethanol-induced conditioned taste aversion experiment was conducted. No significant differences in mouse weight were observed among the different treatment groups (mock-colonized, C. albicans-colonized, ethanol exposure).",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Behavioral Tests and Colonization",
+      "summary": "Mouse weights and C. albicans colonization levels in fecal pellets and cecum contents were assessed in mice subjected to loss of righting reflex (LORR), open field test (OFT), and balance beam experiments. No significant differences in mouse weight or colonization were observed between the groups.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Effect of Ep Receptor Antagonism on Behavior",
+      "summary": "The study investigated the effect of EP receptor antagonism on mouse behavior in the open field test (OFT) and loss of righting reflex (LORR) tests. Antagonism of Ep receptors did not significantly alter the behavior of mice in these tests.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": {
+    "heading": "Conclusion",
+    "summary": "albicans-colonized mice.Single housed female C57BL/6 mice were orally inoculated with C."
+  },
+  "keywords": [
+    "c. albicans",
+    "colonization",
+    "ep receptors",
+    "gene expression",
+    "mouse behavior",
+    "ethanol consumption",
+    "addiction",
+    "brain regions",
+    "pge metabolites",
+    "conditioned taste aversion"
+  ],
+  "topics": [
+    "microbiome",
+    "neuroscience",
+    "behavioral science"
+  ],
+  "_meta": {
+    "paper_id": "sha256:83f43e06cfcc795f61a1a1d2e00d9b6a41272b191bf7196c058ae25d294daf15",
+    "paper_title": "",
+    "generated_at": "2025-10-05T10:40:12Z",
+    "word_count": 381,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "c. albicans",
+      "colonization",
+      "ep receptors",
+      "gene expression",
+      "mouse behavior",
+      "ethanol consumption",
+      "addiction",
+      "brain regions",
+      "pge metabolites",
+      "conditioned taste aversion"
+    ],
+    "topics": [
+      "microbiome",
+      "neuroscience",
+      "behavioral science"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 2758,
+      "completion_tokens": 943,
+      "total_tokens": 3701,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000276,
+      "output_usd": 0.000377,
+      "total_usd": 0.000653
+    },
+    "cost": {
+      "input_usd": 0.000276,
+      "output_usd": 0.000377,
+      "total_usd": 0.000653
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [
+        {
+          "id": "fig_5",
+          "score": -9999,
+          "caption_wc": 103
+        },
+        {
+          "id": "fig_6",
+          "score": -9999,
+          "caption_wc": 354
+        }
+      ],
+      "corrupted_detected": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4",
+        "fig_5",
+        "fig_6"
+      ],
+      "original_total": 6,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

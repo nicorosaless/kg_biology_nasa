@@ -1,0 +1,153 @@
+{
+  "paper_id": "PMC5666744",
+  "section": "Liquid Chromatography/Mass Spectrometry (LC/MS)",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 656,
+      "label": "Waters",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Liquid Chromatography/Mass Spectrometry (LC/MS)",
+        "sentence_id": 159,
+        "char_start": 41113,
+        "char_end": 41119,
+        "anchor": "PMC5666744_41113_41119",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 657,
+      "label": "The",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Liquid Chromatography/Mass Spectrometry (LC/MS)",
+        "sentence_id": 159,
+        "char_start": 41145,
+        "char_end": 41148,
+        "anchor": "PMC5666744_41145_41148",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 658,
+      "label": "Milford",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Liquid Chromatography/Mass Spectrometry (LC/MS)",
+        "sentence_id": 159,
+        "char_start": 41121,
+        "char_end": 41128,
+        "anchor": "PMC5666744_41121_41128",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 660,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Liquid Chromatography/Mass Spectrometry (LC/MS)",
+        "sentence_id": 159,
+        "char_start": 41134,
+        "char_end": 41137,
+        "anchor": "PMC5666744_41134_41137",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 654,
+      "label": "Meta",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Liquid Chromatography/Mass Spectrometry (LC/MS)",
+        "sentence_id": 159,
+        "char_start": 41050,
+        "char_end": 41054,
+        "anchor": "PMC5666744_41050_41054",
+        "page": 15,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 693,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 654,
+      "target": 656
+    },
+    {
+      "id": 694,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 654,
+      "target": 657
+    },
+    {
+      "id": 695,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 654,
+      "target": 658
+    },
+    {
+      "id": 697,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 654,
+      "target": 660
+    },
+    {
+      "id": 698,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 656,
+      "target": 657
+    },
+    {
+      "id": 699,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 656,
+      "target": 658
+    },
+    {
+      "id": 701,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 656,
+      "target": 660
+    },
+    {
+      "id": 702,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 657,
+      "target": 658
+    },
+    {
+      "id": 704,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 657,
+      "target": 660
+    },
+    {
+      "id": 706,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 658,
+      "target": 660
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 7,
+      "largest_component": 5
+    },
+    "page": 15
+  }
+}

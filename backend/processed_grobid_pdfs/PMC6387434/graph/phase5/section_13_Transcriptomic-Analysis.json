@@ -1,0 +1,328 @@
+{
+  "paper_id": "PMC6387434",
+  "section": "Transcriptomic Analysis",
+  "n_nodes": 24,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 692,
+      "label": "Dataset",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcriptomic Analysis",
+        "sentence_id": 239,
+        "char_start": 53318,
+        "char_end": 53325,
+        "anchor": "PMC6387434_53318_53325"
+      }
+    },
+    {
+      "id": 694,
+      "label": "RMAE",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcriptomic Analysis",
+        "sentence_id": 239,
+        "char_start": 53382,
+        "char_end": 53386,
+        "anchor": "PMC6387434_53382_53386"
+      }
+    },
+    {
+      "id": 690,
+      "label": "transcriptomic data",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcriptomic Analysis",
+        "sentence_id": 237,
+        "char_start": 52986,
+        "char_end": 53005,
+        "anchor": "PMC6387434_52986_53005"
+      }
+    },
+    {
+      "id": 691,
+      "label": "batch issues",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Transcriptomic Analysis",
+        "sentence_id": 238,
+        "char_start": 53159,
+        "char_end": 53171,
+        "anchor": "PMC6387434_53159_53171"
+      }
+    },
+    {
+      "id": 693,
+      "label": "background adjusted",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcriptomic Analysis",
+        "sentence_id": 239,
+        "char_start": 53332,
+        "char_end": 53351,
+        "anchor": "PMC6387434_53332_53351"
+      }
+    },
+    {
+      "id": 695,
+      "label": "collapsed",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcriptomic Analysis",
+        "sentence_id": 240,
+        "char_start": 53449,
+        "char_end": 53458,
+        "anchor": "PMC6387434_53449_53458"
+      }
+    },
+    {
+      "id": 696,
+      "label": "Multi",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcriptomic Analysis",
+        "sentence_id": 240,
+        "char_start": 53537,
+        "char_end": 53542,
+        "anchor": "PMC6387434_53537_53542"
+      }
+    },
+    {
+      "id": 697,
+      "label": "statistical",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcriptomic Analysis",
+        "sentence_id": 241,
+        "char_start": 53569,
+        "char_end": 53580,
+        "anchor": "PMC6387434_53569_53580"
+      }
+    },
+    {
+      "id": 698,
+      "label": "significant genes",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcriptomic Analysis",
+        "sentence_id": 241,
+        "char_start": 53583,
+        "char_end": 53600,
+        "anchor": "PMC6387434_53583_53600"
+      }
+    },
+    {
+      "id": 699,
+      "label": "OVA analysis",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcriptomic Analysis",
+        "sentence_id": 241,
+        "char_start": 53621,
+        "char_end": 53633,
+        "anchor": "PMC6387434_53621_53633"
+      }
+    },
+    {
+      "id": 700,
+      "label": "all conditions",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcriptomic Analysis",
+        "sentence_id": 241,
+        "char_start": 53642,
+        "char_end": 53656,
+        "anchor": "PMC6387434_53642_53656"
+      }
+    },
+    {
+      "id": 701,
+      "label": "p-value",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcriptomic Analysis",
+        "sentence_id": 241,
+        "char_start": 53686,
+        "char_end": 53693,
+        "anchor": "PMC6387434_53686_53693"
+      }
+    },
+    {
+      "id": 702,
+      "label": "t-test",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcriptomic Analysis",
+        "sentence_id": 241,
+        "char_start": 53705,
+        "char_end": 53711,
+        "anchor": "PMC6387434_53705_53711"
+      }
+    },
+    {
+      "id": 704,
+      "label": "ANOVA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcriptomic Analysis",
+        "sentence_id": 241,
+        "char_start": 53619,
+        "char_end": 53624,
+        "anchor": "PMC6387434_53619_53624"
+      }
+    },
+    {
+      "id": 705,
+      "label": "Pathway analysis",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcriptomic Analysis",
+        "sentence_id": 242,
+        "char_start": 53837,
+        "char_end": 53853,
+        "anchor": "PMC6387434_53837_53853"
+      }
+    },
+    {
+      "id": 706,
+      "label": "predictions",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcriptomic Analysis",
+        "sentence_id": 242,
+        "char_start": 53869,
+        "char_end": 53880,
+        "anchor": "PMC6387434_53869_53880"
+      }
+    },
+    {
+      "id": 707,
+      "label": "Analysis",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcriptomic Analysis",
+        "sentence_id": 244,
+        "char_start": 54488,
+        "char_end": 54496,
+        "anchor": "PMC6387434_54488_54496"
+      }
+    },
+    {
+      "id": 708,
+      "label": "toxic functions",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcriptomic Analysis",
+        "sentence_id": 244,
+        "char_start": 54665,
+        "char_end": 54680,
+        "anchor": "PMC6387434_54665_54680"
+      }
+    },
+    {
+      "id": 709,
+      "label": "Gene set enrichment analysis",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcriptomic Analysis",
+        "sentence_id": 245,
+        "char_start": 54756,
+        "char_end": 54784,
+        "anchor": "PMC6387434_54756_54784"
+      }
+    },
+    {
+      "id": 710,
+      "label": "leading edge analysis",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcriptomic Analysis",
+        "sentence_id": 245,
+        "char_start": 54906,
+        "char_end": 54927,
+        "anchor": "PMC6387434_54906_54927"
+      }
+    },
+    {
+      "id": 713,
+      "label": "heat maps",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcriptomic Analysis",
+        "sentence_id": 246,
+        "char_start": 54986,
+        "char_end": 54995,
+        "anchor": "PMC6387434_54986_54995"
+      }
+    },
+    {
+      "id": 714,
+      "label": "principal component analysis (",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcriptomic Analysis",
+        "sentence_id": 246,
+        "char_start": 55000,
+        "char_end": 55030,
+        "anchor": "PMC6387434_55000_55030"
+      }
+    },
+    {
+      "id": 715,
+      "label": "PCA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcriptomic Analysis",
+        "sentence_id": 246,
+        "char_start": 55030,
+        "char_end": 55033,
+        "anchor": "PMC6387434_55030_55033"
+      }
+    },
+    {
+      "id": 716,
+      "label": "heat maps",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Transcriptomic Analysis",
+        "sentence_id": 246,
+        "char_start": 55105,
+        "char_end": 55114,
+        "anchor": "PMC6387434_55105_55114"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 692,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 692,
+      "target": 694
+    }
+  ]
+}

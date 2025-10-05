@@ -1,0 +1,157 @@
+{
+  "paper_id": "PMC10800490",
+  "section": "RNA isolation",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 165,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA isolation",
+        "sentence_id": 74,
+        "char_start": 13059,
+        "char_end": 13062,
+        "anchor": "PMC10800490_13059_13062",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 169,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA isolation",
+        "sentence_id": 74,
+        "char_start": 13059,
+        "char_end": 13062,
+        "anchor": "PMC10800490_13059_13062",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 170,
+      "label": "PRR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA isolation",
+        "sentence_id": 74,
+        "char_start": 13245,
+        "char_end": 13248,
+        "anchor": "PMC10800490_13245_13248",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 171,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA isolation",
+        "sentence_id": 74,
+        "char_start": 13268,
+        "char_end": 13271,
+        "anchor": "PMC10800490_13268_13271",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 172,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA isolation",
+        "sentence_id": 74,
+        "char_start": 13333,
+        "char_end": 13336,
+        "anchor": "PMC10800490_13333_13336",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 158,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 165,
+      "target": 169
+    },
+    {
+      "id": 159,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 165,
+      "target": 170
+    },
+    {
+      "id": 160,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 165,
+      "target": 171
+    },
+    {
+      "id": 161,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 165,
+      "target": 172
+    },
+    {
+      "id": 162,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 169,
+      "target": 170
+    },
+    {
+      "id": 163,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 169,
+      "target": 171
+    },
+    {
+      "id": 164,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 169,
+      "target": 172
+    },
+    {
+      "id": 165,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 170,
+      "target": 171
+    },
+    {
+      "id": 166,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 170,
+      "target": 172
+    },
+    {
+      "id": 167,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 171,
+      "target": 172
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 8,
+      "largest_component": 5,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 4
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "paper_id": "PMC10800490",
+  "section": "Chloroplast and photosynthesis related genes",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 758,
+      "label": "NADPH",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Chloroplast and photosynthesis related genes",
+        "sentence_id": 208,
+        "char_start": 44941,
+        "char_end": 44946,
+        "anchor": "PMC10800490_44941_44946",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 759,
+      "label": "LHCA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Chloroplast and photosynthesis related genes",
+        "sentence_id": 208,
+        "char_start": 44956,
+        "char_end": 44960,
+        "anchor": "PMC10800490_44956_44960",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 761,
+      "label": "gulated",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Chloroplast and photosynthesis related genes",
+        "sentence_id": 208,
+        "char_start": 45002,
+        "char_end": 45009,
+        "anchor": "PMC10800490_45002_45009",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 762,
+      "label": "several",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Chloroplast and photosynthesis related genes",
+        "sentence_id": 208,
+        "char_start": 45055,
+        "char_end": 45062,
+        "anchor": "PMC10800490_45055_45062",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 764,
+      "label": "gulated",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Chloroplast and photosynthesis related genes",
+        "sentence_id": 208,
+        "char_start": 45080,
+        "char_end": 45087,
+        "anchor": "PMC10800490_45080_45087",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 765,
+      "label": "miR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Chloroplast and photosynthesis related genes",
+        "sentence_id": 208,
+        "char_start": 45088,
+        "char_end": 45091,
+        "anchor": "PMC10800490_45088_45091",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 766,
+      "label": "NADPH",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Chloroplast and photosynthesis related genes",
+        "sentence_id": 208,
+        "char_start": 44941,
+        "char_end": 44946,
+        "anchor": "PMC10800490_44941_44946",
+        "page": 12,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1441,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 758,
+      "target": 759
+    },
+    {
+      "id": 1442,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 758,
+      "target": 761
+    },
+    {
+      "id": 1443,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 758,
+      "target": 762
+    },
+    {
+      "id": 1444,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 758,
+      "target": 764
+    },
+    {
+      "id": 1445,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 758,
+      "target": 765
+    },
+    {
+      "id": 1446,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 758,
+      "target": 766
+    },
+    {
+      "id": 1449,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 759,
+      "target": 761
+    },
+    {
+      "id": 1450,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 759,
+      "target": 762
+    },
+    {
+      "id": 1451,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 759,
+      "target": 764
+    },
+    {
+      "id": 1452,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 759,
+      "target": 765
+    },
+    {
+      "id": 1453,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 759,
+      "target": 766
+    },
+    {
+      "id": 1456,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 761,
+      "target": 762
+    },
+    {
+      "id": 1457,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 761,
+      "target": 764
+    },
+    {
+      "id": 1458,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 761,
+      "target": 765
+    },
+    {
+      "id": 1459,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 761,
+      "target": 766
+    },
+    {
+      "id": 1462,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 762,
+      "target": 764
+    },
+    {
+      "id": 1463,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 762,
+      "target": 765
+    },
+    {
+      "id": 1464,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 762,
+      "target": 766
+    },
+    {
+      "id": 1467,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 764,
+      "target": 765
+    },
+    {
+      "id": 1468,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 764,
+      "target": 766
+    },
+    {
+      "id": 1471,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 765,
+      "target": 766
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 18,
+      "largest_component": 7,
+      "removed_components": [
+        4,
+        3,
+        2
+      ]
+    },
+    "page": 12
+  }
+}

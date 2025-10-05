@@ -1,0 +1,87 @@
+{
+  "paper_id": "PMC7998608",
+  "section": "Characterization of SSEA-3-Positive Cells in the hASC Pool",
+  "n_nodes": 5,
+  "n_edges": 2,
+  "nodes": [
+    {
+      "id": 41,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Characterization of SSEA-3-Positive Cells in the hASC Pool",
+        "sentence_id": 39,
+        "char_start": 7119,
+        "char_end": 7122,
+        "anchor": "PMC7998608_7119_7122"
+      }
+    },
+    {
+      "id": 50,
+      "label": "Korea",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Characterization of SSEA-3-Positive Cells in the hASC Pool",
+        "sentence_id": 40,
+        "char_start": 8059,
+        "char_end": 8064,
+        "anchor": "PMC7998608_8059_8064"
+      }
+    },
+    {
+      "id": 43,
+      "label": "IgG",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Characterization of SSEA-3-Positive Cells in the hASC Pool",
+        "sentence_id": 39,
+        "char_start": 7426,
+        "char_end": 7429,
+        "anchor": "PMC7998608_7426_7429"
+      }
+    },
+    {
+      "id": 49,
+      "label": "Gyeonggi",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Characterization of SSEA-3-Positive Cells in the hASC Pool",
+        "sentence_id": 40,
+        "char_start": 8046,
+        "char_end": 8054,
+        "anchor": "PMC7998608_8046_8054"
+      }
+    },
+    {
+      "id": 39,
+      "label": "First",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Characterization of SSEA-3-Positive Cells in the hASC Pool",
+        "sentence_id": 37,
+        "char_start": 6689,
+        "char_end": 6694,
+        "anchor": "PMC7998608_6689_6694"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 54,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 41,
+      "target": 43
+    },
+    {
+      "id": 81,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 49,
+      "target": 50
+    }
+  ]
+}

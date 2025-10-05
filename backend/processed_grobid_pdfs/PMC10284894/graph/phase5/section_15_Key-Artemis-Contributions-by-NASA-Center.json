@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "Key Artemis Contributions by NASA Center",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 18,
+      "label": "America",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Key Artemis Contributions by NASA Center",
+        "sentence_id": 8,
+        "char_start": 1056,
+        "char_end": 1063,
+        "anchor": "PMC10284894_1056_1063",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 19,
+      "label": "Artemis",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Key Artemis Contributions by NASA Center",
+        "sentence_id": 8,
+        "char_start": 1113,
+        "char_end": 1120,
+        "anchor": "PMC10284894_1113_1120",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 21,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 18,
+      "target": 19
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 2,
+      "largest_component": 2
+    },
+    "page": 2
+  }
+}

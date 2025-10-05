@@ -1,0 +1,207 @@
+{
+  "paper_id": "PMC4624184",
+  "section": "DISCUSSION",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 576,
+      "label": "invasive",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 168,
+        "char_start": 32593,
+        "char_end": 32601,
+        "anchor": "PMC4624184_32593_32601",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 579,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 168,
+        "char_start": 32347,
+        "char_end": 32350,
+        "anchor": "PMC4624184_32347_32350",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 580,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 168,
+        "char_start": 32484,
+        "char_end": 32487,
+        "anchor": "PMC4624184_32484_32487",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 571,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 168,
+        "char_start": 32347,
+        "char_end": 32350,
+        "anchor": "PMC4624184_32347_32350",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 572,
+      "label": "actively",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 168,
+        "char_start": 32369,
+        "char_end": 32377,
+        "anchor": "PMC4624184_32369_32377",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 573,
+      "label": "growing",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 168,
+        "char_start": 32378,
+        "char_end": 32385,
+        "anchor": "PMC4624184_32378_32385",
+        "page": 9,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 638,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 571,
+      "target": 572
+    },
+    {
+      "id": 639,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 571,
+      "target": 573
+    },
+    {
+      "id": 640,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 571,
+      "target": 576
+    },
+    {
+      "id": 641,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 571,
+      "target": 579
+    },
+    {
+      "id": 642,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 571,
+      "target": 580
+    },
+    {
+      "id": 643,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 572,
+      "target": 573
+    },
+    {
+      "id": 644,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 572,
+      "target": 576
+    },
+    {
+      "id": 645,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 572,
+      "target": 579
+    },
+    {
+      "id": 646,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 572,
+      "target": 580
+    },
+    {
+      "id": 647,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 573,
+      "target": 576
+    },
+    {
+      "id": 648,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 573,
+      "target": 579
+    },
+    {
+      "id": 649,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 573,
+      "target": 580
+    },
+    {
+      "id": 650,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 576,
+      "target": 579
+    },
+    {
+      "id": 651,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 576,
+      "target": 580
+    },
+    {
+      "id": 652,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 579,
+      "target": 580
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 8,
+      "removed_orphans": 0,
+      "largest_component": 6,
+      "removed_components": [
+        6,
+        5,
+        5,
+        5,
+        5,
+        4,
+        4
+      ]
+    },
+    "page": 9
+  }
+}

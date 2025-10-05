@@ -1,0 +1,114 @@
+{
+  "paper_id": "PMC3851762",
+  "section": "Flow cytometry",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 200,
+      "label": "Becton",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Flow cytometry",
+        "sentence_id": 53,
+        "char_start": 12986,
+        "char_end": 12992,
+        "anchor": "PMC3851762_12986_12992",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 201,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Flow cytometry",
+        "sentence_id": 53,
+        "char_start": 13077,
+        "char_end": 13080,
+        "anchor": "PMC3851762_13077_13080",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 203,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Flow cytometry",
+        "sentence_id": 53,
+        "char_start": 13115,
+        "char_end": 13118,
+        "anchor": "PMC3851762_13115_13118",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 199,
+      "label": "cultures",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Flow cytometry",
+        "sentence_id": 53,
+        "char_start": 13034,
+        "char_end": 13042,
+        "anchor": "PMC3851762_13034_13042",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 220,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 199,
+      "target": 200
+    },
+    {
+      "id": 221,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 199,
+      "target": 201
+    },
+    {
+      "id": 222,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 199,
+      "target": 203
+    },
+    {
+      "id": 223,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 200,
+      "target": 201
+    },
+    {
+      "id": 224,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 200,
+      "target": 203
+    },
+    {
+      "id": 225,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 201,
+      "target": 203
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 9,
+      "largest_component": 4
+    },
+    "page": 6
+  }
+}

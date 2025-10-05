@@ -1,0 +1,174 @@
+{
+  "intro": "On Earth, mechanical loading is crucial for maintaining tissue health and regeneration. In space, the absence of gravity diminishes mechanical stimulation, leading to physiological responses such as bone and muscle loss, and cardiovascular alterations. This study investigates the short-term effects of microgravity on bone, focusing on osteoclast, osteoblast, and osteocyte activity.",
+  "sections": [
+    {
+      "heading": "Body Mass Changes in Mice Post-Flight",
+      "summary": "Space-flown mice experienced an average weight loss of 2.0 g, significantly more than the 0.7 g loss in ground control mice. Space-flown mice also showed increased vestibular function. Flight habitats showed reduced food and water consumption compared to ground controls, though actual consumption was difficult to measure due to spillage.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Spaceflight Causes Osteoclast and Osteocyte Bone Loss",
+      "summary": "Micro-computed tomography (mCT) revealed a 6.23% decrease in bone volume fraction (BV/TV) and an 11.91% decrease in bone thickness in the ischial region of the pelvis in spaceflight mice. No significant difference was observed in bone mineral density. Ischial shape changes were also noted. Analysis of cross-sectional slices indicated changes in ischial geometry in response to spaceflight. The thickness distribution showed a higher percentage of slices in the 0.007-0.128mm range in flight animals.",
+      "figures": [
+        {
+          "id": "fig_1",
+          "order": 1,
+          "caption": "Figure 1.Micro-Computed Tomography (mCT) Analysis of Spaceflown Ischium.The ischium of the pelvis, shown in orange (A), was analyzed using mCT (720 slices = 4.89 mm).The anatomical markers used for mCT analysis were (1) caudal apex of obturator foramen, (2) dorsal-most point of the ventral ramus of ischium, and (3) the ischial tuberosity (A) (For full details on anatomical markers see [74]).The ischial cross-sectional geometry (B) was analyzed by length (a), the width at the midpoint (b) and at 1/3 distance from the obturator foramen (c); and the bend angle (d).Flight samples (D) exhibited a more open cross-sectional geometry compared to the ground control (C), indicating a possible reduction in the pull force applied to the bone.Ground control samples (F) also exhibited greater thickness (orange/red) then the flight samples (G), indicating a reduction in overall bone thickness in spaceflight samples.doi:10.1371/journal.pone.0061372.g001",
+          "label": "Figure 1 .",
+          "type": "figure",
+          "image_path": "figures/fig_1.jpeg"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "Spaceflight Induces MMP-Mediated Extracellular Remodeling",
+      "summary": "RT-qPCR analysis revealed alterations in mRNA levels of collagens and laminin subunits, with no change in fibronectin. Matrix metalloproteinases (MMP) 1, 3, and 10 were significantly up-regulated in flight samples, while MMP inhibitors TIMP 1, 2, and 3 showed no significant change. Several cell adhesion molecules, including Cdh4, Cdh11, and Vcam1, were up-regulated, while Itgal and Icam1 were down-regulated. Immunohistochemical analysis showed MMP10-positive staining in osteocytes of flight samples, indicating osteocytic involvement in extracellular matrix degradation.",
+      "figures": [
+        {
+          "id": "fig_4",
+          "order": 4,
+          "caption": "Figure 4. Spaceflight Causes Up-Regulation of Matrix Degradation Molecules.RT-PCR analysis of ilium revealed significant upregulation of matrix degradation molecules MMP1a, MMP3, and MMP10 as well as small changes in a number of extracellular matrix molecules in flight samples compared to ground controls (A).Immunohistochemical analysis localized over-expression of MMP10 to osteocytes in the shaft of the proximal femur in flight samples (C) but not in ground controls (B), indicating a role for osteocytes in lacunae degradation.* indicates p,0.05, # indicates p,0.01.doi:10.1371/journal.pone.0061372.g004",
+          "label": "Figure 4 .Figure 5 .Figure 6 .",
+          "type": "figure",
+          "image_path": "figures/fig_4.jpeg"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "Spaceflight Suppresses Pro-Osteogenic Gene Expression",
+      "summary": "Gene expression analysis showed altered levels of growth factors, including Bmp-4, Tgf-b2, Gdf10, and Csf3. Genes associated with cell growth and differentiation, such as Egr1, Myod1, and Fgf3, were down-regulated, while Twist1 and Fgf1 were up-regulated. Transcription factors Vitamin D receptor (Vdr) and Sox9 also exhibited altered expression.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Spaceflight Induces CDKN1a/p21 Expression",
+      "summary": "Spaceflight induced a 3.31-fold up-regulation of CDKN1a/p21, while Trp53/p53 expression was down-regulated. The expression of Mdm2, a negative regulator of p53, was also increased. Several genes associated with cell cycle regulation were altered. Genes related to apoptosis induction, including Cradd, Dapk1, and Fbxo3, were up-regulated. Immunohistochemical analysis confirmed the increased expression of p21 in osteoblasts.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Spaceflight Alters Gene Expression and Signal Transduction",
+      "summary": "Spaceflight altered the expression of MAP kinases, such as MAPK10, MAPK11, and MAPK12, and MAP 3 kinases, such as Moloney sarcoma oncogene, Mos, and cell growth molecules including Egr1. Several molecules associated with Ras signaling displayed alterations, including Nf1 and Sos1. No significant alterations in Pi3K subunits were noted except a change in the alpha polypeptide. Also, no statistically significant alterations in Akt1 or 2 expression was found.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Nano-Computed Tomography Analysis of Lacunar Enlargement",
+      "summary": "Nano-computed tomography revealed a 17% increase in lacunae area and a 14% increase in lacunae perimeter in flight animals compared to ground controls. A 13% increase in lacunae canalicular diameter was also observed. Bulk density analysis showed no statistical difference.",
+      "figures": [
+        {
+          "id": "fig_2",
+          "order": 2,
+          "caption": "Figure 2. Nano-Computed Tomography Analysis of Lacunar Enlargement Following Spaceflight.Figures 2A and2Bshow X-ray phase contrast images of osteocytes viewed laterally and from the top, respectively and illustrate the flattened shape of osteocytic lacunae.For quantification of lacunar size we used X-Ray absorption images of lateral views of lacunae in ischial cortical bone from ground control (C) and spaceflight (D) animals (n = 7).We observed a 17% increase in lacunae area and a 14% increase in lacunae perimeter of flight animals compared to ground controls (E).We also found a 13% increase in lacunae canalicular diameter and a 9% decrease in lacunae circularity of flight animals compared to ground controls (F).However, bulk density analysis showed no statistical difference between flight and ground control animals that is in agreement with mCT analysis (G).*indicates p,0.05, #indicates p,0.01.doi:10.1371/journal.pone.0061372.g002",
+          "label": "Figure 2 .",
+          "type": "figure",
+          "image_path": "figures/fig_2.jpeg"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "TRAP Staining of Osteoclast Activity",
+      "summary": "TRAP staining showed an increase in osteoclast numbers in the bone surface of the growth plate of flight samples compared to ground controls. The bone surface covered by osteoclasts was also increased. The number of TRAP-positive osteocytes in cortical bone was increased in response to spaceflight. No differences were found in the number of empty lacunae.",
+      "figures": [
+        {
+          "id": "fig_3",
+          "order": 3,
+          "caption": "Figure 3. TRAP Staining of Osteoclast and Osteocyte-Mediated Bone Resorption Following Spaceflight.Panel A displays a representative cancellous region near the femoral head growth plate (406) from ground control mice, which is mostly free of TRAP-positive osteoclasts, whilst B displays a similar region from flight animals with numerous TRAP-positive osteoclasts.Analysis of osteoclastic activity in the trabecular region below the femoral head of the femur showed an increase in osteoclast numbers in the bone surface of the growth plate of flight samples compared to ground controls (9.99 Oc/mm and 3.36 Oc/mm respectively) (C).The bone surface covered by osteoclasts was also increased in flight animals compared to ground controls (25.40% and 9.99% respectively, D).The number of TRAP-positive osteocytes in cortical bone from the femoral shaft proximal to the femoral head was increased in response to spaceflight (E) compared to ground controls (D) (34.43% and 20.94% respectively, F).However, we found no differences in the number of empty lacunae in cortical bone between flight and ground controls (10.6% and 10.0% empty lacunae respectively, H). * indicates p,0.05, # indicates p,0.01.doi:10.1371/journal.pone.0061372.g003",
+          "label": "Figure 3 .",
+          "type": "figure",
+          "image_path": "figures/fig_3.jpeg"
+        }
+      ],
+      "equations": []
+    },
+    {
+      "heading": "Discussion",
+      "summary": "This study investigated the mechanisms of bone degeneration in space, focusing on osteoblastic and osteocytic activities. The results confirm bone loss in the ischium portion of the pelvis, accompanied by a reduction in trabecular bridges. There were also significant increases in osteoclast numbers. The observed rate of bone loss is high compared to long-term astronaut bone loss values. The high-levels of osteoclastic activity may subside after the initial transition to microgravity. In addition, bone loss was accompanied by large increases in osteoclast numbers and osteoclast-covered trabecular bone surfaces measured in the femoral head.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": "The findings demonstrate the pelvic-femoral musculoskeletal complex is sensitive to load and gravity, making it a valuable model to study muscle and bone degeneration in space. Bone responses to spaceflight are complex and involve osteoclastic, osteoblastic, and osteocytic degenerative responses. The findings on CDKN1a/p21 up-regulation in microgravity have the potential to become a major concern for tissue regenerative health in long-duration spaceflight. Future studies should address the specific molecular regulatory mechanisms of CDKN1a/p21 involvement in tissue degeneration during long-term spaceflight.",
+  "keywords": [
+    "microgravity",
+    "bone loss",
+    "osteoclasts",
+    "osteocytes",
+    "osteoblasts",
+    "cdkn1a/p21",
+    "mmp",
+    "spaceflight",
+    "bone remodeling",
+    "pelvis"
+  ],
+  "topics": [
+    "bone biology",
+    "space medicine",
+    "molecular biology"
+  ],
+  "_meta": {
+    "paper_id": "sha256:3239f98b80e6106afa75e3fe73f27658bde1262a05f815ea8f16c7e7991c61f3",
+    "paper_title": "Microgravity Induces Pelvic Bone Loss through Osteoclastic Activity, Osteocytic Osteolysis, and Osteoblastic Cell Cycle Inhibition by",
+    "generated_at": "2025-10-04T18:22:35Z",
+    "word_count": 559,
+    "figures": [
+      "fig_1",
+      "fig_4",
+      "fig_2",
+      "fig_3"
+    ],
+    "equations": [],
+    "keywords": [
+      "microgravity",
+      "bone loss",
+      "osteoclasts",
+      "osteocytes",
+      "osteoblasts",
+      "cdkn1a/p21",
+      "mmp",
+      "spaceflight",
+      "bone remodeling",
+      "pelvis"
+    ],
+    "topics": [
+      "bone biology",
+      "space medicine",
+      "molecular biology"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 7500,
+      "completion_tokens": 1957,
+      "total_tokens": 9457,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.00075,
+      "output_usd": 0.000783,
+      "total_usd": 0.001533
+    },
+    "cost": {
+      "input_usd": 0.00075,
+      "output_usd": 0.000783,
+      "total_usd": 0.001533
+    }
+  }
+}

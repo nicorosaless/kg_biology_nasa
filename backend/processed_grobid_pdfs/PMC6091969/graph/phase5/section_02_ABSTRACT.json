@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC6091969",
+  "section": "ABSTRACT",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 6,
+      "label": "growing",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 5,
+        "char_start": 696,
+        "char_end": 703,
+        "anchor": "PMC6091969_696_703",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 7,
+      "label": "CEA10",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 5,
+        "char_start": 704,
+        "char_end": 709,
+        "anchor": "PMC6091969_704_709",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 6,
+      "target": 7
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 10,
+      "largest_component": 2
+    },
+    "page": 1
+  }
+}

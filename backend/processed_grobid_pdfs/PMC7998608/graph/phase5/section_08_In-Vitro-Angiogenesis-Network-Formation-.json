@@ -1,0 +1,178 @@
+{
+  "paper_id": "PMC7998608",
+  "section": "In Vitro Angiogenesis (Network Formation) Assay",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 129,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "In Vitro Angiogenesis (Network Formation) Assay",
+        "sentence_id": 70,
+        "char_start": 15751,
+        "char_end": 15754,
+        "anchor": "PMC7998608_15751_15754"
+      }
+    },
+    {
+      "id": 133,
+      "label": "EBM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "In Vitro Angiogenesis (Network Formation) Assay",
+        "sentence_id": 70,
+        "char_start": 15853,
+        "char_end": 15856,
+        "anchor": "PMC7998608_15853_15856"
+      }
+    },
+    {
+      "id": 134,
+      "label": "Matrigel",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "In Vitro Angiogenesis (Network Formation) Assay",
+        "sentence_id": 70,
+        "char_start": 15879,
+        "char_end": 15887,
+        "anchor": "PMC7998608_15879_15887"
+      }
+    },
+    {
+      "id": 121,
+      "label": "Matrigel",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "In Vitro Angiogenesis (Network Formation) Assay",
+        "sentence_id": 70,
+        "char_start": 15565,
+        "char_end": 15573,
+        "anchor": "PMC7998608_15565_15573"
+      }
+    },
+    {
+      "id": 126,
+      "label": "EBM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "In Vitro Angiogenesis (Network Formation) Assay",
+        "sentence_id": 70,
+        "char_start": 15719,
+        "char_end": 15722,
+        "anchor": "PMC7998608_15719_15722"
+      }
+    },
+    {
+      "id": 127,
+      "label": "Cambrex",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "In Vitro Angiogenesis (Network Formation) Assay",
+        "sentence_id": 70,
+        "char_start": 15724,
+        "char_end": 15731,
+        "anchor": "PMC7998608_15724_15731"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 228,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 126
+    },
+    {
+      "id": 229,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 127
+    },
+    {
+      "id": 231,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 129
+    },
+    {
+      "id": 235,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 133
+    },
+    {
+      "id": 236,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 134
+    },
+    {
+      "id": 279,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 126,
+      "target": 127
+    },
+    {
+      "id": 281,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 126,
+      "target": 129
+    },
+    {
+      "id": 285,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 126,
+      "target": 133
+    },
+    {
+      "id": 286,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 126,
+      "target": 134
+    },
+    {
+      "id": 288,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 127,
+      "target": 129
+    },
+    {
+      "id": 292,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 127,
+      "target": 133
+    },
+    {
+      "id": 293,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 127,
+      "target": 134
+    },
+    {
+      "id": 303,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 129,
+      "target": 133
+    },
+    {
+      "id": 304,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 129,
+      "target": 134
+    },
+    {
+      "id": 314,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 133,
+      "target": 134
+    }
+  ]
+}

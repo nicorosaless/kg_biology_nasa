@@ -1,0 +1,314 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "d) Correlation of ICP to IOP -The Hydrodynamic and Vascular Relationship",
+  "n_nodes": 8,
+  "n_edges": 28,
+  "nodes": [
+    {
+      "id": 684,
+      "label": "elevated",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "d) Correlation of ICP to IOP -The Hydrodynamic and Vascular Relationship",
+        "sentence_id": 223,
+        "char_start": 38060,
+        "char_end": 38068,
+        "anchor": "PMC4385880_38060_38068",
+        "page": 18,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 685,
+      "label": "ICP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "d) Correlation of ICP to IOP -The Hydrodynamic and Vascular Relationship",
+        "sentence_id": 223,
+        "char_start": 38069,
+        "char_end": 38072,
+        "anchor": "PMC4385880_38069_38072",
+        "page": 18,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 686,
+      "label": "ICP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "d) Correlation of ICP to IOP -The Hydrodynamic and Vascular Relationship",
+        "sentence_id": 223,
+        "char_start": 38150,
+        "char_end": 38153,
+        "anchor": "PMC4385880_38150_38153",
+        "page": 18,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 688,
+      "label": "between",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "d) Correlation of ICP to IOP -The Hydrodynamic and Vascular Relationship",
+        "sentence_id": 223,
+        "char_start": 38222,
+        "char_end": 38229,
+        "anchor": "PMC4385880_38222_38229",
+        "page": 18,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 690,
+      "label": "SOV",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "d) Correlation of ICP to IOP -The Hydrodynamic and Vascular Relationship",
+        "sentence_id": 223,
+        "char_start": 38026,
+        "char_end": 38029,
+        "anchor": "PMC4385880_38026_38029",
+        "page": 18,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 692,
+      "label": "ICP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "d) Correlation of ICP to IOP -The Hydrodynamic and Vascular Relationship",
+        "sentence_id": 223,
+        "char_start": 38069,
+        "char_end": 38072,
+        "anchor": "PMC4385880_38069_38072",
+        "page": 18,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 693,
+      "label": "SOV",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "d) Correlation of ICP to IOP -The Hydrodynamic and Vascular Relationship",
+        "sentence_id": 223,
+        "char_start": 38107,
+        "char_end": 38110,
+        "anchor": "PMC4385880_38107_38110",
+        "page": 18,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 695,
+      "label": "ICP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "d) Correlation of ICP to IOP -The Hydrodynamic and Vascular Relationship",
+        "sentence_id": 223,
+        "char_start": 38150,
+        "char_end": 38153,
+        "anchor": "PMC4385880_38150_38153",
+        "page": 18,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 479,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 684,
+      "target": 685
+    },
+    {
+      "id": 480,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 684,
+      "target": 686
+    },
+    {
+      "id": 481,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 684,
+      "target": 688
+    },
+    {
+      "id": 483,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 684,
+      "target": 690
+    },
+    {
+      "id": 485,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 684,
+      "target": 692
+    },
+    {
+      "id": 486,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 684,
+      "target": 693
+    },
+    {
+      "id": 488,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 684,
+      "target": 695
+    },
+    {
+      "id": 489,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 685,
+      "target": 686
+    },
+    {
+      "id": 490,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 685,
+      "target": 688
+    },
+    {
+      "id": 492,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 685,
+      "target": 690
+    },
+    {
+      "id": 494,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 685,
+      "target": 692
+    },
+    {
+      "id": 495,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 685,
+      "target": 693
+    },
+    {
+      "id": 497,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 685,
+      "target": 695
+    },
+    {
+      "id": 498,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 686,
+      "target": 688
+    },
+    {
+      "id": 500,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 686,
+      "target": 690
+    },
+    {
+      "id": 502,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 686,
+      "target": 692
+    },
+    {
+      "id": 503,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 686,
+      "target": 693
+    },
+    {
+      "id": 505,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 686,
+      "target": 695
+    },
+    {
+      "id": 507,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 688,
+      "target": 690
+    },
+    {
+      "id": 509,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 688,
+      "target": 692
+    },
+    {
+      "id": 510,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 688,
+      "target": 693
+    },
+    {
+      "id": 512,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 688,
+      "target": 695
+    },
+    {
+      "id": 520,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 690,
+      "target": 692
+    },
+    {
+      "id": 521,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 690,
+      "target": 693
+    },
+    {
+      "id": 523,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 690,
+      "target": 695
+    },
+    {
+      "id": 528,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 692,
+      "target": 693
+    },
+    {
+      "id": 530,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 692,
+      "target": 695
+    },
+    {
+      "id": 532,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 693,
+      "target": 695
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 7,
+      "removed_orphans": 0,
+      "largest_component": 8,
+      "removed_components": [
+        8,
+        8,
+        5,
+        5,
+        4,
+        2
+      ]
+    },
+    "page": 18
+  }
+}

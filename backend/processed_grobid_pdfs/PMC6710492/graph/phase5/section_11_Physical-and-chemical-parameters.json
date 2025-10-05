@@ -1,0 +1,81 @@
+{
+  "paper_id": "PMC6710492",
+  "section": "Physical and chemical parameters",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 156,
+      "label": "rbidity",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Physical and chemical parameters",
+        "sentence_id": 38,
+        "char_start": 11079,
+        "char_end": 11086,
+        "anchor": "PMC6710492_11079_11086",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 157,
+      "label": "HPLC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Physical and chemical parameters",
+        "sentence_id": 38,
+        "char_start": 11011,
+        "char_end": 11015,
+        "anchor": "PMC6710492_11011_11015",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 159,
+      "label": "APHA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Physical and chemical parameters",
+        "sentence_id": 38,
+        "char_start": 11065,
+        "char_end": 11069,
+        "anchor": "PMC6710492_11065_11069",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 166,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 156,
+      "target": 157
+    },
+    {
+      "id": 168,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 156,
+      "target": 159
+    },
+    {
+      "id": 171,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 157,
+      "target": 159
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 14,
+      "largest_component": 3
+    },
+    "page": 2
+  }
+}

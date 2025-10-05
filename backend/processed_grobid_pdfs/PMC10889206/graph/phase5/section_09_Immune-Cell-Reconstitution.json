@@ -1,0 +1,366 @@
+{
+  "paper_id": "PMC10889206",
+  "section": "Immune Cell Reconstitution",
+  "n_nodes": 9,
+  "n_edges": 35,
+  "nodes": [
+    {
+      "id": 141,
+      "label": "transfer",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immune Cell Reconstitution",
+        "sentence_id": 37,
+        "char_start": 6819,
+        "char_end": 6827,
+        "anchor": "PMC10889206_6819_6827",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 142,
+      "label": "T cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Immune Cell Reconstitution",
+        "sentence_id": 37,
+        "char_start": 6935,
+        "char_end": 6942,
+        "anchor": "PMC10889206_6935_6942",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 143,
+      "label": "Kit",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immune Cell Reconstitution",
+        "sentence_id": 37,
+        "char_start": 6974,
+        "char_end": 6977,
+        "anchor": "PMC10889206_6974_6977",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 145,
+      "label": "T cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Immune Cell Reconstitution",
+        "sentence_id": 37,
+        "char_start": 7121,
+        "char_end": 7128,
+        "anchor": "PMC10889206_7121_7128",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 147,
+      "label": "Kit",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immune Cell Reconstitution",
+        "sentence_id": 37,
+        "char_start": 7243,
+        "char_end": 7246,
+        "anchor": "PMC10889206_7243_7246",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 148,
+      "label": "FACS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immune Cell Reconstitution",
+        "sentence_id": 37,
+        "char_start": 6596,
+        "char_end": 6600,
+        "anchor": "PMC10889206_6596_6600",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 149,
+      "label": "GFP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immune Cell Reconstitution",
+        "sentence_id": 37,
+        "char_start": 6917,
+        "char_end": 6920,
+        "anchor": "PMC10889206_6917_6920",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 151,
+      "label": "GFP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immune Cell Reconstitution",
+        "sentence_id": 37,
+        "char_start": 7103,
+        "char_end": 7106,
+        "anchor": "PMC10889206_7103_7106",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 153,
+      "label": "necropsy",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Immune Cell Reconstitution",
+        "sentence_id": 37,
+        "char_start": 7181,
+        "char_end": 7189,
+        "anchor": "PMC10889206_7181_7189",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 179,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 141,
+      "target": 142
+    },
+    {
+      "id": 180,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 141,
+      "target": 143
+    },
+    {
+      "id": 181,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 141,
+      "target": 145
+    },
+    {
+      "id": 182,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 141,
+      "target": 147
+    },
+    {
+      "id": 183,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 141,
+      "target": 148
+    },
+    {
+      "id": 184,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 141,
+      "target": 149
+    },
+    {
+      "id": 186,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 141,
+      "target": 151
+    },
+    {
+      "id": 187,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 141,
+      "target": 153
+    },
+    {
+      "id": 189,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 143,
+      "target": 142
+    },
+    {
+      "id": 190,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 147,
+      "target": 142
+    },
+    {
+      "id": 191,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 148,
+      "target": 142
+    },
+    {
+      "id": 192,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 149,
+      "target": 142
+    },
+    {
+      "id": 194,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 151,
+      "target": 142
+    },
+    {
+      "id": 195,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 153,
+      "target": 142
+    },
+    {
+      "id": 197,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 143,
+      "target": 145
+    },
+    {
+      "id": 198,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 143,
+      "target": 147
+    },
+    {
+      "id": 199,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 143,
+      "target": 148
+    },
+    {
+      "id": 200,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 143,
+      "target": 149
+    },
+    {
+      "id": 202,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 143,
+      "target": 151
+    },
+    {
+      "id": 203,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 143,
+      "target": 153
+    },
+    {
+      "id": 205,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 147,
+      "target": 145
+    },
+    {
+      "id": 206,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 148,
+      "target": 145
+    },
+    {
+      "id": 207,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 149,
+      "target": 145
+    },
+    {
+      "id": 209,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 151,
+      "target": 145
+    },
+    {
+      "id": 210,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 153,
+      "target": 145
+    },
+    {
+      "id": 212,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 147,
+      "target": 148
+    },
+    {
+      "id": 213,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 147,
+      "target": 149
+    },
+    {
+      "id": 215,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 147,
+      "target": 151
+    },
+    {
+      "id": 216,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 147,
+      "target": 153
+    },
+    {
+      "id": 218,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 148,
+      "target": 149
+    },
+    {
+      "id": 220,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 148,
+      "target": 151
+    },
+    {
+      "id": 221,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 148,
+      "target": 153
+    },
+    {
+      "id": 224,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 149,
+      "target": 151
+    },
+    {
+      "id": 225,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 149,
+      "target": 153
+    },
+    {
+      "id": 230,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 151,
+      "target": 153
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 5,
+      "largest_component": 9,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 3
+  }
+}

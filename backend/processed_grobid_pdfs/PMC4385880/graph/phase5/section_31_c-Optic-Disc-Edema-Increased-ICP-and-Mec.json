@@ -1,0 +1,258 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "c) Optic-Disc Edema, Increased ICP, and Mechanical Deformation of the Globe",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 578,
+      "label": "Jinkins",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "c) Optic-Disc Edema, Increased ICP, and Mechanical Deformation of the Globe",
+        "sentence_id": 188,
+        "char_start": 32640,
+        "char_end": 32647,
+        "anchor": "PMC4385880_32640_32647",
+        "page": 16,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 581,
+      "label": "ICP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "c) Optic-Disc Edema, Increased ICP, and Mechanical Deformation of the Globe",
+        "sentence_id": 188,
+        "char_start": 32689,
+        "char_end": 32692,
+        "anchor": "PMC4385880_32689_32692",
+        "page": 16,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 582,
+      "label": "ONH",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "c) Optic-Disc Edema, Increased ICP, and Mechanical Deformation of the Globe",
+        "sentence_id": 188,
+        "char_start": 32822,
+        "char_end": 32825,
+        "anchor": "PMC4385880_32822_32825",
+        "page": 16,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 584,
+      "label": "ONH",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "c) Optic-Disc Edema, Increased ICP, and Mechanical Deformation of the Globe",
+        "sentence_id": 188,
+        "char_start": 32983,
+        "char_end": 32986,
+        "anchor": "PMC4385880_32983_32986",
+        "page": 16,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 570,
+      "label": "bulging",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "c) Optic-Disc Edema, Increased ICP, and Mechanical Deformation of the Globe",
+        "sentence_id": 188,
+        "char_start": 32720,
+        "char_end": 32727,
+        "anchor": "PMC4385880_32720_32727",
+        "page": 16,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 571,
+      "label": "terminal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "c) Optic-Disc Edema, Increased ICP, and Mechanical Deformation of the Globe",
+        "sentence_id": 188,
+        "char_start": 32735,
+        "char_end": 32743,
+        "anchor": "PMC4385880_32735_32743",
+        "page": 16,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 573,
+      "label": "subarach",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "c) Optic-Disc Edema, Increased ICP, and Mechanical Deformation of the Globe",
+        "sentence_id": 188,
+        "char_start": 32757,
+        "char_end": 32765,
+        "anchor": "PMC4385880_32757_32765",
+        "page": 16,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 359,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 570,
+      "target": 571
+    },
+    {
+      "id": 360,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 570,
+      "target": 573
+    },
+    {
+      "id": 361,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 570,
+      "target": 578
+    },
+    {
+      "id": 364,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 570,
+      "target": 581
+    },
+    {
+      "id": 365,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 570,
+      "target": 582
+    },
+    {
+      "id": 367,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 570,
+      "target": 584
+    },
+    {
+      "id": 368,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 571,
+      "target": 573
+    },
+    {
+      "id": 369,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 571,
+      "target": 578
+    },
+    {
+      "id": 372,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 571,
+      "target": 581
+    },
+    {
+      "id": 373,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 571,
+      "target": 582
+    },
+    {
+      "id": 375,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 571,
+      "target": 584
+    },
+    {
+      "id": 376,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 573,
+      "target": 578
+    },
+    {
+      "id": 379,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 573,
+      "target": 581
+    },
+    {
+      "id": 380,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 573,
+      "target": 582
+    },
+    {
+      "id": 382,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 573,
+      "target": 584
+    },
+    {
+      "id": 385,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 578,
+      "target": 581
+    },
+    {
+      "id": 386,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 578,
+      "target": 582
+    },
+    {
+      "id": 388,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 578,
+      "target": 584
+    },
+    {
+      "id": 398,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 581,
+      "target": 582
+    },
+    {
+      "id": 400,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 581,
+      "target": 584
+    },
+    {
+      "id": 402,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 582,
+      "target": 584
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 8,
+      "removed_orphans": 14,
+      "largest_component": 7,
+      "removed_components": [
+        5,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 16
+  }
+}

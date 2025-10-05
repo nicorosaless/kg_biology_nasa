@@ -1,0 +1,81 @@
+{
+  "paper_id": "PMC6130020",
+  "section": "Knocking Out ANN1 and ANN2 Induces Accumulation of Soluble Sugars in Primary Roots",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 257,
+      "label": "ann1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Knocking Out ANN1 and ANN2 Induces Accumulation of Soluble Sugars in Primary Roots",
+        "sentence_id": 60,
+        "char_start": 14354,
+        "char_end": 14358,
+        "anchor": "PMC6130020_14354_14358",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 258,
+      "label": "ann2",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Knocking Out ANN1 and ANN2 Induces Accumulation of Soluble Sugars in Primary Roots",
+        "sentence_id": 60,
+        "char_start": 14365,
+        "char_end": 14369,
+        "anchor": "PMC6130020_14365_14369",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 252,
+      "label": "primary",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Knocking Out ANN1 and ANN2 Induces Accumulation of Soluble Sugars in Primary Roots",
+        "sentence_id": 60,
+        "char_start": 14062,
+        "char_end": 14069,
+        "anchor": "PMC6130020_14062_14069",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 327,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 252,
+      "target": 257
+    },
+    {
+      "id": 328,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 252,
+      "target": 258
+    },
+    {
+      "id": 332,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 257,
+      "target": 258
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 6,
+      "largest_component": 3
+    },
+    "page": 4
+  }
+}

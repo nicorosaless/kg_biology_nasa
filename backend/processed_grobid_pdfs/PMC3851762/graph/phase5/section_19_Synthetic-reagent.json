@@ -1,0 +1,115 @@
+{
+  "paper_id": "PMC3851762",
+  "section": "Synthetic REAGENT",
+  "n_nodes": 5,
+  "n_edges": 4,
+  "nodes": [
+    {
+      "id": 221,
+      "label": "Nanodrop",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA extraction, quantification and microarray analysis",
+        "sentence_id": 60,
+        "char_start": 14113,
+        "char_end": 14121,
+        "anchor": "PMC3851762_14113_14121",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 227,
+      "label": "RNase",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA extraction, quantification and microarray analysis",
+        "sentence_id": 63,
+        "char_start": 14769,
+        "char_end": 14774,
+        "anchor": "PMC3851762_14769_14774",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 228,
+      "label": "DNase",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA extraction, quantification and microarray analysis",
+        "sentence_id": 63,
+        "char_start": 14775,
+        "char_end": 14780,
+        "anchor": "PMC3851762_14775_14780",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 229,
+      "label": "RNase",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA extraction, quantification and microarray analysis",
+        "sentence_id": 63,
+        "char_start": 14769,
+        "char_end": 14774,
+        "anchor": "PMC3851762_14769_14774",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 271,
+      "label": "Qiagen",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitative real time PCR (qRT-PCR) analysis",
+        "sentence_id": 76,
+        "char_start": 17383,
+        "char_end": 17389,
+        "anchor": "PMC3851762_17383_17389",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-221-227",
+      "type": "ASSOCIATED",
+      "source": 221,
+      "target": 227
+    },
+    {
+      "id": "synth-221-228",
+      "type": "ASSOCIATED",
+      "source": 221,
+      "target": 228
+    },
+    {
+      "id": "synth-221-229",
+      "type": "ASSOCIATED",
+      "source": 221,
+      "target": 229
+    },
+    {
+      "id": "synth-221-271",
+      "type": "ASSOCIATED",
+      "source": 221,
+      "target": 271
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "REAGENT",
+    "page": null
+  }
+}

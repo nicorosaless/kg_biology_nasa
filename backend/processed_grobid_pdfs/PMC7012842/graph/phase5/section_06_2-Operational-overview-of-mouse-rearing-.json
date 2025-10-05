@@ -1,0 +1,157 @@
+{
+  "paper_id": "PMC7012842",
+  "section": "| 2. Operational overview of mouse-rearing experiment",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 44,
+      "label": "CBE",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "| 2. Operational overview of mouse-rearing experiment",
+        "sentence_id": 31,
+        "char_start": 5451,
+        "char_end": 5454,
+        "anchor": "PMC7012842_5451_5454",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 45,
+      "label": "habitat",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "| 2. Operational overview of mouse-rearing experiment",
+        "sentence_id": 31,
+        "char_start": 5416,
+        "char_end": 5423,
+        "anchor": "PMC7012842_5416_5423",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 46,
+      "label": "MHI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "| 2. Operational overview of mouse-rearing experiment",
+        "sentence_id": 31,
+        "char_start": 5491,
+        "char_end": 5494,
+        "anchor": "PMC7012842_5491_5494",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 47,
+      "label": "CBEF",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "| 2. Operational overview of mouse-rearing experiment",
+        "sentence_id": 31,
+        "char_start": 5628,
+        "char_end": 5632,
+        "anchor": "PMC7012842_5628_5632",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 48,
+      "label": "KIBO",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "| 2. Operational overview of mouse-rearing experiment",
+        "sentence_id": 31,
+        "char_start": 5637,
+        "char_end": 5641,
+        "anchor": "PMC7012842_5637_5641",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 28,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 44,
+      "target": 45
+    },
+    {
+      "id": 29,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 44,
+      "target": 46
+    },
+    {
+      "id": 30,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 44,
+      "target": 47
+    },
+    {
+      "id": 31,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 44,
+      "target": 48
+    },
+    {
+      "id": 32,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 45,
+      "target": 46
+    },
+    {
+      "id": 33,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 45,
+      "target": 47
+    },
+    {
+      "id": 34,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 45,
+      "target": 48
+    },
+    {
+      "id": 35,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 46,
+      "target": 47
+    },
+    {
+      "id": 36,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 46,
+      "target": 48
+    },
+    {
+      "id": 37,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 47,
+      "target": 48
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 7,
+      "largest_component": 5,
+      "removed_components": [
+        4,
+        2
+      ]
+    },
+    "page": 2
+  }
+}

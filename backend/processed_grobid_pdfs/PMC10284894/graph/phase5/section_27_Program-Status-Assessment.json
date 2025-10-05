@@ -1,0 +1,255 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "Program Status Assessment",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 138,
+      "label": "HEOMD",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Program Status Assessment",
+        "sentence_id": 82,
+        "char_start": 14427,
+        "char_end": 14432,
+        "anchor": "PMC10284894_14427_14432",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 139,
+      "label": "Moon",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Program Status Assessment",
+        "sentence_id": 82,
+        "char_start": 14534,
+        "char_end": 14538,
+        "anchor": "PMC10284894_14534_14538",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 140,
+      "label": "Artemis",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Program Status Assessment",
+        "sentence_id": 82,
+        "char_start": 14657,
+        "char_end": 14664,
+        "anchor": "PMC10284894_14657_14664",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 141,
+      "label": "Orion",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Program Status Assessment",
+        "sentence_id": 82,
+        "char_start": 14689,
+        "char_end": 14694,
+        "anchor": "PMC10284894_14689_14694",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 142,
+      "label": "EGS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Program Status Assessment",
+        "sentence_id": 82,
+        "char_start": 14729,
+        "char_end": 14732,
+        "anchor": "PMC10284894_14729_14732",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 143,
+      "label": "Gateway",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Program Status Assessment",
+        "sentence_id": 82,
+        "char_start": 14735,
+        "char_end": 14742,
+        "anchor": "PMC10284894_14735_14742",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 144,
+      "label": "HLS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Program Status Assessment",
+        "sentence_id": 82,
+        "char_start": 14744,
+        "char_end": 14747,
+        "anchor": "PMC10284894_14744_14747",
+        "page": 15,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 103,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 138,
+      "target": 139
+    },
+    {
+      "id": 104,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 138,
+      "target": 140
+    },
+    {
+      "id": 105,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 138,
+      "target": 141
+    },
+    {
+      "id": 106,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 138,
+      "target": 142
+    },
+    {
+      "id": 107,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 138,
+      "target": 143
+    },
+    {
+      "id": 108,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 138,
+      "target": 144
+    },
+    {
+      "id": 109,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 139,
+      "target": 140
+    },
+    {
+      "id": 110,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 139,
+      "target": 141
+    },
+    {
+      "id": 111,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 139,
+      "target": 142
+    },
+    {
+      "id": 112,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 139,
+      "target": 143
+    },
+    {
+      "id": 113,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 139,
+      "target": 144
+    },
+    {
+      "id": 114,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 140,
+      "target": 141
+    },
+    {
+      "id": 115,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 140,
+      "target": 142
+    },
+    {
+      "id": 116,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 140,
+      "target": 143
+    },
+    {
+      "id": 117,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 140,
+      "target": 144
+    },
+    {
+      "id": 118,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 141,
+      "target": 142
+    },
+    {
+      "id": 119,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 141,
+      "target": 143
+    },
+    {
+      "id": 120,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 141,
+      "target": 144
+    },
+    {
+      "id": 121,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 142,
+      "target": 143
+    },
+    {
+      "id": 122,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 142,
+      "target": 144
+    },
+    {
+      "id": 123,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 143,
+      "target": 144
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 4,
+      "largest_component": 7,
+      "removed_components": [
+        7,
+        3,
+        3,
+        2
+      ]
+    },
+    "page": 15
+  }
+}

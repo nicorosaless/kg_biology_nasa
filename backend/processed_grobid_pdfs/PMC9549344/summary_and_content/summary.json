@@ -1,0 +1,91 @@
+{
+  "intro": "The paper presents a sequence alignment of the immunoglobulin-like kinase (IK) regions of three proteins: UNC-89, obscurin, and SPEG, using ClustalW. The alignment aims to identify regions of similarity and difference among these proteins, potentially revealing insights into their functional relationships and evolutionary history.",
+  "sections": [
+    {
+      "heading": "Sequence Alignment",
+      "summary": "The sequence alignment reveals varying degrees of similarity between the IK regions of UNC-89, obscurin, and SPEG. Certain residues and motifs are conserved across the three proteins, indicated by asterisks and colons in the alignment, suggesting functional importance. Other regions exhibit more divergence, potentially reflecting specialized roles or evolutionary adaptations.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": {
+    "heading": "Conclusion",
+    "summary": ""
+  },
+  "keywords": [
+    "sequence alignment",
+    "unc-89",
+    "obscurin",
+    "speg",
+    "ik region",
+    "clustalw",
+    "protein structure",
+    "functional domains",
+    "conserved residues",
+    "sequence similarity"
+  ],
+  "topics": [
+    "bioinformatics",
+    "protein sequence analysis",
+    "structural biology"
+  ],
+  "_meta": {
+    "paper_id": "sha256:ac594d53e1ecb4ae7e775d2f305a0ea65dec6a1775213ebcccfd4edb6934d92d",
+    "paper_title": "Sequence alignment of IK regions of UNC-89, obscurin and SPEG using ClustalW",
+    "generated_at": "2025-10-05T10:51:38Z",
+    "word_count": 50,
+    "figures": [],
+    "equations": [],
+    "keywords": [
+      "sequence alignment",
+      "unc-89",
+      "obscurin",
+      "speg",
+      "ik region",
+      "clustalw",
+      "protein structure",
+      "functional domains",
+      "conserved residues",
+      "sequence similarity"
+    ],
+    "topics": [
+      "bioinformatics",
+      "protein sequence analysis",
+      "structural biology"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 1616,
+      "completion_tokens": 358,
+      "total_tokens": 1974,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000162,
+      "output_usd": 0.000143,
+      "total_usd": 0.000305
+    },
+    "cost": {
+      "input_usd": 0.000162,
+      "output_usd": 0.000143,
+      "total_usd": 0.000305
+    },
+    "figure_selection": {}
+  },
+  "figures": [],
+  "equations": []
+}

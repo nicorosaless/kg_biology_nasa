@@ -1,0 +1,107 @@
+{
+  "paper_id": "PMC6130020",
+  "section": "ABSTRACT",
+  "n_nodes": 4,
+  "n_edges": 4,
+  "nodes": [
+    {
+      "id": 8,
+      "label": "columella cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 3,
+        "char_start": 497,
+        "char_end": 512,
+        "anchor": "PMC6130020_497_512",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 9,
+      "label": "mutant defects",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 3,
+        "char_start": 542,
+        "char_end": 556,
+        "anchor": "PMC6130020_542_556",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 5,
+      "label": "absence",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 3,
+        "char_start": 433,
+        "char_end": 440,
+        "anchor": "PMC6130020_433_440",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 7,
+      "label": "altered",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 3,
+        "char_start": 489,
+        "char_end": 496,
+        "anchor": "PMC6130020_489_496",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "id": 2,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "id": 3,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "id": 4,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 8,
+      "target": 9
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 15,
+      "largest_component": 4,
+      "removed_components": [
+        4,
+        2,
+        2
+      ]
+    },
+    "page": 1
+  }
+}

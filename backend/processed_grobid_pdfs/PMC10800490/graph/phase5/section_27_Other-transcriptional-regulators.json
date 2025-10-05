@@ -1,0 +1,153 @@
+{
+  "paper_id": "PMC10800490",
+  "section": "Other transcriptional regulators",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 360,
+      "label": "SUVH",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Other transcriptional regulators",
+        "sentence_id": 114,
+        "char_start": 21410,
+        "char_end": 21414,
+        "anchor": "PMC10800490_21410_21414",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 361,
+      "label": "altered",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Other transcriptional regulators",
+        "sentence_id": 114,
+        "char_start": 21488,
+        "char_end": 21495,
+        "anchor": "PMC10800490_21488_21495",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 363,
+      "label": "SET",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Other transcriptional regulators",
+        "sentence_id": 114,
+        "char_start": 21334,
+        "char_end": 21337,
+        "anchor": "PMC10800490_21334_21337",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 364,
+      "label": "SUVH",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Other transcriptional regulators",
+        "sentence_id": 114,
+        "char_start": 21410,
+        "char_end": 21414,
+        "anchor": "PMC10800490_21410_21414",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 365,
+      "label": "Naumann",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Other transcriptional regulators",
+        "sentence_id": 114,
+        "char_start": 21423,
+        "char_end": 21430,
+        "anchor": "PMC10800490_21423_21430",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 597,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 360,
+      "target": 361
+    },
+    {
+      "id": 598,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 360,
+      "target": 363
+    },
+    {
+      "id": 599,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 360,
+      "target": 364
+    },
+    {
+      "id": 600,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 360,
+      "target": 365
+    },
+    {
+      "id": 602,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 361,
+      "target": 363
+    },
+    {
+      "id": 603,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 361,
+      "target": 364
+    },
+    {
+      "id": 604,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 361,
+      "target": 365
+    },
+    {
+      "id": 606,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 363,
+      "target": 364
+    },
+    {
+      "id": 607,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 363,
+      "target": 365
+    },
+    {
+      "id": 609,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 364,
+      "target": 365
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 3,
+      "largest_component": 5
+    },
+    "page": 6
+  }
+}

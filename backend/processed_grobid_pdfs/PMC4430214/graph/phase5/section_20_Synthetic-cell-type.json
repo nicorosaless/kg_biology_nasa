@@ -1,0 +1,262 @@
+{
+  "paper_id": "PMC4430214",
+  "section": "Synthetic CELL_TYPE",
+  "n_nodes": 12,
+  "n_edges": 11,
+  "nodes": [
+    {
+      "id": 17,
+      "label": "CD25 + cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 9,
+        "char_start": 1388,
+        "char_end": 1400,
+        "anchor": "PMC4430214_1388_1400",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 22,
+      "label": "c + CD86 + cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 12,
+        "char_start": 1705,
+        "char_end": 1721,
+        "anchor": "PMC4430214_1705_1721",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 223,
+      "label": "CD8 + cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Splenocyte Population Changes between Flight Mice and Ground Controls",
+        "sentence_id": 66,
+        "char_start": 12678,
+        "char_end": 12689,
+        "anchor": "PMC4430214_12678_12689",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 231,
+      "label": "G2 cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Splenocyte Population Changes between Flight Mice and Ground Controls",
+        "sentence_id": 68,
+        "char_start": 12808,
+        "char_end": 12816,
+        "anchor": "PMC4430214_12808_12816",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 297,
+      "label": "itic cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Splenocyte Markers Altered Post-Spaceflight",
+        "sentence_id": 81,
+        "char_start": 15621,
+        "char_end": 15631,
+        "anchor": "PMC4430214_15621_15631",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 314,
+      "label": "CD4 + cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Changes in T-cell Surface Molecules upon Stimulation",
+        "sentence_id": 86,
+        "char_start": 16593,
+        "char_end": 16604,
+        "anchor": "PMC4430214_16593_16604",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 331,
+      "label": "expressing cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Changes in T-cell Surface Molecules upon Stimulation",
+        "sentence_id": 88,
+        "char_start": 17395,
+        "char_end": 17411,
+        "anchor": "PMC4430214_17395_17411",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 333,
+      "label": "CD8 + cell",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Changes in T-cell Surface Molecules upon Stimulation",
+        "sentence_id": 91,
+        "char_start": 17851,
+        "char_end": 17861,
+        "anchor": "PMC4430214_17851_17861",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 421,
+      "label": "T cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 123,
+        "char_start": 23230,
+        "char_end": 23237,
+        "anchor": "PMC4430214_23230_23237",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 434,
+      "label": "per cell",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 133,
+        "char_start": 24617,
+        "char_end": 24625,
+        "anchor": "PMC4430214_24617_24625",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 441,
+      "label": "CD8 lo cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 136,
+        "char_start": 25037,
+        "char_end": 25049,
+        "anchor": "PMC4430214_25037_25049",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 498,
+      "label": "blood cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 166,
+        "char_start": 29128,
+        "char_end": 29139,
+        "anchor": "PMC4430214_29128_29139",
+        "page": 9,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-17-22",
+      "type": "ASSOCIATED",
+      "source": 17,
+      "target": 22
+    },
+    {
+      "id": "synth-17-223",
+      "type": "ASSOCIATED",
+      "source": 17,
+      "target": 223
+    },
+    {
+      "id": "synth-17-231",
+      "type": "ASSOCIATED",
+      "source": 17,
+      "target": 231
+    },
+    {
+      "id": "synth-17-297",
+      "type": "ASSOCIATED",
+      "source": 17,
+      "target": 297
+    },
+    {
+      "id": "synth-17-314",
+      "type": "ASSOCIATED",
+      "source": 17,
+      "target": 314
+    },
+    {
+      "id": "synth-17-331",
+      "type": "ASSOCIATED",
+      "source": 17,
+      "target": 331
+    },
+    {
+      "id": "synth-17-333",
+      "type": "ASSOCIATED",
+      "source": 17,
+      "target": 333
+    },
+    {
+      "id": "synth-17-421",
+      "type": "ASSOCIATED",
+      "source": 17,
+      "target": 421
+    },
+    {
+      "id": "synth-17-434",
+      "type": "ASSOCIATED",
+      "source": 17,
+      "target": 434
+    },
+    {
+      "id": "synth-17-441",
+      "type": "ASSOCIATED",
+      "source": 17,
+      "target": 441
+    },
+    {
+      "id": "synth-17-498",
+      "type": "ASSOCIATED",
+      "source": 17,
+      "target": 498
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "CELL_TYPE",
+    "page": null
+  }
+}

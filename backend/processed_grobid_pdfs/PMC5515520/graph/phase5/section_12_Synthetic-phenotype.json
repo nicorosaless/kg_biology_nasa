@@ -1,0 +1,136 @@
+{
+  "paper_id": "PMC5515520",
+  "section": "Synthetic PHENOTYPE",
+  "n_nodes": 6,
+  "n_edges": 5,
+  "nodes": [
+    {
+      "id": 15,
+      "label": "of movement",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 11,
+        "char_start": 1838,
+        "char_end": 1849,
+        "anchor": "PMC5515520_1838_1849",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 98,
+      "label": "ing behavior",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Plant development and root morphology is different between the CARA and APEX03-2 experiments",
+        "sentence_id": 33,
+        "char_start": 7576,
+        "char_end": 7588,
+        "anchor": "PMC5515520_7576_7588",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 100,
+      "label": "organized",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Plant development and root morphology is different between the CARA and APEX03-2 experiments",
+        "sentence_id": 33,
+        "char_start": 7710,
+        "char_end": 7719,
+        "anchor": "PMC5515520_7710_7719",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 296,
+      "label": "responses",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 93,
+        "char_start": 20964,
+        "char_end": 20973,
+        "anchor": "PMC5515520_20964_20973",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 298,
+      "label": "auxin-regulated changes",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 95,
+        "char_start": 21532,
+        "char_end": 21555,
+        "anchor": "PMC5515520_21532_21555",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 299,
+      "label": "auxin-related changes",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 96,
+        "char_start": 21608,
+        "char_end": 21629,
+        "anchor": "PMC5515520_21608_21629",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-15-98",
+      "type": "ASSOCIATED",
+      "source": 15,
+      "target": 98
+    },
+    {
+      "id": "synth-15-100",
+      "type": "ASSOCIATED",
+      "source": 15,
+      "target": 100
+    },
+    {
+      "id": "synth-15-296",
+      "type": "ASSOCIATED",
+      "source": 15,
+      "target": 296
+    },
+    {
+      "id": "synth-15-298",
+      "type": "ASSOCIATED",
+      "source": 15,
+      "target": 298
+    },
+    {
+      "id": "synth-15-299",
+      "type": "ASSOCIATED",
+      "source": 15,
+      "target": 299
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "PHENOTYPE",
+    "page": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC9862956",
+  "section": "Data analysis.",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 509,
+      "label": "Version",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Data analysis.",
+        "sentence_id": 204,
+        "char_start": 36525,
+        "char_end": 36532,
+        "anchor": "PMC9862956_36525_36532",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 510,
+      "label": "GraphPad",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Data analysis.",
+        "sentence_id": 204,
+        "char_start": 36565,
+        "char_end": 36573,
+        "anchor": "PMC9862956_36565_36573",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 608,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 509,
+      "target": 510
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 3,
+      "largest_component": 2
+    },
+    "page": 8
+  }
+}

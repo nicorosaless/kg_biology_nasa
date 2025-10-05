@@ -1,0 +1,42 @@
+{
+  "paper_id": "PMC7998608",
+  "section": "Colony-Forming Assay",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 120,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Colony-Forming Assay",
+        "sentence_id": 68,
+        "char_start": 15369,
+        "char_end": 15372,
+        "anchor": "PMC7998608_15369_15372"
+      }
+    },
+    {
+      "id": 118,
+      "label": "methanol",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Colony-Forming Assay",
+        "sentence_id": 68,
+        "char_start": 15228,
+        "char_end": 15236,
+        "anchor": "PMC7998608_15228_15236"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 222,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 118,
+      "target": 120
+    }
+  ]
+}

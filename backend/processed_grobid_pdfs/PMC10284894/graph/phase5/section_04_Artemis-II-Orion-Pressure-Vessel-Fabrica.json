@@ -1,0 +1,117 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "Artemis II Orion Pressure Vessel Fabrication and Delivery",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 656,
+      "label": "Kennedy",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis II Orion Pressure Vessel Fabrication and Delivery",
+        "sentence_id": 369,
+        "char_start": 67619,
+        "char_end": 67626,
+        "anchor": "PMC10284894_67619_67626",
+        "page": 69,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 653,
+      "label": "pressure",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis II Orion Pressure Vessel Fabrication and Delivery",
+        "sentence_id": 369,
+        "char_start": 67451,
+        "char_end": 67459,
+        "anchor": "PMC10284894_67451_67459",
+        "page": 68,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 654,
+      "label": "lowered",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis II Orion Pressure Vessel Fabrication and Delivery",
+        "sentence_id": 369,
+        "char_start": 67531,
+        "char_end": 67538,
+        "anchor": "PMC10284894_67531_67538",
+        "page": 68,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 655,
+      "label": "Kennedy",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis II Orion Pressure Vessel Fabrication and Delivery",
+        "sentence_id": 369,
+        "char_start": 67619,
+        "char_end": 67626,
+        "anchor": "PMC10284894_67619_67626",
+        "page": 69,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 599,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 653,
+      "target": 654
+    },
+    {
+      "id": 600,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 653,
+      "target": 655
+    },
+    {
+      "id": 601,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 653,
+      "target": 656
+    },
+    {
+      "id": 602,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 654,
+      "target": 655
+    },
+    {
+      "id": 603,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 654,
+      "target": 656
+    },
+    {
+      "id": 604,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 655,
+      "target": 656
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 1,
+      "largest_component": 4,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 68
+  }
+}

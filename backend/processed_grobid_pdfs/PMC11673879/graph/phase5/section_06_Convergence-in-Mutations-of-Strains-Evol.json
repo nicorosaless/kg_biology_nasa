@@ -1,0 +1,81 @@
+{
+  "paper_id": "PMC11673879",
+  "section": "Convergence in Mutations of Strains Evolved at Highly Critical Temperature Reveals the Role of di-C-AMP and Osmolytes in Temperature Tolerance",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 424,
+      "label": "GATK",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Convergence in Mutations of Strains Evolved at Highly Critical Temperature Reveals the Role of di-C-AMP and Osmolytes in Temperature Tolerance",
+        "sentence_id": 185,
+        "char_start": 30576,
+        "char_end": 30580,
+        "anchor": "PMC11673879_30576_30580",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 417,
+      "label": "sequence",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Convergence in Mutations of Strains Evolved at Highly Critical Temperature Reveals the Role of di-C-AMP and Osmolytes in Temperature Tolerance",
+        "sentence_id": 185,
+        "char_start": 30259,
+        "char_end": 30267,
+        "anchor": "PMC11673879_30259_30267",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 422,
+      "label": "CTT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Convergence in Mutations of Strains Evolved at Highly Critical Temperature Reveals the Role of di-C-AMP and Osmolytes in Temperature Tolerance",
+        "sentence_id": 185,
+        "char_start": 30395,
+        "char_end": 30398,
+        "anchor": "PMC11673879_30395_30398",
+        "page": 10,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 277,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 417,
+      "target": 422
+    },
+    {
+      "id": 279,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 417,
+      "target": 424
+    },
+    {
+      "id": 284,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 422,
+      "target": 424
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 3,
+      "largest_component": 3
+    },
+    "page": 10
+  }
+}

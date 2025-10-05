@@ -1,0 +1,111 @@
+{
+  "paper_id": "PMC7998608",
+  "section": "hASC Loading onto Microspheres for Microgravity Culture",
+  "n_nodes": 5,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 65,
+      "label": "Taitec",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "hASC Loading onto Microspheres for Microgravity Culture",
+        "sentence_id": 47,
+        "char_start": 9594,
+        "char_end": 9600,
+        "anchor": "PMC7998608_9594_9600"
+      }
+    },
+    {
+      "id": 66,
+      "label": "Saitama",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "hASC Loading onto Microspheres for Microgravity Culture",
+        "sentence_id": 47,
+        "char_start": 9602,
+        "char_end": 9609,
+        "anchor": "PMC7998608_9602_9609"
+      }
+    },
+    {
+      "id": 67,
+      "label": "Japan",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "hASC Loading onto Microspheres for Microgravity Culture",
+        "sentence_id": 47,
+        "char_start": 9611,
+        "char_end": 9616,
+        "anchor": "PMC7998608_9611_9616"
+      }
+    },
+    {
+      "id": 63,
+      "label": "Corning",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "hASC Loading onto Microspheres for Microgravity Culture",
+        "sentence_id": 47,
+        "char_start": 9511,
+        "char_end": 9518,
+        "anchor": "PMC7998608_9511_9518"
+      }
+    },
+    {
+      "id": 62,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "hASC Loading onto Microspheres for Microgravity Culture",
+        "sentence_id": 46,
+        "char_start": 9237,
+        "char_end": 9240,
+        "anchor": "PMC7998608_9237_9240"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 95,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 63,
+      "target": 65
+    },
+    {
+      "id": 96,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 63,
+      "target": 66
+    },
+    {
+      "id": 97,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 63,
+      "target": 67
+    },
+    {
+      "id": 101,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 65,
+      "target": 66
+    },
+    {
+      "id": 102,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 65,
+      "target": 67
+    },
+    {
+      "id": 103,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 66,
+      "target": 67
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "Orion Pressure Vessel Testing",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 633,
+      "label": "Facility",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Pressure Vessel Testing",
+        "sentence_id": 359,
+        "char_start": 65949,
+        "char_end": 65957,
+        "anchor": "PMC10284894_65949_65957",
+        "page": 67,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 634,
+      "label": "welding",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Pressure Vessel Testing",
+        "sentence_id": 359,
+        "char_start": 65982,
+        "char_end": 65989,
+        "anchor": "PMC10284894_65982_65989",
+        "page": 67,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 635,
+      "label": "delivery",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Pressure Vessel Testing",
+        "sentence_id": 359,
+        "char_start": 66089,
+        "char_end": 66097,
+        "anchor": "PMC10284894_66089_66097",
+        "page": 67,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 636,
+      "label": "Orion",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Pressure Vessel Testing",
+        "sentence_id": 359,
+        "char_start": 66028,
+        "char_end": 66033,
+        "anchor": "PMC10284894_66028_66033",
+        "page": 67,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 637,
+      "label": "Kennedy",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Pressure Vessel Testing",
+        "sentence_id": 359,
+        "char_start": 66101,
+        "char_end": 66108,
+        "anchor": "PMC10284894_66101_66108",
+        "page": 67,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 638,
+      "label": "February",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Pressure Vessel Testing",
+        "sentence_id": 359,
+        "char_start": 66112,
+        "char_end": 66120,
+        "anchor": "PMC10284894_66112_66120",
+        "page": 67,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 578,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 633,
+      "target": 634
+    },
+    {
+      "id": 579,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 633,
+      "target": 635
+    },
+    {
+      "id": 580,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 633,
+      "target": 636
+    },
+    {
+      "id": 581,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 633,
+      "target": 637
+    },
+    {
+      "id": 582,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 633,
+      "target": 638
+    },
+    {
+      "id": 583,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 634,
+      "target": 635
+    },
+    {
+      "id": 584,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 634,
+      "target": 636
+    },
+    {
+      "id": 585,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 634,
+      "target": 637
+    },
+    {
+      "id": 586,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 634,
+      "target": 638
+    },
+    {
+      "id": 587,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 635,
+      "target": 636
+    },
+    {
+      "id": 588,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 635,
+      "target": 637
+    },
+    {
+      "id": 589,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 635,
+      "target": 638
+    },
+    {
+      "id": 590,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 636,
+      "target": 637
+    },
+    {
+      "id": 591,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 636,
+      "target": 638
+    },
+    {
+      "id": 592,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 637,
+      "target": 638
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 3,
+      "largest_component": 6,
+      "removed_components": [
+        3
+      ]
+    },
+    "page": 67
+  }
+}

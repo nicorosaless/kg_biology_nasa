@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC11833055",
+  "section": "Rotarod test",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 104,
+      "label": "session",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Rotarod test",
+        "sentence_id": 62,
+        "char_start": 10154,
+        "char_end": 10161,
+        "anchor": "PMC11833055_10154_10161",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 105,
+      "label": "rotarod",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Rotarod test",
+        "sentence_id": 62,
+        "char_start": 10201,
+        "char_end": 10208,
+        "anchor": "PMC11833055_10201_10208",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 68,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 104,
+      "target": 105
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 6,
+      "largest_component": 2
+    },
+    "page": 2
+  }
+}

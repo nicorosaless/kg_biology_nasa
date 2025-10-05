@@ -1,0 +1,57 @@
+{
+  "paper_id": "PMC10503492",
+  "section": "Limitations of the study:",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 568,
+      "label": "MVP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Limitations of the study:",
+        "sentence_id": 118,
+        "char_start": 39528,
+        "char_end": 39531,
+        "anchor": "PMC10503492_39528_39531",
+        "page": 20,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 567,
+      "label": "multiple",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Limitations of the study:",
+        "sentence_id": 118,
+        "char_start": 39575,
+        "char_end": 39583,
+        "anchor": "PMC10503492_39575_39583",
+        "page": 20,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 805,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 567,
+      "target": 568
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 6,
+      "largest_component": 2,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 20
+  }
+}

@@ -1,0 +1,850 @@
+{
+  "paper_id": "PMC6091969",
+  "section": "Synthetic PHENOTYPE",
+  "n_nodes": 40,
+  "n_edges": 39,
+  "nodes": [
+    {
+      "id": 1,
+      "label": "mechanisms control",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 1,
+        "char_start": 139,
+        "char_end": 157,
+        "anchor": "PMC6091969_139_157",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3,
+      "label": "utrophil and macrophage behaviors",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 2,
+        "char_start": 288,
+        "char_end": 321,
+        "anchor": "PMC6091969_288_321",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 9,
+      "label": "G-def",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 6,
+        "char_start": 818,
+        "char_end": 823,
+        "anchor": "PMC6091969_818_823",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 23,
+      "label": "resistance",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 11,
+        "char_start": 1979,
+        "char_end": 1989,
+        "anchor": "PMC6091969_1979_1989",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 24,
+      "label": "mechanisms",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 12,
+        "char_start": 2171,
+        "char_end": 2181,
+        "anchor": "PMC6091969_2171_2181",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 40,
+      "label": "disease progression",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 17,
+        "char_start": 4039,
+        "char_end": 4058,
+        "anchor": "PMC6091969_4039_4058",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 43,
+      "label": "development",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 19,
+        "char_start": 4412,
+        "char_end": 4423,
+        "anchor": "PMC6091969_4412_4423",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 55,
+      "label": "Heterogeneity",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 23,
+        "char_start": 5337,
+        "char_end": 5350,
+        "anchor": "PMC6091969_5337_5350",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 70,
+      "label": "macrophage behaviors",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 27,
+        "char_start": 6078,
+        "char_end": 6098,
+        "anchor": "PMC6091969_6078_6098",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 85,
+      "label": "killed spores",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "A CEA10-derived strain of Aspergillus fumigatus is killed better than an Af293-derived strain in vivo",
+        "sentence_id": 36,
+        "char_start": 7763,
+        "char_end": 7776,
+        "anchor": "PMC6091969_7763_7776",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 103,
+      "label": "infection",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "A CEA10-derived strain of Aspergillus fumigatus is killed better than an Af293-derived strain in vivo",
+        "sentence_id": 39,
+        "char_start": 8627,
+        "char_end": 8636,
+        "anchor": "PMC6091969_8627_8636",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 112,
+      "label": "fungal burden",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "A CEA10-derived strain of Aspergillus fumigatus is killed better than an Af293-derived strain in vivo",
+        "sentence_id": 43,
+        "char_start": 9487,
+        "char_end": 9500,
+        "anchor": "PMC6091969_9487_9500",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 150,
+      "label": "fungal growth",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88-mediated inflammatory activation is required for clearance of a CEA10-derived strain",
+        "sentence_id": 54,
+        "char_start": 12342,
+        "char_end": 12355,
+        "anchor": "PMC6091969_12342_12355",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 197,
+      "label": "defective",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages form tight, persistent, and dynamic clusters around A. fumigatus",
+        "sentence_id": 64,
+        "char_start": 17766,
+        "char_end": 17775,
+        "anchor": "PMC6091969_17766_17775",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 201,
+      "label": "defective",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages form tight, persistent, and dynamic clusters around A. fumigatus",
+        "sentence_id": 64,
+        "char_start": 18156,
+        "char_end": 18165,
+        "anchor": "PMC6091969_18156_18165",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 204,
+      "label": "develop macrophages",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages provide a protective niche for CEA10",
+        "sentence_id": 66,
+        "char_start": 18528,
+        "char_end": 18547,
+        "anchor": "PMC6091969_18528_18547",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 267,
+      "label": "yphal growth",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "A CEA10-derived strain germinates earlier than an Af293-derived strain in vivo",
+        "sentence_id": 79,
+        "char_start": 24313,
+        "char_end": 24325,
+        "anchor": "PMC6091969_24313_24325",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 300,
+      "label": "black masses",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Germination drives neutrophil-mediated fungal killing",
+        "sentence_id": 85,
+        "char_start": 26127,
+        "char_end": 26139,
+        "anchor": "PMC6091969_26127_26139",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 302,
+      "label": "rmination",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Germination drives neutrophil-mediated fungal killing",
+        "sentence_id": 85,
+        "char_start": 26286,
+        "char_end": 26295,
+        "anchor": "PMC6091969_26286_26295",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 303,
+      "label": "fungal growth",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Germination drives neutrophil-mediated fungal killing",
+        "sentence_id": 85,
+        "char_start": 26300,
+        "char_end": 26313,
+        "anchor": "PMC6091969_26300_26313",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 308,
+      "label": "heat-killed spores",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Germination drives neutrophil-mediated fungal killing",
+        "sentence_id": 86,
+        "char_start": 26409,
+        "char_end": 26427,
+        "anchor": "PMC6091969_26409_26427",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 312,
+      "label": "virulence",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Germination drives neutrophil-mediated fungal killing",
+        "sentence_id": 87,
+        "char_start": 26665,
+        "char_end": 26674,
+        "anchor": "PMC6091969_26665_26674",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 333,
+      "label": "germinate",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Germination drives neutrophil-mediated fungal killing",
+        "sentence_id": 90,
+        "char_start": 27859,
+        "char_end": 27868,
+        "anchor": "PMC6091969_27859_27868",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 337,
+      "label": "infection",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Germination drives neutrophil-mediated fungal killing",
+        "sentence_id": 91,
+        "char_start": 28234,
+        "char_end": 28243,
+        "anchor": "PMC6091969_28234_28243",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 345,
+      "label": "ating strain",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Germination drives neutrophil-mediated fungal killing",
+        "sentence_id": 94,
+        "char_start": 28745,
+        "char_end": 28757,
+        "anchor": "PMC6091969_28745_28757",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 359,
+      "label": "phagocyte clusters",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 100,
+        "char_start": 29983,
+        "char_end": 30001,
+        "anchor": "PMC6091969_29983_30001",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 362,
+      "label": "utrophils",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 101,
+        "char_start": 30408,
+        "char_end": 30417,
+        "anchor": "PMC6091969_30408_30417",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 376,
+      "label": "macrophage depletion",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 110,
+        "char_start": 31137,
+        "char_end": 31157,
+        "anchor": "PMC6091969_31137_31157",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 378,
+      "label": "germination",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 111,
+        "char_start": 31477,
+        "char_end": 31488,
+        "anchor": "PMC6091969_31477_31488",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 404,
+      "label": "infection",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 125,
+        "char_start": 33829,
+        "char_end": 33838,
+        "anchor": "PMC6091969_33829_33838",
+        "page": 16,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 415,
+      "label": "oxic state",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 130,
+        "char_start": 34538,
+        "char_end": 34548,
+        "anchor": "PMC6091969_34538_34548",
+        "page": 17,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 625,
+      "label": "alteration",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 202,
+        "char_start": 44229,
+        "char_end": 44239,
+        "anchor": "PMC6091969_44229_44239",
+        "page": 21,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 648,
+      "label": "cyte recruitment",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 209,
+        "char_start": 45133,
+        "char_end": 45149,
+        "anchor": "PMC6091969_45133_45149",
+        "page": 21,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 649,
+      "label": "fungal growth",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 209,
+        "char_start": 45154,
+        "char_end": 45167,
+        "anchor": "PMC6091969_45154_45167",
+        "page": 22,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 654,
+      "label": "germination",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 210,
+        "char_start": 45309,
+        "char_end": 45320,
+        "anchor": "PMC6091969_45309_45320",
+        "page": 22,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 656,
+      "label": "agocyte recruitment",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 211,
+        "char_start": 45423,
+        "char_end": 45442,
+        "anchor": "PMC6091969_45423_45442",
+        "page": 22,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 669,
+      "label": "gaussian blur",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 212,
+        "char_start": 45709,
+        "char_end": 45722,
+        "anchor": "PMC6091969_45709_45722",
+        "page": 22,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 674,
+      "label": "gaussian blur",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 213,
+        "char_start": 45896,
+        "char_end": 45909,
+        "anchor": "PMC6091969_45896_45909",
+        "page": 22,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 683,
+      "label": "ian blur",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 214,
+        "char_start": 46195,
+        "char_end": 46203,
+        "anchor": "PMC6091969_46195_46203",
+        "page": 22,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 693,
+      "label": "gaussian blur",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 216,
+        "char_start": 46513,
+        "char_end": 46526,
+        "anchor": "PMC6091969_46513_46526",
+        "page": 22,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-1-3",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "id": "synth-1-9",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "id": "synth-1-23",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 23
+    },
+    {
+      "id": "synth-1-24",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 24
+    },
+    {
+      "id": "synth-1-40",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 40
+    },
+    {
+      "id": "synth-1-43",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 43
+    },
+    {
+      "id": "synth-1-55",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 55
+    },
+    {
+      "id": "synth-1-70",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 70
+    },
+    {
+      "id": "synth-1-85",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 85
+    },
+    {
+      "id": "synth-1-103",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 103
+    },
+    {
+      "id": "synth-1-112",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 112
+    },
+    {
+      "id": "synth-1-150",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 150
+    },
+    {
+      "id": "synth-1-197",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 197
+    },
+    {
+      "id": "synth-1-201",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 201
+    },
+    {
+      "id": "synth-1-204",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 204
+    },
+    {
+      "id": "synth-1-267",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 267
+    },
+    {
+      "id": "synth-1-300",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 300
+    },
+    {
+      "id": "synth-1-302",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 302
+    },
+    {
+      "id": "synth-1-303",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 303
+    },
+    {
+      "id": "synth-1-308",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 308
+    },
+    {
+      "id": "synth-1-312",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 312
+    },
+    {
+      "id": "synth-1-333",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 333
+    },
+    {
+      "id": "synth-1-337",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 337
+    },
+    {
+      "id": "synth-1-345",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 345
+    },
+    {
+      "id": "synth-1-359",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 359
+    },
+    {
+      "id": "synth-1-362",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 362
+    },
+    {
+      "id": "synth-1-376",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 376
+    },
+    {
+      "id": "synth-1-378",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 378
+    },
+    {
+      "id": "synth-1-404",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 404
+    },
+    {
+      "id": "synth-1-415",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 415
+    },
+    {
+      "id": "synth-1-625",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 625
+    },
+    {
+      "id": "synth-1-648",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 648
+    },
+    {
+      "id": "synth-1-649",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 649
+    },
+    {
+      "id": "synth-1-654",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 654
+    },
+    {
+      "id": "synth-1-656",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 656
+    },
+    {
+      "id": "synth-1-669",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 669
+    },
+    {
+      "id": "synth-1-674",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 674
+    },
+    {
+      "id": "synth-1-683",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 683
+    },
+    {
+      "id": "synth-1-693",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 693
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "PHENOTYPE",
+    "page": null
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "paper_id": "PMC9862956",
+  "section": "METHODS",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 474,
+      "label": "NGM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS",
+        "sentence_id": 189,
+        "char_start": 34603,
+        "char_end": 34606,
+        "anchor": "PMC9862956_34603_34606",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 471,
+      "label": "culture",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS",
+        "sentence_id": 189,
+        "char_start": 34561,
+        "char_end": 34568,
+        "anchor": "PMC9862956_34561_34568",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 568,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 471,
+      "target": 474
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 5,
+      "largest_component": 2,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 8
+  }
+}

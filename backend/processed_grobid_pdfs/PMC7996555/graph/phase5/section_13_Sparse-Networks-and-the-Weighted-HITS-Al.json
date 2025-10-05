@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC7996555",
+  "section": "Sparse Networks and the Weighted HITS Algorithm",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 190,
+      "label": "directed",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sparse Networks and the Weighted HITS Algorithm",
+        "sentence_id": 84,
+        "char_start": 14622,
+        "char_end": 14630,
+        "anchor": "PMC7996555_14622_14630",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 191,
+      "label": "directed",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sparse Networks and the Weighted HITS Algorithm",
+        "sentence_id": 84,
+        "char_start": 14723,
+        "char_end": 14731,
+        "anchor": "PMC7996555_14723_14731",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 100,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 190,
+      "target": 191
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 2,
+      "largest_component": 2
+    },
+    "page": 6
+  }
+}

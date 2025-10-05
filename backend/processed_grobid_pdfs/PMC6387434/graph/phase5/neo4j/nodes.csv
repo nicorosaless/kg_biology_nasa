@@ -1,0 +1,689 @@
+id:ID,mention,frequency:int,node_type:LABEL,sections
+0,Space,1,GENE_PRODUCT,ABSTRACT
+1,GeneLab,1,GENE_PRODUCT,ABSTRACT
+2,Microarray data,1,EXPERIMENT,ABSTRACT
+3,cardiomyocytes,1,CELL_TYPE,ABSTRACT
+4,followed,1,GENE_PRODUCT,ABSTRACT
+5,1 GeV,1,EXPERIMENT,ABSTRACT
+6,1 GeV/n,1,EXPERIMENT,ABSTRACT
+7,56 Fe,1,EXPERIMENT,ABSTRACT
+8,human endothelial cells,1,CELL_TYPE,ABSTRACT
+9,HUVECs,1,GENE_PRODUCT,ABSTRACT
+10,tive stress,1,PHENOTYPE,ABSTRACT
+12,FYN,1,GENE_PRODUCT,ABSTRACT
+13,FYN,1,GENE_PRODUCT,ABSTRACT
+14,ROS,1,GENE_PRODUCT,ABSTRACT
+15,transcriptomic signature,1,EXPERIMENT,ABSTRACT
+16,exposure,1,GENE_PRODUCT,ABSTRACT
+17,protons,1,GENE_PRODUCT,ABSTRACT
+18,flight signature,1,EXPERIMENT,ABSTRACT
+19,GeneLab,1,GENE_PRODUCT,ABSTRACT
+20,ISS,1,GENE_PRODUCT,ABSTRACT
+21,radiation studies,1,EXPERIMENT,ABSTRACT
+22,Long,1,GENE_PRODUCT,INTRODUCTION
+23,LEO,1,GENE_PRODUCT,INTRODUCTION
+24,different,1,PHENOTYPE,INTRODUCTION
+25,Space radiation,1,EXPERIMENT,INTRODUCTION
+26,protons,1,GENE_PRODUCT,INTRODUCTION
+27,HZE,1,GENE_PRODUCT,INTRODUCTION
+28,Proton,1,GENE_PRODUCT,INTRODUCTION
+29,energy transfer,1,EXPERIMENT,INTRODUCTION
+30,HZE,1,GENE_PRODUCT,INTRODUCTION
+31,HZE,1,GENE_PRODUCT,INTRODUCTION
+32,positively charged,1,EXPERIMENT,INTRODUCTION
+33,Cosmic Rays,1,EXPERIMENT,INTRODUCTION
+34,HZE,1,GENE_PRODUCT,INTRODUCTION
+35,HZE,1,GENE_PRODUCT,INTRODUCTION
+36,cinogenic potential,1,EXPERIMENT,INTRODUCTION
+37,HZE,1,GENE_PRODUCT,INTRODUCTION
+38,HZE,1,GENE_PRODUCT,INTRODUCTION
+39,-energy proton,1,EXPERIMENT,INTRODUCTION
+41,LEO,1,GENE_PRODUCT,INTRODUCTION
+42,LEO,1,GENE_PRODUCT,INTRODUCTION
+43,ISS,1,GENE_PRODUCT,INTRODUCTION
+44,HZE,1,GENE_PRODUCT,INTRODUCTION
+45,ISS,1,GENE_PRODUCT,INTRODUCTION
+46,Anomaly,1,GENE_PRODUCT,INTRODUCTION
+47,ISS,1,GENE_PRODUCT,INTRODUCTION
+48,LEO,1,GENE_PRODUCT,INTRODUCTION
+49,periodic,1,GENE_PRODUCT,INTRODUCTION
+50,solar particle events,1,EXPERIMENT,INTRODUCTION
+51,LEO,1,GENE_PRODUCT,INTRODUCTION
+52,LEO,1,GENE_PRODUCT,INTRODUCTION
+53,protons,1,GENE_PRODUCT,INTRODUCTION
+54,LEO,1,GENE_PRODUCT,INTRODUCTION
+55,HZE,1,GENE_PRODUCT,INTRODUCTION
+56,NSRL,1,GENE_PRODUCT,INTRODUCTION
+57,HZE,1,GENE_PRODUCT,INTRODUCTION
+58,LEO,1,GENE_PRODUCT,INTRODUCTION
+59,central,1,GENE_PRODUCT,INTRODUCTION
+60,nervous,1,GENE_PRODUCT,INTRODUCTION
+61,CNS,1,GENE_PRODUCT,INTRODUCTION
+62,astronauts,1,ANATOMICAL_SITE,INTRODUCTION
+63,experiments,1,EXPERIMENT,INTRODUCTION
+64,HZE particle,1,EXPERIMENT,INTRODUCTION
+65,HZE,1,GENE_PRODUCT,INTRODUCTION
+66,studies,1,GENE_PRODUCT,INTRODUCTION
+67,lasting,1,GENE_PRODUCT,INTRODUCTION
+68,decades,1,GENE_PRODUCT,INTRODUCTION
+69,Animal,1,GENE_PRODUCT,INTRODUCTION
+70,cell culture models,1,EXPERIMENT,INTRODUCTION
+71,proton radiation,1,EXPERIMENT,INTRODUCTION
+72,LET,1,GENE_PRODUCT,INTRODUCTION
+73,cardiovascular system,1,ANATOMICAL_SITE,INTRODUCTION
+74,150 MeV protons,1,EXPERIMENT,INTRODUCTION
+75,600 MeV/n,1,EXPERIMENT,INTRODUCTION
+76,iron ions,1,EXPERIMENT,INTRODUCTION
+77,56 Fe,1,EXPERIMENT,INTRODUCTION
+78,changes,1,GENE_PRODUCT,INTRODUCTION
+79,cardiac,1,GENE_PRODUCT,INTRODUCTION
+80,DNA methylation,1,EXPERIMENT,INTRODUCTION
+81,HZE,1,GENE_PRODUCT,INTRODUCTION
+83,MeV,1,GENE_PRODUCT,INTRODUCTION
+85,MeV,1,GENE_PRODUCT,INTRODUCTION
+87,animal models,1,EXPERIMENT,INTRODUCTION
+88,HZE,1,GENE_PRODUCT,INTRODUCTION
+89,HZE,1,GENE_PRODUCT,INTRODUCTION
+90,GCR,1,GENE_PRODUCT,INTRODUCTION
+91,HZE,1,GENE_PRODUCT,INTRODUCTION
+92,Gene,1,GENE_PRODUCT,INTRODUCTION
+93,GeneLab,1,GENE_PRODUCT,INTRODUCTION
+94,GeneLab,1,GENE_PRODUCT,INTRODUCTION
+95,GeneLab,1,GENE_PRODUCT,INTRODUCTION
+96,cardiomyocytes,1,CELL_TYPE,INTRODUCTION
+97,five different,1,EXPERIMENT,INTRODUCTION
+98,bilical vein,1,EXPERIMENT,INTRODUCTION
+99,endothelial cells,1,CELL_TYPE,INTRODUCTION
+100,VECs,1,GENE_PRODUCT,INTRODUCTION
+101,ISS,1,GENE_PRODUCT,INTRODUCTION
+102,GeneLab,1,GENE_PRODUCT,INTRODUCTION
+103,cardiovascular,1,ANATOMICAL_SITE,INTRODUCTION
+104,systems biology,1,EXPERIMENT,INTRODUCTION
+105,FYN,1,GENE_PRODUCT,INTRODUCTION
+106,reactive oxygen species,1,EXPERIMENT,INTRODUCTION
+107,ROS,1,GENE_PRODUCT,INTRODUCTION
+108,ROS,1,GENE_PRODUCT,INTRODUCTION
+109,ROS,1,GENE_PRODUCT,INTRODUCTION
+110,FYN,1,GENE_PRODUCT,INTRODUCTION
+111,Src,1,GENE_PRODUCT,INTRODUCTION
+112,ROS,1,GENE_PRODUCT,INTRODUCTION
+113,immune receptor,1,EXPERIMENT,INTRODUCTION
+114,myelination,1,EXPERIMENT,INTRODUCTION
+115,central nervous system,1,EXPERIMENT,INTRODUCTION
+116,FYN,1,GENE_PRODUCT,INTRODUCTION
+118,ROS,1,GENE_PRODUCT,INTRODUCTION
+119,ROS,1,GENE_PRODUCT,INTRODUCTION
+120,HUVEC,1,GENE_PRODUCT,INTRODUCTION
+121,ISS,1,GENE_PRODUCT,INTRODUCTION
+122,LEO,1,GENE_PRODUCT,INTRODUCTION
+123,molecular response,1,PHENOTYPE,INTRODUCTION
+124,LEO,1,GENE_PRODUCT,INTRODUCTION
+125,HUVEC,1,GENE_PRODUCT,INTRODUCTION
+126,ISS,1,GENE_PRODUCT,INTRODUCTION
+127,LEO,1,GENE_PRODUCT,INTRODUCTION
+128,HZE,1,GENE_PRODUCT,INTRODUCTION
+129,LEO,1,GENE_PRODUCT,INTRODUCTION
+130,recapit,1,GENE_PRODUCT,INTRODUCTION
+131,GeneLab,1,GENE_PRODUCT,INTRODUCTION
+132,cardiovascular system,1,ANATOMICAL_SITE,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+133,GeneLab,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+134,900 mGy proton,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+135,1 GeV,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+136,150 mGy 56 Fe,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+137,1 GeV/n,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+138,cardiomyocytes,1,CELL_TYPE,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+139,GeneLab,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+140,spaceflight study,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+141,HUVECs,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+142,ISS,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+143,HUVEC controls,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+144,GLDS-52 dataset,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+145,culture,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+146,HUVEC,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+147,ISS,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+148,analysis,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+149,radiation studies,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+150,t-test analysis,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+151,p-value,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+152,proton study,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+153,Fe study,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+154,spaceflight study,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+158,false discovery rate,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+159,proton study,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+160,Fe study,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+161,7 or 12,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+162,spaceflight study,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+163,regulated,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+164,FDR,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+166,FDR,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+167,ground studies data,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+168,Coleman,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+169,5220 significant genes,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+170,1651 significant,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+171,proton dataset,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+172,p-value cutoff of,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+175,1538 significant genes,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+177,FDR,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+178,reproduce,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+179,Coleman,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+180,microarray analysis,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+181,Genelab,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+182,RNAseq,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+183,replicate,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+184,GeneLab,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+185,GeneLab,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+186,GeneLab,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+187,Gene,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+188,Lab,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+189,GeneLab,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+190,differences,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+191,principal,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+192,control,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+193,samples,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+194,greatest separation,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+195,cardiomyocytes,1,CELL_TYPE,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+196,principle component 2 (PC2,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+197,protons,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+198,Fe ions,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+199,negative,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+200,y control,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+201,HUVECs,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+202,ISS,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+203,cleaner separation,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+204,PCA,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+205,0 Gy controls,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+206,gene signature,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+207,changing,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+208,distinct,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+209,regulated,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+210,HUVECs,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+211,signature,1,PHENOTYPE,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+212,GeneLab Dataset,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+213,cardiomyocytes,1,CELL_TYPE,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+214,cardiomyocytes,1,CELL_TYPE,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+215,whole body,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+216,56 Fe,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+217,Human Umbilical Vein Endothelial Cells,1,CELL_TYPE,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+219,GLDS-52 for Human Umbilical Vein Endothelial Cells,1,CELL_TYPE,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+220,variance,1,GENE_PRODUCT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+221,Heat maps,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+222,clustering of,1,PHENOTYPE,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+223,significantly,1,PHENOTYPE,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+224,Euclidean distance calculation,1,EXPERIMENT,Global Analysis of Simulated Space Radiation Ground Experiments Compared to Spaceflight Samples
+225,launched,1,GENE_PRODUCT,Dose Received by HUVECs Flown in Space
+226,ISS,1,GENE_PRODUCT,Dose Received by HUVECs Flown in Space
+227,culture,1,GENE_PRODUCT,Dose Received by HUVECs Flown in Space
+228,ISS,1,GENE_PRODUCT,Dose Received by HUVECs Flown in Space
+229,Russian,1,GENE_PRODUCT,Dose Received by HUVECs Flown in Space
+230,ESA,1,GENE_PRODUCT,Dose Received by HUVECs Flown in Space
+231,Columbus,1,GENE_PRODUCT,Dose Received by HUVECs Flown in Space
+232,almost constant,1,EXPERIMENT,Dose Received by HUVECs Flown in Space
+233,220.43 µGy/day,1,EXPERIMENT,Dose Received by HUVECs Flown in Space
+234,1.90 µGy/day,1,EXPERIMENT,Dose Received by HUVECs Flown in Space
+235,ISS,1,GENE_PRODUCT,Dose Received by HUVECs Flown in Space
+236,GCR,1,GENE_PRODUCT,Dose Received by HUVECs Flown in Space
+237,particle,1,GENE_PRODUCT,Dose Received by HUVECs Flown in Space
+238,energy loss,1,PHENOTYPE,Dose Received by HUVECs Flown in Space
+239,unit path length,1,EXPERIMENT,Dose Received by HUVECs Flown in Space
+240,Linear energy transfer,1,EXPERIMENT,Dose Received by HUVECs Flown in Space
+241,particle,1,GENE_PRODUCT,Dose Received by HUVECs Flown in Space
+242,high-,1,EXPERIMENT,Dose Received by HUVECs Flown in Space
+243,low-energy,1,EXPERIMENT,Dose Received by HUVECs Flown in Space
+244,protons,1,GENE_PRODUCT,Dose Received by HUVECs Flown in Space
+245,Linear,1,GENE_PRODUCT,Dose Received by HUVECs Flown in Space
+246,gene set enrichment analysis,1,EXPERIMENT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+247,GSEA,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+248,Hallmark,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+249,controls,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+251,Reactome,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+252,GSEA,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+253,pathways,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+254,cardiomyocytes,1,CELL_TYPE,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+255,samples,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+256,HUVEC,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+257,ROS,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+258,downregulated,1,EXPERIMENT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+259,ROS,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+260,ROS,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+261,ROS,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+262,ROS,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+263,fatty acid metabolism,1,EXPERIMENT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+264,ROS,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+265,mitochondria,1,ANATOMICAL_SITE,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+266,ROS,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+267,low levels,1,EXPERIMENT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+268,phosphorylation,1,EXPERIMENT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+269,ROS,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+270,ROS,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+271,MYC,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+272,Reactive oxygen species,1,EXPERIMENT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+273,pogenesis,1,EXPERIMENT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+274,ROS,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+276,MYC,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+277,heme metabolism,1,EXPERIMENT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+279,pathways,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+280,influence,1,EXPERIMENT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+281,cell cycle,1,EXPERIMENT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+282,ROS,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+283,ROS,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+284,cell cycle pathways,1,EXPERIMENT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+285,ROS,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+286,ROS,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+287,ROS,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+288,DNA repair,1,EXPERIMENT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+289,hallmark,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+290,DNA,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+291,DNA,1,GENE_PRODUCT,Common Pathways between Simulated Space Radiation and Spaceflight Samples
+292,condition,1,PHENOTYPE,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+293,pathways,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+294,protons,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+296,TGFβ signaling,1,EXPERIMENT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+297,the overall system,1,EXPERIMENT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+298,proton irradiation,1,EXPERIMENT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+299,pathways,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+301,GSEA,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+302,MYC,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+303,mTOR,1,PATHWAY,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+304,IPA,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+305,comparisons,1,EXPERIMENT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+306,IPA,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+307,principal,1,EXPERIMENT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+308,cardiomyocyte samples,1,EXPERIMENT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+309,protons,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+310,upstream,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+311,canonical pathways,1,EXPERIMENT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+312,samples,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+313,IPA functional predictions,1,EXPERIMENT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+314,cardiomyocytes,1,CELL_TYPE,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+315,56 Fe,1,EXPERIMENT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+316,together,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+317,IPA,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+318,condition,1,PHENOTYPE,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+319,pathways,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+320,protons,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+322,TGFβ signaling,1,EXPERIMENT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+323,the overall system,1,EXPERIMENT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+324,proton irradiation,1,EXPERIMENT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+325,pathways,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+327,GSEA,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+328,MYC,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+329,mTOR,1,PATHWAY,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+330,IPA,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+331,comparisons,1,EXPERIMENT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+332,IPA,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+333,principal,1,EXPERIMENT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+334,cardiomyocyte samples,1,EXPERIMENT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+335,protons,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+336,upstream,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+337,canonical pathways,1,EXPERIMENT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+338,samples,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+339,IPA functional predictions,1,EXPERIMENT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+340,cardiomyocytes,1,CELL_TYPE,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+341,56 Fe,1,EXPERIMENT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+342,outlier,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+343,IPA,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+344,time-,1,EXPERIMENT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+345,GeneLab,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+346,IPA functions,1,EXPERIMENT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+347,negative,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+348,3 out of 5,1,EXPERIMENT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+349,positive Z,1,EXPERIMENT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+350,IPA,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+351,ISS,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+352,HZE,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+353,protons,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+354,GeneLab,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+355,HZE,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+356,LEO,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+357,GeneLab,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+358,LEO,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+359,ISS,1,GENE_PRODUCT,The Biological Pathways Elicited by Protons Have Stronger Overlap with Spaceflight Samples Than Those Elicited by 56 Fe Ions
+360,systems,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+361,cardiom,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+362,cardiomyocytes,1,CELL_TYPE,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+363,56 Fe ion,1,EXPERIMENT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+364,GeneLab,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+365,control,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+366,genes analysis,1,EXPERIMENT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+367,Heat map,1,EXPERIMENT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+368,activation,1,EXPERIMENT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+369,positive,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+370,negative,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+371,Euclidean,1,EXPERIMENT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+372,tissues,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+373,darkest,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+374,heat maps,1,EXPERIMENT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+375,prevalence of change,1,EXPERIMENT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+376,functions,1,EXPERIMENT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+377,prevalence,1,EXPERIMENT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+378,of change score,1,EXPERIMENT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+379,clustering,1,EXPERIMENT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+380,biofunction,1,EXPERIMENT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+381,upstream,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+382,canonical pathways (,1,EXPERIMENT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+383,principal component analysis,1,EXPERIMENT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+384,PCA,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+385,PCA,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+386,cardiomyocytes,1,CELL_TYPE,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+387,150 mGy 56 Fe,1,EXPERIMENT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+388,cardiomyocytes,1,CELL_TYPE,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+391,HUVECs,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+392,ISS,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+393,cardiomyocytes,1,CELL_TYPE,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+394,150 mGy 56 Fe,1,EXPERIMENT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+395,ISS,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+398,AKT1,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+399,ROS,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+400,production,1,PHENOTYPE,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+401,FYN,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+402,LCK,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+403,LYN,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+404,FOS,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+405,FYN,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+406,FYN,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+407,ROS,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+408,LCK,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+409,LYN,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+410,FYN,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+411,various,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+412,AKT1,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+413,FYN,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+414,AKT1,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+415,Z-scores,1,EXPERIMENT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+416,IPA,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+417,inhibition,1,EXPERIMENT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+418,IPA,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+419,inflammation,1,PHENOTYPE,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+420,methodology,1,EXPERIMENT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+421,genes analysis,1,EXPERIMENT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+422,LEO,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+423,protons,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+424,LEO,1,GENE_PRODUCT,Key Driving Genes Provide Direct Connection to ROS for Space Radiation Impact on the Cardiovascular System
+425,microRNA (,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+426,miRNA,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+427,signature,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+428,ClueGo,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+430,ClueGo,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+431,miR,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+434,17 out of the 30,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+435,miRNAs,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+436,miR,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+437,miR,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+438,miR-29a-,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+439,miR-29b-,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+440,miR-101,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+441,miR-125b-5,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+442,miR-148a-3,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+443,miR-,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+444,miR-185,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+445,miR-199a-,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+446,miR-221-3,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+447,miR-302,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+448,miR-520d-5p,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+449,up-or,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+450,downregulated,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+451,let-7,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+452,miR-125,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+455,miR,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+456,NAs,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+457,overlap,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+458,miRNAs,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+459,miR-125b-5,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+460,miR-16-5,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+461,let-7a,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+463,network,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+464,IPA,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+465,cardiomyocytes,1,CELL_TYPE,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+466,150 mGy 56 Fe,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+467,900 mGy protons,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+468,HUVECs,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+469,ISS,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+470,IPA,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+472,ISS,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+473,network,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+474,analysis,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+475,analysis,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+476,56 Fe,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+477,regulated,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+478,different line,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+479,IPA,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+480,IPA,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+481,network,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+482,IPA,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+483,cardiomyocytes,1,CELL_TYPE,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+484,150 mGy 56 Fe,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+485,900 mGy protons,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+486,HUVECs,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+487,ISS,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+488,IPA,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+490,ISS,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+491,network,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+492,analysis,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+493,analysis,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+494,56 Fe,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+495,regulated,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+496,different line,1,EXPERIMENT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+497,IPA,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+498,IPA,1,GENE_PRODUCT,Predicted Circulating miRNA Signature Associated with Space Radiation Cardiovascular Risk
+499,GeneLab,1,GENE_PRODUCT,DISCUSSION
+500,systems biology,1,EXPERIMENT,DISCUSSION
+501,Lab,1,GENE_PRODUCT,DISCUSSION
+502,GeneLab,1,GENE_PRODUCT,DISCUSSION
+503,ground studies,1,EXPERIMENT,DISCUSSION
+504,cardiomyocytes,1,CELL_TYPE,DISCUSSION
+505,protons,1,GENE_PRODUCT,DISCUSSION
+507,low LET,1,EXPERIMENT,DISCUSSION
+508,ISS,1,GENE_PRODUCT,DISCUSSION
+509,ISS,1,GENE_PRODUCT,DISCUSSION
+510,protons,1,GENE_PRODUCT,DISCUSSION
+511,cardiovascular,1,ANATOMICAL_SITE,DISCUSSION
+512,ISS,1,GENE_PRODUCT,DISCUSSION
+513,FYN,1,GENE_PRODUCT,DISCUSSION
+514,FYN,1,GENE_PRODUCT,DISCUSSION
+515,FYN,1,GENE_PRODUCT,DISCUSSION
+516,ROS,1,GENE_PRODUCT,DISCUSSION
+517,ROS,1,GENE_PRODUCT,DISCUSSION
+518,DNA repair pathway,1,EXPERIMENT,DISCUSSION
+519,animals,1,GENE_PRODUCT,DISCUSSION
+520,ROS,1,GENE_PRODUCT,DISCUSSION
+521,FYN,1,GENE_PRODUCT,DISCUSSION
+522,ROS,1,GENE_PRODUCT,DISCUSSION
+523,GeneLab,1,GENE_PRODUCT,DISCUSSION
+524,systems biology,1,EXPERIMENT,DISCUSSION
+525,Lab,1,GENE_PRODUCT,DISCUSSION
+526,GeneLab,1,GENE_PRODUCT,DISCUSSION
+527,ground studies,1,EXPERIMENT,DISCUSSION
+528,cardiomyocytes,1,CELL_TYPE,DISCUSSION
+529,protons,1,GENE_PRODUCT,DISCUSSION
+531,low LET,1,EXPERIMENT,DISCUSSION
+532,ISS,1,GENE_PRODUCT,DISCUSSION
+533,ISS,1,GENE_PRODUCT,DISCUSSION
+534,protons,1,GENE_PRODUCT,DISCUSSION
+535,cardiovascular,1,ANATOMICAL_SITE,DISCUSSION
+536,ISS,1,GENE_PRODUCT,DISCUSSION
+537,FYN,1,GENE_PRODUCT,DISCUSSION
+538,FYN,1,GENE_PRODUCT,DISCUSSION
+539,FYN,1,GENE_PRODUCT,DISCUSSION
+540,ROS,1,GENE_PRODUCT,DISCUSSION
+541,ROS,1,GENE_PRODUCT,DISCUSSION
+542,DNA repair pathway,1,EXPERIMENT,DISCUSSION
+543,animals,1,GENE_PRODUCT,DISCUSSION
+544,ROS,1,GENE_PRODUCT,DISCUSSION
+545,FYN,1,GENE_PRODUCT,DISCUSSION
+546,ROS,1,GENE_PRODUCT,DISCUSSION
+547,FYN,1,GENE_PRODUCT,Figure 7.
+548,ROS,1,GENE_PRODUCT,Figure 7.
+549,FYN,1,GENE_PRODUCT,Figure 7.
+550,ROS,1,GENE_PRODUCT,Figure 7.
+551,tyrosine kinase,1,EXPERIMENT,Figure 7.
+552,ROS,1,GENE_PRODUCT,Figure 7.
+553,optosis,1,GENE_PRODUCT,Figure 7.
+554,FYN,1,GENE_PRODUCT,Figure 7.
+555,SRC,1,GENE_PRODUCT,Figure 7.
+556,ROS,1,GENE_PRODUCT,Figure 7.
+557,cardiovascular,1,ANATOMICAL_SITE,Figure 7.
+558,cardiac,1,GENE_PRODUCT,Figure 7.
+559,ROS,1,GENE_PRODUCT,Figure 7.
+560,NADPH,1,GENE_PRODUCT,Figure 7.
+561,Oxida,1,GENE_PRODUCT,Figure 7.
+562,FYN,1,GENE_PRODUCT,Figure 7.
+563,ROS,1,GENE_PRODUCT,Figure 7.
+564,YN kinase inhibitors,1,EXPERIMENT,Figure 7.
+565,inhibit,1,GENE_PRODUCT,Figure 7.
+566,nuclear factor erythroid 2-related factor 2 (,1,EXPERIMENT,Figure 7.
+567,ROS,1,GENE_PRODUCT,Figure 7.
+568,damaging,1,GENE_PRODUCT,Figure 7.
+569,changes,1,GENE_PRODUCT,Figure 7.
+570,redox balance,1,EXPERIMENT,Figure 7.
+571,FYN,1,GENE_PRODUCT,Figure 7.
+572,ROS,1,GENE_PRODUCT,Figure 7.
+573,YN activation phosphorylating NRF2,1,EXPERIMENT,Figure 7.
+574,FYN,1,GENE_PRODUCT,Figure 7.
+575,NRF2,1,GENE_PRODUCT,Figure 7.
+576,ROS,1,GENE_PRODUCT,Figure 7.
+578,ROS,1,GENE_PRODUCT,Figure 7.
+579,ROS,1,GENE_PRODUCT,Figure 7.
+580,cardiovascular,1,ANATOMICAL_SITE,Figure 7.
+581,ROS,1,GENE_PRODUCT,Figure 7.
+582,FYN,1,GENE_PRODUCT,Figure 7.
+583,cardiac tissue,1,ANATOMICAL_SITE,Figure 7.
+584,FYN,1,GENE_PRODUCT,Figure 7.
+585,feedback loop,1,PHENOTYPE,Figure 7.
+586,FYN,1,GENE_PRODUCT,Figure 7.
+587,ROS,1,GENE_PRODUCT,Figure 7.
+588,inflammation,1,PHENOTYPE,Figure 7.
+589,cardiac,1,GENE_PRODUCT,Figure 7.
+590,FYN,1,GENE_PRODUCT,Figure 7.
+591,ROS,1,GENE_PRODUCT,Figure 7.
+592,FYN,1,GENE_PRODUCT,Figure 7.
+593,ROS,1,GENE_PRODUCT,Figure 7.
+594,tyrosine kinase,1,EXPERIMENT,Figure 7.
+595,ROS,1,GENE_PRODUCT,Figure 7.
+596,optosis,1,GENE_PRODUCT,Figure 7.
+597,FYN,1,GENE_PRODUCT,Figure 7.
+598,SRC,1,GENE_PRODUCT,Figure 7.
+599,ROS,1,GENE_PRODUCT,Figure 7.
+600,cardiovascular,1,ANATOMICAL_SITE,Figure 7.
+601,cardiac,1,GENE_PRODUCT,Figure 7.
+602,ROS,1,GENE_PRODUCT,Figure 7.
+603,NADPH,1,GENE_PRODUCT,Figure 7.
+604,Oxida,1,GENE_PRODUCT,Figure 7.
+605,FYN,1,GENE_PRODUCT,Figure 7.
+606,ROS,1,GENE_PRODUCT,Figure 7.
+607,YN kinase inhibitors,1,EXPERIMENT,Figure 7.
+608,inhibit,1,GENE_PRODUCT,Figure 7.
+609,nuclear factor erythroid 2-related factor 2 (,1,EXPERIMENT,Figure 7.
+610,ROS,1,GENE_PRODUCT,Figure 7.
+611,damaging,1,GENE_PRODUCT,Figure 7.
+612,changes,1,GENE_PRODUCT,Figure 7.
+613,redox balance,1,EXPERIMENT,Figure 7.
+614,FYN,1,GENE_PRODUCT,Figure 7.
+615,ROS,1,GENE_PRODUCT,Figure 7.
+616,YN activation phosphorylating NRF2,1,EXPERIMENT,Figure 7.
+617,FYN,1,GENE_PRODUCT,Figure 7.
+618,NRF2,1,GENE_PRODUCT,Figure 7.
+619,ROS,1,GENE_PRODUCT,Figure 7.
+621,ROS,1,GENE_PRODUCT,Figure 7.
+622,ROS,1,GENE_PRODUCT,Figure 7.
+623,cardiovascular,1,ANATOMICAL_SITE,Figure 7.
+624,ROS,1,GENE_PRODUCT,Figure 7.
+625,FYN,1,GENE_PRODUCT,Figure 7.
+626,cardiac tissue,1,ANATOMICAL_SITE,Figure 7.
+627,FYN,1,GENE_PRODUCT,Figure 7.
+628,feedback loop,1,PHENOTYPE,Figure 7.
+629,FYN,1,GENE_PRODUCT,Figure 7.
+630,ROS,1,GENE_PRODUCT,Figure 7.
+631,inflammation,1,PHENOTYPE,Figure 7.
+632,cardiac,1,GENE_PRODUCT,Figure 7.
+633,ROS,1,GENE_PRODUCT,Figure 7.
+634,chronic,1,GENE_PRODUCT,Figure 7.
+635,inflammation,1,PHENOTYPE,Figure 7.
+636,cardiac tissue,1,ANATOMICAL_SITE,Figure 7.
+637,ROS,1,GENE_PRODUCT,Figure 7.
+638,inflammation,1,PHENOTYPE,Figure 7.
+639,FYN,1,GENE_PRODUCT,Figure 7.
+640,ROS,1,GENE_PRODUCT,Figure 7.
+641,miR,1,GENE_PRODUCT,Figure 7.
+642,miR,1,GENE_PRODUCT,Figure 7.
+643,cardiovascular,1,ANATOMICAL_SITE,Figure 7.
+644,17 out 30 miRNAs,1,EXPERIMENT,Figure 7.
+648,Three out of 30,1,EXPERIMENT,Figure 7.
+649,miR,1,GENE_PRODUCT,Figure 7.
+650,NAs,1,GENE_PRODUCT,Figure 7.
+651,universal,1,EXPERIMENT,Figure 7.
+652,miR,1,GENE_PRODUCT,Figure 7.
+654,miR,1,GENE_PRODUCT,Figure 7.
+655,FYN,1,GENE_PRODUCT,Figure 7.
+656,ROS,1,GENE_PRODUCT,Figure 7.
+657,GeneLab,1,GENE_PRODUCT,Figure 7.
+658,LEO,1,GENE_PRODUCT,Figure 7.
+659,LEO,1,GENE_PRODUCT,Figure 7.
+660,LEO,1,GENE_PRODUCT,Figure 7.
+661,LEO,1,GENE_PRODUCT,Figure 7.
+662,biological data,1,EXPERIMENT,Figure 7.
+664,experiments,1,EXPERIMENT,Figure 7.
+665,HUVECs,1,GENE_PRODUCT,Figure 7.
+666,gene expression changes,1,EXPERIMENT,Figure 7.
+667,ISS,1,GENE_PRODUCT,Figure 7.
+668,GeneLab,1,GENE_PRODUCT,Figure 7.
+669,GeneLab,1,GENE_PRODUCT,Figure 7.
+670,GeneLab,1,GENE_PRODUCT,Datasets Utilized from the GeneLab Platform
+671,RNA,1,GENE_PRODUCT,Datasets Utilized from the GeneLab Platform
+672,GeneLab,1,GENE_PRODUCT,Datasets Utilized from the GeneLab Platform
+673,ground studies,1,EXPERIMENT,Datasets Utilized from the GeneLab Platform
+674,cardiomyocytes,1,CELL_TYPE,Datasets Utilized from the GeneLab Platform
+675,iron ions,1,EXPERIMENT,Datasets Utilized from the GeneLab Platform
+676,1 GeV/n,1,EXPERIMENT,Datasets Utilized from the GeneLab Platform
+677,transcriptomic,1,EXPERIMENT,Datasets Utilized from the GeneLab Platform
+678,transcript,1,EXPERIMENT,Datasets Utilized from the GeneLab Platform
+679,cardiomyocytes,1,CELL_TYPE,Datasets Utilized from the GeneLab Platform
+681,HUVECs,1,GENE_PRODUCT,Datasets Utilized from the GeneLab Platform
+682,ISS,1,GENE_PRODUCT,Datasets Utilized from the GeneLab Platform
+683,RNAlater,1,GENE_PRODUCT,Datasets Utilized from the GeneLab Platform
+684,ISS,1,GENE_PRODUCT,Datasets Utilized from the GeneLab Platform
+685,RNAlater,1,GENE_PRODUCT,Datasets Utilized from the GeneLab Platform
+686,ground controls,1,EXPERIMENT,Datasets Utilized from the GeneLab Platform
+687,g controls,1,EXPERIMENT,Datasets Utilized from the GeneLab Platform
+688,identical conditions,1,EXPERIMENT,Datasets Utilized from the GeneLab Platform
+689,ISS,1,GENE_PRODUCT,Datasets Utilized from the GeneLab Platform
+690,transcriptomic data,1,EXPERIMENT,Transcriptomic Analysis
+691,batch issues,1,PHENOTYPE,Transcriptomic Analysis
+692,Dataset,1,GENE_PRODUCT,Transcriptomic Analysis
+693,background adjusted,1,EXPERIMENT,Transcriptomic Analysis
+694,RMAE,1,GENE_PRODUCT,Transcriptomic Analysis
+695,collapsed,1,EXPERIMENT,Transcriptomic Analysis
+696,Multi,1,GENE_PRODUCT,Transcriptomic Analysis
+697,statistical,1,EXPERIMENT,Transcriptomic Analysis
+698,significant genes,1,EXPERIMENT,Transcriptomic Analysis
+699,OVA analysis,1,EXPERIMENT,Transcriptomic Analysis
+700,all conditions,1,EXPERIMENT,Transcriptomic Analysis
+701,p-value,1,EXPERIMENT,Transcriptomic Analysis
+702,t-test,1,EXPERIMENT,Transcriptomic Analysis
+704,ANOVA,1,GENE_PRODUCT,Transcriptomic Analysis
+705,Pathway analysis,1,EXPERIMENT,Transcriptomic Analysis
+706,predictions,1,EXPERIMENT,Transcriptomic Analysis
+707,Analysis,1,GENE_PRODUCT,Transcriptomic Analysis
+708,toxic functions,1,EXPERIMENT,Transcriptomic Analysis
+709,Gene set enrichment analysis,1,EXPERIMENT,Transcriptomic Analysis
+710,leading edge analysis,1,EXPERIMENT,Transcriptomic Analysis
+713,heat maps,1,EXPERIMENT,Transcriptomic Analysis
+714,principal component analysis (,1,EXPERIMENT,Transcriptomic Analysis
+715,PCA,1,GENE_PRODUCT,Transcriptomic Analysis
+716,heat maps,1,EXPERIMENT,Transcriptomic Analysis
+717,systems biology method,1,EXPERIMENT,Determination of Key Genes/Drivers
+718,drivers,1,GENE_PRODUCT,Determination of Key Genes/Drivers
+719,IPA,1,GENE_PRODUCT,Determination of Key Genes/Drivers
+722,IPA,1,GENE_PRODUCT,Determination of Key Genes/Drivers
+723,IPA,1,GENE_PRODUCT,Determination of Key Genes/Drivers
+724,plotted,1,GENE_PRODUCT,Determination of Key Genes/Drivers
+725,radial plot,1,EXPERIMENT,Determination of Key Genes/Drivers
+726,Western,1,GENE_PRODUCT,Determination of Key Genes/Drivers
+727,qPCR,1,GENE_PRODUCT,Determination of Key Genes/Drivers
+728,ClueGo,1,GENE_PRODUCT,MicroRNA (miRNA) Predictions
+730,ClueGo,1,GENE_PRODUCT,MicroRNA (miRNA) Predictions
+731,predict,1,GENE_PRODUCT,MicroRNA (miRNA) Predictions
+732,miRNAs,1,GENE_PRODUCT,MicroRNA (miRNA) Predictions
+734,miRNAs,1,GENE_PRODUCT,MicroRNA (miRNA) Predictions
+735,ClueGo,1,GENE_PRODUCT,MicroRNA (miRNA) Predictions
+737,directionality of,1,PHENOTYPE,MicroRNA (miRNA) Predictions
+PUB_PMC6387434,PMC6387434,1,PUBLICATION,

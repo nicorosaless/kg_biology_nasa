@@ -1,0 +1,168 @@
+{
+  "paper_id": "PMC9862956",
+  "section": "Phenotypic Studies with Mutants",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 404,
+      "label": "crawling",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Phenotypic Studies with Mutants",
+        "sentence_id": 154,
+        "char_start": 28182,
+        "char_end": 28190,
+        "anchor": "PMC9862956_28182_28190",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 408,
+      "label": "mutants",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Phenotypic Studies with Mutants",
+        "sentence_id": 154,
+        "char_start": 28433,
+        "char_end": 28440,
+        "anchor": "PMC9862956_28433_28440",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 412,
+      "label": "wildtype",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Phenotypic Studies with Mutants",
+        "sentence_id": 154,
+        "char_start": 28577,
+        "char_end": 28585,
+        "anchor": "PMC9862956_28577_28585",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 413,
+      "label": "mutants",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Phenotypic Studies with Mutants",
+        "sentence_id": 154,
+        "char_start": 28661,
+        "char_end": 28668,
+        "anchor": "PMC9862956_28661_28668",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 414,
+      "label": "CIP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Phenotypic Studies with Mutants",
+        "sentence_id": 154,
+        "char_start": 28117,
+        "char_end": 28120,
+        "anchor": "PMC9862956_28117_28120",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 516,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 404,
+      "target": 408
+    },
+    {
+      "id": 517,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 404,
+      "target": 412
+    },
+    {
+      "id": 518,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 404,
+      "target": 413
+    },
+    {
+      "id": 519,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 404,
+      "target": 414
+    },
+    {
+      "id": 522,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 408,
+      "target": 412
+    },
+    {
+      "id": 523,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 408,
+      "target": 413
+    },
+    {
+      "id": 524,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 408,
+      "target": 414
+    },
+    {
+      "id": 527,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 412,
+      "target": 413
+    },
+    {
+      "id": 528,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 412,
+      "target": 414
+    },
+    {
+      "id": 531,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 413,
+      "target": 414
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 14,
+      "removed_orphans": 5,
+      "largest_component": 5,
+      "removed_components": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 7
+  }
+}

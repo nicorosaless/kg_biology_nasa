@@ -1,0 +1,86 @@
+{
+  "paper_id": "PMC4228280",
+  "section": "Spaceflight and ground control cultures",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 409,
+      "label": "control",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight and ground control cultures",
+        "sentence_id": 118,
+        "char_start": 27939,
+        "char_end": 27946,
+        "anchor": "PMC4228280_27939_27946",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 410,
+      "label": "cultures",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight and ground control cultures",
+        "sentence_id": 118,
+        "char_start": 27947,
+        "char_end": 27955,
+        "anchor": "PMC4228280_27947_27955",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 411,
+      "label": "FPA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight and ground control cultures",
+        "sentence_id": 118,
+        "char_start": 28030,
+        "char_end": 28033,
+        "anchor": "PMC4228280_28030_28033",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 476,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 409,
+      "target": 410
+    },
+    {
+      "id": 477,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 409,
+      "target": 411
+    },
+    {
+      "id": 478,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 410,
+      "target": 411
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 8,
+      "largest_component": 3,
+      "removed_components": [
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 5
+  }
+}

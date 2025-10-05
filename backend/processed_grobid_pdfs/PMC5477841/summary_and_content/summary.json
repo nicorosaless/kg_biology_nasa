@@ -1,0 +1,197 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "This study investigates the impact of microgravity on the bending properties of spinal discs, aiming to understand the increased risk of intervertebral disc herniation in astronauts after spaceflight. The research quantifies the bending properties of tail discs from mice exposed to microgravity during a 30-day space mission, comparing them with control mice. The study employs four-point bending tests, histology, and micro-computed tomography (μCT) to analyze spinal segments.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Figure 1.T2-weighted MR images of an astronaut's L4-L5 disc (A) immediately post-flight and (B) 30 days after landing, with a visible disc herniation (white arrow).Image courtesy of Dr.",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.jpeg"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Figure 2.Astronaut disc herniation photographed during surgery showing a tear at the endplate junction (B).The annulus fibrosus (A) has been avulsed from the vertebra and the nucleus pulposus herniated through the space.(C) is a retractor",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.jpeg"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Figure 3.",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.jpeg"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Figure 4.",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.jpeg"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Mechanical Bending Tests",
+      "summary": "Caudal motion segments from flight and control mice were tested using a four-point bending device (Fig. 3). Specimens were preconditioned and then loaded to failure, characterized by a force drop. The toe region, bending strength, and displacement at failure were analyzed from the resulting force-displacement data.",
+      "figures": []
+    },
+    {
+      "heading": "Histological Analysis of Failure Location",
+      "summary": "Failed motion segments from both groups underwent histological processing to determine the location of failure. Samples were stained with tri-chrome Mallory-Heidenhain and Safranin O to analyze tissue structure and proteoglycan content. Growth plate thickness was also quantified. The two failure modes identified were annulus avulsion at the disc-vertebra endplate junction, and separation within the growth plate (Fig. 7).",
+      "figures": []
+    },
+    {
+      "heading": "Micro-Computed Tomography for Bone Analysis",
+      "summary": "Adjacent motion segments were scanned using μCT to quantify bone mineral density and trabecular microarchitecture. Bone volume fraction (BV/TV), bone mineral density (BMD), and trabecular parameters were measured in a trabecular volume of interest (VOI) near the growth plate (Fig. 5). This VOI was selected to analyze changes in trabecular bone density influenced by spaceflight. Parameters were also measured for the entire vertebrae.",
+      "figures": []
+    },
+    {
+      "heading": "Impact of Spaceflight on Bending Properties",
+      "summary": "Spaceflight significantly reduced bending strength by 17% and shortened the toe region by 32% (Fig. 4). Displacement at failure also tended to decrease. Disc height was significantly reduced in flight mice. The maximum load reached during preconditioning was significantly increased in flight mice. The failure modes observed varied between the groups, with controls failing at the disc-vertebra junction, and flight samples failing within the growth plate and epiphyseal bone.",
+      "figures": []
+    },
+    {
+      "heading": "Bone Parameter Changes Post-Spaceflight",
+      "summary": "μCT analysis revealed significant post-flight decreases in bone parameters within the trabecular VOI adjacent to the growth plate (Figs. 8 and 9). Specifically, bone volume fraction, bone mineral density, and trabecular thickness were reduced. Regression analyses showed relationships between bending properties and bone quality, such as increased displacement at failure with higher BV/TV and BMD (Fig. 10). Analysis of entire vertebrae indicated a significant decrease in trabecular thickness (Fig. 11A), and toe region displacement increased with trabecular thickness (Fig. 11B).",
+      "figures": []
+    }
+  ],
+  "conclusion": {
+    "heading": "Conclusion",
+    "summary": "Keywords\nspaceflight; intervertebral disc; four-point bending; herniation; murineMicrogravity exposure during spaceflight negatively impacts the human spine and increases the risk for low back pain and injury.Astronauts experience a 4.3-fold increase in intervertebral disc herniation rate following spaceflight 1 (Figs. 1 and 2).Herniation occurs when the annulus fibrosus or cartilage endplate junction is damaged and nucleus pulposus material extrudes through the damaged region.The extruded nucleus material can press on"
+  },
+  "keywords": [
+    "spaceflight",
+    "intervertebral disc",
+    "four-point bending",
+    "herniation",
+    "murine",
+    "bending strength",
+    "bone loss",
+    "microgravity",
+    "spinal segments",
+    "vertebral bone"
+  ],
+  "topics": [
+    "biomechanics",
+    "space medicine",
+    "animal model"
+  ],
+  "_meta": {
+    "paper_id": "sha256:dd0848104f13ca00f1fa1d88ed2a3a3552f09785d5985dad66f678d4f567d48c",
+    "paper_title": "Spaceflight-Induced Bone Loss Alters Failure Mode and Reduces Bending Strength in Murine Spinal Segments",
+    "generated_at": "2025-10-05T10:46:06Z",
+    "word_count": 451,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "spaceflight",
+      "intervertebral disc",
+      "four-point bending",
+      "herniation",
+      "murine",
+      "bending strength",
+      "bone loss",
+      "microgravity",
+      "spinal segments",
+      "vertebral bone"
+    ],
+    "topics": [
+      "biomechanics",
+      "space medicine",
+      "animal model"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 5204,
+      "completion_tokens": 839,
+      "total_tokens": 6043,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.00052,
+      "output_usd": 0.000336,
+      "total_usd": 0.000856
+    },
+    "cost": {
+      "input_usd": 0.00052,
+      "output_usd": 0.000336,
+      "total_usd": 0.000856
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [
+        {
+          "id": "fig_6",
+          "score": -9999,
+          "caption_wc": 39
+        },
+        {
+          "id": "fig_8",
+          "score": -9999,
+          "caption_wc": 51
+        },
+        {
+          "id": "fig_9",
+          "score": -9999,
+          "caption_wc": 24
+        },
+        {
+          "id": "fig_10",
+          "score": -9999,
+          "caption_wc": 67
+        },
+        {
+          "id": "fig_11",
+          "score": -9999,
+          "caption_wc": 53
+        }
+      ],
+      "corrupted_detected": [
+        "fig_3",
+        "fig_7",
+        "fig_5",
+        "fig_4",
+        "fig_6",
+        "fig_8",
+        "fig_9",
+        "fig_10",
+        "fig_11"
+      ],
+      "original_total": 9,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

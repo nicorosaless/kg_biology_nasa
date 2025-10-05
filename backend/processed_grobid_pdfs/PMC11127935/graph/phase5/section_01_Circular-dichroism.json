@@ -1,0 +1,117 @@
+{
+  "paper_id": "PMC11127935",
+  "section": "Circular dichroism",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 739,
+      "label": "Proteins",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Circular dichroism",
+        "sentence_id": 144,
+        "char_start": 33756,
+        "char_end": 33764,
+        "anchor": "PMC11127935_33756_33764",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 740,
+      "label": "dialysis",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Circular dichroism",
+        "sentence_id": 144,
+        "char_start": 33800,
+        "char_end": 33808,
+        "anchor": "PMC11127935_33800_33808",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 741,
+      "label": "NaH",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Circular dichroism",
+        "sentence_id": 144,
+        "char_start": 33820,
+        "char_end": 33823,
+        "anchor": "PMC11127935_33820_33823",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 743,
+      "label": "Jasco",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Circular dichroism",
+        "sentence_id": 144,
+        "char_start": 33978,
+        "char_end": 33983,
+        "anchor": "PMC11127935_33978_33983",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1920,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 739,
+      "target": 740
+    },
+    {
+      "id": 1921,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 739,
+      "target": 741
+    },
+    {
+      "id": 1922,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 739,
+      "target": 743
+    },
+    {
+      "id": 1923,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 740,
+      "target": 741
+    },
+    {
+      "id": 1924,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 740,
+      "target": 743
+    },
+    {
+      "id": 1925,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 741,
+      "target": 743
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 6,
+      "largest_component": 4,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 8
+  }
+}

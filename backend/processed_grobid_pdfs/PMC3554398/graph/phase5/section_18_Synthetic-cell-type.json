@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMC3554398",
+  "section": "Synthetic CELL_TYPE",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 47,
+      "label": "total cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 12,
+        "char_start": 4075,
+        "char_end": 4086,
+        "anchor": "PMC3554398_4075_4086",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 644,
+      "label": "viable cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "PhyloChip analysis",
+        "sentence_id": 110,
+        "char_start": 29234,
+        "char_end": 29246,
+        "anchor": "PMC3554398_29234_29246",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-47-644",
+      "type": "ASSOCIATED",
+      "source": 47,
+      "target": 644
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "CELL_TYPE",
+    "page": null
+  }
+}

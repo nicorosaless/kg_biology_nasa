@@ -1,0 +1,118 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "a) Local Fluctuations in CO 2 Levels",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 3240,
+      "label": "MCA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Local Fluctuations in CO 2 Levels",
+        "sentence_id": 1061,
+        "char_start": 174350,
+        "char_end": 174353,
+        "anchor": "PMC4385880_174350_174353",
+        "page": 81,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3234,
+      "label": "Local",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Local Fluctuations in CO 2 Levels",
+        "sentence_id": 1061,
+        "char_start": 174261,
+        "char_end": 174266,
+        "anchor": "PMC4385880_174261_174266",
+        "page": 81,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3235,
+      "label": "ppCO",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Local Fluctuations in CO 2 Levels",
+        "sentence_id": 1061,
+        "char_start": 174334,
+        "char_end": 174338,
+        "anchor": "PMC4385880_174334_174338",
+        "page": 81,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3236,
+      "label": "MCA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "a) Local Fluctuations in CO 2 Levels",
+        "sentence_id": 1061,
+        "char_start": 174350,
+        "char_end": 174353,
+        "anchor": "PMC4385880_174350_174353",
+        "page": 81,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 3113,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3234,
+      "target": 3235
+    },
+    {
+      "id": 3114,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3234,
+      "target": 3236
+    },
+    {
+      "id": 3115,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3234,
+      "target": 3240
+    },
+    {
+      "id": 3116,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3235,
+      "target": 3236
+    },
+    {
+      "id": 3117,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3235,
+      "target": 3240
+    },
+    {
+      "id": 3118,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3236,
+      "target": 3240
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 12,
+      "largest_component": 4,
+      "removed_components": [
+        3,
+        2
+      ]
+    },
+    "page": 81
+  }
+}

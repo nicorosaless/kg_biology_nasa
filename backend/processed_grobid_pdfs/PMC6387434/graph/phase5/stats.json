@@ -1,0 +1,28 @@
+{
+  "entity_types": {
+    "GENE_PRODUCT": 411,
+    "EXPERIMENT": 217,
+    "CELL_TYPE": 23,
+    "PHENOTYPE": 19,
+    "ANATOMICAL_SITE": 15,
+    "PATHWAY": 2,
+    "PUBLICATION": 1
+  },
+  "relation_types": {
+    "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE": 46,
+    "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE": 6,
+    "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT": 538,
+    "PUBLICATION_EVIDENCES_ENTITY": 687
+  },
+  "n_entities": 688,
+  "n_relations": 1277,
+  "relations_with_trigger_pct": 0.31,
+  "n_components": 1,
+  "largest_component_size": 688,
+  "component_size_distribution": [
+    688
+  ],
+  "avg_degree": 3.7122093023255816,
+  "median_degree": 2.0,
+  "isolated_nodes": 0
+}

@@ -1,0 +1,442 @@
+{
+  "paper_id": "PMC5477841",
+  "section": "Micro-Computed Tomography",
+  "n_nodes": 10,
+  "n_edges": 45,
+  "nodes": [
+    {
+      "id": 225,
+      "label": "Space",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography",
+        "sentence_id": 71,
+        "char_start": 13949,
+        "char_end": 13954,
+        "anchor": "PMC5477841_13949_13954",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 227,
+      "label": "spacing",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography",
+        "sentence_id": 71,
+        "char_start": 14036,
+        "char_end": 14043,
+        "anchor": "PMC5477841_14036_14043",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 232,
+      "label": "failure",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography",
+        "sentence_id": 71,
+        "char_start": 14196,
+        "char_end": 14203,
+        "anchor": "PMC5477841_14196_14203",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 245,
+      "label": "VOI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography",
+        "sentence_id": 71,
+        "char_start": 13683,
+        "char_end": 13686,
+        "anchor": "PMC5477841_13683_13686",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 246,
+      "label": "BMD",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography",
+        "sentence_id": 71,
+        "char_start": 13856,
+        "char_end": 13859,
+        "anchor": "PMC5477841_13856_13859",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 248,
+      "label": "BMD",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography",
+        "sentence_id": 71,
+        "char_start": 14257,
+        "char_end": 14260,
+        "anchor": "PMC5477841_14257_14260",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 249,
+      "label": "BMD",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography",
+        "sentence_id": 71,
+        "char_start": 14429,
+        "char_end": 14432,
+        "anchor": "PMC5477841_14429_14432",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 250,
+      "label": "BMD",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography",
+        "sentence_id": 71,
+        "char_start": 14542,
+        "char_end": 14545,
+        "anchor": "PMC5477841_14542_14545",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 219,
+      "label": "VOI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography",
+        "sentence_id": 71,
+        "char_start": 13683,
+        "char_end": 13686,
+        "anchor": "PMC5477841_13683_13686",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 223,
+      "label": "Space",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Micro-Computed Tomography",
+        "sentence_id": 71,
+        "char_start": 13804,
+        "char_end": 13809,
+        "anchor": "PMC5477841_13804_13809",
+        "page": 10,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 109,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 219,
+      "target": 223
+    },
+    {
+      "id": 110,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 219,
+      "target": 225
+    },
+    {
+      "id": 111,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 219,
+      "target": 227
+    },
+    {
+      "id": 112,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 219,
+      "target": 232
+    },
+    {
+      "id": 113,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 219,
+      "target": 245
+    },
+    {
+      "id": 114,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 219,
+      "target": 246
+    },
+    {
+      "id": 116,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 219,
+      "target": 248
+    },
+    {
+      "id": 117,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 219,
+      "target": 249
+    },
+    {
+      "id": 118,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 219,
+      "target": 250
+    },
+    {
+      "id": 119,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 223,
+      "target": 225
+    },
+    {
+      "id": 120,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 223,
+      "target": 227
+    },
+    {
+      "id": 121,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 223,
+      "target": 232
+    },
+    {
+      "id": 122,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 223,
+      "target": 245
+    },
+    {
+      "id": 123,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 223,
+      "target": 246
+    },
+    {
+      "id": 125,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 223,
+      "target": 248
+    },
+    {
+      "id": 126,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 223,
+      "target": 249
+    },
+    {
+      "id": 127,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 223,
+      "target": 250
+    },
+    {
+      "id": 128,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 225,
+      "target": 227
+    },
+    {
+      "id": 129,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 225,
+      "target": 232
+    },
+    {
+      "id": 130,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 225,
+      "target": 245
+    },
+    {
+      "id": 131,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 225,
+      "target": 246
+    },
+    {
+      "id": 133,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 225,
+      "target": 248
+    },
+    {
+      "id": 134,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 225,
+      "target": 249
+    },
+    {
+      "id": 135,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 225,
+      "target": 250
+    },
+    {
+      "id": 136,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 227,
+      "target": 232
+    },
+    {
+      "id": 137,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 227,
+      "target": 245
+    },
+    {
+      "id": 138,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 227,
+      "target": 246
+    },
+    {
+      "id": 140,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 227,
+      "target": 248
+    },
+    {
+      "id": 141,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 227,
+      "target": 249
+    },
+    {
+      "id": 142,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 227,
+      "target": 250
+    },
+    {
+      "id": 143,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 232,
+      "target": 245
+    },
+    {
+      "id": 144,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 232,
+      "target": 246
+    },
+    {
+      "id": 146,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 232,
+      "target": 248
+    },
+    {
+      "id": 147,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 232,
+      "target": 249
+    },
+    {
+      "id": 148,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 232,
+      "target": 250
+    },
+    {
+      "id": 149,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 245,
+      "target": 246
+    },
+    {
+      "id": 151,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 245,
+      "target": 248
+    },
+    {
+      "id": 152,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 245,
+      "target": 249
+    },
+    {
+      "id": 153,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 245,
+      "target": 250
+    },
+    {
+      "id": 155,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 246,
+      "target": 248
+    },
+    {
+      "id": 156,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 246,
+      "target": 249
+    },
+    {
+      "id": 157,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 246,
+      "target": 250
+    },
+    {
+      "id": 161,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 248,
+      "target": 249
+    },
+    {
+      "id": 162,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 248,
+      "target": 250
+    },
+    {
+      "id": 163,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 249,
+      "target": 250
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 26,
+      "largest_component": 10,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 10
+  }
+}

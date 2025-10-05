@@ -1,0 +1,249 @@
+{
+  "paper_id": "PMC5666744",
+  "section": "Histology",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 704,
+      "label": "4mp",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Histology",
+        "sentence_id": 181,
+        "char_start": 44684,
+        "char_end": 44687,
+        "anchor": "PMC5666744_44684_44687",
+        "page": 16,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 705,
+      "label": "Tokyo",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Histology",
+        "sentence_id": 181,
+        "char_start": 44725,
+        "char_end": 44730,
+        "anchor": "PMC5666744_44725_44730",
+        "page": 16,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 706,
+      "label": "Japan",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Histology",
+        "sentence_id": 181,
+        "char_start": 44732,
+        "char_end": 44737,
+        "anchor": "PMC5666744_44732_44737",
+        "page": 16,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 708,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Histology",
+        "sentence_id": 181,
+        "char_start": 44884,
+        "char_end": 44887,
+        "anchor": "PMC5666744_44884_44887",
+        "page": 16,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 701,
+      "label": "Olympus",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Histology",
+        "sentence_id": 181,
+        "char_start": 44644,
+        "char_end": 44651,
+        "anchor": "PMC5666744_44644_44651",
+        "page": 16,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 702,
+      "label": "Adobe",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Histology",
+        "sentence_id": 181,
+        "char_start": 44849,
+        "char_end": 44854,
+        "anchor": "PMC5666744_44849_44854",
+        "page": 16,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 703,
+      "label": "Olympus",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Histology",
+        "sentence_id": 181,
+        "char_start": 44644,
+        "char_end": 44651,
+        "anchor": "PMC5666744_44644_44651",
+        "page": 16,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 714,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 701,
+      "target": 702
+    },
+    {
+      "id": 715,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 701,
+      "target": 703
+    },
+    {
+      "id": 716,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 701,
+      "target": 704
+    },
+    {
+      "id": 717,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 701,
+      "target": 705
+    },
+    {
+      "id": 718,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 701,
+      "target": 706
+    },
+    {
+      "id": 720,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 701,
+      "target": 708
+    },
+    {
+      "id": 721,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 702,
+      "target": 703
+    },
+    {
+      "id": 722,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 702,
+      "target": 704
+    },
+    {
+      "id": 723,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 702,
+      "target": 705
+    },
+    {
+      "id": 724,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 702,
+      "target": 706
+    },
+    {
+      "id": 726,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 702,
+      "target": 708
+    },
+    {
+      "id": 727,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 703,
+      "target": 704
+    },
+    {
+      "id": 728,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 703,
+      "target": 705
+    },
+    {
+      "id": 729,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 703,
+      "target": 706
+    },
+    {
+      "id": 731,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 703,
+      "target": 708
+    },
+    {
+      "id": 732,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 704,
+      "target": 705
+    },
+    {
+      "id": 733,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 704,
+      "target": 706
+    },
+    {
+      "id": 735,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 704,
+      "target": 708
+    },
+    {
+      "id": 736,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 705,
+      "target": 706
+    },
+    {
+      "id": 738,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 705,
+      "target": 708
+    },
+    {
+      "id": 740,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 706,
+      "target": 708
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 2,
+      "largest_component": 7
+    },
+    "page": 16
+  }
+}

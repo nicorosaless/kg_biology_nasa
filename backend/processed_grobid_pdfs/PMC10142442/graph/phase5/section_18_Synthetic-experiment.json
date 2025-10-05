@@ -1,0 +1,2110 @@
+{
+  "paper_id": "PMC10142442",
+  "section": "Synthetic EXPERIMENT",
+  "n_nodes": 100,
+  "n_edges": 99,
+  "nodes": [
+    {
+      "id": 1,
+      "label": "cell surface proteoglycans",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 0,
+        "char_start": 60,
+        "char_end": 86,
+        "anchor": "PMC10142442_60_86",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2,
+      "label": "paran sulfate",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 0,
+        "char_start": 100,
+        "char_end": 113,
+        "anchor": "PMC10142442_100_113",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3,
+      "label": "aminoglycan chains",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 0,
+        "char_start": 125,
+        "char_end": 143,
+        "anchor": "PMC10142442_125_143",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 4,
+      "label": "interactions",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 1,
+        "char_start": 240,
+        "char_end": 252,
+        "anchor": "PMC10142442_240_252",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 9,
+      "label": "molecular weight (",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 2,
+        "char_start": 511,
+        "char_end": 529,
+        "anchor": "PMC10142442_511_529",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 10,
+      "label": "LMW) fraction",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 2,
+        "char_start": 529,
+        "char_end": 542,
+        "anchor": "PMC10142442_529_542",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 11,
+      "label": "virus yield",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 2,
+        "char_start": 552,
+        "char_end": 563,
+        "anchor": "PMC10142442_552_563",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 14,
+      "label": "phore oct",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 3,
+        "char_start": 736,
+        "char_end": 745,
+        "anchor": "PMC10142442_736_745",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 17,
+      "label": "high MW",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 5,
+        "char_start": 1225,
+        "char_end": 1232,
+        "anchor": "PMC10142442_1225_1232",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 21,
+      "label": "Betaherpesvirus",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 7,
+        "char_start": 1457,
+        "char_end": 1472,
+        "anchor": "PMC10142442_1457_1472",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 32,
+      "label": "UL97 (kinase) mutations",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 12,
+        "char_start": 2606,
+        "char_end": 2629,
+        "anchor": "PMC10142442_2606_2629",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 34,
+      "label": "paran sulfate",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 14,
+        "char_start": 2823,
+        "char_end": 2836,
+        "anchor": "PMC10142442_2823_2836",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 40,
+      "label": "lycoprotein",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 16,
+        "char_start": 3366,
+        "char_end": 3377,
+        "anchor": "PMC10142442_3366_3377",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 42,
+      "label": "derived growth factor receptor",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 16,
+        "char_start": 3467,
+        "char_end": 3497,
+        "anchor": "PMC10142442_3467_3497",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 43,
+      "label": "cellular integrin",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 16,
+        "char_start": 3505,
+        "char_end": 3522,
+        "anchor": "PMC10142442_3505_3522",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 44,
+      "label": "uropilin-2",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 16,
+        "char_start": 3527,
+        "char_end": 3537,
+        "anchor": "PMC10142442_3527_3537",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 45,
+      "label": "idermal growth factor",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 16,
+        "char_start": 3545,
+        "char_end": 3566,
+        "anchor": "PMC10142442_3545_3566",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 53,
+      "label": "ndroitin sulfate",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 21,
+        "char_start": 4541,
+        "char_end": 4557,
+        "anchor": "PMC10142442_4541_4557",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 59,
+      "label": "oligosaccharide fraction",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 22,
+        "char_start": 4879,
+        "char_end": 4903,
+        "anchor": "PMC10142442_4879_4903",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 63,
+      "label": "antiviral",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 24,
+        "char_start": 5072,
+        "char_end": 5081,
+        "anchor": "PMC10142442_5072_5081",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 67,
+      "label": "paran sulfate",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 26,
+        "char_start": 5273,
+        "char_end": 5286,
+        "anchor": "PMC10142442_5273_5286",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 71,
+      "label": "cell surface",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 27,
+        "char_start": 5471,
+        "char_end": 5483,
+        "anchor": "PMC10142442_5471_5483",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 73,
+      "label": "viral g",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 27,
+        "char_start": 5808,
+        "char_end": 5815,
+        "anchor": "PMC10142442_5808_5815",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 74,
+      "label": "platelet-derived growth factor receptor",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 27,
+        "char_start": 5907,
+        "char_end": 5946,
+        "anchor": "PMC10142442_5907_5946",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 75,
+      "label": "cellular integrin",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 27,
+        "char_start": 5954,
+        "char_end": 5971,
+        "anchor": "PMC10142442_5954_5971",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 76,
+      "label": "uropilin-2",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 27,
+        "char_start": 5976,
+        "char_end": 5986,
+        "anchor": "PMC10142442_5976_5986",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 77,
+      "label": "idermal growth factor receptor",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 27,
+        "char_start": 5994,
+        "char_end": 6024,
+        "anchor": "PMC10142442_5994_6024",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 87,
+      "label": "ndroitin sulfate",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 32,
+        "char_start": 6989,
+        "char_end": 7005,
+        "anchor": "PMC10142442_6989_7005",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 93,
+      "label": "oligosaccharide fraction",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 33,
+        "char_start": 7327,
+        "char_end": 7351,
+        "anchor": "PMC10142442_7327_7351",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 97,
+      "label": "antiviral",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 35,
+        "char_start": 7520,
+        "char_end": 7529,
+        "anchor": "PMC10142442_7520_7529",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 108,
+      "label": "polysaccharide fraction",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS",
+        "sentence_id": 37,
+        "char_start": 8285,
+        "char_end": 8308,
+        "anchor": "PMC10142442_8285_8308",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 110,
+      "label": "purification",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS",
+        "sentence_id": 38,
+        "char_start": 8515,
+        "char_end": 8527,
+        "anchor": "PMC10142442_8515_8527",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 114,
+      "label": "dry weight measurements",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "METHODS",
+        "sentence_id": 40,
+        "char_start": 8743,
+        "char_end": 8766,
+        "anchor": "PMC10142442_8743_8766",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 116,
+      "label": "GalNAc bonds",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS Depolymerization:",
+        "sentence_id": 41,
+        "char_start": 8924,
+        "char_end": 8936,
+        "anchor": "PMC10142442_8924_8936",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 118,
+      "label": "sodium acetate",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS Depolymerization:",
+        "sentence_id": 41,
+        "char_start": 9192,
+        "char_end": 9206,
+        "anchor": "PMC10142442_9192_9206",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 119,
+      "label": "copper (",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS Depolymerization:",
+        "sentence_id": 41,
+        "char_start": 9267,
+        "char_end": 9275,
+        "anchor": "PMC10142442_9267_9275",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 127,
+      "label": "200 mM H 2 O 2",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS Depolymerization:",
+        "sentence_id": 42,
+        "char_start": 9461,
+        "char_end": 9475,
+        "anchor": "PMC10142442_9461_9475",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 130,
+      "label": "copper ions",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS Depolymerization:",
+        "sentence_id": 43,
+        "char_start": 9524,
+        "char_end": 9535,
+        "anchor": "PMC10142442_9524_9535",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 134,
+      "label": "suspension",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS Depolymerization:",
+        "sentence_id": 44,
+        "char_start": 9794,
+        "char_end": 9804,
+        "anchor": "PMC10142442_9794_9804",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 142,
+      "label": "retention",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Fractionation of PpFucCS oligosaccharides:",
+        "sentence_id": 46,
+        "char_start": 10440,
+        "char_end": 10449,
+        "anchor": "PMC10142442_10440_10449",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 143,
+      "label": "Bio-Gel P-10",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Fractionation of PpFucCS oligosaccharides:",
+        "sentence_id": 46,
+        "char_start": 10463,
+        "char_end": 10475,
+        "anchor": "PMC10142442_10463_10475",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 148,
+      "label": "oligosaccharide",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Distribution of PpFucCS oligosaccharides:",
+        "sentence_id": 49,
+        "char_start": 10660,
+        "char_end": 10675,
+        "anchor": "PMC10142442_10660_10675",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 151,
+      "label": "structural integrity",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS oligosaccharides structural integrity determination:",
+        "sentence_id": 50,
+        "char_start": 10737,
+        "char_end": 10757,
+        "anchor": "PMC10142442_10737_10757",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 152,
+      "label": "oligosaccharides",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS oligosaccharides structural integrity determination:",
+        "sentence_id": 50,
+        "char_start": 10773,
+        "char_end": 10789,
+        "anchor": "PMC10142442_10773_10789",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 155,
+      "label": "fibroblasts",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS oligosaccharides structural integrity determination:",
+        "sentence_id": 51,
+        "char_start": 10930,
+        "char_end": 10941,
+        "anchor": "PMC10142442_10930_10941",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 157,
+      "label": "s medium",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS oligosaccharides structural integrity determination:",
+        "sentence_id": 51,
+        "char_start": 10991,
+        "char_end": 10999,
+        "anchor": "PMC10142442_10991_10999",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 158,
+      "label": "100 U/mL",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS oligosaccharides structural integrity determination:",
+        "sentence_id": 51,
+        "char_start": 11189,
+        "char_end": 11197,
+        "anchor": "PMC10142442_11189_11197",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 159,
+      "label": "CO 2",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS oligosaccharides structural integrity determination:",
+        "sentence_id": 51,
+        "char_start": 11298,
+        "char_end": 11302,
+        "anchor": "PMC10142442_11298_11302",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 178,
+      "label": "green fluorescent protein",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS oligosaccharides structural integrity determination:",
+        "sentence_id": 53,
+        "char_start": 11353,
+        "char_end": 11378,
+        "anchor": "PMC10142442_11353_11378",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 201,
+      "label": "GraphPad Prism",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Virus infections:",
+        "sentence_id": 60,
+        "char_start": 12942,
+        "char_end": 12956,
+        "anchor": "PMC10142442_12942_12956",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 211,
+      "label": "sonicated",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Virus infections:",
+        "sentence_id": 65,
+        "char_start": 13735,
+        "char_end": 13744,
+        "anchor": "PMC10142442_13735_13744",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 214,
+      "label": "tissue culture",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Virus infections:",
+        "sentence_id": 66,
+        "char_start": 13836,
+        "char_end": 13850,
+        "anchor": "PMC10142442_13836_13850",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 217,
+      "label": "gamma immunoglobulin",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Virus infections:",
+        "sentence_id": 66,
+        "char_start": 14105,
+        "char_end": 14125,
+        "anchor": "PMC10142442_14105_14125",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 225,
+      "label": "sa stain",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Virus infections:",
+        "sentence_id": 68,
+        "char_start": 14465,
+        "char_end": 14473,
+        "anchor": "PMC10142442_14465_14473",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 249,
+      "label": "tissue culture",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Microscopy:",
+        "sentence_id": 74,
+        "char_start": 15728,
+        "char_end": 15742,
+        "anchor": "PMC10142442_15728_15742",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 275,
+      "label": "microscope",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Microscopy:",
+        "sentence_id": 77,
+        "char_start": 16674,
+        "char_end": 16684,
+        "anchor": "PMC10142442_16674_16684",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 280,
+      "label": "tissue culture plates",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell viability:",
+        "sentence_id": 78,
+        "char_start": 16761,
+        "char_end": 16782,
+        "anchor": "PMC10142442_16761_16782",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 281,
+      "label": "confluency",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell viability:",
+        "sentence_id": 78,
+        "char_start": 16796,
+        "char_end": 16806,
+        "anchor": "PMC10142442_16796_16806",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 285,
+      "label": "pan blue",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell viability:",
+        "sentence_id": 80,
+        "char_start": 17106,
+        "char_end": 17114,
+        "anchor": "PMC10142442_17106_17114",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 294,
+      "label": "tissue culture plate",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell viability:",
+        "sentence_id": 82,
+        "char_start": 17507,
+        "char_end": 17527,
+        "anchor": "PMC10142442_17507_17527",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 303,
+      "label": "experiments",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell viability:",
+        "sentence_id": 84,
+        "char_start": 17902,
+        "char_end": 17913,
+        "anchor": "PMC10142442_17902_17913",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 305,
+      "label": "standard error",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell viability:",
+        "sentence_id": 85,
+        "char_start": 18119,
+        "char_end": 18133,
+        "anchor": "PMC10142442_18119_18133",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 308,
+      "label": "p-value",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell viability:",
+        "sentence_id": 86,
+        "char_start": 18174,
+        "char_end": 18181,
+        "anchor": "PMC10142442_18174_18181",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 309,
+      "label": "less than 0.05",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell viability:",
+        "sentence_id": 86,
+        "char_start": 18185,
+        "char_end": 18199,
+        "anchor": "PMC10142442_18185_18199",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 311,
+      "label": "GraphPad Prism",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell viability:",
+        "sentence_id": 88,
+        "char_start": 18344,
+        "char_end": 18358,
+        "anchor": "PMC10142442_18344_18358",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 313,
+      "label": "significant",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell viability:",
+        "sentence_id": 88,
+        "char_start": 18444,
+        "char_end": 18455,
+        "anchor": "PMC10142442_18444_18455",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 324,
+      "label": "igosaccharide mixture",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of HCMV by PpFucCS and Its Fractions",
+        "sentence_id": 90,
+        "char_start": 19128,
+        "char_end": 19149,
+        "anchor": "PMC10142442_19128_19149",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 326,
+      "label": "least half maximal",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of HCMV by PpFucCS and Its Fractions",
+        "sentence_id": 90,
+        "char_start": 19310,
+        "char_end": 19328,
+        "anchor": "PMC10142442_19310_19328",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 329,
+      "label": "four fucos",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of HCMV by PpFucCS and Its Fractions",
+        "sentence_id": 90,
+        "char_start": 19716,
+        "char_end": 19726,
+        "anchor": "PMC10142442_19716_19726",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 330,
+      "label": "e units",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of HCMV by PpFucCS and Its Fractions",
+        "sentence_id": 90,
+        "char_start": 19726,
+        "char_end": 19733,
+        "anchor": "PMC10142442_19726_19733",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 331,
+      "label": "-Fu",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of HCMV by PpFucCS and Its Fractions",
+        "sentence_id": 90,
+        "char_start": 19819,
+        "char_end": 19822,
+        "anchor": "PMC10142442_19819_19822",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 332,
+      "label": "α-Fu",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of HCMV by PpFucCS and Its Fractions",
+        "sentence_id": 90,
+        "char_start": 19831,
+        "char_end": 19835,
+        "anchor": "PMC10142442_19831_19835",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 341,
+      "label": "Fenton chemistry",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of HCMV by PpFucCS and Its Fractions",
+        "sentence_id": 93,
+        "char_start": 20043,
+        "char_end": 20059,
+        "anchor": "PMC10142442_20043_20059",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 342,
+      "label": "preserved",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of HCMV by PpFucCS and Its Fractions",
+        "sentence_id": 93,
+        "char_start": 20075,
+        "char_end": 20084,
+        "anchor": "PMC10142442_20075_20084",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 343,
+      "label": "structural",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of HCMV by PpFucCS and Its Fractions",
+        "sentence_id": 93,
+        "char_start": 20085,
+        "char_end": 20095,
+        "anchor": "PMC10142442_20085_20095",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 344,
+      "label": "very low",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of HCMV by PpFucCS and Its Fractions",
+        "sentence_id": 93,
+        "char_start": 20223,
+        "char_end": 20231,
+        "anchor": "PMC10142442_20223_20231",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 347,
+      "label": "geny virion formation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of HCMV by PpFucCS and Its Fractions",
+        "sentence_id": 94,
+        "char_start": 20560,
+        "char_end": 20581,
+        "anchor": "PMC10142442_20560_20581",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 348,
+      "label": "IC 50",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of HCMV by PpFucCS and Its Fractions",
+        "sentence_id": 94,
+        "char_start": 20660,
+        "char_end": 20665,
+        "anchor": "PMC10142442_20660_20665",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 357,
+      "label": "anti-HCMV",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of HCMV by PpFucCS and Its Fractions",
+        "sentence_id": 96,
+        "char_start": 21142,
+        "char_end": 21151,
+        "anchor": "PMC10142442_21142_21151",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 358,
+      "label": "geny virion formation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of HCMV by PpFucCS and Its Fractions",
+        "sentence_id": 97,
+        "char_start": 21295,
+        "char_end": 21316,
+        "anchor": "PMC10142442_21295_21316",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 360,
+      "label": "ion assay",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Inhibition of HCMV by PpFucCS and Its Fractions",
+        "sentence_id": 97,
+        "char_start": 21525,
+        "char_end": 21534,
+        "anchor": "PMC10142442_21525_21534",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 367,
+      "label": "R18 dye",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS Specifically Inhibits HCMV Entry into Cells",
+        "sentence_id": 99,
+        "char_start": 21974,
+        "char_end": 21981,
+        "anchor": "PMC10142442_21974_21981",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 374,
+      "label": "orescence",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS Specifically Inhibits HCMV Entry into Cells",
+        "sentence_id": 100,
+        "char_start": 22169,
+        "char_end": 22178,
+        "anchor": "PMC10142442_22169_22178",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 378,
+      "label": "higher number",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS Specifically Inhibits HCMV Entry into Cells",
+        "sentence_id": 101,
+        "char_start": 22448,
+        "char_end": 22461,
+        "anchor": "PMC10142442_22448_22461",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 384,
+      "label": "R18 dye",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS Specifically Inhibits HCMV Entry into Cells",
+        "sentence_id": 102,
+        "char_start": 22905,
+        "char_end": 22912,
+        "anchor": "PMC10142442_22905_22912",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 391,
+      "label": "orescence",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS Specifically Inhibits HCMV Entry into Cells",
+        "sentence_id": 103,
+        "char_start": 23100,
+        "char_end": 23109,
+        "anchor": "PMC10142442_23100_23109",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 394,
+      "label": "higher number",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "PpFucCS Specifically Inhibits HCMV Entry into Cells",
+        "sentence_id": 104,
+        "char_start": 23378,
+        "char_end": 23391,
+        "anchor": "PMC10142442_23378_23391",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 400,
+      "label": "totoxicity",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Effect of PpFucCS and Its Oligosaccharides Treatment on Cell Viability",
+        "sentence_id": 106,
+        "char_start": 23601,
+        "char_end": 23611,
+        "anchor": "PMC10142442_23601_23611",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 408,
+      "label": "totoxicity",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Effect of PpFucCS and Its Oligosaccharides Treatment on Cell Viability",
+        "sentence_id": 109,
+        "char_start": 24129,
+        "char_end": 24139,
+        "anchor": "PMC10142442_24129_24139",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 443,
+      "label": "amino sugar",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 119,
+        "char_start": 26713,
+        "char_end": 26724,
+        "anchor": "PMC10142442_26713_26724",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 456,
+      "label": "LWW fraction",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 127,
+        "char_start": 28569,
+        "char_end": 28581,
+        "anchor": "PMC10142442_28569_28581",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 461,
+      "label": "PpFucCS fractions",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 133,
+        "char_start": 29318,
+        "char_end": 29335,
+        "anchor": "PMC10142442_29318_29335",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 463,
+      "label": "same structure",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 133,
+        "char_start": 29437,
+        "char_end": 29451,
+        "anchor": "PMC10142442_29437_29451",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 467,
+      "label": "SARS-CoV-2",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 135,
+        "char_start": 29627,
+        "char_end": 29637,
+        "anchor": "PMC10142442_29627_29637",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 472,
+      "label": "chain length",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 136,
+        "char_start": 29770,
+        "char_end": 29782,
+        "anchor": "PMC10142442_29770_29782",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 477,
+      "label": "anti-SARS-CoV-2",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 137,
+        "char_start": 30172,
+        "char_end": 30187,
+        "anchor": "PMC10142442_30172_30187",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 483,
+      "label": "large MW",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 141,
+        "char_start": 30664,
+        "char_end": 30672,
+        "anchor": "PMC10142442_30664_30672",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 485,
+      "label": "inhibitor",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 142,
+        "char_start": 30755,
+        "char_end": 30764,
+        "anchor": "PMC10142442_30755_30764",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 486,
+      "label": "potential",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 142,
+        "char_start": 30766,
+        "char_end": 30775,
+        "anchor": "PMC10142442_30766_30775",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 487,
+      "label": "MW structures",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 142,
+        "char_start": 30784,
+        "char_end": 30797,
+        "anchor": "PMC10142442_30784_30797",
+        "page": 10,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-1-2",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "id": "synth-1-3",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "id": "synth-1-4",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "id": "synth-1-9",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "id": "synth-1-10",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 10
+    },
+    {
+      "id": "synth-1-11",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 11
+    },
+    {
+      "id": "synth-1-14",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 14
+    },
+    {
+      "id": "synth-1-17",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 17
+    },
+    {
+      "id": "synth-1-21",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 21
+    },
+    {
+      "id": "synth-1-32",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 32
+    },
+    {
+      "id": "synth-1-34",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 34
+    },
+    {
+      "id": "synth-1-40",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 40
+    },
+    {
+      "id": "synth-1-42",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 42
+    },
+    {
+      "id": "synth-1-43",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 43
+    },
+    {
+      "id": "synth-1-44",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 44
+    },
+    {
+      "id": "synth-1-45",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 45
+    },
+    {
+      "id": "synth-1-53",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 53
+    },
+    {
+      "id": "synth-1-59",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 59
+    },
+    {
+      "id": "synth-1-63",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 63
+    },
+    {
+      "id": "synth-1-67",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 67
+    },
+    {
+      "id": "synth-1-71",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 71
+    },
+    {
+      "id": "synth-1-73",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 73
+    },
+    {
+      "id": "synth-1-74",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 74
+    },
+    {
+      "id": "synth-1-75",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 75
+    },
+    {
+      "id": "synth-1-76",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 76
+    },
+    {
+      "id": "synth-1-77",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 77
+    },
+    {
+      "id": "synth-1-87",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 87
+    },
+    {
+      "id": "synth-1-93",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 93
+    },
+    {
+      "id": "synth-1-97",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 97
+    },
+    {
+      "id": "synth-1-108",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 108
+    },
+    {
+      "id": "synth-1-110",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 110
+    },
+    {
+      "id": "synth-1-114",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 114
+    },
+    {
+      "id": "synth-1-116",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 116
+    },
+    {
+      "id": "synth-1-118",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 118
+    },
+    {
+      "id": "synth-1-119",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 119
+    },
+    {
+      "id": "synth-1-127",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 127
+    },
+    {
+      "id": "synth-1-130",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 130
+    },
+    {
+      "id": "synth-1-134",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 134
+    },
+    {
+      "id": "synth-1-142",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 142
+    },
+    {
+      "id": "synth-1-143",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 143
+    },
+    {
+      "id": "synth-1-148",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 148
+    },
+    {
+      "id": "synth-1-151",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 151
+    },
+    {
+      "id": "synth-1-152",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 152
+    },
+    {
+      "id": "synth-1-155",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 155
+    },
+    {
+      "id": "synth-1-157",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 157
+    },
+    {
+      "id": "synth-1-158",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 158
+    },
+    {
+      "id": "synth-1-159",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 159
+    },
+    {
+      "id": "synth-1-178",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 178
+    },
+    {
+      "id": "synth-1-201",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 201
+    },
+    {
+      "id": "synth-1-211",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 211
+    },
+    {
+      "id": "synth-1-214",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 214
+    },
+    {
+      "id": "synth-1-217",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 217
+    },
+    {
+      "id": "synth-1-225",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 225
+    },
+    {
+      "id": "synth-1-249",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 249
+    },
+    {
+      "id": "synth-1-275",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 275
+    },
+    {
+      "id": "synth-1-280",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 280
+    },
+    {
+      "id": "synth-1-281",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 281
+    },
+    {
+      "id": "synth-1-285",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 285
+    },
+    {
+      "id": "synth-1-294",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 294
+    },
+    {
+      "id": "synth-1-303",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 303
+    },
+    {
+      "id": "synth-1-305",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 305
+    },
+    {
+      "id": "synth-1-308",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 308
+    },
+    {
+      "id": "synth-1-309",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 309
+    },
+    {
+      "id": "synth-1-311",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 311
+    },
+    {
+      "id": "synth-1-313",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 313
+    },
+    {
+      "id": "synth-1-324",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 324
+    },
+    {
+      "id": "synth-1-326",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 326
+    },
+    {
+      "id": "synth-1-329",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 329
+    },
+    {
+      "id": "synth-1-330",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 330
+    },
+    {
+      "id": "synth-1-331",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 331
+    },
+    {
+      "id": "synth-1-332",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 332
+    },
+    {
+      "id": "synth-1-341",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 341
+    },
+    {
+      "id": "synth-1-342",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 342
+    },
+    {
+      "id": "synth-1-343",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 343
+    },
+    {
+      "id": "synth-1-344",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 344
+    },
+    {
+      "id": "synth-1-347",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 347
+    },
+    {
+      "id": "synth-1-348",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 348
+    },
+    {
+      "id": "synth-1-357",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 357
+    },
+    {
+      "id": "synth-1-358",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 358
+    },
+    {
+      "id": "synth-1-360",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 360
+    },
+    {
+      "id": "synth-1-367",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 367
+    },
+    {
+      "id": "synth-1-374",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 374
+    },
+    {
+      "id": "synth-1-378",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 378
+    },
+    {
+      "id": "synth-1-384",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 384
+    },
+    {
+      "id": "synth-1-391",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 391
+    },
+    {
+      "id": "synth-1-394",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 394
+    },
+    {
+      "id": "synth-1-400",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 400
+    },
+    {
+      "id": "synth-1-408",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 408
+    },
+    {
+      "id": "synth-1-443",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 443
+    },
+    {
+      "id": "synth-1-456",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 456
+    },
+    {
+      "id": "synth-1-461",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 461
+    },
+    {
+      "id": "synth-1-463",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 463
+    },
+    {
+      "id": "synth-1-467",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 467
+    },
+    {
+      "id": "synth-1-472",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 472
+    },
+    {
+      "id": "synth-1-477",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 477
+    },
+    {
+      "id": "synth-1-483",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 483
+    },
+    {
+      "id": "synth-1-485",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 485
+    },
+    {
+      "id": "synth-1-486",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 486
+    },
+    {
+      "id": "synth-1-487",
+      "type": "ASSOCIATED",
+      "source": 1,
+      "target": 487
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "EXPERIMENT",
+    "page": null
+  }
+}

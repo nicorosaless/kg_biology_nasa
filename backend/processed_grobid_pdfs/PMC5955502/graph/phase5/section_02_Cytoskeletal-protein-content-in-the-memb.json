@@ -1,0 +1,81 @@
+{
+  "paper_id": "PMC5955502",
+  "section": "Cytoskeletal protein content in the membrane and cytoplasmic fractions",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 256,
+      "label": "similar",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytoskeletal protein content in the membrane and cytoplasmic fractions",
+        "sentence_id": 74,
+        "char_start": 15555,
+        "char_end": 15562,
+        "anchor": "PMC5955502_15555_15562",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 268,
+      "label": "similar",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytoskeletal protein content in the membrane and cytoplasmic fractions",
+        "sentence_id": 74,
+        "char_start": 16181,
+        "char_end": 16188,
+        "anchor": "PMC5955502_16181_16188",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 269,
+      "label": "fraction",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cytoskeletal protein content in the membrane and cytoplasmic fractions",
+        "sentence_id": 74,
+        "char_start": 16288,
+        "char_end": 16296,
+        "anchor": "PMC5955502_16288_16296",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 262,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 256,
+      "target": 268
+    },
+    {
+      "id": 263,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 256,
+      "target": 269
+    },
+    {
+      "id": 270,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 268,
+      "target": 269
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 18,
+      "largest_component": 3
+    },
+    "page": 8
+  }
+}

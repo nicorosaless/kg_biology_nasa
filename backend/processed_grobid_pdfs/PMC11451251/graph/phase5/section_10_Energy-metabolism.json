@@ -1,0 +1,202 @@
+{
+  "paper_id": "PMC11451251",
+  "section": "Energy metabolism",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 238,
+      "label": "lactose",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Energy metabolism",
+        "sentence_id": 83,
+        "char_start": 17151,
+        "char_end": 17158,
+        "anchor": "PMC11451251_17151_17158",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 240,
+      "label": "glucose",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Energy metabolism",
+        "sentence_id": 83,
+        "char_start": 17171,
+        "char_end": 17178,
+        "anchor": "PMC11451251_17171_17178",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 242,
+      "label": "fructose",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Energy metabolism",
+        "sentence_id": 83,
+        "char_start": 17191,
+        "char_end": 17199,
+        "anchor": "PMC11451251_17191_17199",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 246,
+      "label": "alcohols",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Energy metabolism",
+        "sentence_id": 83,
+        "char_start": 17358,
+        "char_end": 17366,
+        "anchor": "PMC11451251_17358_17366",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 247,
+      "label": "lithium",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Energy metabolism",
+        "sentence_id": 83,
+        "char_start": 17736,
+        "char_end": 17743,
+        "anchor": "PMC11451251_17736_17743",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 250,
+      "label": "gelatin",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Energy metabolism",
+        "sentence_id": 83,
+        "char_start": 17562,
+        "char_end": 17569,
+        "anchor": "PMC11451251_17562_17569",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 175,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 238,
+      "target": 240
+    },
+    {
+      "id": 176,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 238,
+      "target": 242
+    },
+    {
+      "id": 177,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 238,
+      "target": 246
+    },
+    {
+      "id": 178,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 238,
+      "target": 247
+    },
+    {
+      "id": 181,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 238,
+      "target": 250
+    },
+    {
+      "id": 182,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 240,
+      "target": 242
+    },
+    {
+      "id": 183,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 240,
+      "target": 246
+    },
+    {
+      "id": 184,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 240,
+      "target": 247
+    },
+    {
+      "id": 187,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 240,
+      "target": 250
+    },
+    {
+      "id": 188,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 242,
+      "target": 246
+    },
+    {
+      "id": 189,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 242,
+      "target": 247
+    },
+    {
+      "id": 192,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 242,
+      "target": 250
+    },
+    {
+      "id": 193,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 246,
+      "target": 247
+    },
+    {
+      "id": 196,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 246,
+      "target": 250
+    },
+    {
+      "id": 199,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 247,
+      "target": 250
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 14,
+      "largest_component": 6,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 6
+  }
+}

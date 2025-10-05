@@ -1,0 +1,157 @@
+{
+  "paper_id": "PMC5666799",
+  "section": "Animals",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 729,
+      "label": "Male",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Animals",
+        "sentence_id": 203,
+        "char_start": 42753,
+        "char_end": 42757,
+        "anchor": "PMC5666799_42753_42757",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 730,
+      "label": "libitum",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Animals",
+        "sentence_id": 203,
+        "char_start": 42941,
+        "char_end": 42948,
+        "anchor": "PMC5666799_42941_42948",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 731,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Animals",
+        "sentence_id": 203,
+        "char_start": 42811,
+        "char_end": 42814,
+        "anchor": "PMC5666799_42811_42814",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 732,
+      "label": "Purina",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Animals",
+        "sentence_id": 203,
+        "char_start": 42900,
+        "char_end": 42906,
+        "anchor": "PMC5666799_42900_42906",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 734,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Animals",
+        "sentence_id": 203,
+        "char_start": 42923,
+        "char_end": 42926,
+        "anchor": "PMC5666799_42923_42926",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1143,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 729,
+      "target": 730
+    },
+    {
+      "id": 1144,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 729,
+      "target": 731
+    },
+    {
+      "id": 1145,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 729,
+      "target": 732
+    },
+    {
+      "id": 1147,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 729,
+      "target": 734
+    },
+    {
+      "id": 1148,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 730,
+      "target": 731
+    },
+    {
+      "id": 1149,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 730,
+      "target": 732
+    },
+    {
+      "id": 1151,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 730,
+      "target": 734
+    },
+    {
+      "id": 1152,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 731,
+      "target": 732
+    },
+    {
+      "id": 1154,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 731,
+      "target": 734
+    },
+    {
+      "id": 1156,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 732,
+      "target": 734
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 1,
+      "largest_component": 5,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 7
+  }
+}

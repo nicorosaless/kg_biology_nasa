@@ -43,14 +43,14 @@ Thumbs.db
 
 ############# 4. Generated pipeline outputs ######
 # Summary & KG processing outputs (recreables)
-processed_grobid_pdfs/
+# processed_grobid_pdfs/  # (unignored to allow versioning of parsed PDFs)
 neo4j_export/
 output/
 graph.json
 graph_*.json
 big_graph_example.json
 graph_PMC*.json
-backend/SB_publications/pdfs/
+# backend/SB_publications/pdfs/  # (unignored to allow versioning of source PDFs)
 
 ############# 5. Model / cache dirs ##############
 # HuggingFace / transformers / tokenizers

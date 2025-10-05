@@ -1,0 +1,73 @@
+{
+  "paper_id": "PMC9784906",
+  "section": "Synthetic REAGENT",
+  "n_nodes": 3,
+  "n_edges": 2,
+  "nodes": [
+    {
+      "id": 221,
+      "label": "Qiagen",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitative Real-Time PCR (qRT-PCR)",
+        "sentence_id": 56,
+        "char_start": 10245,
+        "char_end": 10251,
+        "anchor": "PMC9784906_10245_10251",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 225,
+      "label": "Qiagen",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitative Real-Time PCR (qRT-PCR)",
+        "sentence_id": 56,
+        "char_start": 10334,
+        "char_end": 10340,
+        "anchor": "PMC9784906_10334_10340",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 227,
+      "label": "NanoDrop",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitative Real-Time PCR (qRT-PCR)",
+        "sentence_id": 57,
+        "char_start": 10416,
+        "char_end": 10424,
+        "anchor": "PMC9784906_10416_10424",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-221-225",
+      "type": "ASSOCIATED",
+      "source": 221,
+      "target": 225
+    },
+    {
+      "id": "synth-221-227",
+      "type": "ASSOCIATED",
+      "source": 221,
+      "target": 227
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "REAGENT",
+    "page": null
+  }
+}

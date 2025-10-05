@@ -1,0 +1,119 @@
+{
+  "paper_id": "PMC11833055",
+  "section": "Analysis of the diversity of gut microbiota in feces",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 256,
+      "label": "ASV",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Analysis of the diversity of gut microbiota in feces",
+        "sentence_id": 144,
+        "char_start": 20127,
+        "char_end": 20130,
+        "anchor": "PMC11833055_20127_20130",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 258,
+      "label": "ASV",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Analysis of the diversity of gut microbiota in feces",
+        "sentence_id": 144,
+        "char_start": 20127,
+        "char_end": 20130,
+        "anchor": "PMC11833055_20127_20130",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 259,
+      "label": "QIIME2",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Analysis of the diversity of gut microbiota in feces",
+        "sentence_id": 144,
+        "char_start": 20154,
+        "char_end": 20160,
+        "anchor": "PMC11833055_20154_20160",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 260,
+      "label": "Silva",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Analysis of the diversity of gut microbiota in feces",
+        "sentence_id": 144,
+        "char_start": 20226,
+        "char_end": 20231,
+        "anchor": "PMC11833055_20226_20231",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 194,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 256,
+      "target": 258
+    },
+    {
+      "id": 195,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 256,
+      "target": 259
+    },
+    {
+      "id": 196,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 256,
+      "target": 260
+    },
+    {
+      "id": 197,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 258,
+      "target": 259
+    },
+    {
+      "id": 198,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 258,
+      "target": 260
+    },
+    {
+      "id": 199,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 259,
+      "target": 260
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 13,
+      "largest_component": 4,
+      "removed_components": [
+        4,
+        4,
+        3
+      ]
+    },
+    "page": 4
+  }
+}

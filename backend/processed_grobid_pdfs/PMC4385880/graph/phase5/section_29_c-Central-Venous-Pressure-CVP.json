@@ -1,0 +1,166 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "c) Central Venous Pressure (CVP)",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 2272,
+      "label": "CVP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "c) Central Venous Pressure (CVP)",
+        "sentence_id": 708,
+        "char_start": 118443,
+        "char_end": 118446,
+        "anchor": "PMC4385880_118443_118446",
+        "page": 55,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2263,
+      "label": "Mean",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "c) Central Venous Pressure (CVP)",
+        "sentence_id": 708,
+        "char_start": 118130,
+        "char_end": 118134,
+        "anchor": "PMC4385880_118130_118134",
+        "page": 55,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2267,
+      "label": "cardiac",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "c) Central Venous Pressure (CVP)",
+        "sentence_id": 708,
+        "char_start": 118387,
+        "char_end": 118394,
+        "anchor": "PMC4385880_118387_118394",
+        "page": 55,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2268,
+      "label": "filling",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "c) Central Venous Pressure (CVP)",
+        "sentence_id": 708,
+        "char_start": 118477,
+        "char_end": 118484,
+        "anchor": "PMC4385880_118477_118484",
+        "page": 55,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2269,
+      "label": "elevated",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "c) Central Venous Pressure (CVP)",
+        "sentence_id": 708,
+        "char_start": 118498,
+        "char_end": 118506,
+        "anchor": "PMC4385880_118498_118506",
+        "page": 55,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 2377,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2263,
+      "target": 2267
+    },
+    {
+      "id": 2378,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2263,
+      "target": 2268
+    },
+    {
+      "id": 2379,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2263,
+      "target": 2269
+    },
+    {
+      "id": 2380,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2263,
+      "target": 2272
+    },
+    {
+      "id": 2381,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2267,
+      "target": 2268
+    },
+    {
+      "id": 2382,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2267,
+      "target": 2269
+    },
+    {
+      "id": 2383,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2267,
+      "target": 2272
+    },
+    {
+      "id": 2384,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2268,
+      "target": 2269
+    },
+    {
+      "id": 2385,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2268,
+      "target": 2272
+    },
+    {
+      "id": 2386,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2269,
+      "target": 2272
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 12,
+      "removed_orphans": 6,
+      "largest_component": 5,
+      "removed_components": [
+        4,
+        4,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 55
+  }
+}

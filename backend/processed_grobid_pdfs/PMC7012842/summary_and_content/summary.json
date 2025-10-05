@@ -1,0 +1,193 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "The paper introduces Japan's first in-space mouse habitat unit (MHU), developed by Mitsubishi Heavy Industries (MHI) for use on the International Space Station's (ISS) \"KIBO\" Japanese Experiment Module (JEM). The unit facilitated a mouse-rearing experiment from July to August 2016, resulting in the successful return of all mice alive, a first for long-term space stays. The MHU addresses limitations of previous habitat units, such as accommodating individual mice and mitigating contamination.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Figure 1 Mouse-rearing experiment overview",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.jpeg"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Figure 3 Rearing unit The habitat unit installed in the microgravity compartment (Upper right) and artificial gravity compartment (Lower right) of CBEF",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.png"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Figure 4 Exterior and structure of a mouse habitat cage unit",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.jpeg"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Figure 5 Exterior of the interface unit",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.jpeg"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Operational Overview of Mouse-Rearing Experiment",
+      "summary": "The mouse-rearing mission utilizes the MHU, comprising a habitat unit, transportation cage unit, and glove box. Mice are transferred to the habitat unit within the glove box after arriving at the ISS. The habitat unit is then installed inside the Cell Biology Experiment Facility (CBEF). The glove box is utilized for tasks such as transferring mice and cleaning cages.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Mouse Habitat Unit (MHU)",
+      "summary": "The MHU consists of mouse habitat cage units and an interface unit. Each cage unit houses one mouse and is designed to be compact and lightweight due to space limitations inside the CBEF. Verification tests, approved by the JAXA animal care committee and supervised by a veterinarian, were conducted to validate the design.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Mouse Habitat Cage Units",
+      "summary": "Each cage unit is designed for a single mouse, prioritizing compactness and lightweight construction due to installation constraints. Ventilation is crucial in microgravity, achieved with redundant fans promoting unidirectional airflow from ceiling to waste collection. A deodorizing filter removes gases like ammonia. Habitat dimensions are optimized for resource constraints.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Interface Unit",
+      "summary": "The interface unit controls the MHU, providing power, processing sensor signals, managing the camera, switching LED lighting, and handling commands and telemetry. It houses CO2 and NH3 sensors to monitor air quality within the CBEF's microgravity and artificial gravity compartments.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Transportation Cage Unit",
+      "summary": "The transportation cage unit supports the mice during launch and return, accommodating 12 mice in individual cages. It is designed for use with the ISS Locker or Cargo Transfer Bag (CTB) and features compact airflow channels and redundant ventilation fans. A control system adjusts fan speed to meet noise and wind speed requirements. The deodorizing filter has the same composition as in the habitat cage units.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Glove Box",
+      "summary": "The glove box facilitates the transfer of mice and waste collection. It features a soft bag work area and ventilation fans. The soft bag design enables easy setup and replacement of the bag only. The glove material is chew-resistant and available in various sizes. Key components were launched on \"KOUNOTORI 5\" (HTV-5).",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Outcomes of the First Mouse-Rearing Experiment",
+      "summary": "The first Mouse Epigenetics experiment ran from July to August 2016, focusing on long-term mouse-rearing, gene expression changes, and epigenomic shifts in different gravity environments, as well as transgenerational effects. The MHU's technical demonstration was also a goal. Mice were launched via SpaceX Dragon (CRS-9). The in-orbit experiment lasted 35 days, with regular maintenance. All 12 mice returned alive, marking a successful long-term space stay. Astronauts conducted the operation with ethics committee approval.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": "MHI successfully developed and deployed Japan's first space-based mouse habitat unit, facilitating comparative experiments in microgravity and artificial gravity, and ensuring the safe return of all mice. Future in-orbit mouse-rearing experiments are planned, building upon lessons from the initial mission.",
+  "keywords": [
+    "mouse habitat unit",
+    "space experiment",
+    "microgravity",
+    "international space station",
+    "mouse-rearing",
+    "habitat unit",
+    "jaxa",
+    "in-orbit experiment",
+    "cbef",
+    "life support system"
+  ],
+  "topics": [
+    "space biology",
+    "animal research",
+    "habitat design"
+  ],
+  "_meta": {
+    "paper_id": "sha256:b13055becedb52061c1185e9ba54acc126b81fd45f20522ba9e8323bafa204d6",
+    "paper_title": "Development of Mouse Habitat Unit for Use in \"KIBO\" Japanese Experiment Module on International Space Station",
+    "generated_at": "2025-10-05T10:49:46Z",
+    "word_count": 463,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "mouse habitat unit",
+      "space experiment",
+      "microgravity",
+      "international space station",
+      "mouse-rearing",
+      "habitat unit",
+      "jaxa",
+      "in-orbit experiment",
+      "cbef",
+      "life support system"
+    ],
+    "topics": [
+      "space biology",
+      "animal research",
+      "habitat design"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 3740,
+      "completion_tokens": 1005,
+      "total_tokens": 4745,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000374,
+      "output_usd": 0.000402,
+      "total_usd": 0.000776
+    },
+    "cost": {
+      "input_usd": 0.000374,
+      "output_usd": 0.000402,
+      "total_usd": 0.000776
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [
+        {
+          "id": "fig_5",
+          "score": -9999,
+          "caption_wc": 10
+        },
+        {
+          "id": "fig_6",
+          "score": -9999,
+          "caption_wc": 356
+        }
+      ],
+      "corrupted_detected": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4",
+        "fig_5",
+        "fig_6"
+      ],
+      "original_total": 6,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

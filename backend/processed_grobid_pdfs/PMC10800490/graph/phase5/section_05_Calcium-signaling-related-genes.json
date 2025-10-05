@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC10800490",
+  "section": "Calcium signaling related genes",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 506,
+      "label": "calcium",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Calcium signaling related genes",
+        "sentence_id": 139,
+        "char_start": 29063,
+        "char_end": 29070,
+        "anchor": "PMC10800490_29063_29070",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 507,
+      "label": "calcium",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Calcium signaling related genes",
+        "sentence_id": 139,
+        "char_start": 29140,
+        "char_end": 29147,
+        "anchor": "PMC10800490_29140_29147",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1192,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 506,
+      "target": 507
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 4,
+      "largest_component": 2
+    },
+    "page": 8
+  }
+}

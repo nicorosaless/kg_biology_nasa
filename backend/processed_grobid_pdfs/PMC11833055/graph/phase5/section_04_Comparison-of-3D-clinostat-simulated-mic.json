@@ -1,0 +1,114 @@
+{
+  "paper_id": "PMC11833055",
+  "section": "Comparison of 3D clinostat simulated microgravity effect model with classical hindlimb unloading model and spaceflight mice.",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 528,
+      "label": "Gm4675",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of 3D clinostat simulated microgravity effect model with classical hindlimb unloading model and spaceflight mice.",
+        "sentence_id": 209,
+        "char_start": 32139,
+        "char_end": 32145,
+        "anchor": "PMC11833055_32139_32145",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 529,
+      "label": "Nusap1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of 3D clinostat simulated microgravity effect model with classical hindlimb unloading model and spaceflight mice.",
+        "sentence_id": 209,
+        "char_start": 32151,
+        "char_end": 32157,
+        "anchor": "PMC11833055_32151_32157",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 526,
+      "label": "Adam",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of 3D clinostat simulated microgravity effect model with classical hindlimb unloading model and spaceflight mice.",
+        "sentence_id": 209,
+        "char_start": 32097,
+        "char_end": 32101,
+        "anchor": "PMC11833055_32097_32101",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 527,
+      "label": "Ser",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of 3D clinostat simulated microgravity effect model with classical hindlimb unloading model and spaceflight mice.",
+        "sentence_id": 209,
+        "char_start": 32225,
+        "char_end": 32228,
+        "anchor": "PMC11833055_32225_32228",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 582,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 526,
+      "target": 527
+    },
+    {
+      "id": 583,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 526,
+      "target": 528
+    },
+    {
+      "id": 584,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 526,
+      "target": 529
+    },
+    {
+      "id": 589,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 527,
+      "target": 528
+    },
+    {
+      "id": 590,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 527,
+      "target": 529
+    },
+    {
+      "id": 595,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 528,
+      "target": 529
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 13,
+      "largest_component": 4
+    },
+    "page": 6
+  }
+}

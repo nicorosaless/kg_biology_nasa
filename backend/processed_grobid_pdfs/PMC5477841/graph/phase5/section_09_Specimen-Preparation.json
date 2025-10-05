@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC5477841",
+  "section": "Specimen Preparation",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 99,
+      "label": "hydrated",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Specimen Preparation",
+        "sentence_id": 35,
+        "char_start": 6086,
+        "char_end": 6094,
+        "anchor": "PMC5477841_6086_6094",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 100,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Specimen Preparation",
+        "sentence_id": 35,
+        "char_start": 6127,
+        "char_end": 6130,
+        "anchor": "PMC5477841_6127_6130",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 51,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 99,
+      "target": 100
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 6,
+      "largest_component": 2
+    },
+    "page": 5
+  }
+}

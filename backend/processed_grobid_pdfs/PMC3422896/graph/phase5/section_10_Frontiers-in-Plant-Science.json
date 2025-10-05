@@ -1,0 +1,117 @@
+{
+  "paper_id": "PMC3422896",
+  "section": "Frontiers in Plant Science",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 269,
+      "label": "TAP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Frontiers in Plant Science",
+        "sentence_id": 70,
+        "char_start": 18170,
+        "char_end": 18173,
+        "anchor": "PMC3422896_18170_18173",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 260,
+      "label": "Arab",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Frontiers in Plant Science",
+        "sentence_id": 70,
+        "char_start": 17769,
+        "char_end": 17773,
+        "anchor": "PMC3422896_17769_17773",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 268,
+      "label": "Arab",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Frontiers in Plant Science",
+        "sentence_id": 70,
+        "char_start": 18151,
+        "char_end": 18155,
+        "anchor": "PMC3422896_18151_18155",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 270,
+      "label": "cell suspension cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Frontiers in Plant Science",
+        "sentence_id": 70,
+        "char_start": 18202,
+        "char_end": 18223,
+        "anchor": "PMC3422896_18202_18223",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 433,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 260,
+      "target": 268
+    },
+    {
+      "id": 434,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 260,
+      "target": 269
+    },
+    {
+      "id": 435,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 260,
+      "target": 270
+    },
+    {
+      "id": 436,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 268,
+      "target": 269
+    },
+    {
+      "id": 437,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 268,
+      "target": 270
+    },
+    {
+      "id": 438,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 269,
+      "target": 270
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 26,
+      "largest_component": 4,
+      "removed_components": [
+        3
+      ]
+    },
+    "page": 4
+  }
+}

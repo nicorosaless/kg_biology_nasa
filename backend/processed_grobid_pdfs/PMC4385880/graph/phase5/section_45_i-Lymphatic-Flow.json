@@ -1,0 +1,84 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "i) Lymphatic Flow",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 2667,
+      "label": "mesenter",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "i) Lymphatic Flow",
+        "sentence_id": 863,
+        "char_start": 144922,
+        "char_end": 144930,
+        "anchor": "PMC4385880_144922_144930",
+        "page": 68,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2668,
+      "label": "femoral",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "i) Lymphatic Flow",
+        "sentence_id": 863,
+        "char_start": 144938,
+        "char_end": 144945,
+        "anchor": "PMC4385880_144938_144945",
+        "page": 68,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2669,
+      "label": "vessels",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "i) Lymphatic Flow",
+        "sentence_id": 863,
+        "char_start": 144956,
+        "char_end": 144963,
+        "anchor": "PMC4385880_144956_144963",
+        "page": 68,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 2560,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2667,
+      "target": 2668
+    },
+    {
+      "id": 2561,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2667,
+      "target": 2669
+    },
+    {
+      "id": 2562,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2668,
+      "target": 2669
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 19,
+      "largest_component": 3,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 68
+  }
+}

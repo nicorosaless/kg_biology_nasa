@@ -1,0 +1,262 @@
+{
+  "paper_id": "PMC8213760",
+  "section": "Synthetic PHENOTYPE",
+  "n_nodes": 12,
+  "n_edges": 11,
+  "nodes": [
+    {
+      "id": 7,
+      "label": "shivering",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 1,
+        "char_start": 367,
+        "char_end": 376,
+        "anchor": "PMC8213760_367_376",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 8,
+      "label": "rmogenesis",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 1,
+        "char_start": 380,
+        "char_end": 390,
+        "anchor": "PMC8213760_380_390",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 19,
+      "label": "shivering",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Mice are facultative daily heterotherms",
+        "sentence_id": 2,
+        "char_start": 883,
+        "char_end": 892,
+        "anchor": "PMC8213760_883_892",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 20,
+      "label": "shivering",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Mice are facultative daily heterotherms",
+        "sentence_id": 2,
+        "char_start": 901,
+        "char_end": 910,
+        "anchor": "PMC8213760_901_910",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 25,
+      "label": "oneutral zone",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Mice are facultative daily heterotherms",
+        "sentence_id": 3,
+        "char_start": 1092,
+        "char_end": 1105,
+        "anchor": "PMC8213760_1092_1105",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 29,
+      "label": "responses",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Mice are facultative daily heterotherms",
+        "sentence_id": 3,
+        "char_start": 1223,
+        "char_end": 1232,
+        "anchor": "PMC8213760_1223_1232",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 30,
+      "label": "shivering",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Mice are facultative daily heterotherms",
+        "sentence_id": 3,
+        "char_start": 1301,
+        "char_end": 1310,
+        "anchor": "PMC8213760_1301_1310",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 38,
+      "label": "heat loss",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Mice are facultative daily heterotherms",
+        "sentence_id": 5,
+        "char_start": 1868,
+        "char_end": 1877,
+        "anchor": "PMC8213760_1868_1877",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 49,
+      "label": "shivering",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Mice are facultative daily heterotherms",
+        "sentence_id": 6,
+        "char_start": 2484,
+        "char_end": 2493,
+        "anchor": "PMC8213760_2484_2493",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 50,
+      "label": "rmogenesis",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Mice are facultative daily heterotherms",
+        "sentence_id": 6,
+        "char_start": 2497,
+        "char_end": 2507,
+        "anchor": "PMC8213760_2497_2507",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 57,
+      "label": "shivering",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Mice are facultative daily heterotherms",
+        "sentence_id": 8,
+        "char_start": 2893,
+        "char_end": 2902,
+        "anchor": "PMC8213760_2893_2902",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 58,
+      "label": "thermogenesis",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Mice are facultative daily heterotherms",
+        "sentence_id": 8,
+        "char_start": 2903,
+        "char_end": 2916,
+        "anchor": "PMC8213760_2903_2916",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-7-8",
+      "type": "ASSOCIATED",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "id": "synth-7-19",
+      "type": "ASSOCIATED",
+      "source": 7,
+      "target": 19
+    },
+    {
+      "id": "synth-7-20",
+      "type": "ASSOCIATED",
+      "source": 7,
+      "target": 20
+    },
+    {
+      "id": "synth-7-25",
+      "type": "ASSOCIATED",
+      "source": 7,
+      "target": 25
+    },
+    {
+      "id": "synth-7-29",
+      "type": "ASSOCIATED",
+      "source": 7,
+      "target": 29
+    },
+    {
+      "id": "synth-7-30",
+      "type": "ASSOCIATED",
+      "source": 7,
+      "target": 30
+    },
+    {
+      "id": "synth-7-38",
+      "type": "ASSOCIATED",
+      "source": 7,
+      "target": 38
+    },
+    {
+      "id": "synth-7-49",
+      "type": "ASSOCIATED",
+      "source": 7,
+      "target": 49
+    },
+    {
+      "id": "synth-7-50",
+      "type": "ASSOCIATED",
+      "source": 7,
+      "target": 50
+    },
+    {
+      "id": "synth-7-57",
+      "type": "ASSOCIATED",
+      "source": 7,
+      "target": 57
+    },
+    {
+      "id": "synth-7-58",
+      "type": "ASSOCIATED",
+      "source": 7,
+      "target": 58
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "PHENOTYPE",
+    "page": null
+  }
+}

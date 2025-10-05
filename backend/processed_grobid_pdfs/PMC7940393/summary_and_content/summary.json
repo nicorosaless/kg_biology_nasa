@@ -1,0 +1,171 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "The paper investigates the impact of modeled microgravity on the symbiotic bacterium Vibrio fischeri, focusing on its lipopolysaccharide (LPS) shedding and outer-membrane vesicle (OMV) production. Microgravity conditions during spaceflight are known to disrupt the normal physiology of animal hosts, including alterations to the intestinal microbiome. Understanding how mutualistic microbes adapt to stressful conditions, such as those encountered during spaceflight, is crucial for microbiome research. This study uses high-aspect ratio vessels (HARVs) to simulate microgravity and examine its effects on V. fischeri, a bacterium that forms symbiotic relationships with animal epithelia.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Fig.",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.jpeg"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Fig.",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.png"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Fig.",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.png"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Fig.",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.png"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "LPS Shedding Under LSMMG",
+      "summary": "Wild-type V. fischeri ES114 cultures were grown in HARV reactors under low-shear modeled microgravity (LSMMG) and gravity conditions. Growth curves showed increased growth rate during the exponential phase under LSMMG compared to gravity controls. The amount of exogenous LPS shed by the bacteria was measured using the LAL endotoxin assay and the Purpald assay. During exponential growth, V. fischeri released significantly more LPS under LSMMG conditions than gravity controls, even after normalization by optical density (Fig. 2a).",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "OMV Production and LSMMG",
+      "summary": "The study examined OMV production under modeled microgravity, as most of the LPS released from V. fischeri is associated with OMVs. Cultures of wild-type, motB1, and flhA strains (motility mutants) were grown under LSMMG or gravity conditions, and cell-free filtrates were analyzed using nanoparticle tracking analysis. LSMMG filtrates contained significantly more OMV particles per mL than gravity controls (Fig. 4a). OMVs derived from LSMMG cultures were also found to be significantly larger than those from gravity controls (Fig. 4b).",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Effects of Polymyxin B and SDS",
+      "summary": "The effects of LSMMG on V. fischeri cell wall integrity were examined by conducting growth curves in the presence of polymyxin B and SDS, cell-membrane-disrupting agents. Samples were exposed to polymyxin B or SDS, and optical density was measured. V. fischeri cells cultivated under modeled microgravity were more susceptible to cell-membrane-disrupting agents.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Membrane Integrity Evaluation",
+      "summary": "To further assess the symbiont cell membrane integrity under LSMMG conditions, cultures were grown and then incubated in Triton X-100, a non-ionic detergent. The percentage of cell lysis was calculated. These results indicate that modeled microgravity also appears to affect the outermembrane integrity of V. fischeri, as cells incubated under modeled microgravity conditions are more susceptible to membrane disruption.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Motility Mutants and LPS Shedding",
+      "summary": "The study also investigated the role of flagellar motility in LPS shedding under LSMMG conditions using motB1 and flhA mutants, which are defective in flagella production and rotation. The motB1 and flhA mutants generated diminished vesicular yields relative to wild-type cells (Fig. 4a). Despite the loss of motility, LPS levels were still higher under modeled microgravity compared to gravity controls (Fig. 3).",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": {
+    "heading": "Conclusion",
+    "summary": "fischeri from the environment and facilitate the onset of the association. Two microbe-associated molecular pattern signals (MAMPs) that have been identified as the primary mediators of the V."
+  },
+  "keywords": [
+    "vibrio fischeri",
+    "microgravity",
+    "lipopolysaccharide",
+    "outer membrane vesicles",
+    "symbiosis",
+    "flagellar motility",
+    "cell membrane integrity",
+    "spaceflight",
+    "lps shedding",
+    "bacterial physiology"
+  ],
+  "topics": [
+    "microbiology",
+    "space biology",
+    "symbiosis"
+  ],
+  "_meta": {
+    "paper_id": "sha256:152b5932d0152b1432cf48d820dfa94c0874cd64757ad23e1896cd1361809fb0",
+    "paper_title": "Modeled microgravity alters lipopolysaccharide and outer membrane vesicle production of the beneficial symbiont Vibrio fischeri",
+    "generated_at": "2025-10-05T10:50:08Z",
+    "word_count": 447,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "vibrio fischeri",
+      "microgravity",
+      "lipopolysaccharide",
+      "outer membrane vesicles",
+      "symbiosis",
+      "flagellar motility",
+      "cell membrane integrity",
+      "spaceflight",
+      "lps shedding",
+      "bacterial physiology"
+    ],
+    "topics": [
+      "microbiology",
+      "space biology",
+      "symbiosis"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 5869,
+      "completion_tokens": 941,
+      "total_tokens": 6810,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000587,
+      "output_usd": 0.000376,
+      "total_usd": 0.000963
+    },
+    "cost": {
+      "input_usd": 0.000587,
+      "output_usd": 0.000376,
+      "total_usd": 0.000963
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [],
+      "corrupted_detected": [
+        "fig_2",
+        "fig_4",
+        "fig_7",
+        "fig_3"
+      ],
+      "original_total": 4,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "paper_id": "PMC10628120",
+  "section": "Leifsonia williamsii sp. nov.",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 704,
+      "label": "circular",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Leifsonia williamsii sp. nov.",
+        "sentence_id": 172,
+        "char_start": 34970,
+        "char_end": 34978,
+        "anchor": "PMC10628120_34970_34978",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 705,
+      "label": "TSA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Leifsonia williamsii sp. nov.",
+        "sentence_id": 172,
+        "char_start": 35033,
+        "char_end": 35036,
+        "anchor": "PMC10628120_35033_35036",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 706,
+      "label": "Cells",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Leifsonia williamsii sp. nov.",
+        "sentence_id": 172,
+        "char_start": 35064,
+        "char_end": 35069,
+        "anchor": "PMC10628120_35064_35069",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 707,
+      "label": "aerobic",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Leifsonia williamsii sp. nov.",
+        "sentence_id": 172,
+        "char_start": 35074,
+        "char_end": 35081,
+        "anchor": "PMC10628120_35074_35081",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 708,
+      "label": "TSA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Leifsonia williamsii sp. nov.",
+        "sentence_id": 172,
+        "char_start": 35033,
+        "char_end": 35036,
+        "anchor": "PMC10628120_35033_35036",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 703,
+      "label": "Colonies",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Leifsonia williamsii sp. nov.",
+        "sentence_id": 172,
+        "char_start": 34957,
+        "char_end": 34965,
+        "anchor": "PMC10628120_34957_34965",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 952,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 703,
+      "target": 704
+    },
+    {
+      "id": 953,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 703,
+      "target": 705
+    },
+    {
+      "id": 954,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 703,
+      "target": 706
+    },
+    {
+      "id": 955,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 703,
+      "target": 707
+    },
+    {
+      "id": 956,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 703,
+      "target": 708
+    },
+    {
+      "id": 959,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 704,
+      "target": 705
+    },
+    {
+      "id": 960,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 704,
+      "target": 706
+    },
+    {
+      "id": 961,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 704,
+      "target": 707
+    },
+    {
+      "id": 962,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 704,
+      "target": 708
+    },
+    {
+      "id": 965,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 705,
+      "target": 706
+    },
+    {
+      "id": 966,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 705,
+      "target": 707
+    },
+    {
+      "id": 967,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 705,
+      "target": 708
+    },
+    {
+      "id": 970,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 706,
+      "target": 707
+    },
+    {
+      "id": 971,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 706,
+      "target": 708
+    },
+    {
+      "id": 974,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 707,
+      "target": 708
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 27,
+      "largest_component": 6,
+      "removed_components": [
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 7
+  }
+}

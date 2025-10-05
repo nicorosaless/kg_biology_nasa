@@ -1,0 +1,138 @@
+{
+  "paper_id": "PMC11988870",
+  "section": "Impact on Key Molecular Pathways",
+  "n_nodes": 8,
+  "n_edges": 4,
+  "nodes": [
+    {
+      "id": 26,
+      "label": "RAS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Impact on Key Molecular Pathways",
+        "sentence_id": 65,
+        "char_start": 11274,
+        "char_end": 11277,
+        "anchor": "PMC11988870_11274_11277"
+      }
+    },
+    {
+      "id": 27,
+      "label": "ERK",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Impact on Key Molecular Pathways",
+        "sentence_id": 65,
+        "char_start": 11279,
+        "char_end": 11282,
+        "anchor": "PMC11988870_11279_11282"
+      }
+    },
+    {
+      "id": 29,
+      "label": "RAS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Impact on Key Molecular Pathways",
+        "sentence_id": 65,
+        "char_start": 11298,
+        "char_end": 11301,
+        "anchor": "PMC11988870_11298_11301"
+      }
+    },
+    {
+      "id": 32,
+      "label": "NF-κB",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Impact on Key Molecular Pathways",
+        "sentence_id": 68,
+        "char_start": 12024,
+        "char_end": 12029,
+        "anchor": "PMC11988870_12024_12029"
+      }
+    },
+    {
+      "id": 33,
+      "label": "BAX",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Impact on Key Molecular Pathways",
+        "sentence_id": 68,
+        "char_start": 12086,
+        "char_end": 12089,
+        "anchor": "PMC11988870_12086_12089"
+      }
+    },
+    {
+      "id": 30,
+      "label": "ERK",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Impact on Key Molecular Pathways",
+        "sentence_id": 66,
+        "char_start": 11444,
+        "char_end": 11447,
+        "anchor": "PMC11988870_11444_11447"
+      }
+    },
+    {
+      "id": 31,
+      "label": "NF-κB",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Impact on Key Molecular Pathways",
+        "sentence_id": 67,
+        "char_start": 11627,
+        "char_end": 11632,
+        "anchor": "PMC11988870_11627_11632"
+      }
+    },
+    {
+      "id": 34,
+      "label": "VEGF",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Impact on Key Molecular Pathways",
+        "sentence_id": 69,
+        "char_start": 12521,
+        "char_end": 12525,
+        "anchor": "PMC11988870_12521_12525"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 5,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 26,
+      "target": 27
+    },
+    {
+      "id": 7,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 26,
+      "target": 29
+    },
+    {
+      "id": 9,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 27,
+      "target": 29
+    },
+    {
+      "id": 11,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 32,
+      "target": 33
+    }
+  ]
+}

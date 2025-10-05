@@ -1,0 +1,168 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "This study investigates the viable microbiome of the International Space Station (ISS) to understand the microbial composition influenced by microgravity, space radiation, elevated carbon dioxide, and human habitation. It also seeks to determine if Earth-based cleanrooms are appropriate models for the ISS environment. Samples from the ISS and two cleanrooms at the Jet Propulsion Laboratory (JPL) were analyzed using cultivation, ATP, and PMA-qPCR assays, along with 16S rRNA gene Illumina sequencing to elucidate microbial diversity.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Fig.",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.jpeg"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Fig.",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.jpeg"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Fig.",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.jpeg"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Fig.3PMA treatment is associated with a reduction in alpha diversity.Alpha diversity values are normalized as a percentage of their mean value across all eight samples in the chart",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.jpeg"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Microbial Burden",
+      "summary": "Microbial burdens were estimated using cultivation-dependent and independent methods. The ISS HEPA filter sample contained 10^5 CFU per gram, while the ISS Debris had 10^6 CFU per gram. Bacterial populations were larger in the ISS Debris compared to JPL cleanroom debris samples. Cultivable fungi were less represented than bacteria in all samples, with ISS samples showing two logs less fungi than bacteria. qPCR-based assay showed that the ISS HEPA sample had the highest bacterial density (1.7 × 10^9 16S rRNA copies per gram).",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Illumina-Derived Bacterial Diversity",
+      "summary": "Illumina sequencing generated approximately 6.8 million high-quality reads. ISS samples were dominated by Actinobacteria, Bacilli, and Clostridia, while JPL samples maintained higher levels of Alphaproteobacteria and Gammaproteobacteria (Fig. 1). At the family level, Corynebacterium dominated the ISS samples, while Geodermatophilaceae predominated among JPL samples. Actinobacteria, Firmicutes, and Proteobacteria phyla constituted 80% or more in all cases. Viable sequences arising from Actinobacteria were the most abundant in the ISS HEPA and ISS Debris samples, while Proteobacteria were the least abundant.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Pyrosequencing-Derived Fungal Diversity",
+      "summary": "Approximately 35,000 fungal pyrosequences were retrieved, representing 153 distinct taxa. Most OTUs belonged to Dothideomycetes, Eurotiomycetes, and Tremellomycetes classes. Fungal species richness was location-specific; dry cleanroom surfaces harbored Dothideomycetes and Eurotiomycetes, while ISS samples had more Eurotiomycetes, Saccharomycetes, and Exobasidiomycetes members. No viable fungal sequences were retrieved from the ISS HEPA sample after PMA treatment, while Dothideomycetes and Tremellomycetes were common in the ISS Debris samples. Figure 4 shows a reduction in alpha diversity after PMA treatment.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Significant Differences in Microbial Communities",
+      "summary": "Multivariate statistics revealed significant differences between the ISS and Earth-analog cleanroom microbiomes. The viable community profile was highly similar to the total community profile, with the differences between viable and total communities outweighed by the substantial differences between the ISS and Earth-analog cleanroom microbiome. Figure 3 shows Principal coordinate analysis plot based on Bray-Curtis distances. Figure 2 presents hierarchical clustering of samples using taxonomic profiles at the genus level.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Discussion",
+      "summary": "The study aimed to determine ISS air and surface viable microbiomes and reveal differences between viable microbiomes on the ISS and Earth-based cleanrooms. The ISS is a unique environment without a suitable Earth analog. The cleanrooms, environmentally controlled and oligotrophic, serve as the best-characterized closed environments for comparison. Lower incidence of cultivable microorganisms in Earth cleanrooms than ISS surfaces suggests that regular maintenance and cleaning practices are more effective on Earth.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": "This study provides insights into the ISS microbial diversity, highlighting significant differences between the closed habitats of the ISS and Earth-based cleanrooms. NGS data, supported by traditional microbiology techniques, offer a preliminary report on the ISS environmental microbiome. The most common organisms in the ISS were human-associated Actinobacteria, unlike JPL cleanrooms. Viable cell studies with PMA can identify problematic areas for more stringent cleaning, and revealed that the relative numbers of various types of viable cells closely resembled the distribution of all cells.",
+  "keywords": [
+    "iss microbiome",
+    "cleanrooms",
+    "actinobacteria",
+    "illumina sequencing",
+    "pma treatment",
+    "microbial diversity",
+    "viable microorganisms",
+    "space station",
+    "fungal diversity",
+    "bacterial diversity"
+  ],
+  "topics": [
+    "microbial ecology",
+    "space microbiology",
+    "molecular biology"
+  ],
+  "_meta": {
+    "paper_id": "sha256:d8d66dd149290962e89a99a5f2e5b0743ba23fa165f8ac7eb5b9d202633e9a16",
+    "paper_title": "Microbiomes of the dust particles collected from the International Space Station and Spacecraft Assembly Facilities",
+    "generated_at": "2025-10-05T10:44:10Z",
+    "word_count": 454,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "iss microbiome",
+      "cleanrooms",
+      "actinobacteria",
+      "illumina sequencing",
+      "pma treatment",
+      "microbial diversity",
+      "viable microorganisms",
+      "space station",
+      "fungal diversity",
+      "bacterial diversity"
+    ],
+    "topics": [
+      "microbial ecology",
+      "space microbiology",
+      "molecular biology"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 9373,
+      "completion_tokens": 943,
+      "total_tokens": 10316,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000937,
+      "output_usd": 0.000377,
+      "total_usd": 0.001315
+    },
+    "cost": {
+      "input_usd": 0.000937,
+      "output_usd": 0.000377,
+      "total_usd": 0.001315
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [],
+      "corrupted_detected": [
+        "fig_1",
+        "fig_4",
+        "fig_2",
+        "fig_3"
+      ],
+      "original_total": 4,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

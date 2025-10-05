@@ -1,0 +1,81 @@
+{
+  "paper_id": "PMC3422896",
+  "section": "3-3 Dimerization",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 171,
+      "label": "Wil",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Dimerization",
+        "sentence_id": 51,
+        "char_start": 13467,
+        "char_end": 13470,
+        "anchor": "PMC3422896_13467_13470",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 179,
+      "label": "binding",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Dimerization",
+        "sentence_id": 51,
+        "char_start": 13773,
+        "char_end": 13780,
+        "anchor": "PMC3422896_13773_13780",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 174,
+      "label": "monomer",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Dimerization",
+        "sentence_id": 51,
+        "char_start": 13615,
+        "char_end": 13622,
+        "anchor": "PMC3422896_13615_13622",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 157,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 171,
+      "target": 174
+    },
+    {
+      "id": 158,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 171,
+      "target": 179
+    },
+    {
+      "id": 159,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 174,
+      "target": 179
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 14,
+      "largest_component": 3
+    },
+    "page": 3
+  }
+}

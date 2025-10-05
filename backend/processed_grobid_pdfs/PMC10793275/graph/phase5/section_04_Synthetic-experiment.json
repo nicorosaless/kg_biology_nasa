@@ -1,0 +1,472 @@
+{
+  "paper_id": "PMC10793275",
+  "section": "Synthetic EXPERIMENT",
+  "n_nodes": 22,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 4,
+      "label": "nas paucimobilis",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 2,
+        "char_start": 306,
+        "char_end": 322,
+        "anchor": "PMC10793275_306_322",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 5,
+      "label": "sequencing",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 2,
+        "char_start": 344,
+        "char_end": 354,
+        "anchor": "PMC10793275_344_354",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 11,
+      "label": "biofouling studies",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 5,
+        "char_start": 840,
+        "char_end": 858,
+        "anchor": "PMC10793275_840_858",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 13,
+      "label": "BAB-",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 5,
+        "char_start": 960,
+        "char_end": 964,
+        "anchor": "PMC10793275_960_964",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 14,
+      "label": "16S rRNA sequencing",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 5,
+        "char_start": 1005,
+        "char_end": 1024,
+        "anchor": "PMC10793275_1005_1024",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 15,
+      "label": "whole genome sequence",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 5,
+        "char_start": 1066,
+        "char_end": 1087,
+        "anchor": "PMC10793275_1066_1087",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 21,
+      "label": "Sphingomonas",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 7,
+        "char_start": 1232,
+        "char_end": 1244,
+        "anchor": "PMC10793275_1232_1244",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 26,
+      "label": "Reasoner's",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 9,
+        "char_start": 1439,
+        "char_end": 1449,
+        "anchor": "PMC10793275_1439_1449",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 34,
+      "label": "Genomic DNA",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 10,
+        "char_start": 1539,
+        "char_end": 1550,
+        "anchor": "PMC10793275_1539_1550",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 37,
+      "label": "Sequencing libraries",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 11,
+        "char_start": 1658,
+        "char_end": 1678,
+        "anchor": "PMC10793275_1658_1678",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 39,
+      "label": "Fisher'",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 11,
+        "char_start": 1866,
+        "char_end": 1873,
+        "anchor": "PMC10793275_1866_1873",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 41,
+      "label": ".Nineteen million 2 × 150 bp reads",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 11,
+        "char_start": 1887,
+        "char_end": 1921,
+        "anchor": "PMC10793275_1887_1921",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 43,
+      "label": "red score",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 11,
+        "char_start": 2035,
+        "char_end": 2044,
+        "anchor": "PMC10793275_2035_2044",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 57,
+      "label": "NCBI databases",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 13,
+        "char_start": 2189,
+        "char_end": 2203,
+        "anchor": "PMC10793275_2189_2203",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 65,
+      "label": "average nucleotide identity (ANI",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 16,
+        "char_start": 2469,
+        "char_end": 2501,
+        "anchor": "PMC10793275_2469_2501",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 67,
+      "label": "Sphingomonas genomes",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 16,
+        "char_start": 2539,
+        "char_end": 2559,
+        "anchor": "PMC10793275_2539_2559",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 75,
+      "label": "Annotations",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Annotations were predicted with Prokka",
+        "sentence_id": 18,
+        "char_start": 2741,
+        "char_end": 2752,
+        "anchor": "PMC10793275_2741_2752",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 78,
+      "label": "phylogeny",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Annotations were predicted with Prokka",
+        "sentence_id": 19,
+        "char_start": 2887,
+        "char_end": 2896,
+        "anchor": "PMC10793275_2887_2896",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 79,
+      "label": "WGS phylogeny",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Annotations were predicted with Prokka",
+        "sentence_id": 19,
+        "char_start": 2933,
+        "char_end": 2946,
+        "anchor": "PMC10793275_2933_2946",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 84,
+      "label": "paucimobilis",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Annotations were predicted with Prokka",
+        "sentence_id": 20,
+        "char_start": 3051,
+        "char_end": 3063,
+        "anchor": "PMC10793275_3051_3063",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 86,
+      "label": "raw reads",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Annotations were predicted with Prokka",
+        "sentence_id": 21,
+        "char_start": 3262,
+        "char_end": 3271,
+        "anchor": "PMC10793275_3262_3271",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 87,
+      "label": "Sph5 assembly",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Annotations were predicted with Prokka",
+        "sentence_id": 21,
+        "char_start": 3298,
+        "char_end": 3311,
+        "anchor": "PMC10793275_3298_3311",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-4-5",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "id": "synth-4-11",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 11
+    },
+    {
+      "id": "synth-4-13",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 13
+    },
+    {
+      "id": "synth-4-14",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 14
+    },
+    {
+      "id": "synth-4-15",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 15
+    },
+    {
+      "id": "synth-4-21",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 21
+    },
+    {
+      "id": "synth-4-26",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 26
+    },
+    {
+      "id": "synth-4-34",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 34
+    },
+    {
+      "id": "synth-4-37",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 37
+    },
+    {
+      "id": "synth-4-39",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 39
+    },
+    {
+      "id": "synth-4-41",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 41
+    },
+    {
+      "id": "synth-4-43",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 43
+    },
+    {
+      "id": "synth-4-57",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 57
+    },
+    {
+      "id": "synth-4-65",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 65
+    },
+    {
+      "id": "synth-4-67",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 67
+    },
+    {
+      "id": "synth-4-75",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 75
+    },
+    {
+      "id": "synth-4-78",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 78
+    },
+    {
+      "id": "synth-4-79",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 79
+    },
+    {
+      "id": "synth-4-84",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 84
+    },
+    {
+      "id": "synth-4-86",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 86
+    },
+    {
+      "id": "synth-4-87",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 87
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "EXPERIMENT",
+    "page": null
+  }
+}

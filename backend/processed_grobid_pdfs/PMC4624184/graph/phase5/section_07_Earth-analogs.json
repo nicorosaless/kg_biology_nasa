@@ -1,0 +1,117 @@
+{
+  "paper_id": "PMC4624184",
+  "section": "Earth analogs",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 705,
+      "label": "JPL",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Earth analogs",
+        "sentence_id": 213,
+        "char_start": 41805,
+        "char_end": 41808,
+        "anchor": "PMC4624184_41805_41808",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 700,
+      "label": "JPL",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Earth analogs",
+        "sentence_id": 213,
+        "char_start": 41558,
+        "char_end": 41561,
+        "anchor": "PMC4624184_41558_41561",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 701,
+      "label": "Mars",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Earth analogs",
+        "sentence_id": 213,
+        "char_start": 41596,
+        "char_end": 41600,
+        "anchor": "PMC4624184_41596_41600",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 703,
+      "label": "JPL",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Earth analogs",
+        "sentence_id": 213,
+        "char_start": 41668,
+        "char_end": 41671,
+        "anchor": "PMC4624184_41668_41671",
+        "page": 11,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 767,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 700,
+      "target": 701
+    },
+    {
+      "id": 769,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 700,
+      "target": 703
+    },
+    {
+      "id": 771,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 700,
+      "target": 705
+    },
+    {
+      "id": 773,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 701,
+      "target": 703
+    },
+    {
+      "id": 775,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 701,
+      "target": 705
+    },
+    {
+      "id": 780,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 703,
+      "target": 705
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 12,
+      "largest_component": 4,
+      "removed_components": [
+        4
+      ]
+    },
+    "page": 11
+  }
+}

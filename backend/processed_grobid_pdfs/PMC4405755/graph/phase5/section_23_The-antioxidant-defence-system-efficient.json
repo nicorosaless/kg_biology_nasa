@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC4405755",
+  "section": "The antioxidant defence system efficiently reacted to the initial reactive oxygen species (ROS) increase",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 384,
+      "label": "ROS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The antioxidant defence system efficiently reacted to the initial reactive oxygen species (ROS) increase",
+        "sentence_id": 93,
+        "char_start": 18212,
+        "char_end": 18215,
+        "anchor": "PMC4405755_18212_18215",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 383,
+      "label": "SOD1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The antioxidant defence system efficiently reacted to the initial reactive oxygen species (ROS) increase",
+        "sentence_id": 93,
+        "char_start": 18168,
+        "char_end": 18172,
+        "anchor": "PMC4405755_18168_18172",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 551,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 383,
+      "target": 384
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 6,
+      "largest_component": 2
+    },
+    "page": 6
+  }
+}

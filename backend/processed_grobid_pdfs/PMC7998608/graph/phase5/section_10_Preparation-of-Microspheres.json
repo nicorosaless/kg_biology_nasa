@@ -1,0 +1,143 @@
+{
+  "paper_id": "PMC7998608",
+  "section": "Preparation of Microspheres",
+  "n_nodes": 7,
+  "n_edges": 7,
+  "nodes": [
+    {
+      "id": 57,
+      "label": "Cellagen",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Preparation of Microspheres",
+        "sentence_id": 44,
+        "char_start": 8893,
+        "char_end": 8901,
+        "anchor": "PMC7998608_8893_8901"
+      }
+    },
+    {
+      "id": 58,
+      "label": "Koken",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Preparation of Microspheres",
+        "sentence_id": 44,
+        "char_start": 8903,
+        "char_end": 8908,
+        "anchor": "PMC7998608_8903_8908"
+      }
+    },
+    {
+      "id": 59,
+      "label": "Tokyo",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Preparation of Microspheres",
+        "sentence_id": 44,
+        "char_start": 8910,
+        "char_end": 8915,
+        "anchor": "PMC7998608_8910_8915"
+      }
+    },
+    {
+      "id": 60,
+      "label": "Japan",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Preparation of Microspheres",
+        "sentence_id": 44,
+        "char_start": 8917,
+        "char_end": 8922,
+        "anchor": "PMC7998608_8917_8922"
+      }
+    },
+    {
+      "id": 52,
+      "label": "First",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Preparation of Microspheres",
+        "sentence_id": 42,
+        "char_start": 8306,
+        "char_end": 8311,
+        "anchor": "PMC7998608_8306_8311"
+      }
+    },
+    {
+      "id": 54,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Preparation of Microspheres",
+        "sentence_id": 42,
+        "char_start": 8406,
+        "char_end": 8409,
+        "anchor": "PMC7998608_8406_8409"
+      }
+    },
+    {
+      "id": 56,
+      "label": "Kyoto",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Preparation of Microspheres",
+        "sentence_id": 43,
+        "char_start": 8622,
+        "char_end": 8627,
+        "anchor": "PMC7998608_8622_8627"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 85,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 52,
+      "target": 54
+    },
+    {
+      "id": 88,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 57,
+      "target": 58
+    },
+    {
+      "id": 89,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 57,
+      "target": 59
+    },
+    {
+      "id": 90,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 57,
+      "target": 60
+    },
+    {
+      "id": 91,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 58,
+      "target": 59
+    },
+    {
+      "id": 92,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 58,
+      "target": 60
+    },
+    {
+      "id": 93,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 59,
+      "target": 60
+    }
+  ]
+}

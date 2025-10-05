@@ -1,0 +1,306 @@
+{
+  "paper_id": "PMC11451251",
+  "section": "Bacteria isolation, genome assembly and annotation",
+  "n_nodes": 8,
+  "n_edges": 28,
+  "nodes": [
+    {
+      "id": 486,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacteria isolation, genome assembly and annotation",
+        "sentence_id": 198,
+        "char_start": 37887,
+        "char_end": 37890,
+        "anchor": "PMC11451251_37887_37890",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 489,
+      "label": "Bio",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacteria isolation, genome assembly and annotation",
+        "sentence_id": 198,
+        "char_start": 38120,
+        "char_end": 38123,
+        "anchor": "PMC11451251_38120_38123",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 490,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacteria isolation, genome assembly and annotation",
+        "sentence_id": 198,
+        "char_start": 38261,
+        "char_end": 38264,
+        "anchor": "PMC11451251_38261_38264",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 491,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacteria isolation, genome assembly and annotation",
+        "sentence_id": 198,
+        "char_start": 37887,
+        "char_end": 37890,
+        "anchor": "PMC11451251_37887_37890",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 492,
+      "label": "Gram",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacteria isolation, genome assembly and annotation",
+        "sentence_id": 198,
+        "char_start": 37979,
+        "char_end": 37983,
+        "anchor": "PMC11451251_37979_37983",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 493,
+      "label": "BioLog",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacteria isolation, genome assembly and annotation",
+        "sentence_id": 198,
+        "char_start": 38120,
+        "char_end": 38126,
+        "anchor": "PMC11451251_38120_38126",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 494,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacteria isolation, genome assembly and annotation",
+        "sentence_id": 198,
+        "char_start": 38261,
+        "char_end": 38264,
+        "anchor": "PMC11451251_38261_38264",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 495,
+      "label": "SPAdes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacteria isolation, genome assembly and annotation",
+        "sentence_id": 198,
+        "char_start": 38356,
+        "char_end": 38362,
+        "anchor": "PMC11451251_38356_38362",
+        "page": 12,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 364,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 486,
+      "target": 489
+    },
+    {
+      "id": 365,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 486,
+      "target": 490
+    },
+    {
+      "id": 366,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 486,
+      "target": 491
+    },
+    {
+      "id": 367,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 486,
+      "target": 492
+    },
+    {
+      "id": 368,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 486,
+      "target": 493
+    },
+    {
+      "id": 369,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 486,
+      "target": 494
+    },
+    {
+      "id": 370,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 486,
+      "target": 495
+    },
+    {
+      "id": 371,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 489,
+      "target": 490
+    },
+    {
+      "id": 372,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 489,
+      "target": 491
+    },
+    {
+      "id": 373,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 489,
+      "target": 492
+    },
+    {
+      "id": 374,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 489,
+      "target": 493
+    },
+    {
+      "id": 375,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 489,
+      "target": 494
+    },
+    {
+      "id": 376,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 489,
+      "target": 495
+    },
+    {
+      "id": 377,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 490,
+      "target": 491
+    },
+    {
+      "id": 378,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 490,
+      "target": 492
+    },
+    {
+      "id": 379,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 490,
+      "target": 493
+    },
+    {
+      "id": 380,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 490,
+      "target": 494
+    },
+    {
+      "id": 381,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 490,
+      "target": 495
+    },
+    {
+      "id": 382,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 491,
+      "target": 492
+    },
+    {
+      "id": 383,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 491,
+      "target": 493
+    },
+    {
+      "id": 384,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 491,
+      "target": 494
+    },
+    {
+      "id": 385,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 491,
+      "target": 495
+    },
+    {
+      "id": 386,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 492,
+      "target": 493
+    },
+    {
+      "id": 387,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 492,
+      "target": 494
+    },
+    {
+      "id": 388,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 492,
+      "target": 495
+    },
+    {
+      "id": 389,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 493,
+      "target": 494
+    },
+    {
+      "id": 390,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 493,
+      "target": 495
+    },
+    {
+      "id": 391,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 494,
+      "target": 495
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 5,
+      "largest_component": 8
+    },
+    "page": 12
+  }
+}

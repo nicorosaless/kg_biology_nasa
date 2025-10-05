@@ -1,0 +1,162 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "j) Biomechanical Modeling of the ONH and ONS",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 1621,
+      "label": "Eyes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "j) Biomechanical Modeling of the ONH and ONS",
+        "sentence_id": 508,
+        "char_start": 83139,
+        "char_end": 83143,
+        "anchor": "PMC4385880_83139_83143",
+        "page": 39,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1622,
+      "label": "smaller",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "j) Biomechanical Modeling of the ONH and ONS",
+        "sentence_id": 508,
+        "char_start": 83220,
+        "char_end": 83227,
+        "anchor": "PMC4385880_83220_83227",
+        "page": 39,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1623,
+      "label": "ONH",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "j) Biomechanical Modeling of the ONH and ONS",
+        "sentence_id": 508,
+        "char_start": 83228,
+        "char_end": 83231,
+        "anchor": "PMC4385880_83228_83231",
+        "page": 39,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1624,
+      "label": "thinner",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "j) Biomechanical Modeling of the ONH and ONS",
+        "sentence_id": 508,
+        "char_start": 83253,
+        "char_end": 83260,
+        "anchor": "PMC4385880_83253_83260",
+        "page": 39,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1625,
+      "label": "ONH",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "j) Biomechanical Modeling of the ONH and ONS",
+        "sentence_id": 508,
+        "char_start": 83228,
+        "char_end": 83231,
+        "anchor": "PMC4385880_83228_83231",
+        "page": 39,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1585,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1621,
+      "target": 1622
+    },
+    {
+      "id": 1586,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1621,
+      "target": 1623
+    },
+    {
+      "id": 1587,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1621,
+      "target": 1624
+    },
+    {
+      "id": 1588,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1621,
+      "target": 1625
+    },
+    {
+      "id": 1589,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1622,
+      "target": 1623
+    },
+    {
+      "id": 1590,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1622,
+      "target": 1624
+    },
+    {
+      "id": 1591,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1622,
+      "target": 1625
+    },
+    {
+      "id": 1592,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1623,
+      "target": 1624
+    },
+    {
+      "id": 1593,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1623,
+      "target": 1625
+    },
+    {
+      "id": 1594,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1624,
+      "target": 1625
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 8,
+      "removed_orphans": 17,
+      "largest_component": 5,
+      "removed_components": [
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 39
+  }
+}

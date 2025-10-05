@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC11833055",
+  "section": "Gait analysis",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 92,
+      "label": "walkway",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gait analysis",
+        "sentence_id": 59,
+        "char_start": 9605,
+        "char_end": 9612,
+        "anchor": "PMC11833055_9605_9612",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 93,
+      "label": "cleaned",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Gait analysis",
+        "sentence_id": 59,
+        "char_start": 9617,
+        "char_end": 9624,
+        "anchor": "PMC11833055_9617_9624",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 63,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 92,
+      "target": 93
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 7,
+      "largest_component": 2
+    },
+    "page": 2
+  }
+}

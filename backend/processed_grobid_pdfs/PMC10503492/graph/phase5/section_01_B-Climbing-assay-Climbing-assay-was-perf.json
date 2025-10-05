@@ -1,0 +1,81 @@
+{
+  "paper_id": "PMC10503492",
+  "section": "B. Climbing assay-Climbing assay was performed on F1 generation of flies returned",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 736,
+      "label": "modified",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "B. Climbing assay-Climbing assay was performed on F1 generation of flies returned",
+        "sentence_id": 187,
+        "char_start": 54869,
+        "char_end": 54877,
+        "anchor": "PMC10503492_54869_54877",
+        "page": 28,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 738,
+      "label": "returned",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "B. Climbing assay-Climbing assay was performed on F1 generation of flies returned",
+        "sentence_id": 187,
+        "char_start": 55079,
+        "char_end": 55087,
+        "anchor": "PMC10503492_55079_55087",
+        "page": 28,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 739,
+      "label": "Bender",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "B. Climbing assay-Climbing assay was performed on F1 generation of flies returned",
+        "sentence_id": 187,
+        "char_start": 54919,
+        "char_end": 54925,
+        "anchor": "PMC10503492_54919_54925",
+        "page": 28,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 983,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 736,
+      "target": 738
+    },
+    {
+      "id": 984,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 736,
+      "target": 739
+    },
+    {
+      "id": 986,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 738,
+      "target": 739
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 6,
+      "largest_component": 3
+    },
+    "page": 28
+  }
+}

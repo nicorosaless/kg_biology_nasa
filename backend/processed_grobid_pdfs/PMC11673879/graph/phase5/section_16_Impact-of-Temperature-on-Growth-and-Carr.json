@@ -1,0 +1,85 @@
+{
+  "paper_id": "PMC11673879",
+  "section": "Impact of Temperature on Growth and Carrying Capacity on",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 361,
+      "label": "constant",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Impact of Temperature on Growth and Carrying Capacity on",
+        "sentence_id": 155,
+        "char_start": 26381,
+        "char_end": 26389,
+        "anchor": "PMC11673879_26381_26389",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 358,
+      "label": "Parental",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Impact of Temperature on Growth and Carrying Capacity on",
+        "sentence_id": 155,
+        "char_start": 26189,
+        "char_end": 26197,
+        "anchor": "PMC11673879_26189_26197",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 359,
+      "label": "strains",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Impact of Temperature on Growth and Carrying Capacity on",
+        "sentence_id": 155,
+        "char_start": 26198,
+        "char_end": 26205,
+        "anchor": "PMC11673879_26198_26205",
+        "page": 9,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 222,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 358,
+      "target": 359
+    },
+    {
+      "id": 223,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 358,
+      "target": 361
+    },
+    {
+      "id": 225,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 359,
+      "target": 361
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 25,
+      "largest_component": 3,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 9
+  }
+}

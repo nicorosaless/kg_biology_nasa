@@ -1,0 +1,95 @@
+{
+  "intro": "This paper describes supplementary data files associated with a study investigating the effects of spaceflight and simulated galactic cosmic radiation (GCR) on kidney health. The supplementary data includes multi-omics analysis of gene-disease associations, lists of up- and down-regulated kidney gene products, and differentially abundant phosphosites.",
+  "sections": [
+    {
+      "heading": "Multi-mission Multi-omic DisGeNET Over-representation Analysis Results",
+      "summary": "This section presents enriched gene-disease associations for DisGeNET ontological terms. The analysis integrates data from various omics modalities, species, missions, and tissues by converting biomolecules to human orthologs and linking them to HGNC gene symbols. The analysis identifies ontological terms related to kidney health, kidney injury/disease, general diseases impacting the kidney, and terms with no clear kidney connection. A Log10(P-value) of 2, replicated in at least two datasets, was used as the significance threshold for ontological term enrichment. The enrichment ratio represents the number of differentially regulated hits belonging to a given ontological term, normalized by the total number of significant hits in the dataset.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Up and Down Regulated Kidney Gene Products and Functional Annotations",
+      "summary": "This section details up- and down-regulated gene products in exposure groups (spaceflight, GCRsim) compared to control groups. Datasets from different omics modalities, species, missions, and tissues were integrated by converting biomolecules to human orthologs and linking them to HGNC gene symbols. Differentially regulated gene products (DRGPs) were scored based on their regulation direction and presence in kidney-specific proteome and transcriptome datasets. A scoring system was employed: DRGPs with P < 0.05 were counted; +1 for upregulation, -1 for downregulation; only kidney-specific proteome and transcriptome data were used for ranking; the sum of scores was multiplied by the observation count in kidney-specific datasets. Only products with absolute scores >=4, indicating consensus across at least two datasets, were included. Functional annotations and inferences are provided for the highest-scoring genes.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": {
+    "heading": "Conclusion",
+    "summary": ""
+  },
+  "keywords": [
+    "kidney",
+    "spaceflight",
+    "gcrsim",
+    "multi-omics",
+    "disgenet",
+    "gene regulation",
+    "phosphoproteomics",
+    "transcriptomics",
+    "proteomics",
+    "functional annotation"
+  ],
+  "topics": [
+    "kidney health",
+    "space medicine",
+    "omics analysis"
+  ],
+  "_meta": {
+    "paper_id": "sha256:32134f84aa9d98639123e1497ab8d602ee52d9e440cb87adf0e07c97be1583fb",
+    "paper_title": "An adjusted P-value of <0.05 was considered significant",
+    "generated_at": "2025-10-05T10:37:50Z",
+    "word_count": 232,
+    "figures": [],
+    "equations": [],
+    "keywords": [
+      "kidney",
+      "spaceflight",
+      "gcrsim",
+      "multi-omics",
+      "disgenet",
+      "gene regulation",
+      "phosphoproteomics",
+      "transcriptomics",
+      "proteomics",
+      "functional annotation"
+    ],
+    "topics": [
+      "kidney health",
+      "space medicine",
+      "omics analysis"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 1312,
+      "completion_tokens": 602,
+      "total_tokens": 1914,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000131,
+      "output_usd": 0.000241,
+      "total_usd": 0.000372
+    },
+    "cost": {
+      "input_usd": 0.000131,
+      "output_usd": 0.000241,
+      "total_usd": 0.000372
+    },
+    "figure_selection": {}
+  }
+}

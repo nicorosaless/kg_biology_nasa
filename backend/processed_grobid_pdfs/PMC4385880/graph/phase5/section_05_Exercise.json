@@ -1,0 +1,84 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "Exercise",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 3328,
+      "label": "Russian",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Exercise",
+        "sentence_id": 1091,
+        "char_start": 179227,
+        "char_end": 179234,
+        "anchor": "PMC4385880_179227_179234",
+        "page": 84,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3329,
+      "label": "Russian",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Exercise",
+        "sentence_id": 1091,
+        "char_start": 179227,
+        "char_end": 179234,
+        "anchor": "PMC4385880_179227_179234",
+        "page": 84,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 3330,
+      "label": "Mir",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Exercise",
+        "sentence_id": 1091,
+        "char_start": 179392,
+        "char_end": 179395,
+        "anchor": "PMC4385880_179392_179395",
+        "page": 84,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 3222,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3328,
+      "target": 3329
+    },
+    {
+      "id": 3223,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3328,
+      "target": 3330
+    },
+    {
+      "id": 3224,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 3329,
+      "target": 3330
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 3,
+      "largest_component": 3,
+      "removed_components": [
+        3
+      ]
+    },
+    "page": 84
+  }
+}

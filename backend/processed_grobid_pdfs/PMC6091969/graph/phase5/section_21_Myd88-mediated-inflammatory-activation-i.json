@@ -1,0 +1,445 @@
+{
+  "paper_id": "PMC6091969",
+  "section": "Myd88-mediated inflammatory activation is required for clearance of a CEA10-derived strain",
+  "n_nodes": 10,
+  "n_edges": 45,
+  "nodes": [
+    {
+      "id": 129,
+      "label": "Control",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88-mediated inflammatory activation is required for clearance of a CEA10-derived strain",
+        "sentence_id": 50,
+        "char_start": 11002,
+        "char_end": 11009,
+        "anchor": "PMC6091969_11002_11009",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 130,
+      "label": "injected",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88-mediated inflammatory activation is required for clearance of a CEA10-derived strain",
+        "sentence_id": 50,
+        "char_start": 11014,
+        "char_end": 11022,
+        "anchor": "PMC6091969_11014_11022",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 131,
+      "label": "thasone",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88-mediated inflammatory activation is required for clearance of a CEA10-derived strain",
+        "sentence_id": 50,
+        "char_start": 11049,
+        "char_end": 11056,
+        "anchor": "PMC6091969_11049_11056",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 132,
+      "label": "minimal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88-mediated inflammatory activation is required for clearance of a CEA10-derived strain",
+        "sentence_id": 50,
+        "char_start": 11061,
+        "char_end": 11068,
+        "anchor": "PMC6091969_11061_11068",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 133,
+      "label": "A10",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88-mediated inflammatory activation is required for clearance of a CEA10-derived strain",
+        "sentence_id": 50,
+        "char_start": 11229,
+        "char_end": 11232,
+        "anchor": "PMC6091969_11229_11232",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 134,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88-mediated inflammatory activation is required for clearance of a CEA10-derived strain",
+        "sentence_id": 50,
+        "char_start": 11010,
+        "char_end": 11013,
+        "anchor": "PMC6091969_11010_11013",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 135,
+      "label": "NF-κB",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88-mediated inflammatory activation is required for clearance of a CEA10-derived strain",
+        "sentence_id": 50,
+        "char_start": 11178,
+        "char_end": 11183,
+        "anchor": "PMC6091969_11178_11183",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 136,
+      "label": "NF-κB",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88-mediated inflammatory activation is required for clearance of a CEA10-derived strain",
+        "sentence_id": 50,
+        "char_start": 11284,
+        "char_end": 11289,
+        "anchor": "PMC6091969_11284_11289",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 126,
+      "label": "A10",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88-mediated inflammatory activation is required for clearance of a CEA10-derived strain",
+        "sentence_id": 50,
+        "char_start": 10578,
+        "char_end": 10581,
+        "anchor": "PMC6091969_10578_10581",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 127,
+      "label": "A10",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88-mediated inflammatory activation is required for clearance of a CEA10-derived strain",
+        "sentence_id": 50,
+        "char_start": 10819,
+        "char_end": 10822,
+        "anchor": "PMC6091969_10819_10822",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 101,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 126,
+      "target": 127
+    },
+    {
+      "id": 102,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 126,
+      "target": 129
+    },
+    {
+      "id": 103,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 126,
+      "target": 130
+    },
+    {
+      "id": 104,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 126,
+      "target": 131
+    },
+    {
+      "id": 105,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 126,
+      "target": 132
+    },
+    {
+      "id": 106,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 126,
+      "target": 133
+    },
+    {
+      "id": 107,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 126,
+      "target": 134
+    },
+    {
+      "id": 108,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 126,
+      "target": 135
+    },
+    {
+      "id": 109,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 126,
+      "target": 136
+    },
+    {
+      "id": 110,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 127,
+      "target": 129
+    },
+    {
+      "id": 111,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 127,
+      "target": 130
+    },
+    {
+      "id": 112,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 127,
+      "target": 131
+    },
+    {
+      "id": 113,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 127,
+      "target": 132
+    },
+    {
+      "id": 114,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 127,
+      "target": 133
+    },
+    {
+      "id": 115,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 127,
+      "target": 134
+    },
+    {
+      "id": 116,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 127,
+      "target": 135
+    },
+    {
+      "id": 117,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 127,
+      "target": 136
+    },
+    {
+      "id": 118,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 129,
+      "target": 130
+    },
+    {
+      "id": 119,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 129,
+      "target": 131
+    },
+    {
+      "id": 120,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 129,
+      "target": 132
+    },
+    {
+      "id": 121,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 129,
+      "target": 133
+    },
+    {
+      "id": 122,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 129,
+      "target": 134
+    },
+    {
+      "id": 123,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 129,
+      "target": 135
+    },
+    {
+      "id": 124,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 129,
+      "target": 136
+    },
+    {
+      "id": 125,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 130,
+      "target": 131
+    },
+    {
+      "id": 126,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 130,
+      "target": 132
+    },
+    {
+      "id": 127,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 130,
+      "target": 133
+    },
+    {
+      "id": 128,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 130,
+      "target": 134
+    },
+    {
+      "id": 129,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 130,
+      "target": 135
+    },
+    {
+      "id": 130,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 130,
+      "target": 136
+    },
+    {
+      "id": 131,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 131,
+      "target": 132
+    },
+    {
+      "id": 132,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 131,
+      "target": 133
+    },
+    {
+      "id": 133,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 131,
+      "target": 134
+    },
+    {
+      "id": 134,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 131,
+      "target": 135
+    },
+    {
+      "id": 135,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 131,
+      "target": 136
+    },
+    {
+      "id": 136,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 132,
+      "target": 133
+    },
+    {
+      "id": 137,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 132,
+      "target": 134
+    },
+    {
+      "id": 138,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 132,
+      "target": 135
+    },
+    {
+      "id": 139,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 132,
+      "target": 136
+    },
+    {
+      "id": 140,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 133,
+      "target": 134
+    },
+    {
+      "id": 141,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 133,
+      "target": 135
+    },
+    {
+      "id": 142,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 133,
+      "target": 136
+    },
+    {
+      "id": 143,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 134,
+      "target": 135
+    },
+    {
+      "id": 144,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 134,
+      "target": 136
+    },
+    {
+      "id": 145,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 135,
+      "target": 136
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 6,
+      "removed_orphans": 8,
+      "largest_component": 10,
+      "removed_components": [
+        5,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 5
+  }
+}

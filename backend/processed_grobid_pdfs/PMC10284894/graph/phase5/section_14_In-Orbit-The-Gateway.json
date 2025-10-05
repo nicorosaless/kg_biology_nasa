@@ -1,0 +1,86 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "In Orbit: The Gateway",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 525,
+      "label": "Gateway",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "In Orbit: The Gateway",
+        "sentence_id": 290,
+        "char_start": 54531,
+        "char_end": 54538,
+        "anchor": "PMC10284894_54531_54538",
+        "page": 55,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 526,
+      "label": "Mars",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "In Orbit: The Gateway",
+        "sentence_id": 290,
+        "char_start": 54617,
+        "char_end": 54621,
+        "anchor": "PMC10284894_54617_54621",
+        "page": 55,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 527,
+      "label": "Mars",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "In Orbit: The Gateway",
+        "sentence_id": 290,
+        "char_start": 54634,
+        "char_end": 54638,
+        "anchor": "PMC10284894_54634_54638",
+        "page": 55,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 494,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 525,
+      "target": 526
+    },
+    {
+      "id": 495,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 525,
+      "target": 527
+    },
+    {
+      "id": 496,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 526,
+      "target": 527
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 1,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 55
+  }
+}

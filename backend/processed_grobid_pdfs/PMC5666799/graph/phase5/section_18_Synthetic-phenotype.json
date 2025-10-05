@@ -1,0 +1,850 @@
+{
+  "paper_id": "PMC5666799",
+  "section": "Synthetic PHENOTYPE",
+  "n_nodes": 40,
+  "n_edges": 39,
+  "nodes": [
+    {
+      "id": 41,
+      "label": "responses",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 9,
+        "char_start": 2112,
+        "char_end": 2121,
+        "anchor": "PMC5666799_2112_2121",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 49,
+      "label": "Structural degradation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 11,
+        "char_start": 2370,
+        "char_end": 2392,
+        "anchor": "PMC5666799_2370_2392",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 50,
+      "label": "oxidative stress",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 11,
+        "char_start": 2397,
+        "char_end": 2413,
+        "anchor": "PMC5666799_2397_2413",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 52,
+      "label": "energy deposition",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 13,
+        "char_start": 2833,
+        "char_end": 2850,
+        "anchor": "PMC5666799_2833_2850",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 71,
+      "label": "degeneration",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 17,
+        "char_start": 3631,
+        "char_end": 3643,
+        "anchor": "PMC5666799_3631_3643",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 77,
+      "label": "oxidative species",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 19,
+        "char_start": 3856,
+        "char_end": 3873,
+        "anchor": "PMC5666799_3856_3873",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 104,
+      "label": "bone loss",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 25,
+        "char_start": 5006,
+        "char_end": 5015,
+        "anchor": "PMC5666799_5006_5015",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 105,
+      "label": "impairment",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 25,
+        "char_start": 5034,
+        "char_end": 5044,
+        "anchor": "PMC5666799_5034_5044",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 141,
+      "label": "Fe irradiation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "TBI Experiment Design",
+        "sentence_id": 33,
+        "char_start": 7134,
+        "char_end": 7148,
+        "anchor": "PMC5666799_7134_7148",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 151,
+      "label": "Fe irradiation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "TBI Experiment Design",
+        "sentence_id": 39,
+        "char_start": 7669,
+        "char_end": 7683,
+        "anchor": "PMC5666799_7669_7683",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 238,
+      "label": "radiation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Bone Structure",
+        "sentence_id": 73,
+        "char_start": 13577,
+        "char_end": 13586,
+        "anchor": "PMC5666799_13577_13586",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 266,
+      "label": "radiation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Bone Structure",
+        "sentence_id": 87,
+        "char_start": 15346,
+        "char_end": 15355,
+        "anchor": "PMC5666799_15346_15355",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 375,
+      "label": "Differentiation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Ex Vivo Osteoblastogenesis",
+        "sentence_id": 114,
+        "char_start": 21665,
+        "char_end": 21680,
+        "anchor": "PMC5666799_21665_21680",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 376,
+      "label": "proliferation responses",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Ex Vivo Osteoblastogenesis",
+        "sentence_id": 114,
+        "char_start": 21685,
+        "char_end": 21708,
+        "anchor": "PMC5666799_21685_21708",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 470,
+      "label": "cell growth",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "In Vitro Radiation Effects on Osteoblastogenesis",
+        "sentence_id": 146,
+        "char_start": 27520,
+        "char_end": 27531,
+        "anchor": "PMC5666799_27520_27531",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 521,
+      "label": "cell growth",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "In Vitro Radiation Effects on Osteoblastogenesis",
+        "sentence_id": 154,
+        "char_start": 29570,
+        "char_end": 29581,
+        "anchor": "PMC5666799_29570_29581",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 522,
+      "label": "inhibition",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "In Vitro Radiation Effects on Osteoblastogenesis",
+        "sentence_id": 154,
+        "char_start": 29749,
+        "char_end": 29759,
+        "anchor": "PMC5666799_29749_29759",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 540,
+      "label": "Heavy-",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 155,
+        "char_start": 29931,
+        "char_end": 29937,
+        "anchor": "PMC5666799_29931_29937",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 541,
+      "label": "radiation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 155,
+        "char_start": 29943,
+        "char_end": 29952,
+        "anchor": "PMC5666799_29943_29952",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 544,
+      "label": "degeneration",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 155,
+        "char_start": 30040,
+        "char_end": 30052,
+        "anchor": "PMC5666799_30040_30052",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 545,
+      "label": "cellular damage",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 155,
+        "char_start": 30057,
+        "char_end": 30072,
+        "anchor": "PMC5666799_30057_30072",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 548,
+      "label": "adverse effects",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 156,
+        "char_start": 30394,
+        "char_end": 30409,
+        "anchor": "PMC5666799_30394_30409",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 572,
+      "label": "Heavy-",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 162,
+        "char_start": 31822,
+        "char_end": 31828,
+        "anchor": "PMC5666799_31822_31828",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 573,
+      "label": "radiation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 162,
+        "char_start": 31834,
+        "char_end": 31843,
+        "anchor": "PMC5666799_31834_31843",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 576,
+      "label": "degeneration",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 162,
+        "char_start": 31931,
+        "char_end": 31943,
+        "anchor": "PMC5666799_31931_31943",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 577,
+      "label": "cellular damage",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 162,
+        "char_start": 31948,
+        "char_end": 31963,
+        "anchor": "PMC5666799_31948_31963",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 580,
+      "label": "adverse effects",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 163,
+        "char_start": 32285,
+        "char_end": 32300,
+        "anchor": "PMC5666799_32285_32300",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 608,
+      "label": "cell death",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 171,
+        "char_start": 34008,
+        "char_end": 34018,
+        "anchor": "PMC5666799_34008_34018",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 609,
+      "label": "bone loss",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 171,
+        "char_start": 34062,
+        "char_end": 34071,
+        "anchor": "PMC5666799_34062_34071",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 621,
+      "label": "bone loss",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 172,
+        "char_start": 34780,
+        "char_end": 34789,
+        "anchor": "PMC5666799_34780_34789",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 628,
+      "label": "impairment",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 175,
+        "char_start": 35014,
+        "char_end": 35024,
+        "anchor": "PMC5666799_35014_35024",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 651,
+      "label": "tive stress",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 180,
+        "char_start": 36418,
+        "char_end": 36429,
+        "anchor": "PMC5666799_36418_36429",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 652,
+      "label": "colony formation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 180,
+        "char_start": 36444,
+        "char_end": 36460,
+        "anchor": "PMC5666799_36444_36460",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 658,
+      "label": "cancellous",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 183,
+        "char_start": 36988,
+        "char_end": 36998,
+        "anchor": "PMC5666799_36988_36998",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 670,
+      "label": "decrements",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 186,
+        "char_start": 37882,
+        "char_end": 37892,
+        "anchor": "PMC5666799_37882_37892",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 674,
+      "label": "of osteoclasts",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 186,
+        "char_start": 38275,
+        "char_end": 38289,
+        "anchor": "PMC5666799_38275_38289",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 677,
+      "label": "cortical changes",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 187,
+        "char_start": 38491,
+        "char_end": 38507,
+        "anchor": "PMC5666799_38491_38507",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 681,
+      "label": "cortical responses",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 188,
+        "char_start": 38638,
+        "char_end": 38656,
+        "anchor": "PMC5666799_38638_38656",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 688,
+      "label": "radiation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 191,
+        "char_start": 39211,
+        "char_end": 39220,
+        "anchor": "PMC5666799_39211_39220",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 903,
+      "label": "mineralizing",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Ex Vivo Osteoblastogenic Assays and qRT-PCR Analyses",
+        "sentence_id": 238,
+        "char_start": 51111,
+        "char_end": 51123,
+        "anchor": "PMC5666799_51111_51123",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-41-49",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 49
+    },
+    {
+      "id": "synth-41-50",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 50
+    },
+    {
+      "id": "synth-41-52",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 52
+    },
+    {
+      "id": "synth-41-71",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 71
+    },
+    {
+      "id": "synth-41-77",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 77
+    },
+    {
+      "id": "synth-41-104",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 104
+    },
+    {
+      "id": "synth-41-105",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 105
+    },
+    {
+      "id": "synth-41-141",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 141
+    },
+    {
+      "id": "synth-41-151",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 151
+    },
+    {
+      "id": "synth-41-238",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 238
+    },
+    {
+      "id": "synth-41-266",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 266
+    },
+    {
+      "id": "synth-41-375",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 375
+    },
+    {
+      "id": "synth-41-376",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 376
+    },
+    {
+      "id": "synth-41-470",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 470
+    },
+    {
+      "id": "synth-41-521",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 521
+    },
+    {
+      "id": "synth-41-522",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 522
+    },
+    {
+      "id": "synth-41-540",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 540
+    },
+    {
+      "id": "synth-41-541",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 541
+    },
+    {
+      "id": "synth-41-544",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 544
+    },
+    {
+      "id": "synth-41-545",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 545
+    },
+    {
+      "id": "synth-41-548",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 548
+    },
+    {
+      "id": "synth-41-572",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 572
+    },
+    {
+      "id": "synth-41-573",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 573
+    },
+    {
+      "id": "synth-41-576",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 576
+    },
+    {
+      "id": "synth-41-577",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 577
+    },
+    {
+      "id": "synth-41-580",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 580
+    },
+    {
+      "id": "synth-41-608",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 608
+    },
+    {
+      "id": "synth-41-609",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 609
+    },
+    {
+      "id": "synth-41-621",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 621
+    },
+    {
+      "id": "synth-41-628",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 628
+    },
+    {
+      "id": "synth-41-651",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 651
+    },
+    {
+      "id": "synth-41-652",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 652
+    },
+    {
+      "id": "synth-41-658",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 658
+    },
+    {
+      "id": "synth-41-670",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 670
+    },
+    {
+      "id": "synth-41-674",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 674
+    },
+    {
+      "id": "synth-41-677",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 677
+    },
+    {
+      "id": "synth-41-681",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 681
+    },
+    {
+      "id": "synth-41-688",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 688
+    },
+    {
+      "id": "synth-41-903",
+      "type": "ASSOCIATED",
+      "source": 41,
+      "target": 903
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "PHENOTYPE",
+    "page": null
+  }
+}

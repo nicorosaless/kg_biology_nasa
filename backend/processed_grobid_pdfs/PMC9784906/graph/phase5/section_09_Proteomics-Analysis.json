@@ -1,0 +1,114 @@
+{
+  "paper_id": "PMC9784906",
+  "section": "Proteomics Analysis",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 217,
+      "label": "Waltham",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Proteomics Analysis",
+        "sentence_id": 54,
+        "char_start": 10044,
+        "char_end": 10051,
+        "anchor": "PMC9784906_10044_10051",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 219,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Proteomics Analysis",
+        "sentence_id": 54,
+        "char_start": 10057,
+        "char_end": 10060,
+        "anchor": "PMC9784906_10057_10060",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 214,
+      "label": "Nano",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Proteomics Analysis",
+        "sentence_id": 54,
+        "char_start": 10000,
+        "char_end": 10004,
+        "anchor": "PMC9784906_10000_10004",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 215,
+      "label": "The",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Proteomics Analysis",
+        "sentence_id": 54,
+        "char_start": 10018,
+        "char_end": 10021,
+        "anchor": "PMC9784906_10018_10021",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 599,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 214,
+      "target": 215
+    },
+    {
+      "id": 601,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 214,
+      "target": 217
+    },
+    {
+      "id": 603,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 214,
+      "target": 219
+    },
+    {
+      "id": 605,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 215,
+      "target": 217
+    },
+    {
+      "id": 607,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 215,
+      "target": 219
+    },
+    {
+      "id": 612,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 217,
+      "target": 219
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 2,
+      "largest_component": 4
+    },
+    "page": 4
+  }
+}

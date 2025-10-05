@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC10889206",
+  "section": "Densitometry",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 507,
+      "label": "DXA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Densitometry",
+        "sentence_id": 120,
+        "char_start": 23538,
+        "char_end": 23541,
+        "anchor": "PMC10889206_23538_23541",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 508,
+      "label": "Madison",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Densitometry",
+        "sentence_id": 120,
+        "char_start": 23573,
+        "char_end": 23580,
+        "anchor": "PMC10889206_23573_23580",
+        "page": 10,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 812,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 507,
+      "target": 508
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 1,
+      "largest_component": 2
+    },
+    "page": 10
+  }
+}

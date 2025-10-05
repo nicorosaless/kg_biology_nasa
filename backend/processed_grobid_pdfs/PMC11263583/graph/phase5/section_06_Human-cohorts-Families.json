@@ -1,0 +1,157 @@
+{
+  "paper_id": "PMC11263583",
+  "section": "Human cohorts: Families",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 182,
+      "label": "mutation",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Families",
+        "sentence_id": 66,
+        "char_start": 16899,
+        "char_end": 16907,
+        "anchor": "PMC11263583_16899_16907",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 185,
+      "label": "minimal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Families",
+        "sentence_id": 66,
+        "char_start": 17062,
+        "char_end": 17069,
+        "anchor": "PMC11263583_17062_17069",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 186,
+      "label": "Olympic",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Families",
+        "sentence_id": 66,
+        "char_start": 17171,
+        "char_end": 17178,
+        "anchor": "PMC11263583_17171_17178",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 187,
+      "label": "Ann",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Families",
+        "sentence_id": 66,
+        "char_start": 17221,
+        "char_end": 17224,
+        "anchor": "PMC11263583_17221_17224",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 190,
+      "label": "Olympic",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Families",
+        "sentence_id": 66,
+        "char_start": 17171,
+        "char_end": 17178,
+        "anchor": "PMC11263583_17171_17178",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 261,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 182,
+      "target": 185
+    },
+    {
+      "id": 262,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 182,
+      "target": 186
+    },
+    {
+      "id": 263,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 182,
+      "target": 187
+    },
+    {
+      "id": 266,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 182,
+      "target": 190
+    },
+    {
+      "id": 268,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 185,
+      "target": 186
+    },
+    {
+      "id": 269,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 185,
+      "target": 187
+    },
+    {
+      "id": 272,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 185,
+      "target": 190
+    },
+    {
+      "id": 274,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 186,
+      "target": 187
+    },
+    {
+      "id": 277,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 186,
+      "target": 190
+    },
+    {
+      "id": 281,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 187,
+      "target": 190
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 11,
+      "largest_component": 5,
+      "removed_components": [
+        4,
+        2
+      ]
+    },
+    "page": 2
+  }
+}

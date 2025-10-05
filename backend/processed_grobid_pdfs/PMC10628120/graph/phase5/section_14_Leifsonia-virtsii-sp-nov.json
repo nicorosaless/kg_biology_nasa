@@ -1,0 +1,159 @@
+{
+  "paper_id": "PMC10628120",
+  "section": "Leifsonia virtsii sp. nov.",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 642,
+      "label": "Colonies",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Leifsonia virtsii sp. nov.",
+        "sentence_id": 159,
+        "char_start": 33332,
+        "char_end": 33340,
+        "anchor": "PMC10628120_33332_33340",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 643,
+      "label": "circular",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Leifsonia virtsii sp. nov.",
+        "sentence_id": 159,
+        "char_start": 33345,
+        "char_end": 33353,
+        "anchor": "PMC10628120_33345_33353",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 644,
+      "label": "TSA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Leifsonia virtsii sp. nov.",
+        "sentence_id": 159,
+        "char_start": 33407,
+        "char_end": 33410,
+        "anchor": "PMC10628120_33407_33410",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 645,
+      "label": "Cells",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Leifsonia virtsii sp. nov.",
+        "sentence_id": 159,
+        "char_start": 33438,
+        "char_end": 33443,
+        "anchor": "PMC10628120_33438_33443",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 646,
+      "label": "TSA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Leifsonia virtsii sp. nov.",
+        "sentence_id": 159,
+        "char_start": 33407,
+        "char_end": 33410,
+        "anchor": "PMC10628120_33407_33410",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 909,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 642,
+      "target": 643
+    },
+    {
+      "id": 910,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 642,
+      "target": 644
+    },
+    {
+      "id": 911,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 642,
+      "target": 645
+    },
+    {
+      "id": 912,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 642,
+      "target": 646
+    },
+    {
+      "id": 915,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 643,
+      "target": 644
+    },
+    {
+      "id": 916,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 643,
+      "target": 645
+    },
+    {
+      "id": 917,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 643,
+      "target": 646
+    },
+    {
+      "id": 920,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 644,
+      "target": 645
+    },
+    {
+      "id": 921,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 644,
+      "target": 646
+    },
+    {
+      "id": 924,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 645,
+      "target": 646
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 24,
+      "largest_component": 5,
+      "removed_components": [
+        5,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 7
+  }
+}

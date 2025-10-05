@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "Priorities",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 568,
+      "label": "Moon",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Priorities",
+        "sentence_id": 319,
+        "char_start": 59643,
+        "char_end": 59647,
+        "anchor": "PMC10284894_59643_59647",
+        "page": 61,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 567,
+      "label": "LSII",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Priorities",
+        "sentence_id": 319,
+        "char_start": 59359,
+        "char_end": 59363,
+        "anchor": "PMC10284894_59359_59363",
+        "page": 60,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 524,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 567,
+      "target": 568
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 3,
+      "largest_component": 2
+    },
+    "page": 60
+  }
+}

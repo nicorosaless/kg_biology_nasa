@@ -1,0 +1,132 @@
+:START_ID,:END_ID,type:TYPE,method,trigger,evidence_span,section_heading,sentence_id:int
+2,3,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"A comprehensive literature review was conducted using PubMed, Scopus, and Embase databases.",METHODS,19
+7,8,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,The literature search was performed in December 2024 and included publications in English and Spanish.,•,26
+26,27,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"At the molecular level, microgravity disrupts critical signaling pathways, including RAS, ERK, and NF-κB.The RAS pathway, which governs cell proliferation and survival, shows reduced activity under microgravity, leading to impaired cell gro",Impact on Key Molecular Pathways,65
+26,29,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"At the molecular level, microgravity disrupts critical signaling pathways, including RAS, ERK, and NF-κB.The RAS pathway, which governs cell proliferation and survival, shows reduced activity under microgravity, leading to impaired cell gro",Impact on Key Molecular Pathways,65
+27,29,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"At the molecular level, microgravity disrupts critical signaling pathways, including RAS, ERK, and NF-κB.The RAS pathway, which governs cell proliferation and survival, shows reduced activity under microgravity, leading to impaired cell gro",Impact on Key Molecular Pathways,65
+32,33,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Research on microgravity has also revealed significant effects on cancer biology, including the formation of multicellular spheroids (MCS), the reorganization of the cytoskeleton, and the regulation of key proteins such as p53 (a tumor supp",Impact on Key Molecular Pathways,68
+39,40,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Additionally, reduced gravity downregulates adhesion proteins (e.g., E-cadherin, vinculin, paxillin), weakening cell-cell interactions and potentially enhancing metastatic potential.",Cancer Stem Cells,94
+42,43,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"In gliomas (U251 model), microgravity reduces the activity of focal adhesion kinase (FAK), RhoA, and Nek2 kinase, inhibiting tumor cell migration.",Cancer Stem Cells,98
+45,46,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Recent findings suggest that microgravity could offer therapeutic benefits by inhibiting NF-κB, reducing cancer spread, and decreasing VEGF activity to limit tumor growth through reduced angiogenesis.",Cancer Stem Cells,100
+80,79,GENE_PRODUCT_INVOLVED_IN_PATHWAY,COOC,,"[53] (Figure 4).Additionally, it leads to the temporary deactivation of the Hippo pathway, involving upstream regulators such as MST1/2, SAV1, WWC1-3, LATS1/2, and MOB1, which in turn promotes the nuclear translocation of YAP/TAZ.Furthermor",Impacts on Stem Cells and Cell Regeneration,262
+81,79,GENE_PRODUCT_INVOLVED_IN_PATHWAY,COOC,,"[53] (Figure 4).Additionally, it leads to the temporary deactivation of the Hippo pathway, involving upstream regulators such as MST1/2, SAV1, WWC1-3, LATS1/2, and MOB1, which in turn promotes the nuclear translocation of YAP/TAZ.Furthermor",Impacts on Stem Cells and Cell Regeneration,262
+82,79,GENE_PRODUCT_INVOLVED_IN_PATHWAY,COOC,,"[53] (Figure 4).Additionally, it leads to the temporary deactivation of the Hippo pathway, involving upstream regulators such as MST1/2, SAV1, WWC1-3, LATS1/2, and MOB1, which in turn promotes the nuclear translocation of YAP/TAZ.Furthermor",Impacts on Stem Cells and Cell Regeneration,262
+83,79,GENE_PRODUCT_INVOLVED_IN_PATHWAY,COOC,,"[53] (Figure 4).Additionally, it leads to the temporary deactivation of the Hippo pathway, involving upstream regulators such as MST1/2, SAV1, WWC1-3, LATS1/2, and MOB1, which in turn promotes the nuclear translocation of YAP/TAZ.Furthermor",Impacts on Stem Cells and Cell Regeneration,262
+84,79,GENE_PRODUCT_INVOLVED_IN_PATHWAY,COOC,,"[53] (Figure 4).Additionally, it leads to the temporary deactivation of the Hippo pathway, involving upstream regulators such as MST1/2, SAV1, WWC1-3, LATS1/2, and MOB1, which in turn promotes the nuclear translocation of YAP/TAZ.Furthermor",Impacts on Stem Cells and Cell Regeneration,262
+80,81,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"[53] (Figure 4).Additionally, it leads to the temporary deactivation of the Hippo pathway, involving upstream regulators such as MST1/2, SAV1, WWC1-3, LATS1/2, and MOB1, which in turn promotes the nuclear translocation of YAP/TAZ.Furthermor",Impacts on Stem Cells and Cell Regeneration,262
+80,82,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"[53] (Figure 4).Additionally, it leads to the temporary deactivation of the Hippo pathway, involving upstream regulators such as MST1/2, SAV1, WWC1-3, LATS1/2, and MOB1, which in turn promotes the nuclear translocation of YAP/TAZ.Furthermor",Impacts on Stem Cells and Cell Regeneration,262
+80,83,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"[53] (Figure 4).Additionally, it leads to the temporary deactivation of the Hippo pathway, involving upstream regulators such as MST1/2, SAV1, WWC1-3, LATS1/2, and MOB1, which in turn promotes the nuclear translocation of YAP/TAZ.Furthermor",Impacts on Stem Cells and Cell Regeneration,262
+80,84,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"[53] (Figure 4).Additionally, it leads to the temporary deactivation of the Hippo pathway, involving upstream regulators such as MST1/2, SAV1, WWC1-3, LATS1/2, and MOB1, which in turn promotes the nuclear translocation of YAP/TAZ.Furthermor",Impacts on Stem Cells and Cell Regeneration,262
+81,82,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"[53] (Figure 4).Additionally, it leads to the temporary deactivation of the Hippo pathway, involving upstream regulators such as MST1/2, SAV1, WWC1-3, LATS1/2, and MOB1, which in turn promotes the nuclear translocation of YAP/TAZ.Furthermor",Impacts on Stem Cells and Cell Regeneration,262
+81,83,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"[53] (Figure 4).Additionally, it leads to the temporary deactivation of the Hippo pathway, involving upstream regulators such as MST1/2, SAV1, WWC1-3, LATS1/2, and MOB1, which in turn promotes the nuclear translocation of YAP/TAZ.Furthermor",Impacts on Stem Cells and Cell Regeneration,262
+81,84,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"[53] (Figure 4).Additionally, it leads to the temporary deactivation of the Hippo pathway, involving upstream regulators such as MST1/2, SAV1, WWC1-3, LATS1/2, and MOB1, which in turn promotes the nuclear translocation of YAP/TAZ.Furthermor",Impacts on Stem Cells and Cell Regeneration,262
+82,83,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"[53] (Figure 4).Additionally, it leads to the temporary deactivation of the Hippo pathway, involving upstream regulators such as MST1/2, SAV1, WWC1-3, LATS1/2, and MOB1, which in turn promotes the nuclear translocation of YAP/TAZ.Furthermor",Impacts on Stem Cells and Cell Regeneration,262
+82,84,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"[53] (Figure 4).Additionally, it leads to the temporary deactivation of the Hippo pathway, involving upstream regulators such as MST1/2, SAV1, WWC1-3, LATS1/2, and MOB1, which in turn promotes the nuclear translocation of YAP/TAZ.Furthermor",Impacts on Stem Cells and Cell Regeneration,262
+83,84,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"[53] (Figure 4).Additionally, it leads to the temporary deactivation of the Hippo pathway, involving upstream regulators such as MST1/2, SAV1, WWC1-3, LATS1/2, and MOB1, which in turn promotes the nuclear translocation of YAP/TAZ.Furthermor",Impacts on Stem Cells and Cell Regeneration,262
+87,86,GENE_PRODUCT_INVOLVED_IN_PATHWAY,COOC,,"[55][56][57].Under microgravity conditions, hematopoietic stem cells demonstrate more efficient induction of endothelial hemogenic progenitors, leading Additionally, it leads to the temporary deactivation of the Hippo pathway, involving ups",Hematopoietic Differentiation,265
+88,86,GENE_PRODUCT_INVOLVED_IN_PATHWAY,COOC,,"[55][56][57].Under microgravity conditions, hematopoietic stem cells demonstrate more efficient induction of endothelial hemogenic progenitors, leading Additionally, it leads to the temporary deactivation of the Hippo pathway, involving ups",Hematopoietic Differentiation,265
+89,86,GENE_PRODUCT_INVOLVED_IN_PATHWAY,COOC,,"[55][56][57].Under microgravity conditions, hematopoietic stem cells demonstrate more efficient induction of endothelial hemogenic progenitors, leading Additionally, it leads to the temporary deactivation of the Hippo pathway, involving ups",Hematopoietic Differentiation,265
+90,86,GENE_PRODUCT_INVOLVED_IN_PATHWAY,COOC,,"[55][56][57].Under microgravity conditions, hematopoietic stem cells demonstrate more efficient induction of endothelial hemogenic progenitors, leading Additionally, it leads to the temporary deactivation of the Hippo pathway, involving ups",Hematopoietic Differentiation,265
+91,86,GENE_PRODUCT_INVOLVED_IN_PATHWAY,COOC,,"[55][56][57].Under microgravity conditions, hematopoietic stem cells demonstrate more efficient induction of endothelial hemogenic progenitors, leading Additionally, it leads to the temporary deactivation of the Hippo pathway, involving ups",Hematopoietic Differentiation,265
+87,88,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"[55][56][57].Under microgravity conditions, hematopoietic stem cells demonstrate more efficient induction of endothelial hemogenic progenitors, leading Additionally, it leads to the temporary deactivation of the Hippo pathway, involving ups",Hematopoietic Differentiation,265
+87,89,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"[55][56][57].Under microgravity conditions, hematopoietic stem cells demonstrate more efficient induction of endothelial hemogenic progenitors, leading Additionally, it leads to the temporary deactivation of the Hippo pathway, involving ups",Hematopoietic Differentiation,265
+87,90,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"[55][56][57].Under microgravity conditions, hematopoietic stem cells demonstrate more efficient induction of endothelial hemogenic progenitors, leading Additionally, it leads to the temporary deactivation of the Hippo pathway, involving ups",Hematopoietic Differentiation,265
+87,91,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"[55][56][57].Under microgravity conditions, hematopoietic stem cells demonstrate more efficient induction of endothelial hemogenic progenitors, leading Additionally, it leads to the temporary deactivation of the Hippo pathway, involving ups",Hematopoietic Differentiation,265
+88,89,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"[55][56][57].Under microgravity conditions, hematopoietic stem cells demonstrate more efficient induction of endothelial hemogenic progenitors, leading Additionally, it leads to the temporary deactivation of the Hippo pathway, involving ups",Hematopoietic Differentiation,265
+88,90,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"[55][56][57].Under microgravity conditions, hematopoietic stem cells demonstrate more efficient induction of endothelial hemogenic progenitors, leading Additionally, it leads to the temporary deactivation of the Hippo pathway, involving ups",Hematopoietic Differentiation,265
+88,91,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"[55][56][57].Under microgravity conditions, hematopoietic stem cells demonstrate more efficient induction of endothelial hemogenic progenitors, leading Additionally, it leads to the temporary deactivation of the Hippo pathway, involving ups",Hematopoietic Differentiation,265
+89,90,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"[55][56][57].Under microgravity conditions, hematopoietic stem cells demonstrate more efficient induction of endothelial hemogenic progenitors, leading Additionally, it leads to the temporary deactivation of the Hippo pathway, involving ups",Hematopoietic Differentiation,265
+89,91,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"[55][56][57].Under microgravity conditions, hematopoietic stem cells demonstrate more efficient induction of endothelial hemogenic progenitors, leading Additionally, it leads to the temporary deactivation of the Hippo pathway, involving ups",Hematopoietic Differentiation,265
+90,91,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"[55][56][57].Under microgravity conditions, hematopoietic stem cells demonstrate more efficient induction of endothelial hemogenic progenitors, leading Additionally, it leads to the temporary deactivation of the Hippo pathway, involving ups",Hematopoietic Differentiation,265
+96,97,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"Transcriptomic analyses have identified the differential activation of thousands of genes involved in hematopoiesis, including RUNX1, SOX17, and GATA1.RUNX1 is essential for establishing hematopoietic stem cells, SOX17 for maintaining pluri",Hematopoietic Differentiation,276
+100,99,GENE_PRODUCT_INVOLVED_IN_PATHWAY,COOC,,"This pathway modulates proteins such as mTOR, which governs cell growth and metabolism, and Bad, which inhibits apoptosis, ensuring the survival of hematopoietic progenitor cells.",Hematopoietic Differentiation,282
+101,102,GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT,COOC,,"[17,[58][59][60][61][62].This occurs through survival signaling, primarily via PI3K-Akt pathway activation, where increased Akt phosphorylation inhibits proapoptotic proteins such as BAD and enhances cell survival via antiapoptotic mechanis",Hematopoietic Differentiation,289
+104,103,GENE_PRODUCT_INVOLVED_IN_PATHWAY,COOC,,"Additionally, microgravity modulates Notch path-way interactions and transcription factors like RUNX1, crucial for hematopoietic lineage commitment.",Hematopoietic Differentiation,290
+PUB_PMC11988870,0,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,1,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,4,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,5,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,6,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,9,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,12,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,13,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,16,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,18,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,20,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,21,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,22,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,24,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,30,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,31,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,34,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,35,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,36,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,37,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,38,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,41,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,44,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,47,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,50,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,51,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,52,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,54,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,56,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,63,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,64,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,65,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,66,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,67,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,70,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,72,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,74,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,75,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,76,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,77,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,85,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,92,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,93,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,94,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,105,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,108,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,109,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,111,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,112,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,113,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,114,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,115,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,116,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_LINK,,,,
+PUB_PMC11988870,2,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,3,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,7,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,8,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,26,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,27,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,29,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,32,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,33,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,39,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,40,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,42,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,43,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,45,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,46,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,79,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,80,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,81,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,82,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,83,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,84,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,86,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,87,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,88,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,89,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,90,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,91,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,96,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,97,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,99,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,100,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,101,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,102,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,103,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,
+PUB_PMC11988870,104,PUBLICATION_EVIDENCES_ENTITY,PUBLICATION_CONNECTIVITY,,,,

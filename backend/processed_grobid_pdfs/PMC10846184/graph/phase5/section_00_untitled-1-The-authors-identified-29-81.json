@@ -1,0 +1,99 @@
+{
+  "paper_id": "PMC10846184",
+  "section": "(untitled) 1.The authors identified 29, 81,",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 24,
+      "label": "IbM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) 1.The authors identified 29, 81,",
+        "sentence_id": 20,
+        "char_start": 2888,
+        "char_end": 2891,
+        "anchor": "PMC10846184_2888_2891",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 22,
+      "label": "FBA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) 1.The authors identified 29, 81,",
+        "sentence_id": 20,
+        "char_start": 2893,
+        "char_end": 2896,
+        "anchor": "PMC10846184_2893_2896",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 23,
+      "label": "cFBA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) 1.The authors identified 29, 81,",
+        "sentence_id": 20,
+        "char_start": 2901,
+        "char_end": 2905,
+        "anchor": "PMC10846184_2901_2905",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 13,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 22,
+      "target": 23
+    },
+    {
+      "id": 14,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 22,
+      "target": 24
+    },
+    {
+      "id": 15,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 23,
+      "target": 24
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 17,
+      "removed_orphans": 1,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 1
+  }
+}

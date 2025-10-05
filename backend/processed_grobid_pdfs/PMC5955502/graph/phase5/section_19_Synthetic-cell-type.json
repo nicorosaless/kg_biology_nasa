@@ -1,0 +1,94 @@
+{
+  "paper_id": "PMC5955502",
+  "section": "Synthetic CELL_TYPE",
+  "n_nodes": 4,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 58,
+      "label": "cancer cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 11,
+        "char_start": 2750,
+        "char_end": 2762,
+        "anchor": "PMC5955502_2750_2762",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 74,
+      "label": "rotary cell",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 19,
+        "char_start": 4147,
+        "char_end": 4158,
+        "anchor": "PMC5955502_4147_4158",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 463,
+      "label": "cardiomyocytes",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 121,
+        "char_start": 26246,
+        "char_end": 26260,
+        "anchor": "PMC5955502_26246_26260",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 472,
+      "label": "cardiomyocytes",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 123,
+        "char_start": 26637,
+        "char_end": 26651,
+        "anchor": "PMC5955502_26637_26651",
+        "page": 13,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-58-74",
+      "type": "ASSOCIATED",
+      "source": 58,
+      "target": 74
+    },
+    {
+      "id": "synth-58-463",
+      "type": "ASSOCIATED",
+      "source": 58,
+      "target": 463
+    },
+    {
+      "id": "synth-58-472",
+      "type": "ASSOCIATED",
+      "source": 58,
+      "target": 472
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "CELL_TYPE",
+    "page": null
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "h) Microgravity Effects on Cerebral and Ocular Circulation Vascular Function",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 2569,
+      "label": "recovery",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "h) Microgravity Effects on Cerebral and Ocular Circulation Vascular Function",
+        "sentence_id": 822,
+        "char_start": 138006,
+        "char_end": 138014,
+        "anchor": "PMC4385880_138006_138014",
+        "page": 64,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2571,
+      "label": "HDT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "h) Microgravity Effects on Cerebral and Ocular Circulation Vascular Function",
+        "sentence_id": 822,
+        "char_start": 137876,
+        "char_end": 137879,
+        "anchor": "PMC4385880_137876_137879",
+        "page": 64,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2572,
+      "label": "HDT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "h) Microgravity Effects on Cerebral and Ocular Circulation Vascular Function",
+        "sentence_id": 822,
+        "char_start": 137966,
+        "char_end": 137969,
+        "anchor": "PMC4385880_137966_137969",
+        "page": 64,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2566,
+      "label": "cerebral",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "h) Microgravity Effects on Cerebral and Ocular Circulation Vascular Function",
+        "sentence_id": 822,
+        "char_start": 137894,
+        "char_end": 137902,
+        "anchor": "PMC4385880_137894_137902",
+        "page": 64,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 2491,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2566,
+      "target": 2569
+    },
+    {
+      "id": 2493,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2566,
+      "target": 2571
+    },
+    {
+      "id": 2494,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2566,
+      "target": 2572
+    },
+    {
+      "id": 2496,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2569,
+      "target": 2571
+    },
+    {
+      "id": 2497,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2569,
+      "target": 2572
+    },
+    {
+      "id": 2500,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2571,
+      "target": 2572
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 12,
+      "removed_orphans": 6,
+      "largest_component": 4,
+      "removed_components": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 64
+  }
+}

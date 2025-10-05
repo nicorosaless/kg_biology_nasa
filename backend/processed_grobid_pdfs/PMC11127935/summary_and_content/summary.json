@@ -1,0 +1,174 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "Tardigrades, known for their ability to withstand extreme environmental stresses, express tardigrade-specific intrinsically disordered proteins (TDPs), particularly secretory-abundant heat soluble (SAHS) proteins, which are highly expressed upon desiccation and appear to mediate stress adaptation. This study investigates the protective capabilities of SAHS proteins on diverse biological structures using recombinant SAHS proteins to prevent liposome fusion and enhance desiccation tolerance of E. coli and Rhizobium tropici via extracellular application. Molecular dynamics simulations suggest that SAHS proteins undergo structural transitions upon desiccation, destabilizing the beta-sheet structure. The research highlights the potential of SAHS proteins as stabilizing molecules for cell preservation.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Fig.",
+        "order": 7,
+        "forced": true,
+        "image_path": "figures/fig_1.jpeg"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Fig.",
+        "order": 8,
+        "forced": true,
+        "image_path": "figures/fig_2.jpeg"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Fig.",
+        "order": 9,
+        "forced": true,
+        "image_path": "figures/fig_3.jpeg"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Fig.",
+        "order": 10,
+        "forced": true,
+        "image_path": "figures/fig_4.jpeg"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Protein Sequence Analysis and Expression",
+      "summary": "Twelve SAHS proteins from R. varieornatus and one from H. exemplaris were selected for expression in E. coli, with computational predictions suggesting that most would be secreted. Further genomic analysis revealed that some short SAHS protein sequences in Uniprot may be incorrectly annotated. Putative intron locations were identified upstream of start codons for RvSAHS9, RvSAHS10, and RvSAHS12, indicating a more complete N-terminal sequence than previously recognized.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "SAHS Proteins Stabilize Liposomes",
+      "summary": "SAHS proteins were tested for their ability to stabilize lipid membranes during dehydration using POPC liposomes. Drying and rehydration of liposomes resulted in increased particle diameter, indicating membrane damage and fusion. However, the presence of SAHS proteins during drying provided partial protection, with higher concentrations yielding better results. The addition of SAHS proteins prevented liposome fusion and aggregation, with particle sizes remaining smaller compared to those dried without excipients. SAHS proteins demonstrated superior protection compared to bovine serum albumin (BSA), while trehalose offered similar protection against membrane fusion.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "SAHS Proteins Enhance Bacterial Survival",
+      "summary": "Extracellular application of SAHS proteins was evaluated for enhancing desiccation tolerance in bacterial cells. E. coli cells dried with RvSAHS1 exhibited significantly enhanced survival compared to those dried without excipients or with BSA. Trehalose also provided protection, although less effective than RvSAHS1. Similarly, R. tropici cells showed a substantial increase in survival upon the addition of SAHS proteins during drying, surpassing the protective effects of trehalose and BSA. Intracellular expression of SAHS proteins in E. coli did not show clear enhancement.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "SAHS Proteins and BSA Protect Enzymes",
+      "summary": "The ability of SAHS proteins to protect enzymes from desiccation-induced inactivation was assessed using lactate dehydrogenase (LDH). LDH lost most of its activity upon drying, but the presence of SAHS proteins helped preserve its activity, with increasing concentrations leading to greater protection. BSA exhibited a comparable protective effect on LDH activity, contrasting with the specific effect of SAHS proteins over BSA on membrane structures and cells.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Structural Changes of SAHS Proteins",
+      "summary": "The secondary structures of SAHS proteins were examined using circular dichroism (CD) to understand their behavior upon water loss. CD spectra indicated that SAHS proteins adopt β-structures under aqueous conditions. Upon exposure to trifluoroethanol (TFE), mimicking water-deficit conditions, the proteins exhibited a shift towards α-helical structures. In contrast, increasing concentrations of glycerol did not induce such structural changes. Transmission electron microscopy (TEM) revealed a filamentous, mesh-like structure in dried RvSAHS1 proteins.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Structural Bioinformatic Analysis",
+      "summary": "The solved structures of RvSAHS1 and RvSAHS4 were compared with fatty acid-binding proteins to understand how SAHS proteins protect vesicles and cells during drying.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": "This study demonstrated the ability of SAHS proteins to protect membrane-containing structures and living bacteria against desiccation, with limited effect on enzyme protection compared to BSA. CD analysis revealed a shift from beta-sheet to alpha-helical structures in desiccation-mimicking conditions. Structural analysis suggests SAHS proteins may have been incorrectly annotated in databases, are likely secreted, and possess a common structure related to fatty acid-binding proteins with a large cavity. These findings offer insights into the protective mechanisms of tardigrade proteins and their potential applications in preserving biological materials.",
+  "keywords": [
+    "tardigrade",
+    "sahs proteins",
+    "desiccation tolerance",
+    "anhydrobiosis",
+    "liposomes",
+    "e. coli",
+    "rhizobium tropici",
+    "protein structure",
+    "circular dichroism",
+    "trehalose"
+  ],
+  "topics": [
+    "molecular biology",
+    "protein engineering",
+    "stress tolerance"
+  ],
+  "_meta": {
+    "paper_id": "sha256:e262e2d43001ead649ac5a45095eeaf7d5907aa65ceb37c08a1917579c9db125",
+    "paper_title": "Tardigrade secretory proteins protect biological structures from desiccation Check for updates",
+    "generated_at": "2025-10-05T10:37:28Z",
+    "word_count": 494,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "tardigrade",
+      "sahs proteins",
+      "desiccation tolerance",
+      "anhydrobiosis",
+      "liposomes",
+      "e. coli",
+      "rhizobium tropici",
+      "protein structure",
+      "circular dichroism",
+      "trehalose"
+    ],
+    "topics": [
+      "molecular biology",
+      "protein engineering",
+      "stress tolerance"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 5416,
+      "completion_tokens": 1074,
+      "total_tokens": 6490,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000542,
+      "output_usd": 0.00043,
+      "total_usd": 0.000971
+    },
+    "cost": {
+      "input_usd": 0.000542,
+      "output_usd": 0.00043,
+      "total_usd": 0.000971
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [],
+      "corrupted_detected": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ],
+      "original_total": 4,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

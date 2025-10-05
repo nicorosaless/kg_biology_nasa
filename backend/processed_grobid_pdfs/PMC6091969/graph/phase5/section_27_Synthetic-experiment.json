@@ -1,0 +1,3139 @@
+{
+  "paper_id": "PMC6091969",
+  "section": "Synthetic EXPERIMENT",
+  "n_nodes": 149,
+  "n_edges": 148,
+  "nodes": [
+    {
+      "id": 5,
+      "label": "fungal clearance",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 5,
+        "char_start": 669,
+        "char_end": 685,
+        "anchor": "PMC6091969_669_685",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 10,
+      "label": "impaired germination",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 6,
+        "char_start": 842,
+        "char_end": 862,
+        "anchor": "PMC6091969_842_862",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 20,
+      "label": "mortality",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 10,
+        "char_start": 1858,
+        "char_end": 1867,
+        "anchor": "PMC6091969_1858_1867",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 21,
+      "label": "50 to 60%",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 10,
+        "char_start": 1885,
+        "char_end": 1894,
+        "anchor": "PMC6091969_1885_1894",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 25,
+      "label": "innate immune system",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 13,
+        "char_start": 2252,
+        "char_end": 2272,
+        "anchor": "PMC6091969_2252_2272",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 31,
+      "label": "CCR2+ inflammatory monocytes",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 14,
+        "char_start": 3120,
+        "char_end": 3148,
+        "anchor": "PMC6091969_3120_3148",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 32,
+      "label": "neutrophil function",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 14,
+        "char_start": 3162,
+        "char_end": 3181,
+        "anchor": "PMC6091969_3162_3181",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 33,
+      "label": "pro-inflammatory gene expression",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 14,
+        "char_start": 3217,
+        "char_end": 3249,
+        "anchor": "PMC6091969_3217_3249",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 41,
+      "label": "zebrafish",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 19,
+        "char_start": 4273,
+        "char_end": 4282,
+        "anchor": "PMC6091969_4273_4282",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 44,
+      "label": "rine models",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 20,
+        "char_start": 4488,
+        "char_end": 4499,
+        "anchor": "PMC6091969_4488_4499",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 50,
+      "label": "neutrophil recruitment",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 21,
+        "char_start": 5009,
+        "char_end": 5031,
+        "anchor": "PMC6091969_5009_5031",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 51,
+      "label": "immune responses",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 22,
+        "char_start": 5107,
+        "char_end": 5123,
+        "anchor": "PMC6091969_5107_5123",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 52,
+      "label": "spore transfer",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 22,
+        "char_start": 5166,
+        "char_end": 5180,
+        "anchor": "PMC6091969_5166_5180",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 56,
+      "label": "differential",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 23,
+        "char_start": 5468,
+        "char_end": 5480,
+        "anchor": "PMC6091969_5468_5480",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 58,
+      "label": "specific mouse",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 23,
+        "char_start": 5495,
+        "char_end": 5509,
+        "anchor": "PMC6091969_5495_5509",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 59,
+      "label": "zebrafish models",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 23,
+        "char_start": 5514,
+        "char_end": 5530,
+        "anchor": "PMC6091969_5514_5530",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 61,
+      "label": "50,000 single nucleotide polymorphisms",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 24,
+        "char_start": 5584,
+        "char_end": 5622,
+        "anchor": "PMC6091969_5584_5622",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 62,
+      "label": "average level",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 24,
+        "char_start": 5657,
+        "char_end": 5670,
+        "anchor": "PMC6091969_5657_5670",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 63,
+      "label": "genetic diversity",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 24,
+        "char_start": 5674,
+        "char_end": 5691,
+        "anchor": "PMC6091969_5674_5691",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 68,
+      "label": "live imaging",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 27,
+        "char_start": 5988,
+        "char_end": 6000,
+        "anchor": "PMC6091969_5988_6000",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 79,
+      "label": "Differences",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "A CEA10-derived strain of Aspergillus fumigatus is killed better than an Af293-derived strain in vivo",
+        "sentence_id": 34,
+        "char_start": 6863,
+        "char_end": 6874,
+        "anchor": "PMC6091969_6863_6874",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 84,
+      "label": "fluorescent",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "A CEA10-derived strain of Aspergillus fumigatus is killed better than an Af293-derived strain in vivo",
+        "sentence_id": 36,
+        "char_start": 7544,
+        "char_end": 7555,
+        "anchor": "PMC6091969_7544_7555",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 102,
+      "label": "AlexaFluo",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "A CEA10-derived strain of Aspergillus fumigatus is killed better than an Af293-derived strain in vivo",
+        "sentence_id": 39,
+        "char_start": 8580,
+        "char_end": 8589,
+        "anchor": "PMC6091969_8580_8589",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 106,
+      "label": "more virulent than",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "A CEA10-derived strain of Aspergillus fumigatus is killed better than an Af293-derived strain in vivo",
+        "sentence_id": 39,
+        "char_start": 8760,
+        "char_end": 8778,
+        "anchor": "PMC6091969_8760_8778",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 117,
+      "label": "specific inflammatory pathways",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88-mediated inflammatory activation is required for clearance of a CEA10-derived strain",
+        "sentence_id": 46,
+        "char_start": 9825,
+        "char_end": 9855,
+        "anchor": "PMC6091969_9825_9855",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 128,
+      "label": "motherapeutic mouse",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88-mediated inflammatory activation is required for clearance of a CEA10-derived strain",
+        "sentence_id": 50,
+        "char_start": 10971,
+        "char_end": 10990,
+        "anchor": "PMC6091969_10971_10990",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 139,
+      "label": "IL-1R",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88-mediated inflammatory activation is required for clearance of a CEA10-derived strain",
+        "sentence_id": 52,
+        "char_start": 11591,
+        "char_end": 11596,
+        "anchor": "PMC6091969_11591_11596",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 153,
+      "label": "inflammatory",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88-mediated inflammatory activation is required for clearance of a CEA10-derived strain",
+        "sentence_id": 55,
+        "char_start": 12465,
+        "char_end": 12477,
+        "anchor": "PMC6091969_12465_12477",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 156,
+      "label": "signaling",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88-mediated inflammatory activation is required for clearance of a CEA10-derived strain",
+        "sentence_id": 55,
+        "char_start": 12518,
+        "char_end": 12527,
+        "anchor": "PMC6091969_12518_12527",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 157,
+      "label": "immune activation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "CEA10-induced inflammatory activation is not sufficient for killing of Af293",
+        "sentence_id": 56,
+        "char_start": 12620,
+        "char_end": 12637,
+        "anchor": "PMC6091969_12620_12637",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 166,
+      "label": "utrophils",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages form tight, persistent, and dynamic clusters around A. fumigatus",
+        "sentence_id": 58,
+        "char_start": 13639,
+        "char_end": 13648,
+        "anchor": "PMC6091969_13639_13648",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 167,
+      "label": "macrophage nuclei",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages form tight, persistent, and dynamic clusters around A. fumigatus",
+        "sentence_id": 59,
+        "char_start": 13759,
+        "char_end": 13776,
+        "anchor": "PMC6091969_13759_13776",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 169,
+      "label": "immune cell recruitment",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages form tight, persistent, and dynamic clusters around A. fumigatus",
+        "sentence_id": 59,
+        "char_start": 13896,
+        "char_end": 13919,
+        "anchor": "PMC6091969_13896_13919",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 183,
+      "label": "CFU counts",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages form tight, persistent, and dynamic clusters around A. fumigatus",
+        "sentence_id": 62,
+        "char_start": 16371,
+        "char_end": 16381,
+        "anchor": "PMC6091969_16371_16381",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 184,
+      "label": "dominant-negative copy",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages form tight, persistent, and dynamic clusters around A. fumigatus",
+        "sentence_id": 62,
+        "char_start": 16467,
+        "char_end": 16489,
+        "anchor": "PMC6091969_16467_16489",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 199,
+      "label": "3 times",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages form tight, persistent, and dynamic clusters around A. fumigatus",
+        "sentence_id": 64,
+        "char_start": 17891,
+        "char_end": 17898,
+        "anchor": "PMC6091969_17891_17898",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 207,
+      "label": "2 dpi",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages provide a protective niche for CEA10",
+        "sentence_id": 67,
+        "char_start": 18893,
+        "char_end": 18898,
+        "anchor": "PMC6091969_18893_18898",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 216,
+      "label": "larger number",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages provide a protective niche for CEA10",
+        "sentence_id": 68,
+        "char_start": 19498,
+        "char_end": 19511,
+        "anchor": "PMC6091969_19498_19511",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 217,
+      "label": "neutrophil",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages provide a protective niche for CEA10",
+        "sentence_id": 68,
+        "char_start": 19515,
+        "char_end": 19525,
+        "anchor": "PMC6091969_19515_19525",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 219,
+      "label": "PBS liposome",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages provide a protective niche for CEA10",
+        "sentence_id": 68,
+        "char_start": 19687,
+        "char_end": 19699,
+        "anchor": "PMC6091969_19687_19699",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 220,
+      "label": "1 dpi",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages provide a protective niche for CEA10",
+        "sentence_id": 68,
+        "char_start": 19719,
+        "char_end": 19724,
+        "anchor": "PMC6091969_19719_19724",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 223,
+      "label": "early clearance",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages provide a protective niche for CEA10",
+        "sentence_id": 68,
+        "char_start": 19883,
+        "char_end": 19898,
+        "anchor": "PMC6091969_19883_19898",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 228,
+      "label": "recruitment",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "CEA10 recruits more neutrophils than Af293 in macrophage-deficient hosts",
+        "sentence_id": 71,
+        "char_start": 20858,
+        "char_end": 20869,
+        "anchor": "PMC6091969_20858_20869",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 232,
+      "label": "recruitment",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "CEA10 recruits more neutrophils than Af293 in macrophage-deficient hosts",
+        "sentence_id": 72,
+        "char_start": 21237,
+        "char_end": 21248,
+        "anchor": "PMC6091969_21237_21248",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 240,
+      "label": "recruitment",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Macrophages inhibit A. fumigatus germination",
+        "sentence_id": 75,
+        "char_start": 21789,
+        "char_end": 21800,
+        "anchor": "PMC6091969_21789_21800",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 250,
+      "label": "β-glucans",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88 is not required for neutrophil-mediated fungal killing",
+        "sentence_id": 77,
+        "char_start": 22658,
+        "char_end": 22667,
+        "anchor": "PMC6091969_22658_22667",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 257,
+      "label": "1 dpi",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88 is not required for neutrophil-mediated fungal killing",
+        "sentence_id": 78,
+        "char_start": 23409,
+        "char_end": 23414,
+        "anchor": "PMC6091969_23409_23414",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 258,
+      "label": "clearance",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88 is not required for neutrophil-mediated fungal killing",
+        "sentence_id": 78,
+        "char_start": 23440,
+        "char_end": 23449,
+        "anchor": "PMC6091969_23440_23449",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 260,
+      "label": "significantly increased",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88 is not required for neutrophil-mediated fungal killing",
+        "sentence_id": 78,
+        "char_start": 23632,
+        "char_end": 23655,
+        "anchor": "PMC6091969_23632_23655",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 261,
+      "label": "virtually identical clearance",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88 is not required for neutrophil-mediated fungal killing",
+        "sentence_id": 78,
+        "char_start": 23705,
+        "char_end": 23734,
+        "anchor": "PMC6091969_23705_23734",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 269,
+      "label": "germinate faster than",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "A CEA10-derived strain germinates earlier than an Af293-derived strain in vivo",
+        "sentence_id": 80,
+        "char_start": 24367,
+        "char_end": 24388,
+        "anchor": "PMC6091969_24367_24388",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 270,
+      "label": "liquid culture",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "A CEA10-derived strain germinates earlier than an Af293-derived strain in vivo",
+        "sentence_id": 80,
+        "char_start": 24398,
+        "char_end": 24412,
+        "anchor": "PMC6091969_24398_24412",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 274,
+      "label": "rmination rates",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "A CEA10-derived strain germinates earlier than an Af293-derived strain in vivo",
+        "sentence_id": 81,
+        "char_start": 24534,
+        "char_end": 24549,
+        "anchor": "PMC6091969_24534_24549",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 292,
+      "label": "rminates significantly faster",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "A CEA10-derived strain germinates earlier than an Af293-derived strain in vivo",
+        "sentence_id": 84,
+        "char_start": 25638,
+        "char_end": 25667,
+        "anchor": "PMC6091969_25638_25667",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 307,
+      "label": "immune cell killing activity",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Germination drives neutrophil-mediated fungal killing",
+        "sentence_id": 86,
+        "char_start": 26372,
+        "char_end": 26400,
+        "anchor": "PMC6091969_26372_26400",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 309,
+      "label": "uridine-uracil",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Germination drives neutrophil-mediated fungal killing",
+        "sentence_id": 87,
+        "char_start": 26592,
+        "char_end": 26606,
+        "anchor": "PMC6091969_26592_26606",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 310,
+      "label": "impaired germination",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Germination drives neutrophil-mediated fungal killing",
+        "sentence_id": 87,
+        "char_start": 26629,
+        "char_end": 26649,
+        "anchor": "PMC6091969_26629_26649",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 313,
+      "label": "impaired germination",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Germination drives neutrophil-mediated fungal killing",
+        "sentence_id": 87,
+        "char_start": 26728,
+        "char_end": 26748,
+        "anchor": "PMC6091969_26728_26748",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 323,
+      "label": "CFU counts",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Germination drives neutrophil-mediated fungal killing",
+        "sentence_id": 89,
+        "char_start": 27207,
+        "char_end": 27217,
+        "anchor": "PMC6091969_27207_27217",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 329,
+      "label": "+ strain",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Germination drives neutrophil-mediated fungal killing",
+        "sentence_id": 90,
+        "char_start": 27517,
+        "char_end": 27525,
+        "anchor": "PMC6091969_27517_27525",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 331,
+      "label": "3 dpi",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Germination drives neutrophil-mediated fungal killing",
+        "sentence_id": 90,
+        "char_start": 27579,
+        "char_end": 27584,
+        "anchor": "PMC6091969_27579_27584",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 341,
+      "label": "fungal clearance",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Germination drives neutrophil-mediated fungal killing",
+        "sentence_id": 92,
+        "char_start": 28331,
+        "char_end": 28347,
+        "anchor": "PMC6091969_28331_28347",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 344,
+      "label": "faster germin",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Germination drives neutrophil-mediated fungal killing",
+        "sentence_id": 94,
+        "char_start": 28732,
+        "char_end": 28745,
+        "anchor": "PMC6091969_28732_28745",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 351,
+      "label": ". fumigatus",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 96,
+        "char_start": 29187,
+        "char_end": 29198,
+        "anchor": "PMC6091969_29187_29198",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 352,
+      "label": "clearance",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 97,
+        "char_start": 29289,
+        "char_end": 29298,
+        "anchor": "PMC6091969_29289_29298",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 353,
+      "label": "recruit as many neutrophil",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 97,
+        "char_start": 29452,
+        "char_end": 29478,
+        "anchor": "PMC6091969_29452_29478",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 370,
+      "label": "bacterial",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 107,
+        "char_start": 30808,
+        "char_end": 30817,
+        "anchor": "PMC6091969_30808_30817",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 371,
+      "label": "functions",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 107,
+        "char_start": 30829,
+        "char_end": 30838,
+        "anchor": "PMC6091969_30829_30838",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 375,
+      "label": "mouse experiments",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 109,
+        "char_start": 31082,
+        "char_end": 31099,
+        "anchor": "PMC6091969_31082_31099",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 382,
+      "label": "Neutrophil",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 113,
+        "char_start": 31694,
+        "char_end": 31704,
+        "anchor": "PMC6091969_31694_31704",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 383,
+      "label": "IL-1α production",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 115,
+        "char_start": 32050,
+        "char_end": 32066,
+        "anchor": "PMC6091969_32050_32066",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 384,
+      "label": "IL-1",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 116,
+        "char_start": 32072,
+        "char_end": 32076,
+        "anchor": "PMC6091969_32072_32076",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 393,
+      "label": "rminating",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 120,
+        "char_start": 32865,
+        "char_end": 32874,
+        "anchor": "PMC6091969_32865_32874",
+        "page": 16,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 394,
+      "label": "branching",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 121,
+        "char_start": 33022,
+        "char_end": 33031,
+        "anchor": "PMC6091969_33022_33031",
+        "page": 16,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 395,
+      "label": "hil extracellular traps",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 122,
+        "char_start": 33281,
+        "char_end": 33304,
+        "anchor": "PMC6091969_33281_33304",
+        "page": 16,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 405,
+      "label": "Differences",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 126,
+        "char_start": 33965,
+        "char_end": 33976,
+        "anchor": "PMC6091969_33965_33976",
+        "page": 16,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 417,
+      "label": "rine studies",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 131,
+        "char_start": 34593,
+        "char_end": 34605,
+        "anchor": "PMC6091969_34593_34605",
+        "page": 17,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 422,
+      "label": "host survival",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 131,
+        "char_start": 34850,
+        "char_end": 34863,
+        "anchor": "PMC6091969_34850_34863",
+        "page": 17,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 434,
+      "label": "rophil recruitment",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 139,
+        "char_start": 36246,
+        "char_end": 36264,
+        "anchor": "PMC6091969_36246_36264",
+        "page": 17,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 435,
+      "label": "zebrafish",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Zebrafish lines and maintenance",
+        "sentence_id": 141,
+        "char_start": 36493,
+        "char_end": 36502,
+        "anchor": "PMC6091969_36493_36502",
+        "page": 17,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 436,
+      "label": "maintained",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Zebrafish lines and maintenance",
+        "sentence_id": 141,
+        "char_start": 36508,
+        "char_end": 36518,
+        "anchor": "PMC6091969_36508_36518",
+        "page": 17,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 452,
+      "label": "morpholino oligonucleotides",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Morpholino injections",
+        "sentence_id": 146,
+        "char_start": 37485,
+        "char_end": 37512,
+        "anchor": "PMC6091969_37485_37512",
+        "page": 18,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 460,
+      "label": "pu.",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Morpholino injections",
+        "sentence_id": 150,
+        "char_start": 37990,
+        "char_end": 37993,
+        "anchor": "PMC6091969_37990_37993",
+        "page": 18,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 463,
+      "label": "TRIzol reagent",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Morpholino injections",
+        "sentence_id": 150,
+        "char_start": 38200,
+        "char_end": 38214,
+        "anchor": "PMC6091969_38200_38214",
+        "page": 18,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 466,
+      "label": "III RT",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Morpholino injections",
+        "sentence_id": 150,
+        "char_start": 38271,
+        "char_end": 38277,
+        "anchor": "PMC6091969_38271_38277",
+        "page": 18,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 467,
+      "label": "igo-",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Morpholino injections",
+        "sentence_id": 150,
+        "char_start": 38284,
+        "char_end": 38288,
+        "anchor": "PMC6091969_38284_38288",
+        "page": 18,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 478,
+      "label": "band size",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Morpholino injections",
+        "sentence_id": 151,
+        "char_start": 38525,
+        "char_end": 38534,
+        "anchor": "PMC6091969_38525_38534",
+        "page": 18,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 480,
+      "label": "gel electroph",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Morpholino injections",
+        "sentence_id": 151,
+        "char_start": 38561,
+        "char_end": 38574,
+        "anchor": "PMC6091969_38561_38574",
+        "page": 18,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 484,
+      "label": "0.1% phenol red",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Clodronate liposome injection",
+        "sentence_id": 153,
+        "char_start": 38750,
+        "char_end": 38765,
+        "anchor": "PMC6091969_38750_38765",
+        "page": 19,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 488,
+      "label": "fluorescent zoomscope",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Clodronate liposome injection",
+        "sentence_id": 154,
+        "char_start": 38963,
+        "char_end": 38984,
+        "anchor": "PMC6091969_38963_38984",
+        "page": 19,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 489,
+      "label": "hindbrain",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Clodronate liposome injection",
+        "sentence_id": 154,
+        "char_start": 39042,
+        "char_end": 39051,
+        "anchor": "PMC6091969_39042_39051",
+        "page": 19,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 511,
+      "label": "injection",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Aspergillus fumigatus growth and spore microinjection",
+        "sentence_id": 169,
+        "char_start": 39967,
+        "char_end": 39976,
+        "anchor": "PMC6091969_39967_39976",
+        "page": 19,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 512,
+      "label": "spore preparations",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Aspergillus fumigatus growth and spore microinjection",
+        "sentence_id": 169,
+        "char_start": 39980,
+        "char_end": 39998,
+        "anchor": "PMC6091969_39980_39998",
+        "page": 19,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 535,
+      "label": "fluorescence",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "CFU counts",
+        "sentence_id": 177,
+        "char_start": 40991,
+        "char_end": 41003,
+        "anchor": "PMC6091969_40991_41003",
+        "page": 20,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 540,
+      "label": "AlexaFluor molecules",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Live-dead spore labeling",
+        "sentence_id": 179,
+        "char_start": 41275,
+        "char_end": 41295,
+        "anchor": "PMC6091969_41275_41295",
+        "page": 20,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 546,
+      "label": "vidin-AF",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Live-dead spore labeling",
+        "sentence_id": 179,
+        "char_start": 41531,
+        "char_end": 41539,
+        "anchor": "PMC6091969_41531_41539",
+        "page": 20,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 549,
+      "label": "fluorescence imaging",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Live-dead spore labeling",
+        "sentence_id": 179,
+        "char_start": 41599,
+        "char_end": 41619,
+        "anchor": "PMC6091969_41599_41619",
+        "page": 20,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 554,
+      "label": "E3 water",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Live imaging",
+        "sentence_id": 180,
+        "char_start": 41775,
+        "char_end": 41783,
+        "anchor": "PMC6091969_41775_41783",
+        "page": 20,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 558,
+      "label": "fluorescent transgenes",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Live imaging",
+        "sentence_id": 181,
+        "char_start": 41806,
+        "char_end": 41828,
+        "anchor": "PMC6091969_41806_41828",
+        "page": 20,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 559,
+      "label": "zoomscope",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Live imaging",
+        "sentence_id": 181,
+        "char_start": 41852,
+        "char_end": 41861,
+        "anchor": "PMC6091969_41852_41861",
+        "page": 20,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 567,
+      "label": "confocal microscope",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Live imaging",
+        "sentence_id": 185,
+        "char_start": 42236,
+        "char_end": 42255,
+        "anchor": "PMC6091969_42236_42255",
+        "page": 20,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 568,
+      "label": "cal scan",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Live imaging",
+        "sentence_id": 185,
+        "char_start": 42286,
+        "char_end": 42294,
+        "anchor": "PMC6091969_42286_42294",
+        "page": 20,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 569,
+      "label": "Zeiss Observer",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Live imaging",
+        "sentence_id": 185,
+        "char_start": 42304,
+        "char_end": 42318,
+        "anchor": "PMC6091969_42304_42318",
+        "page": 20,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 571,
+      "label": "gillus fumigatus",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Live imaging",
+        "sentence_id": 186,
+        "char_start": 42333,
+        "char_end": 42349,
+        "anchor": "PMC6091969_42333_42349",
+        "page": 20,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 572,
+      "label": "Parental Background Strain Genetic background",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Live imaging",
+        "sentence_id": 187,
+        "char_start": 42377,
+        "char_end": 42422,
+        "anchor": "PMC6091969_42377_42422",
+        "page": 20,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 573,
+      "label": "parasitic",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Live imaging",
+        "sentence_id": 187,
+        "char_start": 42476,
+        "char_end": 42485,
+        "anchor": "PMC6091969_42476_42485",
+        "page": 20,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 586,
+      "label": "us p",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Live imaging",
+        "sentence_id": 193,
+        "char_start": 42935,
+        "char_end": 42939,
+        "anchor": "PMC6091969_42935_42939",
+        "page": 20,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 589,
+      "label": "Plan-Apochromat",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Live imaging",
+        "sentence_id": 194,
+        "char_start": 43023,
+        "char_end": 43038,
+        "anchor": "PMC6091969_43023_43038",
+        "page": 21,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 590,
+      "label": "Photometric",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Live imaging",
+        "sentence_id": 194,
+        "char_start": 43067,
+        "char_end": 43078,
+        "anchor": "PMC6091969_43067_43078",
+        "page": 21,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 601,
+      "label": "focal microscope",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Live imaging",
+        "sentence_id": 197,
+        "char_start": 43363,
+        "char_end": 43379,
+        "anchor": "PMC6091969_43363_43379",
+        "page": 21,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 605,
+      "label": "1% low-melting point",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Live imaging",
+        "sentence_id": 199,
+        "char_start": 43674,
+        "char_end": 43694,
+        "anchor": "PMC6091969_43674_43694",
+        "page": 21,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 608,
+      "label": "laser-scanning confocal microscope",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Live imaging",
+        "sentence_id": 200,
+        "char_start": 43732,
+        "char_end": 43766,
+        "anchor": "PMC6091969_43732_43766",
+        "page": 21,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 610,
+      "label": "3 dpi",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Live imaging",
+        "sentence_id": 200,
+        "char_start": 43902,
+        "char_end": 43907,
+        "anchor": "PMC6091969_43902_43907",
+        "page": 21,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 611,
+      "label": "1 dpi",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Live imaging",
+        "sentence_id": 200,
+        "char_start": 43944,
+        "char_end": 43949,
+        "anchor": "PMC6091969_43944_43949",
+        "page": 21,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 614,
+      "label": "scanning con",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Live imaging",
+        "sentence_id": 200,
+        "char_start": 44033,
+        "char_end": 44045,
+        "anchor": "PMC6091969_44033_44045",
+        "page": 21,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 615,
+      "label": "cal microscope",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Live imaging",
+        "sentence_id": 200,
+        "char_start": 44047,
+        "char_end": 44061,
+        "anchor": "PMC6091969_44047_44061",
+        "page": 21,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 620,
+      "label": "image histogram levels",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 201,
+        "char_start": 44106,
+        "char_end": 44128,
+        "anchor": "PMC6091969_44106_44128",
+        "page": 21,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 623,
+      "label": "orescence",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 202,
+        "char_start": 44180,
+        "char_end": 44189,
+        "anchor": "PMC6091969_44180_44189",
+        "page": 21,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 624,
+      "label": "intensity",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 202,
+        "char_start": 44190,
+        "char_end": 44199,
+        "anchor": "PMC6091969_44190_44199",
+        "page": 21,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 637,
+      "label": "manually identified",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 206,
+        "char_start": 44738,
+        "char_end": 44757,
+        "anchor": "PMC6091969_44738_44757",
+        "page": 21,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 638,
+      "label": "brightfield image",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 206,
+        "char_start": 44779,
+        "char_end": 44796,
+        "anchor": "PMC6091969_44779_44796",
+        "page": 21,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 639,
+      "label": "integrated density",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 206,
+        "char_start": 44836,
+        "char_end": 44854,
+        "anchor": "PMC6091969_44836_44854",
+        "page": 21,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 645,
+      "label": "Signal intensity",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 208,
+        "char_start": 45053,
+        "char_end": 45069,
+        "anchor": "PMC6091969_45053_45069",
+        "page": 21,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 650,
+      "label": "z-stacks",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 209,
+        "char_start": 45187,
+        "char_end": 45195,
+        "anchor": "PMC6091969_45187_45195",
+        "page": 22,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 658,
+      "label": "pixel density",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 211,
+        "char_start": 45519,
+        "char_end": 45532,
+        "anchor": "PMC6091969_45519_45532",
+        "page": 22,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 659,
+      "label": "two-fold",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 211,
+        "char_start": 45533,
+        "char_end": 45541,
+        "anchor": "PMC6091969_45533_45541",
+        "page": 22,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 663,
+      "label": "pixel density",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 211,
+        "char_start": 45672,
+        "char_end": 45685,
+        "anchor": "PMC6091969_45672_45685",
+        "page": 22,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 671,
+      "label": "pixel density",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 212,
+        "char_start": 45858,
+        "char_end": 45871,
+        "anchor": "PMC6091969_45858_45871",
+        "page": 22,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 676,
+      "label": "wise distances between",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 213,
+        "char_start": 45977,
+        "char_end": 45999,
+        "anchor": "PMC6091969_45977_45999",
+        "page": 22,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 681,
+      "label": "pixel density",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 214,
+        "char_start": 46153,
+        "char_end": 46166,
+        "anchor": "PMC6091969_46153_46166",
+        "page": 22,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 682,
+      "label": "two-fold",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 214,
+        "char_start": 46167,
+        "char_end": 46175,
+        "anchor": "PMC6091969_46167_46175",
+        "page": 22,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 690,
+      "label": "pixel density",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Image analysis/processing",
+        "sentence_id": 215,
+        "char_start": 46476,
+        "char_end": 46489,
+        "anchor": "PMC6091969_46476_46489",
+        "page": 22,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 706,
+      "label": "black staining",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Sudan black staining",
+        "sentence_id": 220,
+        "char_start": 47048,
+        "char_end": 47062,
+        "anchor": "PMC6091969_47048_47062",
+        "page": 22,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 707,
+      "label": "black stain",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Sudan black staining",
+        "sentence_id": 220,
+        "char_start": 47170,
+        "char_end": 47181,
+        "anchor": "PMC6091969_47170_47181",
+        "page": 22,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 709,
+      "label": "confocal microscope",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Sudan black staining",
+        "sentence_id": 221,
+        "char_start": 47328,
+        "char_end": 47347,
+        "anchor": "PMC6091969_47328_47347",
+        "page": 23,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 711,
+      "label": "Photometric",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Sudan black staining",
+        "sentence_id": 221,
+        "char_start": 47476,
+        "char_end": 47487,
+        "anchor": "PMC6091969_47476_47487",
+        "page": 23,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 717,
+      "label": "fluor-white",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Calcofluor white staining",
+        "sentence_id": 224,
+        "char_start": 47786,
+        "char_end": 47797,
+        "anchor": "PMC6091969_47786_47797",
+        "page": 23,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 720,
+      "label": "microscope",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Calcofluor white staining",
+        "sentence_id": 224,
+        "char_start": 47864,
+        "char_end": 47874,
+        "anchor": "PMC6091969_47864_47874",
+        "page": 23,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 721,
+      "label": "ifluorescence images",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Calcofluor white staining",
+        "sentence_id": 224,
+        "char_start": 47927,
+        "char_end": 47947,
+        "anchor": "PMC6091969_47927_47947",
+        "page": 23,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 722,
+      "label": "Photometrics",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Calcofluor white staining",
+        "sentence_id": 224,
+        "char_start": 47966,
+        "char_end": 47978,
+        "anchor": "PMC6091969_47966_47978",
+        "page": 23,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 726,
+      "label": "replicate",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analyses",
+        "sentence_id": 227,
+        "char_start": 48265,
+        "char_end": 48274,
+        "anchor": "PMC6091969_48265_48274",
+        "page": 23,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 727,
+      "label": "Cox proportional hazard regression",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analyses",
+        "sentence_id": 227,
+        "char_start": 48304,
+        "char_end": 48338,
+        "anchor": "PMC6091969_48304_48338",
+        "page": 23,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 728,
+      "label": "replicate",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analyses",
+        "sentence_id": 227,
+        "char_start": 48367,
+        "char_end": 48376,
+        "anchor": "PMC6091969_48367_48376",
+        "page": 23,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 731,
+      "label": "squared adjusted means",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analyses",
+        "sentence_id": 231,
+        "char_start": 48971,
+        "char_end": 48993,
+        "anchor": "PMC6091969_48971_48993",
+        "page": 23,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 732,
+      "label": "± SEM",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analyses",
+        "sentence_id": 231,
+        "char_start": 49080,
+        "char_end": 49085,
+        "anchor": "PMC6091969_49080_49085",
+        "page": 23,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 734,
+      "label": "t test",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analyses",
+        "sentence_id": 232,
+        "char_start": 49264,
+        "char_end": 49270,
+        "anchor": "PMC6091969_49264_49270",
+        "page": 23,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 736,
+      "label": "± SEM",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analyses",
+        "sentence_id": 232,
+        "char_start": 49289,
+        "char_end": 49294,
+        "anchor": "PMC6091969_49289_49294",
+        "page": 23,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 739,
+      "label": "Statistical analyses",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analyses",
+        "sentence_id": 233,
+        "char_start": 49309,
+        "char_end": 49329,
+        "anchor": "PMC6091969_49309_49329",
+        "page": 23,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 740,
+      "label": "graphical representations",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistical analyses",
+        "sentence_id": 233,
+        "char_start": 49334,
+        "char_end": 49359,
+        "anchor": "PMC6091969_49334_49359",
+        "page": 23,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-5-10",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 10
+    },
+    {
+      "id": "synth-5-20",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 20
+    },
+    {
+      "id": "synth-5-21",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 21
+    },
+    {
+      "id": "synth-5-25",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 25
+    },
+    {
+      "id": "synth-5-31",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 31
+    },
+    {
+      "id": "synth-5-32",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 32
+    },
+    {
+      "id": "synth-5-33",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 33
+    },
+    {
+      "id": "synth-5-41",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 41
+    },
+    {
+      "id": "synth-5-44",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 44
+    },
+    {
+      "id": "synth-5-50",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 50
+    },
+    {
+      "id": "synth-5-51",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 51
+    },
+    {
+      "id": "synth-5-52",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 52
+    },
+    {
+      "id": "synth-5-56",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 56
+    },
+    {
+      "id": "synth-5-58",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 58
+    },
+    {
+      "id": "synth-5-59",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 59
+    },
+    {
+      "id": "synth-5-61",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 61
+    },
+    {
+      "id": "synth-5-62",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 62
+    },
+    {
+      "id": "synth-5-63",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 63
+    },
+    {
+      "id": "synth-5-68",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 68
+    },
+    {
+      "id": "synth-5-79",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 79
+    },
+    {
+      "id": "synth-5-84",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 84
+    },
+    {
+      "id": "synth-5-102",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 102
+    },
+    {
+      "id": "synth-5-106",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 106
+    },
+    {
+      "id": "synth-5-117",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 117
+    },
+    {
+      "id": "synth-5-128",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 128
+    },
+    {
+      "id": "synth-5-139",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 139
+    },
+    {
+      "id": "synth-5-153",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 153
+    },
+    {
+      "id": "synth-5-156",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 156
+    },
+    {
+      "id": "synth-5-157",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 157
+    },
+    {
+      "id": "synth-5-166",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 166
+    },
+    {
+      "id": "synth-5-167",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 167
+    },
+    {
+      "id": "synth-5-169",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 169
+    },
+    {
+      "id": "synth-5-183",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 183
+    },
+    {
+      "id": "synth-5-184",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 184
+    },
+    {
+      "id": "synth-5-199",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 199
+    },
+    {
+      "id": "synth-5-207",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 207
+    },
+    {
+      "id": "synth-5-216",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 216
+    },
+    {
+      "id": "synth-5-217",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 217
+    },
+    {
+      "id": "synth-5-219",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 219
+    },
+    {
+      "id": "synth-5-220",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 220
+    },
+    {
+      "id": "synth-5-223",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 223
+    },
+    {
+      "id": "synth-5-228",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 228
+    },
+    {
+      "id": "synth-5-232",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 232
+    },
+    {
+      "id": "synth-5-240",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 240
+    },
+    {
+      "id": "synth-5-250",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 250
+    },
+    {
+      "id": "synth-5-257",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 257
+    },
+    {
+      "id": "synth-5-258",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 258
+    },
+    {
+      "id": "synth-5-260",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 260
+    },
+    {
+      "id": "synth-5-261",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 261
+    },
+    {
+      "id": "synth-5-269",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 269
+    },
+    {
+      "id": "synth-5-270",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 270
+    },
+    {
+      "id": "synth-5-274",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 274
+    },
+    {
+      "id": "synth-5-292",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 292
+    },
+    {
+      "id": "synth-5-307",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 307
+    },
+    {
+      "id": "synth-5-309",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 309
+    },
+    {
+      "id": "synth-5-310",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 310
+    },
+    {
+      "id": "synth-5-313",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 313
+    },
+    {
+      "id": "synth-5-323",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 323
+    },
+    {
+      "id": "synth-5-329",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 329
+    },
+    {
+      "id": "synth-5-331",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 331
+    },
+    {
+      "id": "synth-5-341",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 341
+    },
+    {
+      "id": "synth-5-344",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 344
+    },
+    {
+      "id": "synth-5-351",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 351
+    },
+    {
+      "id": "synth-5-352",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 352
+    },
+    {
+      "id": "synth-5-353",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 353
+    },
+    {
+      "id": "synth-5-370",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 370
+    },
+    {
+      "id": "synth-5-371",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 371
+    },
+    {
+      "id": "synth-5-375",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 375
+    },
+    {
+      "id": "synth-5-382",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 382
+    },
+    {
+      "id": "synth-5-383",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 383
+    },
+    {
+      "id": "synth-5-384",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 384
+    },
+    {
+      "id": "synth-5-393",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 393
+    },
+    {
+      "id": "synth-5-394",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 394
+    },
+    {
+      "id": "synth-5-395",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 395
+    },
+    {
+      "id": "synth-5-405",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 405
+    },
+    {
+      "id": "synth-5-417",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 417
+    },
+    {
+      "id": "synth-5-422",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 422
+    },
+    {
+      "id": "synth-5-434",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 434
+    },
+    {
+      "id": "synth-5-435",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 435
+    },
+    {
+      "id": "synth-5-436",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 436
+    },
+    {
+      "id": "synth-5-452",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 452
+    },
+    {
+      "id": "synth-5-460",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 460
+    },
+    {
+      "id": "synth-5-463",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 463
+    },
+    {
+      "id": "synth-5-466",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 466
+    },
+    {
+      "id": "synth-5-467",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 467
+    },
+    {
+      "id": "synth-5-478",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 478
+    },
+    {
+      "id": "synth-5-480",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 480
+    },
+    {
+      "id": "synth-5-484",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 484
+    },
+    {
+      "id": "synth-5-488",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 488
+    },
+    {
+      "id": "synth-5-489",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 489
+    },
+    {
+      "id": "synth-5-511",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 511
+    },
+    {
+      "id": "synth-5-512",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 512
+    },
+    {
+      "id": "synth-5-535",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 535
+    },
+    {
+      "id": "synth-5-540",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 540
+    },
+    {
+      "id": "synth-5-546",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 546
+    },
+    {
+      "id": "synth-5-549",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 549
+    },
+    {
+      "id": "synth-5-554",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 554
+    },
+    {
+      "id": "synth-5-558",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 558
+    },
+    {
+      "id": "synth-5-559",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 559
+    },
+    {
+      "id": "synth-5-567",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 567
+    },
+    {
+      "id": "synth-5-568",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 568
+    },
+    {
+      "id": "synth-5-569",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 569
+    },
+    {
+      "id": "synth-5-571",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 571
+    },
+    {
+      "id": "synth-5-572",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 572
+    },
+    {
+      "id": "synth-5-573",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 573
+    },
+    {
+      "id": "synth-5-586",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 586
+    },
+    {
+      "id": "synth-5-589",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 589
+    },
+    {
+      "id": "synth-5-590",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 590
+    },
+    {
+      "id": "synth-5-601",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 601
+    },
+    {
+      "id": "synth-5-605",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 605
+    },
+    {
+      "id": "synth-5-608",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 608
+    },
+    {
+      "id": "synth-5-610",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 610
+    },
+    {
+      "id": "synth-5-611",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 611
+    },
+    {
+      "id": "synth-5-614",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 614
+    },
+    {
+      "id": "synth-5-615",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 615
+    },
+    {
+      "id": "synth-5-620",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 620
+    },
+    {
+      "id": "synth-5-623",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 623
+    },
+    {
+      "id": "synth-5-624",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 624
+    },
+    {
+      "id": "synth-5-637",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 637
+    },
+    {
+      "id": "synth-5-638",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 638
+    },
+    {
+      "id": "synth-5-639",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 639
+    },
+    {
+      "id": "synth-5-645",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 645
+    },
+    {
+      "id": "synth-5-650",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 650
+    },
+    {
+      "id": "synth-5-658",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 658
+    },
+    {
+      "id": "synth-5-659",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 659
+    },
+    {
+      "id": "synth-5-663",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 663
+    },
+    {
+      "id": "synth-5-671",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 671
+    },
+    {
+      "id": "synth-5-676",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 676
+    },
+    {
+      "id": "synth-5-681",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 681
+    },
+    {
+      "id": "synth-5-682",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 682
+    },
+    {
+      "id": "synth-5-690",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 690
+    },
+    {
+      "id": "synth-5-706",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 706
+    },
+    {
+      "id": "synth-5-707",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 707
+    },
+    {
+      "id": "synth-5-709",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 709
+    },
+    {
+      "id": "synth-5-711",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 711
+    },
+    {
+      "id": "synth-5-717",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 717
+    },
+    {
+      "id": "synth-5-720",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 720
+    },
+    {
+      "id": "synth-5-721",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 721
+    },
+    {
+      "id": "synth-5-722",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 722
+    },
+    {
+      "id": "synth-5-726",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 726
+    },
+    {
+      "id": "synth-5-727",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 727
+    },
+    {
+      "id": "synth-5-728",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 728
+    },
+    {
+      "id": "synth-5-731",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 731
+    },
+    {
+      "id": "synth-5-732",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 732
+    },
+    {
+      "id": "synth-5-734",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 734
+    },
+    {
+      "id": "synth-5-736",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 736
+    },
+    {
+      "id": "synth-5-739",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 739
+    },
+    {
+      "id": "synth-5-740",
+      "type": "ASSOCIATED",
+      "source": 5,
+      "target": 740
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "EXPERIMENT",
+    "page": null
+  }
+}

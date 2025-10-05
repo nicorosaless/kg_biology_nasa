@@ -1,0 +1,52 @@
+{
+  "paper_id": "PMC4405755",
+  "section": "Synthetic REAGENT",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 238,
+      "label": "NanoDrop",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression analysis",
+        "sentence_id": 70,
+        "char_start": 13148,
+        "char_end": 13156,
+        "anchor": "PMC4405755_13148_13156",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 283,
+      "label": "Qiagen",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Gene expression analysis",
+        "sentence_id": 74,
+        "char_start": 14093,
+        "char_end": 14099,
+        "anchor": "PMC4405755_14093_14099",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-238-283",
+      "type": "ASSOCIATED",
+      "source": 238,
+      "target": 283
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "REAGENT",
+    "page": null
+  }
+}

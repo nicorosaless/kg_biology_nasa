@@ -1,0 +1,127 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "Mars",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 531,
+      "label": "Orion",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mars",
+        "sentence_id": 292,
+        "char_start": 54934,
+        "char_end": 54939,
+        "anchor": "PMC10284894_54934_54939",
+        "page": 56,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 532,
+      "label": "Artist",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mars",
+        "sentence_id": 292,
+        "char_start": 54858,
+        "char_end": 54864,
+        "anchor": "PMC10284894_54858_54864",
+        "page": 56,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 533,
+      "label": "Gateway",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mars",
+        "sentence_id": 292,
+        "char_start": 54882,
+        "char_end": 54889,
+        "anchor": "PMC10284894_54882_54889",
+        "page": 56,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 534,
+      "label": "Orion",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Mars",
+        "sentence_id": 292,
+        "char_start": 54934,
+        "char_end": 54939,
+        "anchor": "PMC10284894_54934_54939",
+        "page": 56,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 500,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 531,
+      "target": 532
+    },
+    {
+      "id": 501,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 531,
+      "target": 533
+    },
+    {
+      "id": 502,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 531,
+      "target": 534
+    },
+    {
+      "id": 503,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 532,
+      "target": 533
+    },
+    {
+      "id": 504,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 532,
+      "target": 534
+    },
+    {
+      "id": 505,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 533,
+      "target": 534
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 12,
+      "removed_orphans": 6,
+      "largest_component": 4,
+      "removed_components": [
+        4,
+        4,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 56
+  }
+}

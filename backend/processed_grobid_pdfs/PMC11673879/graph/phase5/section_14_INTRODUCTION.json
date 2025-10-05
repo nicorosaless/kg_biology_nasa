@@ -1,0 +1,93 @@
+{
+  "paper_id": "PMC11673879",
+  "section": "INTRODUCTION",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 40,
+      "label": "changes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 23,
+        "char_start": 4037,
+        "char_end": 4044,
+        "anchor": "PMC11673879_4037_4044",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 36,
+      "label": "thermal",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 23,
+        "char_start": 3892,
+        "char_end": 3899,
+        "anchor": "PMC11673879_3892_3899",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 37,
+      "label": "protects",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 23,
+        "char_start": 3929,
+        "char_end": 3937,
+        "anchor": "PMC11673879_3929_3937",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 12,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 36,
+      "target": 37
+    },
+    {
+      "id": 13,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 36,
+      "target": 40
+    },
+    {
+      "id": 16,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 37,
+      "target": 40
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 11,
+      "removed_orphans": 17,
+      "largest_component": 3,
+      "removed_components": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 2
+  }
+}

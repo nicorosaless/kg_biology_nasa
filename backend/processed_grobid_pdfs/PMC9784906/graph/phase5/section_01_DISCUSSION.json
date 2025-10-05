@@ -1,0 +1,209 @@
+{
+  "paper_id": "PMC9784906",
+  "section": "DISCUSSION",
+  "n_nodes": 7,
+  "n_edges": 13,
+  "nodes": [
+    {
+      "id": 546,
+      "label": "systemic",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 117,
+        "char_start": 28099,
+        "char_end": 28107,
+        "anchor": "PMC9784906_28099_28107",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 547,
+      "label": "immune activation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 117,
+        "char_start": 28108,
+        "char_end": 28125,
+        "anchor": "PMC9784906_28108_28125",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 548,
+      "label": "inflammatory cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 117,
+        "char_start": 28176,
+        "char_end": 28194,
+        "anchor": "PMC9784906_28176_28194",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 549,
+      "label": "inflammation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 117,
+        "char_start": 28222,
+        "char_end": 28234,
+        "anchor": "PMC9784906_28222_28234",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 550,
+      "label": "neutrophils",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 117,
+        "char_start": 28301,
+        "char_end": 28312,
+        "anchor": "PMC9784906_28301_28312",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 552,
+      "label": "Mrc1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 117,
+        "char_start": 27805,
+        "char_end": 27809,
+        "anchor": "PMC9784906_27805_27809",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 554,
+      "label": "CCR2",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 117,
+        "char_start": 28334,
+        "char_end": 28338,
+        "anchor": "PMC9784906_28334_28338",
+        "page": 11,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1198,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 546,
+      "target": 548
+    },
+    {
+      "id": 1199,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 546,
+      "target": 550
+    },
+    {
+      "id": 1200,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 546,
+      "target": 552
+    },
+    {
+      "id": 1202,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 546,
+      "target": 554
+    },
+    {
+      "id": 1203,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 548,
+      "target": 547
+    },
+    {
+      "id": 1204,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 550,
+      "target": 547
+    },
+    {
+      "id": 1205,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 548,
+      "target": 549
+    },
+    {
+      "id": 1206,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 552,
+      "target": 548
+    },
+    {
+      "id": 1208,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 554,
+      "target": 548
+    },
+    {
+      "id": 1209,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 550,
+      "target": 549
+    },
+    {
+      "id": 1210,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 552,
+      "target": 550
+    },
+    {
+      "id": 1212,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 554,
+      "target": 550
+    },
+    {
+      "id": 1214,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 552,
+      "target": 554
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 7,
+      "removed_orphans": 19,
+      "largest_component": 7,
+      "removed_components": [
+        4,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 10
+  }
+}

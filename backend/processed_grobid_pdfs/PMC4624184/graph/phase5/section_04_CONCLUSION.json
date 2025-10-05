@@ -1,0 +1,86 @@
+{
+  "paper_id": "PMC4624184",
+  "section": "CONCLUSION",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 609,
+      "label": "PMA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 180,
+        "char_start": 34633,
+        "char_end": 34636,
+        "anchor": "PMC4624184_34633_34636",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 610,
+      "label": "NGS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 180,
+        "char_start": 34652,
+        "char_end": 34655,
+        "anchor": "PMC4624184_34652_34655",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 607,
+      "label": "PMA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 180,
+        "char_start": 34633,
+        "char_end": 34636,
+        "anchor": "PMC4624184_34633_34636",
+        "page": 10,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 684,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 607,
+      "target": 609
+    },
+    {
+      "id": 685,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 607,
+      "target": 610
+    },
+    {
+      "id": 686,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 609,
+      "target": 610
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 8,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 10
+  }
+}

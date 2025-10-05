@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC10285634",
+  "section": "Q 5. How does the system calculate bone mineral content (BMC) and what are the units?",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 34,
+      "label": "Bone",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Q 5. How does the system calculate bone mineral content (BMC) and what are the units?",
+        "sentence_id": 23,
+        "char_start": 3047,
+        "char_end": 3051,
+        "anchor": "PMC10285634_3047_3051",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 36,
+      "label": "density",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Q 5. How does the system calculate bone mineral content (BMC) and what are the units?",
+        "sentence_id": 23,
+        "char_start": 3102,
+        "char_end": 3109,
+        "anchor": "PMC10285634_3102_3109",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 20,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 34,
+      "target": 36
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 1,
+      "largest_component": 2
+    },
+    "page": 3
+  }
+}

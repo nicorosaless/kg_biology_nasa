@@ -1,0 +1,117 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "Orion Water Impact Testing",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 579,
+      "label": "Impact",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Water Impact Testing",
+        "sentence_id": 337,
+        "char_start": 61954,
+        "char_end": 61960,
+        "anchor": "PMC10284894_61954_61960",
+        "page": 63,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 581,
+      "label": "Orion",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Water Impact Testing",
+        "sentence_id": 337,
+        "char_start": 61890,
+        "char_end": 61895,
+        "anchor": "PMC10284894_61890_61895",
+        "page": 63,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 582,
+      "label": "Hampton",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Water Impact Testing",
+        "sentence_id": 337,
+        "char_start": 62016,
+        "char_end": 62023,
+        "anchor": "PMC10284894_62016_62023",
+        "page": 63,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 583,
+      "label": "Virginia",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Water Impact Testing",
+        "sentence_id": 337,
+        "char_start": 62025,
+        "char_end": 62033,
+        "anchor": "PMC10284894_62025_62033",
+        "page": 63,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 527,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 579,
+      "target": 581
+    },
+    {
+      "id": 528,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 579,
+      "target": 582
+    },
+    {
+      "id": 529,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 579,
+      "target": 583
+    },
+    {
+      "id": 533,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 581,
+      "target": 582
+    },
+    {
+      "id": 534,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 581,
+      "target": 583
+    },
+    {
+      "id": 535,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 582,
+      "target": 583
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 5,
+      "largest_component": 4,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 63
+  }
+}

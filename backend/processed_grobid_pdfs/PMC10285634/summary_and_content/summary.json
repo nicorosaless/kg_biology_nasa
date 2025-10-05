@@ -1,0 +1,229 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "This document addresses frequently asked questions about the Osteosys iNSiGHT DXA Imaging System, covering topics from imaging applications to software capabilities. The system is designed for assessing bone mineral density (BMD), bone mineral content (BMC), and body composition in small animals. It elucidates the types of species that can be imaged, the duration of scans, and the principles behind dual-energy X-ray absorptiometry (DXA).",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Imaging application questions • DXA as an imaging modality • iNSiGHT DXA technical specifications • Animal handling capabilities • Software capabilities Imaging Application Questions: Q 1.What are the most common applications for the iNSiGHT DXA?",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_1.png"
+      },
+      {
+        "id": "fig_2",
+        "caption": "• Arthritis • Musculoskeletal diseases • Metabolic disorders such as diabetes and obesity • Drug safety and toxicology • Cancer cachexia • Traumatic brain injury",
+        "order": 5,
+        "forced": true,
+        "image_path": "figures/fig_2.png"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Figure 3",
+        "order": 6,
+        "forced": true,
+        "image_path": "figures/fig_3.png"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Figure 4",
+        "order": 7,
+        "forced": true,
+        "image_path": "figures/fig_4.png"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "DXA Imaging Modality",
+      "summary": "DXA utilizes two X-ray beams of different energies to assess body composition. The differential attenuation of these beams through tissues allows the system to determine bone and soft tissue amounts. Equations based on mass attenuation coefficients are used to measure tissue composition, enabling the distinction between fat and lean mass, as well as BMD and BMC. Calibration with phantoms of known composition is essential for accurate tissue type identification.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "iNSiGHT System Image Generation and Measurements",
+      "summary": "The iNSiGHT system generates standard X-ray attenuated images, BMD images, and colorimetric lean versus fat mass images. Users can obtain measurements of lean mass, fat mass, total weight, BMD, and BMC, calculated for the whole body or specific regions of interest (ROIs). The system also allows for linear measurements and exclusion ROIs to refine data analysis. The zoom function enhances ROI precision, while exclusion ROIs remove unwanted areas from calculations.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Technical and Operational Specifications",
+      "summary": "The iNSiGHT DXA system is transportable, self-shielded, and integrates anesthesia capabilities. It includes ports for anesthesia and gas exhaust recovery, with options for blocking these ports. An automatic mask function and exclusion ROIs facilitate the removal of nose cone influence on measurements. Daily calibration tests ensure system accuracy using a dedicated phantom designed to measure total weight, fat versus lean mass, BMC, and BMD.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Data Handling and Image Export",
+      "summary": "Post-processing parameters can be copied and edited using software on the instrument computer or offline analysis software. Images are initially saved in a proprietary format but can be exported as JPG, TIFF, or BMP files. The system's resolution is 100 µm at the lowest stage, with a potential 30 µm resolution at 4X zoom for digital radioautography (DR) mode. The radiation dose per DXA scan is 0.66 mGy, optimized for longitudinal studies. The system exhibits high accuracy, with CV data <1% and R2 values >0.90.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Animal Handling and Software Features",
+      "summary": "The system offers a safe active scavenging system for anesthesia, switchable between a knock-down chamber and a nose cone. It accommodates animals from 10 to 700 g, with a scan area of 25.5 cm x 16.5 cm. Users can save images from multiple time points under a single animal file and plot measurement trends over time. Offline software analysis is available, and user profiles are password-protected. Data can be exported in .csv format for third-party software analysis.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": {
+    "heading": "Conclusion",
+    "summary": "Osteosys iNSiGHT DXA Imaging System This Frequently Asked Questions document has been developed to help answer some of the most asked questions by people newer to DXA imaging and address some iNSiGHT DXA-specific questions."
+  },
+  "keywords": [
+    "dxa",
+    "bone mineral density",
+    "body composition",
+    "imaging system",
+    "animal imaging",
+    "x-ray absorptiometry",
+    "bmd",
+    "bmc",
+    "lean mass",
+    "fat mass"
+  ],
+  "topics": [
+    "imaging technology",
+    "animal physiology",
+    "medical devices"
+  ],
+  "_meta": {
+    "paper_id": "sha256:f1957aeff413b1532838810f7ea2ae3b045eb448ec542fb9918c8dd5982e292c",
+    "paper_title": "",
+    "generated_at": "2025-10-05T10:33:21Z",
+    "word_count": 462,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "dxa",
+      "bone mineral density",
+      "body composition",
+      "imaging system",
+      "animal imaging",
+      "x-ray absorptiometry",
+      "bmd",
+      "bmc",
+      "lean mass",
+      "fat mass"
+    ],
+    "topics": [
+      "imaging technology",
+      "animal physiology",
+      "medical devices"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 2,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 4246,
+      "completion_tokens": 971,
+      "total_tokens": 5217,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000425,
+      "output_usd": 0.000388,
+      "total_usd": 0.000813
+    },
+    "cost": {
+      "input_usd": 0.000425,
+      "output_usd": 0.000388,
+      "total_usd": 0.000813
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [
+        {
+          "id": "fig_5",
+          "score": -9999,
+          "caption_wc": 0
+        },
+        {
+          "id": "fig_6",
+          "score": -9999,
+          "caption_wc": 0
+        },
+        {
+          "id": "fig_7",
+          "score": -9999,
+          "caption_wc": 0
+        },
+        {
+          "id": "fig_8",
+          "score": -9999,
+          "caption_wc": 0
+        },
+        {
+          "id": "fig_9",
+          "score": -9999,
+          "caption_wc": 0
+        },
+        {
+          "id": "fig_10",
+          "score": -9999,
+          "caption_wc": 0
+        },
+        {
+          "id": "fig_11",
+          "score": -9999,
+          "caption_wc": 0
+        },
+        {
+          "id": "fig_12",
+          "score": -9999,
+          "caption_wc": 0
+        }
+      ],
+      "corrupted_detected": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4",
+        "fig_5",
+        "fig_6",
+        "fig_7",
+        "fig_8",
+        "fig_9",
+        "fig_10",
+        "fig_11",
+        "fig_12"
+      ],
+      "original_total": 12,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  },
+  "figures": {
+    "fig_1": {
+      "caption": "Imaging application questions including DXA as an imaging modality, iNSiGHT DXA technical specifications, animal handling, and software capabilities."
+    },
+    "fig_2": {
+      "caption": "The system has applicatons including arthritis, musculoskeletal diseases, metabolic disorders, drug safety, cancer cachexia, and traumatic brain injury."
+    }
+  },
+  "equations": []
+}

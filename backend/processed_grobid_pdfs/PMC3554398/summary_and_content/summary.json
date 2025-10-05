@@ -1,0 +1,178 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "The study addresses the challenge of rapidly assessing the viability of microbial cells from different phylogenetic lineages within complex microbial communities. Traditional methods have limitations in speed and accuracy, particularly in distinguishing between viable, dormant, and non-viable cells. Advanced molecular approaches like live-dead staining and RNA probing have been developed, but can overestimate viable cell numbers or face purification and stability issues. This research combines propidium monoazide (PMA) treatment with high-throughput pyrosequencing and PhyloChip DNA microarray analyses to improve understanding of viable bacteria in spacecraft assembly cleanrooms, differentiating between live and dead cells across various phylogenetic lineages.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "b",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.jpeg"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Figure 1 Venn diagram showing the MOTU detected in various samples of the cleanrooms.Comparison (a) between SAF and Bldg 144 cleanroom floor samples and (b) between floor and GSE samples of SAF cleanroom.Parentheses denote total",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.jpeg"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Figure2Heatmap of PTU that increased in transformed hybridization intensities in PMA-treated samples compared with non-PMAtreated samples and were called present in the PMA-treated sample.An increase in transformed hybridization intensities in PMA-treated sample is reflected as",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.png"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Figure 3 PCoA based on: (a) number of pyrosequences per MOTU (PCoA1, percentage of explained variance: 22%; PCoA2, percentage of explained variance: 17%) and (b) PhyloChip-derived transformed hybridization scores of each PTU (PCoA1, percentage of",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.png"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Sampling and Processing Methods",
+      "summary": "Samples were collected from floors and ground support equipment (GSE) in two ISO 8 cleanrooms: the Spacecraft Assembly Facility (SAF) and Building 144. Samples were processed using biological sampling kits, concentrated via centrifugal filtration, and divided into PMA-treated (viability assessment) and untreated (total DNA) aliquots. DNA was extracted using an automated system. PMA treatment involved incubating samples with PMA in the dark to inhibit DNA amplification from dead cells.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Taxonomic Classification",
+      "summary": "The study used molecular operational taxonomic units (MOTUs) and PhyloChip-derived taxonomic units (PTUs) for bacterial classification. MOTUs are based on DNA sequence variation, separating evolutionary events from methodological errors, and PTUs rely on hybridization scores of 25-mer probes, representing the 16S rRNA gene. Microorganisms were assigned to a single MOTU/PTU based on sequence similarity or hybridization score.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "PhyloChip and Data Analysis",
+      "summary": "Bacterial 16S rRNA genes were amplified using specific primers, and the resulting PCR products were hybridized on PhyloChips. Hybridization intensities were transformed for analysis. PTUs were grouped at the genus level, and enrichment in PMA-treated samples was determined based on presence and higher transformed hybridization intensity compared to non-PMA-treated samples. Representative 16S rRNA gene sequences were used to compile a phylogenetic tree. Tag-encoded FLX amplicon pyrosequencing (bTEFAP) was performed using bacterial-biased primers to amplify V1-V3 hypervariable regions of the 16S rRNA gene.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "bTEFAP Data Analysis",
+      "summary": "Bacterial TEFAP sequences were processed using the MOTHUR software package, with the AmpliconNoise algorithm implemented. Sequences were filtered based on primer sequence, barcode, length, homopolymer length, and quality score. Unique sequences were aligned using the Greengenes reference alignment and classified according to the Greengenes taxonomy. Sequences were clustered into MOTUs at 97% similarity.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Results",
+      "summary": "qPCR analysis showed that the SAF cleanroom had a total bacterial burden of approximately 10^5 to 10^6 rRNA gene copies m^-2, while Bldg 144 had 1 to 2 logs higher rRNA gene copy numbers. After PMA treatment, only a small percentage of the total bacterial population in SAF (4-7%) and Bldg 144 (7-21%) was determined to be viable. bTEFAP analysis showed a higher number of bacterial MOTUs in Bldg 144 compared to SAF, with PMA treatment significantly reducing MOTU counts in both locations. PhyloChip analysis revealed a drastic decrease in bacterial genera after PMA treatment, with SAF samples showing a simple bacterial community structure dominated by Firmicutes and Proteobacteria.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Statistical Analysis",
+      "summary": "Statistical analyses, including PCoA, multi-response permutation procedures, and Adonis testing, were used to study differences between PMA-treated and non-PMA samples, based on MOTU sequence abundance and PTU transformed hybridization intensities.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Discussion",
+      "summary": "",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": "This research demonstrates a comprehensive approach to assessing microbial viability in low-biomass cleanroom environments using PMA treatment combined with pyrosequencing and PhyloChip analyses. The findings reveal significant differences in viable bacterial communities between cleanrooms with and without spacecraft hardware, with the latter exhibiting greater diversity. This study provides valuable insights into the distribution and phylogenetic affiliation of viable bacteria in these critical environments, informing strategies for contamination control and planetary protection.",
+  "keywords": [
+    "microbial viability",
+    "cleanroom environment",
+    "propidium monoazide",
+    "pyrosequencing",
+    "phylogenetic microarray",
+    "16s rrna gene",
+    "btefap",
+    "phylochip",
+    "spacecraft assembly",
+    "environmental microbiology"
+  ],
+  "topics": [
+    "environmental microbiology",
+    "molecular biology",
+    "space exploration"
+  ],
+  "_meta": {
+    "paper_id": "sha256:6f78401314a39dd0cf2dc3aefb9c0f2c4bba3d8e3f60ac0551cddca48020d699",
+    "paper_title": "New perspectives on viable microbial communities in low-biomass cleanroom environments",
+    "generated_at": "2025-10-05T10:17:18Z",
+    "word_count": 497,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "microbial viability",
+      "cleanroom environment",
+      "propidium monoazide",
+      "pyrosequencing",
+      "phylogenetic microarray",
+      "16s rrna gene",
+      "btefap",
+      "phylochip",
+      "spacecraft assembly",
+      "environmental microbiology"
+    ],
+    "topics": [
+      "environmental microbiology",
+      "molecular biology",
+      "space exploration"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 6017,
+      "completion_tokens": 1222,
+      "total_tokens": 7239,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000602,
+      "output_usd": 0.000489,
+      "total_usd": 0.001091
+    },
+    "cost": {
+      "input_usd": 0.000602,
+      "output_usd": 0.000489,
+      "total_usd": 0.001091
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [],
+      "corrupted_detected": [
+        "fig_3",
+        "fig_2"
+      ],
+      "original_total": 2,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

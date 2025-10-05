@@ -1,0 +1,115 @@
+{
+  "paper_id": "PMC5515520",
+  "section": "Synthetic CELL_TYPE",
+  "n_nodes": 5,
+  "n_edges": 4,
+  "nodes": [
+    {
+      "id": 28,
+      "label": "root tip cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 16,
+        "char_start": 2918,
+        "char_end": 2932,
+        "anchor": "PMC5515520_2918_2932",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 75,
+      "label": "columella cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "RESULTS",
+        "sentence_id": 28,
+        "char_start": 5953,
+        "char_end": 5968,
+        "anchor": "PMC5515520_5953_5968",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 150,
+      "label": "columella cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Plant development and root morphology is different between the CARA and APEX03-2 experiments",
+        "sentence_id": 41,
+        "char_start": 10038,
+        "char_end": 10053,
+        "anchor": "PMC5515520_10038_10053",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 185,
+      "label": "endodermal cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Plant development and root morphology is different between the CARA and APEX03-2 experiments",
+        "sentence_id": 46,
+        "char_start": 11684,
+        "char_end": 11700,
+        "anchor": "PMC5515520_11684_11700",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 232,
+      "label": "columella cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 62,
+        "char_start": 14763,
+        "char_end": 14778,
+        "anchor": "PMC5515520_14763_14778",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-28-75",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 75
+    },
+    {
+      "id": "synth-28-150",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 150
+    },
+    {
+      "id": "synth-28-185",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 185
+    },
+    {
+      "id": "synth-28-232",
+      "type": "ASSOCIATED",
+      "source": 28,
+      "target": 232
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "CELL_TYPE",
+    "page": null
+  }
+}

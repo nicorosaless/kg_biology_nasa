@@ -1,0 +1,81 @@
+{
+  "paper_id": "PMC10285634",
+  "section": "Q 16. In what format are images saved?",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 76,
+      "label": "JPG",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Q 16. In what format are images saved?",
+        "sentence_id": 73,
+        "char_start": 8533,
+        "char_end": 8536,
+        "anchor": "PMC10285634_8533_8536",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 77,
+      "label": "TIFF",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Q 16. In what format are images saved?",
+        "sentence_id": 73,
+        "char_start": 8538,
+        "char_end": 8542,
+        "anchor": "PMC10285634_8538_8542",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 78,
+      "label": "BMP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Q 16. In what format are images saved?",
+        "sentence_id": 73,
+        "char_start": 8547,
+        "char_end": 8550,
+        "anchor": "PMC10285634_8547_8550",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 35,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 76,
+      "target": 77
+    },
+    {
+      "id": 36,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 76,
+      "target": 78
+    },
+    {
+      "id": 37,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 77,
+      "target": 78
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 0,
+      "largest_component": 3
+    },
+    "page": 6
+  }
+}

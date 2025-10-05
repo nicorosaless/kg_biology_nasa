@@ -1,0 +1,340 @@
+{
+  "paper_id": "sha256:f1227eb4fe590ec19459018f33a3126a7e69f9c67671107111770a75cedf5094",
+  "metadata": {
+    "title": "Metabolic model predictions enable targeted microbiome manipulations through precision prebiotics",
+    "abstract": "Reviewer(s): Disclosure of reviewer identity is with reference to reviewer comments included in decision letter(s). The following individuals involved in review of your submission have agreed to reveal their identity: Hyun-Seob Song (Reviewer #1)Transaction Report:(Note: With the exception of the correction of typographical or spelling errors that could be a source of ambiguity, letters and reports are not edited.The original formatting of letters and referee reports may not be reflected in this compilation.",
+    "authors": [
+      "Georgios Marinos",
+      "Inga Hamerich",
+      "Reena Debray",
+      "Nancy Obeng",
+      "Carola Petersen",
+      "Jan Taubenheim",
+      "Johannes Zimmermann",
+      "Dana Blackburn",
+      "Buck Samuel",
+      "Katja Dierking",
+      "Andre Franke",
+      "Matthias Laudes",
+      "Silvio Waschina",
+      "Hinrich Schulenburg",
+      "Christoph Kaleta",
+      "Prof Christoph Kaleta"
+    ],
+    "affiliations": [
+      "Christian-Albrechts-Universitat zu Kiel Christian-Albrechts-Universitat zu Kiel Medical Systems Biology Kiel Germany Paul Jensen Editor ,",
+      "Microbiology Spectrum Journals Department American Society for Microbiology 1752 N St. , NW Washington , DC 20036"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Abstract",
+      "paragraphs": [
+        "Reviewer(s): Disclosure of reviewer identity is with reference to reviewer comments included in decision letter(s). The following individuals involved in review of your submission have agreed to reveal their identity: Hyun-Seob Song (Reviewer #1)Transaction Report:(Note: With the exception of the correction of typographical or spelling errors that could be a source of ambiguity, letters and reports are not edited.The original formatting of letters and referee reports may not be reflected in this compilation."
+      ],
+      "text": "Reviewer(s): Disclosure of reviewer identity is with reference to reviewer comments included in decision letter(s). The following individuals involved in review of your submission have agreed to reveal their identity: Hyun-Seob Song (Reviewer #1)Transaction Report:(Note: With the exception of the correction of typographical or spelling errors that could be a source of ambiguity, letters and reports are not edited.The original formatting of letters and referee reports may not be reflected in this compilation.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Reviewer(s): Disclosure of reviewer identity is with reference to reviewer comments included in decision letter(s). The following individuals involved in review of your submission have agreed to reveal their identity: Hyun-Seob Song (Reviewer #1)Transaction Report:(Note: With the exception of the correction of typographical or spelling errors that could be a source of ambiguity, letters and reports are not edited.The original formatting of letters and referee reports may not be reflected in this compilation.",
+          "block_index": 0,
+          "section_index": 0,
+          "global_order": 0,
+          "id": "p_1_1"
+        },
+        {
+          "type": "figure",
+          "id": "fig_1",
+          "block_index": 1,
+          "section_index": 0,
+          "global_order": 1
+        },
+        {
+          "type": "figure",
+          "id": "fig_2",
+          "block_index": 2,
+          "section_index": 0,
+          "global_order": 2
+        }
+      ]
+    },
+    {
+      "heading": "(untitled) 1.The authors identified 29, 81,",
+      "paragraphs": [
+        "1.The authors identified 29, 81, and 17 compounds that may promote the growth of MYb11 from FBA, cFBA, and IbM.Did they provide the full list of those compounds?How much was each of these predictions overlapping with their final selection (4hydroxybenzoate, D-mannitol, γ-aminobutyric acid (GABA), glycerol-3-phosphate, L-serine, trehalose, L-threonine, and putrescine)?2. The authors showed the validation for the four compounds (L-serine, L-threonine, GABA, and D-mannitol) against in vitro and only one (L-serine) against in vivo data.How about other compounds?Are there any reasons that the experimental and modeling results for other compounds were not presented?At least model predictions need to be presented.If model predictions were not consistent with experimental data for those compounds not included in the paper, please report as observed.3. The more details need to be provided regarding the construction and FBA simulations of 78 bacterial models (in C. elegans microbiota).a.It would be helpful if the authors provide an independent section in Methods to describe step-by-step procedures of metabolic network reconstruction so that the readers could also build the models following the given instruction.b.Regarding FBA simulations using the R-package sybil, it is not clear how to get the LP solution.It is written that they minimized the flux through each exchange reaction, which corresponds to maximizing its uptake, but this is difficult for me to understand.A typical FBA first maximizes biomass production, followed by flux minimization -is this also what the authors did? 4. Issues with model accuracy: a. Figure 2 shows significant discrepancy between Biolog data vs. growth predictions from three models.This indicates that individual metabolic networks constructed in this work were not correctly gapfilled.Why did the authors use incomplete models and how the results would be changed if they were fully gapfilled?b.Difficult to understand why are the growth predictions between FBA-sybil and BacArena not the exactly same if they used the same metabolic networks? 5.The authors need to justify why the computationally expensive IbM model (that can account for spatial heterogeneity) was necessary.It seems that dynamic FBA would suffice.Were there any specific issues related to spatial heterogeneity to address in this paper?6.In contrast with IbM, FBA and cFBA are steady state models that cannot predict \"rates\" but only \"relative\" fluxes to given uptake fluxes.The terms growth \"rates\" need to be corrected as appropriate.7.In simulating IbM using BacArena, how were the authors able to determine the kinetic uptake rates of compounds (to use as upper or lower limits of exchange reactions)?8.There are many different approaches for cFBA.More details need to be provided about MicrobiomeGS2 -does this take relative species abundances as input or predict them as model output?If the latter is the case, does it use a SteadyCom-type approach?If not, how? 9. How can the authors justify the following assumptions?a. Maximization of community biomass in cFBA: Why do we expect two organisms to cooperative for maximizing the community biomass instead of individual biomass?b.The assumption that the uptake rate of compounds is depicted by its maximum available amount: The amounts of compounds and their uptake rates are not the same.10.More details need to be provided for the following: a. \"For simulations using community FBA, the metabolic models of both organisms were merged into one microbial community model\" -I believe individual models were merged as a compartmentalized model (rather than mixed-bag), but it needs to be mentioned.b. \"For the simulations (of IbM), we inoculated the growth environment with 20 individuals of each species and simulated bacterial growth for 12 iterations with 15 replicates for each supplementation using FBA.\" -for those who are not very familiar with IbM simulations, please briefly explain why running BacArena needs iterations and replicates.11.It would be beneficial if the authors publicly share all metabolic networks constructed in this work.",
+        "Reviewer #2 (Comments for the Author):",
+        "The presented study uses metabolic models, a defined coculture of bacteria, and C. elegans as a host for the coculture.The stated goal is to develop precision prebiotics to engineer microbiome composition.",
+        "The manuscript needs major revisions before it is ready for publication.",
+        "The document defines precision prebiotics as being able to target the abundance of a specific microbe in a microbiome for a rational goal.The document then states that precision prebiotics is not possible because of niche overlap between microbes found in natural microbiomes.The document then assembles a coculture and states that shifting the abundance of one microbe in the coculture now qualifies as an example of precision prebiotics.These arguments are contradictory and are not an effective way to motivate a study.The document needs to reduce its claimed impact and simply state that it outlines how to modestly change the frequency of a single microbe in a coculture by adding 10 g/L of serine.",
+        "The first section of the results section analyzes human microbiome metagenome data.This is a distraction from the rest of the paper which examines a C. elegans coculture.Please remove the human microbiome section.The data could be better applied to a different study further detailing the classic power law relationship between a community property and its frequency.",
+        "The document claims to use metabolic modeling to guide the study.The presented data does not support the argument that the modeling was meaningful.As acknowledged by the authors, there are major problems with the common consortia modeling approaches used in this study.The document addresses this shortcoming by applying three different approaches.However if all three approaches have major weaknesses, it is not clear if the aggregate output will be an improvement.To predict growth rates of specific consortia members requires a number of major and often fatal assumptions.First, the annotation of the transporter gene needs to be accurate enough to denote its substrate specificity which is challenging.Second, there needs to be major assumptions about the transporter kinetic parameters (vmax).Thirdly, the predicted biomass per substrate yield needs to be accurate which requires major assumptions about the utilized P/O number, maintenance energy requirements, and substrate preference.Fourth, the microbe needs to express a phenotype like lab grown E. coli that 'maximizes growth rate', this phenotype is likely less common away from laboratory conditions and rich media.Finally, all these assumptions need to be combined and applied to multiple organisms.The presented data indicate the applied assumptions were not reasonable.The presented experimental data, which must have been the best set of data, required 100 mM (10 g/L!) of serine to shift the population abundances in the coculture.If 10 g/L serine is required for a shift in outcomes, the cells likely do not have serine-specific transporters, instead the elevated concentration of serine likely enabled nonspecific transport into the cells.Typical Km values for amino acids are ~1 mM, the tested concentration was 100x more than this.Secondly, in the medium supplemented with 10 g/L serine, the absorbance A600 of the target microbe only increased by ~0.15 units.For a typical bacteria, that corresponds with an increase of <0.1 g/L of biomass when 10 g/L of serine was added to the medium.100x more serine was added than observed change in culture density.I am supportive of metabolic modeling but it must be applied and reported in a responsible manner else the field will earn a poor reputation, hurting all.",
+        "The document states that 100 mM of serine (10 g/L) results in a change in the frequency of the target species in the C. elegans host (figure 5).The presented data only shows a very modest change in species frequency and the target microbe is still the minority species in the host.How does 10 g/L of serine influence the phenotype of C. elegans?C. elegans has been documented to change its foraging behavior based on the presence of amino acids.Is 10 g/L of serine inhibitory to C. elegans?Are the results a product of host inhibition?At 10g/L, amino acid catabolism could result in a major increase in culture pH.What is the pH of the solid medium after growth?",
+        "Figure 5 plots data for the 10 and 100 mM serine conditions.There was not change for the 10 mM serine condition.The document states a control condition was also run but the data is not presented.The control data are essential to appreciate the effects of the serine and to gauge the natural variability in experimental data.",
+        "Experimental methods section, pages 13 and 14, it is stated that bacterial cultures of each strain were diluted to an OD of 0.5, then mixed together in equal volumes to make the co-culture.However, results are often measured in terms of CFUs of each strain.If the bacterial strains are different sizes, setting both cultures to the same OD could result in different numbers of bacterial cells being added to the initial co-culture, which would influence community composition throughout the experiment.Data in Figure 3 implies there is a different relationship between OD and cfu for the two species.Please report the OD to cell count conversions for each bacterial strain in order to confirm that mixing the cultures in this way does in fact result in equal proportions of each strain at the start of the experiments Figures 3, 4, and 5, it is stated that each replicate was normalized by subtracting the non-supplemented median of the respective bacteria.Please explain why this was done.Does this overemphasize changes and that it confuses the interpretation of relative abundance?If the goal of the graphs is only to analyze change, the axes should be labeled accordingly.But this may also eliminate issues from the OD inoculation method?Minor comments: Figure 2. Please indicate that EcoPlate etc are Biolog data.",
+        "Introduction, sentence three, should be \"host\" rather than \"hosts\" Introduction, paragraph three, please expand on what is meant by \"e.g., microbial pathways of prebiotics degradation\" Page 7, please elaborate or explain the sentence \"Both bacteria are also able to interact metabolically with the nutrient environment determining their type of interaction\" Page 8, should be \"inflammatory bowel disease\" rather than \"inflammatory bowels disease\" Supplemental info, LEGEND tab, \"constrains\" should be \"constraints\" Supplemental info, tab S3, please include raw data in addition to relative change in biomass flux.Please also explicitly describe how the relative change was determined (percent, fraction, etc).This seems to be stated in the final paragraph of page 10 but not clearly linked to the numbers in the supplemental data Methods, page 11.It is stated that the reactions for the metabolic models were merged, but the biomass terms were kept separate, and the effects of supplemented compounds were determined from the differences in the biomass fluxes.Maximizing the flux through one biomass term at a time in this community model assumes that these organisms are working together in order to increase the growth of both of them.Is this a reasonable assumption, given that MYb71 has been shown to be competitive?Also discussed page 20 in results section, where \"coordinate\" implies mutualism Results, figure 2B, please change shape of markers so that the graphic can be read in black and white Results, page 21.It is stated that the growth of 8 compounds was supported by Biolog data.Were the other compounds not included in the Biolog plate?Or was growth not shown in the assay?Discussion page 28, sentence 1, should be \"changes are\" rather than \"changes is\""
+      ],
+      "text": "1.The authors identified 29, 81, and 17 compounds that may promote the growth of MYb11 from FBA, cFBA, and IbM.Did they provide the full list of those compounds?How much was each of these predictions overlapping with their final selection (4hydroxybenzoate, D-mannitol, γ-aminobutyric acid (GABA), glycerol-3-phosphate, L-serine, trehalose, L-threonine, and putrescine)?2. The authors showed the validation for the four compounds (L-serine, L-threonine, GABA, and D-mannitol) against in vitro and only one (L-serine) against in vivo data.How about other compounds?Are there any reasons that the experimental and modeling results for other compounds were not presented?At least model predictions need to be presented.If model predictions were not consistent with experimental data for those compounds not included in the paper, please report as observed.3. The more details need to be provided regarding the construction and FBA simulations of 78 bacterial models (in C. elegans microbiota).a.It would be helpful if the authors provide an independent section in Methods to describe step-by-step procedures of metabolic network reconstruction so that the readers could also build the models following the given instruction.b.Regarding FBA simulations using the R-package sybil, it is not clear how to get the LP solution.It is written that they minimized the flux through each exchange reaction, which corresponds to maximizing its uptake, but this is difficult for me to understand.A typical FBA first maximizes biomass production, followed by flux minimization -is this also what the authors did? 4. Issues with model accuracy: a. Figure 2 shows significant discrepancy between Biolog data vs. growth predictions from three models.This indicates that individual metabolic networks constructed in this work were not correctly gapfilled.Why did the authors use incomplete models and how the results would be changed if they were fully gapfilled?b.Difficult to understand why are the growth predictions between FBA-sybil and BacArena not the exactly same if they used the same metabolic networks? 5.The authors need to justify why the computationally expensive IbM model (that can account for spatial heterogeneity) was necessary.It seems that dynamic FBA would suffice.Were there any specific issues related to spatial heterogeneity to address in this paper?6.In contrast with IbM, FBA and cFBA are steady state models that cannot predict \"rates\" but only \"relative\" fluxes to given uptake fluxes.The terms growth \"rates\" need to be corrected as appropriate.7.In simulating IbM using BacArena, how were the authors able to determine the kinetic uptake rates of compounds (to use as upper or lower limits of exchange reactions)?8.There are many different approaches for cFBA.More details need to be provided about MicrobiomeGS2 -does this take relative species abundances as input or predict them as model output?If the latter is the case, does it use a SteadyCom-type approach?If not, how? 9. How can the authors justify the following assumptions?a. Maximization of community biomass in cFBA: Why do we expect two organisms to cooperative for maximizing the community biomass instead of individual biomass?b.The assumption that the uptake rate of compounds is depicted by its maximum available amount: The amounts of compounds and their uptake rates are not the same.10.More details need to be provided for the following: a. \"For simulations using community FBA, the metabolic models of both organisms were merged into one microbial community model\" -I believe individual models were merged as a compartmentalized model (rather than mixed-bag), but it needs to be mentioned.b. \"For the simulations (of IbM), we inoculated the growth environment with 20 individuals of each species and simulated bacterial growth for 12 iterations with 15 replicates for each supplementation using FBA.\" -for those who are not very familiar with IbM simulations, please briefly explain why running BacArena needs iterations and replicates.11.It would be beneficial if the authors publicly share all metabolic networks constructed in this work.\nReviewer #2 (Comments for the Author):\nThe presented study uses metabolic models, a defined coculture of bacteria, and C. elegans as a host for the coculture.The stated goal is to develop precision prebiotics to engineer microbiome composition.\nThe manuscript needs major revisions before it is ready for publication.\nThe document defines precision prebiotics as being able to target the abundance of a specific microbe in a microbiome for a rational goal.The document then states that precision prebiotics is not possible because of niche overlap between microbes found in natural microbiomes.The document then assembles a coculture and states that shifting the abundance of one microbe in the coculture now qualifies as an example of precision prebiotics.These arguments are contradictory and are not an effective way to motivate a study.The document needs to reduce its claimed impact and simply state that it outlines how to modestly change the frequency of a single microbe in a coculture by adding 10 g/L of serine.\nThe first section of the results section analyzes human microbiome metagenome data.This is a distraction from the rest of the paper which examines a C. elegans coculture.Please remove the human microbiome section.The data could be better applied to a different study further detailing the classic power law relationship between a community property and its frequency.\nThe document claims to use metabolic modeling to guide the study.The presented data does not support the argument that the modeling was meaningful.As acknowledged by the authors, there are major problems with the common consortia modeling approaches used in this study.The document addresses this shortcoming by applying three different approaches.However if all three approaches have major weaknesses, it is not clear if the aggregate output will be an improvement.To predict growth rates of specific consortia members requires a number of major and often fatal assumptions.First, the annotation of the transporter gene needs to be accurate enough to denote its substrate specificity which is challenging.Second, there needs to be major assumptions about the transporter kinetic parameters (vmax).Thirdly, the predicted biomass per substrate yield needs to be accurate which requires major assumptions about the utilized P/O number, maintenance energy requirements, and substrate preference.Fourth, the microbe needs to express a phenotype like lab grown E. coli that 'maximizes growth rate', this phenotype is likely less common away from laboratory conditions and rich media.Finally, all these assumptions need to be combined and applied to multiple organisms.The presented data indicate the applied assumptions were not reasonable.The presented experimental data, which must have been the best set of data, required 100 mM (10 g/L!) of serine to shift the population abundances in the coculture.If 10 g/L serine is required for a shift in outcomes, the cells likely do not have serine-specific transporters, instead the elevated concentration of serine likely enabled nonspecific transport into the cells.Typical Km values for amino acids are ~1 mM, the tested concentration was 100x more than this.Secondly, in the medium supplemented with 10 g/L serine, the absorbance A600 of the target microbe only increased by ~0.15 units.For a typical bacteria, that corresponds with an increase of <0.1 g/L of biomass when 10 g/L of serine was added to the medium.100x more serine was added than observed change in culture density.I am supportive of metabolic modeling but it must be applied and reported in a responsible manner else the field will earn a poor reputation, hurting all.\nThe document states that 100 mM of serine (10 g/L) results in a change in the frequency of the target species in the C. elegans host (figure 5).The presented data only shows a very modest change in species frequency and the target microbe is still the minority species in the host.How does 10 g/L of serine influence the phenotype of C. elegans?C. elegans has been documented to change its foraging behavior based on the presence of amino acids.Is 10 g/L of serine inhibitory to C. elegans?Are the results a product of host inhibition?At 10g/L, amino acid catabolism could result in a major increase in culture pH.What is the pH of the solid medium after growth?\nFigure 5 plots data for the 10 and 100 mM serine conditions.There was not change for the 10 mM serine condition.The document states a control condition was also run but the data is not presented.The control data are essential to appreciate the effects of the serine and to gauge the natural variability in experimental data.\nExperimental methods section, pages 13 and 14, it is stated that bacterial cultures of each strain were diluted to an OD of 0.5, then mixed together in equal volumes to make the co-culture.However, results are often measured in terms of CFUs of each strain.If the bacterial strains are different sizes, setting both cultures to the same OD could result in different numbers of bacterial cells being added to the initial co-culture, which would influence community composition throughout the experiment.Data in Figure 3 implies there is a different relationship between OD and cfu for the two species.Please report the OD to cell count conversions for each bacterial strain in order to confirm that mixing the cultures in this way does in fact result in equal proportions of each strain at the start of the experiments Figures 3, 4, and 5, it is stated that each replicate was normalized by subtracting the non-supplemented median of the respective bacteria.Please explain why this was done.Does this overemphasize changes and that it confuses the interpretation of relative abundance?If the goal of the graphs is only to analyze change, the axes should be labeled accordingly.But this may also eliminate issues from the OD inoculation method?Minor comments: Figure 2. Please indicate that EcoPlate etc are Biolog data.\nIntroduction, sentence three, should be \"host\" rather than \"hosts\" Introduction, paragraph three, please expand on what is meant by \"e.g., microbial pathways of prebiotics degradation\" Page 7, please elaborate or explain the sentence \"Both bacteria are also able to interact metabolically with the nutrient environment determining their type of interaction\" Page 8, should be \"inflammatory bowel disease\" rather than \"inflammatory bowels disease\" Supplemental info, LEGEND tab, \"constrains\" should be \"constraints\" Supplemental info, tab S3, please include raw data in addition to relative change in biomass flux.Please also explicitly describe how the relative change was determined (percent, fraction, etc).This seems to be stated in the final paragraph of page 10 but not clearly linked to the numbers in the supplemental data Methods, page 11.It is stated that the reactions for the metabolic models were merged, but the biomass terms were kept separate, and the effects of supplemented compounds were determined from the differences in the biomass fluxes.Maximizing the flux through one biomass term at a time in this community model assumes that these organisms are working together in order to increase the growth of both of them.Is this a reasonable assumption, given that MYb71 has been shown to be competitive?Also discussed page 20 in results section, where \"coordinate\" implies mutualism Results, figure 2B, please change shape of markers so that the graphic can be read in black and white Results, page 21.It is stated that the growth of 8 compounds was supported by Biolog data.Were the other compounds not included in the Biolog plate?Or was growth not shown in the assay?Discussion page 28, sentence 1, should be \"changes are\" rather than \"changes is\"",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "1.The authors identified 29, 81, and 17 compounds that may promote the growth of MYb11 from FBA, cFBA, and IbM.Did they provide the full list of those compounds?How much was each of these predictions overlapping with their final selection (4hydroxybenzoate, D-mannitol, γ-aminobutyric acid (GABA), glycerol-3-phosphate, L-serine, trehalose, L-threonine, and putrescine)?2. The authors showed the validation for the four compounds (L-serine, L-threonine, GABA, and D-mannitol) against in vitro and only one (L-serine) against in vivo data.How about other compounds?Are there any reasons that the experimental and modeling results for other compounds were not presented?At least model predictions need to be presented.If model predictions were not consistent with experimental data for those compounds not included in the paper, please report as observed.3. The more details need to be provided regarding the construction and FBA simulations of 78 bacterial models (in C. elegans microbiota).a.It would be helpful if the authors provide an independent section in Methods to describe step-by-step procedures of metabolic network reconstruction so that the readers could also build the models following the given instruction.b.Regarding FBA simulations using the R-package sybil, it is not clear how to get the LP solution.It is written that they minimized the flux through each exchange reaction, which corresponds to maximizing its uptake, but this is difficult for me to understand.A typical FBA first maximizes biomass production, followed by flux minimization -is this also what the authors did? 4. Issues with model accuracy: a. Figure 2 shows significant discrepancy between Biolog data vs. growth predictions from three models.This indicates that individual metabolic networks constructed in this work were not correctly gapfilled.Why did the authors use incomplete models and how the results would be changed if they were fully gapfilled?b.Difficult to understand why are the growth predictions between FBA-sybil and BacArena not the exactly same if they used the same metabolic networks? 5.The authors need to justify why the computationally expensive IbM model (that can account for spatial heterogeneity) was necessary.It seems that dynamic FBA would suffice.Were there any specific issues related to spatial heterogeneity to address in this paper?6.In contrast with IbM, FBA and cFBA are steady state models that cannot predict \"rates\" but only \"relative\" fluxes to given uptake fluxes.The terms growth \"rates\" need to be corrected as appropriate.7.In simulating IbM using BacArena, how were the authors able to determine the kinetic uptake rates of compounds (to use as upper or lower limits of exchange reactions)?8.There are many different approaches for cFBA.More details need to be provided about MicrobiomeGS2 -does this take relative species abundances as input or predict them as model output?If the latter is the case, does it use a SteadyCom-type approach?If not, how? 9. How can the authors justify the following assumptions?a. Maximization of community biomass in cFBA: Why do we expect two organisms to cooperative for maximizing the community biomass instead of individual biomass?b.The assumption that the uptake rate of compounds is depicted by its maximum available amount: The amounts of compounds and their uptake rates are not the same.10.More details need to be provided for the following: a. \"For simulations using community FBA, the metabolic models of both organisms were merged into one microbial community model\" -I believe individual models were merged as a compartmentalized model (rather than mixed-bag), but it needs to be mentioned.b. \"For the simulations (of IbM), we inoculated the growth environment with 20 individuals of each species and simulated bacterial growth for 12 iterations with 15 replicates for each supplementation using FBA.\" -for those who are not very familiar with IbM simulations, please briefly explain why running BacArena needs iterations and replicates.11.It would be beneficial if the authors publicly share all metabolic networks constructed in this work.",
+          "block_index": 0,
+          "section_index": 1,
+          "global_order": 3,
+          "id": "p_2_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "Reviewer #2 (Comments for the Author):",
+          "block_index": 1,
+          "section_index": 1,
+          "global_order": 4,
+          "id": "p_2_2"
+        },
+        {
+          "type": "paragraph",
+          "text": "The presented study uses metabolic models, a defined coculture of bacteria, and C. elegans as a host for the coculture.The stated goal is to develop precision prebiotics to engineer microbiome composition.",
+          "block_index": 2,
+          "section_index": 1,
+          "global_order": 5,
+          "id": "p_2_3"
+        },
+        {
+          "type": "paragraph",
+          "text": "The manuscript needs major revisions before it is ready for publication.",
+          "block_index": 3,
+          "section_index": 1,
+          "global_order": 6,
+          "id": "p_2_4"
+        },
+        {
+          "type": "paragraph",
+          "text": "The document defines precision prebiotics as being able to target the abundance of a specific microbe in a microbiome for a rational goal.The document then states that precision prebiotics is not possible because of niche overlap between microbes found in natural microbiomes.The document then assembles a coculture and states that shifting the abundance of one microbe in the coculture now qualifies as an example of precision prebiotics.These arguments are contradictory and are not an effective way to motivate a study.The document needs to reduce its claimed impact and simply state that it outlines how to modestly change the frequency of a single microbe in a coculture by adding 10 g/L of serine.",
+          "block_index": 4,
+          "section_index": 1,
+          "global_order": 7,
+          "id": "p_2_5"
+        },
+        {
+          "type": "paragraph",
+          "text": "The first section of the results section analyzes human microbiome metagenome data.This is a distraction from the rest of the paper which examines a C. elegans coculture.Please remove the human microbiome section.The data could be better applied to a different study further detailing the classic power law relationship between a community property and its frequency.",
+          "block_index": 5,
+          "section_index": 1,
+          "global_order": 8,
+          "id": "p_2_6"
+        },
+        {
+          "type": "paragraph",
+          "text": "The document claims to use metabolic modeling to guide the study.The presented data does not support the argument that the modeling was meaningful.As acknowledged by the authors, there are major problems with the common consortia modeling approaches used in this study.The document addresses this shortcoming by applying three different approaches.However if all three approaches have major weaknesses, it is not clear if the aggregate output will be an improvement.To predict growth rates of specific consortia members requires a number of major and often fatal assumptions.First, the annotation of the transporter gene needs to be accurate enough to denote its substrate specificity which is challenging.Second, there needs to be major assumptions about the transporter kinetic parameters (vmax).Thirdly, the predicted biomass per substrate yield needs to be accurate which requires major assumptions about the utilized P/O number, maintenance energy requirements, and substrate preference.Fourth, the microbe needs to express a phenotype like lab grown E. coli that 'maximizes growth rate', this phenotype is likely less common away from laboratory conditions and rich media.Finally, all these assumptions need to be combined and applied to multiple organisms.The presented data indicate the applied assumptions were not reasonable.The presented experimental data, which must have been the best set of data, required 100 mM (10 g/L!) of serine to shift the population abundances in the coculture.If 10 g/L serine is required for a shift in outcomes, the cells likely do not have serine-specific transporters, instead the elevated concentration of serine likely enabled nonspecific transport into the cells.Typical Km values for amino acids are ~1 mM, the tested concentration was 100x more than this.Secondly, in the medium supplemented with 10 g/L serine, the absorbance A600 of the target microbe only increased by ~0.15 units.For a typical bacteria, that corresponds with an increase of <0.1 g/L of biomass when 10 g/L of serine was added to the medium.100x more serine was added than observed change in culture density.I am supportive of metabolic modeling but it must be applied and reported in a responsible manner else the field will earn a poor reputation, hurting all.",
+          "block_index": 6,
+          "section_index": 1,
+          "global_order": 9,
+          "id": "p_2_7"
+        },
+        {
+          "type": "paragraph",
+          "text": "The document states that 100 mM of serine (10 g/L) results in a change in the frequency of the target species in the C. elegans host (figure 5).The presented data only shows a very modest change in species frequency and the target microbe is still the minority species in the host.How does 10 g/L of serine influence the phenotype of C. elegans?C. elegans has been documented to change its foraging behavior based on the presence of amino acids.Is 10 g/L of serine inhibitory to C. elegans?Are the results a product of host inhibition?At 10g/L, amino acid catabolism could result in a major increase in culture pH.What is the pH of the solid medium after growth?",
+          "block_index": 7,
+          "section_index": 1,
+          "global_order": 10,
+          "id": "p_2_8"
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 5 plots data for the 10 and 100 mM serine conditions.There was not change for the 10 mM serine condition.The document states a control condition was also run but the data is not presented.The control data are essential to appreciate the effects of the serine and to gauge the natural variability in experimental data.",
+          "block_index": 8,
+          "section_index": 1,
+          "global_order": 11,
+          "id": "p_2_9"
+        },
+        {
+          "type": "paragraph",
+          "text": "Experimental methods section, pages 13 and 14, it is stated that bacterial cultures of each strain were diluted to an OD of 0.5, then mixed together in equal volumes to make the co-culture.However, results are often measured in terms of CFUs of each strain.If the bacterial strains are different sizes, setting both cultures to the same OD could result in different numbers of bacterial cells being added to the initial co-culture, which would influence community composition throughout the experiment.Data in Figure 3 implies there is a different relationship between OD and cfu for the two species.Please report the OD to cell count conversions for each bacterial strain in order to confirm that mixing the cultures in this way does in fact result in equal proportions of each strain at the start of the experiments Figures 3, 4, and 5, it is stated that each replicate was normalized by subtracting the non-supplemented median of the respective bacteria.Please explain why this was done.Does this overemphasize changes and that it confuses the interpretation of relative abundance?If the goal of the graphs is only to analyze change, the axes should be labeled accordingly.But this may also eliminate issues from the OD inoculation method?Minor comments: Figure 2. Please indicate that EcoPlate etc are Biolog data.",
+          "block_index": 9,
+          "section_index": 1,
+          "global_order": 12,
+          "id": "p_2_10"
+        },
+        {
+          "type": "paragraph",
+          "text": "Introduction, sentence three, should be \"host\" rather than \"hosts\" Introduction, paragraph three, please expand on what is meant by \"e.g., microbial pathways of prebiotics degradation\" Page 7, please elaborate or explain the sentence \"Both bacteria are also able to interact metabolically with the nutrient environment determining their type of interaction\" Page 8, should be \"inflammatory bowel disease\" rather than \"inflammatory bowels disease\" Supplemental info, LEGEND tab, \"constrains\" should be \"constraints\" Supplemental info, tab S3, please include raw data in addition to relative change in biomass flux.Please also explicitly describe how the relative change was determined (percent, fraction, etc).This seems to be stated in the final paragraph of page 10 but not clearly linked to the numbers in the supplemental data Methods, page 11.It is stated that the reactions for the metabolic models were merged, but the biomass terms were kept separate, and the effects of supplemented compounds were determined from the differences in the biomass fluxes.Maximizing the flux through one biomass term at a time in this community model assumes that these organisms are working together in order to increase the growth of both of them.Is this a reasonable assumption, given that MYb71 has been shown to be competitive?Also discussed page 20 in results section, where \"coordinate\" implies mutualism Results, figure 2B, please change shape of markers so that the graphic can be read in black and white Results, page 21.It is stated that the growth of 8 compounds was supported by Biolog data.Were the other compounds not included in the Biolog plate?Or was growth not shown in the assay?Discussion page 28, sentence 1, should be \"changes are\" rather than \"changes is\"",
+          "block_index": 10,
+          "section_index": 1,
+          "global_order": 13,
+          "id": "p_2_11"
+        }
+      ]
+    },
+    {
+      "heading": "Staff Comments:",
+      "paragraphs": [
+        "Preparing Revision Guidelines To submit your modified manuscript, log onto the eJP submission site at https://spectrum.msubmit.net/cgi-bin/main.plex.Go to"
+      ],
+      "text": "Preparing Revision Guidelines To submit your modified manuscript, log onto the eJP submission site at https://spectrum.msubmit.net/cgi-bin/main.plex.Go to",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Preparing Revision Guidelines To submit your modified manuscript, log onto the eJP submission site at https://spectrum.msubmit.net/cgi-bin/main.plex.Go to",
+          "block_index": 0,
+          "section_index": 2,
+          "global_order": 14,
+          "id": "p_3_1"
+        }
+      ]
+    }
+  ],
+  "figures": {
+    "fig_1": {
+      "label": "",
+      "caption": "",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "1,33.30,28.50,545.40,247.80",
+      "coords_groups": [
+        {
+          "page": 1,
+          "x": 33.3,
+          "y": 28.5,
+          "w": 545.4,
+          "h": 247.8,
+          "x2": 578.6999999999999,
+          "y2": 276.3
+        }
+      ],
+      "bbox": {
+        "page": 1,
+        "x1": 33.3,
+        "y1": 28.5,
+        "x2": 578.6999999999999,
+        "y2": 276.3,
+        "width": 545.4,
+        "height": 247.8
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 1,
+      "block_global_order": 1,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC10846184/fig_1.png"
+    },
+    "fig_2": {
+      "label": "",
+      "caption": "Manuscript: A .DOC version of the revised manuscript • Figures: Editable, high-resolution, individual figure files are required at revision, TIFF or EPS files are preferred For complete guidelines on revision requirements, please see the journal Submission and Review Process requirements at https://journals.asm.org/journal/Spectrum/submission-review-process.Submissions of a paper that does not conform to Microbiology Spectrum guidelines will delay acceptance of your manuscript.\"",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "5,39.32,336.50,228.64,9.60;5,33.30,347.90,474.98,9.60;5,33.30,370.70,520.25,9.60;5,33.30,382.10,521.93,9.60;5,33.30,393.50,354.98,9.60",
+      "coords_groups": [
+        {
+          "page": 5,
+          "x": 39.32,
+          "y": 336.5,
+          "w": 228.64,
+          "h": 9.6,
+          "x2": 267.96,
+          "y2": 346.1
+        },
+        {
+          "page": 5,
+          "x": 33.3,
+          "y": 347.9,
+          "w": 474.98,
+          "h": 9.6,
+          "x2": 508.28000000000003,
+          "y2": 357.5
+        },
+        {
+          "page": 5,
+          "x": 33.3,
+          "y": 370.7,
+          "w": 520.25,
+          "h": 9.6,
+          "x2": 553.55,
+          "y2": 380.3
+        },
+        {
+          "page": 5,
+          "x": 33.3,
+          "y": 382.1,
+          "w": 521.93,
+          "h": 9.6,
+          "x2": 555.2299999999999,
+          "y2": 391.70000000000005
+        },
+        {
+          "page": 5,
+          "x": 33.3,
+          "y": 393.5,
+          "w": 354.98,
+          "h": 9.6,
+          "x2": 388.28000000000003,
+          "y2": 403.1
+        }
+      ],
+      "bbox": {
+        "page": 5,
+        "x1": 33.3,
+        "y1": 336.5,
+        "x2": 555.2299999999999,
+        "y2": 403.1,
+        "width": 521.93,
+        "height": 66.60000000000002
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 2,
+      "block_global_order": 2,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC10846184/fig_2.crop.png",
+      "image_cropped": true,
+      "image_zoom": 2.0
+    }
+  },
+  "tables": {},
+  "equations": {},
+  "references": [],
+  "footnotes": [],
+  "full_text": "Reviewer(s): Disclosure of reviewer identity is with reference to reviewer comments included in decision letter(s). The following individuals involved in review of your submission have agreed to reveal their identity: Hyun-Seob Song (Reviewer #1)Transaction Report:(Note: With the exception of the correction of typographical or spelling errors that could be a source of ambiguity, letters and reports are not edited.The original formatting of letters and referee reports may not be reflected in this compilation.\n\n1.The authors identified 29, 81, and 17 compounds that may promote the growth of MYb11 from FBA, cFBA, and IbM.Did they provide the full list of those compounds?How much was each of these predictions overlapping with their final selection (4hydroxybenzoate, D-mannitol, γ-aminobutyric acid (GABA), glycerol-3-phosphate, L-serine, trehalose, L-threonine, and putrescine)?2. The authors showed the validation for the four compounds (L-serine, L-threonine, GABA, and D-mannitol) against in vitro and only one (L-serine) against in vivo data.How about other compounds?Are there any reasons that the experimental and modeling results for other compounds were not presented?At least model predictions need to be presented.If model predictions were not consistent with experimental data for those compounds not included in the paper, please report as observed.3. The more details need to be provided regarding the construction and FBA simulations of 78 bacterial models (in C. elegans microbiota).a.It would be helpful if the authors provide an independent section in Methods to describe step-by-step procedures of metabolic network reconstruction so that the readers could also build the models following the given instruction.b.Regarding FBA simulations using the R-package sybil, it is not clear how to get the LP solution.It is written that they minimized the flux through each exchange reaction, which corresponds to maximizing its uptake, but this is difficult for me to understand.A typical FBA first maximizes biomass production, followed by flux minimization -is this also what the authors did? 4. Issues with model accuracy: a. Figure 2 shows significant discrepancy between Biolog data vs. growth predictions from three models.This indicates that individual metabolic networks constructed in this work were not correctly gapfilled.Why did the authors use incomplete models and how the results would be changed if they were fully gapfilled?b.Difficult to understand why are the growth predictions between FBA-sybil and BacArena not the exactly same if they used the same metabolic networks? 5.The authors need to justify why the computationally expensive IbM model (that can account for spatial heterogeneity) was necessary.It seems that dynamic FBA would suffice.Were there any specific issues related to spatial heterogeneity to address in this paper?6.In contrast with IbM, FBA and cFBA are steady state models that cannot predict \"rates\" but only \"relative\" fluxes to given uptake fluxes.The terms growth \"rates\" need to be corrected as appropriate.7.In simulating IbM using BacArena, how were the authors able to determine the kinetic uptake rates of compounds (to use as upper or lower limits of exchange reactions)?8.There are many different approaches for cFBA.More details need to be provided about MicrobiomeGS2 -does this take relative species abundances as input or predict them as model output?If the latter is the case, does it use a SteadyCom-type approach?If not, how? 9. How can the authors justify the following assumptions?a. Maximization of community biomass in cFBA: Why do we expect two organisms to cooperative for maximizing the community biomass instead of individual biomass?b.The assumption that the uptake rate of compounds is depicted by its maximum available amount: The amounts of compounds and their uptake rates are not the same.10.More details need to be provided for the following: a. \"For simulations using community FBA, the metabolic models of both organisms were merged into one microbial community model\" -I believe individual models were merged as a compartmentalized model (rather than mixed-bag), but it needs to be mentioned.b. \"For the simulations (of IbM), we inoculated the growth environment with 20 individuals of each species and simulated bacterial growth for 12 iterations with 15 replicates for each supplementation using FBA.\" -for those who are not very familiar with IbM simulations, please briefly explain why running BacArena needs iterations and replicates.11.It would be beneficial if the authors publicly share all metabolic networks constructed in this work.\nReviewer #2 (Comments for the Author):\nThe presented study uses metabolic models, a defined coculture of bacteria, and C. elegans as a host for the coculture.The stated goal is to develop precision prebiotics to engineer microbiome composition.\nThe manuscript needs major revisions before it is ready for publication.\nThe document defines precision prebiotics as being able to target the abundance of a specific microbe in a microbiome for a rational goal.The document then states that precision prebiotics is not possible because of niche overlap between microbes found in natural microbiomes.The document then assembles a coculture and states that shifting the abundance of one microbe in the coculture now qualifies as an example of precision prebiotics.These arguments are contradictory and are not an effective way to motivate a study.The document needs to reduce its claimed impact and simply state that it outlines how to modestly change the frequency of a single microbe in a coculture by adding 10 g/L of serine.\nThe first section of the results section analyzes human microbiome metagenome data.This is a distraction from the rest of the paper which examines a C. elegans coculture.Please remove the human microbiome section.The data could be better applied to a different study further detailing the classic power law relationship between a community property and its frequency.\nThe document claims to use metabolic modeling to guide the study.The presented data does not support the argument that the modeling was meaningful.As acknowledged by the authors, there are major problems with the common consortia modeling approaches used in this study.The document addresses this shortcoming by applying three different approaches.However if all three approaches have major weaknesses, it is not clear if the aggregate output will be an improvement.To predict growth rates of specific consortia members requires a number of major and often fatal assumptions.First, the annotation of the transporter gene needs to be accurate enough to denote its substrate specificity which is challenging.Second, there needs to be major assumptions about the transporter kinetic parameters (vmax).Thirdly, the predicted biomass per substrate yield needs to be accurate which requires major assumptions about the utilized P/O number, maintenance energy requirements, and substrate preference.Fourth, the microbe needs to express a phenotype like lab grown E. coli that 'maximizes growth rate', this phenotype is likely less common away from laboratory conditions and rich media.Finally, all these assumptions need to be combined and applied to multiple organisms.The presented data indicate the applied assumptions were not reasonable.The presented experimental data, which must have been the best set of data, required 100 mM (10 g/L!) of serine to shift the population abundances in the coculture.If 10 g/L serine is required for a shift in outcomes, the cells likely do not have serine-specific transporters, instead the elevated concentration of serine likely enabled nonspecific transport into the cells.Typical Km values for amino acids are ~1 mM, the tested concentration was 100x more than this.Secondly, in the medium supplemented with 10 g/L serine, the absorbance A600 of the target microbe only increased by ~0.15 units.For a typical bacteria, that corresponds with an increase of <0.1 g/L of biomass when 10 g/L of serine was added to the medium.100x more serine was added than observed change in culture density.I am supportive of metabolic modeling but it must be applied and reported in a responsible manner else the field will earn a poor reputation, hurting all.\nThe document states that 100 mM of serine (10 g/L) results in a change in the frequency of the target species in the C. elegans host (figure 5).The presented data only shows a very modest change in species frequency and the target microbe is still the minority species in the host.How does 10 g/L of serine influence the phenotype of C. elegans?C. elegans has been documented to change its foraging behavior based on the presence of amino acids.Is 10 g/L of serine inhibitory to C. elegans?Are the results a product of host inhibition?At 10g/L, amino acid catabolism could result in a major increase in culture pH.What is the pH of the solid medium after growth?\nFigure 5 plots data for the 10 and 100 mM serine conditions.There was not change for the 10 mM serine condition.The document states a control condition was also run but the data is not presented.The control data are essential to appreciate the effects of the serine and to gauge the natural variability in experimental data.\nExperimental methods section, pages 13 and 14, it is stated that bacterial cultures of each strain were diluted to an OD of 0.5, then mixed together in equal volumes to make the co-culture.However, results are often measured in terms of CFUs of each strain.If the bacterial strains are different sizes, setting both cultures to the same OD could result in different numbers of bacterial cells being added to the initial co-culture, which would influence community composition throughout the experiment.Data in Figure 3 implies there is a different relationship between OD and cfu for the two species.Please report the OD to cell count conversions for each bacterial strain in order to confirm that mixing the cultures in this way does in fact result in equal proportions of each strain at the start of the experiments Figures 3, 4, and 5, it is stated that each replicate was normalized by subtracting the non-supplemented median of the respective bacteria.Please explain why this was done.Does this overemphasize changes and that it confuses the interpretation of relative abundance?If the goal of the graphs is only to analyze change, the axes should be labeled accordingly.But this may also eliminate issues from the OD inoculation method?Minor comments: Figure 2. Please indicate that EcoPlate etc are Biolog data.\nIntroduction, sentence three, should be \"host\" rather than \"hosts\" Introduction, paragraph three, please expand on what is meant by \"e.g., microbial pathways of prebiotics degradation\" Page 7, please elaborate or explain the sentence \"Both bacteria are also able to interact metabolically with the nutrient environment determining their type of interaction\" Page 8, should be \"inflammatory bowel disease\" rather than \"inflammatory bowels disease\" Supplemental info, LEGEND tab, \"constrains\" should be \"constraints\" Supplemental info, tab S3, please include raw data in addition to relative change in biomass flux.Please also explicitly describe how the relative change was determined (percent, fraction, etc).This seems to be stated in the final paragraph of page 10 but not clearly linked to the numbers in the supplemental data Methods, page 11.It is stated that the reactions for the metabolic models were merged, but the biomass terms were kept separate, and the effects of supplemented compounds were determined from the differences in the biomass fluxes.Maximizing the flux through one biomass term at a time in this community model assumes that these organisms are working together in order to increase the growth of both of them.Is this a reasonable assumption, given that MYb71 has been shown to be competitive?Also discussed page 20 in results section, where \"coordinate\" implies mutualism Results, figure 2B, please change shape of markers so that the graphic can be read in black and white Results, page 21.It is stated that the growth of 8 compounds was supported by Biolog data.Were the other compounds not included in the Biolog plate?Or was growth not shown in the assay?Discussion page 28, sentence 1, should be \"changes are\" rather than \"changes is\"\n\nPreparing Revision Guidelines To submit your modified manuscript, log onto the eJP submission site at https://spectrum.msubmit.net/cgi-bin/main.plex.Go to",
+  "stats": {
+    "section_count": 3,
+    "figure_count": 2,
+    "figure_count_original": 2,
+    "figure_count_synthetic": 0,
+    "table_count": 0,
+    "equation_count": 0,
+    "reference_count": 0,
+    "footnote_count": 0,
+    "extracted_at": "2025-10-05T10:36:37.372652Z",
+    "image_extraction": {
+      "extracted_images": 1,
+      "figure_images_mapped": 2,
+      "table_images_mapped": 0,
+      "cropped_images": 1,
+      "figures_total_all": 2,
+      "figures_total_pure": 2,
+      "figures_total_original": 2,
+      "figures_total_synthetic": 0,
+      "tables_total": 0,
+      "figures_with_image_pure": 2,
+      "tables_with_image": 0,
+      "figures_missing_image_pure": 0,
+      "tables_missing_image": 0
+    },
+    "figures_total_all": 2,
+    "figures_total_pure": 2,
+    "figures_total_original": 2,
+    "figures_total_synthetic": 0,
+    "tables_total": 0,
+    "figures_with_image_pure": 2,
+    "tables_with_image": 0,
+    "validation": {
+      "figure_ids_total": 2,
+      "equation_ids_total": 0,
+      "figure_block_ids": 2,
+      "equation_block_ids": 0,
+      "missing_figure_block_refs": [],
+      "missing_equation_block_refs": [],
+      "global_order_contiguous": true,
+      "block_count": 15,
+      "equations_missing_loc": [],
+      "equations_missing_bbox_expected": []
+    }
+  }
+}

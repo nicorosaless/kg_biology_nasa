@@ -1,0 +1,205 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "This study investigates the effects of simulated microgravity on mice using a 3D clinostat, focusing on the central nervous system. The experiment involved behavioral tests, femur micro-CT, brain transcriptomics, serum metabolomics, and fecal microbiomics to assess the impact of the simulated microgravity. Eighteen mice were divided into three groups: a control group, a survival box group, and a clinostat + survival box group. The results revealed significant alterations in activity levels, gait, fear memory, bone density, brain transcriptome, serum metabolic pathways, and gut microbiota in mice treated with the clinostat.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Fig.",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.png"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Fig.",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.png"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Fig.",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.png"
+      },
+      {
+        "id": "fig_4",
+        "caption": "747.25, S HU/FL = ∑ n 1 |F CHU n -F CFLn| = 1756.26,and S CS/HU = ∑ n 1 |F Ccsn -F CHU n| = 1575.88.Notably, the S CS/FL distance emerges as significantly smaller",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.png"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Experimental Setup and Treatment",
+      "summary": "Ten-week-old male C57BL/6J mice were divided into three groups: a control group (MC) housed in ordinary cages, a survival box group (SB), and a 3D clinostat group (CS) housed in survival boxes and subjected to 3D clinostat treatment. The clinostat rotated randomly at 0-10 rpm. All mice underwent a 5-day adaptive training period, with the CS group undergoing adaptive rotation for increasing durations. Formal experiments began at 11 weeks old, with the CS group experiencing continuous simulated microgravity for 8 weeks, except for brief interruptions for cage cleaning and feeding.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Behavioral Testing Methods",
+      "summary": "A sequence of behavioral experiments was conducted to assess the impact of the 3D clinostat on cognitive and motor functions. These tests included grip strength, open field, novel object recognition, Y-maze, elevated plus maze, tail suspension, gait analysis, rotarod, Morris water maze, forced swim, and fear conditioning tests. Each mouse was tested individually and returned to the 3D clinostat as quickly as possible to minimize disruption of the rotation.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Effects on Body Weight and Activity",
+      "summary": "Mice in the CS group initially experienced significant weight loss during the first four days of 3D clinostat treatment but gradually adapted, recovering to weight levels similar to the control groups. The 3D clinostat treatment reduced activity and exploratory behavior, indicated by decreased movement distance and exercise time in the open field test.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Cognitive and Motor Performance",
+      "summary": "The study found no significant differences in learning and memory between the CS and SB groups in the novel object recognition, Y-maze, and Morris water maze tests. The grip strength test showed no notable differences among the three groups. The rotarod test indicated that CS group mice had a longer latency to fall compared to the SB group, possibly due to improved balancing ability acquired through the 3D clinostat process.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Femur Bone Parameter Changes",
+      "summary": "Micro-CT scans of femurs revealed that both SB and CS groups experienced significant bone loss compared to the MC group, with decreased bone volume and trabecular number, and increased trabecular pattern factor and trabecular separation. The CS group exhibited a trend of further aggravated bone loss compared to the SB group.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Brain Transcriptome Analysis",
+      "summary": "Whole-brain transcriptome sequencing identified differentially expressed genes among the three groups. KEGG pathway analysis indicated that the 3D clinostat primarily affected immune and endocrine-related signaling pathways, including those associated with diseases like malaria, rheumatoid arthritis, and prolactin signaling pathway.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Serum Metabolomics Analysis",
+      "summary": "Non-targeted metabolomics analysis of serum samples revealed distinct differentiation among the three groups. The CS group exhibited significant upregulation of serum metabolites, and downregulation of others.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Gut Microbiome Analysis",
+      "summary": "",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Comparison to Other Microgravity Models",
+      "summary": "",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": "The 3D clinostat model exerts significant effects on behavior, metabolism, microbiome, and brain transcriptome in mice. Compared to the hindlimb unloading model, the 3D clinostat model demonstrates a closer resemblance to the brain transcriptome expression profiles observed in spaceflight animals, offering a novel tool for simulating microgravity effects on Earth. The study highlighted the potential use of the 3D clinostat model for investigating cognitive changes associated with microgravity environments and understanding potential mechanisms underlying spaceflight-related health risks.",
+  "keywords": [
+    "3d clinostat",
+    "microgravity",
+    "mice model",
+    "brain transcriptome",
+    "serum metabolomics",
+    "gut microbiome",
+    "behavioral tests",
+    "spaceflight",
+    "bone metabolism",
+    "cns"
+  ],
+  "topics": [
+    "neuroscience",
+    "molecular biology",
+    "simulated microgravity"
+  ],
+  "_meta": {
+    "paper_id": "sha256:f8b754328e317ef879509e197f137fd2d6f6e6d714dc29a081f2f05901f72acc",
+    "paper_title": "Behavioral and multiomics analysis of 3D clinostat simulated microgravity effect in mice focusing on the central",
+    "generated_at": "2025-10-05T10:39:45Z",
+    "word_count": 488,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "3d clinostat",
+      "microgravity",
+      "mice model",
+      "brain transcriptome",
+      "serum metabolomics",
+      "gut microbiome",
+      "behavioral tests",
+      "spaceflight",
+      "bone metabolism",
+      "cns"
+    ],
+    "topics": [
+      "neuroscience",
+      "molecular biology",
+      "simulated microgravity"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 2,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 8477,
+      "completion_tokens": 1296,
+      "total_tokens": 9773,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000848,
+      "output_usd": 0.000518,
+      "total_usd": 0.001366
+    },
+    "cost": {
+      "input_usd": 0.000848,
+      "output_usd": 0.000518,
+      "total_usd": 0.001366
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [
+        {
+          "id": "fig_5",
+          "score": -9999,
+          "caption_wc": 102
+        },
+        {
+          "id": "fig_6",
+          "score": -9999,
+          "caption_wc": 99
+        }
+      ],
+      "corrupted_detected": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4",
+        "fig_5",
+        "fig_6"
+      ],
+      "original_total": 6,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

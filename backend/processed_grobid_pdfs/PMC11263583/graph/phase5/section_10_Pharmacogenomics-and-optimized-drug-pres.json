@@ -1,0 +1,85 @@
+{
+  "paper_id": "PMC11263583",
+  "section": "Pharmacogenomics and optimized drug prescribing in space",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 448,
+      "label": "codeine",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Pharmacogenomics and optimized drug prescribing in space",
+        "sentence_id": 118,
+        "char_start": 32443,
+        "char_end": 32450,
+        "anchor": "PMC11263583_32443_32450",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 449,
+      "label": "Group",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Pharmacogenomics and optimized drug prescribing in space",
+        "sentence_id": 118,
+        "char_start": 32729,
+        "char_end": 32734,
+        "anchor": "PMC11263583_32729_32734",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 450,
+      "label": "2D6",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Pharmacogenomics and optimized drug prescribing in space",
+        "sentence_id": 118,
+        "char_start": 32664,
+        "char_end": 32667,
+        "anchor": "PMC11263583_32664_32667",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1066,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 448,
+      "target": 449
+    },
+    {
+      "id": 1067,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 448,
+      "target": 450
+    },
+    {
+      "id": 1069,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 449,
+      "target": 450
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 11,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        2
+      ]
+    },
+    "page": 3
+  }
+}

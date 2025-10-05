@@ -1,0 +1,166 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "Long-duration spaceflight poses risks such as microgravity, radiation, psychological stress, and microbial contamination. Radiation induces DNA breaks and oxidative stress, while psychological stress increases hepatic lipid peroxidation and ROS levels. The space environment can systemically alter ROS levels, potentially damaging cellular components like DNA, proteins, and lipids, leading to inflammation and cell damage. Mitochondria are vulnerable to ROS damage, and the liver, a mitochondria-rich organ, may be a target of spaceflight-induced deficits.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Figure 1.Brief exposure to the space environment results in significant metabolite changes in mouse liver.(A) PLS-DA analysis was performed on normalized metabolomics data that was subsequently log-transformed and auto-scaled.The first two components are plotted; (B)",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.png"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Figure 1.Brief exposure to the space environment results in significant metabolite changes in mouse liver.(A) PLS-DA analysis was performed on normalized metabolomics data that was subsequently log-transformed and auto-scaled.The first two components are plotted; (B)",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.png"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Figure 2.",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.png"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Figure 2.",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.jpeg"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Hepatic Metabolite Profiles Altered",
+      "summary": "Unsupervised Partial Least Squares Discriminant Analysis (PLS-DA) of metabolomics data showed distinct separation between spaceflight (FLT) mice and ground controls (AEM), indicating significant metabolic changes. Volcano plot analysis revealed 10 biochemicals increased and 3 decreased in FLT mice. Variable Influence on Projection (VIP) analysis identified the most important features contributing to the clustering. Hierarchical clustering showed clear separation of metabolite features between the two groups, with fewer metabolites decreased in abundance in FLT mice.",
+      "figures": []
+    },
+    {
+      "heading": "Betaine and Glutathione Metabolism",
+      "summary": "Metabolite set enrichment analysis identified enriched pathways using all metabolites and a subset of significantly changing metabolites. Top sets included methionine metabolism, branched chain fatty acid oxidation, betaine metabolism, and glycine, serine, and threonine metabolism. Glutathione and glutamate metabolism also rose to significance in the limited dataset analysis. The glycine, serine, and threonine metabolism score was based on decreased cystathionine and increased betaine and dimethylglycine. The glutathione metabolism score was based on decreased glutathione and cysteinylglycine.",
+      "figures": []
+    },
+    {
+      "heading": "Water Intake Reduction Effects",
+      "summary": "Water intake in FLT mice decreased by approximately 20% compared to AEM controls, while food intake remained unchanged, suggesting dehydration. Betaine and taurine, organic osmolytes, were upregulated, potentially as a response to dehydration. 4-guanidinobutanoate abundance was markedly decreased. These changes suggest that dehydration may be a limiting factor in this study, but similar results were observed in other studies.",
+      "figures": []
+    },
+    {
+      "heading": "Transcriptome Profile Alterations",
+      "summary": "Analysis of transcriptome datasets revealed significant alterations in approximately 10% of identifiable probesets. Among these, 601 genes showed biological significance, with 449 upregulated and 152 downregulated. Gene Ontology (GO) analysis indicated that most upregulated genes were involved in metabolism, basic cellular processes, including transcription, translation, and DNA repair. Several autophagy-related genes were altered, along with genes involved in oxidative stress and regulation of peroxisomes, particularly fatty acid synthesis and degradation.",
+      "figures": []
+    },
+    {
+      "heading": "Lipid Membrane Metabolism, Protein Biosynthesis",
+      "summary": "Integrated analysis of transcriptomics and metabolomics data confirmed the impact of spaceflight on lipid membrane metabolism, with eight of the top 20 enriched pathways related to it. Glycosphingolipid biosynthesis, glycerophospholipid metabolism, arachidonic acid metabolism, inositol phosphate metabolism, glycophosphatidylinositol-anchor biosynthesis, and sphingolipid metabolism were among the enriched pathways. Endocytosis was also a highly enriched gene pathway. Glycine, serine, and threonine metabolism had high enrichment and topology scores.",
+      "figures": []
+    }
+  ],
+  "conclusion": {
+    "heading": "Conclusion",
+    "summary": "Average food and water intake measurements for STS-135 mice and AEM controls. Interestingly, several studies have shown that peroxisomes may alter lipid production and concentration in response to changes in metabolism, mediating cellular signaling through sphingolipids."
+  },
+  "keywords": [
+    "spaceflight",
+    "oxidative stress",
+    "metabolomics",
+    "transcriptomics",
+    "liver",
+    "autophagy",
+    "dehydration",
+    "lipid metabolism",
+    "mouse",
+    "proteasome"
+  ],
+  "topics": [
+    "space biology",
+    "oxidative stress",
+    "multi-omics"
+  ],
+  "_meta": {
+    "paper_id": "sha256:bfbeceddf47b8a25d6ea37e3691f06ffed95b2ef710d70f28ff737e7464244a1",
+    "paper_title": "Spaceflight Activates Autophagy Programs and the Proteasome in Mouse Liver",
+    "generated_at": "2025-10-05T10:47:25Z",
+    "word_count": 453,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "spaceflight",
+      "oxidative stress",
+      "metabolomics",
+      "transcriptomics",
+      "liver",
+      "autophagy",
+      "dehydration",
+      "lipid metabolism",
+      "mouse",
+      "proteasome"
+    ],
+    "topics": [
+      "space biology",
+      "oxidative stress",
+      "multi-omics"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 7724,
+      "completion_tokens": 841,
+      "total_tokens": 8565,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000772,
+      "output_usd": 0.000336,
+      "total_usd": 0.001109
+    },
+    "cost": {
+      "input_usd": 0.000772,
+      "output_usd": 0.000336,
+      "total_usd": 0.001109
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [],
+      "corrupted_detected": [
+        "fig_1",
+        "fig_3",
+        "fig_7",
+        "fig_11"
+      ],
+      "original_total": 4,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

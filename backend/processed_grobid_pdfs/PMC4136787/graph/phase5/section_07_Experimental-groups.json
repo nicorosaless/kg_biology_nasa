@@ -1,0 +1,68 @@
+{
+  "paper_id": "PMC4136787",
+  "section": "Experimental groups",
+  "n_nodes": 4,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 27,
+      "label": "Baikonur",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental groups",
+        "sentence_id": 68,
+        "char_start": 12254,
+        "char_end": 12262,
+        "anchor": "PMC4136787_12254_12262"
+      }
+    },
+    {
+      "id": 28,
+      "label": "Orenburg",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental groups",
+        "sentence_id": 68,
+        "char_start": 12329,
+        "char_end": 12337,
+        "anchor": "PMC4136787_12329_12337"
+      }
+    },
+    {
+      "id": 35,
+      "label": "BOS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental groups",
+        "sentence_id": 70,
+        "char_start": 12997,
+        "char_end": 13000,
+        "anchor": "PMC4136787_12997_13000"
+      }
+    },
+    {
+      "id": 40,
+      "label": "SFV",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental groups",
+        "sentence_id": 74,
+        "char_start": 13398,
+        "char_end": 13401,
+        "anchor": "PMC4136787_13398_13401"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 13,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 27,
+      "target": 28
+    }
+  ]
+}

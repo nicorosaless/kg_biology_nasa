@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC11451251",
+  "section": "Annotations common for space and Earth species (closest relative, see Supplementary Fig. S1 for more comparisons)",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 97,
+      "label": "highest",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations common for space and Earth species (closest relative, see Supplementary Fig. S1 for more comparisons)",
+        "sentence_id": 48,
+        "char_start": 9435,
+        "char_end": 9442,
+        "anchor": "PMC11451251_9435_9442",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 99,
+      "label": "eggNOG",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations common for space and Earth species (closest relative, see Supplementary Fig. S1 for more comparisons)",
+        "sentence_id": 48,
+        "char_start": 9402,
+        "char_end": 9408,
+        "anchor": "PMC11451251_9402_9408",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 46,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 97,
+      "target": 99
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 9,
+      "largest_component": 2
+    },
+    "page": 3
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "paper_id": "PMC6091969",
+  "section": "Myd88 is not required for neutrophil-mediated fungal killing",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 256,
+      "label": "CFU",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88 is not required for neutrophil-mediated fungal killing",
+        "sentence_id": 78,
+        "char_start": 23390,
+        "char_end": 23393,
+        "anchor": "PMC6091969_23390_23393",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 259,
+      "label": "CEA1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88 is not required for neutrophil-mediated fungal killing",
+        "sentence_id": 78,
+        "char_start": 23453,
+        "char_end": 23457,
+        "anchor": "PMC6091969_23453_23457",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 262,
+      "label": "myd88",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88 is not required for neutrophil-mediated fungal killing",
+        "sentence_id": 78,
+        "char_start": 23311,
+        "char_end": 23316,
+        "anchor": "PMC6091969_23311_23316",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 263,
+      "label": "CFU",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88 is not required for neutrophil-mediated fungal killing",
+        "sentence_id": 78,
+        "char_start": 23390,
+        "char_end": 23393,
+        "anchor": "PMC6091969_23390_23393",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 264,
+      "label": "Myd88",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88 is not required for neutrophil-mediated fungal killing",
+        "sentence_id": 78,
+        "char_start": 23834,
+        "char_end": 23839,
+        "anchor": "PMC6091969_23834_23839",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 255,
+      "label": "macrophage",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Myd88 is not required for neutrophil-mediated fungal killing",
+        "sentence_id": 78,
+        "char_start": 23337,
+        "char_end": 23347,
+        "anchor": "PMC6091969_23337_23347",
+        "page": 11,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 341,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 256,
+      "target": 255
+    },
+    {
+      "id": 342,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 259,
+      "target": 255
+    },
+    {
+      "id": 343,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 262,
+      "target": 255
+    },
+    {
+      "id": 344,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 263,
+      "target": 255
+    },
+    {
+      "id": 345,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 264,
+      "target": 255
+    },
+    {
+      "id": 346,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 256,
+      "target": 259
+    },
+    {
+      "id": 347,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 256,
+      "target": 262
+    },
+    {
+      "id": 348,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 256,
+      "target": 263
+    },
+    {
+      "id": 349,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 256,
+      "target": 264
+    },
+    {
+      "id": 350,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 259,
+      "target": 262
+    },
+    {
+      "id": 351,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 259,
+      "target": 263
+    },
+    {
+      "id": 352,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 259,
+      "target": 264
+    },
+    {
+      "id": 353,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 262,
+      "target": 263
+    },
+    {
+      "id": 354,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 262,
+      "target": 264
+    },
+    {
+      "id": 355,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 263,
+      "target": 264
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 5,
+      "largest_component": 6,
+      "removed_components": [
+        3
+      ]
+    },
+    "page": 11
+  }
+}

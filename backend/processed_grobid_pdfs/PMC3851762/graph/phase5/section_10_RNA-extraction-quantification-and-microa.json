@@ -1,0 +1,204 @@
+{
+  "paper_id": "PMC3851762",
+  "section": "RNA extraction, quantification and microarray analysis",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 213,
+      "label": "Yeast",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA extraction, quantification and microarray analysis",
+        "sentence_id": 60,
+        "char_start": 13885,
+        "char_end": 13890,
+        "anchor": "PMC3851762_13885_13890",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 215,
+      "label": "Bio",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA extraction, quantification and microarray analysis",
+        "sentence_id": 60,
+        "char_start": 13988,
+        "char_end": 13991,
+        "anchor": "PMC3851762_13988_13991",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 216,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA extraction, quantification and microarray analysis",
+        "sentence_id": 60,
+        "char_start": 14010,
+        "char_end": 14013,
+        "anchor": "PMC3851762_14010_14013",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 217,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA extraction, quantification and microarray analysis",
+        "sentence_id": 60,
+        "char_start": 14063,
+        "char_end": 14066,
+        "anchor": "PMC3851762_14063_14066",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 218,
+      "label": "Agile",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA extraction, quantification and microarray analysis",
+        "sentence_id": 60,
+        "char_start": 14186,
+        "char_end": 14191,
+        "anchor": "PMC3851762_14186_14191",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 220,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA extraction, quantification and microarray analysis",
+        "sentence_id": 60,
+        "char_start": 14010,
+        "char_end": 14013,
+        "anchor": "PMC3851762_14010_14013",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 226,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 213,
+      "target": 215
+    },
+    {
+      "id": 227,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 213,
+      "target": 216
+    },
+    {
+      "id": 228,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 213,
+      "target": 217
+    },
+    {
+      "id": 229,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 213,
+      "target": 218
+    },
+    {
+      "id": 230,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 213,
+      "target": 220
+    },
+    {
+      "id": 232,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 215,
+      "target": 216
+    },
+    {
+      "id": 233,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 215,
+      "target": 217
+    },
+    {
+      "id": 234,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 215,
+      "target": 218
+    },
+    {
+      "id": 235,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 215,
+      "target": 220
+    },
+    {
+      "id": 237,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 216,
+      "target": 217
+    },
+    {
+      "id": 238,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 216,
+      "target": 218
+    },
+    {
+      "id": 239,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 216,
+      "target": 220
+    },
+    {
+      "id": 241,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 217,
+      "target": 218
+    },
+    {
+      "id": 242,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 217,
+      "target": 220
+    },
+    {
+      "id": 244,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 218,
+      "target": 220
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 26,
+      "largest_component": 6,
+      "removed_components": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 6
+  }
+}

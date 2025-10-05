@@ -1,0 +1,157 @@
+{
+  "paper_id": "PMC4228280",
+  "section": "Synthetic CELL_TYPE",
+  "n_nodes": 7,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 32,
+      "label": "final cell",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 18,
+        "char_start": 3622,
+        "char_end": 3632,
+        "anchor": "PMC4228280_3622_3632",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 72,
+      "label": "planktonic cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 29,
+        "char_start": 7151,
+        "char_end": 7167,
+        "anchor": "PMC4228280_7151_7167",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 86,
+      "label": "count hundreds of thousands of cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 36,
+        "char_start": 8177,
+        "char_end": 8213,
+        "anchor": "PMC4228280_8177_8213",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 254,
+      "label": "more than ~3 cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Microscopy of planktonic cells does not show aggregation of P. aeruginosa PA14",
+        "sentence_id": 70,
+        "char_start": 17923,
+        "char_end": 17941,
+        "anchor": "PMC4228280_17923_17941",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 257,
+      "label": "fixed cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 71,
+        "char_start": 18199,
+        "char_end": 18210,
+        "anchor": "PMC4228280_18199_18210",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 267,
+      "label": "viable cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 75,
+        "char_start": 19173,
+        "char_end": 19185,
+        "anchor": "PMC4228280_19173_19185",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 290,
+      "label": "final cell",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 86,
+        "char_start": 21187,
+        "char_end": 21197,
+        "anchor": "PMC4228280_21187_21197",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-32-72",
+      "type": "ASSOCIATED",
+      "source": 32,
+      "target": 72
+    },
+    {
+      "id": "synth-32-86",
+      "type": "ASSOCIATED",
+      "source": 32,
+      "target": 86
+    },
+    {
+      "id": "synth-32-254",
+      "type": "ASSOCIATED",
+      "source": 32,
+      "target": 254
+    },
+    {
+      "id": "synth-32-257",
+      "type": "ASSOCIATED",
+      "source": 32,
+      "target": 257
+    },
+    {
+      "id": "synth-32-267",
+      "type": "ASSOCIATED",
+      "source": 32,
+      "target": 267
+    },
+    {
+      "id": "synth-32-290",
+      "type": "ASSOCIATED",
+      "source": 32,
+      "target": 290
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "CELL_TYPE",
+    "page": null
+  }
+}

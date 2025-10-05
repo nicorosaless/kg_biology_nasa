@@ -1,0 +1,178 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "Synthetic ANATOMICAL_SITE",
+  "n_nodes": 8,
+  "n_edges": 7,
+  "nodes": [
+    {
+      "id": 34,
+      "label": "deep space",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 21,
+        "char_start": 2659,
+        "char_end": 2669,
+        "anchor": "PMC10284894_2659_2669",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 176,
+      "label": "lunar surface",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Chapter 2: Landing Humans on the Moon in 2024",
+        "sentence_id": 94,
+        "char_start": 16669,
+        "char_end": 16682,
+        "anchor": "PMC10284894_16669_16682",
+        "page": 17,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 248,
+      "label": "environment",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis II",
+        "sentence_id": 127,
+        "char_start": 23173,
+        "char_end": 23184,
+        "anchor": "PMC10284894_23173_23184",
+        "page": 24,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 378,
+      "label": "lunar surface",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Technology",
+        "sentence_id": 187,
+        "char_start": 36121,
+        "char_end": 36134,
+        "anchor": "PMC10284894_36121_36134",
+        "page": 37,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 451,
+      "label": "deep space",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "The Gateway",
+        "sentence_id": 237,
+        "char_start": 45301,
+        "char_end": 45311,
+        "anchor": "PMC10284894_45301_45311",
+        "page": 46,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 513,
+      "label": "Shackleton",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Technology",
+        "sentence_id": 280,
+        "char_start": 52821,
+        "char_end": 52831,
+        "anchor": "PMC10284894_52821_52831",
+        "page": 54,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 578,
+      "label": "hydro impact basin",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Water Impact Testing",
+        "sentence_id": 337,
+        "char_start": 61916,
+        "char_end": 61934,
+        "anchor": "PMC10284894_61916_61934",
+        "page": 63,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 600,
+      "label": "crew module",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Heat Shield Testing",
+        "sentence_id": 347,
+        "char_start": 63651,
+        "char_end": 63662,
+        "anchor": "PMC10284894_63651_63662",
+        "page": 65,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-34-176",
+      "type": "ASSOCIATED",
+      "source": 34,
+      "target": 176
+    },
+    {
+      "id": "synth-34-248",
+      "type": "ASSOCIATED",
+      "source": 34,
+      "target": 248
+    },
+    {
+      "id": "synth-34-378",
+      "type": "ASSOCIATED",
+      "source": 34,
+      "target": 378
+    },
+    {
+      "id": "synth-34-451",
+      "type": "ASSOCIATED",
+      "source": 34,
+      "target": 451
+    },
+    {
+      "id": "synth-34-513",
+      "type": "ASSOCIATED",
+      "source": 34,
+      "target": 513
+    },
+    {
+      "id": "synth-34-578",
+      "type": "ASSOCIATED",
+      "source": 34,
+      "target": 578
+    },
+    {
+      "id": "synth-34-600",
+      "type": "ASSOCIATED",
+      "source": 34,
+      "target": 600
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "ANATOMICAL_SITE",
+    "page": null
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "paper_id": "PMC9862956",
+  "section": "Microfluidic chip assay.",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 492,
+      "label": "Animals",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Microfluidic chip assay.",
+        "sentence_id": 195,
+        "char_start": 35385,
+        "char_end": 35392,
+        "anchor": "PMC9862956_35385_35392",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 493,
+      "label": "Tygon",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Microfluidic chip assay.",
+        "sentence_id": 195,
+        "char_start": 35469,
+        "char_end": 35474,
+        "anchor": "PMC9862956_35469_35474",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 494,
+      "label": "Tygon",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Microfluidic chip assay.",
+        "sentence_id": 195,
+        "char_start": 35469,
+        "char_end": 35474,
+        "anchor": "PMC9862956_35469_35474",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 495,
+      "label": "NGM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Microfluidic chip assay.",
+        "sentence_id": 195,
+        "char_start": 35601,
+        "char_end": 35604,
+        "anchor": "PMC9862956_35601_35604",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 496,
+      "label": "NGM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Microfluidic chip assay.",
+        "sentence_id": 195,
+        "char_start": 35636,
+        "char_end": 35639,
+        "anchor": "PMC9862956_35636_35639",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 586,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 492,
+      "target": 493
+    },
+    {
+      "id": 587,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 492,
+      "target": 494
+    },
+    {
+      "id": 588,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 492,
+      "target": 495
+    },
+    {
+      "id": 589,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 492,
+      "target": 496
+    },
+    {
+      "id": 590,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 493,
+      "target": 494
+    },
+    {
+      "id": 591,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 493,
+      "target": 495
+    },
+    {
+      "id": 592,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 493,
+      "target": 496
+    },
+    {
+      "id": 593,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 494,
+      "target": 495
+    },
+    {
+      "id": 594,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 494,
+      "target": 496
+    },
+    {
+      "id": 595,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 495,
+      "target": 496
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 0,
+      "largest_component": 5,
+      "removed_components": [
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 8
+  }
+}

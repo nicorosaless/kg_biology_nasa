@@ -1,0 +1,1601 @@
+{
+  "paper_id": "sha256:103b6d9eceda23b31c6a8ca40c74d96ab1d7d84b39a0635dfe490c3058997164",
+  "metadata": {
+    "title": "The effect of spaceflight on the gravity-sensing auxin gradient of roots: GFP reporter gene microscopy on orbit",
+    "abstract": "Our primary aim was to determine whether gravity has a direct role in establishing the auxin-mediated gravity-sensing system in primary roots.Major plant architectures have long been thought to be guided by gravity, including the directional growth of the primary root via auxin gradients that are then disturbed when roots deviate from the vertical as a gravity sensor.However, experiments on the International Space Station (ISS) now allow physical clarity with regard to any assumptions regarding the role of gravity in establishing fundamental root auxin distributions.We examined the spaceflight green fluorescent protein (GFP)-reporter gene expression in roots of transgenic lines of Arabidopsis thaliana: pDR5r::GFP, pTAA1::TAA1-GFP, pSCR::SCR-GFP to monitor auxin and pARR5::GFP to monitor cytokinin.Plants on the ISS were imaged live with the Light Microscopy Module (LMM), and compared with control plants imaged on the ground.Preserved spaceflight and ground control plants were examined post flight with confocal microscopy.Plants on orbit, growing in the absence of any physical reference to the terrestrial gravity vector, displayed typically \"vertical\" distribution of auxin in the primary root.This confirms that the establishment of the auxin-gradient system, the primary guide for gravity signaling in the root, is gravity independent.The cytokinin distribution in the root tip differs between spaceflight and the ground controls, suggesting spaceflight-induced features of root growth may be cytokinin related.The distribution of auxin in the gravity-sensing portion of the root is not dependent on gravity.Spaceflight appears benign to auxin and its role in the development of the primary root tip, whereas spaceflight may influence cytokinin-associated processes.",
+    "authors": [
+      "Robert JFerl",
+      "Anna-Lisa Paul"
+    ],
+    "affiliations": [
+      "1 Department of Horticultural Sciences , Program in Plant Molecular and Cellular Biology , University of Florida , Gainesville , FL , USA and",
+      "2 Interdisciplinary Center for Biotechnology and Research , University of Florida , Gainesville , FL , USA."
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Abstract",
+      "paragraphs": [
+        "Our primary aim was to determine whether gravity has a direct role in establishing the auxin-mediated gravity-sensing system in primary roots.Major plant architectures have long been thought to be guided by gravity, including the directional growth of the primary root via auxin gradients that are then disturbed when roots deviate from the vertical as a gravity sensor.However, experiments on the International Space Station (ISS) now allow physical clarity with regard to any assumptions regarding the role of gravity in establishing fundamental root auxin distributions.We examined the spaceflight green fluorescent protein (GFP)-reporter gene expression in roots of transgenic lines of Arabidopsis thaliana: pDR5r::GFP, pTAA1::TAA1-GFP, pSCR::SCR-GFP to monitor auxin and pARR5::GFP to monitor cytokinin.Plants on the ISS were imaged live with the Light Microscopy Module (LMM), and compared with control plants imaged on the ground.Preserved spaceflight and ground control plants were examined post flight with confocal microscopy.Plants on orbit, growing in the absence of any physical reference to the terrestrial gravity vector, displayed typically \"vertical\" distribution of auxin in the primary root.This confirms that the establishment of the auxin-gradient system, the primary guide for gravity signaling in the root, is gravity independent.The cytokinin distribution in the root tip differs between spaceflight and the ground controls, suggesting spaceflight-induced features of root growth may be cytokinin related.The distribution of auxin in the gravity-sensing portion of the root is not dependent on gravity.Spaceflight appears benign to auxin and its role in the development of the primary root tip, whereas spaceflight may influence cytokinin-associated processes."
+      ],
+      "text": "Our primary aim was to determine whether gravity has a direct role in establishing the auxin-mediated gravity-sensing system in primary roots.Major plant architectures have long been thought to be guided by gravity, including the directional growth of the primary root via auxin gradients that are then disturbed when roots deviate from the vertical as a gravity sensor.However, experiments on the International Space Station (ISS) now allow physical clarity with regard to any assumptions regarding the role of gravity in establishing fundamental root auxin distributions.We examined the spaceflight green fluorescent protein (GFP)-reporter gene expression in roots of transgenic lines of Arabidopsis thaliana: pDR5r::GFP, pTAA1::TAA1-GFP, pSCR::SCR-GFP to monitor auxin and pARR5::GFP to monitor cytokinin.Plants on the ISS were imaged live with the Light Microscopy Module (LMM), and compared with control plants imaged on the ground.Preserved spaceflight and ground control plants were examined post flight with confocal microscopy.Plants on orbit, growing in the absence of any physical reference to the terrestrial gravity vector, displayed typically \"vertical\" distribution of auxin in the primary root.This confirms that the establishment of the auxin-gradient system, the primary guide for gravity signaling in the root, is gravity independent.The cytokinin distribution in the root tip differs between spaceflight and the ground controls, suggesting spaceflight-induced features of root growth may be cytokinin related.The distribution of auxin in the gravity-sensing portion of the root is not dependent on gravity.Spaceflight appears benign to auxin and its role in the development of the primary root tip, whereas spaceflight may influence cytokinin-associated processes.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Our primary aim was to determine whether gravity has a direct role in establishing the auxin-mediated gravity-sensing system in primary roots.Major plant architectures have long been thought to be guided by gravity, including the directional growth of the primary root via auxin gradients that are then disturbed when roots deviate from the vertical as a gravity sensor.However, experiments on the International Space Station (ISS) now allow physical clarity with regard to any assumptions regarding the role of gravity in establishing fundamental root auxin distributions.We examined the spaceflight green fluorescent protein (GFP)-reporter gene expression in roots of transgenic lines of Arabidopsis thaliana: pDR5r::GFP, pTAA1::TAA1-GFP, pSCR::SCR-GFP to monitor auxin and pARR5::GFP to monitor cytokinin.Plants on the ISS were imaged live with the Light Microscopy Module (LMM), and compared with control plants imaged on the ground.Preserved spaceflight and ground control plants were examined post flight with confocal microscopy.Plants on orbit, growing in the absence of any physical reference to the terrestrial gravity vector, displayed typically \"vertical\" distribution of auxin in the primary root.This confirms that the establishment of the auxin-gradient system, the primary guide for gravity signaling in the root, is gravity independent.The cytokinin distribution in the root tip differs between spaceflight and the ground controls, suggesting spaceflight-induced features of root growth may be cytokinin related.The distribution of auxin in the gravity-sensing portion of the root is not dependent on gravity.Spaceflight appears benign to auxin and its role in the development of the primary root tip, whereas spaceflight may influence cytokinin-associated processes.",
+          "block_index": 0,
+          "section_index": 0,
+          "global_order": 0,
+          "id": "p_1_1"
+        },
+        {
+          "type": "figure",
+          "id": "fig_1",
+          "block_index": 1,
+          "section_index": 0,
+          "global_order": 1
+        },
+        {
+          "type": "figure",
+          "id": "fig_2",
+          "block_index": 2,
+          "section_index": 0,
+          "global_order": 2
+        },
+        {
+          "type": "figure",
+          "id": "fig_3",
+          "block_index": 3,
+          "section_index": 0,
+          "global_order": 3
+        },
+        {
+          "type": "figure",
+          "id": "fig_4",
+          "block_index": 4,
+          "section_index": 0,
+          "global_order": 4
+        },
+        {
+          "type": "figure",
+          "id": "fig_5",
+          "block_index": 5,
+          "section_index": 0,
+          "global_order": 5
+        },
+        {
+          "type": "figure",
+          "id": "fig_6",
+          "block_index": 6,
+          "section_index": 0,
+          "global_order": 6
+        }
+      ]
+    },
+    {
+      "heading": "Introduction",
+      "paragraphs": [
+        "Since the times of the Darwins' treatise on the power of movement in plants 1 and the experiments of Cholodny and Went 2 gravity has been established as central to many patterns of plant development. [3][4]4][5] Gravity-dependent changes in root growth direction are keyed by changes in the auxin distribution within the root tip.During gravistimulation, starch-containing amyloplasts migrate to the downward side of the root columella cells, initiating migration of PIN proteins that then cause asymmetric redistribution of auxin toward the lower side of the root, which in turn causes curvature in the elongation zone to reestablish the root into a vertical orientation. 3,[6][7]][8][9][10][11] This series of signaling events acts upon a well-characterized distribution of auxin that arises from a flow of auxin from the aerial portions of the plant through the central stele toward the root tip with an accumulation of auxin in the columella cells, which is then relieved by a flow back toward the aerial portions of the plant through the outer root cell layers.The movement and differential accumulation of auxin within specific root tip cells is known as the 'reverse fountain' model 9,[12][13][14] (Figure 1a).It is this auxin accumulation and flow that forms the primary basis of the root's ability to respond to gravity. 10,15Implicit in model's name is the notion that gravity establishes at least part of the pattern of distribution, just as drops from a water fountain fall after the propelling force is overcome by gravity.Most references to these gravity-driven responses compare \"vertical\" to \"gravistimulated\", as if vertical is the ground state.The term vertical, defined as an orientation perpendicular to the plane of the horizon, inexorably creates an implicit relationship in which the fundamental auxin reverse fountain is established and oriented along the Earth's gravity vector.",
+        "We wished to know whether gravity has a direct physiologic role in establishing the auxin reverse fountain signaling system in primary roots.One of the major values of work on the ISS is the ability to remove unit gravity from growth conditions.This allows a comparison with earthbound experiments with, for example, agravitropic mutants that imply that gravity sensing can be decoupled from the auxin flow. [16][17]7][18][19] We used Arabidopsis thaliana (Arabidopsis) lines expressing gravity signaling fluorescent reporter genes to examine the distribution of auxin and cytokinin in the primary roots of plants grown in two experiments on the International Space Station (ISS).We used the auxin artificial AuxRE promoter construct (pDR5r::GFP) 20 as a gene expression level reporter of auxin levels throughout the root tip, especially in the central columella cells (C), and a Tryptophan Aminotransferase of Arabidopsis fusion (pTAA1::TAA1-GFP) 21 to monitor auxin production in the Quiescent Center cells (QC).We used a Scarecrow fusion (pSCR::SCR-GFP), 22 to monitor the scarecrow transcription factor, which has a regulatory role in auxin biosynthesis, 11 to monitor auxin-related signals in the endodermal layer and QC.We similarly monitored freecytokinin levels in root tips using the Arabidopsis Response Regulator promoter (pARR5::GFP) reporter, which is similarly distributed as the GUS reporter with the same promoter (pARR5::GUS). 23"
+      ],
+      "text": "Since the times of the Darwins' treatise on the power of movement in plants 1 and the experiments of Cholodny and Went 2 gravity has been established as central to many patterns of plant development. [3][4]4][5] Gravity-dependent changes in root growth direction are keyed by changes in the auxin distribution within the root tip.During gravistimulation, starch-containing amyloplasts migrate to the downward side of the root columella cells, initiating migration of PIN proteins that then cause asymmetric redistribution of auxin toward the lower side of the root, which in turn causes curvature in the elongation zone to reestablish the root into a vertical orientation. 3,[6][7]][8][9][10][11] This series of signaling events acts upon a well-characterized distribution of auxin that arises from a flow of auxin from the aerial portions of the plant through the central stele toward the root tip with an accumulation of auxin in the columella cells, which is then relieved by a flow back toward the aerial portions of the plant through the outer root cell layers.The movement and differential accumulation of auxin within specific root tip cells is known as the 'reverse fountain' model 9,[12][13][14] (Figure 1a).It is this auxin accumulation and flow that forms the primary basis of the root's ability to respond to gravity. 10,15Implicit in model's name is the notion that gravity establishes at least part of the pattern of distribution, just as drops from a water fountain fall after the propelling force is overcome by gravity.Most references to these gravity-driven responses compare \"vertical\" to \"gravistimulated\", as if vertical is the ground state.The term vertical, defined as an orientation perpendicular to the plane of the horizon, inexorably creates an implicit relationship in which the fundamental auxin reverse fountain is established and oriented along the Earth's gravity vector.\nWe wished to know whether gravity has a direct physiologic role in establishing the auxin reverse fountain signaling system in primary roots.One of the major values of work on the ISS is the ability to remove unit gravity from growth conditions.This allows a comparison with earthbound experiments with, for example, agravitropic mutants that imply that gravity sensing can be decoupled from the auxin flow. [16][17]7][18][19] We used Arabidopsis thaliana (Arabidopsis) lines expressing gravity signaling fluorescent reporter genes to examine the distribution of auxin and cytokinin in the primary roots of plants grown in two experiments on the International Space Station (ISS).We used the auxin artificial AuxRE promoter construct (pDR5r::GFP) 20 as a gene expression level reporter of auxin levels throughout the root tip, especially in the central columella cells (C), and a Tryptophan Aminotransferase of Arabidopsis fusion (pTAA1::TAA1-GFP) 21 to monitor auxin production in the Quiescent Center cells (QC).We used a Scarecrow fusion (pSCR::SCR-GFP), 22 to monitor the scarecrow transcription factor, which has a regulatory role in auxin biosynthesis, 11 to monitor auxin-related signals in the endodermal layer and QC.We similarly monitored freecytokinin levels in root tips using the Arabidopsis Response Regulator promoter (pARR5::GFP) reporter, which is similarly distributed as the GUS reporter with the same promoter (pARR5::GUS). 23",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Since the times of the Darwins' treatise on the power of movement in plants 1 and the experiments of Cholodny and Went 2 gravity has been established as central to many patterns of plant development. [3][4]4][5] Gravity-dependent changes in root growth direction are keyed by changes in the auxin distribution within the root tip.During gravistimulation, starch-containing amyloplasts migrate to the downward side of the root columella cells, initiating migration of PIN proteins that then cause asymmetric redistribution of auxin toward the lower side of the root, which in turn causes curvature in the elongation zone to reestablish the root into a vertical orientation. 3,[6][7]][8][9][10][11] This series of signaling events acts upon a well-characterized distribution of auxin that arises from a flow of auxin from the aerial portions of the plant through the central stele toward the root tip with an accumulation of auxin in the columella cells, which is then relieved by a flow back toward the aerial portions of the plant through the outer root cell layers.The movement and differential accumulation of auxin within specific root tip cells is known as the 'reverse fountain' model 9,[12][13][14] (Figure 1a).It is this auxin accumulation and flow that forms the primary basis of the root's ability to respond to gravity. 10,15Implicit in model's name is the notion that gravity establishes at least part of the pattern of distribution, just as drops from a water fountain fall after the propelling force is overcome by gravity.Most references to these gravity-driven responses compare \"vertical\" to \"gravistimulated\", as if vertical is the ground state.The term vertical, defined as an orientation perpendicular to the plane of the horizon, inexorably creates an implicit relationship in which the fundamental auxin reverse fountain is established and oriented along the Earth's gravity vector.",
+          "block_index": 0,
+          "section_index": 1,
+          "global_order": 7,
+          "id": "p_2_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "We wished to know whether gravity has a direct physiologic role in establishing the auxin reverse fountain signaling system in primary roots.One of the major values of work on the ISS is the ability to remove unit gravity from growth conditions.This allows a comparison with earthbound experiments with, for example, agravitropic mutants that imply that gravity sensing can be decoupled from the auxin flow. [16][17]7][18][19] We used Arabidopsis thaliana (Arabidopsis) lines expressing gravity signaling fluorescent reporter genes to examine the distribution of auxin and cytokinin in the primary roots of plants grown in two experiments on the International Space Station (ISS).We used the auxin artificial AuxRE promoter construct (pDR5r::GFP) 20 as a gene expression level reporter of auxin levels throughout the root tip, especially in the central columella cells (C), and a Tryptophan Aminotransferase of Arabidopsis fusion (pTAA1::TAA1-GFP) 21 to monitor auxin production in the Quiescent Center cells (QC).We used a Scarecrow fusion (pSCR::SCR-GFP), 22 to monitor the scarecrow transcription factor, which has a regulatory role in auxin biosynthesis, 11 to monitor auxin-related signals in the endodermal layer and QC.We similarly monitored freecytokinin levels in root tips using the Arabidopsis Response Regulator promoter (pARR5::GFP) reporter, which is similarly distributed as the GUS reporter with the same promoter (pARR5::GUS). 23",
+          "block_index": 1,
+          "section_index": 1,
+          "global_order": 8,
+          "id": "p_2_2"
+        }
+      ]
+    },
+    {
+      "heading": "Results",
+      "paragraphs": [
+        "This study used two methods of microscopy to evaluate the distribution of auxin and cytokinin green fluorescent protein (GFP) reporter gene products in Arabidopsis roots during development in the spaceflight environment compared with ground controls; live imaging with standard fluorescence optics in real time on the ISS and confocal imaging of preserved, returned samples.The results are a compilation of imaging data from two independent ISS experiments; CARA conducted in 2014 and APEX03-02 in 2015.This allowed an analysis of different growing conditions on the ISS and separate flight experiences with regard to signaling in the Arabidopsis primary root.",
+        "The region of interest in these evaluations is comprised of the root tip cells that participate in auxin transport (Figure 1a).Of particular interest are the columella cells and columella initials (green, Figure 1a), the cells of the quiescent center and surrounding initials (peach and dark blue, Figure 1a), the endodermis (light blue, Figure 1a) and the stele (white, Figure 1a).Figure 1b provides a confocal micrograph of the region diagramed in Figure 1a and shows the typical reference expression pattern of GFP signal from DR5r::GFP in a 4-day-old Arabidopsis root."
+      ],
+      "text": "This study used two methods of microscopy to evaluate the distribution of auxin and cytokinin green fluorescent protein (GFP) reporter gene products in Arabidopsis roots during development in the spaceflight environment compared with ground controls; live imaging with standard fluorescence optics in real time on the ISS and confocal imaging of preserved, returned samples.The results are a compilation of imaging data from two independent ISS experiments; CARA conducted in 2014 and APEX03-02 in 2015.This allowed an analysis of different growing conditions on the ISS and separate flight experiences with regard to signaling in the Arabidopsis primary root.\nThe region of interest in these evaluations is comprised of the root tip cells that participate in auxin transport (Figure 1a).Of particular interest are the columella cells and columella initials (green, Figure 1a), the cells of the quiescent center and surrounding initials (peach and dark blue, Figure 1a), the endodermis (light blue, Figure 1a) and the stele (white, Figure 1a).Figure 1b provides a confocal micrograph of the region diagramed in Figure 1a and shows the typical reference expression pattern of GFP signal from DR5r::GFP in a 4-day-old Arabidopsis root.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "This study used two methods of microscopy to evaluate the distribution of auxin and cytokinin green fluorescent protein (GFP) reporter gene products in Arabidopsis roots during development in the spaceflight environment compared with ground controls; live imaging with standard fluorescence optics in real time on the ISS and confocal imaging of preserved, returned samples.The results are a compilation of imaging data from two independent ISS experiments; CARA conducted in 2014 and APEX03-02 in 2015.This allowed an analysis of different growing conditions on the ISS and separate flight experiences with regard to signaling in the Arabidopsis primary root.",
+          "block_index": 0,
+          "section_index": 2,
+          "global_order": 9,
+          "id": "p_3_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "The region of interest in these evaluations is comprised of the root tip cells that participate in auxin transport (Figure 1a).Of particular interest are the columella cells and columella initials (green, Figure 1a), the cells of the quiescent center and surrounding initials (peach and dark blue, Figure 1a), the endodermis (light blue, Figure 1a) and the stele (white, Figure 1a).Figure 1b provides a confocal micrograph of the region diagramed in Figure 1a and shows the typical reference expression pattern of GFP signal from DR5r::GFP in a 4-day-old Arabidopsis root.",
+          "block_index": 1,
+          "section_index": 2,
+          "global_order": 10,
+          "id": "p_3_2"
+        }
+      ]
+    },
+    {
+      "heading": "Plant development and root morphology is different between the CARA and APEX03-2 experiments",
+      "paragraphs": [
+        "The CARA and the APEX03-2 experiments represent two very different approaches to conducting a plant experiment on the ISS, and the plants grown within these two distinct experiments exhibit distinct morphologies.Within each experiment, however, the environmental conditions between the spaceflight habitat and the ground control habitat were comparable.",
+        "The reduced lighting habitat of the CARA plants resulted in slower development relative to their chronological age in comparison to plants grown under the higher light levels of APEX03, as can be seen examining the 8-day plants of Figure 2d,g.The roots of the spaceflight CARA plants grew in tight loops and coils (Figure 2d,g), which is a distinctly different morphology than was seen in previous spaceflight-grown Arabidopsis plants. 24,25e 4-day and 8-day APEX03-2 plants housed in the more optimal lighting environment of the Vegetable Production System (VPS) displayed the more advanced development expected for plants growing under a higher light environment (Figure 2e,f,h,i) than did the plants in the lower light environment of CARA.The roots of the 4-day APEX03-2 spaceflight plants were more linear in appearance, and exhibited much of the skewing behavior observed in pervious spaceflight experiments (Figure 2h).However, the 8-day plants of APEX03-2 (Figure 2i) were far less organized than the straighter growth seen previously in the directional light environment of the Advanced Biological Research System ABRS hardware, 24,25 but still did not grow in the tight loops and coils of the CARA plants (Figure 2g).",
+        "The spaceflight distribution of DR5r::GFP was indistinguishable from that of vertically grown roots on the Earth in two separate spaceflight experiments The distribution of DR5r::GFP in the roots of plants grown on the ISS was identical to that of the ground controls over the course of the two different ISS experiments and several plant ages.(Figure 4, Supplementary Table S1).The APEX03-2 experiment was comprised of plants grown in the VPS growth facility (Figure 2b,c) and then imaged in the LMM after 4 and 8 days of growth (Figure 2e,f, h,i).In addition, 4-day-old samples from APEX03-2 were fixed in RNAlater and frozen on orbit, enabling confocal microscopy after sample return.Plants of the CARA experiment were grown in ambient cabin lighting of the ISS for 5 days before imaging (Figure 2a,d,g).As detailed in the Materials and Methods section, the comparable ground controls for both experiments were grown in a specialized chamber programed with the environmental parameters (CO 2 , temperature, humidity, and lighting) experienced by the ISS-grown plants, and all live imaging on the ISS conducted with the LMM (Figure 3) was directly compared with the LMM Ground Imaging Unit (GIU).",
+        "Live imaging with the LMM on orbit illustrates that the same pattern of DR5r::GFP distribution was seen in the spaceflight grown and ground control plants of APEX03-2 in both 4-day-old (Figure 4a,b) and 8-day-old (Figure 4c,d) plants.Developmental age did not impact DR5r::GFP distribution in CARA either.The distribution of DR5r::GFP was identical in spaceflight and ground control plants for both 5-day-old (Figure 4e,f) and 8-day-old roots of the CARA plants (Figure 4g,h).In all cases, the LMM images of DR5r::GFP were consistent with expression patterns appropriately limited to the cells of the columella.",
+        "Confocal microscopy with RNAlater-preserved roots from APEX03-2 enabled cellular resolution of the columella.The cellular resolution showed that the distribution of DR5r::GFP observed in the live imaging was indeed localized to the columella.The distribution of DR5r::GFP in the columella cells of the ground control (Figure 4i) and spaceflight (Figure 4j) was unchanged with respect to the gravity environment (see also Supplementary Movie S1 and Supplementary Movie S2).Quantification of the confocal Z-stack volumes for GFP signal revealed no significant quantitative differences in the expression between spaceflight and ground control samples for pDR5r::GFP (T-test, P = 0.55; Supplementary Figure S1).",
+        "Distributions of two proteins associated with auxin signaling were also unchanged in spaceflight The distributions of TAA1::TAA1-GFP and SCR::SCR-GFP, respectively, were identical in between spaceflight and ground control plants.The TAA1::TAA1-GFP and SCR::SCR-GFP reporter gene lines were used in the APEX03-2 experiment (Figure 2e,f,h,i), and as with the DR5r::GFP plants, 4-day-old samples were fixed in RNAlater and frozen on orbit for confocal microscopy.There was no change in the distribution of TAA1::TAA1-GFP expression in the cells in and around the quiescent center (Figure 1a) between spaceflight and ground control plants.The individual cells involved could be seen with confocal imaging of preserved returned samples (Figure 5a,b, and Supplementary Movies S3, S4), which supported the identical position of TAA1::TAA1-GFP between flight and ground that was seen in the root tip during live imaging with the LMM (Figure 5e,f).Quantification of the confocal Z-stack volumes for GFP signal revealed potential slightly higher expression levels in spaceflight for TAA1::TAA1-GFP that were not statistically well supported (T-test, P = 0.06; Supplementary Figure S1).",
+        "The nuclear localization SCR::SCR-GFP in endodermal cells also appeared unchanged between flight and ground control plants.Live imaging with the LMM showed a contiguous endodermal surface for both spaceflight and ground control (Figure 5g,h).In returned samples examined with confocal microcopy, longitudinal Z-sections through the endodermal layer (refer to Figure 1a) displayed some variably among samples near the QC, but this variation was not consistent within treatments (Figure 5c,d, and inset of Figure 3d).",
+        "The distribution of cytokinin was different in spaceflight as compared with ground control roots The distribution of ARR5::GFP was different in the spaceflight grown plants compared to the comparable ground controls.Plants on orbit showed a more restricted distribution of ARR5::GFP expression compared with ground controls.In the 5-day roots of CARA, ARR5::GFP expression was restricted to the very tip of the root in spaceflight roots (Figure 5j), whereas the roots of the ground controls showed the typical pattern of ARR5 expression, which extends away from the tip back along the stele (Figures 1a and 5i). 23The spaceflight expression of ARR5::GFP remained limited to the tip even after 8 days of growth, while in the ground controls the distribution of ARR5::GFP continued to extend acropetally (Figure 5k,l)."
+      ],
+      "text": "The CARA and the APEX03-2 experiments represent two very different approaches to conducting a plant experiment on the ISS, and the plants grown within these two distinct experiments exhibit distinct morphologies.Within each experiment, however, the environmental conditions between the spaceflight habitat and the ground control habitat were comparable.\nThe reduced lighting habitat of the CARA plants resulted in slower development relative to their chronological age in comparison to plants grown under the higher light levels of APEX03, as can be seen examining the 8-day plants of Figure 2d,g.The roots of the spaceflight CARA plants grew in tight loops and coils (Figure 2d,g), which is a distinctly different morphology than was seen in previous spaceflight-grown Arabidopsis plants. 24,25e 4-day and 8-day APEX03-2 plants housed in the more optimal lighting environment of the Vegetable Production System (VPS) displayed the more advanced development expected for plants growing under a higher light environment (Figure 2e,f,h,i) than did the plants in the lower light environment of CARA.The roots of the 4-day APEX03-2 spaceflight plants were more linear in appearance, and exhibited much of the skewing behavior observed in pervious spaceflight experiments (Figure 2h).However, the 8-day plants of APEX03-2 (Figure 2i) were far less organized than the straighter growth seen previously in the directional light environment of the Advanced Biological Research System ABRS hardware, 24,25 but still did not grow in the tight loops and coils of the CARA plants (Figure 2g).\nThe spaceflight distribution of DR5r::GFP was indistinguishable from that of vertically grown roots on the Earth in two separate spaceflight experiments The distribution of DR5r::GFP in the roots of plants grown on the ISS was identical to that of the ground controls over the course of the two different ISS experiments and several plant ages.(Figure 4, Supplementary Table S1).The APEX03-2 experiment was comprised of plants grown in the VPS growth facility (Figure 2b,c) and then imaged in the LMM after 4 and 8 days of growth (Figure 2e,f, h,i).In addition, 4-day-old samples from APEX03-2 were fixed in RNAlater and frozen on orbit, enabling confocal microscopy after sample return.Plants of the CARA experiment were grown in ambient cabin lighting of the ISS for 5 days before imaging (Figure 2a,d,g).As detailed in the Materials and Methods section, the comparable ground controls for both experiments were grown in a specialized chamber programed with the environmental parameters (CO 2 , temperature, humidity, and lighting) experienced by the ISS-grown plants, and all live imaging on the ISS conducted with the LMM (Figure 3) was directly compared with the LMM Ground Imaging Unit (GIU).\nLive imaging with the LMM on orbit illustrates that the same pattern of DR5r::GFP distribution was seen in the spaceflight grown and ground control plants of APEX03-2 in both 4-day-old (Figure 4a,b) and 8-day-old (Figure 4c,d) plants.Developmental age did not impact DR5r::GFP distribution in CARA either.The distribution of DR5r::GFP was identical in spaceflight and ground control plants for both 5-day-old (Figure 4e,f) and 8-day-old roots of the CARA plants (Figure 4g,h).In all cases, the LMM images of DR5r::GFP were consistent with expression patterns appropriately limited to the cells of the columella.\nConfocal microscopy with RNAlater-preserved roots from APEX03-2 enabled cellular resolution of the columella.The cellular resolution showed that the distribution of DR5r::GFP observed in the live imaging was indeed localized to the columella.The distribution of DR5r::GFP in the columella cells of the ground control (Figure 4i) and spaceflight (Figure 4j) was unchanged with respect to the gravity environment (see also Supplementary Movie S1 and Supplementary Movie S2).Quantification of the confocal Z-stack volumes for GFP signal revealed no significant quantitative differences in the expression between spaceflight and ground control samples for pDR5r::GFP (T-test, P = 0.55; Supplementary Figure S1).\nDistributions of two proteins associated with auxin signaling were also unchanged in spaceflight The distributions of TAA1::TAA1-GFP and SCR::SCR-GFP, respectively, were identical in between spaceflight and ground control plants.The TAA1::TAA1-GFP and SCR::SCR-GFP reporter gene lines were used in the APEX03-2 experiment (Figure 2e,f,h,i), and as with the DR5r::GFP plants, 4-day-old samples were fixed in RNAlater and frozen on orbit for confocal microscopy.There was no change in the distribution of TAA1::TAA1-GFP expression in the cells in and around the quiescent center (Figure 1a) between spaceflight and ground control plants.The individual cells involved could be seen with confocal imaging of preserved returned samples (Figure 5a,b, and Supplementary Movies S3, S4), which supported the identical position of TAA1::TAA1-GFP between flight and ground that was seen in the root tip during live imaging with the LMM (Figure 5e,f).Quantification of the confocal Z-stack volumes for GFP signal revealed potential slightly higher expression levels in spaceflight for TAA1::TAA1-GFP that were not statistically well supported (T-test, P = 0.06; Supplementary Figure S1).\nThe nuclear localization SCR::SCR-GFP in endodermal cells also appeared unchanged between flight and ground control plants.Live imaging with the LMM showed a contiguous endodermal surface for both spaceflight and ground control (Figure 5g,h).In returned samples examined with confocal microcopy, longitudinal Z-sections through the endodermal layer (refer to Figure 1a) displayed some variably among samples near the QC, but this variation was not consistent within treatments (Figure 5c,d, and inset of Figure 3d).\nThe distribution of cytokinin was different in spaceflight as compared with ground control roots The distribution of ARR5::GFP was different in the spaceflight grown plants compared to the comparable ground controls.Plants on orbit showed a more restricted distribution of ARR5::GFP expression compared with ground controls.In the 5-day roots of CARA, ARR5::GFP expression was restricted to the very tip of the root in spaceflight roots (Figure 5j), whereas the roots of the ground controls showed the typical pattern of ARR5 expression, which extends away from the tip back along the stele (Figures 1a and 5i). 23The spaceflight expression of ARR5::GFP remained limited to the tip even after 8 days of growth, while in the ground controls the distribution of ARR5::GFP continued to extend acropetally (Figure 5k,l).",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The CARA and the APEX03-2 experiments represent two very different approaches to conducting a plant experiment on the ISS, and the plants grown within these two distinct experiments exhibit distinct morphologies.Within each experiment, however, the environmental conditions between the spaceflight habitat and the ground control habitat were comparable.",
+          "block_index": 0,
+          "section_index": 3,
+          "global_order": 11,
+          "id": "p_4_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "The reduced lighting habitat of the CARA plants resulted in slower development relative to their chronological age in comparison to plants grown under the higher light levels of APEX03, as can be seen examining the 8-day plants of Figure 2d,g.The roots of the spaceflight CARA plants grew in tight loops and coils (Figure 2d,g), which is a distinctly different morphology than was seen in previous spaceflight-grown Arabidopsis plants. 24,25e 4-day and 8-day APEX03-2 plants housed in the more optimal lighting environment of the Vegetable Production System (VPS) displayed the more advanced development expected for plants growing under a higher light environment (Figure 2e,f,h,i) than did the plants in the lower light environment of CARA.The roots of the 4-day APEX03-2 spaceflight plants were more linear in appearance, and exhibited much of the skewing behavior observed in pervious spaceflight experiments (Figure 2h).However, the 8-day plants of APEX03-2 (Figure 2i) were far less organized than the straighter growth seen previously in the directional light environment of the Advanced Biological Research System ABRS hardware, 24,25 but still did not grow in the tight loops and coils of the CARA plants (Figure 2g).",
+          "block_index": 1,
+          "section_index": 3,
+          "global_order": 12,
+          "id": "p_4_2"
+        },
+        {
+          "type": "paragraph",
+          "text": "The spaceflight distribution of DR5r::GFP was indistinguishable from that of vertically grown roots on the Earth in two separate spaceflight experiments The distribution of DR5r::GFP in the roots of plants grown on the ISS was identical to that of the ground controls over the course of the two different ISS experiments and several plant ages.(Figure 4, Supplementary Table S1).The APEX03-2 experiment was comprised of plants grown in the VPS growth facility (Figure 2b,c) and then imaged in the LMM after 4 and 8 days of growth (Figure 2e,f, h,i).In addition, 4-day-old samples from APEX03-2 were fixed in RNAlater and frozen on orbit, enabling confocal microscopy after sample return.Plants of the CARA experiment were grown in ambient cabin lighting of the ISS for 5 days before imaging (Figure 2a,d,g).As detailed in the Materials and Methods section, the comparable ground controls for both experiments were grown in a specialized chamber programed with the environmental parameters (CO 2 , temperature, humidity, and lighting) experienced by the ISS-grown plants, and all live imaging on the ISS conducted with the LMM (Figure 3) was directly compared with the LMM Ground Imaging Unit (GIU).",
+          "block_index": 2,
+          "section_index": 3,
+          "global_order": 13,
+          "id": "p_4_3"
+        },
+        {
+          "type": "paragraph",
+          "text": "Live imaging with the LMM on orbit illustrates that the same pattern of DR5r::GFP distribution was seen in the spaceflight grown and ground control plants of APEX03-2 in both 4-day-old (Figure 4a,b) and 8-day-old (Figure 4c,d) plants.Developmental age did not impact DR5r::GFP distribution in CARA either.The distribution of DR5r::GFP was identical in spaceflight and ground control plants for both 5-day-old (Figure 4e,f) and 8-day-old roots of the CARA plants (Figure 4g,h).In all cases, the LMM images of DR5r::GFP were consistent with expression patterns appropriately limited to the cells of the columella.",
+          "block_index": 3,
+          "section_index": 3,
+          "global_order": 14,
+          "id": "p_4_4"
+        },
+        {
+          "type": "paragraph",
+          "text": "Confocal microscopy with RNAlater-preserved roots from APEX03-2 enabled cellular resolution of the columella.The cellular resolution showed that the distribution of DR5r::GFP observed in the live imaging was indeed localized to the columella.The distribution of DR5r::GFP in the columella cells of the ground control (Figure 4i) and spaceflight (Figure 4j) was unchanged with respect to the gravity environment (see also Supplementary Movie S1 and Supplementary Movie S2).Quantification of the confocal Z-stack volumes for GFP signal revealed no significant quantitative differences in the expression between spaceflight and ground control samples for pDR5r::GFP (T-test, P = 0.55; Supplementary Figure S1).",
+          "block_index": 4,
+          "section_index": 3,
+          "global_order": 15,
+          "id": "p_4_5"
+        },
+        {
+          "type": "paragraph",
+          "text": "Distributions of two proteins associated with auxin signaling were also unchanged in spaceflight The distributions of TAA1::TAA1-GFP and SCR::SCR-GFP, respectively, were identical in between spaceflight and ground control plants.The TAA1::TAA1-GFP and SCR::SCR-GFP reporter gene lines were used in the APEX03-2 experiment (Figure 2e,f,h,i), and as with the DR5r::GFP plants, 4-day-old samples were fixed in RNAlater and frozen on orbit for confocal microscopy.There was no change in the distribution of TAA1::TAA1-GFP expression in the cells in and around the quiescent center (Figure 1a) between spaceflight and ground control plants.The individual cells involved could be seen with confocal imaging of preserved returned samples (Figure 5a,b, and Supplementary Movies S3, S4), which supported the identical position of TAA1::TAA1-GFP between flight and ground that was seen in the root tip during live imaging with the LMM (Figure 5e,f).Quantification of the confocal Z-stack volumes for GFP signal revealed potential slightly higher expression levels in spaceflight for TAA1::TAA1-GFP that were not statistically well supported (T-test, P = 0.06; Supplementary Figure S1).",
+          "block_index": 5,
+          "section_index": 3,
+          "global_order": 16,
+          "id": "p_4_6"
+        },
+        {
+          "type": "paragraph",
+          "text": "The nuclear localization SCR::SCR-GFP in endodermal cells also appeared unchanged between flight and ground control plants.Live imaging with the LMM showed a contiguous endodermal surface for both spaceflight and ground control (Figure 5g,h).In returned samples examined with confocal microcopy, longitudinal Z-sections through the endodermal layer (refer to Figure 1a) displayed some variably among samples near the QC, but this variation was not consistent within treatments (Figure 5c,d, and inset of Figure 3d).",
+          "block_index": 6,
+          "section_index": 3,
+          "global_order": 17,
+          "id": "p_4_7"
+        },
+        {
+          "type": "paragraph",
+          "text": "The distribution of cytokinin was different in spaceflight as compared with ground control roots The distribution of ARR5::GFP was different in the spaceflight grown plants compared to the comparable ground controls.Plants on orbit showed a more restricted distribution of ARR5::GFP expression compared with ground controls.In the 5-day roots of CARA, ARR5::GFP expression was restricted to the very tip of the root in spaceflight roots (Figure 5j), whereas the roots of the ground controls showed the typical pattern of ARR5 expression, which extends away from the tip back along the stele (Figures 1a and 5i). 23The spaceflight expression of ARR5::GFP remained limited to the tip even after 8 days of growth, while in the ground controls the distribution of ARR5::GFP continued to extend acropetally (Figure 5k,l).",
+          "block_index": 7,
+          "section_index": 3,
+          "global_order": 18,
+          "id": "p_4_8"
+        }
+      ]
+    },
+    {
+      "heading": "Discussion",
+      "paragraphs": [
+        "The plants examined here were derived from two distinct spaceflight experiments.CARA and APEX03-2 were launched months apart, and utilized different hardware and growth habitats.The developmental appearance and root growth strategies of respective plants from CARA and APEX were quite different (Figure 2d-i).This diversity provided the opportunity to observe auxin signaling in two different ISS growth habitats and two distinct spaceflight experiences separated by several months, which thereby removed the possibility of experiment processing, or local environmental factors other than spaceflight, impacting the results.",
+        "It is well established that there are changes in root morphology and in the gene expression patterns of Arabidopsis plants grown in a spaceflight environment, and many of the differentially expressed genes are associated with auxin and cytokinin signaling. 24,[26][27]7][28] However, global patterns of gene expression from whole roots 24 or whole seedlings [26][27][28] do not reveal changes that occur in individual cells.Here we employ GFP reporter gene systems that enable the visualization of gene expression within distinct cell types of the primary root tip providing cell-specific data that would otherwise be masked in a molecular study pooling all the cells of the root.",
+        "Plants in the microgravity of spaceflight establish an auxin distribution that is indistinguishable from that of a vertical orientation on the Earth.The distribution of DR5r::GFP in the roots of plants grown on the ISS was identical to that of the ground controls over the course of the two ISS experiments, several plant ages, and varied root morphologies (Figure 4).The expression of DR5r::GFP was evident in, and appropriately limited to, the columella cells of the root tip.The columella cells are considered the primary gravity-sensing cells of the root 29 and the DR5r::GFP expression patterns observed on the ISS are consistent with previous reports of DR5r::GFP distribution in the primary roots of plants grown vertically on the Earth. 8In both, the live imaging on orbit with the LMM (Figure 4a-h) and the cellular resolution made possible with the confocal analysis of preserved samples (Figure 4i,j), there is no discernable difference in the distribution of DR5r::GFP expression between ISS-grown plants and their comparable ground controls.",
+        "Though widely used for characterizing auxin distribution, as a transcriptional reporter DR5r::GFP does have limitations in sensitivity and response time for reporting auxin locations and concentrations, and it does not reveal all aspects of auxinresponsive gene activity.The initial observations presented here could be extended greatly in future flights through the use of more sensitive and non-transcriptional auxin reporter systems.In addition, exploration of sites of auxin action away from the root tip, such as shoots, root flanks and junctions, as well as lateral roots, would provide valuable additional insights into the spaceflight influences on auxin roles in plants not experiencing unit gravity.",
+        "Plants in spaceflight also appear unchanged with respect to a second source of auxin; synthesis of auxin within the quiescent center.Auxin is synthesized in the QC cells, cells that are part of the stem cell niche (SCN) in the root apical meristem and that give rise to the gravity-sensing columella cells of the root tip 21 (Figure 1a).The importance of this source of auxin to the gravity-sensing mechanism in roots is revealed by the fact excised root tips, without the auxin source of the reverse fountain, exhibit a response to gravity. 30We used the pTAA1::TAA1-GFP native promoter protein fusion reporter to monitor the amount of the auxin in these essential QC cells.TAA1 encodes an aminotransferase that regulates auxin biosynthesis within the QC cells, and contributes to gravitropic signaling. 31The TAA1::TAA1-GFP in 5-day and 8-day-old plants on orbit showed a distribution of GFP expression that was indistinguishable from similarly grown ground control plants (Figure 5a,b,e,f), and is consistent with what is typically expected in vertically grown plants. 21These results suggest that auxin synthesis of the QC is not influenced by gravity.",
+        "Also unchanged in microgravity is the distribution of the GRAS family transcription factor SCARECROW (SCR), a key transcription factor involved in the maintenance of the SCN 32 and regulating the radial organization of the root. 22,[33][34]4][35] SCR is essential to stem cell activity in the root apical meristem, the organization of the root cap and QC, as well as the production of auxin as it contributes to the reverse fountain flow.In the QC, SCR negatively regulates genes associated with auxin biosynthesis and mediates phytohormone cross-talk among the actively growing root zones. 11There was no discernable difference in the nuclear localization pattern of SCR::SCR-GFP between the root endodermis and QC of the plants grown on the ISS and the comparable ground controls (Figure 5c,d,g,h).This suggests that the upstream regulatory circuits for critical auxin synthesis steps are intact in spaceflight.The spaceflight distribution of SCR::SCR-GFP, together with the expression of TAA1::TAA1-GFP and DR5::GFP, strongly suggests that the entire auxin signaling pathway is fully developed in the absence of gravity.",
+        "Unlike the distribution of auxin, the phytohormone cytokinin exhibited different patterns of distribution between the spaceflight and ground environments.Cytokinins are counterpoints to auxin, including in the cross-talk among the root zones that plays a role in gravity responses. 36,37We examined the distribution cytokinin using ARR5::GFP, as the ARR5 gene is induced in the presence of free cytokinin. 23Plants on orbit showed a more restricted distribution of ARR5::GFP compared to ground controls (Figure 5i-l).In the flight plants, the expression of ARR5::GFP appeared limited to the columella and lateral root cap, whereas in the ground control plants ARR5::GFP expression extended shoot-ward from the root tip through the stele.The primary source for cytokinin production in the root tip is the columella cells.In a vertical orientation on the Earth, ARR5 expression is highest in the columella, but also extends shootward through the stele, a pattern that can expand in response to gravistimulation. 23On the Earth, cytokinins also have roles in root curving, 38 coiling and waving, and can influence features of the actin filament organization, which in turn affects root growth patterns. 39,40Plants grown on the ISS exhibit altered waving and skewing morphologies, as well as differences in the patterns of cell division and elongation. 25It is possible that cytokinin plays a larger role in these altered root growth strategies than does auxin, in the absence of gravity experienced during spaceflight.In addition, the repressed distribution of cytokinin as revealed by ARR expression in the spaceflight grown roots may also reflect a cytokinin influence in overall reduction in growth rate and development. 41,42ur results demonstrate one of the values in conducting experiments on the ISS; the ability to remove gravity from the environment and thus examine the role of gravity in fundamental biological processes.In this particular case, our data show that auxin distributions of the primary root are not gravity dependent, even though these distributions are key to gravity responses.It is therefore likely that the role of gravity is minimal compared with the inherent developmental cues guided by auxin to define the architecture of the root tip.Indeed, these experiments that essentially remove the forces of gravity, join with previous studies that used genetics to uncouple gravitropism from auxin distribution (for example, refs.16-19) to complete the notion that auxin gradients in the primary root are fundamentally developmental.Those developmental auxin gradients were coopted then to be sensitive to gravity responses and it seems logical then that the auxin signaling system in roots was present in plants as a developmental system before evolving additional roles in gravity responses.The role of auxin in structures other than the root tip bears investigation, as auxin-regulated genes are seen to change in expression during spaceflight, when examining the root as a whole, and root architecture is also influenced by spaceflight.The value of the present study is in having cell-specific reporters to begin the challenge of finding where in the root potential spaceflight auxin-regulated changes do occur.The data presented here suggest that those auxin-related changes do not occur in the major gravity-sensing cells of the primary root tip, as the distribution of DR5::GFP TAA::GFP and SCR::GFP are not affected by spaceflight at least to the level of sensitivity afforded by these reporters.",
+        "There is unintended and unrealized bias in some of the terminology used to describe the gravity response mechanisms and models of primary roots, in that there is an unwritten implication that the default or resting auxin distribution of the primary root is set up by gravity; that it is the vertical orientation that sets up the auxin distribution in the root tip.The term \"vertical\" carries a direct association with the gravity vector.Without the ability to remove gravity from the plant environment, there was no reason to eliminate the term from the vernacular or the force from the concept.Our results show that the reverse fountain is neither reverse nor a fountain, as these terms imply that gravity is involved in the reversal of liquid flow.Rather, the auxin flow of the primary root tip is fundamentally no different from the auxin flow systems that guide other parts of plant primary development, except that it has been further engaged in the gravity response."
+      ],
+      "text": "The plants examined here were derived from two distinct spaceflight experiments.CARA and APEX03-2 were launched months apart, and utilized different hardware and growth habitats.The developmental appearance and root growth strategies of respective plants from CARA and APEX were quite different (Figure 2d-i).This diversity provided the opportunity to observe auxin signaling in two different ISS growth habitats and two distinct spaceflight experiences separated by several months, which thereby removed the possibility of experiment processing, or local environmental factors other than spaceflight, impacting the results.\nIt is well established that there are changes in root morphology and in the gene expression patterns of Arabidopsis plants grown in a spaceflight environment, and many of the differentially expressed genes are associated with auxin and cytokinin signaling. 24,[26][27]7][28] However, global patterns of gene expression from whole roots 24 or whole seedlings [26][27][28] do not reveal changes that occur in individual cells.Here we employ GFP reporter gene systems that enable the visualization of gene expression within distinct cell types of the primary root tip providing cell-specific data that would otherwise be masked in a molecular study pooling all the cells of the root.\nPlants in the microgravity of spaceflight establish an auxin distribution that is indistinguishable from that of a vertical orientation on the Earth.The distribution of DR5r::GFP in the roots of plants grown on the ISS was identical to that of the ground controls over the course of the two ISS experiments, several plant ages, and varied root morphologies (Figure 4).The expression of DR5r::GFP was evident in, and appropriately limited to, the columella cells of the root tip.The columella cells are considered the primary gravity-sensing cells of the root 29 and the DR5r::GFP expression patterns observed on the ISS are consistent with previous reports of DR5r::GFP distribution in the primary roots of plants grown vertically on the Earth. 8In both, the live imaging on orbit with the LMM (Figure 4a-h) and the cellular resolution made possible with the confocal analysis of preserved samples (Figure 4i,j), there is no discernable difference in the distribution of DR5r::GFP expression between ISS-grown plants and their comparable ground controls.\nThough widely used for characterizing auxin distribution, as a transcriptional reporter DR5r::GFP does have limitations in sensitivity and response time for reporting auxin locations and concentrations, and it does not reveal all aspects of auxinresponsive gene activity.The initial observations presented here could be extended greatly in future flights through the use of more sensitive and non-transcriptional auxin reporter systems.In addition, exploration of sites of auxin action away from the root tip, such as shoots, root flanks and junctions, as well as lateral roots, would provide valuable additional insights into the spaceflight influences on auxin roles in plants not experiencing unit gravity.\nPlants in spaceflight also appear unchanged with respect to a second source of auxin; synthesis of auxin within the quiescent center.Auxin is synthesized in the QC cells, cells that are part of the stem cell niche (SCN) in the root apical meristem and that give rise to the gravity-sensing columella cells of the root tip 21 (Figure 1a).The importance of this source of auxin to the gravity-sensing mechanism in roots is revealed by the fact excised root tips, without the auxin source of the reverse fountain, exhibit a response to gravity. 30We used the pTAA1::TAA1-GFP native promoter protein fusion reporter to monitor the amount of the auxin in these essential QC cells.TAA1 encodes an aminotransferase that regulates auxin biosynthesis within the QC cells, and contributes to gravitropic signaling. 31The TAA1::TAA1-GFP in 5-day and 8-day-old plants on orbit showed a distribution of GFP expression that was indistinguishable from similarly grown ground control plants (Figure 5a,b,e,f), and is consistent with what is typically expected in vertically grown plants. 21These results suggest that auxin synthesis of the QC is not influenced by gravity.\nAlso unchanged in microgravity is the distribution of the GRAS family transcription factor SCARECROW (SCR), a key transcription factor involved in the maintenance of the SCN 32 and regulating the radial organization of the root. 22,[33][34]4][35] SCR is essential to stem cell activity in the root apical meristem, the organization of the root cap and QC, as well as the production of auxin as it contributes to the reverse fountain flow.In the QC, SCR negatively regulates genes associated with auxin biosynthesis and mediates phytohormone cross-talk among the actively growing root zones. 11There was no discernable difference in the nuclear localization pattern of SCR::SCR-GFP between the root endodermis and QC of the plants grown on the ISS and the comparable ground controls (Figure 5c,d,g,h).This suggests that the upstream regulatory circuits for critical auxin synthesis steps are intact in spaceflight.The spaceflight distribution of SCR::SCR-GFP, together with the expression of TAA1::TAA1-GFP and DR5::GFP, strongly suggests that the entire auxin signaling pathway is fully developed in the absence of gravity.\nUnlike the distribution of auxin, the phytohormone cytokinin exhibited different patterns of distribution between the spaceflight and ground environments.Cytokinins are counterpoints to auxin, including in the cross-talk among the root zones that plays a role in gravity responses. 36,37We examined the distribution cytokinin using ARR5::GFP, as the ARR5 gene is induced in the presence of free cytokinin. 23Plants on orbit showed a more restricted distribution of ARR5::GFP compared to ground controls (Figure 5i-l).In the flight plants, the expression of ARR5::GFP appeared limited to the columella and lateral root cap, whereas in the ground control plants ARR5::GFP expression extended shoot-ward from the root tip through the stele.The primary source for cytokinin production in the root tip is the columella cells.In a vertical orientation on the Earth, ARR5 expression is highest in the columella, but also extends shootward through the stele, a pattern that can expand in response to gravistimulation. 23On the Earth, cytokinins also have roles in root curving, 38 coiling and waving, and can influence features of the actin filament organization, which in turn affects root growth patterns. 39,40Plants grown on the ISS exhibit altered waving and skewing morphologies, as well as differences in the patterns of cell division and elongation. 25It is possible that cytokinin plays a larger role in these altered root growth strategies than does auxin, in the absence of gravity experienced during spaceflight.In addition, the repressed distribution of cytokinin as revealed by ARR expression in the spaceflight grown roots may also reflect a cytokinin influence in overall reduction in growth rate and development. 41,42ur results demonstrate one of the values in conducting experiments on the ISS; the ability to remove gravity from the environment and thus examine the role of gravity in fundamental biological processes.In this particular case, our data show that auxin distributions of the primary root are not gravity dependent, even though these distributions are key to gravity responses.It is therefore likely that the role of gravity is minimal compared with the inherent developmental cues guided by auxin to define the architecture of the root tip.Indeed, these experiments that essentially remove the forces of gravity, join with previous studies that used genetics to uncouple gravitropism from auxin distribution (for example, refs.16-19) to complete the notion that auxin gradients in the primary root are fundamentally developmental.Those developmental auxin gradients were coopted then to be sensitive to gravity responses and it seems logical then that the auxin signaling system in roots was present in plants as a developmental system before evolving additional roles in gravity responses.The role of auxin in structures other than the root tip bears investigation, as auxin-regulated genes are seen to change in expression during spaceflight, when examining the root as a whole, and root architecture is also influenced by spaceflight.The value of the present study is in having cell-specific reporters to begin the challenge of finding where in the root potential spaceflight auxin-regulated changes do occur.The data presented here suggest that those auxin-related changes do not occur in the major gravity-sensing cells of the primary root tip, as the distribution of DR5::GFP TAA::GFP and SCR::GFP are not affected by spaceflight at least to the level of sensitivity afforded by these reporters.\nThere is unintended and unrealized bias in some of the terminology used to describe the gravity response mechanisms and models of primary roots, in that there is an unwritten implication that the default or resting auxin distribution of the primary root is set up by gravity; that it is the vertical orientation that sets up the auxin distribution in the root tip.The term \"vertical\" carries a direct association with the gravity vector.Without the ability to remove gravity from the plant environment, there was no reason to eliminate the term from the vernacular or the force from the concept.Our results show that the reverse fountain is neither reverse nor a fountain, as these terms imply that gravity is involved in the reversal of liquid flow.Rather, the auxin flow of the primary root tip is fundamentally no different from the auxin flow systems that guide other parts of plant primary development, except that it has been further engaged in the gravity response.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The plants examined here were derived from two distinct spaceflight experiments.CARA and APEX03-2 were launched months apart, and utilized different hardware and growth habitats.The developmental appearance and root growth strategies of respective plants from CARA and APEX were quite different (Figure 2d-i).This diversity provided the opportunity to observe auxin signaling in two different ISS growth habitats and two distinct spaceflight experiences separated by several months, which thereby removed the possibility of experiment processing, or local environmental factors other than spaceflight, impacting the results.",
+          "block_index": 0,
+          "section_index": 4,
+          "global_order": 19,
+          "id": "p_5_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "It is well established that there are changes in root morphology and in the gene expression patterns of Arabidopsis plants grown in a spaceflight environment, and many of the differentially expressed genes are associated with auxin and cytokinin signaling. 24,[26][27]7][28] However, global patterns of gene expression from whole roots 24 or whole seedlings [26][27][28] do not reveal changes that occur in individual cells.Here we employ GFP reporter gene systems that enable the visualization of gene expression within distinct cell types of the primary root tip providing cell-specific data that would otherwise be masked in a molecular study pooling all the cells of the root.",
+          "block_index": 1,
+          "section_index": 4,
+          "global_order": 20,
+          "id": "p_5_2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Plants in the microgravity of spaceflight establish an auxin distribution that is indistinguishable from that of a vertical orientation on the Earth.The distribution of DR5r::GFP in the roots of plants grown on the ISS was identical to that of the ground controls over the course of the two ISS experiments, several plant ages, and varied root morphologies (Figure 4).The expression of DR5r::GFP was evident in, and appropriately limited to, the columella cells of the root tip.The columella cells are considered the primary gravity-sensing cells of the root 29 and the DR5r::GFP expression patterns observed on the ISS are consistent with previous reports of DR5r::GFP distribution in the primary roots of plants grown vertically on the Earth. 8In both, the live imaging on orbit with the LMM (Figure 4a-h) and the cellular resolution made possible with the confocal analysis of preserved samples (Figure 4i,j), there is no discernable difference in the distribution of DR5r::GFP expression between ISS-grown plants and their comparable ground controls.",
+          "block_index": 2,
+          "section_index": 4,
+          "global_order": 21,
+          "id": "p_5_3"
+        },
+        {
+          "type": "paragraph",
+          "text": "Though widely used for characterizing auxin distribution, as a transcriptional reporter DR5r::GFP does have limitations in sensitivity and response time for reporting auxin locations and concentrations, and it does not reveal all aspects of auxinresponsive gene activity.The initial observations presented here could be extended greatly in future flights through the use of more sensitive and non-transcriptional auxin reporter systems.In addition, exploration of sites of auxin action away from the root tip, such as shoots, root flanks and junctions, as well as lateral roots, would provide valuable additional insights into the spaceflight influences on auxin roles in plants not experiencing unit gravity.",
+          "block_index": 3,
+          "section_index": 4,
+          "global_order": 22,
+          "id": "p_5_4"
+        },
+        {
+          "type": "paragraph",
+          "text": "Plants in spaceflight also appear unchanged with respect to a second source of auxin; synthesis of auxin within the quiescent center.Auxin is synthesized in the QC cells, cells that are part of the stem cell niche (SCN) in the root apical meristem and that give rise to the gravity-sensing columella cells of the root tip 21 (Figure 1a).The importance of this source of auxin to the gravity-sensing mechanism in roots is revealed by the fact excised root tips, without the auxin source of the reverse fountain, exhibit a response to gravity. 30We used the pTAA1::TAA1-GFP native promoter protein fusion reporter to monitor the amount of the auxin in these essential QC cells.TAA1 encodes an aminotransferase that regulates auxin biosynthesis within the QC cells, and contributes to gravitropic signaling. 31The TAA1::TAA1-GFP in 5-day and 8-day-old plants on orbit showed a distribution of GFP expression that was indistinguishable from similarly grown ground control plants (Figure 5a,b,e,f), and is consistent with what is typically expected in vertically grown plants. 21These results suggest that auxin synthesis of the QC is not influenced by gravity.",
+          "block_index": 4,
+          "section_index": 4,
+          "global_order": 23,
+          "id": "p_5_5"
+        },
+        {
+          "type": "paragraph",
+          "text": "Also unchanged in microgravity is the distribution of the GRAS family transcription factor SCARECROW (SCR), a key transcription factor involved in the maintenance of the SCN 32 and regulating the radial organization of the root. 22,[33][34]4][35] SCR is essential to stem cell activity in the root apical meristem, the organization of the root cap and QC, as well as the production of auxin as it contributes to the reverse fountain flow.In the QC, SCR negatively regulates genes associated with auxin biosynthesis and mediates phytohormone cross-talk among the actively growing root zones. 11There was no discernable difference in the nuclear localization pattern of SCR::SCR-GFP between the root endodermis and QC of the plants grown on the ISS and the comparable ground controls (Figure 5c,d,g,h).This suggests that the upstream regulatory circuits for critical auxin synthesis steps are intact in spaceflight.The spaceflight distribution of SCR::SCR-GFP, together with the expression of TAA1::TAA1-GFP and DR5::GFP, strongly suggests that the entire auxin signaling pathway is fully developed in the absence of gravity.",
+          "block_index": 5,
+          "section_index": 4,
+          "global_order": 24,
+          "id": "p_5_6"
+        },
+        {
+          "type": "paragraph",
+          "text": "Unlike the distribution of auxin, the phytohormone cytokinin exhibited different patterns of distribution between the spaceflight and ground environments.Cytokinins are counterpoints to auxin, including in the cross-talk among the root zones that plays a role in gravity responses. 36,37We examined the distribution cytokinin using ARR5::GFP, as the ARR5 gene is induced in the presence of free cytokinin. 23Plants on orbit showed a more restricted distribution of ARR5::GFP compared to ground controls (Figure 5i-l).In the flight plants, the expression of ARR5::GFP appeared limited to the columella and lateral root cap, whereas in the ground control plants ARR5::GFP expression extended shoot-ward from the root tip through the stele.The primary source for cytokinin production in the root tip is the columella cells.In a vertical orientation on the Earth, ARR5 expression is highest in the columella, but also extends shootward through the stele, a pattern that can expand in response to gravistimulation. 23On the Earth, cytokinins also have roles in root curving, 38 coiling and waving, and can influence features of the actin filament organization, which in turn affects root growth patterns. 39,40Plants grown on the ISS exhibit altered waving and skewing morphologies, as well as differences in the patterns of cell division and elongation. 25It is possible that cytokinin plays a larger role in these altered root growth strategies than does auxin, in the absence of gravity experienced during spaceflight.In addition, the repressed distribution of cytokinin as revealed by ARR expression in the spaceflight grown roots may also reflect a cytokinin influence in overall reduction in growth rate and development. 41,42ur results demonstrate one of the values in conducting experiments on the ISS; the ability to remove gravity from the environment and thus examine the role of gravity in fundamental biological processes.In this particular case, our data show that auxin distributions of the primary root are not gravity dependent, even though these distributions are key to gravity responses.It is therefore likely that the role of gravity is minimal compared with the inherent developmental cues guided by auxin to define the architecture of the root tip.Indeed, these experiments that essentially remove the forces of gravity, join with previous studies that used genetics to uncouple gravitropism from auxin distribution (for example, refs.16-19) to complete the notion that auxin gradients in the primary root are fundamentally developmental.Those developmental auxin gradients were coopted then to be sensitive to gravity responses and it seems logical then that the auxin signaling system in roots was present in plants as a developmental system before evolving additional roles in gravity responses.The role of auxin in structures other than the root tip bears investigation, as auxin-regulated genes are seen to change in expression during spaceflight, when examining the root as a whole, and root architecture is also influenced by spaceflight.The value of the present study is in having cell-specific reporters to begin the challenge of finding where in the root potential spaceflight auxin-regulated changes do occur.The data presented here suggest that those auxin-related changes do not occur in the major gravity-sensing cells of the primary root tip, as the distribution of DR5::GFP TAA::GFP and SCR::GFP are not affected by spaceflight at least to the level of sensitivity afforded by these reporters.",
+          "block_index": 6,
+          "section_index": 4,
+          "global_order": 25,
+          "id": "p_5_7"
+        },
+        {
+          "type": "paragraph",
+          "text": "There is unintended and unrealized bias in some of the terminology used to describe the gravity response mechanisms and models of primary roots, in that there is an unwritten implication that the default or resting auxin distribution of the primary root is set up by gravity; that it is the vertical orientation that sets up the auxin distribution in the root tip.The term \"vertical\" carries a direct association with the gravity vector.Without the ability to remove gravity from the plant environment, there was no reason to eliminate the term from the vernacular or the force from the concept.Our results show that the reverse fountain is neither reverse nor a fountain, as these terms imply that gravity is involved in the reversal of liquid flow.Rather, the auxin flow of the primary root tip is fundamentally no different from the auxin flow systems that guide other parts of plant primary development, except that it has been further engaged in the gravity response.",
+          "block_index": 7,
+          "section_index": 4,
+          "global_order": 26,
+          "id": "p_5_8"
+        }
+      ]
+    },
+    {
+      "heading": "Plant lines and plate preparations",
+      "paragraphs": [
+        "Four Arabidopsis GFP reporter lines were used in these experiments: pDR5r::GFP, a synthetic auxin response element composed of five AuxRE elements (TAIR line CS9361), 24,43 pTAA1::TAA1-GFP, (TAIR line CS16432, AT1G70560), 21 pSCR::SCR-GFP (TAIR line CS3999, AT3G54220) 22 and pARR5::GFP (TAIR line CS23893, AT3G48100). 23Both spaceflight experiments included pDR5r::GFP; however, pARR5::GFP was limited to CARA, and pTAA1::TAA1-GFP and pSCR::SCR-GFP were limited to APEX03-2.Within each experiment, all genotypes were planted on a single Petri plate designated for imaging (Figure 2d-i).",
+        "The laboratory preparations and launch conditions were identical for both CARA and APEX03-2.Dry, sterilized Arabidopsis seeds were planted aseptically on the surface of 10-cm 2 solid media plates comprised of 0.5% Phytagel/0.5 × MS media, and then immediately wrapped in light-tight black cloth (Duvetyne, SeattleFabrics.com). 24,25The wrapped plates were stored at temperatures between 4 and 10 °C until launch within a cold stowage bag nominally at 4 °C.The seeds remained dormant until removed from cold stowage and exposed to light at the initiation of the experiment on the ISS.Although the plates were kept refrigerated where possible, the dark treatment ensured dormancy even if the plates were to experience excursions into ambient temperatures.",
+        "Plant growth conditions on the ISS and comparable ground controls CARA and APEX03-2 were distinctly different experiments, each with unique growth habitats and hardware.However, within each experiment, the environmental conditions of the respective habitats were carefully controlled such that the growth conditions on the ISS closely matched those of their respective ground controls.This was accomplished by running the ground controls discontinuously; a 24-h delay for CARA and a 48-h delay for APEX03-2.These delays enabled the telemetric collection of environmental data from the ISS, which were then used to program the ISS Environmental Simulation (ISSES) chamber at the Space Station Processing Facility at Kennedy Space Center (KSC).The ISSES chamber replicated the temperature, CO 2 levels and lighting that had been experienced by the spaceflight plants in the previous 24 h (or 48 h, respectively).",
+        "CARA.The CARA experiment was designed for the plants to be grown in the low-level, diffuse ambient lighting of the US Lab in the Destiny Module of the ISS.The CARA plates received between 4-6 μmoles/m 2 /s total light.The plates were configured with Velcro tabs that facilitated attachment to a cloth support that was affixed a wall of the Destiny Module (Figure 2a).The experiment was activated by unwrapping the plates and attaching them to the wall of the module.The exposure to light initiated germination.Five days after germination was initiated, the plate designated for microscopy was removed from the wall by astronaut Steve Swanson, photographed with an SLR camera before imaging (Figure 2g).Ground control plates were mounted on the wall of the ISSES chamber at KSC (Figure 2d)."
+      ],
+      "text": "Four Arabidopsis GFP reporter lines were used in these experiments: pDR5r::GFP, a synthetic auxin response element composed of five AuxRE elements (TAIR line CS9361), 24,43 pTAA1::TAA1-GFP, (TAIR line CS16432, AT1G70560), 21 pSCR::SCR-GFP (TAIR line CS3999, AT3G54220) 22 and pARR5::GFP (TAIR line CS23893, AT3G48100). 23Both spaceflight experiments included pDR5r::GFP; however, pARR5::GFP was limited to CARA, and pTAA1::TAA1-GFP and pSCR::SCR-GFP were limited to APEX03-2.Within each experiment, all genotypes were planted on a single Petri plate designated for imaging (Figure 2d-i).\nThe laboratory preparations and launch conditions were identical for both CARA and APEX03-2.Dry, sterilized Arabidopsis seeds were planted aseptically on the surface of 10-cm 2 solid media plates comprised of 0.5% Phytagel/0.5 × MS media, and then immediately wrapped in light-tight black cloth (Duvetyne, SeattleFabrics.com). 24,25The wrapped plates were stored at temperatures between 4 and 10 °C until launch within a cold stowage bag nominally at 4 °C.The seeds remained dormant until removed from cold stowage and exposed to light at the initiation of the experiment on the ISS.Although the plates were kept refrigerated where possible, the dark treatment ensured dormancy even if the plates were to experience excursions into ambient temperatures.\nPlant growth conditions on the ISS and comparable ground controls CARA and APEX03-2 were distinctly different experiments, each with unique growth habitats and hardware.However, within each experiment, the environmental conditions of the respective habitats were carefully controlled such that the growth conditions on the ISS closely matched those of their respective ground controls.This was accomplished by running the ground controls discontinuously; a 24-h delay for CARA and a 48-h delay for APEX03-2.These delays enabled the telemetric collection of environmental data from the ISS, which were then used to program the ISS Environmental Simulation (ISSES) chamber at the Space Station Processing Facility at Kennedy Space Center (KSC).The ISSES chamber replicated the temperature, CO 2 levels and lighting that had been experienced by the spaceflight plants in the previous 24 h (or 48 h, respectively).\nCARA.The CARA experiment was designed for the plants to be grown in the low-level, diffuse ambient lighting of the US Lab in the Destiny Module of the ISS.The CARA plates received between 4-6 μmoles/m 2 /s total light.The plates were configured with Velcro tabs that facilitated attachment to a cloth support that was affixed a wall of the Destiny Module (Figure 2a).The experiment was activated by unwrapping the plates and attaching them to the wall of the module.The exposure to light initiated germination.Five days after germination was initiated, the plate designated for microscopy was removed from the wall by astronaut Steve Swanson, photographed with an SLR camera before imaging (Figure 2g).Ground control plates were mounted on the wall of the ISSES chamber at KSC (Figure 2d).",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Four Arabidopsis GFP reporter lines were used in these experiments: pDR5r::GFP, a synthetic auxin response element composed of five AuxRE elements (TAIR line CS9361), 24,43 pTAA1::TAA1-GFP, (TAIR line CS16432, AT1G70560), 21 pSCR::SCR-GFP (TAIR line CS3999, AT3G54220) 22 and pARR5::GFP (TAIR line CS23893, AT3G48100). 23Both spaceflight experiments included pDR5r::GFP; however, pARR5::GFP was limited to CARA, and pTAA1::TAA1-GFP and pSCR::SCR-GFP were limited to APEX03-2.Within each experiment, all genotypes were planted on a single Petri plate designated for imaging (Figure 2d-i).",
+          "block_index": 0,
+          "section_index": 5,
+          "global_order": 27,
+          "id": "p_6_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "The laboratory preparations and launch conditions were identical for both CARA and APEX03-2.Dry, sterilized Arabidopsis seeds were planted aseptically on the surface of 10-cm 2 solid media plates comprised of 0.5% Phytagel/0.5 × MS media, and then immediately wrapped in light-tight black cloth (Duvetyne, SeattleFabrics.com). 24,25The wrapped plates were stored at temperatures between 4 and 10 °C until launch within a cold stowage bag nominally at 4 °C.The seeds remained dormant until removed from cold stowage and exposed to light at the initiation of the experiment on the ISS.Although the plates were kept refrigerated where possible, the dark treatment ensured dormancy even if the plates were to experience excursions into ambient temperatures.",
+          "block_index": 1,
+          "section_index": 5,
+          "global_order": 28,
+          "id": "p_6_2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Plant growth conditions on the ISS and comparable ground controls CARA and APEX03-2 were distinctly different experiments, each with unique growth habitats and hardware.However, within each experiment, the environmental conditions of the respective habitats were carefully controlled such that the growth conditions on the ISS closely matched those of their respective ground controls.This was accomplished by running the ground controls discontinuously; a 24-h delay for CARA and a 48-h delay for APEX03-2.These delays enabled the telemetric collection of environmental data from the ISS, which were then used to program the ISS Environmental Simulation (ISSES) chamber at the Space Station Processing Facility at Kennedy Space Center (KSC).The ISSES chamber replicated the temperature, CO 2 levels and lighting that had been experienced by the spaceflight plants in the previous 24 h (or 48 h, respectively).",
+          "block_index": 2,
+          "section_index": 5,
+          "global_order": 29,
+          "id": "p_6_3"
+        },
+        {
+          "type": "paragraph",
+          "text": "CARA.The CARA experiment was designed for the plants to be grown in the low-level, diffuse ambient lighting of the US Lab in the Destiny Module of the ISS.The CARA plates received between 4-6 μmoles/m 2 /s total light.The plates were configured with Velcro tabs that facilitated attachment to a cloth support that was affixed a wall of the Destiny Module (Figure 2a).The experiment was activated by unwrapping the plates and attaching them to the wall of the module.The exposure to light initiated germination.Five days after germination was initiated, the plate designated for microscopy was removed from the wall by astronaut Steve Swanson, photographed with an SLR camera before imaging (Figure 2g).Ground control plates were mounted on the wall of the ISSES chamber at KSC (Figure 2d).",
+          "block_index": 3,
+          "section_index": 5,
+          "global_order": 30,
+          "id": "p_6_4"
+        }
+      ]
+    },
+    {
+      "heading": "APEX03-2. The APEX03-2 experiment plates were grown in the Vegetable",
+      "paragraphs": [
+        "Production System (VPS/Veggie) hardware on the Columbus Module of the ISS (Figure 2b,c).The 10-cm 2 Petri plates were housed perpendicular (\"vertical\") to the overhead LED lighting of the VPS.Plants received between 100-135 μmoles/m 2 /s PAR inside the VPS.Four and eight days after germination was initiated by unwrapping the plates and exposing them light in the VPS, the plate designated for microscopy was removed by the astronaut Butch Wilmore, photographed with an SLR camera before imaging (Figure 2h,i).In the case of APEX03-2, the ground control plates were grown inside the VPS ground unit within the ISSES chamber at KSC (Figure 2e,f)."
+      ],
+      "text": "Production System (VPS/Veggie) hardware on the Columbus Module of the ISS (Figure 2b,c).The 10-cm 2 Petri plates were housed perpendicular (\"vertical\") to the overhead LED lighting of the VPS.Plants received between 100-135 μmoles/m 2 /s PAR inside the VPS.Four and eight days after germination was initiated by unwrapping the plates and exposing them light in the VPS, the plate designated for microscopy was removed by the astronaut Butch Wilmore, photographed with an SLR camera before imaging (Figure 2h,i).In the case of APEX03-2, the ground control plates were grown inside the VPS ground unit within the ISSES chamber at KSC (Figure 2e,f).",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Production System (VPS/Veggie) hardware on the Columbus Module of the ISS (Figure 2b,c).The 10-cm 2 Petri plates were housed perpendicular (\"vertical\") to the overhead LED lighting of the VPS.Plants received between 100-135 μmoles/m 2 /s PAR inside the VPS.Four and eight days after germination was initiated by unwrapping the plates and exposing them light in the VPS, the plate designated for microscopy was removed by the astronaut Butch Wilmore, photographed with an SLR camera before imaging (Figure 2h,i).In the case of APEX03-2, the ground control plates were grown inside the VPS ground unit within the ISSES chamber at KSC (Figure 2e,f).",
+          "block_index": 0,
+          "section_index": 6,
+          "global_order": 31,
+          "id": "p_7_1"
+        }
+      ]
+    },
+    {
+      "heading": "Live imaging on the ISS",
+      "paragraphs": [
+        "Live imaging in both the CARA and APEX experiments was conducted with the LMM housed in Destiny Module (Figure 3a), and with the LMM GIU, which is housed at GRC, Cleveland, OH, USA.The LMM on the ISS is a modified Leica RXA microscope adapted for a microgravity environment that is held within the glovebox of the Fluids Integrated Rack (FIR) to help manage potentially dangerous or liquid-containing payloads within the FIR.Although an astronaut was required for the loading of the sample stage, the microscope is operated telemetrically from GRC by FIR and LMM controllers, who were in turn guided by the authors.In both the CASIS and APEX experiments, the astronaut on duty photographed the seedlingcontaining Petri plate before loading into the LMM; either by holding in front of the video feed camera (Figure 3b, red arrow), or with a standard SLR camera (Figure 2g-i).The plate was then loaded onto the LMM Petri support base and affixed to the microscope stage (Figure 3c, red arrow).Comparable operations were conducted with the ground control plates (Figure 2d-f).The SLR photographs were used to create root maps to guide the telemetric maneuvers to locate regions of interest on the Petri plates.The image in Figure 3d illustrates how the photograph of the seedlings on the plate was overlaid with the coordinate map for the LMM microscope stage.All operations of the stage in x, y and z were conducted telemetrically by maneuvering the motorized stage through upload of numerical coordinates.The numbers along the periphery of the field of view in Figure 3d define the x and y coordinates.The stage could also be moved in the z direction for focus, and also for the collection of different focal planes.LMM images are collected with a Q-Imaging Retiga 1300 CCD camera (Burnaby, BC, Canada) with a resolution of 1,280 × 1,024 and 2 × 2 binning.The white-light images from the LMM were captured using the beam splitter option on the LMM and LMM GIU.GFP fluorescence was visualized using the CHROMA FITC Filter Set: Exciter wavelength 480, Dichroic wavelength 505, and Emitter wavelength 535.The 10 × objective (numerical aperture 0.3) was used in CARA, and the 20 × objective (numerical aperture 0.4) was used in APEX03-2; these are both \"dry\" objectives; necessary as the plants were viewed through the lid of the Petri plate.The management and administration of the LMM operations was conducted by the personnel of GRC, particularly through the efforts of teams from ZIN Technologies.The authors oversaw the data collection and drove sample and region of interest selection in real time operations."
+      ],
+      "text": "Live imaging in both the CARA and APEX experiments was conducted with the LMM housed in Destiny Module (Figure 3a), and with the LMM GIU, which is housed at GRC, Cleveland, OH, USA.The LMM on the ISS is a modified Leica RXA microscope adapted for a microgravity environment that is held within the glovebox of the Fluids Integrated Rack (FIR) to help manage potentially dangerous or liquid-containing payloads within the FIR.Although an astronaut was required for the loading of the sample stage, the microscope is operated telemetrically from GRC by FIR and LMM controllers, who were in turn guided by the authors.In both the CASIS and APEX experiments, the astronaut on duty photographed the seedlingcontaining Petri plate before loading into the LMM; either by holding in front of the video feed camera (Figure 3b, red arrow), or with a standard SLR camera (Figure 2g-i).The plate was then loaded onto the LMM Petri support base and affixed to the microscope stage (Figure 3c, red arrow).Comparable operations were conducted with the ground control plates (Figure 2d-f).The SLR photographs were used to create root maps to guide the telemetric maneuvers to locate regions of interest on the Petri plates.The image in Figure 3d illustrates how the photograph of the seedlings on the plate was overlaid with the coordinate map for the LMM microscope stage.All operations of the stage in x, y and z were conducted telemetrically by maneuvering the motorized stage through upload of numerical coordinates.The numbers along the periphery of the field of view in Figure 3d define the x and y coordinates.The stage could also be moved in the z direction for focus, and also for the collection of different focal planes.LMM images are collected with a Q-Imaging Retiga 1300 CCD camera (Burnaby, BC, Canada) with a resolution of 1,280 × 1,024 and 2 × 2 binning.The white-light images from the LMM were captured using the beam splitter option on the LMM and LMM GIU.GFP fluorescence was visualized using the CHROMA FITC Filter Set: Exciter wavelength 480, Dichroic wavelength 505, and Emitter wavelength 535.The 10 × objective (numerical aperture 0.3) was used in CARA, and the 20 × objective (numerical aperture 0.4) was used in APEX03-2; these are both \"dry\" objectives; necessary as the plants were viewed through the lid of the Petri plate.The management and administration of the LMM operations was conducted by the personnel of GRC, particularly through the efforts of teams from ZIN Technologies.The authors oversaw the data collection and drove sample and region of interest selection in real time operations.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Live imaging in both the CARA and APEX experiments was conducted with the LMM housed in Destiny Module (Figure 3a), and with the LMM GIU, which is housed at GRC, Cleveland, OH, USA.The LMM on the ISS is a modified Leica RXA microscope adapted for a microgravity environment that is held within the glovebox of the Fluids Integrated Rack (FIR) to help manage potentially dangerous or liquid-containing payloads within the FIR.Although an astronaut was required for the loading of the sample stage, the microscope is operated telemetrically from GRC by FIR and LMM controllers, who were in turn guided by the authors.In both the CASIS and APEX experiments, the astronaut on duty photographed the seedlingcontaining Petri plate before loading into the LMM; either by holding in front of the video feed camera (Figure 3b, red arrow), or with a standard SLR camera (Figure 2g-i).The plate was then loaded onto the LMM Petri support base and affixed to the microscope stage (Figure 3c, red arrow).Comparable operations were conducted with the ground control plates (Figure 2d-f).The SLR photographs were used to create root maps to guide the telemetric maneuvers to locate regions of interest on the Petri plates.The image in Figure 3d illustrates how the photograph of the seedlings on the plate was overlaid with the coordinate map for the LMM microscope stage.All operations of the stage in x, y and z were conducted telemetrically by maneuvering the motorized stage through upload of numerical coordinates.The numbers along the periphery of the field of view in Figure 3d define the x and y coordinates.The stage could also be moved in the z direction for focus, and also for the collection of different focal planes.LMM images are collected with a Q-Imaging Retiga 1300 CCD camera (Burnaby, BC, Canada) with a resolution of 1,280 × 1,024 and 2 × 2 binning.The white-light images from the LMM were captured using the beam splitter option on the LMM and LMM GIU.GFP fluorescence was visualized using the CHROMA FITC Filter Set: Exciter wavelength 480, Dichroic wavelength 505, and Emitter wavelength 535.The 10 × objective (numerical aperture 0.3) was used in CARA, and the 20 × objective (numerical aperture 0.4) was used in APEX03-2; these are both \"dry\" objectives; necessary as the plants were viewed through the lid of the Petri plate.The management and administration of the LMM operations was conducted by the personnel of GRC, particularly through the efforts of teams from ZIN Technologies.The authors oversaw the data collection and drove sample and region of interest selection in real time operations.",
+          "block_index": 0,
+          "section_index": 7,
+          "global_order": 32,
+          "id": "p_8_1"
+        }
+      ]
+    },
+    {
+      "heading": "Imaging of returned samples",
+      "paragraphs": [
+        "In the APEX03-2 experiment, a four-day-old imaging plate containing pDR5r::GFP, pTAA1::TAA1-GFP and pSCR::SCR-GFP was harvested to RNAlater (Ambion, Grand Island, NY, USA), into Kennedy Space Center Fixation Tubes (KFTs).KFTs are spaceflight hardware providing three levels of liquid containment for fixing biological samples in space. 24,44After collection, the loaded KFTs were stowed at -80°C in the MELFI freezer on the ISS; ground controls were also collected to KFTs, but were stowed in a standard -80 °C freezer.The samples were kept frozen until the samples were returned to the authors' laboratory.The preserved plants were then imaged on the ground with a Leica TCS-SP5 confocal microscope (Mannheim, Germany) in the Cytometry Core at the Interdisciplinary Center for Biotechnology Research at the University of Florida.The roots were prepared by rinsing in distilled water for 2 min, and then either mounted directly in Vectashield mounting medium (Vector Laboratories, Burlingame, CA, USA) or counterstained with a 0.1% solution of Calcofluor White for 5 min.Calcofluor White staining was followed by a 5 min wash in distilled water and then mounting in Vectashield for imaging.The imaging parameters for confocal microcopy were kept identical between spaceflight and ground control samples within each genotype, although these parameters could vary among genotypes.For instance: pTAA1::TAA1-GFP, spaceflight and ground, was imaged with the following parameters: exposure 62, pinhole 69, zoom of 1, step size 2.98, line average 2, FC gain of 700 and offset at -3.0.pDR5r::GFP imaging parameters were identical to those used for pTAA1::TAA1-GFP, although the gain was increased for all pDR5r::GFP roots (for both spaceflight and ground) to 760.The 40 × oil objective was used throughout, and the 488 laser was kept at 38%.Keeping the imaging parameters constant between spaceflight and ground control samples enabled clear comparisons of the same relative location within the spaceflight and ground roots.",
+        "Image rendering and quantification LMM and LMM-GIU images are captured as .bmpfiles.All .bmpfiles were converted to .tiffiles using Photoshop.The .tif files were transferred to Volocity 6.3 (PerkinElmer, Waltham, MA, USA) for analysis and image presentation.The Fine Filter/Remove Noise function was used to eliminate bad pixels in the GFP images.Images from confocal microscopy of the returned samples were exported as .tiffiles from the Leica Application Suite.Quantification of fluorescent signal within selected Regions of Interest in confocal imaged samples was calculated using PerkinElmer Volocity 3D Image Analysis Software (Supplementary Figure S1)."
+      ],
+      "text": "In the APEX03-2 experiment, a four-day-old imaging plate containing pDR5r::GFP, pTAA1::TAA1-GFP and pSCR::SCR-GFP was harvested to RNAlater (Ambion, Grand Island, NY, USA), into Kennedy Space Center Fixation Tubes (KFTs).KFTs are spaceflight hardware providing three levels of liquid containment for fixing biological samples in space. 24,44After collection, the loaded KFTs were stowed at -80°C in the MELFI freezer on the ISS; ground controls were also collected to KFTs, but were stowed in a standard -80 °C freezer.The samples were kept frozen until the samples were returned to the authors' laboratory.The preserved plants were then imaged on the ground with a Leica TCS-SP5 confocal microscope (Mannheim, Germany) in the Cytometry Core at the Interdisciplinary Center for Biotechnology Research at the University of Florida.The roots were prepared by rinsing in distilled water for 2 min, and then either mounted directly in Vectashield mounting medium (Vector Laboratories, Burlingame, CA, USA) or counterstained with a 0.1% solution of Calcofluor White for 5 min.Calcofluor White staining was followed by a 5 min wash in distilled water and then mounting in Vectashield for imaging.The imaging parameters for confocal microcopy were kept identical between spaceflight and ground control samples within each genotype, although these parameters could vary among genotypes.For instance: pTAA1::TAA1-GFP, spaceflight and ground, was imaged with the following parameters: exposure 62, pinhole 69, zoom of 1, step size 2.98, line average 2, FC gain of 700 and offset at -3.0.pDR5r::GFP imaging parameters were identical to those used for pTAA1::TAA1-GFP, although the gain was increased for all pDR5r::GFP roots (for both spaceflight and ground) to 760.The 40 × oil objective was used throughout, and the 488 laser was kept at 38%.Keeping the imaging parameters constant between spaceflight and ground control samples enabled clear comparisons of the same relative location within the spaceflight and ground roots.\nImage rendering and quantification LMM and LMM-GIU images are captured as .bmpfiles.All .bmpfiles were converted to .tiffiles using Photoshop.The .tif files were transferred to Volocity 6.3 (PerkinElmer, Waltham, MA, USA) for analysis and image presentation.The Fine Filter/Remove Noise function was used to eliminate bad pixels in the GFP images.Images from confocal microscopy of the returned samples were exported as .tiffiles from the Leica Application Suite.Quantification of fluorescent signal within selected Regions of Interest in confocal imaged samples was calculated using PerkinElmer Volocity 3D Image Analysis Software (Supplementary Figure S1).",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In the APEX03-2 experiment, a four-day-old imaging plate containing pDR5r::GFP, pTAA1::TAA1-GFP and pSCR::SCR-GFP was harvested to RNAlater (Ambion, Grand Island, NY, USA), into Kennedy Space Center Fixation Tubes (KFTs).KFTs are spaceflight hardware providing three levels of liquid containment for fixing biological samples in space. 24,44After collection, the loaded KFTs were stowed at -80°C in the MELFI freezer on the ISS; ground controls were also collected to KFTs, but were stowed in a standard -80 °C freezer.The samples were kept frozen until the samples were returned to the authors' laboratory.The preserved plants were then imaged on the ground with a Leica TCS-SP5 confocal microscope (Mannheim, Germany) in the Cytometry Core at the Interdisciplinary Center for Biotechnology Research at the University of Florida.The roots were prepared by rinsing in distilled water for 2 min, and then either mounted directly in Vectashield mounting medium (Vector Laboratories, Burlingame, CA, USA) or counterstained with a 0.1% solution of Calcofluor White for 5 min.Calcofluor White staining was followed by a 5 min wash in distilled water and then mounting in Vectashield for imaging.The imaging parameters for confocal microcopy were kept identical between spaceflight and ground control samples within each genotype, although these parameters could vary among genotypes.For instance: pTAA1::TAA1-GFP, spaceflight and ground, was imaged with the following parameters: exposure 62, pinhole 69, zoom of 1, step size 2.98, line average 2, FC gain of 700 and offset at -3.0.pDR5r::GFP imaging parameters were identical to those used for pTAA1::TAA1-GFP, although the gain was increased for all pDR5r::GFP roots (for both spaceflight and ground) to 760.The 40 × oil objective was used throughout, and the 488 laser was kept at 38%.Keeping the imaging parameters constant between spaceflight and ground control samples enabled clear comparisons of the same relative location within the spaceflight and ground roots.",
+          "block_index": 0,
+          "section_index": 8,
+          "global_order": 33,
+          "id": "p_9_1"
+        },
+        {
+          "type": "paragraph",
+          "text": "Image rendering and quantification LMM and LMM-GIU images are captured as .bmpfiles.All .bmpfiles were converted to .tiffiles using Photoshop.The .tif files were transferred to Volocity 6.3 (PerkinElmer, Waltham, MA, USA) for analysis and image presentation.The Fine Filter/Remove Noise function was used to eliminate bad pixels in the GFP images.Images from confocal microscopy of the returned samples were exported as .tiffiles from the Leica Application Suite.Quantification of fluorescent signal within selected Regions of Interest in confocal imaged samples was calculated using PerkinElmer Volocity 3D Image Analysis Software (Supplementary Figure S1).",
+          "block_index": 1,
+          "section_index": 8,
+          "global_order": 34,
+          "id": "p_9_2"
+        }
+      ]
+    }
+  ],
+  "figures": {
+    "fig_1": {
+      "label": "Figure 1 .",
+      "caption": "Figure 1.Reverse Fountain model and DR5 distribution.(a) Reverse fountain model (after refs.13,14) shows the movement of auxin toward the tip of the root through the stele (red arrow), to be redirected in a symmetrical manner by polar transport (blue, then purple arrows) back toward the zone of elongation.Cell types are color-coded and labeled; (b) the distribution of pDR5r::GFP (green) in a typical, vertically grown Arabidopsis root counterstained with Calcofluor White to outline cell walls (blue).GFP, green fluorescent protein.",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "2,45.35,250.81,248.09,8.13;2,45.36,260.41,248.02,7.49;2,45.36,269.37,248.04,7.49;2,45.36,278.32,248.01,7.49;2,45.36,287.28,248.02,7.49;2,45.36,296.30,248.02,7.49;2,45.35,305.25,248.02,7.49;2,45.35,313.57,247.99,8.47;2,45.35,323.17,28.28,7.49;2,55.39,59.30,231.52,186.12",
+      "coords_groups": [
+        {
+          "page": 2,
+          "x": 45.35,
+          "y": 250.81,
+          "w": 248.09,
+          "h": 8.13,
+          "x2": 293.44,
+          "y2": 258.94
+        },
+        {
+          "page": 2,
+          "x": 45.36,
+          "y": 260.41,
+          "w": 248.02,
+          "h": 7.49,
+          "x2": 293.38,
+          "y2": 267.90000000000003
+        },
+        {
+          "page": 2,
+          "x": 45.36,
+          "y": 269.37,
+          "w": 248.04,
+          "h": 7.49,
+          "x2": 293.4,
+          "y2": 276.86
+        },
+        {
+          "page": 2,
+          "x": 45.36,
+          "y": 278.32,
+          "w": 248.01,
+          "h": 7.49,
+          "x2": 293.37,
+          "y2": 285.81
+        },
+        {
+          "page": 2,
+          "x": 45.36,
+          "y": 287.28,
+          "w": 248.02,
+          "h": 7.49,
+          "x2": 293.38,
+          "y2": 294.77
+        },
+        {
+          "page": 2,
+          "x": 45.36,
+          "y": 296.3,
+          "w": 248.02,
+          "h": 7.49,
+          "x2": 293.38,
+          "y2": 303.79
+        },
+        {
+          "page": 2,
+          "x": 45.35,
+          "y": 305.25,
+          "w": 248.02,
+          "h": 7.49,
+          "x2": 293.37,
+          "y2": 312.74
+        },
+        {
+          "page": 2,
+          "x": 45.35,
+          "y": 313.57,
+          "w": 247.99,
+          "h": 8.47,
+          "x2": 293.34000000000003,
+          "y2": 322.04
+        },
+        {
+          "page": 2,
+          "x": 45.35,
+          "y": 323.17,
+          "w": 28.28,
+          "h": 7.49,
+          "x2": 73.63,
+          "y2": 330.66
+        },
+        {
+          "page": 2,
+          "x": 55.39,
+          "y": 59.3,
+          "w": 231.52,
+          "h": 186.12,
+          "x2": 286.91,
+          "y2": 245.42000000000002
+        }
+      ],
+      "bbox": {
+        "page": 2,
+        "x1": 45.35,
+        "y1": 59.3,
+        "x2": 293.44,
+        "y2": 330.66,
+        "width": 248.09,
+        "height": 271.36
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 1,
+      "block_global_order": 1,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC5515520/fig_1.jpeg"
+    },
+    "fig_2": {
+      "label": "Figure 2 .",
+      "caption": "Figure 2. Experiment configuration and spaceflight-unique operations.The Petri plates of plants in CARA were grown in ambient lighting in the ISS on the interior wall of the Destiny module of the ISS (a), while the APEX03-2 experiment the plates were grown in the Vegetable Production System (VPS/Veggie) in the Columbus module of the ISS.The placement and scale of the VPS is provided in b; the expanded unit containing racks of APEX 10-cm 2 plates is shown in c.Photographs of each ground control (GC) or spaceflight (FLT) plate before insertion into the LMM or LMM-GIU: GC CARA (d), GC APEX-4d (e), GC APEX-8d (f), FLT CARA (g), FLT APEX-4d (h), FLT APEX-8d (i).d, days.",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "3,35.89,529.06,514.03,8.13;3,35.89,538.71,514.00,7.49;3,35.89,547.67,514.02,7.49;3,35.89,556.63,115.05,7.49;3,150.97,554.73,3.30,4.99;3,156.42,556.63,393.49,7.49;3,35.89,565.59,460.82,7.49;3,73.47,59.30,438.90,463.18",
+      "coords_groups": [
+        {
+          "page": 3,
+          "x": 35.89,
+          "y": 529.06,
+          "w": 514.03,
+          "h": 8.13,
+          "x2": 549.92,
+          "y2": 537.1899999999999
+        },
+        {
+          "page": 3,
+          "x": 35.89,
+          "y": 538.71,
+          "w": 514.0,
+          "h": 7.49,
+          "x2": 549.89,
+          "y2": 546.2
+        },
+        {
+          "page": 3,
+          "x": 35.89,
+          "y": 547.67,
+          "w": 514.02,
+          "h": 7.49,
+          "x2": 549.91,
+          "y2": 555.16
+        },
+        {
+          "page": 3,
+          "x": 35.89,
+          "y": 556.63,
+          "w": 115.05,
+          "h": 7.49,
+          "x2": 150.94,
+          "y2": 564.12
+        },
+        {
+          "page": 3,
+          "x": 150.97,
+          "y": 554.73,
+          "w": 3.3,
+          "h": 4.99,
+          "x2": 154.27,
+          "y2": 559.72
+        },
+        {
+          "page": 3,
+          "x": 156.42,
+          "y": 556.63,
+          "w": 393.49,
+          "h": 7.49,
+          "x2": 549.91,
+          "y2": 564.12
+        },
+        {
+          "page": 3,
+          "x": 35.89,
+          "y": 565.59,
+          "w": 460.82,
+          "h": 7.49,
+          "x2": 496.71,
+          "y2": 573.08
+        },
+        {
+          "page": 3,
+          "x": 73.47,
+          "y": 59.3,
+          "w": 438.9,
+          "h": 463.18,
+          "x2": 512.37,
+          "y2": 522.48
+        }
+      ],
+      "bbox": {
+        "page": 3,
+        "x1": 35.89,
+        "y1": 59.3,
+        "x2": 549.92,
+        "y2": 573.08,
+        "width": 514.03,
+        "height": 513.7800000000001
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 2,
+      "block_global_order": 2,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC5515520/fig_2.jpeg"
+    },
+    "fig_3": {
+      "label": "Figure 3 .",
+      "caption": "Figure 3.Light Microscopy Module operations.The LMM is located in the Destiny Module of the ISS (a, red arrow).The Petri plate was photographed and mounted on the LMM Petri base (b, red arrow) before being inserted into the LMM (c, red arrow).The plate photograph was used to create a root map to guide the telemetric maneuvers to locate regions of interest on the Petri plates (d).The region of the plate shown in d defines the area capable of being viewed by the LMM; the red lines that telescope to b shows the approximate extent of this region on the plate mounted on the base.The x and y coordinate map for the LMM microscope stage was overlaid on the photograph of the viewing area (d); the numbers on the periphery of the viewing area are the x and y coordinates that were used to maneuvering the motorized stage by the input of numerical values from the ground.The inset in d shows the three-dimensional rendering of several focal planes collected from the pSCR::SCR-GFP root tip circled in the top right region of (d).GFP, green fluorescent protein; ISS, International Space Station; LMM, Light Microscopy Module.",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "4,45.35,494.87,514.01,8.13;4,45.36,504.47,513.97,7.49;4,45.35,513.43,514.02,7.49;4,45.35,522.44,514.00,7.49;4,45.35,531.40,514.04,7.49;4,45.35,540.36,513.98,7.49;4,45.35,549.32,514.03,7.49;4,45.35,557.63,514.02,8.47;4,45.35,567.23,118.09,7.49;4,56.35,59.30,491.98,429.00",
+      "coords_groups": [
+        {
+          "page": 4,
+          "x": 45.35,
+          "y": 494.87,
+          "w": 514.01,
+          "h": 8.13,
+          "x2": 559.36,
+          "y2": 503.0
+        },
+        {
+          "page": 4,
+          "x": 45.36,
+          "y": 504.47,
+          "w": 513.97,
+          "h": 7.49,
+          "x2": 559.33,
+          "y2": 511.96000000000004
+        },
+        {
+          "page": 4,
+          "x": 45.35,
+          "y": 513.43,
+          "w": 514.02,
+          "h": 7.49,
+          "x2": 559.37,
+          "y2": 520.92
+        },
+        {
+          "page": 4,
+          "x": 45.35,
+          "y": 522.44,
+          "w": 514.0,
+          "h": 7.49,
+          "x2": 559.35,
+          "y2": 529.9300000000001
+        },
+        {
+          "page": 4,
+          "x": 45.35,
+          "y": 531.4,
+          "w": 514.04,
+          "h": 7.49,
+          "x2": 559.39,
+          "y2": 538.89
+        },
+        {
+          "page": 4,
+          "x": 45.35,
+          "y": 540.36,
+          "w": 513.98,
+          "h": 7.49,
+          "x2": 559.33,
+          "y2": 547.85
+        },
+        {
+          "page": 4,
+          "x": 45.35,
+          "y": 549.32,
+          "w": 514.03,
+          "h": 7.49,
+          "x2": 559.38,
+          "y2": 556.8100000000001
+        },
+        {
+          "page": 4,
+          "x": 45.35,
+          "y": 557.63,
+          "w": 514.02,
+          "h": 8.47,
+          "x2": 559.37,
+          "y2": 566.1
+        },
+        {
+          "page": 4,
+          "x": 45.35,
+          "y": 567.23,
+          "w": 118.09,
+          "h": 7.49,
+          "x2": 163.44,
+          "y2": 574.72
+        },
+        {
+          "page": 4,
+          "x": 56.35,
+          "y": 59.3,
+          "w": 491.98,
+          "h": 429.0,
+          "x2": 548.33,
+          "y2": 488.3
+        }
+      ],
+      "bbox": {
+        "page": 4,
+        "x1": 45.35,
+        "y1": 59.3,
+        "x2": 559.39,
+        "y2": 574.72,
+        "width": 514.04,
+        "height": 515.4200000000001
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 3,
+      "block_global_order": 3,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC5515520/fig_3.jpeg"
+    },
+    "fig_4": {
+      "label": "Figure 4 .",
+      "caption": "Figure 4. Distribution of pDR5r::GFP expression for spaceflight and ground control samples from the APEX03-2 and CARA experiments.In each case, the merged image and age of plant is shown on left and the GFP signal is shown on the right.Images (a-h) were collected live with the LMM on the ISS and with the LMM Ground Interface Unit (GIU) at Glenn Research Center.(a) APEX 4d ground control; (b) APEX 4d spaceflight; (c) APEX 8d ground control; (d) APEX 8d spaceflight; (e) CARA 5d ground control; (f) CARA 5d spaceflight; (g) CARA 8d ground control; (h) CARA 8d spaceflight.Images (i and j) show the distribution of DR5r::GFP (green) in RNAlater-preserved APEX03-2 Arabidopsis roots counterstained with Calcofluor White to outline cell walls (blue) and imaged with a Leica TSC-SP5 confocal microscope.In both cases, a single rotational view of a 3D projection of multiple Z-sections is presented in the right-hand panel.(i) APEX 4d ground control; (j) APEX 4d spaceflight.The complete animated 3D projections for (i) and (j) can be found in Supplementary Movie S1 (i) and Supplementary Movie S2 (j).d, days; GFP, green fluorescent protein; ISS, Internationa Space Station; 3D, three-dimensional.",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "5,35.89,474.86,514.03,8.13;5,35.89,484.46,514.03,7.49;5,35.89,493.42,514.02,7.49;5,35.89,502.38,514.01,7.49;5,35.89,511.33,514.03,7.49;5,35.89,520.29,514.02,7.49;5,35.89,529.30,514.02,7.49;5,35.89,538.26,514.04,7.49;5,35.89,546.58,346.72,8.47;5,82.66,59.30,420.49,408.98",
+      "coords_groups": [
+        {
+          "page": 5,
+          "x": 35.89,
+          "y": 474.86,
+          "w": 514.03,
+          "h": 8.13,
+          "x2": 549.92,
+          "y2": 482.99
+        },
+        {
+          "page": 5,
+          "x": 35.89,
+          "y": 484.46,
+          "w": 514.03,
+          "h": 7.49,
+          "x2": 549.92,
+          "y2": 491.95
+        },
+        {
+          "page": 5,
+          "x": 35.89,
+          "y": 493.42,
+          "w": 514.02,
+          "h": 7.49,
+          "x2": 549.91,
+          "y2": 500.91
+        },
+        {
+          "page": 5,
+          "x": 35.89,
+          "y": 502.38,
+          "w": 514.01,
+          "h": 7.49,
+          "x2": 549.9,
+          "y2": 509.87
+        },
+        {
+          "page": 5,
+          "x": 35.89,
+          "y": 511.33,
+          "w": 514.03,
+          "h": 7.49,
+          "x2": 549.92,
+          "y2": 518.8199999999999
+        },
+        {
+          "page": 5,
+          "x": 35.89,
+          "y": 520.29,
+          "w": 514.02,
+          "h": 7.49,
+          "x2": 549.91,
+          "y2": 527.78
+        },
+        {
+          "page": 5,
+          "x": 35.89,
+          "y": 529.3,
+          "w": 514.02,
+          "h": 7.49,
+          "x2": 549.91,
+          "y2": 536.79
+        },
+        {
+          "page": 5,
+          "x": 35.89,
+          "y": 538.26,
+          "w": 514.04,
+          "h": 7.49,
+          "x2": 549.93,
+          "y2": 545.75
+        },
+        {
+          "page": 5,
+          "x": 35.89,
+          "y": 546.58,
+          "w": 346.72,
+          "h": 8.47,
+          "x2": 382.61,
+          "y2": 555.0500000000001
+        },
+        {
+          "page": 5,
+          "x": 82.66,
+          "y": 59.3,
+          "w": 420.49,
+          "h": 408.98,
+          "x2": 503.15,
+          "y2": 468.28000000000003
+        }
+      ],
+      "bbox": {
+        "page": 5,
+        "x1": 35.89,
+        "y1": 59.3,
+        "x2": 549.93,
+        "y2": 555.0500000000001,
+        "width": 514.04,
+        "height": 495.75000000000006
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 4,
+      "block_global_order": 4,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC5515520/fig_4.jpeg"
+    },
+    "fig_5": {
+      "label": "Figure 5 .",
+      "caption": "Figure 5. Distribution of other auxin and cytokinin-sensitive GFP reporters.In each case, the merged image and age of plant in shown on left and the GFP signal is shown on the right.Images (a-d) were collected from RNAlater-preserved APEX03-2 4d samples returned to Earth, with a Leica TSC-SP5 confocal microscope.Images (e-l) collected live with the Light Microscopy Module (LMM) on the ISS and with the LMM Ground Interface Unit (GIU) at Glenn Research Center.(a) APEX 4d ground control, pTAA1::TAA1-GFP; (b) APEX 4d spaceflight, pTAA1::TAA1-GFP; (c) APEX 4d ground control, pSCR::SCR-GFP; (d) APEX 4d spaceflight, pSCR::SCR-GFP; (e) APEX 4d ground control, pTAA1::TAA1-GFP; (f) APEX 4d spaceflight, pTAA1::TAA1-GFP; (g) APEX 8d ground control, pSCR::SCR-GFP; (h) APEX 8d spaceflight, pSCR::SCR-GFP; (i) CARA 5d ground control, pARR5::GFP; (j) CARA 5d spaceflight, pARR5::GFP; (k) CARA 8d ground control, pARR5::GFP; (l) CARA 8d spaceflight, pARR5::GFP.In addition, animated 3D projections for (a) and can be found in Supplementary Movie S3, and (b) in Supplementary Movie S4. d, days; GFP, green fluorescent protein.",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "6,45.35,464.03,513.95,8.13;6,45.35,473.63,514.02,7.49;6,45.35,482.59,514.01,7.49;6,45.35,491.60,514.03,7.49;6,45.35,500.56,514.09,7.49;6,45.35,509.52,514.02,7.49;6,45.35,518.48,514.00,7.49;6,45.36,527.43,514.03,7.49;6,45.36,535.75,143.93,8.47;6,55.79,59.30,493.31,398.15",
+      "coords_groups": [
+        {
+          "page": 6,
+          "x": 45.35,
+          "y": 464.03,
+          "w": 513.95,
+          "h": 8.13,
+          "x2": 559.3000000000001,
+          "y2": 472.15999999999997
+        },
+        {
+          "page": 6,
+          "x": 45.35,
+          "y": 473.63,
+          "w": 514.02,
+          "h": 7.49,
+          "x2": 559.37,
+          "y2": 481.12
+        },
+        {
+          "page": 6,
+          "x": 45.35,
+          "y": 482.59,
+          "w": 514.01,
+          "h": 7.49,
+          "x2": 559.36,
+          "y2": 490.08
+        },
+        {
+          "page": 6,
+          "x": 45.35,
+          "y": 491.6,
+          "w": 514.03,
+          "h": 7.49,
+          "x2": 559.38,
+          "y2": 499.09000000000003
+        },
+        {
+          "page": 6,
+          "x": 45.35,
+          "y": 500.56,
+          "w": 514.09,
+          "h": 7.49,
+          "x2": 559.44,
+          "y2": 508.05
+        },
+        {
+          "page": 6,
+          "x": 45.35,
+          "y": 509.52,
+          "w": 514.02,
+          "h": 7.49,
+          "x2": 559.37,
+          "y2": 517.01
+        },
+        {
+          "page": 6,
+          "x": 45.35,
+          "y": 518.48,
+          "w": 514.0,
+          "h": 7.49,
+          "x2": 559.35,
+          "y2": 525.97
+        },
+        {
+          "page": 6,
+          "x": 45.36,
+          "y": 527.43,
+          "w": 514.03,
+          "h": 7.49,
+          "x2": 559.39,
+          "y2": 534.92
+        },
+        {
+          "page": 6,
+          "x": 45.36,
+          "y": 535.75,
+          "w": 143.93,
+          "h": 8.47,
+          "x2": 189.29000000000002,
+          "y2": 544.22
+        },
+        {
+          "page": 6,
+          "x": 55.79,
+          "y": 59.3,
+          "w": 493.31,
+          "h": 398.15,
+          "x2": 549.1,
+          "y2": 457.45
+        }
+      ],
+      "bbox": {
+        "page": 6,
+        "x1": 45.35,
+        "y1": 59.3,
+        "x2": 559.44,
+        "y2": 544.22,
+        "width": 514.09,
+        "height": 484.92
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 5,
+      "block_global_order": 5,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC5515520/fig_5.jpeg"
+    },
+    "fig_6": {
+      "label": "",
+      "caption": "launches and NASA experiment operational nomenclature The data presented here are taken from two independent experiments launched to the ISS.CARA (Characterizing Arabidopsis Root Attractions) was launched on SpaceX mission CRS-3 on 18 April 2014.The cargo Dragon Capsule was carried by a Falcon 9 rocket launched from Complex 40, Cape Canaveral Air Force Station, FL, USA.CARA is also identified by the NASA operations nomenclature (OpNom) of \"Petri Plants\", and was one of the ARK1 payloads flown by the Center for Advancement of Science in Space (CASIS) (http://www.nasa.gov/mission_pages/station/research/experiments/ 1064.html).APEX03-2 (Advanced Plant Experiment 03-2) was launched on SpaceX mission CRS-5 on 10 January 2015, also in a Dragon Capsule carried by a Falcon 9 rocket launched from Complex 40.APEX03-2 is also identified by NASA OpNom \"TAGES-ISA\" (Transgenic Arabidopsis Gene Expression System-Intracellular Signaling Architecture: http://www.nasa. gov/mission_pages/station/research/experiments/1059.html).",
+      "type": "figure",
+      "table": null,
+      "coords_raw": "7,346.62,231.89,165.95,7.92;7,301.89,241.81,52.17,7.92;7,301.89,253.49,248.07,7.04;7,301.89,262.67,248.16,7.04;7,301.89,271.91,248.15,7.04;7,301.89,281.15,248.04,7.04;7,301.89,290.34,248.08,7.04;7,301.89,298.97,248.05,7.97;7,301.89,308.16,248.09,7.97;7,301.89,318.00,248.11,7.04;7,301.89,327.24,248.06,7.04;7,301.89,336.43,248.07,7.04;7,301.89,345.67,248.09,7.04;7,301.89,354.30,248.08,7.97;7,301.89,364.09,248.07,7.04;7,301.89,373.33,203.50,7.04",
+      "coords_groups": [
+        {
+          "page": 7,
+          "x": 346.62,
+          "y": 231.89,
+          "w": 165.95,
+          "h": 7.92,
+          "x2": 512.5699999999999,
+          "y2": 239.80999999999997
+        },
+        {
+          "page": 7,
+          "x": 301.89,
+          "y": 241.81,
+          "w": 52.17,
+          "h": 7.92,
+          "x2": 354.06,
+          "y2": 249.73
+        },
+        {
+          "page": 7,
+          "x": 301.89,
+          "y": 253.49,
+          "w": 248.07,
+          "h": 7.04,
+          "x2": 549.96,
+          "y2": 260.53000000000003
+        },
+        {
+          "page": 7,
+          "x": 301.89,
+          "y": 262.67,
+          "w": 248.16,
+          "h": 7.04,
+          "x2": 550.05,
+          "y2": 269.71000000000004
+        },
+        {
+          "page": 7,
+          "x": 301.89,
+          "y": 271.91,
+          "w": 248.15,
+          "h": 7.04,
+          "x2": 550.04,
+          "y2": 278.95000000000005
+        },
+        {
+          "page": 7,
+          "x": 301.89,
+          "y": 281.15,
+          "w": 248.04,
+          "h": 7.04,
+          "x2": 549.93,
+          "y2": 288.19
+        },
+        {
+          "page": 7,
+          "x": 301.89,
+          "y": 290.34,
+          "w": 248.08,
+          "h": 7.04,
+          "x2": 549.97,
+          "y2": 297.38
+        },
+        {
+          "page": 7,
+          "x": 301.89,
+          "y": 298.97,
+          "w": 248.05,
+          "h": 7.97,
+          "x2": 549.94,
+          "y2": 306.94000000000005
+        },
+        {
+          "page": 7,
+          "x": 301.89,
+          "y": 308.16,
+          "w": 248.09,
+          "h": 7.97,
+          "x2": 549.98,
+          "y2": 316.13000000000005
+        },
+        {
+          "page": 7,
+          "x": 301.89,
+          "y": 318.0,
+          "w": 248.11,
+          "h": 7.04,
+          "x2": 550.0,
+          "y2": 325.04
+        },
+        {
+          "page": 7,
+          "x": 301.89,
+          "y": 327.24,
+          "w": 248.06,
+          "h": 7.04,
+          "x2": 549.95,
+          "y2": 334.28000000000003
+        },
+        {
+          "page": 7,
+          "x": 301.89,
+          "y": 336.43,
+          "w": 248.07,
+          "h": 7.04,
+          "x2": 549.96,
+          "y2": 343.47
+        },
+        {
+          "page": 7,
+          "x": 301.89,
+          "y": 345.67,
+          "w": 248.09,
+          "h": 7.04,
+          "x2": 549.98,
+          "y2": 352.71000000000004
+        },
+        {
+          "page": 7,
+          "x": 301.89,
+          "y": 354.3,
+          "w": 248.08,
+          "h": 7.97,
+          "x2": 549.97,
+          "y2": 362.27000000000004
+        },
+        {
+          "page": 7,
+          "x": 301.89,
+          "y": 364.09,
+          "w": 248.07,
+          "h": 7.04,
+          "x2": 549.96,
+          "y2": 371.13
+        },
+        {
+          "page": 7,
+          "x": 301.89,
+          "y": 373.33,
+          "w": 203.5,
+          "h": 7.04,
+          "x2": 505.39,
+          "y2": 380.37
+        }
+      ],
+      "bbox": {
+        "page": 7,
+        "x1": 301.89,
+        "y1": 231.89,
+        "x2": 550.05,
+        "y2": 380.37,
+        "width": 248.15999999999997,
+        "height": 148.48000000000002
+      },
+      "section_index": 0,
+      "section_heading": "Abstract",
+      "block_index": 6,
+      "block_global_order": 6,
+      "image_path": "/Users/nicolasrosales/Documents/GitHub/kg_biology_nasa/backend/output/preprocess/images/PMC5515520/fig_6.crop.png",
+      "image_cropped": true,
+      "image_zoom": 2.0
+    }
+  },
+  "tables": {},
+  "equations": {},
+  "references": [
+    {
+      "title": "The Power of Movement in Plants",
+      "authors": [
+        "Darwin CDarwin",
+        "F",
+        "John Murray"
+      ],
+      "date": "1880",
+      "raw": "The Power of Movement in Plants\n\t\t\n\t\t\tDarwinCDarwin\n\t\t\n\t\t\n\t\t\tF\n\t\t\n\t\t\n\t\t\tJohnMurray\n\t\t\n\t\t\n\t\t\t1880\n\t\t\n\t\n\tDarwin C. & Darwin F. The Power of Movement in Plants. John Murray: (1880)."
+    },
+    {
+      "title": "What remains of the Cholodny-Went theory?",
+      "authors": [
+        "AJTrewavas"
+      ],
+      "date": "1992",
+      "raw": "What remains of the Cholodny-Went theory?\n\t\t\n\t\t\tAJTrewavas\n\t\t\n\t\n\t\n\t\tPlant Cell Environ\n\t\t\n\t\t\t15\n\t\t\t761\n\t\t\t1992\n\t\t\n\t\n\tTrewavas, A. J. What remains of the Cholodny-Went theory? Plant Cell Environ. 15, 761 (1992)."
+    },
+    {
+      "title": "Plant Gravitropism. Unraveling the Ups and Downs of a Complex Process",
+      "authors": [
+        "EBBlancaflor",
+        "PHMasson"
+      ],
+      "date": "2003",
+      "raw": "Plant Gravitropism. Unraveling the Ups and Downs of a Complex Process\n\t\t\n\t\t\tEBBlancaflor\n\t\t\n\t\t\n\t\t\tPHMasson\n\t\t\n\t\n\t\n\t\tPlant Physiol\n\t\t\n\t\t\t133\n\t\t\t\n\t\t\t2003\n\t\t\n\t\n\tBlancaflor, E. B. & Masson, P. H. Plant Gravitropism. Unraveling the Ups and Downs of a Complex Process. Plant Physiol. 133, 1677-1690 (2003)."
+    },
+    {
+      "title": "Gravity signal transduction in primary roots",
+      "authors": [
+        "RMPerrin"
+      ],
+      "date": "2005",
+      "raw": "Gravity signal transduction in primary roots\n\t\t\n\t\t\tRMPerrin\n\t\t\n\t\n\t\n\t\tAnn. Bot\n\t\t\n\t\t\t96\n\t\t\t\n\t\t\t2005\n\t\t\n\t\n\tPerrin, R. M. et al. Gravity signal transduction in primary roots. Ann. Bot. 96, 737-743 (2005)."
+    },
+    {
+      "title": "Getting to the Roots of It: Genetic and Hormonal Control of Root Architecture",
+      "authors": [
+        "JKJung",
+        "SMccouch"
+      ],
+      "date": "2013",
+      "raw": "Getting to the Roots of It: Genetic and Hormonal Control of Root Architecture\n\t\t\n\t\t\tJKJung\n\t\t\n\t\t\n\t\t\tSMccouch\n\t\t\n\t\n\t\n\t\tFront. Plant Sci\n\t\t\n\t\t\t4\n\t\t\t186\n\t\t\t2013\n\t\t\n\t\n\tJung, J. K. & McCouch, S. Getting to the Roots of It: Genetic and Hormonal Control of Root Architecture. Front. Plant Sci. 4, 186 (2013)."
+    },
+    {
+      "title": "",
+      "authors": [
+        "PHMasson",
+        "Root Gravitropism"
+      ],
+      "date": "1995",
+      "raw": "PHMasson\n\t\t\n\t\t\n\t\t\tRoot Gravitropism\n\t\t\n\t\n\t\n\t\tBioessays\n\t\t\n\t\t\t17\n\t\t\t\n\t\t\t1995\n\t\t\n\t\n\tMasson, P. H. Root gravitropism. Bioessays 17, 119-127 (1995)."
+    },
+    {
+      "title": "Lateral relocation of auxin efflux regulator Pin3 mediates tropism in Arabidopsis",
+      "authors": [
+        "JFriml",
+        "JWisniewska",
+        "EBenkova",
+        "KMendgen",
+        "KPalme"
+      ],
+      "date": "2002",
+      "raw": "Lateral relocation of auxin efflux regulator Pin3 mediates tropism in Arabidopsis\n\t\t\n\t\t\tJFriml\n\t\t\n\t\t\n\t\t\tJWisniewska\n\t\t\n\t\t\n\t\t\tEBenkova\n\t\t\n\t\t\n\t\t\tKMendgen\n\t\t\n\t\t\n\t\t\tKPalme\n\t\t\n\t\n\t\n\t\tNature\n\t\t\n\t\t\t415\n\t\t\t\n\t\t\t2002\n\t\t\n\t\n\tFriml, J., Wisniewska, J., Benkova, E., Mendgen, K. & Palme, K. Lateral relocation of auxin efflux regulator Pin3 mediates tropism in Arabidopsis. Nature 415, 806-809 (2002)."
+    },
+    {
+      "title": "Gravity-regulated differential auxin transport from columella to lateral root cap cells",
+      "authors": [
+        "IOttenschlager"
+      ],
+      "date": "2003",
+      "raw": "Gravity-regulated differential auxin transport from columella to lateral root cap cells\n\t\t\n\t\t\tIOttenschlager\n\t\t\n\t\n\t\n\t\tProc. Natl Acad. Sci. USA\n\t\t\n\t\t\t100\n\t\t\t\n\t\t\t2003\n\t\t\n\t\n\tOttenschlager, I. et al. Gravity-regulated differential auxin transport from columella to lateral root cap cells. Proc. Natl Acad. Sci. USA 100, 2987-2991 (2003)."
+    },
+    {
+      "title": "Auxin transport: the fountain of life in plants?",
+      "authors": [
+        "RSwarup",
+        "MBennett"
+      ],
+      "date": "2003",
+      "raw": "Auxin transport: the fountain of life in plants?\n\t\t\n\t\t\tRSwarup\n\t\t\n\t\t\n\t\t\tMBennett\n\t\t\n\t\n\t\n\t\tDev. Cell\n\t\t\n\t\t\t5\n\t\t\t\n\t\t\t2003\n\t\t\n\t\n\tSwarup, R. & Bennett, M. Auxin transport: the fountain of life in plants? Dev. Cell 5, 824-826 (2003)."
+    },
+    {
+      "title": "",
+      "authors": [
+        "KPalme",
+        "ADovzhenko",
+        "FADitengou"
+      ],
+      "date": "2006",
+      "raw": "KPalme\n\t\t\n\t\t\n\t\t\tADovzhenko\n\t\t\n\t\t\n\t\t\tFADitengou\n\t\t\n\t\n\t\n\t\tAuxin Transport and Gravitational Research: Perspectives. Protoplasma\n\t\t\n\t\t\t229\n\t\t\t\n\t\t\t2006\n\t\t\n\t\n\tPalme, K., Dovzhenko, A. & Ditengou, F. A. Auxin Transport and Gravitational Research: Perspectives. Protoplasma 229, 175-181 (2006)."
+    },
+    {
+      "title": "Plant hormone cross-talk: the pivot of root growth",
+      "authors": [
+        "EPacifici",
+        "LPolverari",
+        "SSabatini"
+      ],
+      "date": "2015",
+      "raw": "Plant hormone cross-talk: the pivot of root growth\n\t\t\n\t\t\tEPacifici\n\t\t\n\t\t\n\t\t\tLPolverari\n\t\t\n\t\t\n\t\t\tSSabatini\n\t\t\n\t\n\t\n\t\tJ. Exp. Bot\n\t\t\n\t\t\t66\n\t\t\t\n\t\t\t2015\n\t\t\n\t\n\tPacifici, E., Polverari, L. & Sabatini, S. Plant hormone cross-talk: the pivot of root growth. J. Exp. Bot. 66, 1113-1121 (2015)."
+    },
+    {
+      "title": "The kinetics of root gravitropism: dual motors and sensors",
+      "authors": [
+        "CWolverton",
+        "HIshikawa",
+        "MLEvans"
+      ],
+      "date": "2002",
+      "raw": "The kinetics of root gravitropism: dual motors and sensors\n\t\t\n\t\t\tCWolverton\n\t\t\n\t\t\n\t\t\tHIshikawa\n\t\t\n\t\t\n\t\t\tMLEvans\n\t\t\n\t\n\t\n\t\tJ. Plant Growth Regul\n\t\t\n\t\t\t21\n\t\t\t\n\t\t\t2002\n\t\t\n\t\n\tWolverton, C., Ishikawa, H. & Evans, M. L. The kinetics of root gravitropism: dual motors and sensors. J. Plant Growth Regul. 21, 102-112 (2002)."
+    },
+    {
+      "title": "Finding missing interactions of the Arabidopsis thaliana root stem cell niche gene regulatory network",
+      "authors": [
+        "EAzpeitia",
+        "NWeinstein",
+        "MBenitez",
+        "LMendoza",
+        "ERAlvarez-Buylla"
+      ],
+      "date": "2013",
+      "raw": "Finding missing interactions of the Arabidopsis thaliana root stem cell niche gene regulatory network\n\t\t\n\t\t\tEAzpeitia\n\t\t\n\t\t\n\t\t\tNWeinstein\n\t\t\n\t\t\n\t\t\tMBenitez\n\t\t\n\t\t\n\t\t\tLMendoza\n\t\t\n\t\t\n\t\t\tERAlvarez-Buylla\n\t\t\n\t\n\t\n\t\tFront. Plant Sci\n\t\t\n\t\t\t4\n\t\t\t110\n\t\t\t2013\n\t\t\n\t\n\tAzpeitia, E., Weinstein, N., Benitez, M., Mendoza, L. & Alvarez-Buylla, E. R. Finding missing interactions of the Arabidopsis thaliana root stem cell niche gene regulatory network. Front. Plant Sci. 4, 110 (2013)."
+    },
+    {
+      "title": "Auxin transport routes in plant development",
+      "authors": [
+        "JPetrasek",
+        "JFriml"
+      ],
+      "date": "2009",
+      "raw": "Auxin transport routes in plant development\n\t\t\n\t\t\tJPetrasek\n\t\t\n\t\t\n\t\t\tJFriml\n\t\t\n\t\n\t\n\t\tDevelopment\n\t\t\n\t\t\t136\n\t\t\t\n\t\t\t2009\n\t\t\n\t\n\tPetrasek, J. & Friml, J. Auxin transport routes in plant development. Development 136, 2675-2688 (2009)."
+    },
+    {
+      "title": "Auxin in action: signalling, transport and the control of plant growth and development",
+      "authors": [
+        "WDTeale",
+        "IAPaponov",
+        "KPalme"
+      ],
+      "date": "2006",
+      "raw": "Auxin in action: signalling, transport and the control of plant growth and development\n\t\t\n\t\t\tWDTeale\n\t\t\n\t\t\n\t\t\tIAPaponov\n\t\t\n\t\t\n\t\t\tKPalme\n\t\t\n\t\n\t\n\t\tNat. Rev\n\t\t\n\t\t\t7\n\t\t\t\n\t\t\t2006\n\t\t\n\t\n\tTeale, W. D., Paponov, I. A. & Palme, K. Auxin in action: signalling, transport and the control of plant growth and development. Nat. Rev. 7, 847-859 (2006)."
+    },
+    {
+      "title": "Gravity sensing and signal transduction in vascular plant primary roots",
+      "authors": [
+        "KLBaldwin",
+        "AKStrohm",
+        "PHMasson"
+      ],
+      "date": "2013",
+      "raw": "Gravity sensing and signal transduction in vascular plant primary roots\n\t\t\n\t\t\tKLBaldwin\n\t\t\n\t\t\n\t\t\tAKStrohm\n\t\t\n\t\t\n\t\t\tPHMasson\n\t\t\n\t\n\t\n\t\tAm. J. Bot\n\t\t\n\t\t\t100\n\t\t\t\n\t\t\t2013\n\t\t\n\t\n\tBaldwin, K. L., Strohm, A. K. & Masson, P. H. Gravity sensing and signal trans- duction in vascular plant primary roots. Am. J. Bot. 100, 126-142 (2013)."
+    },
+    {
+      "title": "Altered response to gravity is a peripheral membrane protein that modulates gravityinduced cytoplasmic alkalinization and lateral auxin transport in plant statocytes",
+      "authors": [
+        "KBoonsirichai",
+        "JCSedbrook",
+        "RChen",
+        "SGilroy",
+        "PHMasson"
+      ],
+      "date": "2003",
+      "raw": "Altered response to gravity is a peripheral membrane protein that modulates gravityinduced cytoplasmic alkalinization and lateral auxin transport in plant statocytes\n\t\t\n\t\t\tKBoonsirichai\n\t\t\n\t\t\n\t\t\tJCSedbrook\n\t\t\n\t\t\n\t\t\tRChen\n\t\t\n\t\t\n\t\t\tSGilroy\n\t\t\n\t\t\n\t\t\tPHMasson\n\t\t\n\t\n\t\n\t\tPlant Cell\n\t\t\n\t\t\t15\n\t\t\t\n\t\t\t2003\n\t\t\n\t\n\tBoonsirichai, K., Sedbrook, J. C., Chen, R., Gilroy, S. & Masson, P. H. Altered response to gravity is a peripheral membrane protein that modulates gravity- induced cytoplasmic alkalinization and lateral auxin transport in plant statocytes. Plant Cell 15, 2612-2625 (2003)."
+    },
+    {
+      "title": "Arl2, Arg1 and Pin3 define a gravity signal transduction pathway in root statocytes",
+      "authors": [
+        "BRHarrison",
+        "PHMasson"
+      ],
+      "date": "2008",
+      "raw": "Arl2, Arg1 and Pin3 define a gravity signal transduction pathway in root statocytes\n\t\t\n\t\t\tBRHarrison\n\t\t\n\t\t\n\t\t\tPHMasson\n\t\t\n\t\n\t\n\t\tPlant J\n\t\t\n\t\t\t53\n\t\t\t\n\t\t\t2008\n\t\t\n\t\n\tHarrison, B. R. & Masson, P. H. Arl2, Arg1 and Pin3 define a gravity signal trans- duction pathway in root statocytes. Plant J. 53, 380-392 (2008)."
+    },
+    {
+      "title": "Root cap angle and gravitropic response rate are uncoupled in the Arabidopsis Pgm-1 Mutant",
+      "authors": [
+        "CWolverton",
+        "AMPaya",
+        "JToska"
+      ],
+      "date": "2011",
+      "raw": "Root cap angle and gravitropic response rate are uncoupled in the Arabidopsis Pgm-1 Mutant\n\t\t\n\t\t\tCWolverton\n\t\t\n\t\t\n\t\t\tAMPaya\n\t\t\n\t\t\n\t\t\tJToska\n\t\t\n\t\n\t\n\t\tPhysiol. Plant\n\t\t\n\t\t\t141\n\t\t\t\n\t\t\t2011\n\t\t\n\t\n\tWolverton, C., Paya, A. M. & Toska, J. Root cap angle and gravitropic response rate are uncoupled in the Arabidopsis Pgm-1 Mutant. Physiol. Plant. 141, 373-382 (2011)."
+    },
+    {
+      "title": "Efflux-dependent auxin gradients establish the apical-basal axis of Arabidopsis",
+      "authors": [
+        "JFriml"
+      ],
+      "date": "2003",
+      "raw": "Efflux-dependent auxin gradients establish the apical-basal axis of Arabidopsis\n\t\t\n\t\t\tJFriml\n\t\t\n\t\n\t\n\t\tNature\n\t\t\n\t\t\t426\n\t\t\t\n\t\t\t2003\n\t\t\n\t\n\tFriml, J. et al. Efflux-dependent auxin gradients establish the apical-basal axis of Arabidopsis. Nature 426, 147-153 (2003)."
+    },
+    {
+      "title": "Taa1-mediated auxin biosynthesis is essential for hormone crosstalk and plant development",
+      "authors": [
+        "ANStepanova"
+      ],
+      "date": "2008",
+      "raw": "Taa1-mediated auxin biosynthesis is essential for hormone crosstalk and plant development\n\t\t\n\t\t\tANStepanova\n\t\t\n\t\n\t\n\t\tCell\n\t\t\n\t\t\t133\n\t\t\t\n\t\t\t2008\n\t\t\n\t\n\tStepanova, A. N. et al. Taa1-mediated auxin biosynthesis is essential for hormone crosstalk and plant development. Cell 133, 177-191 (2008)."
+    },
+    {
+      "title": "Molecular analysis of scarecrow function reveals a radial patterning mechanism common to root and shoot",
+      "authors": [
+        "JWWysocka-Diller",
+        "YHelariutta",
+        "HFukaki",
+        "JEMalamy",
+        "PNBenfey"
+      ],
+      "date": "2000",
+      "raw": "Molecular analysis of scarecrow function reveals a radial patterning mechanism common to root and shoot\n\t\t\n\t\t\tJWWysocka-Diller\n\t\t\n\t\t\n\t\t\tYHelariutta\n\t\t\n\t\t\n\t\t\tHFukaki\n\t\t\n\t\t\n\t\t\tJEMalamy\n\t\t\n\t\t\n\t\t\tPNBenfey\n\t\t\n\t\n\t\n\t\tDevelopment\n\t\t\n\t\t\t127\n\t\t\t\n\t\t\t2000\n\t\t\n\t\n\tWysocka-Diller, J. W., Helariutta, Y., Fukaki, H., Malamy, J. E. & Benfey, P. N. Molecular analysis of scarecrow function reveals a radial patterning mechanism common to root and shoot. Development 127, 595-603 (2000)."
+    },
+    {
+      "title": "Role of cytokinin in the regulation of root gravitropism",
+      "authors": [
+        "RAloni",
+        "MLanghans",
+        "EAloni",
+        "CIUllrich"
+      ],
+      "date": "2004",
+      "raw": "Role of cytokinin in the regulation of root gravitropism\n\t\t\n\t\t\tRAloni\n\t\t\n\t\t\n\t\t\tMLanghans\n\t\t\n\t\t\n\t\t\tEAloni\n\t\t\n\t\t\n\t\t\tCIUllrich\n\t\t\n\t\n\t\n\t\tPlanta\n\t\t\n\t\t\t220\n\t\t\t\n\t\t\t2004\n\t\t\n\t\n\tAloni, R., Langhans, M., Aloni, E. & Ullrich, C. I. Role of cytokinin in the regulation of root gravitropism. Planta 220, 177-182 (2004)."
+    },
+    {
+      "title": "Organ-specific remodeling of the Arabidopsis transcriptome in response to spaceflight",
+      "authors": [
+        "A.-LPaul",
+        "AKZupanska",
+        "ERSchultz",
+        "RJFerl"
+      ],
+      "date": "2013",
+      "raw": "Organ-specific remodeling of the Arabidopsis transcriptome in response to spaceflight\n\t\t\n\t\t\tA.-LPaul\n\t\t\n\t\t\n\t\t\tAKZupanska\n\t\t\n\t\t\n\t\t\tERSchultz\n\t\t\n\t\t\n\t\t\tRJFerl\n\t\t\n\t\n\t\n\t\tBMC Plant Biol\n\t\t\n\t\t\t13\n\t\t\t112\n\t\t\t2013\n\t\t\n\t\n\tPaul, A.-L., Zupanska, A. K., Schultz, E. R. & Ferl, R. J. Organ-specific remodeling of the Arabidopsis transcriptome in response to spaceflight. BMC Plant Biol. 13, 112 (2013)."
+    },
+    {
+      "title": "Plant growth strategies are remodeled by spaceflight",
+      "authors": [
+        "A.-LPaul",
+        "CEAmalfitano",
+        "RJFerl"
+      ],
+      "date": "2012",
+      "raw": "Plant growth strategies are remodeled by spaceflight\n\t\t\n\t\t\tA.-LPaul\n\t\t\n\t\t\n\t\t\tCEAmalfitano\n\t\t\n\t\t\n\t\t\tRJFerl\n\t\t\n\t\n\t\n\t\tBMC Plant Biol\n\t\t\n\t\t\t12\n\t\t\t232\n\t\t\t2012\n\t\t\n\t\n\tPaul, A.-L., Amalfitano, C. E. & Ferl, R. J. Plant growth strategies are remodeled by spaceflight. BMC Plant Biol. 12, 232 (2012)."
+    },
+    {
+      "title": "Transcriptome analyses of Arabidopsis thaliana seedlings grown in space: implications for gravity-responsive genes",
+      "authors": [
+        "MJCorrell"
+      ],
+      "date": "2013",
+      "raw": "Transcriptome analyses of Arabidopsis thaliana seedlings grown in space: implications for gravity-responsive genes\n\t\t\n\t\t\tMJCorrell\n\t\t\n\t\n\t\n\t\tPlanta\n\t\t\n\t\t\t238\n\t\t\t\n\t\t\t2013\n\t\t\n\t\n\tCorrell, M. J. et al. Transcriptome analyses of Arabidopsis thaliana seedlings grown in space: implications for gravity-responsive genes. Planta 238, 519-533 (2013)."
+    },
+    {
+      "title": "Spaceflight transcriptomes: unique responses to a novel environment",
+      "authors": [
+        "A.-LPaul"
+      ],
+      "date": "2012",
+      "raw": "Spaceflight transcriptomes: unique responses to a novel environment\n\t\t\n\t\t\tA.-LPaul\n\t\t\n\t\n\t\n\t\tAstrobiology\n\t\t\n\t\t\t12\n\t\t\t\n\t\t\t2012\n\t\t\n\t\n\tPaul, A.-L. et al. Spaceflight transcriptomes: unique responses to a novel envir- onment. Astrobiology 12, 40-56 (2012)."
+    },
+    {
+      "title": "Transcriptional response of arabidopsis seedlings during spaceflight reveals peroxidase and cell wall remodeling genes associated with root hair development",
+      "authors": [
+        "TKwon"
+      ],
+      "date": "2015",
+      "raw": "Transcriptional response of arabidopsis seedlings during spaceflight reveals peroxidase and cell wall remodeling genes associated with root hair development\n\t\t\n\t\t\tTKwon\n\t\t\n\t\n\t\n\t\tAm. J. Bot\n\t\t\n\t\t\t102\n\t\t\t\n\t\t\t2015\n\t\t\n\t\n\tKwon, T. et al. Transcriptional response of arabidopsis seedlings during space- flight reveals peroxidase and cell wall remodeling genes associated with root hair development. Am. J. Bot. 102, 21-35 (2015)."
+    },
+    {
+      "title": "Mapping the functional roles of cap cells in the response of Arabidopsis primary roots to gravity",
+      "authors": [
+        "EBBlancaflor",
+        "JMFasano",
+        "SGilroy"
+      ],
+      "date": "1998",
+      "raw": "Mapping the functional roles of cap cells in the response of Arabidopsis primary roots to gravity\n\t\t\n\t\t\tEBBlancaflor\n\t\t\n\t\t\n\t\t\tJMFasano\n\t\t\n\t\t\n\t\t\tSGilroy\n\t\t\n\t\n\t\n\t\tPlant Physiol\n\t\t\n\t\t\t116\n\t\t\t\n\t\t\t1998\n\t\t\n\t\n\tBlancaflor, E. B., Fasano, J. M. & Gilroy, S. Mapping the functional roles of cap cells in the response of Arabidopsis primary roots to gravity. Plant Physiol 116, 213-222 (1998)."
+    },
+    {
+      "title": "Basipetal auxin transport is required for gravitropism in roots of Arabidopsis",
+      "authors": [
+        "AMRashotte",
+        "SRBrady",
+        "RCReed",
+        "SJAnte",
+        "GKMuday"
+      ],
+      "date": "2000",
+      "raw": "Basipetal auxin transport is required for gravitropism in roots of Arabidopsis\n\t\t\n\t\t\tAMRashotte\n\t\t\n\t\t\n\t\t\tSRBrady\n\t\t\n\t\t\n\t\t\tRCReed\n\t\t\n\t\t\n\t\t\tSJAnte\n\t\t\n\t\t\n\t\t\tGKMuday\n\t\t\n\t\n\t\n\t\tPlant Physiol\n\t\t\n\t\t\t122\n\t\t\t\n\t\t\t2000\n\t\t\n\t\n\tRashotte, A. M., Brady, S. R., Reed, R. C., Ante, S. J. & Muday, G. K. Basipetal auxin transport is required for gravitropism in roots of Arabidopsis. Plant Physiol. 122, 481-490 (2000)."
+    },
+    {
+      "title": "Row1 maintains quiescent centre identity by confining Wox5 expression to specific cells",
+      "authors": [
+        "YZhang",
+        "YJiao",
+        "ZLiu",
+        "Y.-XZhu"
+      ],
+      "date": "2015",
+      "raw": "Row1 maintains quiescent centre identity by confining Wox5 expression to specific cells\n\t\t\n\t\t\tYZhang\n\t\t\n\t\t\n\t\t\tYJiao\n\t\t\n\t\t\n\t\t\tZLiu\n\t\t\n\t\t\n\t\t\tY.-XZhu\n\t\t\n\t\n\t\n\t\tNat. Commun\n\t\t\n\t\t\t6\n\t\t\t6003\n\t\t\t2015\n\t\t\n\t\n\tZhang, Y., Jiao, Y., Liu, Z. & Zhu, Y.-X. Row1 maintains quiescent centre identity by confining Wox5 expression to specific cells. Nat. Commun. 6, 6003 (2015)."
+    },
+    {
+      "title": "The gras gene family in Arabidopsis: sequence characterization and basic expression analysis of the scarecrow-like genes",
+      "authors": [
+        "LDPysh",
+        "JWWysocka-Diller",
+        "CCamilleri",
+        "DBouchez",
+        "PNBenfey"
+      ],
+      "date": "1999",
+      "raw": "The gras gene family in Arabidopsis: sequence characterization and basic expression analysis of the scarecrow-like genes\n\t\t\n\t\t\tLDPysh\n\t\t\n\t\t\n\t\t\tJWWysocka-Diller\n\t\t\n\t\t\n\t\t\tCCamilleri\n\t\t\n\t\t\n\t\t\tDBouchez\n\t\t\n\t\t\n\t\t\tPNBenfey\n\t\t\n\t\n\t\n\t\tPlant J\n\t\t\n\t\t\t18\n\t\t\t\n\t\t\t1999\n\t\t\n\t\n\tPysh, L. D., Wysocka-Diller, J. W., Camilleri, C., Bouchez, D. & Benfey, P. N. The gras gene family in Arabidopsis: sequence characterization and basic expression analysis of the scarecrow-like genes. Plant J. 18, 111-119 (1999)."
+    },
+    {
+      "title": "The scarecrow gene regulates an asymmetric cell division that is essential for generating the radial organization of the Arabidopsis root",
+      "authors": [
+        "LDi Laurenzio"
+      ],
+      "date": "1996",
+      "raw": "The scarecrow gene regulates an asymmetric cell division that is essential for generating the radial organization of the Arabidopsis root\n\t\t\n\t\t\tLDi Laurenzio\n\t\t\n\t\n\t\n\t\tCell\n\t\t\n\t\t\t86\n\t\t\t\n\t\t\t1996\n\t\t\n\t\n\tDi Laurenzio, L. et al. The scarecrow gene regulates an asymmetric cell division that is essential for generating the radial organization of the Arabidopsis root. Cell 86, 423-433 (1996)."
+    },
+    {
+      "title": "Root development in Arabidopsis: four mutants with dramatically altered root morphogenesis",
+      "authors": [
+        "PNBenfey"
+      ],
+      "date": "1993",
+      "raw": "Root development in Arabidopsis: four mutants with dramatically altered root morphogenesis\n\t\t\n\t\t\tPNBenfey\n\t\t\n\t\n\t\n\t\tDevelopment\n\t\t\n\t\t\t119\n\t\t\t\n\t\t\t1993\n\t\t\n\t\n\tBenfey, P. N. et al. Root development in Arabidopsis: four mutants with drama- tically altered root morphogenesis. Development 119, 57-70 (1993)."
+    },
+    {
+      "title": "Scarecrow is involved in positioning the stem cell niche in the Arabidopsis root meristem",
+      "authors": [
+        "SSabatini",
+        "RHeidstra",
+        "MWildwater",
+        "BScheres"
+      ],
+      "date": "2003",
+      "raw": "Scarecrow is involved in positioning the stem cell niche in the Arabidopsis root meristem\n\t\t\n\t\t\tSSabatini\n\t\t\n\t\t\n\t\t\tRHeidstra\n\t\t\n\t\t\n\t\t\tMWildwater\n\t\t\n\t\t\n\t\t\tBScheres\n\t\t\n\t\n\t\n\t\tGenes Dev\n\t\t\n\t\t\t17\n\t\t\t\n\t\t\t2003\n\t\t\n\t\n\tSabatini, S., Heidstra, R., Wildwater, M. & Scheres, B. Scarecrow is involved in positioning the stem cell niche in the Arabidopsis root meristem. Genes Dev. 17, 354-358 (2003)."
+    },
+    {
+      "title": "Patterning the Primary Root in Arabidopsis",
+      "authors": [
+        "HMCederholm",
+        "ASIyer-Pascuzzi",
+        "PNBenfey"
+      ],
+      "date": "2012",
+      "raw": "Patterning the Primary Root in Arabidopsis\n\t\t\n\t\t\tHMCederholm\n\t\t\n\t\t\n\t\t\tASIyer-Pascuzzi\n\t\t\n\t\t\n\t\t\tPNBenfey\n\t\t\n\t\n\t\n\t\tDev. Biol\n\t\t\n\t\t\t1\n\t\t\t\n\t\t\t2012\n\t\t\tWiley interdisciplinary reviews\n\t\t\n\t\n\tCederholm, H. M., Iyer-Pascuzzi, A. S. & Benfey, P. N. Patterning the Primary Root in Arabidopsis. Wiley interdisciplinary reviews. Dev. Biol. 1, 675-691 (2012)."
+    },
+    {
+      "title": "Sending mixed messages: auxin-cytokinin crosstalk in roots",
+      "authors": [
+        "ABishopp",
+        "EBenkova",
+        "YHelariutta"
+      ],
+      "date": "2011",
+      "raw": "Sending mixed messages: auxin-cytokinin crosstalk in roots\n\t\t\n\t\t\tABishopp\n\t\t\n\t\t\n\t\t\tEBenkova\n\t\t\n\t\t\n\t\t\tYHelariutta\n\t\t\n\t\n\t\n\t\tCurr. Opin. Plant Biol\n\t\t\n\t\t\t14\n\t\t\t\n\t\t\t2011\n\t\t\n\t\n\tBishopp, A., Benkova, E. & Helariutta, Y. Sending mixed messages: auxin-cytokinin crosstalk in roots. Curr. Opin. Plant Biol. 14, 10-16 (2011)."
+    },
+    {
+      "title": "Cytokinin-deficient transgenic Arabidopsis plants show multiple developmental alterations indicating opposite functions of cytokinins in the regulation of shoot and root meristem activity",
+      "authors": [
+        "TWerner"
+      ],
+      "date": "2003",
+      "raw": "Cytokinin-deficient transgenic Arabidopsis plants show multiple developmental alterations indicating opposite functions of cytokinins in the regulation of shoot and root meristem activity\n\t\t\n\t\t\tTWerner\n\t\t\n\t\n\t\n\t\tPlant Cell\n\t\t\n\t\t\t15\n\t\t\t\n\t\t\t2003\n\t\t\n\t\n\tWerner, T. et al. Cytokinin-deficient transgenic Arabidopsis plants show multiple developmental alterations indicating opposite functions of cytokinins in the regulation of shoot and root meristem activity. Plant Cell 15, 2532-2550 (2003)."
+    },
+    {
+      "title": "Cytokinin interplay with ethylene, auxin, and glucose signaling controls Arabidopsis seedling root directional growth",
+      "authors": [
+        "SKushwah",
+        "AMJones",
+        "ALaxmi"
+      ],
+      "date": "2011",
+      "raw": "Cytokinin interplay with ethylene, auxin, and glucose signaling controls Arabidopsis seedling root directional growth\n\t\t\n\t\t\tSKushwah\n\t\t\n\t\t\n\t\t\tAMJones\n\t\t\n\t\t\n\t\t\tALaxmi\n\t\t\n\t\n\t\n\t\tPlant Physiol\n\t\t\n\t\t\t156\n\t\t\t\n\t\t\t2011\n\t\t\n\t\n\tKushwah, S., Jones, A. M. & Laxmi, A. Cytokinin interplay with ethylene, auxin, and glucose signaling controls Arabidopsis seedling root directional growth. Plant Physiol. 156, 1851-1866 (2011)."
+    },
+    {
+      "title": "The actin cytoskeleton is a suppressor of the endogenous skewing behaviour of arabidopsis primary roots in microgravity",
+      "authors": [
+        "JNakashima",
+        "FLiao",
+        "JASparks",
+        "YTang",
+        "EBBlancaflor"
+      ],
+      "date": "2014",
+      "raw": "The actin cytoskeleton is a suppressor of the endogenous skewing behaviour of arabidopsis primary roots in microgravity\n\t\t\n\t\t\tJNakashima\n\t\t\n\t\t\n\t\t\tFLiao\n\t\t\n\t\t\n\t\t\tJASparks\n\t\t\n\t\t\n\t\t\tYTang\n\t\t\n\t\t\n\t\t\tEBBlancaflor\n\t\t\n\t\n\t\n\t\tPlant Biol\n\t\t\n\t\t\t16\n\t\t\t\n\t\t\t2014\n\t\t\n\t\n\tNakashima, J., Liao, F., Sparks, J. A., Tang, Y. & Blancaflor, E. B. The actin cytos- keleton is a suppressor of the endogenous skewing behaviour of arabidopsis primary roots in microgravity. Plant Biol. 16, 142-150 (2014)."
+    },
+    {
+      "title": "Cytokinin signaling and transcriptional networks",
+      "authors": [
+        "CTArgueso",
+        "TRaines",
+        "JJKieber"
+      ],
+      "date": "2010",
+      "raw": "Cytokinin signaling and transcriptional networks\n\t\t\n\t\t\tCTArgueso\n\t\t\n\t\t\n\t\t\tTRaines\n\t\t\n\t\t\n\t\t\tJJKieber\n\t\t\n\t\n\t\n\t\tCurr. Opin. Plant Biol\n\t\t\n\t\t\t13\n\t\t\t\n\t\t\t2010\n\t\t\n\t\n\tArgueso, C. T., Raines, T. & Kieber, J. J. Cytokinin signaling and transcriptional networks. Curr. Opin. Plant Biol. 13, 533-539 (2010)."
+    },
+    {
+      "title": "The Yin-Yang of hormones: cytokinin and auxin interactions in plant development",
+      "authors": [
+        "GESchaller",
+        "ABishopp",
+        "JJKieber"
+      ],
+      "date": "2015",
+      "raw": "The Yin-Yang of hormones: cytokinin and auxin interactions in plant development\n\t\t\n\t\t\tGESchaller\n\t\t\n\t\t\n\t\t\tABishopp\n\t\t\n\t\t\n\t\t\tJJKieber\n\t\t\n\t\n\t\n\t\tPlant Cell\n\t\t\n\t\t\t27\n\t\t\t\n\t\t\t2015\n\t\t\n\t\n\tSchaller, G. E., Bishopp, A. & Kieber, J. J. The Yin-Yang of hormones: cytokinin and auxin interactions in plant development. Plant Cell 27, 44-63 (2015)."
+    },
+    {
+      "title": "Aux/IAA proteins repress expression of reporter genes containing natural and highly active synthetic auxin response elements",
+      "authors": [
+        "TUlmasov",
+        "JMurfett",
+        "GHagen",
+        "TJGuilfoyle"
+      ],
+      "date": "1997",
+      "raw": "Aux/IAA proteins repress expression of reporter genes containing natural and highly active synthetic auxin response elements\n\t\t\n\t\t\tTUlmasov\n\t\t\n\t\t\n\t\t\tJMurfett\n\t\t\n\t\t\n\t\t\tGHagen\n\t\t\n\t\t\n\t\t\tTJGuilfoyle\n\t\t\n\t\n\t\n\t\tPlant Cell\n\t\t\n\t\t\t9\n\t\t\t\n\t\t\t1997\n\t\t\n\t\n\tUlmasov, T., Murfett, J., Hagen, G. & Guilfoyle, T. J. Aux/IAA proteins repress expression of reporter genes containing natural and highly active synthetic auxin response elements. Plant Cell 9, 1963-1971 (1997)."
+    },
+    {
+      "title": "This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. The images or other third party material in this article are included in the article's Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material",
+      "authors": [
+        "RJFerl"
+      ],
+      "date": "2011",
+      "raw": "This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. The images or other third party material in this article are included in the article's Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material\n\t\t\n\t\t\tRJFerl\n\t\t\n\t\t\n\t\n\t\n\t\tAdv. Space Res\n\t\t\n\t\t\t48\n\t\t\t\n\t\t\t2011\n\t\t\n\t\n\tThe performance of KSC fixation tubes with RNAlater for orbital experiments: a case study in ISS operations for molecular biology\n\tFerl, R. J. et al. The performance of KSC fixation tubes with RNAlater for orbital experiments: a case study in ISS operations for molecular biology. Adv. Space Res. 48, 199-206 (2011). This work is licensed under a Creative Commons Attribution- NonCommercial-NoDerivatives 4.0 International License. The images or other third party material in this article are included in the article's Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit http:// creativecommons.org/licenses/by-nc-nd/4.0/"
+    }
+  ],
+  "footnotes": [
+    {
+      "id": "foot_0",
+      "n": null,
+      "text": "npj Microgravity (2016) 15023 © 2016 Macmillan Publishers Limited"
+    },
+    {
+      "id": "foot_1",
+      "n": null,
+      "text": "© 2016 Macmillan Publishers Limited npj Microgravity (2016) 15023"
+    }
+  ],
+  "full_text": "Our primary aim was to determine whether gravity has a direct role in establishing the auxin-mediated gravity-sensing system in primary roots.Major plant architectures have long been thought to be guided by gravity, including the directional growth of the primary root via auxin gradients that are then disturbed when roots deviate from the vertical as a gravity sensor.However, experiments on the International Space Station (ISS) now allow physical clarity with regard to any assumptions regarding the role of gravity in establishing fundamental root auxin distributions.We examined the spaceflight green fluorescent protein (GFP)-reporter gene expression in roots of transgenic lines of Arabidopsis thaliana: pDR5r::GFP, pTAA1::TAA1-GFP, pSCR::SCR-GFP to monitor auxin and pARR5::GFP to monitor cytokinin.Plants on the ISS were imaged live with the Light Microscopy Module (LMM), and compared with control plants imaged on the ground.Preserved spaceflight and ground control plants were examined post flight with confocal microscopy.Plants on orbit, growing in the absence of any physical reference to the terrestrial gravity vector, displayed typically \"vertical\" distribution of auxin in the primary root.This confirms that the establishment of the auxin-gradient system, the primary guide for gravity signaling in the root, is gravity independent.The cytokinin distribution in the root tip differs between spaceflight and the ground controls, suggesting spaceflight-induced features of root growth may be cytokinin related.The distribution of auxin in the gravity-sensing portion of the root is not dependent on gravity.Spaceflight appears benign to auxin and its role in the development of the primary root tip, whereas spaceflight may influence cytokinin-associated processes.\n\nSince the times of the Darwins' treatise on the power of movement in plants 1 and the experiments of Cholodny and Went 2 gravity has been established as central to many patterns of plant development. [3][4]4][5] Gravity-dependent changes in root growth direction are keyed by changes in the auxin distribution within the root tip.During gravistimulation, starch-containing amyloplasts migrate to the downward side of the root columella cells, initiating migration of PIN proteins that then cause asymmetric redistribution of auxin toward the lower side of the root, which in turn causes curvature in the elongation zone to reestablish the root into a vertical orientation. 3,[6][7]][8][9][10][11] This series of signaling events acts upon a well-characterized distribution of auxin that arises from a flow of auxin from the aerial portions of the plant through the central stele toward the root tip with an accumulation of auxin in the columella cells, which is then relieved by a flow back toward the aerial portions of the plant through the outer root cell layers.The movement and differential accumulation of auxin within specific root tip cells is known as the 'reverse fountain' model 9,[12][13][14] (Figure 1a).It is this auxin accumulation and flow that forms the primary basis of the root's ability to respond to gravity. 10,15Implicit in model's name is the notion that gravity establishes at least part of the pattern of distribution, just as drops from a water fountain fall after the propelling force is overcome by gravity.Most references to these gravity-driven responses compare \"vertical\" to \"gravistimulated\", as if vertical is the ground state.The term vertical, defined as an orientation perpendicular to the plane of the horizon, inexorably creates an implicit relationship in which the fundamental auxin reverse fountain is established and oriented along the Earth's gravity vector.\nWe wished to know whether gravity has a direct physiologic role in establishing the auxin reverse fountain signaling system in primary roots.One of the major values of work on the ISS is the ability to remove unit gravity from growth conditions.This allows a comparison with earthbound experiments with, for example, agravitropic mutants that imply that gravity sensing can be decoupled from the auxin flow. [16][17]7][18][19] We used Arabidopsis thaliana (Arabidopsis) lines expressing gravity signaling fluorescent reporter genes to examine the distribution of auxin and cytokinin in the primary roots of plants grown in two experiments on the International Space Station (ISS).We used the auxin artificial AuxRE promoter construct (pDR5r::GFP) 20 as a gene expression level reporter of auxin levels throughout the root tip, especially in the central columella cells (C), and a Tryptophan Aminotransferase of Arabidopsis fusion (pTAA1::TAA1-GFP) 21 to monitor auxin production in the Quiescent Center cells (QC).We used a Scarecrow fusion (pSCR::SCR-GFP), 22 to monitor the scarecrow transcription factor, which has a regulatory role in auxin biosynthesis, 11 to monitor auxin-related signals in the endodermal layer and QC.We similarly monitored freecytokinin levels in root tips using the Arabidopsis Response Regulator promoter (pARR5::GFP) reporter, which is similarly distributed as the GUS reporter with the same promoter (pARR5::GUS). 23\n\nThis study used two methods of microscopy to evaluate the distribution of auxin and cytokinin green fluorescent protein (GFP) reporter gene products in Arabidopsis roots during development in the spaceflight environment compared with ground controls; live imaging with standard fluorescence optics in real time on the ISS and confocal imaging of preserved, returned samples.The results are a compilation of imaging data from two independent ISS experiments; CARA conducted in 2014 and APEX03-02 in 2015.This allowed an analysis of different growing conditions on the ISS and separate flight experiences with regard to signaling in the Arabidopsis primary root.\nThe region of interest in these evaluations is comprised of the root tip cells that participate in auxin transport (Figure 1a).Of particular interest are the columella cells and columella initials (green, Figure 1a), the cells of the quiescent center and surrounding initials (peach and dark blue, Figure 1a), the endodermis (light blue, Figure 1a) and the stele (white, Figure 1a).Figure 1b provides a confocal micrograph of the region diagramed in Figure 1a and shows the typical reference expression pattern of GFP signal from DR5r::GFP in a 4-day-old Arabidopsis root.\n\nThe CARA and the APEX03-2 experiments represent two very different approaches to conducting a plant experiment on the ISS, and the plants grown within these two distinct experiments exhibit distinct morphologies.Within each experiment, however, the environmental conditions between the spaceflight habitat and the ground control habitat were comparable.\nThe reduced lighting habitat of the CARA plants resulted in slower development relative to their chronological age in comparison to plants grown under the higher light levels of APEX03, as can be seen examining the 8-day plants of Figure 2d,g.The roots of the spaceflight CARA plants grew in tight loops and coils (Figure 2d,g), which is a distinctly different morphology than was seen in previous spaceflight-grown Arabidopsis plants. 24,25e 4-day and 8-day APEX03-2 plants housed in the more optimal lighting environment of the Vegetable Production System (VPS) displayed the more advanced development expected for plants growing under a higher light environment (Figure 2e,f,h,i) than did the plants in the lower light environment of CARA.The roots of the 4-day APEX03-2 spaceflight plants were more linear in appearance, and exhibited much of the skewing behavior observed in pervious spaceflight experiments (Figure 2h).However, the 8-day plants of APEX03-2 (Figure 2i) were far less organized than the straighter growth seen previously in the directional light environment of the Advanced Biological Research System ABRS hardware, 24,25 but still did not grow in the tight loops and coils of the CARA plants (Figure 2g).\nThe spaceflight distribution of DR5r::GFP was indistinguishable from that of vertically grown roots on the Earth in two separate spaceflight experiments The distribution of DR5r::GFP in the roots of plants grown on the ISS was identical to that of the ground controls over the course of the two different ISS experiments and several plant ages.(Figure 4, Supplementary Table S1).The APEX03-2 experiment was comprised of plants grown in the VPS growth facility (Figure 2b,c) and then imaged in the LMM after 4 and 8 days of growth (Figure 2e,f, h,i).In addition, 4-day-old samples from APEX03-2 were fixed in RNAlater and frozen on orbit, enabling confocal microscopy after sample return.Plants of the CARA experiment were grown in ambient cabin lighting of the ISS for 5 days before imaging (Figure 2a,d,g).As detailed in the Materials and Methods section, the comparable ground controls for both experiments were grown in a specialized chamber programed with the environmental parameters (CO 2 , temperature, humidity, and lighting) experienced by the ISS-grown plants, and all live imaging on the ISS conducted with the LMM (Figure 3) was directly compared with the LMM Ground Imaging Unit (GIU).\nLive imaging with the LMM on orbit illustrates that the same pattern of DR5r::GFP distribution was seen in the spaceflight grown and ground control plants of APEX03-2 in both 4-day-old (Figure 4a,b) and 8-day-old (Figure 4c,d) plants.Developmental age did not impact DR5r::GFP distribution in CARA either.The distribution of DR5r::GFP was identical in spaceflight and ground control plants for both 5-day-old (Figure 4e,f) and 8-day-old roots of the CARA plants (Figure 4g,h).In all cases, the LMM images of DR5r::GFP were consistent with expression patterns appropriately limited to the cells of the columella.\nConfocal microscopy with RNAlater-preserved roots from APEX03-2 enabled cellular resolution of the columella.The cellular resolution showed that the distribution of DR5r::GFP observed in the live imaging was indeed localized to the columella.The distribution of DR5r::GFP in the columella cells of the ground control (Figure 4i) and spaceflight (Figure 4j) was unchanged with respect to the gravity environment (see also Supplementary Movie S1 and Supplementary Movie S2).Quantification of the confocal Z-stack volumes for GFP signal revealed no significant quantitative differences in the expression between spaceflight and ground control samples for pDR5r::GFP (T-test, P = 0.55; Supplementary Figure S1).\nDistributions of two proteins associated with auxin signaling were also unchanged in spaceflight The distributions of TAA1::TAA1-GFP and SCR::SCR-GFP, respectively, were identical in between spaceflight and ground control plants.The TAA1::TAA1-GFP and SCR::SCR-GFP reporter gene lines were used in the APEX03-2 experiment (Figure 2e,f,h,i), and as with the DR5r::GFP plants, 4-day-old samples were fixed in RNAlater and frozen on orbit for confocal microscopy.There was no change in the distribution of TAA1::TAA1-GFP expression in the cells in and around the quiescent center (Figure 1a) between spaceflight and ground control plants.The individual cells involved could be seen with confocal imaging of preserved returned samples (Figure 5a,b, and Supplementary Movies S3, S4), which supported the identical position of TAA1::TAA1-GFP between flight and ground that was seen in the root tip during live imaging with the LMM (Figure 5e,f).Quantification of the confocal Z-stack volumes for GFP signal revealed potential slightly higher expression levels in spaceflight for TAA1::TAA1-GFP that were not statistically well supported (T-test, P = 0.06; Supplementary Figure S1).\nThe nuclear localization SCR::SCR-GFP in endodermal cells also appeared unchanged between flight and ground control plants.Live imaging with the LMM showed a contiguous endodermal surface for both spaceflight and ground control (Figure 5g,h).In returned samples examined with confocal microcopy, longitudinal Z-sections through the endodermal layer (refer to Figure 1a) displayed some variably among samples near the QC, but this variation was not consistent within treatments (Figure 5c,d, and inset of Figure 3d).\nThe distribution of cytokinin was different in spaceflight as compared with ground control roots The distribution of ARR5::GFP was different in the spaceflight grown plants compared to the comparable ground controls.Plants on orbit showed a more restricted distribution of ARR5::GFP expression compared with ground controls.In the 5-day roots of CARA, ARR5::GFP expression was restricted to the very tip of the root in spaceflight roots (Figure 5j), whereas the roots of the ground controls showed the typical pattern of ARR5 expression, which extends away from the tip back along the stele (Figures 1a and 5i). 23The spaceflight expression of ARR5::GFP remained limited to the tip even after 8 days of growth, while in the ground controls the distribution of ARR5::GFP continued to extend acropetally (Figure 5k,l).\n\nThe plants examined here were derived from two distinct spaceflight experiments.CARA and APEX03-2 were launched months apart, and utilized different hardware and growth habitats.The developmental appearance and root growth strategies of respective plants from CARA and APEX were quite different (Figure 2d-i).This diversity provided the opportunity to observe auxin signaling in two different ISS growth habitats and two distinct spaceflight experiences separated by several months, which thereby removed the possibility of experiment processing, or local environmental factors other than spaceflight, impacting the results.\nIt is well established that there are changes in root morphology and in the gene expression patterns of Arabidopsis plants grown in a spaceflight environment, and many of the differentially expressed genes are associated with auxin and cytokinin signaling. 24,[26][27]7][28] However, global patterns of gene expression from whole roots 24 or whole seedlings [26][27][28] do not reveal changes that occur in individual cells.Here we employ GFP reporter gene systems that enable the visualization of gene expression within distinct cell types of the primary root tip providing cell-specific data that would otherwise be masked in a molecular study pooling all the cells of the root.\nPlants in the microgravity of spaceflight establish an auxin distribution that is indistinguishable from that of a vertical orientation on the Earth.The distribution of DR5r::GFP in the roots of plants grown on the ISS was identical to that of the ground controls over the course of the two ISS experiments, several plant ages, and varied root morphologies (Figure 4).The expression of DR5r::GFP was evident in, and appropriately limited to, the columella cells of the root tip.The columella cells are considered the primary gravity-sensing cells of the root 29 and the DR5r::GFP expression patterns observed on the ISS are consistent with previous reports of DR5r::GFP distribution in the primary roots of plants grown vertically on the Earth. 8In both, the live imaging on orbit with the LMM (Figure 4a-h) and the cellular resolution made possible with the confocal analysis of preserved samples (Figure 4i,j), there is no discernable difference in the distribution of DR5r::GFP expression between ISS-grown plants and their comparable ground controls.\nThough widely used for characterizing auxin distribution, as a transcriptional reporter DR5r::GFP does have limitations in sensitivity and response time for reporting auxin locations and concentrations, and it does not reveal all aspects of auxinresponsive gene activity.The initial observations presented here could be extended greatly in future flights through the use of more sensitive and non-transcriptional auxin reporter systems.In addition, exploration of sites of auxin action away from the root tip, such as shoots, root flanks and junctions, as well as lateral roots, would provide valuable additional insights into the spaceflight influences on auxin roles in plants not experiencing unit gravity.\nPlants in spaceflight also appear unchanged with respect to a second source of auxin; synthesis of auxin within the quiescent center.Auxin is synthesized in the QC cells, cells that are part of the stem cell niche (SCN) in the root apical meristem and that give rise to the gravity-sensing columella cells of the root tip 21 (Figure 1a).The importance of this source of auxin to the gravity-sensing mechanism in roots is revealed by the fact excised root tips, without the auxin source of the reverse fountain, exhibit a response to gravity. 30We used the pTAA1::TAA1-GFP native promoter protein fusion reporter to monitor the amount of the auxin in these essential QC cells.TAA1 encodes an aminotransferase that regulates auxin biosynthesis within the QC cells, and contributes to gravitropic signaling. 31The TAA1::TAA1-GFP in 5-day and 8-day-old plants on orbit showed a distribution of GFP expression that was indistinguishable from similarly grown ground control plants (Figure 5a,b,e,f), and is consistent with what is typically expected in vertically grown plants. 21These results suggest that auxin synthesis of the QC is not influenced by gravity.\nAlso unchanged in microgravity is the distribution of the GRAS family transcription factor SCARECROW (SCR), a key transcription factor involved in the maintenance of the SCN 32 and regulating the radial organization of the root. 22,[33][34]4][35] SCR is essential to stem cell activity in the root apical meristem, the organization of the root cap and QC, as well as the production of auxin as it contributes to the reverse fountain flow.In the QC, SCR negatively regulates genes associated with auxin biosynthesis and mediates phytohormone cross-talk among the actively growing root zones. 11There was no discernable difference in the nuclear localization pattern of SCR::SCR-GFP between the root endodermis and QC of the plants grown on the ISS and the comparable ground controls (Figure 5c,d,g,h).This suggests that the upstream regulatory circuits for critical auxin synthesis steps are intact in spaceflight.The spaceflight distribution of SCR::SCR-GFP, together with the expression of TAA1::TAA1-GFP and DR5::GFP, strongly suggests that the entire auxin signaling pathway is fully developed in the absence of gravity.\nUnlike the distribution of auxin, the phytohormone cytokinin exhibited different patterns of distribution between the spaceflight and ground environments.Cytokinins are counterpoints to auxin, including in the cross-talk among the root zones that plays a role in gravity responses. 36,37We examined the distribution cytokinin using ARR5::GFP, as the ARR5 gene is induced in the presence of free cytokinin. 23Plants on orbit showed a more restricted distribution of ARR5::GFP compared to ground controls (Figure 5i-l).In the flight plants, the expression of ARR5::GFP appeared limited to the columella and lateral root cap, whereas in the ground control plants ARR5::GFP expression extended shoot-ward from the root tip through the stele.The primary source for cytokinin production in the root tip is the columella cells.In a vertical orientation on the Earth, ARR5 expression is highest in the columella, but also extends shootward through the stele, a pattern that can expand in response to gravistimulation. 23On the Earth, cytokinins also have roles in root curving, 38 coiling and waving, and can influence features of the actin filament organization, which in turn affects root growth patterns. 39,40Plants grown on the ISS exhibit altered waving and skewing morphologies, as well as differences in the patterns of cell division and elongation. 25It is possible that cytokinin plays a larger role in these altered root growth strategies than does auxin, in the absence of gravity experienced during spaceflight.In addition, the repressed distribution of cytokinin as revealed by ARR expression in the spaceflight grown roots may also reflect a cytokinin influence in overall reduction in growth rate and development. 41,42ur results demonstrate one of the values in conducting experiments on the ISS; the ability to remove gravity from the environment and thus examine the role of gravity in fundamental biological processes.In this particular case, our data show that auxin distributions of the primary root are not gravity dependent, even though these distributions are key to gravity responses.It is therefore likely that the role of gravity is minimal compared with the inherent developmental cues guided by auxin to define the architecture of the root tip.Indeed, these experiments that essentially remove the forces of gravity, join with previous studies that used genetics to uncouple gravitropism from auxin distribution (for example, refs.16-19) to complete the notion that auxin gradients in the primary root are fundamentally developmental.Those developmental auxin gradients were coopted then to be sensitive to gravity responses and it seems logical then that the auxin signaling system in roots was present in plants as a developmental system before evolving additional roles in gravity responses.The role of auxin in structures other than the root tip bears investigation, as auxin-regulated genes are seen to change in expression during spaceflight, when examining the root as a whole, and root architecture is also influenced by spaceflight.The value of the present study is in having cell-specific reporters to begin the challenge of finding where in the root potential spaceflight auxin-regulated changes do occur.The data presented here suggest that those auxin-related changes do not occur in the major gravity-sensing cells of the primary root tip, as the distribution of DR5::GFP TAA::GFP and SCR::GFP are not affected by spaceflight at least to the level of sensitivity afforded by these reporters.\nThere is unintended and unrealized bias in some of the terminology used to describe the gravity response mechanisms and models of primary roots, in that there is an unwritten implication that the default or resting auxin distribution of the primary root is set up by gravity; that it is the vertical orientation that sets up the auxin distribution in the root tip.The term \"vertical\" carries a direct association with the gravity vector.Without the ability to remove gravity from the plant environment, there was no reason to eliminate the term from the vernacular or the force from the concept.Our results show that the reverse fountain is neither reverse nor a fountain, as these terms imply that gravity is involved in the reversal of liquid flow.Rather, the auxin flow of the primary root tip is fundamentally no different from the auxin flow systems that guide other parts of plant primary development, except that it has been further engaged in the gravity response.\n\nFour Arabidopsis GFP reporter lines were used in these experiments: pDR5r::GFP, a synthetic auxin response element composed of five AuxRE elements (TAIR line CS9361), 24,43 pTAA1::TAA1-GFP, (TAIR line CS16432, AT1G70560), 21 pSCR::SCR-GFP (TAIR line CS3999, AT3G54220) 22 and pARR5::GFP (TAIR line CS23893, AT3G48100). 23Both spaceflight experiments included pDR5r::GFP; however, pARR5::GFP was limited to CARA, and pTAA1::TAA1-GFP and pSCR::SCR-GFP were limited to APEX03-2.Within each experiment, all genotypes were planted on a single Petri plate designated for imaging (Figure 2d-i).\nThe laboratory preparations and launch conditions were identical for both CARA and APEX03-2.Dry, sterilized Arabidopsis seeds were planted aseptically on the surface of 10-cm 2 solid media plates comprised of 0.5% Phytagel/0.5 × MS media, and then immediately wrapped in light-tight black cloth (Duvetyne, SeattleFabrics.com). 24,25The wrapped plates were stored at temperatures between 4 and 10 °C until launch within a cold stowage bag nominally at 4 °C.The seeds remained dormant until removed from cold stowage and exposed to light at the initiation of the experiment on the ISS.Although the plates were kept refrigerated where possible, the dark treatment ensured dormancy even if the plates were to experience excursions into ambient temperatures.\nPlant growth conditions on the ISS and comparable ground controls CARA and APEX03-2 were distinctly different experiments, each with unique growth habitats and hardware.However, within each experiment, the environmental conditions of the respective habitats were carefully controlled such that the growth conditions on the ISS closely matched those of their respective ground controls.This was accomplished by running the ground controls discontinuously; a 24-h delay for CARA and a 48-h delay for APEX03-2.These delays enabled the telemetric collection of environmental data from the ISS, which were then used to program the ISS Environmental Simulation (ISSES) chamber at the Space Station Processing Facility at Kennedy Space Center (KSC).The ISSES chamber replicated the temperature, CO 2 levels and lighting that had been experienced by the spaceflight plants in the previous 24 h (or 48 h, respectively).\nCARA.The CARA experiment was designed for the plants to be grown in the low-level, diffuse ambient lighting of the US Lab in the Destiny Module of the ISS.The CARA plates received between 4-6 μmoles/m 2 /s total light.The plates were configured with Velcro tabs that facilitated attachment to a cloth support that was affixed a wall of the Destiny Module (Figure 2a).The experiment was activated by unwrapping the plates and attaching them to the wall of the module.The exposure to light initiated germination.Five days after germination was initiated, the plate designated for microscopy was removed from the wall by astronaut Steve Swanson, photographed with an SLR camera before imaging (Figure 2g).Ground control plates were mounted on the wall of the ISSES chamber at KSC (Figure 2d).\n\nProduction System (VPS/Veggie) hardware on the Columbus Module of the ISS (Figure 2b,c).The 10-cm 2 Petri plates were housed perpendicular (\"vertical\") to the overhead LED lighting of the VPS.Plants received between 100-135 μmoles/m 2 /s PAR inside the VPS.Four and eight days after germination was initiated by unwrapping the plates and exposing them light in the VPS, the plate designated for microscopy was removed by the astronaut Butch Wilmore, photographed with an SLR camera before imaging (Figure 2h,i).In the case of APEX03-2, the ground control plates were grown inside the VPS ground unit within the ISSES chamber at KSC (Figure 2e,f).\n\nLive imaging in both the CARA and APEX experiments was conducted with the LMM housed in Destiny Module (Figure 3a), and with the LMM GIU, which is housed at GRC, Cleveland, OH, USA.The LMM on the ISS is a modified Leica RXA microscope adapted for a microgravity environment that is held within the glovebox of the Fluids Integrated Rack (FIR) to help manage potentially dangerous or liquid-containing payloads within the FIR.Although an astronaut was required for the loading of the sample stage, the microscope is operated telemetrically from GRC by FIR and LMM controllers, who were in turn guided by the authors.In both the CASIS and APEX experiments, the astronaut on duty photographed the seedlingcontaining Petri plate before loading into the LMM; either by holding in front of the video feed camera (Figure 3b, red arrow), or with a standard SLR camera (Figure 2g-i).The plate was then loaded onto the LMM Petri support base and affixed to the microscope stage (Figure 3c, red arrow).Comparable operations were conducted with the ground control plates (Figure 2d-f).The SLR photographs were used to create root maps to guide the telemetric maneuvers to locate regions of interest on the Petri plates.The image in Figure 3d illustrates how the photograph of the seedlings on the plate was overlaid with the coordinate map for the LMM microscope stage.All operations of the stage in x, y and z were conducted telemetrically by maneuvering the motorized stage through upload of numerical coordinates.The numbers along the periphery of the field of view in Figure 3d define the x and y coordinates.The stage could also be moved in the z direction for focus, and also for the collection of different focal planes.LMM images are collected with a Q-Imaging Retiga 1300 CCD camera (Burnaby, BC, Canada) with a resolution of 1,280 × 1,024 and 2 × 2 binning.The white-light images from the LMM were captured using the beam splitter option on the LMM and LMM GIU.GFP fluorescence was visualized using the CHROMA FITC Filter Set: Exciter wavelength 480, Dichroic wavelength 505, and Emitter wavelength 535.The 10 × objective (numerical aperture 0.3) was used in CARA, and the 20 × objective (numerical aperture 0.4) was used in APEX03-2; these are both \"dry\" objectives; necessary as the plants were viewed through the lid of the Petri plate.The management and administration of the LMM operations was conducted by the personnel of GRC, particularly through the efforts of teams from ZIN Technologies.The authors oversaw the data collection and drove sample and region of interest selection in real time operations.\n\nIn the APEX03-2 experiment, a four-day-old imaging plate containing pDR5r::GFP, pTAA1::TAA1-GFP and pSCR::SCR-GFP was harvested to RNAlater (Ambion, Grand Island, NY, USA), into Kennedy Space Center Fixation Tubes (KFTs).KFTs are spaceflight hardware providing three levels of liquid containment for fixing biological samples in space. 24,44After collection, the loaded KFTs were stowed at -80°C in the MELFI freezer on the ISS; ground controls were also collected to KFTs, but were stowed in a standard -80 °C freezer.The samples were kept frozen until the samples were returned to the authors' laboratory.The preserved plants were then imaged on the ground with a Leica TCS-SP5 confocal microscope (Mannheim, Germany) in the Cytometry Core at the Interdisciplinary Center for Biotechnology Research at the University of Florida.The roots were prepared by rinsing in distilled water for 2 min, and then either mounted directly in Vectashield mounting medium (Vector Laboratories, Burlingame, CA, USA) or counterstained with a 0.1% solution of Calcofluor White for 5 min.Calcofluor White staining was followed by a 5 min wash in distilled water and then mounting in Vectashield for imaging.The imaging parameters for confocal microcopy were kept identical between spaceflight and ground control samples within each genotype, although these parameters could vary among genotypes.For instance: pTAA1::TAA1-GFP, spaceflight and ground, was imaged with the following parameters: exposure 62, pinhole 69, zoom of 1, step size 2.98, line average 2, FC gain of 700 and offset at -3.0.pDR5r::GFP imaging parameters were identical to those used for pTAA1::TAA1-GFP, although the gain was increased for all pDR5r::GFP roots (for both spaceflight and ground) to 760.The 40 × oil objective was used throughout, and the 488 laser was kept at 38%.Keeping the imaging parameters constant between spaceflight and ground control samples enabled clear comparisons of the same relative location within the spaceflight and ground roots.\nImage rendering and quantification LMM and LMM-GIU images are captured as .bmpfiles.All .bmpfiles were converted to .tiffiles using Photoshop.The .tif files were transferred to Volocity 6.3 (PerkinElmer, Waltham, MA, USA) for analysis and image presentation.The Fine Filter/Remove Noise function was used to eliminate bad pixels in the GFP images.Images from confocal microscopy of the returned samples were exported as .tiffiles from the Leica Application Suite.Quantification of fluorescent signal within selected Regions of Interest in confocal imaged samples was calculated using PerkinElmer Volocity 3D Image Analysis Software (Supplementary Figure S1).",
+  "stats": {
+    "section_count": 9,
+    "figure_count": 6,
+    "figure_count_original": 6,
+    "figure_count_synthetic": 0,
+    "table_count": 0,
+    "equation_count": 0,
+    "reference_count": 44,
+    "footnote_count": 2,
+    "extracted_at": "2025-10-05T10:46:50.619679Z",
+    "image_extraction": {
+      "extracted_images": 5,
+      "figure_images_mapped": 6,
+      "table_images_mapped": 0,
+      "cropped_images": 1,
+      "figures_total_all": 6,
+      "figures_total_pure": 6,
+      "figures_total_original": 6,
+      "figures_total_synthetic": 0,
+      "tables_total": 0,
+      "figures_with_image_pure": 6,
+      "tables_with_image": 0,
+      "figures_missing_image_pure": 0,
+      "tables_missing_image": 0
+    },
+    "figures_total_all": 6,
+    "figures_total_pure": 6,
+    "figures_total_original": 6,
+    "figures_total_synthetic": 0,
+    "tables_total": 0,
+    "figures_with_image_pure": 6,
+    "tables_with_image": 0,
+    "validation": {
+      "figure_ids_total": 6,
+      "equation_ids_total": 0,
+      "figure_block_ids": 6,
+      "equation_block_ids": 0,
+      "missing_figure_block_refs": [],
+      "missing_equation_block_refs": [],
+      "global_order_contiguous": true,
+      "block_count": 35,
+      "equations_missing_loc": [],
+      "equations_missing_bbox_expected": []
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "paper_id": "PMC3851762",
+  "section": "Virulence",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 166,
+      "label": "C. albicans cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Virulence",
+        "sentence_id": 43,
+        "char_start": 11150,
+        "char_end": 11167,
+        "anchor": "PMC3851762_11150_11167",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 168,
+      "label": "sterile",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Virulence",
+        "sentence_id": 43,
+        "char_start": 11306,
+        "char_end": 11313,
+        "anchor": "PMC3851762_11306_11313",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 170,
+      "label": "infected",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Virulence",
+        "sentence_id": 43,
+        "char_start": 11365,
+        "char_end": 11373,
+        "anchor": "PMC3851762_11365_11373",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 172,
+      "label": "Shuttle",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Virulence",
+        "sentence_id": 43,
+        "char_start": 11226,
+        "char_end": 11233,
+        "anchor": "PMC3851762_11226_11233",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 173,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Virulence",
+        "sentence_id": 43,
+        "char_start": 11314,
+        "char_end": 11317,
+        "anchor": "PMC3851762_11314_11317",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 193,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 168,
+      "target": 166
+    },
+    {
+      "id": 194,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 170,
+      "target": 166
+    },
+    {
+      "id": 196,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 172,
+      "target": 166
+    },
+    {
+      "id": 197,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 173,
+      "target": 166
+    },
+    {
+      "id": 198,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 168,
+      "target": 170
+    },
+    {
+      "id": 200,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 168,
+      "target": 172
+    },
+    {
+      "id": 201,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 168,
+      "target": 173
+    },
+    {
+      "id": 203,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 170,
+      "target": 172
+    },
+    {
+      "id": 204,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 170,
+      "target": 173
+    },
+    {
+      "id": 207,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 172,
+      "target": 173
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 4,
+      "largest_component": 5,
+      "removed_components": [
+        3
+      ]
+    },
+    "page": 5
+  }
+}

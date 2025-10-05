@@ -1,0 +1,84 @@
+{
+  "paper_id": "PMC4624184",
+  "section": "Bioinformatic analysis of bacterial Illumina sequences",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 1016,
+      "label": "RDP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bioinformatic analysis of bacterial Illumina sequences",
+        "sentence_id": 280,
+        "char_start": 56066,
+        "char_end": 56069,
+        "anchor": "PMC4624184_56066_56069",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1013,
+      "label": "BLAST",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bioinformatic analysis of bacterial Illumina sequences",
+        "sentence_id": 280,
+        "char_start": 56125,
+        "char_end": 56130,
+        "anchor": "PMC4624184_56125_56130",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1014,
+      "label": "UCHIME",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bioinformatic analysis of bacterial Illumina sequences",
+        "sentence_id": 280,
+        "char_start": 55935,
+        "char_end": 55941,
+        "anchor": "PMC4624184_55935_55941",
+        "page": 15,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1430,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1013,
+      "target": 1014
+    },
+    {
+      "id": 1432,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1013,
+      "target": 1016
+    },
+    {
+      "id": 1435,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 1014,
+      "target": 1016
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 16,
+      "largest_component": 3,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 15
+  }
+}

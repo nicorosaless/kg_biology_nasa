@@ -1,0 +1,55 @@
+{
+  "paper_id": "PMC4136787",
+  "section": "Telemetry probes impact on the mice welfare",
+  "n_nodes": 3,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 102,
+      "label": "Willis",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telemetry probes impact on the mice welfare",
+        "sentence_id": 196,
+        "char_start": 32610,
+        "char_end": 32616,
+        "anchor": "PMC4136787_32610_32616"
+      }
+    },
+    {
+      "id": 103,
+      "label": "C57",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telemetry probes impact on the mice welfare",
+        "sentence_id": 196,
+        "char_start": 32678,
+        "char_end": 32681,
+        "anchor": "PMC4136787_32678_32681"
+      }
+    },
+    {
+      "id": 101,
+      "label": "RotaRod",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telemetry probes impact on the mice welfare",
+        "sentence_id": 193,
+        "char_start": 32287,
+        "char_end": 32294,
+        "anchor": "PMC4136787_32287_32294"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 89,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 102,
+      "target": 103
+    }
+  ]
+}

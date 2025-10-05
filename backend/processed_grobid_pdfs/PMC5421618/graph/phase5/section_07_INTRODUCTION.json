@@ -1,0 +1,59 @@
+{
+  "paper_id": "PMC5421618",
+  "section": "INTRODUCTION",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 32,
+      "label": "accrued",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 10,
+        "char_start": 2282,
+        "char_end": 2289,
+        "anchor": "PMC5421618_2282_2289",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 31,
+      "label": "elongate",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 10,
+        "char_start": 2234,
+        "char_end": 2242,
+        "anchor": "PMC5421618_2234_2242",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 11,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 31,
+      "target": 32
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 29,
+      "largest_component": 2,
+      "removed_components": [
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 2
+  }
+}

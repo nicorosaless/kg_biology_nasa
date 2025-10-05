@@ -1,0 +1,766 @@
+{
+  "paper_id": "PMC4624184",
+  "section": "Synthetic PHENOTYPE",
+  "n_nodes": 36,
+  "n_edges": 35,
+  "nodes": [
+    {
+      "id": 31,
+      "label": "(Firmic",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 12,
+        "char_start": 1884,
+        "char_end": 1891,
+        "anchor": "PMC4624184_1884_1891",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 32,
+      "label": "s) species",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ABSTRACT",
+        "sentence_id": 12,
+        "char_start": 1894,
+        "char_end": 1904,
+        "anchor": "PMC4624184_1894_1904",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 60,
+      "label": "-associated microbial populations",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 26,
+        "char_start": 4291,
+        "char_end": 4324,
+        "anchor": "PMC4624184_4291_4324",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 63,
+      "label": "pathogens",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 28,
+        "char_start": 4553,
+        "char_end": 4562,
+        "anchor": "PMC4624184_4553_4562",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 64,
+      "label": "degradation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 29,
+        "char_start": 4763,
+        "char_end": 4774,
+        "anchor": "PMC4624184_4763_4774",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 78,
+      "label": "recirculated",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 36,
+        "char_start": 5680,
+        "char_end": 5692,
+        "anchor": "PMC4624184_5680_5692",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 134,
+      "label": "bacterial density",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Microbial burden",
+        "sentence_id": 47,
+        "char_start": 8345,
+        "char_end": 8362,
+        "anchor": "PMC4624184_8345_8362",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 163,
+      "label": "aphylococcus",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Culture-based microbial diversity",
+        "sentence_id": 57,
+        "char_start": 10162,
+        "char_end": 10174,
+        "anchor": "PMC4624184_10162_10174",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 261,
+      "label": "bacterial phyla that",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Illumina-derived bacterial diversity",
+        "sentence_id": 80,
+        "char_start": 15324,
+        "char_end": 15344,
+        "anchor": "PMC4624184_15324_15344",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 262,
+      "label": "bacterial phylum dominance",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Illumina-derived bacterial diversity",
+        "sentence_id": 80,
+        "char_start": 15449,
+        "char_end": 15475,
+        "anchor": "PMC4624184_15449_15475",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 288,
+      "label": "clustering",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Illumina-derived bacterial diversity",
+        "sentence_id": 84,
+        "char_start": 16701,
+        "char_end": 16711,
+        "anchor": "PMC4624184_16701_16711",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 401,
+      "label": "within-group agreement",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Significant differences of microbial communities between ISS and Earth cleanroom samples",
+        "sentence_id": 114,
+        "char_start": 22037,
+        "char_end": 22059,
+        "anchor": "PMC4624184_22037_22059",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 416,
+      "label": "microbial diversity",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 119,
+        "char_start": 22945,
+        "char_end": 22964,
+        "anchor": "PMC4624184_22945_22964",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 430,
+      "label": "microorganisms",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 125,
+        "char_start": 23971,
+        "char_end": 23985,
+        "anchor": "PMC4624184_23971_23985",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 462,
+      "label": "microorganisms",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 134,
+        "char_start": 25974,
+        "char_end": 25988,
+        "anchor": "PMC4624184_25974_25988",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 476,
+      "label": "inobacteria",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 139,
+        "char_start": 26689,
+        "char_end": 26700,
+        "anchor": "PMC4624184_26689_26700",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 478,
+      "label": "Actinobacteria",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 140,
+        "char_start": 27004,
+        "char_end": 27018,
+        "anchor": "PMC4624184_27004_27018",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 519,
+      "label": "skin microorganisms",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 153,
+        "char_start": 29923,
+        "char_end": 29942,
+        "anchor": "PMC4624184_29923_29942",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 524,
+      "label": "Staphylococcus species",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 154,
+        "char_start": 30072,
+        "char_end": 30094,
+        "anchor": "PMC4624184_30072_30094",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 534,
+      "label": "microbial",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 156,
+        "char_start": 30527,
+        "char_end": 30536,
+        "anchor": "PMC4624184_30527_30536",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 570,
+      "label": "Fungal strains",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 168,
+        "char_start": 32306,
+        "char_end": 32320,
+        "anchor": "PMC4624184_32306_32320",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 574,
+      "label": "organisms",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 168,
+        "char_start": 32442,
+        "char_end": 32451,
+        "anchor": "PMC4624184_32442_32451",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 575,
+      "label": "fungal mold",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 168,
+        "char_start": 32522,
+        "char_end": 32533,
+        "anchor": "PMC4624184_32522_32533",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 577,
+      "label": "infections",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 168,
+        "char_start": 32602,
+        "char_end": 32612,
+        "anchor": "PMC4624184_32602_32612",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 578,
+      "label": "allergies",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 168,
+        "char_start": 32617,
+        "char_end": 32626,
+        "anchor": "PMC4624184_32617_32626",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 588,
+      "label": "infections",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 170,
+        "char_start": 33000,
+        "char_end": 33010,
+        "anchor": "PMC4624184_33000_33010",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 593,
+      "label": "alteration",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 171,
+        "char_start": 33289,
+        "char_end": 33299,
+        "anchor": "PMC4624184_33289_33299",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 628,
+      "label": "suspended particulate matter",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Iss Hepa",
+        "sentence_id": 189,
+        "char_start": 36252,
+        "char_end": 36280,
+        "anchor": "PMC4624184_36252_36280",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 630,
+      "label": "debris accumulation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Iss Hepa",
+        "sentence_id": 189,
+        "char_start": 36372,
+        "char_end": 36391,
+        "anchor": "PMC4624184_36372_36391",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 666,
+      "label": "differences",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ISS debris",
+        "sentence_id": 202,
+        "char_start": 39327,
+        "char_end": 39338,
+        "anchor": "PMC4624184_39327_39338",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 667,
+      "label": "allergic responses",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "ISS debris",
+        "sentence_id": 202,
+        "char_start": 39406,
+        "char_end": 39424,
+        "anchor": "PMC4624184_39406_39424",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 685,
+      "label": "particles",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Earth analogs",
+        "sentence_id": 211,
+        "char_start": 41037,
+        "char_end": 41046,
+        "anchor": "PMC4624184_41037_41046",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 688,
+      "label": "particles",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Earth analogs",
+        "sentence_id": 211,
+        "char_start": 41268,
+        "char_end": 41277,
+        "anchor": "PMC4624184_41268_41277",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 816,
+      "label": "extension",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "qPCR assay",
+        "sentence_id": 239,
+        "char_start": 47902,
+        "char_end": 47911,
+        "anchor": "PMC4624184_47902_47911",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 859,
+      "label": "weak positive",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Pyrosequencing conditions",
+        "sentence_id": 245,
+        "char_start": 49763,
+        "char_end": 49776,
+        "anchor": "PMC4624184_49763_49776",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 1000,
+      "label": "ambiguous",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Bioinformatic analysis of bacterial Illumina sequences",
+        "sentence_id": 279,
+        "char_start": 55717,
+        "char_end": 55726,
+        "anchor": "PMC4624184_55717_55726",
+        "page": 15,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-31-32",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 32
+    },
+    {
+      "id": "synth-31-60",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 60
+    },
+    {
+      "id": "synth-31-63",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 63
+    },
+    {
+      "id": "synth-31-64",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 64
+    },
+    {
+      "id": "synth-31-78",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 78
+    },
+    {
+      "id": "synth-31-134",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 134
+    },
+    {
+      "id": "synth-31-163",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 163
+    },
+    {
+      "id": "synth-31-261",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 261
+    },
+    {
+      "id": "synth-31-262",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 262
+    },
+    {
+      "id": "synth-31-288",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 288
+    },
+    {
+      "id": "synth-31-401",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 401
+    },
+    {
+      "id": "synth-31-416",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 416
+    },
+    {
+      "id": "synth-31-430",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 430
+    },
+    {
+      "id": "synth-31-462",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 462
+    },
+    {
+      "id": "synth-31-476",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 476
+    },
+    {
+      "id": "synth-31-478",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 478
+    },
+    {
+      "id": "synth-31-519",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 519
+    },
+    {
+      "id": "synth-31-524",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 524
+    },
+    {
+      "id": "synth-31-534",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 534
+    },
+    {
+      "id": "synth-31-570",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 570
+    },
+    {
+      "id": "synth-31-574",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 574
+    },
+    {
+      "id": "synth-31-575",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 575
+    },
+    {
+      "id": "synth-31-577",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 577
+    },
+    {
+      "id": "synth-31-578",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 578
+    },
+    {
+      "id": "synth-31-588",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 588
+    },
+    {
+      "id": "synth-31-593",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 593
+    },
+    {
+      "id": "synth-31-628",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 628
+    },
+    {
+      "id": "synth-31-630",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 630
+    },
+    {
+      "id": "synth-31-666",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 666
+    },
+    {
+      "id": "synth-31-667",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 667
+    },
+    {
+      "id": "synth-31-685",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 685
+    },
+    {
+      "id": "synth-31-688",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 688
+    },
+    {
+      "id": "synth-31-816",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 816
+    },
+    {
+      "id": "synth-31-859",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 859
+    },
+    {
+      "id": "synth-31-1000",
+      "type": "ASSOCIATED",
+      "source": 31,
+      "target": 1000
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "PHENOTYPE",
+    "page": null
+  }
+}

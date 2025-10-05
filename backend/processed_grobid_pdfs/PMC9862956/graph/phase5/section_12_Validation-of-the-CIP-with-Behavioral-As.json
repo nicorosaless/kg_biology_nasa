@@ -1,0 +1,91 @@
+{
+  "paper_id": "PMC9862956",
+  "section": "Validation of the CIP with Behavioral Assays on Different C. elegans Substrates",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 281,
+      "label": "Videos",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Validation of the CIP with Behavioral Assays on Different C. elegans Substrates",
+        "sentence_id": 116,
+        "char_start": 20975,
+        "char_end": 20981,
+        "anchor": "PMC9862956_20975_20981",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 282,
+      "label": "Videos",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Validation of the CIP with Behavioral Assays on Different C. elegans Substrates",
+        "sentence_id": 116,
+        "char_start": 20975,
+        "char_end": 20981,
+        "anchor": "PMC9862956_20975_20981",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 284,
+      "label": "wrMTrck",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Validation of the CIP with Behavioral Assays on Different C. elegans Substrates",
+        "sentence_id": 116,
+        "char_start": 21049,
+        "char_end": 21056,
+        "anchor": "PMC9862956_21049_21056",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 428,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 281,
+      "target": 282
+    },
+    {
+      "id": 430,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 281,
+      "target": 284
+    },
+    {
+      "id": 434,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 282,
+      "target": 284
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 9,
+      "removed_orphans": 17,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 5
+  }
+}

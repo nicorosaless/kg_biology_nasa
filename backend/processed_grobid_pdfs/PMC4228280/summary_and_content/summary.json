@@ -1,0 +1,174 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "The study investigates the impact of spaceflight on the final cell density of Pseudomonas aeruginosa, addressing inconsistencies observed in previous spaceflight experiments with bacteria. The research explores how phosphate concentration, carbon source, oxygen availability, and motility influence bacterial growth in modified artificial urine media (mAUM) during spaceflight. The goal is to understand how microgravity affects bacterial behavior, which is crucial for minimizing infections and microbial-based failures in spacecraft water and waste purification systems.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "Figure 1 Timeline of spaceflight experiments.Four days before Shuttle launch (L-4): Media were loaded into FPAs.L-3: Inocula were loaded.L-2: After checking for contamination, 9% (w/v) paraformaldehyde fixative was loaded for FCM samples only.Samples were stored",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.png"
+      },
+      {
+        "id": "fig_2",
+        "caption": "Figure 2 Comparison of plate counting and FCM measurements of microbial growth during spaceflight.Wild-type P.",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.jpeg"
+      },
+      {
+        "id": "fig_3",
+        "caption": "Figure 3 Post-growth storage of samples at 8°C for 48 h decreases final cell density.Wild-type P.",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.jpeg"
+      },
+      {
+        "id": "fig_4",
+        "caption": "Figure 4 Effect of spaceflight on final cell density of P.",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.jpeg"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Two Assays of Final Cell Density",
+      "summary": "P. aeruginosa PA14 was cultured aboard the Space Shuttle Atlantis using fluid processing apparatuses (FPAs). FPAs, containing mAUM and cell inoculum, were used to culture microbes, mimicking a physiologically relevant environment. The experiment timeline is outlined in fig_1. The cultures were grown at 37°C for 72 hours after being inoculated and stored at 8°C before inoculation. Some cultures were fixed with paraformaldehyde after the culture period.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Oxygen Availability Modulates Final Cell Density",
+      "summary": "The study examined whether varying oxygen conditions influenced the impact of spaceflight on final cell density. Gas exchange (GE) inserts were utilized to promote aerobic growth within the FPAs. Unlike cultures grown with solid inserts, cultures grown with GE inserts exhibited no difference in final cell density between normal gravity and spaceflight, irrespective of phosphate concentration. This shows that increased oxygen availability diminishes the effect of spaceflight on final cell density.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Role of Swimming Motility",
+      "summary": "The experiment assessed how a motility mutant, ΔmotABCD, lacking motor proteins for swimming, was affected by spaceflight. The mutant cultured during spaceflight showed increased final cell density compared to normal gravity when grown in mAUMg, but not in mAUMg-high Pi. When ΔmotABCD was cultured with GE inserts, no significant difference in final cell density was observed between spaceflight and normal gravity, regardless of phosphate levels. There were no substantial differences between wild-type P. aeruginosa and the motility mutant under the tested conditions. Fig_4 highlights the effects of spaceflight on P. aeruginosa under different conditions.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Microscopy of Planktonic Cells",
+      "summary": "Differential interference contrast (DIC) microscopy was used to observe fixed P. aeruginosa PA14 planktonic cells to check for cellular aggregation under spaceflight. The experiment revealed no significant clumping or aggregation of cells (more than ~3 cells) in any of the media conditions tested, including those with 5 mM or 50 mM phosphate, both during spaceflight and on Earth. Fig_5 shows representative images of cells grown under normal gravity and spaceflight conditions.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Effects of Post-Growth Storage",
+      "summary": "Experiments were conducted to assess the impact of post-growth storage at 8°C on cell viability. Samples were either processed immediately after incubation at 37°C for 72 hours or stored at 8°C for 48 hours before processing. Both plate counting and flow cytometry (FCM) were used to enumerate cells. FCM provided more reliable measurements of final cell numbers than plate counting. Figure 3 illustrates the decrease in final cell density after post-growth storage.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Statistical Analysis",
+      "summary": "Statistical analyses, including one-tailed Student's t-tests, two-way ANOVAs, and three-way ANOVAs with post-hoc Tukey tests, were conducted to compare cell numbers between normal gravity and spaceflight conditions. Statistical significance was defined as p < 0.05. These tests assessed the effects and interactions of factors like post-growth storage, microgravity environment, phosphate concentration, and motility.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": "The study concludes that the differences in P. aeruginosa final cell densities between spaceflight and normal gravity are caused by interactions between altered mixing/transport in microgravity and the availability of essential growth substrates. Spaceflight appears to allow better cell growth with limited resources compared to Earth. The findings highlight the importance of studying how these effects may impact crew health during long-term spaceflight, given that most bacteria on spacecrafts live in nutrient-limited environments.",
+  "keywords": [
+    "spaceflight",
+    "pseudomonas aeruginosa",
+    "microgravity",
+    "final cell density",
+    "phosphate",
+    "oxygen availability",
+    "motility",
+    "artificial urine",
+    "flow cytometry",
+    "bacterial growth"
+  ],
+  "topics": [
+    "microbial ecology",
+    "space biology",
+    "bacterial physiology"
+  ],
+  "_meta": {
+    "paper_id": "sha256:be54c84a7131642655d7079f646f99013afd962d6c1da91b83a8bbe71f6dc497",
+    "paper_title": "Effect of spaceflight on Pseudomonas aeruginosa final cell density is modulated by nutrient and oxygen availability",
+    "generated_at": "2025-10-05T10:41:45Z",
+    "word_count": 500,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "spaceflight",
+      "pseudomonas aeruginosa",
+      "microgravity",
+      "final cell density",
+      "phosphate",
+      "oxygen availability",
+      "motility",
+      "artificial urine",
+      "flow cytometry",
+      "bacterial growth"
+    ],
+    "topics": [
+      "microbial ecology",
+      "space biology",
+      "bacterial physiology"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 5499,
+      "completion_tokens": 1026,
+      "total_tokens": 6525,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.00055,
+      "output_usd": 0.00041,
+      "total_usd": 0.00096
+    },
+    "cost": {
+      "input_usd": 0.00055,
+      "output_usd": 0.00041,
+      "total_usd": 0.00096
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [],
+      "corrupted_detected": [
+        "fig_1",
+        "fig_4",
+        "fig_5",
+        "fig_3"
+      ],
+      "original_total": 4,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}

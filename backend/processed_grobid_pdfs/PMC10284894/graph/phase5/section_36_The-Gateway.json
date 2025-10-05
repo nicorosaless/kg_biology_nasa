@@ -1,0 +1,123 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "The Gateway",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 433,
+      "label": "HALO",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The Gateway",
+        "sentence_id": 226,
+        "char_start": 43306,
+        "char_end": 43310,
+        "anchor": "PMC10284894_43306_43310",
+        "page": 44,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 434,
+      "label": "Northrop",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The Gateway",
+        "sentence_id": 226,
+        "char_start": 43244,
+        "char_end": 43252,
+        "anchor": "PMC10284894_43244_43252",
+        "page": 44,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 435,
+      "label": "Virginia",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The Gateway",
+        "sentence_id": 226,
+        "char_start": 43278,
+        "char_end": 43286,
+        "anchor": "PMC10284894_43278_43286",
+        "page": 44,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 436,
+      "label": "HALO",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "The Gateway",
+        "sentence_id": 226,
+        "char_start": 43306,
+        "char_end": 43310,
+        "anchor": "PMC10284894_43306_43310",
+        "page": 44,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 431,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 433,
+      "target": 434
+    },
+    {
+      "id": 432,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 433,
+      "target": 435
+    },
+    {
+      "id": 433,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 433,
+      "target": 436
+    },
+    {
+      "id": 434,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 434,
+      "target": 435
+    },
+    {
+      "id": 435,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 434,
+      "target": 436
+    },
+    {
+      "id": 436,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 435,
+      "target": 436
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 8,
+      "removed_orphans": 9,
+      "largest_component": 4,
+      "removed_components": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 44
+  }
+}

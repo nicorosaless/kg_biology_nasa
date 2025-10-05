@@ -1,0 +1,159 @@
+{
+  "paper_id": "PMC10628120",
+  "section": "Phylogenetic analysis",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 330,
+      "label": "Arthrob",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Phylogenetic analysis",
+        "sentence_id": 86,
+        "char_start": 18544,
+        "char_end": 18551,
+        "anchor": "PMC10628120_18544_18551",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 331,
+      "label": "Lei",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Phylogenetic analysis",
+        "sentence_id": 86,
+        "char_start": 18561,
+        "char_end": 18564,
+        "anchor": "PMC10628120_18561_18564",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 332,
+      "label": "Paeniba",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Phylogenetic analysis",
+        "sentence_id": 86,
+        "char_start": 18653,
+        "char_end": 18660,
+        "anchor": "PMC10628120_18653_18660",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 333,
+      "label": "sarcina",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Phylogenetic analysis",
+        "sentence_id": 86,
+        "char_start": 18676,
+        "char_end": 18683,
+        "anchor": "PMC10628120_18676_18683",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 336,
+      "label": "SCG",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Phylogenetic analysis",
+        "sentence_id": 86,
+        "char_start": 18705,
+        "char_end": 18708,
+        "anchor": "PMC10628120_18705_18708",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 603,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 330,
+      "target": 331
+    },
+    {
+      "id": 604,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 330,
+      "target": 332
+    },
+    {
+      "id": 605,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 330,
+      "target": 333
+    },
+    {
+      "id": 608,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 330,
+      "target": 336
+    },
+    {
+      "id": 609,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 331,
+      "target": 332
+    },
+    {
+      "id": 610,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 331,
+      "target": 333
+    },
+    {
+      "id": 613,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 331,
+      "target": 336
+    },
+    {
+      "id": 614,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 332,
+      "target": 333
+    },
+    {
+      "id": 617,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 332,
+      "target": 336
+    },
+    {
+      "id": 620,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 333,
+      "target": 336
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 13,
+      "largest_component": 5,
+      "removed_components": [
+        5,
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 4
+  }
+}

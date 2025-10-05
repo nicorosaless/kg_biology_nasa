@@ -1,0 +1,85 @@
+{
+  "intro": "This paper appears to present a large list of Genome Cluster Format (GCF) identifiers, likely related to genomic analysis or comparative genomics. The context and purpose of this listing are not explicitly stated in the provided text. Without further information, it's challenging to determine the specific research question or objective.",
+  "sections": [
+    {
+      "heading": "GCF Identifiers and Clusters",
+      "summary": "The provided text consists of a lengthy list of GCF identifiers, potentially representing genomic sequences or clusters. These identifiers are followed by references to 'NCBI PGAP SCG Clusters Comb.Homogeneity Ind.', which suggests that the GCFs are related to the NCBI Prokaryotic Genome Annotation Pipeline (PGAP), Single Copy Gene (SCG) clusters, combinatorial analysis, and homogeneity indices. The presence of 'B4 5', 'B3 2', 'B4 3', 'B3 1', and 'B4 2' also indicates grouping based on some criteria.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": {
+    "heading": "Conclusion",
+    "summary": ""
+  },
+  "keywords": [
+    "gcf identifiers",
+    "ncbi pgap",
+    "scg clusters",
+    "genome annotation",
+    "genomic analysis",
+    "homogeneity index",
+    "genomic sequences",
+    "prokaryotic genomes"
+  ],
+  "topics": [
+    "genomics",
+    "bioinformatics",
+    "sequence analysis"
+  ],
+  "_meta": {
+    "paper_id": "sha256:49f4beb6e427207b4ee91b1129e41583593ce55ad2248021b6403d37699575ae",
+    "paper_title": "",
+    "generated_at": "2025-10-05T10:31:41Z",
+    "word_count": 76,
+    "figures": [],
+    "equations": [],
+    "keywords": [
+      "gcf identifiers",
+      "ncbi pgap",
+      "scg clusters",
+      "genome annotation",
+      "genomic analysis",
+      "homogeneity index",
+      "genomic sequences",
+      "prokaryotic genomes"
+    ],
+    "topics": [
+      "genomics",
+      "bioinformatics",
+      "sequence analysis"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 931,
+      "completion_tokens": 370,
+      "total_tokens": 1301,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 9.3e-05,
+      "output_usd": 0.000148,
+      "total_usd": 0.000241
+    },
+    "cost": {
+      "input_usd": 9.3e-05,
+      "output_usd": 0.000148,
+      "total_usd": 0.000241
+    },
+    "figure_selection": {}
+  }
+}

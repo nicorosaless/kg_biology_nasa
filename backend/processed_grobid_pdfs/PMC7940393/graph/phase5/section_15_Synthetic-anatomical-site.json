@@ -1,0 +1,241 @@
+{
+  "paper_id": "PMC7940393",
+  "section": "Synthetic ANATOMICAL_SITE",
+  "n_nodes": 11,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 40,
+      "label": "light organ",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 20,
+        "char_start": 4285,
+        "char_end": 4296,
+        "anchor": "PMC7940393_4285_4296",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 41,
+      "label": "epithelium",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 20,
+        "char_start": 4321,
+        "char_end": 4331,
+        "anchor": "PMC7940393_4321_4331",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 50,
+      "label": "light organ",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 22,
+        "char_start": 4798,
+        "char_end": 4809,
+        "anchor": "PMC7940393_4798_4809",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 51,
+      "label": "liated epithelium",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 22,
+        "char_start": 4814,
+        "char_end": 4831,
+        "anchor": "PMC7940393_4814_4831",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 86,
+      "label": "V reactors",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Shedding of V. fischeri-derived LPS increased during exponential growth under LSMMG conditions compared to gravity controls",
+        "sentence_id": 31,
+        "char_start": 7187,
+        "char_end": 7197,
+        "anchor": "PMC7940393_7187_7197",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 327,
+      "label": "outer membrane",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 70,
+        "char_start": 18546,
+        "char_end": 18560,
+        "anchor": "PMC7940393_18546_18560",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 335,
+      "label": "intestinal",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 71,
+        "char_start": 19257,
+        "char_end": 19267,
+        "anchor": "PMC7940393_19257_19267",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 348,
+      "label": "serovar Typhimurium",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 74,
+        "char_start": 20162,
+        "char_end": 20181,
+        "anchor": "PMC7940393_20162_20181",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 454,
+      "label": "light organ",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 100,
+        "char_start": 27810,
+        "char_end": 27821,
+        "anchor": "PMC7940393_27810_27821",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 455,
+      "label": "superficial epithelium",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 100,
+        "char_start": 27824,
+        "char_end": 27846,
+        "anchor": "PMC7940393_27824_27846",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 461,
+      "label": "superficial epithelium",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 101,
+        "char_start": 28078,
+        "char_end": 28100,
+        "anchor": "PMC7940393_28078_28100",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-40-41",
+      "type": "ASSOCIATED",
+      "source": 40,
+      "target": 41
+    },
+    {
+      "id": "synth-40-50",
+      "type": "ASSOCIATED",
+      "source": 40,
+      "target": 50
+    },
+    {
+      "id": "synth-40-51",
+      "type": "ASSOCIATED",
+      "source": 40,
+      "target": 51
+    },
+    {
+      "id": "synth-40-86",
+      "type": "ASSOCIATED",
+      "source": 40,
+      "target": 86
+    },
+    {
+      "id": "synth-40-327",
+      "type": "ASSOCIATED",
+      "source": 40,
+      "target": 327
+    },
+    {
+      "id": "synth-40-335",
+      "type": "ASSOCIATED",
+      "source": 40,
+      "target": 335
+    },
+    {
+      "id": "synth-40-348",
+      "type": "ASSOCIATED",
+      "source": 40,
+      "target": 348
+    },
+    {
+      "id": "synth-40-454",
+      "type": "ASSOCIATED",
+      "source": 40,
+      "target": 454
+    },
+    {
+      "id": "synth-40-455",
+      "type": "ASSOCIATED",
+      "source": 40,
+      "target": 455
+    },
+    {
+      "id": "synth-40-461",
+      "type": "ASSOCIATED",
+      "source": 40,
+      "target": 461
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "ANATOMICAL_SITE",
+    "page": null
+  }
+}

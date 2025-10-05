@@ -1,0 +1,204 @@
+{
+  "paper_id": "PMC6130020",
+  "section": "RNA-Seq Analysis",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 501,
+      "label": "Total",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA-Seq Analysis",
+        "sentence_id": 112,
+        "char_start": 26265,
+        "char_end": 26270,
+        "anchor": "PMC6130020_26265_26270",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 502,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA-Seq Analysis",
+        "sentence_id": 112,
+        "char_start": 26271,
+        "char_end": 26274,
+        "anchor": "PMC6130020_26271_26274",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 503,
+      "label": "GSAF",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA-Seq Analysis",
+        "sentence_id": 112,
+        "char_start": 26438,
+        "char_end": 26442,
+        "anchor": "PMC6130020_26438_26442",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 504,
+      "label": "Suc",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA-Seq Analysis",
+        "sentence_id": 112,
+        "char_start": 26372,
+        "char_end": 26375,
+        "anchor": "PMC6130020_26372_26375",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 505,
+      "label": "GSAF",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA-Seq Analysis",
+        "sentence_id": 112,
+        "char_start": 26438,
+        "char_end": 26442,
+        "anchor": "PMC6130020_26438_26442",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 506,
+      "label": "Austin",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNA-Seq Analysis",
+        "sentence_id": 112,
+        "char_start": 26474,
+        "char_end": 26480,
+        "anchor": "PMC6130020_26474_26480",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 643,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 501,
+      "target": 502
+    },
+    {
+      "id": 644,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 501,
+      "target": 503
+    },
+    {
+      "id": 645,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 501,
+      "target": 504
+    },
+    {
+      "id": 646,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 501,
+      "target": 505
+    },
+    {
+      "id": 647,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 501,
+      "target": 506
+    },
+    {
+      "id": 648,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 502,
+      "target": 503
+    },
+    {
+      "id": 649,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 502,
+      "target": 504
+    },
+    {
+      "id": 650,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 502,
+      "target": 505
+    },
+    {
+      "id": 651,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 502,
+      "target": 506
+    },
+    {
+      "id": 652,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 503,
+      "target": 504
+    },
+    {
+      "id": 653,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 503,
+      "target": 505
+    },
+    {
+      "id": 654,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 503,
+      "target": 506
+    },
+    {
+      "id": 655,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 504,
+      "target": 505
+    },
+    {
+      "id": 656,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 504,
+      "target": 506
+    },
+    {
+      "id": 657,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 505,
+      "target": 506
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 12,
+      "largest_component": 6,
+      "removed_components": [
+        5,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 7
+  }
+}

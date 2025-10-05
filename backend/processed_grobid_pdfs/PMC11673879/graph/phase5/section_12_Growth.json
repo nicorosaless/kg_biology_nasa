@@ -1,0 +1,57 @@
+{
+  "paper_id": "PMC11673879",
+  "section": "Growth",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 400,
+      "label": "evolved",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Growth",
+        "sentence_id": 172,
+        "char_start": 28013,
+        "char_end": 28020,
+        "anchor": "PMC11673879_28013_28020",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 402,
+      "label": "AMP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Growth",
+        "sentence_id": 172,
+        "char_start": 28091,
+        "char_end": 28094,
+        "anchor": "PMC11673879_28091_28094",
+        "page": 9,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 274,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 400,
+      "target": 402
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 9,
+      "largest_component": 2,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 9
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "paper_id": "PMC11451251",
+  "section": "DNA extraction",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 514,
+      "label": "SPAde",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA extraction",
+        "sentence_id": 205,
+        "char_start": 38867,
+        "char_end": 38872,
+        "anchor": "PMC11451251_38867_38872",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 516,
+      "label": "QUAST",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA extraction",
+        "sentence_id": 205,
+        "char_start": 38908,
+        "char_end": 38913,
+        "anchor": "PMC11451251_38908_38913",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 517,
+      "label": "WGS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA extraction",
+        "sentence_id": 205,
+        "char_start": 38836,
+        "char_end": 38839,
+        "anchor": "PMC11451251_38836_38839",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 519,
+      "label": "QUAST",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DNA extraction",
+        "sentence_id": 205,
+        "char_start": 38908,
+        "char_end": 38913,
+        "anchor": "PMC11451251_38908_38913",
+        "page": 13,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 410,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 514,
+      "target": 516
+    },
+    {
+      "id": 411,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 514,
+      "target": 517
+    },
+    {
+      "id": 413,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 514,
+      "target": 519
+    },
+    {
+      "id": 414,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 516,
+      "target": 517
+    },
+    {
+      "id": 416,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 516,
+      "target": 519
+    },
+    {
+      "id": 418,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 517,
+      "target": 519
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 11,
+      "largest_component": 4,
+      "removed_components": [
+        4,
+        4,
+        2
+      ]
+    },
+    "page": 13
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "paper_id": "PMC6130020",
+  "section": "Expression of Photosynthesis-Related Genes and Chlorophyll Accumulation Is Enhanced in ANN1 Knockout Mutants, Dependent on the Absence of Exogenous Suc",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 234,
+      "label": "CAB2",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Expression of Photosynthesis-Related Genes and Chlorophyll Accumulation Is Enhanced in ANN1 Knockout Mutants, Dependent on the Absence of Exogenous Suc",
+        "sentence_id": 55,
+        "char_start": 13068,
+        "char_end": 13072,
+        "anchor": "PMC6130020_13068_13072",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 235,
+      "label": "CAB3",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Expression of Photosynthesis-Related Genes and Chlorophyll Accumulation Is Enhanced in ANN1 Knockout Mutants, Dependent on the Absence of Exogenous Suc",
+        "sentence_id": 55,
+        "char_start": 13114,
+        "char_end": 13118,
+        "anchor": "PMC6130020_13114_13118",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 236,
+      "label": "Suc",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Expression of Photosynthesis-Related Genes and Chlorophyll Accumulation Is Enhanced in ANN1 Knockout Mutants, Dependent on the Absence of Exogenous Suc",
+        "sentence_id": 55,
+        "char_start": 13327,
+        "char_end": 13330,
+        "anchor": "PMC6130020_13327_13330",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 231,
+      "label": "PSII",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Expression of Photosynthesis-Related Genes and Chlorophyll Accumulation Is Enhanced in ANN1 Knockout Mutants, Dependent on the Absence of Exogenous Suc",
+        "sentence_id": 55,
+        "char_start": 13150,
+        "char_end": 13154,
+        "anchor": "PMC6130020_13150_13154",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 320,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 231,
+      "target": 234
+    },
+    {
+      "id": 321,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 231,
+      "target": 235
+    },
+    {
+      "id": 322,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 231,
+      "target": 236
+    },
+    {
+      "id": 323,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 234,
+      "target": 235
+    },
+    {
+      "id": 324,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 234,
+      "target": 236
+    },
+    {
+      "id": 325,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 235,
+      "target": 236
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 28,
+      "largest_component": 4,
+      "removed_components": [
+        3,
+        3,
+        2
+      ]
+    },
+    "page": 4
+  }
+}

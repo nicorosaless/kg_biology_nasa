@@ -1,0 +1,201 @@
+{
+  "paper_id": "PMC4624184",
+  "section": "Bioinformatic analyses of bacterial pyrosequences",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 928,
+      "label": "OTUs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bioinformatic analyses of bacterial pyrosequences",
+        "sentence_id": 255,
+        "char_start": 52433,
+        "char_end": 52437,
+        "anchor": "PMC4624184_52433_52437",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 929,
+      "label": "sequence",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bioinformatic analyses of bacterial pyrosequences",
+        "sentence_id": 255,
+        "char_start": 52453,
+        "char_end": 52461,
+        "anchor": "PMC4624184_52453_52461",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 931,
+      "label": "OTU",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bioinformatic analyses of bacterial pyrosequences",
+        "sentence_id": 255,
+        "char_start": 52544,
+        "char_end": 52547,
+        "anchor": "PMC4624184_52544_52547",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 935,
+      "label": "taxonomy",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bioinformatic analyses of bacterial pyrosequences",
+        "sentence_id": 255,
+        "char_start": 52668,
+        "char_end": 52676,
+        "anchor": "PMC4624184_52668_52676",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 936,
+      "label": "UCLUST",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bioinformatic analyses of bacterial pyrosequences",
+        "sentence_id": 255,
+        "char_start": 52485,
+        "char_end": 52491,
+        "anchor": "PMC4624184_52485_52491",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 937,
+      "label": "Bayesian",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bioinformatic analyses of bacterial pyrosequences",
+        "sentence_id": 255,
+        "char_start": 52605,
+        "char_end": 52613,
+        "anchor": "PMC4624184_52605_52613",
+        "page": 14,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1357,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 928,
+      "target": 929
+    },
+    {
+      "id": 1358,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 928,
+      "target": 931
+    },
+    {
+      "id": 1359,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 928,
+      "target": 935
+    },
+    {
+      "id": 1360,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 928,
+      "target": 936
+    },
+    {
+      "id": 1361,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 928,
+      "target": 937
+    },
+    {
+      "id": 1363,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 929,
+      "target": 931
+    },
+    {
+      "id": 1364,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 929,
+      "target": 935
+    },
+    {
+      "id": 1365,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 929,
+      "target": 936
+    },
+    {
+      "id": 1366,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 929,
+      "target": 937
+    },
+    {
+      "id": 1368,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 931,
+      "target": 935
+    },
+    {
+      "id": 1369,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 931,
+      "target": 936
+    },
+    {
+      "id": 1370,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 931,
+      "target": 937
+    },
+    {
+      "id": 1372,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 935,
+      "target": 936
+    },
+    {
+      "id": 1373,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 935,
+      "target": 937
+    },
+    {
+      "id": 1375,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 936,
+      "target": 937
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 14,
+      "largest_component": 6,
+      "removed_components": [
+        3
+      ]
+    },
+    "page": 14
+  }
+}

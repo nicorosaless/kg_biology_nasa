@@ -1,0 +1,73 @@
+{
+  "paper_id": "PMC4228280",
+  "section": "Synthetic ANATOMICAL_SITE",
+  "n_nodes": 3,
+  "n_edges": 2,
+  "nodes": [
+    {
+      "id": 26,
+      "label": "Typhimurium",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 17,
+        "char_start": 3204,
+        "char_end": 3215,
+        "anchor": "PMC4228280_3204_3215",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 288,
+      "label": "urine media",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 86,
+        "char_start": 21110,
+        "char_end": 21121,
+        "anchor": "PMC4228280_21110_21121",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 428,
+      "label": "membranes",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Spaceflight and ground control cultures",
+        "sentence_id": 128,
+        "char_start": 29762,
+        "char_end": 29771,
+        "anchor": "PMC4228280_29762_29771",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-26-288",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 288
+    },
+    {
+      "id": "synth-26-428",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 428
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "ANATOMICAL_SITE",
+    "page": null
+  }
+}

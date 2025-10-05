@@ -1,0 +1,57 @@
+{
+  "paper_id": "PMC11451251",
+  "section": "Phage elements",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 346,
+      "label": "PHASTER",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Phage elements",
+        "sentence_id": 116,
+        "char_start": 23385,
+        "char_end": 23392,
+        "anchor": "PMC11451251_23385_23392",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 347,
+      "label": "elements",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Phage elements",
+        "sentence_id": 116,
+        "char_start": 23412,
+        "char_end": 23420,
+        "anchor": "PMC11451251_23412_23420",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 286,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 346,
+      "target": 347
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 4,
+      "largest_component": 2,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 8
+  }
+}

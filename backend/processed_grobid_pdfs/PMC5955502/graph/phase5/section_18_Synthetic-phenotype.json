@@ -1,0 +1,598 @@
+{
+  "paper_id": "PMC5955502",
+  "section": "Synthetic PHENOTYPE",
+  "n_nodes": 28,
+  "n_edges": 27,
+  "nodes": [
+    {
+      "id": 26,
+      "label": "structural changes",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 3,
+        "char_start": 993,
+        "char_end": 1011,
+        "anchor": "PMC5955502_993_1011",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 29,
+      "label": "rophic changes",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 4,
+        "char_start": 1117,
+        "char_end": 1131,
+        "anchor": "PMC5955502_1117_1131",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 34,
+      "label": "fluid shift",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 5,
+        "char_start": 1363,
+        "char_end": 1374,
+        "anchor": "PMC5955502_1363_1374",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 40,
+      "label": "structural changes",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 6,
+        "char_start": 1684,
+        "char_end": 1702,
+        "anchor": "PMC5955502_1684_1702",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 54,
+      "label": "microtubules",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 9,
+        "char_start": 2493,
+        "char_end": 2505,
+        "anchor": "PMC5955502_2493_2505",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 60,
+      "label": "rearrangement",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 12,
+        "char_start": 2936,
+        "char_end": 2949,
+        "anchor": "PMC5955502_2936_2949",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 65,
+      "label": "DNA methylation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 14,
+        "char_start": 3258,
+        "char_end": 3273,
+        "anchor": "PMC5955502_3258_3273",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 66,
+      "label": "methylation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 14,
+        "char_start": 3326,
+        "char_end": 3337,
+        "anchor": "PMC5955502_3326_3337",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 67,
+      "label": "methylation patterns",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 14,
+        "char_start": 3535,
+        "char_end": 3555,
+        "anchor": "PMC5955502_3535_3555",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 70,
+      "label": "hypermethylation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 17,
+        "char_start": 3983,
+        "char_end": 3999,
+        "anchor": "PMC5955502_3983_3999",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 109,
+      "label": "conditions of the environment",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental design",
+        "sentence_id": 37,
+        "char_start": 7588,
+        "char_end": 7617,
+        "anchor": "PMC5955502_7588_7617",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 237,
+      "label": "DNA degradation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of DNA total methylation level using restriction analysis (MspI/HpaII)",
+        "sentence_id": 69,
+        "char_start": 14473,
+        "char_end": 14488,
+        "anchor": "PMC5955502_14473_14488",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 330,
+      "label": "methylation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DNA total methylation level",
+        "sentence_id": 82,
+        "char_start": 18078,
+        "char_end": 18089,
+        "anchor": "PMC5955502_18078_18089",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 371,
+      "label": "structural changes",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 90,
+        "char_start": 20235,
+        "char_end": 20253,
+        "anchor": "PMC5955502_20235_20253",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 375,
+      "label": "weightlessness conditions",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 92,
+        "char_start": 20625,
+        "char_end": 20650,
+        "anchor": "PMC5955502_20625_20650",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 376,
+      "label": "changes of the cy",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 92,
+        "char_start": 20694,
+        "char_end": 20711,
+        "anchor": "PMC5955502_20694_20711",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 404,
+      "label": "congestion",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 101,
+        "char_start": 22269,
+        "char_end": 22279,
+        "anchor": "PMC5955502_22269_22279",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 442,
+      "label": "expression",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 112,
+        "char_start": 24756,
+        "char_end": 24766,
+        "anchor": "PMC5955502_24756_24766",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 457,
+      "label": "weightlessness",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 119,
+        "char_start": 25812,
+        "char_end": 25826,
+        "anchor": "PMC5955502_25812_25826",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 458,
+      "label": "eton reorganization",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 119,
+        "char_start": 25887,
+        "char_end": 25906,
+        "anchor": "PMC5955502_25887_25906",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 460,
+      "label": "protein pattern",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 120,
+        "char_start": 26061,
+        "char_end": 26076,
+        "anchor": "PMC5955502_26061_26076",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 479,
+      "label": "inin-",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Long duration microgravity does not lead to notable changes in cytoskeletal protein contents in the cardiac and lung tissue",
+        "sentence_id": 125,
+        "char_start": 26924,
+        "char_end": 26929,
+        "anchor": "PMC5955502_26924_26929",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 492,
+      "label": "methylation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 131,
+        "char_start": 28238,
+        "char_end": 28249,
+        "anchor": "PMC5955502_28238_28249",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 498,
+      "label": "methylation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 135,
+        "char_start": 28762,
+        "char_end": 28773,
+        "anchor": "PMC5955502_28762_28773",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 502,
+      "label": "methylation",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 139,
+        "char_start": 29288,
+        "char_end": 29299,
+        "anchor": "PMC5955502_29288_29299",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 520,
+      "label": "methylation patterns",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 142,
+        "char_start": 30202,
+        "char_end": 30222,
+        "anchor": "PMC5955502_30202_30222",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 559,
+      "label": "mutations of",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 156,
+        "char_start": 31636,
+        "char_end": 31648,
+        "anchor": "PMC5955502_31636_31648",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 567,
+      "label": "changes in the cytoskeletal",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 158,
+        "char_start": 32144,
+        "char_end": 32171,
+        "anchor": "PMC5955502_32144_32171",
+        "page": 15,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-26-29",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 29
+    },
+    {
+      "id": "synth-26-34",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 34
+    },
+    {
+      "id": "synth-26-40",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 40
+    },
+    {
+      "id": "synth-26-54",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 54
+    },
+    {
+      "id": "synth-26-60",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 60
+    },
+    {
+      "id": "synth-26-65",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 65
+    },
+    {
+      "id": "synth-26-66",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 66
+    },
+    {
+      "id": "synth-26-67",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 67
+    },
+    {
+      "id": "synth-26-70",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 70
+    },
+    {
+      "id": "synth-26-109",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 109
+    },
+    {
+      "id": "synth-26-237",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 237
+    },
+    {
+      "id": "synth-26-330",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 330
+    },
+    {
+      "id": "synth-26-371",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 371
+    },
+    {
+      "id": "synth-26-375",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 375
+    },
+    {
+      "id": "synth-26-376",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 376
+    },
+    {
+      "id": "synth-26-404",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 404
+    },
+    {
+      "id": "synth-26-442",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 442
+    },
+    {
+      "id": "synth-26-457",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 457
+    },
+    {
+      "id": "synth-26-458",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 458
+    },
+    {
+      "id": "synth-26-460",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 460
+    },
+    {
+      "id": "synth-26-479",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 479
+    },
+    {
+      "id": "synth-26-492",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 492
+    },
+    {
+      "id": "synth-26-498",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 498
+    },
+    {
+      "id": "synth-26-502",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 502
+    },
+    {
+      "id": "synth-26-520",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 520
+    },
+    {
+      "id": "synth-26-559",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 559
+    },
+    {
+      "id": "synth-26-567",
+      "type": "ASSOCIATED",
+      "source": 26,
+      "target": 567
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "PHENOTYPE",
+    "page": null
+  }
+}

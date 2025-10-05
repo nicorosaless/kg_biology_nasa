@@ -1,0 +1,153 @@
+{
+  "paper_id": "PMC6091969",
+  "section": "CEA10-induced inflammatory activation is not sufficient for killing of Af293",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 160,
+      "label": "CEA10",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "CEA10-induced inflammatory activation is not sufficient for killing of Af293",
+        "sentence_id": 56,
+        "char_start": 12794,
+        "char_end": 12799,
+        "anchor": "PMC6091969_12794_12799",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 161,
+      "label": "CFU",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "CEA10-induced inflammatory activation is not sufficient for killing of Af293",
+        "sentence_id": 56,
+        "char_start": 12829,
+        "char_end": 12832,
+        "anchor": "PMC6091969_12829_12832",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 162,
+      "label": "CFU",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "CEA10-induced inflammatory activation is not sufficient for killing of Af293",
+        "sentence_id": 56,
+        "char_start": 12829,
+        "char_end": 12832,
+        "anchor": "PMC6091969_12829_12832",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 158,
+      "label": "CEA10",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "CEA10-induced inflammatory activation is not sufficient for killing of Af293",
+        "sentence_id": 56,
+        "char_start": 12654,
+        "char_end": 12659,
+        "anchor": "PMC6091969_12654_12659",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 159,
+      "label": "Af293",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "CEA10-induced inflammatory activation is not sufficient for killing of Af293",
+        "sentence_id": 56,
+        "char_start": 12749,
+        "char_end": 12754,
+        "anchor": "PMC6091969_12749_12754",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 179,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 158,
+      "target": 159
+    },
+    {
+      "id": 180,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 158,
+      "target": 160
+    },
+    {
+      "id": 181,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 158,
+      "target": 161
+    },
+    {
+      "id": 182,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 158,
+      "target": 162
+    },
+    {
+      "id": 183,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 159,
+      "target": 160
+    },
+    {
+      "id": 184,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 159,
+      "target": 161
+    },
+    {
+      "id": 185,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 159,
+      "target": 162
+    },
+    {
+      "id": 186,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 160,
+      "target": 161
+    },
+    {
+      "id": 187,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 160,
+      "target": 162
+    },
+    {
+      "id": 188,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 161,
+      "target": 162
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 2,
+      "largest_component": 5
+    },
+    "page": 6
+  }
+}

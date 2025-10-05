@@ -1,0 +1,259 @@
+{
+  "paper_id": "PMC5955502",
+  "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 513,
+      "label": "HDAC1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 141,
+        "char_start": 29648,
+        "char_end": 29653,
+        "anchor": "PMC5955502_29648_29653",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 505,
+      "label": "HDAC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 141,
+        "char_start": 29587,
+        "char_end": 29591,
+        "anchor": "PMC5955502_29587_29591",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 506,
+      "label": "HDAC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 141,
+        "char_start": 29648,
+        "char_end": 29652,
+        "anchor": "PMC5955502_29648_29652",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 507,
+      "label": "histone",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 141,
+        "char_start": 29703,
+        "char_end": 29710,
+        "anchor": "PMC5955502_29703_29710",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 509,
+      "label": "DNMT1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 141,
+        "char_start": 29427,
+        "char_end": 29432,
+        "anchor": "PMC5955502_29427_29432",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 510,
+      "label": "DNMT3a",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 141,
+        "char_start": 29434,
+        "char_end": 29440,
+        "anchor": "PMC5955502_29434_29440",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 511,
+      "label": "DNMT3b",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Total transcriptional efficiency of DNA of mouse cardiac and lung tissue after a long duration space flight",
+        "sentence_id": 141,
+        "char_start": 29446,
+        "char_end": 29452,
+        "anchor": "PMC5955502_29446_29452",
+        "page": 14,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 607,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 505,
+      "target": 506
+    },
+    {
+      "id": 608,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 505,
+      "target": 507
+    },
+    {
+      "id": 610,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 505,
+      "target": 509
+    },
+    {
+      "id": 611,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 505,
+      "target": 510
+    },
+    {
+      "id": 612,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 505,
+      "target": 511
+    },
+    {
+      "id": 614,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 505,
+      "target": 513
+    },
+    {
+      "id": 617,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 506,
+      "target": 507
+    },
+    {
+      "id": 619,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 506,
+      "target": 509
+    },
+    {
+      "id": 620,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 506,
+      "target": 510
+    },
+    {
+      "id": 621,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 506,
+      "target": 511
+    },
+    {
+      "id": 623,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 506,
+      "target": 513
+    },
+    {
+      "id": 627,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 507,
+      "target": 509
+    },
+    {
+      "id": 628,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 507,
+      "target": 510
+    },
+    {
+      "id": 629,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 507,
+      "target": 511
+    },
+    {
+      "id": 631,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 507,
+      "target": 513
+    },
+    {
+      "id": 641,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 509,
+      "target": 510
+    },
+    {
+      "id": 642,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 509,
+      "target": 511
+    },
+    {
+      "id": 644,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 509,
+      "target": 513
+    },
+    {
+      "id": 647,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 510,
+      "target": 511
+    },
+    {
+      "id": 649,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 510,
+      "target": 513
+    },
+    {
+      "id": 653,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 511,
+      "target": 513
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 9,
+      "removed_orphans": 7,
+      "largest_component": 7,
+      "removed_components": [
+        6,
+        4,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 14
+  }
+}

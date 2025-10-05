@@ -1,0 +1,57 @@
+{
+  "paper_id": "PMC10285634",
+  "section": "Q 18. What is the dosage of radiation per scan?",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 88,
+      "label": "DXA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Q 18. What is the dosage of radiation per scan?",
+        "sentence_id": 79,
+        "char_start": 9041,
+        "char_end": 9044,
+        "anchor": "PMC10285634_9041_9044",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 87,
+      "label": "DXA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Q 18. What is the dosage of radiation per scan?",
+        "sentence_id": 79,
+        "char_start": 9041,
+        "char_end": 9044,
+        "anchor": "PMC10285634_9041_9044",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 39,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 87,
+      "target": 88
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 1,
+      "largest_component": 2,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 7
+  }
+}

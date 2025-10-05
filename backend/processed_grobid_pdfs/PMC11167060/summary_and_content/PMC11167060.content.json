@@ -1,0 +1,96 @@
+{
+  "paper_id": "sha256:32134f84aa9d98639123e1497ab8d602ee52d9e440cb87adf0e07c97be1583fb",
+  "metadata": {
+    "title": "Description of Additional Supplementary Files Supplementary Data 1: Kidney differentially abundant phosphosites and their functional annotations Phosphopeptide-enriched phosphoproteomics from RR-10 spaceflight-exposed mice (28 days) kidney tissue, with functional annotations and inferences from PhosphoSitePlus and the literature. An adjusted P-value of <0.05 was considered significant",
+    "abstract": "",
+    "authors": [],
+    "affiliations": []
+  },
+  "sections": [
+    {
+      "heading": "Supplementary Data 2: Multi-mission multi-omic DisGeNET over-representation analysis results",
+      "paragraphs": [
+        "Full list of enriched gene-disease associations are presented for DisGeNET ontological terms relating to a, Rank 1 -kidney health [kidney; urological; electrolyte; mitochondrial (general); complement; urinary system cancers; blood pressure (renal)], b, Rank 2 -closely related to kidney injury and disease [Vascular/endothelial; cardiovascular; autonomic dysfunction; diabetes; blood pressure (general)], c, Rank 3 -general diseases known to impact the kidney [nonurinary systems cancers; aging; inflammation; liver], d, Rank 4 -no clear connection to the kidney.To integrate datasets from different omics modalities, species, missions and tissues, all biomolecules (e.g.phosphopeptides, proteins, transcripts and methylated DNA) were converted to the human orthologs where necessary and linked back to their HGNC gene symbol, aggregated and collapsed to single genes (e.g.multiple phosphosites, isoforms, CpG sites).A Log10(P-value) of 2 was considered significant for ontological term enrichment and had to replicate in at least two datasets to be included.Enrichment (gene) ratio; the number of differentially regulated hits in a dataset that belong to a given ontological term, normalised to the total number of statistically significant hits in the respective dataset."
+      ],
+      "text": "Full list of enriched gene-disease associations are presented for DisGeNET ontological terms relating to a, Rank 1 -kidney health [kidney; urological; electrolyte; mitochondrial (general); complement; urinary system cancers; blood pressure (renal)], b, Rank 2 -closely related to kidney injury and disease [Vascular/endothelial; cardiovascular; autonomic dysfunction; diabetes; blood pressure (general)], c, Rank 3 -general diseases known to impact the kidney [nonurinary systems cancers; aging; inflammation; liver], d, Rank 4 -no clear connection to the kidney.To integrate datasets from different omics modalities, species, missions and tissues, all biomolecules (e.g.phosphopeptides, proteins, transcripts and methylated DNA) were converted to the human orthologs where necessary and linked back to their HGNC gene symbol, aggregated and collapsed to single genes (e.g.multiple phosphosites, isoforms, CpG sites).A Log10(P-value) of 2 was considered significant for ontological term enrichment and had to replicate in at least two datasets to be included.Enrichment (gene) ratio; the number of differentially regulated hits in a dataset that belong to a given ontological term, normalised to the total number of statistically significant hits in the respective dataset.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Full list of enriched gene-disease associations are presented for DisGeNET ontological terms relating to a, Rank 1 -kidney health [kidney; urological; electrolyte; mitochondrial (general); complement; urinary system cancers; blood pressure (renal)], b, Rank 2 -closely related to kidney injury and disease [Vascular/endothelial; cardiovascular; autonomic dysfunction; diabetes; blood pressure (general)], c, Rank 3 -general diseases known to impact the kidney [nonurinary systems cancers; aging; inflammation; liver], d, Rank 4 -no clear connection to the kidney.To integrate datasets from different omics modalities, species, missions and tissues, all biomolecules (e.g.phosphopeptides, proteins, transcripts and methylated DNA) were converted to the human orthologs where necessary and linked back to their HGNC gene symbol, aggregated and collapsed to single genes (e.g.multiple phosphosites, isoforms, CpG sites).A Log10(P-value) of 2 was considered significant for ontological term enrichment and had to replicate in at least two datasets to be included.Enrichment (gene) ratio; the number of differentially regulated hits in a dataset that belong to a given ontological term, normalised to the total number of statistically significant hits in the respective dataset.",
+          "block_index": 0,
+          "section_index": 0,
+          "global_order": 0,
+          "id": "p_1_1"
+        }
+      ]
+    },
+    {
+      "heading": "Supplementary Data 3: Up and down regulated kidney gene products and their functional annotations",
+      "paragraphs": [
+        "Full list of upregulated and downregulated gene products in exposure groups (e.g.spaceflight, GCRsim) compared to control groups (e.g.ground control, sham).To integrate datasets from different omics modalities, species, missions and tissues, all biomolecules (e.g.phosphopeptides, proteins, transcripts and methylated DNA) were converted to the human orthologs where necessary and linked back to their HGNC gene symbol, aggregated and collapsed to single genes (e.g.multiple phosphosites, isoforms, CpG sites).These differentially regulated gene products (DRGP) were scored using the following rules: 1) only DRGPs with a P-value <0.05 were counted as significant and plotted; 2) Each DRGP was assigned a score of +1 each time it was upregulated or -1 each time it was downregulated; 3) only DRGPs observed in proteome and transcriptome kidney-specific datasets were used for the calculation of the ranking score to avoid confounders, although additional datasets (PTM and epigenome and plasma/exosomes) were plotted for visualisation purposes; 4) The resulting sum of scores for each DRGP was then calculated and multiplied by the number of times the DRGP was observed in the kidney-specific proteome and transcriptome datasets; 5) Only product scores of absolute value 4 or higher were included plotted as these will have a directionality consensus of at least 2 datasets above the number of disagreeing datasets.The highest scoring genes have functional annotations and inferences about their consequences detailed."
+      ],
+      "text": "Full list of upregulated and downregulated gene products in exposure groups (e.g.spaceflight, GCRsim) compared to control groups (e.g.ground control, sham).To integrate datasets from different omics modalities, species, missions and tissues, all biomolecules (e.g.phosphopeptides, proteins, transcripts and methylated DNA) were converted to the human orthologs where necessary and linked back to their HGNC gene symbol, aggregated and collapsed to single genes (e.g.multiple phosphosites, isoforms, CpG sites).These differentially regulated gene products (DRGP) were scored using the following rules: 1) only DRGPs with a P-value <0.05 were counted as significant and plotted; 2) Each DRGP was assigned a score of +1 each time it was upregulated or -1 each time it was downregulated; 3) only DRGPs observed in proteome and transcriptome kidney-specific datasets were used for the calculation of the ranking score to avoid confounders, although additional datasets (PTM and epigenome and plasma/exosomes) were plotted for visualisation purposes; 4) The resulting sum of scores for each DRGP was then calculated and multiplied by the number of times the DRGP was observed in the kidney-specific proteome and transcriptome datasets; 5) Only product scores of absolute value 4 or higher were included plotted as these will have a directionality consensus of at least 2 datasets above the number of disagreeing datasets.The highest scoring genes have functional annotations and inferences about their consequences detailed.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Full list of upregulated and downregulated gene products in exposure groups (e.g.spaceflight, GCRsim) compared to control groups (e.g.ground control, sham).To integrate datasets from different omics modalities, species, missions and tissues, all biomolecules (e.g.phosphopeptides, proteins, transcripts and methylated DNA) were converted to the human orthologs where necessary and linked back to their HGNC gene symbol, aggregated and collapsed to single genes (e.g.multiple phosphosites, isoforms, CpG sites).These differentially regulated gene products (DRGP) were scored using the following rules: 1) only DRGPs with a P-value <0.05 were counted as significant and plotted; 2) Each DRGP was assigned a score of +1 each time it was upregulated or -1 each time it was downregulated; 3) only DRGPs observed in proteome and transcriptome kidney-specific datasets were used for the calculation of the ranking score to avoid confounders, although additional datasets (PTM and epigenome and plasma/exosomes) were plotted for visualisation purposes; 4) The resulting sum of scores for each DRGP was then calculated and multiplied by the number of times the DRGP was observed in the kidney-specific proteome and transcriptome datasets; 5) Only product scores of absolute value 4 or higher were included plotted as these will have a directionality consensus of at least 2 datasets above the number of disagreeing datasets.The highest scoring genes have functional annotations and inferences about their consequences detailed.",
+          "block_index": 0,
+          "section_index": 1,
+          "global_order": 1,
+          "id": "p_2_1"
+        }
+      ]
+    }
+  ],
+  "figures": {},
+  "tables": {},
+  "equations": {},
+  "references": [],
+  "footnotes": [],
+  "full_text": "Full list of enriched gene-disease associations are presented for DisGeNET ontological terms relating to a, Rank 1 -kidney health [kidney; urological; electrolyte; mitochondrial (general); complement; urinary system cancers; blood pressure (renal)], b, Rank 2 -closely related to kidney injury and disease [Vascular/endothelial; cardiovascular; autonomic dysfunction; diabetes; blood pressure (general)], c, Rank 3 -general diseases known to impact the kidney [nonurinary systems cancers; aging; inflammation; liver], d, Rank 4 -no clear connection to the kidney.To integrate datasets from different omics modalities, species, missions and tissues, all biomolecules (e.g.phosphopeptides, proteins, transcripts and methylated DNA) were converted to the human orthologs where necessary and linked back to their HGNC gene symbol, aggregated and collapsed to single genes (e.g.multiple phosphosites, isoforms, CpG sites).A Log10(P-value) of 2 was considered significant for ontological term enrichment and had to replicate in at least two datasets to be included.Enrichment (gene) ratio; the number of differentially regulated hits in a dataset that belong to a given ontological term, normalised to the total number of statistically significant hits in the respective dataset.\n\nFull list of upregulated and downregulated gene products in exposure groups (e.g.spaceflight, GCRsim) compared to control groups (e.g.ground control, sham).To integrate datasets from different omics modalities, species, missions and tissues, all biomolecules (e.g.phosphopeptides, proteins, transcripts and methylated DNA) were converted to the human orthologs where necessary and linked back to their HGNC gene symbol, aggregated and collapsed to single genes (e.g.multiple phosphosites, isoforms, CpG sites).These differentially regulated gene products (DRGP) were scored using the following rules: 1) only DRGPs with a P-value <0.05 were counted as significant and plotted; 2) Each DRGP was assigned a score of +1 each time it was upregulated or -1 each time it was downregulated; 3) only DRGPs observed in proteome and transcriptome kidney-specific datasets were used for the calculation of the ranking score to avoid confounders, although additional datasets (PTM and epigenome and plasma/exosomes) were plotted for visualisation purposes; 4) The resulting sum of scores for each DRGP was then calculated and multiplied by the number of times the DRGP was observed in the kidney-specific proteome and transcriptome datasets; 5) Only product scores of absolute value 4 or higher were included plotted as these will have a directionality consensus of at least 2 datasets above the number of disagreeing datasets.The highest scoring genes have functional annotations and inferences about their consequences detailed.",
+  "stats": {
+    "section_count": 2,
+    "figure_count": 0,
+    "figure_count_original": 0,
+    "figure_count_synthetic": 0,
+    "table_count": 0,
+    "equation_count": 0,
+    "reference_count": 0,
+    "footnote_count": 0,
+    "extracted_at": "2025-10-05T10:37:46.800542Z",
+    "image_extraction": {
+      "extracted_images": 0,
+      "figure_images_mapped": 0,
+      "table_images_mapped": 0,
+      "cropped_images": 0,
+      "figures_total_all": 0,
+      "figures_total_pure": 0,
+      "figures_total_original": 0,
+      "figures_total_synthetic": 0,
+      "tables_total": 0,
+      "figures_with_image_pure": 0,
+      "tables_with_image": 0,
+      "figures_missing_image_pure": 0,
+      "tables_missing_image": 0
+    },
+    "figures_total_all": 0,
+    "figures_total_pure": 0,
+    "figures_total_original": 0,
+    "figures_total_synthetic": 0,
+    "tables_total": 0,
+    "figures_with_image_pure": 0,
+    "tables_with_image": 0,
+    "validation": {
+      "figure_ids_total": 0,
+      "equation_ids_total": 0,
+      "figure_block_ids": 0,
+      "equation_block_ids": 0,
+      "missing_figure_block_refs": [],
+      "missing_equation_block_refs": [],
+      "global_order_contiguous": true,
+      "block_count": 2,
+      "equations_missing_loc": [],
+      "equations_missing_bbox_expected": []
+    }
+  }
+}

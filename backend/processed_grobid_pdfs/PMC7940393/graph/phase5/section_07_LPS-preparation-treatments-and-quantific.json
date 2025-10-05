@@ -1,0 +1,313 @@
+{
+  "paper_id": "PMC7940393",
+  "section": "LPS preparation, treatments, and quantification",
+  "n_nodes": 8,
+  "n_edges": 28,
+  "nodes": [
+    {
+      "id": 593,
+      "label": "colorime",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "LPS preparation, treatments, and quantification",
+        "sentence_id": 126,
+        "char_start": 34345,
+        "char_end": 34353,
+        "anchor": "PMC7940393_34345_34353",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 597,
+      "label": "LPS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "LPS preparation, treatments, and quantification",
+        "sentence_id": 126,
+        "char_start": 34316,
+        "char_end": 34319,
+        "anchor": "PMC7940393_34316_34319",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 598,
+      "label": "Purpald",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "LPS preparation, treatments, and quantification",
+        "sentence_id": 126,
+        "char_start": 34358,
+        "char_end": 34365,
+        "anchor": "PMC7940393_34358_34365",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 600,
+      "label": "Synergy",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "LPS preparation, treatments, and quantification",
+        "sentence_id": 126,
+        "char_start": 34382,
+        "char_end": 34389,
+        "anchor": "PMC7940393_34382_34389",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 601,
+      "label": "Biotek",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "LPS preparation, treatments, and quantification",
+        "sentence_id": 126,
+        "char_start": 34404,
+        "char_end": 34410,
+        "anchor": "PMC7940393_34404_34410",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 602,
+      "label": "Winsooki",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "LPS preparation, treatments, and quantification",
+        "sentence_id": 126,
+        "char_start": 34412,
+        "char_end": 34420,
+        "anchor": "PMC7940393_34412_34420",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 603,
+      "label": "Purpald",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "LPS preparation, treatments, and quantification",
+        "sentence_id": 126,
+        "char_start": 34430,
+        "char_end": 34437,
+        "anchor": "PMC7940393_34430_34437",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 604,
+      "label": "LPS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "LPS preparation, treatments, and quantification",
+        "sentence_id": 126,
+        "char_start": 34494,
+        "char_end": 34497,
+        "anchor": "PMC7940393_34494_34497",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1291,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 593,
+      "target": 597
+    },
+    {
+      "id": 1292,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 593,
+      "target": 598
+    },
+    {
+      "id": 1294,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 593,
+      "target": 600
+    },
+    {
+      "id": 1295,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 593,
+      "target": 601
+    },
+    {
+      "id": 1296,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 593,
+      "target": 602
+    },
+    {
+      "id": 1297,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 593,
+      "target": 603
+    },
+    {
+      "id": 1298,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 593,
+      "target": 604
+    },
+    {
+      "id": 1300,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 597,
+      "target": 598
+    },
+    {
+      "id": 1302,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 597,
+      "target": 600
+    },
+    {
+      "id": 1303,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 597,
+      "target": 601
+    },
+    {
+      "id": 1304,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 597,
+      "target": 602
+    },
+    {
+      "id": 1305,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 597,
+      "target": 603
+    },
+    {
+      "id": 1306,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 597,
+      "target": 604
+    },
+    {
+      "id": 1309,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 598,
+      "target": 600
+    },
+    {
+      "id": 1310,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 598,
+      "target": 601
+    },
+    {
+      "id": 1311,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 598,
+      "target": 602
+    },
+    {
+      "id": 1312,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 598,
+      "target": 603
+    },
+    {
+      "id": 1313,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 598,
+      "target": 604
+    },
+    {
+      "id": 1321,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 600,
+      "target": 601
+    },
+    {
+      "id": 1322,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 600,
+      "target": 602
+    },
+    {
+      "id": 1323,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 600,
+      "target": 603
+    },
+    {
+      "id": 1324,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 600,
+      "target": 604
+    },
+    {
+      "id": 1326,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 601,
+      "target": 602
+    },
+    {
+      "id": 1327,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 601,
+      "target": 603
+    },
+    {
+      "id": 1328,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 601,
+      "target": 604
+    },
+    {
+      "id": 1330,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 602,
+      "target": 603
+    },
+    {
+      "id": 1331,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 602,
+      "target": 604
+    },
+    {
+      "id": 1333,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 603,
+      "target": 604
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 6,
+      "removed_orphans": 11,
+      "largest_component": 8,
+      "removed_components": [
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 5
+  }
+}

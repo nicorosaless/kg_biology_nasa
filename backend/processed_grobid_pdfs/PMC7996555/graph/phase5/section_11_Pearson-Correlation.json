@@ -1,0 +1,114 @@
+{
+  "paper_id": "PMC7996555",
+  "section": "Pearson Correlation",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 176,
+      "label": "Pearson",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Pearson Correlation",
+        "sentence_id": 71,
+        "char_start": 12734,
+        "char_end": 12741,
+        "anchor": "PMC7996555_12734_12741",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 177,
+      "label": "Pearson",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Pearson Correlation",
+        "sentence_id": 71,
+        "char_start": 12908,
+        "char_end": 12915,
+        "anchor": "PMC7996555_12908_12915",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 172,
+      "label": "Pearson",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Pearson Correlation",
+        "sentence_id": 71,
+        "char_start": 12734,
+        "char_end": 12741,
+        "anchor": "PMC7996555_12734_12741",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 175,
+      "label": "Pearson",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Pearson Correlation",
+        "sentence_id": 71,
+        "char_start": 12908,
+        "char_end": 12915,
+        "anchor": "PMC7996555_12908_12915",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 93,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 172,
+      "target": 175
+    },
+    {
+      "id": 94,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 172,
+      "target": 176
+    },
+    {
+      "id": 95,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 172,
+      "target": 177
+    },
+    {
+      "id": 96,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 175,
+      "target": 176
+    },
+    {
+      "id": 97,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 175,
+      "target": 177
+    },
+    {
+      "id": 98,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 176,
+      "target": 177
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 10,
+      "largest_component": 4
+    },
+    "page": 5
+  }
+}

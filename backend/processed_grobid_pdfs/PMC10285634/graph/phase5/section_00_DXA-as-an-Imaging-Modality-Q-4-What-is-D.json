@@ -1,0 +1,84 @@
+{
+  "paper_id": "PMC10285634",
+  "section": "DXA as an Imaging Modality: Q 4. What is Dual Energy X-Ray Absorptiometry (DXA or DEXA)?",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 19,
+      "label": "DXA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DXA as an Imaging Modality: Q 4. What is Dual Energy X-Ray Absorptiometry (DXA or DEXA)?",
+        "sentence_id": 14,
+        "char_start": 1826,
+        "char_end": 1829,
+        "anchor": "PMC10285634_1826_1829",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 22,
+      "label": "energies",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DXA as an Imaging Modality: Q 4. What is Dual Energy X-Ray Absorptiometry (DXA or DEXA)?",
+        "sentence_id": 14,
+        "char_start": 1913,
+        "char_end": 1921,
+        "anchor": "PMC10285634_1913_1921",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 23,
+      "label": "DXA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "DXA as an Imaging Modality: Q 4. What is Dual Energy X-Ray Absorptiometry (DXA or DEXA)?",
+        "sentence_id": 14,
+        "char_start": 1826,
+        "char_end": 1829,
+        "anchor": "PMC10285634_1826_1829",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 15,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 19,
+      "target": 22
+    },
+    {
+      "id": 16,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 19,
+      "target": 23
+    },
+    {
+      "id": 17,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 22,
+      "target": 23
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 7,
+      "largest_component": 3,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 2
+  }
+}

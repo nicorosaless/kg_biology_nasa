@@ -1,0 +1,211 @@
+{
+  "paper_id": "PMC11263583",
+  "section": "Space-relevant harmful alleles",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 513,
+      "label": "ATM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Space-relevant harmful alleles",
+        "sentence_id": 141,
+        "char_start": 39081,
+        "char_end": 39084,
+        "anchor": "PMC11263583_39081_39084",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 514,
+      "label": "NBS1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Space-relevant harmful alleles",
+        "sentence_id": 141,
+        "char_start": 39157,
+        "char_end": 39161,
+        "anchor": "PMC11263583_39157_39161",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 515,
+      "label": "Nijmegen",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Space-relevant harmful alleles",
+        "sentence_id": 141,
+        "char_start": 39177,
+        "char_end": 39185,
+        "anchor": "PMC11263583_39177_39185",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 516,
+      "label": "BRCA1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Space-relevant harmful alleles",
+        "sentence_id": 141,
+        "char_start": 39445,
+        "char_end": 39450,
+        "anchor": "PMC11263583_39445_39450",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 517,
+      "label": "BRCA2",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Space-relevant harmful alleles",
+        "sentence_id": 141,
+        "char_start": 39452,
+        "char_end": 39457,
+        "anchor": "PMC11263583_39452_39457",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 518,
+      "label": "P53",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Space-relevant harmful alleles",
+        "sentence_id": 141,
+        "char_start": 39459,
+        "char_end": 39462,
+        "anchor": "PMC11263583_39459_39462",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1327,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 513,
+      "target": 514
+    },
+    {
+      "id": 1328,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 513,
+      "target": 515
+    },
+    {
+      "id": 1329,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 513,
+      "target": 516
+    },
+    {
+      "id": 1330,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 513,
+      "target": 517
+    },
+    {
+      "id": 1331,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 513,
+      "target": 518
+    },
+    {
+      "id": 1332,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 514,
+      "target": 515
+    },
+    {
+      "id": 1333,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 514,
+      "target": 516
+    },
+    {
+      "id": 1334,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 514,
+      "target": 517
+    },
+    {
+      "id": 1335,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 514,
+      "target": 518
+    },
+    {
+      "id": 1336,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 515,
+      "target": 516
+    },
+    {
+      "id": 1337,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 515,
+      "target": 517
+    },
+    {
+      "id": 1338,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 515,
+      "target": 518
+    },
+    {
+      "id": 1339,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 516,
+      "target": 517
+    },
+    {
+      "id": 1340,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 516,
+      "target": 518
+    },
+    {
+      "id": 1341,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 517,
+      "target": 518
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 12,
+      "removed_orphans": 5,
+      "largest_component": 6,
+      "removed_components": [
+        5,
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 4
+  }
+}

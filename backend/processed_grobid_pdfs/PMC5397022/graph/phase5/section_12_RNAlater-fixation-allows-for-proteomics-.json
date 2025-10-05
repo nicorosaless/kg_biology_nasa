@@ -1,0 +1,118 @@
+{
+  "paper_id": "PMC5397022",
+  "section": "RNAlater fixation allows for proteomics analysis",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 112,
+      "label": "RNAlater",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater fixation allows for proteomics analysis",
+        "sentence_id": 29,
+        "char_start": 5231,
+        "char_end": 5239,
+        "anchor": "PMC5397022_5231_5239",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 113,
+      "label": "RNAlater",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater fixation allows for proteomics analysis",
+        "sentence_id": 29,
+        "char_start": 5408,
+        "char_end": 5416,
+        "anchor": "PMC5397022_5408_5416",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 114,
+      "label": "RNAlater",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater fixation allows for proteomics analysis",
+        "sentence_id": 29,
+        "char_start": 5231,
+        "char_end": 5239,
+        "anchor": "PMC5397022_5231_5239",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 115,
+      "label": "RNAlater",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "RNAlater fixation allows for proteomics analysis",
+        "sentence_id": 29,
+        "char_start": 5408,
+        "char_end": 5416,
+        "anchor": "PMC5397022_5408_5416",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 149,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 112,
+      "target": 113
+    },
+    {
+      "id": 150,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 112,
+      "target": 114
+    },
+    {
+      "id": 151,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 112,
+      "target": 115
+    },
+    {
+      "id": 152,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 113,
+      "target": 114
+    },
+    {
+      "id": 153,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 113,
+      "target": 115
+    },
+    {
+      "id": 154,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 114,
+      "target": 115
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 3,
+      "largest_component": 4,
+      "removed_components": [
+        4,
+        2
+      ]
+    },
+    "page": 1
+  }
+}

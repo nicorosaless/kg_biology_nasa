@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC6130020",
+  "section": "Lugol Staining of Columella Cells",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 485,
+      "label": "genotype",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lugol Staining of Columella Cells",
+        "sentence_id": 107,
+        "char_start": 25621,
+        "char_end": 25629,
+        "anchor": "PMC6130020_25621_25629",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 486,
+      "label": "thirteen",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Lugol Staining of Columella Cells",
+        "sentence_id": 107,
+        "char_start": 25581,
+        "char_end": 25589,
+        "anchor": "PMC6130020_25581_25589",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 625,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 485,
+      "target": 486
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 2,
+      "largest_component": 2
+    },
+    "page": 7
+  }
+}

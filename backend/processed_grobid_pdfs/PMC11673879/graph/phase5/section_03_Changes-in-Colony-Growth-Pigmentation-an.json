@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC11673879",
+  "section": "Changes in Colony Growth, Pigmentation, and Loss of Sporulation in Evolved Lines",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 404,
+      "label": "strains",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Changes in Colony Growth, Pigmentation, and Loss of Sporulation in Evolved Lines",
+        "sentence_id": 173,
+        "char_start": 28196,
+        "char_end": 28203,
+        "anchor": "PMC11673879_28196_28203",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 407,
+      "label": "LTT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Changes in Colony Growth, Pigmentation, and Loss of Sporulation in Evolved Lines",
+        "sentence_id": 173,
+        "char_start": 28427,
+        "char_end": 28430,
+        "anchor": "PMC11673879_28427_28430",
+        "page": 9,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 275,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 404,
+      "target": 407
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 11,
+      "largest_component": 2
+    },
+    "page": 9
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC5515506",
+  "section": "Clinorotation and time-lapse imaging",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 168,
+      "label": "rotation",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Clinorotation and time-lapse imaging",
+        "sentence_id": 70,
+        "char_start": 12189,
+        "char_end": 12197,
+        "anchor": "PMC5515506_12189_12197",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 169,
+      "label": "rotation",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Clinorotation and time-lapse imaging",
+        "sentence_id": 70,
+        "char_start": 12365,
+        "char_end": 12373,
+        "anchor": "PMC5515506_12365_12373",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 233,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 168,
+      "target": 169
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 10,
+      "largest_component": 2
+    },
+    "page": 3
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "paper_id": "PMC4405755",
+  "section": "Cross-sectional area (CSA) analysis",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 150,
+      "label": "Lei",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cross-sectional area (CSA) analysis",
+        "sentence_id": 53,
+        "char_start": 9493,
+        "char_end": 9496,
+        "anchor": "PMC4405755_9493_9496",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 151,
+      "label": "Fibre",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cross-sectional area (CSA) analysis",
+        "sentence_id": 53,
+        "char_start": 9581,
+        "char_end": 9586,
+        "anchor": "PMC4405755_9581_9586",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 153,
+      "label": "software",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cross-sectional area (CSA) analysis",
+        "sentence_id": 53,
+        "char_start": 9626,
+        "char_end": 9634,
+        "anchor": "PMC4405755_9626_9634",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 154,
+      "label": "Leica",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cross-sectional area (CSA) analysis",
+        "sentence_id": 53,
+        "char_start": 9493,
+        "char_end": 9498,
+        "anchor": "PMC4405755_9493_9498",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 155,
+      "label": "NIH",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cross-sectional area (CSA) analysis",
+        "sentence_id": 53,
+        "char_start": 9636,
+        "char_end": 9639,
+        "anchor": "PMC4405755_9636_9639",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 156,
+      "label": "Bethesda",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cross-sectional area (CSA) analysis",
+        "sentence_id": 53,
+        "char_start": 9641,
+        "char_end": 9649,
+        "anchor": "PMC4405755_9641_9649",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 158,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cross-sectional area (CSA) analysis",
+        "sentence_id": 53,
+        "char_start": 9655,
+        "char_end": 9658,
+        "anchor": "PMC4405755_9655_9658",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 56,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 150,
+      "target": 151
+    },
+    {
+      "id": 57,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 150,
+      "target": 153
+    },
+    {
+      "id": 58,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 150,
+      "target": 154
+    },
+    {
+      "id": 59,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 150,
+      "target": 155
+    },
+    {
+      "id": 60,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 150,
+      "target": 156
+    },
+    {
+      "id": 62,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 150,
+      "target": 158
+    },
+    {
+      "id": 63,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 151,
+      "target": 153
+    },
+    {
+      "id": 64,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 151,
+      "target": 154
+    },
+    {
+      "id": 65,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 151,
+      "target": 155
+    },
+    {
+      "id": 66,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 151,
+      "target": 156
+    },
+    {
+      "id": 68,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 151,
+      "target": 158
+    },
+    {
+      "id": 69,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 153,
+      "target": 154
+    },
+    {
+      "id": 70,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 153,
+      "target": 155
+    },
+    {
+      "id": 71,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 153,
+      "target": 156
+    },
+    {
+      "id": 73,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 153,
+      "target": 158
+    },
+    {
+      "id": 74,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 154,
+      "target": 155
+    },
+    {
+      "id": 75,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 154,
+      "target": 156
+    },
+    {
+      "id": 77,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 154,
+      "target": 158
+    },
+    {
+      "id": 78,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 155,
+      "target": 156
+    },
+    {
+      "id": 80,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 155,
+      "target": 158
+    },
+    {
+      "id": 82,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 156,
+      "target": 158
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 4,
+      "largest_component": 7,
+      "removed_components": [
+        3
+      ]
+    },
+    "page": 3
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "paper_id": "PMC5666799",
+  "section": "TBI Experiment Design",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 163,
+      "label": "Marrow",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "TBI Experiment Design",
+        "sentence_id": 45,
+        "char_start": 8674,
+        "char_end": 8680,
+        "anchor": "PMC5666799_8674_8680",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 164,
+      "label": "removed",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "TBI Experiment Design",
+        "sentence_id": 45,
+        "char_start": 8705,
+        "char_end": 8712,
+        "anchor": "PMC5666799_8705_8712",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 165,
+      "label": "Marrow",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "TBI Experiment Design",
+        "sentence_id": 45,
+        "char_start": 8674,
+        "char_end": 8680,
+        "anchor": "PMC5666799_8674_8680",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 223,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 163,
+      "target": 164
+    },
+    {
+      "id": 224,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 163,
+      "target": 165
+    },
+    {
+      "id": 225,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 164,
+      "target": 165
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 18,
+      "largest_component": 3,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 2
+  }
+}

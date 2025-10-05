@@ -1,0 +1,85 @@
+{
+  "paper_id": "PMC10800490",
+  "section": "Combined OMIC approaches",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 848,
+      "label": "Seq",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Combined OMIC approaches",
+        "sentence_id": 236,
+        "char_start": 51886,
+        "char_end": 51889,
+        "anchor": "PMC10800490_51886_51889",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 846,
+      "label": "sRNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Combined OMIC approaches",
+        "sentence_id": 236,
+        "char_start": 51847,
+        "char_end": 51851,
+        "anchor": "PMC10800490_51847_51851",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 847,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Combined OMIC approaches",
+        "sentence_id": 236,
+        "char_start": 51882,
+        "char_end": 51885,
+        "anchor": "PMC10800490_51882_51885",
+        "page": 14,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1558,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 846,
+      "target": 847
+    },
+    {
+      "id": 1559,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 846,
+      "target": 848
+    },
+    {
+      "id": 1560,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 847,
+      "target": 848
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 10,
+      "largest_component": 3,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 14
+  }
+}

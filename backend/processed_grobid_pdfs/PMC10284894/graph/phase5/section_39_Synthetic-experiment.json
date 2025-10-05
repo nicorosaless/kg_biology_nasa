@@ -1,0 +1,892 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "Synthetic EXPERIMENT",
+  "n_nodes": 42,
+  "n_edges": 41,
+  "nodes": [
+    {
+      "id": 37,
+      "label": "human explorers",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 23,
+        "char_start": 2939,
+        "char_end": 2954,
+        "anchor": "PMC10284894_2939_2954",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 77,
+      "label": "international",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Sustainable Artemis Missions",
+        "sentence_id": 45,
+        "char_start": 6846,
+        "char_end": 6859,
+        "anchor": "PMC10284894_6846_6859",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 89,
+      "label": "terrain vehicle",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Sustainable Artemis Missions",
+        "sentence_id": 51,
+        "char_start": 7794,
+        "char_end": 7809,
+        "anchor": "PMC10284894_7794_7809",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 112,
+      "label": "science instruments",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The Basis for a Lunar Architecture",
+        "sentence_id": 67,
+        "char_start": 11165,
+        "char_end": 11184,
+        "anchor": "PMC10284894_11165_11184",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 113,
+      "label": "experiments",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The Basis for a Lunar Architecture",
+        "sentence_id": 67,
+        "char_start": 11200,
+        "char_end": 11211,
+        "anchor": "PMC10284894_11200_11211",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 192,
+      "label": "5,000 degrees Fahrenheit",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis I and Mission Readiness",
+        "sentence_id": 99,
+        "char_start": 17908,
+        "char_end": 17932,
+        "anchor": "PMC10284894_17908_17932",
+        "page": 19,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 193,
+      "label": "as hot",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis I and Mission Readiness",
+        "sentence_id": 99,
+        "char_start": 17944,
+        "char_end": 17950,
+        "anchor": "PMC10284894_17944_17950",
+        "page": 19,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 198,
+      "label": "life support",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis I and Mission Readiness",
+        "sentence_id": 101,
+        "char_start": 18228,
+        "char_end": 18240,
+        "anchor": "PMC10284894_18228_18240",
+        "page": 19,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 200,
+      "label": "scientific investigations",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis I and Mission Readiness",
+        "sentence_id": 103,
+        "char_start": 18710,
+        "char_end": 18735,
+        "anchor": "PMC10284894_18710_18735",
+        "page": 19,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 216,
+      "label": "heat shield",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Science",
+        "sentence_id": 110,
+        "char_start": 20138,
+        "char_end": 20149,
+        "anchor": "PMC10284894_20138_20149",
+        "page": 21,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 274,
+      "label": "performance",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Mars",
+        "sentence_id": 141,
+        "char_start": 26240,
+        "char_end": 26251,
+        "anchor": "PMC10284894_26240_26251",
+        "page": 27,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 276,
+      "label": "metabolic rate",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Mars",
+        "sentence_id": 141,
+        "char_start": 26307,
+        "char_end": 26321,
+        "anchor": "PMC10284894_26307_26321",
+        "page": 27,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 278,
+      "label": "metabolic rate",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Mars",
+        "sentence_id": 141,
+        "char_start": 26371,
+        "char_end": 26385,
+        "anchor": "PMC10284894_26371_26385",
+        "page": 27,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 282,
+      "label": "GPS navigation",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Mars",
+        "sentence_id": 144,
+        "char_start": 27199,
+        "char_end": 27213,
+        "anchor": "PMC10284894_27199_27213",
+        "page": 28,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 300,
+      "label": "physical condition",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Technology",
+        "sentence_id": 154,
+        "char_start": 29243,
+        "char_end": 29261,
+        "anchor": "PMC10284894_29243_29261",
+        "page": 30,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 311,
+      "label": "nearly 25,000 mph",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Technology",
+        "sentence_id": 159,
+        "char_start": 30471,
+        "char_end": 30488,
+        "anchor": "PMC10284894_30471_30488",
+        "page": 31,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 382,
+      "label": "exploration",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Technology",
+        "sentence_id": 189,
+        "char_start": 36442,
+        "char_end": 36453,
+        "anchor": "PMC10284894_36442_36453",
+        "page": 37,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 394,
+      "label": "science investigations",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis III Surface Operations",
+        "sentence_id": 197,
+        "char_start": 38309,
+        "char_end": 38331,
+        "anchor": "PMC10284894_38309_38331",
+        "page": 39,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 399,
+      "label": "science instruments",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis III Surface Operations",
+        "sentence_id": 201,
+        "char_start": 38901,
+        "char_end": 38920,
+        "anchor": "PMC10284894_38901_38920",
+        "page": 40,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 401,
+      "label": "rock samples",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis III Surface Operations",
+        "sentence_id": 203,
+        "char_start": 39256,
+        "char_end": 39268,
+        "anchor": "PMC10284894_39256_39268",
+        "page": 40,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 402,
+      "label": "tube samples",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis III Surface Operations",
+        "sentence_id": 203,
+        "char_start": 39330,
+        "char_end": 39342,
+        "anchor": "PMC10284894_39330_39342",
+        "page": 40,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 410,
+      "label": "investigations",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis III Surface Operations",
+        "sentence_id": 210,
+        "char_start": 40812,
+        "char_end": 40826,
+        "anchor": "PMC10284894_40812_40826",
+        "page": 42,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 431,
+      "label": "three times more powerful",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The Gateway",
+        "sentence_id": 224,
+        "char_start": 43016,
+        "char_end": 43041,
+        "anchor": "PMC10284894_43016_43041",
+        "page": 44,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 450,
+      "label": "environmental forecast",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The Gateway",
+        "sentence_id": 237,
+        "char_start": 45234,
+        "char_end": 45256,
+        "anchor": "PMC10284894_45234_45256",
+        "page": 46,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 452,
+      "label": "investigations",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "The Gateway",
+        "sentence_id": 237,
+        "char_start": 45355,
+        "char_end": 45369,
+        "anchor": "PMC10284894_45355_45369",
+        "page": 46,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 576,
+      "label": "drop tests",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Water Impact Testing",
+        "sentence_id": 337,
+        "char_start": 61873,
+        "char_end": 61883,
+        "anchor": "PMC10284894_61873_61883",
+        "page": 63,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 577,
+      "label": "Orion test",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Water Impact Testing",
+        "sentence_id": 337,
+        "char_start": 61890,
+        "char_end": 61900,
+        "anchor": "PMC10284894_61890_61900",
+        "page": 63,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 588,
+      "label": "heat shield",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Heat Shield Testing",
+        "sentence_id": 341,
+        "char_start": 62610,
+        "char_end": 62621,
+        "anchor": "PMC10284894_62610_62621",
+        "page": 63,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 589,
+      "label": "redesigned",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Heat Shield Testing",
+        "sentence_id": 341,
+        "char_start": 62626,
+        "char_end": 62636,
+        "anchor": "PMC10284894_62626_62636",
+        "page": 64,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 596,
+      "label": "heat shield",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Heat Shield Testing",
+        "sentence_id": 346,
+        "char_start": 63470,
+        "char_end": 63481,
+        "anchor": "PMC10284894_63470_63481",
+        "page": 64,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 597,
+      "label": "approximately",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Heat Shield Testing",
+        "sentence_id": 346,
+        "char_start": 63506,
+        "char_end": 63519,
+        "anchor": "PMC10284894_63506_63519",
+        "page": 64,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 598,
+      "label": "5,000 degrees Fahrenheit",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Heat Shield Testing",
+        "sentence_id": 346,
+        "char_start": 63520,
+        "char_end": 63544,
+        "anchor": "PMC10284894_63520_63544",
+        "page": 64,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 610,
+      "label": "relatively gentle",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Parachute Testing",
+        "sentence_id": 351,
+        "char_start": 64514,
+        "char_end": 64531,
+        "anchor": "PMC10284894_64514_64531",
+        "page": 65,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 625,
+      "label": "lightning test",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Structural Testing",
+        "sentence_id": 356,
+        "char_start": 65452,
+        "char_end": 65466,
+        "anchor": "PMC10284894_65452_65466",
+        "page": 66,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 628,
+      "label": "o shock test",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Structural Testing",
+        "sentence_id": 357,
+        "char_start": 65706,
+        "char_end": 65718,
+        "anchor": "PMC10284894_65706_65718",
+        "page": 67,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 640,
+      "label": "Strain gauge",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Pressure Vessel Testing",
+        "sentence_id": 361,
+        "char_start": 66263,
+        "char_end": 66275,
+        "anchor": "PMC10284894_66263_66275",
+        "page": 67,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 642,
+      "label": "greater than",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Pressure Vessel Testing",
+        "sentence_id": 361,
+        "char_start": 66355,
+        "char_end": 66367,
+        "anchor": "PMC10284894_66355_66367",
+        "page": 67,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 647,
+      "label": "computers",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Power-on Testing",
+        "sentence_id": 363,
+        "char_start": 66566,
+        "char_end": 66575,
+        "anchor": "PMC10284894_66566_66575",
+        "page": 67,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 662,
+      "label": "developmental",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "SLS RS-25 Engine Testing",
+        "sentence_id": 373,
+        "char_start": 68168,
+        "char_end": 68181,
+        "anchor": "PMC10284894_68168_68181",
+        "page": 69,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 663,
+      "label": "engine tests",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "SLS RS-25 Engine Testing",
+        "sentence_id": 373,
+        "char_start": 68193,
+        "char_end": 68205,
+        "anchor": "PMC10284894_68193_68205",
+        "page": 69,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 664,
+      "label": "14,754 seconds",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "SLS RS-25 Engine Testing",
+        "sentence_id": 373,
+        "char_start": 68221,
+        "char_end": 68235,
+        "anchor": "PMC10284894_68221_68235",
+        "page": 69,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 665,
+      "label": "more than four hours",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "SLS RS-25 Engine Testing",
+        "sentence_id": 373,
+        "char_start": 68236,
+        "char_end": 68256,
+        "anchor": "PMC10284894_68236_68256",
+        "page": 69,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-37-77",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 77
+    },
+    {
+      "id": "synth-37-89",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 89
+    },
+    {
+      "id": "synth-37-112",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 112
+    },
+    {
+      "id": "synth-37-113",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 113
+    },
+    {
+      "id": "synth-37-192",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 192
+    },
+    {
+      "id": "synth-37-193",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 193
+    },
+    {
+      "id": "synth-37-198",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 198
+    },
+    {
+      "id": "synth-37-200",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 200
+    },
+    {
+      "id": "synth-37-216",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 216
+    },
+    {
+      "id": "synth-37-274",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 274
+    },
+    {
+      "id": "synth-37-276",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 276
+    },
+    {
+      "id": "synth-37-278",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 278
+    },
+    {
+      "id": "synth-37-282",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 282
+    },
+    {
+      "id": "synth-37-300",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 300
+    },
+    {
+      "id": "synth-37-311",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 311
+    },
+    {
+      "id": "synth-37-382",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 382
+    },
+    {
+      "id": "synth-37-394",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 394
+    },
+    {
+      "id": "synth-37-399",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 399
+    },
+    {
+      "id": "synth-37-401",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 401
+    },
+    {
+      "id": "synth-37-402",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 402
+    },
+    {
+      "id": "synth-37-410",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 410
+    },
+    {
+      "id": "synth-37-431",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 431
+    },
+    {
+      "id": "synth-37-450",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 450
+    },
+    {
+      "id": "synth-37-452",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 452
+    },
+    {
+      "id": "synth-37-576",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 576
+    },
+    {
+      "id": "synth-37-577",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 577
+    },
+    {
+      "id": "synth-37-588",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 588
+    },
+    {
+      "id": "synth-37-589",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 589
+    },
+    {
+      "id": "synth-37-596",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 596
+    },
+    {
+      "id": "synth-37-597",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 597
+    },
+    {
+      "id": "synth-37-598",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 598
+    },
+    {
+      "id": "synth-37-610",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 610
+    },
+    {
+      "id": "synth-37-625",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 625
+    },
+    {
+      "id": "synth-37-628",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 628
+    },
+    {
+      "id": "synth-37-640",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 640
+    },
+    {
+      "id": "synth-37-642",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 642
+    },
+    {
+      "id": "synth-37-647",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 647
+    },
+    {
+      "id": "synth-37-662",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 662
+    },
+    {
+      "id": "synth-37-663",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 663
+    },
+    {
+      "id": "synth-37-664",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 664
+    },
+    {
+      "id": "synth-37-665",
+      "type": "ASSOCIATED",
+      "source": 37,
+      "target": 665
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "EXPERIMENT",
+    "page": null
+  }
+}

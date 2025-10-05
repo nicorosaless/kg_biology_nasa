@@ -1,0 +1,125 @@
+{
+  "paper_id": "PMC10628120",
+  "section": "Phylogeny",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 514,
+      "label": "WGS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Phylogeny",
+        "sentence_id": 129,
+        "char_start": 27391,
+        "char_end": 27394,
+        "anchor": "PMC10628120_27391_27394",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 510,
+      "label": "clusters",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Phylogeny",
+        "sentence_id": 129,
+        "char_start": 27478,
+        "char_end": 27486,
+        "anchor": "PMC10628120_27478_27486",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 518,
+      "label": "ANI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Phylogeny",
+        "sentence_id": 129,
+        "char_start": 27709,
+        "char_end": 27712,
+        "anchor": "PMC10628120_27709_27712",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 511,
+      "label": "genomes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Phylogeny",
+        "sentence_id": 129,
+        "char_start": 27496,
+        "char_end": 27503,
+        "anchor": "PMC10628120_27496_27503",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 795,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 510,
+      "target": 511
+    },
+    {
+      "id": 796,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 510,
+      "target": 514
+    },
+    {
+      "id": 800,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 510,
+      "target": 518
+    },
+    {
+      "id": 801,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 511,
+      "target": 514
+    },
+    {
+      "id": 805,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 511,
+      "target": 518
+    },
+    {
+      "id": 809,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 514,
+      "target": 518
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 10,
+      "removed_orphans": 11,
+      "largest_component": 4,
+      "removed_components": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 6
+  }
+}

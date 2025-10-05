@@ -1,0 +1,136 @@
+{
+  "paper_id": "PMC11263583",
+  "section": "Synthetic ANATOMICAL_SITE",
+  "n_nodes": 6,
+  "n_edges": 5,
+  "nodes": [
+    {
+      "id": 157,
+      "label": "ricep muscles",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Individuals",
+        "sentence_id": 60,
+        "char_start": 15577,
+        "char_end": 15590,
+        "anchor": "PMC11263583_15577_15590",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 195,
+      "label": "sul Garda",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Isolated populations",
+        "sentence_id": 69,
+        "char_start": 17606,
+        "char_end": 17615,
+        "anchor": "PMC11263583_17606_17615",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 206,
+      "label": "Limone sul Garda",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Isolated populations",
+        "sentence_id": 70,
+        "char_start": 17838,
+        "char_end": 17854,
+        "anchor": "PMC11263583_17838_17854",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 281,
+      "label": "ja province",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Human cohorts: Isolated populations",
+        "sentence_id": 77,
+        "char_start": 20662,
+        "char_end": 20673,
+        "anchor": "PMC11263583_20662_20673",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 388,
+      "label": "optic disk",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Studying omics for improved spaceflight nutrition",
+        "sentence_id": 97,
+        "char_start": 27369,
+        "char_end": 27379,
+        "anchor": "PMC11263583_27369_27379",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 389,
+      "label": "mic retina",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Studying omics for improved spaceflight nutrition",
+        "sentence_id": 97,
+        "char_start": 27426,
+        "char_end": 27436,
+        "anchor": "PMC11263583_27426_27436",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-157-195",
+      "type": "ASSOCIATED",
+      "source": 157,
+      "target": 195
+    },
+    {
+      "id": "synth-157-206",
+      "type": "ASSOCIATED",
+      "source": 157,
+      "target": 206
+    },
+    {
+      "id": "synth-157-281",
+      "type": "ASSOCIATED",
+      "source": 157,
+      "target": 281
+    },
+    {
+      "id": "synth-157-388",
+      "type": "ASSOCIATED",
+      "source": 157,
+      "target": 388
+    },
+    {
+      "id": "synth-157-389",
+      "type": "ASSOCIATED",
+      "source": 157,
+      "target": 389
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "ANATOMICAL_SITE",
+    "page": null
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "paper_id": "PMC5666799",
+  "section": "Body Mass Temporal Responses and Coat Color",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 185,
+      "label": "Marrow",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Body Mass Temporal Responses and Coat Color",
+        "sentence_id": 51,
+        "char_start": 10046,
+        "char_end": 10052,
+        "anchor": "PMC5666799_10046_10052",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 186,
+      "label": "Culture",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Body Mass Temporal Responses and Coat Color",
+        "sentence_id": 51,
+        "char_start": 10053,
+        "char_end": 10060,
+        "anchor": "PMC5666799_10053_10060",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 182,
+      "label": "Marrow",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Body Mass Temporal Responses and Coat Color",
+        "sentence_id": 51,
+        "char_start": 9997,
+        "char_end": 10003,
+        "anchor": "PMC5666799_9997_10003",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 183,
+      "label": "Culture",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Body Mass Temporal Responses and Coat Color",
+        "sentence_id": 51,
+        "char_start": 10004,
+        "char_end": 10011,
+        "anchor": "PMC5666799_10004_10011",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 233,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 182,
+      "target": 183
+    },
+    {
+      "id": 234,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 182,
+      "target": 185
+    },
+    {
+      "id": 235,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 182,
+      "target": 186
+    },
+    {
+      "id": 236,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 183,
+      "target": 185
+    },
+    {
+      "id": 237,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 183,
+      "target": 186
+    },
+    {
+      "id": 238,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 185,
+      "target": 186
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 7,
+      "removed_orphans": 19,
+      "largest_component": 4,
+      "removed_components": [
+        4,
+        3,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 2
+  }
+}

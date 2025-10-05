@@ -1,0 +1,210 @@
+{
+  "paper_id": "PMC5666799",
+  "section": "Ex Vivo Osteoblastogenesis",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 352,
+      "label": "iNOS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Ex Vivo Osteoblastogenesis",
+        "sentence_id": 107,
+        "char_start": 20860,
+        "char_end": 20864,
+        "anchor": "PMC5666799_20860_20864",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 353,
+      "label": "Gadd45",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Ex Vivo Osteoblastogenesis",
+        "sentence_id": 107,
+        "char_start": 20887,
+        "char_end": 20893,
+        "anchor": "PMC5666799_20887_20893",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 355,
+      "label": "Catalase",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Ex Vivo Osteoblastogenesis",
+        "sentence_id": 107,
+        "char_start": 20660,
+        "char_end": 20668,
+        "anchor": "PMC5666799_20660_20668",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 356,
+      "label": "Bglap",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Ex Vivo Osteoblastogenesis",
+        "sentence_id": 107,
+        "char_start": 20734,
+        "char_end": 20739,
+        "anchor": "PMC5666799_20734_20739",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 345,
+      "label": "controls",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Ex Vivo Osteoblastogenesis",
+        "sentence_id": 107,
+        "char_start": 20490,
+        "char_end": 20498,
+        "anchor": "PMC5666799_20490_20498",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 348,
+      "label": "Gadd",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Ex Vivo Osteoblastogenesis",
+        "sentence_id": 107,
+        "char_start": 20625,
+        "char_end": 20629,
+        "anchor": "PMC5666799_20625_20629",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 387,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 345,
+      "target": 348
+    },
+    {
+      "id": 388,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 345,
+      "target": 352
+    },
+    {
+      "id": 389,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 345,
+      "target": 353
+    },
+    {
+      "id": 391,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 345,
+      "target": 355
+    },
+    {
+      "id": 392,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 345,
+      "target": 356
+    },
+    {
+      "id": 393,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 348,
+      "target": 352
+    },
+    {
+      "id": 394,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 348,
+      "target": 353
+    },
+    {
+      "id": 396,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 348,
+      "target": 355
+    },
+    {
+      "id": 397,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 348,
+      "target": 356
+    },
+    {
+      "id": 398,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 352,
+      "target": 353
+    },
+    {
+      "id": 400,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 352,
+      "target": 355
+    },
+    {
+      "id": 401,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 352,
+      "target": 356
+    },
+    {
+      "id": 403,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 353,
+      "target": 355
+    },
+    {
+      "id": 404,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 353,
+      "target": 356
+    },
+    {
+      "id": 407,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 355,
+      "target": 356
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 11,
+      "removed_orphans": 1,
+      "largest_component": 6,
+      "removed_components": [
+        6,
+        4,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 4
+  }
+}

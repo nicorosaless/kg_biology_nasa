@@ -1,0 +1,258 @@
+{
+  "paper_id": "PMC11263583",
+  "section": "Example 2: Space-induced bone demineralization",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 96,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Example 2: Space-induced bone demineralization",
+        "sentence_id": 40,
+        "char_start": 9954,
+        "char_end": 9957,
+        "anchor": "PMC11263583_9954_9957",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 98,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Example 2: Space-induced bone demineralization",
+        "sentence_id": 40,
+        "char_start": 10147,
+        "char_end": 10150,
+        "anchor": "PMC11263583_10147_10150",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 99,
+      "label": "Moon",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Example 2: Space-induced bone demineralization",
+        "sentence_id": 40,
+        "char_start": 10156,
+        "char_end": 10160,
+        "anchor": "PMC11263583_10156_10160",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 100,
+      "label": "Mars",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Example 2: Space-induced bone demineralization",
+        "sentence_id": 40,
+        "char_start": 10166,
+        "char_end": 10170,
+        "anchor": "PMC11263583_10166_10170",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 92,
+      "label": "LEO",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Example 2: Space-induced bone demineralization",
+        "sentence_id": 40,
+        "char_start": 9821,
+        "char_end": 9824,
+        "anchor": "PMC11263583_9821_9824",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 94,
+      "label": "LEO",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Example 2: Space-induced bone demineralization",
+        "sentence_id": 40,
+        "char_start": 9821,
+        "char_end": 9824,
+        "anchor": "PMC11263583_9821_9824",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 95,
+      "label": "BMD",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Example 2: Space-induced bone demineralization",
+        "sentence_id": 40,
+        "char_start": 9866,
+        "char_end": 9869,
+        "anchor": "PMC11263583_9866_9869",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 125,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 92,
+      "target": 94
+    },
+    {
+      "id": 126,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 92,
+      "target": 95
+    },
+    {
+      "id": 127,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 92,
+      "target": 96
+    },
+    {
+      "id": 129,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 92,
+      "target": 98
+    },
+    {
+      "id": 130,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 92,
+      "target": 99
+    },
+    {
+      "id": 131,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 92,
+      "target": 100
+    },
+    {
+      "id": 132,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 94,
+      "target": 95
+    },
+    {
+      "id": 133,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 94,
+      "target": 96
+    },
+    {
+      "id": 135,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 94,
+      "target": 98
+    },
+    {
+      "id": 136,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 94,
+      "target": 99
+    },
+    {
+      "id": 137,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 94,
+      "target": 100
+    },
+    {
+      "id": 138,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 95,
+      "target": 96
+    },
+    {
+      "id": 140,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 95,
+      "target": 98
+    },
+    {
+      "id": 141,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 95,
+      "target": 99
+    },
+    {
+      "id": 142,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 95,
+      "target": 100
+    },
+    {
+      "id": 144,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 96,
+      "target": 98
+    },
+    {
+      "id": 145,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 96,
+      "target": 99
+    },
+    {
+      "id": 146,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 96,
+      "target": 100
+    },
+    {
+      "id": 150,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 98,
+      "target": 99
+    },
+    {
+      "id": 151,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 98,
+      "target": 100
+    },
+    {
+      "id": 152,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 99,
+      "target": 100
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 8,
+      "removed_orphans": 10,
+      "largest_component": 7,
+      "removed_components": [
+        5,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 1
+  }
+}

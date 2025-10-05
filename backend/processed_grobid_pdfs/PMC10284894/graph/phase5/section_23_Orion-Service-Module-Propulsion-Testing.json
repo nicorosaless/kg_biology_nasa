@@ -1,0 +1,156 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "Orion Service Module Propulsion Testing",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 612,
+      "label": "Module",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Service Module Propulsion Testing",
+        "sentence_id": 352,
+        "char_start": 64742,
+        "char_end": 64748,
+        "anchor": "PMC10284894_64742_64748",
+        "page": 66,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 613,
+      "label": "White",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Service Module Propulsion Testing",
+        "sentence_id": 352,
+        "char_start": 64756,
+        "char_end": 64761,
+        "anchor": "PMC10284894_64756_64761",
+        "page": 66,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 614,
+      "label": "Facility",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Service Module Propulsion Testing",
+        "sentence_id": 352,
+        "char_start": 64773,
+        "char_end": 64781,
+        "anchor": "PMC10284894_64773_64781",
+        "page": 66,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 615,
+      "label": "ESA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Service Module Propulsion Testing",
+        "sentence_id": 352,
+        "char_start": 64576,
+        "char_end": 64579,
+        "anchor": "PMC10284894_64576_64579",
+        "page": 65,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 617,
+      "label": "Artemis",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Orion Service Module Propulsion Testing",
+        "sentence_id": 352,
+        "char_start": 64697,
+        "char_end": 64704,
+        "anchor": "PMC10284894_64697_64704",
+        "page": 66,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 550,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 612,
+      "target": 613
+    },
+    {
+      "id": 551,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 612,
+      "target": 614
+    },
+    {
+      "id": 552,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 612,
+      "target": 615
+    },
+    {
+      "id": 554,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 612,
+      "target": 617
+    },
+    {
+      "id": 555,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 613,
+      "target": 614
+    },
+    {
+      "id": 556,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 613,
+      "target": 615
+    },
+    {
+      "id": 558,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 613,
+      "target": 617
+    },
+    {
+      "id": 559,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 614,
+      "target": 615
+    },
+    {
+      "id": 561,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 614,
+      "target": 617
+    },
+    {
+      "id": 563,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 615,
+      "target": 617
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 0,
+      "largest_component": 5,
+      "removed_components": [
+        3
+      ]
+    },
+    "page": 65
+  }
+}

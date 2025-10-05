@@ -1,0 +1,377 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "Artemis III",
+  "n_nodes": 9,
+  "n_edges": 36,
+  "nodes": [
+    {
+      "id": 334,
+      "label": "Cislunar",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis III",
+        "sentence_id": 167,
+        "char_start": 32101,
+        "char_end": 32109,
+        "anchor": "PMC10284894_32101_32109",
+        "page": 33,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 335,
+      "label": "CAPSTONE",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis III",
+        "sentence_id": 167,
+        "char_start": 32189,
+        "char_end": 32197,
+        "anchor": "PMC10284894_32189_32197",
+        "page": 33,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 336,
+      "label": "CubeSat",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis III",
+        "sentence_id": 167,
+        "char_start": 32199,
+        "char_end": 32206,
+        "anchor": "PMC10284894_32199_32206",
+        "page": 33,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 337,
+      "label": "CAPS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis III",
+        "sentence_id": 167,
+        "char_start": 32285,
+        "char_end": 32289,
+        "anchor": "PMC10284894_32285_32289",
+        "page": 33,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 338,
+      "label": "TONE",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis III",
+        "sentence_id": 167,
+        "char_start": 32289,
+        "char_end": 32293,
+        "anchor": "PMC10284894_32289_32293",
+        "page": 33,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 339,
+      "label": "Moon",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis III",
+        "sentence_id": 167,
+        "char_start": 32343,
+        "char_end": 32347,
+        "anchor": "PMC10284894_32343_32347",
+        "page": 33,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 340,
+      "label": "CAPSTONE",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis III",
+        "sentence_id": 167,
+        "char_start": 32189,
+        "char_end": 32197,
+        "anchor": "PMC10284894_32189_32197",
+        "page": 33,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 341,
+      "label": "CubeSat",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis III",
+        "sentence_id": 167,
+        "char_start": 32199,
+        "char_end": 32206,
+        "anchor": "PMC10284894_32199_32206",
+        "page": 33,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 342,
+      "label": "Moon",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Artemis III",
+        "sentence_id": 167,
+        "char_start": 32343,
+        "char_end": 32347,
+        "anchor": "PMC10284894_32343_32347",
+        "page": 33,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 317,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 334,
+      "target": 335
+    },
+    {
+      "id": 318,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 334,
+      "target": 336
+    },
+    {
+      "id": 319,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 334,
+      "target": 337
+    },
+    {
+      "id": 320,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 334,
+      "target": 338
+    },
+    {
+      "id": 321,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 334,
+      "target": 339
+    },
+    {
+      "id": 322,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 334,
+      "target": 340
+    },
+    {
+      "id": 323,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 334,
+      "target": 341
+    },
+    {
+      "id": 324,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 334,
+      "target": 342
+    },
+    {
+      "id": 325,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 335,
+      "target": 336
+    },
+    {
+      "id": 326,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 335,
+      "target": 337
+    },
+    {
+      "id": 327,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 335,
+      "target": 338
+    },
+    {
+      "id": 328,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 335,
+      "target": 339
+    },
+    {
+      "id": 329,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 335,
+      "target": 340
+    },
+    {
+      "id": 330,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 335,
+      "target": 341
+    },
+    {
+      "id": 331,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 335,
+      "target": 342
+    },
+    {
+      "id": 332,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 336,
+      "target": 337
+    },
+    {
+      "id": 333,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 336,
+      "target": 338
+    },
+    {
+      "id": 334,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 336,
+      "target": 339
+    },
+    {
+      "id": 335,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 336,
+      "target": 340
+    },
+    {
+      "id": 336,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 336,
+      "target": 341
+    },
+    {
+      "id": 337,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 336,
+      "target": 342
+    },
+    {
+      "id": 338,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 337,
+      "target": 338
+    },
+    {
+      "id": 339,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 337,
+      "target": 339
+    },
+    {
+      "id": 340,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 337,
+      "target": 340
+    },
+    {
+      "id": 341,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 337,
+      "target": 341
+    },
+    {
+      "id": 342,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 337,
+      "target": 342
+    },
+    {
+      "id": 343,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 338,
+      "target": 339
+    },
+    {
+      "id": 344,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 338,
+      "target": 340
+    },
+    {
+      "id": 345,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 338,
+      "target": 341
+    },
+    {
+      "id": 346,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 338,
+      "target": 342
+    },
+    {
+      "id": 347,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 339,
+      "target": 340
+    },
+    {
+      "id": 348,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 339,
+      "target": 341
+    },
+    {
+      "id": 349,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 339,
+      "target": 342
+    },
+    {
+      "id": 350,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 340,
+      "target": 341
+    },
+    {
+      "id": 351,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 340,
+      "target": 342
+    },
+    {
+      "id": 352,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 341,
+      "target": 342
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 7,
+      "removed_orphans": 1,
+      "largest_component": 9,
+      "removed_components": [
+        6,
+        5,
+        4,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 33
+  }
+}

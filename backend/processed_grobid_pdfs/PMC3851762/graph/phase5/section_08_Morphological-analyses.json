@@ -1,0 +1,85 @@
+{
+  "paper_id": "PMC3851762",
+  "section": "Morphological analyses",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 593,
+      "label": "CFU",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Morphological analyses",
+        "sentence_id": 147,
+        "char_start": 33646,
+        "char_end": 33649,
+        "anchor": "PMC3851762_33646_33649",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 594,
+      "label": "CFU",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Morphological analyses",
+        "sentence_id": 147,
+        "char_start": 33686,
+        "char_end": 33689,
+        "anchor": "PMC3851762_33686_33689",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 590,
+      "label": "cultures",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Morphological analyses",
+        "sentence_id": 147,
+        "char_start": 33564,
+        "char_end": 33572,
+        "anchor": "PMC3851762_33564_33572",
+        "page": 15,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1003,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 590,
+      "target": 593
+    },
+    {
+      "id": 1004,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 590,
+      "target": 594
+    },
+    {
+      "id": 1005,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 593,
+      "target": 594
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 33,
+      "largest_component": 3,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 15
+  }
+}

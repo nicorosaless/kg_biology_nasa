@@ -1,0 +1,220 @@
+{
+  "paper_id": "PMC3851762",
+  "section": "Synthetic CELL_TYPE",
+  "n_nodes": 10,
+  "n_edges": 9,
+  "nodes": [
+    {
+      "id": 115,
+      "label": "albicans cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 28,
+        "char_start": 7047,
+        "char_end": 7061,
+        "anchor": "PMC3851762_7047_7061",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 551,
+      "label": "1 cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Morphological analyses",
+        "sentence_id": 139,
+        "char_start": 31436,
+        "char_end": 31443,
+        "anchor": "PMC3851762_31436_31443",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 615,
+      "label": "bial cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 155,
+        "char_start": 35946,
+        "char_end": 35956,
+        "anchor": "PMC3851762_35946_35956",
+        "page": 16,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 626,
+      "label": "yeast-form cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 158,
+        "char_start": 37276,
+        "char_end": 37292,
+        "anchor": "PMC3851762_37276_37292",
+        "page": 16,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 639,
+      "label": "aggregation of microbial cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 162,
+        "char_start": 38236,
+        "char_end": 38266,
+        "anchor": "PMC3851762_38236_38266",
+        "page": 17,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 693,
+      "label": "ymmetric cell",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 181,
+        "char_start": 42172,
+        "char_end": 42185,
+        "anchor": "PMC3851762_42172_42185",
+        "page": 18,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 697,
+      "label": "compared to the mother cell",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 181,
+        "char_start": 42250,
+        "char_end": 42277,
+        "anchor": "PMC3851762_42250_42277",
+        "page": 18,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 700,
+      "label": "daughter cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 182,
+        "char_start": 42702,
+        "char_end": 42716,
+        "anchor": "PMC3851762_42702_42716",
+        "page": 18,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 707,
+      "label": "daughter cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 183,
+        "char_start": 42747,
+        "char_end": 42761,
+        "anchor": "PMC3851762_42747_42761",
+        "page": 19,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 775,
+      "label": "other eukaryotic cell",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 197,
+        "char_start": 46840,
+        "char_end": 46861,
+        "anchor": "PMC3851762_46840_46861",
+        "page": 20,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-115-551",
+      "type": "ASSOCIATED",
+      "source": 115,
+      "target": 551
+    },
+    {
+      "id": "synth-115-615",
+      "type": "ASSOCIATED",
+      "source": 115,
+      "target": 615
+    },
+    {
+      "id": "synth-115-626",
+      "type": "ASSOCIATED",
+      "source": 115,
+      "target": 626
+    },
+    {
+      "id": "synth-115-639",
+      "type": "ASSOCIATED",
+      "source": 115,
+      "target": 639
+    },
+    {
+      "id": "synth-115-693",
+      "type": "ASSOCIATED",
+      "source": 115,
+      "target": 693
+    },
+    {
+      "id": "synth-115-697",
+      "type": "ASSOCIATED",
+      "source": 115,
+      "target": 697
+    },
+    {
+      "id": "synth-115-700",
+      "type": "ASSOCIATED",
+      "source": 115,
+      "target": 700
+    },
+    {
+      "id": "synth-115-707",
+      "type": "ASSOCIATED",
+      "source": 115,
+      "target": 707
+    },
+    {
+      "id": "synth-115-775",
+      "type": "ASSOCIATED",
+      "source": 115,
+      "target": 775
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "CELL_TYPE",
+    "page": null
+  }
+}

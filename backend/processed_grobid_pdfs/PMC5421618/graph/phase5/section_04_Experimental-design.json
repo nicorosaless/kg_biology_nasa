@@ -1,0 +1,57 @@
+{
+  "paper_id": "PMC5421618",
+  "section": "Experimental design",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 64,
+      "label": "HeJ",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental design",
+        "sentence_id": 24,
+        "char_start": 5112,
+        "char_end": 5115,
+        "anchor": "PMC5421618_5112_5115",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 65,
+      "label": "Jackson",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Experimental design",
+        "sentence_id": 24,
+        "char_start": 5153,
+        "char_end": 5160,
+        "anchor": "PMC5421618_5153_5160",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 15,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 64,
+      "target": 65
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 2,
+      "largest_component": 2,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 3
+  }
+}

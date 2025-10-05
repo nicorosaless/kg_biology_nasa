@@ -1,0 +1,205 @@
+{
+  "paper_id": "PMC5955502",
+  "section": "Determination of mRNA content using quantitative PCR method",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 160,
+      "label": "isolated",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 48,
+        "char_start": 11126,
+        "char_end": 11134,
+        "anchor": "PMC5955502_11126_11134",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 163,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 48,
+        "char_start": 10988,
+        "char_end": 10991,
+        "anchor": "PMC5955502_10988_10991",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 165,
+      "label": "Germany",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 48,
+        "char_start": 11112,
+        "char_end": 11119,
+        "anchor": "PMC5955502_11112_11119",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 167,
+      "label": "Germany",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 48,
+        "char_start": 11171,
+        "char_end": 11178,
+        "anchor": "PMC5955502_11171_11178",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 157,
+      "label": "Total",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 48,
+        "char_start": 10982,
+        "char_end": 10987,
+        "anchor": "PMC5955502_10982_10987",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 158,
+      "label": "RNA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Determination of mRNA content using quantitative PCR method",
+        "sentence_id": 48,
+        "char_start": 10988,
+        "char_end": 10991,
+        "anchor": "PMC5955502_10988_10991",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 179,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 157,
+      "target": 158
+    },
+    {
+      "id": 180,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 157,
+      "target": 160
+    },
+    {
+      "id": 181,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 157,
+      "target": 163
+    },
+    {
+      "id": 182,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 157,
+      "target": 165
+    },
+    {
+      "id": 183,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 157,
+      "target": 167
+    },
+    {
+      "id": 184,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 158,
+      "target": 160
+    },
+    {
+      "id": 185,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 158,
+      "target": 163
+    },
+    {
+      "id": 186,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 158,
+      "target": 165
+    },
+    {
+      "id": 187,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 158,
+      "target": 167
+    },
+    {
+      "id": 188,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 160,
+      "target": 163
+    },
+    {
+      "id": 189,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 160,
+      "target": 165
+    },
+    {
+      "id": 190,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 160,
+      "target": 167
+    },
+    {
+      "id": 191,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 163,
+      "target": 165
+    },
+    {
+      "id": 192,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 163,
+      "target": 167
+    },
+    {
+      "id": 193,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 165,
+      "target": 167
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 6,
+      "removed_orphans": 22,
+      "largest_component": 6,
+      "removed_components": [
+        3,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 6
+  }
+}

@@ -1,0 +1,451 @@
+{
+  "paper_id": "PMC9784906",
+  "section": "Synthetic ANATOMICAL_SITE",
+  "n_nodes": 21,
+  "n_edges": 20,
+  "nodes": [
+    {
+      "id": 55,
+      "label": "bone marrow compartment",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 21,
+        "char_start": 3128,
+        "char_end": 3151,
+        "anchor": "PMC9784906_3128_3151",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 57,
+      "label": "endothelium",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 21,
+        "char_start": 3192,
+        "char_end": 3203,
+        "anchor": "PMC9784906_3192_3203",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 67,
+      "label": "bone marrow",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 23,
+        "char_start": 3445,
+        "char_end": 3456,
+        "anchor": "PMC9784906_3445_3456",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 80,
+      "label": "adipose tissue",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 27,
+        "char_start": 4301,
+        "char_end": 4315,
+        "anchor": "PMC9784906_4301_4315",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 104,
+      "label": "subcutaneous adipose tissue",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Mice",
+        "sentence_id": 36,
+        "char_start": 5481,
+        "char_end": 5508,
+        "anchor": "PMC9784906_5481_5508",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 105,
+      "label": "brown adipose tissue",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Mice",
+        "sentence_id": 36,
+        "char_start": 5517,
+        "char_end": 5537,
+        "anchor": "PMC9784906_5517_5537",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 137,
+      "label": "Whole blood",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Sample Preparation for Flow Cytometry",
+        "sentence_id": 42,
+        "char_start": 6952,
+        "char_end": 6963,
+        "anchor": "PMC9784906_6952_6963",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 151,
+      "label": "Mouse femurs",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Femurs, Liver, and Adipose Tissues Histology",
+        "sentence_id": 45,
+        "char_start": 7583,
+        "char_end": 7595,
+        "anchor": "PMC9784906_7583_7595",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 220,
+      "label": "brown adipose tissue",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Quantitative Real-Time PCR (qRT-PCR)",
+        "sentence_id": 56,
+        "char_start": 10185,
+        "char_end": 10205,
+        "anchor": "PMC9784906_10185_10205",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 282,
+      "label": "bone marrow",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Mrc1 Deficiency in Mice Fed with a High-Fat Diet Affects Bone Marrow Myelopoiesis and Adiposity, Which Results in Dampened Immune-Inflammatory Response in the Circulation",
+        "sentence_id": 68,
+        "char_start": 13355,
+        "char_end": 13366,
+        "anchor": "PMC9784906_13355_13366",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 304,
+      "label": "bone marrow",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Mrc1 Deficiency in Mice Fed with a High-Fat Diet Affects Bone Marrow Myelopoiesis and Adiposity, Which Results in Dampened Immune-Inflammatory Response in the Circulation",
+        "sentence_id": 71,
+        "char_start": 14345,
+        "char_end": 14356,
+        "anchor": "PMC9784906_14345_14356",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 308,
+      "label": "bone marrow",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Mrc1 Deficiency in Mice Fed with a High-Fat Diet Affects Bone Marrow Myelopoiesis and Adiposity, Which Results in Dampened Immune-Inflammatory Response in the Circulation",
+        "sentence_id": 71,
+        "char_start": 14628,
+        "char_end": 14639,
+        "anchor": "PMC9784906_14628_14639",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 310,
+      "label": "bone marrow",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Mrc1 Deficiency in Mice Fed with a High-Fat Diet Affects Bone Marrow Myelopoiesis and Adiposity, Which Results in Dampened Immune-Inflammatory Response in the Circulation",
+        "sentence_id": 71,
+        "char_start": 14746,
+        "char_end": 14757,
+        "anchor": "PMC9784906_14746_14757",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 356,
+      "label": "l adipose tissue (",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Mrc1 Deficiency in Mice Fed with a High-Fat Diet Impacts Immune Infiltration of Metabolic Tissues during Obesity",
+        "sentence_id": 81,
+        "char_start": 17401,
+        "char_end": 17419,
+        "anchor": "PMC9784906_17401_17419",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 399,
+      "label": "pose tissue",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Immunomodulation in Mrc1 -/-Mice Is Associated with Improved Obese Phenotype",
+        "sentence_id": 87,
+        "char_start": 20282,
+        "char_end": 20293,
+        "anchor": "PMC9784906_20282_20293",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 403,
+      "label": "adipocyte area",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Immunomodulation in Mrc1 -/-Mice Is Associated with Improved Obese Phenotype",
+        "sentence_id": 89,
+        "char_start": 20604,
+        "char_end": 20618,
+        "anchor": "PMC9784906_20604_20618",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 412,
+      "label": "adipose tissue",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Immunomodulation in Mrc1 -/-Mice Is Associated with Improved Obese Phenotype",
+        "sentence_id": 90,
+        "char_start": 20746,
+        "char_end": 20760,
+        "anchor": "PMC9784906_20746_20760",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 459,
+      "label": "pose tissue",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Immunomodulation in Mrc1 -/-Mice Is Associated with Improved Obese Phenotype",
+        "sentence_id": 103,
+        "char_start": 23672,
+        "char_end": 23683,
+        "anchor": "PMC9784906_23672_23683",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 463,
+      "label": "adipocyte area",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Immunomodulation in Mrc1 -/-Mice Is Associated with Improved Obese Phenotype",
+        "sentence_id": 105,
+        "char_start": 23994,
+        "char_end": 24008,
+        "anchor": "PMC9784906_23994_24008",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 472,
+      "label": "adipose tissue",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Immunomodulation in Mrc1 -/-Mice Is Associated with Improved Obese Phenotype",
+        "sentence_id": 106,
+        "char_start": 24136,
+        "char_end": 24150,
+        "anchor": "PMC9784906_24136_24150",
+        "page": 9,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 581,
+      "label": "ymphatic vessels",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DISCUSSION",
+        "sentence_id": 127,
+        "char_start": 30786,
+        "char_end": 30802,
+        "anchor": "PMC9784906_30786_30802",
+        "page": 11,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-55-57",
+      "type": "ASSOCIATED",
+      "source": 55,
+      "target": 57
+    },
+    {
+      "id": "synth-55-67",
+      "type": "ASSOCIATED",
+      "source": 55,
+      "target": 67
+    },
+    {
+      "id": "synth-55-80",
+      "type": "ASSOCIATED",
+      "source": 55,
+      "target": 80
+    },
+    {
+      "id": "synth-55-104",
+      "type": "ASSOCIATED",
+      "source": 55,
+      "target": 104
+    },
+    {
+      "id": "synth-55-105",
+      "type": "ASSOCIATED",
+      "source": 55,
+      "target": 105
+    },
+    {
+      "id": "synth-55-137",
+      "type": "ASSOCIATED",
+      "source": 55,
+      "target": 137
+    },
+    {
+      "id": "synth-55-151",
+      "type": "ASSOCIATED",
+      "source": 55,
+      "target": 151
+    },
+    {
+      "id": "synth-55-220",
+      "type": "ASSOCIATED",
+      "source": 55,
+      "target": 220
+    },
+    {
+      "id": "synth-55-282",
+      "type": "ASSOCIATED",
+      "source": 55,
+      "target": 282
+    },
+    {
+      "id": "synth-55-304",
+      "type": "ASSOCIATED",
+      "source": 55,
+      "target": 304
+    },
+    {
+      "id": "synth-55-308",
+      "type": "ASSOCIATED",
+      "source": 55,
+      "target": 308
+    },
+    {
+      "id": "synth-55-310",
+      "type": "ASSOCIATED",
+      "source": 55,
+      "target": 310
+    },
+    {
+      "id": "synth-55-356",
+      "type": "ASSOCIATED",
+      "source": 55,
+      "target": 356
+    },
+    {
+      "id": "synth-55-399",
+      "type": "ASSOCIATED",
+      "source": 55,
+      "target": 399
+    },
+    {
+      "id": "synth-55-403",
+      "type": "ASSOCIATED",
+      "source": 55,
+      "target": 403
+    },
+    {
+      "id": "synth-55-412",
+      "type": "ASSOCIATED",
+      "source": 55,
+      "target": 412
+    },
+    {
+      "id": "synth-55-459",
+      "type": "ASSOCIATED",
+      "source": 55,
+      "target": 459
+    },
+    {
+      "id": "synth-55-463",
+      "type": "ASSOCIATED",
+      "source": 55,
+      "target": 463
+    },
+    {
+      "id": "synth-55-472",
+      "type": "ASSOCIATED",
+      "source": 55,
+      "target": 472
+    },
+    {
+      "id": "synth-55-581",
+      "type": "ASSOCIATED",
+      "source": 55,
+      "target": 581
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "ANATOMICAL_SITE",
+    "page": null
+  }
+}

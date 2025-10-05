@@ -1,0 +1,73 @@
+{
+  "paper_id": "PMC11451251",
+  "section": "Synthetic ANATOMICAL_SITE",
+  "n_nodes": 3,
+  "n_edges": 2,
+  "nodes": [
+    {
+      "id": 179,
+      "label": "extracellular layer",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Annotations unique to ISS bacterial species",
+        "sentence_id": 64,
+        "char_start": 13158,
+        "char_end": 13177,
+        "anchor": "PMC11451251_13158_13177",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 208,
+      "label": "Microbate",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Comparison of proteome-level mutations in the ISS species and within pangenome context",
+        "sentence_id": 71,
+        "char_start": 15006,
+        "char_end": 15015,
+        "anchor": "PMC11451251_15006_15015",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 324,
+      "label": "D. radiodurans",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "DNA protection, repair and recombination",
+        "sentence_id": 107,
+        "char_start": 22549,
+        "char_end": 22563,
+        "anchor": "PMC11451251_22549_22563",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-179-208",
+      "type": "ASSOCIATED",
+      "source": 179,
+      "target": 208
+    },
+    {
+      "id": "synth-179-324",
+      "type": "ASSOCIATED",
+      "source": 179,
+      "target": 324
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "ANATOMICAL_SITE",
+    "page": null
+  }
+}

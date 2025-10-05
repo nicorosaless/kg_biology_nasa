@@ -1,0 +1,163 @@
+{
+  "intro": {
+    "heading": "Intro",
+    "summary": "This paper investigates microbial communities and their interactions. It explores the composition of these communities and potential associations between different species. The study utilizes various figures and supplementary materials to present its findings.",
+    "figures": [
+      {
+        "id": "fig_3",
+        "caption": "Fig.S7",
+        "type": "figure",
+        "forced": true
+      },
+      {
+        "id": "fig_5",
+        "caption": "Fig.S9",
+        "type": "figure",
+        "forced": true
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Richness and Species Distribution",
+      "summary": "This section presents data on species richness and distribution across different locations (L1-L8) and flight groups (F4-F7). It identifies several prominent bacterial species, including Corynebacterium sp.GD7, Haemophilus parainfluenzae, Lactococcus lactis, Propionibacterium acnes, Rothia mucilaginosa, and various Staphylococcus species. The section also includes read count data for different species across various experimental conditions. The data are visualized in figures S2 and S3.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Species Association Profile",
+      "summary": "This section focuses on the association profiles between different species, as illustrated in Figure S6. Specific details about the nature of these associations are not provided in this portion of the text.",
+      "figures": [],
+      "equations": []
+    },
+    {
+      "heading": "Polymyxin treatment",
+      "summary": "This section mentions the presence of polymyxin, though its specific role or context is not elaborated upon in this snippet. Sample identifiers such as F5_5S, F6_6S, F6_3S, and others are listed, potentially indicating experimental groups or conditions.",
+      "figures": [],
+      "equations": []
+    }
+  ],
+  "conclusion": {
+    "heading": "Conclusion",
+    "summary": "Richness Exponetiated Shannon Inverse Simpson L1 Location N eff species Flight group F4 L2 L3 L4 L5 L6 L7 L8 F5 F6 F7 Text\nFig."
+  },
+  "keywords": [
+    "microbial communities",
+    "species distribution",
+    "bacterial species",
+    "species association",
+    "read counts",
+    "polymyxin",
+    "corynebacterium",
+    "staphylococcus",
+    "haemophilus",
+    "lactococcus"
+  ],
+  "topics": [
+    "microbial ecology",
+    "bacterial communities",
+    "species interactions"
+  ],
+  "_meta": {
+    "paper_id": "sha256:42326bd959d6769a574b6f69a3f0731a100794bc13ee391c6923b59a460fb70d",
+    "paper_title": "",
+    "generated_at": "2025-10-05T10:51:22Z",
+    "word_count": 188,
+    "figures": [
+      "fig_3",
+      "fig_5"
+    ],
+    "equations": [],
+    "keywords": [
+      "microbial communities",
+      "species distribution",
+      "bacterial species",
+      "species association",
+      "read counts",
+      "polymyxin",
+      "corynebacterium",
+      "staphylococcus",
+      "haemophilus",
+      "lactococcus"
+    ],
+    "topics": [
+      "microbial ecology",
+      "bacterial communities",
+      "species interactions"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 2021,
+      "completion_tokens": 475,
+      "total_tokens": 2496,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.000202,
+      "output_usd": 0.00019,
+      "total_usd": 0.000392
+    },
+    "cost": {
+      "input_usd": 0.000202,
+      "output_usd": 0.00019,
+      "total_usd": 0.000392
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [
+        {
+          "id": "fig_3",
+          "score": -1.5,
+          "caption_wc": 1
+        },
+        {
+          "id": "fig_5",
+          "score": -1.5,
+          "caption_wc": 1
+        }
+      ],
+      "discarded": [
+        {
+          "id": "fig_4",
+          "score": -9999,
+          "caption_wc": 1
+        }
+      ],
+      "corrupted_detected": [
+        "fig_1",
+        "fig_2",
+        "fig_4"
+      ],
+      "original_total": 5,
+      "final_total": 2,
+      "non_corrupted_kept_total": 2,
+      "fallback_used": true,
+      "fallback_ids": [
+        "fig_3",
+        "fig_5"
+      ],
+      "forced_kept": [
+        "fig_3",
+        "fig_5"
+      ]
+    }
+  },
+  "figures": [
+    "fig_2"
+  ],
+  "equations": []
+}

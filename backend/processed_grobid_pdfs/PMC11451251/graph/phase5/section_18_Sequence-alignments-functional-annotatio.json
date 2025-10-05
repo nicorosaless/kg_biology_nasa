@@ -1,0 +1,117 @@
+{
+  "paper_id": "PMC11451251",
+  "section": "Sequence alignments, functional annotations for plasmids, phage elements and biosynthetic gene clusters in the genome",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 592,
+      "label": "Muscle",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sequence alignments, functional annotations for plasmids, phage elements and biosynthetic gene clusters in the genome",
+        "sentence_id": 237,
+        "char_start": 42656,
+        "char_end": 42662,
+        "anchor": "PMC11451251_42656_42662",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 596,
+      "label": "aLRT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sequence alignments, functional annotations for plasmids, phage elements and biosynthetic gene clusters in the genome",
+        "sentence_id": 237,
+        "char_start": 42806,
+        "char_end": 42810,
+        "anchor": "PMC11451251_42806_42810",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 599,
+      "label": "aLRT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sequence alignments, functional annotations for plasmids, phage elements and biosynthetic gene clusters in the genome",
+        "sentence_id": 237,
+        "char_start": 42806,
+        "char_end": 42810,
+        "anchor": "PMC11451251_42806_42810",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 591,
+      "label": "aligned",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sequence alignments, functional annotations for plasmids, phage elements and biosynthetic gene clusters in the genome",
+        "sentence_id": 237,
+        "char_start": 42642,
+        "char_end": 42649,
+        "anchor": "PMC11451251_42642_42649",
+        "page": 14,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 510,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 591,
+      "target": 592
+    },
+    {
+      "id": 511,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 591,
+      "target": 596
+    },
+    {
+      "id": 514,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 591,
+      "target": 599
+    },
+    {
+      "id": 515,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 592,
+      "target": 596
+    },
+    {
+      "id": 518,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 592,
+      "target": 599
+    },
+    {
+      "id": 521,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 596,
+      "target": 599
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 6,
+      "largest_component": 4,
+      "removed_components": [
+        3
+      ]
+    },
+    "page": 14
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "paper_id": "PMC10504369",
+  "section": "Telomerase activity measurement by TRAP assay",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 704,
+      "label": "Bradford",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomerase activity measurement by TRAP assay",
+        "sentence_id": 187,
+        "char_start": 40790,
+        "char_end": 40798,
+        "anchor": "PMC10504369_40790_40798",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 706,
+      "label": "Bradford",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomerase activity measurement by TRAP assay",
+        "sentence_id": 187,
+        "char_start": 40790,
+        "char_end": 40798,
+        "anchor": "PMC10504369_40790_40798",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 702,
+      "label": "Lysates",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Telomerase activity measurement by TRAP assay",
+        "sentence_id": 187,
+        "char_start": 40673,
+        "char_end": 40680,
+        "anchor": "PMC10504369_40673_40680",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1135,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 702,
+      "target": 704
+    },
+    {
+      "id": 1137,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 702,
+      "target": 706
+    },
+    {
+      "id": 1139,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 704,
+      "target": 706
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 5,
+      "largest_component": 3,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 5
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "paper_id": "PMC10889206",
+  "section": "Histomorphometry",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 568,
+      "label": "Atlanta",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Histomorphometry",
+        "sentence_id": 131,
+        "char_start": 26377,
+        "char_end": 26384,
+        "anchor": "PMC10889206_26377_26384",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 570,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Histomorphometry",
+        "sentence_id": 131,
+        "char_start": 26390,
+        "char_end": 26393,
+        "anchor": "PMC10889206_26390_26393",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 565,
+      "label": "luidine",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Histomorphometry",
+        "sentence_id": 131,
+        "char_start": 26261,
+        "char_end": 26268,
+        "anchor": "PMC10889206_26261_26268",
+        "page": 11,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 566,
+      "label": "Sigma",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Histomorphometry",
+        "sentence_id": 131,
+        "char_start": 26275,
+        "char_end": 26280,
+        "anchor": "PMC10889206_26275_26280",
+        "page": 11,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 903,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 565,
+      "target": 566
+    },
+    {
+      "id": 905,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 565,
+      "target": 568
+    },
+    {
+      "id": 907,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 565,
+      "target": 570
+    },
+    {
+      "id": 909,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 566,
+      "target": 568
+    },
+    {
+      "id": 911,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 566,
+      "target": 570
+    },
+    {
+      "id": 916,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 568,
+      "target": 570
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 16,
+      "largest_component": 4,
+      "removed_components": [
+        3,
+        3,
+        2
+      ]
+    },
+    "page": 11
+  }
+}

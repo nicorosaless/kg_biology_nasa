@@ -1,0 +1,118 @@
+{
+  "paper_id": "PMC10284894",
+  "section": "SLS Booster Testing",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 672,
+      "label": "Utah",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "SLS Booster Testing",
+        "sentence_id": 377,
+        "char_start": 68859,
+        "char_end": 68863,
+        "anchor": "PMC10284894_68859_68863",
+        "page": 70,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 669,
+      "label": "booster",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "SLS Booster Testing",
+        "sentence_id": 377,
+        "char_start": 68687,
+        "char_end": 68694,
+        "anchor": "PMC10284894_68687_68694",
+        "page": 70,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 670,
+      "label": "Northrop",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "SLS Booster Testing",
+        "sentence_id": 377,
+        "char_start": 68813,
+        "char_end": 68821,
+        "anchor": "PMC10284894_68813_68821",
+        "page": 70,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 671,
+      "label": "Grumman",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "SLS Booster Testing",
+        "sentence_id": 377,
+        "char_start": 68822,
+        "char_end": 68829,
+        "anchor": "PMC10284894_68822_68829",
+        "page": 70,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 612,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 669,
+      "target": 670
+    },
+    {
+      "id": 613,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 669,
+      "target": 671
+    },
+    {
+      "id": 614,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 669,
+      "target": 672
+    },
+    {
+      "id": 615,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 670,
+      "target": 671
+    },
+    {
+      "id": 616,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 670,
+      "target": 672
+    },
+    {
+      "id": 617,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 671,
+      "target": 672
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 1,
+      "largest_component": 4,
+      "removed_components": [
+        2,
+        2
+      ]
+    },
+    "page": 70
+  }
+}

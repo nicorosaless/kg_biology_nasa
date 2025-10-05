@@ -1,0 +1,198 @@
+{
+  "paper_id": "PMC10628120",
+  "section": "Genome annotation and prediction of secondary-metabolite biosynthetic potential",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 368,
+      "label": "Strict",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome annotation and prediction of secondary-metabolite biosynthetic potential",
+        "sentence_id": 94,
+        "char_start": 20632,
+        "char_end": 20638,
+        "anchor": "PMC10628120_20632_20638",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 370,
+      "label": "RGI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome annotation and prediction of secondary-metabolite biosynthetic potential",
+        "sentence_id": 94,
+        "char_start": 20440,
+        "char_end": 20443,
+        "anchor": "PMC10628120_20440_20443",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 371,
+      "label": "CARD",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome annotation and prediction of secondary-metabolite biosynthetic potential",
+        "sentence_id": 94,
+        "char_start": 20482,
+        "char_end": 20486,
+        "anchor": "PMC10628120_20482_20486",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 372,
+      "label": "ISS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome annotation and prediction of secondary-metabolite biosynthetic potential",
+        "sentence_id": 94,
+        "char_start": 20590,
+        "char_end": 20593,
+        "anchor": "PMC10628120_20590_20593",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 373,
+      "label": "Perfect",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome annotation and prediction of secondary-metabolite biosynthetic potential",
+        "sentence_id": 94,
+        "char_start": 20618,
+        "char_end": 20625,
+        "anchor": "PMC10628120_20618_20625",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 367,
+      "label": "Perfect",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Genome annotation and prediction of secondary-metabolite biosynthetic potential",
+        "sentence_id": 94,
+        "char_start": 20618,
+        "char_end": 20625,
+        "anchor": "PMC10628120_20618_20625",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 658,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 367,
+      "target": 368
+    },
+    {
+      "id": 660,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 367,
+      "target": 370
+    },
+    {
+      "id": 661,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 367,
+      "target": 371
+    },
+    {
+      "id": 662,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 367,
+      "target": 372
+    },
+    {
+      "id": 663,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 367,
+      "target": 373
+    },
+    {
+      "id": 665,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 368,
+      "target": 370
+    },
+    {
+      "id": 666,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 368,
+      "target": 371
+    },
+    {
+      "id": 667,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 368,
+      "target": 372
+    },
+    {
+      "id": 668,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 368,
+      "target": 373
+    },
+    {
+      "id": 673,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 370,
+      "target": 371
+    },
+    {
+      "id": 674,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 370,
+      "target": 372
+    },
+    {
+      "id": 675,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 370,
+      "target": 373
+    },
+    {
+      "id": 676,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 371,
+      "target": 372
+    },
+    {
+      "id": 677,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 371,
+      "target": 373
+    },
+    {
+      "id": 678,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 372,
+      "target": 373
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 4,
+      "largest_component": 6
+    },
+    "page": 5
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "paper_id": "PMC11451251",
+  "section": "Protein mutation and enrichment analysis",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 632,
+      "label": "FDR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein mutation and enrichment analysis",
+        "sentence_id": 251,
+        "char_start": 44576,
+        "char_end": 44579,
+        "anchor": "PMC11451251_44576_44579",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 627,
+      "label": "Shared",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein mutation and enrichment analysis",
+        "sentence_id": 251,
+        "char_start": 44499,
+        "char_end": 44505,
+        "anchor": "PMC11451251_44499_44505",
+        "page": 14,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 629,
+      "label": "samples",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein mutation and enrichment analysis",
+        "sentence_id": 251,
+        "char_start": 44524,
+        "char_end": 44531,
+        "anchor": "PMC11451251_44524_44531",
+        "page": 14,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 536,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 627,
+      "target": 629
+    },
+    {
+      "id": 537,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 627,
+      "target": 632
+    },
+    {
+      "id": 539,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 629,
+      "target": 632
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 20,
+      "largest_component": 3,
+      "removed_components": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 14
+  }
+}

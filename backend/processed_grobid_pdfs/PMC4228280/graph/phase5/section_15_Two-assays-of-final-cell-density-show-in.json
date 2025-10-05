@@ -1,0 +1,261 @@
+{
+  "paper_id": "PMC4228280",
+  "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 198,
+      "label": "citrate",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 62,
+        "char_start": 15182,
+        "char_end": 15189,
+        "anchor": "PMC4228280_15182_15189",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 199,
+      "label": "glucose",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 62,
+        "char_start": 15195,
+        "char_end": 15202,
+        "anchor": "PMC4228280_15195_15202",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 204,
+      "label": "mAUMg",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 62,
+        "char_start": 14790,
+        "char_end": 14795,
+        "anchor": "PMC4228280_14790_14795",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 186,
+      "label": "Changing",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 62,
+        "char_start": 14492,
+        "char_end": 14500,
+        "anchor": "PMC4228280_14492_14500",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 188,
+      "label": "mAUM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 62,
+        "char_start": 14711,
+        "char_end": 14715,
+        "anchor": "PMC4228280_14711_14715",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 189,
+      "label": "glucose",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 62,
+        "char_start": 14726,
+        "char_end": 14733,
+        "anchor": "PMC4228280_14726_14733",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 191,
+      "label": "mAUM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Two assays of final cell density show inconsistent measurements of spaceflight and normal gravity cultures grown in specialized hardware",
+        "sentence_id": 62,
+        "char_start": 14790,
+        "char_end": 14794,
+        "anchor": "PMC4228280_14790_14794",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 120,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 186,
+      "target": 188
+    },
+    {
+      "id": 121,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 186,
+      "target": 189
+    },
+    {
+      "id": 122,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 186,
+      "target": 191
+    },
+    {
+      "id": 123,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 186,
+      "target": 198
+    },
+    {
+      "id": 124,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 186,
+      "target": 199
+    },
+    {
+      "id": 126,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 186,
+      "target": 204
+    },
+    {
+      "id": 129,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 188,
+      "target": 189
+    },
+    {
+      "id": 130,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 188,
+      "target": 191
+    },
+    {
+      "id": 131,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 188,
+      "target": 198
+    },
+    {
+      "id": 132,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 188,
+      "target": 199
+    },
+    {
+      "id": 134,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 188,
+      "target": 204
+    },
+    {
+      "id": 137,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 189,
+      "target": 191
+    },
+    {
+      "id": 138,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 189,
+      "target": 198
+    },
+    {
+      "id": 139,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 189,
+      "target": 199
+    },
+    {
+      "id": 141,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 189,
+      "target": 204
+    },
+    {
+      "id": 144,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 191,
+      "target": 198
+    },
+    {
+      "id": 145,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 191,
+      "target": 199
+    },
+    {
+      "id": 147,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 191,
+      "target": 204
+    },
+    {
+      "id": 150,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 198,
+      "target": 199
+    },
+    {
+      "id": 152,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 198,
+      "target": 204
+    },
+    {
+      "id": 156,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 199,
+      "target": 204
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 11,
+      "removed_orphans": 1,
+      "largest_component": 7,
+      "removed_components": [
+        6,
+        5,
+        5,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 3
+  }
+}

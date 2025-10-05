@@ -1,0 +1,86 @@
+{
+  "paper_id": "PMC3554398",
+  "section": "Sampling location",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 104,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sampling location",
+        "sentence_id": 20,
+        "char_start": 7037,
+        "char_end": 7040,
+        "anchor": "PMC3554398_7037_7040",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 101,
+      "label": "cleaning",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sampling location",
+        "sentence_id": 20,
+        "char_start": 6946,
+        "char_end": 6954,
+        "anchor": "PMC3554398_6946_6954",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 102,
+      "label": "Cerritos",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Sampling location",
+        "sentence_id": 20,
+        "char_start": 7023,
+        "char_end": 7031,
+        "anchor": "PMC3554398_7023_7031",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 356,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 101,
+      "target": 102
+    },
+    {
+      "id": 358,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 101,
+      "target": 104
+    },
+    {
+      "id": 360,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 102,
+      "target": 104
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 5,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        3,
+        2
+      ]
+    },
+    "page": 2
+  }
+}

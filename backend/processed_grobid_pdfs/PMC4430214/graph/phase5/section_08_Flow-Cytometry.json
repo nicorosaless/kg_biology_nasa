@@ -1,0 +1,81 @@
+{
+  "paper_id": "PMC4430214",
+  "section": "Flow Cytometry",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 160,
+      "label": "antibody",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Flow Cytometry",
+        "sentence_id": 51,
+        "char_start": 10561,
+        "char_end": 10569,
+        "anchor": "PMC4430214_10561_10569",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 163,
+      "label": "BSA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Flow Cytometry",
+        "sentence_id": 51,
+        "char_start": 10603,
+        "char_end": 10606,
+        "anchor": "PMC4430214_10603_10606",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 164,
+      "label": "1xPBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Flow Cytometry",
+        "sentence_id": 51,
+        "char_start": 10610,
+        "char_end": 10615,
+        "anchor": "PMC4430214_10610_10615",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 175,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 160,
+      "target": 163
+    },
+    {
+      "id": 176,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 160,
+      "target": 164
+    },
+    {
+      "id": 179,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 163,
+      "target": 164
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 15,
+      "largest_component": 3
+    },
+    "page": 4
+  }
+}

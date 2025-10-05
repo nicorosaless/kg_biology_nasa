@@ -1,0 +1,312 @@
+{
+  "paper_id": "PMC4228280",
+  "section": "Bacterial strains and culture media",
+  "n_nodes": 8,
+  "n_edges": 28,
+  "nodes": [
+    {
+      "id": 384,
+      "label": "CFU",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacterial strains and culture media",
+        "sentence_id": 113,
+        "char_start": 26817,
+        "char_end": 26820,
+        "anchor": "PMC4228280_26817_26820",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 385,
+      "label": "RPMI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacterial strains and culture media",
+        "sentence_id": 113,
+        "char_start": 27009,
+        "char_end": 27013,
+        "anchor": "PMC4228280_27009_27013",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 388,
+      "label": "Sigma",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacterial strains and culture media",
+        "sentence_id": 113,
+        "char_start": 27045,
+        "char_end": 27050,
+        "anchor": "PMC4228280_27045_27050",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 390,
+      "label": "Sigma",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacterial strains and culture media",
+        "sentence_id": 113,
+        "char_start": 27100,
+        "char_end": 27105,
+        "anchor": "PMC4228280_27100_27105",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 373,
+      "label": "shaking",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacterial strains and culture media",
+        "sentence_id": 113,
+        "char_start": 26634,
+        "char_end": 26641,
+        "anchor": "PMC4228280_26634_26641",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 375,
+      "label": "cultures",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacterial strains and culture media",
+        "sentence_id": 113,
+        "char_start": 26707,
+        "char_end": 26715,
+        "anchor": "PMC4228280_26707_26715",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 378,
+      "label": "peptone",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacterial strains and culture media",
+        "sentence_id": 113,
+        "char_start": 27142,
+        "char_end": 27149,
+        "anchor": "PMC4228280_27142_27149",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 382,
+      "label": "PBS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bacterial strains and culture media",
+        "sentence_id": 113,
+        "char_start": 26774,
+        "char_end": 26777,
+        "anchor": "PMC4228280_26774_26777",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 322,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 373,
+      "target": 375
+    },
+    {
+      "id": 323,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 373,
+      "target": 378
+    },
+    {
+      "id": 327,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 373,
+      "target": 382
+    },
+    {
+      "id": 329,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 373,
+      "target": 384
+    },
+    {
+      "id": 330,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 373,
+      "target": 385
+    },
+    {
+      "id": 333,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 373,
+      "target": 388
+    },
+    {
+      "id": 335,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 373,
+      "target": 390
+    },
+    {
+      "id": 336,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 375,
+      "target": 378
+    },
+    {
+      "id": 340,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 375,
+      "target": 382
+    },
+    {
+      "id": 342,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 375,
+      "target": 384
+    },
+    {
+      "id": 343,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 375,
+      "target": 385
+    },
+    {
+      "id": 346,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 375,
+      "target": 388
+    },
+    {
+      "id": 348,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 375,
+      "target": 390
+    },
+    {
+      "id": 352,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 378,
+      "target": 382
+    },
+    {
+      "id": 354,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 378,
+      "target": 384
+    },
+    {
+      "id": 355,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 378,
+      "target": 385
+    },
+    {
+      "id": 358,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 378,
+      "target": 388
+    },
+    {
+      "id": 360,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 378,
+      "target": 390
+    },
+    {
+      "id": 392,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 382,
+      "target": 384
+    },
+    {
+      "id": 393,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 382,
+      "target": 385
+    },
+    {
+      "id": 396,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 382,
+      "target": 388
+    },
+    {
+      "id": 398,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 382,
+      "target": 390
+    },
+    {
+      "id": 406,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 384,
+      "target": 385
+    },
+    {
+      "id": 409,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 384,
+      "target": 388
+    },
+    {
+      "id": 411,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 384,
+      "target": 390
+    },
+    {
+      "id": 414,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 385,
+      "target": 388
+    },
+    {
+      "id": 416,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 385,
+      "target": 390
+    },
+    {
+      "id": 425,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 388,
+      "target": 390
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 8,
+      "largest_component": 8,
+      "removed_components": [
+        4,
+        3,
+        2,
+        2
+      ]
+    },
+    "page": 5
+  }
+}

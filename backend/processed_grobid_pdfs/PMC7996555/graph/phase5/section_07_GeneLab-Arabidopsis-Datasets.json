@@ -1,0 +1,118 @@
+{
+  "paper_id": "PMC7996555",
+  "section": "GeneLab Arabidopsis Datasets",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 121,
+      "label": "Arab",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "GeneLab Arabidopsis Datasets",
+        "sentence_id": 51,
+        "char_start": 9901,
+        "char_end": 9905,
+        "anchor": "PMC7996555_9901_9905",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 122,
+      "label": "Columbia",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "GeneLab Arabidopsis Datasets",
+        "sentence_id": 51,
+        "char_start": 9936,
+        "char_end": 9944,
+        "anchor": "PMC7996555_9936_9944",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 126,
+      "label": "Columbia",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "GeneLab Arabidopsis Datasets",
+        "sentence_id": 51,
+        "char_start": 9936,
+        "char_end": 9944,
+        "anchor": "PMC7996555_9936_9944",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 127,
+      "label": "ecotypes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "GeneLab Arabidopsis Datasets",
+        "sentence_id": 51,
+        "char_start": 9953,
+        "char_end": 9961,
+        "anchor": "PMC7996555_9953_9961",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 65,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 122
+    },
+    {
+      "id": 66,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 126
+    },
+    {
+      "id": 67,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 121,
+      "target": 127
+    },
+    {
+      "id": 68,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 122,
+      "target": 126
+    },
+    {
+      "id": 69,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 122,
+      "target": 127
+    },
+    {
+      "id": 70,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 126,
+      "target": 127
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 12,
+      "largest_component": 4,
+      "removed_components": [
+        3,
+        2
+      ]
+    },
+    "page": 4
+  }
+}

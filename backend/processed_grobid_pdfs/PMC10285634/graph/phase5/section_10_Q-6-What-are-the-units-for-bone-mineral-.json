@@ -1,0 +1,86 @@
+{
+  "paper_id": "PMC10285634",
+  "section": "Q 6. What are the units for bone mineral density (BMD)?",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 41,
+      "label": "iNSiGHT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Q 6. What are the units for bone mineral density (BMD)?",
+        "sentence_id": 26,
+        "char_start": 3277,
+        "char_end": 3284,
+        "anchor": "PMC10285634_3277_3284",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 43,
+      "label": "iNSiGHT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Q 6. What are the units for bone mineral density (BMD)?",
+        "sentence_id": 26,
+        "char_start": 3277,
+        "char_end": 3284,
+        "anchor": "PMC10285634_3277_3284",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 44,
+      "label": "BMD",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Q 6. What are the units for bone mineral density (BMD)?",
+        "sentence_id": 26,
+        "char_start": 3361,
+        "char_end": 3364,
+        "anchor": "PMC10285634_3361_3364",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 22,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 41,
+      "target": 43
+    },
+    {
+      "id": 23,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 41,
+      "target": 44
+    },
+    {
+      "id": 24,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 43,
+      "target": 44
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 6,
+      "largest_component": 3,
+      "removed_components": [
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 3
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "paper_id": "PMC4430214",
+  "section": "Presentation and Activation Molecule Changes in Splenocytes during TLR Stimulation",
+  "n_nodes": 8,
+  "n_edges": 27,
+  "nodes": [
+    {
+      "id": 384,
+      "label": "controls",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Presentation and Activation Molecule Changes in Splenocytes during TLR Stimulation",
+        "sentence_id": 110,
+        "char_start": 20812,
+        "char_end": 20820,
+        "anchor": "PMC4430214_20812_20820",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 385,
+      "label": "CD86 + cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Presentation and Activation Molecule Changes in Splenocytes during TLR Stimulation",
+        "sentence_id": 110,
+        "char_start": 20893,
+        "char_end": 20905,
+        "anchor": "PMC4430214_20893_20905",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 387,
+      "label": "MCHI",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Presentation and Activation Molecule Changes in Splenocytes during TLR Stimulation",
+        "sentence_id": 110,
+        "char_start": 20412,
+        "char_end": 20416,
+        "anchor": "PMC4430214_20412_20416",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 389,
+      "label": "CD11c",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Presentation and Activation Molecule Changes in Splenocytes during TLR Stimulation",
+        "sentence_id": 110,
+        "char_start": 20824,
+        "char_end": 20829,
+        "anchor": "PMC4430214_20824_20829",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 390,
+      "label": "CD11c",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Presentation and Activation Molecule Changes in Splenocytes during TLR Stimulation",
+        "sentence_id": 110,
+        "char_start": 20885,
+        "char_end": 20890,
+        "anchor": "PMC4430214_20885_20890",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 380,
+      "label": "MCHI + cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Presentation and Activation Molecule Changes in Splenocytes during TLR Stimulation",
+        "sentence_id": 110,
+        "char_start": 20412,
+        "char_end": 20424,
+        "anchor": "PMC4430214_20412_20424",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 381,
+      "label": "culture",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Presentation and Activation Molecule Changes in Splenocytes during TLR Stimulation",
+        "sentence_id": 110,
+        "char_start": 20508,
+        "char_end": 20515,
+        "anchor": "PMC4430214_20508_20515",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 383,
+      "label": "controls",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Presentation and Activation Molecule Changes in Splenocytes during TLR Stimulation",
+        "sentence_id": 110,
+        "char_start": 20735,
+        "char_end": 20743,
+        "anchor": "PMC4430214_20735_20743",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 366,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 381,
+      "target": 380
+    },
+    {
+      "id": 367,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 383,
+      "target": 380
+    },
+    {
+      "id": 368,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 384,
+      "target": 380
+    },
+    {
+      "id": 369,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 387,
+      "target": 380
+    },
+    {
+      "id": 371,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 389,
+      "target": 380
+    },
+    {
+      "id": 372,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 390,
+      "target": 380
+    },
+    {
+      "id": 374,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 381,
+      "target": 383
+    },
+    {
+      "id": 375,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 381,
+      "target": 384
+    },
+    {
+      "id": 376,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 381,
+      "target": 385
+    },
+    {
+      "id": 377,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 381,
+      "target": 387
+    },
+    {
+      "id": 379,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 381,
+      "target": 389
+    },
+    {
+      "id": 380,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 381,
+      "target": 390
+    },
+    {
+      "id": 382,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 383,
+      "target": 384
+    },
+    {
+      "id": 383,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 383,
+      "target": 385
+    },
+    {
+      "id": 384,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 383,
+      "target": 387
+    },
+    {
+      "id": 386,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 383,
+      "target": 389
+    },
+    {
+      "id": 387,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 383,
+      "target": 390
+    },
+    {
+      "id": 389,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 384,
+      "target": 385
+    },
+    {
+      "id": 390,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 384,
+      "target": 387
+    },
+    {
+      "id": 392,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 384,
+      "target": 389
+    },
+    {
+      "id": 393,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 384,
+      "target": 390
+    },
+    {
+      "id": 395,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 387,
+      "target": 385
+    },
+    {
+      "id": 397,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 389,
+      "target": 385
+    },
+    {
+      "id": 398,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 390,
+      "target": 385
+    },
+    {
+      "id": 401,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 387,
+      "target": 389
+    },
+    {
+      "id": 402,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 387,
+      "target": 390
+    },
+    {
+      "id": 407,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 389,
+      "target": 390
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 20,
+      "largest_component": 8,
+      "removed_components": [
+        4,
+        2,
+        2
+      ]
+    },
+    "page": 6
+  }
+}

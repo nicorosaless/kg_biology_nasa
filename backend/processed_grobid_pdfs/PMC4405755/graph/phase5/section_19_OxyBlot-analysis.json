@@ -1,0 +1,254 @@
+{
+  "paper_id": "PMC4405755",
+  "section": "OxyBlot analysis",
+  "n_nodes": 7,
+  "n_edges": 21,
+  "nodes": [
+    {
+      "id": 224,
+      "label": "SDS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OxyBlot analysis",
+        "sentence_id": 65,
+        "char_start": 12307,
+        "char_end": 12310,
+        "anchor": "PMC4405755_12307_12310",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 218,
+      "label": "protein",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OxyBlot analysis",
+        "sentence_id": 65,
+        "char_start": 12263,
+        "char_end": 12270,
+        "anchor": "PMC4405755_12263_12270",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 219,
+      "label": "PAGE",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OxyBlot analysis",
+        "sentence_id": 65,
+        "char_start": 12297,
+        "char_end": 12301,
+        "anchor": "PMC4405755_12297_12301",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 220,
+      "label": "blotted",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OxyBlot analysis",
+        "sentence_id": 65,
+        "char_start": 12341,
+        "char_end": 12348,
+        "anchor": "PMC4405755_12341_12348",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 221,
+      "label": "DNP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OxyBlot analysis",
+        "sentence_id": 65,
+        "char_start": 12168,
+        "char_end": 12171,
+        "anchor": "PMC4405755_12168_12171",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 222,
+      "label": "DNP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OxyBlot analysis",
+        "sentence_id": 65,
+        "char_start": 12247,
+        "char_end": 12250,
+        "anchor": "PMC4405755_12247_12250",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 223,
+      "label": "PAGE",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "OxyBlot analysis",
+        "sentence_id": 65,
+        "char_start": 12297,
+        "char_end": 12301,
+        "anchor": "PMC4405755_12297_12301",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 179,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 218,
+      "target": 219
+    },
+    {
+      "id": 180,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 218,
+      "target": 220
+    },
+    {
+      "id": 181,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 218,
+      "target": 221
+    },
+    {
+      "id": 182,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 218,
+      "target": 222
+    },
+    {
+      "id": 183,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 218,
+      "target": 223
+    },
+    {
+      "id": 184,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 218,
+      "target": 224
+    },
+    {
+      "id": 185,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 219,
+      "target": 220
+    },
+    {
+      "id": 186,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 219,
+      "target": 221
+    },
+    {
+      "id": 187,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 219,
+      "target": 222
+    },
+    {
+      "id": 188,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 219,
+      "target": 223
+    },
+    {
+      "id": 189,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 219,
+      "target": 224
+    },
+    {
+      "id": 190,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 220,
+      "target": 221
+    },
+    {
+      "id": 191,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 220,
+      "target": 222
+    },
+    {
+      "id": 192,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 220,
+      "target": 223
+    },
+    {
+      "id": 193,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 220,
+      "target": 224
+    },
+    {
+      "id": 194,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 221,
+      "target": 222
+    },
+    {
+      "id": 195,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 221,
+      "target": 223
+    },
+    {
+      "id": 196,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 221,
+      "target": 224
+    },
+    {
+      "id": 197,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 222,
+      "target": 223
+    },
+    {
+      "id": 198,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 222,
+      "target": 224
+    },
+    {
+      "id": 199,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 223,
+      "target": 224
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 10,
+      "largest_component": 7,
+      "removed_components": [
+        6,
+        4,
+        3
+      ]
+    },
+    "page": 4
+  }
+}

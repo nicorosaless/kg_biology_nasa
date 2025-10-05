@@ -1,0 +1,214 @@
+{
+  "paper_id": "PMC10503492",
+  "section": "Persistent effects of exposure to spaceflight",
+  "n_nodes": 7,
+  "n_edges": 14,
+  "nodes": [
+    {
+      "id": 362,
+      "label": "neuronal debris",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Persistent effects of exposure to spaceflight",
+        "sentence_id": 72,
+        "char_start": 23784,
+        "char_end": 23799,
+        "anchor": "PMC10503492_23784_23799",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 363,
+      "label": "l cell",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Persistent effects of exposure to spaceflight",
+        "sentence_id": 72,
+        "char_start": 24006,
+        "char_end": 24012,
+        "anchor": "PMC10503492_24006_24012",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 364,
+      "label": "sex-specific depletion",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Persistent effects of exposure to spaceflight",
+        "sentence_id": 72,
+        "char_start": 24176,
+        "char_end": 24198,
+        "anchor": "PMC10503492_24176_24198",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 365,
+      "label": "CNS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Persistent effects of exposure to spaceflight",
+        "sentence_id": 72,
+        "char_start": 23728,
+        "char_end": 23731,
+        "anchor": "PMC10503492_23728_23731",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 366,
+      "label": "Stevens",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Persistent effects of exposure to spaceflight",
+        "sentence_id": 72,
+        "char_start": 23815,
+        "char_end": 23822,
+        "anchor": "PMC10503492_23815_23822",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 367,
+      "label": "Peri",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Persistent effects of exposure to spaceflight",
+        "sentence_id": 72,
+        "char_start": 23840,
+        "char_end": 23844,
+        "anchor": "PMC10503492_23840_23844",
+        "page": 13,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 368,
+      "label": "Kipnis",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Persistent effects of exposure to spaceflight",
+        "sentence_id": 72,
+        "char_start": 23861,
+        "char_end": 23867,
+        "anchor": "PMC10503492_23861_23867",
+        "page": 13,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 474,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 363,
+      "target": 362
+    },
+    {
+      "id": 475,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 363,
+      "target": 364
+    },
+    {
+      "id": 476,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 365,
+      "target": 363
+    },
+    {
+      "id": 477,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 366,
+      "target": 363
+    },
+    {
+      "id": 478,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 367,
+      "target": 363
+    },
+    {
+      "id": 479,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 368,
+      "target": 363
+    },
+    {
+      "id": 482,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 365,
+      "target": 366
+    },
+    {
+      "id": 483,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 365,
+      "target": 367
+    },
+    {
+      "id": 484,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 365,
+      "target": 368
+    },
+    {
+      "id": 487,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 366,
+      "target": 367
+    },
+    {
+      "id": 488,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 366,
+      "target": 368
+    },
+    {
+      "id": 491,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 367,
+      "target": 368
+    },
+    {
+      "id": 1707,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 363,
+      "target": 362
+    },
+    {
+      "id": 1708,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 363,
+      "target": 364
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 6,
+      "removed_orphans": 16,
+      "largest_component": 7,
+      "removed_components": [
+        7,
+        4,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 12
+  }
+}

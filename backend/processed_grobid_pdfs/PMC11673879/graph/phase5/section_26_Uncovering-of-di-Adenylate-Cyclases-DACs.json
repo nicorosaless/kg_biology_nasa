@@ -1,0 +1,160 @@
+{
+  "paper_id": "PMC11673879",
+  "section": "Uncovering of di-Adenylate Cyclases (DACs) in Temperature Adaptation",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 514,
+      "label": "cdaR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Uncovering of di-Adenylate Cyclases (DACs) in Temperature Adaptation",
+        "sentence_id": 215,
+        "char_start": 36417,
+        "char_end": 36421,
+        "anchor": "PMC11673879_36417_36421",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 508,
+      "label": "disA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Uncovering of di-Adenylate Cyclases (DACs) in Temperature Adaptation",
+        "sentence_id": 215,
+        "char_start": 36365,
+        "char_end": 36369,
+        "anchor": "PMC11673879_36365_36369",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 509,
+      "label": "cdaR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Uncovering of di-Adenylate Cyclases (DACs) in Temperature Adaptation",
+        "sentence_id": 215,
+        "char_start": 36417,
+        "char_end": 36421,
+        "anchor": "PMC11673879_36417_36421",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 510,
+      "label": "ORFs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Uncovering of di-Adenylate Cyclases (DACs) in Temperature Adaptation",
+        "sentence_id": 215,
+        "char_start": 36511,
+        "char_end": 36515,
+        "anchor": "PMC11673879_36511_36515",
+        "page": 12,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 511,
+      "label": "Bin",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Uncovering of di-Adenylate Cyclases (DACs) in Temperature Adaptation",
+        "sentence_id": 215,
+        "char_start": 36542,
+        "char_end": 36545,
+        "anchor": "PMC11673879_36542_36545",
+        "page": 12,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 310,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 508,
+      "target": 509
+    },
+    {
+      "id": 311,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 508,
+      "target": 510
+    },
+    {
+      "id": 312,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 508,
+      "target": 511
+    },
+    {
+      "id": 313,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 508,
+      "target": 514
+    },
+    {
+      "id": 314,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 509,
+      "target": 510
+    },
+    {
+      "id": 315,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 509,
+      "target": 511
+    },
+    {
+      "id": 316,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 509,
+      "target": 514
+    },
+    {
+      "id": 317,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 510,
+      "target": 511
+    },
+    {
+      "id": 318,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 510,
+      "target": 514
+    },
+    {
+      "id": 319,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 511,
+      "target": 514
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 6,
+      "removed_orphans": 15,
+      "largest_component": 5,
+      "removed_components": [
+        5,
+        5,
+        4,
+        4,
+        2
+      ]
+    },
+    "page": 12
+  }
+}

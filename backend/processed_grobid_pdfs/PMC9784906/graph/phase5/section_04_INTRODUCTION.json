@@ -1,0 +1,183 @@
+{
+  "paper_id": "PMC9784906",
+  "section": "INTRODUCTION",
+  "n_nodes": 6,
+  "n_edges": 11,
+  "nodes": [
+    {
+      "id": 77,
+      "label": "myeloid inflammatory cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 27,
+        "char_start": 4193,
+        "char_end": 4219,
+        "anchor": "PMC9784906_4193_4219",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 78,
+      "label": "infiltration",
+      "type": "PHENOTYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 27,
+        "char_start": 4244,
+        "char_end": 4256,
+        "anchor": "PMC9784906_4244_4256",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 79,
+      "label": "macrophages",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 27,
+        "char_start": 4277,
+        "char_end": 4288,
+        "anchor": "PMC9784906_4277_4288",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 81,
+      "label": "myeloid",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 27,
+        "char_start": 4193,
+        "char_end": 4200,
+        "anchor": "PMC9784906_4193_4200",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 82,
+      "label": "monocyte",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 27,
+        "char_start": 4260,
+        "char_end": 4268,
+        "anchor": "PMC9784906_4260_4268",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 83,
+      "label": "VAT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "INTRODUCTION",
+        "sentence_id": 27,
+        "char_start": 4317,
+        "char_end": 4320,
+        "anchor": "PMC9784906_4317_4320",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 63,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 77,
+      "target": 78
+    },
+    {
+      "id": 64,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 81,
+      "target": 77
+    },
+    {
+      "id": 65,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 82,
+      "target": 77
+    },
+    {
+      "id": 66,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 83,
+      "target": 77
+    },
+    {
+      "id": 67,
+      "type": "CELL_TYPE_ASSOCIATED_WITH_PHENOTYPE",
+      "source": 79,
+      "target": 78
+    },
+    {
+      "id": 68,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 81,
+      "target": 79
+    },
+    {
+      "id": 69,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 82,
+      "target": 79
+    },
+    {
+      "id": 70,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 83,
+      "target": 79
+    },
+    {
+      "id": 71,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 81,
+      "target": 82
+    },
+    {
+      "id": 72,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 81,
+      "target": 83
+    },
+    {
+      "id": 73,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 82,
+      "target": 83
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 8,
+      "removed_orphans": 13,
+      "largest_component": 6,
+      "removed_components": [
+        5,
+        4,
+        3,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 2
+  }
+}

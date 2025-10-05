@@ -1,0 +1,57 @@
+{
+  "paper_id": "PMC11263583",
+  "section": "Ethical challenges of studying human space omics",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 585,
+      "label": "adverse",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Ethical challenges of studying human space omics",
+        "sentence_id": 158,
+        "char_start": 44831,
+        "char_end": 44838,
+        "anchor": "PMC11263583_44831_44838",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 586,
+      "label": "highris",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Ethical challenges of studying human space omics",
+        "sentence_id": 158,
+        "char_start": 44890,
+        "char_end": 44897,
+        "anchor": "PMC11263583_44890_44897",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1438,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 585,
+      "target": 586
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 3,
+      "largest_component": 2,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 4
+  }
+}

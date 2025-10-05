@@ -1,0 +1,67 @@
+{
+  "paper_id": "PMC7998608",
+  "section": "Statistics",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 144,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistics",
+        "sentence_id": 74,
+        "char_start": 17373,
+        "char_end": 17376,
+        "anchor": "PMC7998608_17373_17376"
+      }
+    },
+    {
+      "id": 141,
+      "label": "SPSS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistics",
+        "sentence_id": 74,
+        "char_start": 17329,
+        "char_end": 17333,
+        "anchor": "PMC7998608_17329_17333"
+      }
+    },
+    {
+      "id": 142,
+      "label": "Chicago",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Statistics",
+        "sentence_id": 74,
+        "char_start": 17360,
+        "char_end": 17367,
+        "anchor": "PMC7998608_17360_17367"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 325,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 141,
+      "target": 142
+    },
+    {
+      "id": 327,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 141,
+      "target": 144
+    },
+    {
+      "id": 329,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 142,
+      "target": 144
+    }
+  ]
+}

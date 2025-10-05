@@ -1,0 +1,209 @@
+{
+  "paper_id": "PMC5515520",
+  "section": "Imaging of returned samples",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 449,
+      "label": "pTAA1",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imaging of returned samples",
+        "sentence_id": 126,
+        "char_start": 29205,
+        "char_end": 29210,
+        "anchor": "PMC5515520_29205_29210",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 450,
+      "label": "RNAlater",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imaging of returned samples",
+        "sentence_id": 126,
+        "char_start": 29256,
+        "char_end": 29264,
+        "anchor": "PMC5515520_29256_29264",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 451,
+      "label": "Kennedy",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imaging of returned samples",
+        "sentence_id": 126,
+        "char_start": 29303,
+        "char_end": 29310,
+        "anchor": "PMC5515520_29303_29310",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 452,
+      "label": "Tubes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imaging of returned samples",
+        "sentence_id": 126,
+        "char_start": 29333,
+        "char_end": 29338,
+        "anchor": "PMC5515520_29333_29338",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 453,
+      "label": "GFP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imaging of returned samples",
+        "sentence_id": 126,
+        "char_start": 29235,
+        "char_end": 29238,
+        "anchor": "PMC5515520_29235_29238",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 455,
+      "label": "USA",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Imaging of returned samples",
+        "sentence_id": 126,
+        "char_start": 29292,
+        "char_end": 29295,
+        "anchor": "PMC5515520_29292_29295",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 926,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 449,
+      "target": 450
+    },
+    {
+      "id": 927,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 449,
+      "target": 451
+    },
+    {
+      "id": 928,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 449,
+      "target": 452
+    },
+    {
+      "id": 929,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 449,
+      "target": 453
+    },
+    {
+      "id": 931,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 449,
+      "target": 455
+    },
+    {
+      "id": 932,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 450,
+      "target": 451
+    },
+    {
+      "id": 933,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 450,
+      "target": 452
+    },
+    {
+      "id": 934,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 450,
+      "target": 453
+    },
+    {
+      "id": 936,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 450,
+      "target": 455
+    },
+    {
+      "id": 937,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 451,
+      "target": 452
+    },
+    {
+      "id": 938,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 451,
+      "target": 453
+    },
+    {
+      "id": 940,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 451,
+      "target": 455
+    },
+    {
+      "id": 941,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 452,
+      "target": 453
+    },
+    {
+      "id": 943,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 452,
+      "target": 455
+    },
+    {
+      "id": 945,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 453,
+      "target": 455
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 10,
+      "removed_orphans": 6,
+      "largest_component": 6,
+      "removed_components": [
+        6,
+        4,
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 6
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "paper_id": "PMC3422896",
+  "section": "Physiological redundancy",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 387,
+      "label": "Os14",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Physiological redundancy",
+        "sentence_id": 109,
+        "char_start": 28894,
+        "char_end": 28898,
+        "anchor": "PMC3422896_28894_28898",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 388,
+      "label": "deletion",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Physiological redundancy",
+        "sentence_id": 109,
+        "char_start": 28960,
+        "char_end": 28968,
+        "anchor": "PMC3422896_28960_28968",
+        "page": 6,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 389,
+      "label": "Os14",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Physiological redundancy",
+        "sentence_id": 109,
+        "char_start": 28981,
+        "char_end": 28985,
+        "anchor": "PMC3422896_28981_28985",
+        "page": 6,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 498,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 387,
+      "target": 388
+    },
+    {
+      "id": 499,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 387,
+      "target": 389
+    },
+    {
+      "id": 500,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 388,
+      "target": 389
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 6,
+      "largest_component": 3,
+      "removed_components": [
+        3,
+        2
+      ]
+    },
+    "page": 6
+  }
+}

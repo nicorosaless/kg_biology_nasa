@@ -1,0 +1,87 @@
+{
+  "paper_id": "PMC10793275",
+  "section": "(untitled) Annotations were predicted with Prokka",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 96,
+      "label": "Pro",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Annotations were predicted with Prokka",
+        "sentence_id": 23,
+        "char_start": 3497,
+        "char_end": 3500,
+        "anchor": "PMC10793275_3497_3500",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 97,
+      "label": "Prokka",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Annotations were predicted with Prokka",
+        "sentence_id": 23,
+        "char_start": 3497,
+        "char_end": 3503,
+        "anchor": "PMC10793275_3497_3503",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 98,
+      "label": "CDS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "(untitled) Annotations were predicted with Prokka",
+        "sentence_id": 23,
+        "char_start": 3519,
+        "char_end": 3522,
+        "anchor": "PMC10793275_3519_3522",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 141,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 96,
+      "target": 97
+    },
+    {
+      "id": 142,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 96,
+      "target": 98
+    },
+    {
+      "id": 144,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 97,
+      "target": 98
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 5,
+      "removed_orphans": 8,
+      "largest_component": 3,
+      "removed_components": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 3
+  }
+}

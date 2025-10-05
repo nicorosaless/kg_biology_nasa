@@ -1,0 +1,117 @@
+{
+  "paper_id": "PMC10142442",
+  "section": "Fractionation of PpFucCS oligosaccharides:",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 144,
+      "label": "DMB",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Fractionation of PpFucCS oligosaccharides:",
+        "sentence_id": 46,
+        "char_start": 10404,
+        "char_end": 10407,
+        "anchor": "PMC10142442_10404_10407",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 139,
+      "label": "Hydroly",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Fractionation of PpFucCS oligosaccharides:",
+        "sentence_id": 46,
+        "char_start": 10139,
+        "char_end": 10146,
+        "anchor": "PMC10142442_10139_10146",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 140,
+      "label": "FucC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Fractionation of PpFucCS oligosaccharides:",
+        "sentence_id": 46,
+        "char_start": 10152,
+        "char_end": 10156,
+        "anchor": "PMC10142442_10152_10156",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 141,
+      "label": "rization",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Fractionation of PpFucCS oligosaccharides:",
+        "sentence_id": 46,
+        "char_start": 10223,
+        "char_end": 10231,
+        "anchor": "PMC10142442_10223_10231",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 104,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 139,
+      "target": 140
+    },
+    {
+      "id": 105,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 139,
+      "target": 141
+    },
+    {
+      "id": 106,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 139,
+      "target": 144
+    },
+    {
+      "id": 107,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 140,
+      "target": 141
+    },
+    {
+      "id": 108,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 140,
+      "target": 144
+    },
+    {
+      "id": 109,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 141,
+      "target": 144
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 3,
+      "largest_component": 4,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 4
+  }
+}

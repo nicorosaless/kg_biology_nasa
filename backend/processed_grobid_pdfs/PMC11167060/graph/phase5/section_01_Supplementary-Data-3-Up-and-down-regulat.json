@@ -1,0 +1,201 @@
+{
+  "paper_id": "PMC11167060",
+  "section": "Supplementary Data 3: Up and down regulated kidney gene products and their functional annotations",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 8,
+      "label": "exposure",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplementary Data 3: Up and down regulated kidney gene products and their functional annotations",
+        "sentence_id": 4,
+        "char_start": 1333,
+        "char_end": 1341,
+        "anchor": "PMC11167060_1333_1341",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 11,
+      "label": "products",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplementary Data 3: Up and down regulated kidney gene products and their functional annotations",
+        "sentence_id": 4,
+        "char_start": 1819,
+        "char_end": 1827,
+        "anchor": "PMC11167060_1819_1827",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 12,
+      "label": "GCRsim",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplementary Data 3: Up and down regulated kidney gene products and their functional annotations",
+        "sentence_id": 4,
+        "char_start": 1367,
+        "char_end": 1373,
+        "anchor": "PMC11167060_1367_1373",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 13,
+      "label": "PTM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplementary Data 3: Up and down regulated kidney gene products and their functional annotations",
+        "sentence_id": 4,
+        "char_start": 2238,
+        "char_end": 2241,
+        "anchor": "PMC11167060_2238_2241",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 14,
+      "label": "DRGP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplementary Data 3: Up and down regulated kidney gene products and their functional annotations",
+        "sentence_id": 4,
+        "char_start": 2358,
+        "char_end": 2362,
+        "anchor": "PMC11167060_2358_2362",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 15,
+      "label": "DRGP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplementary Data 3: Up and down regulated kidney gene products and their functional annotations",
+        "sentence_id": 4,
+        "char_start": 2425,
+        "char_end": 2429,
+        "anchor": "PMC11167060_2425_2429",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 8,
+      "target": 11
+    },
+    {
+      "id": 2,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 8,
+      "target": 12
+    },
+    {
+      "id": 3,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 8,
+      "target": 13
+    },
+    {
+      "id": 4,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 8,
+      "target": 14
+    },
+    {
+      "id": 5,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 8,
+      "target": 15
+    },
+    {
+      "id": 6,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 11,
+      "target": 12
+    },
+    {
+      "id": 7,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 11,
+      "target": 13
+    },
+    {
+      "id": 8,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 11,
+      "target": 14
+    },
+    {
+      "id": 9,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 11,
+      "target": 15
+    },
+    {
+      "id": 10,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "id": 11,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 12,
+      "target": 14
+    },
+    {
+      "id": 12,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 12,
+      "target": 15
+    },
+    {
+      "id": 13,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 13,
+      "target": 14
+    },
+    {
+      "id": 14,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 13,
+      "target": 15
+    },
+    {
+      "id": 15,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 14,
+      "target": 15
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 3,
+      "largest_component": 6,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 1
+  }
+}

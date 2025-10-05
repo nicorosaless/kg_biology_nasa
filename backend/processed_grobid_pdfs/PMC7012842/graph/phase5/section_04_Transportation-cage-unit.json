@@ -1,0 +1,81 @@
+{
+  "paper_id": "PMC7012842",
+  "section": "Transportation cage unit",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 88,
+      "label": "gravity",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Transportation cage unit",
+        "sentence_id": 83,
+        "char_start": 13071,
+        "char_end": 13078,
+        "anchor": "PMC7012842_13071_13078",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 89,
+      "label": "transfer",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Transportation cage unit",
+        "sentence_id": 83,
+        "char_start": 13108,
+        "char_end": 13116,
+        "anchor": "PMC7012842_13108_13116",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 87,
+      "label": "limited",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Transportation cage unit",
+        "sentence_id": 83,
+        "char_start": 12977,
+        "char_end": 12984,
+        "anchor": "PMC7012842_12977_12984",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 47,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 87,
+      "target": 88
+    },
+    {
+      "id": 48,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 87,
+      "target": 89
+    },
+    {
+      "id": 49,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 88,
+      "target": 89
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 7,
+      "largest_component": 3
+    },
+    "page": 5
+  }
+}

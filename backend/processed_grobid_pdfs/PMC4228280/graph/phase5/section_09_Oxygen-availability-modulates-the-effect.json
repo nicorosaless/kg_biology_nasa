@@ -1,0 +1,114 @@
+{
+  "paper_id": "PMC4228280",
+  "section": "Oxygen availability modulates the effect of spaceflight on final cell density",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 218,
+      "label": "mAUM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Oxygen availability modulates the effect of spaceflight on final cell density",
+        "sentence_id": 66,
+        "char_start": 16460,
+        "char_end": 16464,
+        "anchor": "PMC4228280_16460_16464",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 212,
+      "label": "cultures",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Oxygen availability modulates the effect of spaceflight on final cell density",
+        "sentence_id": 66,
+        "char_start": 16160,
+        "char_end": 16168,
+        "anchor": "PMC4228280_16160_16168",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 214,
+      "label": "mAUM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Oxygen availability modulates the effect of spaceflight on final cell density",
+        "sentence_id": 66,
+        "char_start": 16235,
+        "char_end": 16239,
+        "anchor": "PMC4228280_16235_16239",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 223,
+      "label": "mAUMg",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Oxygen availability modulates the effect of spaceflight on final cell density",
+        "sentence_id": 66,
+        "char_start": 16460,
+        "char_end": 16465,
+        "anchor": "PMC4228280_16460_16465",
+        "page": 3,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 166,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 212,
+      "target": 214
+    },
+    {
+      "id": 167,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 212,
+      "target": 218
+    },
+    {
+      "id": 170,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 212,
+      "target": 223
+    },
+    {
+      "id": 173,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 214,
+      "target": 218
+    },
+    {
+      "id": 176,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 214,
+      "target": 223
+    },
+    {
+      "id": 181,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 218,
+      "target": 223
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 9,
+      "largest_component": 4
+    },
+    "page": 3
+  }
+}

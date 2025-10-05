@@ -1,0 +1,136 @@
+{
+  "paper_id": "PMC11167060",
+  "section": "Synthetic EXPERIMENT",
+  "n_nodes": 6,
+  "n_edges": 5,
+  "nodes": [
+    {
+      "id": 4,
+      "label": "biomolecules",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplementary Data 2: Multi-mission multi-omic DisGeNET over-representation analysis results",
+        "sentence_id": 2,
+        "char_start": 653,
+        "char_end": 665,
+        "anchor": "PMC11167060_653_665",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 6,
+      "label": "regulated hits",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplementary Data 2: Multi-mission multi-omic DisGeNET over-representation analysis results",
+        "sentence_id": 3,
+        "char_start": 1113,
+        "char_end": 1127,
+        "anchor": "PMC11167060_1113_1127",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 7,
+      "label": "significant hits",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplementary Data 2: Multi-mission multi-omic DisGeNET over-representation analysis results",
+        "sentence_id": 3,
+        "char_start": 1230,
+        "char_end": 1246,
+        "anchor": "PMC11167060_1230_1246",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 9,
+      "label": "biomolecule",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplementary Data 3: Up and down regulated kidney gene products and their functional annotations",
+        "sentence_id": 4,
+        "char_start": 1519,
+        "char_end": 1530,
+        "anchor": "PMC11167060_1519_1530",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 10,
+      "label": "human orthologs",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplementary Data 3: Up and down regulated kidney gene products and their functional annotations",
+        "sentence_id": 4,
+        "char_start": 1618,
+        "char_end": 1633,
+        "anchor": "PMC11167060_1618_1633",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 18,
+      "label": "functional annotations",
+      "type": "EXPERIMENT",
+      "freq": 1,
+      "nav": {
+        "section": "Supplementary Data 3: Up and down regulated kidney gene products and their functional annotations",
+        "sentence_id": 5,
+        "char_start": 2719,
+        "char_end": 2741,
+        "anchor": "PMC11167060_2719_2741",
+        "page": 1,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-4-6",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "id": "synth-4-7",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "id": "synth-4-9",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 9
+    },
+    {
+      "id": "synth-4-10",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 10
+    },
+    {
+      "id": "synth-4-18",
+      "type": "ASSOCIATED",
+      "source": 4,
+      "target": 18
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "EXPERIMENT",
+    "page": null
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "paper_id": "PMC11833055",
+  "section": "Synthetic REAGENT",
+  "n_nodes": 5,
+  "n_edges": 4,
+  "nodes": [
+    {
+      "id": 67,
+      "label": "ethanol",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Open field test",
+        "sentence_id": 28,
+        "char_start": 5051,
+        "char_end": 5058,
+        "anchor": "PMC11833055_5051_5058",
+        "page": 1,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 94,
+      "label": "ethanol",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Gait analysis",
+        "sentence_id": 59,
+        "char_start": 9645,
+        "char_end": 9652,
+        "anchor": "PMC11833055_9645_9652",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 149,
+      "label": "TRIzol",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Brain transcriptomics",
+        "sentence_id": 87,
+        "char_start": 14131,
+        "char_end": 14137,
+        "anchor": "PMC11833055_14131_14137",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 187,
+      "label": "Trizol",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Brain transcriptomics",
+        "sentence_id": 110,
+        "char_start": 16041,
+        "char_end": 16047,
+        "anchor": "PMC11833055_16041_16047",
+        "page": 3,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 237,
+      "label": "QIAGEN",
+      "type": "REAGENT",
+      "freq": 1,
+      "nav": {
+        "section": "Analysis of the diversity of gut microbiota in feces",
+        "sentence_id": 139,
+        "char_start": 19433,
+        "char_end": 19439,
+        "anchor": "PMC11833055_19433_19439",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-67-94",
+      "type": "ASSOCIATED",
+      "source": 67,
+      "target": 94
+    },
+    {
+      "id": "synth-67-149",
+      "type": "ASSOCIATED",
+      "source": 67,
+      "target": 149
+    },
+    {
+      "id": "synth-67-187",
+      "type": "ASSOCIATED",
+      "source": 67,
+      "target": 187
+    },
+    {
+      "id": "synth-67-237",
+      "type": "ASSOCIATED",
+      "source": 67,
+      "target": 237
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "REAGENT",
+    "page": null
+  }
+}

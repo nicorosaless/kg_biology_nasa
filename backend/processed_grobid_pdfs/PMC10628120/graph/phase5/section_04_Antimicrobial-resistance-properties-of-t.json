@@ -1,0 +1,128 @@
+{
+  "paper_id": "PMC10628120",
+  "section": "Antimicrobial resistance properties of the novel species",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 961,
+      "label": "Multi",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Antimicrobial resistance properties of the novel species",
+        "sentence_id": 237,
+        "char_start": 47382,
+        "char_end": 47387,
+        "anchor": "PMC10628120_47382_47387",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 962,
+      "label": "TetR",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Antimicrobial resistance properties of the novel species",
+        "sentence_id": 237,
+        "char_start": 47347,
+        "char_end": 47351,
+        "anchor": "PMC10628120_47347_47351",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 963,
+      "label": "MFS",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Antimicrobial resistance properties of the novel species",
+        "sentence_id": 237,
+        "char_start": 47443,
+        "char_end": 47446,
+        "anchor": "PMC10628120_47443_47446",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 958,
+      "label": "Riboso",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Antimicrobial resistance properties of the novel species",
+        "sentence_id": 237,
+        "char_start": 47148,
+        "char_end": 47154,
+        "anchor": "PMC10628120_47148_47154",
+        "page": 10,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1146,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 958,
+      "target": 961
+    },
+    {
+      "id": 1147,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 958,
+      "target": 962
+    },
+    {
+      "id": 1148,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 958,
+      "target": 963
+    },
+    {
+      "id": 1149,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 961,
+      "target": 962
+    },
+    {
+      "id": 1150,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 961,
+      "target": 963
+    },
+    {
+      "id": 1151,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 962,
+      "target": 963
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 13,
+      "removed_orphans": 5,
+      "largest_component": 4,
+      "removed_components": [
+        4,
+        4,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 10
+  }
+}

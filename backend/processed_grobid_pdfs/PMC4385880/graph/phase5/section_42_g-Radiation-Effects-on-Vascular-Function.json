@@ -1,0 +1,81 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "g) Radiation Effects on Vascular Function",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 2505,
+      "label": "rombotic",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "g) Radiation Effects on Vascular Function",
+        "sentence_id": 800,
+        "char_start": 133862,
+        "char_end": 133870,
+        "anchor": "PMC4385880_133862_133870",
+        "page": 63,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2506,
+      "label": "vascular",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "g) Radiation Effects on Vascular Function",
+        "sentence_id": 800,
+        "char_start": 133871,
+        "char_end": 133879,
+        "anchor": "PMC4385880_133871_133879",
+        "page": 63,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2507,
+      "label": "Nagasaki",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "g) Radiation Effects on Vascular Function",
+        "sentence_id": 800,
+        "char_start": 133628,
+        "char_end": 133636,
+        "anchor": "PMC4385880_133628_133636",
+        "page": 62,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 2471,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2505,
+      "target": 2506
+    },
+    {
+      "id": 2472,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2505,
+      "target": 2507
+    },
+    {
+      "id": 2474,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2506,
+      "target": 2507
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 17,
+      "largest_component": 3
+    },
+    "page": 62
+  }
+}

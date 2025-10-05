@@ -1,0 +1,157 @@
+{
+  "paper_id": "PMC5421618",
+  "section": "Dual Energy X-ray Absorptiometry",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 128,
+      "label": "scanner",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Dual Energy X-ray Absorptiometry",
+        "sentence_id": 45,
+        "char_start": 8159,
+        "char_end": 8166,
+        "anchor": "PMC5421618_8159_8166",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 129,
+      "label": "Scan",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Dual Energy X-ray Absorptiometry",
+        "sentence_id": 45,
+        "char_start": 8168,
+        "char_end": 8172,
+        "anchor": "PMC5421618_8168_8172",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 131,
+      "label": "support",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Dual Energy X-ray Absorptiometry",
+        "sentence_id": 45,
+        "char_start": 8349,
+        "char_end": 8356,
+        "anchor": "PMC5421618_8349_8356",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 125,
+      "label": "scanned",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Dual Energy X-ray Absorptiometry",
+        "sentence_id": 45,
+        "char_start": 8115,
+        "char_end": 8122,
+        "anchor": "PMC5421618_8115_8122",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 127,
+      "label": "Scanco",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Dual Energy X-ray Absorptiometry",
+        "sentence_id": 45,
+        "char_start": 8146,
+        "char_end": 8152,
+        "anchor": "PMC5421618_8146_8152",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 88,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 125,
+      "target": 127
+    },
+    {
+      "id": 89,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 125,
+      "target": 128
+    },
+    {
+      "id": 90,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 125,
+      "target": 129
+    },
+    {
+      "id": 91,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 125,
+      "target": 131
+    },
+    {
+      "id": 96,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 127,
+      "target": 128
+    },
+    {
+      "id": 97,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 127,
+      "target": 129
+    },
+    {
+      "id": 98,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 127,
+      "target": 131
+    },
+    {
+      "id": 103,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 128,
+      "target": 129
+    },
+    {
+      "id": 104,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 128,
+      "target": 131
+    },
+    {
+      "id": 109,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 129,
+      "target": 131
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 3,
+      "removed_orphans": 22,
+      "largest_component": 5,
+      "removed_components": [
+        4,
+        2
+      ]
+    },
+    "page": 4
+  }
+}

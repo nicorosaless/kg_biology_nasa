@@ -1,0 +1,124 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "b) Intraocular Pressure (IOP)",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 544,
+      "label": "IOP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "b) Intraocular Pressure (IOP)",
+        "sentence_id": 179,
+        "char_start": 31389,
+        "char_end": 31392,
+        "anchor": "PMC4385880_31389_31392",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 548,
+      "label": "IOP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "b) Intraocular Pressure (IOP)",
+        "sentence_id": 179,
+        "char_start": 31389,
+        "char_end": 31392,
+        "anchor": "PMC4385880_31389_31392",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 541,
+      "label": "IOPs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "b) Intraocular Pressure (IOP)",
+        "sentence_id": 179,
+        "char_start": 31284,
+        "char_end": 31288,
+        "anchor": "PMC4385880_31284_31288",
+        "page": 15,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 543,
+      "label": "IOPs",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "b) Intraocular Pressure (IOP)",
+        "sentence_id": 179,
+        "char_start": 31322,
+        "char_end": 31326,
+        "anchor": "PMC4385880_31322_31326",
+        "page": 15,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 323,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 541,
+      "target": 543
+    },
+    {
+      "id": 324,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 541,
+      "target": 544
+    },
+    {
+      "id": 327,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 541,
+      "target": 548
+    },
+    {
+      "id": 328,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 543,
+      "target": 544
+    },
+    {
+      "id": 331,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 543,
+      "target": 548
+    },
+    {
+      "id": 334,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 544,
+      "target": 548
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 9,
+      "removed_orphans": 18,
+      "largest_component": 4,
+      "removed_components": [
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 15
+  }
+}

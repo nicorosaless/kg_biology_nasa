@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC4385880",
+  "section": "e) Venous Distension",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 2432,
+      "label": "HDT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "e) Venous Distension",
+        "sentence_id": 770,
+        "char_start": 127755,
+        "char_end": 127758,
+        "anchor": "PMC4385880_127755_127758",
+        "page": 60,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 2431,
+      "label": "Arbeille",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "e) Venous Distension",
+        "sentence_id": 770,
+        "char_start": 127684,
+        "char_end": 127692,
+        "anchor": "PMC4385880_127684_127692",
+        "page": 60,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 2450,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 2431,
+      "target": 2432
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 5,
+      "largest_component": 2
+    },
+    "page": 60
+  }
+}

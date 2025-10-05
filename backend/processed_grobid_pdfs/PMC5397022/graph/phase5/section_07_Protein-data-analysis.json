@@ -1,0 +1,158 @@
+{
+  "paper_id": "PMC5397022",
+  "section": "Protein data analysis",
+  "n_nodes": 5,
+  "n_edges": 10,
+  "nodes": [
+    {
+      "id": 462,
+      "label": "The",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein data analysis",
+        "sentence_id": 111,
+        "char_start": 19961,
+        "char_end": 19964,
+        "anchor": "PMC5397022_19961_19964",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 463,
+      "label": "Mascot",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein data analysis",
+        "sentence_id": 111,
+        "char_start": 19999,
+        "char_end": 20005,
+        "anchor": "PMC5397022_19999_20005",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 464,
+      "label": "London",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein data analysis",
+        "sentence_id": 111,
+        "char_start": 19878,
+        "char_end": 19884,
+        "anchor": "PMC5397022_19878_19884",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 466,
+      "label": "London",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein data analysis",
+        "sentence_id": 111,
+        "char_start": 20023,
+        "char_end": 20029,
+        "anchor": "PMC5397022_20023_20029",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 468,
+      "label": "TAIR10",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Protein data analysis",
+        "sentence_id": 111,
+        "char_start": 20078,
+        "char_end": 20084,
+        "anchor": "PMC5397022_20078_20084",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 715,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 462,
+      "target": 463
+    },
+    {
+      "id": 716,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 462,
+      "target": 464
+    },
+    {
+      "id": 718,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 462,
+      "target": 466
+    },
+    {
+      "id": 720,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 462,
+      "target": 468
+    },
+    {
+      "id": 721,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 463,
+      "target": 464
+    },
+    {
+      "id": 723,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 463,
+      "target": 466
+    },
+    {
+      "id": 725,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 463,
+      "target": 468
+    },
+    {
+      "id": 727,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 464,
+      "target": 466
+    },
+    {
+      "id": 729,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 464,
+      "target": 468
+    },
+    {
+      "id": 734,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 466,
+      "target": 468
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 4,
+      "removed_orphans": 14,
+      "largest_component": 5,
+      "removed_components": [
+        3,
+        3,
+        2
+      ]
+    },
+    "page": 2
+  }
+}

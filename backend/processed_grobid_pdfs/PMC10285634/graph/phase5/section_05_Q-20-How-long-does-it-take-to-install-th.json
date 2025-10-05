@@ -1,0 +1,54 @@
+{
+  "paper_id": "PMC10285634",
+  "section": "Q 20. How long does it take to install the iNSiGHT system?",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 94,
+      "label": "trained",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Q 20. How long does it take to install the iNSiGHT system?",
+        "sentence_id": 87,
+        "char_start": 9994,
+        "char_end": 10001,
+        "anchor": "PMC10285634_9994_10001",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 95,
+      "label": "Scintica",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Q 20. How long does it take to install the iNSiGHT system?",
+        "sentence_id": 87,
+        "char_start": 10020,
+        "char_end": 10028,
+        "anchor": "PMC10285634_10020_10028",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 41,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 94,
+      "target": 95
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 1,
+      "removed_orphans": 0,
+      "largest_component": 2
+    },
+    "page": 7
+  }
+}

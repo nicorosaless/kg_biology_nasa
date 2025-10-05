@@ -1,0 +1,524 @@
+{
+  "paper_id": "PMC9695138",
+  "section": "How Do Lipid Raft Studies Advance the Understanding of the Gravisensitivity of Plant Cells?",
+  "n_nodes": 11,
+  "n_edges": 55,
+  "nodes": [
+    {
+      "id": 578,
+      "label": "slightly",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "How Do Lipid Raft Studies Advance the Understanding of the Gravisensitivity of Plant Cells?",
+        "sentence_id": 161,
+        "char_start": 32328,
+        "char_end": 32336,
+        "anchor": "PMC9695138_32328_32336",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 586,
+      "label": "otetracy",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "How Do Lipid Raft Studies Advance the Understanding of the Gravisensitivity of Plant Cells?",
+        "sentence_id": 161,
+        "char_start": 32605,
+        "char_end": 32613,
+        "anchor": "PMC9695138_32605_32613",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 587,
+      "label": "Changes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "How Do Lipid Raft Studies Advance the Understanding of the Gravisensitivity of Plant Cells?",
+        "sentence_id": 161,
+        "char_start": 32630,
+        "char_end": 32637,
+        "anchor": "PMC9695138_32630_32637",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 590,
+      "label": "Mel",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "How Do Lipid Raft Studies Advance the Understanding of the Gravisensitivity of Plant Cells?",
+        "sentence_id": 161,
+        "char_start": 32823,
+        "char_end": 32826,
+        "anchor": "PMC9695138_32823_32826",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 592,
+      "label": "Brass",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "How Do Lipid Raft Studies Advance the Understanding of the Gravisensitivity of Plant Cells?",
+        "sentence_id": 161,
+        "char_start": 32896,
+        "char_end": 32901,
+        "anchor": "PMC9695138_32896_32901",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 594,
+      "label": "Beta",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "How Do Lipid Raft Studies Advance the Understanding of the Gravisensitivity of Plant Cells?",
+        "sentence_id": 161,
+        "char_start": 32980,
+        "char_end": 32984,
+        "anchor": "PMC9695138_32980_32984",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 596,
+      "label": "thaliana",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "How Do Lipid Raft Studies Advance the Understanding of the Gravisensitivity of Plant Cells?",
+        "sentence_id": 161,
+        "char_start": 33033,
+        "char_end": 33041,
+        "anchor": "PMC9695138_33033_33041",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 598,
+      "label": "Pisum",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "How Do Lipid Raft Studies Advance the Understanding of the Gravisensitivity of Plant Cells?",
+        "sentence_id": 161,
+        "char_start": 32808,
+        "char_end": 32813,
+        "anchor": "PMC9695138_32808_32813",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 599,
+      "label": "Daucus",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "How Do Lipid Raft Studies Advance the Understanding of the Gravisensitivity of Plant Cells?",
+        "sentence_id": 161,
+        "char_start": 32878,
+        "char_end": 32884,
+        "anchor": "PMC9695138_32878_32884",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 600,
+      "label": "Brassica",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "How Do Lipid Raft Studies Advance the Understanding of the Gravisensitivity of Plant Cells?",
+        "sentence_id": 161,
+        "char_start": 32896,
+        "char_end": 32904,
+        "anchor": "PMC9695138_32896_32904",
+        "page": 7,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 601,
+      "label": "Lepidium",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "How Do Lipid Raft Studies Advance the Understanding of the Gravisensitivity of Plant Cells?",
+        "sentence_id": 161,
+        "char_start": 32959,
+        "char_end": 32967,
+        "anchor": "PMC9695138_32959_32967",
+        "page": 7,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 437,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 578,
+      "target": 586
+    },
+    {
+      "id": 438,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 578,
+      "target": 587
+    },
+    {
+      "id": 439,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 578,
+      "target": 590
+    },
+    {
+      "id": 440,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 578,
+      "target": 592
+    },
+    {
+      "id": 441,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 578,
+      "target": 594
+    },
+    {
+      "id": 442,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 578,
+      "target": 596
+    },
+    {
+      "id": 444,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 578,
+      "target": 598
+    },
+    {
+      "id": 445,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 578,
+      "target": 599
+    },
+    {
+      "id": 446,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 578,
+      "target": 600
+    },
+    {
+      "id": 447,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 578,
+      "target": 601
+    },
+    {
+      "id": 448,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 586,
+      "target": 587
+    },
+    {
+      "id": 449,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 586,
+      "target": 590
+    },
+    {
+      "id": 450,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 586,
+      "target": 592
+    },
+    {
+      "id": 451,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 586,
+      "target": 594
+    },
+    {
+      "id": 452,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 586,
+      "target": 596
+    },
+    {
+      "id": 454,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 586,
+      "target": 598
+    },
+    {
+      "id": 455,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 586,
+      "target": 599
+    },
+    {
+      "id": 456,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 586,
+      "target": 600
+    },
+    {
+      "id": 457,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 586,
+      "target": 601
+    },
+    {
+      "id": 458,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 587,
+      "target": 590
+    },
+    {
+      "id": 459,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 587,
+      "target": 592
+    },
+    {
+      "id": 460,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 587,
+      "target": 594
+    },
+    {
+      "id": 461,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 587,
+      "target": 596
+    },
+    {
+      "id": 463,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 587,
+      "target": 598
+    },
+    {
+      "id": 464,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 587,
+      "target": 599
+    },
+    {
+      "id": 465,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 587,
+      "target": 600
+    },
+    {
+      "id": 466,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 587,
+      "target": 601
+    },
+    {
+      "id": 467,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 590,
+      "target": 592
+    },
+    {
+      "id": 468,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 590,
+      "target": 594
+    },
+    {
+      "id": 469,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 590,
+      "target": 596
+    },
+    {
+      "id": 471,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 590,
+      "target": 598
+    },
+    {
+      "id": 472,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 590,
+      "target": 599
+    },
+    {
+      "id": 473,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 590,
+      "target": 600
+    },
+    {
+      "id": 474,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 590,
+      "target": 601
+    },
+    {
+      "id": 475,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 592,
+      "target": 594
+    },
+    {
+      "id": 476,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 592,
+      "target": 596
+    },
+    {
+      "id": 478,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 592,
+      "target": 598
+    },
+    {
+      "id": 479,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 592,
+      "target": 599
+    },
+    {
+      "id": 480,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 592,
+      "target": 600
+    },
+    {
+      "id": 481,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 592,
+      "target": 601
+    },
+    {
+      "id": 482,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 594,
+      "target": 596
+    },
+    {
+      "id": 484,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 594,
+      "target": 598
+    },
+    {
+      "id": 485,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 594,
+      "target": 599
+    },
+    {
+      "id": 486,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 594,
+      "target": 600
+    },
+    {
+      "id": 487,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 594,
+      "target": 601
+    },
+    {
+      "id": 489,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 596,
+      "target": 598
+    },
+    {
+      "id": 490,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 596,
+      "target": 599
+    },
+    {
+      "id": 491,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 596,
+      "target": 600
+    },
+    {
+      "id": 492,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 596,
+      "target": 601
+    },
+    {
+      "id": 497,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 598,
+      "target": 599
+    },
+    {
+      "id": 498,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 598,
+      "target": 600
+    },
+    {
+      "id": 499,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 598,
+      "target": 601
+    },
+    {
+      "id": 500,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 599,
+      "target": 600
+    },
+    {
+      "id": 501,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 599,
+      "target": 601
+    },
+    {
+      "id": 502,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 600,
+      "target": 601
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 10,
+      "removed_orphans": 5,
+      "largest_component": 11,
+      "removed_components": [
+        5,
+        4,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 7
+  }
+}

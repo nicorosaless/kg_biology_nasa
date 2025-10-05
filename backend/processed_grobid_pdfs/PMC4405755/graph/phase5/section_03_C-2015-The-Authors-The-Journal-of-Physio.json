@@ -1,0 +1,84 @@
+{
+  "paper_id": "PMC4405755",
+  "section": "C 2015 The Authors. The Journal of Physiology C 2015 The Physiological Society",
+  "n_nodes": 3,
+  "n_edges": 3,
+  "nodes": [
+    {
+      "id": 96,
+      "label": "AMP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "C 2015 The Authors. The Journal of Physiology C 2015 The Physiological Society",
+        "sentence_id": 35,
+        "char_start": 5675,
+        "char_end": 5678,
+        "anchor": "PMC4405755_5675_5678",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 93,
+      "label": "abolism",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "C 2015 The Authors. The Journal of Physiology C 2015 The Physiological Society",
+        "sentence_id": 35,
+        "char_start": 5607,
+        "char_end": 5614,
+        "anchor": "PMC4405755_5607_5614",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 95,
+      "label": "AMP",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "C 2015 The Authors. The Journal of Physiology C 2015 The Physiological Society",
+        "sentence_id": 35,
+        "char_start": 5669,
+        "char_end": 5672,
+        "anchor": "PMC4405755_5669_5672",
+        "page": 2,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 21,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 93,
+      "target": 95
+    },
+    {
+      "id": 22,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 93,
+      "target": 96
+    },
+    {
+      "id": 23,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 95,
+      "target": 96
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 19,
+      "largest_component": 3,
+      "removed_components": [
+        3
+      ]
+    },
+    "page": 2
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "paper_id": "PMC10142442",
+  "section": "CONCLUSION",
+  "n_nodes": 2,
+  "n_edges": 1,
+  "nodes": [
+    {
+      "id": 480,
+      "label": "HCMV",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 139,
+        "char_start": 30311,
+        "char_end": 30315,
+        "anchor": "PMC10142442_30311_30315",
+        "page": 10,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 479,
+      "label": "FucC",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "CONCLUSION",
+        "sentence_id": 139,
+        "char_start": 30297,
+        "char_end": 30301,
+        "anchor": "PMC10142442_30297_30301",
+        "page": 10,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 973,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 479,
+      "target": 480
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 4,
+      "largest_component": 2,
+      "removed_components": [
+        2
+      ]
+    },
+    "page": 10
+  }
+}

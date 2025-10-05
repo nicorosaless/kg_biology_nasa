@@ -1,0 +1,178 @@
+{
+  "paper_id": "PMC3422896",
+  "section": "Synthetic ANATOMICAL_SITE",
+  "n_nodes": 8,
+  "n_edges": 7,
+  "nodes": [
+    {
+      "id": 100,
+      "label": "other tissues",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "3-3 Phosphorylation",
+        "sentence_id": 36,
+        "char_start": 9485,
+        "char_end": 9498,
+        "anchor": "PMC3422896_9485_9498",
+        "page": 2,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 312,
+      "label": "regions of the brain",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Expression Specificity",
+        "sentence_id": 93,
+        "char_start": 23230,
+        "char_end": 23250,
+        "anchor": "PMC3422896_23230_23250",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 313,
+      "label": "other mammalian tissues",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Expression Specificity",
+        "sentence_id": 93,
+        "char_start": 23289,
+        "char_end": 23312,
+        "anchor": "PMC3422896_23289_23312",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 319,
+      "label": "ypothalamus",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Expression Specificity",
+        "sentence_id": 94,
+        "char_start": 23603,
+        "char_end": 23614,
+        "anchor": "PMC3422896_23603_23614",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 328,
+      "label": "compartment",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Expression Specificity",
+        "sentence_id": 94,
+        "char_start": 24153,
+        "char_end": 24164,
+        "anchor": "PMC3422896_24153_24164",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 329,
+      "label": "epithelia",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Expression Specificity",
+        "sentence_id": 94,
+        "char_start": 24168,
+        "char_end": 24177,
+        "anchor": "PMC3422896_24168_24177",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 487,
+      "label": "root tip",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Subcellular localization as a measure of specificity",
+        "sentence_id": 156,
+        "char_start": 38987,
+        "char_end": 38995,
+        "anchor": "PMC3422896_38987_38995",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 498,
+      "label": "cytoskeleton",
+      "type": "ANATOMICAL_SITE",
+      "freq": 1,
+      "nav": {
+        "section": "Subcellular localization as a measure of specificity",
+        "sentence_id": 161,
+        "char_start": 40689,
+        "char_end": 40701,
+        "anchor": "PMC3422896_40689_40701",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "synth-100-312",
+      "type": "ASSOCIATED",
+      "source": 100,
+      "target": 312
+    },
+    {
+      "id": "synth-100-313",
+      "type": "ASSOCIATED",
+      "source": 100,
+      "target": 313
+    },
+    {
+      "id": "synth-100-319",
+      "type": "ASSOCIATED",
+      "source": 100,
+      "target": 319
+    },
+    {
+      "id": "synth-100-328",
+      "type": "ASSOCIATED",
+      "source": 100,
+      "target": 328
+    },
+    {
+      "id": "synth-100-329",
+      "type": "ASSOCIATED",
+      "source": 100,
+      "target": 329
+    },
+    {
+      "id": "synth-100-487",
+      "type": "ASSOCIATED",
+      "source": 100,
+      "target": 487
+    },
+    {
+      "id": "synth-100-498",
+      "type": "ASSOCIATED",
+      "source": 100,
+      "target": 498
+    }
+  ],
+  "meta": {
+    "synthetic": true,
+    "source": "ensure_overview_drilldown",
+    "node_type": "ANATOMICAL_SITE",
+    "page": null
+  }
+}

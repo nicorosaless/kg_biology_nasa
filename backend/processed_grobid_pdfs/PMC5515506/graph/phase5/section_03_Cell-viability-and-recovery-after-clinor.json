@@ -1,0 +1,116 @@
+{
+  "paper_id": "PMC5515506",
+  "section": "Cell viability and recovery after clinorotation",
+  "n_nodes": 4,
+  "n_edges": 5,
+  "nodes": [
+    {
+      "id": 328,
+      "label": "control cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Cell viability and recovery after clinorotation",
+        "sentence_id": 114,
+        "char_start": 21778,
+        "char_end": 21791,
+        "anchor": "PMC5515506_21778_21791",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 329,
+      "label": "Cells",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell viability and recovery after clinorotation",
+        "sentence_id": 114,
+        "char_start": 21803,
+        "char_end": 21808,
+        "anchor": "PMC5515506_21803_21808",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 324,
+      "label": "few cells",
+      "type": "CELL_TYPE",
+      "freq": 1,
+      "nav": {
+        "section": "Cell viability and recovery after clinorotation",
+        "sentence_id": 114,
+        "char_start": 21570,
+        "char_end": 21579,
+        "anchor": "PMC5515506_21570_21579",
+        "page": 4,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 325,
+      "label": "Cells",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Cell viability and recovery after clinorotation",
+        "sentence_id": 114,
+        "char_start": 21648,
+        "char_end": 21653,
+        "anchor": "PMC5515506_21648_21653",
+        "page": 4,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 353,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 325,
+      "target": 324
+    },
+    {
+      "id": 354,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 329,
+      "target": 324
+    },
+    {
+      "id": 356,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 325,
+      "target": 328
+    },
+    {
+      "id": 357,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 325,
+      "target": 329
+    },
+    {
+      "id": 359,
+      "type": "GENE_PRODUCT_EXPRESSED_IN_CELL_TYPE",
+      "source": 329,
+      "target": 328
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 7,
+      "removed_orphans": 22,
+      "largest_component": 4,
+      "removed_components": [
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 4
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "paper_id": "PMC5666744",
+  "section": "Altered Betaine and Glutathione Metabolism Are Central Defects in Spaceflight Mouse Livers",
+  "n_nodes": 6,
+  "n_edges": 15,
+  "nodes": [
+    {
+      "id": 205,
+      "label": "changes",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Altered Betaine and Glutathione Metabolism Are Central Defects in Spaceflight Mouse Livers",
+        "sentence_id": 50,
+        "char_start": 13254,
+        "char_end": 13261,
+        "anchor": "PMC5666744_13254_13261",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 208,
+      "label": "AEM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Altered Betaine and Glutathione Metabolism Are Central Defects in Spaceflight Mouse Livers",
+        "sentence_id": 50,
+        "char_start": 13381,
+        "char_end": 13384,
+        "anchor": "PMC5666744_13381_13384",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 210,
+      "label": "Bion",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Altered Betaine and Glutathione Metabolism Are Central Defects in Spaceflight Mouse Livers",
+        "sentence_id": 50,
+        "char_start": 13507,
+        "char_end": 13511,
+        "anchor": "PMC5666744_13507_13511",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 212,
+      "label": "pathways",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Altered Betaine and Glutathione Metabolism Are Central Defects in Spaceflight Mouse Livers",
+        "sentence_id": 50,
+        "char_start": 13711,
+        "char_end": 13719,
+        "anchor": "PMC5666744_13711_13719",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 213,
+      "label": "FLT",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Altered Betaine and Glutathione Metabolism Are Central Defects in Spaceflight Mouse Livers",
+        "sentence_id": 50,
+        "char_start": 13357,
+        "char_end": 13360,
+        "anchor": "PMC5666744_13357_13360",
+        "page": 5,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 214,
+      "label": "AEM",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Altered Betaine and Glutathione Metabolism Are Central Defects in Spaceflight Mouse Livers",
+        "sentence_id": 50,
+        "char_start": 13381,
+        "char_end": 13384,
+        "anchor": "PMC5666744_13381_13384",
+        "page": 5,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 354,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 205,
+      "target": 208
+    },
+    {
+      "id": 355,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 205,
+      "target": 210
+    },
+    {
+      "id": 356,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 205,
+      "target": 212
+    },
+    {
+      "id": 357,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 205,
+      "target": 213
+    },
+    {
+      "id": 358,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 205,
+      "target": 214
+    },
+    {
+      "id": 359,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 208,
+      "target": 210
+    },
+    {
+      "id": 360,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 208,
+      "target": 212
+    },
+    {
+      "id": 361,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 208,
+      "target": 213
+    },
+    {
+      "id": 362,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 208,
+      "target": 214
+    },
+    {
+      "id": 363,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 210,
+      "target": 212
+    },
+    {
+      "id": 364,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 210,
+      "target": 213
+    },
+    {
+      "id": 365,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 210,
+      "target": 214
+    },
+    {
+      "id": 366,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 212,
+      "target": 213
+    },
+    {
+      "id": 367,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 212,
+      "target": 214
+    },
+    {
+      "id": 368,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 213,
+      "target": 214
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 12,
+      "removed_orphans": 1,
+      "largest_component": 6,
+      "removed_components": [
+        5,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    "page": 5
+  }
+}

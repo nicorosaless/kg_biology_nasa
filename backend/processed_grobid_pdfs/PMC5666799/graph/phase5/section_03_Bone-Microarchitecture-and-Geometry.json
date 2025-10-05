@@ -1,0 +1,117 @@
+{
+  "paper_id": "PMC5666799",
+  "section": "Bone Microarchitecture and Geometry",
+  "n_nodes": 4,
+  "n_edges": 6,
+  "nodes": [
+    {
+      "id": 825,
+      "label": "Kontich",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bone Microarchitecture and Geometry",
+        "sentence_id": 220,
+        "char_start": 47924,
+        "char_end": 47931,
+        "anchor": "PMC5666799_47924_47931",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 826,
+      "label": "Belgium",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bone Microarchitecture and Geometry",
+        "sentence_id": 220,
+        "char_start": 47933,
+        "char_end": 47940,
+        "anchor": "PMC5666799_47933_47940",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 820,
+      "label": "contour",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bone Microarchitecture and Geometry",
+        "sentence_id": 220,
+        "char_start": 48090,
+        "char_end": 48097,
+        "anchor": "PMC5666799_48090_48097",
+        "page": 8,
+        "page_heuristic": true
+      }
+    },
+    {
+      "id": 823,
+      "label": "Skyscan",
+      "type": "GENE_PRODUCT",
+      "freq": 1,
+      "nav": {
+        "section": "Bone Microarchitecture and Geometry",
+        "sentence_id": 220,
+        "char_start": 47894,
+        "char_end": 47901,
+        "anchor": "PMC5666799_47894_47901",
+        "page": 8,
+        "page_heuristic": true
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1490,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 820,
+      "target": 823
+    },
+    {
+      "id": 1492,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 820,
+      "target": 825
+    },
+    {
+      "id": 1493,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 820,
+      "target": 826
+    },
+    {
+      "id": 1504,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 823,
+      "target": 825
+    },
+    {
+      "id": 1505,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 823,
+      "target": 826
+    },
+    {
+      "id": 1508,
+      "type": "GENE_PRODUCT_INTERACTS_WITH_GENE_PRODUCT",
+      "source": 825,
+      "target": 826
+    }
+  ],
+  "meta": {
+    "connectivity": {
+      "components": 2,
+      "removed_orphans": 8,
+      "largest_component": 4,
+      "removed_components": [
+        3
+      ]
+    },
+    "page": 8
+  }
+}

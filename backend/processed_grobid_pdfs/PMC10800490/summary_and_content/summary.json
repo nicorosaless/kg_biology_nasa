@@ -1,0 +1,197 @@
+{
+  "intro": {
+    "heading": "Introduction",
+    "summary": "Plants are crucial for long-duration space missions, necessitating an understanding of their adaptation to space environments. Transcriptional profiling has been used to study plant adaptation to microgravity, but results across experiments often vary due to differing conditions and hardware, making it difficult to isolate the effects of microgravity. This study analyzes data from two spaceflight experiments, Plant Signaling (PS) and Plant RNA Regulation (PRR), conducted on the International Space Station (ISS) using the European Modular Cultivation System (EMCS), which provided a lighted environment and onboard 1 g control via centrifugation.",
+    "figures": [
+      {
+        "id": "fig_1",
+        "caption": "FIGURE 1Experimental Timelines of Plant Signaling (PS) and Plant RNA Regulation (PRR).Seed cassettes were prepared with dry seed and installed into the EMCS hardware on board the ISS.Experiments were initiated by remote hydration (blue arrows)",
+        "order": 1,
+        "forced": true,
+        "image_path": "figures/fig_1.jpeg"
+      },
+      {
+        "id": "fig_2",
+        "caption": "FIGURE 2Representative Images of Plant Signaling and Plant RNA Regulation Seed Cassettes.Representative images of seedling morphology across µ g and 1 g conditions taken at the end of each experiment.Digital JPEGs are displayed directly as",
+        "order": 2,
+        "forced": true,
+        "image_path": "figures/fig_2.jpeg"
+      },
+      {
+        "id": "fig_3",
+        "caption": "FIGURE 3 Consensus Sequence and Distribution of the Site II Element Enriched in Promoter Regions of Upregulated Transcripts.(A) Sequence analysis of the 500 bp region upstream of µ g upregulated transcripts showed an enrichment for",
+        "order": 3,
+        "forced": true,
+        "image_path": "figures/fig_3.jpeg"
+      },
+      {
+        "id": "fig_4",
+        "caption": "FIGURE 4",
+        "order": 4,
+        "forced": true,
+        "image_path": "figures/fig_4.jpeg"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Experimental Setup and Growth Parameters",
+      "summary": "Seeds were dry-mounted to minimize handling and remained dormant until hydration on orbit. PS used continuous light, while PRR used a 16h light/8h dark cycle. PS included an initial 48-hour 1 g treatment, while the PRR microgravity rotor remained stationary. A morphological difference was noted: PS seedlings had uniform root orientation, while PRR seedlings had disordered growth patterns. Each experiment yielded sufficient plant tissue for analysis.",
+      "figures": []
+    },
+    {
+      "heading": "Differentially Expressed Genes Analysis",
+      "summary": "Individual analyses of PS and PRR identified 1,819 and 1,792 differentially expressed genes (DEGs) between microgravity and the 1 g control, respectively, with significant overlap. Common upregulated genes were enriched in \"Regulation of Transcription\" and \"Auxin Signaling,\" while downregulated genes were enriched in \"Cell Wall\" and \"Response to Stress.\" A combined analysis reinforced these enrichments, identifying 1,112 upregulated and 1,429 downregulated genes. Genes upregulated in microgravity compared to the 1 g control were primarily involved in leaf and shoot development.",
+      "figures": []
+    },
+    {
+      "heading": "Transcription Factors and Auxin Related Genes",
+      "summary": "The combined analysis showed strong enrichment of genes associated with DNA transcription, with 159 transcription factors (TFs) upregulated in microgravity, mostly regulating shoot meristem and leaf growth. Auxin transport and signaling genes were also prominent, including auxin efflux carriers, auxin response factors (ARFs), and small auxin upregulated (SAUR) genes. SAURs were highly upregulated, with several induced more than 2-fold and implicated in light-regulated cotyledon and hypocotyl development.",
+      "figures": []
+    },
+    {
+      "heading": "Genes Downregulated in Microgravity",
+      "summary": "Combined analysis of PS and PRR showed responses to stress were highly enriched in downregulated genes, including members of the Cytochrome P450 family and Glutathione S-transferases. Abiotic and biotic stress responses were suppressed. The downregulated DEGs include 120 TFs primarily involved in regulating stress responses, ethylene response factors (ERFs), and WRKY TFs. Approximately 200 genes were associated with plant defense and response to biotic stimuli.",
+      "figures": []
+    },
+    {
+      "heading": "Microgravity Versus Space Environment",
+      "summary": "A striking aspect was the downregulation of stress response genes in PS and PRR, contrasting with reports of upregulation in spaceflight experiments compared to ground controls. Analysis showed that many of these stress response genes were upregulated in 1 g compared to ground controls, indicating that the space environment enhances their expression. However, microgravity specifically downregulated this group of genes compared to 1 g, suggesting it masks the induction of stress responses.",
+      "figures": []
+    },
+    {
+      "heading": "Micro RNAs Detected and Target Genes",
+      "summary": "Small RNA sequencing in PRR revealed differentially regulated micro RNAs (miRNAs) in microgravity. miR319c, miR863-5p, and miR398b-3p were upregulated, with many predicted mRNA targets coordinately downregulated, consistent with repression by these miRNAs. A substantial portion of the downregulated miRNA target gene products were localized in the plastid. Correlation analysis of miR319c and miR863-5p and their predicted mRNA targets was conducted.",
+      "figures": []
+    },
+    {
+      "heading": "Influence of Developmental Stage",
+      "summary": "",
+      "figures": []
+    },
+    {
+      "heading": "HY5 Target Genes",
+      "summary": "",
+      "figures": []
+    }
+  ],
+  "conclusion": "These experiments revealed conserved transcriptional responses to microgravity in plants, highlighting the importance of onboard 1 g controls. Upregulated genes were primarily involved in leaf and shoot development, while downregulated genes were associated with stress responses. This study provides insights into how plants adapt to the unique challenges of the space environment and underscores the importance of multi-omic approaches and replicated spaceflight experiments for future research.",
+  "keywords": [
+    "microgravity",
+    "transcriptional profiling",
+    "arabidopsis",
+    "spaceflight",
+    "gene expression",
+    "auxin",
+    "stress response",
+    "transcription factors",
+    "mirna",
+    "plant development"
+  ],
+  "topics": [
+    "plant biology",
+    "space biology",
+    "transcriptomics"
+  ],
+  "_meta": {
+    "paper_id": "sha256:449aea439b6490b6423141aa6c19b1d8dc5d9a5cc23da6870a2a7e1bba3665d0",
+    "paper_title": "Conserved plant transcriptional responses to microgravity from two consecutive spaceflight experiments",
+    "generated_at": "2025-10-05T10:36:16Z",
+    "word_count": 500,
+    "figures": [
+      "fig_1",
+      "fig_2",
+      "fig_3",
+      "fig_4"
+    ],
+    "equations": [],
+    "keywords": [
+      "microgravity",
+      "transcriptional profiling",
+      "arabidopsis",
+      "spaceflight",
+      "gene expression",
+      "auxin",
+      "stress response",
+      "transcription factors",
+      "mirna",
+      "plant development"
+    ],
+    "topics": [
+      "plant biology",
+      "space biology",
+      "transcriptomics"
+    ],
+    "missing_figures": [],
+    "missing_equations": [],
+    "equation_metrics": {
+      "original_count": 0,
+      "final_count": 0,
+      "discarded_count": 0,
+      "coverage_ratio": 0.0,
+      "dedupe_rate": 0.0,
+      "types_distribution": {},
+      "equations_validated": true
+    },
+    "discarded_equations": [],
+    "model": "gemini-2.0-flash",
+    "version": "summary-latex-enhanced-v1",
+    "token_usage": {
+      "prompt_tokens": 10606,
+      "completion_tokens": 1189,
+      "total_tokens": 11795,
+      "pricing_per_mtokens": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "input_usd": 0.001061,
+      "output_usd": 0.000476,
+      "total_usd": 0.001536
+    },
+    "cost": {
+      "input_usd": 0.001061,
+      "output_usd": 0.000476,
+      "total_usd": 0.001536
+    },
+    "figure_selection": {
+      "max": 4,
+      "kept": [],
+      "discarded": [
+        {
+          "id": "fig_6",
+          "score": -9999,
+          "caption_wc": 2
+        },
+        {
+          "id": "fig_7",
+          "score": -9999,
+          "caption_wc": 45
+        },
+        {
+          "id": "fig_8",
+          "score": -9999,
+          "caption_wc": 85
+        }
+      ],
+      "corrupted_detected": [
+        "fig_1",
+        "fig_2",
+        "fig_4",
+        "fig_5",
+        "fig_6",
+        "fig_7",
+        "fig_8"
+      ],
+      "original_total": 7,
+      "final_total": 0,
+      "non_corrupted_kept_total": 0,
+      "fallback_used": true,
+      "ultimate_forced": [
+        "fig_1",
+        "fig_2",
+        "fig_3",
+        "fig_4"
+      ]
+    }
+  }
+}
