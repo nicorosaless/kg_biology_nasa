@@ -1,8 +1,12 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  /* Allow full width layout; individual components constrain readability */
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left; /* Avoid forcing center alignment globally */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .logo {

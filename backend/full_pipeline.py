@@ -170,7 +170,8 @@ def main():
     ap.add_argument('--pdf-dir', help='Carpeta con PDFs (usa --limit para recorte)')
     ap.add_argument('--limit', type=int, default=5, help='Máx PDFs a procesar de la carpeta')
     ap.add_argument('--paper-id', help='Forzar paper_id (solo si --pdf único)')
-    ap.add_argument('--base-dir', default='processed_grobid_pdfs')
+    # Default output path moved under backend/ as requerido
+    ap.add_argument('--base-dir', default='backend/processed_grobid_pdfs')
     ap.add_argument('--model', default='gemini-2.0-flash')
     ap.add_argument('--overwrite', action='store_true', help='Regenerar summary si ya existe')
     ap.add_argument('--force-kg', action='store_true', help='Recalcular fases KG aunque exista phase5')

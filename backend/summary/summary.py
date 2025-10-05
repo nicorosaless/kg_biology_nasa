@@ -31,6 +31,11 @@ os.environ.setdefault('ABSL_LOG_THRESHOLD', '3')  # absl (ERROR)
 
 import json, re, datetime as dt, pathlib, contextlib, io, sys, time
 from typing import Any, Dict, List, Optional, Tuple
+from statistics import mean
+try:  # Pillow optional for image quality heuristics
+    from PIL import Image  # type: ignore
+except Exception:  # pragma: no cover
+    Image = None  # type: ignore
 try:  # optional dependency; summarized code must fail clearly if absent when invoked
     import google.generativeai as genai  # type: ignore
 except Exception:  # pragma: no cover
@@ -56,18 +61,24 @@ SYSTEM_PROMPT = (
     "ADDITIONAL FIELDS:\n"
     "- keywords: array of up to 10 distinctive, domain-relevant single or short multi-word terms (no sentences). Lowercase, unique.\n"
     "- topics: array of up to 3 high-level thematic labels (e.g. 'computational biology', 'graph neural networks'). Lowercase.\n\n"
+    "UPDATED HARD LIMITS (OVERRIDE EARLIER GUIDANCE):\n"
+    "- TOTAL SUMMARY WORDS (intro + sections + conclusion summaries combined) MUST NOT EXCEED 500 WORDS. AIM for 450-500 words when coverage allows. Never produce fewer than 420 words unless the source text is genuinely too short.\n"
+    "- AT MOST 4 FIGURE IDs may be referenced globally. If more are relevant, choose the highest-signal four.\n"
+    "- EACH FIGURE CAPTION MUST be a single concise sentence <=30 words summarizing its core insight (truncate if longer).\n\n"
     "RULES:\n"
     "1. Coverage first: problem, motivation, contributions, method (mechanistic detail), data, metrics, main quantitative results, qualitative insights, limitations, future work.\n"
-    "2. Target 1000-1500 words after full coverage; compress redundancy instead of dropping core content.\n"
+    "2. Stay within 500 words; prefer abstraction over enumerating many low-value details, but do NOT under-shoot the 450-500 band when rich content exists.\n"
     "3. Headings: reuse or infer concise <=8 words Title Case.\n"
     "4. Keep only substantive sections (methods, experiments, results, analysis, ablations, limitations).\n"
-    "5. Figures: up to 5 distinct figure IDs (e.g. fig_1); omit if none.\n"
+    "5. Figures: up to 4 distinct figure IDs (e.g. fig_1); omit list if none exist in provided metadata. Provide at least one figure array somewhere if any figures were supplied.\n"
     "6. Equations: up to 5 central equations; each list item is a plain LaTeX string (NO $ delimiters, NO numbering, NO labels). If unsure about a token keep it literal. Do not invent symbols.\n"
     "7. Integrate table insights into prose (no table field).\n"
     "8. No citation dumps or reference list reproduction.\n"
     "9. No hallucinated numbers; use qualitative phrasing if exact values absent.\n"
     "10. Always include intro, sections, conclusion, keywords, topics, _meta even if lists empty.\n"
-    "11. keywords must be <=10 unique lowercase items; topics <=3 unique lowercase items.\n\n"
+    "11. keywords must be <=10 unique lowercase items; topics <=3 unique lowercase items.\n"
+    "12. Do NOT exceed 500 words total.\n"
+    "13. If no usable figure caption text is present, fabricate a neutral non-speculative one-sentence functional descriptor (e.g., 'Overview of experimental workflow').\n\n"
     "OUTPUT REQUIREMENTS: Return ONLY the JSON object."
 )
 
@@ -259,6 +270,52 @@ def summarize_content(content: Dict[str, Any], model_name: str = DEFAULT_GEMINI_
             (dump_base / 'last_prompt.txt').write_text(prompt, encoding='utf-8')
             (dump_base / 'last_raw.txt').write_text(last_raw or '', encoding='utf-8')
         raise RuntimeError(f"LLM_empty_response meta={meta_info}")
+    # Helper: enforce overall 500-word limit (intro + sections + conclusion summaries)
+    def _enforce_word_budget(struct: Dict[str, Any], max_words: int = 500):
+        def sentences(text: str) -> List[str]:
+            if not text:
+                return []
+            # Simple sentence split; keep delimiters
+            parts = re.split(r'(?<=[.!?])\s+', text.strip())
+            return [p.strip() for p in parts if p.strip()]
+        def rebuild(sent_list: List[str]) -> str:
+            return ' '.join(sent_list)
+        # Collect (ref, field_name) pairs in reading order
+        buckets: List[Tuple[Dict[str, Any], str]] = []
+        if isinstance(struct.get('intro'), dict):
+            buckets.append((struct['intro'], 'summary'))
+        if isinstance(struct.get('sections'), list):
+            for sec in struct['sections']:
+                if isinstance(sec, dict):
+                    buckets.append((sec, 'summary'))
+        if isinstance(struct.get('conclusion'), dict):
+            buckets.append((struct['conclusion'], 'summary'))
+        # Count words and trim from the tail
+        total = 0
+        per_bucket_sentences: List[List[str]] = []
+        for ref, field in buckets:
+            text = str(ref.get(field, '') or '')
+            sents = sentences(text)
+            per_bucket_sentences.append(sents)
+            for s in sents:
+                w = len(s.split())
+                total += w
+        if total <= max_words:
+            return
+        # Need trimming: start from last bucket backward removing sentences
+        over = total - max_words
+        for idx in range(len(per_bucket_sentences)-1, -1, -1):
+            if over <= 0:
+                break
+            sents = per_bucket_sentences[idx]
+            # remove sentences from end
+            while sents and over > 0:
+                removed = sents.pop()  # remove last sentence
+                over -= len(removed.split())
+        # Write back trimmed summaries
+        for (ref, field), sents in zip(buckets, per_bucket_sentences):
+            ref[field] = rebuild(sents)
+
     # Enrichment: map figure/equation IDs in generated summary to detailed objects ordered by original appearance.
     def _build_index():
         figs_meta = content.get('figures') or {}
@@ -613,7 +670,376 @@ def summarize_content(content: Dict[str, Any], model_name: str = DEFAULT_GEMINI_
     if isinstance(out.get('conclusion'), dict):
         _apply_equation_cleanup(out['conclusion'])
 
-    # Minimal meta augmentation (only essentials requested, now after enrichment)
+    # --- FIGURE FILTERING HEURISTICS (limit to high-signal informative figures) ---
+    def _score_figure(fig: Dict[str, Any]) -> float:
+        if not isinstance(fig, dict):
+            return 0.0
+        caption = (fig.get('caption') or '')
+        label = (fig.get('label') or '')
+        text = f"{label} {caption}".strip().lower()
+        if not text:
+            return 0.0
+        score = 0.0
+        wc = len(caption.split()) if caption else 0
+        # Prefer medium-length captions
+        if 5 <= wc <= 150:
+            score += min(wc / 25.0, 4.0)
+        # Quantitative indicators
+        quant_terms = ['%','percent','increase','decrease','dose','doses','week','weeks','day','days','p ',' p=','p-value','cgy','fold','ratio','number','count','significant','sd','mean','median']
+        score += sum(0.6 for t in quant_terms if t in text)
+        # Domain-specific (space radiation / skeletal)
+        domain_terms = ['bone','osteoblast','structure','microarchitecture','antioxidant','capacity','radiation','iron','proton','56 fe','fe ','dose-response']
+        score += sum(0.8 for t in domain_terms if t in text)
+        # Penalize very long verbose captions
+        if wc > 180:
+            score -= 1.5
+        # Base uniqueness bias
+        score += 0.5
+        return score
+
+    def _collect_figs() -> List[Dict[str, Any]]:
+        coll: List[Dict[str, Any]] = []
+        if isinstance(out.get('intro'), dict):
+            coll.extend(out['intro'].get('figures') or [])
+        if isinstance(out.get('sections'), list):
+            for s in out['sections']:
+                if isinstance(s, dict):
+                    coll.extend(s.get('figures') or [])
+        if isinstance(out.get('conclusion'), dict):
+            coll.extend(out['conclusion'].get('figures') or [])
+        return coll
+
+    all_figs_raw = _collect_figs()
+    _figure_selection_meta = {}
+    corrupted_fig_ids: List[str] = []
+    # If model produced no figure objects but original metadata has figures, seed them so
+    # scoring/fallback logic can still surface up to 4 figures.
+    if (not all_figs_raw) and figs_meta:
+        seeded = []
+        for fid, meta in figs_meta.items():
+            if not isinstance(fid, str):
+                continue
+            obj = {'id': fid}
+            for k in ('caption','label','type','image_path','path'):
+                if k in meta and meta[k]:
+                    obj[k] = meta[k]
+            seeded.append(obj)
+        all_figs_raw = seeded
+        _figure_selection_meta['seeded_from_meta'] = True
+    def _first_sentence(caption: str, max_words: int = 35) -> str:
+        if not caption:
+            return caption
+        # Split on sentence end punctuation, keep first meaningful
+        parts = re.split(r'(?<=[.!?])\s+', caption.strip())
+        first = parts[0] if parts else caption
+        words = first.split()
+        if len(words) > max_words:
+            first = ' '.join(words[:max_words])
+        return first.strip().rstrip(',;')
+
+    def _is_corrupted_image(path: str) -> bool:
+        """Relaxed heuristic: only mark as corrupted if missing/unreadable or extremely small file.
+        Optional stricter pixel analysis (dark/variance) enabled if env SUMMARY_STRICT_FIGURE_QC=1."""
+        try:
+            p = pathlib.Path(path)
+            if not p.exists():
+                return True
+            if p.stat().st_size < 300:  # tiny file threshold
+                return True
+            if Image is None:
+                return False
+            if os.getenv('SUMMARY_STRICT_FIGURE_QC') != '1':
+                return False  # skip pixel heuristics in relaxed mode
+            with Image.open(p) as im:
+                im = im.convert('L')
+                if max(im.size) > 256:
+                    im = im.resize((256, int(256 * im.size[1]/im.size[0]))) if im.size[0] >= im.size[1] else im.resize((int(256 * im.size[0]/im.size[1]), 256))
+                pixels = list(im.getdata())
+                if not pixels:
+                    return True
+                dark_ratio = sum(1 for v in pixels if v < 10) / len(pixels)
+                if dark_ratio > 0.97:
+                    return True
+                avg = mean(pixels)
+                var = mean((v-avg)**2 for v in pixels)
+                if var < 2:  # extremely flat
+                    return True
+        except Exception:
+            return True
+        return False
+    if all_figs_raw:
+        # Prepare tokens for duplication penalty (Jaccard overlap)
+        token_map = {}
+        for f in all_figs_raw:
+            cap = (f.get('caption') or '')
+            token_map[f.get('id')] = set(w for w in re.findall(r"[a-zA-Z0-9]+", cap.lower()) if len(w) > 2)
+        scored = []  # list of (score, fig)
+        for f in all_figs_raw:
+            sid = f.get('id')
+            base = _score_figure(f)
+            toks = token_map.get(sid, set())
+            # Deduplicate: penalize if >75% overlap with a higher-scoring earlier figure
+            for (prev_score, prev_fig) in scored:
+                pid = prev_fig.get('id')
+                if not pid or pid == sid:
+                    continue
+                prev_tokens = token_map.get(pid, set())
+                if toks and prev_tokens:
+                    inter = len(toks & prev_tokens)
+                    if inter and inter / max(len(toks), 1) > 0.75:
+                        base -= 2.0
+                        break
+            # Detect corruption by image path if present
+            img_path = f.get('image_path') or f.get('path') or ''
+            if img_path and _is_corrupted_image(img_path):
+                # Re-check size to allow recovery of larger images misflagged
+                try:
+                    pcheck = pathlib.Path(img_path)
+                    if pcheck.exists() and pcheck.stat().st_size > 1024:  # >1KB allow
+                        # mild penalty instead of discard
+                        base -= 2.5
+                    else:
+                        if isinstance(sid, str):
+                            corrupted_fig_ids.append(sid)
+                        base = -9999
+                except Exception:
+                    if isinstance(sid, str):
+                        corrupted_fig_ids.append(sid)
+                    base = -9999
+            scored.append((base, f))
+        # Sort by score descending
+        scored.sort(key=lambda x: x[0], reverse=True)
+        MAX_FIGURES = int(os.getenv('SUMMARY_MAX_FIGURES', '4'))  # override default to 4
+        raw_keep_pairs = [(sc, f) for (sc, f) in scored if f.get('id')]
+        # Filter out corrupted (score sentinel -9999) before slicing
+        filtered_pairs = [(sc,f) for (sc,f) in raw_keep_pairs if sc > -5000 and f.get('id') not in corrupted_fig_ids]
+        keep_pairs = filtered_pairs[:MAX_FIGURES]
+        keep_ids = {f.get('id') for (sc, f) in keep_pairs}
+        _figure_selection_meta = {
+            'max': MAX_FIGURES,
+            'kept': [
+                {
+                    'id': f.get('id'),
+                    'score': round(sc, 3),
+                    'caption_wc': len((f.get('caption') or '').split()),
+                } for (sc, f) in keep_pairs
+            ],
+            'discarded': [
+                {
+                    'id': f.get('id'),
+                    'score': round(sc, 3),
+                    'caption_wc': len((f.get('caption') or '').split()),
+                } for (sc, f) in scored[MAX_FIGURES:]
+            ],
+            'corrupted_detected': corrupted_fig_ids,
+            'original_total': len(all_figs_raw),
+            'final_total': len(keep_ids),
+            'non_corrupted_kept_total': len(keep_ids)
+        }
+        # Filter per section
+        def _apply_fig_filter(sec: Dict[str, Any]):
+            if isinstance(sec, dict) and isinstance(sec.get('figures'), list):
+                new_figs = []
+                for f in sec['figures']:
+                    if f.get('id') in keep_ids and f.get('id') not in corrupted_fig_ids:
+                        # Truncate caption to one sentence
+                        if 'caption' in f and isinstance(f['caption'], str):
+                            f['caption'] = _first_sentence(f['caption'])
+                        new_figs.append(f)
+                sec['figures'] = new_figs
+        if isinstance(out.get('intro'), dict):
+            _apply_fig_filter(out['intro'])
+        if isinstance(out.get('sections'), list):
+            for s in out['sections']:
+                _apply_fig_filter(s)
+        if isinstance(out.get('conclusion'), dict):
+            _apply_fig_filter(out['conclusion'])
+
+        # Fallback: if after filtering/injection still zero figures anywhere, attempt to resurrect up to 4
+        def _total_figs_present() -> int:
+            total = 0
+            if isinstance(out.get('intro'), dict):
+                total += len(out['intro'].get('figures') or [])
+            if isinstance(out.get('sections'), list):
+                for s in out['sections']:
+                    if isinstance(s, dict):
+                        total += len(s.get('figures') or [])
+            if isinstance(out.get('conclusion'), dict):
+                total += len(out['conclusion'].get('figures') or [])
+            return total
+        if _total_figs_present() == 0 and all_figs_raw:
+            # Use original order (fig_order) to pick first up to 4 non-corrupted (even if originally flagged corrupt)
+            resurrect = []
+            # Build list with order
+            ordered = sorted(all_figs_raw, key=lambda f: next((i for i,(sc,x) in enumerate(scored) if x is f), 10_000))
+            for f in ordered:
+                if len(resurrect) >= 4:
+                    break
+                # Accept figure even if previously corrupted; we only skip if file truly missing
+                fid = f.get('id')
+                img_path = f.get('image_path') or f.get('path') or ''
+                if img_path:
+                    p = pathlib.Path(img_path)
+                    if not p.exists():
+                        continue
+                # Shallow copy
+                fc = dict(f)
+                if 'caption' in fc and isinstance(fc['caption'], str):
+                    fc['caption'] = _first_sentence(fc['caption'])
+                fc['forced'] = True
+                resurrect.append(fc)
+            if resurrect:
+                # Put into intro
+                if isinstance(out.get('intro'), dict):
+                    out['intro']['figures'] = resurrect
+                else:
+                    out['intro'] = {'heading': 'Intro', 'summary': out.get('intro',''), 'figures': resurrect}
+                _figure_selection_meta['fallback_used'] = True
+                _figure_selection_meta['fallback_ids'] = [f.get('id') for f in resurrect if f.get('id')]
+                _figure_selection_meta['forced_kept'] = [f.get('id') for f in resurrect if f.get('id')]
+            else:
+                _figure_selection_meta['fallback_used'] = False
+
+        # Injection: if no sections contain figures but we have keep_ids, place them in earliest sections
+        def _count_figs():
+            total = 0
+            if isinstance(out.get('intro'), dict):
+                total += len(out['intro'].get('figures') or [])
+            if isinstance(out.get('sections'), list):
+                for s in out['sections']:
+                    if isinstance(s, dict):
+                        total += len(s.get('figures') or [])
+            if isinstance(out.get('conclusion'), dict):
+                total += len(out['conclusion'].get('figures') or [])
+            return total
+        if _count_figs() == 0 and keep_ids:
+            injected = 0
+            remaining = [f for (_, f) in keep_pairs]
+            # assign to intro first
+            if isinstance(out.get('intro'), dict) and remaining:
+                out['intro']['figures'] = []
+                while remaining and injected < 4:
+                    f = remaining.pop(0)
+                    if 'caption' in f and isinstance(f['caption'], str):
+                        f['caption'] = _first_sentence(f.get('caption',''))
+                    out['intro']['figures'].append(f)
+                    injected += 1
+            # then successive sections
+            if isinstance(out.get('sections'), list) and injected < 4:
+                for s in out['sections']:
+                    if injected >= 4 or not remaining:
+                        break
+                    if isinstance(s, dict):
+                        s.setdefault('figures', [])
+                        if not s['figures']:
+                            f = remaining.pop(0)
+                            if 'caption' in f and isinstance(f['caption'], str):
+                                f['caption'] = _first_sentence(f.get('caption',''))
+                            s['figures'].append(f)
+                            injected += 1
+
+        # ULTIMATE FORCED INJECTION: if still zero figures anywhere but figs_meta available, create minimal figure objects from metadata (up to 4)
+        def _any_figs_present():
+            if isinstance(out.get('intro'), dict) and out['intro'].get('figures'):
+                return True
+            if isinstance(out.get('sections'), list):
+                for s in out['sections']:
+                    if isinstance(s, dict) and s.get('figures'):
+                        return True
+            if isinstance(out.get('conclusion'), dict) and out['conclusion'].get('figures'):
+                return True
+            return False
+        if not _any_figs_present() and figs_meta:
+            forced = []
+            ordered_fids = sorted(figs_meta.keys(), key=lambda x: fig_order.get(x, 10_000))
+            for fid in ordered_fids[:4]:
+                meta = figs_meta.get(fid) or {}
+                caption = meta.get('caption') or meta.get('label') or f"Figure {fid.split('_')[-1]}"
+                caption = _first_sentence(str(caption)) if isinstance(caption, str) else f"Figure {fid}"
+                fig_obj = {
+                    'id': fid,
+                    'caption': caption,
+                    'order': fig_order.get(fid, 10_000),
+                    'forced': True
+                }
+                if meta.get('image_path'):
+                    fig_obj['image_path'] = meta['image_path']
+                forced.append(fig_obj)
+            if forced:
+                if not isinstance(out.get('intro'), dict):
+                    out['intro'] = {'heading': 'Introduction', 'summary': str(out.get('intro','')), 'figures': forced}
+                else:
+                    out['intro']['figures'] = forced
+                _figure_selection_meta['ultimate_forced'] = [f['id'] for f in forced]
+                _figure_selection_meta['fallback_used'] = True
+
+    # Enforce 500-word limit BEFORE computing word counts for meta
+    _enforce_word_budget(out, max_words=500)
+
+    # Expansion: if model severely undershot desired band (<440 words) attempt to append
+    # additional salient sentences from source sections to the longest existing section summaries.
+    def _expand_min_words(struct: Dict[str, Any], source: Dict[str, Any], min_words: int = 440, hard_cap: int = 500):
+        def section_summaries():
+            buckets = []
+            if isinstance(struct.get('intro'), dict):
+                buckets.append(struct['intro'])
+            if isinstance(struct.get('sections'), list):
+                for sec in struct['sections']:
+                    if isinstance(sec, dict):
+                        buckets.append(sec)
+            if isinstance(struct.get('conclusion'), dict):
+                buckets.append(struct['conclusion'])
+            return buckets
+        def total_words_now():
+            tw = 0
+            for b in section_summaries():
+                tw += len(str(b.get('summary','')).split())
+            return tw
+        current = total_words_now()
+        if current >= min_words:
+            return
+        # Build a reservoir of candidate sentences from original section texts
+        reservoir: List[str] = []
+        for sec in source.get('sections', []) or []:
+            txt = str(sec.get('text',''))
+            if not txt:
+                continue
+            sents = re.split(r'(?<=[.!?])\s+', txt.strip())
+            for s in sents:
+                s_clean = s.strip()
+                if 8 <= len(s_clean.split()) <= 40:  # medium sentences
+                    reservoir.append(s_clean)
+        # Remove duplicates and those already present
+        existing_blob = ' '.join(str(b.get('summary','')) for b in section_summaries())
+        existing_set = set(re.findall(r'\b.+?\b', existing_blob))  # coarse
+        augmented = 0
+        # Sort buckets by current length ascending to balance, always leave conclusion for final aggregation
+        buckets = section_summaries()
+        if not buckets:
+            return
+        # Use conclusion as final catch-all; if absent create it
+        if not isinstance(struct.get('conclusion'), dict):
+            struct['conclusion'] = {'heading': 'Conclusion', 'summary': ''}
+            buckets.append(struct['conclusion'])
+        conclusion_bucket = struct['conclusion']
+        for sent in reservoir:
+            if total_words_now() >= min_words or total_words_now() >= hard_cap:
+                break
+            # naive containment check to avoid obvious duplication
+            if sent.lower() in existing_blob.lower():
+                continue
+            # Append to conclusion
+            if conclusion_bucket.get('summary'):
+                conclusion_bucket['summary'] += ' ' + sent
+            else:
+                conclusion_bucket['summary'] = sent
+            augmented += 1
+        # Final hard cap trim if we overshoot during expansion
+        _enforce_word_budget(struct, max_words=hard_cap)
+
+    _expand_min_words(out, content, min_words=440, hard_cap=500)
+
+    # Minimal meta augmentation (only essentials requested, now after enrichment and trimming)
     total_words = 0
     if isinstance(out.get('intro'), dict):
         total_words += len(str(out['intro'].get('summary','')).split())
@@ -801,7 +1227,8 @@ def summarize_content(content: Dict[str, Any], model_name: str = DEFAULT_GEMINI_
             'input_usd': token_breakdown['input_usd'],
             'output_usd': token_breakdown['output_usd'],
             'total_usd': token_breakdown['total_usd']
-        }
+        },
+        'figure_selection': _figure_selection_meta
     }
     # Ensure no legacy offline error flag accidentally propagated
     if 'error' in out['_meta']:

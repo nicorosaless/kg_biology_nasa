@@ -42,7 +42,6 @@ import argparse, json, os, shutil, pathlib, sys
 from typing import Any, Dict
 
 # Reutilizamos funciones de los módulos existentes
-from . import grobid as grobid_mod  # type: ignore
 from . import summary as summary_mod  # type: ignore
 from .extract_images import extract_pdf_images  # type: ignore
 from .crop_figures import crop_missing_figures  # type: ignore
@@ -58,18 +57,26 @@ def _load_json(p: pathlib.Path) -> Dict[str, Any]:
 
 
 def ensure_content_json(pdf_path: pathlib.Path, target_content_path: pathlib.Path, overwrite: bool) -> pathlib.Path:
-    """Asegura que exista <paper_id>.content.json en summary_and_content.
-    Reglas:
-      1. Si existe y no overwrite: reutiliza.
-      2. Si no existe o overwrite: invoca GROBID para generar un *.grobid.content.json temporal
-         y lo transforma / copia como <paper_id>.content.json.
+    """Asegura que exista <paper_id>.content.json.
+    Estrategia lazy:
+      1. Si ya existe y no overwrite -> reutiliza (sin importar GROBID).
+      2. Si no existe o overwrite -> intenta importar grobid dinámicamente.
+         - Si import falla y YA existe un content anterior: reutiliza y avisa por stderr.
+         - Si import falla y NO existe: error.
     """
     if target_content_path.exists() and not overwrite:
         return target_content_path
+    try:
+        from . import grobid as grobid_mod  # type: ignore
+    except Exception as e:
+        # Fallback: si existe y overwrite pedido pero no podemos regenerar, reutilizamos
+        if target_content_path.exists():
+            print(f"[warn] grobid import failed ({e}); reusing existing content", file=sys.stderr)
+            return target_content_path
+        raise RuntimeError(f"grobid_import_failed: {e}")
     res_path = grobid_mod.test_grobid_output(str(pdf_path))
     if not res_path or not isinstance(res_path, pathlib.Path):
         raise RuntimeError("grobid_generation_failed")
-    # Leer y volcar directo (podríamos renombrar, pero preservamos formato estable)
     try:
         data = json.loads(res_path.read_text(encoding='utf-8'))
     except Exception as e:
